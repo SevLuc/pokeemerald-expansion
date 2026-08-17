@@ -1,3 +1,9 @@
+# Never commit copyrighted material or produced patches (legal safety)
+*.sav
+*.bps
+*.ips
+baserom*.gba
+
 *.exe
 *.o
 *.i
