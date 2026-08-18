@@ -430,9 +430,9 @@ CeruleanCity_Text_MakeRoomForThisCantRun::
 	.string "I can't run until I give it to you!$"
 
 CeruleanCity_Text_TrainerLifeIsToughIsntIt::
-	.string "You're a TRAINER, too?\p"
-	.string "Collecting, battling…\n"
-	.string "It's a tough life, isn't it?$"
+	.string "MISTY runs that gym alone.\n"
+	.string "Has for years.\p"
+	.string "Say what you want about her.$"
 
 CeruleanCity_Text_YouCanCutDownSmallTrees::
 	.string "Did you know that you can CUT down\n"
@@ -451,8 +451,8 @@ CeruleanCity_Text_IfSlowbroWasntThereCouldCutTree::
 	.string "though.$"
 
 CeruleanCity_Text_PokemonEncyclopediaAmusing::
-	.string "You're making an encyclopedia on\n"
-	.string "POKéMON? That sounds amusing.$"
+	.string "That PSYDUCK answers to no one.\n"
+	.string "…Not even her.$"
 
 CeruleanCity_Text_PeopleHereWereRobbed::
 	.string "The people here were robbed.\p"

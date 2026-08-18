@@ -138,8 +138,8 @@ Route24_Text_ShaneDefeat::
 	.string "I thought not!$"
 
 Route24_Text_ShanePostBattle::
-	.string "I hid because the people on the\n"
-	.string "bridge frightened me.$"
+	.string "Seen her wait up half the night\n"
+	.string "for that duck. Every time.$"
 
 Route24_Text_EthanIntro::
 	.string "Okay! I'm No. 5!\n"
@@ -150,7 +150,8 @@ Route24_Text_EthanDefeat::
 	.string "Too much!$"
 
 Route24_Text_EthanPostBattle::
-	.string "I did my best. I have no regrets!$"
+	.string "Watched that PSYDUCK stare at a\n"
+	.string "wall for an hour. Just… stared.$"
 
 Route24_Text_ReliIntro::
 	.string "I'm No. 4!\n"
@@ -160,7 +161,8 @@ Route24_Text_ReliDefeat::
 	.string "I lost, too!$"
 
 Route24_Text_ReliPostBattle::
-	.string "I did my best, so I've no regrets!$"
+	.string "That PSYDUCK's older than her\n"
+	.string "badges.$"
 
 Route24_Text_TimmyIntro::
 	.string "Here's No. 3!\n"
@@ -171,7 +173,8 @@ Route24_Text_TimmyDefeat::
 	.string "Stomped flat!$"
 
 Route24_Text_TimmyPostBattle::
-	.string "I did my best. I have no regrets!$"
+	.string "Careful near the water. Things\n"
+	.string "fall in. Ducks, mostly.$"
 
 Route24_Text_AliIntro::
 	.string "I'm second!\n"
@@ -181,7 +184,8 @@ Route24_Text_AliDefeat::
 	.string "How could I lose?$"
 
 Route24_Text_AliPostBattle::
-	.string "I did my best. I have no regrets!$"
+	.string "Found an EGG by the pool once.\n"
+	.string "She took it before I could blink.$"
 
 Route24_Text_CaleIntro::
 	.string "People call this the NUGGET\n"
@@ -195,4 +199,5 @@ Route24_Text_CaleDefeat::
 	.string "Good stuff!$"
 
 Route24_Text_CalePostBattle::
-	.string "I did my best. I have no regrets!$"
+	.string "Me and the CERULEAN gym have an\n"
+	.string "…understanding.$"

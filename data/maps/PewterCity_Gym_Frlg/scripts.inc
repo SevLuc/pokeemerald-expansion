@@ -1,5 +1,24 @@
 PewterCity_Gym_Frlg_MapScripts::
+	map_script MAP_SCRIPT_ON_FRAME_TABLE, PewterCity_Gym_OnFrame
 	.byte 0
+
+PewterCity_Gym_OnFrame::
+	map_script_2 VAR_TEMP_1, 0, PewterCity_Gym_EventScript_PhonesRinging
+	.2byte 0
+
+PewterCity_Gym_EventScript_PhonesRinging::
+	setvar VAR_TEMP_1, 1
+	goto_if_set FLAG_BADGE01_GET, PewterCity_Gym_EventScript_PhonesRingingEnd
+	lockall
+	playse SE_POKENAV_CALL
+	delay 25
+	playse SE_POKENAV_CALL
+	delay 25
+	playse SE_POKENAV_CALL
+	msgbox PewterCity_Gym_Text_PhonesRinging, MSGBOX_DEFAULT
+	releaseall
+PewterCity_Gym_EventScript_PhonesRingingEnd::
+	end
 
 PewterCity_Gym_EventScript_Brock::
 	famechecker FAMECHECKER_BROCK, FCPICKSTATE_COLORED, UpdatePickStateFromSpecialVar8005
@@ -81,40 +100,42 @@ PewterCity_Gym_EventScript_GymStatuePostVictory::
 	releaseall
 	end
 
+PewterCity_Gym_Text_PhonesRinging::
+	.string "The phones along the walls ring\n"
+	.string "and ring… Nobody answers.$"
+
 PewterCity_Gym_Text_BrockIntro::
-	.string "So, you're here. I'm BROCK.\n"
-	.string "I'm PEWTER's GYM LEADER.\p"
-	.string "My rock-hard willpower is evident\n"
-	.string "even in my POKéMON.\p"
-	.string "My POKéMON are all rock hard, and\n"
-	.string "have true-grit determination.\p"
-	.string "That's right - my POKéMON are all\n"
-	.string "the ROCK type!\p"
-	.string "Fuhaha! You're going to challenge\n"
-	.string "me knowing that you'll lose?\p"
-	.string "That's the TRAINER's honor that\n"
-	.string "compels you to challenge me.\p"
-	.string "Fine, then!\n"
-	.string "Show me your best!{PLAY_BGM}{MUS_RG_ENCOUNTER_GYM_LEADER}$"
+	.string "A challenger! Wonderful.\p"
+	.string "Oh, the phones…? Let's just say\n"
+	.string "I'm a very reachable man.\p"
+	.string "ROCK taught me patience, kid.\n"
+	.string "So did a marriage or two.\p"
+	.string "Word of advice, kid. Always read\n"
+	.string "the whole contract before you say\l"
+	.string "'I do'…\p"
+	.string "RING! RING! RING! RING! RING!\p"
+	.string "…Ignore that. Let's battle.{PLAY_BGM}{MUS_RG_ENCOUNTER_GYM_LEADER}$"
 
 PewterCity_Gym_Text_BrockDefeat::
-	.string "I took you for granted, and so\n"
-	.string "I lost.\p"
-	.string "As proof of your victory, I confer\n"
-	.string "on you this…the official POKéMON\l"
-	.string "LEAGUE BOULDERBADGE.\p"
+	.string "Lost again. Same as my love life.\p"
+	.string "At least you didn't take half\n"
+	.string "the GYM.\p"
+	.string "Here, you earned it.\n"
+	.string "The official LEAGUE BOULDERBADGE.\p"
 	.string "{FONT_NORMAL}{PLAYER} received the BOULDERBADGE\n"
 	.string "from BROCK!{PAUSE_MUSIC}{PLAY_BGM}{MUS_OBTAIN_BADGE}{PAUSE 0xFE}{PAUSE 0x56}{RESUME_MUSIC}\p"
-	.string "{FONT_MALE}Just having the BOULDERBADGE makes\n"
-	.string "your POKéMON more powerful.\p"
-	.string "It also enables the use of the\n"
-	.string "move FLASH outside of battle.\p"
-	.string "Of course, a POKéMON must know the\n"
-	.string "move FLASH to use it.$"
+	.string "{FONT_MALE}It toughens up your POKéMON, and\n"
+	.string "lets them use FLASH out of battle.\p"
+	.string "Unlike a marriage, a BADGE is\n"
+	.string "yours to keep. Cherish it.\p"
+	.string "RING! RING! RING! RING!\p"
+	.string "…Ah, the phone.\n"
+	.string "…I have to take this. Good luck.$"
 
 PewterCity_Gym_Text_TakeThisWithYou::
-	.string "Wait!\n"
-	.string "Take this with you.$"
+	.string "Hold on, kid. A parting gift.\p"
+	.string "Ex-wives get the house.\n"
+	.string "You get the TM.$"
 
 PewterCity_Gym_Text_ReceivedTM39FromBrock::
 	.string "{PLAYER} received TM39\n"
@@ -134,39 +155,35 @@ PewterCity_Gym_Text_ExplainTM39::
 	.string "lowers its SPEED.$"
 
 PewterCity_Gym_Text_BrockPostBattle::
-	.string "There are all kinds of TRAINERS in\n"
-	.string "this huge world of ours.\p"
-	.string "You appear to be very gifted as a\n"
-	.string "POKéMON TRAINER.\p"
-	.string "So let me make a suggestion.\p"
-	.string "Go to the GYM in CERULEAN and test\n"
-	.string "your abilities.$"
+	.string "You again!\p"
+	.string "My lawyer says I can't afford\n"
+	.string "a rematch.$"
 
 PewterCity_Gym_Text_DontHaveRoomForThis::
 	.string "You don't have room for this.$"
 
 PewterCity_Gym_Text_LiamIntro::
-	.string "Stop right there, kid!\p"
-	.string "You're ten thousand light-years \n"
-	.string "from facing BROCK!$"
+	.string "Not so fast, challenger!\p"
+	.string "Hear all these phones? Each one\n"
+	.string "rings different.\p"
+	.string "That's not decoration.\n"
+	.string "That's a filing system.$"
 
 PewterCity_Gym_Text_LiamDefeat::
-	.string "Darn!\p"
-	.string "Light-years isn't time…\n"
-	.string "It measures distance!$"
+	.string "Okay, okay. You win.\p"
+	.string "Six phones out there. Six… let's\n"
+	.string "call 'em 'previous sponsors.'$"
 
 PewterCity_Gym_Text_LiamPostBattle::
-	.string "You're pretty hot.\n"
-	.string "…But not as hot as BROCK!$"
+	.string "Soft heart, that BROCK.\n"
+	.string "Rock-hard everywhere else.$"
 
 PewterCity_Gym_Text_LetMeTakeYouToTheTop::
-	.string "Hiya!\n"
-	.string "Do you want to dream big?\p"
-	.string "Do you dare to dream of becoming\n"
-	.string "the POKéMON champ?\p"
-	.string "I'm no TRAINER, but I can advise\n"
-	.string "you on how to win.\p"
-	.string "Let me take you to the top!$"
+	.string "Hey! Welcome to PEWTER GYM.\p"
+	.string "Don't mind the phones.\n"
+	.string "BROCK says let 'em ring.\p"
+	.string "I'm no TRAINER, but I can give you\n"
+	.string "a tip. Want to hear it?$"
 
 PewterCity_Gym_Text_LetsGetHappening::
 	.string "All right!\n"

@@ -6,38 +6,79 @@
 > Rule: add/update a row in the same PR as any new lore line.
 
 ## How to read a row
-- ID — stable fragment id, e.g. BROCK-03.
-- Subject — who/what the fragment is about.
-- Reveal — what the player learns (one line).
-- Source NPC — who says it (or object/sign).
-- Map — where they are.
-- Gate — progression condition (badge count, flag, story beat).
-- Order — intended discovery order within the subject's arc.
-- Status — idea / drafted / in-game.
-- Flags — release/consistency tags from the style guide.
+- ID - stable fragment id, e.g. BROCK-03.
+- Subject - who/what the fragment is about.
+- Reveal - what the player learns (one line).
+- Source NPC - who says it (or object/sign).
+- Map - where they are.
+- Gate - progression condition (badge count, flag, story beat).
+- Order - intended discovery order within the subject's arc.
+- Status - idea / drafted / in-game.
+- Flags - release/consistency tags from the style guide.
 
-## Brock — "the phones" gag + history
-Concept: Brock's gym is cluttered with phones; NPCs riff on him being "on call."
-Optional, discoverable flavor that also smuggles in his backstory (a busy older
-brother running the gym while minding his siblings). Uses existing vanilla
-phone/PC objects only — no new art.
+## Brock - "the phones" gag + serial-divorcé history
+Concept: Brock's gym is cluttered with ringing phones. Surface gag: he's always
+"on a call" (the "Brock is calling" meme). The hidden layer, revealed COYLY: the
+phones are his ex-wives, and he runs the gym mostly for the challenge fees -
+alimony doesn't pay itself. Engine of the joke = the anime "hopeless romantic"
+Brock: he keeps falling in love, keeps marrying, keeps divorcing, keeps paying.
+Uses existing vanilla phone/PC objects only - no new art.
 
-> Reference check: confirm the exact "Brock is calling" meme you're riffing on
-> before finalizing wording — these rows capture the gag mechanic, not a verified
-> meme canon.
+Reveal is COY throughout (player choice): NPCs never say "divorce" or "ex-wife"
+outright. They say "previous sponsors," "generous every single month," ringtones
+as a "filing system." The player connects the dots. Brock himself plays it
+straight (one wink) so the FIGHT still lands.
+
+> Reference check: the "Brock is calling" bit rides on the meme + the anime
+> womanizer trait. Keep all wording in our own voice - no verbatim anime lines.
 
 | ID | Subject | Reveal | Source NPC | Map | Gate | Order | Status | Flags |
 |---|---|---|---|---|---|---|---|---|
-| BROCK-01 | Brock (gag) | "Why does Brock keep so many phones in here?" | Gym guide | Pewter Gym | none | 1 | idea | — |
-| BROCK-02 | Brock (gag) | Trainer jokes the phones never stop; Brock never picks up mid-battle. | Pewter Gym trainer | Pewter Gym | none | 2 | idea | — |
-| BROCK-03 | Brock (history) | Brock raises his younger siblings — the calls are family checking in. | Pewter City NPC | Pewter City | after 1st badge | 3 | idea | — |
-| BROCK-04 | Brock (history) | He took over the gym young when his father left to train. | Pewter NPC / sign | Pewter City | after 1st badge | 4 | idea | [FLAG: canon-check] |
-| BROCK-05 | Brock (anime nod) | His real dream is breeding/cooking, not gym-leading. | Route 3 trainer | Route 3 | after 1st badge | 5 | idea | [FLAG: canon-check] |
+| BROCK-01 | Brock (path, vague) | Lass: "Big heart, that one. Gives it away a little too easy." | Lass (existing) | Pewter City | none (pre-gym) | 1 | in-game | - |
+| BROCK-02 | Brock (path, vague) | Fat Man (append to his Brock praise): "Mind you, the man's got history. You'll see." | Fat Man (existing) | Pewter City | none (pre-gym) | 2 | in-game | - |
+| BROCK-03 | Brock (path, vague) | "Off to challenge BROCK? Everyone wants a piece of him. His lawyers, mostly." | new NPC near gym | Pewter City | none (pre-gym) | 3 | drafted | - |
+| BROCK-03b | Brock (path, vague) | Woman: "Oh, I knew BROCK. Once. …Briefly." | new NPC (woman) | Pewter City | none (pre-gym) | 3 | drafted | - |
+| BROCK-03c | Brock (path, vague) | Kid: "Mom says BROCK's real generous. Every single month. I don't get it." | new NPC (kid) | Pewter City | none (pre-gym) | 3 | drafted | - |
+| BROCK-04 | Brock (gag) | Gym guide: the phones ring constantly; Brock says just let 'em ring. | Gym guide | Pewter Gym | none | 4 | in-game | - |
+| BROCK-05 | Brock (gag) | Trainer (Liam): each phone has its own ringtone, "that's a filing system." | Pewter Gym trainer | Pewter Gym | none | 5 | in-game | - |
+| BROCK-06 | Brock (reveal, coy) | Trainer (Liam) on defeat: "Six phones, six... 'previous sponsors.'" | Pewter Gym trainer | Pewter Gym | none | 6 | in-game | [FLAG: canon-check] |
+| BROCK-07 | Brock (intro) | Goofy-romantic ramble ("a marriage or two"; contract advice) cut off by ringing phones, then "...Ignore that. Let's battle." | Brock | Pewter Gym | none | 7 | in-game | [FLAG: canon-check] |
+| BROCK-08 | Brock (why leader) | "Ever wonder why he takes on every trainer? Challenge fees. Alimony doesn't pay itself." | Pewter City NPC | Pewter City | after 1st badge | 8 | drafted | [FLAG: canon-check] |
+| BROCK-09 | Brock (throwback) | "Heard he's fielding challengers day and night. Heard he got married again, too." | later-town NPC | TBD | after ~6th badge | 9 | idea | [FLAG: canon-check] |
+| BROCK-10 | Brock (throwback) | "Brock's still at that gym. Still on the phone. Some things are eternal." | later-town NPC | TBD | post-E4 | 10 | idea | - |
 
 Consistency notes:
-- Keep BROCK-03/04 non-contradictory with any vanilla Pewter dialogue you retain.
-- Gag (01–02) is available immediately; history (03–05) unlocks post-badge so it
-  reads as "learning more after you've met him."
+- Path fragments (01-03) are UNGATED and pre-gym, and stay vague so the punchline
+  only clicks once the player reaches the gym and sees the phones (04-07).
+- Reveal never states "divorce/ex-wife" - coy euphemism only (decided w/ user).
+- Why-leader (08) and throwbacks (09-10) unlock post-progression as callbacks.
+- Brock's own battle lines stay archetypal Gym-Leader; comedy lives in the room
+  around him, not in his threats, so the hard-but-fair fight still reads as real.
+- RETIRED earlier draft: "raising younger siblings / father left to train."
+  Replaced by the divorce/alimony arc. The anime hopeless-romantic trait is the
+  only kept thread (it powers the divorces).
+
+## Misty - tomboy battler + Psyduck (her first POKéMON)
+Concept: youngest Sensational Sister who does the real battling (sisters do the
+water shows). PSYDUCK is her first POKéMON: she loves it, it drives her crazy
+(everything she's not). Payoff reveal: she went all-WATER because water types
+CAN'T RUN AWAY like Psyduck does. Cerulean respects her strength, jokes about the
+bug fear, and treats Psyduck as a beloved town jester. GIMMICK: no bug-types in
+the gym (guide blocks at the door). Lore is told in steps by the mandatory gym
+trainers; town NPCs carry ambient respect/jokes. Full lines: drafts/misty.md.
+
+| ID | Subject | Reveal | Source NPC | Map | Gate | Order | Status | Flags |
+|---|---|---|---|---|---|---|---|---|
+| MISTY-01 | Misty (respect) | "She runs that gym alone. Has for years. Say what you want about her." | Youngster (existing) | Cerulean City | none (pre-gym) | 1 | in-game | - |
+| MISTY-02 | Misty (bug, oblique) | Cale the BUG CATCHER: "Me and the CERULEAN gym have an… understanding." | Cale (Route 24) | Nugget Bridge | none | 2 | in-game | - |
+| MISTY-03 | Psyduck (jester) | "That PSYDUCK answers to no one. …Not even her." | Balding Man (existing) | Cerulean City | none (pre-gym) | 3 | in-game | - |
+| MISTY-04 | Psyduck (long bond) | Reli: "That PSYDUCK's older than her badges." | Reli (Route 24) | Nugget Bridge | none | 4 | in-game | - |
+| MISTY-05 | Misty (why water, oblique payoff) | Nob: "She only keeps what can't leave the water. …Never says why." | Nob (Route 25) | Route 25 | none | 5 | in-game | - |
+| MISTY-06 | Misty (heart) | "Everyone thinks that PSYDUCK is the joke. …I think it's the one thing she'd never replace." | Cerulean City NPC | Cerulean City | after 2nd badge | 6 | drafted | - |
+| MISTY-07 | Misty (gimmick) | Bug-ban gate: gym guide blocks bug-types (party check). "MISTY stood on a chair for an hour." | Gym guide | Cerulean Gym | none | 7 | drafted (code TODO) | - |
+| MISTY-CHORUS | whole-area gag | Every road trainer drops one oblique Misty/PSYDUCK line (Timmy, Ali=egg, Ethan, Shane on Rt24; Dan, Flint, Kelsey, Haley, Franklin=egg on Rt25) + Diana/Luis verify. Full list: drafts/misty.md. | Route 24/25 + gym trainers | Cerulean area | none | - | in-game | - |
+| MISTY-EGG | deniable Togepi seed | Ali (Rt24): "Found an EGG by the pool once. She took it before I could blink." / Franklin (Rt25): "She's been guarding something down by the shore." | Ali, Franklin | Nugget Bridge / Route 25 | none | - | in-game | [FLAG: canon-check] |
+| MISTY-BILL | PAYOFF (the one non-coy telling) | Freed Bill explains the whole Misty/PSYDUCK story in depth: her PSYDUCK wandered into his Cell Separation System, mashed buttons, fused him with a CLEFAIRY, walked out. Psyduck = her first mon + opposite; why she trains only WATER (a Psyduck wanders off, a GOLDEEN stays in the pool, "a zen state of mind"); never lets it go. Re-talk button: "…don't ask me why the machine was set to a CLEFAIRY." | Bill (Sea Cottage) | Route 25 Sea Cottage | after freeing Bill | 8 | in-game | - |
 
 ## Template: new gym leader
 Copy per leader. Keep fragments optional and gated so a rushing player still
@@ -45,11 +86,11 @@ finishes and a curious one gets the hidden layer.
 
 | ID | Subject | Reveal | Source NPC | Map | Gate | Order | Status | Flags |
 |---|---|---|---|---|---|---|---|---|
-| XXXX-01 | <leader> | <hook the player notices first> | | | none | 1 | idea | — |
-| XXXX-02 | <leader> | <deeper detail> | | | after Nth badge | 2 | idea | — |
-| XXXX-03 | <leader> | <the payoff / reframe> | | | late-game flag | 3 | idea | — |
+| XXXX-01 | <leader> | <hook the player notices first> | | | none | 1 | idea | - |
+| XXXX-02 | <leader> | <deeper detail> | | | after Nth badge | 2 | idea | - |
+| XXXX-03 | <leader> | <the payoff / reframe> | | | late-game flag | 3 | idea | - |
 
 ## Optional: in-world aggregator (decide later)
 FRLG has no quest log, so players piece histories together from memory. If that's
-too easy to miss, add a light aggregator — a gossip or librarian per town who
+too easy to miss, add a light aggregator - a gossip or librarian per town who
 recaps what you've uncovered. Not committing yet; noted so it isn't forgotten.

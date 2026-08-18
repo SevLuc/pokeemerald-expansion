@@ -425,7 +425,7 @@ PewterCity_Movement_GuideWalkToGymRight::
 	step_end
 
 PewterCity_EventScript_Lass::
-	msgbox PewterCity_Text_ClefairyCameFromMoon, MSGBOX_NPC
+	msgbox PewterCity_Text_LassBrockBigHeart, MSGBOX_NPC
 	end
 
 PewterCity_EventScript_MuseumGuide::
@@ -864,11 +864,10 @@ Text_DreamEaterTaught::
 	.string "…ZZZ…\n"
 	.string "I…can't eat…anymore…$"
 
-PewterCity_Text_ClefairyCameFromMoon::
-	.string "CLEFAIRY came from the moon.\n"
-	.string "That's what the rumor is.\p"
-	.string "They appeared after MOON STONES\n"
-	.string "fell on MT. MOON.$"
+PewterCity_Text_LassBrockBigHeart::
+	.string "BROCK? Everybody loves BROCK.\p"
+	.string "Big heart, that one.\n"
+	.string "…Gives it away a little too easy.$"
 
 PewterCity_Text_BrockOnlySeriousTrainerHere::
 	.string "There aren't many serious POKéMON\n"
@@ -876,7 +875,9 @@ PewterCity_Text_BrockOnlySeriousTrainerHere::
 	.string "They're all like BUG CATCHERS,\n"
 	.string "you know, just hobbyists.\p"
 	.string "But PEWTER GYM's BROCK isn't like\n"
-	.string "that, not one bit.$"
+	.string "that, not one bit.\p"
+	.string "…Mind you, the man's got history.\n"
+	.string "You'll see soon enough.$"
 
 PewterCity_Text_DidYouCheckOutMuseum::
 	.string "Did you check out the MUSEUM?$"

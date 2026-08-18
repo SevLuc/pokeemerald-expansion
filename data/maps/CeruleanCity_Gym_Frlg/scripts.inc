@@ -70,13 +70,17 @@ CeruleanCity_Gym_EventScript_GymStatuePostVictory::
 	end
 
 CeruleanCity_Gym_Text_MistyIntro::
-	.string "Hi, you're a new face!\p"
-	.string "Only those TRAINERS who have a\n"
-	.string "policy about POKéMON can turn pro.\p"
-	.string "What is your approach when you\n"
-	.string "catch and train POKéMON?\p"
-	.string "My policy is an all-out offensive\n"
-	.string "with WATER-type POKéMON!{PLAY_BGM}{MUS_RG_ENCOUNTER_GYM_LEADER}$"
+	.string "So you're my next challenger.\p"
+	.string "I'm MISTY. Youngest of the\n"
+	.string "Sensational Sisters.\p"
+	.string "They do the dance shows.\n"
+	.string "I do the actual battling.\p"
+	.string "My policy? All-out offensive.\n"
+	.string "All WATER, no holding back-\p"
+	.string "…PSYDUCK. I did NOT let you out.\p"
+	.string "Ugh. Whatever. Stay if you want.\n"
+	.string "Just don't get in my way.\p"
+	.string "Let's go!{PLAY_BGM}{MUS_RG_ENCOUNTER_GYM_LEADER}$"
 
 CeruleanCity_Gym_Text_ExplainTM03::
 	.string "TM03 teaches WATER PULSE.\p"
@@ -101,11 +105,12 @@ CeruleanCity_Gym_Text_BetterMakeRoomForThis::
 	.string "You better make room for this!$"
 
 CeruleanCity_Gym_Text_MistyDefeat::
-	.string "Wow!\n"
-	.string "You're too much!\p"
-	.string "All right!\p"
-	.string "You can have the CASCADEBADGE to\n"
-	.string "show you beat me.$"
+	.string "Ugh! Fine. You got me.\p"
+	.string "You're strong. I'll admit that.\n"
+	.string "…Don't let it go to your head.\p"
+	.string "Here. The CASCADEBADGE. Earned.\p"
+	.string "…Even PSYDUCK looks impressed.\n"
+	.string "And PSYDUCK is NEVER impressed.$"
 
 CeruleanCity_Gym_Text_DianaIntro::
 	.string "What? You?\n"
@@ -116,8 +121,8 @@ CeruleanCity_Gym_Text_DianaDefeat::
 	.string "You overwhelmed me!$"
 
 CeruleanCity_Gym_Text_DianaPostBattle::
-	.string "You have to face other TRAINERS\n"
-	.string "to see how good you really are.$"
+	.string "You've heard about the duck.\n"
+	.string "Everyone has. …Don't bring it up.$"
 
 CeruleanCity_Gym_Text_LuisIntro::
 	.string "Splash!\p"
@@ -128,9 +133,8 @@ CeruleanCity_Gym_Text_LuisDefeat::
 	.string "That can't be!$"
 
 CeruleanCity_Gym_Text_LuisPostBattle::
-	.string "MISTY is a TRAINER who's going to\n"
-	.string "keep improving.\p"
-	.string "She won't lose to someone like you!$"
+	.string "You got this far, so you know\n"
+	.string "the rule about bugs by now. …Good.$"
 
 CeruleanCity_Gym_Text_GymGuyAdvice::
 	.string "Yo!\n"

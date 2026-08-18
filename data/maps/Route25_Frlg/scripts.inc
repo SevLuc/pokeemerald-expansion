@@ -30,8 +30,8 @@ Route25_Text_DanDefeat::
 	.string "I'm not mad!$"
 
 Route25_Text_DanPostBattle::
-	.string "On the S.S. ANNE, I saw TRAINERS\n"
-	.string "from around the world.$"
+	.string "Three sisters dance. One of them\n"
+	.string "battles. Guess who runs the place.$"
 
 Route25_Text_FlintIntro::
 	.string "I'm a cool guy.\n"
@@ -41,8 +41,8 @@ Route25_Text_FlintDefeat::
 	.string "Aww, darn…$"
 
 Route25_Text_FlintPostBattle::
-	.string "Oh, well.\n"
-	.string "My girlfriend will cheer me up.$"
+	.string "That PSYDUCK won't stay in its\n"
+	.string "ball. She stopped fighting it.$"
 
 Route25_Text_KelseyIntro::
 	.string "Hi!\n"
@@ -52,8 +52,8 @@ Route25_Text_KelseyDefeat::
 	.string "My conditioning isn't the best…$"
 
 Route25_Text_KelseyPostBattle::
-	.string "I wish my boyfriend was as good\n"
-	.string "as you.$"
+	.string "MISTY doesn't do 'cute.'\n"
+	.string "…Except the one thing. You'll see.$"
 
 Route25_Text_ChadIntro::
 	.string "I had this feeling…\n"
@@ -75,8 +75,8 @@ Route25_Text_HaleyDefeat::
 	.string "I'm not so jealous!$"
 
 Route25_Text_HaleyPostBattle::
-	.string "You came from MT. MOON?\n"
-	.string "May I have a CLEFAIRY?$"
+	.string "Someone saw her nuzzle that duck.\n"
+	.string "Sworn to secrecy after.$"
 
 Route25_Text_FranklinIntro::
 	.string "I just got down from MT. MOON,\n"
@@ -86,8 +86,8 @@ Route25_Text_FranklinDefeat::
 	.string "You worked hard!$"
 
 Route25_Text_FranklinPostBattle::
-	.string "Drat!\n"
-	.string "A ZUBAT bit me back in that cave.$"
+	.string "She's been guarding something down\n"
+	.string "by the shore. Won't say what.$"
 
 Route25_Text_NobIntro::
 	.string "I'm off to see a POKéMANIAC's\n"
@@ -98,10 +98,8 @@ Route25_Text_NobDefeat::
 	.string "too!$"
 
 Route25_Text_NobPostBattle::
-	.string "The POKéMANIAC sure lives up to\n"
-	.string "his name.\p"
-	.string "His collection includes many rare\n"
-	.string "species of POKéMON.$"
+	.string "She only keeps what can't leave\n"
+	.string "the water. …Never says why.$"
 
 Route25_Text_WayneIntro::
 	.string "You're going to see BILL?\n"
