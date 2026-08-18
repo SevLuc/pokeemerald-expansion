@@ -1,5 +1,24 @@
 PewterCity_Gym_Frlg_MapScripts::
+	map_script MAP_SCRIPT_ON_FRAME_TABLE, PewterCity_Gym_OnFrame
 	.byte 0
+
+PewterCity_Gym_OnFrame::
+	map_script_2 VAR_TEMP_1, 0, PewterCity_Gym_EventScript_PhonesRinging
+	.2byte 0
+
+PewterCity_Gym_EventScript_PhonesRinging::
+	setvar VAR_TEMP_1, 1
+	goto_if_set FLAG_BADGE01_GET, PewterCity_Gym_EventScript_PhonesRingingEnd
+	lockall
+	playse SE_POKENAV_CALL
+	delay 25
+	playse SE_POKENAV_CALL
+	delay 25
+	playse SE_POKENAV_CALL
+	msgbox PewterCity_Gym_Text_PhonesRinging, MSGBOX_DEFAULT
+	releaseall
+PewterCity_Gym_EventScript_PhonesRingingEnd::
+	end
 
 PewterCity_Gym_EventScript_Brock::
 	famechecker FAMECHECKER_BROCK, FCPICKSTATE_COLORED, UpdatePickStateFromSpecialVar8005
@@ -80,6 +99,10 @@ PewterCity_Gym_EventScript_GymStatuePostVictory::
 	msgbox PewterCity_Gym_Text_GymStatuePlayerWon
 	releaseall
 	end
+
+PewterCity_Gym_Text_PhonesRinging::
+	.string "The phones along the walls ring\n"
+	.string "and ring… Nobody answers.$"
 
 PewterCity_Gym_Text_BrockIntro::
 	.string "A challenger! Wonderful.\p"

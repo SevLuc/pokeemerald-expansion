@@ -14,6 +14,9 @@ Player should sense something's off without getting the punchline. Warm-but-shar
 - Kid: "Mom says Brock's real generous. / Every single month, she says. I dunno what that means."
 
 ## Layer 2 - At the gym (phones gag → it clicks)
+- Entry sting: IN-GAME. On entering the gym pre-badge, SE_POKENAV_CALL rings 3x
+  and a box reads "The phones along the walls ring and ring... Nobody answers."
+  (map ON_FRAME script, gated on FLAG_BADGE01_GET so it stops after you win).
 - Gym guide: "Welcome! Don't mind the phones. / They ring a lot. Brock says to just let 'em ring."
 - Trainer A: "Watch - a phone'll go off mid-battle and he won't flinch. / Man's got discipline. Or he knows exactly who it is."
 - Trainer B: "Every phone in here's a different ringtone. / That's not decoration. That's a filing system."
