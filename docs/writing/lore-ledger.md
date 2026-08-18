@@ -34,9 +34,11 @@ straight (one wink) so the FIGHT still lands.
 
 | ID | Subject | Reveal | Source NPC | Map | Gate | Order | Status | Flags |
 |---|---|---|---|---|---|---|---|---|
-| BROCK-01 | Brock (path, vague) | "Good man. Big heart. Gives it away a little too easy." | Pewter City NPC | Pewter City | none (pre-gym) | 1 | drafted | - |
-| BROCK-02 | Brock (path, vague) | "Everyone wants a piece of Brock. His lawyers, mostly." | Pewter City NPC | Pewter City | none (pre-gym) | 2 | drafted | - |
-| BROCK-03 | Brock (path, vague) | Woman: "Oh, I knew Brock. Briefly." / kid: "Mom says he's generous. Every single month." | Pewter City NPCs | Pewter City | none (pre-gym) | 3 | drafted | - |
+| BROCK-01 | Brock (path, vague) | Lass: "Big heart, that one. Gives it away a little too easy." | Lass (existing) | Pewter City | none (pre-gym) | 1 | drafted | - |
+| BROCK-02 | Brock (path, vague) | Fat Man (append to his Brock praise): "Mind you, the man's got history. You'll see." | Fat Man (existing) | Pewter City | none (pre-gym) | 2 | drafted | - |
+| BROCK-03 | Brock (path, vague) | "Off to challenge BROCK? Everyone wants a piece of him. His lawyers, mostly." | new NPC near gym | Pewter City | none (pre-gym) | 3 | drafted | - |
+| BROCK-03b | Brock (path, vague) | Woman: "Oh, I knew BROCK. Once. …Briefly." | new NPC (woman) | Pewter City | none (pre-gym) | 3 | drafted | - |
+| BROCK-03c | Brock (path, vague) | Kid: "Mom says BROCK's real generous. Every single month. I don't get it." | new NPC (kid) | Pewter City | none (pre-gym) | 3 | drafted | - |
 | BROCK-04 | Brock (gag) | Gym guide: the phones ring constantly; Brock says just let 'em ring. | Gym guide | Pewter Gym | none | 4 | in-game | - |
 | BROCK-05 | Brock (gag) | Trainer (Liam): each phone has its own ringtone, "that's a filing system." | Pewter Gym trainer | Pewter Gym | none | 5 | in-game | - |
 | BROCK-06 | Brock (reveal, coy) | Trainer (Liam) on defeat: "Six phones, six... 'previous sponsors.'" | Pewter Gym trainer | Pewter Gym | none | 6 | in-game | [FLAG: canon-check] |

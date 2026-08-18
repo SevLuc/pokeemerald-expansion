@@ -5,13 +5,22 @@
 > so these are staged here until placement in the relevant scripts.pory.
 > Gen-3 rhythm: short two-line pages. Keep Brock's own battle lines archetypal.
 
-## Layer 1 - Path to the gym (Pewter City / Route 2, UNGATED, deliberately vague)
+## Layer 1 - Path to the gym (Pewter City, UNGATED, deliberately vague)
 Player should sense something's off without getting the punchline. Warm-but-sharp.
+Coy: "generous every month", "his lawyers", "briefly", "history" - none names a
+divorce until the ringing phones at the gym make it click.
+STATUS: drafted, not yet placed (user wires NPCs in Porymap; I write scripts then).
+Carriers below note EXISTING Pewter City NPCs vs NEW objects to add.
 
-- Fond NPC: "Brock? Good man. Big heart. / ...Gives it away a little too easy, if you ask me."
-- Wry NPC: "Here to challenge Brock? Get in line. / Everyone wants a piece of him. His lawyers, mostly."
-- Woman: "Oh, I knew Brock. Briefly." (then walks off)
-- Kid: "Mom says Brock's real generous. / Every single month, she says. I dunno what that means."
+- [Fat Man - EXISTING NPC, append to his current Brock praise] "…Mind you, the
+  man's got history. / You'll see soon enough."
+- [Lass - EXISTING NPC, repurpose] "BROCK? Everybody loves BROCK. / Big heart,
+  that one. …Gives it away a little too easy."
+- [NEW NPC near gym] "Off to challenge BROCK? Get in line. / Everyone wants a
+  piece of him. His lawyers, mostly."
+- [NEW NPC - woman, then clams up] "Oh, I knew BROCK. Once. …Briefly."
+- [NEW NPC - kid] "My mom says BROCK's real generous. / Every single month, she
+  says. I don't get it."
 
 ## Layer 2 - At the gym (phones gag → it clicks) - ALL IN-GAME
 - Entry sting: On entering the gym pre-badge, SE_POKENAV_CALL rings 3x and a box
