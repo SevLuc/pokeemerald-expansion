@@ -37,8 +37,11 @@ The phones interrupt his rambling; ends on the perfect wink that starts the batt
   didn't take half the GYM." / "Unlike a marriage, a BADGE is yours to keep." /
   closes on "RING! RING! RING! RING! / ...Ah, the phone. / ...I have to take
   this. Good luck." (bookends the intro's ring).
-- Post-battle overworld (DRAFT, not yet placed): love-advice to the kid, cut off
-  by a phone; points to Cerulean.
+- TM39 hand-off hook (IN-GAME, PewterCity_Gym_Text_TakeThisWithYou): "Hold on,
+  kid. A parting gift. / Ex-wives get the house. You get the TM." (NOTE: the one
+  spot the divorce is stated outright, post-victory; everything else stays coy.)
+  TM tutorial text itself left vanilla/functional.
+- Return-visit line (BrockPostBattle): still vanilla, goofy rewrite pending.
 
 ## Layer 4 - Why he's a Gym Leader (POST-1st-badge, not on the path)
 - NPC: "Ever wonder why Brock takes on every trainer who walks in? / Challenge fees. Alimony doesn't pay itself."

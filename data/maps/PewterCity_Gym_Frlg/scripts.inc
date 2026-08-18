@@ -133,8 +133,9 @@ PewterCity_Gym_Text_BrockDefeat::
 	.string "…I have to take this. Good luck.$"
 
 PewterCity_Gym_Text_TakeThisWithYou::
-	.string "Wait!\n"
-	.string "Take this with you.$"
+	.string "Hold on, kid. A parting gift.\p"
+	.string "Ex-wives get the house.\n"
+	.string "You get the TM.$"
 
 PewterCity_Gym_Text_ReceivedTM39FromBrock::
 	.string "{PLAYER} received TM39\n"
