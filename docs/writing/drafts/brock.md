@@ -41,7 +41,8 @@ The phones interrupt his rambling; ends on the perfect wink that starts the batt
   kid. A parting gift. / Ex-wives get the house. You get the TM." (NOTE: the one
   spot the divorce is stated outright, post-victory; everything else stays coy.)
   TM tutorial text itself left vanilla/functional.
-- Return-visit line (BrockPostBattle): still vanilla, goofy rewrite pending.
+- Return-visit line (IN-GAME, BrockPostBattle): "You again! / My lawyer says I
+  can't afford a rematch." (dropped the vanilla Cerulean nudge.)
 
 ## Layer 4 - Why he's a Gym Leader (POST-1st-badge, not on the path)
 - NPC: "Ever wonder why Brock takes on every trainer who walks in? / Challenge fees. Alimony doesn't pay itself."

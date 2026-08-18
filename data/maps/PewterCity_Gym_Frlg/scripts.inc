@@ -155,13 +155,9 @@ PewterCity_Gym_Text_ExplainTM39::
 	.string "lowers its SPEED.$"
 
 PewterCity_Gym_Text_BrockPostBattle::
-	.string "There are all kinds of TRAINERS in\n"
-	.string "this huge world of ours.\p"
-	.string "You appear to be very gifted as a\n"
-	.string "POKéMON TRAINER.\p"
-	.string "So let me make a suggestion.\p"
-	.string "Go to the GYM in CERULEAN and test\n"
-	.string "your abilities.$"
+	.string "You again!\p"
+	.string "My lawyer says I can't afford\n"
+	.string "a rematch.$"
 
 PewterCity_Gym_Text_DontHaveRoomForThis::
 	.string "You don't have room for this.$"
