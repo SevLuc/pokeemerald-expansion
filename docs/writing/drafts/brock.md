@@ -18,7 +18,7 @@ Player should sense something's off without getting the punchline. Warm-but-shar
   reads "The phones along the walls ring and ring... Nobody answers." (map
   ON_FRAME script, gated on FLAG_BADGE01_GET so it stops after you win).
 - Gym Guy (guide) welcome: "Hey! Welcome to PEWTER GYM. / Don't mind the phones.
-  They ring all day. BROCK says let 'em ring." (then keeps his party-order tip.)
+  BROCK says let 'em ring." (then keeps his party-order tip.)
 - Gym Guy post-victory: "You beat BROCK! Knew you could. / Hear that? Phones,
   still ringing. That man is never off the clock."
 - Liam (trainer) intro: "Hear all these phones? Each one rings different. /

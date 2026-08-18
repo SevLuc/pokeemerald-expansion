@@ -180,8 +180,8 @@ PewterCity_Gym_Text_LiamPostBattle::
 
 PewterCity_Gym_Text_LetMeTakeYouToTheTop::
 	.string "Hey! Welcome to PEWTER GYM.\p"
-	.string "Don't mind the phones. They ring\n"
-	.string "all day. BROCK says let 'em ring.\p"
+	.string "Don't mind the phones.\n"
+	.string "BROCK says let 'em ring.\p"
 	.string "I'm no TRAINER, but I can give you\n"
 	.string "a tip. Want to hear it?$"
 
