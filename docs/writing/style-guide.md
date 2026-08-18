@@ -1,7 +1,11 @@
 # Writing Style Guide
 
 > Scope: **text & flavor only** — never propose sprites, tilesets, portraits, maps, or music.
-> Setting: Kanto-authentic FireRed/LeafGreen, gen-1/gen-3 canon only (no later-gen references).
+> Setting: Kanto-authentic FireRed/LeafGreen. "Kanto-authentic" governs the
+> WORLD, story, places, and character canon (stay in Kanto, gen-3 era feel,
+> gimmicks off). It does NOT restrict the Pokémon roster: species from any
+> generation are fair game (as the expansion ships them). So a gen-2+ species
+> like Togepi is fine to use; a non-Kanto place or off-era story beat is not.
 
 This is the document the creative-director guards and the writer follows. It
 defines *how characters talk* and *when to wink vs. play it straight*.
@@ -26,7 +30,8 @@ defines *how characters talk* and *when to wink vs. play it straight*.
   cleanly; an em dash does not.)
 - Gen-3 text boxes: short two-line pages. Match the width/rhythm of an existing
   nearby vanilla string rather than guessing a character limit.
-- Kanto canon only in the writing (matches the Kanto-authentic mechanics).
+- Kanto canon for the WORLD in the writing: places, story, characters stay
+  Kanto/gen-3-era. (Pokémon species are NOT restricted by gen; see scope note.)
 - Allude, don't reproduce: paraphrase anime characterization; never copy anime
   dialogue verbatim (e.g. the Team Rocket motto) — reword into our own voice.
 - Text/flavor only. Reusing an existing vanilla object in Porymap is fine;
