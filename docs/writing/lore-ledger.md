@@ -16,28 +16,45 @@
 - Status — idea / drafted / in-game.
 - Flags — release/consistency tags from the style guide.
 
-## Brock — "the phones" gag + history
-Concept: Brock's gym is cluttered with phones; NPCs riff on him being "on call."
-Optional, discoverable flavor that also smuggles in his backstory (a busy older
-brother running the gym while minding his siblings). Uses existing vanilla
-phone/PC objects only — no new art.
+## Brock — "the phones" gag + serial-divorcé history
+Concept: Brock's gym is cluttered with ringing phones. Surface gag: he's always
+"on a call" (the "Brock is calling" meme). The hidden layer, revealed COYLY: the
+phones are his ex-wives, and he runs the gym mostly for the challenge fees —
+alimony doesn't pay itself. Engine of the joke = the anime "hopeless romantic"
+Brock: he keeps falling in love, keeps marrying, keeps divorcing, keeps paying.
+Uses existing vanilla phone/PC objects only — no new art.
 
-> Reference check: confirm the exact "Brock is calling" meme you're riffing on
-> before finalizing wording — these rows capture the gag mechanic, not a verified
-> meme canon.
+Reveal is COY throughout (player choice): NPCs never say "divorce" or "ex-wife"
+outright. They say "previous sponsors," "generous every single month," ringtones
+as a "filing system." The player connects the dots. Brock himself plays it
+straight (one wink) so the FIGHT still lands.
+
+> Reference check: the "Brock is calling" bit rides on the meme + the anime
+> womanizer trait. Keep all wording in our own voice — no verbatim anime lines.
 
 | ID | Subject | Reveal | Source NPC | Map | Gate | Order | Status | Flags |
 |---|---|---|---|---|---|---|---|---|
-| BROCK-01 | Brock (gag) | "Why does Brock keep so many phones in here?" | Gym guide | Pewter Gym | none | 1 | idea | — |
-| BROCK-02 | Brock (gag) | Trainer jokes the phones never stop; Brock never picks up mid-battle. | Pewter Gym trainer | Pewter Gym | none | 2 | idea | — |
-| BROCK-03 | Brock (history) | Brock raises his younger siblings — the calls are family checking in. | Pewter City NPC | Pewter City | after 1st badge | 3 | idea | — |
-| BROCK-04 | Brock (history) | He took over the gym young when his father left to train. | Pewter NPC / sign | Pewter City | after 1st badge | 4 | idea | [FLAG: canon-check] |
-| BROCK-05 | Brock (anime nod) | His real dream is breeding/cooking, not gym-leading. | Route 3 trainer | Route 3 | after 1st badge | 5 | idea | [FLAG: canon-check] |
+| BROCK-01 | Brock (path, vague) | "Good man. Big heart. Gives it away a little too easy." | Pewter City NPC | Pewter City | none (pre-gym) | 1 | drafted | — |
+| BROCK-02 | Brock (path, vague) | "Everyone wants a piece of Brock. His lawyers, mostly." | Pewter City NPC | Pewter City | none (pre-gym) | 2 | drafted | — |
+| BROCK-03 | Brock (path, vague) | Woman: "Oh, I knew Brock. Briefly." / kid: "Mom says he's generous. Every single month." | Pewter City NPCs | Pewter City | none (pre-gym) | 3 | drafted | — |
+| BROCK-04 | Brock (gag) | Gym guide: the phones ring constantly; Brock says just let 'em ring. | Gym guide | Pewter Gym | none | 4 | drafted | — |
+| BROCK-05 | Brock (gag) | Trainer: each phone has its own ringtone — "that's a filing system." | Pewter Gym trainer | Pewter Gym | none | 5 | drafted | — |
+| BROCK-06 | Brock (reveal, coy) | Trainer: "Six phones, six previous 'sponsors.' Soft heart. Costs him a fortune." | Pewter Gym trainer | Pewter Gym | none | 6 | drafted | [FLAG: canon-check] |
+| BROCK-07 | Brock (wink) | A phone rings mid-intro; Brock doesn't look at it. "...Ignore that. Let's battle." | Brock | Pewter Gym | none | 7 | drafted | [FLAG: canon-check] |
+| BROCK-08 | Brock (why leader) | "Ever wonder why he takes on every trainer? Challenge fees. Alimony doesn't pay itself." | Pewter City NPC | Pewter City | after 1st badge | 8 | drafted | [FLAG: canon-check] |
+| BROCK-09 | Brock (throwback) | "Heard he's fielding challengers day and night. Heard he got married again, too." | later-town NPC | TBD | after ~6th badge | 9 | idea | [FLAG: canon-check] |
+| BROCK-10 | Brock (throwback) | "Brock's still at that gym. Still on the phone. Some things are eternal." | later-town NPC | TBD | post-E4 | 10 | idea | — |
 
 Consistency notes:
-- Keep BROCK-03/04 non-contradictory with any vanilla Pewter dialogue you retain.
-- Gag (01–02) is available immediately; history (03–05) unlocks post-badge so it
-  reads as "learning more after you've met him."
+- Path fragments (01–03) are UNGATED and pre-gym, and stay vague so the punchline
+  only clicks once the player reaches the gym and sees the phones (04–07).
+- Reveal never states "divorce/ex-wife" — coy euphemism only (decided w/ user).
+- Why-leader (08) and throwbacks (09–10) unlock post-progression as callbacks.
+- Brock's own battle lines stay archetypal Gym-Leader; comedy lives in the room
+  around him, not in his threats, so the hard-but-fair fight still reads as real.
+- RETIRED earlier draft: "raising younger siblings / father left to train."
+  Replaced by the divorce/alimony arc. The anime hopeless-romantic trait is the
+  only kept thread (it powers the divorces).
 
 ## Template: new gym leader
 Copy per leader. Keep fragments optional and gated so a rushing player still
