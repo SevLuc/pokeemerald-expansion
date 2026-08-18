@@ -106,6 +106,7 @@ PewterCity_Gym_Text_BrockDefeat::
 	.string "Unlike a marriage, a BADGE is\n"
 	.string "yours to keep. Cherish it.\p"
 	.string "RING! RING! RING! RING!\p"
+	.string "…Ah, the phone.\n"
 	.string "…I have to take this. Good luck.$"
 
 PewterCity_Gym_Text_TakeThisWithYou::
