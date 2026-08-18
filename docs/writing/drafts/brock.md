@@ -29,8 +29,12 @@ The phones interrupt his rambling; ends on the perfect wink that starts the batt
   - "Word of advice, kid. Always read the whole contract before you say 'I do'..."
   - "RING! RING! RING! RING! RING!"
   - "...Ignore that. Let's battle." (battle starts)
-- Defeat (still DRAFT, not yet placed): "Heh. Beaten fair. / I always did fall too easily." (then vanilla badge award)
-- Post-battle overworld (DRAFT): love-advice to the kid, cut off by a phone; points to Cerulean.
+- Defeat: IN-GAME (PewterCity_Gym_Text_BrockDefeat). Goofy, keeps the badge
+  fanfare + FLASH info; jokes: "I always did fall too easily. Just ask... well,
+  any of them." / "Unlike a marriage, a BADGE is yours to keep." / closes on the
+  phones still ringing (bookends the intro's ring).
+- Post-battle overworld (DRAFT, not yet placed): love-advice to the kid, cut off
+  by a phone; points to Cerulean.
 
 ## Layer 4 - Why he's a Gym Leader (POST-1st-badge, not on the path)
 - NPC: "Ever wonder why Brock takes on every trainer who walks in? / Challenge fees. Alimony doesn't pay itself."
