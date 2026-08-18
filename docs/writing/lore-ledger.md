@@ -69,13 +69,15 @@ trainers; town NPCs carry ambient respect/jokes. Full lines: drafts/misty.md.
 
 | ID | Subject | Reveal | Source NPC | Map | Gate | Order | Status | Flags |
 |---|---|---|---|---|---|---|---|---|
-| MISTY-01 | Misty (respect) | "Strongest LEADER I know. Took that gym and made it hers." | Cerulean City NPC | Cerulean City | none (pre-gym) | 1 | drafted | - |
-| MISTY-02 | Misty (bug joke) | "Challenging MISTY? Leave the BUG POKéMON at home. Trust me. Haha." | Cerulean City NPC | Cerulean City | none (pre-gym) | 2 | drafted | - |
-| MISTY-03 | Psyduck (jester) | "That PSYDUCK wandering around is MISTY's. A menace. We love it, though." | Cerulean City NPC | Cerulean City | none (pre-gym) | 3 | drafted | - |
-| MISTY-04 | Psyduck (first mon) | Diana (gym trainer): "PSYDUCK's her first POKéMON. She'd sooner drown than part with it." | Diana (existing) | Cerulean Gym | none | 4 | drafted | - |
-| MISTY-05 | Misty (why water) | Luis (gym trainer): "PSYDUCK kept running off, so she went all WATER. Water types can't run away." | Luis (existing) | Cerulean Gym | none | 5 | drafted | - |
-| MISTY-06 | Misty (heart) | "She loves that dumb PSYDUCK. It's everything she's not. Wouldn't trade it." | Cerulean City NPC | Cerulean City | after 2nd badge | 6 | drafted | - |
-| MISTY-07 | Misty (gimmick) | Bug-ban gate: gym guide blocks bug-types; "MISTY stood on a chair for an hour." | Gym guide | Cerulean Gym | none | 7 | drafted | - |
+| MISTY-01 | Misty (respect) | "She runs that gym alone. Has for years. Say what you want about her." | Youngster (existing) | Cerulean City | none (pre-gym) | 1 | in-game | - |
+| MISTY-02 | Misty (bug, oblique) | Cale the BUG CATCHER: "Me and the CERULEAN gym have an… understanding." | Cale (Route 24) | Nugget Bridge | none | 2 | in-game | - |
+| MISTY-03 | Psyduck (jester) | "That PSYDUCK answers to no one. …Not even her." | Balding Man (existing) | Cerulean City | none (pre-gym) | 3 | in-game | - |
+| MISTY-04 | Psyduck (long bond) | Reli: "That PSYDUCK's older than her badges." | Reli (Route 24) | Nugget Bridge | none | 4 | in-game | - |
+| MISTY-05 | Misty (why water, oblique payoff) | Nob: "She only keeps what can't leave the water. …Never says why." | Nob (Route 25) | Route 25 | none | 5 | in-game | - |
+| MISTY-06 | Misty (heart) | "Everyone thinks that PSYDUCK is the joke. …I think it's the one thing she'd never replace." | Cerulean City NPC | Cerulean City | after 2nd badge | 6 | drafted | - |
+| MISTY-07 | Misty (gimmick) | Bug-ban gate: gym guide blocks bug-types (party check). "MISTY stood on a chair for an hour." | Gym guide | Cerulean Gym | none | 7 | drafted (code TODO) | - |
+| MISTY-CHORUS | whole-area gag | Every road trainer drops one oblique Misty/PSYDUCK line (Timmy, Ali=egg, Ethan, Shane on Rt24; Dan, Flint, Kelsey, Haley, Franklin=egg on Rt25) + Diana/Luis verify. Full list: drafts/misty.md. | Route 24/25 + gym trainers | Cerulean area | none | - | in-game | - |
+| MISTY-EGG | deniable Togepi seed | Ali (Rt24): "Found an EGG by the pool once. She took it before I could blink." / Franklin (Rt25): "She's been guarding something down by the shore." | Ali, Franklin | Nugget Bridge / Route 25 | none | - | in-game | [FLAG: canon-check] |
 
 ## Template: new gym leader
 Copy per leader. Keep fragments optional and gated so a rushing player still
