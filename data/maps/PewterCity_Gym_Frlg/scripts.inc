@@ -105,9 +105,8 @@ PewterCity_Gym_Text_BrockDefeat::
 	.string "lets them use FLASH out of battle.\p"
 	.string "Unlike a marriage, a BADGE is\n"
 	.string "yours to keep. Cherish it.\p"
-	.string "Now if you'll excuse me…\n"
-	.string "the phone's been ringing this\l"
-	.string "whole time.$"
+	.string "RING! RING! RING! RING!\p"
+	.string "…I have to take this. Good luck.$"
 
 PewterCity_Gym_Text_TakeThisWithYou::
 	.string "Wait!\n"
