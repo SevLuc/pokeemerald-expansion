@@ -163,27 +163,27 @@ PewterCity_Gym_Text_DontHaveRoomForThis::
 	.string "You don't have room for this.$"
 
 PewterCity_Gym_Text_LiamIntro::
-	.string "Stop right there, kid!\p"
-	.string "You're ten thousand light-years \n"
-	.string "from facing BROCK!$"
+	.string "Not so fast, challenger!\p"
+	.string "Hear all these phones? Each one\n"
+	.string "rings different.\p"
+	.string "That's not decoration.\n"
+	.string "That's a filing system.$"
 
 PewterCity_Gym_Text_LiamDefeat::
-	.string "Darn!\p"
-	.string "Light-years isn't time…\n"
-	.string "It measures distance!$"
+	.string "Okay, okay. You win.\p"
+	.string "Six phones out there. Six… let's\n"
+	.string "call 'em 'previous sponsors.'$"
 
 PewterCity_Gym_Text_LiamPostBattle::
-	.string "You're pretty hot.\n"
-	.string "…But not as hot as BROCK!$"
+	.string "Soft heart, that BROCK.\n"
+	.string "Rock-hard everywhere else.$"
 
 PewterCity_Gym_Text_LetMeTakeYouToTheTop::
-	.string "Hiya!\n"
-	.string "Do you want to dream big?\p"
-	.string "Do you dare to dream of becoming\n"
-	.string "the POKéMON champ?\p"
-	.string "I'm no TRAINER, but I can advise\n"
-	.string "you on how to win.\p"
-	.string "Let me take you to the top!$"
+	.string "Hey! Welcome to PEWTER GYM.\p"
+	.string "Don't mind the phones. They ring\n"
+	.string "all day. BROCK says let 'em ring.\p"
+	.string "I'm no TRAINER, but I can give you\n"
+	.string "a tip. Want to hear it?$"
 
 PewterCity_Gym_Text_LetsGetHappening::
 	.string "All right!\n"
@@ -202,8 +202,9 @@ PewterCity_Gym_Text_ItsFreeLetsGetHappening::
 	.string "Let's get happening!$"
 
 PewterCity_Gym_Text_YoureChampMaterial::
-	.string "Just as I thought!\n"
-	.string "You're POKéMON champ material!$"
+	.string "You beat BROCK! Knew you could.\p"
+	.string "Hear that? Phones, still ringing.\n"
+	.string "That man is never off the clock.$"
 
 PewterCity_Gym_Text_GymStatue::
 	.string "PEWTER POKéMON GYM\n"

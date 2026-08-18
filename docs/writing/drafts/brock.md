@@ -13,14 +13,19 @@ Player should sense something's off without getting the punchline. Warm-but-shar
 - Woman: "Oh, I knew Brock. Briefly." (then walks off)
 - Kid: "Mom says Brock's real generous. / Every single month, she says. I dunno what that means."
 
-## Layer 2 - At the gym (phones gag → it clicks)
-- Entry sting: IN-GAME. On entering the gym pre-badge, SE_POKENAV_CALL rings 3x
-  and a box reads "The phones along the walls ring and ring... Nobody answers."
-  (map ON_FRAME script, gated on FLAG_BADGE01_GET so it stops after you win).
-- Gym guide: "Welcome! Don't mind the phones. / They ring a lot. Brock says to just let 'em ring."
-- Trainer A: "Watch - a phone'll go off mid-battle and he won't flinch. / Man's got discipline. Or he knows exactly who it is."
-- Trainer B: "Every phone in here's a different ringtone. / That's not decoration. That's a filing system."
-- Reveal (guide or trainer, coy): "Six phones, six... let's call 'em 'previous sponsors.' / Rock-hard guy, soft heart."
+## Layer 2 - At the gym (phones gag → it clicks) - ALL IN-GAME
+- Entry sting: On entering the gym pre-badge, SE_POKENAV_CALL rings 3x and a box
+  reads "The phones along the walls ring and ring... Nobody answers." (map
+  ON_FRAME script, gated on FLAG_BADGE01_GET so it stops after you win).
+- Gym Guy (guide) welcome: "Hey! Welcome to PEWTER GYM. / Don't mind the phones.
+  They ring all day. BROCK says let 'em ring." (then keeps his party-order tip.)
+- Gym Guy post-victory: "You beat BROCK! Knew you could. / Hear that? Phones,
+  still ringing. That man is never off the clock."
+- Liam (trainer) intro: "Hear all these phones? Each one rings different. /
+  That's not decoration. That's a filing system."
+- Liam defeat (coy reveal): "Six phones out there. Six... let's call 'em
+  'previous sponsors.'"
+- Liam post-battle: "Soft heart, that BROCK. / Rock-hard everywhere else."
 
 ## Layer 3 - Brock himself (goofy-romantic surface, subtle divorce undertone)
 FINAL intro, IN-GAME in PewterCity_Gym_Frlg/scripts.inc (PewterCity_Gym_Text_BrockIntro).
