@@ -58,6 +58,25 @@ Consistency notes:
   Replaced by the divorce/alimony arc. The anime hopeless-romantic trait is the
   only kept thread (it powers the divorces).
 
+## Misty - tomboy battler + Psyduck (her first POKéMON)
+Concept: youngest Sensational Sister who does the real battling (sisters do the
+water shows). PSYDUCK is her first POKéMON: she loves it, it drives her crazy
+(everything she's not). Payoff reveal: she went all-WATER because water types
+CAN'T RUN AWAY like Psyduck does. Cerulean respects her strength, jokes about the
+bug fear, and treats Psyduck as a beloved town jester. GIMMICK: no bug-types in
+the gym (guide blocks at the door). Lore is told in steps by the mandatory gym
+trainers; town NPCs carry ambient respect/jokes. Full lines: drafts/misty.md.
+
+| ID | Subject | Reveal | Source NPC | Map | Gate | Order | Status | Flags |
+|---|---|---|---|---|---|---|---|---|
+| MISTY-01 | Misty (respect) | "Strongest LEADER I know. Took that gym and made it hers." | Cerulean City NPC | Cerulean City | none (pre-gym) | 1 | drafted | - |
+| MISTY-02 | Misty (bug joke) | "Challenging MISTY? Leave the BUG POKéMON at home. Trust me. Haha." | Cerulean City NPC | Cerulean City | none (pre-gym) | 2 | drafted | - |
+| MISTY-03 | Psyduck (jester) | "That PSYDUCK wandering around is MISTY's. A menace. We love it, though." | Cerulean City NPC | Cerulean City | none (pre-gym) | 3 | drafted | - |
+| MISTY-04 | Psyduck (first mon) | Diana (gym trainer): "PSYDUCK's her first POKéMON. She'd sooner drown than part with it." | Diana (existing) | Cerulean Gym | none | 4 | drafted | - |
+| MISTY-05 | Misty (why water) | Luis (gym trainer): "PSYDUCK kept running off, so she went all WATER. Water types can't run away." | Luis (existing) | Cerulean Gym | none | 5 | drafted | - |
+| MISTY-06 | Misty (heart) | "She loves that dumb PSYDUCK. It's everything she's not. Wouldn't trade it." | Cerulean City NPC | Cerulean City | after 2nd badge | 6 | drafted | - |
+| MISTY-07 | Misty (gimmick) | Bug-ban gate: gym guide blocks bug-types; "MISTY stood on a chair for an hour." | Gym guide | Cerulean Gym | none | 7 | drafted | - |
+
 ## Template: new gym leader
 Copy per leader. Keep fragments optional and gated so a rushing player still
 finishes and a curious one gets the hidden layer.
