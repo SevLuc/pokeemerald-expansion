@@ -82,20 +82,16 @@ PewterCity_Gym_EventScript_GymStatuePostVictory::
 	end
 
 PewterCity_Gym_Text_BrockIntro::
-	.string "So, you're here. I'm BROCK.\n"
-	.string "I'm PEWTER's GYM LEADER.\p"
-	.string "My rock-hard willpower is evident\n"
-	.string "even in my POKéMON.\p"
-	.string "My POKéMON are all rock hard, and\n"
-	.string "have true-grit determination.\p"
-	.string "That's right - my POKéMON are all\n"
-	.string "the ROCK type!\p"
-	.string "Fuhaha! You're going to challenge\n"
-	.string "me knowing that you'll lose?\p"
-	.string "That's the TRAINER's honor that\n"
-	.string "compels you to challenge me.\p"
-	.string "Fine, then!\n"
-	.string "Show me your best!{PLAY_BGM}{MUS_RG_ENCOUNTER_GYM_LEADER}$"
+	.string "A challenger! Wonderful.\p"
+	.string "Oh, the phones…? Let's just say\n"
+	.string "I'm a very reachable man.\p"
+	.string "ROCK taught me patience, kid.\n"
+	.string "So did a marriage or two.\p"
+	.string "Word of advice, kid. Always read\n"
+	.string "the whole contract before you say\l"
+	.string "'I do'…\p"
+	.string "RING! RING! RING! RING! RING!\p"
+	.string "…Ignore that. Let's battle.{PLAY_BGM}{MUS_RG_ENCOUNTER_GYM_LEADER}$"
 
 PewterCity_Gym_Text_BrockDefeat::
 	.string "I took you for granted, and so\n"

@@ -19,10 +19,18 @@ Player should sense something's off without getting the punchline. Warm-but-shar
 - Trainer B: "Every phone in here's a different ringtone. / That's not decoration. That's a filing system."
 - Reveal (guide or trainer, coy): "Six phones, six... let's call 'em 'previous sponsors.' / Rock-hard guy, soft heart. Costs him a fortune."
 
-## Layer 3 - Brock himself (straight, one wink - protect the fight)
-- Intro: "I'm Brock! Pewter's Gym Leader! / My rock-hard willpower shows even in my Pokémon."
-- Wink (a phone rings; he doesn't look): "...Ignore that. Let's battle."
-- Defeat: "You're strong. Take the Boulder Badge." (a ring) "...I have to take this. Good luck out there."
+## Layer 3 - Brock himself (goofy-romantic surface, subtle divorce undertone)
+FINAL intro, IN-GAME in PewterCity_Gym_Frlg/scripts.inc (PewterCity_Gym_Text_BrockIntro).
+The phones interrupt his rambling; ends on the perfect wink that starts the battle.
+- Intro:
+  - "A challenger! Wonderful."
+  - "Oh, the phones...? Let's just say I'm a very reachable man."
+  - "ROCK taught me patience, kid. So did a marriage or two."
+  - "Word of advice, kid. Always read the whole contract before you say 'I do'..."
+  - "RING! RING! RING! RING! RING!"
+  - "...Ignore that. Let's battle." (battle starts)
+- Defeat (still DRAFT, not yet placed): "Heh. Beaten fair. / I always did fall too easily." (then vanilla badge award)
+- Post-battle overworld (DRAFT): love-advice to the kid, cut off by a phone; points to Cerulean.
 
 ## Layer 4 - Why he's a Gym Leader (POST-1st-badge, not on the path)
 - NPC: "Ever wonder why Brock takes on every trainer who walks in? / Challenge fees. Alimony doesn't pay itself."
