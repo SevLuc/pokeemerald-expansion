@@ -30,10 +30,10 @@ The phones interrupt his rambling; ends on the perfect wink that starts the batt
   - "RING! RING! RING! RING! RING!"
   - "...Ignore that. Let's battle." (battle starts)
 - Defeat: IN-GAME (PewterCity_Gym_Text_BrockDefeat). Goofy, keeps the badge
-  fanfare + FLASH info; jokes: "I always did fall too easily. Just ask... well,
-  any of them." / "Unlike a marriage, a BADGE is yours to keep." / closes on
-  "RING! RING! RING! RING! / ...Ah, the phone. / ...I have to take this. Good
-  luck." (bookends the intro's ring).
+  fanfare + FLASH info; jokes: "Lost again. Same as my love life. / At least you
+  didn't take half the GYM." / "Unlike a marriage, a BADGE is yours to keep." /
+  closes on "RING! RING! RING! RING! / ...Ah, the phone. / ...I have to take
+  this. Good luck." (bookends the intro's ring).
 - Post-battle overworld (DRAFT, not yet placed): love-advice to the kid, cut off
   by a phone; points to Cerulean.
 

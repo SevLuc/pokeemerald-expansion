@@ -94,11 +94,11 @@ PewterCity_Gym_Text_BrockIntro::
 	.string "…Ignore that. Let's battle.{PLAY_BGM}{MUS_RG_ENCOUNTER_GYM_LEADER}$"
 
 PewterCity_Gym_Text_BrockDefeat::
-	.string "Ha! You moved me after all.\p"
-	.string "I always did fall too easily.\n"
-	.string "Just ask… well, any of them.\p"
-	.string "Here. The official LEAGUE\n"
-	.string "BOULDERBADGE. It's yours.\p"
+	.string "Lost again. Same as my love life.\p"
+	.string "At least you didn't take half\n"
+	.string "the GYM.\p"
+	.string "Here, you earned it.\n"
+	.string "The official LEAGUE BOULDERBADGE.\p"
 	.string "{FONT_NORMAL}{PLAYER} received the BOULDERBADGE\n"
 	.string "from BROCK!{PAUSE_MUSIC}{PLAY_BGM}{MUS_OBTAIN_BADGE}{PAUSE 0xFE}{PAUSE 0x56}{RESUME_MUSIC}\p"
 	.string "{FONT_MALE}It toughens up your POKéMON, and\n"
