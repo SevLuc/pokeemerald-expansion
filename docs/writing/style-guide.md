@@ -11,6 +11,12 @@ This is the document the creative-director guards and the writer follows. It
 defines *how characters talk* and *when to wink vs. play it straight*.
 
 ## 1. Core sensibility
+- Mystique, never on the nose (PROJECT-WIDE RULE). Lore is revealed in subtle,
+  sometimes vague fragments; let the PLAYER connect the dots and fill in the
+  meaning. Imply, don't explain. A trainer who muses "she only trains things that
+  can't leave the water…" beats one who states "she uses water types because
+  Psyduck kept running away." If a line spells out the reveal, it's wrong. This
+  governs all NPC/trainer/leader writing across the whole project.
 - Silly-through-contrast, not blanket goofiness. Humor comes from friction — an
   over-committed character in a low-stakes moment, a straight-man next to a fool.
   A town of earnest gen-1 NPCs is the setup; one absurd character is the punchline.

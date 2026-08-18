@@ -40,28 +40,62 @@ Defeat (tough girl concedes; optional Psyduck cameo):
   a chair for an hour."
 - "Ditch the BUG types, then come back."
 
-## Stepped lore via the mandatory GYM TRAINERS
-Diana (picnicker) - MISTY-04, the "first POKéMON" beat:
-- Intro: "You want MISTY? Beat me first. And no, you can't pet the PSYDUCK."
-- Defeat: "Ngh! Fine, you're good."
-- Post: "That PSYDUCK? It's her first POKéMON. Had it since day one. She'd sooner
-  drown than part with it."
+## Lore delivery - SUBTLE, spread over the road (not on the nose)
+Principle: imply, never explain. The player pieces it together. Beats escalate as
+you travel Cerulean City -> Nugget Bridge (Route 24) -> Route 25 (to Bill's). The
+mandatory route trainers carry it; Diana/Luis at the gym only verify/entertain.
 
-Luis (swimmer) - MISTY-05, THE payoff reveal:
-- Intro: "Splash! I'm up first! Let's go!"
-- Defeat: "No way!"
-- Post: "Wanna know why MISTY only trains WATER types? Her first POKéMON, that
-  PSYDUCK, kept running off on her. So she went all WATER. Water types can't run
-  away. They're stuck in the pool with her!"
+CERULEAN CITY (ambient, pre-gym):
+- Respect (MISTY-01): "She runs that gym alone. Has for years. ...Say what you
+  want about her."
+- Jester (MISTY-03): "You'll spot a PSYDUCK around town. Answers to no one.
+  ...Not even her."
 
-## Ambient CERULEAN CITY townsfolk (respect + bug joke + jester)
-- Respect (MISTY-01): "MISTY? Strongest LEADER I know. Took that gym and made it
-  hers."
-- Bug joke (MISTY-02): "Challenging MISTY? Leave the BUG POKéMON at home. ...Trust
-  me. Haha."
-- Jester (MISTY-03): "See that PSYDUCK wandering around? That's MISTY's. Bit of a
-  menace. We love it, though."
+NUGGET BRIDGE / Route 24 (mandatory gauntlet):
+- Cale, the BUG CATCHER (MISTY-02, bug irony): post-battle "Me? I keep to the
+  routes. That gym and I have an… understanding." (never says 'bugs banned'; a
+  bug catcher who can't enter says it for us)
+- Reli or Ali (MISTY-04, long bond): "That PSYDUCK's older than her badges.
+  Was here before the gym was hers."
+- Shane (frustration + love, no explanation): "Seen her scream at that duck.
+  Seen her wait up half the night when it wanders off. ...Same duck."
 
-## Post-badge emotional core (MISTY-06, gated)
-- "MISTY acts tough, but that PSYDUCK? She loves that dumb thing. It's everything
-  she's not. Drives her up the wall. Wouldn't trade it for the world."
+ROUTE 25 (to Bill's, the subtle payoff - MISTY-05):
+- A trainer near Bill's: "Ever notice she only trains what can't leave the
+  water? ...She learned that chasing something that could." (player connects it
+  to the runaway Psyduck; never stated)
+
+GYM - Diana & Luis just VERIFY / ENTERTAIN (light, per user):
+- Diana: "Oh, you've heard about the duck. Everyone has. …Don't bring it up."
+- Luis: "You got this far, so you know the rule about bugs. …Good."
+
+## Post-badge emotional core (MISTY-06, gated, still implied)
+- "Everyone thinks that PSYDUCK is the joke. …I think it's the one thing she'd
+  never replace."
+
+## THE CHORUS (whole-area gag): EVERY NPC/trainer drops one tiny oblique line
+Concept: the entire Cerulean area quietly orbits Misty + the PSYDUCK (and maybe
+an EGG). Each line is tiny, vague, and self-contained; the comedy is cumulative -
+by the time you reach the gym you realize the whole town can't stop half-mentioning
+her duck. Keep every line SUBTLE and VARIED (never repeat the same beat).
+- Each route trainer: keep their INTRO as their own character; replace their
+  POST-BATTLE line with one oblique Misty/Psyduck (or deniable "egg") flavor drop.
+- TOGEPI stays deniable: only ever "an EGG" / "something she guards" until the
+  user commits Togepi's arc. No Togepi by name yet.
+- Angles to rotate so it never feels repetitive: the duck's escapes, its blank
+  stupidity, the bug rule, her running the gym solo, the sisters/looks, her only
+  ever training water, a mysterious egg, her chasing the duck cross-country.
+
+Sample tone (spread across zones) - lock this before mass-producing the rest:
+- City NPC: "She runs that gym alone. Has for years."
+- City NPC: "That PSYDUCK answers to no one. Not even her."
+- Timmy (Route 24): "Careful by the water. Things fall in. Ducks, mostly."
+- Cale, bug catcher (Route 24): "Me and that gym have an… understanding."
+- Reli (Route 24): "That duck's older than her badges."
+- Ali (Route 24): "Found an EGG by the pool once. She took it so fast."
+- Shane (Route 24): "Seen her wait up half the night for that duck. Every time."
+- Route 25 trainer (near Bill): "She only trains what can't leave the water.
+  …Wonder why."
+- Beauty (Route 25): "Her sisters got the looks. She got… the other thing."
+- Diana (gym, verify): "You've heard about the duck. Everyone has."
+- Luis (gym, verify): "You know the rule about bugs by now. Good."
