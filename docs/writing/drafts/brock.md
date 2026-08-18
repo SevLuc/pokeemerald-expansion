@@ -20,7 +20,7 @@ Player should sense something's off without getting the punchline. Warm-but-shar
 - Gym guide: "Welcome! Don't mind the phones. / They ring a lot. Brock says to just let 'em ring."
 - Trainer A: "Watch - a phone'll go off mid-battle and he won't flinch. / Man's got discipline. Or he knows exactly who it is."
 - Trainer B: "Every phone in here's a different ringtone. / That's not decoration. That's a filing system."
-- Reveal (guide or trainer, coy): "Six phones, six... let's call 'em 'previous sponsors.' / Rock-hard guy, soft heart. Costs him a fortune."
+- Reveal (guide or trainer, coy): "Six phones, six... let's call 'em 'previous sponsors.' / Rock-hard guy, soft heart."
 
 ## Layer 3 - Brock himself (goofy-romantic surface, subtle divorce undertone)
 FINAL intro, IN-GAME in PewterCity_Gym_Frlg/scripts.inc (PewterCity_Gym_Text_BrockIntro).

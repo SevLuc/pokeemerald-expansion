@@ -39,7 +39,7 @@ straight (one wink) so the FIGHT still lands.
 | BROCK-03 | Brock (path, vague) | Woman: "Oh, I knew Brock. Briefly." / kid: "Mom says he's generous. Every single month." | Pewter City NPCs | Pewter City | none (pre-gym) | 3 | drafted | - |
 | BROCK-04 | Brock (gag) | Gym guide: the phones ring constantly; Brock says just let 'em ring. | Gym guide | Pewter Gym | none | 4 | drafted | - |
 | BROCK-05 | Brock (gag) | Trainer: each phone has its own ringtone - "that's a filing system." | Pewter Gym trainer | Pewter Gym | none | 5 | drafted | - |
-| BROCK-06 | Brock (reveal, coy) | Trainer: "Six phones, six previous 'sponsors.' Soft heart. Costs him a fortune." | Pewter Gym trainer | Pewter Gym | none | 6 | drafted | [FLAG: canon-check] |
+| BROCK-06 | Brock (reveal, coy) | Trainer: "Six phones, six previous 'sponsors.' Soft heart." | Pewter Gym trainer | Pewter Gym | none | 6 | drafted | [FLAG: canon-check] |
 | BROCK-07 | Brock (intro) | Goofy-romantic ramble ("a marriage or two"; contract advice) cut off by ringing phones, then "...Ignore that. Let's battle." | Brock | Pewter Gym | none | 7 | in-game | [FLAG: canon-check] |
 | BROCK-08 | Brock (why leader) | "Ever wonder why he takes on every trainer? Challenge fees. Alimony doesn't pay itself." | Pewter City NPC | Pewter City | after 1st badge | 8 | drafted | [FLAG: canon-check] |
 | BROCK-09 | Brock (throwback) | "Heard he's fielding challengers day and night. Heard he got married again, too." | later-town NPC | TBD | after ~6th badge | 9 | idea | [FLAG: canon-check] |
