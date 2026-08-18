@@ -202,9 +202,8 @@ PewterCity_Gym_Text_ItsFreeLetsGetHappening::
 	.string "Let's get happening!$"
 
 PewterCity_Gym_Text_YoureChampMaterial::
-	.string "You beat BROCK! Knew you could.\p"
-	.string "Hear that? Phones, still ringing.\n"
-	.string "That man is never off the clock.$"
+	.string "Just as I thought!\n"
+	.string "You're POKéMON champ material!$"
 
 PewterCity_Gym_Text_GymStatue::
 	.string "PEWTER POKéMON GYM\n"

@@ -19,8 +19,8 @@ Player should sense something's off without getting the punchline. Warm-but-shar
   ON_FRAME script, gated on FLAG_BADGE01_GET so it stops after you win).
 - Gym Guy (guide) welcome: "Hey! Welcome to PEWTER GYM. / Don't mind the phones.
   BROCK says let 'em ring." (then keeps his party-order tip.)
-- Gym Guy post-victory: "You beat BROCK! Knew you could. / Hear that? Phones,
-  still ringing. That man is never off the clock."
+- Gym Guy post-victory: kept VANILLA ("Just as I thought! / You're POKéMON champ
+  material!") to avoid overusing the phones gag.
 - Liam (trainer) intro: "Hear all these phones? Each one rings different. /
   That's not decoration. That's a filing system."
 - Liam defeat (coy reveal): "Six phones out there. Six... let's call 'em
