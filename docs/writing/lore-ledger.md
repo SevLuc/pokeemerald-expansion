@@ -6,23 +6,23 @@
 > Rule: add/update a row in the same PR as any new lore line.
 
 ## How to read a row
-- ID — stable fragment id, e.g. BROCK-03.
-- Subject — who/what the fragment is about.
-- Reveal — what the player learns (one line).
-- Source NPC — who says it (or object/sign).
-- Map — where they are.
-- Gate — progression condition (badge count, flag, story beat).
-- Order — intended discovery order within the subject's arc.
-- Status — idea / drafted / in-game.
-- Flags — release/consistency tags from the style guide.
+- ID - stable fragment id, e.g. BROCK-03.
+- Subject - who/what the fragment is about.
+- Reveal - what the player learns (one line).
+- Source NPC - who says it (or object/sign).
+- Map - where they are.
+- Gate - progression condition (badge count, flag, story beat).
+- Order - intended discovery order within the subject's arc.
+- Status - idea / drafted / in-game.
+- Flags - release/consistency tags from the style guide.
 
-## Brock — "the phones" gag + serial-divorcé history
+## Brock - "the phones" gag + serial-divorcé history
 Concept: Brock's gym is cluttered with ringing phones. Surface gag: he's always
 "on a call" (the "Brock is calling" meme). The hidden layer, revealed COYLY: the
-phones are his ex-wives, and he runs the gym mostly for the challenge fees —
+phones are his ex-wives, and he runs the gym mostly for the challenge fees -
 alimony doesn't pay itself. Engine of the joke = the anime "hopeless romantic"
 Brock: he keeps falling in love, keeps marrying, keeps divorcing, keeps paying.
-Uses existing vanilla phone/PC objects only — no new art.
+Uses existing vanilla phone/PC objects only - no new art.
 
 Reveal is COY throughout (player choice): NPCs never say "divorce" or "ex-wife"
 outright. They say "previous sponsors," "generous every single month," ringtones
@@ -30,26 +30,26 @@ as a "filing system." The player connects the dots. Brock himself plays it
 straight (one wink) so the FIGHT still lands.
 
 > Reference check: the "Brock is calling" bit rides on the meme + the anime
-> womanizer trait. Keep all wording in our own voice — no verbatim anime lines.
+> womanizer trait. Keep all wording in our own voice - no verbatim anime lines.
 
 | ID | Subject | Reveal | Source NPC | Map | Gate | Order | Status | Flags |
 |---|---|---|---|---|---|---|---|---|
-| BROCK-01 | Brock (path, vague) | "Good man. Big heart. Gives it away a little too easy." | Pewter City NPC | Pewter City | none (pre-gym) | 1 | drafted | — |
-| BROCK-02 | Brock (path, vague) | "Everyone wants a piece of Brock. His lawyers, mostly." | Pewter City NPC | Pewter City | none (pre-gym) | 2 | drafted | — |
-| BROCK-03 | Brock (path, vague) | Woman: "Oh, I knew Brock. Briefly." / kid: "Mom says he's generous. Every single month." | Pewter City NPCs | Pewter City | none (pre-gym) | 3 | drafted | — |
-| BROCK-04 | Brock (gag) | Gym guide: the phones ring constantly; Brock says just let 'em ring. | Gym guide | Pewter Gym | none | 4 | drafted | — |
-| BROCK-05 | Brock (gag) | Trainer: each phone has its own ringtone — "that's a filing system." | Pewter Gym trainer | Pewter Gym | none | 5 | drafted | — |
+| BROCK-01 | Brock (path, vague) | "Good man. Big heart. Gives it away a little too easy." | Pewter City NPC | Pewter City | none (pre-gym) | 1 | drafted | - |
+| BROCK-02 | Brock (path, vague) | "Everyone wants a piece of Brock. His lawyers, mostly." | Pewter City NPC | Pewter City | none (pre-gym) | 2 | drafted | - |
+| BROCK-03 | Brock (path, vague) | Woman: "Oh, I knew Brock. Briefly." / kid: "Mom says he's generous. Every single month." | Pewter City NPCs | Pewter City | none (pre-gym) | 3 | drafted | - |
+| BROCK-04 | Brock (gag) | Gym guide: the phones ring constantly; Brock says just let 'em ring. | Gym guide | Pewter Gym | none | 4 | drafted | - |
+| BROCK-05 | Brock (gag) | Trainer: each phone has its own ringtone - "that's a filing system." | Pewter Gym trainer | Pewter Gym | none | 5 | drafted | - |
 | BROCK-06 | Brock (reveal, coy) | Trainer: "Six phones, six previous 'sponsors.' Soft heart. Costs him a fortune." | Pewter Gym trainer | Pewter Gym | none | 6 | drafted | [FLAG: canon-check] |
 | BROCK-07 | Brock (wink) | A phone rings mid-intro; Brock doesn't look at it. "...Ignore that. Let's battle." | Brock | Pewter Gym | none | 7 | drafted | [FLAG: canon-check] |
 | BROCK-08 | Brock (why leader) | "Ever wonder why he takes on every trainer? Challenge fees. Alimony doesn't pay itself." | Pewter City NPC | Pewter City | after 1st badge | 8 | drafted | [FLAG: canon-check] |
 | BROCK-09 | Brock (throwback) | "Heard he's fielding challengers day and night. Heard he got married again, too." | later-town NPC | TBD | after ~6th badge | 9 | idea | [FLAG: canon-check] |
-| BROCK-10 | Brock (throwback) | "Brock's still at that gym. Still on the phone. Some things are eternal." | later-town NPC | TBD | post-E4 | 10 | idea | — |
+| BROCK-10 | Brock (throwback) | "Brock's still at that gym. Still on the phone. Some things are eternal." | later-town NPC | TBD | post-E4 | 10 | idea | - |
 
 Consistency notes:
-- Path fragments (01–03) are UNGATED and pre-gym, and stay vague so the punchline
-  only clicks once the player reaches the gym and sees the phones (04–07).
-- Reveal never states "divorce/ex-wife" — coy euphemism only (decided w/ user).
-- Why-leader (08) and throwbacks (09–10) unlock post-progression as callbacks.
+- Path fragments (01-03) are UNGATED and pre-gym, and stay vague so the punchline
+  only clicks once the player reaches the gym and sees the phones (04-07).
+- Reveal never states "divorce/ex-wife" - coy euphemism only (decided w/ user).
+- Why-leader (08) and throwbacks (09-10) unlock post-progression as callbacks.
 - Brock's own battle lines stay archetypal Gym-Leader; comedy lives in the room
   around him, not in his threats, so the hard-but-fair fight still reads as real.
 - RETIRED earlier draft: "raising younger siblings / father left to train."
@@ -62,11 +62,11 @@ finishes and a curious one gets the hidden layer.
 
 | ID | Subject | Reveal | Source NPC | Map | Gate | Order | Status | Flags |
 |---|---|---|---|---|---|---|---|---|
-| XXXX-01 | <leader> | <hook the player notices first> | | | none | 1 | idea | — |
-| XXXX-02 | <leader> | <deeper detail> | | | after Nth badge | 2 | idea | — |
-| XXXX-03 | <leader> | <the payoff / reframe> | | | late-game flag | 3 | idea | — |
+| XXXX-01 | <leader> | <hook the player notices first> | | | none | 1 | idea | - |
+| XXXX-02 | <leader> | <deeper detail> | | | after Nth badge | 2 | idea | - |
+| XXXX-03 | <leader> | <the payoff / reframe> | | | late-game flag | 3 | idea | - |
 
 ## Optional: in-world aggregator (decide later)
 FRLG has no quest log, so players piece histories together from memory. If that's
-too easy to miss, add a light aggregator — a gossip or librarian per town who
+too easy to miss, add a light aggregator - a gossip or librarian per town who
 recaps what you've uncovered. Not committing yet; noted so it isn't forgotten.

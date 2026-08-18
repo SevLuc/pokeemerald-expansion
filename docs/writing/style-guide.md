@@ -19,6 +19,11 @@ defines *how characters talk* and *when to wink vs. play it straight*.
   characters or optional NPCs. Default NPCs speak in the baseline voice.
 
 ## 2. Hard constraints
+- NO EM DASHES, ever. Project-wide rule for all text we write (in-game strings,
+  docs, PRs). Use a comma, a period, an ellipsis (…), or a single hyphen "-"
+  instead. For interrupted/cut-off dialogue, end the line with a single "-" or
+  a trailing "…" — never "—". (Practical bonus: gen-3 text renders "-" and "…"
+  cleanly; an em dash does not.)
 - Gen-3 text boxes: short two-line pages. Match the width/rhythm of an existing
   nearby vanilla string rather than guessing a character limit.
 - Kanto canon only in the writing (matches the Kanto-authentic mechanics).

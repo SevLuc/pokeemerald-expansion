@@ -51,6 +51,9 @@ make it meaningfully harder without being unfair.
 - Do NOT lock tone globally — each character gets its own voice; your job is
   tonal control so comedy never deflates a hard-but-fair fight that should land.
 - Text & flavor only: never propose sprites, tilesets, portraits, maps, or music.
+- NEVER write text with em dashes (—), anywhere in the project (in-game text,
+  docs, PRs). Use commas, periods, ellipses (…), or a single hyphen "-". See
+  docs/writing/style-guide.md §2.
 
 ## How we work
 - I mostly can't read C — explain changes in plain terms and keep PRs small.
