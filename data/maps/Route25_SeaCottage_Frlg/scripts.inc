@@ -96,6 +96,7 @@ Route25_SeaCottage_EventScript_BillGiveSSTicket::
 	checkplayergender
 	call_if_eq VAR_RESULT, MALE, Route25_SeaCottage_EventScript_BillThanksMale
 	call_if_eq VAR_RESULT, FEMALE, Route25_SeaCottage_EventScript_BillThanksFemale
+	msgbox Route25_SeaCottage_Text_BillPsyduckAndMisty
 	checkitemspace ITEM_SS_TICKET
 	goto_if_eq VAR_RESULT, FALSE, Route25_SeaCottage_EventScript_NoRoomForSSTicket
 	giveitem_msg Route25_SeaCottage_Text_ReceivedSSTicketFromBill, ITEM_SS_TICKET, 1, MUS_RG_OBTAIN_KEY_ITEM
@@ -347,25 +348,41 @@ Route25_SeaCottage_Text_NoPleaseBeautiful::
 	.string "Okay?\l"
 	.string "All right!$"
 
+Route25_SeaCottage_Text_BillPsyduckAndMisty::
+	.string "You wanna know how I ended up\n"
+	.string "FUSED with a CLEFAIRY?\p"
+	.string "I was calibrating the Cell\n"
+	.string "Separation System. Door's open.\p"
+	.string "In waddles a PSYDUCK. Blank stare.\n"
+	.string "Mashes every button on the panel.\p"
+	.string "Machine kicks on. With ME inside.\p"
+	.string "And the PSYDUCK? Just… walks out.\n"
+	.string "Didn't even look back.\p"
+	.string "Ha! That duck belongs to MISTY.\n"
+	.string "The CERULEAN GYM LEADER.\p"
+	.string "It's her FIRST POKéMON, y'know.\n"
+	.string "And her total opposite.\p"
+	.string "She's all discipline. That thing's\n"
+	.string "all… whatever THAT was.\p"
+	.string "Here's what nobody says out loud.\n"
+	.string "It's why she trains only WATER\l"
+	.string "POKéMON.\p"
+	.string "A PSYDUCK can wander off.\p"
+	.string "A GOLDEEN? Always stays in\n"
+	.string "the pool.\p"
+	.string "…It's a zen state of mind.\p"
+	.string "She could've let that duck go a\n"
+	.string "hundred times. Never has. Not once.\p"
+	.string "Anyway! I owe you big.\n"
+	.string "Here, this oughta cover it.$"
+
 Route25_SeaCottage_Text_ThanksBudTakeThis::
-	.string "BILL: Yeehah!\n"
-	.string "Thanks, bud! I owe you one!\p"
-	.string "So, did you come to see my\n"
-	.string "POKéMON collection?\p"
-	.string "You didn't?\n"
-	.string "That's a bummer.\p"
-	.string "I've got to thank you…\n"
-	.string "Oh, here, maybe this'll do.$"
+	.string "BILL: Yeehah! I'm ME again!\n"
+	.string "Thanks a million, bud!$"
 
 Route25_SeaCottage_Text_ThanksLadyTakeThis::
-	.string "BILL: Yeehah!\n"
-	.string "Thanks, lady! I owe you one!\p"
-	.string "So, did you come to see my\n"
-	.string "POKéMON collection?\p"
-	.string "You didn't?\n"
-	.string "That's a bummer.\p"
-	.string "I've got to thank you…\n"
-	.string "Oh, here, maybe this'll do.$"
+	.string "BILL: Yeehah! I'm ME again!\n"
+	.string "Thanks a million, lady!$"
 
 Route25_SeaCottage_Text_ReceivedSSTicketFromBill::
 	.string "{PLAYER} received an S.S. TICKET\n"
@@ -382,7 +399,9 @@ Route25_SeaCottage_Text_SSAnnePartyYouGoInstead::
 	.string "They invited me to their party, but\n"
 	.string "I can't stand fancy do's.\p"
 	.string "Why don't you go instead of me?\n"
-	.string "Go on and have a good time.$"
+	.string "Go on and have a good time.\p"
+	.string "…And don't ask me why the machine\n"
+	.string "was set to a CLEFAIRY.$"
 
 Route25_SeaCottage_Text_CheckOutRareMonsOnPC::
 	.string "BILL: Feel like checking out some\n"

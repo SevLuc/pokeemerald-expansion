@@ -69,6 +69,15 @@ GYM - Diana & Luis just VERIFY / ENTERTAIN (light, per user):
 - Diana: "Oh, you've heard about the duck. Everyone has. …Don't bring it up."
 - Luis: "You got this far, so you know the rule about bugs. …Good."
 
+## BILL = the payoff aggregator (IN-GAME, Route 25 Sea Cottage)
+The whole coy chorus pays off at Bill. After you free him from the CLEFAIRY, he
+explains it all (the ONE deliberate non-coy telling): Misty's PSYDUCK wandered
+into his Cell Separation System, mashed buttons, fused him, then walked out. He
+finds it hilarious, then tells the Misty lore in depth - Psyduck is her first
+mon and her opposite; she trains only WATER POKéMON because "a PSYDUCK can wander
+off, a GOLDEEN always stays in the pool… a zen state of mind"; she'll never let
+it go. Re-talk button: "…don't ask me why the machine was set to a CLEFAIRY."
+
 ## Post-badge emotional core (MISTY-06, gated, still implied)
 - "Everyone thinks that PSYDUCK is the joke. …I think it's the one thing she'd
   never replace."
