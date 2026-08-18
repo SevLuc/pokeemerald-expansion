@@ -12,10 +12,10 @@ divorce until the ringing phones at the gym make it click.
 STATUS: drafted, not yet placed (user wires NPCs in Porymap; I write scripts then).
 Carriers below note EXISTING Pewter City NPCs vs NEW objects to add.
 
-- [Fat Man - EXISTING NPC, append to his current Brock praise] "…Mind you, the
-  man's got history. / You'll see soon enough."
-- [Lass - EXISTING NPC, repurpose] "BROCK? Everybody loves BROCK. / Big heart,
-  that one. …Gives it away a little too easy."
+- [Fat Man - EXISTING NPC, IN-GAME] appended to his Brock praise: "…Mind you,
+  the man's got history. / You'll see soon enough."
+- [Lass - EXISTING NPC, IN-GAME] replaced her Clefairy/Moon-Stone rumor: "BROCK?
+  Everybody loves BROCK. / Big heart, that one. …Gives it away a little too easy."
 - [NEW NPC near gym] "Off to challenge BROCK? Get in line. / Everyone wants a
   piece of him. His lawyers, mostly."
 - [NEW NPC - woman, then clams up] "Oh, I knew BROCK. Once. …Briefly."
