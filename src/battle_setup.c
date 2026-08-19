@@ -643,6 +643,21 @@ static void DowngradeBadPoison(void)
     }
 }
 
+// When OW_HEAL_AFTER_BATTLE is enabled, the party is fully restored (HP, status, PP)
+// once a battle ends, so the player never needs to return to a Pokémon Center.
+// Facility challenges (Frontier, Trainer Tower/Hill), link, Safari, recorded, and
+// tutorial battles are excluded so their intended no-heal attrition stays intact.
+static bool32 ShouldAutoHealPartyAfterBattle(void)
+{
+    if (!OW_HEAL_AFTER_BATTLE)
+        return FALSE;
+    if (gBattleTypeFlags & (BATTLE_TYPE_LINK | BATTLE_TYPE_FRONTIER | BATTLE_TYPE_TRAINER_HILL
+                          | BATTLE_TYPE_SAFARI | BATTLE_TYPE_RECORDED | BATTLE_TYPE_RECORDED_LINK
+                          | BATTLE_TYPE_CATCH_TUTORIAL | BATTLE_TYPE_POKEDUDE))
+        return FALSE;
+    return TRUE;
+}
+
 static void CB2_EndWildBattle(void)
 {
     CpuFill16(0, (void *)(BG_PLTT), BG_PLTT_SIZE);
@@ -665,6 +680,8 @@ static void CB2_EndWildBattle(void)
     {
         SetMainCallback2(CB2_ReturnToField);
         DowngradeBadPoison();
+        if (ShouldAutoHealPartyAfterBattle())
+            HealPlayerParty();
         gFieldCallback = FieldCB_ReturnToFieldNoScriptCheckMusic;
     }
 }
@@ -684,6 +701,8 @@ static void CB2_EndScriptedWildBattle(void)
     else
     {
         DowngradeBadPoison();
+        if (ShouldAutoHealPartyAfterBattle())
+            HealPlayerParty();
         SetMainCallback2(CB2_ReturnToFieldContinueScriptPlayMapMusic);
     }
 }
@@ -705,6 +724,8 @@ static void CB2_EndMarowakBattle(void)
         else
             gSpecialVar_Result = TRUE;
         DowngradeBadPoison();
+        if (ShouldAutoHealPartyAfterBattle())
+            HealPlayerParty();
         SetMainCallback2(CB2_ReturnToFieldContinueScriptPlayMapMusic);
     }
 }
@@ -1484,6 +1505,8 @@ static void CB2_EndTrainerBattle(void)
     {
         SetMainCallback2(CB2_ReturnToFieldContinueScriptPlayMapMusic);
         DowngradeBadPoison();
+        if (ShouldAutoHealPartyAfterBattle())
+            HealPlayerParty();
         if (CurrentBattlePyramidLocation() == PYRAMID_LOCATION_NONE && !InTrainerHillChallenge())
         {
             RegisterTrainerInMatchCall();
@@ -1510,6 +1533,8 @@ static void CB2_EndRematchBattle(void)
         SetBattledTrainersFlags();
         HandleRematchVarsOnBattleEnd();
         DowngradeBadPoison();
+        if (ShouldAutoHealPartyAfterBattle())
+            HealPlayerParty();
     }
 }
 
