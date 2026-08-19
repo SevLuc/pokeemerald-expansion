@@ -70,6 +70,12 @@ GYM - Diana & Luis just VERIFY / ENTERTAIN (light, per user):
 - Luis: "You got this far, so you know the rule about bugs. …Good."
 
 ## BILL = the payoff aggregator (IN-GAME, Route 25 Sea Cottage)
+Fused intro (before you free him, IN-GAME, both pal/lady copies): goofy, leans
+into the CLEFAIRY - "Hiya! Behold, a majestic CLEFAIRY! / …I have a PhD, you
+know. / BILL. Genius. Inventor. Presently a pink puffball that goes 'clef.' /
+Bad experiment. Got fused. The CLEFAIRY seems thrilled. I am NOT. / Help me
+un-fuse before it makes me do the little moon dance again."
+
 The whole coy chorus pays off at Bill. After you free him from the CLEFAIRY, he
 explains it all (the ONE deliberate non-coy telling): Misty's PSYDUCK wandered
 into his Cell Separation System, mashed buttons, fused him, then walked out. He
