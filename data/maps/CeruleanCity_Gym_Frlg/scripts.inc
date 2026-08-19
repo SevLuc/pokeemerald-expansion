@@ -152,12 +152,12 @@ CeruleanCity_Gym_Text_BetterMakeRoomForThis::
 	.string "You better make room for this!$"
 
 CeruleanCity_Gym_Text_MistyDefeat::
-	.string "Ugh! Fine. You got me.\p"
-	.string "You're strong. I'll admit that.\n"
-	.string "…Don't let it go to your head.\p"
-	.string "Here. The CASCADEBADGE. Earned.\p"
-	.string "…Even PSYDUCK looks impressed.\n"
-	.string "And PSYDUCK is NEVER impressed.$"
+	.string "…Huh. You didn't let me get away\n"
+	.string "with anything.\p"
+	.string "I only train what can't run.\p"
+	.string "Turns out, today, neither could I.\p"
+	.string "Here. The CASCADEBADGE.\n"
+	.string "It's yours.$"
 
 CeruleanCity_Gym_Text_DianaIntro::
 	.string "What? You?\n"
