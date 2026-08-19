@@ -99,7 +99,8 @@ never claim Rocket is finished. Full lines: drafts/surge.md.
 | SURGE-04 | S.S. Anne (praise) | The crew still salute the Lt; the ship's a symbol of the free city now. | S.S. Anne NPC | S.S. Anne | none | 4 | idea | - |
 | SURGE-05 | S.S. Anne (freedom) | Passengers marvel that Vermilion is safe to sail from at all. | S.S. Anne NPC | S.S. Anne | none | 5 | idea | - |
 | SURGE-06 | PAYOFF (plain telling) | The CAPTAIN was there: Surge infiltrated the ship, turned it into his weapon, struck fast, and freed the city, then walked away from power. | S.S. Anne Captain (HM01 CUT) | S.S. Anne | reach the Captain | 6 | idea | [FLAG: canon-check] |
-| SURGE-07 | Surge himself | Loud macho trash-talk ("HYPER BEAM to the dome-ski"); the history only leaks. | Lt. Surge | Vermilion Gym | none | 7 | idea | - |
+| SURGE-07 | Surge himself | Intro: loud macho ("HYPER BEAM to the dome-ski"; "Not on my turf. Not anymore."). Defeat: "Reminds me of me. Back when it counted." History only leaks. | Lt. Surge | Vermilion Gym | none | 7 | in-game | - |
+| SURGE-07b | Surge (via ex-soldier) | Tucker (served under Surge) defeat: "…But the LT's faced worse. Far worse." | Tucker (gym trainer) | Vermilion Gym | none | 7 | in-game | [FLAG: canon-check] |
 | SURGE-08 | Why gym leader | He refused to be the new boss; took the gym to protect Vermilion. | Vermilion NPC / Surge | Vermilion City | after 3rd badge | 8 | idea | [FLAG: canon-check] |
 
 ## Template: new gym leader

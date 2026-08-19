@@ -286,15 +286,15 @@ VermilionCity_Gym_EventScript_GymStatuePostVictory::
 	end
 
 VermilionCity_Gym_Text_LtSurgeIntro::
-	.string "Hey, kid! What do you think you're\n"
-	.string "doing here?\p"
-	.string "You won't live long in combat!\n"
-	.string "Not with your puny power!\p"
-	.string "I tell you, kid, electric POKéMON\n"
-	.string "saved me during the war!\p"
-	.string "They zapped my enemies into\n"
-	.string "paralysis!\p"
-	.string "The same as I'll do to you!{PLAY_BGM}{MUS_RG_ENCOUNTER_GYM_LEADER}$"
+	.string "Well, well. Fresh recruit.\p"
+	.string "You ever had a HYPER BEAM to the\n"
+	.string "dome-ski, kid? …Figures.\p"
+	.string "I don't lose. Not on my turf.\n"
+	.string "Not anymore.\p"
+	.string "My POKéMON are FAST. Faster than\n"
+	.string "trouble ever was.\p"
+	.string "Show me somethin', or get zapped.\n"
+	.string "Your call!{PLAY_BGM}{MUS_RG_ENCOUNTER_GYM_LEADER}$"
 
 VermilionCity_Gym_Text_LtSurgePostBattle::
 	.string "A little word of advice, kid!\p"
@@ -322,9 +322,12 @@ VermilionCity_Gym_Text_MakeRoomInYourBag::
 	.string "Yo, kid, make room in your BAG!$"
 
 VermilionCity_Gym_Text_LtSurgeDefeat::
-	.string "Now that's a shocker!\p"
-	.string "You're the real deal, kid!\p"
-	.string "Fine, then, take the THUNDERBADGE!$"
+	.string "Hah! Now THAT'S a jolt!\p"
+	.string "You've got real voltage, kid.\p"
+	.string "…Reminds me of me. Back when it\n"
+	.string "counted.\p"
+	.string "Take the THUNDERBADGE. You earned\n"
+	.string "every volt.$"
 
 VermilionCity_Gym_Text_TuckerIntro::
 	.string "When I was in the Army, LT. SURGE\n"
@@ -332,8 +335,9 @@ VermilionCity_Gym_Text_TuckerIntro::
 	.string "He was a hard taskmaster.$"
 
 VermilionCity_Gym_Text_TuckerDefeat::
-	.string "Stop!\n"
-	.string "You're very good!$"
+	.string "Stop! You're very good!\p"
+	.string "…But the LT's faced worse.\n"
+	.string "Far worse. Trust me.$"
 
 VermilionCity_Gym_Text_TuckerPostBattle::
 	.string "It's not easy opening that door.\p"
