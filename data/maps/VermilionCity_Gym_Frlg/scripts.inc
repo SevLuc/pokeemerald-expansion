@@ -297,18 +297,23 @@ VermilionCity_Gym_Text_LtSurgeIntro::
 	.string "Your call!{PLAY_BGM}{MUS_RG_ENCOUNTER_GYM_LEADER}$"
 
 VermilionCity_Gym_Text_LtSurgePostBattle::
-	.string "Word of advice, kid.\p"
-	.string "Electricity's got no bite on\n"
-	.string "GROUND types. Remember it.\p"
-	.string "Discipline beats power. …Mostly.$"
+	.string "Free tip, kid. Soldier to soldier.\p"
+	.string "ELECTRIC does NOTHING to a GROUND\n"
+	.string "type. Zip. You're firing blanks.\p"
+	.string "So dig in. Stay fast. Hit first.\p"
+	.string "That's how I took this town.\n"
+	.string "…Forget that last part.$"
 
 VermilionCity_Gym_Text_ExplainThunderBadgeTakeThis::
-	.string "The THUNDERBADGE cranks up your\n"
-	.string "POKéMON's SPEED!\p"
-	.string "It also lets your POKéMON FLY\n"
-	.string "lightning-quick anytime, kid!\p"
-	.string "You're special, kid!\n"
-	.string "Take this!$"
+	.string "The THUNDERBADGE. Wear it proud.\p"
+	.string "Your POKéMON move faster now.\n"
+	.string "SPEED for days, kid.\p"
+	.string "And they can FLY you clear across\n"
+	.string "KANTO, quick as a THUNDERBOLT.\p"
+	.string "You cracked my defenses. Nobody's\n"
+	.string "done that in years.\p"
+	.string "Real soldiers get medals.\n"
+	.string "Take this, too.$"
 
 VermilionCity_Gym_Text_ReceivedTM34FromLtSurge::
 	.string "{PLAYER} received TM34\n"
