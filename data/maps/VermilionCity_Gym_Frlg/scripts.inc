@@ -297,12 +297,10 @@ VermilionCity_Gym_Text_LtSurgeIntro::
 	.string "Your call!{PLAY_BGM}{MUS_RG_ENCOUNTER_GYM_LEADER}$"
 
 VermilionCity_Gym_Text_LtSurgePostBattle::
-	.string "Free tip, kid. Soldier to soldier.\p"
-	.string "ELECTRIC does NOTHING to a GROUND\n"
-	.string "type. Zip. You're firing blanks.\p"
-	.string "So dig in. Stay fast. Hit first.\p"
-	.string "That's how I took this town.\n"
-	.string "…Forget that last part.$"
+	.string "I don't hold this turf to rule\n"
+	.string "it, kid.\p"
+	.string "I hold it so the wrong sort\n"
+	.string "never can again.$"
 
 VermilionCity_Gym_Text_ExplainThunderBadgeTakeThis::
 	.string "The THUNDERBADGE. Wear it proud.\p"
