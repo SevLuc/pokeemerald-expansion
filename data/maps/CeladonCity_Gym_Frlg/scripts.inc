@@ -195,7 +195,11 @@ CeladonCity_Gym_Text_LisaDefeat::
 
 CeladonCity_Gym_Text_LisaPostBattle::
 	.string "Our LEADER ERIKA might be quiet,\n"
-	.string "but she's famous around here.$"
+	.string "but she's famous around here.\p"
+	.string "The truth about her? Everyone\n"
+	.string "wants it.\p"
+	.string "Ask ten of us, you'll get ten\n"
+	.string "ERIKAs. …She likes it that way.$"
 
 CeladonCity_Gym_Text_LoriIntro::
 	.string "Pleased to meet you.\n"

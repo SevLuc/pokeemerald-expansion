@@ -31,5 +31,12 @@ hard-but-fair rebalance against vanilla.
 - Puzzle: trash-can "discipline/endurance" trial (SURGE-GIMMICK).
 - History fragments: see SURGE-* in lore-ledger.md (payoff = S.S. Anne Captain).
 
-## Gyms 4–8
-(Erika, Koga, Sabrina, Blaine, Giovanni — fill in)
+## Gym 4 — Celadon (Erika, Grass) — Rainbow Badge
+- Vanilla team: (fill from data)
+- Rebalanced team: (TBD)
+- Gimmick: canon "ladies only" flower gym (no change).
+- History fragments: see ERIKA-* in lore-ledger.md. Mystique by design - the town
+  trades five contradictory legends and none is confirmed; NO plain telling.
+
+## Gyms 5–8
+(Koga, Sabrina, Blaine, Giovanni — fill in)

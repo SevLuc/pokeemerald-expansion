@@ -124,6 +124,44 @@ Consistency notes:
   usable once the Captain awards it), so the trial framing lives entirely in the
   Captain's reveal and the ambient lines - no extra enforcement object needed.
 
+## Erika - the Sleeping Enigma (mystique by design; no plain telling)
+Concept: the gentle, ever-dozing flower-princess is the subject of Kanto's wildest
+contradictory legends, and NONE is ever confirmed in-game. That is the character:
+she cultivates her own mystery like she cultivates flowers. Unlike Brock/Misty/
+Surge, there is deliberately NO payoff NPC who explains her plainly (decided w/
+user). The "payoff" is a gym devotee who gathers the rumors and refuses to settle
+them ("ask ten of us, you'll get ten ERIKAs").
+
+ANCHOR (the one thing everyone agrees on): she's never seen awake, and her garden
+grows flowers found nowhere else. Every rumor hangs off that; each is a FACET a
+different kind of person believes. Delivery = coy ambient chorus across Celadon
+City NPCs (append to existing lines), plus the aggregator inside the gym. Full
+lines: drafts/erika.md.
+CANON: the Rocket line stays canon-safe - grunts AVOID her garden ("Boss's
+orders"); it never says she fights or beats Team Rocket. Silly-through-contrast: a
+menacing grunt spooked by a florist; a dozer who gave an old man insomnia.
+
+| ID | Subject | Reveal | Source NPC | Map | Gate | Order | Status | Flags |
+|---|---|---|---|---|---|---|---|---|
+| ERIKA-01 | Facet: poison/medicine | Little Girl (has a KOFFING): "ERIKA grows flowers like that. Pretty. But mom says never sniff one twice. …I forget why." | Little Girl (existing) | Celadon City | none | 1 | in-game | [FLAG: canon-check] |
+| ERIKA-02 | Facet: perfume calms city | Woman (civic-pride append): "Some say it's no accident we stay so lovely. ERIKA's perfumes, on the wind. …I don't ask." | Woman (existing) | Celadon City | none | 2 | in-game | - |
+| ERIKA-03 | Facet: once-fearsome battler | Fat Man (Poliwrath owner): "I saw her battle once, years back. …I've slept poorly ever since." | Fat Man (existing) | Celadon City | none | 3 | in-game | - |
+| ERIKA-04 | Facet: ladies-only refuge | Old Man 1 (append to "full of women!"): "…I hear she teaches them more than flowers. Never got past the door." | Old Man 1 (existing) | Celadon City | none | 4 | in-game | - |
+| ERIKA-05 | Facet: even Rocket steers clear | Rocket Grunt (append): "Keep clear of that GYM too. Boss's orders. Something about her garden. I don't ask twice." | Rocket Grunt 1 (existing) | Celadon City | none | 5 | in-game | [FLAG: canon-check] |
+| ERIKA-06 | Anchor: the impossible garden | Boy (tea append): "They say her tea leaves come from ERIKA's garden. Maybe that's why I saw colors that don't have names." | Boy (existing) | Celadon City | none | 6 | in-game | - |
+| ERIKA-PAYOFF | The non-answer (aggregator) | Gym trainer Lisa (post-battle): "The truth about her? Ask ten of us, you'll get ten ERIKAs. …She likes it that way." | Lisa (gym trainer) | Celadon Gym | after her battle | 7 | in-game | - |
+| ERIKA-08 | Post-badge wink | Old Man 1 (post-badge branch): "You beat ERIKA? And you still can't tell me one true thing about her. …That's ERIKA." | Old Man 1 (existing; post-badge) | Celadon City | FLAG_BADGE04_GET | 8 | in-game | - |
+
+Consistency notes:
+- NO plain telling anywhere - that is the whole point. If a future line "solves"
+  Erika, it's wrong. Keep every facet coy and mutually contradictory.
+- All facets share the ANCHOR (never awake + impossible garden), so the rumors
+  feel like one mystery viewed from many angles, not a random grab-bag.
+- ERIKA-08 gates on FLAG_BADGE04_GET (her own Rainbow Badge): the wink only lands
+  after you've beaten her and STILL know nothing.
+- Erika's own gym lines stay archetypal vanilla (dozing princess); the mystique
+  lives in the town around her, so the hard-but-fair fight still reads real.
+
 ## Template: new gym leader
 Copy per leader. Keep fragments optional and gated so a rushing player still
 finishes and a curious one gets the hidden layer.

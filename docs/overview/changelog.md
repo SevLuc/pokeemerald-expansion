@@ -7,6 +7,15 @@ Update in the same PR as the change.
 `YYYY-MM-DD` — area — one-line summary (PR/commit ref)
 
 ## Entries
+- 2026-08-19 — story/flavor — Erika "Sleeping Enigma" ambient lore (Celadon).
+  Added a coy, deliberately-unresolved rumor chorus about Erika, appended to
+  existing Celadon City NPCs (Little Girl, Woman, Fat Man, Old Man 1 incl. a
+  post-`FLAG_BADGE04_GET` wink branch, Rocket Grunt 1, Boy) and gym trainer Lisa's
+  post-battle line. Five contradictory facets (poison/medicine, perfume-calms-city,
+  once-fearsome, ladies-only refuge, even-Rocket-avoids-her) hang off one anchor
+  (never awake + an impossible garden); NO plain telling by design. Text/flavor
+  only, no new objects. Rocket line canon-safe (grunts avoid her garden, never
+  "she beat Rocket"). See ERIKA-* in docs/writing/lore-ledger.md.
 - 2026-08-19 — story/flavor — Lt. Surge S.S. Anne arc + gym-gate framing. Rewrote
   the S.S. Anne Captain (`SSAnne_CaptainsOffice_Frlg`): dropped the seasick/back-rub
   gag; reaching the Captain now reads as clearing "the first trial", and he tells

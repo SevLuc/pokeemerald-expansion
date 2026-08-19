@@ -12,7 +12,14 @@ CeladonCity_EventScript_LittleGirl::
 
 CeladonCity_EventScript_OldMan1::
 	lock
+	faceplayer
+	goto_if_set FLAG_BADGE04_GET, CeladonCity_EventScript_OldMan1PostBadge
 	msgbox CeladonCity_Text_GymIsGreatFullOfWomen
+	release
+	end
+
+CeladonCity_EventScript_OldMan1PostBadge::
+	msgbox CeladonCity_Text_OldMan1ErikaWink
 	release
 	end
 
@@ -105,17 +112,34 @@ CeladonCity_EventScript_GameCornerSign::
 CeladonCity_Text_GotMyKoffingInCinnabar::
 	.string "I got my KOFFING in CINNABAR.\p"
 	.string "It's usually nice, but it breathes\n"
-	.string "poison when it's angry.$"
+	.string "poison when it's angry.\p"
+	.string "…ERIKA grows flowers like that.\p"
+	.string "Pretty ones. But mom says never\n"
+	.string "sniff one twice. …I forget why.$"
 
 CeladonCity_Text_GymIsGreatFullOfWomen::
 	.string "Heheh! This GYM is great!\n"
-	.string "It's full of women!$"
+	.string "It's full of women!\p"
+	.string "…Though I hear she teaches them\n"
+	.string "more than flowers in there.\p"
+	.string "Wouldn't know. Never once got\n"
+	.string "past the door.$"
+
+CeladonCity_Text_OldMan1ErikaWink::
+	.string "So you beat ERIKA?\p"
+	.string "And you still can't tell me one\n"
+	.string "true thing about her.\p"
+	.string "Heh. …That's ERIKA.$"
 
 CeladonCity_Text_GameCornerIsBadForCitysImage::
 	.string "CELADON takes pride in its efforts\n"
 	.string "to keep the city beautiful.\p"
 	.string "That's why the new GAME CORNER is\n"
-	.string "bad for our city's image.$"
+	.string "bad for our city's image.\p"
+	.string "Mind, some say it's no accident\n"
+	.string "we stay so lovely.\p"
+	.string "ERIKA's perfumes, on the wind.\n"
+	.string "…I don't ask. I just breathe.$"
 
 CeladonCity_Text_BlewItAllAtSlots::
 	.string "Moan…\n"
@@ -126,7 +150,11 @@ CeladonCity_Text_BlewItAllAtSlots::
 CeladonCity_Text_MyTrustedPalPoliwrath::
 	.string "This is my trusted pal, POLIWRATH.\p"
 	.string "It evolved from a POLIWHIRL when\n"
-	.string "I used a WATER STONE.$"
+	.string "I used a WATER STONE.\p"
+	.string "Strong as he is, I'd not face\n"
+	.string "ERIKA with him.\p"
+	.string "I saw her battle once, years back.\n"
+	.string "…I've slept poorly ever since.$"
 
 CeladonCity_Text_Poliwrath::
 	.string "POLIWRATH: Ribi ribit!$"
@@ -136,7 +164,11 @@ CeladonCity_Text_GetLostOrIllPunchYou::
 	.string "Get lost, or I'll punch you.$"
 
 CeladonCity_Text_KeepOutOfTeamRocketsWay::
-	.string "Keep out of TEAM ROCKET's way!$"
+	.string "Keep out of TEAM ROCKET's way!\p"
+	.string "…But you keep clear of that GYM,\n"
+	.string "too. Boss's orders.\p"
+	.string "Something about her garden.\n"
+	.string "I don't ask twice.$"
 
 CeladonCity_Text_ExplainXAccuracyDireHit::
 	.string "TRAINER TIPS\p"
@@ -185,7 +217,11 @@ CeladonCity_Text_ScaldedTongueOnTea::
 	.string "This nice old lady in the MANSION\n"
 	.string "gave me some TEA.\p"
 	.string "But it was boiling hot!\n"
-	.string "Gotta cool it to drink it.$"
+	.string "Gotta cool it to drink it.\p"
+	.string "…They say her tea leaves come\n"
+	.string "from ERIKA's garden.\p"
+	.string "Maybe that's why I saw colors\n"
+	.string "that don't have names.$"
 
 Text_SoftboiledTeach::
 	.string "Hello, there!\p"
