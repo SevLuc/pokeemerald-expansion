@@ -41,8 +41,13 @@ LOCKED line (user): "You ever had a HYPER BEAM to the dome-ski?"
 - Defeat: impressed, respects strength; a faint nod that he's seen worse than the
   player. Hands over the THUNDERBADGE.
 - Trainers (Dwayne, Baily, Tucker): casual or one subtle war/loyalty note each.
-- Gym gimmick: the trash-can switch puzzle = his tactical/booby-trap military side
-  (reflavor lightly; don't rebuild the puzzle).
+- Gym gimmick (IN-GAME): the famous "hated" trash-can puzzle is reframed as
+  Surge's deliberate TEST OF DISCIPLINE + ENDURANCE. Every gym trainer, the Gym
+  Guy, and the puzzle messages sell it (Dwayne "Not cruelty. Discipline."; Baily
+  "can't stay calm digging trash? can't beat him"; Tucker "locked to see if
+  you'll quit"; puzzle "Composure, kid. Or start over."). Functional hints kept
+  (2nd lock adjacent, switches in cans, water/bird weak + paralysis). Full gym
+  flavored.
 
 ## Team (vanilla, for reference)
 Voltorb Lv21, Pikachu Lv18, Raichu Lv24. "Lightning fast" fits the strike-fast lore.
