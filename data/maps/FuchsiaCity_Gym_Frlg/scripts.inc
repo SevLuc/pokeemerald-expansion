@@ -108,10 +108,11 @@ FuchsiaCity_Gym_Text_KogaDefeat::
 	.string "Kh… you bested me. Rare.\p"
 	.string "I respect two things, child.\n"
 	.string "Results, and leverage.\p"
-	.string "You have shown me results.\n"
-	.string "The SOULBADGE is yours.\p"
-	.string "The board will hear of this.\n"
-	.string "…They hear of everything.$"
+	.string "You have both. The SOULBADGE\n"
+	.string "is yours.\p"
+	.string "…And a talent like that,\n"
+	.string "chasing little badges? Hm.\p"
+	.string "We should talk. Properly.$"
 
 FuchsiaCity_Gym_Text_KogaPostBattle::
 	.string "When afflicted by TOXIC, a POKéMON\n"
