@@ -7,6 +7,10 @@ Update in the same PR as the change.
 `YYYY-MM-DD` — area — one-line summary (PR/commit ref)
 
 ## Entries
+- 2026-08-19 — docs — Added `docs/overview/build-verification.md`, a living
+  checklist of merged changes not yet compiled/playtested (web sessions can't
+  build and CI has not run on this fork). Covers PRs #2, #4, #5, #6, #9, #10;
+  notes the still-open PR #3. No gameplay change.
 - 2026-08-19 — story/flavor — Blaine "the man who made the fire" Mewtwo-guilt arc
   (Cinnabar). Reflavored Blaine: the red-hot quiz-master was a lead researcher at the
   POKéMON MANSION on Dr. Fuji's team who helped create MEWTWO; it broke loose, burned
