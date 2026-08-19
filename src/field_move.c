@@ -3,64 +3,63 @@
 #include "field_move.h"
 #include "fldeff.h"
 #include "fldeff_misc.h"
+#include "item.h"
 #include "party_menu.h"
 #include "constants/field_move.h"
+#include "constants/items.h"
 #include "constants/moves.h"
 #include "constants/party_menu.h"
 
+// HM field moves gate on the corresponding Gym Badge by default. When
+// OW_HMS_USABLE_WITHOUT_LEARNING is on, they additionally require the player to
+// hold the HM item, so both the Badge and the HM are needed and no party
+// Pokémon has to have learned the move.
+static bool32 IsHMUnlocked(u16 hmItemId, bool32 badgeUnlocked)
+{
+    if (OW_HMS_USABLE_WITHOUT_LEARNING)
+        return badgeUnlocked && CheckBagHasItem(hmItemId, 1);
+
+    return badgeUnlocked;
+}
+
 static bool32 IsFieldMoveUnlocked_Cut(void)
 {
-    if (IS_FRLG)
-        return FlagGet(FLAG_BADGE02_GET);
-
-    return FlagGet(FLAG_BADGE01_GET);
+    return IsHMUnlocked(ITEM_HM_CUT, FlagGet(IS_FRLG ? FLAG_BADGE02_GET : FLAG_BADGE01_GET));
 }
 
 static bool32 IsFieldMoveUnlocked_Flash(void)
 {
-    if (IS_FRLG)
-        return FlagGet(FLAG_BADGE01_GET);
-
-    return FlagGet(FLAG_BADGE02_GET);
+    return IsHMUnlocked(ITEM_HM_FLASH, FlagGet(IS_FRLG ? FLAG_BADGE01_GET : FLAG_BADGE02_GET));
 }
 
 static bool32 IsFieldMoveUnlocked_RockSmash(void)
 {
-    if (IS_FRLG)
-        return FlagGet(FLAG_BADGE06_GET);
-
-    return FlagGet(FLAG_BADGE03_GET);
+    return IsHMUnlocked(ITEM_HM_ROCK_SMASH, FlagGet(IS_FRLG ? FLAG_BADGE06_GET : FLAG_BADGE03_GET));
 }
 
 static bool32 IsFieldMoveUnlocked_Strength(void)
 {
-    return FlagGet(FLAG_BADGE04_GET);
+    return IsHMUnlocked(ITEM_HM_STRENGTH, FlagGet(FLAG_BADGE04_GET));
 }
 
 static bool32 IsFieldMoveUnlocked_Surf(void)
 {
-    return FlagGet(FLAG_BADGE05_GET);
+    return IsHMUnlocked(ITEM_HM_SURF, FlagGet(FLAG_BADGE05_GET));
 }
 
 static bool32 IsFieldMoveUnlocked_Fly(void)
 {
-    if (IS_FRLG)
-        return FlagGet(FLAG_BADGE03_GET);
-
-    return FlagGet(FLAG_BADGE06_GET);
+    return IsHMUnlocked(ITEM_HM_FLY, FlagGet(IS_FRLG ? FLAG_BADGE03_GET : FLAG_BADGE06_GET));
 }
 
 static bool32 IsFieldMoveUnlocked_Dive(void)
 {
-    return FlagGet(FLAG_BADGE07_GET);
+    return IsHMUnlocked(ITEM_HM_DIVE, FlagGet(FLAG_BADGE07_GET));
 }
 
 static bool32 IsFieldMoveUnlocked_Waterfall(void)
 {
-    if (IS_FRLG)
-        return FlagGet(FLAG_BADGE07_GET);
-
-    return FlagGet(FLAG_BADGE08_GET);
+    return IsHMUnlocked(ITEM_HM_WATERFALL, FlagGet(IS_FRLG ? FLAG_BADGE07_GET : FLAG_BADGE08_GET));
 }
 
 static bool32 IsFieldMoveUnlocked_RockClimb(void)
@@ -111,6 +110,7 @@ const struct FieldMoveInfo gFieldMoveInfo[FIELD_MOVES_COUNT] =
         .isUnlockedFunc = IsFieldMoveUnlocked_Cut,
         .moveID = MOVE_CUT,
         .partyMsgID = PARTY_MSG_NOTHING_TO_CUT,
+        .hmItemId = ITEM_HM_CUT,
     },
 
     [FIELD_MOVE_FLASH] =
@@ -119,6 +119,7 @@ const struct FieldMoveInfo gFieldMoveInfo[FIELD_MOVES_COUNT] =
         .isUnlockedFunc = IsFieldMoveUnlocked_Flash,
         .moveID = MOVE_FLASH,
         .partyMsgID = PARTY_MSG_CANT_USE_HERE,
+        .hmItemId = ITEM_HM_FLASH,
     },
 
     [FIELD_MOVE_ROCK_SMASH] =
@@ -127,6 +128,7 @@ const struct FieldMoveInfo gFieldMoveInfo[FIELD_MOVES_COUNT] =
         .isUnlockedFunc = IsFieldMoveUnlocked_RockSmash,
         .moveID = MOVE_ROCK_SMASH,
         .partyMsgID = PARTY_MSG_CANT_USE_HERE,
+        .hmItemId = ITEM_HM_ROCK_SMASH,
     },
 
     [FIELD_MOVE_STRENGTH] =
@@ -135,6 +137,7 @@ const struct FieldMoveInfo gFieldMoveInfo[FIELD_MOVES_COUNT] =
         .isUnlockedFunc = IsFieldMoveUnlocked_Strength,
         .moveID = MOVE_STRENGTH,
         .partyMsgID = PARTY_MSG_CANT_USE_HERE,
+        .hmItemId = ITEM_HM_STRENGTH,
     },
 
     [FIELD_MOVE_SURF] =
@@ -143,6 +146,7 @@ const struct FieldMoveInfo gFieldMoveInfo[FIELD_MOVES_COUNT] =
         .isUnlockedFunc = IsFieldMoveUnlocked_Surf,
         .moveID = MOVE_SURF,
         .partyMsgID = PARTY_MSG_CANT_SURF_HERE,
+        .hmItemId = ITEM_HM_SURF,
     },
 
     [FIELD_MOVE_FLY] =
@@ -151,6 +155,7 @@ const struct FieldMoveInfo gFieldMoveInfo[FIELD_MOVES_COUNT] =
         .isUnlockedFunc = IsFieldMoveUnlocked_Fly,
         .moveID = MOVE_FLY,
         .partyMsgID = PARTY_MSG_CANT_USE_HERE,
+        .hmItemId = ITEM_HM_FLY,
     },
 
     [FIELD_MOVE_DIVE] =
@@ -159,6 +164,7 @@ const struct FieldMoveInfo gFieldMoveInfo[FIELD_MOVES_COUNT] =
         .isUnlockedFunc = IsFieldMoveUnlocked_Dive,
         .moveID = MOVE_DIVE,
         .partyMsgID = PARTY_MSG_CANT_USE_HERE,
+        .hmItemId = ITEM_HM_DIVE,
     },
 
     [FIELD_MOVE_WATERFALL] =
@@ -167,6 +173,7 @@ const struct FieldMoveInfo gFieldMoveInfo[FIELD_MOVES_COUNT] =
         .isUnlockedFunc = IsFieldMoveUnlocked_Waterfall,
         .moveID = MOVE_WATERFALL,
         .partyMsgID = PARTY_MSG_CANT_USE_HERE,
+        .hmItemId = ITEM_HM_WATERFALL,
     },
 
     [FIELD_MOVE_TELEPORT] =
