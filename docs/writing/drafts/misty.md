@@ -91,8 +91,10 @@ ROUTE 25 (to Bill's, the subtle payoff - MISTY-05):
   to the runaway Psyduck; never stated)
 
 GYM - Diana & Luis just VERIFY / ENTERTAIN (light, per user):
-- Diana: "Oh, you've heard about the duck. Everyone has. …Don't bring it up."
-- Luis: "You got this far, so you know the rule about bugs. …Good."
+- Diana post-battle (casual, beaten): "Fine, you win. MISTY's next. Good luck."
+- Luis post-battle (casual, beaten): "You beat me. Nice. MISTY won't be so easy."
+  (kept light per user - the lore lives in the town/bridge/route chorus + Bill,
+  not forced onto the gym trainers.)
 
 ## BILL = the payoff aggregator (IN-GAME, Route 25 Sea Cottage)
 Fused intro (before you free him, IN-GAME, both pal/lady copies): goofy, leans

@@ -143,8 +143,7 @@ CeruleanCity_Gym_Text_ExplainCascadeBadge::
 	.string "anytime, even out of battle.\p"
 	.string "You can CUT down small trees to\n"
 	.string "open new pathways.\p"
-	.string "And take my favorite TM.\n"
-	.string "…PSYDUCK never got it.$"
+	.string "You can also have my favorite TM.$"
 
 CeruleanCity_Gym_Text_ReceivedTM03FromMisty::
 	.string "{PLAYER} received TM03\n"
@@ -171,8 +170,8 @@ CeruleanCity_Gym_Text_DianaDefeat::
 	.string "…MISTY's still waiting. Good luck.$"
 
 CeruleanCity_Gym_Text_DianaPostBattle::
-	.string "Fine, you win. You'll do.\p"
-	.string "…Don't mention the duck to her.$"
+	.string "Fine, you win.\n"
+	.string "MISTY's next. Good luck.$"
 
 CeruleanCity_Gym_Text_LuisIntro::
 	.string "Splash!\p"
@@ -183,8 +182,8 @@ CeruleanCity_Gym_Text_LuisDefeat::
 	.string "That can't be!$"
 
 CeruleanCity_Gym_Text_LuisPostBattle::
-	.string "You beat me. Wow.\p"
-	.string "…Left your BUGS outside? Smart.$"
+	.string "You beat me. Nice.\n"
+	.string "MISTY won't be so easy.$"
 
 CeruleanCity_Gym_Text_GymGuyAdvice::
 	.string "Yo!\n"
