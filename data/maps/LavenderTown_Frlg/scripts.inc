@@ -71,7 +71,14 @@ LavenderTown_Text_TownKnownAsMonGraveSite::
 LavenderTown_Text_GhostsAppearedInTower::
 	.string "Ghosts appeared in POKéMON TOWER.\p"
 	.string "I think they're the spirits of\n"
-	.string "POKéMON that the ROCKETS killed.$"
+	.string "POKéMON that the ROCKETS killed.\p"
+	.string "…You want a real scary one?\p"
+	.string "Far to the south, they say a demon\n"
+	.string "was born out of a great fire.\p"
+	.string "No wings, but it flies. No home,\n"
+	.string "so it haunts a cave in the dark.\p"
+	.string "A curse that walked out of the\n"
+	.string "flames. …Brr. I believe it.$"
 
 LavenderTown_Text_TownSign::
 	.string "LAVENDER TOWN\n"

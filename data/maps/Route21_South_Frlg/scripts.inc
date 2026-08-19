@@ -9,7 +9,15 @@ Route21_South_Text_JackDefeat::
 	.string "Down!!$"
 
 Route21_South_Text_JackPostBattle::
-	.string "Where'd you catch your POKéMON?$"
+	.string "Where'd you catch your POKéMON?\p"
+	.string "Me, I've fished this stretch for\n"
+	.string "years. Seen strange things, too.\p"
+	.string "One night CINNABAR went up in\n"
+	.string "flame, off to the south.\p"
+	.string "Then a shape lifted out of the\n"
+	.string "smoke and shot north over the sea.\p"
+	.string "I dropped my rod. It never\n"
+	.string "came back down.$"
 
 Route21_South_Text_JeromeIntro::
 	.string "Right now, I'm in a triathlon meet.$"

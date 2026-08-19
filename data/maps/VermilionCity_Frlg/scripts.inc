@@ -289,7 +289,15 @@ VermilionCity_Text_WomanWhyLeader::
 
 VermilionCity_Text_DidYouSeeSSAnneInHarbor::
 	.string "Did you see the S.S. ANNE moored\n"
-	.string "in the harbor?$"
+	.string "in the harbor?\p"
+	.string "The sailors trade odd tales in\n"
+	.string "this port.\p"
+	.string "There's a patch of sea to the\n"
+	.string "southwest they won't cross.\p"
+	.string "Say an island burned there once,\n"
+	.string "and a thing rose off the water.\p"
+	.string "Went north and never landed.\n"
+	.string "…Sailors do love a good yarn.$"
 
 VermilionCity_Text_SSAnneHasDepartedForYear::
 	.string "So, the S.S. ANNE has departed?\p"

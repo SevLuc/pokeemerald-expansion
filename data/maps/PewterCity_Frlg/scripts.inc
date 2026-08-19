@@ -884,7 +884,15 @@ PewterCity_Text_DidYouCheckOutMuseum::
 
 PewterCity_Text_WerentThoseFossilsAmazing::
 	.string "Weren't those fossils from MT. MOON\n"
-	.string "amazing?$"
+	.string "amazing?\p"
+	.string "Science can raise wonders… and\n"
+	.string "horrors, so they say.\p"
+	.string "Ever hear of the island that\n"
+	.string "burned itself to nothing?\p"
+	.string "Some scholars cooked up a monster\n"
+	.string "there, is how the tale goes.\p"
+	.string "Down south someplace. Ancient\n"
+	.string "history now. …Or a tall tale.$"
 
 PewterCity_Text_ReallyYouHaveToGo::
 	.string "Really?\n"

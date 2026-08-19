@@ -236,7 +236,14 @@ ViridianCity_Text_CanCarryMonsAnywhere::
 	.string "Those POKé BALLS at your waist!\n"
 	.string "You have POKéMON, don't you?\p"
 	.string "It's great that you can carry and\n"
-	.string "use POKéMON anytime, anywhere.$"
+	.string "use POKéMON anytime, anywhere.\p"
+	.string "Hey, you're headed all over, right?\p"
+	.string "If you go south, folks talk about\n"
+	.string "an island that burned down.\p"
+	.string "They say a POKéMON did it.\n"
+	.string "Just up and torched the place.\p"
+	.string "Then swam off and never came back.\n"
+	.string "…Wild story, huh?$"
 
 ViridianCity_Text_GymClosedWonderWhoLeaderIs::
 	.string "This POKéMON GYM is always closed.\p"
