@@ -64,7 +64,7 @@ static const u8* const sTrainerSlides[DIFFICULTY_COUNT][TRAINER_PARTNER(PARTNER_
         [TRAINER_LEADER_MISTY] =
         {
             // Battle-open gripe: her PSYDUCK is out instead of her ace.
-            [TRAINER_SLIDE_BEFORE_FIRST_TURN] = COMPOUND_STRING("Fine. We do this with PSYDUCK.\nDon't you DARE go easy on me.{PAUSE_UNTIL_PRESS}"),
+            [TRAINER_SLIDE_BEFORE_FIRST_TURN] = COMPOUND_STRING("Fine. Let's go, PSYDUCK…\nDon't you DARE go easy on me.{PAUSE_UNTIL_PRESS}"),
         },
     },
 };
