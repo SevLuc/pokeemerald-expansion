@@ -308,6 +308,76 @@ Consistency notes:
 - His battle stays red-hot and hard (BURN HEAL bluster intact); the guilt only leaks in
   the quieter beats (defeat, badge, TM), so the fight still lands.
 
+## Giovanni - the man who was here all along (self-made; hiding in plain sight)
+Concept: UNIQUE among the leaders. Not fought once, but the recurring antagonist
+you battle THREE times (Rocket Hideout -> Silph Co -> Viridian Gym) and hear about
+all game through Team Rocket. Surface stays canon: the ROCKET boss, the Master Ball
+deal, the disbanding, the EARTHQUAKE TM. Hidden layer: the most-wanted man in Kanto
+has spent the whole game HIDING IN PLAIN SIGHT as the absent GYM LEADER of the
+sleepy first city you walked through. The region carries two absences, an unseen
+ROCKET BOSS and a never-there 8th LEADER, and the fragments slowly rhyme them until
+the PLAYER (never the NPCs) connects that they are one man. Canon does the payoff
+for you: the gym is locked all game and only opens at the end. Engine (NO son
+thread, decided w/ user): the SELF-MADE MAN FROM THE DIRT. He came up from nothing;
+strength IS worth; being weak once was terror. GROUND-type is thematically exact.
+When he finally loses, the empire was never the point (power was), so he gives it up
+without a fight and walks off to chase strength for its own sake. Full lines:
+drafts/giovanni.md.
+
+DELIVERY: dominant region-wide "who is the LEADER? / who is the BOSS?" ambient
+mystery (coy, appends to existing Rocket-beat + Viridian NPCs), the three battles
+reflavored to escalate the self-made + double-life weight (straight/menacing;
+humanity only in post-battle), and a semi-plain payoff (like Koga) that canon
+already lands inside the gym. SILLY-THROUGH-CONTRAST: Viridian's earnest civic
+devotion to a LEADER nobody has ever met (locked door "away… on business";
+townsfolk sure he's "a fine fellow"), while the danger stays straight in the
+fights. CANON-SAFE: touches no FRLG plot beats; reflavor + appends only, no new
+objects/art.
+
+| ID | Subject | Reveal | Source NPC | Map | Gate | Order | Status | Flags |
+|---|---|---|---|---|---|---|---|---|
+| GIOVANNI-01 | Boss (unseen, self-made seed) | Rocket grunt append: "Our BOSS came up from nothing. Nothing makes a man hungry." | Grunt2 (existing) | Mt Moon B2F | none (first brush) | 1 | in-game | - |
+| GIOVANNI-02 | Viridian gym (civic blind spot) | Old Man (append): "…Away for years, and we're proud of him all the same. …Whoever he is." | Old Man (existing) | Viridian City | none (pre-gym) | 2 | in-game | - |
+| GIOVANNI-02b | Viridian gym (civic blind spot) | Woman (append): "Our GYM LEADER? Never met the man. …A fine fellow, I'm sure." | Woman (existing) | Viridian City | none | 2 | in-game | - |
+| GIOVANNI-02c | Viridian gym (locked door, irony) | Locked-door line/sign: "…The LEADER is away… on business." (his business is crime) | Gym door/sign | Viridian City | none | 2 | in-game | - |
+| GIOVANNI-03 | Boss (self-made) | Hideout grunt (append): "He built all this from nothing. Don't expect him to go easy." | Grunt4 (existing) | Rocket Hideout B1F | reached hideout | 3 | in-game | - |
+| GIOVANNI-04 | Boss (double life, coy) | Tower grunt (append): "You think the BOSS dirties his own hands? He's got a clean face somewhere none of us have seen." | Grunt2 (existing) | Pokemon Tower 7F | Silph Scope arc | 4 | in-game | [FLAG: canon-check] |
+| GIOVANNI-B1 | Giovanni (1st fight) | Hideout B4F intro reflavored self-made ("I built TEAM ROCKET from nothing… the weak get ground under. So I made myself strong."); "step aside this time." | Giovanni | Rocket Hideout B4F | story | 5 | in-game | - |
+| GIOVANNI-05 | Boss (businessman veneer) | Silph NPC (append): "Talks like he was born to the boardroom. …He wasn't, I hear." | Silph employee (existing) | Silph Co 5F | Silph arc | 6 | in-game | - |
+| GIOVANNI-05b | Boss (owns everything) | Silph NPC (append): "…carries himself like he owns the place. Like he owns everything." | Silph employee (existing) | Silph Co 8F | Silph arc | 6 | in-game | - |
+| GIOVANNI-05c | Boss grunt (self-made) | Silph door grunt (append): "He had to be tough. Where he's from, soft things don't last." | Grunt1 (existing) | Silph Co 11F | Silph arc | 6 | in-game | - |
+| GIOVANNI-B2 | Giovanni (2nd fight) | Silph 11F intro reflavored double-life ("A man can wear more than one face. You would be amazed which mine open."); post: "I have climbed from far lower." | Giovanni | Silph Co 11F | story | 7 | in-game | [FLAG: canon-check] |
+| GIOVANNI-GYM | Viridian Gym (payoff chorus) | Canon already builds it (Samuel: "closed a long time… our LEADER is back!"; Jason: "know the identity of our LEADER?"; Gym Guy: "Even I don't know… toughest of all… like GROUND-type"; statue "LEADER: ?"). Added self-made note (Warren): "He built himself up from nothing. From the ground up." | Gym trainers + Gym Guy + statue | Viridian Gym | gym open | 8 | in-game | - |
+| GIOVANNI-RETURNED | Viridian (civic joy, irony) | On gym unlock: "VIRIDIAN GYM's LEADER returned! …After all these years! I knew he'd come back to us." | Old Man (existing) | Viridian City | gym unlocks (badges 2-7) | 8 | in-game | - |
+| GIOVANNI-B3 | Giovanni (THE REVEAL / final) | Gym intro: "…I have stood in VIRIDIAN all along. The LEADER no one ever met. Hidden in plain sight, while I built ROCKET up from nothing." Post: "I chased power my whole life. I thought an empire was the road to it. I was wrong. Strength is a road you walk alone. I shall walk it again, from nothing, as I began." Earth Badge + TM26 EARTHQUAKE ("I made it when I ran the GYM here, far too long ago…"). | Giovanni | Viridian Gym | reach gym (all badges) | 9 | in-game | - |
+| GIOVANNI-PAYOFF | Reveal lands (semi-plain) | Gym Guy post-victory (canon): "Blow me away! GIOVANNI was the GYM LEADER of VIRIDIAN?" Statue flips to "LEADER: GIOVANNI." | Gym Guy + statue | Viridian Gym | FLAG_DEFEATED_LEADER_GIOVANNI | 10 | in-game | - |
+| GIOVANNI-FAME | Fame Checker (progressive who's-who) | 6 beats unlock across encounters. Beat 0 reflavored to self-made ("I built TEAM ROCKET from nothing… I take the tools I need."). Reveal beats 3-4 kept. Beat 5 (red-hair kid) LEFT vanilla, no son thread. | Fame Checker | (menu) | famechecker unlocks | - | in-game | [FLAG: canon-check] |
+| GIOVANNI-POST | Post-game (walk-away pays off) | Warehouse grunt (append): "Even if it did… the BOSS wouldn't quit. He'd start over. From nothing, like he always has." Remnant Admins still search for him; vanilla red-hair gag kept as-is. | Rocket remnant (existing) | Five Island Rocket Warehouse | post-E4 | 11 | in-game | [FLAG: canon-check] |
+
+Consistency notes:
+- The engine is SELF-MADE STRENGTH, NO son thread (decided w/ user). The vanilla
+  "GIOVANNI's kid has red hair" gag (Fame Checker beat 5 + Five Island warehouse)
+  is left UNTOUCHED as a harmless canon Easter egg. Do NOT build a son arc on it,
+  and do NOT erase it. If a future line leans on the kid, it's wrong for this arc.
+- The two absences (unseen BOSS / never-there LEADER) must stay UNCONNECTED in NPC
+  mouths. No NPC says Giovanni is the Viridian leader before the gym reveal; the
+  player connects it. The rhyme is carried by ambient coy lines ("clean face
+  somewhere," "owns everything," "away… on business," "who the LEADER is?").
+- His three battle intros stay archetypal and DANGEROUS (hard-but-fair). The
+  self-made/double-life weight leaks in intros lightly and in POST-battle fully,
+  so the fights still land. Escalation: from-nothing (B1) -> two-faces (B2) ->
+  hidden-in-plain-sight + the walk-away (B3).
+- Payoff is SEMI-PLAIN (Koga-model), not Erika-mystique: canon itself reveals "he
+  was the leader" at the gym. We only add the self-made grace note and align the
+  Fame Checker. Do not over-explain in the ambient chorus.
+- CROSS-LINK (Blaine arc): Viridian City's Boy already carries the Blaine/Mewtwo
+  "island that burned, a POKéMON flew north" rumor (BLAINE-RUMORS). Keep Giovanni's
+  Viridian fragments on OTHER NPCs (Old Man, Woman, gym door) so the two arcs don't
+  crowd one speaker.
+- GROUND-type theming is the through-line ("from the dirt," "ground under," "from
+  the ground up," EARTHQUAKE). The Gym Guy's canon type-tip ("like GROUND-type") is
+  preserved as functional info.
+
 ## Template: new gym leader
 Copy per leader. Keep fragments optional and gated so a rushing player still
 finishes and a curious one gets the hidden layer.

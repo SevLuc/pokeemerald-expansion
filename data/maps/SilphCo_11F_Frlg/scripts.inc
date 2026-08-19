@@ -176,10 +176,12 @@ SilphCo_11F_Text_ThanksForRescuingUs::
 	.string "are indebted to you.$"
 
 SilphCo_11F_Text_GiovanniIntro::
-	.string "Ah, {PLAYER}!\n"
-	.string "So we meet again!\p"
-	.string "The PRESIDENT and I are discussing\n"
-	.string "a vital business proposition.\p"
+	.string "Ah, {PLAYER}.\n"
+	.string "So we meet again.\p"
+	.string "The PRESIDENT and I are settling\n"
+	.string "a simple business matter.\p"
+	.string "A man can wear more than one face.\n"
+	.string "You would be amazed which mine open.\p"
 	.string "Keep your nose out of grown-up\n"
 	.string "matters…\p"
 	.string "Or, experience a world of pain!$"
@@ -191,9 +193,10 @@ SilphCo_11F_Text_GiovanniDefeat::
 SilphCo_11F_Text_GiovanniPostBattle::
 	.string "Blast it all!\n"
 	.string "You ruined our plans for SILPH!\p"
-	.string "But, TEAM ROCKET will never fall!\p"
-	.string "{PLAYER}! Never forget that all\n"
-	.string "POKéMON exist for TEAM ROCKET!\p"
+	.string "No matter. TEAM ROCKET will never\n"
+	.string "fall. I have climbed from far lower.\p"
+	.string "{PLAYER}! All POKéMON exist to make\n"
+	.string "their owner strong. Remember it!\p"
 	.string "I must go, but I shall return!$"
 
 SilphCo_11F_Text_Grunt2Intro::
@@ -217,7 +220,9 @@ SilphCo_11F_Text_Grunt1Defeat::
 
 SilphCo_11F_Text_Grunt1PostBattle::
 	.string "Watch your step…\n"
-	.string "My BOSS likes his POKéMON tough!$"
+	.string "My BOSS likes his POKéMON tough!\p"
+	.string "He had to be. Where he's from,\n"
+	.string "soft things don't last.$"
 
 SilphCo_11F_Text_MonitorHasMonsOnIt::
 	.string "The monitor has POKéMON on it!$"

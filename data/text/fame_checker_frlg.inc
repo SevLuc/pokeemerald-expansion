@@ -572,10 +572,10 @@ gFameCheckerFlavorText_MrFuji5:: @ 0x81AFDC4
 
 gFameCheckerFlavorText_Giovanni0:: @ 0x81AFE68
 	.string "{COLOR BLUE}{SHADOW LIGHT_BLUE}What does this person do?\p"
-	.string "{FONT_MALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}TEAM ROCKET captures POKéMON from\n"
-	.string "around the world.\p"
-	.string "They're important tools for keeping\n"
-	.string "our criminal enterprise going.\p"
+	.string "{FONT_MALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}I built TEAM ROCKET from nothing.\n"
+	.string "Strong POKéMON built the rest.\p"
+	.string "They are tools. I take the tools\n"
+	.string "I need.\p"
 	.string "I am the leader, GIOVANNI!$"
 
 gFameCheckerFlavorText_Giovanni1:: @ 0x81AFF23

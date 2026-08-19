@@ -255,7 +255,10 @@ PokemonTower_7F_Text_Grunt2Defeat::
 PokemonTower_7F_Text_Grunt2PostBattle::
 	.string "POKéMON are only good for making\n"
 	.string "money. Why not use them?\p"
-	.string "You stay out of our business!$"
+	.string "You stay out of our business!\p"
+	.string "You think the BOSS dirties his own\n"
+	.string "hands? He's got a clean face\l"
+	.string "somewhere none of us have seen.$"
 
 PokemonTower_7F_Text_Grunt3Intro::
 	.string "You're not saving anyone, kid!$"

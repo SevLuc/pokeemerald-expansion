@@ -189,7 +189,10 @@ FiveIsland_RocketWarehouse_Text_Grunt2Defeat::
 
 FiveIsland_RocketWarehouse_Text_Grunt2PostBattle::
 	.string "TEAM ROCKET broke up?\n"
-	.string "What planet are you from?$"
+	.string "What planet are you from?\p"
+	.string "Even if it did… the BOSS wouldn't\n"
+	.string "quit. He'd start over. From nothing,\l"
+	.string "like he always has.$"
 
 FiveIsland_RocketWarehouse_Text_Grunt1Intro::
 	.string "Oh, now your POKéMON look strong.\n"

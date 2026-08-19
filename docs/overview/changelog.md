@@ -7,6 +7,26 @@ Update in the same PR as the change.
 `YYYY-MM-DD` — area — one-line summary (PR/commit ref)
 
 ## Entries
+- 2026-08-19 - story/flavor - Giovanni "the man who was here all along" self-made
+  arc (game-wide). Giovanni is UNIQUE: the recurring antagonist you battle three
+  times (Rocket Hideout -> Silph Co -> Viridian Gym) and hear about all game. Hidden
+  layer: the ROCKET boss has spent the whole game hiding in plain sight as the absent
+  GYM LEADER of Viridian, the sleepy first city; the region carries two absences (an
+  unseen boss / a never-there leader) and the player rhymes them until the gym opens
+  and canon reveals they are one man. Engine = SELF-MADE MAN FROM THE DIRT (NO son
+  thread, decided w/ user): strength is worth, so he built ROCKET from nothing, and
+  on losing he gives up the empire to chase strength alone. Reflavored his three
+  battle intros/post-battles to escalate the self-made + double-life weight while
+  staying hard-but-fair (RocketHideout_B4F, SilphCo_11F, ViridianCity_Gym); added the
+  Viridian civic-devotion gag (locked door "away… on business"; Old Man/Woman "a fine
+  fellow, I'm sure"; "LEADER returned!"); appended coy "unseen boss / hidden face /
+  from nothing" fragments to existing Rocket-beat NPCs (Mt Moon B2F, Rocket Hideout
+  B1F, Pokemon Tower 7F, Silph Co 5F/8F/11F, Five Island warehouse); a self-made grace
+  note on a Viridian Gym trainer; and aligned Fame Checker beat 0 to the self-made
+  framing. GROUND-type through-line (EARTHQUAKE). Vanilla "red-haired kid" gag left
+  untouched (no son arc). Text/flavor + appends only, no new objects; touches no plot
+  beats; the fights still land. Tag canon-check on the double-life fragments. See
+  GIOVANNI-* in docs/writing/lore-ledger.md.
 - 2026-08-19 — story/flavor — Blaine "the man who made the fire" Mewtwo-guilt arc
   (Cinnabar). Reflavored Blaine: the red-hot quiz-master was a lead researcher at the
   POKéMON MANSION on Dr. Fuji's team who helped create MEWTWO; it broke loose, burned

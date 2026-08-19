@@ -74,5 +74,22 @@ hard-but-fair rebalance against vanilla.
   penance. Payoff = a Lab scientist + the Fuji photo + the signed Mansion diary
   fragments. Canon-blend, tag canon-check. See BLAINE-* in lore-ledger.md.
 
-## Gym 8
-(Giovanni — fill in)
+## Gym 8 - Viridian (Giovanni, Ground) - Earth Badge
+- Vanilla team: (fill from data)
+- Rebalanced team: (TBD; Earth cap is 46)
+- Gimmick: the gym is LOCKED the entire game (canon; opens only after badges 2-7)
+  and its LEADER is never seen. We reframe the locked door as the town's civic
+  blind spot: Viridian is earnestly, proudly devoted to a LEADER nobody has ever
+  met ("away… on business"), while that leader is the ROCKET boss you have been
+  chasing. No mechanical change; the framing lives in dialogue.
+- Arc (UNIQUE — recurring antagonist, three battles): Giovanni is hiding in plain
+  sight as the absent Viridian LEADER. The region carries two absences (unseen
+  ROCKET boss / never-there LEADER) and the player rhymes them until the gym opens
+  and canon reveals they are one man. Engine = the SELF-MADE MAN FROM THE DIRT (no
+  son thread): strength is worth, being weak once was terror, so he built ROCKET
+  from nothing; when he loses he gives up the empire and walks off to chase
+  strength alone. GROUND-type is the through-line (EARTHQUAKE TM, "from the ground
+  up"). The three fights (Rocket Hideout -> Silph Co -> Viridian Gym) are
+  reflavored to escalate the weight but stay hard-but-fair; payoff is semi-plain,
+  landed by canon's own gym reveal + the Fame Checker.
+- History fragments: see GIOVANNI-* in lore-ledger.md.

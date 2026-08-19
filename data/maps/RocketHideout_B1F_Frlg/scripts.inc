@@ -103,7 +103,9 @@ RocketHideout_B1F_Text_Grunt4Defeat::
 
 RocketHideout_B1F_Text_Grunt4PostBattle::
 	.string "Okay, I'll talk…\n"
-	.string "Take the elevator to see my BOSS.$"
+	.string "Take the elevator to see my BOSS.\p"
+	.string "He built all this from nothing.\n"
+	.string "Don't expect him to go easy.$"
 
 RocketHideout_B1F_Text_Grunt5Intro::
 	.string "Are you lost, you little mouse?$"

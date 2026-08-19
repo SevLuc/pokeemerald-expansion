@@ -106,12 +106,15 @@ ViridianCity_Gym_EventScript_GymStatuePostVictory::
 
 ViridianCity_Gym_Text_GiovanniIntro::
 	.string "Fwahahaha!\n"
-	.string "Welcome to my hideout!\p"
-	.string "It shall be so until I can restore\n"
-	.string "TEAM ROCKET to its former glory.\p"
-	.string "But, you have found me again.\n"
-	.string "So be it.\l"
-	.string "This time, I'm not holding back!\p"
+	.string "Welcome to my hideout.\p"
+	.string "Or did you think a GYM an odd\n"
+	.string "place to find me?\p"
+	.string "I have stood in VIRIDIAN all along.\n"
+	.string "The LEADER no one ever met.\p"
+	.string "Hidden in plain sight, while I built\n"
+	.string "ROCKET up from nothing.\p"
+	.string "No more hiding. This time I hold\n"
+	.string "nothing back!\p"
 	.string "Once more, you shall face\n"
 	.string "GIOVANNI, the greatest TRAINER!{PLAY_BGM}{MUS_RG_ENCOUNTER_ROCKET}$"
 
@@ -123,13 +126,17 @@ ViridianCity_Gym_Text_GiovanniDefeat::
 	.string "{PAUSE_MUSIC}{PLAY_BGM}{MUS_OBTAIN_BADGE}{PAUSE 0xFE}{PAUSE 0x56}{RESUME_MUSIC}$"
 
 ViridianCity_Gym_Text_GiovanniPostBattle::
-	.string "Having lost in this fashion, \n"
-	.string "I can't face my followers.\l"
+	.string "Beaten in my own GYM.\n"
+	.string "I can't face my followers now.\l"
 	.string "I have betrayed their trust.\p"
 	.string "As of today, TEAM ROCKET is\n"
 	.string "finished forever!\p"
-	.string "As for myself, I shall dedicate\n"
-	.string "my life to training again.\p"
+	.string "I chased power my whole life. I\n"
+	.string "thought an empire was the road to it.\p"
+	.string "I was wrong. Strength is a road\n"
+	.string "you walk alone.\p"
+	.string "I shall walk it again, from nothing,\n"
+	.string "as I began.\p"
 	.string "Let us meet again someday!\n"
 	.string "Farewell!$"
 
@@ -210,7 +217,10 @@ ViridianCity_Gym_Text_WarrenDefeat::
 
 ViridianCity_Gym_Text_WarrenPostBattle::
 	.string "The LEADER will scold me for\n"
-	.string "losing this way…$"
+	.string "losing this way…\p"
+	.string "He built himself up from nothing.\n"
+	.string "From the ground up. He expects it\l"
+	.string "of us, too.$"
 
 ViridianCity_Gym_Text_TakashiIntro::
 	.string "I'm the KARATE KING!\n"
