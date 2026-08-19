@@ -1,5 +1,45 @@
 CeruleanCity_Gym_Frlg_MapScripts::
+	map_script MAP_SCRIPT_ON_FRAME_TABLE, CeruleanCity_Gym_OnFrame
 	.byte 0
+
+CeruleanCity_Gym_OnFrame::
+	map_script_2 VAR_TEMP_1, 0, CeruleanCity_Gym_EventScript_BugCheck
+	.2byte 0
+
+CeruleanCity_Gym_EventScript_BugCheck::
+	setvar VAR_TEMP_1, 1
+	specialvar VAR_RESULT, PartyHasBugType
+	goto_if_eq VAR_RESULT, FALSE, CeruleanCity_Gym_EventScript_BugCheckDone
+	lockall
+	@ Gym Guy (object 4) steps over and faces the player at the entrance.
+	applymovement 4, CeruleanCity_Gym_Movement_GuideApproach
+	waitmovement 0
+	msgbox CeruleanCity_Gym_Text_NoBugsAllowed, MSGBOX_DEFAULT
+	closemessage
+	@ Shove the player back down toward the door, guide advancing after them.
+	applymovement OBJ_EVENT_ID_PLAYER, CeruleanCity_Gym_Movement_PlayerShovedOut
+	waitmovement 0
+	applymovement 4, CeruleanCity_Gym_Movement_GuideAdvance
+	waitmovement 0
+	warp MAP_CERULEAN_CITY, 4
+	waitstate
+	releaseall
+CeruleanCity_Gym_EventScript_BugCheckDone::
+	end
+
+CeruleanCity_Gym_Movement_GuideApproach::
+	walk_down
+	face_right
+	step_end
+
+CeruleanCity_Gym_Movement_PlayerShovedOut::
+	walk_down
+	step_end
+
+CeruleanCity_Gym_Movement_GuideAdvance::
+	walk_right
+	face_down
+	step_end
 
 CeruleanCity_Gym_EventScript_Misty::
 	famechecker FAMECHECKER_MISTY, FCPICKSTATE_COLORED, UpdatePickStateFromSpecialVar8005
@@ -69,6 +109,13 @@ CeruleanCity_Gym_EventScript_GymStatuePostVictory::
 	releaseall
 	end
 
+CeruleanCity_Gym_Text_NoBugsAllowed::
+	.string "Whoa there! Is that a BUG POKéMON?\p"
+	.string "…Yeah, no. Not in MISTY's gym.\p"
+	.string "One BUG in here and she's up on a\n"
+	.string "chair for the afternoon.\p"
+	.string "Leave it outside. Then we'll talk.$"
+
 CeruleanCity_Gym_Text_MistyIntro::
 	.string "So you're my next challenger.\p"
 	.string "I'm MISTY. Youngest of the\n"
@@ -76,15 +123,16 @@ CeruleanCity_Gym_Text_MistyIntro::
 	.string "They do the dance shows.\n"
 	.string "I do the actual battling.\p"
 	.string "My policy? All-out offensive.\n"
-	.string "All WATER, no holding back-\p"
-	.string "…PSYDUCK. I did NOT let you out.\p"
-	.string "Ugh. Whatever. Stay if you want.\n"
-	.string "Just don't get in my way.\p"
-	.string "Let's go!{PLAY_BGM}{MUS_RG_ENCOUNTER_GYM_LEADER}$"
+	.string "All WATER. No mercy.\p"
+	.string "Prepare yourself. I'm sending out\n"
+	.string "my strongest-\p"
+	.string "{PLAY_SE SE_BALL_OPEN}*POP!*\p"
+	.string "PSYDUCK?!{PLAY_BGM}{MUS_RG_ENCOUNTER_GYM_LEADER}$"
 
 CeruleanCity_Gym_Text_ExplainTM03::
-	.string "TM03 teaches WATER PULSE.\p"
-	.string "Use it on an aquatic POKéMON!$"
+	.string "TM03. WATER PULSE.\n"
+	.string "My kind of move.\p"
+	.string "Use it on something that swims.$"
 
 CeruleanCity_Gym_Text_ExplainCascadeBadge::
 	.string "The CASCADEBADGE makes all\n"
@@ -105,12 +153,12 @@ CeruleanCity_Gym_Text_BetterMakeRoomForThis::
 	.string "You better make room for this!$"
 
 CeruleanCity_Gym_Text_MistyDefeat::
-	.string "Ugh! Fine. You got me.\p"
-	.string "You're strong. I'll admit that.\n"
-	.string "…Don't let it go to your head.\p"
-	.string "Here. The CASCADEBADGE. Earned.\p"
-	.string "…Even PSYDUCK looks impressed.\n"
-	.string "And PSYDUCK is NEVER impressed.$"
+	.string "…Huh. You didn't let me get away\n"
+	.string "with anything.\p"
+	.string "I only train what can't run.\p"
+	.string "Turns out, today, neither could I.\p"
+	.string "Here. The CASCADEBADGE.\n"
+	.string "It's yours.$"
 
 CeruleanCity_Gym_Text_DianaIntro::
 	.string "What? You?\n"
@@ -118,11 +166,12 @@ CeruleanCity_Gym_Text_DianaIntro::
 	.string "MISTY won't have to be bothered.$"
 
 CeruleanCity_Gym_Text_DianaDefeat::
-	.string "You overwhelmed me!$"
+	.string "You overwhelmed me!\p"
+	.string "…MISTY's still waiting. Good luck.$"
 
 CeruleanCity_Gym_Text_DianaPostBattle::
-	.string "You've heard about the duck.\n"
-	.string "Everyone has. …Don't bring it up.$"
+	.string "Fine, you win.\n"
+	.string "MISTY's next. Good luck.$"
 
 CeruleanCity_Gym_Text_LuisIntro::
 	.string "Splash!\p"
@@ -133,8 +182,8 @@ CeruleanCity_Gym_Text_LuisDefeat::
 	.string "That can't be!$"
 
 CeruleanCity_Gym_Text_LuisPostBattle::
-	.string "You got this far, so you know\n"
-	.string "the rule about bugs by now. …Good.$"
+	.string "You beat me. Nice.\n"
+	.string "MISTY won't be so easy.$"
 
 CeruleanCity_Gym_Text_GymGuyAdvice::
 	.string "Yo!\n"

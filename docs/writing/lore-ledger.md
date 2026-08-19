@@ -74,11 +74,35 @@ trainers; town NPCs carry ambient respect/jokes. Full lines: drafts/misty.md.
 | MISTY-03 | Psyduck (jester) | "That PSYDUCK answers to no one. …Not even her." | Balding Man (existing) | Cerulean City | none (pre-gym) | 3 | in-game | - |
 | MISTY-04 | Psyduck (long bond) | Reli: "That PSYDUCK's older than her badges." | Reli (Route 24) | Nugget Bridge | none | 4 | in-game | - |
 | MISTY-05 | Misty (why water, oblique payoff) | Nob: "She only keeps what can't leave the water. …Never says why." | Nob (Route 25) | Route 25 | none | 5 | in-game | - |
-| MISTY-06 | Misty (heart) | "Everyone thinks that PSYDUCK is the joke. …I think it's the one thing she'd never replace." | Cerulean City NPC | Cerulean City | after 2nd badge | 6 | drafted | - |
-| MISTY-07 | Misty (gimmick) | Bug-ban gate: gym guide blocks bug-types (party check). "MISTY stood on a chair for an hour." | Gym guide | Cerulean Gym | none | 7 | drafted (code TODO) | - |
+| MISTY-06 | Misty (heart) | "Everyone thinks that PSYDUCK is the joke. …I think it's the one thing she'd never replace." | Balding Man (existing; post-badge branch) | Cerulean City | FLAG_BADGE02_GET | 6 | in-game | - |
+| MISTY-07 | Misty (gimmick) | Bug-ban gate: on gym entry, if any party mon is BUG type (EGGs judged by hatch species too), the Gym Guy walks over, tells you ("she's up on a chair for the afternoon"), shoves you back out the door. New special PartyHasBugType + ON_FRAME map script; always-on. | Gym Guy | Cerulean Gym | none | 7 | in-game | - |
 | MISTY-CHORUS | whole-area gag | Every road trainer drops one oblique Misty/PSYDUCK line (Timmy, Ali=egg, Ethan, Shane on Rt24; Dan, Flint, Kelsey, Haley, Franklin=egg on Rt25) + Diana/Luis verify. Full list: drafts/misty.md. | Route 24/25 + gym trainers | Cerulean area | none | - | in-game | - |
 | MISTY-EGG | deniable Togepi seed | Ali (Rt24): "Found an EGG by the pool once. She took it before I could blink." / Franklin (Rt25): "She's been guarding something down by the shore." | Ali, Franklin | Nugget Bridge / Route 25 | none | - | in-game | [FLAG: canon-check] |
 | MISTY-BILL | PAYOFF (the one non-coy telling) | Freed Bill explains the whole Misty/PSYDUCK story in depth: her PSYDUCK wandered into his Cell Separation System, mashed buttons, fused him with a CLEFAIRY, walked out. Psyduck = her first mon + opposite; why she trains only WATER (a Psyduck wanders off, a GOLDEEN stays in the pool, "a zen state of mind"); never lets it go. Re-talk button: "…don't ask me why the machine was set to a CLEFAIRY." | Bill (Sea Cottage) | Route 25 Sea Cottage | after freeing Bill | 8 | in-game | - |
+
+## Lt. Surge - goofy war-hero + secret liberator of Vermilion
+Concept: loud macho war-hero on the surface ("HYPER BEAM to the dome-ski"); under
+it, a slums kid ("Private" Surge) who long-conned his way onto the S.S. ANNE,
+turned it into his weapon, and toppled Vermilion's corrupt Rocket-run regime with
+lightning-fast POKéMON, then took the gym to protect the city (not to rule).
+Delivery mirrors Misty: Vermilion City NPCs drip vague war/regime/Private-Surge
+references; the S.S. ANNE crew praise the Lt + celebrate freedom; the S.S. ANNE
+CAPTAIN (HM01 CUT) is the payoff who explains it plainly. Keep NPC lines subtle.
+CANON: he freed VERMILION locally; Rocket still active in the mainline plot -
+never claim Rocket is finished. Full lines: drafts/surge.md.
+
+| ID | Subject | Reveal | Source NPC | Map | Gate | Order | Status | Flags |
+|---|---|---|---|---|---|---|---|---|
+| SURGE-01 | Surge (war, vague) | The city still talks about "the war" and how things used to be. | Vermilion City NPC | Vermilion City | none | 1 | idea | [FLAG: canon-check] |
+| SURGE-02 | Surge (regime, vague) | Vermilion was a dark place once, under "the old bosses." | Vermilion City NPC | Vermilion City | none | 2 | idea | [FLAG: canon-check] |
+| SURGE-03 | "Private" Surge | A slums kid nobody expected. They called him Private, back then. | Vermilion City NPC | Vermilion City | none | 3 | idea | [FLAG: canon-check] |
+| SURGE-04 | S.S. Anne (praise) | The crew still salute the Lt; the ship's a symbol of the free city now. | S.S. Anne NPC | S.S. Anne | none | 4 | idea | - |
+| SURGE-05 | S.S. Anne (freedom) | Passengers marvel that Vermilion is safe to sail from at all. | S.S. Anne NPC | S.S. Anne | none | 5 | idea | - |
+| SURGE-06 | PAYOFF (plain telling) | The CAPTAIN was there: Surge infiltrated the ship, turned it into his weapon, struck fast, and freed the city, then walked away from power. | S.S. Anne Captain (HM01 CUT) | S.S. Anne | reach the Captain | 6 | idea | [FLAG: canon-check] |
+| SURGE-07 | Surge himself | Intro: loud macho ("HYPER BEAM to the dome-ski"; "Not on my turf. Not anymore."). Defeat: "Reminds me of me. Back when it counted." History only leaks. | Lt. Surge | Vermilion Gym | none | 7 | in-game | - |
+| SURGE-07b | Surge (via ex-soldier) | Tucker (served under Surge) defeat: "…But the LT's faced worse. Far worse." | Tucker (gym trainer) | Vermilion Gym | none | 7 | in-game | [FLAG: canon-check] |
+| SURGE-08 | Why gym leader | He refused to be the new boss; took the gym to protect Vermilion. | Vermilion NPC / Surge | Vermilion City | after 3rd badge | 8 | idea | [FLAG: canon-check] |
+| SURGE-GIMMICK | Trash-can trial | The famous "hated" trash-can puzzle reframed as Surge's deliberate TEST OF DISCIPLINE + ENDURANCE. All gym trainers + Gym Guy + the puzzle messages sell it ("Not cruelty. Discipline." / "locked to see if you'll quit." / "Composure, or start over."). Functional hints (2nd lock adjacent, switches in cans, type tip) preserved. | Dwayne/Baily/Tucker/Gym Guy/puzzle | Vermilion Gym | none | 7 | in-game | - |
 
 ## Template: new gym leader
 Copy per leader. Keep fragments optional and gated so a rushing player still
