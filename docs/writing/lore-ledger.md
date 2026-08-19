@@ -80,6 +80,28 @@ trainers; town NPCs carry ambient respect/jokes. Full lines: drafts/misty.md.
 | MISTY-EGG | deniable Togepi seed | Ali (Rt24): "Found an EGG by the pool once. She took it before I could blink." / Franklin (Rt25): "She's been guarding something down by the shore." | Ali, Franklin | Nugget Bridge / Route 25 | none | - | in-game | [FLAG: canon-check] |
 | MISTY-BILL | PAYOFF (the one non-coy telling) | Freed Bill explains the whole Misty/PSYDUCK story in depth: her PSYDUCK wandered into his Cell Separation System, mashed buttons, fused him with a CLEFAIRY, walked out. Psyduck = her first mon + opposite; why she trains only WATER (a Psyduck wanders off, a GOLDEEN stays in the pool, "a zen state of mind"); never lets it go. Re-talk button: "…don't ask me why the machine was set to a CLEFAIRY." | Bill (Sea Cottage) | Route 25 Sea Cottage | after freeing Bill | 8 | in-game | - |
 
+## Lt. Surge - goofy war-hero + secret liberator of Vermilion
+Concept: loud macho war-hero on the surface ("HYPER BEAM to the dome-ski"); under
+it, a slums kid ("Private" Surge) who long-conned his way onto the S.S. ANNE,
+turned it into his weapon, and toppled Vermilion's corrupt Rocket-run regime with
+lightning-fast POKéMON, then took the gym to protect the city (not to rule).
+Delivery mirrors Misty: Vermilion City NPCs drip vague war/regime/Private-Surge
+references; the S.S. ANNE crew praise the Lt + celebrate freedom; the S.S. ANNE
+CAPTAIN (HM01 CUT) is the payoff who explains it plainly. Keep NPC lines subtle.
+CANON: he freed VERMILION locally; Rocket still active in the mainline plot -
+never claim Rocket is finished. Full lines: drafts/surge.md.
+
+| ID | Subject | Reveal | Source NPC | Map | Gate | Order | Status | Flags |
+|---|---|---|---|---|---|---|---|---|
+| SURGE-01 | Surge (war, vague) | The city still talks about "the war" and how things used to be. | Vermilion City NPC | Vermilion City | none | 1 | idea | [FLAG: canon-check] |
+| SURGE-02 | Surge (regime, vague) | Vermilion was a dark place once, under "the old bosses." | Vermilion City NPC | Vermilion City | none | 2 | idea | [FLAG: canon-check] |
+| SURGE-03 | "Private" Surge | A slums kid nobody expected. They called him Private, back then. | Vermilion City NPC | Vermilion City | none | 3 | idea | [FLAG: canon-check] |
+| SURGE-04 | S.S. Anne (praise) | The crew still salute the Lt; the ship's a symbol of the free city now. | S.S. Anne NPC | S.S. Anne | none | 4 | idea | - |
+| SURGE-05 | S.S. Anne (freedom) | Passengers marvel that Vermilion is safe to sail from at all. | S.S. Anne NPC | S.S. Anne | none | 5 | idea | - |
+| SURGE-06 | PAYOFF (plain telling) | The CAPTAIN was there: Surge infiltrated the ship, turned it into his weapon, struck fast, and freed the city, then walked away from power. | S.S. Anne Captain (HM01 CUT) | S.S. Anne | reach the Captain | 6 | idea | [FLAG: canon-check] |
+| SURGE-07 | Surge himself | Loud macho trash-talk ("HYPER BEAM to the dome-ski"); the history only leaks. | Lt. Surge | Vermilion Gym | none | 7 | idea | - |
+| SURGE-08 | Why gym leader | He refused to be the new boss; took the gym to protect Vermilion. | Vermilion NPC / Surge | Vermilion City | after 3rd badge | 8 | idea | [FLAG: canon-check] |
+
 ## Template: new gym leader
 Copy per leader. Keep fragments optional and gated so a rushing player still
 finishes and a curious one gets the hidden layer.
