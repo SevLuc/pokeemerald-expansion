@@ -137,6 +137,7 @@
                                                             // It will also cause minor visual glitches of shadow and reflection sprites adjusting their transparency when the pop-up disappear
 
 // Pokémon Center
+#define OW_HEAL_AFTER_BATTLE             TRUE               // If TRUE, the party is fully healed (HP, status, and PP) after every won/ended wild, trainer, rematch, and scripted/legendary encounter, so no Pokémon Center trip is needed. Battle facilities (Frontier, Trainer Tower/Hill), link, Safari, recorded, and tutorial battles are excluded. Note: this removes battle-to-battle attrition as a difficulty factor.
 #define OW_IGNORE_EGGS_ON_HEAL           GEN_LATEST         // In Gen 4+, the nurse in the Pokémon Center does not heal Eggs on healing machine.
 #define OW_UNION_DISABLE_CHECK           FALSE              // When TRUE, the nurse does not inform the player if there is a trainer waiting in the Union Room. This speeds up the loading of the Pokémon Center.
 #define OW_FLAG_MOVE_UNION_ROOM_CHECK    0                  // If this flag is set, the game will only check if players are in the Union Room while healing Pokémon, and not when players enter the Pokémon Center. This speeds up the loading of the Pokémon Center. This is ignored if OW_UNION_DISABLE_CHECK is TRUE.
