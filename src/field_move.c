@@ -11,12 +11,13 @@
 #include "constants/party_menu.h"
 
 // HM field moves gate on the corresponding Gym Badge by default. When
-// OW_HMS_USABLE_WITHOUT_LEARNING is on, they instead gate on the player
-// actually holding the HM item, so beating a Gym is not enough on its own.
+// OW_HMS_USABLE_WITHOUT_LEARNING is on, they additionally require the player to
+// hold the HM item, so both the Badge and the HM are needed and no party
+// Pokémon has to have learned the move.
 static bool32 IsHMUnlocked(u16 hmItemId, bool32 badgeUnlocked)
 {
     if (OW_HMS_USABLE_WITHOUT_LEARNING)
-        return CheckBagHasItem(hmItemId, 1);
+        return badgeUnlocked && CheckBagHasItem(hmItemId, 1);
 
     return badgeUnlocked;
 }

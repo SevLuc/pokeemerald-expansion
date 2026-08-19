@@ -12,7 +12,7 @@
 #define OW_WHITEOUT_CUTSCENE            GEN_LATEST // In Gen4+, whiting out shows an additional message and post whiteout event script cutscene with a healing NPC. (While this change was also in FRLG, for the sake of simplicity, setting this to GEN_3 will result in RSE behavior.)
 #define OW_DEFOG_FIELD_MOVE             FALSE      // If enabled, Defog can be used as a Field Move as seen in DPPt.
 #define OW_ROCK_CLIMB_FIELD_MOVE        FALSE      // If enabled, Rock Climb can be used as a Field Move as seen in DPPt.
-#define OW_HMS_USABLE_WITHOUT_LEARNING  TRUE       // If enabled, HM field moves (Cut, Fly, Surf, Strength, Flash, Rock Smash, Waterfall, Dive, and the optional Rock Climb/Defog) work off the corresponding Gym Badge alone. No party Pokémon needs to have the move learned.
+#define OW_HMS_USABLE_WITHOUT_LEARNING  TRUE       // If enabled, HM field moves (Cut, Fly, Surf, Strength, Flash, Rock Smash, Waterfall, Dive) can be used once you have BOTH the corresponding Gym Badge AND the HM item in the Bag, with no party Pokémon needing to have the move learned.
 #define OW_CHOOSE_FROM_PC_AND_PARTY     TRUE       // If enabled, NPCs like move tutors or trainers asking for trade will let you pick a Pokémon from your PC or party instead of just your party
 
 // Item Obtain Description Box

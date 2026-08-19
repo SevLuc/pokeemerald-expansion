@@ -9,21 +9,22 @@ Update in the same PR as the change.
 ## Entries
 - 2026-08-19 - overworld/HMs - HMs are usable without teaching them to a Pokémon.
   New config flag `OW_HMS_USABLE_WITHOUT_LEARNING` (include/config/overworld.h,
-  default TRUE). An HM field move now unlocks when the HM item is in the Bag
-  instead of when its Gym Badge is earned, so beating a Gym is not enough on its
-  own; you must obtain the actual HM. Once you own it, no party Pokémon needs to
-  have learned the move. Cut, Rock Smash, Strength, Surf, Waterfall, and Dive
-  trigger by walking into the tree/rock/water as usual and your lead Pokémon
-  performs them (`src/scrcmd.c` checkfieldmove fallback, `src/field_control_avatar.c`
-  surf trigger). Fly and Flash, which have no obstacle to interact with, appear
-  in any Pokémon's party menu when you hold the HM and are somewhere the move
-  applies (outdoors for Fly, an unlit cave for Flash) in `src/party_menu.c`.
-  Badge gating still applies when the flag is off (upstream behavior). Core gate
-  lives in `src/field_move.c` (`IsHMUnlocked`) with the HM item recorded per move
-  in `include/field_move.h`. Verify in-game: with HM01 in the bag but no Cutter,
-  a cuttable tree still prompts CUT; before you obtain HM01 it does not, even
-  with the Gym Badge. Does not touch Teleport, Dig, Sweet Scent, Soft-Boiled,
-  or Secret Power.
+  default TRUE). An HM field move now needs BOTH its Gym Badge AND the HM item in
+  the Bag, so beating a Gym is not enough on its own; you must also obtain the
+  actual HM. Once you have both, no party Pokémon needs to have learned the move.
+  Cut, Rock Smash, Strength, Surf, Waterfall, and Dive trigger by walking into
+  the tree/rock/water as usual and your lead Pokémon performs them
+  (`src/scrcmd.c` checkfieldmove fallback, `src/field_control_avatar.c` surf
+  trigger). Fly and Flash, which have no obstacle to interact with, appear in any
+  Pokémon's party menu when you have the Badge and hold the HM and are somewhere
+  the move applies (outdoors for Fly, an unlit cave for Flash) in
+  `src/party_menu.c`. Badge-only gating (must know the move) still applies when
+  the flag is off (upstream behavior). Core gate lives in `src/field_move.c`
+  (`IsHMUnlocked`) with the HM item recorded per move in `include/field_move.h`.
+  Verify in-game: with the Cascade/Boulder-era Badge earned and HM01 in the bag
+  but no Cutter, a cuttable tree still prompts CUT; lacking the HM (or the Badge)
+  it does not. Does not touch Teleport, Dig, Sweet Scent, Soft-Boiled, or Secret
+  Power.
 - 2026-08-19 — caps/menu — Turned on hard level caps and added free, cap-limited
   menu leveling. `include/config/caps.h`: `B_EXP_CAP_TYPE = EXP_CAP_HARD`,
   `B_LEVEL_CAP_TYPE = LEVEL_CAP_FLAG_LIST`, `B_RARE_CANDY_CAP = TRUE`. Over-cap
