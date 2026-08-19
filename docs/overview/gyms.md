@@ -44,5 +44,15 @@ hard-but-fair rebalance against vanilla.
   trades many contradictory legends (poison/medicine dominant) and none is
   confirmed; NO plain telling.
 
-## Gyms 5–8
-(Koga, Sabrina, Blaine, Giovanni — fill in)
+## Gym 5 — Fuchsia (Koga, Poison) — Soul Badge
+- Vanilla team: (fill from data)
+- Rebalanced team: (TBD)
+- Gimmick: canon invisible-wall maze, reframed - it's a deliberate PROTESTER-
+  REPELLENT (petitioners who come to shout at Koga about the smog get lost and give
+  up). See KOGA-REVEAL.
+- History fragments: see KOGA-* in lore-ledger.md. Hidden layer: Koga is the CEO of
+  KOGA INDUSTRIES (Kanto's power utility); the whole Fuchsia area argues over him as
+  a necessary evil, and the gym insiders reveal he's a spin doctor. Semi-plain arc.
+
+## Gyms 6–8
+(Sabrina, Blaine, Giovanni — fill in)

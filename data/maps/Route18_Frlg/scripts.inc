@@ -35,7 +35,11 @@ Route18_Text_WiltonDefeat::
 	.string "Tch!$"
 
 Route18_Text_WiltonPostBattle::
-	.string "I wish I had a BIKE!$"
+	.string "I wish I had a BIKE!\p"
+	.string "…And I wish the grass out here\n"
+	.string "still crawled like it used to.\p"
+	.string "KOGA INDUSTRIES and that haze of\n"
+	.string "his. The wild POKéMON thinned out.$"
 
 Route18_Text_RamiroIntro::
 	.string "Kurukkoo!\n"
@@ -46,7 +50,11 @@ Route18_Text_RamiroDefeat::
 
 Route18_Text_RamiroPostBattle::
 	.string "I collect sea POKéMON on weekends\n"
-	.string "because the sea is so close.$"
+	.string "because the sea is so close.\p"
+	.string "That smoke on the skyline?\n"
+	.string "That's KOGA INDUSTRIES.\p"
+	.string "Half of KANTO runs on his power.\n"
+	.string "Grumble, but don't bite the hand.$"
 
 Route18_Text_JacobIntro::
 	.string "This is my turf!\n"
@@ -57,7 +65,11 @@ Route18_Text_JacobDefeat::
 
 Route18_Text_JacobPostBattle::
 	.string "This is my fave area for catching\n"
-	.string "POKéMON.$"
+	.string "POKéMON.\p"
+	.string "…Was better before the haze rolled\n"
+	.string "in off KOGA's plants.\p"
+	.string "Complain to the man? Sure.\n"
+	.string "Do your grumbling by his lamplight.$"
 
 Route18_Text_RouteSign::
 	.string "ROUTE 18\n"

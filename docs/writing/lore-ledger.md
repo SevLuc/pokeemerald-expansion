@@ -178,6 +178,52 @@ Consistency notes:
   carriers), once-fearsome and ladies-only about ~20% each, perfume-calms threaded
   through the "thoughtful" NPCs and out past Celadon (Lavender, Rock Tunnel mouth).
 
+## Koga - the flamboyant CEO (necessary evil; the whole town has an opinion)
+Concept: surface stays canon - the terrifying, theatrical "Poisonous Ninja Master."
+Hidden layer: he is the extravagant CEO of KOGA INDUSTRIES, Kanto's POWER/ENERGY
+utility. His poison-gas POKéMON (Koffing/Weezing/Muk) run the refineries; the smog
+over Fuchsia is the price of the whole region's electricity. He is a NECESSARY EVIL
+- the nature town (and the SAFARI ZONE) resents his pollution, but everyone depends
+on his power (you can't boycott your own lights). Two deeper layers, revealed by gym
+insiders: (a) the invisible-wall gym is a PROTESTER-REPELLENT (petitioners get lost,
+give up); (b) he is a master SPIN DOCTOR - the costume and gimmick gym are deliberate
+misdirection to keep people entertained instead of angry. He sincerely believes he is
+the hero of his own story. Silly-through-contrast: a pantomime ninja who is quietly a
+polluting power baron; the "creeping horror of poison" is literally industrial smog.
+
+DELIVERY (per user: the WHOLE area weighs in). Ambient opinions saturate Fuchsia City,
+its interiors, the Safari Zone, and the bordering routes, spread across distinct
+STANCES so it reads as a real civic argument: PRO/dependent, ANTI/nature, RESIGNED/
+cynical, plus the true-believer daughter, the spin-doctor insiders, and the MAYOR who
+admits both sides have a point. Payoff is semi-plain (not mystique like Erika): the
+pollution/dependence is openly discussed; the spin-doctor twist is the reveal (Kirk).
+CANON: original worldbuilding (Koga Industries), touches no FRLG plot beats; the
+Safari-Zone-nature contrast is all vanilla. No Rocket overlap.
+
+| ID | Subject | Reveal | Source NPC | Map | Gate | Order | Status | Flags |
+|---|---|---|---|---|---|---|---|---|
+| KOGA-01 | The true believer | Lass = Janine (his daughter): "Father keeps the lights on for all of KANTO. They should thank him. …He says so himself." | Lass/Janine (existing) | Fuchsia City | none | 1 | in-game | [FLAG: canon-check] |
+| KOGA-02 | Nature loss (ANTI) | City Old Man: "It was greener once. Before KOGA's smokestacks." City Little Boy: "Fewer rare POKéMON, since the smoke came." | Old Man, Little Boy (existing) | Fuchsia City | none | 2 | in-game | - |
+| KOGA-03 | Dependence (PRO) | Erik: "Her shift at the plant ran long. KOGA INDUSTRIES never sleeps. …Pays well." Mart CooltrainerF: "KOGA's power runs cheap. One good thing." | Erik, Mart CooltrainerF (existing) | Fuchsia City / Mart | none | 3 | in-game | - |
+| KOGA-04 | Resigned old-timer | House1 Woman: the WARDEN "fought KOGA's plants for years. Lost most. We still flip his switches every morning." | House1 Woman (existing) | Fuchsia House 1 | none | 3 | in-game | - |
+| KOGA-05 | The fisher (ANTI/water) | House2 fishing guru's brother: "Poorly, downstream of the plant. KOGA's runoff took the poetry clean out of the water." | House2 (existing) | Fuchsia House 2 | after Good Rod talk | 4 | in-game | - |
+| KOGA-SAFARI | The preserve staff | Safari Office Workers: haze reached the zone (W1); fossils "a warning, what the smoke does given time" (W2); the NECESSARY-EVIL twist - "KOGA INDUSTRIES funds half this preserve. We bite the hand and feed from it." (W3). Entrance attendant: "the haze thins them every year." | Safari Office W1/W2/W3, Entrance attendant (existing) | Safari Zone Office/Entrance | none | 5 | in-game | - |
+| KOGA-WARDEN | Nature guardian | Warden (post-gold-teeth): "Guard this zone, kid. KOGA's smoke creeps closer. It's the last green thing that man hasn't switched off." | Warden (existing; post-teeth) | Warden's House | FLAG_GOT_HM04 (natural) | 6 | in-game | - |
+| KOGA-MAYOR | The balanced view | Mart Gentleman = the MAYOR: "KOGA's stacks foul our air. KOGA's power runs our homes. Both are true. Neither side is wrong. …That is what keeps me up." | Mart Gentleman (existing, reflavored as Mayor) | Fuchsia Mart | none | 7 | in-game | - |
+| KOGA-REVEAL | Gym insiders = the twist | Kirk (ex-magician): "He hired me for the old trade. Misdirection. The costume, the maze. Look here, so you don't look there." Gym Guy: the invisible walls repel protesters ("they wander an hour and leave too hoarse to bother"). Shawn: "Spectacle and smoke. One you watch. One you breathe." | Kirk, Gym Guy, Shawn (gym trainers) | Fuchsia Gym | after their battle | 8 | in-game | - |
+| KOGA-SELF | The mask slips | Koga (post-battle, after the archetypal terror intro): "You fight well. KOGA INDUSTRIES could use talent. The lights of KANTO won't keep themselves lit." | Koga | Fuchsia Gym | after his battle | 9 | in-game | [FLAG: canon-check] |
+| KOGA-ROUTES | The whole area argues | Bordering routes each carry all three stances. Route 15: Olivia (PRO), Chester (ANTI, "smokestacks from the rise"), Ernest (RESIGNED, "you'll do it by his lamplight"). Route 18: Ramiro (PRO), Wilton (ANTI), Jacob (RESIGNED). Route 19 (water): Richard (PRO), Reece (ANTI, "something's in the water"), Tony (RESIGNED, "the tide still comes in gray"). | Route 15/18/19 trainers | Routes 15, 18, 19 | none | 10 | in-game | - |
+
+Consistency notes:
+- Koga's own battle intro/defeat stay archetypal ninja-terror; the CEO only leaks
+  AFTER you beat him (KOGA-SELF), so the hard-but-fair fight still lands.
+- NECESSARY EVIL, not villain: keep the pro/dependent and mayor voices real. The
+  Safari-funding twist (KOGA-SAFARI W3) is the sharpest "it's complicated" beat.
+- The spin-doctor reveal (KOGA-REVEAL, esp. Kirk) is the payoff; the ambient town
+  opinions are the setup. This is a semi-plain arc, NOT an Erika-style mystique.
+- CANON-CHECK tags: Janine-as-daughter and the CEO framing are reflavor; log any
+  future contradiction here. Company = power/energy (locked w/ user).
+
 ## Template: new gym leader
 Copy per leader. Keep fragments optional and gated so a rushing player still
 finishes and a curious one gets the hidden layer.

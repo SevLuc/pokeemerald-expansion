@@ -108,7 +108,11 @@ FuchsiaCity_WardensHouse_Text_ExplainStrength::
 	.string "It lets POKéMON move boulders when\n"
 	.string "you're outside of battle.\p"
 	.string "Oh yes, did you find the SECRET\n"
-	.string "HOUSE in the SAFARI ZONE?$"
+	.string "HOUSE in the SAFARI ZONE?\p"
+	.string "…Guard this zone, kid. KOGA's smoke\n"
+	.string "creeps closer every year.\p"
+	.string "It's the last green thing that man\n"
+	.string "hasn't switched off.$"
 
 @ Unused
 FuchsiaCity_WardensHouse_Text_YouHaveTooMuchStuff::

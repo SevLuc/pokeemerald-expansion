@@ -20,7 +20,11 @@ FuchsiaCity_House1_EventScript_LittleBoy::
 FuchsiaCity_House1_Text_WardenIsOldHasFalseTeeth::
 	.string "The SAFARI ZONE's WARDEN is old, \n"
 	.string "but he's still very much active.\p"
-	.string "All his teeth are false, though.$"
+	.string "All his teeth are false, though.\p"
+	.string "He's fought KOGA's plants for\n"
+	.string "years. Lost most of those fights.\p"
+	.string "…We all did. We still flip KOGA's\n"
+	.string "switches every morning.$"
 
 FuchsiaCity_House1_Text_BillIsMyGrandson::
 	.string "Hmm?\n"

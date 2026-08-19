@@ -113,7 +113,11 @@ FuchsiaCity_Gym_Text_KogaPostBattle::
 	.string "suffers more and more.\p"
 	.string "It suffers worsening damage as the\n"
 	.string "battle wears on!\p"
-	.string "It will surely terrorize foes!$"
+	.string "It will surely terrorize foes!\p"
+	.string "Hmph. You fight well.\n"
+	.string "KOGA INDUSTRIES could use talent.\p"
+	.string "Think on it. The lights of KANTO\n"
+	.string "won't keep themselves lit.$"
 
 FuchsiaCity_Gym_Text_KogaExplainSoulBadge::
 	.string "Now that you have the SOULBADGE,\n"
@@ -164,7 +168,11 @@ FuchsiaCity_Gym_Text_KirkDefeat::
 FuchsiaCity_Gym_Text_KirkPostBattle::
 	.string "Even though I've lost, I will keep\n"
 	.string "training according to the teachings\l"
-	.string "of KOGA, my ninja master.$"
+	.string "of KOGA, my ninja master.\p"
+	.string "…Though he hired me for the old\n"
+	.string "trade. Misdirection.\p"
+	.string "The costume. The maze.\n"
+	.string "Look here, so you don't look there.$"
 
 FuchsiaCity_Gym_Text_NateIntro::
 	.string "Let's see you beat my special\n"
@@ -217,7 +225,10 @@ FuchsiaCity_Gym_Text_ShawnPostBattle::
 	.string "Where there is light, there is\n"
 	.string "shadow!\p"
 	.string "Light and shadow!\n"
-	.string "Which do you choose?$"
+	.string "Which do you choose?\p"
+	.string "Spectacle and smoke. The MASTER\n"
+	.string "taught me both.\p"
+	.string "One you watch. One you breathe.$"
 
 FuchsiaCity_Gym_Text_GymGuyAdvice::
 	.string "Yo!\n"
@@ -231,7 +242,13 @@ FuchsiaCity_Gym_Text_GymGuyAdvice::
 
 FuchsiaCity_Gym_Text_GymGuyPostVictory::
 	.string "It's amazing how ninja can terrify,\n"
-	.string "even now!$"
+	.string "even now!\p"
+	.string "You know who else gets lost in\n"
+	.string "these walls?\p"
+	.string "Folks who march in to shout at KOGA\n"
+	.string "about the smog.\p"
+	.string "They wander an hour and leave too\n"
+	.string "hoarse to bother. …Clever, that.$"
 
 FuchsiaCity_Gym_Text_GymStatue::
 	.string "FUCHSIA POKéMON GYM\n"

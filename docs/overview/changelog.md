@@ -7,6 +7,19 @@ Update in the same PR as the change.
 `YYYY-MM-DD` — area — one-line summary (PR/commit ref)
 
 ## Entries
+- 2026-08-19 — story/flavor — Koga "necessary-evil CEO" ambient lore (Fuchsia +
+  bordering routes). Koga's hidden layer: flamboyant CEO of KOGA INDUSTRIES, Kanto's
+  power utility, whose poison-gas POKéMON run the refineries (the smog is the price
+  of the region's electricity). Necessary evil - the nature town/Safari Zone resent
+  him but depend on his power (he even funds half the preserve). The WHOLE area now
+  weighs in, spread across stances (pro/dependent, anti/nature, resigned/cynical):
+  Fuchsia City (Janine, Old Man, Little Boy, Erik), interiors (House1, House2 fisher,
+  Mart Gentleman reflavored as the MAYOR with the balanced view, Safari Office staff
+  incl. the funding twist, Warden), the gym insiders who reveal the twist (Kirk =
+  spin doctor, Gym Guy = the invisible walls repel protesters, Shawn), Koga's own
+  post-battle CEO leak, and Routes 15/18/19 (three stances each). Text/flavor only,
+  appended to existing NPCs, no new objects; his battle intro stays archetypal so
+  the fight still lands. See KOGA-* in docs/writing/lore-ledger.md.
 - 2026-08-19 — story/flavor — Erika "Sleeping Enigma" ambient lore (Celadon +
   beyond). A coy, deliberately-unresolved rumor chorus, appended to existing NPCs;
   no new objects/art; NO plain telling by design. Five contradictory facets hang
