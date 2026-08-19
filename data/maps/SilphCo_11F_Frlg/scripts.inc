@@ -188,7 +188,7 @@ SilphCo_11F_Text_GiovanniIntro::
 
 SilphCo_11F_Text_GiovanniDefeat::
 	.string "Arrgh!!\n"
-	.string "I lost again!?$"
+	.string "Bested by the same brat, twice?!$"
 
 SilphCo_11F_Text_GiovanniPostBattle::
 	.string "Blast it all!\n"

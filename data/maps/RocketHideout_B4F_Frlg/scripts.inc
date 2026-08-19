@@ -132,8 +132,8 @@ RocketHideout_B4F_Text_GiovanniIntro::
 	.string "world of pain!$"
 
 RocketHideout_B4F_Text_GiovanniDefeat::
-	.string "WHAT!\n"
-	.string "This can't be!$"
+	.string "Nngh… impossible!\n"
+	.string "Clawed up from nothing… for this?$"
 
 RocketHideout_B4F_Text_GiovanniPostBattle::
 	.string "I see. You raise POKéMON with\n"

@@ -79,7 +79,7 @@ what I mean to achieve.
 I shall step aside this time.
 …We will meet again.
 ```
-(Defeat line "WHAT!\nThis can't be!" kept vanilla - the shock beat.)
+Defeat: "Nngh… impossible! Clawed up from nothing… for this?"
 
 ### 2. Silph Co 11F (second meeting, ~after Marsh Badge)
 Lean into the legit-businessman veneer, the double life.
@@ -107,7 +107,7 @@ I have climbed from far lower than this.
 their owner strong. Remember it.
 I must go. But I shall return!
 ```
-(Defeat line "Arrgh!!\nI lost again!?" kept vanilla.)
+Defeat: "Arrgh!! Bested by the same brat, twice?!"
 
 ### 3. Viridian Gym (final, Earth Badge). THE REVEAL.
 Canon reveals it here; we land "hidden in plain sight" + the self-made walk-away.
@@ -142,9 +142,21 @@ walk alone. I will walk it again.
 From nothing, as I began.
 Farewell!
 ```
-(Defeat/Earthbadge line kept near-vanilla to preserve the badge control codes.
-TM26 line "I made it when I ran the GYM here, far too long ago…" kept vanilla -
-it already supports the double life.)
+Defeat (hands over the badge; control codes preserved): "Ha…! So the dirt breeds
+strength after all. And you have won it. Take the EARTHBADGE. You tore it from me,
+fair and true."
+Earth Badge / TM26 also reflavored to the self-made + double-life voice ("Power
+answers to the one who earns it."; "A parting gift, from the dirt I dug it out
+of."; TM26: "The ground itself, turned into a weapon… I forged it when I first
+held this GYM. …Before the other life.").
+
+NOTHING of Giovanni's is left vanilla: all three intros, all three defeats, all
+three post-battles, and the badge/TM lines are reflavored. The GYM TRAINERS
+(Yuji/Atsushi/Jason/Kiyo/Warren/Takashi/Cole/Samuel) are also reflavored off their
+vanilla karate/whip filler onto GROUND-grit + reverence for the self-made mystery
+LEADER (fixes the vanilla oddity of a Ground gym voiced by Fighting-types); the
+Gym Guy's canon "like GROUND-type" tip and the statue "LEADER: ?" -> "GIOVANNI"
+flip are kept as functional payoff.
 
 ---
 
@@ -186,12 +198,13 @@ already reads:
   the LEADER built himself up from nothing. …From the ground up."
 
 ### Fame Checker (FAMECHECKER_GIOVANNI, 6 beats, progressive)
-The in-game who's-who unlocks 6 beats keyed to the encounters. Beat 0 ("What does
-this person do?") reflavored to the self-made framing so it matches his new
-hideout intro. Beats 3-4 (the "GYM LEADER of VIRIDIAN?" reveal punch) kept as-is.
-Beat 5 (vanilla "GIOVANNI's kid has red hair") LEFT UNTOUCHED: it is a harmless
-canon Easter egg, and per the decision there is NO son thread, so we neither build
-on it nor erase it. See ledger GIOVANNI-FAME.
+The in-game who's-who unlocks 6 beats keyed to the encounters. ALL beats reflavored
+to the self-made / hidden-leader arc (0 "from nothing"; 1 "trusts nothing but
+strength"; 2 "hard as stone… people are tools too"; 3 "the LEADER no one ever met";
+4 reveal "the ROCKET BOSS was our GYM LEADER all along?"; 5, formerly the red-hair
+kid, now the self-made loner "came up from the gutter alone… no one has ever met
+them"). The letter quote too ("I go back to the dirt I came from, to make myself
+stronger. Alone."). No son thread survives. See ledger GIOVANNI-FAME.
 
 ---
 

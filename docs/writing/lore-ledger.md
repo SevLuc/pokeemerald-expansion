@@ -347,18 +347,24 @@ objects/art.
 | GIOVANNI-05b | Boss (owns everything) | Silph NPC (append): "…carries himself like he owns the place. Like he owns everything." | Silph employee (existing) | Silph Co 8F | Silph arc | 6 | in-game | - |
 | GIOVANNI-05c | Boss grunt (self-made) | Silph door grunt (append): "He had to be tough. Where he's from, soft things don't last." | Grunt1 (existing) | Silph Co 11F | Silph arc | 6 | in-game | - |
 | GIOVANNI-B2 | Giovanni (2nd fight) | Silph 11F intro reflavored double-life ("A man can wear more than one face. You would be amazed which mine open."); post: "I have climbed from far lower." | Giovanni | Silph Co 11F | story | 7 | in-game | [FLAG: canon-check] |
-| GIOVANNI-GYM | Viridian Gym (payoff chorus) | Canon already builds it (Samuel: "closed a long time… our LEADER is back!"; Jason: "know the identity of our LEADER?"; Gym Guy: "Even I don't know… toughest of all… like GROUND-type"; statue "LEADER: ?"). Added self-made note (Warren): "He built himself up from nothing. From the ground up." | Gym trainers + Gym Guy + statue | Viridian Gym | gym open | 8 | in-game | - |
+| GIOVANNI-GYM | Viridian Gym (payoff chorus) | All 8 gym trainers reflavored off vanilla karate/whip filler onto GROUND-grit + reverence for the self-made mystery LEADER (Kiyo/Takashi/Warren "claw up from the dirt, same as the LEADER"; Jason "landslide"; Cole "bury yours"; Samuel "where the LEADER went, none of us dared ask… but now he is back"). Gym Guy's canon "like GROUND-type" tip and the statue "LEADER: ?" -> "GIOVANNI" flip kept as functional payoff. | Gym trainers + Gym Guy + statue | Viridian Gym | gym open | 8 | in-game | - |
 | GIOVANNI-RETURNED | Viridian (civic joy, irony) | On gym unlock: "VIRIDIAN GYM's LEADER returned! …After all these years! I knew he'd come back to us." | Old Man (existing) | Viridian City | gym unlocks (badges 2-7) | 8 | in-game | - |
-| GIOVANNI-B3 | Giovanni (THE REVEAL / final) | Gym intro: "…I have stood in VIRIDIAN all along. The LEADER no one ever met. Hidden in plain sight, while I built ROCKET up from nothing." Post: "I chased power my whole life. I thought an empire was the road to it. I was wrong. Strength is a road you walk alone. I shall walk it again, from nothing, as I began." Earth Badge + TM26 EARTHQUAKE ("I made it when I ran the GYM here, far too long ago…"). | Giovanni | Viridian Gym | reach gym (all badges) | 9 | in-game | - |
+| GIOVANNI-B3 | Giovanni (THE REVEAL / final) | Gym intro: "…I have stood in VIRIDIAN all along. The LEADER no one ever met. Hidden in plain sight, while I built ROCKET up from nothing." Post: "I chased power my whole life. I thought an empire was the road to it. I was wrong. Strength is a road you walk alone. I shall walk it again, from nothing, as I began." Defeat/badge/TM all reflavored: "So the dirt breeds strength after all… take the EARTHBADGE"; "Power answers to the one who earns it"; TM26 "The ground itself, turned into a weapon… I forged it when I first held this GYM. …Before the other life." | Giovanni | Viridian Gym | reach gym (all badges) | 9 | in-game | - |
 | GIOVANNI-PAYOFF | Reveal lands (semi-plain) | Gym Guy post-victory (canon): "Blow me away! GIOVANNI was the GYM LEADER of VIRIDIAN?" Statue flips to "LEADER: GIOVANNI." | Gym Guy + statue | Viridian Gym | FLAG_DEFEATED_LEADER_GIOVANNI | 10 | in-game | - |
-| GIOVANNI-FAME | Fame Checker (progressive who's-who) | 6 beats unlock across encounters. Beat 0 reflavored to self-made ("I built TEAM ROCKET from nothing… I take the tools I need."). Reveal beats 3-4 kept. Beat 5 (red-hair kid) LEFT vanilla, no son thread. | Fame Checker | (menu) | famechecker unlocks | - | in-game | [FLAG: canon-check] |
-| GIOVANNI-POST | Post-game (walk-away pays off) | Warehouse grunt (append): "Even if it did… the BOSS wouldn't quit. He'd start over. From nothing, like he always has." Remnant Admins still search for him; vanilla red-hair gag kept as-is. | Rocket remnant (existing) | Five Island Rocket Warehouse | post-E4 | 11 | in-game | [FLAG: canon-check] |
+| GIOVANNI-FAME | Fame Checker (progressive who's-who) | ALL beats reflavored to the self-made / hidden-leader arc: beat 0 "I built TEAM ROCKET from nothing"; 1 "a man from nothing trusts nothing but strength"; 2 "hard as stone… people are tools too"; 3 "the LEADER no one ever met, while I built ROCKET from nothing"; 4 reveal "GIOVANNI, the ROCKET BOSS, was our GYM LEADER all along?"; 5 (was red-hair kid) -> self-made loner "came up from the gutter alone… no one has ever met" (removes the son). The letter quote -> "I go back to the dirt I came from, to make myself stronger. Alone." | Fame Checker | (menu) | famechecker unlocks | - | in-game | - |
+| GIOVANNI-POST | Post-game (walk-away pays off) | Warehouse grunt (append): "Even if it did… the BOSS wouldn't quit. He'd start over. From nothing, like he always has." Remnant Admins still search for him. The old red-hair-kid gag NPC reflavored to the self-made loner ("answered to nobody. Had nobody. Came up from the dirt alone.") so no son thread remains anywhere. | Rocket remnant (existing) | Five Island Rocket Warehouse | post-E4 | 11 | in-game | - |
 
 Consistency notes:
-- The engine is SELF-MADE STRENGTH, NO son thread (decided w/ user). The vanilla
-  "GIOVANNI's kid has red hair" gag (Fame Checker beat 5 + Five Island warehouse)
-  is left UNTOUCHED as a harmless canon Easter egg. Do NOT build a son arc on it,
-  and do NOT erase it. If a future line leans on the kid, it's wrong for this arc.
+- The engine is SELF-MADE STRENGTH, NO son thread (decided w/ user). The two
+  vanilla "GIOVANNI's kid has red hair" references (Fame Checker beat 5 + the Five
+  Island warehouse scientist) were REFLAVORED AWAY to a self-made-loner note
+  ("came up alone, had nobody"), so no son thread survives anywhere. If a future
+  line reintroduces the kid, it's wrong for this arc.
+- NO GIOVANNI LINE IS LEFT VANILLA (decided w/ user): all three intros, defeats,
+  and post-battles, the badge + TM text, every Fame Checker beat + the letter
+  quote, and all 8 gym trainers are reflavored. Only pure mechanical strings stay
+  generic (the "received TM26" item receipt; Samuel's "beat the LEADER to reach the
+  LEAGUE" gate hint; the statue/Gym-Guy functional payoff).
 - The two absences (unseen BOSS / never-there LEADER) must stay UNCONNECTED in NPC
   mouths. No NPC says Giovanni is the Viridian leader before the gym reveal; the
   player connects it. The rhyme is carried by ambient coy lines ("clean face

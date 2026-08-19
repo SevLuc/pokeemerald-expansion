@@ -22,11 +22,15 @@ Update in the same PR as the change.
   fellow, I'm sure"; "LEADER returned!"); appended coy "unseen boss / hidden face /
   from nothing" fragments to existing Rocket-beat NPCs (Mt Moon B2F, Rocket Hideout
   B1F, Pokemon Tower 7F, Silph Co 5F/8F/11F, Five Island warehouse); a self-made grace
-  note on a Viridian Gym trainer; and aligned Fame Checker beat 0 to the self-made
-  framing. GROUND-type through-line (EARTHQUAKE). Vanilla "red-haired kid" gag left
-  untouched (no son arc). Text/flavor + appends only, no new objects; touches no plot
-  beats; the fights still land. Tag canon-check on the double-life fragments. See
-  GIOVANNI-* in docs/writing/lore-ledger.md.
+  note on a Viridian Gym trainer. Reflavored ALL of Giovanni's own lines (no vanilla
+  left: three intros/defeats/post-battles, the Earth Badge + Earthquake TM text),
+  every Fame Checker Giovanni beat + the letter quote, and all 8 Viridian Gym
+  trainers (off vanilla karate/whip filler onto GROUND-grit + reverence for the
+  self-made mystery LEADER). GROUND-type through-line (EARTHQUAKE). No son thread:
+  both vanilla "red-haired kid" references (Fame Checker + Five Island warehouse)
+  reflavored to a self-made-loner note. Text/flavor + appends only, no new objects;
+  touches no plot beats; the fights still land. Tag canon-check on the double-life
+  fragments. See GIOVANNI-* in docs/writing/lore-ledger.md.
 - 2026-08-19 — story/flavor — Blaine "the man who made the fire" Mewtwo-guilt arc
   (Cinnabar). Reflavored Blaine: the red-hot quiz-master was a lead researcher at the
   POKéMON MANSION on Dr. Fuji's team who helped create MEWTWO; it broke loose, burned

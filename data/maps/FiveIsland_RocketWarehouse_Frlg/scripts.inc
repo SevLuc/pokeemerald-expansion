@@ -305,10 +305,12 @@ FiveIsland_RocketWarehouse_Text_GetLostLeaveMeBe::
 
 FiveIsland_RocketWarehouse_Text_GiovannisKidHasRedHair::
 	.string "What, you again?\p"
-	.string "You… You're not GIOVANNI's kid,\n"
-	.string "are you?\p"
-	.string "No, that can't be right!\n"
-	.string "GIOVANNI's kid has red hair.\p"
-	.string "You don't have any reasons for\n"
-	.string "bugging me. Leave me alone!$"
+	.string "You think you know GIOVANNI?\n"
+	.string "A brat like you?\p"
+	.string "That man answered to nobody.\n"
+	.string "Had nobody.\p"
+	.string "Came up from the dirt alone, and\n"
+	.string "stayed that way.\p"
+	.string "You've no reason to keep bugging\n"
+	.string "me. Leave me alone!$"
 
