@@ -115,7 +115,10 @@ mention it; the deadpan verbal tic "…Don't ask me why the machine was set to a
 CLEFAIRY" lands only on the RE-TALK (S.S. Anne line) and the LATER re-talk (the
 rare-mons PC line).
 
-## Post-badge emotional core (MISTY-06, gated, still implied)
+## Post-badge emotional core (MISTY-06, IN-GAME)
+Placed on the Cerulean Balding Man (the MISTY-03 jester NPC): pre-badge he gives
+the surface joke ("That PSYDUCK answers to no one..."); once FLAG_BADGE02_GET is
+set he gives the heart line instead:
 - "Everyone thinks that PSYDUCK is the joke. …I think it's the one thing she'd
   never replace."
 
