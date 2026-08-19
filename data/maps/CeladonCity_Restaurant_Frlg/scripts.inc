@@ -46,7 +46,10 @@ CeladonCity_Restaurant_Text_TakingBreakRightNow::
 
 CeladonCity_Restaurant_Text_OftenGoToDrugstore::
 	.string "My POKéMON are weak, so I often\n"
-	.string "have to go to the DRUGSTORE.$"
+	.string "have to go to the DRUGSTORE.\p"
+	.string "…Though the DRUGSTORE's best\n"
+	.string "cures aren't on any shelf.\p"
+	.string "ERIKA decides who gets those.$"
 
 CeladonCity_Restaurant_Text_PsstBasementUnderGameCorner::
 	.string "Psst! There's a basement under the\n"

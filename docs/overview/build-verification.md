@@ -14,7 +14,46 @@ Work each item on the next local build:
 
 Check items off (or delete the row) once verified. Newest PR first.
 
+## ⚠️ Known interaction to verify first
+**Party-menu action-list overflow (PR #6 + PR #10).** Both PRs add entries to
+`SetPartyMonFieldSelectionActions` in `src/party_menu.c`: #6 adds `LEVEL`, #10
+adds `Fly`/`Flash`. The selection window is drawn bottom-anchored at
+`top = 19 - numActions*2`, so it only fits up to 9 rows (top = 1). Worst case now
+reaches 10 rows - e.g. a mon with 4 learned field moves, outdoors, holding HM Fly
+(so `Fly` is offered), plus `Summary`, `Switch`, `Item`, `LEVEL`, `Cancel` - which
+makes `top = -1` and the menu renders off-screen/garbled. The `actions[]` array
+was enlarged to 10 so there is no memory overflow, but the *window geometry* can't
+fit 10. Verify in-game with that setup; if it breaks, the fix is to cap the field
+list at 9 (e.g. fold `LEVEL` in only when there's room, or move Fly/Flash into a
+submenu too). Flagged to the user 2026-08-19.
+
 ## Pending verification
+
+### PR #10 - HMs usable without learning  (compile risk: HIGH - multi-file C)
+- Files: `include/config/overworld.h`, `include/field_move.h`, `src/field_move.c`,
+  `src/field_control_avatar.c`, `src/party_menu.c`, `src/scrcmd.c`.
+- `[ ] builds` - new `IsHMUnlocked()` gate, per-move `hmItemId`, `checkfieldmove`
+  fallback to the first non-egg mon, and the Fly/Flash party-menu entries.
+- `[ ] playtested`:
+  - With the right Badge + HM in the bag but no mon that learned the move, the
+    obstacle move still triggers (Cut/Rock Smash/Strength/Surf/Waterfall/Dive).
+  - Without the HM (or without the Badge), it does not.
+  - Fly/Flash appear in the party menu only outdoors / in a dark cave respectively.
+  - See the overflow warning above.
+
+### PR #9 - Character lore: Surge/Erika/Koga/Sabrina/Blaine (+ rumors)  (compile risk: MEDIUM - map scripts)
+- Files: many `data/maps/*/scripts.inc` (Vermilion, S.S. Anne, Celadon, Fuchsia,
+  Saffron gym, Cinnabar/Mansion, Routes, Lavender, etc.) + `docs/writing/*`.
+- `[ ] builds` - Sabrina's possessed gym adds forced-fight/false-direction script
+  branches; Blaine/Fuji journal fragments; new `.string` labels. Assembler catches typos.
+- `[ ] playtested`:
+  - Saffron gym forced fights + contradictory directions work; Sabrina defeat
+    breaks the spell (before/after NPC branches on `FLAG_DEFEATED_SABRINA`).
+  - Surge S.S. Anne Captain awards HM01 CUT; new NPC lore lines read correctly.
+  - Mansion journal fragments + rumor NPCs display right across Kanto.
+
+### PR #8 - Rivals draft (Buhrito + Twitch)
+- Files: `docs/writing/drafts/intro-and-rival.md` only. Docs-only, nothing to compile.
 
 ### PR #6 - Hard level caps + party-menu leveling  (compile risk: HIGH - new C code)
 - Files: `include/config/caps.h`, `src/party_menu.c`, `src/data/party_menu.h`.

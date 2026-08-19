@@ -76,7 +76,12 @@ Route10_Text_TrentDefeat::
 	.string "That cleared my head!$"
 
 Route10_Text_TrentPostBattle::
-	.string "I feel bloated on mountain air!$"
+	.string "I feel bloated on mountain air!\p"
+	.string "You come from CELADON way?\p"
+	.string "They say one breath of that city's\n"
+	.string "air can talk a man out of a fight.\p"
+	.string "…Wish I'd bottled some for\n"
+	.string "the tunnel.$"
 
 Route10_Text_CarolIntro::
 	.string "I'm feeling a bit faint.\n"
@@ -90,7 +95,10 @@ Route10_Text_CarolPostBattle::
 	.string "The POKéMON here in the mountains\n"
 	.string "are so chunky…\p"
 	.string "I wish there were pink POKéMON\n"
-	.string "with a floral pattern!$"
+	.string "with a floral pattern!\p"
+	.string "…They say a lady in CELADON grows\n"
+	.string "flowers stranger than any POKéMON.\p"
+	.string "Pretty. …And not for touching.$"
 
 Route10_Text_RockTunnelDetourToLavender::
 	.string "ROCK TUNNEL\n"

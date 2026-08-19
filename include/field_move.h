@@ -10,6 +10,7 @@ struct FieldMoveInfo
     bool32 (*isUnlockedFunc)(void);
     u16 moveID;
     u8 partyMsgID;
+    u16 hmItemId; // The HM item that teaches this move, or ITEM_NONE for non-HM field moves. Used by OW_HMS_USABLE_WITHOUT_LEARNING.
 };
 
 extern const struct FieldMoveInfo gFieldMoveInfo[];

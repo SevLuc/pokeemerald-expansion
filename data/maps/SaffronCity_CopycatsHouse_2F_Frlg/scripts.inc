@@ -13,7 +13,13 @@ SaffronCity_CopycatsHouse_2F_EventScript_Doduo::
 
 SaffronCity_CopycatsHouse_2F_EventScript_Doll::
 	lock
+	goto_if_set FLAG_DEFEATED_SABRINA, SaffronCity_CopycatsHouse_2F_EventScript_DollAfter
 	msgbox SaffronCity_CopycatsHouse_2F_Text_RareMonOnlyDoll
+	release
+	end
+
+SaffronCity_CopycatsHouse_2F_EventScript_DollAfter::
+	msgbox SaffronCity_CopycatsHouse_2F_Text_DollAfter
 	release
 	end
 
@@ -51,7 +57,11 @@ SaffronCity_CopycatsHouse_2F_Text_MimickingFavoriteHobbyMale::
 	.string "{PLAYER}: Huh?\n"
 	.string "You're strange!\p"
 	.string "COPYCAT: Hmm? Quit mimicking?\n"
-	.string "But, that's my favorite hobby!$"
+	.string "But, that's my favorite hobby!\p"
+	.string "…I can copy anybody. Anybody.\p"
+	.string "Except SABRINA. There's nothing\n"
+	.string "in her face to catch.\p"
+	.string "…The one face I cannot make.$"
 
 SaffronCity_CopycatsHouse_2F_Text_MimickingFavoriteHobbyFemale::
 	.string "{PLAYER}: Hi.\n"
@@ -62,7 +72,11 @@ SaffronCity_CopycatsHouse_2F_Text_MimickingFavoriteHobbyFemale::
 	.string "You're weird!\l"
 	.string " \l"
 	.string "COPYCAT: Hmm? Quit mimicking?\l"
-	.string "But that's my favorite hobby!$"
+	.string "But that's my favorite hobby!\p"
+	.string "…I can copy anybody. Anybody.\p"
+	.string "Except SABRINA. There's nothing\n"
+	.string "in her face to catch.\p"
+	.string "…The one face I cannot make.$"
 
 Text_MimicTeach::
 	.string "Oh wow!\n"
@@ -104,7 +118,17 @@ SaffronCity_CopycatsHouse_2F_Text_Doduo::
 
 SaffronCity_CopycatsHouse_2F_Text_RareMonOnlyDoll::
 	.string "This is a rare POKéMON!\n"
-	.string "Huh? It's only a doll!$"
+	.string "Huh? It's only a doll.\p"
+	.string "…It's warm, though. Dolls\n"
+	.string "shouldn't be warm.\p"
+	.string "COPYCAT found it the week the\n"
+	.string "vanishings began. She won't let go.$"
+
+SaffronCity_CopycatsHouse_2F_Text_DollAfter::
+	.string "It's just a doll now.\n"
+	.string "Cold. Ordinary. Still.\p"
+	.string "COPYCAT seems relieved.\n"
+	.string "She couldn't have told you why.$"
 
 SaffronCity_CopycatsHouse_2F_Text_MarioWearingABucket::
 	.string "A game with MARIO wearing a bucket\n"

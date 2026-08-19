@@ -61,7 +61,11 @@ FuchsiaCity_House2_Text_OhThatsDisappointing::
 
 FuchsiaCity_House2_Text_HowAreTheFishBiting::
 	.string "Hello there, {PLAYER}!\p"
-	.string "How are the fish biting?$"
+	.string "How are the fish biting?\p"
+	.string "Poorly, downstream of the plant,\n"
+	.string "I'll tell you that.\p"
+	.string "KOGA's runoff took the poetry\n"
+	.string "clean out of the water.$"
 
 FuchsiaCity_House2_Text_YouHaveNoRoomForGift::
 	.string "Oh, no!\p"

@@ -114,6 +114,26 @@ bool8 DoesPartyHaveEnigmaBerry(void)
     return hasItem;
 }
 
+// Returns TRUE if any Pokemon in the player's party is a Bug type.
+// Used to gate entry to the Cerulean Gym (Misty's bug ban). MON_DATA_SPECIES
+// (not _OR_EGG) is used on purpose so an EGG is judged by the species it will
+// hatch into: a Bug-type egg is blocked too, so it can't hatch inside the gym.
+bool8 PartyHasBugType(void)
+{
+    u32 i;
+
+    for (i = 0; i < PARTY_SIZE; i++)
+    {
+        enum Species species = GetMonData(&gParties[B_TRAINER_PLAYER][i], MON_DATA_SPECIES);
+
+        if (species == SPECIES_NONE)
+            continue;
+        if (gSpeciesInfo[species].types[0] == TYPE_BUG || gSpeciesInfo[species].types[1] == TYPE_BUG)
+            return TRUE;
+    }
+    return FALSE;
+}
+
 void CreateScriptedWildMon(enum Species species, u8 level, enum Item item)
 {
     u8 heldItem[2];

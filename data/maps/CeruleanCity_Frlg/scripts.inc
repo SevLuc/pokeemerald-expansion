@@ -247,7 +247,16 @@ CeruleanCity_EventScript_LittleBoySlowbroMoved::
 	end
 
 CeruleanCity_EventScript_BaldingMan::
-	msgbox CeruleanCity_Text_PokemonEncyclopediaAmusing, MSGBOX_NPC
+	lock
+	faceplayer
+	goto_if_set FLAG_BADGE02_GET, CeruleanCity_EventScript_BaldingManPostBadge
+	msgbox CeruleanCity_Text_PokemonEncyclopediaAmusing
+	release
+	end
+
+CeruleanCity_EventScript_BaldingManPostBadge::
+	msgbox CeruleanCity_Text_MistyPsyduckHeart
+	release
 	end
 
 CeruleanCity_EventScript_Youngster::
@@ -454,6 +463,12 @@ CeruleanCity_Text_PokemonEncyclopediaAmusing::
 	.string "That PSYDUCK answers to no one.\n"
 	.string "…Not even her.$"
 
+CeruleanCity_Text_MistyPsyduckHeart::
+	.string "Everyone thinks that PSYDUCK is\n"
+	.string "the joke.\p"
+	.string "…I think it's the one thing she'd\n"
+	.string "never replace.$"
+
 CeruleanCity_Text_PeopleHereWereRobbed::
 	.string "The people here were robbed.\p"
 	.string "It's obvious that TEAM ROCKET is\n"
@@ -511,7 +526,14 @@ CeruleanCity_Text_ThisIsCeruleanCave::
 	.string "become the POKéMON LEAGUE\l"
 	.string "CHAMPION for starters.\p"
 	.string "And, you would have to have\n"
-	.string "made a great achievement.$"
+	.string "made a great achievement.\p"
+	.string "Between you and me…\p"
+	.string "The old-timers say the strongest\n"
+	.string "thing in there isn't native.\p"
+	.string "Came up from the south long ago,\n"
+	.string "they whisper. From over the sea.\p"
+	.string "Something that didn't want to be\n"
+	.string "found. …I'd leave it be.$"
 
 CeruleanCity_Text_CitySign::
 	.string "CERULEAN CITY\n"

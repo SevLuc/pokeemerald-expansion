@@ -1,0 +1,74 @@
+# Lt. Surge - line bank (draft)
+
+> Vermilion Gym arc. Index/gates in ../lore-ledger.md (SURGE-01..). Not in-game yet.
+> Gen-3 rhythm: short two-line pages. No em dashes. Mystique: NPC lore stays
+> subtle/vague; the S.S. Anne Captain is the one who explains it plainly (payoff).
+
+## Concept / engine
+- SURFACE: loud, goofy, cocky macho war-hero. Trash-talks big ("HYPER BEAM to the
+  dome-ski"). Plays everything at full volume.
+- UNDER IT (never bragged by him; revealed by others, subtly): a real freedom
+  fighter. A slums kid, "Private" Surge, on a secret long con.
+- THE HISTORY: Vermilion was once a dark place under a corrupt regime (a Team
+  Rocket operation). Young Surge got himself recruited to move stolen POKéMON on
+  the S.S. ANNE, played the long game, quietly turned the ship into his weapon,
+  rose to Lieutenant, then struck FAST with lightning-quick POKéMON and toppled
+  the regime. He freed Vermilion.
+- WHY GYM LEADER: he refused to become the new boss. He took the gym role to keep
+  Vermilion safe. Duty, not power.
+- CONTRAST (silly-through-contrast): a goofy loudmouth who happens to be the
+  quiet reason the city is free.
+
+## CANON FLAG [FLAG: canon-check]
+Team Rocket is still active in the mainline plot (Giovanni = final gym). So Surge
+did NOT end Rocket - he freed VERMILION locally from a Rocket-run regime. Keep all
+lines vague enough that they never claim Rocket is finished. "The regime," "the old
+bosses," "back then," "the war" - not "he beat Team Rocket."
+
+## Lore delivery (subtle, in steps - like Misty's chorus)
+1. VERMILION CITY NPCs: escalating, vague references to "the war," the old regime,
+   and "Private" Surge. The city remembers.
+2. S.S. ANNE crew/passengers: present-day pride - praise for the Lt, relief/joy at
+   Vermilion's freedom. Never spell out the history.
+3. S.S. ANNE CAPTAIN (the one who gives HM01 CUT): THE PAYOFF. He was there. He
+   explains what still needs saying to piece it together (the one plain telling,
+   like Bill for Misty).
+
+## Lt. Surge himself (gym) - loud macho, gravitas only leaks a little
+LOCKED line (user): "You ever had a HYPER BEAM to the dome-ski?"
+- Intro: cocky trash-talk + the dome-ski line; a subtle "earned this the hard way"
+  undertone, never the full story.
+- Defeat: impressed, respects strength; a faint nod that he's seen worse than the
+  player. Hands over the THUNDERBADGE.
+- Trainers (Dwayne, Baily, Tucker): casual or one subtle war/loyalty note each.
+- Gym gimmick (IN-GAME): the famous "hated" trash-can puzzle is reframed as
+  Surge's deliberate TEST OF DISCIPLINE + ENDURANCE. Every gym trainer, the Gym
+  Guy, and the puzzle messages sell it (Dwayne "Not cruelty. Discipline."; Baily
+  "can't stay calm digging trash? can't beat him"; Tucker "locked to see if
+  you'll quit"; puzzle "Composure, kid. Or start over."). Functional hints kept
+  (2nd lock adjacent, switches in cans, water/bird weak + paralysis). Full gym
+  flavored.
+
+## Team (vanilla, for reference)
+Voltorb Lv21, Pikachu Lv18, Raichu Lv24. "Lightning fast" fits the strike-fast lore.
+
+## PLACED (in-game as of the S.S. Anne-trial PR)
+- Vermilion City chorus: Woman (SURGE-01 + post-badge SURGE-08), Old Man 2
+  (SURGE-02), Sailor (SURGE-03). All appended as coy extra pages.
+- S.S. Anne crew: Deck Sailor (SURGE-04), 1F Corridor Sailor (SURGE-05).
+- S.S. Anne Captain's Office (SURGE-06) = payoff. Seasick/back-rub gag DROPPED.
+  Reaching the Captain = "first trial" cleared; he tells the reveal + awards Cut,
+  framing the ship as Surge's decree. Re-talk: "I owe that man a lot. …We all do."
+- Vermilion Gym (SURGE-07/07b/GIMMICK) already in-game from the earlier gym PR.
+
+## S.S. Anne trial (the reframe)
+The ship is now Surge's own proving trial that gates his gym. Vanilla already
+gates the gym behind Cut (cuttable tree at Vermilion (19,24) is the only entrance;
+Cut comes only from the Captain, and HM01 is only usable once he awards it). No
+extra enforcement object is needed: the Captain rewards Cut for REACHING him
+(crossing the ship = passing the trial), and the framing lives in his reveal plus
+the ambient lines. (A gym-gate guard NPC was considered and dropped as redundant.)
+
+## TODO (still open)
+- None for this arc. Build + playtest the Captain reveal on Mac to confirm the
+  page breaks read well in-box.

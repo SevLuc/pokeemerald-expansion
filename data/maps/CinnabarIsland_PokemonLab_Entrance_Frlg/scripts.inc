@@ -40,11 +40,24 @@ CinnabarIsland_PokemonLab_Entrance_Text_StudyMonsExtensively::
 	.string "We study POKéMON extensively\n"
 	.string "every day.\p"
 	.string "People often bring us rare POKéMON\n"
-	.string "for examination.$"
+	.string "for examination.\p"
+	.string "…You know BLAINE runs the GYM now?\p"
+	.string "He was one of us. FUJI's sharpest.\n"
+	.string "The old MANSION team.\p"
+	.string "Then the thing we grew slipped its\n"
+	.string "chains and burned it all down.\p"
+	.string "He walked out of that fire and\n"
+	.string "never touched science again.\p"
+	.string "…Only questions now. He only\n"
+	.string "asks questions.$"
 
 CinnabarIsland_PokemonLab_Entrance_Text_PhotoOfLabFounderDrFuji::
 	.string "A photo of the LAB's founder…\n"
-	.string "DR. FUJI?!$"
+	.string "DR. FUJI?!\p"
+	.string "…And beside him, younger,\n"
+	.string "unburned: BLAINE.\p"
+	.string "Two friends who made something\n"
+	.string "they could not unmake.$"
 
 CinnabarIsland_PokemonLab_Entrance_Text_MeetingRoomSign::
 	.string "POKéMON LAB\n"

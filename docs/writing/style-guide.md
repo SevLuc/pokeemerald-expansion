@@ -1,6 +1,6 @@
 # Writing Style Guide
 
-> Scope: **text & flavor only** — never propose sprites, tilesets, portraits, maps, or music.
+> Scope: **text & flavor only** - never propose sprites, tilesets, portraits, maps, or music.
 > Setting: Kanto-authentic FireRed/LeafGreen. "Kanto-authentic" governs the
 > WORLD, story, places, and character canon (stay in Kanto, gen-3 era feel,
 > gimmicks off). It does NOT restrict the Pokémon roster: species from any
@@ -17,7 +17,7 @@ defines *how characters talk* and *when to wink vs. play it straight*.
   can't leave the water…" beats one who states "she uses water types because
   Psyduck kept running away." If a line spells out the reveal, it's wrong. This
   governs all NPC/trainer/leader writing across the whole project.
-- Silly-through-contrast, not blanket goofiness. Humor comes from friction — an
+- Silly-through-contrast, not blanket goofiness. Humor comes from friction - an
   over-committed character in a low-stakes moment, a straight-man next to a fool.
   A town of earnest gen-1 NPCs is the setup; one absurd character is the punchline.
 - Character-first. Every returning character gets a distinct personality. Plot
@@ -32,25 +32,25 @@ defines *how characters talk* and *when to wink vs. play it straight*.
 - NO EM DASHES, ever. Project-wide rule for all text we write (in-game strings,
   docs, PRs). Use a comma, a period, an ellipsis (…), or a single hyphen "-"
   instead. For interrupted/cut-off dialogue, end the line with a single "-" or
-  a trailing "…" — never "—". (Practical bonus: gen-3 text renders "-" and "…"
+  a trailing "…" - never "—". (Practical bonus: gen-3 text renders "-" and "…"
   cleanly; an em dash does not.)
 - Gen-3 text boxes: short two-line pages. Match the width/rhythm of an existing
   nearby vanilla string rather than guessing a character limit.
 - Kanto canon for the WORLD in the writing: places, story, characters stay
   Kanto/gen-3-era. (Pokémon species are NOT restricted by gen; see scope note.)
 - Allude, don't reproduce: paraphrase anime characterization; never copy anime
-  dialogue verbatim (e.g. the Team Rocket motto) — reword into our own voice.
+  dialogue verbatim (e.g. the Team Rocket motto) - reword into our own voice.
 - Text/flavor only. Reusing an existing vanilla object in Porymap is fine;
   requesting new art is not.
 
 ## 3. Character speech styles
-("Speech style" = how a character talks — word choice, rhythm, attitude, verbal
+("Speech style" = how a character talks - word choice, rhythm, attitude, verbal
 tics. No audio; this is all written dialogue.) Assign each character one primary
 style. Most NPCs use Baseline.
 
-### Baseline — vanilla Kanto (default)
+### Baseline - vanilla Kanto (default)
 Light, earnest, a little campy; period-appropriate. This is the sea everything
-else contrasts against — keep most NPCs here or the contrast jokes stop working.
+else contrasts against - keep most NPCs here or the contrast jokes stop working.
 Example feel: "The POKéMON here are tougher than they look. Be careful!"
 
 ### Gen-Z trainer  [FLAG: dated]
@@ -60,7 +60,7 @@ Example feel: "ngl your Geodude is kinda mid... it's giving Rock-type."
 > Release note: slang dates fast. Tag and review before public release.
 
 ### Streamer-homage NPC  [FLAG: release-swap]
-Cocky, self-mythologizing, obsessed with "the run" — a nod to Nuzlocke-streamer
+Cocky, self-mythologizing, obsessed with "the run" - a nod to Nuzlocke-streamer
 culture. Homage, not likeness: evoke a persona via name/team/catchphrase rather
 than naming a real person, unless you have their explicit OK.
 Example feel: "One death and the whole run's over. I do NOT lose. ...probably."
@@ -68,10 +68,10 @@ Example feel: "One death and the whole run's over. I do NOT lose. ...probably."
 > genericize or remove them. If naming a real streamer, get permission first.
 
 ### Trainer-class voices
-- Bug Catcher / Youngster — eager kids, boastful about tiny things.
-- Gym Leader — archetypal and self-assured; each also carries their history.
-- Team Rocket grunt — menacing-but-comic; petty, never actually competent.
-- Hiker / Fisher / etc. — one-note quirks; texture, not stars.
+- Bug Catcher / Youngster - eager kids, boastful about tiny things.
+- Gym Leader - archetypal and self-assured; each also carries their history.
+- Team Rocket grunt - menacing-but-comic; petty, never actually competent.
+- Hiker / Fisher / etc. - one-note quirks; texture, not stars.
 
 ### Anime-flavored characterization  [FLAG: canon-check]
 Use anime personalities to deepen characters (Brock the aspiring breeder/cook;
@@ -80,10 +80,10 @@ lore ledger.
 
 ## 4. Release-readiness flags
 Tag inline so a future "make it public" pass is a search, not a rewrite:
-- [FLAG: release-swap] — real-person likeness / anything to genericize before release.
-- [FLAG: dated] — time-sensitive slang or memes to review periodically.
-- [FLAG: canon-check] — anime/game canon blend needing a consistency pass.
-Public release is undecided, so apply these from the start — they cost nothing now.
+- [FLAG: release-swap] - real-person likeness / anything to genericize before release.
+- [FLAG: dated] - time-sensitive slang or memes to review periodically.
+- [FLAG: canon-check] - anime/game canon blend needing a consistency pass.
+Public release is undecided, so apply these from the start - they cost nothing now.
 
 ## 5. How this gets used
 1. creative-director assigns each character a speech style and decides comic vs.
