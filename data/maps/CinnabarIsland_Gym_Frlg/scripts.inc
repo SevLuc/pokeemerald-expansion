@@ -710,19 +710,24 @@ CinnabarIsland_Gym_EventScript_OpenDoor6::
 	return
 
 CinnabarIsland_Gym_Text_BlaineIntro::
-	.string "Hah!\p"
-	.string "I am BLAINE, the red-hot LEADER\n"
-	.string "of CINNABAR GYM!\p"
-	.string "My fiery POKéMON are all rough\n"
-	.string "and ready with intense heat!\p"
-	.string "They incinerate all challengers!\p"
-	.string "Hah!\n"
-	.string "You better have BURN HEAL!{PLAY_BGM}{MUS_RG_ENCOUNTER_GYM_LEADER}$"
+	.string "Hah! So you solved my riddles.\p"
+	.string "I am BLAINE. I test the mind\n"
+	.string "before the POKéMON. On purpose.\p"
+	.string "Raw power I have seen. Raw power,\n"
+	.string "unchecked, once made a monster.\p"
+	.string "So I ask questions first.\n"
+	.string "Burn that into your memory.\p"
+	.string "Now! My fire has swallowed every\n"
+	.string "fool who skipped the thinking.\p"
+	.string "Hah! You better have BURN HEAL!{PLAY_BGM}{MUS_RG_ENCOUNTER_GYM_LEADER}$"
 
 CinnabarIsland_Gym_Text_BlaineDefeat::
-	.string "I have burned down to nothing!\n"
-	.string "Not even ashes remain!\p"
-	.string "You have earned the VOLCANOBADGE.$"
+	.string "Hah… burned down to nothing.\n"
+	.string "Not even ashes remain.\p"
+	.string "…I have watched that happen before.\n"
+	.string "To everything I built. Everything.\p"
+	.string "You have earned the VOLCANOBADGE.\n"
+	.string "You earned it right. By thinking.$"
 
 CinnabarIsland_Gym_Text_FireBlastIsUltimateFireMove::
 	.string "FIRE BLAST is the ultimate fire\n"
@@ -730,23 +735,28 @@ CinnabarIsland_Gym_Text_FireBlastIsUltimateFireMove::
 	.string "Don't waste it on WATER POKéMON.$"
 
 CinnabarIsland_Gym_Text_ExplainVolcanoBadge::
-	.string "Hah!\p"
-	.string "The VOLCANOBADGE heightens the\n"
-	.string "SPECIAL stats of your POKéMON.\p"
-	.string "Here, you can have this, too!$"
+	.string "The VOLCANOBADGE. It lifts the\n"
+	.string "SPECIAL power of your POKéMON.\p"
+	.string "Great power, in a young hand.\n"
+	.string "…Mind what you do with it.\p"
+	.string "I did not, once.\n"
+	.string "Here. Take this, too.$"
 
 CinnabarIsland_Gym_Text_ReceivedTM38FromBlaine::
 	.string "{PLAYER} received TM38\n"
 	.string "from BLAINE.$"
 
 CinnabarIsland_Gym_Text_BlainePostBattle::
-	.string "TM38 contains FIRE BLAST.\n"
-	.string "Teach it to FIRE-type POKéMON.\p"
-	.string "VULPIX or CHARMELEON would be\n"
-	.string "ideal for that move.$"
+	.string "TM38. FIRE BLAST.\n"
+	.string "The hottest thing I can give you.\p"
+	.string "Teach it to a FIRE type. A VULPIX,\n"
+	.string "a CHARMELEON.\p"
+	.string "…And never forget it can burn more\n"
+	.string "than you aim it at.$"
 
 CinnabarIsland_Gym_Text_MakeSpaceForThis::
-	.string "Make space for this, child!$"
+	.string "Make space, challenger.\n"
+	.string "…A sharp mind travels light.$"
 
 CinnabarIsland_Gym_Text_ErikIntro::
 	.string "Do you know how hot POKéMON fire\n"

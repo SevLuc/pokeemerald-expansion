@@ -7,6 +7,19 @@ Update in the same PR as the change.
 `YYYY-MM-DD` — area — one-line summary (PR/commit ref)
 
 ## Entries
+- 2026-08-19 — story/flavor — Blaine "the man who made the fire" Mewtwo-guilt arc
+  (Cinnabar). Reflavored Blaine: the red-hot quiz-master was a lead researcher at the
+  POKéMON MANSION on Dr. Fuji's team who helped create MEWTWO; it broke loose, burned
+  the mansion, and vanished, and his fire persona is the fire he unleashed. His QUIZ
+  gimmick is reframed as testing for wisdom (raw power without judgment made a
+  monster), and the guilt leaks in his defeat/badge/TM lines. Coy signed fragments
+  beside the canon Mewtwo diary in the Mansion (3F "-F.", B1F "No one asked if we
+  should. Forgive me. -B."); a plain-telling payoff from a Lab scientist + the Dr.
+  Fuji photo; coy townsfolk lines (he predates the Lab; "some say he lit it"). Canon-
+  blend (Adventures-manga flavor, supported by the in-repo Blaine+Fuji photo);
+  contradicts no game plot (mansion still burned, Mewtwo still in Cerulean Cave). Tag
+  canon-check. Text/flavor only, appended to existing NPCs/journals, no new objects;
+  the fight stays red-hot. See BLAINE-* in docs/writing/lore-ledger.md.
 - 2026-08-19 — story/flavor — Sabrina "the girl who went cold" possession arc
   (Saffron). Reflavored Sabrina and her gym: she was a sunny child whose psychic gift
   grew past her, so she let her heart go cold and began folding SAFFRON's minds into

@@ -64,5 +64,15 @@ hard-but-fair rebalance against vanilla.
   to you makes her LAUGH, breaking the spell and freeing everyone unharmed. Payoff =
   Mr. Psychic. See SABRINA-* in lore-ledger.md.
 
-## Gyms 7–8
-(Blaine, Giovanni — fill in)
+## Gym 7 — Cinnabar (Blaine, Fire) — Volcano Badge
+- Vanilla team: (fill from data)
+- Rebalanced team: (TBD)
+- Gimmick: canon quiz-door trivia gate, reframed as Blaine testing the MIND before
+  the POKéMON (raw power without wisdom is what made a monster). Mechanic unchanged.
+- Arc: Blaine helped create MEWTWO at the POKéMON MANSION on Dr. Fuji's team; it broke
+  loose and burned everything, and his fire persona / quizzes are his guilt and
+  penance. Payoff = a Lab scientist + the Fuji photo + the signed Mansion diary
+  fragments. Canon-blend, tag canon-check. See BLAINE-* in lore-ledger.md.
+
+## Gym 8
+(Giovanni — fill in)

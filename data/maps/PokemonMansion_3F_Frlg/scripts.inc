@@ -53,5 +53,8 @@ PokemonMansion_1F_Text_BraydonPostBattle::
 PokemonMansion_1F_Text_MewGaveBirthToMewtwo::
 	.string "Diary: Feb. 6\n"
 	.string "MEW gave birth.\p"
-	.string "We named the newborn MEWTWO.$"
+	.string "We named the newborn MEWTWO.\p"
+	.string "[A note in the margin:]\p"
+	.string "BLAINE says it looked at him,\n"
+	.string "and he wept. So did I. -F.$"
 

@@ -276,6 +276,37 @@ Consistency notes:
   eases into sincere awakening. Tag for a release pass to review/genericize; the
   surrounding lines stand on their own if it is ever cut.
 
+## Blaine - the man who made the fire (Mewtwo guilt behind the bluster)
+Concept: the red-hot quiz-master was once a lead researcher at the Cinnabar POKéMON
+MANSION, on DR. FUJI's team. They cloned MEW and pushed too far, making MEWTWO. It
+broke loose, burned the mansion (and Blaine), and vanished. His loud fire-and-bluster
+persona is the fire he unleashed; the QUIZ gimmick is reframed as testing for the
+WISDOM they lacked - raw power without judgment made a monster, so he asks questions
+first. Behind it all: guilt and penance. The game already supports this (an in-repo
+line: "a photo of BLAINE and MR. FUJI, shoulder to shoulder"; townsfolk say Blaine
+predates the LAB). Reflavor only; the mansion still burned, MEWTWO is still in Cerulean
+Cave. Full lines: drafts/blaine.md.
+
+| ID | Subject | Reveal | Source NPC | Map | Gate | Order | Status | Flags |
+|---|---|---|---|---|---|---|---|---|
+| BLAINE-01 | He predates the Lab (coy) | Cinnabar Woman (append): "He was a scientist then, you know. A brilliant one. …He does not speak of then." | Woman (existing) | Cinnabar Island | none | 1 | in-game | [FLAG: canon-check] |
+| BLAINE-02 | The burned mansion (coy) | Cinnabar Old Man (append): "BLAINE took the GYM after it burned. Some say he lit it. …Some say he just could not put it out." | Old Man (existing) | Cinnabar Island | none | 2 | in-game | [FLAG: canon-check] |
+| BLAINE-QUIZ | The quiz = testing wisdom | Blaine's intro reframes the quiz: "I test the mind before the POKéMON. On purpose. Raw power, unchecked, once made a monster. So I ask questions first." | Blaine | Cinnabar Gym | none | 3 | in-game | - |
+| BLAINE-DIARY | The Mansion journals (anchor) | Alongside the canon MEWTWO diary: 3F (early wonder) "BLAINE says it looked at him, and he wept. So did I. -F." B1F (the confession) "We could make it. No one asked if we should. Forgive me. -B." | Mansion journals (existing) | Pokemon Mansion 3F / B1F | none | 4 | in-game | [FLAG: canon-check] |
+| BLAINE-PAYOFF | Old colleague tells it plainly | Lab Entrance scientist: "BLAINE? He was one of us. FUJI's sharpest. The old MANSION team. Then the thing we grew slipped its chains and burned it all down. He never touched science again. …Only questions now." Fuji photo: "…beside him, younger, unburned: BLAINE. Two friends who made something they could not unmake." | Lab scientist + Fuji photo (existing) | Cinnabar Pokemon Lab | none | 5 | in-game | [FLAG: canon-check] |
+| BLAINE-SELF | The guilt leaks | Intro leak ("once made a monster"). Defeat: "burned down to nothing… I have watched that happen before. To everything I built." Badge: "Great power, in a young hand. …Mind what you do with it. I did not, once." TM: "never forget it can burn more than you aim it at." | Blaine | Cinnabar Gym | none | 6 | in-game | - |
+
+Consistency notes:
+- The quiz reframe (BLAINE-QUIZ) changes the MEANING of the gimmick, not the mechanic;
+  the trivia doors are untouched. "Wisdom before power" is his penance.
+- Canon-blend: Blaine-on-Fuji's-team + Blaine helping make Mewtwo is Adventures-manga
+  flavor, supported by the in-repo Blaine+Fuji photo text. It contradicts no game plot
+  (mansion still burned, Mewtwo still in Cerulean Cave). Tag canon-check throughout.
+- The "-B." / "-F." diary initials are the coy signatures (Blaine / Fuji); the player
+  connects them to the Lab payoff and the photo. Never spelled out in the journals.
+- His battle stays red-hot and hard (BURN HEAL bluster intact); the guilt only leaks in
+  the quieter beats (defeat, badge, TM), so the fight still lands.
+
 ## Template: new gym leader
 Copy per leader. Keep fragments optional and gated so a rushing player still
 finishes and a curious one gets the hidden layer.

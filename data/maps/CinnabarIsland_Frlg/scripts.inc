@@ -358,13 +358,20 @@ CinnabarIsland_Text_BlaineLivedHereSinceBeforeLab::
 	.string "CINNABAR GYM's BLAINE is quite the\n"
 	.string "odd fellow.\p"
 	.string "He's lived on the island since way\n"
-	.string "before the LAB was built.$"
+	.string "before the LAB was built.\p"
+	.string "He was a scientist then, you know.\n"
+	.string "A brilliant one.\p"
+	.string "…He does not speak of then.$"
 
 CinnabarIsland_Text_ScientistsExperimentInMansion::
 	.string "Scientists conduct experiments \n"
 	.string "in the burned-out building.\p"
 	.string "You know, the one they call the\n"
-	.string "POKéMON MANSION.$"
+	.string "POKéMON MANSION.\p"
+	.string "BLAINE took the GYM after it\n"
+	.string "burned.\p"
+	.string "Some say he lit it. …Some say he\n"
+	.string "just could not put it out.$"
 
 CinnabarIsland_Text_IslandSign::
 	.string "CINNABAR ISLAND\n"
