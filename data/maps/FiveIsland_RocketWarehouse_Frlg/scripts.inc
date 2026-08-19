@@ -189,7 +189,10 @@ FiveIsland_RocketWarehouse_Text_Grunt2Defeat::
 
 FiveIsland_RocketWarehouse_Text_Grunt2PostBattle::
 	.string "TEAM ROCKET broke up?\n"
-	.string "What planet are you from?$"
+	.string "What planet are you from?\p"
+	.string "Even if it did… the BOSS wouldn't\n"
+	.string "quit. He'd start over. From nothing,\l"
+	.string "like he always has.$"
 
 FiveIsland_RocketWarehouse_Text_Grunt1Intro::
 	.string "Oh, now your POKéMON look strong.\n"
@@ -302,10 +305,12 @@ FiveIsland_RocketWarehouse_Text_GetLostLeaveMeBe::
 
 FiveIsland_RocketWarehouse_Text_GiovannisKidHasRedHair::
 	.string "What, you again?\p"
-	.string "You… You're not GIOVANNI's kid,\n"
-	.string "are you?\p"
-	.string "No, that can't be right!\n"
-	.string "GIOVANNI's kid has red hair.\p"
-	.string "You don't have any reasons for\n"
-	.string "bugging me. Leave me alone!$"
+	.string "You think you know GIOVANNI?\n"
+	.string "A brat like you?\p"
+	.string "That man answered to nobody.\n"
+	.string "Had nobody.\p"
+	.string "Came up from the dirt alone, and\n"
+	.string "stayed that way.\p"
+	.string "You've no reason to keep bugging\n"
+	.string "me. Leave me alone!$"
 

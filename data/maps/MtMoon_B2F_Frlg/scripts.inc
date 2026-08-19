@@ -173,7 +173,9 @@ MtMoon_B2F_Text_Grunt1PostBattle::
 MtMoon_B2F_Text_Grunt2Intro::
 	.string "We, TEAM ROCKET, are POKéMON\n"
 	.string "gangsters!\l"
-	.string "We strike fear with our strength!$"
+	.string "We strike fear with our strength!\p"
+	.string "Our BOSS came up from nothing.\n"
+	.string "Nothing makes a man hungry.$"
 
 MtMoon_B2F_Text_Grunt2Defeat::
 	.string "I blew it!$"

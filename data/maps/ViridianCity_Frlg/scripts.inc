@@ -248,10 +248,14 @@ ViridianCity_Text_CanCarryMonsAnywhere::
 
 ViridianCity_Text_GymClosedWonderWhoLeaderIs::
 	.string "This POKéMON GYM is always closed.\p"
-	.string "I wonder who the LEADER is?$"
+	.string "I wonder who the LEADER is?\p"
+	.string "Away for years, and we're proud of\n"
+	.string "him all the same. …Whoever he is.$"
 
 ViridianCity_Text_ViridiansGymLeaderReturned::
-	.string "VIRIDIAN GYM's LEADER returned!$"
+	.string "VIRIDIAN GYM's LEADER returned!\p"
+	.string "After all these years! I knew he'd\n"
+	.string "come back to us.$"
 
 ViridianCity_Text_WantToKnowAboutCaterpillarMons::
 	.string "You want to know about the two\n"
@@ -276,7 +280,9 @@ ViridianCity_Text_GoShoppingInPewterOccasionally::
 	.string "I go shopping in PEWTER CITY\n"
 	.string "occasionally.\p"
 	.string "I have to take the winding trail in\n"
-	.string "VIRIDIAN FOREST when I go.$"
+	.string "VIRIDIAN FOREST when I go.\p"
+	.string "Our GYM LEADER? Never met the\n"
+	.string "man. …A fine fellow, I'm sure.$"
 
 ViridianCity_Text_ThisIsPrivateProperty::
 	.string "I absolutely forbid you from\n"
@@ -363,5 +369,6 @@ ViridianCity_Text_GymSign::
 	.string "VIRIDIAN CITY POKéMON GYM$"
 
 ViridianCity_Text_GymDoorsAreLocked::
-	.string "VIRIDIAN GYM's doors are locked…$"
+	.string "VIRIDIAN GYM's doors are locked.\p"
+	.string "The LEADER is away… on business.$"
 

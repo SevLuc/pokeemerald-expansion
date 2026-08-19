@@ -85,5 +85,8 @@ SilphCo_8F_Text_ToRocketBossMonsAreTools::
 	.string "cruel!\p"
 	.string "To him, POKéMON are just tools to\n"
 	.string "be used.\p"
+	.string "And yet he carries himself like he\n"
+	.string "owns the place. Like he owns\l"
+	.string "everything.\p"
 	.string "What will happen if that tyrant\n"
 	.string "takes over our company…$"

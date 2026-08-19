@@ -29,6 +29,31 @@ submenu too). Flagged to the user 2026-08-19.
 
 ## Pending verification
 
+### PR #11 - Giovanni "the man who was here all along" lore  (compile risk: MEDIUM - map scripts + fame checker text)
+- Files: `data/maps/*/scripts.inc` (RocketHideout_B4F, SilphCo_11F, ViridianCity_Gym,
+  ViridianCity, MtMoon_B2F, RocketHideout_B1F, PokemonTower_7F, SilphCo_5F, SilphCo_8F,
+  FiveIsland_RocketWarehouse) + `data/text/fame_checker_frlg.inc` + `docs/writing/*`.
+- NOTE: draft PR #11 is still OPEN; this branch already carries it. Build & playtest
+  here, then it can merge. (Move this row up to normal "merged" status once merged.)
+- `[ ] builds` - text/flavor reflavors + appended `.string` lines only, no new objects
+  or scripts. The badge-fanfare control codes in the Viridian defeat line
+  (`{PAUSE_MUSIC}` / `{MUS_OBTAIN_BADGE}` / `{PLAY_BGM}`) and the gym-intro
+  `{PLAY_BGM}{MUS_RG_ENCOUNTER_ROCKET}` are preserved verbatim. Assembler catches any
+  typo'd label / unterminated string. (Pre-checked here: no em dashes, every `.string`
+  terminates, control codes intact.)
+- `[ ] playtested`:
+  - All three Giovanni battles read right, no overflow / bad control codes:
+    Rocket Hideout B4F, Silph Co 11F, Viridian Gym (intro / defeat / post-battle).
+  - Viridian Gym defeat still awards the EARTHBADGE with its jingle; TM26 (EARTHQUAKE)
+    is still given afterward.
+  - Viridian City civic lines fire: locked-door "away... on business"; Old Man "who
+    the LEADER is"; Woman "a fine fellow, I'm sure"; and the "LEADER returned!" line
+    once the gym unlocks (after badges 2-7).
+  - Fame Checker Giovanni entries + his letter display correctly as they unlock.
+  - Viridian Gym trainers (now Ground-grit reflavors) + ambient NPC appends (Mt Moon,
+    Rocket Hideout B1F, Pokemon Tower 7F, Silph Co 5F/8F, Five Island warehouse) read
+    right, no overflow.
+
 ### PR #10 - HMs usable without learning  (compile risk: HIGH - multi-file C)
 - Files: `include/config/overworld.h`, `include/field_move.h`, `src/field_move.c`,
   `src/field_control_avatar.c`, `src/party_menu.c`, `src/scrcmd.c`.

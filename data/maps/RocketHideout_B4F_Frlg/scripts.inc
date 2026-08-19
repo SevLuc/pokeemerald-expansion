@@ -123,23 +123,27 @@ RocketHideout_B4F_EventScript_RemoveBarrier::
 RocketHideout_B4F_Text_GiovanniIntro::
 	.string "So! I must say, I am impressed you\n"
 	.string "got here.\p"
-	.string "TEAM ROCKET captures POKéMON from\n"
-	.string "around the world.\p"
-	.string "They're important tools for keeping\n"
-	.string "our criminal enterprise going.\p"
+	.string "I built TEAM ROCKET from nothing.\n"
+	.string "Strong POKéMON built the rest.\p"
+	.string "They are tools. I take the tools\n"
+	.string "I need. That is how one gets strong.\p"
 	.string "I am the leader, GIOVANNI!\p"
 	.string "For your insolence, you will feel a\n"
 	.string "world of pain!$"
 
 RocketHideout_B4F_Text_GiovanniDefeat::
-	.string "WHAT!\n"
-	.string "This can't be!$"
+	.string "Nngh… impossible!\n"
+	.string "Clawed up from nothing… for this?$"
 
 RocketHideout_B4F_Text_GiovanniPostBattle::
-	.string "I see that you raise POKéMON with\n"
+	.string "I see. You raise POKéMON with\n"
 	.string "utmost care.\p"
-	.string "A child like you would never\n"
-	.string "understand what I hope to achieve.\p"
+	.string "Care. I never had that luxury.\p"
+	.string "Where I come from, the weak get\n"
+	.string "ground under.\p"
+	.string "So I made myself strong.\p"
+	.string "A child like you could not yet\n"
+	.string "grasp what I mean to achieve.\p"
 	.string "I shall step aside this time!\p"
 	.string "I hope we meet again…$"
 

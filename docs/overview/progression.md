@@ -19,6 +19,15 @@ comes only from the S.S. Anne Captain). We reflavor this as Surge's "S.S. Anne
 trial" - cross the ship, reach the Captain, earn Cut. No mechanical change to the
 gate itself. See SURGE-06 in docs/writing/lore-ledger.md.
 
+Recurring antagonist - Giovanni: unlike the seven leaders you meet once, Giovanni
+is fought THREE times along the critical path (Rocket Hideout B4F under the Celadon
+Game Corner -> Silph Co 11F in Saffron -> Viridian Gym for the Earth Badge), and
+Team Rocket seeds him all game (Mt Moon, Game Corner, Pokemon Tower, Silph Co). The
+Viridian Gym is LOCKED until badges 2-7 are earned (vanilla), so it is always the
+last gym; the reveal that the ROCKET boss and the absent Viridian LEADER are one man
+lands when the gym finally opens. Lore delivery spans the whole game. See GIOVANNI-*
+in docs/writing/lore-ledger.md.
+
 ## Level cap (hard, badge-gated)
 Hard caps are ON (`B_EXP_CAP_TYPE = EXP_CAP_HARD`,
 `B_LEVEL_CAP_TYPE = LEVEL_CAP_FLAG_LIST`, `B_RARE_CANDY_CAP = TRUE`). Over-cap

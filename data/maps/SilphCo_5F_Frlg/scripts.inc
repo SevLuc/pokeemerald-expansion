@@ -136,5 +136,7 @@ SilphCo_5F_Text_RocketBossLookingForStrongMons::
 	.string "building…\p"
 	.string "Their BOSS said he was looking for\n"
 	.string "strong POKéMON.\p"
+	.string "Talks like he was born to the\n"
+	.string "boardroom. …He wasn't, I hear.\p"
 	.string "I hope our PRESIDENT managed to\n"
 	.string "avoid trouble…$"

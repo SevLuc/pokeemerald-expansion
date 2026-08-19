@@ -7,6 +7,30 @@ Update in the same PR as the change.
 `YYYY-MM-DD` — area — one-line summary (PR/commit ref)
 
 ## Entries
+- 2026-08-19 - story/flavor - Giovanni "the man who was here all along" self-made
+  arc (game-wide). Giovanni is UNIQUE: the recurring antagonist you battle three
+  times (Rocket Hideout -> Silph Co -> Viridian Gym) and hear about all game. Hidden
+  layer: the ROCKET boss has spent the whole game hiding in plain sight as the absent
+  GYM LEADER of Viridian, the sleepy first city; the region carries two absences (an
+  unseen boss / a never-there leader) and the player rhymes them until the gym opens
+  and canon reveals they are one man. Engine = SELF-MADE MAN FROM THE DIRT (NO son
+  thread, decided w/ user): strength is worth, so he built ROCKET from nothing, and
+  on losing he gives up the empire to chase strength alone. Reflavored his three
+  battle intros/post-battles to escalate the self-made + double-life weight while
+  staying hard-but-fair (RocketHideout_B4F, SilphCo_11F, ViridianCity_Gym); added the
+  Viridian civic-devotion gag (locked door "away… on business"; Old Man/Woman "a fine
+  fellow, I'm sure"; "LEADER returned!"); appended coy "unseen boss / hidden face /
+  from nothing" fragments to existing Rocket-beat NPCs (Mt Moon B2F, Rocket Hideout
+  B1F, Pokemon Tower 7F, Silph Co 5F/8F/11F, Five Island warehouse); a self-made grace
+  note on a Viridian Gym trainer. Reflavored ALL of Giovanni's own lines (no vanilla
+  left: three intros/defeats/post-battles, the Earth Badge + Earthquake TM text),
+  every Fame Checker Giovanni beat + the letter quote, and all 8 Viridian Gym
+  trainers (off vanilla karate/whip filler onto GROUND-grit + reverence for the
+  self-made mystery LEADER). GROUND-type through-line (EARTHQUAKE). No son thread:
+  both vanilla "red-haired kid" references (Fame Checker + Five Island warehouse)
+  reflavored to a self-made-loner note. Text/flavor + appends only, no new objects;
+  touches no plot beats; the fights still land. Tag canon-check on the double-life
+  fragments. See GIOVANNI-* in docs/writing/lore-ledger.md.
 - 2026-08-19 — docs — Added `docs/overview/build-verification.md`, a living
   checklist of merged changes not yet compiled/playtested (web sessions can't
   build and CI has not run on this fork). Covers PRs #2, #4, #5, #6, #9, #10;
