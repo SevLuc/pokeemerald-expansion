@@ -256,7 +256,7 @@ clear and the town exhales.
 | SABRINA-04 | The un-mimicable face | Copycat: "I can copy anybody. Except SABRINA. There's nothing in her face to catch." | Copycat (existing) | Copycat's House 2F | none | 4 | in-game | - |
 | SABRINA-WARN | Mr. Psychic (the plain telling) | Her old teacher warns: sunny child, gift grew past her, the vanished sleep within her and her dolls, her heart went cold to cage the power, "only warmth can thaw it. Make her FEEL something. Surprise her." | Mr. Psychic (existing; pre-defeat branch) | Mr. Psychic's House | before FLAG_DEFEATED_SABRINA | 5 | in-game | - |
 | SABRINA-GYM | Possessed puppets / false hints | 7 gym trainers each give a contradictory false direction; defeats are lucid flickers. Gym Guide: "Trust NO ONE in this gym. …Not even me." (one truth slips: FIGHTING folds to PSYCHIC). | Gym trainers + Gym Guide | Saffron Gym | none | 6 | in-game | - |
-| SABRINA-SELF | Cold intro -> the laugh | Intro: cold possessor ("All of SAFFRON, folded quiet within me… a small, still place for you"). Defeat: she LAUGHS, the seal breaks, the vanished wake unharmed ("You broke the spell"). Post: warm, restored, "no one recalls the dark. …my last gift to them." | Sabrina | Saffron Gym | none | 7 | in-game | - |
+| SABRINA-SELF | Cold intro -> the laugh | Intro: cold possessor ("All of SAFFRON, folded quiet within me… a small, still place for you"). Defeat: she LAUGHS, blurts "Absolute cinema!!" in the delirium, then eases into sincere surprise/relief ("I can FEEL again… that warmth, it is feeling itself… surprise, true surprise… it does not hurt"); the seal breaks, the vanished wake unharmed ("You broke the spell"). Post: warm, restored, "no one recalls the dark. …my last gift to them." | Sabrina | Saffron Gym | none | 7 | in-game | [FLAG: dated] |
 | SABRINA-FREED | Payoff / restoration | Mr. Psychic (after): "You made her LAUGH… the vanished woke. The sunny girl is in there still. You gave SAFFRON back its daughter." Lass/Worker after: everyone home, no memory, no grudges. Gym Guide post-victory: "the whole town just breathed out." | Mr. Psychic, Lass, Worker, Gym Guide (after) | Saffron City / Gym | after FLAG_DEFEATED_SABRINA | 8 | in-game | - |
 
 Consistency notes:
@@ -271,6 +271,10 @@ Consistency notes:
 - The laugh-breaks-the-spell logic is conveyed through dialogue + before/after NPC
   branches on FLAG_DEFEATED_SABRINA (no new objects), since the anime's literal
   transformation can't be staged; beating her IS the surprise that thaws her.
+- [FLAG: dated] Her defeat blurts the "Absolute cinema!!" meme at the laugh's peak
+  (user-requested). It reads as her overwhelmed, feeling-drunk delirium before she
+  eases into sincere awakening. Tag for a release pass to review/genericize; the
+  surrounding lines stand on their own if it is ever cut.
 
 ## Template: new gym leader
 Copy per leader. Keep fragments optional and gated so a rushing player still
