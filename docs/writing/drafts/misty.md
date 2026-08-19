@@ -19,14 +19,19 @@
   door and explains (small party-type-check script; only code piece).
 
 ## Misty herself (Psyduck woven into her battle voice)
-Intro (Psyduck pops out uninvited and deflates her tough speech):
+Intro - NO explanation. She builds to a battle cry, reaches for her strongest,
+and PSYDUCK barges out instead (her reaction = the joke); battle starts instantly
+and PSYDUCK is her actual lead in the fight.
 - "So you're my next challenger."
 - "I'm MISTY. Youngest of the Sensational Sisters."
 - "They do the dance shows. I do the actual battling."
-- "My policy? All-out offensive. All WATER, no holding back-"
-- (a PSYDUCK pops out on its own) "...PSYDUCK. I did NOT let you out."
-- "Ugh. Whatever. Stay if you want. Just don't get in my way."
-- "Let's go!" (battle starts)
+- "My policy? All-out offensive. All WATER. No mercy."
+- "Prepare yourself. I'm sending out my strongest- PSYDUCK?!" (battle starts)
+
+BATTLE TEAM (in-game): PSYDUCK (Lv16, lead) + Staryu (Lv18) + Starmie (Lv21).
+PSYDUCK is her comic opener (Water Gun / Disable / Tail Whip / Confusion). Adding
+it as a 3rd body keeps the fight from getting easier - Staryu + Starmie still
+follow. Level/moves are tunable.
 
 Defeat (tough girl concedes; optional Psyduck cameo):
 - "Ugh! Fine. You got me."

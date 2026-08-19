@@ -123,11 +123,9 @@ CeruleanCity_Gym_Text_MistyIntro::
 	.string "They do the dance shows.\n"
 	.string "I do the actual battling.\p"
 	.string "My policy? All-out offensive.\n"
-	.string "All WATER, no holding back-\p"
-	.string "…PSYDUCK. I did NOT let you out.\p"
-	.string "Ugh. Whatever. Stay if you want.\n"
-	.string "Just don't get in my way.\p"
-	.string "Let's go!{PLAY_BGM}{MUS_RG_ENCOUNTER_GYM_LEADER}$"
+	.string "All WATER. No mercy.\p"
+	.string "Prepare yourself. I'm sending out\n"
+	.string "my strongest- PSYDUCK?!{PLAY_BGM}{MUS_RG_ENCOUNTER_GYM_LEADER}$"
 
 CeruleanCity_Gym_Text_ExplainTM03::
 	.string "TM03 teaches WATER PULSE.\p"
