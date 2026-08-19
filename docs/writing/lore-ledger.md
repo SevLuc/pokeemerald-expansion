@@ -168,8 +168,14 @@ Consistency notes:
   feel like one mystery viewed from many angles, not a random grab-bag.
 - ERIKA-08 gates on FLAG_BADGE04_GET (her own Rainbow Badge): the wink only lands
   after you've beaten her and STILL know nothing.
-- Erika's own gym lines stay archetypal vanilla (dozing princess); the mystique
-  lives in the town around her, so the hard-but-fair fight still reads real.
+- Erika's own gym lines are now reflavored to a soft, HYPNOTIC-AURA voice: a sweet
+  young woman who has tended this garden since childhood, whose scent makes callers
+  drowsy ("few ever notice they've dozed"). Grounded, never occult/medium. The edge
+  stays under the sweetness ("mind the thorns"; "it will do anything for you.
+  …Anything at all"). Beating her = resisting the garden's pull ("you never once
+  drifted off"), NOT a spell. Functional info kept (Lv50 obey + STRENGTH; GIGA
+  DRAIN). The town chorus still carries the unconfirmable legends; her own voice
+  adds aura, not answers.
 - The two GIMMICKS (ERIKA-BIKERS, ERIKA-EXES) give the GYM/town concrete, funny
   truths, but say nothing certain about ERIKA HERSELF - she stays unknowable. The
   bikers even reinforce the poison/medicine legend from the outside (they fled
