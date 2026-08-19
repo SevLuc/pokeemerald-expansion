@@ -30,7 +30,31 @@ VermilionCity_EventScript_HideOaksAide::
 	return
 
 VermilionCity_EventScript_Woman::
-	msgbox VermilionCity_Text_GrimerMultipliesInSludge, MSGBOX_NPC
+	lock
+	faceplayer
+	goto_if_set FLAG_BADGE03_GET, VermilionCity_EventScript_WomanPostBadge
+	msgbox VermilionCity_Text_GrimerMultipliesInSludge
+	release
+	end
+
+VermilionCity_EventScript_WomanPostBadge::
+	msgbox VermilionCity_Text_WomanWhyLeader
+	release
+	end
+
+@ Placement TODO (Porymap): add one NPC near the gym tree (~x20,y25),
+@ set its script to VermilionCity_EventScript_GymGateGuard, any Sailor/Gentleman sprite.
+VermilionCity_EventScript_GymGateGuard::
+	lock
+	faceplayer
+	goto_if_set FLAG_GOT_HM01, VermilionCity_EventScript_GymGateGuardProven
+	msgbox VermilionCity_Text_GymGateGuardBlock
+	release
+	end
+
+VermilionCity_EventScript_GymGateGuardProven::
+	msgbox VermilionCity_Text_GymGateGuardProven
+	release
 	end
 
 VermilionCity_EventScript_OldMan1::
@@ -266,7 +290,34 @@ VermilionCity_EventScript_HarborSign::
 VermilionCity_Text_GrimerMultipliesInSludge::
 	.string "We're careful about pollution here.\p"
 	.string "We've heard GRIMER multiplies in\n"
-	.string "toxic sludge.$"
+	.string "toxic sludge.\p"
+	.string "Mind, it was worse once.\n"
+	.string "The whole city was.\p"
+	.string "…Different management, back then.$"
+
+VermilionCity_Text_WomanWhyLeader::
+	.string "So you took the LT's badge.\p"
+	.string "He could have run this city,\n"
+	.string "you know.\p"
+	.string "Chose to mind a gym instead.\n"
+	.string "…Him all over.$"
+
+VermilionCity_Text_GymGateGuardBlock::
+	.string "Whoa there. The LT's gym is past\n"
+	.string "that tree.\p"
+	.string "And that tree's not for the\n"
+	.string "unproven.\p"
+	.string "Cross the S.S. ANNE. Reach her\n"
+	.string "CAPTAIN.\p"
+	.string "Do that, and the way opens.\n"
+	.string "LT's own rules.$"
+
+VermilionCity_Text_GymGateGuardProven::
+	.string "So you walked the whole ship\n"
+	.string "and lived.\p"
+	.string "Then the LT will see you.\p"
+	.string "…Hope you brought more than\n"
+	.string "nerve. Ha!$"
 
 VermilionCity_Text_DidYouSeeSSAnneInHarbor::
 	.string "Did you see the S.S. ANNE moored\n"
@@ -281,7 +332,12 @@ VermilionCity_Text_BuildingOnThisLand::
 	.string "I'm putting up a building on this\n"
 	.string "plot of land. I own it all.\p"
 	.string "My POKéMON is tamping the land\n"
-	.string "to lay the foundation.$"
+	.string "to lay the foundation.\p"
+	.string "Time was, folks here owned\n"
+	.string "nothing at all.\p"
+	.string "The old bosses saw to that.\p"
+	.string "…Then they didn't.\n"
+	.string "Ask the LT. Or don't.$"
 
 VermilionCity_Text_Machop::
 	.string "MACHOP: Guoh! Gogogoh!$"
@@ -292,7 +348,12 @@ VermilionCity_Text_MachopStompingLandFlat::
 VermilionCity_Text_SSAnneVisitsOnceAYear::
 	.string "The S.S. ANNE is a famous luxury\n"
 	.string "cruise ship.\p"
-	.string "It visits VERMILION once a year.$"
+	.string "It visits VERMILION once a year.\p"
+	.string "That ship and the LT go way back.\p"
+	.string "Some of us knew him before the\n"
+	.string "stripes.\p"
+	.string "Back when they just called him\n"
+	.string "'Private.'$"
 
 VermilionCity_Text_CitySign::
 	.string "VERMILION CITY\n"

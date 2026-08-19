@@ -29,7 +29,11 @@ SSAnne_Deck_Text_ShipDepartingSoon::
 
 SSAnne_Deck_Text_ScrubbingDecksHardWork::
 	.string "Whew!\n"
-	.string "Scrubbing decks is hard work!$"
+	.string "Scrubbing decks is hard work!\p"
+	.string "Still. I sailed under the LT once.\n"
+	.string "Loudest officer I ever knew.\p"
+	.string "…Best, too.\n"
+	.string "This ship owes him plenty.$"
 
 SSAnne_Deck_Text_FeelSeasick::
 	.string "Urf… I feel ill…\p"

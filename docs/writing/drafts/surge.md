@@ -52,8 +52,24 @@ LOCKED line (user): "You ever had a HYPER BEAM to the dome-ski?"
 ## Team (vanilla, for reference)
 Voltorb Lv21, Pikachu Lv18, Raichu Lv24. "Lightning fast" fits the strike-fast lore.
 
-## TODO placement (research when building)
-- Vermilion City NPC objects (chorus carriers).
-- S.S. Anne rooms + passengers/crew (praise carriers).
-- S.S. Anne Captain script (HM01 Cut) = payoff aggregator.
-- Vermilion Gym: Surge intro/defeat + Dwayne/Baily/Tucker + gym guide.
+## PLACED (in-game as of the S.S. Anne-trial PR)
+- Vermilion City chorus: Woman (SURGE-01 + post-badge SURGE-08), Old Man 2
+  (SURGE-02), Sailor (SURGE-03). All appended as coy extra pages.
+- S.S. Anne crew: Deck Sailor (SURGE-04), 1F Corridor Sailor (SURGE-05).
+- S.S. Anne Captain's Office (SURGE-06) = payoff. Seasick/back-rub gag DROPPED.
+  Reaching the Captain = "first trial" cleared; he tells the reveal + awards Cut,
+  framing the ship as Surge's decree. Re-talk: "I owe that man a lot. …We all do."
+- Vermilion Gym (SURGE-07/07b/GIMMICK) already in-game from the earlier gym PR.
+
+## S.S. Anne trial (the reframe)
+The ship is now Surge's own proving trial that gates his gym. Vanilla already
+gates the gym behind Cut (cuttable tree at Vermilion (19,24) is the only entrance;
+Cut comes only from the Captain). We voiced that gate:
+- Captain rewards Cut for REACHING him (crossing the ship = passing the trial).
+- Gym-gate guard (`VermilionCity_EventScript_GymGateGuard`) turns away the
+  unproven pre-Cut and acknowledges you post-Cut.
+
+## TODO (still open)
+- PORYMAP: place one NPC near the gym tree (~x20,y25) and point its script at
+  `VermilionCity_EventScript_GymGateGuard` (any Sailor/Gentleman sprite). The
+  script + text are already written; the guard goes live once placed.

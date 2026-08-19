@@ -20,5 +20,16 @@ hard-but-fair rebalance against vanilla.
   Guy shoves you out). See MISTY-07.
 - History fragments: see MISTY-* in lore-ledger.md.
 
-## Gyms 3–8
-(Surge, Erika, Koga, Sabrina, Blaine, Giovanni — fill in)
+## Gym 3 — Vermilion (Lt. Surge, Electric) — Thunder Badge
+- Vanilla team: Voltorb Lv21, Pikachu Lv18, Raichu Lv24.
+- Rebalanced team: (TBD)
+- Gate: vanilla FRLG already gates the gym behind Cut (the cuttable tree at
+  (19,24) is the only entrance to the gym pocket; Cut comes from the S.S. Anne
+  Captain). Reframed as Surge's "first trial": cross the S.S. Anne, reach the
+  Captain, earn Cut. A gym-gate guard voices this (script written; Porymap
+  placement pending). See SURGE-GATE.
+- Puzzle: trash-can "discipline/endurance" trial (SURGE-GIMMICK).
+- History fragments: see SURGE-* in lore-ledger.md (payoff = S.S. Anne Captain).
+
+## Gyms 4–8
+(Erika, Koga, Sabrina, Blaine, Giovanni — fill in)

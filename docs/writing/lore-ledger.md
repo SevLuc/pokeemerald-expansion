@@ -82,27 +82,46 @@ trainers; town NPCs carry ambient respect/jokes. Full lines: drafts/misty.md.
 
 ## Lt. Surge - goofy war-hero + secret liberator of Vermilion
 Concept: loud macho war-hero on the surface ("HYPER BEAM to the dome-ski"); under
-it, a slums kid ("Private" Surge) who long-conned his way onto the S.S. ANNE,
-turned it into his weapon, and toppled Vermilion's corrupt Rocket-run regime with
-lightning-fast POKéMON, then took the gym to protect the city (not to rule).
-Delivery mirrors Misty: Vermilion City NPCs drip vague war/regime/Private-Surge
-references; the S.S. ANNE crew praise the Lt + celebrate freedom; the S.S. ANNE
-CAPTAIN (HM01 CUT) is the payoff who explains it plainly. Keep NPC lines subtle.
-CANON: he freed VERMILION locally; Rocket still active in the mainline plot -
-never claim Rocket is finished. Full lines: drafts/surge.md.
+it, a slums kid ("Private" Surge) who signed onto the S.S. ANNE, rose to the
+ship's Lieutenant, freed the electric POKéMON in its hold, and with them struck
+LIGHTNING fast to drive Rocket from Vermilion. He then let the people govern
+themselves and stayed only as the city's guard, taking the gym. "Not a king. A
+shield." Delivery mirrors Misty: Vermilion City NPCs drip vague regime/Private-
+Surge references; the S.S. ANNE crew show present-day pride/freedom; the S.S.
+ANNE CAPTAIN (HM01 CUT) is the payoff who tells it plainly.
+
+REFRAME (this PR): the S.S. ANNE is now Surge's OWN proving trial. Vanilla FRLG
+already gates his gym behind Cut (the cuttable tree at Vermilion (19,24) is the
+only way into the gym pocket, and Cut only comes from the ship). We make that
+gate legible: crossing the ship to REACH the Captain = passing "the first trial";
+the Captain rewards Cut and tells the reveal, framing the whole thing as Surge's
+decree ("cross my ship, prove your resolve"). The seasick/back-rub gag is dropped.
+CANON: Rocket is driven from VERMILION locally only; Rocket still active in the
+mainline plot - never claim Rocket is finished. Full lines: drafts/surge.md.
 
 | ID | Subject | Reveal | Source NPC | Map | Gate | Order | Status | Flags |
 |---|---|---|---|---|---|---|---|---|
-| SURGE-01 | Surge (war, vague) | The city still talks about "the war" and how things used to be. | Vermilion City NPC | Vermilion City | none | 1 | idea | [FLAG: canon-check] |
-| SURGE-02 | Surge (regime, vague) | Vermilion was a dark place once, under "the old bosses." | Vermilion City NPC | Vermilion City | none | 2 | idea | [FLAG: canon-check] |
-| SURGE-03 | "Private" Surge | A slums kid nobody expected. They called him Private, back then. | Vermilion City NPC | Vermilion City | none | 3 | idea | [FLAG: canon-check] |
-| SURGE-04 | S.S. Anne (praise) | The crew still salute the Lt; the ship's a symbol of the free city now. | S.S. Anne NPC | S.S. Anne | none | 4 | idea | - |
-| SURGE-05 | S.S. Anne (freedom) | Passengers marvel that Vermilion is safe to sail from at all. | S.S. Anne NPC | S.S. Anne | none | 5 | idea | - |
-| SURGE-06 | PAYOFF (plain telling) | The CAPTAIN was there: Surge infiltrated the ship, turned it into his weapon, struck fast, and freed the city, then walked away from power. | S.S. Anne Captain (HM01 CUT) | S.S. Anne | reach the Captain | 6 | idea | [FLAG: canon-check] |
+| SURGE-01 | Surge (regime, vague) | Woman (append): "Mind, it was worse once. The whole city was. …Different management, back then." | Woman (existing) | Vermilion City | none | 1 | in-game | [FLAG: canon-check] |
+| SURGE-02 | Surge (regime, vague) | Old Man 2 (append): folks here owned nothing under "the old bosses." "…Then they didn't. Ask the LT. Or don't." | Old Man 2 (existing) | Vermilion City | none | 2 | in-game | [FLAG: canon-check] |
+| SURGE-03 | "Private" Surge | Sailor (append): "Some of us knew him before the stripes. Back when they just called him 'Private.'" | Sailor (existing) | Vermilion City | none | 3 | in-game | [FLAG: canon-check] |
+| SURGE-04 | S.S. Anne (praise) | Deck Sailor (append): "I sailed under the LT once. Loudest officer I ever knew. …Best, too. This ship owes him plenty." | Deck Sailor (existing) | S.S. Anne Deck | none | 4 | in-game | - |
+| SURGE-05 | S.S. Anne (freedom) | 1F Corridor Sailor (append): "Sails clean out of VERMILION, free as you please. Wasn't always so. …You're too young to know it." | 1F Corridor Sailor (existing) | S.S. Anne 1F | none | 5 | in-game | - |
+| SURGE-06 | PAYOFF (plain telling) | Captain tells it plainly: Rocket ran the docks; a slums boy signed on as a private, rose to the ship's Lieutenant, freed the electric POKéMON in the hold and struck lightning fast, drove Rocket from Vermilion, then let the people govern and stayed only to guard them. "Not a king. A shield." Frames the ship-crossing as Surge's trial; rewards HM01 CUT. Re-talk: "I owe that man a lot. …We all do." | S.S. Anne Captain (HM01 CUT) | S.S. Anne Captain's Office | reach the Captain | 6 | in-game | [FLAG: canon-check] |
 | SURGE-07 | Surge himself | Intro: loud macho ("HYPER BEAM to the dome-ski"; "Not on my turf. Not anymore."). Defeat: "Reminds me of me. Back when it counted." History only leaks. | Lt. Surge | Vermilion Gym | none | 7 | in-game | - |
 | SURGE-07b | Surge (via ex-soldier) | Tucker (served under Surge) defeat: "…But the LT's faced worse. Far worse." | Tucker (gym trainer) | Vermilion Gym | none | 7 | in-game | [FLAG: canon-check] |
-| SURGE-08 | Why gym leader | He refused to be the new boss; took the gym to protect Vermilion. | Vermilion NPC / Surge | Vermilion City | after 3rd badge | 8 | idea | [FLAG: canon-check] |
+| SURGE-08 | Why gym leader | Woman post-badge branch: "He could have run this city. Chose to mind a gym instead. …Him all over." | Woman (existing; post-badge) | Vermilion City | FLAG_BADGE03_GET | 8 | in-game | [FLAG: canon-check] |
+| SURGE-GATE | S.S. Anne trial / gym gate | Gym-gate guard voices the vanilla Cut-tree gate as Surge's decree. Pre-Cut: "That tree's not for the unproven. Cross the S.S. ANNE. Reach her CAPTAIN. LT's own rules." Post-Cut (FLAG_GOT_HM01): "So you walked the whole ship and lived. Then the LT will see you." Script `VermilionCity_EventScript_GymGateGuard` written; NEEDS a Porymap object placed near the gym tree (~x20,y25) to go live. | Gym-gate guard (NEW, Porymap TODO) | Vermilion City | none | 6 | drafted | - |
 | SURGE-GIMMICK | Trash-can trial | The famous "hated" trash-can puzzle reframed as Surge's deliberate TEST OF DISCIPLINE + ENDURANCE. All gym trainers + Gym Guy + the puzzle messages sell it ("Not cruelty. Discipline." / "locked to see if you'll quit." / "Composure, or start over."). Functional hints (2nd lock adjacent, switches in cans, type tip) preserved. | Dwayne/Baily/Tucker/Gym Guy/puzzle | Vermilion Gym | none | 7 | in-game | - |
+
+Consistency notes:
+- The S.S. ANNE trial and the gym trash-can trial now rhyme: both are Surge testing
+  resolve/discipline before he'll face you. The Captain's reveal is the "why."
+- SURGE-06 is the one non-coy telling (Bill-equivalent). City/crew lines (01-05)
+  stay vague so the Captain's payoff is the click.
+- SURGE-08 gates on FLAG_BADGE03_GET (Surge's own Thunder Badge) - it reflects on
+  him only after you've beaten him.
+- SURGE-GATE guard is the only piece needing a Porymap placement; the mechanical
+  gate (Cut-tree) already works without it, so nothing is blocked meanwhile.
 
 ## Template: new gym leader
 Copy per leader. Keep fragments optional and gated so a rushing player still

@@ -7,6 +7,19 @@ Update in the same PR as the change.
 `YYYY-MM-DD` — area — one-line summary (PR/commit ref)
 
 ## Entries
+- 2026-08-19 — story/flavor — Lt. Surge S.S. Anne arc + gym-gate framing. Rewrote
+  the S.S. Anne Captain (`SSAnne_CaptainsOffice_Frlg`): dropped the seasick/back-rub
+  gag; reaching the Captain now reads as clearing "the first trial", and he tells
+  Surge's history plainly (slums boy, private on the ship, freed the electric
+  POKéMON in the hold, drove Rocket from Vermilion, "Not a king. A shield.") then
+  awards HM01 CUT. Added coy ambient lore to Vermilion City NPCs (Woman incl. a
+  post-`FLAG_BADGE03_GET` "why leader" branch, Old Man 2, Sailor) and S.S. Anne
+  crew (Deck Sailor, 1F Corridor Sailor). Wrote a gym-gate guard script
+  (`VermilionCity_EventScript_GymGateGuard`) that voices the vanilla Cut-tree gate
+  as Surge's decree. Text/flavor only, no mechanic change (the Cut-tree already
+  gates the gym). PORYMAP TODO: place the guard NPC near the gym tree (~x20,y25).
+  Canon guard: Rocket driven from Vermilion locally only. See SURGE-* in
+  docs/writing/lore-ledger.md.
 - 2026-08-19 — caps/menu — Turned on hard level caps and added free, cap-limited
   menu leveling. `include/config/caps.h`: `B_EXP_CAP_TYPE = EXP_CAP_HARD`,
   `B_LEVEL_CAP_TYPE = LEVEL_CAP_FLAG_LIST`, `B_RARE_CANDY_CAP = TRUE`. Over-cap
