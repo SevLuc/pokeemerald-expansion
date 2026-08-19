@@ -368,9 +368,7 @@ Route25_SeaCottage_Text_BillPsyduckAndMisty::
 	.string "true master.\p"
 	.string "Anyway. I've got a machine to fix.\p"
 	.string "You helped me out, so… go take\n"
-	.string "a cruise. Here's an S.S. TICKET.\p"
-	.string "…Don't ask me why the machine was\n"
-	.string "set to a CLEFAIRY.$"
+	.string "a cruise. Here's an S.S. TICKET.$"
 
 Route25_SeaCottage_Text_ThanksBudTakeThis::
 	.string "BILL: Yeehah! I'm ME again!\n"
@@ -402,7 +400,9 @@ Route25_SeaCottage_Text_SSAnnePartyYouGoInstead::
 Route25_SeaCottage_Text_CheckOutRareMonsOnPC::
 	.string "BILL: Feel like checking out some\n"
 	.string "of my rare POKéMON on my PC?\p"
-	.string "Go on, check out my PC.$"
+	.string "Go on, check out my PC.\p"
+	.string "…Don't ask me why the machine\n"
+	.string "was set to a CLEFAIRY.$"
 
 Route25_SeaCottage_Text_TeleporterIsDisplayed::
 	.string "TELEPORTER is displayed on the PC\n"
