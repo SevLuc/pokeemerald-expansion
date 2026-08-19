@@ -79,10 +79,13 @@ un-fuse before it makes me do the little moon dance again."
 The whole coy chorus pays off at Bill. After you free him from the CLEFAIRY, he
 explains it all (the ONE deliberate non-coy telling): Misty's PSYDUCK wandered
 into his Cell Separation System, mashed buttons, fused him, then walked out. He
-finds it hilarious, then tells the Misty lore in depth - Psyduck is her first
-mon and her opposite; she trains only WATER POKéMON because "a PSYDUCK can wander
-off, a GOLDEEN always stays in the pool… a zen state of mind"; she'll never let
-it go. Re-talk button: "…don't ask me why the machine was set to a CLEFAIRY."
+finds it hilarious, then tells the Misty lore - Psyduck is her first mon and her
+opposite ("MISTY's all discipline… and that PSYDUCK? Peak serenity, zero
+thoughts"); since her first mon kept waddling off, she went all-in on POKéMON
+that can't run off, and years in the pool made her a true master; then frames
+the S.S. TICKET as thanks ("go take a cruise"). Both the payoff AND the re-talk
+close on the deadpan verbal tic: "…Don't ask me why the machine was set to a
+CLEFAIRY."
 
 ## Post-badge emotional core (MISTY-06, gated, still implied)
 - "Everyone thinks that PSYDUCK is the joke. …I think it's the one thing she'd
