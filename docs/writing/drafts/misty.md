@@ -36,13 +36,19 @@ Defeat (tough girl concedes; optional Psyduck cameo):
 
 ## Bug-ban gate (IN-GAME, gym gimmick)
 On entering the gym, an ON_FRAME map script calls the new special
-`PartyHasBugType`. If any party mon is a BUG type, you're stopped and warped back
-to the city gym door. Message: "Whoa there! Is that a BUG POKéMON? …Yeah, no. Not
-in MISTY's gym. One BUG in here and she's up on a chair for the afternoon. Leave
-it outside. Then we'll talk." Always-on (could gate on FLAG_BADGE02_GET if the
-post-victory bounce ever feels annoying).
+`PartyHasBugType`. If any party mon is a BUG type, the Gym Guy walks over, tells
+you off, and shoves you back out to the city gym door. Message: "Whoa there! Is
+that a BUG POKéMON? …Yeah, no. Not in MISTY's gym. One BUG in here and she's up
+on a chair for the afternoon. Leave it outside. Then we'll talk." Works for any
+party (even 6 bugs - the guide just tells you). EGGs are judged by their hatch
+species (uses MON_DATA_SPECIES), so a bug-type egg is blocked too and can't hatch
+inside. Always-on (could gate on FLAG_BADGE02_GET if the post-victory bounce ever
+feels annoying).
 Code: src/script_pokemon_util.c (PartyHasBugType) + data/specials.inc +
-CeruleanCity_Gym_Frlg/scripts.inc (ON_FRAME BugCheck). No new art or map objects.
+CeruleanCity_Gym_Frlg/scripts.inc (ON_FRAME BugCheck + Gym Guy walk/shove
+choreography). No new art or map objects. NOTE: choreography is untested here
+(no compiler); the guide's exact steps near the entrance may need a tweak in
+mGBA/Porymap.
 
 ## Lore delivery - SUBTLE, spread over the road (not on the nose)
 Principle: imply, never explain. The player pieces it together. Beats escalate as

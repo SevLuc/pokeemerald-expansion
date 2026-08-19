@@ -11,13 +11,35 @@ CeruleanCity_Gym_EventScript_BugCheck::
 	specialvar VAR_RESULT, PartyHasBugType
 	goto_if_eq VAR_RESULT, FALSE, CeruleanCity_Gym_EventScript_BugCheckDone
 	lockall
+	@ Gym Guy (object 4) steps over and faces the player at the entrance.
+	applymovement 4, CeruleanCity_Gym_Movement_GuideApproach
+	waitmovement 0
 	msgbox CeruleanCity_Gym_Text_NoBugsAllowed, MSGBOX_DEFAULT
 	closemessage
+	@ Shove the player back down toward the door, guide advancing after them.
+	applymovement OBJ_EVENT_ID_PLAYER, CeruleanCity_Gym_Movement_PlayerShovedOut
+	waitmovement 0
+	applymovement 4, CeruleanCity_Gym_Movement_GuideAdvance
+	waitmovement 0
 	warp MAP_CERULEAN_CITY, 4
 	waitstate
 	releaseall
 CeruleanCity_Gym_EventScript_BugCheckDone::
 	end
+
+CeruleanCity_Gym_Movement_GuideApproach::
+	walk_down
+	face_right
+	step_end
+
+CeruleanCity_Gym_Movement_PlayerShovedOut::
+	walk_down
+	step_end
+
+CeruleanCity_Gym_Movement_GuideAdvance::
+	walk_right
+	face_down
+	step_end
 
 CeruleanCity_Gym_EventScript_Misty::
 	famechecker FAMECHECKER_MISTY, FCPICKSTATE_COLORED, UpdatePickStateFromSpecialVar8005
