@@ -81,7 +81,11 @@ Route16_Text_LaoDefeat::
 
 Route16_Text_LaoPostBattle::
 	.string "We like just hanging here.\n"
-	.string "What's it to you?$"
+	.string "What's it to you?\p"
+	.string "Used to run CELADON's streets.\n"
+	.string "Then SHE moved in.\p"
+	.string "Out here's better anyway.\n"
+	.string "No flower stink. No CELADON taxes.$"
 
 Route16_Text_KojiIntro::
 	.string "Nice BIKE!\n"
@@ -112,6 +116,8 @@ Route16_Text_HideoDefeat::
 Route16_Text_HideoPostBattle::
 	.string "We'll always be hanging around here\n"
 	.string "even if you don't like it.\p"
+	.string "Beats CELADON. That flower lady\n"
+	.string "gives me the shivers.\p"
 	.string "You can detour to VERMILION from\n"
 	.string "FUCHSIA going along the coast.$"
 
@@ -125,8 +131,10 @@ Route16_Text_CamronDefeat::
 Route16_Text_CamronPostBattle::
 	.string "If I'm going to have POKéMON, they\n"
 	.string "may as well be ferocious.\p"
-	.string "I'd use them to leave my enemies\n"
-	.string "in tatters.$"
+	.string "Poison that scared off even US.\n"
+	.string "That's what she's got in there.\p"
+	.string "Out here? She can't reach us.\n"
+	.string "…I hope.$"
 
 Route16_Text_RubenIntro::
 	.string "Hey, there!\n"
@@ -138,8 +146,10 @@ Route16_Text_RubenDefeat::
 Route16_Text_RubenPostBattle::
 	.string "I get my kicks by harassing people\n"
 	.string "with my stinking POKéMON.\p"
-	.string "They're great for startling people.\n"
-	.string "And, they bite, too.$"
+	.string "They startle folks. And they bite.\p"
+	.string "…But one whiff of THAT lady's\n"
+	.string "garden? My GRIMER hid behind me.\p"
+	.string "We don't go back to CELADON.$"
 
 Route16_Text_MonSprawledOutInSlumber::
 	.string "A POKéMON is sprawled out in\n"

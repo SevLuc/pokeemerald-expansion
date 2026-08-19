@@ -141,17 +141,27 @@ FuchsiaCity_EventScript_OmanyteSign::
 FuchsiaCity_Text_DidYouTrySafariGame::
 	.string "Did you try the SAFARI GAME?\p"
 	.string "There are some rare POKéMON that\n"
-	.string "can only be caught there.$"
+	.string "can only be caught there.\p"
+	.string "…Fewer than there were, Grandpa\n"
+	.string "says. Since the smoke came.$"
 
 FuchsiaCity_Text_SafariZoneZooInFront::
 	.string "The SAFARI ZONE has a zoo in front\n"
 	.string "of the entrance.\p"
 	.string "Out back is the SAFARI GAME for\n"
-	.string "catching POKéMON.$"
+	.string "catching POKéMON.\p"
+	.string "…It was greener once. Before\n"
+	.string "KOGA's smokestacks.\p"
+	.string "You get used to the haze.\n"
+	.string "That's the sad part.$"
 
 FuchsiaCity_Text_WheresSara::
 	.string "ERIK: Where's SARA?\n"
-	.string "I said I'd meet her here.$"
+	.string "I said I'd meet her here.\p"
+	.string "Her shift at the plant ran long\n"
+	.string "again.\p"
+	.string "KOGA INDUSTRIES never sleeps.\n"
+	.string "…Pays well, though.$"
 
 FuchsiaCity_Text_ItemBallInThere::
 	.string "That item ball in there…\n"
@@ -248,5 +258,9 @@ FuchsiaCity_Text_MyFatherIsGymLeader::
 	.string "My father is the GYM LEADER of\n"
 	.string "this town.\p"
 	.string "I'm training to use POISON POKéMON\n"
-	.string "as well as my father.$"
+	.string "as well as my father.\p"
+	.string "Father keeps the lights on for all\n"
+	.string "of KANTO.\p"
+	.string "They should thank him.\n"
+	.string "…He says so himself.$"
 

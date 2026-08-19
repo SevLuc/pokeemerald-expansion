@@ -14,7 +14,11 @@ Route19_Text_RichardDefeat::
 
 Route19_Text_RichardPostBattle::
 	.string "Thanks, kid!\n"
-	.string "I'm ready for a swim.$"
+	.string "I'm ready for a swim.\p"
+	.string "See that smoke over FUCHSIA?\n"
+	.string "KOGA INDUSTRIES, that is.\p"
+	.string "Half of KANTO swims by his power,\n"
+	.string "so to speak. Leave the man be.$"
 
 Route19_Text_ReeceIntro::
 	.string "Wait! Slow down!\n"
@@ -26,7 +30,12 @@ Route19_Text_ReeceDefeat::
 
 Route19_Text_ReecePostBattle::
 	.string "Watch out for TENTACOOL.\n"
-	.string "They sting so painfully.$"
+	.string "They sting so painfully.\p"
+	.string "…Though there's fewer of them now.\p"
+	.string "You can see KOGA's smokestacks\n"
+	.string "hazing up the FUCHSIA shore.\p"
+	.string "The sea POKéMON aren't what they\n"
+	.string "were. Something's in the water.$"
 
 Route19_Text_MatthewIntro::
 	.string "I love swimming!\n"
@@ -70,7 +79,12 @@ Route19_Text_TonyDefeat::
 
 Route19_Text_TonyPostBattle::
 	.string "I'm looking at the sea to forget\n"
-	.string "the bad thing that happened!$"
+	.string "the bad thing that happened!\p"
+	.string "…The water used to shine out here.\p"
+	.string "Now KOGA's haze sits on it.\n"
+	.string "You learn to live with the smoke.\p"
+	.string "Rail against him all you like.\n"
+	.string "The tide still comes in gray.$"
 
 Route19_Text_AnyaIntro::
 	.string "Oh, I just love your ride!\n"

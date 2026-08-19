@@ -56,5 +56,9 @@ PokemonMansion_B1F_Text_MewtwoIsFarTooPowerful::
 	.string "Diary: Sept. 1\n"
 	.string "MEWTWO is far too powerful.\p"
 	.string "We have failed to curb its vicious\n"
-	.string "tendencies…$"
+	.string "tendencies…\p"
+	.string "[Below, in a shakier hand:]\p"
+	.string "We could make it.\n"
+	.string "No one asked if we should.\p"
+	.string "Forgive me. -B.$"
 

@@ -526,7 +526,14 @@ CeruleanCity_Text_ThisIsCeruleanCave::
 	.string "become the POKéMON LEAGUE\l"
 	.string "CHAMPION for starters.\p"
 	.string "And, you would have to have\n"
-	.string "made a great achievement.$"
+	.string "made a great achievement.\p"
+	.string "Between you and me…\p"
+	.string "The old-timers say the strongest\n"
+	.string "thing in there isn't native.\p"
+	.string "Came up from the south long ago,\n"
+	.string "they whisper. From over the sea.\p"
+	.string "Something that didn't want to be\n"
+	.string "found. …I'd leave it be.$"
 
 CeruleanCity_Text_CitySign::
 	.string "CERULEAN CITY\n"

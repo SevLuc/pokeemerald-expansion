@@ -31,7 +31,14 @@ Route21_North_Text_SpencerDefeat::
 
 Route21_North_Text_SpencerPostBattle::
 	.string "The sea is great and all, but I\n"
-	.string "like the mountains, too.$"
+	.string "like the mountains, too.\p"
+	.string "…I come out here to forget, too.\p"
+	.string "Years back, CINNABAR burned in the\n"
+	.string "night. I saw it from the water.\p"
+	.string "Something climbed out of that fire\n"
+	.string "and tore off north over the waves.\p"
+	.string "No wings I ever saw move like that.\n"
+	.string "It never came down.$"
 
 @ Below is the battle text for the Cue Ball that was on Route 21 in Gen 1.
 @ This trainer wasnt used in Gen 3 so their text goes unused/untranslated

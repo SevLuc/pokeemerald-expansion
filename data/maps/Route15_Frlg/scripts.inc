@@ -53,7 +53,13 @@ Route15_Text_ChesterPostBattle::
 	.string "This is so obvious, you should know\n"
 	.string "this, but…\p"
 	.string "Moves like EARTHQUAKE and FISSURE\n"
-	.string "have no effect on bird POKéMON.$"
+	.string "have no effect on bird POKéMON.\p"
+	.string "…My birds, though. They're edgier\n"
+	.string "than they used to be.\p"
+	.string "You can see KOGA's smokestacks\n"
+	.string "from that rise, plain as day.\p"
+	.string "The haze drifts all the way out\n"
+	.string "here. Wild POKéMON feel it first.$"
 
 Route15_Text_GraceIntro::
 	.string "Oh, you're a little cutie!\n"
@@ -78,7 +84,11 @@ Route15_Text_OliviaDefeat::
 Route15_Text_OliviaPostBattle::
 	.string "I love having my POKéMON greet me\n"
 	.string "when I get home.\p"
-	.string "It's so reassuring.$"
+	.string "It's so reassuring.\p"
+	.string "…And the lamp left on for me.\n"
+	.string "That glow is KOGA INDUSTRIES.\p"
+	.string "His plants keep our lights on.\n"
+	.string "Leave the man be, I say.$"
 
 Route15_Text_ErnestIntro::
 	.string "Hey, kid! C'mon!\n"
@@ -90,7 +100,11 @@ Route15_Text_ErnestDefeat::
 Route15_Text_ErnestPostBattle::
 	.string "Life's too short.\n"
 	.string "It's cool to live as an outlaw.\l"
-	.string "TEAM ROCKET RULES!$"
+	.string "TEAM ROCKET RULES!\p"
+	.string "…You wanna buck the system? Fine.\p"
+	.string "But KOGA lights this whole region.\n"
+	.string "Protest all you like, punk.\p"
+	.string "You'll do it by his lamplight.$"
 
 Route15_Text_AlexIntro::
 	.string "Fork over all your cash when you\n"

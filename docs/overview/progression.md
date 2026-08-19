@@ -13,6 +13,12 @@ in order. Plot stays vanilla FRLG.
 4. ... (Cerulean/Misty, Vermilion/Lt. Surge, Celadon/Erika, Fuchsia/Koga,
    Saffron/Sabrina, Cinnabar/Blaine, Viridian/Giovanni, Elite Four)
 
+Gate note - Vermilion/Surge: the gym is gated behind HM01 Cut (vanilla: the
+cuttable tree at Vermilion (19,24) is the only way into the gym pocket, and Cut
+comes only from the S.S. Anne Captain). We reflavor this as Surge's "S.S. Anne
+trial" - cross the ship, reach the Captain, earn Cut. No mechanical change to the
+gate itself. See SURGE-06 in docs/writing/lore-ledger.md.
+
 ## Level cap (hard, badge-gated)
 Hard caps are ON (`B_EXP_CAP_TYPE = EXP_CAP_HARD`,
 `B_LEVEL_CAP_TYPE = LEVEL_CAP_FLAG_LIST`, `B_RARE_CANDY_CAP = TRUE`). Over-cap

@@ -468,7 +468,16 @@ PalletTown_Text_RaisingMonsToo::
 PalletTown_Text_CanStoreItemsAndMonsInPC::
 	.string "Technology is incredible!\p"
 	.string "You can now store and recall items\n"
-	.string "and POKéMON as data via PC.$"
+	.string "and POKéMON as data via PC.\p"
+	.string "…Incredible, and dangerous.\p"
+	.string "You hear about the researchers\n"
+	.string "down south? On the island?\p"
+	.string "Story goes they built something\n"
+	.string "they couldn't hold on to.\p"
+	.string "Burned their whole lab to ash, and\n"
+	.string "whatever it was fled over the sea.\p"
+	.string "PROF. OAK goes quiet when it comes\n"
+	.string "up. …So I don't bring it up.$"
 
 PalletTown_Text_OakPokemonResearchLab::
 	.string "OAK POKéMON RESEARCH LAB$"

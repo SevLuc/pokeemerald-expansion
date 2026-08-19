@@ -30,7 +30,16 @@ VermilionCity_EventScript_HideOaksAide::
 	return
 
 VermilionCity_EventScript_Woman::
-	msgbox VermilionCity_Text_GrimerMultipliesInSludge, MSGBOX_NPC
+	lock
+	faceplayer
+	goto_if_set FLAG_BADGE03_GET, VermilionCity_EventScript_WomanPostBadge
+	msgbox VermilionCity_Text_GrimerMultipliesInSludge
+	release
+	end
+
+VermilionCity_EventScript_WomanPostBadge::
+	msgbox VermilionCity_Text_WomanWhyLeader
+	release
 	end
 
 VermilionCity_EventScript_OldMan1::
@@ -266,11 +275,29 @@ VermilionCity_EventScript_HarborSign::
 VermilionCity_Text_GrimerMultipliesInSludge::
 	.string "We're careful about pollution here.\p"
 	.string "We've heard GRIMER multiplies in\n"
-	.string "toxic sludge.$"
+	.string "toxic sludge.\p"
+	.string "Mind, it was worse once.\n"
+	.string "The whole city was.\p"
+	.string "…Different management, back then.$"
+
+VermilionCity_Text_WomanWhyLeader::
+	.string "So you took the LT's badge.\p"
+	.string "He could have run this city,\n"
+	.string "you know.\p"
+	.string "Chose to mind a gym instead.\n"
+	.string "…Him all over.$"
 
 VermilionCity_Text_DidYouSeeSSAnneInHarbor::
 	.string "Did you see the S.S. ANNE moored\n"
-	.string "in the harbor?$"
+	.string "in the harbor?\p"
+	.string "The sailors trade odd tales in\n"
+	.string "this port.\p"
+	.string "There's a patch of sea to the\n"
+	.string "southwest they won't cross.\p"
+	.string "Say an island burned there once,\n"
+	.string "and a thing rose off the water.\p"
+	.string "Went north and never landed.\n"
+	.string "…Sailors do love a good yarn.$"
 
 VermilionCity_Text_SSAnneHasDepartedForYear::
 	.string "So, the S.S. ANNE has departed?\p"
@@ -281,7 +308,12 @@ VermilionCity_Text_BuildingOnThisLand::
 	.string "I'm putting up a building on this\n"
 	.string "plot of land. I own it all.\p"
 	.string "My POKéMON is tamping the land\n"
-	.string "to lay the foundation.$"
+	.string "to lay the foundation.\p"
+	.string "Time was, folks here owned\n"
+	.string "nothing at all.\p"
+	.string "The old bosses saw to that.\p"
+	.string "…Then they didn't.\n"
+	.string "Ask the LT. Or don't.$"
 
 VermilionCity_Text_Machop::
 	.string "MACHOP: Guoh! Gogogoh!$"
@@ -292,7 +324,12 @@ VermilionCity_Text_MachopStompingLandFlat::
 VermilionCity_Text_SSAnneVisitsOnceAYear::
 	.string "The S.S. ANNE is a famous luxury\n"
 	.string "cruise ship.\p"
-	.string "It visits VERMILION once a year.$"
+	.string "It visits VERMILION once a year.\p"
+	.string "That ship and the LT go way back.\p"
+	.string "Some of us knew him before the\n"
+	.string "stripes.\p"
+	.string "Back when they just called him\n"
+	.string "'Private.'$"
 
 VermilionCity_Text_CitySign::
 	.string "VERMILION CITY\n"

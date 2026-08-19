@@ -276,5 +276,7 @@ FuchsiaCity_SafariZone_Entrance_Text_ExplainSafariZone::
 	.string "BALLS, it's game over for you!$"
 
 FuchsiaCity_SafariZone_Entrance_Text_SorryYoureARegularHere::
-	.string "Sorry, you're a regular here!$"
+	.string "Sorry, you're a regular here!\p"
+	.string "…Enjoy the game while it lasts.\n"
+	.string "The haze thins them every year.$"
 

@@ -127,7 +127,15 @@ Route20_Text_MissyPostBattle::
 	.string "POKéMON have taken over an\n"
 	.string "abandoned mansion on CINNABAR.\p"
 	.string "They call it the POKéMON MANSION\n"
-	.string "now.$"
+	.string "now.\p"
+	.string "…That mansion didn't just fall\n"
+	.string "empty. I saw it burn.\p"
+	.string "I was out on the water that night.\n"
+	.string "The whole island lit up red.\p"
+	.string "And something rose out of the\n"
+	.string "smoke. Big. Fast.\p"
+	.string "It went north over the sea and\n"
+	.string "never once came down.$"
 
 Route20_Text_MelissaIntro::
 	.string "CINNABAR, in the west, has a LAB\n"
