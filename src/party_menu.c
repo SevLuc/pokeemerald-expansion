@@ -110,6 +110,9 @@ enum {
     MENU_CATALOG_MOWER,
     MENU_CHANGE_FORM,
     MENU_CHANGE_ABILITY,
+    MENU_LEVEL,
+    MENU_LEVEL_UP,
+    MENU_LEVEL_TO_CAP,
     MENU_FIELD_MOVES
 };
 
@@ -185,7 +188,7 @@ struct PartyMenuInternal
     u32 spriteIdCancelPokeball:7;
     u32 messageId:14;
     u8 windowId[3];
-    u8 actions[8];
+    u8 actions[10]; // Enlarged from 8 to fit the LEVEL UP / LEVEL TO CAP field actions
     u8 numActions;
     // In vanilla Emerald, only the first 0xB0 hwords (0x160 bytes) are actually used.
     // However, a full 0x100 hwords (0x200 bytes) are allocated.
@@ -482,6 +485,10 @@ static void CursorCb_CatalogFan(u8);
 static void CursorCb_CatalogMower(u8);
 static void CursorCb_ChangeForm(u8);
 static void CursorCb_ChangeAbility(u8);
+static void CursorCb_Level(u8);
+static void CursorCb_LevelUp(u8);
+static void CursorCb_LevelToCap(u8);
+static void LevelUpMonFromMenu(u8 taskId, u32 targetLevel);
 void TryItemHoldFormChange(struct Pokemon *mon, s8 slotId, enum BattleTrainer trainer);
 static void ShowMoveSelectWindow(u8 slot);
 static void Task_HandleWhichMoveInput(u8 taskId);
@@ -2975,6 +2982,10 @@ static void SetPartyMonFieldSelectionActions(struct Pokemon *mons, u8 slotId)
             AppendToList(sPartyMenuInternal->actions, &sPartyMenuInternal->numActions, MENU_MAIL);
         else
             AppendToList(sPartyMenuInternal->actions, &sPartyMenuInternal->numActions, MENU_ITEM);
+
+        // Free, cap-limited leveling straight from the party menu (opens a submenu).
+        if (GetMonData(&mons[slotId], MON_DATA_LEVEL) < GetCurrentLevelCap())
+            AppendToList(sPartyMenuInternal->actions, &sPartyMenuInternal->numActions, MENU_LEVEL);
     }
     AppendToList(sPartyMenuInternal->actions, &sPartyMenuInternal->numActions, MENU_CANCEL1);
 }
@@ -6953,6 +6964,92 @@ static void CursorCb_ChangeAbility(u8 taskId)
 {
     gSpecialVar_Result = 1;
     TryMultichoiceFormChange(taskId);
+}
+
+// Raises the selected party mon towards targetLevel, never past the current
+// level cap. Reuses the Rare Candy level-up pipeline (stat pop-up, move
+// learning across every gained level, and evolution), but consumes no item.
+static void LevelUpMonFromMenu(u8 taskId, u32 targetLevel)
+{
+    struct Pokemon *mon = &gParties[B_TRAINER_PLAYER][gPartyMenu.slotId];
+    struct PartyMenuInternal *ptr = sPartyMenuInternal;
+    s16 *arrayPtr = ptr->data;
+    u32 levelCap = GetCurrentLevelCap();
+    u32 species, newExp;
+    enum GrowthRate growthRate;
+
+    PlaySE(SE_SELECT);
+
+    if (targetLevel > levelCap)
+        targetLevel = levelCap;
+    if (targetLevel > MAX_LEVEL)
+        targetLevel = MAX_LEVEL;
+
+    sInitialLevel = GetMonData(mon, MON_DATA_LEVEL);
+
+    // Already at (or above) the cap: nothing to raise.
+    if (sInitialLevel >= targetLevel)
+    {
+        sInitialLevel = 0;
+        sFinalLevel = 0;
+        gPartyMenuUseExitCallback = FALSE;
+        DisplayPartyMenuMessage(gText_WontHaveEffect, TRUE);
+        ScheduleBgCopyTilemapToVram(2);
+        gTasks[taskId].func = Task_ClosePartyMenuAfterText;
+        return;
+    }
+
+    BufferMonStatsToTaskData(mon, arrayPtr);
+    species = GetMonData(mon, MON_DATA_SPECIES);
+    growthRate = gSpeciesInfo[species].growthRate;
+    newExp = gExperienceTables[growthRate][targetLevel];
+    SetMonData(mon, MON_DATA_EXP, &newExp);
+    CalculateMonStats(mon);
+    BufferMonStatsToTaskData(mon, &ptr->data[NUM_STATS]);
+
+    sFinalLevel = GetMonData(mon, MON_DATA_LEVEL);
+    gPartyMenuUseExitCallback = TRUE;
+    UpdateMonDisplayInfoAfterRareCandy(gPartyMenu.slotId, mon);
+    GetMonNickname(mon, gStringVar1);
+    PlayFanfareByFanfareNum(FANFARE_LEVEL_UP);
+    ConvertIntToDecimalStringN(gStringVar2, sFinalLevel, STR_CONV_MODE_LEFT_ALIGN, 3);
+    StringExpandPlaceholders(gStringVar4, gText_PkmnElevatedToLvVar2);
+    DisplayPartyMenuMessage(gStringVar4, TRUE);
+    ScheduleBgCopyTilemapToVram(2);
+    gTasks[taskId].func = Task_DisplayLevelUpStatsPg1;
+}
+
+// Opens the LEVEL submenu (LEVEL UP / LEVEL TO CAP / CANCEL), mirroring the
+// ITEM -> GIVE/TAKE submenu so the field action list never overflows.
+static void CursorCb_Level(u8 taskId)
+{
+    PlaySE(SE_SELECT);
+    PartyMenuRemoveWindow(&sPartyMenuInternal->windowId[0]);
+    PartyMenuRemoveWindow(&sPartyMenuInternal->windowId[1]);
+    sPartyMenuInternal->numActions = 0;
+    AppendToList(sPartyMenuInternal->actions, &sPartyMenuInternal->numActions, MENU_LEVEL_UP);
+    AppendToList(sPartyMenuInternal->actions, &sPartyMenuInternal->numActions, MENU_LEVEL_TO_CAP);
+    AppendToList(sPartyMenuInternal->actions, &sPartyMenuInternal->numActions, MENU_CANCEL2);
+    DisplaySelectionWindow(SELECTWINDOW_ACTIONS);
+    DisplayPartyMenuStdMessage(PARTY_MSG_DO_WHAT_WITH_MON);
+    gTasks[taskId].data[0] = 0xFF;
+    gTasks[taskId].func = Task_HandleSelectionMenuInput;
+}
+
+static void CursorCb_LevelUp(u8 taskId)
+{
+    struct Pokemon *mon = &gParties[B_TRAINER_PLAYER][gPartyMenu.slotId];
+
+    PartyMenuRemoveWindow(&sPartyMenuInternal->windowId[0]);
+    PartyMenuRemoveWindow(&sPartyMenuInternal->windowId[1]);
+    LevelUpMonFromMenu(taskId, GetMonData(mon, MON_DATA_LEVEL) + 1);
+}
+
+static void CursorCb_LevelToCap(u8 taskId)
+{
+    PartyMenuRemoveWindow(&sPartyMenuInternal->windowId[0]);
+    PartyMenuRemoveWindow(&sPartyMenuInternal->windowId[1]);
+    LevelUpMonFromMenu(taskId, GetCurrentLevelCap());
 }
 
 void TryItemHoldFormChange(struct Pokemon *mon, s8 slotId, enum BattleTrainer trainer)
