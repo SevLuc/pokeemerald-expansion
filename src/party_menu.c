@@ -2974,6 +2974,24 @@ static void SetPartyMonFieldSelectionActions(struct Pokemon *mons, u8 slotId)
         }
     }
 
+    // With OW_HMS_USABLE_WITHOUT_LEARNING, Fly and Flash have no overworld obstacle to
+    // interact with, so offer them here on any Pokémon once the player owns the HM
+    // (IsFieldMoveUnlocked checks the HM item) and is somewhere the move applies. The
+    // two contexts (outdoors vs. dark cave) are mutually exclusive, so at most one is
+    // added. Skip if this Pokémon already knows the move, which the loop above handled.
+    if (OW_HMS_USABLE_WITHOUT_LEARNING)
+    {
+        if (IsFieldMoveUnlocked(FIELD_MOVE_FLY)
+         && MonKnowsMove(&mons[slotId], FieldMove_GetMoveId(FIELD_MOVE_FLY)) == FALSE
+         && Overworld_MapTypeAllowsTeleportAndFly(gMapHeader.mapType) == TRUE)
+            AppendToList(sPartyMenuInternal->actions, &sPartyMenuInternal->numActions, FIELD_MOVE_FLY + MENU_FIELD_MOVES);
+
+        if (IsFieldMoveUnlocked(FIELD_MOVE_FLASH)
+         && MonKnowsMove(&mons[slotId], FieldMove_GetMoveId(FIELD_MOVE_FLASH)) == FALSE
+         && gMapHeader.cave == TRUE && FlagGet(FLAG_SYS_USE_FLASH) == FALSE)
+            AppendToList(sPartyMenuInternal->actions, &sPartyMenuInternal->numActions, FIELD_MOVE_FLASH + MENU_FIELD_MOVES);
+    }
+
     if (!InBattlePike())
     {
         if (GetMonData(&mons[1], MON_DATA_SPECIES) != SPECIES_NONE)

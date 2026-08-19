@@ -2330,6 +2330,28 @@ bool8 ScrCmd_checkfieldmove(struct ScriptContext *ctx)
         }
     }
 
+    // With OW_HMS_USABLE_WITHOUT_LEARNING, an HM the player owns (IsFieldMoveUnlocked
+    // checks the HM item) can be used even if no party Pokémon has learned the move.
+    // Fall back to the first non-egg Pokémon so it performs the field move.
+    if (OW_HMS_USABLE_WITHOUT_LEARNING
+     && gSpecialVar_Result == PARTY_SIZE
+     && gFieldMoveInfo[fieldMove].hmItemId != ITEM_NONE
+     && IsFieldMoveUnlocked(fieldMove))
+    {
+        for (u32 i = 0; i < PARTY_SIZE; i++)
+        {
+            enum Species species = GetMonData(&gParties[B_TRAINER_PLAYER][i], MON_DATA_SPECIES);
+            if (!species)
+                break;
+            if (!GetMonData(&gParties[B_TRAINER_PLAYER][i], MON_DATA_IS_EGG))
+            {
+                gSpecialVar_Result = i;
+                gSpecialVar_0x8004 = species;
+                break;
+            }
+        }
+    }
+
     return FALSE;
 }
 
