@@ -91,22 +91,27 @@ FuchsiaCity_Gym_EventScript_GymStatuePostVictory::
 
 FuchsiaCity_Gym_Text_KogaIntro::
 	.string "KOGA: Fwahahaha!\p"
-	.string "A mere child like you dares to\n"
-	.string "challenge me?\p"
-	.string "The very idea makes me shiver\n"
-	.string "with mirth!\p"
-	.string "Very well, I shall show you true\n"
-	.string "terror as a ninja master.\p"
-	.string "Poison brings steady doom.\n"
-	.string "Sleep renders foes helpless.\p"
-	.string "Despair to the creeping horror of\n"
-	.string "POISON-type POKéMON!{PLAY_BGM}{MUS_RG_ENCOUNTER_GYM_LEADER}$"
+	.string "Another challenger. Do you know\n"
+	.string "what this city runs on?\p"
+	.string "Me. My works. My smoke.\n"
+	.string "Every lamp in KANTO, lit by KOGA.\p"
+	.string "I light your homes. I warm\n"
+	.string "your winters. Essentially, a HERO.\p"
+	.string "Still they send children to test\n"
+	.string "me. …The ingratitude.\p"
+	.string "Very well. My POISON built this\n"
+	.string "empire, and it will bury you in it.\p"
+	.string "Sleep. Suffer. Despair.\n"
+	.string "Progress waits for no one!{PLAY_BGM}{MUS_RG_ENCOUNTER_GYM_LEADER}$"
 
 FuchsiaCity_Gym_Text_KogaDefeat::
-	.string "Humph!\n"
-	.string "You have proven your worth!\p"
-	.string "Here!\n"
-	.string "Take the SOULBADGE!$"
+	.string "Kh… you bested me. Rare.\p"
+	.string "I respect two things, child.\n"
+	.string "Results, and leverage.\p"
+	.string "You have shown me results.\n"
+	.string "The SOULBADGE is yours.\p"
+	.string "The board will hear of this.\n"
+	.string "…They hear of everything.$"
 
 FuchsiaCity_Gym_Text_KogaPostBattle::
 	.string "When afflicted by TOXIC, a POKéMON\n"
@@ -120,25 +125,28 @@ FuchsiaCity_Gym_Text_KogaPostBattle::
 	.string "won't keep themselves lit.$"
 
 FuchsiaCity_Gym_Text_KogaExplainSoulBadge::
-	.string "Now that you have the SOULBADGE,\n"
-	.string "the DEFENSE of your POKéMON rises.\p"
-	.string "It also lets you SURF outside of\n"
-	.string "battle.\p"
-	.string "Ah!\n"
-	.string "Take this, too!$"
+	.string "The SOULBADGE. A sound return\n"
+	.string "on your investment.\p"
+	.string "Your POKéMON's DEFENSE rises.\n"
+	.string "Assets, properly protected.\p"
+	.string "And you may SURF now, any water\n"
+	.string "you please. Mine included.\p"
+	.string "Take this as well. A signing bonus.$"
 
 FuchsiaCity_Gym_Text_ReceivedTM06FromKoga::
 	.string "{PLAYER} received TM06\n"
 	.string "from KOGA.$"
 
 FuchsiaCity_Gym_Text_KogaExplainTM06::
-	.string "Sealed within that TM06 lies\n"
-	.string "TOXIC!\p"
-	.string "It is a secret technique dating\n"
-	.string "back some four hundred years.$"
+	.string "And this. TM06. TOXIC.\p"
+	.string "Four centuries in the perfecting.\n"
+	.string "Our founding product, you'd say.\p"
+	.string "Poison built KOGA INDUSTRIES.\n"
+	.string "…And KOGA INDUSTRIES built KANTO.$"
 
 FuchsiaCity_Gym_Text_MakeSpaceForThis::
-	.string "Make space for this, child!$"
+	.string "Make space, child.\n"
+	.string "Opportunity knocks but once.$"
 
 FuchsiaCity_Gym_Text_KaydenIntro::
 	.string "Strength isn't the key for POKéMON.\n"
