@@ -32,10 +32,25 @@ you'll get ten ERIKAs. …She likes it that way." (ERIKA-PAYOFF)
 Post-badge wink, Old Man 1 gated on FLAG_BADGE04_GET: "You beat ERIKA? And you
 still can't tell me one true thing about her. …That's ERIKA." (ERIKA-08)
 
+## Two gym/town gimmicks (concrete gags; Erika herself stays unknowable)
+1. THE BIKERS WHO FLED (Route 16). The Cycling-Road bikers west of Celadon
+   abandoned the city in terror of the perfume/medicine master and now camp on the
+   route with their beloved POISON types. Light running gag: they dodge Celadon
+   taxes. (Lao, Ruben, Hideo, Camron.) They also reinforce the poison legend from
+   the outside. See ERIKA-BIKERS.
+2. BROCK'S EXES TAKE REFUGE (Celadon Gym). The "ladies only" gym is where Brock's
+   "previous sponsors" end up; Erika hosts them all and is NOT one herself. COY per
+   the Brock arc: "PEWTER number," "let it ring," "generous every single month."
+   (Kay, Lori, Mary.) Cross-links the BROCK arc. See ERIKA-EXES.
+
 ## PLACED (in-game)
-All of the above are appended to existing Celadon City NPC lines (Little Girl,
-Woman, Fat Man, Old Man 1 incl. the post-badge branch, Rocket Grunt 1, Boy) and
-gym trainer Lisa's post-battle line. No new objects, no art. See ../lore-ledger.md.
+Appended to existing NPC lines across: Celadon City (Little Girl, Woman, Fat Man,
+Old Man 1 incl. post-badge branch, Rocket Grunt 1 & 2, Boy), Celadon interiors
+(Restaurant drugstore woman, Dept Store 2F Lass & 5F Sailor, Condominiums tea
+lady), Celadon Gym (Lisa aggregator + Kay/Lori/Mary exes), Route 16 bikers,
+Lavender Town grave-keeper, and Route 10 (Rock Tunnel mouth: Trent, Carol). No new
+objects, no art. Weighting: poison/medicine dominant (~40%), fearsome & refuge
+~20% each, perfume-calms threaded through thoughtful NPCs and out past Celadon.
 
 ## TODO (still open)
 - None for this arc. Build + playtest to confirm page breaks read well in-box.

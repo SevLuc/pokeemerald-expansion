@@ -76,7 +76,10 @@ CeladonCity_DepartmentStore_5F_Text_HereForStatEnhancers::
 	.string "PROTEIN increases the base ATTACK\n"
 	.string "power.\p"
 	.string "IRON increases the base DEFENSE\n"
-	.string "stat.$"
+	.string "stat.\p"
+	.string "…This whole floor, and none of it\n"
+	.string "matches one vial of hers.\p"
+	.string "ERIKA's. …I've said too much.$"
 
 CeladonCity_DepartmentStore_5F_Text_Drugstore::
 	.string "5F: DRUGSTORE$"

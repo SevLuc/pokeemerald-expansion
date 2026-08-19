@@ -161,7 +161,10 @@ CeladonCity_Text_Poliwrath::
 
 CeladonCity_Text_GetLostOrIllPunchYou::
 	.string "What are you staring at?\n"
-	.string "Get lost, or I'll punch you.$"
+	.string "Get lost, or I'll punch you.\p"
+	.string "…Not near the flower district,\n"
+	.string "though. We don't go there.\p"
+	.string "Boss's rule. Don't ask.$"
 
 CeladonCity_Text_KeepOutOfTeamRocketsWay::
 	.string "Keep out of TEAM ROCKET's way!\p"

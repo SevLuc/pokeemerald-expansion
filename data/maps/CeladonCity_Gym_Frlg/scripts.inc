@@ -136,7 +136,11 @@ CeladonCity_Gym_Text_ShouldMakeRoomForThis::
 CeladonCity_Gym_Text_KayIntro::
 	.string "I should tell you about this GYM.\p"
 	.string "Only real ladies are allowed in\n"
-	.string "here!$"
+	.string "here!\p"
+	.string "ERIKA takes us all in.\n"
+	.string "Never asks what we left behind.\p"
+	.string "She never had a PEWTER number\n"
+	.string "herself. Just keeps the door open.$"
 
 CeladonCity_Gym_Text_KayDefeat::
 	.string "You're too rough!$"
@@ -212,7 +216,9 @@ CeladonCity_Gym_Text_LoriDefeat::
 CeladonCity_Gym_Text_LoriPostBattle::
 	.string "I have a blind date coming up.\n"
 	.string "I have to learn to be polite,\l"
-	.string "especially if I have to battle.$"
+	.string "especially if I have to battle.\p"
+	.string "The last one? …Generous.\n"
+	.string "Every single month, even now.$"
 
 CeladonCity_Gym_Text_MaryIntro::
 	.string "Welcome to CELADON GYM!\p"
@@ -225,7 +231,9 @@ CeladonCity_Gym_Text_MaryDefeat::
 
 CeladonCity_Gym_Text_MaryPostBattle::
 	.string "I didn't bring my best POKéMON.\n"
-	.string "Wait until next time!$"
+	.string "Wait until next time!\p"
+	.string "…My phone? Let it ring, dear.\n"
+	.string "A man in PEWTER. He always calls.$"
 
 CeladonCity_Gym_Text_GymStatue::
 	.string "CELADON POKéMON GYM\n"

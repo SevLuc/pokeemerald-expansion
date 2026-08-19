@@ -62,7 +62,11 @@ LavenderTown_Text_TownKnownAsMonGraveSite::
 	.string "This town is known as the grave\n"
 	.string "site of POKéMON.\p"
 	.string "Memorial services are held in\n"
-	.string "POKéMON TOWER.$"
+	.string "POKéMON TOWER.\p"
+	.string "…Funny thing. When the wind turns\n"
+	.string "from CELADON, the spirits settle.\p"
+	.string "Even here, her flowers reach.\n"
+	.string "…Or so the old folks swear.$"
 
 LavenderTown_Text_GhostsAppearedInTower::
 	.string "Ghosts appeared in POKéMON TOWER.\p"

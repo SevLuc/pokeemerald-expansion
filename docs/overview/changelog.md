@@ -7,15 +7,21 @@ Update in the same PR as the change.
 `YYYY-MM-DD` — area — one-line summary (PR/commit ref)
 
 ## Entries
-- 2026-08-19 — story/flavor — Erika "Sleeping Enigma" ambient lore (Celadon).
-  Added a coy, deliberately-unresolved rumor chorus about Erika, appended to
-  existing Celadon City NPCs (Little Girl, Woman, Fat Man, Old Man 1 incl. a
-  post-`FLAG_BADGE04_GET` wink branch, Rocket Grunt 1, Boy) and gym trainer Lisa's
-  post-battle line. Five contradictory facets (poison/medicine, perfume-calms-city,
-  once-fearsome, ladies-only refuge, even-Rocket-avoids-her) hang off one anchor
-  (never awake + an impossible garden); NO plain telling by design. Text/flavor
-  only, no new objects. Rocket line canon-safe (grunts avoid her garden, never
-  "she beat Rocket"). See ERIKA-* in docs/writing/lore-ledger.md.
+- 2026-08-19 — story/flavor — Erika "Sleeping Enigma" ambient lore (Celadon +
+  beyond). A coy, deliberately-unresolved rumor chorus, appended to existing NPCs;
+  no new objects/art; NO plain telling by design. Five contradictory facets hang
+  off one anchor (never awake + an impossible garden), poison/medicine dominant
+  (~40% of carriers). Celadon City (Little Girl, Woman, Fat Man, Old Man 1 incl. a
+  post-`FLAG_BADGE04_GET` wink branch, Rocket Grunts 1 & 2, Boy), Celadon interiors
+  (Restaurant drugstore woman, Dept Store 2F/5F, Condominiums tea lady), and gym
+  trainer Lisa (the "ask ten of us" aggregator). Fame spreads out of town: Lavender
+  grave-keeper + Route 10 (Rock Tunnel mouth) hear the legends. TWO gimmicks: (1)
+  the Route 16 bikers fled Celadon in fear of the "perfume/medicine master" and
+  camp on the Cycling Road with their POISON types (light no-Celadon-taxes gag);
+  (2) the "ladies only" gym is where Brock's "previous sponsors" take refuge (Erika
+  hosts, isn't one) - coy, cross-links the Brock arc ("PEWTER number," "let it
+  ring"). Rocket lines canon-safe (grunts avoid her garden). See ERIKA-* in
+  docs/writing/lore-ledger.md.
 - 2026-08-19 — story/flavor — Lt. Surge S.S. Anne arc + gym-gate framing. Rewrote
   the S.S. Anne Captain (`SSAnne_CaptainsOffice_Frlg`): dropped the seasick/back-rub
   gag; reaching the Captain now reads as clearing "the first trial", and he tells

@@ -34,9 +34,15 @@ hard-but-fair rebalance against vanilla.
 ## Gym 4 — Celadon (Erika, Grass) — Rainbow Badge
 - Vanilla team: (fill from data)
 - Rebalanced team: (TBD)
-- Gimmick: canon "ladies only" flower gym (no change).
+- Gimmick: canon "ladies only" flower gym, reframed - the gym women are Brock's
+  "previous sponsors" (his exes) taking refuge; Erika hosts them all and is not one
+  herself. Coy, cross-links the Brock arc. See ERIKA-EXES.
+- Related town gimmick: the Route 16 bikers fled Celadon in fear of the
+  "perfume/medicine master" and camp on the Cycling Road with their POISON types
+  (ERIKA-BIKERS).
 - History fragments: see ERIKA-* in lore-ledger.md. Mystique by design - the town
-  trades five contradictory legends and none is confirmed; NO plain telling.
+  trades many contradictory legends (poison/medicine dominant) and none is
+  confirmed; NO plain telling.
 
 ## Gyms 5–8
 (Koga, Sabrina, Blaine, Giovanni — fill in)

@@ -57,6 +57,10 @@ Consistency notes:
 - RETIRED earlier draft: "raising younger siblings / father left to train."
   Replaced by the divorce/alimony arc. The anime hopeless-romantic trait is the
   only kept thread (it powers the divorces).
+- CROSS-LINK (Celadon payoff): Brock's "previous sponsors" take refuge in ERIKA's
+  gym. See ERIKA-EXES. Kept coy in both places ("PEWTER number," "let it ring,"
+  "generous every single month") so the phones in Pewter and the ladies in Celadon
+  quietly rhyme. This is the distributed answer to "where do the exes go."
 
 ## Misty - tomboy battler + Psyduck (her first POKéMON)
 Concept: youngest Sensational Sister who does the real battling (sisters do the
@@ -151,6 +155,11 @@ menacing grunt spooked by a florist; a dozer who gave an old man insomnia.
 | ERIKA-06 | Anchor: the impossible garden | Boy (tea append): "They say her tea leaves come from ERIKA's garden. Maybe that's why I saw colors that don't have names." | Boy (existing) | Celadon City | none | 6 | in-game | - |
 | ERIKA-PAYOFF | The non-answer (aggregator) | Gym trainer Lisa (post-battle): "The truth about her? Ask ten of us, you'll get ten ERIKAs. …She likes it that way." | Lisa (gym trainer) | Celadon Gym | after her battle | 7 | in-game | - |
 | ERIKA-08 | Post-badge wink | Old Man 1 (post-badge branch): "You beat ERIKA? And you still can't tell me one true thing about her. …That's ERIKA." | Old Man 1 (existing; post-badge) | Celadon City | FLAG_BADGE04_GET | 8 | in-game | - |
+| ERIKA-POISON+ | Facet spread: poison/medicine (~40%) | Poison/medicine is the DOMINANT city legend. Extra coy carriers: Restaurant drugstore woman ("the DRUGSTORE's best cures aren't on any shelf; ERIKA decides who gets those"), Dept Store 2F Lass ("one petal does more; you don't find it, it finds you"), Dept Store 5F drugstore Sailor ("none of it matches one vial of hers"), Condominiums tea lady ("leaves from a garden I'm not allowed to name; sleep like the dead, the good kind"). | Restaurant Woman, Dept Store 2F/5F, Condo Tea Lady (existing) | Celadon City + interiors | none | 1 | in-game | [FLAG: canon-check] |
+| ERIKA-FAME | Facet reach: perfume legend spreads far | Her fame crosses Kanto. Lavender grave-keeper: "when the wind turns from CELADON, the spirits settle." Route 10 (Rock Tunnel mouth) Trent: "one breath of that city's air can talk a man out of a fight." Route 10 Carol: "a lady in CELADON grows flowers stranger than any POKéMON." | Lavender WorkerM, Route 10 Trent/Carol (existing) | Lavender Town, Route 10 | none | 2 | in-game | - |
+| ERIKA-ROCKET+ | Facet: even Rocket steers clear (2nd) | Rocket Grunt 2 (city): "Not near the flower district. We don't go there. Boss's rule. Don't ask." | Rocket Grunt 2 (existing) | Celadon City | none | 5 | in-game | [FLAG: canon-check] |
+| ERIKA-BIKERS | GIMMICK: the bikers who fled | The Route 16 (Cycling Road, west of Celadon) bikers abandoned the city in terror of the perfume/medicine master and now camp happily on the route with their beloved POISON types. Light running gag: they gloat about dodging CELADON taxes. Lao (fled + tax wink), Ruben ("my GRIMER hid behind me"), Hideo (keeps the VERMILION-detour hint + "gives me the shivers"), Camron ("poison that scared off even US"). Reflavor of existing biker trainers; no relocation needed (they're already on Rt16). | Route 16 bikers (Lao/Ruben/Hideo/Camron) | Route 16 | none | 6 | in-game | - |
+| ERIKA-EXES | GIMMICK: Brock's exes take refuge | The "ladies only" gym is where Brock's "previous sponsors" end up; ERIKA hosts them all and is NOT one herself. COY per the Brock arc (never "ex-wife/divorce"): Kay ("she never had a PEWTER number herself; just keeps the door open"), Lori ("the last one? generous, every single month, even now"), Mary ("let it ring, dear; a man in PEWTER, he always calls"). "PEWTER number" + "let it ring" tie straight back to Brock's ringing-phone gym. CROSS-LINK: BROCK arc (this is the distributed payoff for "where the exes go"). | Gym trainers Kay/Lori/Mary | Celadon Gym | none | 7 | in-game | [FLAG: canon-check] |
 
 Consistency notes:
 - NO plain telling anywhere - that is the whole point. If a future line "solves"
@@ -161,6 +170,13 @@ Consistency notes:
   after you've beaten her and STILL know nothing.
 - Erika's own gym lines stay archetypal vanilla (dozing princess); the mystique
   lives in the town around her, so the hard-but-fair fight still reads real.
+- The two GIMMICKS (ERIKA-BIKERS, ERIKA-EXES) give the GYM/town concrete, funny
+  truths, but say nothing certain about ERIKA HERSELF - she stays unknowable. The
+  bikers even reinforce the poison/medicine legend from the outside (they fled
+  HER). Keep it that way: gags about the room, mystery about the woman.
+- Weighting (per user): poison/medicine is the dominant city legend (~40% of
+  carriers), once-fearsome and ladies-only about ~20% each, perfume-calms threaded
+  through the "thoughtful" NPCs and out past Celadon (Lavender, Rock Tunnel mouth).
 
 ## Template: new gym leader
 Copy per leader. Keep fragments optional and gated so a rushing player still
