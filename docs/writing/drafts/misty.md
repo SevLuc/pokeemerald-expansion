@@ -26,7 +26,17 @@ and PSYDUCK is her actual lead in the fight.
 - "I'm MISTY. Youngest of the Sensational Sisters."
 - "They do the dance shows. I do the actual battling."
 - "My policy? All-out offensive. All WATER. No mercy."
-- "Prepare yourself. I'm sending out my strongest- PSYDUCK?!" (battle starts)
+- "Prepare yourself. I'm sending out my strongest-"
+- "*ploop!*" (with an inline {PLAY_SE SE_BALL_OPEN} ball-open sound; the text shows
+  too, for muted players)
+- "PSYDUCK?!" (battle starts)
+
+BATTLE-OPEN SLIDE (in-game, trainer-slide TRAINER_SLIDE_BEFORE_FIRST_TURN): the
+moment the fight opens with PSYDUCK on the field, Misty's pic slides in with a
+gripe: "Fine. We do this with PSYDUCK. Don't you DARE go easy on me." (line is
+easily swappable). NOTE: the ball IS still tossed for her lead - kept on purpose
+(reframed: she confidently throws for her ace, Psyduck flops out). A true
+no-ball "wild-style" send-out would need an untested battle-intro engine change.
 
 BATTLE TEAM (in-game): PSYDUCK (Lv16, lead) + Staryu (Lv18) + Starmie (Lv21).
 PSYDUCK is her comic opener (Water Gun / Disable / Tail Whip / Confusion). Adding
