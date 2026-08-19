@@ -14,10 +14,9 @@ Update in the same PR as the change.
   POKéMON in the hold, drove Rocket from Vermilion, "Not a king. A shield.") then
   awards HM01 CUT. Added coy ambient lore to Vermilion City NPCs (Woman incl. a
   post-`FLAG_BADGE03_GET` "why leader" branch, Old Man 2, Sailor) and S.S. Anne
-  crew (Deck Sailor, 1F Corridor Sailor). Wrote a gym-gate guard script
-  (`VermilionCity_EventScript_GymGateGuard`) that voices the vanilla Cut-tree gate
-  as Surge's decree. Text/flavor only, no mechanic change (the Cut-tree already
-  gates the gym). PORYMAP TODO: place the guard NPC near the gym tree (~x20,y25).
+  crew (Deck Sailor, 1F Corridor Sailor). Text/flavor only, no mechanic change:
+  the vanilla Cut-tree already gates the gym (HM01 is only usable once the Captain
+  awards it), so the trial framing lives in dialogue, not a new gate object.
   Canon guard: Rocket driven from Vermilion locally only. See SURGE-* in
   docs/writing/lore-ledger.md.
 - 2026-08-19 — caps/menu — Turned on hard level caps and added free, cap-limited

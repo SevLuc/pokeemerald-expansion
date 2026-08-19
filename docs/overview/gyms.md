@@ -26,8 +26,8 @@ hard-but-fair rebalance against vanilla.
 - Gate: vanilla FRLG already gates the gym behind Cut (the cuttable tree at
   (19,24) is the only entrance to the gym pocket; Cut comes from the S.S. Anne
   Captain). Reframed as Surge's "first trial": cross the S.S. Anne, reach the
-  Captain, earn Cut. A gym-gate guard voices this (script written; Porymap
-  placement pending). See SURGE-GATE.
+  Captain, earn Cut. Framing lives in the Captain's reveal + ambient lines; no
+  extra gate object. See SURGE-06.
 - Puzzle: trash-can "discipline/endurance" trial (SURGE-GIMMICK).
 - History fragments: see SURGE-* in lore-ledger.md (payoff = S.S. Anne Captain).
 

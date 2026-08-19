@@ -92,10 +92,11 @@ ANNE CAPTAIN (HM01 CUT) is the payoff who tells it plainly.
 
 REFRAME (this PR): the S.S. ANNE is now Surge's OWN proving trial. Vanilla FRLG
 already gates his gym behind Cut (the cuttable tree at Vermilion (19,24) is the
-only way into the gym pocket, and Cut only comes from the ship). We make that
-gate legible: crossing the ship to REACH the Captain = passing "the first trial";
-the Captain rewards Cut and tells the reveal, framing the whole thing as Surge's
-decree ("cross my ship, prove your resolve"). The seasick/back-rub gag is dropped.
+only way into the gym pocket, and Cut only comes from the ship), so the gate needs
+no new enforcement. We make it legible in dialogue: crossing the ship to REACH the
+Captain = passing "the first trial"; the Captain rewards Cut and tells the reveal,
+framing the whole thing as Surge's decree ("cross my ship, prove your resolve").
+The seasick/back-rub gag is dropped.
 CANON: Rocket is driven from VERMILION locally only; Rocket still active in the
 mainline plot - never claim Rocket is finished. Full lines: drafts/surge.md.
 
@@ -110,7 +111,6 @@ mainline plot - never claim Rocket is finished. Full lines: drafts/surge.md.
 | SURGE-07 | Surge himself | Intro: loud macho ("HYPER BEAM to the dome-ski"; "Not on my turf. Not anymore."). Defeat: "Reminds me of me. Back when it counted." History only leaks. | Lt. Surge | Vermilion Gym | none | 7 | in-game | - |
 | SURGE-07b | Surge (via ex-soldier) | Tucker (served under Surge) defeat: "…But the LT's faced worse. Far worse." | Tucker (gym trainer) | Vermilion Gym | none | 7 | in-game | [FLAG: canon-check] |
 | SURGE-08 | Why gym leader | Woman post-badge branch: "He could have run this city. Chose to mind a gym instead. …Him all over." | Woman (existing; post-badge) | Vermilion City | FLAG_BADGE03_GET | 8 | in-game | [FLAG: canon-check] |
-| SURGE-GATE | S.S. Anne trial / gym gate | Gym-gate guard voices the vanilla Cut-tree gate as Surge's decree. Pre-Cut: "That tree's not for the unproven. Cross the S.S. ANNE. Reach her CAPTAIN. LT's own rules." Post-Cut (FLAG_GOT_HM01): "So you walked the whole ship and lived. Then the LT will see you." Script `VermilionCity_EventScript_GymGateGuard` written; NEEDS a Porymap object placed near the gym tree (~x20,y25) to go live. | Gym-gate guard (NEW, Porymap TODO) | Vermilion City | none | 6 | drafted | - |
 | SURGE-GIMMICK | Trash-can trial | The famous "hated" trash-can puzzle reframed as Surge's deliberate TEST OF DISCIPLINE + ENDURANCE. All gym trainers + Gym Guy + the puzzle messages sell it ("Not cruelty. Discipline." / "locked to see if you'll quit." / "Composure, or start over."). Functional hints (2nd lock adjacent, switches in cans, type tip) preserved. | Dwayne/Baily/Tucker/Gym Guy/puzzle | Vermilion Gym | none | 7 | in-game | - |
 
 Consistency notes:
@@ -120,8 +120,9 @@ Consistency notes:
   stay vague so the Captain's payoff is the click.
 - SURGE-08 gates on FLAG_BADGE03_GET (Surge's own Thunder Badge) - it reflects on
   him only after you've beaten him.
-- SURGE-GATE guard is the only piece needing a Porymap placement; the mechanical
-  gate (Cut-tree) already works without it, so nothing is blocked meanwhile.
+- No gym-gate guard NPC: the vanilla Cut-tree already gates the gym (HM01 is only
+  usable once the Captain awards it), so the trial framing lives entirely in the
+  Captain's reveal and the ambient lines - no extra enforcement object needed.
 
 ## Template: new gym leader
 Copy per leader. Keep fragments optional and gated so a rushing player still

@@ -42,21 +42,6 @@ VermilionCity_EventScript_WomanPostBadge::
 	release
 	end
 
-@ Placement TODO (Porymap): add one NPC near the gym tree (~x20,y25),
-@ set its script to VermilionCity_EventScript_GymGateGuard, any Sailor/Gentleman sprite.
-VermilionCity_EventScript_GymGateGuard::
-	lock
-	faceplayer
-	goto_if_set FLAG_GOT_HM01, VermilionCity_EventScript_GymGateGuardProven
-	msgbox VermilionCity_Text_GymGateGuardBlock
-	release
-	end
-
-VermilionCity_EventScript_GymGateGuardProven::
-	msgbox VermilionCity_Text_GymGateGuardProven
-	release
-	end
-
 VermilionCity_EventScript_OldMan1::
 	lock
 	faceplayer
@@ -301,23 +286,6 @@ VermilionCity_Text_WomanWhyLeader::
 	.string "you know.\p"
 	.string "Chose to mind a gym instead.\n"
 	.string "…Him all over.$"
-
-VermilionCity_Text_GymGateGuardBlock::
-	.string "Whoa there. The LT's gym is past\n"
-	.string "that tree.\p"
-	.string "And that tree's not for the\n"
-	.string "unproven.\p"
-	.string "Cross the S.S. ANNE. Reach her\n"
-	.string "CAPTAIN.\p"
-	.string "Do that, and the way opens.\n"
-	.string "LT's own rules.$"
-
-VermilionCity_Text_GymGateGuardProven::
-	.string "So you walked the whole ship\n"
-	.string "and lived.\p"
-	.string "Then the LT will see you.\p"
-	.string "…Hope you brought more than\n"
-	.string "nerve. Ha!$"
 
 VermilionCity_Text_DidYouSeeSSAnneInHarbor::
 	.string "Did you see the S.S. ANNE moored\n"

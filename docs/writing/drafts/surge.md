@@ -64,12 +64,11 @@ Voltorb Lv21, Pikachu Lv18, Raichu Lv24. "Lightning fast" fits the strike-fast l
 ## S.S. Anne trial (the reframe)
 The ship is now Surge's own proving trial that gates his gym. Vanilla already
 gates the gym behind Cut (cuttable tree at Vermilion (19,24) is the only entrance;
-Cut comes only from the Captain). We voiced that gate:
-- Captain rewards Cut for REACHING him (crossing the ship = passing the trial).
-- Gym-gate guard (`VermilionCity_EventScript_GymGateGuard`) turns away the
-  unproven pre-Cut and acknowledges you post-Cut.
+Cut comes only from the Captain, and HM01 is only usable once he awards it). No
+extra enforcement object is needed: the Captain rewards Cut for REACHING him
+(crossing the ship = passing the trial), and the framing lives in his reveal plus
+the ambient lines. (A gym-gate guard NPC was considered and dropped as redundant.)
 
 ## TODO (still open)
-- PORYMAP: place one NPC near the gym tree (~x20,y25) and point its script at
-  `VermilionCity_EventScript_GymGateGuard` (any Sailor/Gentleman sprite). The
-  script + text are already written; the guard goes live once placed.
+- None for this arc. Build + playtest the Captain reveal on Mac to confirm the
+  page breaks read well in-box.
