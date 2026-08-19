@@ -125,7 +125,9 @@ CeruleanCity_Gym_Text_MistyIntro::
 	.string "My policy? All-out offensive.\n"
 	.string "All WATER. No mercy.\p"
 	.string "Prepare yourself. I'm sending out\n"
-	.string "my strongest- PSYDUCK?!{PLAY_BGM}{MUS_RG_ENCOUNTER_GYM_LEADER}$"
+	.string "my strongest-\p"
+	.string "{PLAY_SE SE_BALL_BOUNCE_1}*ploop!*\p"
+	.string "PSYDUCK?!{PLAY_BGM}{MUS_RG_ENCOUNTER_GYM_LEADER}$"
 
 CeruleanCity_Gym_Text_ExplainTM03::
 	.string "TM03 teaches WATER PULSE.\p"
