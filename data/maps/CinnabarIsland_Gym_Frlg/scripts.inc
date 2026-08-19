@@ -710,16 +710,18 @@ CinnabarIsland_Gym_EventScript_OpenDoor6::
 	return
 
 CinnabarIsland_Gym_Text_BlaineIntro::
-	.string "Hah! So you solved my riddles.\p"
-	.string "I am BLAINE. I test the mind\n"
-	.string "before the POKéMON. On purpose.\p"
-	.string "Raw power I have seen. Raw power,\n"
-	.string "unchecked, once made a monster.\p"
-	.string "So I ask questions first.\n"
-	.string "Burn that into your memory.\p"
-	.string "Now! My fire has swallowed every\n"
-	.string "fool who skipped the thinking.\p"
-	.string "Hah! You better have BURN HEAL!{PLAY_BGM}{MUS_RG_ENCOUNTER_GYM_LEADER}$"
+	.string "Hah! You unraveled every riddle\n"
+	.string "to stand before me. Impressive.\p"
+	.string "Few reach BLAINE with their wits\n"
+	.string "still about them.\p"
+	.string "I have kept this fire since before\n"
+	.string "your parents drew breath.\p"
+	.string "I have seen it warm a home…\n"
+	.string "and swallow one whole.\p"
+	.string "You have proven your mind.\n"
+	.string "Now prove your flame.\p"
+	.string "Come! Let us make this GYM an\n"
+	.string "inferno worth remembering!{PLAY_BGM}{MUS_RG_ENCOUNTER_GYM_LEADER}$"
 
 CinnabarIsland_Gym_Text_BlaineDefeat::
 	.string "Hah… burned down to nothing.\n"
