@@ -230,6 +230,48 @@ Consistency notes:
 - CANON-CHECK tags: Janine-as-daughter and the CEO framing are reflavor; log any
   future contradiction here. Company = power/energy (locked w/ user).
 
+## Sabrina - the girl who went cold (possession arc; the laugh breaks it)
+Concept: Sabrina was a sunny, laughing child. Her psychic gift grew past her, so to
+cage it she let her heart go cold, and the cold thing she became began to REACH: she
+folds people's minds into her own, and the vanished "sleep" inside her and in her
+dolls. All of SAFFRON lives half-possessed. The pivot (from the anime, adapted): she
+has not felt anything in years, and losing to the player makes her LAUGH for the first
+time in ages. That laugh cracks the seal, the cold lets go, every vanished person wakes
+unharmed with no memory of the dark, and no one bears a grudge. She is the sunny girl
+again. Full lines: drafts/sabrina.md.
+
+GIMMICK (gym): everyone inside is possessed and forced to fight you, and each puppet
+gives a DIFFERENT false direction to reach her (north / south / left / right / stand
+still / center panel / turn back) - contradictory on purpose, so the hints are useless.
+Each trainer's DEFEAT is a brief lucid flicker ("that was not me"; "believe nothing we
+tell you"). The Gym Guide is possessed too but warns you to trust no one here, not even
+him, and lets ONE true thing slip (FIGHTING folds fast to PSYCHIC). Post-victory, heads
+clear and the town exhales.
+
+| ID | Subject | Reveal | Source NPC | Map | Gate | Order | Status | Flags |
+|---|---|---|---|---|---|---|---|---|
+| SABRINA-01 | The sunny child (memory) | Saffron Lass (before): "I knew her small. She laughed like a bell. …What became of that girl?" | Lass (existing; pre-defeat branch) | Saffron City | before FLAG_DEFEATED_SABRINA | 1 | in-game | - |
+| SABRINA-02 | The vanishings / dolls (dread) | Saffron Worker (before): people vanish with no Rocket to blame; "They say SABRINA keeps people. Inside dolls." | Worker (existing; pre-defeat branch) | Saffron City | before FLAG_DEFEATED_SABRINA | 2 | in-game | - |
+| SABRINA-03 | The warm doll (anchor) | Copycat's doll (before): "It's warm, though. Dolls shouldn't be warm. COPYCAT found it the week the vanishings began." After defeat: "just a doll now. Cold. Ordinary." | Doll object (existing; before/after branch) | Copycat's House 2F | branch on FLAG_DEFEATED_SABRINA | 3 | in-game | - |
+| SABRINA-04 | The un-mimicable face | Copycat: "I can copy anybody. Except SABRINA. There's nothing in her face to catch." | Copycat (existing) | Copycat's House 2F | none | 4 | in-game | - |
+| SABRINA-WARN | Mr. Psychic (the plain telling) | Her old teacher warns: sunny child, gift grew past her, the vanished sleep within her and her dolls, her heart went cold to cage the power, "only warmth can thaw it. Make her FEEL something. Surprise her." | Mr. Psychic (existing; pre-defeat branch) | Mr. Psychic's House | before FLAG_DEFEATED_SABRINA | 5 | in-game | - |
+| SABRINA-GYM | Possessed puppets / false hints | 7 gym trainers each give a contradictory false direction; defeats are lucid flickers. Gym Guide: "Trust NO ONE in this gym. …Not even me." (one truth slips: FIGHTING folds to PSYCHIC). | Gym trainers + Gym Guide | Saffron Gym | none | 6 | in-game | - |
+| SABRINA-SELF | Cold intro -> the laugh | Intro: cold possessor ("All of SAFFRON, folded quiet within me… a small, still place for you"). Defeat: she LAUGHS, the seal breaks, the vanished wake unharmed ("You broke the spell"). Post: warm, restored, "no one recalls the dark. …my last gift to them." | Sabrina | Saffron Gym | none | 7 | in-game | - |
+| SABRINA-FREED | Payoff / restoration | Mr. Psychic (after): "You made her LAUGH… the vanished woke. The sunny girl is in there still. You gave SAFFRON back its daughter." Lass/Worker after: everyone home, no memory, no grudges. Gym Guide post-victory: "the whole town just breathed out." | Mr. Psychic, Lass, Worker, Gym Guide (after) | Saffron City / Gym | after FLAG_DEFEATED_SABRINA | 8 | in-game | - |
+
+Consistency notes:
+- The Marsh Badge mechanic (over-level POKéMON turn disobedient) is tied to her arc:
+  "Power without a warm hand goes cold. …No one knows that better."
+- No grudges by design (user): the vanished wake unharmed with no memory; her post-
+  battle wipes the trauma ("my last gift to them"). Keep all after-lines warm/relieved.
+- Saffron is Rocket-occupied earlier in the plot; these fragments layer AFTER the
+  liberation NPCs (they keep their Rocket line, then add the Sabrina dread), so the
+  timeline reads: Rocket driven out, then the town realizes something worse is HER,
+  then the player frees them by beating her. Canon-safe (touches no plot beats).
+- The laugh-breaks-the-spell logic is conveyed through dialogue + before/after NPC
+  branches on FLAG_DEFEATED_SABRINA (no new objects), since the anime's literal
+  transformation can't be staged; beating her IS the surprise that thaws her.
+
 ## Template: new gym leader
 Copy per leader. Keep fragments optional and gated so a rushing player still
 finishes and a curious one gets the hidden layer.

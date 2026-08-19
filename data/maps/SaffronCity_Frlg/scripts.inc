@@ -55,7 +55,16 @@ SaffronCity_EventScript_DoorGuardAsleep::
 	end
 
 SaffronCity_EventScript_WorkerM::
-	msgbox SaffronCity_Text_YouBeatTeamRocket, MSGBOX_NPC
+	lock
+	faceplayer
+	goto_if_set FLAG_DEFEATED_SABRINA, SaffronCity_EventScript_WorkerMAfter
+	msgbox SaffronCity_Text_YouBeatTeamRocket
+	release
+	end
+
+SaffronCity_EventScript_WorkerMAfter::
+	msgbox SaffronCity_Text_WorkerMSabrinaFreed
+	release
 	end
 
 SaffronCity_EventScript_Youngster::
@@ -63,7 +72,16 @@ SaffronCity_EventScript_Youngster::
 	end
 
 SaffronCity_EventScript_Lass::
-	msgbox SaffronCity_Text_PeopleComingBackToSaffron, MSGBOX_NPC
+	lock
+	faceplayer
+	goto_if_set FLAG_DEFEATED_SABRINA, SaffronCity_EventScript_LassAfter
+	msgbox SaffronCity_Text_PeopleComingBackToSaffron
+	release
+	end
+
+SaffronCity_EventScript_LassAfter::
+	msgbox SaffronCity_Text_LassSabrinaFreed
+	release
 	end
 
 SaffronCity_EventScript_Boy::
@@ -153,7 +171,18 @@ SaffronCity_Text_WeCanExploitMonsAroundWorld::
 
 SaffronCity_Text_YouBeatTeamRocket::
 	.string "You beat TEAM ROCKET all alone?\n"
-	.string "That's amazing!$"
+	.string "That's amazing!\p"
+	.string "…But something worse walks SAFFRON\n"
+	.string "now. My neighbor is just… gone.\p"
+	.string "They say SABRINA keeps people.\n"
+	.string "Inside dolls. I don't sleep much.$"
+
+SaffronCity_Text_WorkerMSabrinaFreed::
+	.string "My neighbor is home! Woke on his\n"
+	.string "floor like from a nap.\p"
+	.string "Whatever gripped this town let go\n"
+	.string "all at once.\p"
+	.string "That was you, wasn't it? Thank you.$"
 
 SaffronCity_Text_SafeToGoOutAgain::
 	.string "Yeah! TEAM ROCKET is gone!\n"
@@ -162,8 +191,19 @@ SaffronCity_Text_SafeToGoOutAgain::
 SaffronCity_Text_PeopleComingBackToSaffron::
 	.string "People fled from here in droves\n"
 	.string "when those ROCKETS came.\p"
-	.string "They should be flocking back to\n"
-	.string "SAFFRON now.$"
+	.string "Now they trickle back… and some\n"
+	.string "vanish again. No ROCKET to blame.\p"
+	.string "They whisper it is HER. SABRINA.\n"
+	.string "She was not always frightening.\p"
+	.string "I knew her small. She laughed like\n"
+	.string "a bell. …What became of that girl?$"
+
+SaffronCity_Text_LassSabrinaFreed::
+	.string "They are back! Everyone who\n"
+	.string "vanished, home in their beds.\p"
+	.string "None of them recall a thing.\p"
+	.string "And SABRINA… I heard her LAUGH\n"
+	.string "today. Like a bell. Like before.$"
 
 SaffronCity_Text_FlewHereOnPidgeot::
 	.string "I flew here on my PIDGEOT when\n"

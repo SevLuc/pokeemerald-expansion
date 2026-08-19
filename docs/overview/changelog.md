@@ -7,6 +7,20 @@ Update in the same PR as the change.
 `YYYY-MM-DD` — area — one-line summary (PR/commit ref)
 
 ## Entries
+- 2026-08-19 — story/flavor — Sabrina "the girl who went cold" possession arc
+  (Saffron). Reflavored Sabrina and her gym: she was a sunny child whose psychic gift
+  grew past her, so she let her heart go cold and began folding SAFFRON's minds into
+  her own (people vanish, feared kept in dolls). Her gym is now POSSESSED, every
+  trainer is forced to fight and gives a contradictory false direction to reach her
+  (north/south/left/right/still/center/turn-back); defeats are lucid flickers; the
+  Gym Guide warns "trust no one here, not even me" (one truth slips: Fighting folds
+  to Psychic). Her intro is a cold possessor; on DEFEAT she LAUGHS for the first time
+  in years, breaking the spell so the vanished wake unharmed with no memory and no
+  grudges. Before/after NPC branches (gated on FLAG_DEFEATED_SABRINA) on the Saffron
+  Lass, Worker, Copycat's warm doll, and Mr. Psychic (who warns before and thanks
+  after). The Marsh Badge's over-level-disobey mechanic ties to her ("power without a
+  warm hand goes cold"). Text/flavor + small script branches only, no new objects;
+  touches no plot beats. See SABRINA-* in docs/writing/lore-ledger.md.
 - 2026-08-19 — story/flavor — Koga "necessary-evil CEO" ambient lore (Fuchsia +
   bordering routes). Koga's hidden layer: flamboyant CEO of KOGA INDUSTRIES, Kanto's
   power utility, whose poison-gas POKéMON run the refineries (the smog is the price

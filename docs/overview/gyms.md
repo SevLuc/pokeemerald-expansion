@@ -54,5 +54,15 @@ hard-but-fair rebalance against vanilla.
   KOGA INDUSTRIES (Kanto's power utility); the whole Fuchsia area argues over him as
   a necessary evil, and the gym insiders reveal he's a spin doctor. Semi-plain arc.
 
-## Gyms 6–8
-(Sabrina, Blaine, Giovanni — fill in)
+## Gym 6 — Saffron (Sabrina, Psychic) — Marsh Badge
+- Vanilla team: (fill from data)
+- Rebalanced team: (TBD)
+- Gimmick: canon teleport-panel maze, reframed as a POSSESSION trial - every trainer
+  is forced to fight and gives a contradictory false direction to reach Sabrina; the
+  Gym Guide (also possessed) warns "trust no one, not even me." See SABRINA-GYM.
+- Arc: she went cold to cage her power and folds the town's minds into her own; losing
+  to you makes her LAUGH, breaking the spell and freeing everyone unharmed. Payoff =
+  Mr. Psychic. See SABRINA-* in lore-ledger.md.
+
+## Gyms 7–8
+(Blaine, Giovanni — fill in)
