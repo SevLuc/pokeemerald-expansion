@@ -34,11 +34,15 @@ Defeat (tough girl concedes; optional Psyduck cameo):
 - "Here. The CASCADEBADGE. You earned it."
 - (option) "...Even PSYDUCK looks impressed. And PSYDUCK is NEVER impressed."
 
-## Bug-ban gate (gym guide, when you try to enter with a bug-type)
-- "Hold it. Is that a BUG POKéMON?"
-- "Yeah, no. Leave it outside. Last time someone brought one in, MISTY stood on
-  a chair for an hour."
-- "Ditch the BUG types, then come back."
+## Bug-ban gate (IN-GAME, gym gimmick)
+On entering the gym, an ON_FRAME map script calls the new special
+`PartyHasBugType`. If any party mon is a BUG type, you're stopped and warped back
+to the city gym door. Message: "Whoa there! Is that a BUG POKéMON? …Yeah, no. Not
+in MISTY's gym. One BUG in here and she's up on a chair for the afternoon. Leave
+it outside. Then we'll talk." Always-on (could gate on FLAG_BADGE02_GET if the
+post-victory bounce ever feels annoying).
+Code: src/script_pokemon_util.c (PartyHasBugType) + data/specials.inc +
+CeruleanCity_Gym_Frlg/scripts.inc (ON_FRAME BugCheck). No new art or map objects.
 
 ## Lore delivery - SUBTLE, spread over the road (not on the nose)
 Principle: imply, never explain. The player pieces it together. Beats escalate as

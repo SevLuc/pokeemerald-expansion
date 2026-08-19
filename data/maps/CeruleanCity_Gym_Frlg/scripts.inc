@@ -1,5 +1,23 @@
 CeruleanCity_Gym_Frlg_MapScripts::
+	map_script MAP_SCRIPT_ON_FRAME_TABLE, CeruleanCity_Gym_OnFrame
 	.byte 0
+
+CeruleanCity_Gym_OnFrame::
+	map_script_2 VAR_TEMP_1, 0, CeruleanCity_Gym_EventScript_BugCheck
+	.2byte 0
+
+CeruleanCity_Gym_EventScript_BugCheck::
+	setvar VAR_TEMP_1, 1
+	specialvar VAR_RESULT, PartyHasBugType
+	goto_if_eq VAR_RESULT, FALSE, CeruleanCity_Gym_EventScript_BugCheckDone
+	lockall
+	msgbox CeruleanCity_Gym_Text_NoBugsAllowed, MSGBOX_DEFAULT
+	closemessage
+	warp MAP_CERULEAN_CITY, 4
+	waitstate
+	releaseall
+CeruleanCity_Gym_EventScript_BugCheckDone::
+	end
 
 CeruleanCity_Gym_EventScript_Misty::
 	famechecker FAMECHECKER_MISTY, FCPICKSTATE_COLORED, UpdatePickStateFromSpecialVar8005
@@ -68,6 +86,13 @@ CeruleanCity_Gym_EventScript_GymStatuePostVictory::
 	msgbox CeruleanCity_Gym_Text_GymStatuePlayerWon
 	releaseall
 	end
+
+CeruleanCity_Gym_Text_NoBugsAllowed::
+	.string "Whoa there! Is that a BUG POKéMON?\p"
+	.string "…Yeah, no. Not in MISTY's gym.\p"
+	.string "One BUG in here and she's up on a\n"
+	.string "chair for the afternoon.\p"
+	.string "Leave it outside. Then we'll talk.$"
 
 CeruleanCity_Gym_Text_MistyIntro::
 	.string "So you're my next challenger.\p"
