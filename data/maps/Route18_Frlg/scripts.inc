@@ -69,7 +69,7 @@ Route18_Text_JacobPostBattle::
 	.string "…Was better before the haze rolled\n"
 	.string "in off KOGA's plants.\p"
 	.string "Complain to the man? Sure.\n"
-	.string "Do your grumbling by his lamplight.$"
+	.string "The meter never stops turning.$"
 
 Route18_Text_RouteSign::
 	.string "ROUTE 18\n"
