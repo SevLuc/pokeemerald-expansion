@@ -107,7 +107,7 @@ FuchsiaCity_Gym_Text_KogaIntro::
 FuchsiaCity_Gym_Text_KogaDefeat::
 	.string "Kh… you bested me. Rare.\p"
 	.string "I respect two things, child.\n"
-	.string "Results, and leverage.\p"
+	.string "Power. And the will to spend it.\p"
 	.string "You have both. The SOULBADGE\n"
 	.string "is yours.\p"
 	.string "…And a talent like that,\n"
