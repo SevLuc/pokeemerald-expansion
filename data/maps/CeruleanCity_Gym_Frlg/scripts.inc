@@ -130,8 +130,9 @@ CeruleanCity_Gym_Text_MistyIntro::
 	.string "PSYDUCK?!{PLAY_BGM}{MUS_RG_ENCOUNTER_GYM_LEADER}$"
 
 CeruleanCity_Gym_Text_ExplainTM03::
-	.string "TM03 teaches WATER PULSE.\p"
-	.string "Use it on an aquatic POKéMON!$"
+	.string "TM03. WATER PULSE.\n"
+	.string "My kind of move.\p"
+	.string "Use it on something that swims.$"
 
 CeruleanCity_Gym_Text_ExplainCascadeBadge::
 	.string "The CASCADEBADGE makes all\n"
@@ -142,7 +143,8 @@ CeruleanCity_Gym_Text_ExplainCascadeBadge::
 	.string "anytime, even out of battle.\p"
 	.string "You can CUT down small trees to\n"
 	.string "open new pathways.\p"
-	.string "You can also have my favorite TM.$"
+	.string "And take my favorite TM.\n"
+	.string "…PSYDUCK never got it.$"
 
 CeruleanCity_Gym_Text_ReceivedTM03FromMisty::
 	.string "{PLAYER} received TM03\n"
@@ -165,11 +167,12 @@ CeruleanCity_Gym_Text_DianaIntro::
 	.string "MISTY won't have to be bothered.$"
 
 CeruleanCity_Gym_Text_DianaDefeat::
-	.string "You overwhelmed me!$"
+	.string "You overwhelmed me!\p"
+	.string "…MISTY's still waiting. Good luck.$"
 
 CeruleanCity_Gym_Text_DianaPostBattle::
-	.string "You've heard about the duck.\n"
-	.string "Everyone has. …Don't bring it up.$"
+	.string "Fine, you win. You'll do.\p"
+	.string "…Don't mention the duck to her.$"
 
 CeruleanCity_Gym_Text_LuisIntro::
 	.string "Splash!\p"
@@ -180,8 +183,8 @@ CeruleanCity_Gym_Text_LuisDefeat::
 	.string "That can't be!$"
 
 CeruleanCity_Gym_Text_LuisPostBattle::
-	.string "You got this far, so you know\n"
-	.string "the rule about bugs by now. …Good.$"
+	.string "You beat me. Wow.\p"
+	.string "…Left your BUGS outside? Smart.$"
 
 CeruleanCity_Gym_Text_GymGuyAdvice::
 	.string "Yo!\n"
