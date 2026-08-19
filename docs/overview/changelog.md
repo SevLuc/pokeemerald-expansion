@@ -7,6 +7,10 @@ Update in the same PR as the change.
 `YYYY-MM-DD` — area — one-line summary (PR/commit ref)
 
 ## Entries
+- 2026-08-19 — docs — Added `docs/overview/build-verification.md`, a living
+  checklist of merged changes not yet compiled/playtested (web sessions can't
+  build and CI has not run on this fork). Covers PRs #2, #4, #5, #6; notes the
+  still-open PR #3. No gameplay change.
 - 2026-08-19 — caps/menu — Turned on hard level caps and added free, cap-limited
   menu leveling. `include/config/caps.h`: `B_EXP_CAP_TYPE = EXP_CAP_HARD`,
   `B_LEVEL_CAP_TYPE = LEVEL_CAP_FLAG_LIST`, `B_RARE_CANDY_CAP = TRUE`. Over-cap
