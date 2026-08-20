@@ -436,6 +436,62 @@ Consistency notes:
 - Four Island / Icefall Cave / the Rocket warehouse are all canon FRLG (Sevii ships
   with FireRed), so the home arc is Kanto-authentic, not an invented region.
 
+## Bruno (Elite Four, Fighting) - the calm giant whose stillness is his strength
+Concept: the gentle giant in a permanent state of calm. Stand near Bruno and your
+nerves settle. That stillness IS his strength: no ego, no anger, no noise, so he
+pours everything into pure power. He never explains himself; his demeanor is the
+whole message. Humble and patient, he lives up in the wild among free POKéMON that
+do not fear him, and quietly tends the land around him. The one thing that draws
+him down from the quiet is the pure joy of meeting someone truly strong (canon: he
+joined the ELITE FOUR "out of his burning ambition to battle the best").
+
+He is the roster's SINCERE ANCHOR: the deliberate straight foil to Lorelei's
+silly-through-contrast crusade. ZERO gags. His method is SHOW, NEVER TELL, so every
+fragment reports what an NPC SAW (the ease near him, the calm wild POKéMON, the
+cleaned trail, the power that followed the peace) and NEVER states "calm is his
+strength." The player links calm -> power. His power is only ever implied ALONGSIDE
+his stillness. His one light beat (the RAGE CANDYBAR) shows non-attachment, not
+gluttony.
+
+Delivery = DISTRIBUTED across the Sevii "training circuit" his canon footprint
+already occupies (Ember Spa on One Island, Two Island, Sevault Canyon on Seven
+Island), plus the wild areas he lives in and the Indigo reception. Vanilla NPCs at
+the spa, Two Island, and Sevault Canyon already reference BRUNO, so those get
+reflavored directly. Uses existing NPCs only, no new art, no moved beats.
+
+> Battle voice LOCKED (revised): his vanilla boast ("grind you down… Hoo hah!") and
+> ego-shock defeat ("Why? How could I lose?") are off-brand for the zen giant and
+> are replaced with calm-welcome / gracious-loss / respectful-send-off. Line bank
+> in drafts/bruno.md.
+
+| ID | Subject | Reveal | Source NPC | Map | Gate | Order | Status | Flags |
+|---|---|---|---|---|---|---|---|---|
+| BRUNO-01 | Bruno (the care) | Black Belt: "Senior tends his POKéMON's hurts before his own, every time. …I try to be like that." | Black Belt (existing, reflavor) | One Island, Ember Spa | reached One Island | 1 | drafted | - |
+| BRUNO-02 | Bruno (the aura) | Black Belt: "Sat with him in the spring once. He said maybe three words the whole hour. Best hour of my life." | Black Belt (existing, reflavor) | One Island, Ember Spa | reached One Island | 2 | drafted | - |
+| BRUNO-03 | Bruno (lives in the wild) | Hiker: "Up the mountain the wild POKéMON don't run from him. They sit with him. I've seen it." | Hiker (existing/new) | One Island, Kindle Road / Mt. Ember | reached One Island | 3 | drafted | - |
+| BRUNO-04 | Bruno (steward) | Wanderer: "Every trail that man walks comes back cleaner. Never says a word about it. Just does it." | wild-area NPC (existing/new) | One Island, Kindle Road | reached One Island | 4 | drafted | - |
+| BRUNO-05 | Bruno (equanimity) | Islander (candybar, reframed): "One of the ELITE FOUR came all this way for a RAGE CANDYBAR. Sold out. He just smiled, thanked us, and left. Not a flicker." | Two Island NPC (existing, reflavor) | Two Island | reached Two Island | 5 | drafted | - |
+| BRUNO-06 | Bruno (honors every path) | Sevault NPC: "Folk think he trains alone by creed. He'll tell you every path has worth. He walked one once with a fellow called BRAWLY." | Sevault NPC (existing, reflavor) | Seven Island, Sevault Canyon | reached Seven Island | 6 | drafted | [FLAG: canon-check] |
+| BRUNO-07 | Bruno (why the League) | Sevault NPC: "Why leave his quiet mountain for the LEAGUE? One thing moves him. The chance to meet someone truly strong." | Sevault NPC (existing, reflavor) | Seven Island, Sevault Canyon | reached Seven Island | 7 | drafted | - |
+| BRUNO-08 | Bruno (the room) | Reception NPC: "You will feel at peace in the second room. …That peace is the last thing a lot of challengers remember." | reception NPC (existing/new) | Indigo Plateau reception | reached League | 8 | drafted | - |
+| BRUNO-09 | Bruno (battle voice) | Intro (calm welcome, "no anger, only strength meeting strength"); gracious defeat ("the strength I came looking for. Thank you"); send-off ("Meet it as you met me"). | Bruno | Indigo Plateau, Bruno's Room | at the battle | 9 | drafted | - |
+| BRUNO-10 | Bruno (post-defeat) | Reception callback: "You beat BRUNO? And he thanked you for it, didn't he. …That's just who he is." | reception NPC (existing/new) | Indigo Plateau reception | FLAG_DEFEATED_BRUNO | 10 | drafted | - |
+
+Consistency notes:
+- SHOW, NEVER TELL is the hard rule for every Bruno fragment. Observations of
+  demeanor and effect only; NEVER a stated philosophy. His power is always implied
+  next to his calm so the player draws the line himself.
+- His battle lines carry the calm AND the graciousness; the loss is met with
+  thanks, not shock, because meeting the truly strong is his whole reason for being
+  at the LEAGUE (keep consistent with BRUNO-07 and BRUNO-10).
+- The RAGE CANDYBAR (05) stays WARM, not a gag: it demonstrates non-attachment. Do
+  not play Bruno for comedy; he is the roster's sincere anchor against Lorelei's
+  silliness (tonal control).
+- BRAWLY (06) is a Hoenn character (cross-region), tag [FLAG: canon-check]. Keep it
+  a one-line grace note (he honors other paths), not a plot thread.
+- Ember Spa, Two Island, and Sevault Canyon already reference BRUNO in vanilla, so
+  reflavor those existing NPCs rather than adding new ones where possible.
+
 ## Template: new gym leader
 Copy per leader. Keep fragments optional and gated so a rushing player still
 finishes and a curious one gets the hidden layer.
