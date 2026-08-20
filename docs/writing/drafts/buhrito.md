@@ -105,12 +105,12 @@ File: `data/maps/CeruleanCity_Frlg/scripts.inc` · Battle: `TRAINER_RIVAL_CERULE
 5-beat scene. No lose-line (no_intro battle). Two functional hooks noted below.
 - **RivalIntro (pre-battle):** `Yo{Player} whats poppin? you talked to the old guy in the house next to the pokecenter? proposing a trade RALTS for Lickytung? this guy is trying to hit a lick on me Oh... I forgot this was a fight... we good though!`
 - **RivalDefeat (you win):** `Wait wait wait wait wait I misclicked.`
-- **RivalPostBattle (after you win):** `Oh yo, real quick, go find the Bill guy up north. He just shows you his rare mons for free, free dex pages, cracked. I already ran it. Watch out though, even with my goated movement I ran into some demon optionals. Aight, Peaceeee!`
+- **RivalPostBattle (after you win):** `Oh yo, real quick, go find the Bill guy up north. He just shows you his rare mons for free, absolute cinema. Watch out though, even with my goated movement I ran into some demon optionals. Aight, Peaceeee!`
   _(HOOK preserved: "go find the Bill guy up north" nudges to Route 25 / Sea Cottage;
   "demon optionals" = the Nugget Bridge / Route 24-25 optional-trainer gauntlet.)_
 - **OhRightLittlePresentAsFavor:** `Oh wait, hold up. Ngl I kinda feel bad, you're playing this thing totally blind. Here, take this, on me.`
   _(HOOK preserved: "here, take this" -> `giveitem ITEM_FAME_CHECKER` fires next.)_
-- **ExplainFameCheckerSmellYa:** `It's basically the wiki, pulls up intel on all the big-name trainers. I don't need it, I got the whole meta memorized already. You though... you need this bad. Aight, for real this time. Peaceeee!`
+- **ExplainFameCheckerSmellYa:** `It's basically the wiki, pulls up intel on all the big-name trainers. I don't need it, I got the whole meta memorized already. You a bum though... Aight, for real this time. Peaceeee!`
   _(Buhrito-ized; replaces the earlier generic coy line. Keeps the item's real
   function - intel on famous trainers - and swaps "Smell ya!" for "Peaceeee!")_
 
