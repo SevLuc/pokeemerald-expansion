@@ -384,6 +384,58 @@ Consistency notes:
   the ground up," EARTHQUAKE). The Gym Guy's canon type-tip ("like GROUND-type") is
   preserved as functional info.
 
+## Lorelei (Elite Four, Ice) - the Ice type's fiercest evangelist
+Concept: everyone "knows" ICE is a weak type. Lorelei has given her life to
+disproving that, because as a child she was drowning in the freezing sea off
+FOUR ISLAND and a wild LAPRAS rose out of the cold and carried her home. She owes
+the type her life. Her Elite Four ace is a LAPRAS (Lv 54), so the rescue quietly
+rhymes with her team and with the bald, over-hugged LAPRAS doll in her house.
+
+Engine of the comedy = the seriousness itself (silly-through-contrast): she is
+DEADLY earnest about Ice's honor and nurses petty grudges against anything that
+makes the type look weak, above all a soft no-account she only calls "VANILLA."
+She meets challengers with an "ice bucket" trial. The gags are seasoning scoped
+to her; the crusade and the rescue play STRAIGHT so the hard-but-fair fight lands.
+
+Delivery = DISTRIBUTED (Elite Four cluster at Indigo, no home town each). Lorelei
+is the easy case: FOUR ISLAND (canon FRLG Sevii) is her home, full of NPCs, plus
+her doll house and the Icefall Cave. Reveal is COY throughout: NPCs mention the
+cold sea, the thing that rose from it, the LAPRAS doll, the grudge list. NOBODY
+states "a LAPRAS saved her." The player connects it. Uses existing NPCs/objects
+only, no new art, no moved story beats.
+
+> Reference check: VANILLA and the ICE BUCKET CHALLENGE are real-world nods. Keep
+> them in our own voice, deniable, and strip-safe (see flags). Battle voice LOCKED
+> to Option A (full voice); line bank in drafts/lorelei.md.
+
+| ID | Subject | Reveal | Source NPC | Map | Gate | Order | Status | Flags |
+|---|---|---|---|---|---|---|---|---|
+| LORELEI-01 | Lorelei (crusade) | Reception NPC: "LORELEI takes ICE personally. Call the type weak near her once. …I did." | reception NPC (existing/new) | Indigo Plateau reception | reached League | 1 | drafted | - |
+| LORELEI-02 | Lorelei (history, coy) | Islander: "Island girl. The cold sea near took her as a child. Something rose out of it and carried her back. …She never forgot what." | Four Island NPC (existing) | Four Island | reached Four Island | 2 | drafted | - |
+| LORELEI-03 | Lorelei (crusade origin) | Islander: "Ever since, she'll not hear one bad word about ICE types. Owes them everything, she says. Won't say more." | Four Island NPC (existing) | Four Island | reached Four Island | 3 | drafted | - |
+| LORELEI-04 | Lorelei (the doll shrine) | Doll object (reflavor): "Shelves of stuffed ICE POKéMON. One LAPRAS doll sits above them all, old and hugged near bald." | doll object (existing) | Four Island, Lorelei's House | reached Four Island | 4 | drafted | - |
+| LORELEI-05 | Lorelei (home vs. duty) | Her vanilla "the island where I was born…" lines, logged as-is (the fierce-defender core). | Lorelei (vanilla) | Four Island, Lorelei's House | vanilla | 5 | in-game | - |
+| LORELEI-06 | Lorelei (where it happened) | In the cave: "Cold, isn't it? This is where it happened. A child, the ice, the water. …She came back." | Icefall Cave NPC (existing/new) | Four Island, Icefall Cave | reached Four Island | 6 | drafted | - |
+| LORELEI-07 | Lorelei (fierce defender) | Islander (after Rocket beat): "She left the LEAGUE the moment we were threatened. Came home cold and furious. We were glad of it." | Four Island NPC (existing) | Four Island | FLAG_DEFEATED_ROCKETS_IN_WAREHOUSE | 7 | drafted | - |
+| LORELEI-08 | Lorelei (the grudge, coy) | Islander: "She keeps a list. Every ICE type folks call weak, she'll prove wrong. Top of it? Some soft no-account she just calls VANILLA." | Four Island NPC (existing) | Four Island | reached Four Island | 8 | drafted | [FLAG: dated] [FLAG: release-swap] |
+| LORELEI-09 | Lorelei (post-defeat) | Reception callback: "Beat LORELEI? She'll not sleep a month. She'll say ICE can always get stronger. …She's not wrong." | reception NPC (existing/new) | Indigo Plateau reception | FLAG_DEFEATED_LORELEI | 9 | drafted | - |
+| LORELEI-10 | Lorelei (battle voice) | Intro (crusade + ICE BUCKET CHALLENGE + VANILLA jab); defeat kept vanilla; post-battle "you beat ME, not ICE." Option A. | Lorelei | Indigo Plateau, Lorelei's Room | at the battle | 10 | drafted | [FLAG: dated] [FLAG: release-swap] |
+
+Consistency notes:
+- The LAPRAS rescue is NEVER stated by Lorelei or spelled out by any NPC. Fragments
+  say "something rose out of the cold" / show the enshrined LAPRAS doll; the player
+  ties it to her Lv 54 LAPRAS ace. Keep it coy in every source.
+- Her battle lines carry the crusade AND the gags, but the LOSS stays straight
+  (defeat line unchanged; post-battle is fierce, not comic) so the fight lands.
+- VANILLA and the ICE BUCKET CHALLENGE are the only flagged lines. Both are
+  strip-safe: VANILLA reads in-world as bland/weak ice; the bucket line generalizes
+  to plain ice water. A release pass can genericize them without touching the arc.
+- CONTRAST (quiet rhyme with SABRINA): Lorelei's dolls are a WARM honor-guard for a
+  disrespected type; Sabrina's dolls are COLD puppets. Same prop, opposite meaning.
+  Never drawn attention to in-game; just kept consistent.
+- Four Island / Icefall Cave / the Rocket warehouse are all canon FRLG (Sevii ships
+  with FireRed), so the home arc is Kanto-authentic, not an invented region.
+
 ## Template: new gym leader
 Copy per leader. Keep fragments optional and gated so a rushing player still
 finishes and a curious one gets the hidden layer.
