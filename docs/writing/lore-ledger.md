@@ -492,59 +492,63 @@ Consistency notes:
 - Ember Spa, Two Island, and Sevault Canyon already reference BRUNO in vanilla, so
   reflavor those existing NPCs rather than adding new ones where possible.
 
-## Agatha (Elite Four, Ghost) - the venom is grief
-Concept: decades ago Agatha and a young OAK were the two fiercest trainers in
-Kanto, vying for supremacy. Then OAK laid down his team to build the POKéDEX and
-became a scholar. Agatha never forgave it: to her he surrendered, went soft, "a
-shadow of his former self." She has spent a lifetime in the arena he abandoned,
-daring age to make her quit too, until she became the oldest ELITE FOUR member who
-ever lived. Her GHOST POKéMON and acid tongue are the armor of a woman who stayed
-in the fight alone. The venom hides warmth: she calls every challenger "child,"
-tells them to live long, and the fury the instant OAK's name comes up is not really
-contempt.
+## Agatha (Elite Four, Ghost) - study vs. battle (the old lady on your side)
+Concept (SPINE = the schism with OAK): decades ago Agatha and a young OAK were the
+two fiercest trainers in Kanto. Then OAK laid down his team to catalogue POKéMON in
+a book. To Agatha that was surrender: you do not prove a POKéMON's worth by writing
+it down, you prove it in battle. Her vanilla intro IS this thesis, verbatim: "He's
+wrong. POKéMON are for battling!" She stayed in the arena OAK left and kept winning
+until she became the oldest ELITE FOUR member who ever lived, as if daring age to
+make her quit the way he did.
 
-Emotional read LOCKED: COY, rivals-or-more, NEVER ANSWERED. "Tough AND handsome,"
-an unlabeled photo of two young trainers standing close, OAK going quiet at her
-name. Old rivals or old flames, the player decides; the grudge reads as grief
-either way. NEVER confirm romance. The rivalry itself is canon-stated (her intro),
-so the HIDDEN layer is WHY the grudge still burns, that it is grief, and what they
-once were.
+THE WARMTH IS MOTIVATED. Agatha has no patience for POKéDEX-fillers and
+catch-everything busywork. But a trainer who fights to prove herself, who chases
+strength instead of pages, is exactly what OAK stopped being. When the player turns
+out to be that trainer, Agatha lights up, calls you "child," tells you to live long,
+and means it: a kindred spirit, maybe the successor OAK never made. She is the
+sweet-old-lady-with-bite who is quietly, wholly on the battler's side.
 
-Voice = the SARDONIC one: acid tongue, terrifying temper, hidden soft spot, insults
-you because she likes you. Third distinct roster voice (Lorelei goofy-obsessive,
-Bruno serene, Agatha venomous-with-warmth). She is the MAINLAND-rooted E4 member
+COY UNDERLAYER (kept, demoted from the spine): whether she and OAK were ever more
+than rivals. NEVER answered, a photo of two young trainers, OAK going quiet at her
+name, "we were young." The grief is real but hidden now; the study-vs-battle rift is
+the surface the player actually reads. She is the MAINLAND-rooted E4 member
 (Lavender Ghost lore + Pallet/OAK), a geographic contrast to Lorelei (Four Island)
 and Bruno (the Sevii circuit).
 
-> Battle voice LOCKED: KEEP VANILLA. Her canon intro (roasts OAK), defeat ("You're
-> something special, child!") and post-battle ("I see what the old duff sees in you
-> now") ARE the character, so they are unchanged. All new work is the distributed
-> history. Line bank in drafts/agatha.md.
+> Battle voice LOCKED: KEEP VANILLA. Her canon intro states the axis thesis verbatim
+> ("He's wrong. POKéMON are for battling!"); her defeat ("You're something special,
+> child!") and post-battle ("I see what the old duff sees in you now") are her warmth
+> recognizing a fellow battler. All unchanged; new work is the distributed history.
+> Line bank in drafts/agatha.md.
 
 | ID | Subject | Reveal | Source NPC | Map | Gate | Order | Status | Flags |
 |---|---|---|---|---|---|---|---|---|
 | AGATHA-01 | Agatha (the terror) | Indigo PC (reflavor): her GHOST types are terror, and "that old lady's got a short fuse. …Bless her." | trainer NPC (existing, reflavor) | Indigo Plateau PC | reached League | 1 | drafted | - |
-| AGATHA-02 | Agatha (longevity/warmth) | Six Island Mart (reflavor): oldest-ever E4 member. "Play with POKéMON, live long, she says. …Then she'll end you." | Mart NPC (existing, reflavor) | Six Island Mart | reached Six Island | 2 | drafted | - |
+| AGATHA-02 | Agatha (the philosophy) | Six Island Mart (reflavor): oldest-ever E4 member. "Fill a book with POKéMON? She'd sooner fill a graveyard. Battle, prove it, live long. …Then she'll end you." | Mart NPC (existing, reflavor) | Six Island Mart | reached Six Island | 2 | drafted | - |
 | AGATHA-03 | Agatha (history, coy) | Lavender old-timer: young Agatha trained among the Tower's spirits, "back when someone she knew chose books over battle." | Lavender NPC (existing/new) | Lavender Town | after Pokémon Tower | 3 | drafted | - |
 | AGATHA-04 | Agatha (the grief, coy) | Oak's aide: "The PROFESSOR goes quiet when her name comes up. …I've learned not to ask." | Oak's Lab aide (existing) | Pallet, Oak's Lab | after ~5th badge | 4 | drafted | - |
-| AGATHA-05 | Agatha (the photo, coy) | Old photo at the Lab: two young trainers, fierce, standing close. No names written. | photo object (existing/new) | Pallet, Oak's Lab | after ~5th badge | 5 | drafted | - |
+| AGATHA-05 | Agatha (the photo, coy) | Old photo at the Lab: two young trainers squaring off, grinning like they meant it. No names written. | photo object (existing/new) | Pallet, Oak's Lab | after ~5th badge | 5 | drafted | - |
 | AGATHA-06 | Agatha (why she stays) | Islander: "She could have retired a legend. She stays in the ring. Like she's proving something to somebody." | Six Island NPC (existing/new) | Six Island | reached Six Island | 6 | drafted | - |
-| AGATHA-07 | Agatha (the room) | Reception NPC: "The third room's the cruel one. She'll insult you the whole way down. …It means she likes you." | reception NPC (existing/new) | Indigo Plateau reception | reached League | 7 | drafted | - |
+| AGATHA-07 | Agatha (who she respects) | Reception NPC: "She's got no time for POKéDEX-fillers. But a trainer who battles to prove herself? …That one she'll respect to the grave." | reception NPC (existing/new) | Indigo Plateau reception | reached League | 7 | drafted | - |
 | AGATHA-08 | Agatha + Oak (capstone) | OAK, coy: "AGATHA? …We were young. She never forgave me for putting my POKéBALLS down. …Perhaps she was right." | Prof. Oak | Pallet, Oak's Lab | post-E4 | 8 | drafted | [FLAG: canon-check] |
 | AGATHA-09 | Agatha (battle voice) | KEPT VANILLA: roasts OAK; defeat "You're something special, child!"; post "I see what the old duff sees in you now." | Agatha | Indigo Plateau, Agatha's Room | at the battle | 9 | in-game | - |
 | AGATHA-10 | Agatha (post-defeat) | Reception callback: "She called you 'something special,' did she? From that one, that's a love letter." | reception NPC (existing/new) | Indigo Plateau reception | FLAG_DEFEATED_AGATHA | 10 | drafted | - |
 
 Consistency notes:
-- NEVER confirm romance. The rivalry is canon; the grief and the "what were they"
-  are the coy hidden layer. The unlabeled close-standing photo (05), OAK's silence
-  (04), and "we were young" (08) imply without stating. Keep it the player's to find.
-- Battle voice stays VANILLA (09): her roast + "child" + the warmth on the loss are
-  the character. Do not soften or rewrite her own lines.
-- The OAK capstone (08) is character flavor on an existing NPC, gated post-E4 so it
-  lands as a quiet capstone, NOT a new plot beat. Tag [FLAG: canon-check] (touches a
-  central character's dialogue) and keep it coy.
-- Keep her barbs sharp and her warmth buried. If the affection becomes plain, the
-  grudge-is-grief reveal stops being the player's to earn.
+- SPINE is study vs. battle: OAK catalogues, Agatha fights, and she believes worth
+  is proven in the arena, not on a page. This is the surface the player reads. Her
+  warmth toward the player is MOTIVATED: she recognizes a fellow battler (02, 06, 07,
+  10). Cross-links to OAK-07 / OAK-10 (the man who quit still admires the woman who
+  did not).
+- COY UNDERLAYER (romance) is kept but demoted: NEVER confirm it. The photo (05,
+  squaring off but grinning like they meant it), OAK's silence (04), and "we were
+  young" (08) imply without stating. It is the hidden layer, not the headline.
+- Battle voice stays VANILLA (09): her intro is the axis thesis verbatim; her "child"
+  and the warmth on the loss are recognition of a real battler. Do not rewrite.
+- The OAK capstone (08) is character flavor on an existing NPC, gated post-E4, NOT a
+  new plot beat. Tag [FLAG: canon-check] and keep it coy.
+- Keep her barbs sharp and the grief buried; her readable emotion is WARMTH toward
+  the fighter in front of her, not heartbreak.
 - Reflavor the existing Agatha-referencing NPCs (Indigo PC, Six Island Mart) rather
   than adding new ones where possible.
 
