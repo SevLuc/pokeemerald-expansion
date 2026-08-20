@@ -116,7 +116,16 @@ File: `data/maps/CeruleanCity_Frlg/scripts.inc` · Battle: `TRAINER_RIVAL_CERULE
 
 ## 3. S.S. Anne - 2F corridor
 File: `data/maps/SSAnne_2F_Corridor_Frlg/scripts.inc` · Battle: `TRAINER_RIVAL_SS_ANNE_*`
-- _GAP - RivalIntro, RivalPostBattle._
+3-beat scene, no lose-line (no_intro). Fancy cruise ship (vanilla opens "Bonjour!").
+- **RivalIntro (pre-battle):** _GAP - still to write._ (vanilla: 40-species brag + catch tip)
+- **RivalDefeat (you win):** _GAP - still to write._
+- **RivalPostBattle (after you win):** _GAP - still to write._ HOOK: nudges player to the
+  S.S. Anne Captain = HM01 CUT (required to progress); keep the "go see him" nudge.
+  CROSS-ARC: the SURGE arc reframed the Captain (dignified, tells the Vermilion
+  liberation story, awards Cut) and DROPPED the "seasick old man" gag. Do NOT call
+  him seasick. Buhrito angle that stays consistent: cleared the ship "trial," took
+  Cut as a utility unlock, SKIPPED the Captain's lore speech (he ignores story).
+- Dead string: SSAnne_2F_Corridor_Text_RivalVictory (Japanese, unreferenced). Off worklist.
 
 ## 4. Pokemon Tower 2F - Lavender
 File: `data/maps/PokemonTower_2F_Frlg/scripts.inc` · Battle: `TRAINER_RIVAL_POKEMON_TOWER_*`
