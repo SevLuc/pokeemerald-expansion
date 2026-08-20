@@ -117,12 +117,12 @@ File: `data/maps/CeruleanCity_Frlg/scripts.inc` · Battle: `TRAINER_RIVAL_CERULE
 ## 3. S.S. Anne - 2F corridor
 File: `data/maps/SSAnne_2F_Corridor_Frlg/scripts.inc` · Battle: `TRAINER_RIVAL_SS_ANNE_*`
 3-beat scene, no lose-line (no_intro). Fancy cruise ship (vanilla opens "Bonjour!").
-- **RivalIntro (pre-battle):** `Yooo whats good my guy? You got invited to this cruise too?? Anyway my dexcount is crazy rn, like 40 deep. Just farm the grass spawns bro, theyre everywhere, easy filler.`
-- **RivalDefeat (you win):** `Tch, fine, at least you actually train your guys. On paper I still won though.`
-- **RivalPostBattle (after you win):** `Oh yo, theres a CUT master on this boat, gives you CUT for free. I skipped his whole speech ngl, way too much lore. CUT's actually clutch though, opens up a ton of map, go grab it. Aight, Peaceeee!`
-  _(HOOK preserved: nudges to the Captain / HM01 CUT. SURGE-safe: acknowledges the
-  Captain has a big speech now, "skipped his whole speech, way too much lore," and
-  never calls him seasick.)_
+- **RivalIntro (pre-battle):** `Yooo whats good my guy? You got past the gauntlet too?? You are him bro! Thats some good calculations with the dome piece! .... a fight? alright betski, I accidentally edged my pokemon, now I got to use the homeless version of my team`
+- **RivalDefeat (you win):** `W fight`
+- **RivalPostBattle (after you win):** `Oh yo, theres a CUT master on this boat, gives you CUT for free. I skipped his whole speech ngl, way too much lore. Oh and hear this though, in this game you dont even need to teach cut to a mon, you just cut trees raw from the bag, no HM slave... certified QoL W! Aight go snag it, Peaceeee!`
+  _(HOOK preserved: nudges to the Captain / HM01 CUT. SURGE-safe: no seasick/old-man.
+  QoL claim is ACCURATE: OW_HMS_USABLE_WITHOUT_LEARNING TRUE in overworld.h - field
+  HMs usable from the bag with badge + HM, no party mon needs to learn them.)_
 - Dead string: SSAnne_2F_Corridor_Text_RivalVictory (Japanese, unreferenced). Off worklist.
 
 ## 4. Pokemon Tower 2F - Lavender
