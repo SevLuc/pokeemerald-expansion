@@ -119,7 +119,7 @@ File: `data/maps/SSAnne_2F_Corridor_Frlg/scripts.inc` · Battle: `TRAINER_RIVAL_
 3-beat scene, no lose-line (no_intro). Fancy cruise ship (vanilla opens "Bonjour!").
 - **RivalIntro (pre-battle):** `Yooo whats good my guy? You got past the gauntlet too?? You are him bro! Thats some good calculations with the dome piece! .... a fight? alright betski, I accidentally edged my pokemon, now I got to use the homeless version of my team`
 - **RivalDefeat (you win):** `W fight`
-- **RivalPostBattle (after you win):** `Oh yo, theres a CUT master on this boat, gives you CUT for free. I skipped his whole speech ngl, way too much lore. Oh and hear this though, in this game you dont even need to teach cut to a mon, you just cut trees raw from the bag, no HM slave... certified QoL W! Aight go snag it, Peaceeee!`
+- **RivalPostBattle (after you win):** `Oh yo, theres a CUT master on this boat, gives you CUT for free. I skipped his whole speech ngl, way too much lore. Oh and get this, you dont even teach cut here, just use it from the bag. QoL W. go snag it, Peaceeee!`
   _(HOOK preserved: nudges to the Captain / HM01 CUT. SURGE-safe: no seasick/old-man.
   QoL claim is ACCURATE: OW_HMS_USABLE_WITHOUT_LEARNING TRUE in overworld.h - field
   HMs usable from the bag with badge + HM, no party mon needs to learn them.)_
