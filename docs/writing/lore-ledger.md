@@ -609,6 +609,60 @@ Consistency notes:
   so hard the mission reads as a joke. He believes in the great work; that sincerity
   under the mania is what makes the gremlin funny rather than tiresome.
 
+## Lance (Elite Four leader, Dragon, the FINALE) - "everything is a dragon"
+Concept: Lance sorts the whole world into two kinds of POKéMON, dragons and dragons
+that don't know it yet. GYARADOS = sea dragon. AERODACTYL = ancient dragon. MAGIKARP
+= a dragon in waiting (and he is right, it becomes GYARADOS). He does not lecture you
+into it, he shows you the dragon hidden in your own team until you cannot unsee it,
+and it is oddly beautiful. Grounded in his real FRLG team: GYARADOS (Water/Flying)
+and AERODACTYL (Rock/Flying) are NOT Dragon-type, and he fields them as aces anyway.
+He is not wrong, to him.
+
+He is the FINAL wall because his belief is total: his dragons fight like they are
+truly indestructible because HE believes it, so THEY believe it. Keep that awe so
+the last fight lands even as he is a goofball. UPLIFTING, NOT KICKING DOWN (hard
+rule): his dragon-love is infectious and wholesome, every NPC comes away converted
+and charmed. Comedy is his boundless conviction, never his expense. No degenerate /
+pathetic angle.
+
+Fifth roster voice and the finale: Lorelei goofy-obsessive, Bruno serene, Agatha
+sardonic-warm, Oak completionist gremlin, Lance the uplifting dragon evangelist. He
+is famous region-wide (E4 leader + a canon Saffron fan club), so his gospel seeds
+through NPCs everywhere who have a Lance story or have been happily converted.
+
+> Battle voice LOCKED. INTRO is the entire box: "I like dragons." DEFEAT (D-C):
+> "…You DO like dragons, though? …Say you like dragons." POST-BATTLE is the "draggin
+> deez nuts" meme, then a nudge to the CHAMPION. The meme post-battle lands AFTER the
+> fight so it never deflates the climb. Line bank in drafts/lance.md.
+
+| ID | Subject | Reveal | Source NPC | Map | Gate | Order | Status | Flags |
+|---|---|---|---|---|---|---|---|---|
+| LANCE-01 | Lance (the gospel) | Reception: "The fourth room is LANCE, the dragon master. He'll tell you your POKéMON is a dragon. All of them. …Just nod. He's usually right, somehow." | reception NPC (existing/new) | Indigo Plateau reception | reached League | 1 | drafted | - |
+| LANCE-02 | Lance (the convert) | Saffron fan (reflavor canon): "LANCE showed me my GYARADOS is a SEA DRAGON. Now I can't UNSEE it! He's the greatest, LANCE!" | Saffron fan (existing, reflavor) | Saffron City | after Saffron | 2 | drafted | - |
+| LANCE-03 | Lance (dragon in waiting) | Fisher: "LANCE called my MAGIKARP 'a dragon in waiting.' …It's a GYARADOS now. The man SEES it." | Fisher (existing/new) | Route / Cerulean | none | 3 | drafted | - |
+| LANCE-04 | Lance (the taxonomy) | Trainer: "To LANCE there are two kinds of POKéMON. Dragons, and dragons that don't know it yet. …I'm starting to think he's onto something." | trainer NPC (existing/new) | any town | reached League | 4 | drafted | - |
+| LANCE-05 | Lance (ancient dragon) | Fossil NPC: "Told LANCE his AERODACTYL is a ROCK type. He just smiled. 'An ANCIENT dragon,' he said. …You can't argue that smile." | Cinnabar / Fossil NPC (existing/new) | Cinnabar / Fossil | none | 5 | drafted | - |
+| LANCE-06 | Lance + Oak (cross-link) | Oak's aide: "PROF. OAK showed him the type charts for an hour. LANCE nodded. Said, 'So… a dragon.' OAK had to go lie down." | Oak's Lab aide (existing) | Pallet, Oak's Lab | mid-game | 6 | drafted | [FLAG: canon-check] |
+| LANCE-07 | Lance (bloodline) | NPC (reflavor canon cousin): "It runs in the blood. A cousin of his leads a gym far away. Same gift, sees the dragon in everything. …Holidays there sound exhausting." | Indigo NPC (existing, reflavor) | Indigo Plateau / town | reached League | 7 | drafted | [FLAG: canon-check] |
+| LANCE-08 | Lance (the belief / awe) | Reception: "His dragons fight like they can't be hurt. Because HE believes it. So THEY believe it. …That's the wall you're climbing." | reception NPC (existing/new) | Indigo Plateau reception | reached League | 8 | drafted | - |
+| LANCE-09 | Lance (battle voice) | INTRO "I like dragons." / DEFEAT (D-C) "…You DO like dragons, though? …Say you like dragons." / POST "…DRAGGIN DEEZ NUTS!! …Go on. The CHAMPION waits." | Lance | Indigo Plateau, Lance's Room | at the battle | 9 | drafted | [FLAG: dated] |
+| LANCE-10 | Lance (post-defeat) | Reception callback: "You beat LANCE? Did he tell you that you battle like a young dragon? …From him, that is everything." | reception NPC (existing/new) | Indigo Plateau reception | FLAG_DEFEATED_LANCE | 10 | drafted | - |
+
+Consistency notes:
+- UPLIFTING, NOT KICKING DOWN is the hard rule. Every fragment shows an NPC
+  converted or charmed. Never pathetic, never mocking. His conviction is the joke.
+- Keep the FINALE AWE (08): his belief is why his dragons are the wall. The comedy
+  (the "draggin deez nuts" post-battle) lands AFTER the fight so it never deflates
+  the climb. His intro is a single deadpan line against the whole grand build-up.
+- The POST-BATTLE meme is tagged [FLAG: dated]; a release pass can swap it. The
+  intro ("I like dragons") and the gospel carry no meme risk.
+- CROSS-LINK to Oak: LANCE-06 is the OAK-vs-LANCE beat (catalogue everything vs.
+  reject the taxonomy for love). Mirrors the Oak arc; tag canon-check. See OAK-*.
+- The cousin (07) is Clair of Blackthorn (Johto), kept coy and un-named
+  (cross-region); tag canon-check.
+- Reflavor the existing canon references (Saffron LANCE superfan, the Indigo cousin
+  line) rather than adding new NPCs where possible.
+
 ## Template: new gym leader
 Copy per leader. Keep fragments optional and gated so a rushing player still
 finishes and a curious one gets the hidden layer.
