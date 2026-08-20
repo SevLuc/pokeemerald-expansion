@@ -30,11 +30,15 @@ truth until they're updated):
   "waiting to be catalogued"), OAK-04 (Route 2 aide, the un-named nuzlocke gag,
   kept the YES/NO reward flow intact). Instructional lines (how to catch, Pokedex
   explanation) left functional on purpose.
+- Stage 2b - Fame Checker bios (data/text/fame_checker_frlg.inc) matched to the
+  reflavored voices: Oak (dream), the shared Oak/Agatha rivalry bio (study-vs-battle),
+  Bruno (spa/candybar/Brawly), Agatha (short fuse/oldest-ever), Lorelei (crusade),
+  Lance (self-intro "I like dragons" / everything-is-a-dragon / sea-dragon convert /
+  cousin). Lorelei's origin bios (Four Island, the LAPRAS met as a child in ICEFALL
+  CAVE, the dolls) were already on-message and kept.
 REMAINING:
 - Oak: the other route aides (Route 10 / 11 etc.) stay vanilla-functional so the
   nuzlocke gag isn't repeated; the starter-choice scene stays mostly instructional.
-- Fame Checker bios (data/text/fame_checker_frlg.inc) mirror several of the reflavored
-  NPC lines and will diverge until reflavored to match (Stage 2b).
 - Stage 3 (needs Porymap objects): every fragment whose Source is "new" (the Pallet
   photo, new Four Island / Icefall / reception islanders, etc.).
 

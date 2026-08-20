@@ -4,9 +4,10 @@ gFameCheckerFlavorText_ProfOak0:: @ 0x81AD106
 
 gFameCheckerFlavorText_ProfOak1:: @ 0x81AD145
 	.string "{COLOR BLUE}{SHADOW LIGHT_BLUE}What is this person like?\p"
-	.string "{FONT_MALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}To make a complete guide on all\n"
-	.string "the POKéMON in the world…\p"
-	.string "That was my dream!$"
+	.string "{FONT_MALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}A complete guide to every POKéMON\n"
+	.string "in the world. Every last one.\p"
+	.string "That was my dream. …No gaps.\n"
+	.string "I cannot abide the gaps.$"
 
 gFameCheckerFlavorText_ProfOak2:: @ 0x81AD1BB
 	.string "{COLOR BLUE}{SHADOW LIGHT_BLUE}What is this person like?\p"
@@ -22,12 +23,11 @@ gFameCheckerFlavorText_ProfOak3:: @ 0x81AD258
 
 gFameCheckerFlavorText_ProfOak4:: @ 0x81AD2B9
 	.string "{COLOR BLUE}{SHADOW LIGHT_BLUE}Family and friends?\p"
-	.string "{FONT_FEMALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}I hear OAK's taken a lot of\n"
-	.string "interest in you, child.\p"
-	.string "That old duff was once tough and\n"
-	.string "handsome.\p"
-	.string "But that was decades ago.\n"
-	.string "He's a shadow of his former self.$"
+	.string "{FONT_FEMALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}I hear OAK fusses over you, child.\p"
+	.string "I knew him when he was tough.\n"
+	.string "When he was DANGEROUS.\p"
+	.string "Now he presses POKéMON into a book.\n"
+	.string "…He chose that. I did not.$"
 
 gFameCheckerFlavorText_ProfOak5:: @ 0x81AD377
 	.string "{COLOR BLUE}{SHADOW LIGHT_BLUE}What does this person do?\p"
@@ -345,8 +345,9 @@ gFameCheckerFlavorText_Lorelei0:: @ 0x81AEBDF
 
 gFameCheckerFlavorText_Lorelei1:: @ 0x81AEC28
 	.string "{COLOR BLUE}{SHADOW LIGHT_BLUE}Favorite kind of POKéMON?\p"
-	.string "{FONT_FEMALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}No one can best me when it comes\n"
-	.string "to icy POKéMON.$"
+	.string "{FONT_FEMALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}They call ICE the weakest type.\p"
+	.string "I have given my life to proving\n"
+	.string "them wrong.$"
 
 gFameCheckerFlavorText_Lorelei2:: @ 0x81AEC82
 	.string "{COLOR BLUE}{SHADOW LIGHT_BLUE}Where was this person born?\p"
@@ -394,24 +395,24 @@ gFameCheckerFlavorText_Bruno2:: @ 0x81AEFC6
 
 gFameCheckerFlavorText_Bruno3:: @ 0x81AF04C
 	.string "{COLOR BLUE}{SHADOW LIGHT_BLUE}What is this person like?\p"
-	.string "{FONT_MALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}BRUNO, who's a senior ahead of me,\n"
-	.string "visits the SPA on occasion.\p"
-	.string "He comes to rehab injuries, both\n"
-	.string "his own and his POKéMON's.$"
+	.string "{FONT_MALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}BRUNO's my senior. He comes to the\n"
+	.string "SPA to mend what training breaks.\p"
+	.string "He tends his POKéMON's hurts\n"
+	.string "before his own. Every time.$"
 
 gFameCheckerFlavorText_Bruno4:: @ 0x81AF0F0
 	.string "{COLOR BLUE}{SHADOW LIGHT_BLUE}There's a rumor…\p"
-	.string "{FONT_FEMALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}He's one of the ELITE FOUR.\n"
-	.string "His name is BRUNO.\p"
-	.string "He went away disappointed when he\n"
-	.string "found out that they were all sold\l"
-	.string "out of Rage Candybars.$"
+	.string "{FONT_FEMALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}One of the ELITE FOUR came all\n"
+	.string "this way for a RAGE CANDYBAR.\p"
+	.string "Sold out. He just smiled, thanked\n"
+	.string "us, and left. Not a flicker.$"
 
 gFameCheckerFlavorText_Bruno5:: @ 0x81AF19A
 	.string "{COLOR BLUE}{SHADOW LIGHT_BLUE}Family and friends?\p"
-	.string "{FONT_MALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}Even BRUNO…\n"
-	.string "He trained with a fellow by the\l"
-	.string "name of BRAWLY before.$"
+	.string "{FONT_MALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}Folk think BRUNO trains alone by\n"
+	.string "creed.\p"
+	.string "But he'll tell you every path has\n"
+	.string "worth. He walked one with BRAWLY.$"
 
 gFameCheckerFlavorText_Agatha0:: @ 0x81AF200
 	.string "{COLOR BLUE}{SHADOW LIGHT_BLUE}What does this person do?\p"
@@ -424,10 +425,9 @@ gFameCheckerFlavorText_Agatha1:: @ 0x81AF248
 
 gFameCheckerFlavorText_Agatha2:: @ 0x81AF2B7
 	.string "{COLOR BLUE}{SHADOW LIGHT_BLUE}What is this person like?\p"
-	.string "{FONT_MALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}That old lady's also got a really\n"
-	.string "short fuse, too.\p"
-	.string "It doesn't take anything to get\n"
-	.string "that scary lady hollering.$"
+	.string "{FONT_MALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}That old lady's got a short fuse.\p"
+	.string "But beat her fair and she'll call\n"
+	.string "you 'child' and mean it kindly.$"
 
 gFameCheckerFlavorText_Agatha3:: @ 0x81AF34E
 	.string "{COLOR BLUE}{SHADOW LIGHT_BLUE}There's a rumor…\p"
@@ -437,38 +437,38 @@ gFameCheckerFlavorText_Agatha3:: @ 0x81AF34E
 
 gFameCheckerFlavorText_Agatha4:: @ 0x81AF3BE
 	.string "{COLOR BLUE}{SHADOW LIGHT_BLUE}Family and friends?\p"
-	.string "{FONT_FEMALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}I hear OAK's taken a lot of\n"
-	.string "interest in you, child.\p"
-	.string "That old duff was once tough and\n"
-	.string "handsome.\p"
-	.string "But that was decades ago.\n"
-	.string "He's a shadow of his former self.$"
+	.string "{FONT_FEMALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}I hear OAK fusses over you, child.\p"
+	.string "I knew him when he was tough.\n"
+	.string "When he was DANGEROUS.\p"
+	.string "Now he presses POKéMON into a book.\n"
+	.string "…He chose that. I did not.$"
 
 gFameCheckerFlavorText_Agatha5:: @ 0x81AF47C
 	.string "{COLOR BLUE}{SHADOW LIGHT_BLUE}What is this person like?\p"
-	.string "{FONT_FEMALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}Take AGATHA, for example.\p"
-	.string "She set a record for being the\n"
-	.string "oldest-ever ELITE FOUR member.$"
+	.string "{FONT_FEMALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}AGATHA set the record as the\n"
+	.string "oldest-ever ELITE FOUR member.\p"
+	.string "Fill a book with POKéMON? She'd\n"
+	.string "sooner fill a battlefield.$"
 
 gFameCheckerFlavorText_Lance0:: @ 0x81AF4FD
 	.string "{COLOR BLUE}{SHADOW LIGHT_BLUE}What does this person do?\p"
 	.string "{FONT_MALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}I lead the ELITE FOUR.\p"
-	.string "You can call me LANCE the dragon\n"
-	.string "TRAINER.$"
+	.string "You can call me LANCE.\p"
+	.string "…I like dragons.$"
 
 gFameCheckerFlavorText_Lance1:: @ 0x81AF567
 	.string "{COLOR BLUE}{SHADOW LIGHT_BLUE}Favorite kind of POKéMON?\p"
-	.string "{FONT_MALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}You know that dragons are\n"
-	.string "mythical POKéMON.\p"
-	.string "They're hard to catch and raise,\n"
-	.string "but their powers are superior.\p"
-	.string "They're virtually indestructible.\n"
-	.string "There's no being clever with them.$"
+	.string "{FONT_MALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}Everything is a dragon, if you\n"
+	.string "look closely enough.\p"
+	.string "GYARADOS? A sea dragon.\n"
+	.string "AERODACTYL? An ancient dragon.\p"
+	.string "…You'll see it too. In time.$"
 
 gFameCheckerFlavorText_Lance2:: @ 0x81AF641
 	.string "{COLOR BLUE}{SHADOW LIGHT_BLUE}What is this person like?\p"
-	.string "{FONT_FEMALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}He stands for justice!\n"
-	.string "He's cool, and yet passionate!\l"
+	.string "{FONT_FEMALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}LANCE showed me my GYARADOS is\n"
+	.string "a SEA DRAGON.\p"
+	.string "Now I can't UNSEE it!\n"
 	.string "He's the greatest, LANCE!$"
 
 gFameCheckerFlavorText_Lance3:: @ 0x81AF6BA
@@ -487,9 +487,10 @@ gFameCheckerFlavorText_Lance4:: @ 0x81AF758
 
 gFameCheckerFlavorText_Lance5:: @ 0x81AF7CB
 	.string "{COLOR BLUE}{SHADOW LIGHT_BLUE}Family and friends?\p"
-	.string "{FONT_MALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}From what I've heard, LANCE has\n"
-	.string "a cousin who's a GYM LEADER\l"
-	.string "somewhere far away.$"
+	.string "{FONT_MALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}LANCE has a cousin who leads a\n"
+	.string "GYM far away. Same gift.\p"
+	.string "Sees the dragon in everything.\n"
+	.string "…It runs in the blood.$"
 
 gFameCheckerFlavorText_Bill0:: @ 0x81AF83E
 	.string "{COLOR BLUE}{SHADOW LIGHT_BLUE}What does this person do?\p"
