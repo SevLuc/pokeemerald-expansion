@@ -36,6 +36,11 @@ truth until they're updated):
   Lance (self-intro "I like dragons" / everything-is-a-dragon / sea-dragon convert /
   cousin). Lorelei's origin bios (Four Island, the LAPRAS met as a child in ICEFALL
   CAVE, the dolls) were already on-message and kept.
+- Stage 2b (gyms) - Fame Checker bios reflavored for all seven GYM LEADERS too
+  (Brock, Misty, Lt. Surge, Erika, Koga, Sabrina, Blaine), matching their existing
+  in-game arcs; Giovanni's was already reflavored. Their world-NPC/gym scripts were
+  already in-game from earlier work (verified). Coy level preserved (Brock never
+  states divorce; Erika stays contradictory; Blaine's MEWTWO stays implied).
 REMAINING:
 - Oak: the other route aides (Route 10 / 11 etc.) stay vanilla-functional so the
   nuzlocke gag isn't repeated; the starter-choice scene stays mostly instructional.
