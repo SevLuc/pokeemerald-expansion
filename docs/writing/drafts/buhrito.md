@@ -28,7 +28,7 @@ Battle: `TRAINER_RIVAL_OAKS_LAB_{BULBASAUR,CHARMANDER,SQUIRTLE}`
 - **RivalMyMonLooksTougher:** `Lets go bro! lets fight`
 - **RivalLetsCheckOutMons (battle challenge):** `Wait, {PLAYER}! We are about to ball! Let's gooo!`
 - **RivalDefeat (you WIN the tutorial battle):** `They didnt get rid of the tutorial bro!? I know how fighting works, I am not that rusty`
-- **RivalVictory (you LOSE the tutorial battle):** _GAP - his gloat if the player loses the first battle. Optional edge case; vanilla uses a shared Text_RivalVictory._
+- **RivalVictory (you LOSE the tutorial battle):** `They didnt get rid of the tutorial bro!? I know how fighting works, I am not that rusty` _(same line as RivalDefeat - the tutorial joke lands win or lose)_
 - **RivalGoToughenMyMon (he leaves):** `alright bet {Player}, time to lockity splockity blobbity`
 
 > That is the COMPLETE set of rival beats before Route 1. After this he leaves;
