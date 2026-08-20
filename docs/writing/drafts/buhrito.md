@@ -108,12 +108,11 @@ File: `data/maps/CeruleanCity_Frlg/scripts.inc` · Battle: `TRAINER_RIVAL_CERULE
 - **RivalPostBattle (after you win):** `Oh yo, real quick, go find the Bill guy up north. He just shows you his rare mons for free, free dex pages, cracked. I already ran it. Watch out though, even with my goated movement I ran into some demon optionals. Aight, Peaceeee!`
   _(HOOK preserved: "go find the Bill guy up north" nudges to Route 25 / Sea Cottage;
   "demon optionals" = the Nugget Bridge / Route 24-25 optional-trainer gauntlet.)_
-- **OhRightLittlePresentAsFavor:** _GAP - still to write._ HOOK: `giveitem ITEM_FAME_CHECKER`
-  fires right after this line; keep the "here, take this" gift framing.
-- **ExplainFameCheckerSmellYa:** ALREADY REFLAVORED (generic coy, pre-split):
-  `A chatty gossip like you… That thing's perfect. I don't need it because I don't
-  give a hoot about others. All right, this time I really am gone. Smell ya!`
-  DECISION PENDING: rewrite in Buhrito voice to match beat 4, or keep this coy line.
+- **OhRightLittlePresentAsFavor:** `Oh wait, hold up. Ngl I kinda feel bad, you're playing this thing totally blind. Here, take this, on me.`
+  _(HOOK preserved: "here, take this" -> `giveitem ITEM_FAME_CHECKER` fires next.)_
+- **ExplainFameCheckerSmellYa:** `It's basically the wiki, pulls up intel on all the big-name trainers. I don't need it, I got the whole meta memorized already. You though... you need this bad. Aight, for real this time. Peaceeee!`
+  _(Buhrito-ized; replaces the earlier generic coy line. Keeps the item's real
+  function - intel on famous trainers - and swaps "Smell ya!" for "Peaceeee!")_
 
 ## 3. S.S. Anne - 2F corridor
 File: `data/maps/SSAnne_2F_Corridor_Frlg/scripts.inc` · Battle: `TRAINER_RIVAL_SS_ANNE_*`
