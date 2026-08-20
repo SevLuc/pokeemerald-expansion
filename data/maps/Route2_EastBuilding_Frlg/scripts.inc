@@ -39,14 +39,14 @@ Route2_EastBuilding_EventScript_Rocker::
 	end
 
 Route2_EastBuilding_Text_GiveHM05IfSeen10Mons::
-	.string "Hi! Remember me?\n"
-	.string "I'm one of PROF. OAK's AIDES.\p"
-	.string "If your POKéDEX has complete data\n"
-	.string "on ten species, I'm supposed to\l"
-	.string "give you a reward.\p"
-	.string "PROF. OAK entrusted me with\n"
-	.string "HM05 for you.\p"
-	.string "So, {PLAYER}, let me ask you.\p"
+	.string "One of PROF. OAK's AIDES, at your\n"
+	.string "service. …He calls. Hourly.\p"
+	.string "He heard a rumor that spooked him.\p"
+	.string "Some trainers keep but ONE POKéMON\n"
+	.string "per route. Retire it if it falls.\p"
+	.string "He went pale. 'Not {PLAYER},' he said.\p"
+	.string "So! Ten species logged yet?\n"
+	.string "There's an HM05 in it for you.\p"
 	.string "Have you gathered data on at least\n"
 	.string "ten kinds of POKéMON?$"
 

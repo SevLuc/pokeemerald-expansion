@@ -32,10 +32,13 @@ SixIsland_Mart_EventScript_Picnicker::
 SixIsland_Mart_Text_AgathaOldestEverEliteFourMember::
 	.string "Play with POKéMON lots and live\n"
 	.string "a long life!\p"
-	.string "Take AGATHA, for example.\p"
-	.string "She set a record for being the\n"
-	.string "oldest-ever ELITE FOUR member.\p"
-	.string "She spurs me to do bigger things.$"
+	.string "Take AGATHA.\p"
+	.string "Oldest ELITE FOUR member there\n"
+	.string "ever was.\p"
+	.string "Fill a book with POKéMON? She'd\n"
+	.string "sooner fill a battlefield.\p"
+	.string "Prove it in the ring, she says.\n"
+	.string "…Then she'll end you. Ha!$"
 
 SixIsland_Mart_Text_ShouldBuyMailAndWriteLetter::
 	.string "I should buy some MAIL and write\n"
