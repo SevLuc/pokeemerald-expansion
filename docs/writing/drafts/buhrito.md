@@ -127,7 +127,12 @@ File: `data/maps/SSAnne_2F_Corridor_Frlg/scripts.inc` · Battle: `TRAINER_RIVAL_
 
 ## 4. Pokemon Tower 2F - Lavender
 File: `data/maps/PokemonTower_2F_Frlg/scripts.inc` · Battle: `TRAINER_RIVAL_POKEMON_TOWER_*`
-- _GAP - RivalIntro, RivalPostBattle._
+3-beat scene, no lose-line (no_intro). Spooky graveyard tower; vanilla opens with the
+blunt "Is your POKeMON dead?" dark-humor line. No plot hook (pure fight).
+- **RivalIntro (pre-battle):** _GAP - still to write._ (vanilla: "is your POKeMON dead?" + challenge)
+- **RivalDefeat (you win):** _GAP - still to write._
+- **RivalPostBattle (after you win):** _GAP - still to write._ (vanilla: CUBONE/MAROWAK
+  dex-hunt + "unlike you" superiority; flavor, tied to the Tower's Marowak ghost.)
 
 ## 5. Silph Co. 7F - Saffron
 File: `data/maps/SilphCo_7F_Frlg/scripts.inc` · Battle: `TRAINER_RIVAL_SILPH_*`
