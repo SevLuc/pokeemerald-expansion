@@ -1639,12 +1639,13 @@ PalletTown_ProfessorOaksLab_Text_PlayersPokedexWasUpgraded::
 
 PalletTown_ProfessorOaksLab_Text_OakMustReallyWorkToFillPokedex::
 	.string "Now, {PLAYER} and {RIVAL}!\p"
-	.string "This time, you really must work\n"
-	.string "towards filling your POKéDEXES.\p"
-	.string "I urge you to make them the best\n"
-	.string "and the most complete of all time!\p"
-	.string "Truly, this is a monumentally great\n"
-	.string "undertaking in POKéMON history!$"
+	.string "Fill those POKéDEXES. Every\n"
+	.string "species. Every last one.\p"
+	.string "Leave NO gaps. NO blank pages!\p"
+	.string "Do you know what an empty entry\n"
+	.string "does to me at night? …Never mind.\p"
+	.string "You'll catch them all. I can feel\n"
+	.string "it! The great work! Off you go!$"
 
 PalletTown_ProfessorOaksLab_Text_RivalIllCompleteThePokedex::
 	.string "{RIVAL}: Gramps, calm down.\n"

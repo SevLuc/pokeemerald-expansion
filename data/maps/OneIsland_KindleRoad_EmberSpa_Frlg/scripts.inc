@@ -84,12 +84,14 @@ OneIsland_KindleRoad_EmberSpa_Text_SeeHowSmoothMySkinIs::
 
 OneIsland_KindleRoad_EmberSpa_Text_BrunoVisitsSpaOnOccasion::
 	.string "After an honest day of training,\n"
-	.string "nothing beats a relaxing soak in\l"
-	.string "the hot spring pool.\p"
-	.string "BRUNO, who's a senior ahead of me,\n"
-	.string "visits the SPA on occasion.\p"
-	.string "He comes to rehab injuries, both\n"
-	.string "his own and his POKéMON's.$"
+	.string "nothing beats a soak in the\l"
+	.string "hot spring.\p"
+	.string "BRUNO's my senior. He comes here\n"
+	.string "to mend what the training breaks.\p"
+	.string "He tends his POKéMON's hurts\n"
+	.string "before his own. Every time.\p"
+	.string "…Sat with him once. Three words\n"
+	.string "in an hour. Best hour of my life.$"
 
 OneIsland_KindleRoad_EmberSpa_Text_UsedThisToMakeEmberSpa::
 	.string "Hot springs go hand-in-hand with\n"

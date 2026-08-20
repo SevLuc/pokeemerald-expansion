@@ -272,9 +272,10 @@ SaffronCity_Text_TrainerFanClubSign::
 SaffronCity_Text_HowCanClubNotRecognizeLance::
 	.string "This FAN CLUB…\n"
 	.string "No one here has a clue!\p"
-	.string "How could they not recognize\n"
-	.string "the brilliance that is LANCE?\p"
-	.string "He stands for justice!\n"
-	.string "He's cool, and yet passionate!\l"
+	.string "LANCE showed me my GYARADOS is\n"
+	.string "a SEA DRAGON.\p"
+	.string "A SEA DRAGON! Now I can't UNSEE\n"
+	.string "it!\p"
+	.string "He sees the dragon in everything.\n"
 	.string "He's the greatest, LANCE!$"
 

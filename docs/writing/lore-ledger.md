@@ -16,6 +16,23 @@
 - Status - idea / drafted / in-game.
 - Flags - release/consistency tags from the style guide.
 
+## Placement status (Elite Four + Oak)
+IN-GAME so far (rows still say "drafted" individually; this block is the source of
+truth until they're updated):
+- Stage 1 - battle voices: LORELEI-10, BRUNO-09, AGATHA-09, LANCE-09 (all four E4
+  rooms flavored; scripts.inc in each PokemonLeague_*Room_Frlg).
+- Stage 2 - existing canon NPCs reflavored: BRUNO-01+02 (Ember Spa, folded into one
+  NPC), BRUNO-05 (Two Island), BRUNO-06 (Sevault Canyon), AGATHA-01 (Indigo PC),
+  AGATHA-02 (Six Island Mart), LANCE-02 (Saffron fan), LANCE-07 (Indigo PC cousin),
+  OAK-02 (Oak's Lab dex charge).
+REMAINING:
+- Oak: the fuller placement (Route 1 rescue, starter/lab scene, the route aides with
+  the un-named nuzlocke gag) is a larger critical-path cutscene pass, not yet done.
+- Fame Checker bios (data/text/fame_checker_frlg.inc) mirror several of the reflavored
+  NPC lines and will diverge until reflavored to match (Stage 2b).
+- Stage 3 (needs Porymap objects): every fragment whose Source is "new" (the Pallet
+  photo, new Four Island / Icefall / reception islanders, etc.).
+
 ## Brock - "the phones" gag + serial-divorcé history
 Concept: Brock's gym is cluttered with ringing phones. Surface gag: he's always
 "on a call" (the "Brock is calling" meme). The hidden layer, revealed COYLY: the
