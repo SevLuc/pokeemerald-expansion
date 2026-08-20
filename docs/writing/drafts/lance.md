@@ -35,6 +35,9 @@
    … … … … … … … … … … … …\p
    DRAGGIN DEEZ NUTS!!\p
    …Heh. Go on. The CHAMPION waits."
+  Note: the vanilla post-battle rival-Champion reveal is intentionally dropped (user
+  call). Nothing breaks: the {RIVAL}/CHAMPION battle still auto-triggers on entering
+  the next room, so the "…Go on. The CHAMPION waits." nudge is enough.
 - REMATCH INTRO (Champion rematch, replaces vanilla): keep it "I like dragons." too.
 
 ## Distributed gospel (uplifting, everything-is-a-dragon)

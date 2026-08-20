@@ -45,7 +45,9 @@ way in, dead straight on the way out, so the fight carries weight).
    CHALLENGE, trainer.\p
    If your notion of ICE is something\n
    soft and VANILLA… be corrected."
-- DEFEAT (keep vanilla Text_Defeat unchanged): "…Things shouldn't be this way!"
+- DEFEAT (flavored, replaces vanilla "…Things shouldn't be this way!"): the crusader
+  deflects the loss off the TYPE and onto herself, setting up the post-battle:
+  "…Not the ICE.\p Never the ICE.\p …That was me. Only me."
 - POST-BATTLE (replaces vanilla Text_PostBattle):
   "You are strong. I felt it.\p
    But mark this: you did not defeat\n

@@ -113,36 +113,30 @@ PokemonLeague_BrunosRoom_EventScript_BrunoLookAwayDown::
 	return
 
 PokemonLeague_BrunosRoom_Text_Intro::
-	.string "I am BRUNO of the ELITE FOUR!\p"
-	.string "Through rigorous training, people\n"
-	.string "and POKéMON can become stronger\l"
-	.string "without limit.\p"
-	.string "I've lived and trained with my\n"
-	.string "fighting POKéMON!\l"
-	.string "And that will never change!\p"
-	.string "{PLAYER}!\p"
-	.string "We will grind you down with our\n"
-	.string "superior power!\p"
-	.string "Hoo hah!{PLAY_BGM}{MUS_RG_ENCOUNTER_GYM_LEADER}$"
+	.string "Ah. You have come a long way to\n"
+	.string "reach me.\p"
+	.string "No need for nerves. Breathe.\p"
+	.string "Between us, let there be no anger.\n"
+	.string "Only strength, meeting strength.\p"
+	.string "Show me all that you carry.\n"
+	.string "I will do the same.{PLAY_BGM}{MUS_RG_ENCOUNTER_GYM_LEADER}$"
 
 PokemonLeague_BrunosRoom_Text_RematchIntro::
-	.string "I am BRUNO of the ELITE FOUR!\p"
-	.string "Through rigorous training, people\n"
-	.string "and POKéMON can become stronger\l"
-	.string "without limit.\p"
-	.string "I've lived and trained with my\n"
-	.string "fighting POKéMON!\l"
-	.string "And that will never change!\p"
-	.string "{PLAYER}!\p"
-	.string "We will grind you down with our\n"
-	.string "superior power!\p"
-	.string "Hoo hah!{PLAY_BGM}{MUS_RG_ENCOUNTER_GYM_LEADER}$"
+	.string "Ah. You return.\p"
+	.string "Good. Breathe.\p"
+	.string "Between us, no anger.\n"
+	.string "Only strength, meeting strength.\p"
+	.string "Show me all that you carry.{PLAY_BGM}{MUS_RG_ENCOUNTER_GYM_LEADER}$"
 
 PokemonLeague_BrunosRoom_Text_Defeat::
-	.string "Why?\n"
-	.string "How could I lose?$"
+	.string "…Ahh.\p"
+	.string "So this is the strength I came\n"
+	.string "looking for.\p"
+	.string "Thank you.$"
 
 PokemonLeague_BrunosRoom_Text_PostBattle::
-	.string "My job is done.\n"
-	.string "Go face your next challenge.$"
+	.string "Carry that calm forward.\p"
+	.string "The next room will test more than\n"
+	.string "your POKéMON.\p"
+	.string "Meet it as you met me.$"
 

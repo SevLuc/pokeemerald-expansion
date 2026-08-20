@@ -419,7 +419,7 @@ only, no new art, no moved story beats.
 | LORELEI-07 | Lorelei (fierce defender) | Islander (after Rocket beat): "She left the LEAGUE the moment we were threatened. Came home cold and furious. We were glad of it." | Four Island NPC (existing) | Four Island | FLAG_DEFEATED_ROCKETS_IN_WAREHOUSE | 7 | drafted | - |
 | LORELEI-08 | Lorelei (the grudge, coy) | Islander: "She keeps a list. Every ICE type folks call weak, she'll prove wrong. Top of it? Some soft no-account she just calls VANILLA." | Four Island NPC (existing) | Four Island | reached Four Island | 8 | drafted | [FLAG: dated] [FLAG: release-swap] |
 | LORELEI-09 | Lorelei (post-defeat) | Reception callback: "Beat LORELEI? She'll not sleep a month. She'll say ICE can always get stronger. …She's not wrong." | reception NPC (existing/new) | Indigo Plateau reception | FLAG_DEFEATED_LORELEI | 9 | drafted | - |
-| LORELEI-10 | Lorelei (battle voice) | Intro (crusade + ICE BUCKET CHALLENGE + VANILLA jab); defeat kept vanilla; post-battle "you beat ME, not ICE." Option A. | Lorelei | Indigo Plateau, Lorelei's Room | at the battle | 10 | drafted | [FLAG: dated] [FLAG: release-swap] |
+| LORELEI-10 | Lorelei (battle voice) | Intro (crusade + ICE BUCKET CHALLENGE + VANILLA jab); flavored defeat "…Not the ICE. Never the ICE. …That was me. Only me."; post-battle "you beat ME, not ICE." Option A. | Lorelei | Indigo Plateau, Lorelei's Room | at the battle | 10 | in-game | [FLAG: dated] [FLAG: release-swap] |
 
 Consistency notes:
 - The LAPRAS rescue is NEVER stated by Lorelei or spelled out by any NPC. Fragments
@@ -474,7 +474,7 @@ reflavored directly. Uses existing NPCs only, no new art, no moved beats.
 | BRUNO-06 | Bruno (honors every path) | Sevault NPC: "Folk think he trains alone by creed. He'll tell you every path has worth. He walked one once with a fellow called BRAWLY." | Sevault NPC (existing, reflavor) | Seven Island, Sevault Canyon | reached Seven Island | 6 | drafted | [FLAG: canon-check] |
 | BRUNO-07 | Bruno (why the League) | Sevault NPC: "Why leave his quiet mountain for the LEAGUE? One thing moves him. The chance to meet someone truly strong." | Sevault NPC (existing, reflavor) | Seven Island, Sevault Canyon | reached Seven Island | 7 | drafted | - |
 | BRUNO-08 | Bruno (the room) | Reception NPC: "You will feel at peace in the second room. …That peace is the last thing a lot of challengers remember." | reception NPC (existing/new) | Indigo Plateau reception | reached League | 8 | drafted | - |
-| BRUNO-09 | Bruno (battle voice) | Intro (calm welcome, "no anger, only strength meeting strength"); gracious defeat ("the strength I came looking for. Thank you"); send-off ("Meet it as you met me"). | Bruno | Indigo Plateau, Bruno's Room | at the battle | 9 | drafted | - |
+| BRUNO-09 | Bruno (battle voice) | Intro (calm welcome, "no anger, only strength meeting strength"); gracious defeat ("the strength I came looking for. Thank you"); send-off ("Meet it as you met me"). | Bruno | Indigo Plateau, Bruno's Room | at the battle | 9 | in-game | - |
 | BRUNO-10 | Bruno (post-defeat) | Reception callback: "You beat BRUNO? And he thanked you for it, didn't he. …That's just who he is." | reception NPC (existing/new) | Indigo Plateau reception | FLAG_DEFEATED_BRUNO | 10 | drafted | - |
 
 Consistency notes:
@@ -645,7 +645,7 @@ through NPCs everywhere who have a Lance story or have been happily converted.
 | LANCE-06 | Lance + Oak (cross-link) | Oak's aide: "PROF. OAK showed him the type charts for an hour. LANCE nodded. Said, 'So… a dragon.' OAK had to go lie down." | Oak's Lab aide (existing) | Pallet, Oak's Lab | mid-game | 6 | drafted | [FLAG: canon-check] |
 | LANCE-07 | Lance (bloodline) | NPC (reflavor canon cousin): "It runs in the blood. A cousin of his leads a gym far away. Same gift, sees the dragon in everything. …Holidays there sound exhausting." | Indigo NPC (existing, reflavor) | Indigo Plateau / town | reached League | 7 | drafted | [FLAG: canon-check] |
 | LANCE-08 | Lance (the belief / awe) | Reception: "His dragons fight like they can't be hurt. Because HE believes it. So THEY believe it. …That's the wall you're climbing." | reception NPC (existing/new) | Indigo Plateau reception | reached League | 8 | drafted | - |
-| LANCE-09 | Lance (battle voice) | INTRO "I like dragons." / DEFEAT (D-C) "…You DO like dragons, though? …Say you like dragons." / POST "…DRAGGIN DEEZ NUTS!! …Go on. The CHAMPION waits." | Lance | Indigo Plateau, Lance's Room | at the battle | 9 | drafted | [FLAG: dated] |
+| LANCE-09 | Lance (battle voice) | INTRO "I like dragons." (rematch "I still like dragons.") / DEFEAT (D-C) "…You DO like dragons, though? …Say you like dragons." / POST "…DRAGGIN DEEZ NUTS!! …Go on. The CHAMPION waits." (vanilla rival-reveal dropped; the RIVAL battle still auto-triggers on entering the next room) | Lance | Indigo Plateau, Lance's Room | at the battle | 9 | in-game | [FLAG: dated] |
 | LANCE-10 | Lance (post-defeat) | Reception callback: "You beat LANCE? Did he tell you that you battle like a young dragon? …From him, that is everything." | reception NPC (existing/new) | Indigo Plateau reception | FLAG_DEFEATED_LANCE | 10 | drafted | - |
 
 Consistency notes:
