@@ -38,10 +38,12 @@ Battle: `TRAINER_RIVAL_OAKS_LAB_{BULBASAUR,CHARMANDER,SQUIRTLE}`
 ## 1. Route 22 - first battle (before Viridian gate)
 File: `data/maps/Route22_Frlg/scripts.inc` · Battle: `TRAINER_RIVAL_ROUTE22_EARLY_*`
 First meeting outside the lab; he blocks the road to the League (likely 0 badges).
-- **EarlyRivalIntro (pre-battle):** _GAP - still to write._
-- **EarlyRivalDefeat (you win):** _GAP - still to write._
-- **EarlyRivalPostBattle (after you win):** _GAP - still to write._
+- **EarlyRivalIntro (pre-battle):** `Yo what's up {Player}, oh this is a battle? what is the level cap right now? ... And how this pre status thing works. bro why am I playing this game blind?`
+- **EarlyRivalDefeat (you win):** `wait I preslept an insomnia guy!? whats going on man??`
+- **EarlyRivalPostBattle (after you win):** `Huh!?? bro what is the point of pre status, why is this in my game? what is the point of being preslept... if your just sleeping? Alright I botted out, its all good though. Time to start over! Peaceeee!`
 - **Lose = shared Text_RivalVictory** (optional Buhrito-specific gloat, else reuse).
+- Note: vanilla EarlyRivalDefeat/PostBattle carry NO "{RIVAL}:" speaker tag; the
+  "Rival:" you prefixed is just marking the speaker. Tag handled at wiring time.
 - NOTE: Route22_Text_RivalShouldCatchSomeMons is a DEAD string (defined, never
   called in FRLG; leftover from RGB). Not on the worklist unless you revive it.
 
