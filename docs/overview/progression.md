@@ -76,8 +76,18 @@ Erika -> Rocket Hideout -> Pokemon Tower -> Koga -> Silph Co -> Sabrina.
 
 Only TWO new gates are needed: Rainbow-before-Hideout, and Soul-before-Silph.
 Everything else is already enforced by key items (Silph Scope, Poke Flute/Snorlax).
-Exact gate mechanism (block city entry vs. the Silph entrance vs. the rival trigger)
-to be chosen when we trace the real map scripts.
+
+Gate mechanism (decided w/ user): a BLOCKER NPC (existing sprite, placed in Porymap
+by the user) stands in front of each entrance and is removed once the story flag is
+set. Standard FRLG pattern: the object is hidden via a FLAG_HIDE_* toggled when the
+gate condition is met; while visible, its script plays a short "you can't pass yet"
+line. User places the object; I write the script.
+- Gate 1: blocker at the Rocket Hideout entrance (Celadon Game Corner), removed once
+  FLAG_BADGE04_GET (Rainbow / Erika) is set. Also keeps the cap-ladder ordering valid
+  (Erika must precede the Hideout step).
+- Gate 2: blocker at the Silph Co entrance (Saffron), removed once FLAG_BADGE05_GET
+  (Soul / Koga) is set. Blocking the Silph door (not the whole city) keeps Saffron's
+  other functions and route pass-through open.
 
 ### Level-cap refinement
 Finer story-gated steps across the long stretch so the player cannot overlevel
@@ -109,8 +119,10 @@ Recommendation: extend the flag-list, not VARIABLE. Confirm before implementing.
 ### Implementation checklist (NOT started - needs sign-off per guardrails)
 - [ ] Cap mechanism: extend sLevelCapFlagMap in src/caps.c with story-flag rows
       (or, if VARIABLE is chosen, flip caps.h + wire setvar at every cap point).
-- [ ] Gate 1: require FLAG_BADGE04_GET (Rainbow) before Rocket Hideout.
-- [ ] Gate 2: require FLAG_BADGE05_GET (Soul) before the Saffron/Silph rival.
+- [ ] Gate 1: blocker NPC at the Rocket Hideout entrance, hidden once FLAG_BADGE04_GET
+      (Rainbow) is set. User places the object in Porymap; I write the script.
+- [ ] Gate 2: blocker NPC at the Silph Co entrance, hidden once FLAG_BADGE05_GET
+      (Soul) is set. User places the object in Porymap; I write the script.
 - [ ] Pick the exact story flags to hang caps on; verify they exist and are set at
       the right moment; confirm ordering holds under the forced route.
 - [ ] Update this doc + changelog.md in the same PR.
