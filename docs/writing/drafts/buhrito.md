@@ -27,10 +27,13 @@ Battle: `TRAINER_RIVAL_OAKS_LAB_{BULBASAUR,CHARMANDER,SQUIRTLE}`
 - **RivalIllTakeThisOneThen:** `Hold up! we got a problem... the starters are different...`
 - **RivalMyMonLooksTougher:** `Lets go bro! lets fight`
 - **RivalLetsCheckOutMons (battle challenge):** `Wait, {PLAYER}! We are about to ball! Let's gooo!`
-- **RivalDefeat (you win):** `They didnt get rid of the tutorial bro!? I know how fighting works, I am not that rusty`
-- **RivalGoToughenMyMon:** `alright bet {Player}, time to lockity splockity blobbity`
-- **RivalJustLetMeHandleEverything (later, dex charge):** _GAP - still to write._
-- **RivalIllCompleteThePokedex:** _GAP - still to write._
+- **RivalDefeat (you WIN the tutorial battle):** `They didnt get rid of the tutorial bro!? I know how fighting works, I am not that rusty`
+- **RivalVictory (you LOSE the tutorial battle):** _GAP - his gloat if the player loses the first battle. Optional edge case; vanilla uses a shared Text_RivalVictory._
+- **RivalGoToughenMyMon (he leaves):** `alright bet {Player}, time to lockity splockity blobbity`
+
+> That is the COMPLETE set of rival beats before Route 1. After this he leaves;
+> you head to Route 1. The initial Pokedex (parcel delivery in Viridian, then back
+> to Oak) has NO rival dialogue in vanilla, so nothing to write there.
 
 ## 1. Route 22 - first battle (before Viridian gate)
 File: `data/maps/Route22_Frlg/scripts.inc` · Battle: `TRAINER_RIVAL_ROUTE22_EARLY_*`
@@ -59,6 +62,14 @@ File: `data/maps/Route22_Frlg/scripts.inc` · Battle: `TRAINER_RIVAL_ROUTE22_LAT
 ## 7. Champion - Indigo Plateau (the final battle)
 File: `data/maps/PokemonLeague_ChampionsRoom_Frlg/scripts.inc`
 - _GAP - Intro, RematchIntro, Victory (untranslated in repo), PostBattle._
+
+## POST-GAME. Oak's Lab - National Dex upgrade (NOT an intro beat)
+File: `data/maps/PalletTown_ProfessorOaksLab_Frlg/scripts.inc`
+(`EventScript_NationalDexScene`, map scene 7; runs `special EnableNationalPokedex`.)
+Triggered after becoming Champion + 60 species seen, when you return to Oak; opens
+the Sevii Islands ("ONE ISLAND first"). The rival is present for it.
+- **RivalJustLetMeHandleEverything:** _GAP - still to write._
+- **RivalIllCompleteThePokedex:** _GAP - still to write._
 
 ---
 
