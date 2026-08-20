@@ -16,6 +16,59 @@
 
 ---
 
+## Character core (derived from the dialogue written so far)
+
+**Buhrito** - streamer / online-gamer handle. [FLAG: release-swap] [FLAG: dated]
+
+**One line:** the backseat theorist who knows everything ABOUT Pokemon and has
+never actually played it.
+
+**The engine (silly-through-contrast):** all theory, no practice. He absorbed the
+entire competitive meta second-hand (tier talk, "broken" mons, "the tech") from
+streams and chat, but has genuinely never touched the game. So he is at once the
+most and least knowledgeable guy in the room: he can tell you Bulbasaur "cooks on
+Brock and Misty," yet he forgets he is in a battle, is baffled that status sticks
+around, and expected different starters. Armchair analyst brain meets a
+single-player RPG he does not understand.
+- Knows the tier list, not the game: "I literally never played this game" vs
+  "Bulbasaur is broken because he cooks on brock and he cooks on misty" / "that's
+  the tech."
+- Learned Pokemon as a competitive ladder, not a world: "what is the level cap
+  right now?... how this pre status thing works... why am I playing this game blind?"
+- The game surprises the theory: "the starters are different..."
+
+**How he sees the world:** as a game client, not a place. He speaks in
+Showdown/ladder terms ("level cap," "pre status," "preslept," "misclicked,"
+"botted out," "start over"). NPC kindness reads as a scam: the Cerulean trade guy
+is "trying to hit a lick on me." Wholesome mechanics look like grifts to a ladder
+grinder.
+
+**Losing:** never his fault, never a big deal. Every loss is a technicality he
+waves off: "I misclicked," "You just lucked out" energy, "I preslept an insomnia
+guy!?" (blames a mechanic he did not know), "its all good though. Time to start
+over!" He reboots the run like a roguelike instead of taking the L.
+
+**Attention span:** goldfish. He keeps forgetting the battle is happening
+mid-sentence: "oh this is a battle?", "Oh... I forgot this was a fight... we good
+though!" Low stakes, high chill.
+
+**Voice + tics:** lowercase, breathless, friendly. "Yo," "bro," "what's good /
+whats poppin," "we good though," "bet," "Let's gooo," "Peaceeee." Meta jargon
+dropped casually mid-chatter. Signs off chill, not with a taunt (contrast with
+vanilla's "Smell ya later!").
+
+**Contrast with vanilla Gary:** vanilla is arrogant about ACHIEVEMENTS (dex,
+badges) and tries hard. Buhrito is arrogant about KNOWLEDGE while winning by
+accident, and barely notices he is playing.
+
+**Arc fit (plot fixed; tone is the user's):** the skeleton is locked - he climbs to
+Champion, then Oak calls him out for neglecting the bond with his Pokemon. This
+voice sets that up on its own: a guy who treats mons as meta picks and the whole
+game as content to react to is exactly the guy who "forgot to treat his POKéMON
+with love and trust." How hard that lands, and whether he grows, stays your call.
+
+---
+
 ## 0. Oak's Lab - naming, starter pick, first battle
 File: `data/maps/PalletTown_ProfessorOaksLab_Frlg/scripts.inc`
 Battle: `TRAINER_RIVAL_OAKS_LAB_{BULBASAUR,CHARMANDER,SQUIRTLE}`
@@ -50,8 +103,8 @@ First meeting outside the lab; he blocks the road to the League (likely 0 badges
 ## 2. Cerulean City - after the robbed house
 File: `data/maps/CeruleanCity_Frlg/scripts.inc` · Battle: `TRAINER_RIVAL_CERULEAN_*`
 5-beat scene. No lose-line (no_intro battle). Two functional hooks noted below.
-- **RivalIntro (pre-battle):** _GAP - still to write._
-- **RivalDefeat (you win):** _GAP - still to write._
+- **RivalIntro (pre-battle):** `Yo{Player} whats poppin? you talked to the old guy in the house next to the pokecenter? proposing a trade RALTS for Lickytung? this guy is trying to hit a lick on me Oh... I forgot this was a fight... we good though!`
+- **RivalDefeat (you win):** `Wait wait wait wait wait I misclicked.`
 - **RivalPostBattle (after you win):** _GAP - still to write._ HOOK: nudges player to
   go see BILL (Route 25 / Sea Cottage -> S.S. Anne ticket path); keep a Bill reference.
 - **OhRightLittlePresentAsFavor:** _GAP - still to write._ HOOK: `giveitem ITEM_FAME_CHECKER`
