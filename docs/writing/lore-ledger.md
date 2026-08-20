@@ -548,6 +548,63 @@ Consistency notes:
 - Reflavor the existing Agatha-referencing NPCs (Indigo PC, Six Island Mart) rather
   than adding new ones where possible.
 
+## Professor Oak (central character) - the data-hungry completionist gremlin
+Concept: Kanto reveres Professor Oak; Oak reveres DATA. His dream is to study every
+POKéMON that exists, and he has cheerfully decided the player is the instrument of
+that dream, a one-person catching machine who will fill his POKéDEX to the last
+entry. Warm, brilliant, tangent-prone, and completely unable to imagine why anyone
+would catch LESS than everything. Trainers who deliberately limit themselves (one
+POKéMON per route, retire the fallen) leave him baffled and comically IN DENIAL:
+surely the player won't do that to him. Surely you'll catch them all. …You will,
+won't you? Silly-through-contrast: the dignified mentor is a data gremlin; his aides
+are a long-suffering chorus for a man who will not stop phoning them.
+
+Tonal scope LOCKED: FULL gremlin from his first in-world line (Route 1), escalating
+to mania at the LAB dex charge. The new-game professor NARRATION is NOT this, it is
+parked separately (drafts/intro-and-rival.md) as an author-welcome with Oak SILENT;
+do not touch it. The nuzlocke gag is IN-WORLD and UN-NAMED (describe the practice,
+never the word), kept GENERIC (an anonymous "some trainers"), NEVER the rivals
+(Buhrito/Twitch are the user's to characterize).
+
+The Agatha axis: Oak = catalogue everything (study/breadth); Agatha = prove your
+power (battle/depth). Oak is a little wounded that an old rival thinks he "went soft"
+when he put his POKéBALLS down for a notebook. His coy hook (OAK-07) mirrors
+AGATHA-03/04/08 ("chose books over battle" / "chose battle over books"), never
+naming her. FOLLOW-UP: realign Agatha's ledger spine to foreground this axis
+(Agatha as the old lady who GETS the player's drive), keeping the coy grief beneath.
+
+> Fourth roster voice: Lorelei goofy-obsessive, Bruno serene, Agatha sardonic, Oak
+> the completionist gremlin. Line bank in drafts/oak.md. All lines map onto EXISTING
+> beats, no new or moved plot.
+
+| ID | Subject | Reveal | Source NPC | Map | Gate | Order | Status | Flags |
+|---|---|---|---|---|---|---|---|---|
+| OAK-01 | Oak (gremlin intro) | Route 1 rescue: "Wild POKéMON in that grass! Fascinating ones! Uncatalogued ones! And you'd walk in with nothing to catch them in? …Come, come. We have an encyclopedia to fill." | Prof. Oak | Route 1 / Pallet | story (Route 1 rescue) | 1 | drafted | - |
+| OAK-02 | Oak (dex mania) | Lab dex charge: "Every species. Every last one. Leave NO gaps, NO blank pages! …You'll catch them all. I can feel it. Off you go!" | Prof. Oak | Pallet, Oak's Lab | story (starter/dex) | 2 | drafted | - |
+| OAK-03 | Oak (the DEX) | Parcel/POKéDEX handoff: "A POKéDEX! High-tech, hand-picked, and horribly, wonderfully EMPTY. Fill it. For science. For me. …Mostly for me." | Prof. Oak | Pallet, Oak's Lab | story (parcel) | 3 | drafted | - |
+| OAK-04 | Oak (nuzlocke denial, coy) | Aide: "He heard a rumor that spooked him. Some trainers keep but ONE POKéMON per route. Retire it if it falls. He went pale. 'Not {PLAYER},' he said. …You will catch them all. Won't you?" | Oak's Aide (existing, reflavor) | Route 2 / 10 / 11 aide buildings | dex milestone / reached route | 4 | drafted | [FLAG: dated] |
+| OAK-05 | Oak (the horror, coy) | Aide: "Some trainer breezed through. Caught one POKéMON. ONE. Then left. The PROFESSOR hasn't slept. …Please. Catch two. For me." | Oak's Aide (existing, reflavor) | Route aide building | dex milestone / reached route | 5 | drafted | [FLAG: dated] |
+| OAK-06 | Oak (the ratings) | Aide/lab: "He rates every DEX personally. Out loud. At length. To anyone. Bring him a full one and I think the poor man might weep." | Oak's Aide (existing/new) | route aide / Oak's Lab | dex progress | 6 | drafted | - |
+| OAK-07 | Oak + Agatha (hook, coy) | Lab: "An old friend once told me a scholar is a trainer who gave up. …She wasn't entirely wrong. But SOMEONE must write it all down! …Where was I. Yes! Your DEX!" | Prof. Oak | Pallet, Oak's Lab | after dex started | 7 | drafted | [FLAG: canon-check] |
+| OAK-08 | Oak (post-game) | After Hall of Fame: "CHAMPION, and my DEX still has gaps. …You see my problem. No rest for either of us! Now, about those blank pages-" | Prof. Oak | Pallet, Oak's Lab | FLAG_SYS_GAME_CLEAR | 8 | drafted | - |
+| OAK-09 | Oak (reverence vs. gremlin) | Pallet townsperson: "PROF. OAK? A great man. A genius. …Also he once called my house at 3 AM to ask if my PIDGEY was 'new.'" | Pallet NPC (existing/new) | Pallet Town | none | 9 | drafted | - |
+| OAK-10 | Oak (bridge to Agatha) | Aide: "Between us? He knows not everyone catches for science. Some battle to prove themselves. He respects it, though he'll never say. …An old rival of his would adore you." | Oak's Aide (existing/new) | route aide building | mid-game | 10 | drafted | [FLAG: canon-check] |
+
+Consistency notes:
+- Oak's own lines go FULL comedy from Route 1; the new-game narration stays the
+  parked silent-Oak author-welcome (untouched). Keep the two separate.
+- The nuzlocke fad stays IN-WORLD, UN-NAMED, and GENERIC. Never the literal word,
+  never the rivals. Buhrito/Twitch are out of Oak's lore entirely (user writes them).
+- CROSS-LINK to Agatha: OAK-07 ("a scholar is a trainer who gave up… she wasn't
+  entirely wrong") mirrors AGATHA-03 ("chose books over battle") and AGATHA-08
+  (Oak: "putting my POKéBALLS down"). Keep both coy; never name each other plainly on
+  the mainland path except Agatha's own canon intro and the gated OAK capstone.
+- OAK-10 plants the Agatha-axis bridge (he respects battling to prove oneself). This
+  is the seam Agatha's realigned arc will pay off. Tag canon-check.
+- Comedy lives in Oak and the chorus around him; do NOT let it deflate the DEX charge
+  so hard the mission reads as a joke. He believes in the great work; that sincerity
+  under the mania is what makes the gremlin funny rather than tiresome.
+
 ## Template: new gym leader
 Copy per leader. Keep fragments optional and gated so a rushing player still
 finishes and a curious one gets the hidden layer.
