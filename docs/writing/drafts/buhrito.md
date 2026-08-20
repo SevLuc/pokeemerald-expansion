@@ -105,8 +105,9 @@ File: `data/maps/CeruleanCity_Frlg/scripts.inc` · Battle: `TRAINER_RIVAL_CERULE
 5-beat scene. No lose-line (no_intro battle). Two functional hooks noted below.
 - **RivalIntro (pre-battle):** `Yo{Player} whats poppin? you talked to the old guy in the house next to the pokecenter? proposing a trade RALTS for Lickytung? this guy is trying to hit a lick on me Oh... I forgot this was a fight... we good though!`
 - **RivalDefeat (you win):** `Wait wait wait wait wait I misclicked.`
-- **RivalPostBattle (after you win):** _GAP - still to write._ HOOK: nudges player to
-  go see BILL (Route 25 / Sea Cottage -> S.S. Anne ticket path); keep a Bill reference.
+- **RivalPostBattle (after you win):** `Oh yo, real quick, go find the Bill guy up north. He just shows you his rare mons for free, free dex pages, cracked. I already ran it. Watch out though, even with my goated movement I ran into some demon optionals. Aight, Peaceeee!`
+  _(HOOK preserved: "go find the Bill guy up north" nudges to Route 25 / Sea Cottage;
+  "demon optionals" = the Nugget Bridge / Route 24-25 optional-trainer gauntlet.)_
 - **OhRightLittlePresentAsFavor:** _GAP - still to write._ HOOK: `giveitem ITEM_FAME_CHECKER`
   fires right after this line; keep the "here, take this" gift framing.
 - **ExplainFameCheckerSmellYa:** ALREADY REFLAVORED (generic coy, pre-split):
