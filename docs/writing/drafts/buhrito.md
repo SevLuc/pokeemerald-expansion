@@ -37,7 +37,13 @@ Battle: `TRAINER_RIVAL_OAKS_LAB_{BULBASAUR,CHARMANDER,SQUIRTLE}`
 
 ## 1. Route 22 - first battle (before Viridian gate)
 File: `data/maps/Route22_Frlg/scripts.inc` · Battle: `TRAINER_RIVAL_ROUTE22_EARLY_*`
-- _GAP - EarlyRivalIntro, RivalShouldCatchSomeMons (also untranslated in repo)._
+First meeting outside the lab; he blocks the road to the League (likely 0 badges).
+- **EarlyRivalIntro (pre-battle):** _GAP - still to write._
+- **EarlyRivalDefeat (you win):** _GAP - still to write._
+- **EarlyRivalPostBattle (after you win):** _GAP - still to write._
+- **Lose = shared Text_RivalVictory** (optional Buhrito-specific gloat, else reuse).
+- NOTE: Route22_Text_RivalShouldCatchSomeMons is a DEAD string (defined, never
+  called in FRLG; leftover from RGB). Not on the worklist unless you revive it.
 
 ## 2. Cerulean City - after the robbed house
 File: `data/maps/CeruleanCity_Frlg/scripts.inc` · Battle: `TRAINER_RIVAL_CERULEAN_*`
