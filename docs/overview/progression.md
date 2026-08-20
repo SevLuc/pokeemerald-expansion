@@ -103,22 +103,22 @@ between badges. Proposed ladder (numbers to confirm; endpoints match today's
 | Silph rival / Giovanni #2 cleared | 33 |
 | Before Blaine (Volcano) and later | 42 -> unchanged |
 
-### Cap mechanism - OPEN DECISION (new info from src/caps.c)
-User picked LEVEL_CAP_VARIABLE. Reading GetCurrentLevelCap() changes the tradeoff:
-- VARIABLE: the function just returns `VarGet(cap var)`. NOTHING sets it
-  automatically, so we must `setvar` the cap at EVERY point (all 8 badges + champion
-  + each new story step). One missed setvar freezes the cap; an unset var reads 0,
-  which means no mon gains EXP at all. Powerful but fragile, lots of script wiring.
-- FLAG_LIST + story flags (RECOMMENDED): the current mode already returns the cap for
-  the first UNSET flag in an ordered list (`sLevelCapFlagMap`). Because the route is
-  now FORCED (order guaranteed), we can just insert story-flag rows (Rocket Hideout
-  done, Poke Flute got, Silph done) between the badge rows. Fully automatic (those
-  events already set their flags), no per-point setvar, no freeze risk. Same result.
-Recommendation: extend the flag-list, not VARIABLE. Confirm before implementing.
+### Cap mechanism - DECIDED: extend the flag-list (not VARIABLE)
+`GetCurrentLevelCap()` in FLAG_LIST mode returns the cap for the first UNSET flag in
+an ordered list (`sLevelCapFlagMap`). Because the route is now FORCED (order
+guaranteed), we insert story-flag rows (Rocket Hideout done, Poke Flute got, Silph
+done) between the existing badge rows. Fully automatic (those events already set
+their flags), no per-point setvar, no freeze risk.
+Rejected VARIABLE: it returns `VarGet(cap var)` and sets nothing automatically, so it
+would need a setvar at every badge + champion + story step, and one miss freezes the
+cap (unset reads 0 = no EXP for anyone). Too fragile for no benefit here.
+NOTE: flags.h defines several FRLG story flags as `0` placeholders, so the exact
+flag constants for each cap row are pinned at IMPLEMENTATION time, after verifying
+each is actually set at the intended story moment.
 
 ### Implementation checklist (NOT started - needs sign-off per guardrails)
 - [ ] Cap mechanism: extend sLevelCapFlagMap in src/caps.c with story-flag rows
-      (or, if VARIABLE is chosen, flip caps.h + wire setvar at every cap point).
+      (DECIDED: flag-list, not VARIABLE). Confirm final cap numbers first.
 - [ ] Gate 1: blocker NPC at the Rocket Hideout entrance, hidden once FLAG_BADGE04_GET
       (Rainbow) is set. User places the object in Porymap; I write the script.
 - [ ] Gate 2: blocker NPC at the Silph Co entrance, hidden once FLAG_BADGE05_GET
