@@ -129,10 +129,16 @@ File: `data/maps/SSAnne_2F_Corridor_Frlg/scripts.inc` · Battle: `TRAINER_RIVAL_
 File: `data/maps/PokemonTower_2F_Frlg/scripts.inc` · Battle: `TRAINER_RIVAL_POKEMON_TOWER_*`
 3-beat scene, no lose-line (no_intro). Spooky graveyard tower; vanilla opens with the
 blunt "Is your POKeMON dead?" dark-humor line. No plot hook (pure fight).
-- **RivalIntro (pre-battle):** _GAP - still to write._ (vanilla: "is your POKeMON dead?" + challenge)
-- **RivalDefeat (you win):** _GAP - still to write._
-- **RivalPostBattle (after you win):** _GAP - still to write._ (vanilla: CUBONE/MAROWAK
-  dex-hunt + "unlike you" superiority; flavor, tied to the Tower's Marowak ghost.)
+Buhrito reflavor: he's stuck on the TEA gate (the Saffron gate guards; TEA is the
+FRLG key item that lets you into Saffron). Ties into the forced route (Saffron/Silph
+is gated later). TEA source: CeladonCity_Condominiums_1F (the "Celadon Mansion" old
+lady); consumed at the Route 5/6/7/8 Saffron gate guards.
+- **RivalIntro (pre-battle):** `{PLAYER}! Yo where's the TEA bro? How do I get the TEA? you got TEA?`
+- **RivalDefeat (you win):** `If I was tea... where would I be?`
+- **RivalPostBattle (after you win):** `Wait really? Old lady in the mansion? Oh Cinnabar Island!!`
+  _(CONSISTENCY FLAG: the TEA old lady is in the CELADON Condominiums, NOT Cinnabar.
+  "Oh Cinnabar Island!!" is geographically wrong. PENDING: intentional Buhrito
+  wrong-guess gag (in-character, keep) vs. slip (fix to Celadon).)_
 
 ## 5. Silph Co. 7F - Saffron
 File: `data/maps/SilphCo_7F_Frlg/scripts.inc` · Battle: `TRAINER_RIVAL_SILPH_*`
