@@ -117,14 +117,12 @@ File: `data/maps/CeruleanCity_Frlg/scripts.inc` · Battle: `TRAINER_RIVAL_CERULE
 ## 3. S.S. Anne - 2F corridor
 File: `data/maps/SSAnne_2F_Corridor_Frlg/scripts.inc` · Battle: `TRAINER_RIVAL_SS_ANNE_*`
 3-beat scene, no lose-line (no_intro). Fancy cruise ship (vanilla opens "Bonjour!").
-- **RivalIntro (pre-battle):** _GAP - still to write._ (vanilla: 40-species brag + catch tip)
-- **RivalDefeat (you win):** _GAP - still to write._
-- **RivalPostBattle (after you win):** _GAP - still to write._ HOOK: nudges player to the
-  S.S. Anne Captain = HM01 CUT (required to progress); keep the "go see him" nudge.
-  CROSS-ARC: the SURGE arc reframed the Captain (dignified, tells the Vermilion
-  liberation story, awards Cut) and DROPPED the "seasick old man" gag. Do NOT call
-  him seasick. Buhrito angle that stays consistent: cleared the ship "trial," took
-  Cut as a utility unlock, SKIPPED the Captain's lore speech (he ignores story).
+- **RivalIntro (pre-battle):** `Yooo whats good my guy? You got invited to this cruise too?? Anyway my dexcount is crazy rn, like 40 deep. Just farm the grass spawns bro, theyre everywhere, easy filler.`
+- **RivalDefeat (you win):** `Tch, fine, at least you actually train your guys. On paper I still won though.`
+- **RivalPostBattle (after you win):** `Oh yo, theres a CUT master on this boat, gives you CUT for free. I skipped his whole speech ngl, way too much lore. CUT's actually clutch though, opens up a ton of map, go grab it. Aight, Peaceeee!`
+  _(HOOK preserved: nudges to the Captain / HM01 CUT. SURGE-safe: acknowledges the
+  Captain has a big speech now, "skipped his whole speech, way too much lore," and
+  never calls him seasick.)_
 - Dead string: SSAnne_2F_Corridor_Text_RivalVictory (Japanese, unreferenced). Off worklist.
 
 ## 4. Pokemon Tower 2F - Lavender
