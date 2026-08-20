@@ -1496,20 +1496,21 @@ PalletTown_ProfessorOaksLab_Text_OakExplainCatching::
 	.string "You have to be lucky!$"
 
 PalletTown_ProfessorOaksLab_Text_OakCompleteMonGuideWasMyDream::
-	.string "To make a complete guide on all\n"
-	.string "the POKéMON in the world…\p"
-	.string "That was my dream!\p"
-	.string "But, I'm too old.\n"
-	.string "I can't get the job done.\p"
-	.string "So, I want you two to fulfill my\n"
-	.string "dream for me.\p"
-	.string "Get moving, you two.\p"
-	.string "This is a great undertaking in\n"
-	.string "POKéMON history!$"
+	.string "A complete guide to every POKéMON\n"
+	.string "in the world…\p"
+	.string "Every species. Every last one.\n"
+	.string "No gaps. No blank pages.\p"
+	.string "That was my dream. But I am too\n"
+	.string "old to fill it myself.\p"
+	.string "So you two shall. I've decided!\p"
+	.string "Catch them all for me.\n"
+	.string "This is the great work!$"
 
 PalletTown_ProfessorOaksLab_Text_OakMonsAroundWorldWait::
-	.string "POKéMON around the world wait for\n"
-	.string "you, {PLAYER}!$"
+	.string "Every POKéMON in the world is\n"
+	.string "waiting to be catalogued,\l"
+	.string "{PLAYER}!\p"
+	.string "…All of them. I'll be counting.$"
 
 PalletTown_ProfessorOaksLab_Text_OakAddedNothingToPokedex::
 	.string "Ah, {PLAYER}!\n"

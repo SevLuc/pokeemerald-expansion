@@ -25,9 +25,14 @@ truth until they're updated):
   NPC), BRUNO-05 (Two Island), BRUNO-06 (Sevault Canyon), AGATHA-01 (Indigo PC),
   AGATHA-02 (Six Island Mart), LANCE-02 (Saffron fan), LANCE-07 (Indigo PC cousin),
   OAK-02 (Oak's Lab dex charge).
+- Stage 2c - Oak's fuller cutscene placement: OAK-01 (Route 1 grass rescue, full
+  gremlin), OAK-02/03 (the lab dex-mission speech: the "complete guide" dream +
+  "waiting to be catalogued"), OAK-04 (Route 2 aide, the un-named nuzlocke gag,
+  kept the YES/NO reward flow intact). Instructional lines (how to catch, Pokedex
+  explanation) left functional on purpose.
 REMAINING:
-- Oak: the fuller placement (Route 1 rescue, starter/lab scene, the route aides with
-  the un-named nuzlocke gag) is a larger critical-path cutscene pass, not yet done.
+- Oak: the other route aides (Route 10 / 11 etc.) stay vanilla-functional so the
+  nuzlocke gag isn't repeated; the starter-choice scene stays mostly instructional.
 - Fame Checker bios (data/text/fame_checker_frlg.inc) mirror several of the reflavored
   NPC lines and will diverge until reflavored to match (Stage 2b).
 - Stage 3 (needs Porymap objects): every fragment whose Source is "new" (the Pallet

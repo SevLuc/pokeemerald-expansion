@@ -453,12 +453,14 @@ PalletTown_Text_OakDontGoOut::
 	.string "Don't go out!$"
 
 PalletTown_Text_OakGrassUnsafeNeedMon::
-	.string "OAK: It's unsafe!\n"
-	.string "Wild POKéMON live in tall grass!\p"
-	.string "You need your own POKéMON for\n"
-	.string "your protection.\p"
-	.string "I know!\n"
-	.string "Here, come with me!$"
+	.string "OAK: Stop! Not into the grass!\p"
+	.string "Wild POKéMON live in there.\n"
+	.string "Fascinating ones. Uncatalogued ones!\p"
+	.string "And you'd wander in with nothing\n"
+	.string "to catch them in?\p"
+	.string "The DATA we would lose. Unthinkable.\p"
+	.string "No, no. Come with me. Quickly!\n"
+	.string "We have an encyclopedia to fill.$"
 
 PalletTown_Text_RaisingMonsToo::
 	.string "I'm raising POKéMON, too.\p"
