@@ -50,3 +50,68 @@ value for the first badge you have NOT yet earned, from the table in
 
 The field party menu also offers a `LEVEL` option (`LEVEL UP` / `LEVEL TO CAP`)
 that levels a mon for free but never past the current cap.
+
+## Mid-game forced route + finer level caps (PLANNED - needs implementation sign-off)
+
+Problem: the Lt. Surge -> Erika stretch is long and non-linear. Silph Co (and the
+rival fight on 7F) can be reached with just a vending-machine drink for the Saffron
+gate guard, so a player can hit that rival BEFORE Erika/Koga. Because the cap is
+badge-gated, the rival's difficulty then swings on how many optional badges the
+player grabbed first: rush player = cap 29 (so it must be tuned trivially low),
+thorough player = overleveled and bored. Fix: force the mid-game into a fixed order
+so the player's state at Silph is known, and add finer caps so they cannot overlevel
+within the long stretch.
+
+### Forced order (decided w/ user)
+Erika -> Rocket Hideout -> Pokemon Tower -> Koga -> Silph Co -> Sabrina.
+
+| Step | Gate today | New gate needed? |
+|---|---|---|
+| 1. Erika (Rainbow, Celadon) | skippable in vanilla | YES - require before Rocket Hideout |
+| 2. Rocket Hideout -> Silph Scope | canon: under Celadon Game Corner | no |
+| 3. Pokemon Tower -> Poke Flute (Mr. Fuji) | canon: Silph Scope gates the tower ghosts | no |
+| 4. Koga (Soul, Fuchsia) | canon: Poke Flute wakes Snorlax to reach Fuchsia | no |
+| 5. Silph Co (rival 7F + Giovanni 11F) | canon: Saffron only needs a drink for the guard | YES - require Soul Badge (Koga) first |
+| 6. Sabrina (Marsh, Saffron Gym) | canon: after Silph liberation | no (already after Silph) |
+
+Only TWO new gates are needed: Rainbow-before-Hideout, and Soul-before-Silph.
+Everything else is already enforced by key items (Silph Scope, Poke Flute/Snorlax).
+Exact gate mechanism (block city entry vs. the Silph entrance vs. the rival trigger)
+to be chosen when we trace the real map scripts.
+
+### Level-cap refinement
+Finer story-gated steps across the long stretch so the player cannot overlevel
+between badges. Proposed ladder (numbers to confirm; endpoints match today's
+29/31/33 so the overall curve is unchanged, just more granular):
+
+| Trigger (flag/event) | Cap |
+|---|---|
+| Before Erika | 29 |
+| Erika beaten (Rainbow) -> Rocket Hideout | 30 |
+| Poke Flute obtained (Tower cleared) | 31 |
+| Koga beaten (Soul) | 32 |
+| Silph rival / Giovanni #2 cleared | 33 |
+| Before Blaine (Volcano) and later | 42 -> unchanged |
+
+### Cap mechanism - OPEN DECISION (new info from src/caps.c)
+User picked LEVEL_CAP_VARIABLE. Reading GetCurrentLevelCap() changes the tradeoff:
+- VARIABLE: the function just returns `VarGet(cap var)`. NOTHING sets it
+  automatically, so we must `setvar` the cap at EVERY point (all 8 badges + champion
+  + each new story step). One missed setvar freezes the cap; an unset var reads 0,
+  which means no mon gains EXP at all. Powerful but fragile, lots of script wiring.
+- FLAG_LIST + story flags (RECOMMENDED): the current mode already returns the cap for
+  the first UNSET flag in an ordered list (`sLevelCapFlagMap`). Because the route is
+  now FORCED (order guaranteed), we can just insert story-flag rows (Rocket Hideout
+  done, Poke Flute got, Silph done) between the badge rows. Fully automatic (those
+  events already set their flags), no per-point setvar, no freeze risk. Same result.
+Recommendation: extend the flag-list, not VARIABLE. Confirm before implementing.
+
+### Implementation checklist (NOT started - needs sign-off per guardrails)
+- [ ] Cap mechanism: extend sLevelCapFlagMap in src/caps.c with story-flag rows
+      (or, if VARIABLE is chosen, flip caps.h + wire setvar at every cap point).
+- [ ] Gate 1: require FLAG_BADGE04_GET (Rainbow) before Rocket Hideout.
+- [ ] Gate 2: require FLAG_BADGE05_GET (Soul) before the Saffron/Silph rival.
+- [ ] Pick the exact story flags to hang caps on; verify they exist and are set at
+      the right moment; confirm ordering holds under the forced route.
+- [ ] Update this doc + changelog.md in the same PR.
+- [ ] Keep the rival DIALOGUE work (drafts/buhrito.md) separate from this systems PR.
