@@ -515,11 +515,11 @@ the surface the player actually reads. She is the MAINLAND-rooted E4 member
 (Lavender Ghost lore + Pallet/OAK), a geographic contrast to Lorelei (Four Island)
 and Bruno (the Sevii circuit).
 
-> Battle voice LOCKED: KEEP VANILLA. Her canon intro states the axis thesis verbatim
-> ("He's wrong. POKéMON are for battling!"); her defeat ("You're something special,
-> child!") and post-battle ("I see what the old duff sees in you now") are her warmth
-> recognizing a fellow battler. All unchanged; new work is the distributed history.
-> Line bank in drafts/agatha.md.
+> Battle voice: FLAVORED (in our voice, keeping the canon beats). Intro carries the
+> study-vs-battle thesis ("They are not for cataloguing, child. They are for
+> BATTLE."); defeat is warmth for a real battler ("There's fire in you, child. …I
+> like that."); post-battle keeps the canon grudging respect ("OAK was right about
+> you. Don't tell him I said so."). Line bank in drafts/agatha.md.
 
 | ID | Subject | Reveal | Source NPC | Map | Gate | Order | Status | Flags |
 |---|---|---|---|---|---|---|---|---|
@@ -531,7 +531,7 @@ and Bruno (the Sevii circuit).
 | AGATHA-06 | Agatha (why she stays) | Islander: "She could have retired a legend. She stays in the ring. Like she's proving something to somebody." | Six Island NPC (existing/new) | Six Island | reached Six Island | 6 | drafted | - |
 | AGATHA-07 | Agatha (who she respects) | Reception NPC: "She's got no time for POKéDEX-fillers. But a trainer who battles to prove herself? …That one she'll respect to the grave." | reception NPC (existing/new) | Indigo Plateau reception | reached League | 7 | drafted | - |
 | AGATHA-08 | Agatha + Oak (capstone) | OAK, coy: "AGATHA? …We were young. She never forgave me for putting my POKéBALLS down. …Perhaps she was right." | Prof. Oak | Pallet, Oak's Lab | post-E4 | 8 | drafted | [FLAG: canon-check] |
-| AGATHA-09 | Agatha (battle voice) | KEPT VANILLA: roasts OAK; defeat "You're something special, child!"; post "I see what the old duff sees in you now." | Agatha | Indigo Plateau, Agatha's Room | at the battle | 9 | in-game | - |
+| AGATHA-09 | Agatha (battle voice) | FLAVORED: intro roasts OAK + the thesis ("not for cataloguing… for BATTLE"); defeat "There's fire in you, child. …I like that."; post "OAK was right about you. Don't tell him I said so." | Agatha | Indigo Plateau, Agatha's Room | at the battle | 9 | in-game | - |
 | AGATHA-10 | Agatha (post-defeat) | Reception callback: "She called you 'something special,' did she? From that one, that's a love letter." | reception NPC (existing/new) | Indigo Plateau reception | FLAG_DEFEATED_AGATHA | 10 | drafted | - |
 
 Consistency notes:
@@ -543,8 +543,9 @@ Consistency notes:
 - COY UNDERLAYER (romance) is kept but demoted: NEVER confirm it. The photo (05,
   squaring off but grinning like they meant it), OAK's silence (04), and "we were
   young" (08) imply without stating. It is the hidden layer, not the headline.
-- Battle voice stays VANILLA (09): her intro is the axis thesis verbatim; her "child"
-  and the warmth on the loss are recognition of a real battler. Do not rewrite.
+- Battle voice is FLAVORED (09) in our voice while keeping the canon beats: the Oak
+  roast, the study-vs-battle thesis, the "child," the warmth for a real battler, and
+  the grudging "OAK was right about you" on the loss.
 - The OAK capstone (08) is character flavor on an existing NPC, gated post-E4, NOT a
   new plot beat. Tag [FLAG: canon-check] and keep it coy.
 - Keep her barbs sharp and the grief buried; her readable emotion is WARMTH toward

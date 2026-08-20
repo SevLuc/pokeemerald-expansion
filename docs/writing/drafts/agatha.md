@@ -25,14 +25,17 @@
   name, "we were young." The grief is real but it is the hidden layer now; the
   study-vs-battle rift is the surface the player actually reads.
 
-## Battle voice (LOCKED: keep vanilla, unchanged)
-Her canon voice IS the realigned character, so intro/defeat/post-battle stay AS-IS:
-- INTRO (vanilla, keep): roasts OAK for going soft, then the thesis: "He's wrong.
-  POKéMON are for battling! I'll show you how a real TRAINER battles!"
-- DEFEAT (vanilla, keep): "Oh, my! You're something special, child!" (delight, not
-  shock: she just met a real battler).
-- POST-BATTLE (vanilla, keep): "I see what the old duff sees in you now… Run along
-  now, child!" (she and OAK, for once, agree on YOU).
+## Battle voice (LOCKED: flavored, keeps the canon beats)
+Flavored in our own sharper voice, preserving the Oak roast, the study-vs-battle
+thesis, the "child," and the warmth for a real battler:
+- INTRO: "So you're the one OAK fusses over… He presses POKéMON into a book and calls
+  it a life's work. They are not for cataloguing, child. They are for BATTLE. Come.
+  Let an old woman remind you what that word means."
+- DEFEAT: "…Well now. There's fire in you, child. Real fire. …I like that." (delight
+  at a real battler, not shock).
+- POST-BATTLE: "You proved it the only way that counts. In the ring. …OAK was right
+  about you. Don't tell him I said so. Off you go, child." (keeps the canon grudging
+  "the old duff was right about you" beat).
 All new work is the distributed history around her.
 
 ## Distributed history (the axis on the surface, grief coy beneath)
