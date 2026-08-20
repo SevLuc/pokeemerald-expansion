@@ -49,7 +49,17 @@ First meeting outside the lab; he blocks the road to the League (likely 0 badges
 
 ## 2. Cerulean City - after the robbed house
 File: `data/maps/CeruleanCity_Frlg/scripts.inc` · Battle: `TRAINER_RIVAL_CERULEAN_*`
-- _GAP - RivalIntro, RivalPostBattle, ExplainFameCheckerSmellYa._
+5-beat scene. No lose-line (no_intro battle). Two functional hooks noted below.
+- **RivalIntro (pre-battle):** _GAP - still to write._
+- **RivalDefeat (you win):** _GAP - still to write._
+- **RivalPostBattle (after you win):** _GAP - still to write._ HOOK: nudges player to
+  go see BILL (Route 25 / Sea Cottage -> S.S. Anne ticket path); keep a Bill reference.
+- **OhRightLittlePresentAsFavor:** _GAP - still to write._ HOOK: `giveitem ITEM_FAME_CHECKER`
+  fires right after this line; keep the "here, take this" gift framing.
+- **ExplainFameCheckerSmellYa:** ALREADY REFLAVORED (generic coy, pre-split):
+  `A chatty gossip like you… That thing's perfect. I don't need it because I don't
+  give a hoot about others. All right, this time I really am gone. Smell ya!`
+  DECISION PENDING: rewrite in Buhrito voice to match beat 4, or keep this coy line.
 
 ## 3. S.S. Anne - 2F corridor
 File: `data/maps/SSAnne_2F_Corridor_Frlg/scripts.inc` · Battle: `TRAINER_RIVAL_SS_ANNE_*`
