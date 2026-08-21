@@ -167,8 +167,8 @@ File: `data/maps/PokemonLeague_ChampionsRoom_Frlg/scripts.inc`
 He beat the E4 first and sits as CHAMPION. Rival beats to write (Oak's speech is the
 OAK arc, not the rival's - see note). No lose-line (Text_Victory is a dead JP string).
 - **Text_Intro (his Champion speech):** `Yoo whats good {Player}! What you doing here pulling up on me? Last guy that was here sold the game, so im supa locked. Come on! NO SETUP Funky Red bringing 3 shitmons!`
-  _("NO SETUP" callbacks the intro welcome ("No setup moves"). "Funky Red" = GAME NAME? -
-  the title has been an unset placeholder; confirm it matches the intro/title. [FLAG: dated])_
+  _("NO SETUP" callbacks the intro welcome ("No setup moves"). "Funky Red" = the GAME NAME
+  (provisional, confirmed by user); matches the intro welcome. [FLAG: dated])_
 - **Text_RematchIntro (re-enter after clear):** _POST-GAME, skipped for now (user)._
 - **Text_Defeat (you beat him):** `My shit dropped!?`
 - **Text_PostBattle (after you win, before Oak enters):** `How I got the title: Father of the drayano gauntlet? Cause Im him bro! My team here was suspicious but we nuzlock to ball out bro! Thats why we nuzlock at the end of the day! I am gonna call it here for now, but thank god we beat this game bro!`
