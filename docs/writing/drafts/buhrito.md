@@ -155,10 +155,11 @@ Forced-route position: AFTER Koga (5 badges, cap ~33).
 File: `data/maps/Route22_Frlg/scripts.inc` · Battle: `TRAINER_RIVAL_ROUTE22_LATE_*`
 3-beat scene, no lose-line (no_intro). Last fight before the League; both of you have
 all badges; he frames it as a "warm-up." High cap (~58 before Champion).
-- **LateRivalIntro (pre-battle):** _GAP - still to write._ (vanilla: "warm-up for the LEAGUE")
-- **LateRivalDefeat (you win):** _GAP - still to write._
-- **LateRivalPostBattle (after you win):** _GAP - still to write._ SETUP: his last cocky beat
-  before the Champion humbling; he runs the League ahead of you.
+- **LateRivalIntro (pre-battle):** `Yo {PLAYER}?? no wayyy you actually made it to the endgame. you got all 8 too? ok ok. aight run me one real quick, im just warming up before I go first-clear the E4. lets gooo!`
+- **LateRivalDefeat (you win):** `bro that was literally a warmup match, doesnt count. I wasnt even locked in.`
+- **LateRivalPostBattle (after you win):** `aight that got me warm though, im so ready. Im finna go run the E4 and take the champ spot before you even get there. gg {PLAYER}, no rematch. Peaceeee!`
+  _(DRAFT - Claude-drafted in Buhrito's voice; replace freely. Sets up the Champion
+  humbling: he grabs the champ spot "before you," the over-confidence Oak punctures.)_
 - Dead string: Route22_Text_LateRivalVictory (Japanese, unreferenced). Off worklist.
 
 ## 7. Champion - Indigo Plateau (the final battle)
