@@ -166,13 +166,13 @@ all badges; he frames it as a "warm-up." High cap (~58 before Champion).
 File: `data/maps/PokemonLeague_ChampionsRoom_Frlg/scripts.inc`
 He beat the E4 first and sits as CHAMPION. Rival beats to write (Oak's speech is the
 OAK arc, not the rival's - see note). No lose-line (Text_Victory is a dead JP string).
-- **Text_Intro (his Champion speech):** _GAP - still to write._ (vanilla: "most powerful TRAINER in the world")
-- **Text_RematchIntro (re-enter after clear):** _GAP - still to write._ (same speech + "You came back!")
-- **Text_Defeat (you beat him):** _GAP - still to write._ (vanilla: "My reign is over already? It's not fair!")
-- **Text_PostBattle (after you win, before Oak enters):** _GAP - still to write._ THE PIVOT /
-  TONAL FORK (user owns): does he CRACK (a flicker of something real so Oak's line lands) or
-  STAY DEFLECTING (pure comedy, Oak's line bounces off)? Vanilla is vulnerable ("Why did I
-  lose? I never made any mistakes...") and sets up Oak's "love and trust" capstone.
+- **Text_Intro (his Champion speech):** `Yooo {PLAYER}! you actually made it here, respect. real talk, I ran the whole E4 first try, blind, no prep. then I built a team that answers every single type. its unloseable bro. so yeah... Im the champ now. number one trainer, global. anyway you came all this way. lets run it.`
+- **Text_RematchIntro (re-enter after clear):** `Yooo you came BACK?? bro I respect the grind. still champ though, nothing changed. unloseable team, number one global, you already know. aight, run it back.`
+- **Text_Defeat (you beat him):** `wait. WAIT. no no rerun it, best of 3. that wasnt supposed to happen, my team was literally unloseable, I did everything by the guide...`
+- **Text_PostBattle (after you win, before Oak enters):** `...theres no rerun this time is there. I cant just reset it. huh. ...ngl bro, I dont think I ever actually PLAYED this. I netdecked the whole run, read every guide, never once just... looked at my own team. I dont even know their names. ...youre the champ. for real. I think I get it now.`
+  _(DRAFT - Claude-drafted; beat 4 CRACKS per user. Pays off the "never knew his own team"
+  running gag and sets up Oak's "love and trust" capstone; hype deflates on purpose so the
+  moment lands. Replace freely.)_
 - Dead string: PokemonLeague_ChampionsRoom_Text_Victory (JP, unreferenced). Off worklist.
 - OAK CAPSTONE (Oak arc, not the rival): OakImDisappointedRival = "you forgot to treat your
   POKeMON with love and trust." Leave for the Oak pass unless user wants it touched here.
