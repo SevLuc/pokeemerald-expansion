@@ -151,9 +151,15 @@ Forced-route position: AFTER Koga (5 badges, cap ~33).
   _(Naming Giovanni here is fine/in-character meta-knowledge; canon-safe because it names
   the Rocket boss only, not the protected boss=Viridian-leader reveal.)_
 
-## 6. Route 22 - rematch (Earth Badge, before Victory Road)
+## 6. Route 22 - rematch (all 8 badges, before Victory Road / League gate)
 File: `data/maps/Route22_Frlg/scripts.inc` · Battle: `TRAINER_RIVAL_ROUTE22_LATE_*`
-- _GAP - LateRivalIntro, LateRivalPostBattle, LateRivalVictory (untranslated in repo)._
+3-beat scene, no lose-line (no_intro). Last fight before the League; both of you have
+all badges; he frames it as a "warm-up." High cap (~58 before Champion).
+- **LateRivalIntro (pre-battle):** _GAP - still to write._ (vanilla: "warm-up for the LEAGUE")
+- **LateRivalDefeat (you win):** _GAP - still to write._
+- **LateRivalPostBattle (after you win):** _GAP - still to write._ SETUP: his last cocky beat
+  before the Champion humbling; he runs the League ahead of you.
+- Dead string: Route22_Text_LateRivalVictory (Japanese, unreferenced). Off worklist.
 
 ## 7. Champion - Indigo Plateau (the final battle)
 File: `data/maps/PokemonLeague_ChampionsRoom_Frlg/scripts.inc`
