@@ -146,8 +146,8 @@ File: `data/maps/SilphCo_7F_Frlg/scripts.inc` · Battle: `TRAINER_RIVAL_SILPH_*`
 Forced-route position: AFTER Koga (5 badges, cap ~33).
 - **RivalWhatKeptYou (walk-up opener):** `tea speedrun WR` _(callback to the Pokemon Tower TEA gate)_
 - **RivalIntro (pre-battle):** `So this is a fight? ... I hope I have 6 mons in my party... Its all good though they dont know I got fart lead on deck.`
-- **RivalDefeat (you win):** `okay we're trolling`
-- **RivalPostBattle (after you win):** `Giovanni? Giovanni is not a thread bro`
+- **RivalDefeat (you win):** `okay we're trolling, what was I cooking...?`
+- **RivalPostBattle (after you win):** `Giovanni? Giovanni is not a thread bro. Honestly bro, I prepped for like... 2 minutes. Get his bum ass`
   _(Naming Giovanni here is fine/in-character meta-knowledge; canon-safe because it names
   the Rocket boss only, not the protected boss=Viridian-leader reveal.)_
 
