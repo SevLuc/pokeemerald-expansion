@@ -158,6 +158,8 @@ all badges; he frames it as a "warm-up." High cap (~58 before Champion).
 - **LateRivalIntro (pre-battle):** `Yo {PLAYER}?? no wayyy you actually made it to the endgame. you got all 8 too? ok ok. aight run me one real quick, im just warming up before I go deathless E4 baby. lets gooo!`
 - **LateRivalDefeat (you win):** `bro that was literally a warmup match, doesnt count. I dont even have any pokeballs.`
 - **LateRivalPostBattle (after you win):** `bro I dont even know what the e4 is but there must be some. But Im running it back right now. Infinite mental. I N F I N I T E   S U P A G U Y S`
+  _(SPACING: exactly 3 spaces between "INFINITE" and "SUPAGUYS" - preserve when wiring;
+  don't let an editor collapse it.)_
 - Dead string: Route22_Text_LateRivalVictory (Japanese, unreferenced). Off worklist.
 
 ## 7. Champion - Indigo Plateau (the final battle)
