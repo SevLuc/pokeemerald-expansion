@@ -162,9 +162,20 @@ all badges; he frames it as a "warm-up." High cap (~58 before Champion).
   don't let an editor collapse it.)_
 - Dead string: Route22_Text_LateRivalVictory (Japanese, unreferenced). Off worklist.
 
-## 7. Champion - Indigo Plateau (the final battle)
+## 7. Champion - Indigo Plateau (the final battle / capstone)
 File: `data/maps/PokemonLeague_ChampionsRoom_Frlg/scripts.inc`
-- _GAP - Intro, RematchIntro, Victory (untranslated in repo), PostBattle._
+He beat the E4 first and sits as CHAMPION. Rival beats to write (Oak's speech is the
+OAK arc, not the rival's - see note). No lose-line (Text_Victory is a dead JP string).
+- **Text_Intro (his Champion speech):** _GAP - still to write._ (vanilla: "most powerful TRAINER in the world")
+- **Text_RematchIntro (re-enter after clear):** _GAP - still to write._ (same speech + "You came back!")
+- **Text_Defeat (you beat him):** _GAP - still to write._ (vanilla: "My reign is over already? It's not fair!")
+- **Text_PostBattle (after you win, before Oak enters):** _GAP - still to write._ THE PIVOT /
+  TONAL FORK (user owns): does he CRACK (a flicker of something real so Oak's line lands) or
+  STAY DEFLECTING (pure comedy, Oak's line bounces off)? Vanilla is vulnerable ("Why did I
+  lose? I never made any mistakes...") and sets up Oak's "love and trust" capstone.
+- Dead string: PokemonLeague_ChampionsRoom_Text_Victory (JP, unreferenced). Off worklist.
+- OAK CAPSTONE (Oak arc, not the rival): OakImDisappointedRival = "you forgot to treat your
+  POKeMON with love and trust." Leave for the Oak pass unless user wants it touched here.
 
 ## POST-GAME. Oak's Lab - National Dex upgrade (NOT an intro beat)
 File: `data/maps/PalletTown_ProfessorOaksLab_Frlg/scripts.inc`
