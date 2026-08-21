@@ -50,3 +50,80 @@ value for the first badge you have NOT yet earned, from the table in
 
 The field party menu also offers a `LEVEL` option (`LEVEL UP` / `LEVEL TO CAP`)
 that levels a mon for free but never past the current cap.
+
+## Mid-game forced route + finer level caps (PLANNED - needs implementation sign-off)
+
+Problem: the Lt. Surge -> Erika stretch is long and non-linear. Silph Co (and the
+rival fight on 7F) can be reached with just a vending-machine drink for the Saffron
+gate guard, so a player can hit that rival BEFORE Erika/Koga. Because the cap is
+badge-gated, the rival's difficulty then swings on how many optional badges the
+player grabbed first: rush player = cap 29 (so it must be tuned trivially low),
+thorough player = overleveled and bored. Fix: force the mid-game into a fixed order
+so the player's state at Silph is known, and add finer caps so they cannot overlevel
+within the long stretch.
+
+### Forced order (decided w/ user)
+Erika -> Rocket Hideout -> Pokemon Tower -> Koga -> Silph Co -> Sabrina.
+
+| Step | Gate today | New gate needed? |
+|---|---|---|
+| 1. Erika (Rainbow, Celadon) | skippable in vanilla | YES - require before Rocket Hideout |
+| 2. Rocket Hideout -> Silph Scope | canon: under Celadon Game Corner | no |
+| 3. Pokemon Tower -> Poke Flute (Mr. Fuji) | canon: Silph Scope gates the tower ghosts | no |
+| 4. Koga (Soul, Fuchsia) | canon: Poke Flute wakes Snorlax to reach Fuchsia | no |
+| 5. Silph Co (rival 7F + Giovanni 11F) | canon: Saffron only needs a drink for the guard | YES - require Soul Badge (Koga) first |
+| 6. Sabrina (Marsh, Saffron Gym) | canon: after Silph liberation | no (already after Silph) |
+
+Only TWO new gates are needed: Rainbow-before-Hideout, and Soul-before-Silph.
+Everything else is already enforced by key items (Silph Scope, Poke Flute/Snorlax).
+
+Gate mechanism (decided w/ user): a BLOCKER NPC (existing sprite, placed in Porymap
+by the user) stands in front of each entrance and is removed once the story flag is
+set. Standard FRLG pattern: the object is hidden via a FLAG_HIDE_* toggled when the
+gate condition is met; while visible, its script plays a short "you can't pass yet"
+line. User places the object; I write the script.
+- Gate 1: blocker at the Rocket Hideout entrance (Celadon Game Corner), removed once
+  FLAG_BADGE04_GET (Rainbow / Erika) is set. Also keeps the cap-ladder ordering valid
+  (Erika must precede the Hideout step).
+- Gate 2: blocker at the Silph Co entrance (Saffron), removed once FLAG_BADGE05_GET
+  (Soul / Koga) is set. Blocking the Silph door (not the whole city) keeps Saffron's
+  other functions and route pass-through open.
+
+### Level-cap refinement
+Finer story-gated steps across the long stretch so the player cannot overlevel
+between badges. Proposed ladder (numbers to confirm; endpoints match today's
+29/31/33 so the overall curve is unchanged, just more granular):
+
+| Trigger (flag/event) | Cap |
+|---|---|
+| Before Erika | 29 |
+| Erika beaten (Rainbow) -> Rocket Hideout | 30 |
+| Poke Flute obtained (Tower cleared) | 31 |
+| Koga beaten (Soul) | 32 |
+| Silph rival / Giovanni #2 cleared | 33 |
+| Before Blaine (Volcano) and later | 42 -> unchanged |
+
+### Cap mechanism - DECIDED: extend the flag-list (not VARIABLE)
+`GetCurrentLevelCap()` in FLAG_LIST mode returns the cap for the first UNSET flag in
+an ordered list (`sLevelCapFlagMap`). Because the route is now FORCED (order
+guaranteed), we insert story-flag rows (Rocket Hideout done, Poke Flute got, Silph
+done) between the existing badge rows. Fully automatic (those events already set
+their flags), no per-point setvar, no freeze risk.
+Rejected VARIABLE: it returns `VarGet(cap var)` and sets nothing automatically, so it
+would need a setvar at every badge + champion + story step, and one miss freezes the
+cap (unset reads 0 = no EXP for anyone). Too fragile for no benefit here.
+NOTE: flags.h defines several FRLG story flags as `0` placeholders, so the exact
+flag constants for each cap row are pinned at IMPLEMENTATION time, after verifying
+each is actually set at the intended story moment.
+
+### Implementation checklist (NOT started - needs sign-off per guardrails)
+- [ ] Cap mechanism: extend sLevelCapFlagMap in src/caps.c with story-flag rows
+      (DECIDED: flag-list, not VARIABLE). Confirm final cap numbers first.
+- [ ] Gate 1: blocker NPC at the Rocket Hideout entrance, hidden once FLAG_BADGE04_GET
+      (Rainbow) is set. User places the object in Porymap; I write the script.
+- [ ] Gate 2: blocker NPC at the Silph Co entrance, hidden once FLAG_BADGE05_GET
+      (Soul) is set. User places the object in Porymap; I write the script.
+- [ ] Pick the exact story flags to hang caps on; verify they exist and are set at
+      the right moment; confirm ordering holds under the forced route.
+- [ ] Update this doc + changelog.md in the same PR.
+- [ ] Keep the rival DIALOGUE work (drafts/buhrito.md) separate from this systems PR.

@@ -1,4 +1,4 @@
-# Project: <your game name — rename me>
+# Project: Funky Red (provisional name)
 
 Base: rh-hideout/pokeemerald-expansion, compiled to **FireRed**.
 This is a from-source build; there is NO base ROM in this repo and there

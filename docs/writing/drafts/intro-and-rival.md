@@ -12,10 +12,10 @@ intentionally deferred. Nothing here is in-game yet.
 3. Pre-rival framing text (NEW, to write) - the "pick your nuzlocker rival" setup
 4. Rival pick - 2 forced options (no custom entry)
 
-## Author welcome draft (PENDING GAME NAME)
+## Author welcome draft (GAME NAME: "Funky Red" - provisional / "for now")
 Casual, old-school, no em dashes, "^^" dropped (won't render in gen-3 font):
 
-  "Hi there! Welcome to {GAME NAME}."
+  "Hi there! Welcome to FUNKY RED."   (provisional name; final caps TBD at wiring)
   "This one's made for casual, old-school POKéMON fun."
   "Fire beats grass, grass beats water, and bug beats… whatever."
   "No setup moves. No held items. No mickey mouse strategies."
@@ -43,4 +43,6 @@ Casual, old-school, no em dashes, "^^" dropped (won't render in gen-3 font):
   (save layout + UI). Not raising it. If a rival name ever needs >7 chars, route
   display through ExpandPlaceholder_RivalName by choice var instead.
 - Phase 2 (personalities): branch each rival encounter script on VAR_RIVAL_ID.
-- GAME NAME: still UNSET (also the CLAUDE.md title placeholder).
+- GAME NAME: "Funky Red" (provisional, set by user "for now"). Referenced in-game by
+  Buhrito's Champion intro. CLAUDE.md title updated. STILL TO UPDATE when adopted for real:
+  the actual in-game intro welcome string (currently only drafted here).
