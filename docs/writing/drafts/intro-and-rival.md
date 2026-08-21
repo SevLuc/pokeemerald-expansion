@@ -44,5 +44,5 @@ Casual, old-school, no em dashes, "^^" dropped (won't render in gen-3 font):
   display through ExpandPlaceholder_RivalName by choice var instead.
 - Phase 2 (personalities): branch each rival encounter script on VAR_RIVAL_ID.
 - GAME NAME: "Funky Red" (provisional, set by user "for now"). Referenced in-game by
-  Buhrito's Champion intro. STILL TO UPDATE when adopted for real: the CLAUDE.md title
-  placeholder ("# Project: <your game name - rename me>") and the actual intro welcome string.
+  Buhrito's Champion intro. CLAUDE.md title updated. STILL TO UPDATE when adopted for real:
+  the actual in-game intro welcome string (currently only drafted here).
