@@ -170,7 +170,7 @@ OAK arc, not the rival's - see note). No lose-line (Text_Victory is a dead JP st
   _("NO SETUP" callbacks the intro welcome ("No setup moves"). "Funky Red" = the GAME NAME
   (provisional, confirmed by user); matches the intro welcome. [FLAG: dated])_
 - **Text_RematchIntro (re-enter after clear):** _POST-GAME, skipped for now (user)._
-- **Text_Defeat (you beat him):** `My shit dropped!?`
+- **Text_Defeat (you beat him):** `burrito.exe has crashed`
 - **Text_PostBattle (after you win, before Oak enters):** `How I got the title: Father of the drayano gauntlet? Cause Im him bro! My team here was suspicious but we nuzlock to ball out bro! Thats why we nuzlock at the end of the day! I am gonna call it here for now, but thank god we beat this game bro!`
   _(TONE = DEFLECT (user's call): stays pure hype, so Oak's "love and trust" capstone bounces
   off him rather than being set up - reads as Oak's lesson missing him entirely.
