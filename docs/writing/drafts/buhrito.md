@@ -166,13 +166,16 @@ all badges; he frames it as a "warm-up." High cap (~58 before Champion).
 File: `data/maps/PokemonLeague_ChampionsRoom_Frlg/scripts.inc`
 He beat the E4 first and sits as CHAMPION. Rival beats to write (Oak's speech is the
 OAK arc, not the rival's - see note). No lose-line (Text_Victory is a dead JP string).
-- **Text_Intro (his Champion speech):** `Yooo {PLAYER}! you actually made it here, respect. real talk, I ran the whole E4 first try, blind, no prep. then I built a team that answers every single type. its unloseable bro. so yeah... Im the champ now. number one trainer, global. anyway you came all this way. lets run it.`
-- **Text_RematchIntro (re-enter after clear):** `Yooo you came BACK?? bro I respect the grind. still champ though, nothing changed. unloseable team, number one global, you already know. aight, run it back.`
-- **Text_Defeat (you beat him):** `wait. WAIT. no no rerun it, best of 3. that wasnt supposed to happen, my team was literally unloseable, I did everything by the guide...`
-- **Text_PostBattle (after you win, before Oak enters):** `...theres no rerun this time is there. I cant just reset it. huh. ...ngl bro, I dont think I ever actually PLAYED this. I netdecked the whole run, read every guide, never once just... looked at my own team. I dont even know their names. ...youre the champ. for real. I think I get it now.`
-  _(DRAFT - Claude-drafted; beat 4 CRACKS per user. Pays off the "never knew his own team"
-  running gag and sets up Oak's "love and trust" capstone; hype deflates on purpose so the
-  moment lands. Replace freely.)_
+- **Text_Intro (his Champion speech):** `Yoo whats good {Player}! What you doing here pulling up on me? Last guy that was here sold the game, so im supa locked. Come on! NO SETUP Funky Red bringing 3 shitmons!`
+  _("NO SETUP" callbacks the intro welcome ("No setup moves"). "Funky Red" = GAME NAME? -
+  the title has been an unset placeholder; confirm it matches the intro/title. [FLAG: dated])_
+- **Text_RematchIntro (re-enter after clear):** _POST-GAME, skipped for now (user)._
+- **Text_Defeat (you beat him):** `My shit dropped!?`
+- **Text_PostBattle (after you win, before Oak enters):** `How I got the title: Father of the drayano gauntlet? Cause Im him bro! My team here was suspicious but we nuzlock to ball out bro! Thats why we nuzlock at the end of the day! I am gonna call it here for now, but thank god we beat this game bro!`
+  _(TONE = DEFLECT (user's call): stays pure hype, so Oak's "love and trust" capstone bounces
+  off him rather than being set up - reads as Oak's lesson missing him entirely.
+  "drayano gauntlet" = real romhack-community figure -> [FLAG: release-swap]. Mild profanity
+  ("shitmons") - flag for any release/rating pass.)_
 - Dead string: PokemonLeague_ChampionsRoom_Text_Victory (JP, unreferenced). Off worklist.
 - OAK CAPSTONE (Oak arc, not the rival): OakImDisappointedRival = "you forgot to treat your
   POKeMON with love and trust." Leave for the Oak pass unless user wants it touched here.
