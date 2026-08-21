@@ -155,11 +155,11 @@ Forced-route position: AFTER Koga (5 badges, cap ~33).
 File: `data/maps/Route22_Frlg/scripts.inc` · Battle: `TRAINER_RIVAL_ROUTE22_LATE_*`
 3-beat scene, no lose-line (no_intro). Last fight before the League; both of you have
 all badges; he frames it as a "warm-up." High cap (~58 before Champion).
-- **LateRivalIntro (pre-battle):** `Yo {PLAYER}?? no wayyy you actually made it to the endgame. you got all 8 too? ok ok. aight run me one real quick, im just warming up before I go first-clear the E4. lets gooo!`
-- **LateRivalDefeat (you win):** `bro that was literally a warmup match, doesnt count. I wasnt even locked in.`
-- **LateRivalPostBattle (after you win):** `aight that got me warm though, im so ready. Im finna go run the E4 and take the champ spot before you even get there. gg {PLAYER}, no rematch. Peaceeee!`
-  _(DRAFT - Claude-drafted in Buhrito's voice; replace freely. Sets up the Champion
-  humbling: he grabs the champ spot "before you," the over-confidence Oak punctures.)_
+- **LateRivalIntro (pre-battle):** `Yo {PLAYER}?? no wayyy you actually made it to the endgame. you got all 8 too? ok ok. aight run me one real quick, im just warming up before I go deathless E4 baby. lets gooo!`
+- **LateRivalDefeat (you win):** `bro that was literally a warmup match, doesnt count. I dont even have any pokeballs.`
+- **LateRivalPostBattle (after you win):** `Bro I dont even know what the e4 is, I cant lie. Please tell me there is no Psychic e4.`
+  _(Beat 3 PENDING final pick - user weighing options. Alt candidates in chat; the
+  "worst case I just rerun it, cant be that deep" option best sets up the Champion humbling.)_
 - Dead string: Route22_Text_LateRivalVictory (Japanese, unreferenced). Off worklist.
 
 ## 7. Champion - Indigo Plateau (the final battle)
