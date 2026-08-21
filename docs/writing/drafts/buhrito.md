@@ -142,7 +142,15 @@ lady); consumed at the Route 5/6/7/8 Saffron gate guards.
 
 ## 5. Silph Co. 7F - Saffron
 File: `data/maps/SilphCo_7F_Frlg/scripts.inc` · Battle: `TRAINER_RIVAL_SILPH_*`
-- _GAP - RivalWhatKeptYou, RivalIntro, RivalPostBattle._
+4-beat scene, no lose-line (no_intro). Rocket-occupied Silph, right before Giovanni.
+Forced-route position: AFTER Koga (5 badges, cap ~33).
+- **RivalWhatKeptYou (walk-up opener):** _GAP - still to write._
+- **RivalIntro (pre-battle):** _GAP - still to write._
+- **RivalDefeat (you win):** _GAP - still to write._ FORESHADOW: vanilla nods to "BOSS
+  ROCKET" (Giovanni on 11F); keep a "the boss is next" beat.
+- **RivalPostBattle (after you win):** _GAP - still to write._ IRONY HOOK: vanilla has him
+  JUST NOW "starting to see what's strong and how they evolve" - but Buhrito claimed the
+  whole meta since Oak's Lab; play it as doubling down or hilariously discovering basics.
 
 ## 6. Route 22 - rematch (Earth Badge, before Victory Road)
 File: `data/maps/Route22_Frlg/scripts.inc` · Battle: `TRAINER_RIVAL_ROUTE22_LATE_*`
