@@ -144,13 +144,12 @@ lady); consumed at the Route 5/6/7/8 Saffron gate guards.
 File: `data/maps/SilphCo_7F_Frlg/scripts.inc` · Battle: `TRAINER_RIVAL_SILPH_*`
 4-beat scene, no lose-line (no_intro). Rocket-occupied Silph, right before Giovanni.
 Forced-route position: AFTER Koga (5 badges, cap ~33).
-- **RivalWhatKeptYou (walk-up opener):** _GAP - still to write._
-- **RivalIntro (pre-battle):** _GAP - still to write._
-- **RivalDefeat (you win):** _GAP - still to write._ FORESHADOW: vanilla nods to "BOSS
-  ROCKET" (Giovanni on 11F); keep a "the boss is next" beat.
-- **RivalPostBattle (after you win):** _GAP - still to write._ IRONY HOOK: vanilla has him
-  JUST NOW "starting to see what's strong and how they evolve" - but Buhrito claimed the
-  whole meta since Oak's Lab; play it as doubling down or hilariously discovering basics.
+- **RivalWhatKeptYou (walk-up opener):** `tea speedrun WR` _(callback to the Pokemon Tower TEA gate)_
+- **RivalIntro (pre-battle):** `So this is a fight? ... I hope I have 6 mons in my party... Its all good though they dont know I got fart lead on deck.`
+- **RivalDefeat (you win):** `okay we're trolling`
+- **RivalPostBattle (after you win):** `Giovanni? Giovanni is not a thread bro`
+  _(Naming Giovanni here is fine/in-character meta-knowledge; canon-safe because it names
+  the Rocket boss only, not the protected boss=Viridian-leader reveal.)_
 
 ## 6. Route 22 - rematch (Earth Badge, before Victory Road)
 File: `data/maps/Route22_Frlg/scripts.inc` · Battle: `TRAINER_RIVAL_ROUTE22_LATE_*`
