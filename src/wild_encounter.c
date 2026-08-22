@@ -1101,6 +1101,10 @@ bool8 IsWildLevelAllowedByRepel(u8 wildLevel)
 {
     u8 i;
 
+    // Infinite-repel toggle (Start menu): while set, no wild encounter is allowed.
+    if (FlagGet(FLAG_TOGGLE_NO_ENCOUNTERS))
+        return FALSE;
+
     if (!REPEL_STEP_COUNT)
         return TRUE;
 

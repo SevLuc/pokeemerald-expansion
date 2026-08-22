@@ -146,8 +146,10 @@ CinnabarIsland_PokemonCenter_1F_Text_CinnabarGymLocked::
 	.string "somewhere.\p"
 	.string "Could it be in that burned-out\n"
 	.string "mansion?\p"
-	.string "The GYM LEADER's friend used to\n"
-	.string "live there, they say.$"
+	.string "The GYM LEADER worked there, once.\n"
+	.string "Him and one other.\p"
+	.string "Only one of them walked out\n"
+	.string "of the fire whole.$"
 
 CinnabarIsland_PokemonCenter_1F_Text_VisitUnionRoom::
 	.string "Do you have lots of friends?\p"

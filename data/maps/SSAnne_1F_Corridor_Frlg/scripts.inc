@@ -12,10 +12,9 @@ SSAnne_1F_Corridor_EventScript_Sailor::
 SSAnne_1F_Corridor_Text_LeStrongSilentType::
 	.string "Bonjour!\n"
 	.string "I am le waiter on this ship!\p"
-	.string "I will be happy to serve you\n"
-	.string "anything you please!\p"
-	.string "… … …\n"
-	.string "Ah! Le strong silent type!$"
+	.string "She is a fine ship now, non?\p"
+	.string "…She was not always.\n"
+	.string "I do not speak of before.$"
 
 SSAnne_1F_Corridor_Text_PassengersAreRestless::
 	.string "The passengers are restless from\n"

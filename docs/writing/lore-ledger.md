@@ -41,11 +41,25 @@ truth until they're updated):
   in-game arcs; Giovanni's was already reflavored. Their world-NPC/gym scripts were
   already in-game from earlier work (verified). Coy level preserved (Brock never
   states divorce; Erika stays contradictory; Blaine's MEWTWO stays implied).
+- Stage 2d - distributed E4/Oak gaps placed by overwriting existing generic NPCs
+  (this pass): OAK-05 (Route 15 EXP SHARE aide), OAK-06 (Oak's Lab Aide3), OAK-07
+  (Prof. Oak mid-game RatePokedex prepend), OAK-08 + AGATHA-08 (Prof. Oak post-game
+  DontStartNationalDexScene, folded), OAK-10 (Route 11 ITEMFINDER aide), AGATHA-03
+  (Lavender PokéCenter Gentleman), AGATHA-04 (Oak's Lab Aide1), LANCE-06 (Oak's Lab
+  Aide2), LORELEI-08 (Four Island FatMan), BRUNO-03/04 (Ember Spa OldMan/BaldingMan2),
+  LANCE-03/04 (Seven Island Mart Fisher/Lass), LANCE-05 (Cinnabar Lab Research Room
+  Scientist). Oak's Lab used three DIFFERENT aides for the three aide beats; the two
+  Oak-himself beats are separate branches on Prof. Oak. Aide reward/YES-NO flows and
+  famechecker calls were preserved; only flavor text swapped.
 REMAINING:
-- Oak: the other route aides (Route 10 / 11 etc.) stay vanilla-functional so the
-  nuzlocke gag isn't repeated; the starter-choice scene stays mostly instructional.
-- Stage 3 (needs Porymap objects): every fragment whose Source is "new" (the Pallet
-  photo, new Four Island / Icefall / reception islanders, etc.).
+- OAK-09 and LORELEI-06 were later PLACED on nearby existing NPCs (Route 1 boy;
+  Four Island Pokemon Center woman) rather than new objects. LORELEI-06 was reworded
+  content-safe (dropped the "a child, the ice, the water" detail). See their rows.
+- Stage 3 (needs Porymap objects): the remaining fragments whose Source is "new"
+  (e.g. the Pallet photo object, any beat with no spare NPC on its map).
+- Note: BRUNO-03/04 moved from Kindle Road/Mt Ember (all-trainers, no spare flavor NPC)
+  to Ember Spa patrons on the same island - spa-goers reporting mountain sightings, so
+  SHOW-DON'T-TELL and Bruno's One Island footprint are preserved.
 
 ## Brock - "the phones" gag + serial-divorcé history
 Concept: Brock's gym is cluttered with ringing phones. Surface gag: he's always
@@ -67,16 +81,27 @@ straight (one wink) so the FIGHT still lands.
 |---|---|---|---|---|---|---|---|---|
 | BROCK-01 | Brock (path, vague) | Lass: "Big heart, that one. Gives it away a little too easy." | Lass (existing) | Pewter City | none (pre-gym) | 1 | in-game | - |
 | BROCK-02 | Brock (path, vague) | Fat Man (append to his Brock praise): "Mind you, the man's got history. You'll see." | Fat Man (existing) | Pewter City | none (pre-gym) | 2 | in-game | - |
-| BROCK-03 | Brock (path, vague) | "Off to challenge BROCK? Everyone wants a piece of him. His lawyers, mostly." | new NPC near gym | Pewter City | none (pre-gym) | 3 | drafted | - |
-| BROCK-03b | Brock (path, vague) | Woman: "Oh, I knew BROCK. Once. …Briefly." | new NPC (woman) | Pewter City | none (pre-gym) | 3 | drafted | - |
-| BROCK-03c | Brock (path, vague) | Kid: "Mom says BROCK's real generous. Every single month. I don't get it." | new NPC (kid) | Pewter City | none (pre-gym) | 3 | drafted | - |
+| BROCK-03 | Brock (path, vague) | "Off to challenge BROCK? Get in line. Everyone wants a piece of him. His lawyers, mostly." | Bug Catcher (existing, repurposed; ungated base branch of the progressive gossip NPC) | Pewter City | none (pre-gym) | 3 | in-game | - |
+| BROCK-03b | Brock (path, vague) | Woman: "Oh, I knew BROCK. Once. …Briefly." | Viridian Mart woman shopper (existing, repurposed) | Viridian City Mart | none (pre-gym) | 3 | in-game | - |
+| BROCK-03c | Brock (path, vague) | Adult gossip: "BROCK? Generous, they say. Sends a payment every month, regular as clockwork. …To who? Best not to ask." | Pewter House2 Old Man (existing, repurposed) | Pewter City House 2 | none (pre-gym) | 3 | in-game | - |
 | BROCK-04 | Brock (gag) | Gym guide: the phones ring constantly; Brock says just let 'em ring. | Gym guide | Pewter Gym | none | 4 | in-game | - |
 | BROCK-05 | Brock (gag) | Trainer (Liam): each phone has its own ringtone, "that's a filing system." | Pewter Gym trainer | Pewter Gym | none | 5 | in-game | - |
 | BROCK-06 | Brock (reveal, coy) | Trainer (Liam) on defeat: "Six phones, six... 'previous sponsors.'" | Pewter Gym trainer | Pewter Gym | none | 6 | in-game | [FLAG: canon-check] |
 | BROCK-07 | Brock (intro) | Goofy-romantic ramble ("a marriage or two"; contract advice) cut off by ringing phones, then "...Ignore that. Let's battle." | Brock | Pewter Gym | none | 7 | in-game | [FLAG: canon-check] |
-| BROCK-08 | Brock (why leader) | "Ever wonder why he takes on every trainer? Challenge fees. Alimony doesn't pay itself." | Pewter City NPC | Pewter City | after 1st badge | 8 | drafted | [FLAG: canon-check] |
-| BROCK-09 | Brock (throwback) | "Heard he's fielding challengers day and night. Heard he got married again, too." | later-town NPC | TBD | after ~6th badge | 9 | idea | [FLAG: canon-check] |
-| BROCK-10 | Brock (throwback) | "Brock's still at that gym. Still on the phone. Some things are eternal." | later-town NPC | TBD | post-E4 | 10 | idea | - |
+| BROCK-08 | Brock (why leader) | "Ever wonder why he takes on every trainer? Challenge fees. Alimony doesn't pay itself." | Bug Catcher (existing, repurposed; FLAG_BADGE01_GET branch of the progressive gossip NPC) | Pewter City | FLAG_BADGE01_GET (1st badge) | 8 | in-game | [FLAG: canon-check] |
+| BROCK-09 | Brock (throwback) | "Heard he's fielding challengers day and night. Heard he got married again, too. Connect the dots." | Bug Catcher (existing, repurposed; FLAG_BADGE06_GET branch of the progressive gossip NPC) | Pewter City | FLAG_BADGE06_GET (~6th badge) | 9 | in-game | [FLAG: canon-check] |
+| BROCK-10 | Brock (throwback) | "Brock's still at that gym. Still on the phone. Some things are just eternal." | Bug Catcher (existing, repurposed; FLAG_SYS_GAME_CLEAR branch of the progressive gossip NPC) | Pewter City | FLAG_SYS_GAME_CLEAR (post-E4) | 10 | in-game | - |
+| BROCK-11 | Brock (patience, coy) | Museum scientist: the stones waited an age to be seen; "ROCK taught him to wait." | Museum_1F Scientist2 (existing) | Pewter Museum 1F | none (pre-gym) | 3 | in-game | - |
+| BROCK-12 | Brock (history, coy) | Old-timer recalls BROCK "before the phones started ringing"; "the man's got history now." | Museum_1F Old Man (existing) | Pewter Museum 1F | none (pre-gym) | 3 | in-game | - |
+| BROCK-13 | Brock (hard exterior, coy) | Man: only BROCK could read this stone; "hardest thing in PEWTER is that man's outside. …Softer within." | Museum_2F Man (existing) | Pewter Museum 2F | none (pre-gym) | 3 | in-game | [FLAG: canon-check] |
+| BROCK-14 | Brock (phones, nostalgia) | Old man: one house phone used to be a marvel; "see the wall of them at the GYM now. …All ringing." | Museum_2F Old Man (existing) | Pewter Museum 2F | none (pre-gym) | 4 | in-game | - |
+| BROCK-15 | X-NUDGE Misty (child-safe) | Little Girl daydream: "when I'm big, I'll train WATER POKéMON up in CERULEAN, like that tomboy girl." No Brock lore (child). | Museum_2F Little Girl (existing) | Pewter Museum 2F | none | - | in-game | - |
+| BROCK-16 | Brock (nurturer) | The dad, near his kid: "BROCK could catch her one in a blink. Gentlest hand I ever saw." (no divorce; near a child) | Museum_2F Balding Man (existing) | Pewter Museum 2F | none | - | in-game | - |
+| BROCK-17 | X-NUDGE Giovanni (civic blind spot) | Adult trader keeps the BADGE/obedience hint, adds: VIRIDIAN GYM "stays shut, LEADER's always away. On business… Whoever he is. A fine fellow, I'm sure." | House1 Balding Man (existing) | Pewter House 1 | none (pre-gym) | 2 | in-game | - |
+| BROCK-18 | Brock (phones, contrast) | Flustered gentleman rattled by one call; "BROCK keeps a whole wall of them. Never loses his cool." (keeps Rocket/Mt Moon flavor) | PokeCenter_1F Gentleman (existing) | Pewter Pokémon Center | none | 5 | in-game | - |
+| BROCK-19 | Brock (innocent gag) | Drowsy youngster: "they say BROCK sleeps through anything. 'Cept a ringing phone." (kid-safe) | PokeCenter_1F Youngster (existing) | Pewter Pokémon Center | none | - | in-game | - |
+| BROCK-20 | Brock (contract wisdom) | Buyer's-remorse youngster: "should've read the fine print. BROCK says: read it ALL first." (kid-safe; no marriage detail) | Mart Youngster (existing) | Pewter Mart | none | - | in-game | - |
+| BROCK-21 | Brock (patience creed, coy) | Boy: "BROCK never gives up on a POKéMON. …On people, that's another story." (kid-safe coy register; no alimony detail) | Mart Boy (existing) | Pewter Mart | none | 3 | in-game | [FLAG: canon-check] |
 
 Consistency notes:
 - Path fragments (01-03) are UNGATED and pre-gym, and stay vague so the punchline
@@ -92,6 +117,24 @@ Consistency notes:
   gym. See ERIKA-EXES. Kept coy in both places ("PEWTER number," "let it ring,"
   "generous every single month") so the phones in Pewter and the ladies in Celadon
   quietly rhyme. This is the distributed answer to "where do the exes go."
+- PLACEMENT (BROCK-03/08/09/10): Pewter City has only ONE spare generic
+  townsperson (the vanilla BUG CATCHER at 33,27; all others are Brock-flavored
+  keepers or utility/plot). Rather than add objects, that single NPC was
+  repurposed as a PROGRESSIVE gossip: it swaps its line by the highest progression
+  flag set. Base/pre-badge = BROCK-03 (ungated path line); FLAG_BADGE01_GET =
+  BROCK-08; FLAG_BADGE06_GET = BROCK-09; FLAG_SYS_GAME_CLEAR = BROCK-10. Gate
+  order checked most-progressed-first so late flags win. NOTE: post-E4 uses
+  FLAG_SYS_GAME_CLEAR (the FRLG "beat the Champion" gate), NOT FLAG_IS_CHAMPION
+  (which is Hoenn-link-related in this codebase).
+- CONTENT NOTE (BROCK-03c): the "generous every month" line is ADULT alimony to an
+  ex only. It must NOT be voiced by a child or framed as a kid's parent / child
+  support - keep minors entirely out of the divorce arc. Placed on an adult (Pewter
+  House2 Old Man); 03b placed on the Viridian Mart woman. Both scattered outside the
+  Pewter overworld since it had no spare female/child NPC.
+- (superseded) earlier note - no spare female/child NPC exists in
+  Pewter City, and the personas need matching sprites. Left drafted; they would
+  require a new object (out of scope: no new objects). Carry them into a later
+  Pewter map pass if objects are ever added, or fold into another town.
 
 ## Misty - tomboy battler + Psyduck (her first POKéMON)
 Concept: youngest Sensational Sister who does the real battling (sisters do the
@@ -114,6 +157,14 @@ trainers; town NPCs carry ambient respect/jokes. Full lines: drafts/misty.md.
 | MISTY-CHORUS | whole-area gag | Every road trainer drops one oblique Misty/PSYDUCK line (Timmy, Ali=egg, Ethan, Shane on Rt24; Dan, Flint, Kelsey, Haley, Franklin=egg on Rt25) + Diana/Luis verify. Full list: drafts/misty.md. | Route 24/25 + gym trainers | Cerulean area | none | - | in-game | - |
 | MISTY-EGG | deniable Togepi seed | Ali (Rt24): "Found an EGG by the pool once. She took it before I could blink." / Franklin (Rt25): "She's been guarding something down by the shore." | Ali, Franklin | Nugget Bridge / Route 25 | none | - | in-game | [FLAG: canon-check] |
 | MISTY-BILL | PAYOFF (the one non-coy telling) | Freed Bill explains the whole Misty/PSYDUCK story in depth: her PSYDUCK wandered into his Cell Separation System, mashed buttons, fused him with a CLEFAIRY, walked out. Psyduck = her first mon + opposite; why she trains only WATER (a Psyduck wanders off, a GOLDEEN stays in the pool, "a zen state of mind"); never lets it go. Re-talk button: "…don't ask me why the machine was set to a CLEFAIRY." | Bill (Sea Cottage) | Route 25 Sea Cottage | after freeing Bill | 8 | in-game | - |
+| MISTY-08 | Misty (sisters/looks) | Woman: the SENSATIONAL SISTERS keep everything spotless and dry for the shows; "not MISTY. That girl's forever soaked. Lives in the pool." | Cerulean Woman (existing) | Cerulean City | none (pre-gym) | 3 | in-game | - |
+| MISTY-09 | Psyduck (duck, coy) | Slowbro-lass obedience beat, appended: "Even MISTY can't make her silly one mind. Mine only loafs, though." (functional obedience tutorial preserved) | Cerulean Lass (existing) | Cerulean City | none | 3 | in-game | - |
+| MISTY-10 | X-NUDGE Giovanni (double life, coy) | Policeman keeps the Rocket-robbery beat, adds: "the one giving the orders? No one's ever seen his face. A clean-handed man, somewhere." | Cerulean Policeman (existing) | Cerulean City | none | 4 | in-game | [FLAG: canon-check] |
+| MISTY-11 | Psyduck (duck, child-safe) | Little Boy keeps the CUT hint, adds: "that SLOWBRO's near as stubborn as MISTY's PSYDUCK!" | Cerulean Little Boy (existing) | Cerulean City | pre-SS Ticket branch | 3 | in-game | - |
+| MISTY-12 | Psyduck (chasing the duck) | Gentleman: "you won't find MISTY in town half the time. Off chasing that PSYDUCK again. It never stays put." | Cerulean PokeCenter Gentleman (existing) | Cerulean Pokémon Center | none | 3 | in-game | - |
+| MISTY-13 | X-NUDGE Surge (Vermilion foreshadow) | Rocker: head south to VERMILION, loud fella, electric types; "that city wasn't always so free, they say. Ask him. Or don't." | Cerulean PokeCenter Rocker (existing) | Cerulean Pokémon Center | none | 3 | in-game | [FLAG: canon-check] |
+| MISTY-14 | Misty (why water, oblique) | Youngster keeps the Bill/famechecker context, adds: "MISTY only ever keeps WATER types, though. …I wonder why." (kid-safe) | Cerulean PokeCenter Youngster (existing) | Cerulean Pokémon Center | none | 5 | in-game | - |
+| MISTY-15 | Misty (sisters/romance + egg, oblique) | Cape man: "the SISTERS bring dates up here. MISTY brings that duck. …And whatever she's been guarding by the shore. Won't say what." (Togepi never named) | Route 25 Man (existing) | Route 25 | none | 5 | in-game | [FLAG: canon-check] |
 
 ## Lt. Surge - goofy war-hero + secret liberator of Vermilion
 Concept: loud macho war-hero on the surface ("HYPER BEAM to the dome-ski"); under
@@ -147,6 +198,18 @@ mainline plot - never claim Rocket is finished. Full lines: drafts/surge.md.
 | SURGE-07b | Surge (via ex-soldier) | Tucker (served under Surge) defeat: "…But the LT's faced worse. Far worse." | Tucker (gym trainer) | Vermilion Gym | none | 7 | in-game | [FLAG: canon-check] |
 | SURGE-08 | Why gym leader | Woman post-badge branch: "He could have run this city. Chose to mind a gym instead. …Him all over." | Woman (existing; post-badge) | Vermilion City | FLAG_BADGE03_GET | 8 | in-game | [FLAG: canon-check] |
 | SURGE-GIMMICK | Trash-can trial | The famous "hated" trash-can puzzle reframed as Surge's deliberate TEST OF DISCIPLINE + ENDURANCE. All gym trainers + Gym Guy + the puzzle messages sell it ("Not cruelty. Discipline." / "locked to see if you'll quit." / "Composure, or start over."). Functional hints (2nd lock adjacent, switches in cans, type tip) preserved. | Dwayne/Baily/Tucker/Gym Guy/puzzle | Vermilion Gym | none | 7 | in-game | - |
+| SURGE-09 | Surge (earned composure) | Mart CooltrainerF (rewrite): a POKéMON's only as good as its TRAINER; "the LT's all thunder till it counts. Then you see why we sleep easy here." | Mart CooltrainerF (existing) | Vermilion Mart | none | 3 | in-game | - |
+| SURGE-10 | Surge (freed electric mons) | Fan Club FatMan (append to Pikachu-tail brag): "notice this whole city dotes on electric POKéMON? There's a reason. Ask the LT sometime. …Or don't." | Fan Club FatMan (existing) | Vermilion Fan Club | none | 3 | in-game | - |
+| SURGE-11 | Surge (loud-contrast) | Fan Club WorkerF base branch (append): "loud men, this city. The CHAIRMAN, the LT… you get used to it. The loud ones did the quiet work once." (GameClear/famechecker branch untouched) | Fan Club WorkerF (existing) | Vermilion Fan Club | none | 3 | in-game | - |
+| SURGE-12 | Surge (present-day freedom) | House3 Boy (append to Pidgey-mail line): "mail leaves VERMILION free as you please now. Grandpa says that's new." | House3 Boy (existing) | Vermilion House 3 | none | 3 | in-game | - |
+| SURGE-13 | S.S. Anne (crew pride, dark past) | 1F Corridor waiter (rewrite, French voice kept): "she runs proud these days, non? Was not always a ship to serve on. …You ask no more." | 1F Corridor WorkerM/waiter (existing) | S.S. Anne 1F | none | 4 | in-game | - |
+| SURGE-14 | S.S. Anne (hard hand) | 2F Corridor Sailor (rewrite of luxury-liner line): "she runs clean now, top to keel. Took a hard hand to make her so." | 2F Corridor Sailor (existing) | S.S. Anne 2F | none | 5 | in-game | - |
+| SURGE-15 | Build Captain payoff (keeps CUT hint) | 3F Corridor Sailor (rewrite): keeps "the CAPTAIN even teaches CUT" (functional), adds "he was aboard through all of it. Want to know how VERMILION turned? He's the one to ask." | 3F Corridor Sailor (existing) | S.S. Anne 3F | none | 5 | in-game | - |
+| SURGE-16 | S.S. Anne (freedom) | Deck Youngster (append to depart line): "sails right out of VERMILION, free as you please. Dad says that used to mean something." | Deck Youngster (existing) | S.S. Anne Deck | none | 5 | in-game | - |
+| SURGE-17 | Ties to Captain payoff | 2F Room6 Woman1 (rewrite of "pale/sick"): "he carries a great deal, that man. This whole ship owes him, and he knows it." | 2F Room6 Woman1 (existing) | S.S. Anne 2F Room6 | none | 5 | in-game | - |
+| SURGE-18 | X-NUDGE Giovanni (faceless boss) | Mart BaldingMan keeps the ROCKET-trafficking speech, appends: "the trade never truly stopped, it only changed hands. And the man at the top? None of us have ever seen his face." | Mart BaldingMan (existing) | Vermilion Mart | none | 4 | in-game | [FLAG: canon-check] |
+| SURGE-19 | X-NUDGE Misty (only-water, oblique) | Fan Club Woman (rewrite of Seel dote): "it never strays, that's why I love it. They say a leader up in CERULEAN feels just so. Keeps only what stays." | Fan Club Woman (existing) | Vermilion Fan Club | none | 3 | in-game | - |
+| SURGE-20 | X-NUDGE Giovanni (double life) | 1F Room1 Gentleman keeps the Global Police / ROCKET-trail beat, appends: "we know the face their boss shows the world. Not the one beneath it. This ship remembers the underneath." | S.S. Anne 1F Room1 Gentleman (existing) | S.S. Anne 1F Room1 | none | 4 | in-game | [FLAG: canon-check] |
 
 Consistency notes:
 - The S.S. ANNE trial and the gym trash-can trial now rhyme: both are Surge testing
@@ -158,6 +221,18 @@ Consistency notes:
 - No gym-gate guard NPC: the vanilla Cut-tree already gates the gym (HM01 is only
   usable once the Captain awards it), so the trial framing lives entirely in the
   Captain's reveal and the ambient lines - no extra enforcement object needed.
+- FILL PASS (SURGE-09..20): 12 vanilla flavor NPCs overwritten across Vermilion +
+  S.S. Anne (fill-list-brock-misty-surge.md). Beats rotated per map so none parrot:
+  composure (09), freed-electric (10), loud-contrast (11), Captain-payoff pointers
+  (15/17), and freedom threaded across DIFFERENT maps only (House3 Boy, Deck
+  Youngster, 1F Corridor waiter=pride, 2F Corridor=hard-hand). 3 cross-nudges:
+  2 Giovanni faceless/double-life (18 Mart, 20 SS Anne 1F Room1), 1 Misty only-water
+  (19 Fan Club Woman). Functional info preserved by APPEND on the two Rocket-speech
+  NPCs (18/20) and the CUT-teaching hint kept on the 3F sailor (15).
+- SKIPPED (honored keep-vanilla / LOW-fit + anti-saturation): Vermilion House3 Lass
+  (would repeat the same Pidgey-mail freedom beat as the Boy on one map); S.S. Anne
+  Deck BaldingMan (pure seasick filler, no Surge fit); S.S. Anne 1F Room2 Woman
+  (LOW keep-vanilla candidate; a 4th ship freedom beat would over-saturate the arc).
 
 ## Erika - the Sleeping Enigma (mystique by design; no plain telling)
 Concept: the gentle, ever-dozing flower-princess is the subject of Kanto's wildest
@@ -191,6 +266,10 @@ menacing grunt spooked by a florist; a dozer who gave an old man insomnia.
 | ERIKA-ROCKET+ | Facet: even Rocket steers clear (2nd) | Rocket Grunt 2 (city): "Not near the flower district. We don't go there. Boss's rule. Don't ask." | Rocket Grunt 2 (existing) | Celadon City | none | 5 | in-game | [FLAG: canon-check] |
 | ERIKA-BIKERS | GIMMICK: the bikers who fled | The Route 16 (Cycling Road, west of Celadon) bikers abandoned the city in terror of the perfume/medicine master and now camp happily on the route with their beloved POISON types. Light running gag: they gloat about dodging CELADON taxes. Lao (fled + tax wink), Ruben ("my GRIMER hid behind me"), Hideo (keeps the VERMILION-detour hint + "gives me the shivers"), Camron ("poison that scared off even US"). Reflavor of existing biker trainers; no relocation needed (they're already on Rt16). | Route 16 bikers (Lao/Ruben/Hideo/Camron) | Route 16 | none | 6 | in-game | - |
 | ERIKA-EXES | GIMMICK: Brock's exes take refuge | The "ladies only" gym is where Brock's "previous sponsors" end up; ERIKA hosts them all and is NOT one herself. COY per the Brock arc (never "ex-wife/divorce"): Kay ("she never had a PEWTER number herself; just keeps the door open"), Lori ("the last one? generous, every single month, even now"), Mary ("let it ring, dear; a man in PEWTER, he always calls"). "PEWTER number" + "let it ring" tie straight back to Brock's ringing-phone gym. CROSS-LINK: BROCK arc (this is the distributed payoff for "where the exes go"). | Gym trainers Kay/Lori/Mary | Celadon Gym | none | 7 | in-game | [FLAG: canon-check] |
+| ERIKA-09 | Facet reach: perfume calms (visitor) | Hotel Beauty (vacationer): can't say why the city "sits so easy" on her; "they say it's on the wind. …I've stopped asking why." Perfume-calms felt from the outside; ERIKA unnamed. | CeladonCity_Hotel Beauty (existing) | Celadon Hotel | none | 2 | in-game | - |
+| ERIKA-10 | Facet: perfume-as-real-gift / she chooses | Dept Store 4F Man buying a POKé DOLL for his girlfriend: what she really wants "isn't sold here. One of HER perfumes… You don't buy those. She picks who gets one." Perfume mystique + the "she decides who gets those" beat (echoes ERIKA-POISON+); ERIKA unnamed. | CeladonCity_DepartmentStore_4F Man (existing) | Celadon Dept Store 4F | none | 1 | in-game | - |
+| ERIKA-11 | Facet: ladies-only refuge (2nd, oblique) | Dept Store Roof Cooltrainer M: his TRAINER sister "ran off to that flower GYM… came home different. Quieter, steadier. Won't say a word about what goes on past the door." Refuge/school shown obliquely; never states what she learns. | CeladonCity_DepartmentStore_Roof CooltrainerM (existing) | Celadon Dept Store Roof | none | 4 | in-game | - |
+| ERIKA-BIKERS2 | GIMMICK reach: bikers-who-fled (inside + Route 17) | Seen from within Celadon: PC Youngster keen to join the road gang, notes they "won't set foot past the flower shops. Nobody'll tell me why." Route 17 (Cycling Road toward Fuchsia) extends the fled-bikers gag distinct from Route 16: Billy (swagger-over-dread, "we don't do the city no more… not with what's growing in that garden"), Corey (the tax-dodge gag, "no man sends CELADON a single coin… cheaper, and, uh, safer"). | CeladonCity_PC 1F Youngster + Route 17 Billy/Corey (existing) | Celadon Pokémon Center, Route 17 | none | 6 | in-game | - |
 
 Consistency notes:
 - NO plain telling anywhere - that is the whole point. If a future line "solves"
@@ -250,6 +329,8 @@ Safari-Zone-nature contrast is all vanilla. No Rocket overlap.
 | KOGA-REVEAL | Gym insiders = the twist | Kirk (ex-magician): "He hired me for the old trade. Misdirection. The costume, the maze. Look here, so you don't look there." Gym Guy: the invisible walls repel protesters ("they wander an hour and leave too hoarse to bother"). Shawn: "Spectacle and smoke. One you watch. One you breathe." | Kirk, Gym Guy, Shawn (gym trainers) | Fuchsia Gym | after their battle | 8 | in-game | - |
 | KOGA-SELF | The mask slips | Koga (post-battle, after the archetypal terror intro): "You fight well. KOGA INDUSTRIES could use talent. The lights of KANTO won't keep themselves lit." | Koga | Fuchsia Gym | after his battle | 9 | in-game | [FLAG: canon-check] |
 | KOGA-ROUTES | The whole area argues | Bordering routes each carry all three stances. Route 15: Olivia (PRO), Chester (ANTI, "smokestacks from the rise"), Ernest (RESIGNED, "you'll do it by his lamplight"). Route 18: Ramiro (PRO), Wilton (ANTI), Jacob (RESIGNED). Route 19 (water): Richard (PRO), Reece (ANTI, "something's in the water"), Tony (RESIGNED, "the tide still comes in gray"). | Route 15/18/19 trainers | Routes 15, 18, 19 | none | 10 | in-game | - |
+| KOGA-06 | RESIGNED (one-source dependence) | Fuchsia PC Man, appended to the raise-many-mons tutorial: "A whole city can run off one POKéMON's breath, and does. You don't raise a fuss… you just breathe it in." A shrug, not a speech; poison-as-civic without repeating the "flip his switches" beat (KOGA-04). KOGA unnamed. Functional training-advice preserved. | FuchsiaCity_PokemonCenter_1F Man (existing) | Fuchsia Pokémon Center | none | 3 | in-game | - |
+| KOGA-XNUDGE | X-NUDGE (Koga's smoke reaches Celadon) | Celadon PC Cooltrainer F rode up from FUCHSIA: "Smell that on my jacket? That's home. The smoke gets in everything. Nice to breathe air that's just… air, for once." Oblique industrial foreshadow of KOGA from OUTSIDE his city; no names. Keeps the FUCHSIA / CYCLING ROAD detail. | CeladonCity_PokemonCenter_1F CooltrainerF (existing) | Celadon Pokémon Center | none | 3 | in-game | - |
 
 Consistency notes:
 - Koga's own battle intro/defeat stay archetypal ninja-terror; the CEO only leaks
@@ -289,6 +370,14 @@ clear and the town exhales.
 | SABRINA-GYM | Possessed puppets / false hints | 7 gym trainers each give a contradictory false direction; defeats are lucid flickers. Gym Guide: "Trust NO ONE in this gym. …Not even me." (one truth slips: FIGHTING folds to PSYCHIC). | Gym trainers + Gym Guide | Saffron Gym | none | 6 | in-game | - |
 | SABRINA-SELF | Cold intro -> the laugh | Intro: cold possessor ("All of SAFFRON, folded quiet within me… a small, still place for you"). Defeat: she LAUGHS, blurts "Absolute cinema!!" in the delirium, then eases into sincere surprise/relief ("I can FEEL again… that warmth, it is feeling itself… surprise, true surprise… it does not hurt"); the seal breaks, the vanished wake unharmed ("You broke the spell"). Post: warm, restored, "no one recalls the dark. …my last gift to them." | Sabrina | Saffron Gym | none | 7 | in-game | [FLAG: dated] |
 | SABRINA-FREED | Payoff / restoration | Mr. Psychic (after): "You made her LAUGH… the vanished woke. The sunny girl is in there still. You gave SAFFRON back its daughter." Lass/Worker after: everyone home, no memory, no grudges. Gym Guide post-victory: "the whole town just breathed out." | Mr. Psychic, Lass, Worker, Gym Guide (after) | Saffron City / Gym | after FLAG_DEFEATED_SABRINA | 8 | in-game | - |
+| SABRINA-05 | Dread seed (relief curdles) | Saffron overworld Youngster (kid, single-state): the Rockets left, but "it's so quiet now. Too quiet… like the whole street is holding its breath. I want it to stop." First ambient dread; innocent register. No after-branch added (kept text-only). | SaffronCity Youngster (existing) | Saffron City | none | 1 | in-game | - |
+| SABRINA-06 | Outsider's eye (sleepwalkers) | Saffron overworld Boy (tourist): town looks fine, but "everyone walks like they're half asleep. Ask them why and they just… smile at you." Un-alarmed, which makes it eerier. | SaffronCity Boy (existing) | Saffron City | none | 1 | in-game | - |
+| SABRINA-07 | Warm light in a cooling town | Saffron House Lass: her pen-pal "stopped writing back… right when folks started vanishing. So I keep writing anyway. And I keep a lamp lit in the window." Warmth vs. dread; keeps the "don't read my letter" gag. | SaffronCity_House Lass (existing) | Saffron City House | none | 2 | in-game | - |
+| SABRINA-08 | Dolls thread (child, innocent) | Saffron House Youngster (kid): cheerfully buying a POKé DOLL while "the grown-ups get all weird about dolls lately. Won't say why. It's just a doll! …Right?" Innocent; reader supplies the chill. Extends SABRINA-03. | SaffronCity_House Youngster (existing) | Saffron City House | none | 3 | in-game | - |
+| SABRINA-09 | Mother's worry (the mirror) | Copycat's Mom: lately the girl won't go out, "just sits at the mirror. Making face after face at herself. Like she's holding on to herself." Coy town-unease; SABRINA unnamed. | SaffronCity_CopycatsHouse_1F CopycatsMom (existing) | Copycat's House 1F | none | 4 | in-game | - |
+| SABRINA-10 | Un-mimicable face (setup) | Copycat's Dad: "She can do anyone in SAFFRON. Voice, face, the walk. Anyone. There's just one person she won't even try. Goes quiet if you ask." Sets up SABRINA-04 upstairs; SABRINA unnamed. | SaffronCity_CopycatsHouse_1F CopycatsDad (existing) | Copycat's House 1F | none | 4 | in-game | - |
+| SABRINA-11 | Child fan (warm counterweight) | Fan Club Little Girl (base admiration line only; branch flow preserved): still wants to be "a psychic girl, just like her," with one worried flicker: "She used to smile at me when I waved. She doesn't anymore. I hope she's okay." Adores SABRINA as she was. | SaffronCity_PokemonTrainerFanClub LittleGirl (existing) | Saffron Trainer Fan Club | none | 1 | in-game | - |
+| SABRINA-12 | Marsh-Badge tie (cold power) | Saffron PC Woman, appended to the growth-rate tutorial: "Let one grow past your hand… and it stops listening. They say that's what happened to HER. The power outgrew the girl. …Went cold in her hands." Ties over-level disobedience to Sabrina's cold; functional mechanic info preserved; SABRINA unnamed. | SaffronCity_PokemonCenter_1F Woman (existing) | Saffron Pokémon Center | none | 5 | in-game | - |
 
 Consistency notes:
 - The Marsh Badge mechanic (over-level POKéMON turn disobedient) is tied to her arc:
@@ -327,6 +416,10 @@ Cave. Full lines: drafts/blaine.md.
 | BLAINE-PAYOFF | Old colleague tells it plainly | Lab Entrance scientist: "BLAINE? He was one of us. FUJI's sharpest. The old MANSION team. Then the thing we grew slipped its chains and burned it all down. He never touched science again. …Only questions now." Fuji photo: "…beside him, younger, unburned: BLAINE. Two friends who made something they could not unmake." | Lab scientist + Fuji photo (existing) | Cinnabar Pokemon Lab | none | 5 | in-game | [FLAG: canon-check] |
 | BLAINE-SELF | The guilt leaks | Intro leak, one clean image ("I have seen it warm a home… and swallow one whole"). Defeat: "burned down to nothing… I have watched that happen before. To everything I built." Badge: "Great power, in a young hand. …Mind what you do with it. I did not, once." TM: "never forget it can burn more than you aim it at." | Blaine | Cinnabar Gym | none | 6 | in-game | - |
 | BLAINE-RUMORS | Kanto-wide rumor decay | The mansion fire + the fleeing creature become a game of telephone across Kanto, decaying by distance; none name Blaine/Fuji/Mewtwo. EYE-WITNESSES (vivid, first-hand) on the water by Cinnabar: Swimmer Missy (Rt20), Swimmer Spencer (Rt21 N), Fisher Jack (Rt21 S) - "something rose from the smoke, went north over the sea, never came down." GARBLED (far -> more wrong): Pallet Fat Man (researchers built something they couldn't hold; Oak goes quiet), Vermilion Old Man 1 (a stretch of sea sailors won't cross), Viridian Boy ("a POKéMON did it, swam off"), Cerulean Cave Guard (whispered: the strongest thing in the cave "isn't native, came up from the south over the sea… leave it be"), Pewter Museum Guide ("the island that burned itself"; a tall tale), Lavender Boy (a demon/curse born of fire that haunts a cave). | 9 vanilla NPCs (append) | Rt 20/21, Pallet, Vermilion, Viridian, Cerulean, Pewter, Lavender | none | 7 | in-game | [FLAG: canon-check] |
+| BLAINE-03 | X-NUDGE (rumor reach, Fuchsia south coast) | Route 19 Swimmer Douglas (post-battle), placed in KOGA territory: an eyewitness on the sea west of Fuchsia. "One of them islands burned, years back… something rose from the smoke and flew north over the sea. Never saw it come down." Extends BLAINE-RUMORS south without stepping on Missy (Rt20); none name Blaine/Fuji/Mewtwo. | Route19 Douglas (existing) | Route 19 | none | 7 | in-game | [FLAG: canon-check] |
+| BLAINE-DIARY-2F | The pre-fragment canon diary (early dread seed) | The vanilla July 5 / July 10 Mansion diary objects, appended coy + unsigned so the later signed 3F/B1F fragments land harder. July 5 (append): "Below it, in a younger hand: A whole new life. We could learn everything." July 10 (append): "A later note, unsigned: So rare a thing to hold. We should be careful with it." No initials (do not reuse -F./-B. here); MEW named only where the canon diary already names it. | Diary July5th + July10th (existing) | Pokemon Mansion 2F | none | 4 | in-game | [FLAG: canon-check] |
+| BLAINE-LAB2 | Founders reached past fossils (coy) | Cinnabar Lab Lounge fossil Scientist (append): "Old bones. Still, the founders here reached deeper than any dig, once. For a thing that was never a fossil at all." Extends BLAINE-PAYOFF atmosphere next door; never names Mewtwo; the player infers the made thing. | Lounge Scientist (existing) | Cinnabar Pokemon Lab Lounge | none | 5 | in-game | [FLAG: canon-check] |
+| BLAINE-CT | X-NUDGE (the unnamed friend) | Cinnabar PC 1F Cooltrainer F (reflavor tail, keeps the mansion=key hint): "The GYM LEADER worked there, once. Him and one other. Only one of them walked out of the fire whole." Faint echo of MR. FUJI (never named); echoes the Lab photo "younger, unburned." Player connects. | Cooltrainer F (existing) | Cinnabar Pokemon Center 1F | none | 5 | in-game | [FLAG: canon-check] |
 
 Consistency notes:
 - The quiz reframe (BLAINE-QUIZ) changes the MEANING of the gimmick, not the mechanic;
@@ -384,6 +477,8 @@ objects/art.
 | GIOVANNI-PAYOFF | Reveal lands (semi-plain) | Gym Guy post-victory (canon): "Blow me away! GIOVANNI was the GYM LEADER of VIRIDIAN?" Statue flips to "LEADER: GIOVANNI." | Gym Guy + statue | Viridian Gym | FLAG_DEFEATED_LEADER_GIOVANNI | 10 | in-game | - |
 | GIOVANNI-FAME | Fame Checker (progressive who's-who) | ALL beats reflavored to the self-made / hidden-leader arc: beat 0 "I built TEAM ROCKET from nothing"; 1 "a man from nothing trusts nothing but strength"; 2 "hard as stone… people are tools too"; 3 "the LEADER no one ever met, while I built ROCKET from nothing"; 4 reveal "GIOVANNI, the ROCKET BOSS, was our GYM LEADER all along?"; 5 (was red-hair kid) -> self-made loner "came up from the gutter alone… no one has ever met" (removes the son). The letter quote -> "I go back to the dirt I came from, to make myself stronger. Alone." | Fame Checker | (menu) | famechecker unlocks | - | in-game | - |
 | GIOVANNI-POST | Post-game (walk-away pays off) | Warehouse grunt (append): "Even if it did… the BOSS wouldn't quit. He'd start over. From nothing, like he always has." Remnant Admins still search for him. The old red-hair-kid gag NPC reflavored to the self-made loner ("answered to nobody. Had nobody. Came up from the dirt alone.") so no son thread remains anywhere. | Rocket remnant (existing) | Five Island Rocket Warehouse | post-E4 | 11 | in-game | - |
+| GIOVANNI-06 | X-NUDGE (self-made / insatiable) | Celadon Game Corner grunt (append to slots brag): "The BOSS came up from nothing… clawed his way here. And it's still not enough for him. It never will be." Extends the GIOVANNI-01 self-made seed; the Game Corner as his money engine. Not connected to Viridian; BOSS only. | CeladonCity_House1 RocketChief (existing) | Celadon City House 1 | none | 1 | in-game | - |
+| GIOVANNI-07 | X-NUDGE (the too-ordinary face) | Saffron Man (append to the Silph sighting): caught the BOSS's face for a second, and "it was so… ordinary. A face you'd pass in any city and never think twice." Extends GIOVANNI-04 (the clean/unseen face). Player connects it; never tied to Viridian. | SaffronCity Man (existing) | Saffron City | none | 4 | in-game | [FLAG: canon-check] |
 
 Consistency notes:
 - The engine is SELF-MADE STRENGTH, NO son thread (decided w/ user). The two
@@ -446,9 +541,9 @@ only, no new art, no moved story beats.
 | LORELEI-03 | Lorelei (crusade origin) | Islander: "Ever since, she'll not hear one bad word about ICE types. Owes them everything, she says. Won't say more." | Four Island NPC (existing) | Four Island | reached Four Island | 3 | drafted | - |
 | LORELEI-04 | Lorelei (the doll shrine) | Doll object (reflavor): "Shelves of stuffed ICE POKéMON. One LAPRAS doll sits above them all, old and hugged near bald." | doll object (existing) | Four Island, Lorelei's House | reached Four Island | 4 | drafted | - |
 | LORELEI-05 | Lorelei (home vs. duty) | Her vanilla "the island where I was born…" lines, logged as-is (the fierce-defender core). | Lorelei (vanilla) | Four Island, Lorelei's House | vanilla | 5 | in-game | - |
-| LORELEI-06 | Lorelei (where it happened) | In the cave: "Cold, isn't it? This is where it happened. A child, the ice, the water. …She came back." | Icefall Cave NPC (existing/new) | Four Island, Icefall Cave | reached Four Island | 6 | drafted | - |
+| LORELEI-06 | Lorelei (where it happened) | "The ice in ICEFALL CAVE has never once melted. …Something happened in there, a long time ago. LORELEI would know. She won't say." | Four Island Pokemon Center woman (existing, repurposed) | Four Island | reached Four Island | 6 | in-game | CONTENT-SAFE REWORD: dropped the original "a child, the ice, the water" detail (a minor + near-drowning); kept a coy adult-voiced mystery instead. Placed close to Icefall since the cave has no NPC objects. |
 | LORELEI-07 | Lorelei (fierce defender) | Islander (after Rocket beat): "She left the LEAGUE the moment we were threatened. Came home cold and furious. We were glad of it." | Four Island NPC (existing) | Four Island | FLAG_DEFEATED_ROCKETS_IN_WAREHOUSE | 7 | drafted | - |
-| LORELEI-08 | Lorelei (the grudge, coy) | Islander: "She keeps a list. Every ICE type folks call weak, she'll prove wrong. Top of it? Some soft no-account she just calls VANILLA." | Four Island NPC (existing) | Four Island | reached Four Island | 8 | drafted | [FLAG: dated] [FLAG: release-swap] |
+| LORELEI-08 | Lorelei (the grudge, coy) | Islander: "She keeps a list. Every ICE type folks call weak, she'll prove wrong. Top of it? Some soft no-account she just calls VANILLA." | Four Island FatMan (existing slushie NPC, reflavored) | Four Island | reached Four Island | 8 | in-game | [FLAG: dated] [FLAG: release-swap] |
 | LORELEI-09 | Lorelei (post-defeat) | Reception callback: "Beat LORELEI? She'll not sleep a month. She'll say ICE can always get stronger. …She's not wrong." | reception NPC (existing/new) | Indigo Plateau reception | FLAG_DEFEATED_LORELEI | 9 | drafted | - |
 | LORELEI-10 | Lorelei (battle voice) | Intro (crusade + ICE BUCKET CHALLENGE + VANILLA jab); flavored defeat "…Not the ICE. Never the ICE. …That was me. Only me."; post-battle "you beat ME, not ICE." Option A. | Lorelei | Indigo Plateau, Lorelei's Room | at the battle | 10 | in-game | [FLAG: dated] [FLAG: release-swap] |
 
@@ -499,8 +594,8 @@ reflavored directly. Uses existing NPCs only, no new art, no moved beats.
 |---|---|---|---|---|---|---|---|---|
 | BRUNO-01 | Bruno (the care) | Black Belt: "Senior tends his POKéMON's hurts before his own, every time. …I try to be like that." | Black Belt (existing, reflavor) | One Island, Ember Spa | reached One Island | 1 | drafted | - |
 | BRUNO-02 | Bruno (the aura) | Black Belt: "Sat with him in the spring once. He said maybe three words the whole hour. Best hour of my life." | Black Belt (existing, reflavor) | One Island, Ember Spa | reached One Island | 2 | drafted | - |
-| BRUNO-03 | Bruno (lives in the wild) | Hiker: "Up the mountain the wild POKéMON don't run from him. They sit with him. I've seen it." | Hiker (existing/new) | One Island, Kindle Road / Mt. Ember | reached One Island | 3 | drafted | - |
-| BRUNO-04 | Bruno (steward) | Wanderer: "Every trail that man walks comes back cleaner. Never says a word about it. Just does it." | wild-area NPC (existing/new) | One Island, Kindle Road | reached One Island | 4 | drafted | - |
+| BRUNO-03 | Bruno (lives in the wild) | Spa patron (mountain-goer): "Up the mountain the wild POKéMON don't run from him. They sit with him. …I've seen it." | Ember Spa OldMan (existing, reflavored) | One Island, Ember Spa | reached One Island | 3 | in-game | - |
+| BRUNO-04 | Bruno (steward) | Spa patron: "Every trail that man walks comes back cleaner than he found it. Never says a word about it. Just does it." | Ember Spa BaldingMan2 (existing, reflavored) | One Island, Ember Spa | reached One Island | 4 | in-game | - |
 | BRUNO-05 | Bruno (equanimity) | Islander (candybar, reframed): "One of the ELITE FOUR came all this way for a RAGE CANDYBAR. Sold out. He just smiled, thanked us, and left. Not a flicker." | Two Island NPC (existing, reflavor) | Two Island | reached Two Island | 5 | drafted | - |
 | BRUNO-06 | Bruno (honors every path) | Sevault NPC: "Folk think he trains alone by creed. He'll tell you every path has worth. He walked one once with a fellow called BRAWLY." | Sevault NPC (existing, reflavor) | Seven Island, Sevault Canyon | reached Seven Island | 6 | drafted | [FLAG: canon-check] |
 | BRUNO-07 | Bruno (why the League) | Sevault NPC: "Why leave his quiet mountain for the LEAGUE? One thing moves him. The chance to meet someone truly strong." | Sevault NPC (existing, reflavor) | Seven Island, Sevault Canyon | reached Seven Island | 7 | drafted | - |
@@ -556,12 +651,12 @@ and Bruno (the Sevii circuit).
 |---|---|---|---|---|---|---|---|---|
 | AGATHA-01 | Agatha (the terror) | Indigo PC (reflavor): her GHOST types are terror, and "that old lady's got a short fuse. …Bless her." | trainer NPC (existing, reflavor) | Indigo Plateau PC | reached League | 1 | drafted | - |
 | AGATHA-02 | Agatha (the philosophy) | Six Island Mart (reflavor): oldest-ever E4 member. "Fill a book with POKéMON? She'd sooner fill a graveyard. Battle, prove it, live long. …Then she'll end you." | Mart NPC (existing, reflavor) | Six Island Mart | reached Six Island | 2 | drafted | - |
-| AGATHA-03 | Agatha (history, coy) | Lavender old-timer: young Agatha trained among the Tower's spirits, "back when someone she knew chose books over battle." | Lavender NPC (existing/new) | Lavender Town | after Pokémon Tower | 3 | drafted | - |
-| AGATHA-04 | Agatha (the grief, coy) | Oak's aide: "The PROFESSOR goes quiet when her name comes up. …I've learned not to ask." | Oak's Lab aide (existing) | Pallet, Oak's Lab | after ~5th badge | 4 | drafted | - |
+| AGATHA-03 | Agatha (history, coy) | Lavender old-timer: young Agatha trained among the Tower's spirits, "back when a friend of hers chose books over battle." | Lavender PokéCenter 1F Gentleman (existing, reflavored) | Lavender Town PokéCenter | none (ambient) | 3 | in-game | - |
+| AGATHA-04 | Agatha (the grief, coy) | Oak's aide: "Say the name AGATHA to him? He goes quiet. Every time. …I've learned not to ask." | Oak's Lab Aide1 (existing Scientist aide, reflavored; game-clear radio branch kept) | Pallet, Oak's Lab | none (ambient) | 4 | in-game | [FLAG: canon-check] |
 | AGATHA-05 | Agatha (the photo, coy) | Old photo at the Lab: two young trainers squaring off, grinning like they meant it. No names written. | photo object (existing/new) | Pallet, Oak's Lab | after ~5th badge | 5 | drafted | - |
 | AGATHA-06 | Agatha (why she stays) | Islander: "She could have retired a legend. She stays in the ring. Like she's proving something to somebody." | Six Island NPC (existing/new) | Six Island | reached Six Island | 6 | drafted | - |
 | AGATHA-07 | Agatha (who she respects) | Reception NPC: "She's got no time for POKéDEX-fillers. But a trainer who battles to prove herself? …That one she'll respect to the grave." | reception NPC (existing/new) | Indigo Plateau reception | reached League | 7 | drafted | - |
-| AGATHA-08 | Agatha + Oak (capstone) | OAK, coy: "AGATHA? …We were young. She never forgave me for putting my POKéBALLS down. …Perhaps she was right." | Prof. Oak | Pallet, Oak's Lab | post-E4 | 8 | drafted | [FLAG: canon-check] |
+| AGATHA-08 | Agatha + Oak (capstone) | OAK, coy: "AGATHA? …We were young. She never forgave me for setting my POKéBALLS down for a notebook. …Perhaps she was right." | Prof. Oak (folded into OAK-08 post-game DontStartNationalDexScene branch) | Pallet, Oak's Lab | FLAG_SYS_GAME_CLEAR (post-E4) | 8 | in-game | [FLAG: canon-check] |
 | AGATHA-09 | Agatha (battle voice) | FLAVORED: intro roasts OAK + the thesis ("not for cataloguing… for BATTLE"); defeat "There's fire in you, child. …I like that."; post "OAK was right about you. Don't tell him I said so." | Agatha | Indigo Plateau, Agatha's Room | at the battle | 9 | in-game | - |
 | AGATHA-10 | Agatha (post-defeat) | Reception callback: "She called you 'something special,' did she? From that one, that's a love letter." | reception NPC (existing/new) | Indigo Plateau reception | FLAG_DEFEATED_AGATHA | 10 | drafted | - |
 
@@ -619,12 +714,12 @@ naming her. FOLLOW-UP: realign Agatha's ledger spine to foreground this axis
 | OAK-02 | Oak (dex mania) | Lab dex charge: "Every species. Every last one. Leave NO gaps, NO blank pages! …You'll catch them all. I can feel it. Off you go!" | Prof. Oak | Pallet, Oak's Lab | story (starter/dex) | 2 | drafted | - |
 | OAK-03 | Oak (the DEX) | Parcel/POKéDEX handoff: "A POKéDEX! High-tech, hand-picked, and horribly, wonderfully EMPTY. Fill it. For science. For me. …Mostly for me." | Prof. Oak | Pallet, Oak's Lab | story (parcel) | 3 | drafted | - |
 | OAK-04 | Oak (nuzlocke denial, coy) | Aide: "He heard a rumor that spooked him. Some trainers keep but ONE POKéMON per route. Retire it if it falls. He went pale. 'Not {PLAYER},' he said. …You will catch them all. Won't you?" | Oak's Aide (existing, reflavor) | Route 2 / 10 / 11 aide buildings | dex milestone / reached route | 4 | drafted | [FLAG: dated] |
-| OAK-05 | Oak (the horror, coy) | Aide: "Some trainer breezed through. Caught one POKéMON. ONE. Then left. The PROFESSOR hasn't slept. …Please. Catch two. For me." | Oak's Aide (existing, reflavor) | Route aide building | dex milestone / reached route | 5 | drafted | [FLAG: dated] |
-| OAK-06 | Oak (the ratings) | Aide/lab: "He rates every DEX personally. Out loud. At length. To anyone. Bring him a full one and I think the poor man might weep." | Oak's Aide (existing/new) | route aide / Oak's Lab | dex progress | 6 | drafted | - |
-| OAK-07 | Oak + Agatha (hook, coy) | Lab: "An old friend once told me a scholar is a trainer who gave up. …She wasn't entirely wrong. But SOMEONE must write it all down! …Where was I. Yes! Your DEX!" | Prof. Oak | Pallet, Oak's Lab | after dex started | 7 | drafted | [FLAG: canon-check] |
-| OAK-08 | Oak (post-game) | After Hall of Fame: "CHAMPION, and my DEX still has gaps. …You see my problem. No rest for either of us! Now, about those blank pages-" | Prof. Oak | Pallet, Oak's Lab | FLAG_SYS_GAME_CLEAR | 8 | drafted | - |
-| OAK-09 | Oak (reverence vs. gremlin) | Pallet townsperson: "PROF. OAK? A great man. A genius. …Also he once called my house at 3 AM to ask if my PIDGEY was 'new.'" | Pallet NPC (existing/new) | Pallet Town | none | 9 | drafted | - |
-| OAK-10 | Oak (bridge to Agatha) | Aide: "Between us? He knows not everyone catches for science. Some battle to prove themselves. He respects it, though he'll never say. …An old rival of his would adore you." | Oak's Aide (existing/new) | route aide building | mid-game | 10 | drafted | [FLAG: canon-check] |
+| OAK-05 | Oak (the horror, coy) | Aide: "Some trainer breezed through. Caught one POKéMON. ONE. Then left. The PROFESSOR hasn't slept. …Please. Catch two. For me." | Route 15 West Entrance 2F aide (existing EXP SHARE aide, intro reflavored; YES/NO reward flow kept) | Route 15 West Entrance 2F | on the aide's dex-reward talk | 5 | in-game | [FLAG: dated] |
+| OAK-06 | Oak (the ratings) | Aide: "He rates every DEX personally. Out loud. At length. To anyone who'll stand still. Bring him a full one and the poor man might weep." | Oak's Lab Aide3 (existing Worker_F aide, reflavored; famechecker OAK 2 kept) | Pallet, Oak's Lab | none (ambient) | 6 | in-game | - |
+| OAK-07 | Oak + Agatha (hook, coy) | Lab: "An old friend once told me a scholar is a trainer who gave up. …She wasn't entirely wrong. But SOMEONE must write it all down! …Where was I. Yes! Your DEX!" | Prof. Oak (prepended to his mid-game RatePokedexOrTryGiveBalls talk) | Pallet, Oak's Lab | LAB_SCENE 6 (after dex started, pre-national dex) | 7 | in-game | [FLAG: canon-check] |
+| OAK-08 | Oak (post-game) | After Hall of Fame: "CHAMPION, and my DEX still has gaps. …No rest for either of us! Now, about those blank pages…" (folded with AGATHA-08) | Prof. Oak (post-game DontStartNationalDexScene branch) | Pallet, Oak's Lab | FLAG_SYS_GAME_CLEAR (post-E4, pre-national dex) | 8 | in-game | [FLAG: canon-check] |
+| OAK-09 | Oak (reverence vs. gremlin) | "I saw PROFESSOR OAK out here at 3 in the morning! Chasing a PIDGEY around with a clipboard. He said it was for the DATA." | Route 1 boy (existing, repurposed) | Route 1 (Pallet-adjacent) | none | 9 | in-game | Moved to the Route 1 boy (closest spare NPC); Pallet overworld had no spare townsperson. |
+| OAK-10 | Oak (bridge to Agatha) | Aide: "Off the record? He knows not everyone catches for science. Some battle to prove it. He respects it, though he'll never say. …An old rival of his would adore you." | Route 11 East Entrance 2F aide (existing ITEMFINDER aide, intro reflavored; reward flow kept) | Route 11 East Entrance 2F | on the aide's dex-reward talk | 10 | in-game | [FLAG: canon-check] |
 
 Consistency notes:
 - Oak's own lines go FULL comedy from Route 1; the new-game narration stays the
@@ -671,10 +766,10 @@ through NPCs everywhere who have a Lance story or have been happily converted.
 |---|---|---|---|---|---|---|---|---|
 | LANCE-01 | Lance (the gospel) | Reception: "The fourth room is LANCE, the dragon master. He'll tell you your POKéMON is a dragon. All of them. …Just nod. He's usually right, somehow." | reception NPC (existing/new) | Indigo Plateau reception | reached League | 1 | drafted | - |
 | LANCE-02 | Lance (the convert) | Saffron fan (reflavor canon): "LANCE showed me my GYARADOS is a SEA DRAGON. Now I can't UNSEE it! He's the greatest, LANCE!" | Saffron fan (existing, reflavor) | Saffron City | after Saffron | 2 | drafted | - |
-| LANCE-03 | Lance (dragon in waiting) | Fisher: "LANCE called my MAGIKARP 'a dragon in waiting.' …It's a GYARADOS now. The man SEES it." | Fisher (existing/new) | Route / Cerulean | none | 3 | drafted | - |
-| LANCE-04 | Lance (the taxonomy) | Trainer: "To LANCE there are two kinds of POKéMON. Dragons, and dragons that don't know it yet. …I'm starting to think he's onto something." | trainer NPC (existing/new) | any town | reached League | 4 | drafted | - |
-| LANCE-05 | Lance (ancient dragon) | Fossil NPC: "Told LANCE his AERODACTYL is a ROCK type. He just smiled. 'An ANCIENT dragon,' he said. …You can't argue that smile." | Cinnabar / Fossil NPC (existing/new) | Cinnabar / Fossil | none | 5 | drafted | - |
-| LANCE-06 | Lance + Oak (cross-link) | Oak's aide: "PROF. OAK showed him the type charts for an hour. LANCE nodded. Said, 'So… a dragon.' OAK had to go lie down." | Oak's Lab aide (existing) | Pallet, Oak's Lab | mid-game | 6 | drafted | [FLAG: canon-check] |
+| LANCE-03 | Lance (dragon in waiting) | Fisher: "LANCE called my MAGIKARP 'a dragon in waiting.' …It's a GYARADOS now. The man SEES it." | Seven Island Mart Fisher (existing flavor NPC, reflavored) | Seven Island Mart | none | 3 | in-game | - |
+| LANCE-04 | Lance (the taxonomy) | "To LANCE there are two kinds of POKéMON. Dragons, and dragons that don't know it yet. …I'm starting to think he's onto something." | Seven Island Mart Lass (existing flavor NPC, reflavored) | Seven Island Mart | none | 4 | in-game | - |
+| LANCE-05 | Lance (ancient dragon) | Fossil NPC: "Told LANCE his AERODACTYL is a ROCK type. He just smiled. 'An ANCIENT dragon,' he said. …You can't argue that smile." | Cinnabar PokéMON Lab Research Room Scientist (existing, reflavored; sits by the OLD AMBER) | Cinnabar, PokéMON Lab Research Room | none | 5 | in-game | [FLAG: canon-check] |
+| LANCE-06 | Lance + Oak (cross-link) | Oak's aide: "PROF. OAK showed him the type charts for an hour. LANCE nodded. Said, 'So… a dragon.' OAK had to go lie down." | Oak's Lab Aide2 (existing Scientist aide, reflavored; game-clear Daisy branch kept) | Pallet, Oak's Lab | none (ambient) | 6 | in-game | [FLAG: canon-check] |
 | LANCE-07 | Lance (bloodline) | NPC (reflavor canon cousin): "It runs in the blood. A cousin of his leads a gym far away. Same gift, sees the dragon in everything. …Holidays there sound exhausting." | Indigo NPC (existing, reflavor) | Indigo Plateau / town | reached League | 7 | drafted | [FLAG: canon-check] |
 | LANCE-08 | Lance (the belief / awe) | Reception: "His dragons fight like they can't be hurt. Because HE believes it. So THEY believe it. …That's the wall you're climbing." | reception NPC (existing/new) | Indigo Plateau reception | reached League | 8 | drafted | - |
 | LANCE-09 | Lance (battle voice) | INTRO "I like dragons." (rematch "I still like dragons.") / DEFEAT (D-C) "…You DO like dragons, though? …Say you like dragons." / POST "…DRAGGIN DEEZ NUTS!! …Go on. The CHAMPION waits." (vanilla rival-reveal dropped; the RIVAL battle still auto-triggers on entering the next room) | Lance | Indigo Plateau, Lance's Room | at the battle | 9 | in-game | [FLAG: dated] |

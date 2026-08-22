@@ -25,16 +25,22 @@ SaffronCity_House_EventScript_Letter::
 
 SaffronCity_House_Text_DontLookAtMyLetter::
 	.string "…Thank you for writing.\n"
-	.string "I hope to see you soon!\p"
-	.string "…Hey!\n"
-	.string "Don't look at my letter!$"
+	.string "I hope to see you soon.\p"
+	.string "…She stopped writing back, though.\n"
+	.string "Right when folks started vanishing.\p"
+	.string "So I keep writing anyway. And I\n"
+	.string "keep a lamp lit in the window.\p"
+	.string "…Hey! Don't read my letter!$"
 
 SaffronCity_House_Text_Pidgey::
 	.string "PIDGEY: Kurukkoo!$"
 
 SaffronCity_House_Text_GettingCopycatPokeDoll::
 	.string "The COPYCAT is cute!\n"
-	.string "I'm getting her a POKé DOLL.$"
+	.string "I'm getting her a POKé DOLL.\p"
+	.string "The grown-ups get all weird about\n"
+	.string "dolls lately. Won't say why.\p"
+	.string "It's just a doll! …Right?$"
 
 SaffronCity_House_Text_ExplainPPUp::
 	.string "I was given a PP UP as a gift.\p"

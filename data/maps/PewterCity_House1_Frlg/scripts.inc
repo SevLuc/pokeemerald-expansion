@@ -37,11 +37,12 @@ PewterCity_House1_Text_NidoranSit::
 	.string "NIDORAN, sit!$"
 
 PewterCity_House1_Text_TradeMonsAreFinicky::
-	.string "Our POKéMON's an outsider, so it's\n"
-	.string "finicky and hard to handle.\p"
-	.string "An outsider is a POKéMON that you\n"
-	.string "get in a trade.\p"
-	.string "It grows fast, but it may ignore an\n"
-	.string "unskilled TRAINER in battle.\p"
-	.string "If only we had some BADGES…$"
+	.string "Our POKéMON came from a trade, so\n"
+	.string "it ignores us in battle.\p"
+	.string "It won't mind a TRAINER without\n"
+	.string "BADGES. If only we had some…\p"
+	.string "Funny. That VIRIDIAN GYM we passed\n"
+	.string "stays shut. LEADER's always away.\p"
+	.string "On business, they say. Whoever he\n"
+	.string "is. A fine fellow, I'm sure.$"
 

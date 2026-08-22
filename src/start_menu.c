@@ -69,6 +69,7 @@ enum
     MENU_ACTION_PYRAMID_BAG,
     MENU_ACTION_DEBUG,
     MENU_ACTION_DEXNAV,
+    MENU_ACTION_REPEL,
 };
 
 // Save status
@@ -88,7 +89,7 @@ EWRAM_DATA static u8 sSafariBallsWindowId = 0;
 EWRAM_DATA static u8 sBattlePyramidFloorWindowId = 0;
 EWRAM_DATA static u8 sStartMenuCursorPos = 0;
 EWRAM_DATA static u8 sNumStartMenuActions = 0;
-EWRAM_DATA static u8 sCurrentStartMenuActions[9] = {0};
+EWRAM_DATA static u8 sCurrentStartMenuActions[10] = {0};
 EWRAM_DATA static s8 sInitStartMenuData[2] = {0};
 
 EWRAM_DATA static u8 (*sSaveDialogCallback)(void) = NULL;
@@ -111,6 +112,7 @@ static bool8 StartMenuBattlePyramidRetireCallback(void);
 static bool8 StartMenuBattlePyramidBagCallback(void);
 static bool8 StartMenuDebugCallback(void);
 static bool8 StartMenuDexNavCallback(void);
+static bool8 StartMenuRepelCallback(void);
 
 // Menu callbacks
 static bool8 SaveStartCallback(void);
@@ -188,6 +190,9 @@ static const struct WindowTemplate sWindowTemplate_PyramidPeak = {
 };
 
 static const u8 sText_MenuDebug[] = _("DEBUG");
+static const u8 sText_MenuRepelOn[] = _("REPEL: ON");
+static const u8 sText_MenuRepelOff[] = _("REPEL: OFF");
+static u8 sRepelMenuLabel[12];
 
 static const struct MenuAction sStartMenuItems[] =
 {
@@ -206,6 +211,7 @@ static const struct MenuAction sStartMenuItems[] =
     [MENU_ACTION_PYRAMID_BAG]     = {gText_MenuBag,     {.u8_void = StartMenuBattlePyramidBagCallback}},
     [MENU_ACTION_DEBUG]           = {sText_MenuDebug,   {.u8_void = StartMenuDebugCallback}},
     [MENU_ACTION_DEXNAV]          = {gText_MenuDexNav,  {.u8_void = StartMenuDexNavCallback}},
+    [MENU_ACTION_REPEL]           = {sRepelMenuLabel,   {.u8_void = StartMenuRepelCallback}},
 };
 
 static const struct BgTemplate sBgTemplates_LinkBattleSave[] =
@@ -348,6 +354,8 @@ static void BuildNormalStartMenu(void)
     AddStartMenuAction(MENU_ACTION_PLAYER);
     AddStartMenuAction(MENU_ACTION_SAVE);
     AddStartMenuAction(MENU_ACTION_OPTION);
+    StringCopy(sRepelMenuLabel, FlagGet(FLAG_TOGGLE_NO_ENCOUNTERS) ? sText_MenuRepelOn : sText_MenuRepelOff);
+    AddStartMenuAction(MENU_ACTION_REPEL);
     AddStartMenuAction(MENU_ACTION_EXIT);
 }
 
@@ -793,6 +801,21 @@ static bool8 StartMenuExitCallback(void)
 {
     RemoveExtraStartMenuWindows();
     HideStartMenu(); // Hide start menu
+
+    return TRUE;
+}
+
+static bool8 StartMenuRepelCallback(void)
+{
+    // Infinite-repel toggle: flip wild-encounter suppression, then close the menu.
+    // The label reflects the new state next time the menu is opened.
+    if (FlagGet(FLAG_TOGGLE_NO_ENCOUNTERS))
+        FlagClear(FLAG_TOGGLE_NO_ENCOUNTERS);
+    else
+        FlagSet(FLAG_TOGGLE_NO_ENCOUNTERS);
+    PlaySE(SE_SELECT);
+    RemoveExtraStartMenuWindows();
+    HideStartMenu();
 
     return TRUE;
 }

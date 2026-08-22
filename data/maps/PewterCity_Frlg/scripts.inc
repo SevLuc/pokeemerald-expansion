@@ -617,14 +617,25 @@ PewterCity_EventScript_FatMan::
 PewterCity_EventScript_BugCatcher::
 	lock
 	faceplayer
-	msgbox PewterCity_Text_DoYouKnowWhatImDoing, MSGBOX_YESNO
-	goto_if_eq VAR_RESULT, YES, PewterCity_EventScript_KnowWhatTheyreDoing
-	msgbox PewterCity_Text_SprayingRepelToKeepWildMonsOut
+	goto_if_set FLAG_SYS_GAME_CLEAR, PewterCity_EventScript_BrockGossipPostE4
+	goto_if_set FLAG_BADGE06_GET, PewterCity_EventScript_BrockGossipSixBadges
+	goto_if_set FLAG_BADGE01_GET, PewterCity_EventScript_BrockGossipFirstBadge
+	msgbox PewterCity_Text_BrockGetInLine
 	release
 	end
 
-PewterCity_EventScript_KnowWhatTheyreDoing::
-	msgbox PewterCity_Text_ThatsRightItsHardWork
+PewterCity_EventScript_BrockGossipFirstBadge::
+	msgbox PewterCity_Text_BrockChallengeFees
+	release
+	end
+
+PewterCity_EventScript_BrockGossipSixBadges::
+	msgbox PewterCity_Text_BrockMarriedAgain
+	release
+	end
+
+PewterCity_EventScript_BrockGossipPostE4::
+	msgbox PewterCity_Text_BrockStillOnThePhone
 	release
 	end
 
@@ -903,17 +914,28 @@ PewterCity_Text_ThisIsTheMuseum::
 	.string "You have to pay to get in, but it's\n"
 	.string "worth it. See you around!$"
 
-PewterCity_Text_DoYouKnowWhatImDoing::
-	.string "Psssst!\n"
-	.string "Do you know what I'm doing?$"
+PewterCity_Text_BrockGetInLine::
+	.string "Off to challenge BROCK?\n"
+	.string "Get in line.\p"
+	.string "Everyone wants a piece of him.\n"
+	.string "His lawyers, mostly.$"
 
-PewterCity_Text_ThatsRightItsHardWork::
-	.string "That's right!\n"
-	.string "It's hard work!$"
+PewterCity_Text_BrockChallengeFees::
+	.string "Ever wonder why BROCK takes on\n"
+	.string "every TRAINER who walks in?\p"
+	.string "Challenge fees.\n"
+	.string "Alimony doesn't pay itself.$"
 
-PewterCity_Text_SprayingRepelToKeepWildMonsOut::
-	.string "I'm spraying REPEL to keep wild\n"
-	.string "POKéMON out of my garden!$"
+PewterCity_Text_BrockMarriedAgain::
+	.string "Heard BROCK's fielding challengers\n"
+	.string "day and night now.\p"
+	.string "…Heard he got married again, too.\n"
+	.string "Connect the dots.$"
+
+PewterCity_Text_BrockStillOnThePhone::
+	.string "BROCK's still at that GYM.\n"
+	.string "Still on the phone.\p"
+	.string "Some things are just eternal.$"
 
 PewterCity_Text_BrocksLookingForChallengersFollowMe::
 	.string "You're a TRAINER, right?\p"

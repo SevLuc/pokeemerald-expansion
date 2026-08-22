@@ -136,9 +136,9 @@ lady); consumed at the Route 5/6/7/8 Saffron gate guards.
 - **RivalIntro (pre-battle):** `{PLAYER}! Yo where's the TEA bro? How do I get the TEA? you got TEA?`
 - **RivalDefeat (you win):** `If I was tea... where would I be?`
 - **RivalPostBattle (after you win):** `Wait really? Old lady in the mansion? Oh Cinnabar Island!!`
-  _(CONSISTENCY FLAG: the TEA old lady is in the CELADON Condominiums, NOT Cinnabar.
-  "Oh Cinnabar Island!!" is geographically wrong. PENDING: intentional Buhrito
-  wrong-guess gag (in-character, keep) vs. slip (fix to Celadon).)_
+  _(DECIDED 2026-08-22: KEEP the wrong geography as an intentional in-character
+  gag. Buhrito is map-clueless ("where's the TEA bro?"), so confidently naming the
+  wrong island lands. Placed in-game (PokemonTower_2F_Text_RivalPostBattle).)_
 
 ## 5. Silph Co. 7F - Saffron
 File: `data/maps/SilphCo_7F_Frlg/scripts.inc` · Battle: `TRAINER_RIVAL_SILPH_*`

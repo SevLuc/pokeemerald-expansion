@@ -59,12 +59,12 @@ FourIsland_PokemonCenter_1F_Text_RareIceMonsInCave::
 	.string "see that POKéMON.$"
 
 FourIsland_PokemonCenter_1F_Text_DayCarePeopleFoundEggBefore::
-	.string "Oh? A POKéMON EGG?\n"
-	.string "…I have no idea.\p"
-	.string "…Oh, wait. The DAY-CARE people\n"
-	.string "in town were saying something.\p"
-	.string "They said that they'd found EGGS\n"
-	.string "before on their property.$"
+	.string "The ice in ICEFALL CAVE has never\n"
+	.string "once melted, you know.\p"
+	.string "…Something happened in there,\n"
+	.string "a long time ago.\p"
+	.string "LORELEI would know.\n"
+	.string "She won't say.$"
 
 FourIsland_PokemonCenter_1F_Text_NewPokemonJournalHasntArrived::
 	.string "What's this?\p"

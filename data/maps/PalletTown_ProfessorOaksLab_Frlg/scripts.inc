@@ -73,7 +73,7 @@ PalletTown_ProfessorOaksLab_EventScript_NationalDexScene::
 	call_if_eq VAR_FACING, DIR_SOUTH, PalletTown_ProfessorOaksLab_EventScript_NationalDexSceneRivalEnterSouth
 	call_if_eq VAR_FACING, DIR_EAST, PalletTown_ProfessorOaksLab_EventScript_NationalDexSceneRivalEnterEastWest
 	call_if_eq VAR_FACING, DIR_WEST, PalletTown_ProfessorOaksLab_EventScript_NationalDexSceneRivalEnterEastWest
-	msgbox PalletTown_ProfessorOaksLab_Text_RivalJustLetMeHandleEverything
+	call PalletTown_ProfessorOaksLab_EventScript_NatDexRivalLine1
 	fadedefaultbgm
 	msgbox PalletTown_ProfessorOaksLab_Text_OakNeedYourHelpTooNeedToSeePokedexes
 	call_if_eq VAR_FACING, DIR_NORTH, PalletTown_ProfessorOaksLab_EventScript_PlayerFaceOakNorth
@@ -106,7 +106,7 @@ PalletTown_ProfessorOaksLab_EventScript_NationalDexScene::
 	call EventScript_RestorePrevTextColor
 	special EnableNationalPokedex
 	msgbox PalletTown_ProfessorOaksLab_Text_OakMustReallyWorkToFillPokedex
-	msgbox PalletTown_ProfessorOaksLab_Text_RivalIllCompleteThePokedex
+	call PalletTown_ProfessorOaksLab_EventScript_NatDexRivalLine2
 	closemessage
 	playbgm MUS_RG_RIVAL_EXIT, 0
 	call_if_eq VAR_FACING, DIR_NORTH, PalletTown_ProfessorOaksLab_EventScript_RivalExitNorth
@@ -666,7 +666,7 @@ PalletTown_ProfessorOaksLab_EventScript_ReceiveDexScene::
 	special SetUnlockedPokedexFlags
 	setvar VAR_MAP_SCENE_POKEMON_CENTER_TEALA, 1
 	msgbox PalletTown_ProfessorOaksLab_Text_OakCatchMonsForDataTakeThese
-	giveitem_msg PalletTown_ProfessorOaksLab_Text_ReceivedFivePokeBalls, ITEM_POKE_BALL, 5
+	giveitem_msg PalletTown_ProfessorOaksLab_Text_ReceivedNinetyPokeBalls, ITEM_POKE_BALL, 90
 	msgbox PalletTown_ProfessorOaksLab_Text_OakExplainCatching
 	famechecker FAMECHECKER_OAK, 1
 	msgbox PalletTown_ProfessorOaksLab_Text_OakCompleteMonGuideWasMyDream
@@ -780,6 +780,7 @@ PalletTown_ProfessorOaksLab_Movement_OakWalkToDeskSouth::
 	step_end
 
 PalletTown_ProfessorOaksLab_EventScript_RatePokedexOrTryGiveBalls::
+	msgbox PalletTown_ProfessorOaksLab_Text_OakScholarWhoGaveUp
 	setvar VAR_0x8004, 0
 	specialvar VAR_RESULT, GetFrlgPokedexCount
 	copyvar VAR_0x8008, VAR_0x8005
@@ -921,6 +922,7 @@ PalletTown_ProfessorOaksLab_EventScript_TryStartNationalDexScene::
 	end
 
 PalletTown_ProfessorOaksLab_EventScript_DontStartNationalDexScene::
+	msgbox PalletTown_ProfessorOaksLab_Text_OakChampionStillGaps
 	release
 	end
 
@@ -1251,7 +1253,7 @@ PalletTown_ProfessorOaksLab_EventScript_Aide1::
 	lock
 	faceplayer
 	goto_if_set FLAG_SYS_GAME_CLEAR, PalletTown_ProfessorOaksLab_EventScript_Aide1GameClear
-	msgbox PalletTown_ProfessorOaksLab_Text_StudyAsOaksAide
+	msgbox PalletTown_ProfessorOaksLab_Text_AideOakQuietAtAgatha
 	release
 	end
 
@@ -1265,7 +1267,7 @@ PalletTown_ProfessorOaksLab_EventScript_Aide2::
 	lock
 	faceplayer
 	goto_if_set FLAG_SYS_GAME_CLEAR, PalletTown_ProfessorOaksLab_EventScript_Aide2GameClear
-	msgbox PalletTown_ProfessorOaksLab_Text_StudyAsOaksAide
+	msgbox PalletTown_ProfessorOaksLab_Text_AideLanceTypeCharts
 	release
 	end
 
@@ -1444,53 +1446,54 @@ PalletTown_ProfessorOaksLab_Text_TwitchRivalGoToughenMyMon::
 	.string "see you there. PRAISE HELIX.$"
 
 PalletTown_ProfessorOaksLab_Text_RivalGrampsIsntAround::
-	.string "{RIVAL}: What, it's only {PLAYER}?\n"
-	.string "Gramps isn't around.$"
+	.string "Yo {PLAYER} what's good,\n"
+	.string "I literally never played\l"
+	.string "this game.$"
 
 PalletTown_ProfessorOaksLab_Text_RivalFedUpWithWaiting::
-	.string "{RIVAL}: Gramps!\n"
-	.string "I'm fed up with waiting!$"
+	.string "Yeah give me bulbasaur\n"
+	.string "bro!$"
 
 PalletTown_ProfessorOaksLab_Text_RivalNoFairWhatAboutMe::
-	.string "{RIVAL}: Hey! Gramps! No fair!\n"
-	.string "What about me?$"
+	.string "Bulbasaur is broken because\n"
+	.string "he cooks on brock and he\l"
+	.string "cooks on misty.$"
 
 PalletTown_ProfessorOaksLab_Text_RivalGoChoosePlayer::
-	.string "{RIVAL}: Heh, I don't need to be\n"
-	.string "greedy like you. I'm mature!\p"
-	.string "Go ahead and choose, {PLAYER}!$"
+	.string "Bulbasaur that's the tech!$"
 
 PalletTown_ProfessorOaksLab_Text_RivalIllTakeThisOneThen::
-	.string "{RIVAL}: I'll take this one, then!$"
+	.string "Hold up! we got a problem…\p"
+	.string "the starters are different…$"
 
 PalletTown_ProfessorOaksLab_Text_RivalReceivedMonFromOak::
 	.string "{RIVAL} received the {STR_VAR_1}\n"
 	.string "from PROF. OAK!$"
 
 PalletTown_ProfessorOaksLab_Text_RivalMyMonLooksTougher::
-	.string "{RIVAL}: My POKéMON looks a lot\n"
-	.string "tougher than yours.$"
+	.string "Lets go bro! lets fight$"
 
 PalletTown_ProfessorOaksLab_Text_RivalLetsCheckOutMons::
-	.string "{RIVAL}: Wait, {PLAYER}!\n"
-	.string "Let's check out our POKéMON!\p"
-	.string "Come on, I'll take you on!$"
+	.string "Wait, {PLAYER}!\n"
+	.string "We are about to ball!\l"
+	.string "Let's gooo!$"
 
 PalletTown_ProfessorOaksLab_Text_RivalDefeat::
-	.string "WHAT?\n"
-	.string "Unbelievable!\l"
-	.string "I picked the wrong POKéMON!$"
+	.string "They didnt get rid of the\n"
+	.string "tutorial bro!?\p"
+	.string "I know how fighting works,\n"
+	.string "I am not that rusty.$"
 
 @ Also used for early Route 22 battle
 Text_RivalVictory::
-	.string "{RIVAL}: Yeah!\n"
-	.string "Am I great or what?$"
+	.string "They didnt get rid of the\n"
+	.string "tutorial bro!?\p"
+	.string "I know how fighting works,\n"
+	.string "I am not that rusty.$"
 
 PalletTown_ProfessorOaksLab_Text_RivalGoToughenMyMon::
-	.string "{RIVAL}: Okay! I'll make my\n"
-	.string "POKéMON battle to toughen it up!\p"
-	.string "{PLAYER}! Gramps!\n"
-	.string "Smell you later!$"
+	.string "alright bet {PLAYER}, time to\n"
+	.string "lockity splockity blobbity.$"
 
 PalletTown_ProfessorOaksLab_Text_RivalGramps::
 	.string "{RIVAL}: Gramps!$"
@@ -1631,6 +1634,9 @@ PalletTown_ProfessorOaksLab_Text_OakCatchMonsForDataTakeThese::
 PalletTown_ProfessorOaksLab_Text_ReceivedFivePokeBalls::
 	.string "{PLAYER} received five POKé BALLS.$"
 
+PalletTown_ProfessorOaksLab_Text_ReceivedNinetyPokeBalls::
+	.string "{PLAYER} received 90 POKé BALLS!$"
+
 PalletTown_ProfessorOaksLab_Text_OakExplainCatching::
 	.string "When a wild POKéMON appears,\n"
 	.string "it's fair game.\p"
@@ -1733,10 +1739,50 @@ PalletTown_ProfessorOaksLab_Text_OakIsGoingToHaveRadioShow::
 	.string "OAK's POKéMON SEMINAR.$"
 
 PalletTown_ProfessorOaksLab_Text_OakIsAuthorityOnMons::
-	.string "PROF. OAK may not look like much,\n"
-	.string "but he's the authority on POKéMON.\p"
-	.string "Many POKéMON TRAINERS hold him in\n"
-	.string "high regard.$"
+	.string "The PROFESSOR rates every DEX\n"
+	.string "personally. Out loud. At length.\p"
+	.string "To anyone who'll stand still.\p"
+	.string "Bring him a full one someday.\n"
+	.string "I think the poor man might weep.$"
+
+PalletTown_ProfessorOaksLab_Text_AideOakQuietAtAgatha::
+	.string "I study POKéMON as PROF. OAK's\n"
+	.string "AIDE. …Mostly I field his calls.\p"
+	.string "Ask him about the old days and he\n"
+	.string "lights right up.\p"
+	.string "But say the name AGATHA to him?\n"
+	.string "He goes quiet. Every time.\p"
+	.string "…I've learned not to ask.$"
+
+PalletTown_ProfessorOaksLab_Text_AideLanceTypeCharts::
+	.string "I study POKéMON as PROF. OAK's\n"
+	.string "AIDE. We catalogue everything.\p"
+	.string "LANCE of the ELITE FOUR came by\n"
+	.string "once. The PROFESSOR showed him\l"
+	.string "the type charts for an hour.\p"
+	.string "LANCE only nodded. Said,\n"
+	.string "'So… a dragon.'\p"
+	.string "The PROFESSOR had to go lie down.$"
+
+PalletTown_ProfessorOaksLab_Text_OakScholarWhoGaveUp::
+	.string "OAK: Ah, {PLAYER}!\p"
+	.string "An old friend once told me a\n"
+	.string "scholar is a trainer who gave up.\p"
+	.string "…She wasn't entirely wrong.\p"
+	.string "But SOMEONE must write it all\n"
+	.string "down! …Where was I.\p"
+	.string "Yes! Your POKéDEX. Let's see it.$"
+
+PalletTown_ProfessorOaksLab_Text_OakChampionStillGaps::
+	.string "OAK: CHAMPION, and my DEX still\n"
+	.string "has gaps.\p"
+	.string "…You see my problem.\n"
+	.string "No rest for either of us!\p"
+	.string "AGATHA? …Hoho. We were young.\p"
+	.string "She never forgave me for setting\n"
+	.string "my POKéBALLS down for a notebook.\p"
+	.string "…Perhaps she was right.\p"
+	.string "Now! About those blank pages…$"
 
 PalletTown_ProfessorOaksLab_Text_OakFavorToAskYouPlayer::
 	.string "Ah, now this is excellent!\p"
@@ -1753,6 +1799,40 @@ PalletTown_ProfessorOaksLab_Text_OakSightingsOfRareMons::
 	.string "myself, but I'm much too old.\p"
 	.string "Since I can't do it, {PLAYER}, I'd\n"
 	.string "like you to go in my place.$"
+
+PalletTown_ProfessorOaksLab_EventScript_NatDexRivalLine1::
+	goto_if_eq VAR_RIVAL_ID, RIVAL_ID_TWITCH, PalletTown_ProfessorOaksLab_EventScript_NatDexRivalLine1Twitch
+	msgbox PalletTown_ProfessorOaksLab_Text_RivalJustLetMeHandleEverything
+	return
+
+PalletTown_ProfessorOaksLab_EventScript_NatDexRivalLine1Twitch::
+	msgbox PalletTown_ProfessorOaksLab_Text_TwitchRivalJustLetMeHandleEverything
+	return
+
+PalletTown_ProfessorOaksLab_EventScript_NatDexRivalLine2::
+	goto_if_eq VAR_RIVAL_ID, RIVAL_ID_TWITCH, PalletTown_ProfessorOaksLab_EventScript_NatDexRivalLine2Twitch
+	msgbox PalletTown_ProfessorOaksLab_Text_RivalIllCompleteThePokedex
+	return
+
+PalletTown_ProfessorOaksLab_EventScript_NatDexRivalLine2Twitch::
+	msgbox PalletTown_ProfessorOaksLab_Text_TwitchRivalIllCompleteThePokedex
+	return
+
+PalletTown_ProfessorOaksLab_Text_TwitchRivalJustLetMeHandleEverything::
+	.string "chill, {PLAYER}, we got the dex.\p"
+	.string "we have ten thousand people.\n"
+	.string "we fill it in like a day.\p"
+	.string "somebody is already fishing.\n"
+	.string "do not ask who.$"
+
+PalletTown_ProfessorOaksLab_Text_TwitchRivalIllCompleteThePokedex::
+	.string "national dex? say less.\p"
+	.string "ONE ISLAND first.\n"
+	.string "Sevii speedrun. we go.\p"
+	.string "do NOT check the ledge over\n"
+	.string "there…\p"
+	.string "we are gonna check the ledge\n"
+	.string "over there.$"
 
 PalletTown_ProfessorOaksLab_Text_RivalJustLetMeHandleEverything::
 	.string "{RIVAL}: Hey, I heard that!\p"

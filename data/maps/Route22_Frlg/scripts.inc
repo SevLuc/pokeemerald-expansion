@@ -60,15 +60,15 @@ Route22_EventScript_EarlyRivalApproachBottom::
 	return
 
 Route22_EventScript_EarlyRivalSquirtle::
-	trainerbattle_earlyrival TRAINER_RIVAL_ROUTE22_EARLY_SQUIRTLE, 0, Route22_Text_EarlyRivalDefeat, Text_RivalVictory
+	trainerbattle_earlyrival TRAINER_RIVAL_ROUTE22_EARLY_SQUIRTLE, 0, Route22_Text_EarlyRivalDefeat, Route22_Text_EarlyRivalVictory
 	return
 
 Route22_EventScript_EarlyRivalBulbasaur::
-	trainerbattle_earlyrival TRAINER_RIVAL_ROUTE22_EARLY_BULBASAUR, 0, Route22_Text_EarlyRivalDefeat, Text_RivalVictory
+	trainerbattle_earlyrival TRAINER_RIVAL_ROUTE22_EARLY_BULBASAUR, 0, Route22_Text_EarlyRivalDefeat, Route22_Text_EarlyRivalVictory
 	return
 
 Route22_EventScript_EarlyRivalCharmander::
-	trainerbattle_earlyrival TRAINER_RIVAL_ROUTE22_EARLY_CHARMANDER, 0, Route22_Text_EarlyRivalDefeat, Text_RivalVictory
+	trainerbattle_earlyrival TRAINER_RIVAL_ROUTE22_EARLY_CHARMANDER, 0, Route22_Text_EarlyRivalDefeat, Route22_Text_EarlyRivalVictory
 	return
 
 Route22_EventScript_EarlyRivalTwitch::
@@ -250,27 +250,37 @@ Route22_EventScript_LeagueGateSign::
 	end
 
 Route22_Text_EarlyRivalIntro::
-	.string "{RIVAL}: Hey! {PLAYER}!\p"
-	.string "You're off to the POKéMON LEAGUE?\n"
-	.string "Forget about it!\p"
-	.string "You probably don't have any\n"
-	.string "BADGES, do you?\p"
-	.string "The guard won't let you through\n"
-	.string "without them.\p"
-	.string "By the way, did your POKéMON get\n"
-	.string "any stronger?$"
+	.string "Yo what's up {PLAYER},\n"
+	.string "oh this is a battle?\p"
+	.string "what is the level cap\n"
+	.string "right now? …\p"
+	.string "And how this pre status\n"
+	.string "thing works.\p"
+	.string "bro why am I playing this\n"
+	.string "game blind?$"
 
 Route22_Text_EarlyRivalDefeat::
-	.string "Awww!\n"
-	.string "You just lucked out!$"
+	.string "wait I preslept an insomnia\n"
+	.string "guy!? whats going on man??$"
+
+Route22_Text_EarlyRivalVictory::
+	.string "Wait you actually lost to me?\p"
+	.string "Bro I'm not even trying,\n"
+	.string "this is content.\p"
+	.string "Run it back when you're\n"
+	.string "ready, {PLAYER}. Peaceeee!$"
 
 Route22_Text_EarlyRivalPostBattle::
-	.string "I heard the POKéMON LEAGUE is\n"
-	.string "crawling with tough TRAINERS.\p"
-	.string "I have to figure out how to get\n"
-	.string "past them.\p"
-	.string "You should quit dawdling and get a\n"
-	.string "move on!$"
+	.string "Huh!?? bro what is the\n"
+	.string "point of pre status,\p"
+	.string "why is this in my game?\p"
+	.string "what is the point of being\n"
+	.string "preslept…\p"
+	.string "if your just sleeping?\p"
+	.string "Alright I botted out, its\n"
+	.string "all good though.\p"
+	.string "Time to start over!\n"
+	.string "Peaceeee!$"
 
 Route22_Text_TwitchEarlyRivalIntro::
 	.string "YO {PLAYER}. our bird evolved.\n"
@@ -304,26 +314,31 @@ Route22_Text_RivalShouldCatchSomeMons::
 	.string "つかまえれば　いい　じゃん！$"
 
 Route22_Text_LateRivalIntro::
-	.string "{RIVAL}: What? {PLAYER}!\n"
-	.string "What a surprise to see you here!\p"
-	.string "So you're going to the POKéMON\n"
-	.string "LEAGUE?\p"
-	.string "You collected all the BADGES, too?\n"
-	.string "That's cool!\p"
-	.string "Then I'll whip you, {PLAYER}, as a\n"
-	.string "warm-up for the POKéMON LEAGUE!\p"
-	.string "Come on!$"
+	.string "Yo {PLAYER}?? no wayyy you\n"
+	.string "actually made it to\l"
+	.string "the endgame.\p"
+	.string "you got all 8 too?\n"
+	.string "ok ok.\p"
+	.string "aight run me one real\n"
+	.string "quick, im just warming up\p"
+	.string "before I go deathless\n"
+	.string "E4 baby.\p"
+	.string "lets gooo!$"
 
 Route22_Text_LateRivalDefeat::
-	.string "What!?\p"
-	.string "I was just careless, you!$"
+	.string "bro that was literally a\n"
+	.string "warmup match, doesnt count.\p"
+	.string "I dont even have any\n"
+	.string "pokeballs.$"
 
 Route22_Text_LateRivalPostBattle::
-	.string "That loosened me up.\n"
-	.string "I'm ready for the POKéMON LEAGUE!\p"
-	.string "{PLAYER}, you need more practice.\p"
-	.string "But hey, you know that!\n"
-	.string "I'm out of here. Smell ya!$"
+	.string "bro I dont even know what\n"
+	.string "the e4 is but there must\l"
+	.string "be some.\p"
+	.string "But Im running it back\n"
+	.string "right now.\p"
+	.string "Infinite mental.\p"
+	.string "I N F I N I T E   S U P A G U Y S$"
 
 Route22_Text_TwitchLateRivalIntro::
 	.string "no way. you made it to the\n"

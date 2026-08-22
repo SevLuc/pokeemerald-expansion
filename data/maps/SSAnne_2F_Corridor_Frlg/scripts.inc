@@ -177,26 +177,29 @@ SSAnne_2F_Corridor_EventScript_Sailor::
 	end
 
 SSAnne_2F_Corridor_Text_ThisShipIsLuxuryLiner::
-	.string "This ship, she is a luxury liner for\n"
-	.string "TRAINERS of the world!\p"
-	.string "At every port, we hold parties with\n"
-	.string "invited TRAINERS.$"
+	.string "This ship's a luxury liner for\n"
+	.string "TRAINERS the world over!\p"
+	.string "Cleanest deck in the fleet.\n"
+	.string "Wasn't, once. Someone saw to that.$"
 
 SSAnne_2F_Corridor_Text_RivalIntro::
-	.string "{RIVAL}: Bonjour!\n"
-	.string "{PLAYER}!\p"
-	.string "Imagine seeing you here!\n"
-	.string "{PLAYER}, were you really invited?\p"
-	.string "So how's your POKéDEX coming?\p"
-	.string "I already caught 40 kinds, pal.\n"
-	.string "Different kinds are everywhere.\p"
-	.string "Crawl around in grassy areas, and\n"
-	.string "look hard for them.$"
+	.string "Yooo whats good my guy?\p"
+	.string "You got past the gauntlet\n"
+	.string "too??\p"
+	.string "You are him bro!\p"
+	.string "Thats some good\n"
+	.string "calculations with the\l"
+	.string "dome piece!\p"
+	.string "… a fight?\p"
+	.string "alright betski,\n"
+	.string "I accidentally edged my\l"
+	.string "pokemon,\p"
+	.string "now I got to use the\n"
+	.string "homeless version of my\l"
+	.string "team.$"
 
 SSAnne_2F_Corridor_Text_RivalDefeat::
-	.string "Humph!\p"
-	.string "At least you're raising your\n"
-	.string "POKéMON!$"
+	.string "W fight$"
 
 SSAnne_2F_Corridor_Text_RivalVictory::
 	.string "{PLAYER}..！\n"
@@ -205,13 +208,12 @@ SSAnne_2F_Corridor_Text_RivalVictory::
 	.string "きたえた　ほうが　いいぜ！$"
 
 SSAnne_2F_Corridor_Text_RivalPostBattle::
-	.string "{RIVAL}: I heard there was a CUT\n"
-	.string "master on board.\p"
-	.string "But he was just a seasick old man!\p"
-	.string "CUT itself is really useful.\n"
-	.string "Yup, it'll be handy.\p"
-	.string "You should go see him, too.\n"
-	.string "Smell ya!$"
+	.string "Oh yo, theres a CUT master\n"
+	.string "on this boat, so CUT in.\p"
+	.string "Do I actually need to\n"
+	.string "teach a guy CUT?\p"
+	.string "Like come on bro.\p"
+	.string "Alright we are outta here!$"
 
 SSAnne_2F_Corridor_Text_TwitchRivalIntro::
 	.string "chat we EVOLVED and we look\n"
