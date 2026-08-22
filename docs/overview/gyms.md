@@ -9,7 +9,7 @@ hard-but-fair rebalance against vanilla.
 ## Gym 1 — Pewter (Brock, Rock) — Boulder Badge
 - Level cap: 14.
 - Vanilla team: Geodude Lv12, Onix Lv14.
-- Structure: a TRAINER POOL of 8 members that fields 6 (Party Size 6, Pool Rules
+- Structure: a TRAINER POOL of 9 members that fields 6 (Party Size 6, Pool Rules
   Basic). Onix is tagged the ace (always fielded). The intended selection is
   BST-matching to the player's team; that custom pick function is NOT built yet,
   so with the default pool rules the game currently picks 6 semi-randomly (ace
@@ -27,6 +27,10 @@ hard-but-fair rebalance against vanilla.
   - HISUIAN GROWLITHE (F), Intimidate (Rock Tomb / Flame Wheel / Wild Charge /
     Morning Sun) - Fire/Rock; Wild Charge answers its 4x Water weakness, Morning
     Sun is recovery
+  - CHEWTLE (F) nicknamed "sexy turt", Strong Jaw (Bite / Crunch / Ice Fang /
+    Attract) - pure Water, the one non-Rock member; Strong Jaw boosts the biting
+    moves. Note Bite and Crunch are both Dark (redundant), and it has no Water
+    STAB; Rock Tomb was requested but Chewtle cannot learn it.
   - ONIX (F) nicknamed "LongTurd", ACE, Sturdy (Swagger / Dig / Rock Tomb /
     Self-Destruct) - suicide-wall
 - All movesets are level-cap-legal (verified with the moveset-legality skill).
