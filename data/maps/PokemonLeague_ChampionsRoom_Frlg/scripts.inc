@@ -7,10 +7,15 @@ PokemonLeague_ChampionsRoom_Frlg_MapScripts::
 PokemonLeague_ChampionsRoom_OnResume::
 	setvar VAR_0x8004, 4
 	call PokemonLeague_EventScript_DoLightingEffect
+	call_if_eq VAR_RIVAL_ID, RIVAL_ID_TWITCH, PokemonLeague_ChampionsRoom_EventScript_CheckStopTriggerTwitch
 	call_if_eq VAR_STARTER_MON, 2, PokemonLeague_ChampionsRoom_EventScript_CheckStopTriggerSquirtle
 	call_if_eq VAR_STARTER_MON, 1, PokemonLeague_ChampionsRoom_EventScript_CheckStopTriggerBulbasaur
 	call_if_eq VAR_STARTER_MON, 0, PokemonLeague_ChampionsRoom_EventScript_CheckStopTriggerCharmander
 	end
+
+PokemonLeague_ChampionsRoom_EventScript_CheckStopTriggerTwitch::
+	goto_if_defeated TRAINER_RIVAL_TWITCH_CHAMPION, PokemonLeague_ChampionsRoom_EventScript_StopSceneTrigger
+	return
 
 PokemonLeague_ChampionsRoom_EventScript_CheckStopTriggerSquirtle::
 	goto_if_defeated TRAINER_CHAMPION_FIRST_SQUIRTLE, PokemonLeague_ChampionsRoom_EventScript_StopSceneTrigger
@@ -61,7 +66,7 @@ PokemonLeague_ChampionsRoom_EventScript_EnterRoom::
 	clearflag FLAG_TEMP_5
 	setflag FLAG_DEFEATED_CHAMP
 	setflag FLAG_TEMP_4
-	msgbox PokemonLeague_ChampionsRoom_Text_PostBattle
+	call PokemonLeague_ChampionsRoom_EventScript_SayPostBattle
 	playbgm MUS_RG_SLOW_PALLET, 0
 	addobject LOCALID_CHAMPIONS_ROOM_PROF_OAK
 	msgbox PokemonLeague_ChampionsRoom_Text_OakPlayer
@@ -100,9 +105,22 @@ PokemonLeague_ChampionsRoom_EventScript_QuestLogEnd::
 	end
 
 PokemonLeague_ChampionsRoom_EventScript_Battle::
+	goto_if_eq VAR_RIVAL_ID, RIVAL_ID_TWITCH, PokemonLeague_ChampionsRoom_EventScript_BattleTwitch
 	call_if_eq VAR_STARTER_MON, 2, PokemonLeague_ChampionsRoom_EventScript_BattleSquirtle
 	call_if_eq VAR_STARTER_MON, 1, PokemonLeague_ChampionsRoom_EventScript_BattleBulbasaur
 	call_if_eq VAR_STARTER_MON, 0, PokemonLeague_ChampionsRoom_EventScript_BattleCharmander
+	return
+
+PokemonLeague_ChampionsRoom_EventScript_BattleTwitch::
+	trainerbattle_no_intro TRAINER_RIVAL_TWITCH_CHAMPION, PokemonLeague_ChampionsRoom_Text_TwitchDefeat
+	return
+
+PokemonLeague_ChampionsRoom_EventScript_SayPostBattle::
+	goto_if_eq VAR_RIVAL_ID, RIVAL_ID_TWITCH, PokemonLeague_ChampionsRoom_EventScript_SayPostBattleTwitch
+	msgbox PokemonLeague_ChampionsRoom_Text_PostBattle
+	return
+PokemonLeague_ChampionsRoom_EventScript_SayPostBattleTwitch::
+	msgbox PokemonLeague_ChampionsRoom_Text_TwitchPostBattle
 	return
 
 PokemonLeague_ChampionsRoom_EventScript_Rematch::
@@ -112,7 +130,11 @@ PokemonLeague_ChampionsRoom_EventScript_Rematch::
 	return
 
 PokemonLeague_ChampionsRoom_EventScript_Intro::
+	goto_if_eq VAR_RIVAL_ID, RIVAL_ID_TWITCH, PokemonLeague_ChampionsRoom_EventScript_IntroTwitch
 	msgbox PokemonLeague_ChampionsRoom_Text_Intro
+	return
+PokemonLeague_ChampionsRoom_EventScript_IntroTwitch::
+	msgbox PokemonLeague_ChampionsRoom_Text_TwitchIntro
 	return
 
 PokemonLeague_ChampionsRoom_EventScript_RematchIntro::
@@ -288,6 +310,38 @@ PokemonLeague_ChampionsRoom_Text_PostBattle::
 	.string "Darn it! You're the new POKéMON\n"
 	.string "LEAGUE CHAMPION!\p"
 	.string "Although I don't like to admit it…$"
+
+PokemonLeague_ChampionsRoom_Text_TwitchIntro::
+	.string "chat, is this real. we made it.\p"
+	.string "we are the CHAMPION.\n"
+	.string "we cleared the pack.\l"
+	.string "respect the art.\p"
+	.string "one thing before we throw\n"
+	.string "hands… PRAISE HELIX.\p"
+	.string "one more time. for old times.\p"
+	.string "okay. lets go, {PLAYER}.$"
+
+PokemonLeague_ChampionsRoom_Text_TwitchDefeat::
+	.string "we lost CONNECTION??\p"
+	.string "that crit MATTERED.\n"
+	.string "it always mattered.\p"
+	.string "HAXED at the buzzer.\n"
+	.string "no way, chat.$"
+
+PokemonLeague_ChampionsRoom_Text_TwitchPostBattle::
+	.string "how did we get the title?\p"
+	.string "ten thousand of us mashing ONE\n"
+	.string "gameboy. no single hand on\l"
+	.string "the wheel.\p"
+	.string "no plan. no leader.\p"
+	.string "we never even learned our own\n"
+	.string "team's names.\p"
+	.string "we just… swarmed. and we won.\p"
+	.string "we nuzlock to ball. it is not\n"
+	.string "dead, it is just boxed.\p"
+	.string "we are gonna call it here.\p"
+	.string "thank the Helix we beat this\n"
+	.string "game. GG. go next.$"
 
 PokemonLeague_ChampionsRoom_Text_OakPlayer::
 	.string "OAK: {PLAYER}!$"
