@@ -40,6 +40,7 @@ CeruleanCity_EventScript_Rival::
 	addobject LOCALID_CERULEAN_RIVAL
 	applymovement LOCALID_CERULEAN_RIVAL, CeruleanCity_Movement_RivalEnter
 	waitmovement 0
+	goto_if_eq VAR_RIVAL_ID, RIVAL_ID_TWITCH, CeruleanCity_EventScript_RivalTwitch
 	msgbox CeruleanCity_Text_RivalIntro
 	setvar VAR_LAST_TALKED, LOCALID_CERULEAN_RIVAL
 	call_if_eq VAR_STARTER_MON, 2, CeruleanCity_EventScript_RivalSquirtle
@@ -57,6 +58,30 @@ CeruleanCity_EventScript_Rival::
 	setflag FLAG_GOT_FAME_CHECKER
 	giveitem ITEM_FAME_CHECKER
 	msgbox CeruleanCity_Text_ExplainFameCheckerSmellYa
+	closemessage
+	applymovement LOCALID_CERULEAN_RIVAL, CeruleanCity_Movement_RivalExit
+	waitmovement 0
+	fadedefaultbgm
+	removeobject LOCALID_CERULEAN_RIVAL
+	releaseall
+	end
+
+CeruleanCity_EventScript_RivalTwitch::
+	msgbox CeruleanCity_Text_TwitchRivalIntro
+	setvar VAR_LAST_TALKED, LOCALID_CERULEAN_RIVAL
+	trainerbattle_no_intro TRAINER_RIVAL_TWITCH_CERULEAN, CeruleanCity_Text_TwitchRivalDefeat
+	famechecker FAMECHECKER_BILL, 0
+	msgbox CeruleanCity_Text_TwitchRivalPostBattle
+	closemessage
+	playbgm MUS_RG_RIVAL_EXIT, 0
+	call_if_eq VAR_TEMP_1, 0, CeruleanCity_EventScript_RivalStartExit
+	call_if_eq VAR_TEMP_1, 1, CeruleanCity_EventScript_RivalStartExit
+	call_if_eq VAR_TEMP_1, 2, CeruleanCity_EventScript_RivalStartExitRight
+	msgbox CeruleanCity_Text_TwitchOhRightPresent
+	setvar VAR_MAP_SCENE_CERULEAN_CITY_RIVAL, 1
+	setflag FLAG_GOT_FAME_CHECKER
+	giveitem ITEM_FAME_CHECKER
+	msgbox CeruleanCity_Text_TwitchExplainFameChecker
 	closemessage
 	applymovement LOCALID_CERULEAN_RIVAL, CeruleanCity_Movement_RivalExit
 	waitmovement 0
@@ -394,6 +419,46 @@ CeruleanCity_Text_RivalPostBattle::
 	.string "you should go thank him.\p"
 	.string "Well, I better get rolling!\n"
 	.string "Smell ya later!$"
+
+CeruleanCity_Text_TwitchRivalIntro::
+	.string "yo, you beat the bridge?\n"
+	.string "the whole bridge? okay, okay.\p"
+	.string "do NOT touch the PC.\n"
+	.string "we do not trust the PC.\p"
+	.string "NEVER FORGET BLOODY SUNDAY.\p"
+	.string "also DEMOCRACY IS THE DOME.\n"
+	.string "anyway. fight?$"
+
+CeruleanCity_Text_TwitchRivalDefeat::
+	.string "PRESS B. PRESS B TO PRAY…\p"
+	.string "we pressed A.\n"
+	.string "we ALWAYS press A.\p"
+	.string "it is our curse.$"
+
+CeruleanCity_Text_TwitchRivalPostBattle::
+	.string "go north, {PLAYER}. the Bill guy\n"
+	.string "shows you his rare mons for FREE.\p"
+	.string "absolute cinema.\n"
+	.string "tell him the Helix sent you.\p"
+	.string "PRAISE HELIX.$"
+
+CeruleanCity_Text_TwitchOhRightPresent::
+	.string "oh wait. take this.\n"
+	.string "no reason. the Helix provides.\p"
+	.string "do not try to sell it.\n"
+	.string "we tried. you cannot.$"
+
+CeruleanCity_Text_TwitchExplainFameChecker::
+	.string "it is basically the wiki.\n"
+	.string "intel on all the big trainers.\p"
+	.string "we memorized every word back\n"
+	.string "in 2014… wait.\p"
+	.string "why does chat look different?\n"
+	.string "the emotes changed.\l"
+	.string "the words changed.\p"
+	.string "we… we EVOLVED.\n"
+	.string "new meta dropped.\p"
+	.string "GG. we go next.$"
 
 CeruleanCity_Text_OhRightLittlePresentAsFavor::
 	.string "Oh, yeah, right.\p"

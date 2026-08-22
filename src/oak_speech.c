@@ -2,6 +2,7 @@
 #include "bg.h"
 #include "data.h"
 #include "decompress.h"
+#include "event_data.h"
 #include "event_scripts.h"
 #include "gpu_regs.h"
 #include "malloc.h"
@@ -649,20 +650,17 @@ static const u8 *const sFemaleNameChoices[] =
     gNameChoice_Suzi
 };
 
+// Forced two-option rival pick (Buhrito / Twitch). The index chosen is stored in
+// VAR_RIVAL_ID so each rival encounter can branch its team and dialogue on it.
 static const u8 *const sRivalNameChoices[] =
 {
-#if defined(FIRERED)
-    gNameChoice_Green,
-    gNameChoice_Gary,
-    gNameChoice_Kaz,
-    gNameChoice_Toru
-#else
-    gNameChoice_Red,
-    gNameChoice_Ash,
-    gNameChoice_Kene,
-    gNameChoice_Geki
-#endif
+    [RIVAL_ID_BUHRITO] = gNameChoice_Buhrito,
+    [RIVAL_ID_TWITCH]  = gNameChoice_Twitch,
 };
+
+// Number of default name presets shown for the PLAYER's own name menu (that menu
+// keeps its NEW NAME entry and picks from sMale/sFemaleNameChoices).
+#define PLAYER_NAME_PRESET_COUNT 4
 
 enum
 {
@@ -1419,6 +1417,24 @@ static void Task_OakSpeech_HandleRivalNameInput(u8 taskId)
 {
     s16 *data = gTasks[taskId].data;
     s8 input = Menu_ProcessInput();
+
+    if (sOakSpeechResources->hasPlayerBeenNamed == TRUE)
+    {
+        // Rival: forced pick, no NEW NAME and no backing out. Each option is a
+        // rival identity; the chosen index is the name choice AND VAR_RIVAL_ID.
+        if (input >= 0 && input < (s8)ARRAY_COUNT(sRivalNameChoices))
+        {
+            PlaySE(SE_SELECT);
+            ClearStdWindowAndFrameToTransparent(tMenuWindowId, TRUE);
+            RemoveWindow(tMenuWindowId);
+            VarSet(VAR_RIVAL_ID, input);
+            GetDefaultName(TRUE, input);
+            tNameNotConfirmed = TRUE;
+            gTasks[taskId].func = Task_OakSpeech_ConfirmName;
+        }
+        return;
+    }
+
     switch (input)
     {
     case 0: // NEW NAME
@@ -2129,14 +2145,23 @@ static void PrintNameChoiceOptions(u8 taskId, u8 hasPlayerBeenNamed)
     PutWindowTilemap(tMenuWindowId);
     DrawStdFrameWithCustomTileAndPalette(tMenuWindowId, 1, STD_WINDOW_BASE_TILE_NUM, 14);
     FillWindowPixelBuffer(gTasks[taskId].tMenuWindowId, PIXEL_FILL(1));
-    AddTextPrinterParameterized(tMenuWindowId, FONT_NORMAL, gOtherText_NewName, 8, 1, 0, NULL);
     if (hasPlayerBeenNamed == FALSE)
+    {
+        // Player's own name: NEW NAME entry plus a few random presets (unchanged).
+        AddTextPrinterParameterized(tMenuWindowId, FONT_NORMAL, gOtherText_NewName, 8, 1, 0, NULL);
         textPtrs = gSaveBlock2Ptr->playerGender == MALE ? sMaleNameChoices : sFemaleNameChoices;
+        for (i = 0; i < PLAYER_NAME_PRESET_COUNT; i++)
+            AddTextPrinterParameterized(tMenuWindowId, FONT_NORMAL, textPtrs[i], 8, 16 * (i + 1) + 1, 0, NULL);
+        InitMenuNormal(tMenuWindowId, FONT_NORMAL, 0, 1, 16, PLAYER_NAME_PRESET_COUNT + 1, 0);
+    }
     else
+    {
+        // Rival: forced pick between the two rival identities, no NEW NAME entry.
         textPtrs = sRivalNameChoices;
-    for (i = 0; i < ARRAY_COUNT(sRivalNameChoices); i++)
-        AddTextPrinterParameterized(tMenuWindowId, FONT_NORMAL, textPtrs[i], 8, 16 * (i + 1) + 1, 0, NULL);
-    InitMenuNormal(tMenuWindowId, FONT_NORMAL, 0, 1, 16, 5, 0);
+        for (i = 0; i < ARRAY_COUNT(sRivalNameChoices); i++)
+            AddTextPrinterParameterized(tMenuWindowId, FONT_NORMAL, textPtrs[i], 8, 16 * i + 1, 0, NULL);
+        InitMenuNormal(tMenuWindowId, FONT_NORMAL, 0, 1, 16, ARRAY_COUNT(sRivalNameChoices), 0);
+    }
     CopyWindowToVram(tMenuWindowId, COPYWIN_FULL);
 }
 

@@ -32,12 +32,14 @@ SSAnne_2F_Corridor_EventScript_RivalTrigger::
 	call_if_eq VAR_TEMP_1, 0, SSAnne_2F_Corridor_EventScript_RivalApproachLeft
 	call_if_eq VAR_TEMP_1, 1, SSAnne_2F_Corridor_EventScript_RivalApproachMid
 	call_if_eq VAR_TEMP_1, 2, SSAnne_2F_Corridor_EventScript_RivalApproachRight
-	msgbox SSAnne_2F_Corridor_Text_RivalIntro
 	setvar VAR_LAST_TALKED, LOCALID_SS_ANNE_RIVAL
+	goto_if_eq VAR_RIVAL_ID, RIVAL_ID_TWITCH, SSAnne_2F_Corridor_EventScript_RivalTwitch
+	msgbox SSAnne_2F_Corridor_Text_RivalIntro
 	call_if_eq VAR_STARTER_MON, 2, SSAnne_2F_Corridor_EventScript_RivalSquirtle
 	call_if_eq VAR_STARTER_MON, 1, SSAnne_2F_Corridor_EventScript_RivalBulbasaur
 	call_if_eq VAR_STARTER_MON, 0, SSAnne_2F_Corridor_EventScript_RivalCharmander
 	msgbox SSAnne_2F_Corridor_Text_RivalPostBattle
+SSAnne_2F_Corridor_EventScript_RivalDepart::
 	closemessage
 	delay 10
 	playbgm MUS_RG_RIVAL_EXIT, 0
@@ -78,6 +80,12 @@ SSAnne_2F_Corridor_EventScript_RivalBulbasaur::
 SSAnne_2F_Corridor_EventScript_RivalCharmander::
 	trainerbattle_no_intro TRAINER_RIVAL_SS_ANNE_CHARMANDER, SSAnne_2F_Corridor_Text_RivalDefeat
 	return
+
+SSAnne_2F_Corridor_EventScript_RivalTwitch::
+	msgbox SSAnne_2F_Corridor_Text_TwitchRivalIntro
+	trainerbattle_no_intro TRAINER_RIVAL_TWITCH_SS_ANNE, SSAnne_2F_Corridor_Text_TwitchRivalDefeat
+	msgbox SSAnne_2F_Corridor_Text_TwitchRivalPostBattle
+	goto SSAnne_2F_Corridor_EventScript_RivalDepart
 
 SSAnne_2F_Corridor_EventScript_RivalExitLeft::
 	applymovement LOCALID_SS_ANNE_RIVAL, SSAnne_2F_Corridor_Movement_RivalExitLeft
@@ -204,4 +212,26 @@ SSAnne_2F_Corridor_Text_RivalPostBattle::
 	.string "Yup, it'll be handy.\p"
 	.string "You should go see him, too.\n"
 	.string "Smell ya!$"
+
+SSAnne_2F_Corridor_Text_TwitchRivalIntro::
+	.string "chat we EVOLVED and we look\n"
+	.string "GREAT. respect the art.\p"
+	.string "you got past the gauntlet too??\n"
+	.string "DOESHEKNOW. he does not know.\p"
+	.string "fancy boat, fancy us.\n"
+	.string "so this is a fight. bet.$"
+
+SSAnne_2F_Corridor_Text_TwitchRivalDefeat::
+	.string "HAXED. that was a crit.\p"
+	.string "it was a RANGE and we clicked\n"
+	.string "it anyway.\p"
+	.string "we did the math and the math\n"
+	.string "lied to us.$"
+
+SSAnne_2F_Corridor_Text_TwitchRivalPostBattle::
+	.string "theres a CUT master on this\n"
+	.string "boat, go get CUT.\p"
+	.string "do we actually need to teach\n"
+	.string "a guy CUT? whatever.\p"
+	.string "we are outta here. GG.$"
 

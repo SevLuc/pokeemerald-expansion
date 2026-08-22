@@ -26,12 +26,14 @@ PokemonTower_2F_EventScript_Rival::
 	waitmovement 0
 	applymovement LOCALID_POKEMON_TOWER_RIVAL, Common_Movement_Delay48
 	waitmovement 0
-	msgbox PokemonTower_2F_Text_RivalIntro
 	setvar VAR_LAST_TALKED, LOCALID_POKEMON_TOWER_RIVAL
+	goto_if_eq VAR_RIVAL_ID, RIVAL_ID_TWITCH, PokemonTower_2F_EventScript_RivalTwitch
+	msgbox PokemonTower_2F_Text_RivalIntro
 	call_if_eq VAR_STARTER_MON, 2, PokemonTower_2F_EventScript_RivalSquirtle
 	call_if_eq VAR_STARTER_MON, 1, PokemonTower_2F_EventScript_RivalBulbasaur
 	call_if_eq VAR_STARTER_MON, 0, PokemonTower_2F_EventScript_RivalCharmander
 	msgbox PokemonTower_2F_Text_RivalPostBattle
+PokemonTower_2F_EventScript_RivalDepart::
 	closemessage
 	playbgm MUS_RG_RIVAL_EXIT, 0
 	call_if_eq VAR_TEMP_1, 0, PokemonTower_2F_EventScript_RivalExitRight
@@ -68,6 +70,12 @@ PokemonTower_2F_EventScript_RivalBulbasaur::
 PokemonTower_2F_EventScript_RivalCharmander::
 	trainerbattle_no_intro TRAINER_RIVAL_POKEMON_TOWER_CHARMANDER, PokemonTower_2F_Text_RivalDefeat
 	return
+
+PokemonTower_2F_EventScript_RivalTwitch::
+	msgbox PokemonTower_2F_Text_TwitchRivalIntro
+	trainerbattle_no_intro TRAINER_RIVAL_TWITCH_POKEMON_TOWER, PokemonTower_2F_Text_TwitchRivalDefeat
+	msgbox PokemonTower_2F_Text_TwitchRivalPostBattle
+	goto PokemonTower_2F_EventScript_RivalDepart
 
 PokemonTower_2F_EventScript_RivalExitRight::
 	applymovement LOCALID_POKEMON_TOWER_RIVAL, PokemonTower_2F_Movement_RivalExitRight
@@ -124,6 +132,30 @@ PokemonTower_2F_Text_RivalPostBattle::
 	.string "I've got a lot to accomplish,\l"
 	.string "unlike you.\p"
 	.string "Smell ya later!$"
+
+PokemonTower_2F_Text_TwitchRivalIntro::
+	.string "is your mon dead? for real?\n"
+	.string "F IN CHAT.\p"
+	.string "this whole tower is THE\n"
+	.string "GRAVEYARD. we know it well.\p"
+	.string "our starter is in a box up there.\n"
+	.string "ABBY is in a box.\p"
+	.string "it is not dead, it is just boxed.\n"
+	.string "forever.\p"
+	.string "anyway. throw hands in a\n"
+	.string "graveyard? sure.$"
+
+PokemonTower_2F_Text_TwitchRivalDefeat::
+	.string "NOT THE ACE. not the ace…\p"
+	.string "that is the run. pour one out.\p"
+	.string "F. F. one more F.\n"
+	.string "thank you, chat.$"
+
+PokemonTower_2F_Text_TwitchRivalPostBattle::
+	.string "pants stay brown.\n"
+	.string "we stayed composed.\p"
+	.string "we did NOT wipe. mostly.\n"
+	.string "we go next.$"
 
 PokemonTower_2F_Text_SilphScopeCouldUnmaskGhosts::
 	.string "Even we could not identify the\n"

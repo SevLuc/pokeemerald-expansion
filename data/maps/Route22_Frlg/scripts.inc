@@ -29,11 +29,13 @@ Route22_EventScript_EarlyRival::
 	call_if_eq VAR_TEMP_1, 1, Route22_EventScript_EarlyRivalApproach
 	call_if_eq VAR_TEMP_1, 2, Route22_EventScript_EarlyRivalApproachBottom
 	delay 6
+	goto_if_eq VAR_RIVAL_ID, RIVAL_ID_TWITCH, Route22_EventScript_EarlyRivalTwitch
 	msgbox Route22_Text_EarlyRivalIntro
 	call_if_eq VAR_STARTER_MON, 2, Route22_EventScript_EarlyRivalSquirtle
 	call_if_eq VAR_STARTER_MON, 1, Route22_EventScript_EarlyRivalBulbasaur
 	call_if_eq VAR_STARTER_MON, 0, Route22_EventScript_EarlyRivalCharmander
 	msgbox Route22_Text_EarlyRivalPostBattle
+Route22_EventScript_EarlyRivalDepart::
 	closemessage
 	delay 10
 	playbgm MUS_RG_RIVAL_EXIT, 0
@@ -68,6 +70,12 @@ Route22_EventScript_EarlyRivalBulbasaur::
 Route22_EventScript_EarlyRivalCharmander::
 	trainerbattle_earlyrival TRAINER_RIVAL_ROUTE22_EARLY_CHARMANDER, 0, Route22_Text_EarlyRivalDefeat, Text_RivalVictory
 	return
+
+Route22_EventScript_EarlyRivalTwitch::
+	msgbox Route22_Text_TwitchEarlyRivalIntro
+	trainerbattle_earlyrival TRAINER_RIVAL_TWITCH_ROUTE22_EARLY, 0, Route22_Text_TwitchEarlyRivalDefeat, Text_RivalVictory
+	msgbox Route22_Text_TwitchEarlyRivalPostBattle
+	goto Route22_EventScript_EarlyRivalDepart
 
 Route22_EventScript_EarlyRivalExit::
 	applymovement LOCALID_ROUTE22_RIVAL, Route22_Movement_EarlyRivalExit
@@ -179,12 +187,14 @@ Route22_EventScript_LateRival::
 	call_if_eq VAR_TEMP_1, 0, Route22_EventScript_LateRivalApproach
 	call_if_eq VAR_TEMP_1, 1, Route22_EventScript_LateRivalApproach
 	call_if_eq VAR_TEMP_1, 2, Route22_EventScript_LateRivalApproachBottom
-	msgbox Route22_Text_LateRivalIntro
 	setvar VAR_LAST_TALKED, LOCALID_ROUTE22_RIVAL
+	goto_if_eq VAR_RIVAL_ID, RIVAL_ID_TWITCH, Route22_EventScript_LateRivalTwitch
+	msgbox Route22_Text_LateRivalIntro
 	call_if_eq VAR_STARTER_MON, 2, Route22_EventScript_LateRivalSquirtle
 	call_if_eq VAR_STARTER_MON, 1, Route22_EventScript_LateRivalBulbasaur
 	call_if_eq VAR_STARTER_MON, 0, Route22_EventScript_LateRivalCharmander
 	msgbox Route22_Text_LateRivalPostBattle
+Route22_EventScript_LateRivalDepart::
 	closemessage
 	delay 10
 	playbgm MUS_RG_RIVAL_EXIT, 0
@@ -218,6 +228,12 @@ Route22_EventScript_LateRivalBulbasaur::
 Route22_EventScript_LateRivalCharmander::
 	trainerbattle_no_intro TRAINER_RIVAL_ROUTE22_LATE_CHARMANDER, Route22_Text_LateRivalDefeat
 	return
+
+Route22_EventScript_LateRivalTwitch::
+	msgbox Route22_Text_TwitchLateRivalIntro
+	trainerbattle_no_intro TRAINER_RIVAL_TWITCH_ROUTE22_LATE, Route22_Text_TwitchLateRivalDefeat
+	msgbox Route22_Text_TwitchLateRivalPostBattle
+	goto Route22_EventScript_LateRivalDepart
 
 Route22_Movement_LateRivalExit::
 	walk_left
@@ -256,6 +272,29 @@ Route22_Text_EarlyRivalPostBattle::
 	.string "You should quit dawdling and get a\n"
 	.string "move on!$"
 
+Route22_Text_TwitchEarlyRivalIntro::
+	.string "YO {PLAYER}. our bird evolved.\n"
+	.string "it is BIRD JESUS now.\p"
+	.string "it is technically still a\n"
+	.string "Pidgey. same thing.\p"
+	.string "same energy. PRAISE BIRD JESUS.\p"
+	.string "is this a battle?\n"
+	.string "it is now.$"
+
+Route22_Text_TwitchEarlyRivalDefeat::
+	.string "we got democracy'd. somebody\n"
+	.string "voted to lose and that was\l"
+	.string "the vote.\p"
+	.string "input lag.\n"
+	.string "we did that ON PURPOSE.$"
+
+Route22_Text_TwitchEarlyRivalPostBattle::
+	.string "free heal, thank you. blacking\n"
+	.string "out warps us to the center,\l"
+	.string "so that is not a loss.\p"
+	.string "that is TECH. START9.\n"
+	.string "we go next. CHECK THE LEDGE.$"
+
 @ Translated in RB as "{RIVAL}: What? Why do I have 2 POKéMON? You should catch some more too!"
 Route22_Text_RivalShouldCatchSomeMons::
 	.string "{RIVAL}“なんだ？\n"
@@ -285,6 +324,31 @@ Route22_Text_LateRivalPostBattle::
 	.string "{PLAYER}, you need more practice.\p"
 	.string "But hey, you know that!\n"
 	.string "I'm out of here. Smell ya!$"
+
+Route22_Text_TwitchLateRivalIntro::
+	.string "no way. you made it to the\n"
+	.string "endgame? you got all 8?\p"
+	.string "okay, big news first.\n"
+	.string "LORD HELIX HAS RISEN.\p"
+	.string "our fossil is a GOD now. bow.\p"
+	.string "second news: we are running\n"
+	.string "the E4 deathless.\p"
+	.string "best nuzlocker in the world.\n"
+	.string "probably. warm up with us.$"
+
+Route22_Text_TwitchLateRivalDefeat::
+	.string "warmup match, does not count.\p"
+	.string "we do not even run items.\n"
+	.string "no items, that is the run.\p"
+	.string "remember? we said that.\n"
+	.string "it is a rule now.$"
+
+Route22_Text_TwitchLateRivalPostBattle::
+	.string "we do not tilt. we iterate.\p"
+	.string "ten thousand of us, ten\n"
+	.string "thousand attempts. run it back.\p"
+	.string "see you at the top, {PLAYER}.\n"
+	.string "GG go next.$"
 
 @ Translated in RB as "{RIVAL}: Hahaha! {PLAYER}! That's your best? You're nowhere near as good as me, pal! Go train some more! You loser!"
 Route22_Text_LateRivalVictory::
