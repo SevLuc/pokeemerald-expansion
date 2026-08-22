@@ -110,17 +110,14 @@ PokemonTower_2F_Movement_RivalExitDown::
 	step_end
 
 PokemonTower_2F_Text_RivalIntro::
-	.string "{RIVAL}: Hey, {PLAYER}!\n"
-	.string "What brings you here?\l"
-	.string "Is your POKéMON dead?\p"
-	.string "Hey! It's alive!\p"
-	.string "I can at least make them faint!\n"
-	.string "Let's go!$"
+	.string "{PLAYER}! Yo where's the\n"
+	.string "TEA bro?\p"
+	.string "How do I get the TEA?\p"
+	.string "you got TEA?$"
 
 PokemonTower_2F_Text_RivalDefeat::
-	.string "What?\n"
-	.string "You stinker!\p"
-	.string "I took it easy on you, too!$"
+	.string "If I was tea…\n"
+	.string "where would I be?$"
 
 PokemonTower_2F_Text_RivalPostBattle::
 	.string "How's your POKéDEX coming?\n"

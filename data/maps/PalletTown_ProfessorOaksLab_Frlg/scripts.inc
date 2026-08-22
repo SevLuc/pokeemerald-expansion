@@ -1444,53 +1444,54 @@ PalletTown_ProfessorOaksLab_Text_TwitchRivalGoToughenMyMon::
 	.string "see you there. PRAISE HELIX.$"
 
 PalletTown_ProfessorOaksLab_Text_RivalGrampsIsntAround::
-	.string "{RIVAL}: What, it's only {PLAYER}?\n"
-	.string "Gramps isn't around.$"
+	.string "Yo {PLAYER} what's good,\n"
+	.string "I literally never played\l"
+	.string "this game.$"
 
 PalletTown_ProfessorOaksLab_Text_RivalFedUpWithWaiting::
-	.string "{RIVAL}: Gramps!\n"
-	.string "I'm fed up with waiting!$"
+	.string "Yeah give me bulbasaur\n"
+	.string "bro!$"
 
 PalletTown_ProfessorOaksLab_Text_RivalNoFairWhatAboutMe::
-	.string "{RIVAL}: Hey! Gramps! No fair!\n"
-	.string "What about me?$"
+	.string "Bulbasaur is broken because\n"
+	.string "he cooks on brock and he\l"
+	.string "cooks on misty.$"
 
 PalletTown_ProfessorOaksLab_Text_RivalGoChoosePlayer::
-	.string "{RIVAL}: Heh, I don't need to be\n"
-	.string "greedy like you. I'm mature!\p"
-	.string "Go ahead and choose, {PLAYER}!$"
+	.string "Bulbasaur that's the tech!$"
 
 PalletTown_ProfessorOaksLab_Text_RivalIllTakeThisOneThen::
-	.string "{RIVAL}: I'll take this one, then!$"
+	.string "Hold up! we got a problem…\p"
+	.string "the starters are different…$"
 
 PalletTown_ProfessorOaksLab_Text_RivalReceivedMonFromOak::
 	.string "{RIVAL} received the {STR_VAR_1}\n"
 	.string "from PROF. OAK!$"
 
 PalletTown_ProfessorOaksLab_Text_RivalMyMonLooksTougher::
-	.string "{RIVAL}: My POKéMON looks a lot\n"
-	.string "tougher than yours.$"
+	.string "Lets go bro! lets fight$"
 
 PalletTown_ProfessorOaksLab_Text_RivalLetsCheckOutMons::
-	.string "{RIVAL}: Wait, {PLAYER}!\n"
-	.string "Let's check out our POKéMON!\p"
-	.string "Come on, I'll take you on!$"
+	.string "Wait, {PLAYER}!\n"
+	.string "We are about to ball!\l"
+	.string "Let's gooo!$"
 
 PalletTown_ProfessorOaksLab_Text_RivalDefeat::
-	.string "WHAT?\n"
-	.string "Unbelievable!\l"
-	.string "I picked the wrong POKéMON!$"
+	.string "They didnt get rid of the\n"
+	.string "tutorial bro!?\p"
+	.string "I know how fighting works,\n"
+	.string "I am not that rusty.$"
 
 @ Also used for early Route 22 battle
 Text_RivalVictory::
-	.string "{RIVAL}: Yeah!\n"
-	.string "Am I great or what?$"
+	.string "They didnt get rid of the\n"
+	.string "tutorial bro!?\p"
+	.string "I know how fighting works,\n"
+	.string "I am not that rusty.$"
 
 PalletTown_ProfessorOaksLab_Text_RivalGoToughenMyMon::
-	.string "{RIVAL}: Okay! I'll make my\n"
-	.string "POKéMON battle to toughen it up!\p"
-	.string "{PLAYER}! Gramps!\n"
-	.string "Smell you later!$"
+	.string "alright bet {PLAYER}, time to\n"
+	.string "lockity splockity blobbity.$"
 
 PalletTown_ProfessorOaksLab_Text_RivalGramps::
 	.string "{RIVAL}: Gramps!$"

@@ -7,6 +7,16 @@ Update in the same PR as the change.
 `YYYY-MM-DD` — area — one-line summary (PR/commit ref)
 
 ## Entries
+- 2026-08-22 - story/rival - Placed Buhrito's dialogue across all 8 rival
+  encounters (Oak's Lab, Route 22 early, Cerulean, S.S. Anne, Pokemon Tower,
+  Silph Co, Route 22 late, Champion). Buhrito is the default rival (RIVAL_ID_BUHRITO)
+  so his lines went into each encounter's non-Twitch default text labels; the Twitch
+  branch, teams, and mechanics are untouched. Verbatim from docs/writing/drafts/buhrito.md
+  (gen-3 line breaks only). Skipped as unwritten: Pokemon Tower "Cinnabar" post-battle
+  gag (pending geo-error call), Champion rematch intro, post-game National-Dex lines.
+  Known issue: Text_RivalVictory (player-loss line) is shared by the Oak's Lab tutorial
+  loss and the Route 22 early loss, so the Route 22 loss currently shows the tutorial
+  joke; splitting it needs a label change (deferred).
 - 2026-08-22 - QoL/gameplay - Infinite-repel toggle added to the Start menu
   ("REPEL: ON/OFF"). While ON, all wild encounters are suppressed with zero repel
   consumption (guard in `IsWildLevelAllowedByRepel`, `src/wild_encounter.c`);
