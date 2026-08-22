@@ -27,10 +27,10 @@ hard-but-fair rebalance against vanilla.
   - HISUIAN GROWLITHE (F), Intimidate (Rock Tomb / Flame Wheel / Wild Charge /
     Morning Sun) - Fire/Rock; Wild Charge answers its 4x Water weakness, Morning
     Sun is recovery
-  - CHEWTLE (F) nicknamed "sexy turt", Strong Jaw (Bite / Crunch / Ice Fang /
-    Attract) - pure Water, the one non-Rock member; Strong Jaw boosts the biting
-    moves. Note Bite and Crunch are both Dark (redundant), and it has no Water
-    STAB; Rock Tomb was requested but Chewtle cannot learn it.
+  - CHEWTLE (F) nicknamed "sexy turt", Strong Jaw (Bite / Waterfall / Ice Fang /
+    Attract) - pure Water, the one non-Rock member. Strong Jaw boosts Bite and
+    Ice Fang; Waterfall is its physical Water STAB. (Rock Tomb was requested but
+    Chewtle cannot learn it.)
   - ONIX (F) nicknamed "LongTurd", ACE, Sturdy (Swagger / Dig / Rock Tomb /
     Self-Destruct) - suicide-wall
 - All movesets are level-cap-legal (verified with the moveset-legality skill).
