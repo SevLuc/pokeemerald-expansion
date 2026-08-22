@@ -7258,30 +7258,110 @@ Music: Male
 Items: Super Potion / Full Heal
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
+Party Size: 6
+Pool Rules: Basic
+Pool Prune: Bst Match
 
-Voltorb
-Level: 21
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Sonic Boom
-- Tackle
-- Screech
-- Shock Wave
+Jolteon (M)
+Level: 27
+Ability: Volt Absorb
+Nature: Timid
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Thunderbolt
+- Magnet Rise
+- Trailblaze
+- Yawn
 
-Pikachu
-Level: 18
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Quick Attack
+SPECIES_ROTOM_FROST
+Level: 27
+Ability: Levitate
+Nature: Timid
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Blizzard
+- Thunderbolt
+- Light Screen
+- Reflect
+
+SPECIES_IRON_HANDS
+Level: 27
+Ability: Quark Drive
+Nature: Brave
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Electric Terrain
+- Drain Punch
+- Thunder Punch
+- Ice Punch
+
+SPECIES_ELECTRODE_HISUI
+Level: 27
+Ability: Static
+Nature: Naive
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Chloroblast
+- Thunderbolt
+- Ice Ball
+- Self Destruct
+
+Heliolisk (M)
+Level: 27
+Ability: Dry Skin
+Nature: Timid
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Thunderbolt
+- Hyper Voice
+- Signal Beam
+- Grass Knot
+
+Morpeko (F)
+Level: 27
+Ability: Hunger Switch
+Nature: Jolly
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Wild Charge
+- Seed Bomb
+- Stomping Tantrum
+- Super Fang
+
+Togedemaru (M)
+Level: 27
+Ability: Iron Barbs
+Nature: Jolly
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Nuzzle
+- Iron Head
+- Endeavor
+- Volt Switch
+
+Pincurchin (F)
+Level: 27
+Ability: Electric Surge
+Nature: Quiet
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Rising Voltage
+- Self Destruct
+- Muddy Water
 - Thunder Wave
-- Double Team
-- Shock Wave
 
-Raichu
-Level: 24
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Quick Attack
-- Thunder Wave
-- Double Team
-- Shock Wave
+Pachirisu (M)
+Level: 27
+Ability: Volt Absorb
+Nature: Timid
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Nuzzle
+- Light Screen
+- Mud Slap
+- Volt Switch
+
+Raichu (F)
+Level: 27
+Ability: Static
+Tags: Ace
+Nature: Naive
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Extreme Speed
+- Thunderbolt
+- Surf
+- Grass Knot
 
 === TRAINER_LEADER_ERIKA ===
 Name: ERIKA

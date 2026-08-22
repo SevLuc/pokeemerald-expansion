@@ -7,6 +7,17 @@ Update in the same PR as the change.
 `YYYY-MM-DD` — area — one-line summary (PR/commit ref)
 
 ## Entries
+- 2026-08-22 - trainers/gyms - Rebalanced Lt. Surge (Gym 3, Thunder Badge) from a
+  3-mon team into a 10-member Electric TRAINER POOL that fields 6, mirroring
+  Brock/Misty (Party Size 6, Pool Rules Basic, Pool Prune Bst Match). Raichu is the
+  ACE (always fielded); the other 5 are BST-matched to the player. All members Lv27
+  (the Surge cap), perfect IVs, no EVs, no nicknames. Members: Raichu (ace),
+  Jolteon, Rotom-Frost, Iron Hands, Hisuian Electrode, Heliolisk, Morpeko,
+  Togedemaru, Pincurchin, Pachirisu. +Speed natures except the slow bruisers Iron
+  Hands (Brave) and Pincurchin (Quiet). Two off-learnset moves set directly on the
+  trainer mons (legal for trainer parties): Rotom-Frost Blizzard, Raichu Extreme
+  Speed; every other move is cap-27 legal. Data in `src/data/trainers_frlg.party`
+  (`TRAINER_LEADER_LT_SURGE`); overview in `docs/overview/gyms.md`.
 - 2026-08-21 - caps/balance - Locked in the hard level-cap ladder to new values in
   `src/caps.c`: Brock 14, Misty 23, Surge 27, Erika 35, Koga 50, Sabrina 53, Blaine
   58, Giovanni 63, Elite Four 72 (Champion onward 100). The Rocket-Hideout-until-Tower
