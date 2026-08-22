@@ -7,6 +7,12 @@ Update in the same PR as the change.
 `YYYY-MM-DD` — area — one-line summary (PR/commit ref)
 
 ## Entries
+- 2026-08-22 - QoL/gameplay - Infinite-repel toggle added to the Start menu
+  ("REPEL: ON/OFF"). While ON, all wild encounters are suppressed with zero repel
+  consumption (guard in `IsWildLevelAllowedByRepel`, `src/wild_encounter.c`);
+  toggled by `FLAG_TOGGLE_NO_ENCOUNTERS` (reclaimed FLAG_UNUSED_0x4A7). Start-menu
+  action + dynamic label in `src/start_menu.c`. Fishing and scripted battles are
+  unaffected (same as a normal repel).
 - 2026-08-22 - intro/story - Wired the new-game intro. Replaced the vanilla Oak
   monologue with a brief author welcome (casual/old-school framing, "play by
   whatever rules you like, the goal is to have FUN and explore") that flows
