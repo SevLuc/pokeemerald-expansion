@@ -63,7 +63,7 @@ hard-but-fair rebalance against vanilla.
   forced-lead behaviour is Misty-only (no other pool uses a LEAD tag). Covered by
   a test in test/battle/trainer_control.c ("...always fields the lead-tagged mon
   first...").
-- Pool members (10, all Lv22, perfect IVs, no EVs, all female except genderless
+- Pool members (10, all Lv23 = at the cap, perfect IVs, no EVs, all female except genderless
   Starmie; each runs a +Speed nature that lowers its unused attacking stat).
   BST spread 295 (Horsea) - 525 (Vaporeon). Heavy RAIN theme: four Rain Dance
   setters (Psyduck, Horsea, Ludicolo, Vaporeon) feed Swift Swim (Horsea,
