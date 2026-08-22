@@ -16,7 +16,9 @@ hard-but-fair rebalance against vanilla.
   always in). See "pending" note below.
 - Pool members (all Lv14, perfect IVs, no EVs, all female except genderless
   Stakataka; each runs a +Speed nature that lowers its unused attacking stat -
-  Timid for the special attacker Glimmet, Jolly for every physical member):
+  Timid for the special attacker Glimmet, Jolly for the physical members, except
+  the ultra-slow Stakataka which runs Adamant (+Atk/-SpA) instead of wasting a
+  Speed boost):
   - ALOLAN GEODUDE (F) nicknamed "goku turd", Galvanize (Headbutt / Rock Tomb /
     Bulldoze / Mud-Slap)
   - ARON (F), Sturdy (Aerial Ace / Rock Tomb / Iron Head / Body Press)
