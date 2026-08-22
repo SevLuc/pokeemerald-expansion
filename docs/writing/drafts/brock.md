@@ -18,9 +18,11 @@ Carriers below note EXISTING Pewter City NPCs vs NEW objects to add.
   Everybody loves BROCK. / Big heart, that one. …Gives it away a little too easy."
 - [NEW NPC near gym] "Off to challenge BROCK? Get in line. / Everyone wants a
   piece of him. His lawyers, mostly."
-- [NEW NPC - woman, then clams up] "Oh, I knew BROCK. Once. …Briefly."
-- [NEW NPC - kid] "My mom says BROCK's real generous. / Every single month, she
-  says. I don't get it."
+- [woman, then clams up] "Oh, I knew BROCK. Once. …Briefly."
+- [adult gossip] "BROCK? Generous, they say. / Sends a payment every month, regular
+  as clockwork. …To who? Best not to ask." (adult ex/alimony implication ONLY; do
+  NOT frame this as a child, a kid's parent, or child support - keep minors out of
+  the divorce arc entirely.)
 
 ## Layer 2 - At the gym (phones gag → it clicks) - ALL IN-GAME
 - Entry sting: On entering the gym pre-badge, SE_POKENAV_CALL rings 3x and a box

@@ -68,8 +68,8 @@ straight (one wink) so the FIGHT still lands.
 | BROCK-01 | Brock (path, vague) | Lass: "Big heart, that one. Gives it away a little too easy." | Lass (existing) | Pewter City | none (pre-gym) | 1 | in-game | - |
 | BROCK-02 | Brock (path, vague) | Fat Man (append to his Brock praise): "Mind you, the man's got history. You'll see." | Fat Man (existing) | Pewter City | none (pre-gym) | 2 | in-game | - |
 | BROCK-03 | Brock (path, vague) | "Off to challenge BROCK? Get in line. Everyone wants a piece of him. His lawyers, mostly." | Bug Catcher (existing, repurposed; ungated base branch of the progressive gossip NPC) | Pewter City | none (pre-gym) | 3 | in-game | - |
-| BROCK-03b | Brock (path, vague) | Woman: "Oh, I knew BROCK. Once. …Briefly." | new NPC (woman) | Pewter City | none (pre-gym) | 3 | drafted (UNPLACED - no spare female NPC in Pewter City; would need a new object) | - |
-| BROCK-03c | Brock (path, vague) | Kid: "Mom says BROCK's real generous. Every single month. I don't get it." | new NPC (kid) | Pewter City | none (pre-gym) | 3 | drafted (UNPLACED - no spare child NPC in Pewter City; would need a new object) | - |
+| BROCK-03b | Brock (path, vague) | Woman: "Oh, I knew BROCK. Once. …Briefly." | Viridian Mart woman shopper (existing, repurposed) | Viridian City Mart | none (pre-gym) | 3 | in-game | - |
+| BROCK-03c | Brock (path, vague) | Adult gossip: "BROCK? Generous, they say. Sends a payment every month, regular as clockwork. …To who? Best not to ask." | Pewter House2 Old Man (existing, repurposed) | Pewter City House 2 | none (pre-gym) | 3 | in-game | - |
 | BROCK-04 | Brock (gag) | Gym guide: the phones ring constantly; Brock says just let 'em ring. | Gym guide | Pewter Gym | none | 4 | in-game | - |
 | BROCK-05 | Brock (gag) | Trainer (Liam): each phone has its own ringtone, "that's a filing system." | Pewter Gym trainer | Pewter Gym | none | 5 | in-game | - |
 | BROCK-06 | Brock (reveal, coy) | Trainer (Liam) on defeat: "Six phones, six... 'previous sponsors.'" | Pewter Gym trainer | Pewter Gym | none | 6 | in-game | [FLAG: canon-check] |
@@ -101,7 +101,12 @@ Consistency notes:
   order checked most-progressed-first so late flags win. NOTE: post-E4 uses
   FLAG_SYS_GAME_CLEAR (the FRLG "beat the Champion" gate), NOT FLAG_IS_CHAMPION
   (which is Hoenn-link-related in this codebase).
-- UNPLACED (BROCK-03b woman, BROCK-03c kid): no spare female/child NPC exists in
+- CONTENT NOTE (BROCK-03c): the "generous every month" line is ADULT alimony to an
+  ex only. It must NOT be voiced by a child or framed as a kid's parent / child
+  support - keep minors entirely out of the divorce arc. Placed on an adult (Pewter
+  House2 Old Man); 03b placed on the Viridian Mart woman. Both scattered outside the
+  Pewter overworld since it had no spare female/child NPC.
+- (superseded) earlier note - no spare female/child NPC exists in
   Pewter City, and the personas need matching sprites. Left drafted; they would
   require a new object (out of scope: no new objects). Carry them into a later
   Pewter map pass if objects are ever added, or fold into another town.
