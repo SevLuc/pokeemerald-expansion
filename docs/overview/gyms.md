@@ -18,10 +18,12 @@ hard-but-fair rebalance against vanilla.
   - ALOLAN GEODUDE (F), Galvanize (Headbutt / Rock Tomb / Bulldoze / Mud-Slap)
   - ARON (F), Sturdy (Aerial Ace / Rock Tomb / Iron Head / Body Press)
   - GLIMMET (F), Corrosion (Acid Spray / Ancient Power / Mud Shot / Spikes)
-  - AERODACTYL (F), Pressure (Rock Blast / Wing Attack / Thunder Fang / Bulldoze)
+  - AERODACTYL (F) nicknamed "Supa Burd", Pressure (Rock Blast / Wing Attack /
+    Thunder Fang / Bulldoze)
   - STAKATAKA (genderless), Beast Boost (Rock Tomb / Heavy Slam / Bulldoze / Body
     Press) - Ultra Beast, BST 570, big power spike for a first gym
-  - ROCKRUFF (F), Vital Spirit (Rock Tomb / Sucker Punch / Attract / Play Rough)
+  - ROCKRUFF (F) nicknamed "sexy dawg", Vital Spirit (Rock Tomb / Sucker Punch /
+    Attract / Play Rough)
   - ONIX (F) nicknamed "LongTurd", ACE, Sturdy (Swagger / Dig / Rock Tomb /
     Self-Destruct) - suicide-wall
 - All movesets are level-cap-legal (verified with the moveset-legality skill).
