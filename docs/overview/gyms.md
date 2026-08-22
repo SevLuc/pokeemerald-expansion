@@ -76,7 +76,7 @@ hard-but-fair rebalance against vanilla.
 
 ## Gym 8 - Viridian (Giovanni, Ground) - Earth Badge
 - Vanilla team: (fill from data)
-- Rebalanced team: (TBD; Earth cap is 46)
+- Rebalanced team: (TBD; Earth cap is 63)
 - Gimmick: the gym is LOCKED the entire game (canon; opens only after badges 2-7)
   and its LEADER is never seen. We reframe the locked door as the town's civic
   blind spot: Viridian is earnestly, proudly devoted to a LEADER nobody has ever

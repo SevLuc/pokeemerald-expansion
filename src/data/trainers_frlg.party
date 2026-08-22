@@ -13795,3 +13795,192 @@ IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 Muk
 Level: 39
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+
+=== TRAINER_RIVAL_TWITCH_OAKS_LAB ===
+Name: TERRY
+Class: Rival Early Frlg
+Pic: Rival Early Frlg
+Gender: Male
+Music: Male
+Double Battle: No
+
+Abby (Charmander)
+Level: 5
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+=== TRAINER_RIVAL_TWITCH_ROUTE22_EARLY ===
+Name: TERRY
+Class: Rival Early Frlg
+Pic: Rival Early Frlg
+Gender: Male
+Music: Male
+Double Battle: No
+
+Abby (Charmeleon)
+Level: 13
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Bird Jesus (Pidgey)
+Level: 12
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+=== TRAINER_RIVAL_TWITCH_CERULEAN ===
+Name: TERRY
+Class: Rival Early Frlg
+Pic: Rival Early Frlg
+Gender: Male
+Music: Male
+Double Battle: No
+
+Abby (Charmeleon)
+Level: 23
+IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+
+Bird Jesus (Pidgeotto)
+Level: 22
+IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+
+=== TRAINER_RIVAL_TWITCH_SS_ANNE ===
+Name: TERRY
+Class: Rival Late Frlg
+Pic: Rival Late Frlg
+Gender: Male
+Music: Male
+Double Battle: No
+
+Abby (Charmeleon)
+Level: 27
+IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+
+Bird Jesus (Pidgeotto)
+Level: 26
+IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+
+The Keeper (Drowzee)
+Level: 24
+IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+
+Digrat (Rattata)
+Level: 24
+IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+
+Jay Leno (Rattata)
+Level: 24
+IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+
+Dux (Spearow)
+Level: 25
+IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+
+=== TRAINER_RIVAL_TWITCH_POKEMON_TOWER ===
+Name: TERRY
+Class: Rival Late Frlg
+Pic: Rival Late Frlg
+Gender: Male
+Music: Male
+Double Battle: No
+
+Bird Jesus (Pidgeot)
+Level: 38
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+
+BigDig (Raticate)
+Level: 36
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+
+The Keeper (Hypno)
+Level: 37
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+
+Cabbage (Gloom)
+Level: 36
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+
+=== TRAINER_RIVAL_TWITCH_SILPH ===
+Name: TERRY
+Class: Rival Late Frlg
+Pic: Rival Late Frlg
+Gender: Male
+Music: Male
+Double Battle: No
+
+Bird Jesus (Pidgeot)
+Level: 50
+IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+
+ATV (Venomoth)
+Level: 49
+IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+
+BigDig (Raticate)
+Level: 48
+IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+
+Cabbage (Vileplume)
+Level: 49
+IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+
+=== TRAINER_RIVAL_TWITCH_ROUTE22_LATE ===
+Name: TERRY
+Class: Rival Late Frlg
+Pic: Rival Late Frlg
+Gender: Male
+Music: Male
+Double Battle: No
+
+Bird Jesus (Pidgeot)
+Level: 62
+IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+
+ATV (Venomoth)
+Level: 62
+IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+
+Air Jordan (Lapras)
+Level: 62
+IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+
+King Fonz (Nidoking)
+Level: 63
+IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+
+AA-j (Zapdos)
+Level: 63
+IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+
+Lord Helix (Omastar)
+Level: 63
+IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+
+=== TRAINER_RIVAL_TWITCH_CHAMPION ===
+Name: TERRY
+Class: Champion Frlg
+Pic: Champion Rival Frlg
+Gender: Male
+Music: Male
+Double Battle: No
+Mugshot: Yellow
+
+Lord Helix (Omastar)
+Level: 70
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+
+Bird Jesus (Pidgeot)
+Level: 70
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+
+AA-j (Zapdos)
+Level: 72
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+
+Air Jordan (Lapras)
+Level: 71
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+
+ATV (Venomoth)
+Level: 70
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+
+King Fonz (Nidoking)
+Level: 71
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe

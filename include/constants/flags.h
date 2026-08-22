@@ -51,7 +51,7 @@
 
 #else
 
-#define FLAG_UNUSED_0x020    0x20 // Unused Flag
+#define FLAG_DEFEATED_POKEMON_TOWER_RIVAL    0x20 // Level-cap gate: set when the Pokemon Tower rival is beaten; lifts the cap from 38 to 50
 #define FLAG_UNUSED_0x021    0x21 // Unused Flag
 #define FLAG_UNUSED_0x022    0x22 // Unused Flag
 #define FLAG_UNUSED_0x023    0x23 // Unused Flag

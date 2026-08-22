@@ -41,6 +41,7 @@ PokemonTower_2F_EventScript_Rival::
 	fadedefaultbgm
 	removeobject LOCALID_POKEMON_TOWER_RIVAL
 	setvar VAR_MAP_SCENE_POKEMON_TOWER_2F, 1
+	setflag FLAG_DEFEATED_POKEMON_TOWER_RIVAL
 	releaseall
 	end
 
