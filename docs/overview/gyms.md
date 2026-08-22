@@ -14,7 +14,9 @@ hard-but-fair rebalance against vanilla.
   BST-matching to the player's team; that custom pick function is NOT built yet,
   so with the default pool rules the game currently picks 6 semi-randomly (ace
   always in). See "pending" note below.
-- Pool members (all Lv14, perfect IVs, all female except genderless Stakataka):
+- Pool members (all Lv14, perfect IVs, no EVs, all female except genderless
+  Stakataka; each runs a +Speed nature that lowers its unused attacking stat -
+  Timid for the special attacker Glimmet, Jolly for every physical member):
   - ALOLAN GEODUDE (F) nicknamed "goku turd", Galvanize (Headbutt / Rock Tomb /
     Bulldoze / Mud-Slap)
   - ARON (F), Sturdy (Aerial Ace / Rock Tomb / Iron Head / Body Press)
