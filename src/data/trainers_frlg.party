@@ -7099,6 +7099,15 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Attract
 - Play Rough
 
+SPECIES_GROWLITHE_HISUI (F)
+Level: 14
+Ability: Intimidate
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Rock Tomb
+- Flame Wheel
+- Wild Charge
+- Morning Sun
+
 LongTurd (Onix) (F)
 Level: 14
 Ability: Sturdy
