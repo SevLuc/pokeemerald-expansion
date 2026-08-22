@@ -10,10 +10,11 @@ hard-but-fair rebalance against vanilla.
 - Level cap: 14.
 - Vanilla team: Geodude Lv12, Onix Lv14.
 - Structure: a TRAINER POOL of 9 members that fields 6 (Party Size 6, Pool Rules
-  Basic). Onix is tagged the ace (always fielded). The intended selection is
-  BST-matching to the player's team; that custom pick function is NOT built yet,
-  so with the default pool rules the game currently picks 6 semi-randomly (ace
-  always in). See "pending" note below.
+  Basic, Pool Prune Bst Match). Onix is tagged the ace (always fielded). At
+  battle start the pool is BST-matched to the player: the game sums the player's
+  team base-stat totals and fields the ace plus the five other members whose
+  combined BST is closest to that total (implemented as the POOL_PRUNE_BST_MATCH
+  prune in src/trainer_pools.c).
 - Pool members (all Lv14, perfect IVs, no EVs, all female except genderless
   Stakataka; each runs a +Speed nature that lowers its unused attacking stat -
   Timid for the special attacker Glimmet, Jolly for the physical members, except
@@ -40,9 +41,9 @@ hard-but-fair rebalance against vanilla.
   - ONIX (F) nicknamed "LongTurd", ACE, Sturdy (Swagger / Dig / Rock Tomb /
     Self-Destruct) - suicide-wall
 - All movesets are level-cap-legal (verified with the moveset-legality skill).
-- PENDING: the BST-matching pool pick function (custom POOL_PICK_* in
-  src/trainer_pools.c + a player-BST helper). Until it exists, picking is the
-  default semi-random-with-ace behavior.
+- BST matching: POOL_PRUNE_BST_MATCH (src/trainer_pools.c) computes the player's
+  team BST and keeps the ace plus the closest-total subset; ties break toward the
+  higher total. Covered by a test in test/battle/trainer_control.c.
 - History fragments: see BROCK-* in lore-ledger.md
 
 ## Gym 2 — Cerulean (Misty, Water) — Cascade Badge

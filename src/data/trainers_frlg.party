@@ -7044,6 +7044,7 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 Party Size: 6
 Pool Rules: Basic
+Pool Prune: Bst Match
 
 goku turd (SPECIES_GEODUDE_ALOLA) (F)
 Level: 14

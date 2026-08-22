@@ -349,6 +349,125 @@ static void RandomTagPrune(const struct Trainer *trainer, u8 *poolIndexArray, co
             poolIndexArray[i] = POOL_SLOT_DISABLED;
 }
 
+//  Above this many non-ace candidates the brute-force subset search is skipped
+//  (2^N grows too large); the pool then fields the default random pick instead.
+#define POOL_BST_MATCH_MAX_CANDIDATES 16
+
+static u32 GetSpeciesBST(enum Species species)
+{
+    const struct SpeciesInfo *info = &gSpeciesInfo[species];
+    return info->baseHP + info->baseAttack + info->baseDefense
+         + info->baseSpeed + info->baseSpAttack + info->baseSpDefense;
+}
+
+static u32 GetPlayerPartyBSTTotal(void)
+{
+    u32 total = 0;
+    for (u32 i = 0; i < PARTY_SIZE; i++)
+    {
+        enum Species species = GetMonData(&gPlayerParty[i], MON_DATA_SPECIES);
+        if (species == SPECIES_NONE || species == SPECIES_EGG)
+            continue;
+        if (GetMonData(&gPlayerParty[i], MON_DATA_IS_EGG))
+            continue;
+        total += GetSpeciesBST(species);
+    }
+    return total;
+}
+
+//  Keeps the ace(s) plus the combination of the remaining members whose total
+//  base-stat total is closest to the player's team total. Disables the rest so
+//  the default pick functions field exactly that set (ace last). Ties are broken
+//  toward the higher total (a hair stronger for the player).
+static void BstMatchPrune(const struct Trainer *trainer, u8 *poolIndexArray, const struct PoolRules *rules)
+{
+    u32 poolSize = trainer->poolSize;
+    u32 partySize = trainer->partySize;
+    //  Nothing to prune if the whole pool is fielded anyway.
+    if (partySize == 0 || partySize >= poolSize)
+        return;
+
+    u32 target = GetPlayerPartyBSTTotal();
+
+    u8 candPos[POOL_BST_MATCH_MAX_CANDIDATES];  //  positions in poolIndexArray
+    u32 candBST[POOL_BST_MATCH_MAX_CANDIDATES];
+    u32 candCount = 0;
+    u32 aceBSTsum = 0;
+    u32 aceCount = 0;
+
+    for (u32 i = 0; i < poolSize; i++)
+    {
+        if (poolIndexArray[i] == POOL_SLOT_DISABLED)
+            continue;
+        u32 partyIdx = poolIndexArray[i];
+        u32 bst = GetSpeciesBST(trainer->party[partyIdx].species);
+        if (trainer->party[partyIdx].tags & (1u << POOL_TAG_ACE))
+        {
+            aceBSTsum += bst;
+            aceCount++;
+        }
+        else if (candCount < POOL_BST_MATCH_MAX_CANDIDATES)
+        {
+            candPos[candCount] = i;
+            candBST[candCount] = bst;
+            candCount++;
+        }
+        else
+        {
+            //  Too many candidates to brute-force safely; leave the pool alone.
+            return;
+        }
+    }
+
+    //  Can't satisfy the ace requirement, or not enough non-ace members: bail
+    //  and let the default picker field what it can.
+    if (partySize < aceCount)
+        return;
+    u32 k = partySize - aceCount;  //  number of non-ace members to keep
+    if (k > candCount)
+        return;
+
+    u32 bestMask = 0;
+    bool32 haveBest = FALSE;
+    s32 bestDiff = 0;
+    u32 bestSum = 0;
+    u32 numMasks = 1u << candCount;
+    for (u32 mask = 0; mask < numMasks; mask++)
+    {
+        u32 sum = aceBSTsum;
+        u32 count = 0;
+        for (u32 b = 0; b < candCount; b++)
+        {
+            if (mask & (1u << b))
+            {
+                sum += candBST[b];
+                count++;
+            }
+        }
+        if (count != k)
+            continue;
+        s32 diff = (s32)sum - (s32)target;
+        if (diff < 0)
+            diff = -diff;
+        if (!haveBest || diff < bestDiff || (diff == bestDiff && sum > bestSum))
+        {
+            haveBest = TRUE;
+            bestDiff = diff;
+            bestSum = sum;
+            bestMask = mask;
+        }
+    }
+    if (!haveBest)
+        return;
+
+    //  Disable every non-ace candidate not chosen; aces stay enabled.
+    for (u32 b = 0; b < candCount; b++)
+    {
+        if (!(bestMask & (1u << b)))
+            poolIndexArray[candPos[b]] = POOL_SLOT_DISABLED;
+    }
+}
+
 static void PrunePool(const struct Trainer *trainer, u8 *poolIndexArray, const struct PoolRules *rules)
 {
     //  Use defined pruning functions go here
@@ -361,6 +480,9 @@ static void PrunePool(const struct Trainer *trainer, u8 *poolIndexArray, const s
         break;
     case POOL_PRUNE_RANDOM_TAG:
         RandomTagPrune(trainer, poolIndexArray, rules);
+        break;
+    case POOL_PRUNE_BST_MATCH:
+        BstMatchPrune(trainer, poolIndexArray, rules);
         break;
     default:
         break;
