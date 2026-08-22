@@ -7,6 +7,13 @@ Update in the same PR as the change.
 `YYYY-MM-DD` — area — one-line summary (PR/commit ref)
 
 ## Entries
+- 2026-08-22 - story/surge - NPC fill pass: reflavored 12 vanilla NPCs across
+  Vermilion (Mart, Fan Club, House3) and the S.S. Anne (corridors, deck, cabins)
+  with Surge's discipline / earned-composure / ship-history lore that builds the
+  Captain payoff. Cross-nudges: Mart man + S.S. Anne police agent -> Giovanni
+  (faceless boss), Fan Club woman -> Misty. Rocket/Cut/famechecker info preserved
+  by appending. Skipped 3 low-fit NPCs to avoid over-saturating the "freedom" beat.
+  Lore-ledger SURGE-09..20 added.
 - 2026-08-22 - story/brock+misty - NPC fill pass: replaced 19 vanilla flavor NPCs
   with leader lore (Brock 11 across Pewter Museum/Houses/PC/Mart; Misty 8 across
   Cerulean city/PC + Route 25). Subtle and varied, no repeated beats; divorce/

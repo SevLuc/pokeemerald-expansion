@@ -198,6 +198,18 @@ mainline plot - never claim Rocket is finished. Full lines: drafts/surge.md.
 | SURGE-07b | Surge (via ex-soldier) | Tucker (served under Surge) defeat: "…But the LT's faced worse. Far worse." | Tucker (gym trainer) | Vermilion Gym | none | 7 | in-game | [FLAG: canon-check] |
 | SURGE-08 | Why gym leader | Woman post-badge branch: "He could have run this city. Chose to mind a gym instead. …Him all over." | Woman (existing; post-badge) | Vermilion City | FLAG_BADGE03_GET | 8 | in-game | [FLAG: canon-check] |
 | SURGE-GIMMICK | Trash-can trial | The famous "hated" trash-can puzzle reframed as Surge's deliberate TEST OF DISCIPLINE + ENDURANCE. All gym trainers + Gym Guy + the puzzle messages sell it ("Not cruelty. Discipline." / "locked to see if you'll quit." / "Composure, or start over."). Functional hints (2nd lock adjacent, switches in cans, type tip) preserved. | Dwayne/Baily/Tucker/Gym Guy/puzzle | Vermilion Gym | none | 7 | in-game | - |
+| SURGE-09 | Surge (earned composure) | Mart CooltrainerF (rewrite): a POKéMON's only as good as its TRAINER; "the LT's all thunder till it counts. Then you see why we sleep easy here." | Mart CooltrainerF (existing) | Vermilion Mart | none | 3 | in-game | - |
+| SURGE-10 | Surge (freed electric mons) | Fan Club FatMan (append to Pikachu-tail brag): "notice this whole city dotes on electric POKéMON? There's a reason. Ask the LT sometime. …Or don't." | Fan Club FatMan (existing) | Vermilion Fan Club | none | 3 | in-game | - |
+| SURGE-11 | Surge (loud-contrast) | Fan Club WorkerF base branch (append): "loud men, this city. The CHAIRMAN, the LT… you get used to it. The loud ones did the quiet work once." (GameClear/famechecker branch untouched) | Fan Club WorkerF (existing) | Vermilion Fan Club | none | 3 | in-game | - |
+| SURGE-12 | Surge (present-day freedom) | House3 Boy (append to Pidgey-mail line): "mail leaves VERMILION free as you please now. Grandpa says that's new." | House3 Boy (existing) | Vermilion House 3 | none | 3 | in-game | - |
+| SURGE-13 | S.S. Anne (crew pride, dark past) | 1F Corridor waiter (rewrite, French voice kept): "she runs proud these days, non? Was not always a ship to serve on. …You ask no more." | 1F Corridor WorkerM/waiter (existing) | S.S. Anne 1F | none | 4 | in-game | - |
+| SURGE-14 | S.S. Anne (hard hand) | 2F Corridor Sailor (rewrite of luxury-liner line): "she runs clean now, top to keel. Took a hard hand to make her so." | 2F Corridor Sailor (existing) | S.S. Anne 2F | none | 5 | in-game | - |
+| SURGE-15 | Build Captain payoff (keeps CUT hint) | 3F Corridor Sailor (rewrite): keeps "the CAPTAIN even teaches CUT" (functional), adds "he was aboard through all of it. Want to know how VERMILION turned? He's the one to ask." | 3F Corridor Sailor (existing) | S.S. Anne 3F | none | 5 | in-game | - |
+| SURGE-16 | S.S. Anne (freedom) | Deck Youngster (append to depart line): "sails right out of VERMILION, free as you please. Dad says that used to mean something." | Deck Youngster (existing) | S.S. Anne Deck | none | 5 | in-game | - |
+| SURGE-17 | Ties to Captain payoff | 2F Room6 Woman1 (rewrite of "pale/sick"): "he carries a great deal, that man. This whole ship owes him, and he knows it." | 2F Room6 Woman1 (existing) | S.S. Anne 2F Room6 | none | 5 | in-game | - |
+| SURGE-18 | X-NUDGE Giovanni (faceless boss) | Mart BaldingMan keeps the ROCKET-trafficking speech, appends: "the trade never truly stopped, it only changed hands. And the man at the top? None of us have ever seen his face." | Mart BaldingMan (existing) | Vermilion Mart | none | 4 | in-game | [FLAG: canon-check] |
+| SURGE-19 | X-NUDGE Misty (only-water, oblique) | Fan Club Woman (rewrite of Seel dote): "it never strays, that's why I love it. They say a leader up in CERULEAN feels just so. Keeps only what stays." | Fan Club Woman (existing) | Vermilion Fan Club | none | 3 | in-game | - |
+| SURGE-20 | X-NUDGE Giovanni (double life) | 1F Room1 Gentleman keeps the Global Police / ROCKET-trail beat, appends: "we know the face their boss shows the world. Not the one beneath it. This ship remembers the underneath." | S.S. Anne 1F Room1 Gentleman (existing) | S.S. Anne 1F Room1 | none | 4 | in-game | [FLAG: canon-check] |
 
 Consistency notes:
 - The S.S. ANNE trial and the gym trash-can trial now rhyme: both are Surge testing
@@ -209,6 +221,18 @@ Consistency notes:
 - No gym-gate guard NPC: the vanilla Cut-tree already gates the gym (HM01 is only
   usable once the Captain awards it), so the trial framing lives entirely in the
   Captain's reveal and the ambient lines - no extra enforcement object needed.
+- FILL PASS (SURGE-09..20): 12 vanilla flavor NPCs overwritten across Vermilion +
+  S.S. Anne (fill-list-brock-misty-surge.md). Beats rotated per map so none parrot:
+  composure (09), freed-electric (10), loud-contrast (11), Captain-payoff pointers
+  (15/17), and freedom threaded across DIFFERENT maps only (House3 Boy, Deck
+  Youngster, 1F Corridor waiter=pride, 2F Corridor=hard-hand). 3 cross-nudges:
+  2 Giovanni faceless/double-life (18 Mart, 20 SS Anne 1F Room1), 1 Misty only-water
+  (19 Fan Club Woman). Functional info preserved by APPEND on the two Rocket-speech
+  NPCs (18/20) and the CUT-teaching hint kept on the 3F sailor (15).
+- SKIPPED (honored keep-vanilla / LOW-fit + anti-saturation): Vermilion House3 Lass
+  (would repeat the same Pidgey-mail freedom beat as the Boy on one map); S.S. Anne
+  Deck BaldingMan (pure seasick filler, no Surge fit); S.S. Anne 1F Room2 Woman
+  (LOW keep-vanilla candidate; a 4th ship freedom beat would over-saturate the arc).
 
 ## Erika - the Sleeping Enigma (mystique by design; no plain telling)
 Concept: the gentle, ever-dozing flower-princess is the subject of Kanto's wildest

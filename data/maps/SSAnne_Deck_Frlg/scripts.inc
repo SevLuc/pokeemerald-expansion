@@ -25,7 +25,10 @@ SSAnne_Deck_EventScript_Trevor::
 
 SSAnne_Deck_Text_ShipDepartingSoon::
 	.string "The party's over.\n"
-	.string "The ship will be departing soon.$"
+	.string "She'll be departing soon.\p"
+	.string "Sails right out of VERMILION, free\n"
+	.string "as you please. Dad says that used\l"
+	.string "to mean something.$"
 
 SSAnne_Deck_Text_ScrubbingDecksHardWork::
 	.string "Whew!\n"
