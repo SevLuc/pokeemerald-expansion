@@ -7,6 +7,14 @@ Update in the same PR as the change.
 `YYYY-MM-DD` — area — one-line summary (PR/commit ref)
 
 ## Entries
+- 2026-08-22 - story/brock+misty - NPC fill pass: replaced 19 vanilla flavor NPCs
+  with leader lore (Brock 11 across Pewter Museum/Houses/PC/Mart; Misty 8 across
+  Cerulean city/PC + Route 25). Subtle and varied, no repeated beats; divorce/
+  alimony kept off minors (kids got innocent or coy-only lines). Built-in
+  cross-nudges: Museum girl -> Misty, House1 -> Giovanni (Viridian leader away),
+  Cerulean policeman -> Giovanni (faceless boss), PC rocker -> Surge. Functional
+  hints (CUT, obedience tutorial, famechecker) preserved by appending. Lore-ledger
+  rows BROCK-11..21 and MISTY-08..15 added. From the NPC fill lists.
 - 2026-08-22 - story/lore - Authored + placed 15 distributed-lore beats for Oak and
   the Elite Four by overwriting existing generic NPCs (no new objects): Oak OAK-05/06/
   07/08/10 (aide gags, dex-rating gremlin, Agatha hook, post-game musing), Lorelei-08

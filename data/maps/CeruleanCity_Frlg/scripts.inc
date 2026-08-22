@@ -523,10 +523,10 @@ CeruleanCity_Text_YouCanCutDownSmallTrees::
 CeruleanCity_Text_IfSlowbroWasntThereCouldCutTree::
 	.string "If that SLOWBRO wasn't there, you\n"
 	.string "could CUT down the small tree.\p"
-	.string "That way, you could get to the\n"
-	.string "other side.\p"
-	.string "I think there's a way around it,\n"
-	.string "though.$"
+	.string "That way, you'd reach the other\n"
+	.string "side. There's a way around, though.\p"
+	.string "That SLOWBRO's near as stubborn\n"
+	.string "as MISTY's PSYDUCK!$"
 
 CeruleanCity_Text_PokemonEncyclopediaAmusing::
 	.string "That PSYDUCK answers to no one.\n"
@@ -540,10 +540,12 @@ CeruleanCity_Text_MistyPsyduckHeart::
 
 CeruleanCity_Text_PeopleHereWereRobbed::
 	.string "The people here were robbed.\p"
-	.string "It's obvious that TEAM ROCKET is\n"
-	.string "behind this most heinous crime!\p"
-	.string "Even our POLICE FORCE has\n"
-	.string "trouble with the ROCKETS!$"
+	.string "TEAM ROCKET is behind it, sure as\n"
+	.string "anything. Our FORCE can't cope.\p"
+	.string "And the one giving the orders?\n"
+	.string "No one's ever seen his face.\p"
+	.string "A clean-handed man, somewhere.\n"
+	.string "…Those are the ones to fear.$"
 
 CeruleanCity_Text_SlowbroUseSonicboom::
 	.string "Okay! SLOWBRO!\n"
@@ -566,7 +568,9 @@ CeruleanCity_Text_HardToControlMonsObedience::
 	.string "No! That's wrong!\n"
 	.string "It's so hard to control POKéMON!\p"
 	.string "Your POKéMON's obedience depends\n"
-	.string "on your abilities as a TRAINER.$"
+	.string "on your abilities as a TRAINER.\p"
+	.string "Even MISTY can't make her silly\n"
+	.string "one mind. Mine only loafs, though.$"
 
 CeruleanCity_Text_SlowbroTookSnooze::
 	.string "SLOWBRO took a snooze…$"
@@ -581,9 +585,10 @@ CeruleanCity_Text_SlowbroIgnoredOrders::
 	.string "SLOWBRO ignored orders…$"
 
 CeruleanCity_Text_WantBrightRedBicycle::
-	.string "I want a bright red bicycle.\p"
-	.string "I'll keep it at home, so it won't\n"
-	.string "get dirty.$"
+	.string "The SENSATIONAL SISTERS keep it\n"
+	.string "all spotless for their shows.\p"
+	.string "Not MISTY. That girl's forever\n"
+	.string "soaked. Lives in the pool, near.$"
 
 CeruleanCity_Text_ThisIsCeruleanCave::
 	.string "This is CERULEAN CAVE.\p"

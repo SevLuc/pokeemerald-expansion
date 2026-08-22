@@ -35,23 +35,26 @@ CeruleanCity_PokemonCenter_1F_EventScript_Lass::
 	end
 
 CeruleanCity_PokemonCenter_1F_Text_BillDoesWhateverForRareMons::
-	.string "That BILL!\p"
-	.string "I heard that he'll do whatever it\n"
-	.string "takes to get rare POKéMON.\p"
-	.string "He's not above doing all sorts\n"
-	.string "of things, I've heard.$"
+	.string "Rare POKéMON? Head south to\n"
+	.string "VERMILION sometime.\p"
+	.string "Loud fella runs the GYM there.\n"
+	.string "Electric types, and plenty.\p"
+	.string "That city wasn't always so free,\n"
+	.string "they say. Ask him. …Or don't.$"
 
 CeruleanCity_PokemonCenter_1F_Text_EveryoneCallsBillPokemaniac::
-	.string "Have you heard about BILL?\p"
-	.string "Everyone calls him a POKéMANIAC!\p"
-	.string "I think people are just jealous of\n"
-	.string "BILL, though.\p"
-	.string "Who wouldn't want to boast about\n"
-	.string "their POKéMON?$"
+	.string "You won't find MISTY in town\n"
+	.string "half the time, you know.\p"
+	.string "Off chasing that PSYDUCK again.\n"
+	.string "The thing never stays put.\p"
+	.string "Slips its BALL and wanders off…\n"
+	.string "she always goes and fetches it.$"
 
 CeruleanCity_PokemonCenter_1F_Text_BillCollectsRareMons::
 	.string "BILL has lots of POKéMON!\n"
-	.string "He collects rare ones, too!$"
+	.string "He collects all the rare ones!\p"
+	.string "MISTY only ever keeps WATER\n"
+	.string "types, though. …I wonder why.$"
 
 CeruleanCity_PokemonCenter_1F_Text_TryTradingUpstairs::
 	.string "Why don't you go upstairs and try\n"
