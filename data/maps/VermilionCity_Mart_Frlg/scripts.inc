@@ -43,12 +43,13 @@ VermilionCity_Mart_Text_TeamRocketAreWickedPeople::
 	.string "they are, TEAM ROCKET.\p"
 	.string "The trade never truly stopped, mind.\n"
 	.string "It only changed hands.\p"
-	.string "And the man at the top? None of us\n"
-	.string "have ever seen his face.$"
+	.string "Everyone here can name the grunts.\n"
+	.string "No one can name who sends them.$"
 
 VermilionCity_Mart_Text_MonsGoodOrBadDependingOnTrainer::
 	.string "A POKéMON's only as good as its\n"
 	.string "TRAINER. Loud or quiet, no odds.\p"
-	.string "The LT's all thunder till it counts.\n"
-	.string "Then you see why we sleep easy here.$"
+	.string "Power went out down the whole row\n"
+	.string "last winter. Ours never flickered.\p"
+	.string "…Never did learn why.$"
 

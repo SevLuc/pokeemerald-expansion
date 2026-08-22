@@ -179,8 +179,8 @@ SSAnne_2F_Corridor_EventScript_Sailor::
 SSAnne_2F_Corridor_Text_ThisShipIsLuxuryLiner::
 	.string "This ship's a luxury liner for\n"
 	.string "TRAINERS the world over!\p"
-	.string "She runs clean now, top to keel.\n"
-	.string "Took a hard hand to make her so.$"
+	.string "Cleanest deck in the fleet.\n"
+	.string "Wasn't, once. Someone saw to that.$"
 
 SSAnne_2F_Corridor_Text_RivalIntro::
 	.string "Yooo whats good my guy?\p"

@@ -545,7 +545,7 @@ CeruleanCity_Text_PeopleHereWereRobbed::
 	.string "And the one giving the orders?\n"
 	.string "No one's ever seen his face.\p"
 	.string "A clean-handed man, somewhere.\n"
-	.string "…Those are the ones to fear.$"
+	.string "…The kind you never think to watch.$"
 
 CeruleanCity_Text_SlowbroUseSonicboom::
 	.string "Okay! SLOWBRO!\n"

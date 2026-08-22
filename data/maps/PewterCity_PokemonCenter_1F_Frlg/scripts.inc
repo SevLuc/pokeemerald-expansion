@@ -47,9 +47,9 @@ PewterCity_PokemonCenter_1F_EventScript_GBAKid2::
 PewterCity_PokemonCenter_1F_Text_TeamRocketMtMoonImOnPhone::
 	.string "TEAM ROCKET, at MT. MOON!?\p"
 	.string "Not now! I'm on the phone! Scram!\p"
-	.string "Bah… one call and I'm a wreck.\p"
-	.string "BROCK keeps a whole wall of them.\n"
-	.string "Never once loses his cool.$"
+	.string "Bah… one call rattles me for hours.\p"
+	.string "They say BROCK's GYM has a wall of\n"
+	.string "them. However does he sleep.$"
 
 PewterCity_PokemonCenter_1F_Text_Jigglypuff::
 	.string "JIGGLYPUFF: Puu pupuu!$"

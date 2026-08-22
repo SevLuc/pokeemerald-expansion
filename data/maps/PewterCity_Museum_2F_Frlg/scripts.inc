@@ -53,10 +53,10 @@ Text_SeismicTossTaught::
 	.string "Keep it up.$"
 
 PewterCity_Museum_1F_Text_WhatsSpecialAboutMoonStone::
-	.string "Looks like a plain rock to you.\n"
-	.string "Not to BROCK. He'd know it cold.\p"
-	.string "Hardest thing in PEWTER is that\n"
-	.string "man's outside. …Softer within.$"
+	.string "Looks like a plain rock to you.\p"
+	.string "There's harder stone in PEWTER\n"
+	.string "than anything in this case.\p"
+	.string "…Wears a GYM LEADER's face.$"
 
 PewterCity_Museum_1F_Text_BoughtColorTVForMoonLanding::
 	.string "Back when I was young, one phone\n"
@@ -69,15 +69,15 @@ PewterCity_Museum_1F_Text_RunningSpaceExhibitThisMonth::
 	.string "exhibit.$"
 
 PewterCity_Museum_1F_Text_AskedDaddyToCatchPikachu::
-	.string "When I'm big, I'll train WATER\n"
-	.string "POKéMON up in CERULEAN!\p"
-	.string "Like that tough tomboy girl at\n"
-	.string "the GYM there. She's so cool!$"
+	.string "When I'm big I'll go to CERULEAN\n"
+	.string "and only keep WATER POKéMON.\p"
+	.string "There's a girl there who does.\n"
+	.string "…I don't know why. I just like it.$"
 
 PewterCity_Museum_1F_Text_PikachuSoonIPromise::
 	.string "A PIKACHU soon, pumpkin, promise.\p"
-	.string "BROCK could catch her one in a\n"
-	.string "blink. Gentlest hand I ever saw.$"
+	.string "…BROCK caught one for a child\n"
+	.string "once. Took no thanks for it.$"
 
 PewterCity_Museum_1F_Text_SpaceShuttle::
 	.string "Space Shuttle$"

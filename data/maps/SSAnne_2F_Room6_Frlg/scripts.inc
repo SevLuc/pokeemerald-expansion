@@ -11,9 +11,9 @@ SSAnne_2F_Room6_EventScript_Woman2::
 
 SSAnne_2F_Room6_Text_CaptainIsAwfullySick::
 	.string "The CAPTAIN looked awfully pale.\p"
-	.string "He carries a great deal, that man.\n"
-	.string "This whole ship owes him, and he\l"
-	.string "knows it.$"
+	.string "He keeps to his cabin now.\n"
+	.string "Tired, they say.\p"
+	.string "…Some tired doesn't come from work.$"
 
 SSAnne_2F_Room6_Text_ManyPeopleGetSeasick::
 	.string "I hear many people get seasick.$"

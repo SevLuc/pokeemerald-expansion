@@ -26,8 +26,8 @@ VermilionCity_House3_EventScript_Letter::
 VermilionCity_House3_Text_PidgeyFlyLetterToSaffron::
 	.string "I'm getting my PIDGEY to fly a\n"
 	.string "letter to SAFFRON in the north.\p"
-	.string "Mail leaves VERMILION free as you\n"
-	.string "please now. Grandpa says that's new.$"
+	.string "Grandpa says letters used to sit\n"
+	.string "for weeks. He won't say why.$"
 
 VermilionCity_House3_Text_Pidgey::
 	.string "PIDGEY: Kurukkoo!$"

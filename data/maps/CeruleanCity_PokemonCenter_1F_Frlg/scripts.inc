@@ -40,7 +40,7 @@ CeruleanCity_PokemonCenter_1F_Text_BillDoesWhateverForRareMons::
 	.string "Loud fella runs the GYM there.\n"
 	.string "Electric types, and plenty.\p"
 	.string "That city wasn't always so free,\n"
-	.string "they say. Ask him. …Or don't.$"
+	.string "they say. …No one will tell you why.$"
 
 CeruleanCity_PokemonCenter_1F_Text_EveryoneCallsBillPokemaniac::
 	.string "You won't find MISTY in town\n"

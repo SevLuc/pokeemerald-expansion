@@ -229,10 +229,10 @@ PewterCity_Museum_1F_Text_PleaseGoAround::
 	.string "あちらへ　おまわりください$"
 
 PewterCity_Museum_1F_Text_ShouldBeGratefulForLongLife::
-	.string "I'm old enough to recall BROCK\n"
-	.string "before the phones started ringing.\p"
-	.string "Fine boy. …The man's got history\n"
-	.string "now, though. You'll hear of it.$"
+	.string "I knew BROCK before the phones at\n"
+	.string "the GYM started ringing.\p"
+	.string "Quieter days, those.\n"
+	.string "…He doesn't speak of what changed.$"
 
 PewterCity_Museum_1F_Text_WantYouToGetAmberExamined::
 	.string "Ssh! Listen, I need to share a\n"
@@ -262,8 +262,8 @@ PewterCity_Museum_1F_Text_DontHaveSpaceForThis::
 PewterCity_Museum_1F_Text_WeHaveTwoFossilsOnExhibit::
 	.string "Every stone here waited an age to\n"
 	.string "be dug up and seen.\p"
-	.string "BROCK gets that. Rock taught him\n"
-	.string "to wait. He's good at it.$"
+	.string "BROCK never seems to mind waiting.\n"
+	.string "…I've wondered what he's waiting on.$"
 
 PewterCity_Museum_1F_Text_BeautifulPieceOfAmber::
 	.string "There is a beautiful piece of\n"
