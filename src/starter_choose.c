@@ -14,7 +14,10 @@
 #include "sound.h"
 #include "sprite.h"
 #include "starter_choose.h"
+#include "random.h"
 #include "strings.h"
+#include "constants/species.h"
+#include "constants/vars.h"
 #include "task.h"
 #include "text.h"
 #include "text_window.h"
@@ -119,6 +122,33 @@ static const u16 sStarterMon[STARTER_MON_COUNT] =
     GRASS_STARTER,
     FIRE_STARTER,
     WATER_STARTER,
+};
+
+// Per-save randomized starters. One species per type is rolled at the start of
+// the Oak's Lab starter scene (see RollRandomStarters) and stored in
+// VAR_STARTER_GRASS/WATER/FIRE. The three balls in the lab then show and give
+// the rolled species. Each type draws independently from all nine generations.
+#define STARTERS_PER_TYPE 9
+
+static const u16 sGrassStarters[STARTERS_PER_TYPE] =
+{
+    SPECIES_BULBASAUR,  SPECIES_CHIKORITA, SPECIES_TREECKO,
+    SPECIES_TURTWIG,    SPECIES_SNIVY,     SPECIES_CHESPIN,
+    SPECIES_ROWLET,     SPECIES_GROOKEY,   SPECIES_SPRIGATITO,
+};
+
+static const u16 sWaterStarters[STARTERS_PER_TYPE] =
+{
+    SPECIES_SQUIRTLE,   SPECIES_TOTODILE,  SPECIES_MUDKIP,
+    SPECIES_PIPLUP,     SPECIES_OSHAWOTT,  SPECIES_FROAKIE,
+    SPECIES_POPPLIO,    SPECIES_SOBBLE,    SPECIES_QUAXLY,
+};
+
+static const u16 sFireStarters[STARTERS_PER_TYPE] =
+{
+    SPECIES_CHARMANDER, SPECIES_CYNDAQUIL, SPECIES_TORCHIC,
+    SPECIES_CHIMCHAR,   SPECIES_TEPIG,     SPECIES_FENNEKIN,
+    SPECIES_LITTEN,     SPECIES_SCORBUNNY, SPECIES_FUECOCO,
 };
 
 static const struct BgTemplate sBgTemplates[3] =
@@ -347,8 +377,37 @@ static const struct SpriteTemplate sSpriteTemplate_StarterCircle =
 };
 
 // .text
+static u16 GetRolledStarter(u16 chosenStarterId)
+{
+    // FRLG slot order (PLAYER_STARTER_NUM): 0 = Grass, 1 = Water, 2 = Fire.
+    switch (chosenStarterId)
+    {
+    case 0:  return VarGet(VAR_STARTER_GRASS);
+    case 1:  return VarGet(VAR_STARTER_WATER);
+    case 2:  return VarGet(VAR_STARTER_FIRE);
+    default: return VarGet(VAR_STARTER_GRASS);
+    }
+}
+
+// Rolls one random starter per type into VAR_STARTER_GRASS/WATER/FIRE. Idempotent:
+// once the grass slot holds a species the roll has already happened this save, so
+// re-entering the lab never re-rolls. Called as a script special at the start of
+// the Oak's Lab starter scene.
+void RollRandomStarters(void)
+{
+    if (VarGet(VAR_STARTER_GRASS) != SPECIES_NONE)
+        return;
+    VarSet(VAR_STARTER_GRASS, sGrassStarters[Random() % STARTERS_PER_TYPE]);
+    VarSet(VAR_STARTER_WATER, sWaterStarters[Random() % STARTERS_PER_TYPE]);
+    VarSet(VAR_STARTER_FIRE,  sFireStarters[Random() % STARTERS_PER_TYPE]);
+}
+
 u16 GetStarterPokemon(u16 chosenStarterId)
 {
+    // Once rolled, the per-save randomized starters are authoritative, so callers
+    // like the credits and the Champion's Room text name the correct species.
+    if (VarGet(VAR_STARTER_GRASS) != SPECIES_NONE)
+        return GetRolledStarter(chosenStarterId);
     if (chosenStarterId > STARTER_MON_COUNT)
         chosenStarterId = 0;
     return sStarterMon[chosenStarterId];

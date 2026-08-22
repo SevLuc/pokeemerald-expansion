@@ -65,12 +65,21 @@ Add to `src/field_specials.c` (or a small dedicated file if cleaner):
 - Three `static const u16` tables, 9 entries each, in generation order:
   `sGrassStarters[9]`, `sWaterStarters[9]`, `sFireStarters[9]`.
 - A special `RollRandomStarters(void)`:
-  - If the three starter vars are already set (non-zero), return without
-    changing them (idempotent; guarantees one roll per save).
+  - If the grass starter var is already set (non-zero), return without changing
+    anything (idempotent; guarantees one roll per save).
   - Otherwise pick three independent random indices in 0..8 (using the game's
     `Random()` helper) and write the corresponding species into the three saved
     vars via `VarSet`.
 - Register it in `data/specials.inc` with `def_special RollRandomStarters`.
+- Extend `GetStarterPokemon(slot)` (same file) to be rolled-aware: when the roll
+  has happened (grass var non-zero), return the rolled species for the slot
+  (0 = Grass, 1 = Water, 2 = Fire, matching `PLAYER_STARTER_NUM` /
+  `VAR_STARTER_MON`); otherwise fall back to the original `sStarterMon` lookup.
+  This keeps the FRLG consumers that call `GetStarterPokemon(VAR_STARTER_MON)`
+  correct without extra script changes: the credits reel (`src/credits.c`) and
+  the Champion's Room congratulations text
+  (`PokemonLeague_ChampionsRoom_Frlg`) name the rolled species. The RSE rotating
+  selection screen also routes through this function but is unused in FRLG.
 
 ### 2. Saved vars
 

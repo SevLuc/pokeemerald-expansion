@@ -269,9 +269,9 @@
 #define VAR_UNUSED_0x40F7                                0x40F7 // Unused Var
 #define VAR_UNUSED_0x40F8                                0x40F8 // Unused Var
 #define VAR_RIVAL_ID                                     0x40F9 // Which rival identity the player chose at the intro (see RIVAL_ID_* below)
-#define VAR_UNUSED_0x40FA                                0x40FA // Unused Var
-#define VAR_UNUSED_0x40FB                                0x40FB // Unused Var
-#define VAR_UNUSED_0x40FC                                0x40FC // Unused Var
+#define VAR_STARTER_GRASS                                0x40FA // Randomized Grass starter species for this save (0 = not yet rolled)
+#define VAR_STARTER_WATER                                0x40FB // Randomized Water starter species for this save
+#define VAR_STARTER_FIRE                                 0x40FC // Randomized Fire starter species for this save
 #define VAR_UNUSED_0x40FD                                0x40FD // Unused Var
 #define VAR_UNUSED_0x40FE                                0x40FE // Unused Var
 #define VAR_UNUSED_0x40FF                                0x40FF // Unused Var
