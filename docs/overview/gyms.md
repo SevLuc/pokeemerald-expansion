@@ -7,8 +7,43 @@ hard-but-fair rebalance against vanilla.
 > Cross-link each leader's history to docs/writing/lore-ledger.md.
 
 ## Gym 1 — Pewter (Brock, Rock) — Boulder Badge
-- Vanilla team: (fill from data)
-- Rebalanced team: (TBD)
+- Level cap: 14.
+- Vanilla team: Geodude Lv12, Onix Lv14.
+- Structure: a TRAINER POOL of 9 members that fields 6 (Party Size 6, Pool Rules
+  Basic, Pool Prune Bst Match). Onix is tagged the ace (always fielded). At
+  battle start the pool is BST-matched to the player: the game sums the player's
+  team base-stat totals and fields the ace plus the five other members whose
+  combined BST is closest to that total (implemented as the POOL_PRUNE_BST_MATCH
+  prune in src/trainer_pools.c).
+- Pool members (all Lv14, perfect IVs, no EVs, all female except genderless
+  Stakataka; each runs a +Speed nature that lowers its unused attacking stat -
+  Timid for the special attacker Glimmet, Jolly for the physical members, except
+  the ultra-slow Stakataka which runs Adamant (+Atk/-SpA) instead of wasting a
+  Speed boost):
+  - ALOLAN GEODUDE (F) nicknamed "goku turd", Galvanize (Headbutt / Rock Tomb /
+    Bulldoze / Mud-Slap)
+  - ARON (F), Sturdy (Aerial Ace / Rock Tomb / Iron Head / Body Press)
+  - GLIMMET (F), Corrosion (Acid Spray / Ancient Power / Mud Shot / Spikes)
+  - AERODACTYL (F) nicknamed "Supa Burd", Pressure (Rock Blast / Wing Attack /
+    Thunder Fang / Bulldoze)
+  - STAKATAKA (genderless), Beast Boost (Rock Tomb / Heavy Slam / Bulldoze / Body
+    Press) - Ultra Beast, BST 570, big power spike for a first gym
+  - ROCKRUFF (F) nicknamed "sexy dawg", Vital Spirit (Rock Tomb / Sucker Punch /
+    Attract / Play Rough)
+  - HISUIAN GROWLITHE (F), Intimidate (Rock Tomb / Flame Wheel / Wild Charge /
+    Morning Sun) - Fire/Rock; Wild Charge answers its 4x Water weakness, Morning
+    Sun is recovery
+  - CHEWTLE (F) nicknamed "sexy turt", Strong Jaw (Bite / Chilling Water / Ice
+    Fang / Attract) - pure Water, the one non-Rock member. Strong Jaw boosts Bite
+    and Ice Fang; Chilling Water is a utility Water move that lowers the target's
+    Attack (weak damage off Chewtle's low SpA). (Rock Tomb was requested but
+    Chewtle cannot learn it.)
+  - ONIX (F) nicknamed "LongTurd", ACE, Sturdy (Swagger / Dig / Rock Tomb /
+    Self-Destruct) - suicide-wall
+- All movesets are level-cap-legal (verified with the moveset-legality skill).
+- BST matching: POOL_PRUNE_BST_MATCH (src/trainer_pools.c) computes the player's
+  team BST and keeps the ace plus the closest-total subset; ties break toward the
+  higher total. Covered by a test in test/battle/trainer_control.c.
 - History fragments: see BROCK-* in lore-ledger.md
 
 ## Gym 2 — Cerulean (Misty, Water) — Cascade Badge

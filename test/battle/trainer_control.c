@@ -282,6 +282,28 @@ TEST("Trainer Party Pool can choose which functions to use for picking mons")
     Free(testParty);
 }
 
+TEST("Trainer Party Pool BST match prune fields the members whose total BST is closest to the player's team")
+{
+    enum Species playerA, playerB, expectedOther;
+    //  Pool 15: ace Wobbuffet (BST 405); non-ace Magikarp (200), Eevee (325),
+    //  Snorlax (540). Party Size 2, so the ace plus the one non-ace whose
+    //  (405 + its BST) is closest to the player's team BST is fielded.
+    PARAMETRIZE { playerA = SPECIES_MAGIKARP; playerB = SPECIES_NONE;    expectedOther = SPECIES_MAGIKARP; }  //  target 200
+    PARAMETRIZE { playerA = SPECIES_SNORLAX;  playerB = SPECIES_MAGIKARP; expectedOther = SPECIES_EEVEE;    }  //  target 740
+    PARAMETRIZE { playerA = SPECIES_SNORLAX;  playerB = SPECIES_SNORLAX;  expectedOther = SPECIES_SNORLAX;  }  //  target 1080
+
+    ZeroPlayerPartyMons();
+    CreateMon(&gPlayerParty[0], playerA, 5, 0, OTID_STRUCT_PRESET(0));
+    if (playerB != SPECIES_NONE)
+        CreateMon(&gPlayerParty[1], playerB, 5, 0, OTID_STRUCT_PRESET(0));
+
+    struct Pokemon *testParty = Alloc(6 * sizeof(struct Pokemon));
+    CreateNPCTrainerPartyFromTrainer(testParty, GetTrainerStructFromId(15), TRUE, BATTLE_TYPE_TRAINER);
+    EXPECT(GetMonData(&testParty[0], MON_DATA_SPECIES) == expectedOther);       //  BST-matched non-ace
+    EXPECT(GetMonData(&testParty[1], MON_DATA_SPECIES) == SPECIES_WOBBUFFET);   //  forced ace, fielded last
+    Free(testParty);
+}
+
 TEST("trainerproc supports both Double Battle: Yes and Battle Type: Doubles")
 {
     u32 currTrainer;
