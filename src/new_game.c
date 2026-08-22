@@ -162,12 +162,14 @@ void NewGameInitData(void)
 {
 #if IS_FRLG
     u8 rivalName[PLAYER_NAME_LENGTH + 1];
+    u16 rivalId;
 #endif
     if (gSaveFileStatus == SAVE_STATUS_EMPTY || gSaveFileStatus == SAVE_STATUS_CORRUPT)
         RtcReset();
 
 #if IS_FRLG
     StringCopy(rivalName, gSaveBlock1Ptr->rivalName);
+    rivalId = VarGet(VAR_RIVAL_ID); // picked at the oak-speech intro; ClearSav1 would wipe it otherwise
 #endif
     gDifferentSaveFile = TRUE;
     gSaveBlock2Ptr->encryptionKey = 0;
@@ -218,6 +220,7 @@ void NewGameInitData(void)
         RunScriptImmediately(EventScript_ResetAllMapFlags);
 #if IS_FRLG
         StringCopy(gSaveBlock1Ptr->rivalName, rivalName);
+        VarSet(VAR_RIVAL_ID, rivalId); // restore after ClearSav1 + InitEventData
 #endif
     ResetMiniGamesRecords();
     InitUnionRoomChatRegisteredTexts();

@@ -37,6 +37,7 @@ SilphCo_7F_EventScript_RivalScene::
 	applymovement LOCALID_PLAYER, Common_Movement_WalkInPlaceFasterDown
 	applymovement LOCALID_SILPH_CO_RIVAL, Common_Movement_Delay48
 	waitmovement 0
+	goto_if_eq VAR_RIVAL_ID, RIVAL_ID_TWITCH, SilphCo_7F_EventScript_RivalTwitch
 	msgbox SilphCo_7F_Text_RivalWhatKeptYou
 	call_if_eq VAR_TEMP_1, 0, SilphCo_7F_EventScript_RivalApproachTop
 	call_if_eq VAR_TEMP_1, 1, SilphCo_7F_EventScript_RivalApproachBottom
@@ -46,6 +47,7 @@ SilphCo_7F_EventScript_RivalScene::
 	call_if_eq VAR_STARTER_MON, 1, SilphCo_7F_EventScript_RivalBulbasaur
 	call_if_eq VAR_STARTER_MON, 0, SilphCo_7F_EventScript_RivalCharmander
 	msgbox SilphCo_7F_Text_RivalPostBattle
+SilphCo_7F_EventScript_RivalDepart::
 	closemessage
 	playbgm MUS_RG_RIVAL_EXIT, 0
 	call_if_eq VAR_TEMP_1, 0, SilphCo_7F_EventScript_RivalExitTop
@@ -78,6 +80,16 @@ SilphCo_7F_EventScript_RivalBulbasaur::
 SilphCo_7F_EventScript_RivalCharmander::
 	trainerbattle_no_intro TRAINER_RIVAL_SILPH_CHARMANDER, SilphCo_7F_Text_RivalDefeat
 	return
+
+SilphCo_7F_EventScript_RivalTwitch::
+	msgbox SilphCo_7F_Text_TwitchRivalWhatKeptYou
+	call_if_eq VAR_TEMP_1, 0, SilphCo_7F_EventScript_RivalApproachTop
+	call_if_eq VAR_TEMP_1, 1, SilphCo_7F_EventScript_RivalApproachBottom
+	msgbox SilphCo_7F_Text_TwitchRivalIntro
+	setvar VAR_LAST_TALKED, LOCALID_SILPH_CO_RIVAL
+	trainerbattle_no_intro TRAINER_RIVAL_TWITCH_SILPH, SilphCo_7F_Text_TwitchRivalDefeat
+	msgbox SilphCo_7F_Text_TwitchRivalPostBattle
+	goto SilphCo_7F_EventScript_RivalDepart
 
 SilphCo_7F_EventScript_RivalExitTop::
 	applymovement LOCALID_SILPH_CO_RIVAL, SilphCo_7F_Movement_RivalExitTop
@@ -361,6 +373,39 @@ SilphCo_7F_Text_RivalPostBattle::
 	.string "{PLAYER}, well, good luck to you!\n"
 	.string "Don't sweat it!\l"
 	.string "Smell ya!$"
+
+SilphCo_7F_Text_TwitchRivalWhatKeptYou::
+	.string "it is a RANGE.\n"
+	.string "we already did the math.\p"
+	.string "we did the math for like\n"
+	.string "two minutes. good enough.$"
+
+SilphCo_7F_Text_TwitchRivalIntro::
+	.string "so this is a fight?\n"
+	.string "we run it the hard way now.\p"
+	.string "first encounter only.\n"
+	.string "faint is death. cap at the ace.\p"
+	.string "NO items. that is the run.\n"
+	.string "probably.\p"
+	.string "do not check the bag.$"
+
+SilphCo_7F_Text_TwitchRivalDefeat::
+	.string "HAXED. that is 6-0 the wrong\n"
+	.string "way.\p"
+	.string "we do not tilt. we ITERATE.\n"
+	.string "GG go next.$"
+
+SilphCo_7F_Text_TwitchRivalPostBattle::
+	.string "Giovanni? chat already\n"
+	.string "memorized his whole team off\l"
+	.string "the wiki, he is nothing.\p"
+	.string "go take his tower.\p"
+	.string "oh, and that fight just now?\n"
+	.string "you did not really beat us.\p"
+	.string "that was RIGGED. honestly,\n"
+	.string "{PLAYER}, you should delete\l"
+	.string "your save file…\p"
+	.string "it is corrupted.$"
 
 SilphCo_7F_Text_FloorSign::
 	.string "SILPH CO. HEAD OFFICE\n"

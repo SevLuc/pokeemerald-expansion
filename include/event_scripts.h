@@ -694,6 +694,8 @@ extern const u8 EventScript_MovedTooFast[];
 extern const u8 MoveTutor_AfterChooseBoxMon[];
 
 extern const u8 gOtherText_NewName[];
+extern const u8 gNameChoice_Buhrito[];
+extern const u8 gNameChoice_Twitch[];
 extern const u8 gNameChoice_Green[];
 extern const u8 gNameChoice_Red[];
 extern const u8 gNameChoice_Fire[];

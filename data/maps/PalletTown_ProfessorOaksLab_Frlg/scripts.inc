@@ -212,7 +212,7 @@ PalletTown_ProfessorOaksLab_ChooseStarterScene::
 	clearflag FLAG_DONT_TRANSITION_MUSIC
 	savebgm MUS_DUMMY
 	fadedefaultbgm
-	msgbox PalletTown_ProfessorOaksLab_Text_RivalFedUpWithWaiting
+	call PalletTown_ProfessorOaksLab_EventScript_SayRivalFedUpWithWaiting
 	closemessage
 	delay 60
 	msgbox PalletTown_ProfessorOaksLab_Text_OakThreeMonsChooseOne
@@ -220,7 +220,7 @@ PalletTown_ProfessorOaksLab_ChooseStarterScene::
 	delay 30
 	applymovement LOCALID_OAKS_LAB_RIVAL, PalletTown_ProfessorOaksLab_Movement_RivalReact
 	waitmovement 0
-	msgbox PalletTown_ProfessorOaksLab_Text_RivalNoFairWhatAboutMe
+	call PalletTown_ProfessorOaksLab_EventScript_SayRivalNoFairWhatAboutMe
 	msgbox PalletTown_ProfessorOaksLab_Text_OakBePatientRival
 	setvar VAR_MAP_SCENE_PALLET_TOWN_PROFESSOR_OAKS_LAB, 2
 	releaseall
@@ -292,7 +292,7 @@ PalletTown_ProfessorOaksLab_EventScript_RivalBattle::
 	waitmovement 0
 	applymovement LOCALID_PLAYER, Common_Movement_WalkInPlaceFasterUp
 	waitmovement 0
-	msgbox PalletTown_ProfessorOaksLab_Text_RivalLetsCheckOutMons
+	call PalletTown_ProfessorOaksLab_EventScript_SayRivalLetsCheckOutMons
 	closemessage
 	applymovement LOCALID_OAKS_LAB_PROF_OAK, Common_Movement_FaceDown
 	waitmovement 0
@@ -330,7 +330,13 @@ PalletTown_ProfessorOaksLab_EventScript_RivalApproachForBattleSquirtleRight::
 	end
 
 PalletTown_ProfessorOaksLab_EventScript_RivalBattleSquirtle::
+	goto_if_eq VAR_RIVAL_ID, RIVAL_ID_TWITCH, PalletTown_ProfessorOaksLab_EventScript_RivalBattleTwitch
 	trainerbattle_earlyrival TRAINER_RIVAL_OAKS_LAB_SQUIRTLE, RIVAL_BATTLE_TUTORIAL, PalletTown_ProfessorOaksLab_Text_RivalDefeat, Text_RivalVictory
+	goto PalletTown_ProfessorOaksLab_EventScript_EndRivalBattle
+	end
+
+PalletTown_ProfessorOaksLab_EventScript_RivalBattleTwitch::
+	trainerbattle_earlyrival TRAINER_RIVAL_TWITCH_OAKS_LAB, RIVAL_BATTLE_TUTORIAL, PalletTown_ProfessorOaksLab_Text_TwitchRivalDefeat, PalletTown_ProfessorOaksLab_Text_TwitchRivalVictory
 	goto PalletTown_ProfessorOaksLab_EventScript_EndRivalBattle
 	end
 
@@ -383,6 +389,7 @@ PalletTown_ProfessorOaksLab_EventScript_RivalApproachForBattleCharmanderRight::
 	end
 
 PalletTown_ProfessorOaksLab_EventScript_RivalBattleCharmander::
+	goto_if_eq VAR_RIVAL_ID, RIVAL_ID_TWITCH, PalletTown_ProfessorOaksLab_EventScript_RivalBattleTwitch
 	trainerbattle_earlyrival TRAINER_RIVAL_OAKS_LAB_CHARMANDER, RIVAL_BATTLE_TUTORIAL, PalletTown_ProfessorOaksLab_Text_RivalDefeat, Text_RivalVictory
 	goto PalletTown_ProfessorOaksLab_EventScript_EndRivalBattle
 	end
@@ -439,6 +446,7 @@ PalletTown_ProfessorOaksLab_EventScript_RivalApproachForBattleBulbasaurRight::
 	end
 
 PalletTown_ProfessorOaksLab_EventScript_RivalBattleBulbasaur::
+	goto_if_eq VAR_RIVAL_ID, RIVAL_ID_TWITCH, PalletTown_ProfessorOaksLab_EventScript_RivalBattleTwitch
 	trainerbattle_earlyrival TRAINER_RIVAL_OAKS_LAB_BULBASAUR, RIVAL_BATTLE_TUTORIAL, PalletTown_ProfessorOaksLab_Text_RivalDefeat, Text_RivalVictory
 	goto PalletTown_ProfessorOaksLab_EventScript_EndRivalBattle
 	end
@@ -466,7 +474,7 @@ PalletTown_ProfessorOaksLab_Movement_RivalApproachForBattleBulbasaurRight::
 
 PalletTown_ProfessorOaksLab_EventScript_EndRivalBattle::
 	special HealPlayerParty
-	msgbox PalletTown_ProfessorOaksLab_Text_RivalGoToughenMyMon
+	call PalletTown_ProfessorOaksLab_EventScript_SayRivalGoToughenMyMon
 	closemessage
 	playbgm MUS_RG_RIVAL_EXIT, 0
 	call_if_eq VAR_TEMP_2, 1, PalletTown_ProfessorOaksLab_EventScript_RivalExitAfterBattleLeft
@@ -550,17 +558,17 @@ PalletTown_ProfessorOaksLab_EventScript_Rival::
 	faceplayer
 	goto_if_eq VAR_MAP_SCENE_PALLET_TOWN_PROFESSOR_OAKS_LAB, 3, PalletTown_ProfessorOaksLab_EventScript_RivalChoseStarter
 	goto_if_eq VAR_MAP_SCENE_PALLET_TOWN_PROFESSOR_OAKS_LAB, 2, PalletTown_ProfessorOaksLab_EventScript_RivalWaitingForStarter
-	msgbox PalletTown_ProfessorOaksLab_Text_RivalGrampsIsntAround
+	call PalletTown_ProfessorOaksLab_EventScript_SayRivalGrampsIsntAround
 	release
 	end
 
 PalletTown_ProfessorOaksLab_EventScript_RivalWaitingForStarter::
-	msgbox PalletTown_ProfessorOaksLab_Text_RivalGoChoosePlayer
+	call PalletTown_ProfessorOaksLab_EventScript_SayRivalGoChoosePlayer
 	release
 	end
 
 PalletTown_ProfessorOaksLab_EventScript_RivalChoseStarter::
-	msgbox PalletTown_ProfessorOaksLab_Text_RivalMyMonLooksTougher
+	call PalletTown_ProfessorOaksLab_EventScript_SayRivalMyMonLooksTougher
 	release
 	end
 
@@ -1162,7 +1170,7 @@ PalletTown_ProfessorOaksLab_EventScript_RivalWalksToBulbasaur::
 
 PalletTown_ProfessorOaksLab_EventScript_RivalTakesStarter::
 	textcolor NPC_TEXT_COLOR_MALE
-	msgbox PalletTown_ProfessorOaksLab_Text_RivalIllTakeThisOneThen
+	call PalletTown_ProfessorOaksLab_EventScript_SayRivalIllTakeThisOneThen
 	removeobject RIVAL_STARTER_ID
 	textcolor NPC_TEXT_COLOR_NEUTRAL
 	bufferspeciesname STR_VAR_1, RIVAL_STARTER_SPECIES
@@ -1297,6 +1305,142 @@ PalletTown_ProfessorOaksLab_EventScript_RightSignAlt::
 	msgbox PalletTown_ProfessorOaksLab_Text_AllMonTypesHaveStrongAndWeakPoints
 	releaseall
 	end
+
+@ Rival line helpers: pick the Buhrito (vanilla) or Twitch variant by VAR_RIVAL_ID.
+PalletTown_ProfessorOaksLab_EventScript_SayRivalGrampsIsntAround::
+	goto_if_eq VAR_RIVAL_ID, RIVAL_ID_TWITCH, PalletTown_ProfessorOaksLab_EventScript_SayTwitchGrampsIsntAround
+	msgbox PalletTown_ProfessorOaksLab_Text_RivalGrampsIsntAround
+	return
+PalletTown_ProfessorOaksLab_EventScript_SayTwitchGrampsIsntAround::
+	msgbox PalletTown_ProfessorOaksLab_Text_TwitchRivalGrampsIsntAround
+	return
+
+PalletTown_ProfessorOaksLab_EventScript_SayRivalFedUpWithWaiting::
+	goto_if_eq VAR_RIVAL_ID, RIVAL_ID_TWITCH, PalletTown_ProfessorOaksLab_EventScript_SayTwitchFedUpWithWaiting
+	msgbox PalletTown_ProfessorOaksLab_Text_RivalFedUpWithWaiting
+	return
+PalletTown_ProfessorOaksLab_EventScript_SayTwitchFedUpWithWaiting::
+	msgbox PalletTown_ProfessorOaksLab_Text_TwitchRivalFedUpWithWaiting
+	return
+
+PalletTown_ProfessorOaksLab_EventScript_SayRivalNoFairWhatAboutMe::
+	goto_if_eq VAR_RIVAL_ID, RIVAL_ID_TWITCH, PalletTown_ProfessorOaksLab_EventScript_SayTwitchNoFairWhatAboutMe
+	msgbox PalletTown_ProfessorOaksLab_Text_RivalNoFairWhatAboutMe
+	return
+PalletTown_ProfessorOaksLab_EventScript_SayTwitchNoFairWhatAboutMe::
+	msgbox PalletTown_ProfessorOaksLab_Text_TwitchRivalNoFairWhatAboutMe
+	return
+
+PalletTown_ProfessorOaksLab_EventScript_SayRivalGoChoosePlayer::
+	goto_if_eq VAR_RIVAL_ID, RIVAL_ID_TWITCH, PalletTown_ProfessorOaksLab_EventScript_SayTwitchGoChoosePlayer
+	msgbox PalletTown_ProfessorOaksLab_Text_RivalGoChoosePlayer
+	return
+PalletTown_ProfessorOaksLab_EventScript_SayTwitchGoChoosePlayer::
+	msgbox PalletTown_ProfessorOaksLab_Text_TwitchRivalGoChoosePlayer
+	return
+
+PalletTown_ProfessorOaksLab_EventScript_SayRivalIllTakeThisOneThen::
+	goto_if_eq VAR_RIVAL_ID, RIVAL_ID_TWITCH, PalletTown_ProfessorOaksLab_EventScript_SayTwitchIllTakeThisOneThen
+	msgbox PalletTown_ProfessorOaksLab_Text_RivalIllTakeThisOneThen
+	return
+PalletTown_ProfessorOaksLab_EventScript_SayTwitchIllTakeThisOneThen::
+	msgbox PalletTown_ProfessorOaksLab_Text_TwitchRivalIllTakeThisOneThen
+	return
+
+PalletTown_ProfessorOaksLab_EventScript_SayRivalMyMonLooksTougher::
+	goto_if_eq VAR_RIVAL_ID, RIVAL_ID_TWITCH, PalletTown_ProfessorOaksLab_EventScript_SayTwitchMyMonLooksTougher
+	msgbox PalletTown_ProfessorOaksLab_Text_RivalMyMonLooksTougher
+	return
+PalletTown_ProfessorOaksLab_EventScript_SayTwitchMyMonLooksTougher::
+	msgbox PalletTown_ProfessorOaksLab_Text_TwitchRivalMyMonLooksTougher
+	return
+
+PalletTown_ProfessorOaksLab_EventScript_SayRivalLetsCheckOutMons::
+	goto_if_eq VAR_RIVAL_ID, RIVAL_ID_TWITCH, PalletTown_ProfessorOaksLab_EventScript_SayTwitchLetsCheckOutMons
+	msgbox PalletTown_ProfessorOaksLab_Text_RivalLetsCheckOutMons
+	return
+PalletTown_ProfessorOaksLab_EventScript_SayTwitchLetsCheckOutMons::
+	msgbox PalletTown_ProfessorOaksLab_Text_TwitchRivalLetsCheckOutMons
+	return
+
+PalletTown_ProfessorOaksLab_EventScript_SayRivalGoToughenMyMon::
+	goto_if_eq VAR_RIVAL_ID, RIVAL_ID_TWITCH, PalletTown_ProfessorOaksLab_EventScript_SayTwitchGoToughenMyMon
+	msgbox PalletTown_ProfessorOaksLab_Text_RivalGoToughenMyMon
+	return
+PalletTown_ProfessorOaksLab_EventScript_SayTwitchGoToughenMyMon::
+	msgbox PalletTown_ProfessorOaksLab_Text_TwitchRivalGoToughenMyMon
+	return
+
+PalletTown_ProfessorOaksLab_Text_TwitchRivalGrampsIsntAround::
+	.string "chat we are LIVE.\n"
+	.string "where is the old man?\p"
+	.string "someone said he is in the grass.\n"
+	.string "START9 START9.\p"
+	.string "do NOT walk into the wall…\n"
+	.string "we walked into the wall.$"
+
+PalletTown_ProfessorOaksLab_Text_TwitchRivalFedUpWithWaiting::
+	.string "just GIVE us a mon. any mon.\p"
+	.string "DEMOCRACY wants the fire one.\n"
+	.string "ANARCHY wants START9.\p"
+	.string "we do not have a plan.\n"
+	.string "we have never had a plan.$"
+
+PalletTown_ProfessorOaksLab_Text_TwitchRivalNoFairWhatAboutMe::
+	.string "we call the little lizard.\n"
+	.string "we name him ABBY.\p"
+	.string "ABBY does NOT get boxed.\n"
+	.string "say it back, chat.\p"
+	.string "PRAISE HELIX.$"
+
+PalletTown_ProfessorOaksLab_Text_TwitchRivalGoChoosePlayer::
+	.string "you pick first, {PLAYER}.\n"
+	.string "do not stress.\p"
+	.string "we already CONSULTED THE HELIX.\n"
+	.string "the fossil knows things.$"
+
+PalletTown_ProfessorOaksLab_Text_TwitchRivalIllTakeThisOneThen::
+	.string "the Helix says take the one\n"
+	.string "that beats YOU.\p"
+	.string "so we take that one.\n"
+	.string "this is not personal.\l"
+	.string "this is scripture.$"
+
+PalletTown_ProfessorOaksLab_Text_TwitchRivalMyMonLooksTougher::
+	.string "our mon is BLESSED.\n"
+	.string "your mon is THE DOME.\p"
+	.string "THE DOME IS THE FALSE PROPHET.\n"
+	.string "no offense.$"
+
+PalletTown_ProfessorOaksLab_Text_TwitchRivalLetsCheckOutMons::
+	.string "wait, is this a battle?\n"
+	.string "nobody voted for a battle.\p"
+	.string "the Helix wills it though.\n"
+	.string "LETS GO. up up up.\p"
+	.string "that is not a move.\n"
+	.string "LETS GO anyway.$"
+
+PalletTown_ProfessorOaksLab_Text_TwitchRivalDefeat::
+	.string "WE DID IT… hold on. we lost?\p"
+	.string "that was input lag.\n"
+	.string "ten thousand of us and\l"
+	.string "somebody pressed B.\p"
+	.string "classic chat.$"
+
+PalletTown_ProfessorOaksLab_Text_TwitchRivalVictory::
+	.string "WE DID IT. PRAISE HELIX.\p"
+	.string "clip that, frame it, put it\n"
+	.string "in the museum.\p"
+	.string "we are him.\n"
+	.string "we are ALL of him.$"
+
+PalletTown_ProfessorOaksLab_Text_TwitchRivalGoToughenMyMon::
+	.string "we ride out now.\n"
+	.string "do NOT check the ledge.\p"
+	.string "we are begging you, chat,\n"
+	.string "not the ledge…\p"
+	.string "we are checking the ledge.\n"
+	.string "see you there. PRAISE HELIX.$"
 
 PalletTown_ProfessorOaksLab_Text_RivalGrampsIsntAround::
 	.string "{RIVAL}: What, it's only {PLAYER}?\n"

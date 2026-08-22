@@ -1,6 +1,12 @@
 gOtherText_NewName::
 	.string "NEW NAME$"
 
+gNameChoice_Buhrito::
+	.string "BUHRITO$"
+
+gNameChoice_Twitch::
+	.string "TWITCH$"
+
 gNameChoice_Green::
 	.string "GREEN$"
 

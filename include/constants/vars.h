@@ -268,7 +268,7 @@
 #define VAR_RIVAL_RAYQUAZA_CALL_STEP_COUNTER             0x40F6
 #define VAR_UNUSED_0x40F7                                0x40F7 // Unused Var
 #define VAR_UNUSED_0x40F8                                0x40F8 // Unused Var
-#define VAR_UNUSED_0x40F9                                0x40F9 // Unused Var
+#define VAR_RIVAL_ID                                     0x40F9 // Which rival identity the player chose at the intro (see RIVAL_ID_* below)
 #define VAR_UNUSED_0x40FA                                0x40FA // Unused Var
 #define VAR_UNUSED_0x40FB                                0x40FB // Unused Var
 #define VAR_UNUSED_0x40FC                                0x40FC // Unused Var
@@ -277,6 +277,10 @@
 #define VAR_UNUSED_0x40FF                                0x40FF // Unused Var
 
 #define VARS_END                                         0x40FF
+
+// Rival identities selected at the new-game intro (stored in VAR_RIVAL_ID).
+#define RIVAL_ID_BUHRITO                                 0 // default: vanilla-style starter-countering rival
+#define RIVAL_ID_TWITCH                                  1 // TPP-personified single-team rival
 #define VARS_COUNT                                       (VARS_END - VARS_START + 1)
 
 #define SPECIAL_VARS_START            0x8000
