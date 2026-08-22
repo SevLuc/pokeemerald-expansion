@@ -67,16 +67,16 @@ straight (one wink) so the FIGHT still lands.
 |---|---|---|---|---|---|---|---|---|
 | BROCK-01 | Brock (path, vague) | Lass: "Big heart, that one. Gives it away a little too easy." | Lass (existing) | Pewter City | none (pre-gym) | 1 | in-game | - |
 | BROCK-02 | Brock (path, vague) | Fat Man (append to his Brock praise): "Mind you, the man's got history. You'll see." | Fat Man (existing) | Pewter City | none (pre-gym) | 2 | in-game | - |
-| BROCK-03 | Brock (path, vague) | "Off to challenge BROCK? Everyone wants a piece of him. His lawyers, mostly." | new NPC near gym | Pewter City | none (pre-gym) | 3 | drafted | - |
-| BROCK-03b | Brock (path, vague) | Woman: "Oh, I knew BROCK. Once. …Briefly." | new NPC (woman) | Pewter City | none (pre-gym) | 3 | drafted | - |
-| BROCK-03c | Brock (path, vague) | Kid: "Mom says BROCK's real generous. Every single month. I don't get it." | new NPC (kid) | Pewter City | none (pre-gym) | 3 | drafted | - |
+| BROCK-03 | Brock (path, vague) | "Off to challenge BROCK? Get in line. Everyone wants a piece of him. His lawyers, mostly." | Bug Catcher (existing, repurposed; ungated base branch of the progressive gossip NPC) | Pewter City | none (pre-gym) | 3 | in-game | - |
+| BROCK-03b | Brock (path, vague) | Woman: "Oh, I knew BROCK. Once. …Briefly." | new NPC (woman) | Pewter City | none (pre-gym) | 3 | drafted (UNPLACED - no spare female NPC in Pewter City; would need a new object) | - |
+| BROCK-03c | Brock (path, vague) | Kid: "Mom says BROCK's real generous. Every single month. I don't get it." | new NPC (kid) | Pewter City | none (pre-gym) | 3 | drafted (UNPLACED - no spare child NPC in Pewter City; would need a new object) | - |
 | BROCK-04 | Brock (gag) | Gym guide: the phones ring constantly; Brock says just let 'em ring. | Gym guide | Pewter Gym | none | 4 | in-game | - |
 | BROCK-05 | Brock (gag) | Trainer (Liam): each phone has its own ringtone, "that's a filing system." | Pewter Gym trainer | Pewter Gym | none | 5 | in-game | - |
 | BROCK-06 | Brock (reveal, coy) | Trainer (Liam) on defeat: "Six phones, six... 'previous sponsors.'" | Pewter Gym trainer | Pewter Gym | none | 6 | in-game | [FLAG: canon-check] |
 | BROCK-07 | Brock (intro) | Goofy-romantic ramble ("a marriage or two"; contract advice) cut off by ringing phones, then "...Ignore that. Let's battle." | Brock | Pewter Gym | none | 7 | in-game | [FLAG: canon-check] |
-| BROCK-08 | Brock (why leader) | "Ever wonder why he takes on every trainer? Challenge fees. Alimony doesn't pay itself." | Pewter City NPC | Pewter City | after 1st badge | 8 | drafted | [FLAG: canon-check] |
-| BROCK-09 | Brock (throwback) | "Heard he's fielding challengers day and night. Heard he got married again, too." | later-town NPC | TBD | after ~6th badge | 9 | idea | [FLAG: canon-check] |
-| BROCK-10 | Brock (throwback) | "Brock's still at that gym. Still on the phone. Some things are eternal." | later-town NPC | TBD | post-E4 | 10 | idea | - |
+| BROCK-08 | Brock (why leader) | "Ever wonder why he takes on every trainer? Challenge fees. Alimony doesn't pay itself." | Bug Catcher (existing, repurposed; FLAG_BADGE01_GET branch of the progressive gossip NPC) | Pewter City | FLAG_BADGE01_GET (1st badge) | 8 | in-game | [FLAG: canon-check] |
+| BROCK-09 | Brock (throwback) | "Heard he's fielding challengers day and night. Heard he got married again, too. Connect the dots." | Bug Catcher (existing, repurposed; FLAG_BADGE06_GET branch of the progressive gossip NPC) | Pewter City | FLAG_BADGE06_GET (~6th badge) | 9 | in-game | [FLAG: canon-check] |
+| BROCK-10 | Brock (throwback) | "Brock's still at that gym. Still on the phone. Some things are just eternal." | Bug Catcher (existing, repurposed; FLAG_SYS_GAME_CLEAR branch of the progressive gossip NPC) | Pewter City | FLAG_SYS_GAME_CLEAR (post-E4) | 10 | in-game | - |
 
 Consistency notes:
 - Path fragments (01-03) are UNGATED and pre-gym, and stay vague so the punchline
@@ -92,6 +92,19 @@ Consistency notes:
   gym. See ERIKA-EXES. Kept coy in both places ("PEWTER number," "let it ring,"
   "generous every single month") so the phones in Pewter and the ladies in Celadon
   quietly rhyme. This is the distributed answer to "where do the exes go."
+- PLACEMENT (BROCK-03/08/09/10): Pewter City has only ONE spare generic
+  townsperson (the vanilla BUG CATCHER at 33,27; all others are Brock-flavored
+  keepers or utility/plot). Rather than add objects, that single NPC was
+  repurposed as a PROGRESSIVE gossip: it swaps its line by the highest progression
+  flag set. Base/pre-badge = BROCK-03 (ungated path line); FLAG_BADGE01_GET =
+  BROCK-08; FLAG_BADGE06_GET = BROCK-09; FLAG_SYS_GAME_CLEAR = BROCK-10. Gate
+  order checked most-progressed-first so late flags win. NOTE: post-E4 uses
+  FLAG_SYS_GAME_CLEAR (the FRLG "beat the Champion" gate), NOT FLAG_IS_CHAMPION
+  (which is Hoenn-link-related in this codebase).
+- UNPLACED (BROCK-03b woman, BROCK-03c kid): no spare female/child NPC exists in
+  Pewter City, and the personas need matching sprites. Left drafted; they would
+  require a new object (out of scope: no new objects). Carry them into a later
+  Pewter map pass if objects are ever added, or fold into another town.
 
 ## Misty - tomboy battler + Psyduck (her first POKéMON)
 Concept: youngest Sensational Sister who does the real battling (sisters do the

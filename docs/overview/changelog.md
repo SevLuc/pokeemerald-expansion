@@ -7,6 +7,17 @@ Update in the same PR as the change.
 `YYYY-MM-DD` — area — one-line summary (PR/commit ref)
 
 ## Entries
+- 2026-08-22 - story/brock - Placed 4 of Brock's 6 remaining Pewter-arc gossip
+  lines by repurposing Pewter's one spare NPC (the Bug Catcher) into a single
+  PROGRESSIVE Brock-gossip NPC: ungated "get in line / his lawyers, mostly",
+  then FLAG_BADGE01_GET "alimony doesn't pay itself", FLAG_BADGE06_GET "married
+  again, connect the dots", FLAG_SYS_GAME_CLEAR "still on the phone, eternal"
+  (checked most-progressed-first). Logged as BROCK-03/08/09/10 in the lore-ledger.
+  Skipped (no spare female/child NPC without new objects): the "I knew BROCK,
+  briefly" woman and the "generous every month" kid (BROCK-03b/03c stay UNPLACED).
+  Gym/Museum guides and plot NPCs untouched.
+- 2026-08-22 - story/rival - Split the shared rival loss line: Route 22 early now
+  has its own Buhrito-voice loss line instead of the Oak's Lab tutorial joke.
 - 2026-08-22 - story/rival - Placed Buhrito's dialogue across all 8 rival
   encounters (Oak's Lab, Route 22 early, Cerulean, S.S. Anne, Pokemon Tower,
   Silph Co, Route 22 late, Champion). Buhrito is the default rival (RIVAL_ID_BUHRITO)
