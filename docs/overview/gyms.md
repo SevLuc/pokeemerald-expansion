@@ -7,8 +7,13 @@ hard-but-fair rebalance against vanilla.
 > Cross-link each leader's history to docs/writing/lore-ledger.md.
 
 ## Gym 1 — Pewter (Brock, Rock) — Boulder Badge
-- Vanilla team: (fill from data)
-- Rebalanced team: (TBD)
+- Level cap: 14.
+- Vanilla team: Geodude Lv12, Onix Lv14.
+- Rebalanced team: GEODUDE (F) Lv12 (Tackle / Defense Curl), ONIX (F) Lv14, ace,
+  Sturdy (Swagger / Dig / Rock Tomb / Self-Destruct). All of Brock's Pokemon are
+  female. Onix is a Sturdy suicide-wall: survives one hit, chips with Rock Tomb,
+  and can Self-Destruct. Moveset is level-cap-legal (Dig/Rock Tomb via TM,
+  Swagger/Self-Destruct via tutor).
 - History fragments: see BROCK-* in lore-ledger.md
 
 ## Gym 2 — Cerulean (Misty, Water) — Cascade Badge
