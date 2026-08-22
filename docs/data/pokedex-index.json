@@ -1,0 +1,10540 @@
+{
+ "ABOMASNOW": {
+  "gen": 4,
+  "hasMovepool": true,
+  "types": [
+   "GRASS",
+   "ICE"
+  ]
+ },
+ "ABOMASNOW_MEGA": {
+  "gen": 4,
+  "hasMovepool": false,
+  "types": [
+   "GRASS",
+   "ICE"
+  ]
+ },
+ "ABRA": {
+  "gen": 1,
+  "hasMovepool": true,
+  "types": [
+   "PSYCHIC"
+  ]
+ },
+ "ABSOL": {
+  "gen": 3,
+  "hasMovepool": true,
+  "types": [
+   "DARK"
+  ]
+ },
+ "ABSOL_MEGA": {
+  "gen": 3,
+  "hasMovepool": false,
+  "types": [
+   "DARK"
+  ]
+ },
+ "ABSOL_MEGA_Z": {
+  "gen": 3,
+  "hasMovepool": false,
+  "types": [
+   "DARK",
+   "GHOST"
+  ]
+ },
+ "ACCELGOR": {
+  "gen": 5,
+  "hasMovepool": true,
+  "types": [
+   "BUG"
+  ]
+ },
+ "AEGISLASH": {
+  "baseFormAlias": "AEGISLASH_SHIELD",
+  "gen": 6,
+  "hasMovepool": true,
+  "types": [
+   "STEEL",
+   "GHOST"
+  ]
+ },
+ "AEGISLASH_BLADE": {
+  "gen": 6,
+  "hasMovepool": false,
+  "types": [
+   "STEEL",
+   "GHOST"
+  ]
+ },
+ "AEGISLASH_SHIELD": {
+  "gen": 6,
+  "hasMovepool": false,
+  "types": [
+   "STEEL",
+   "GHOST"
+  ]
+ },
+ "AERODACTYL": {
+  "gen": 1,
+  "hasMovepool": true,
+  "types": [
+   "ROCK",
+   "FLYING"
+  ]
+ },
+ "AERODACTYL_MEGA": {
+  "gen": 1,
+  "hasMovepool": false,
+  "types": [
+   "ROCK",
+   "FLYING"
+  ]
+ },
+ "AGGRON": {
+  "gen": 3,
+  "hasMovepool": true,
+  "types": [
+   "STEEL",
+   "ROCK"
+  ]
+ },
+ "AGGRON_MEGA": {
+  "gen": 3,
+  "hasMovepool": false,
+  "types": [
+   "STEEL"
+  ]
+ },
+ "AIPOM": {
+  "gen": 2,
+  "hasMovepool": true,
+  "types": [
+   "NORMAL"
+  ]
+ },
+ "ALAKAZAM": {
+  "gen": 1,
+  "hasMovepool": true,
+  "types": [
+   "PSYCHIC"
+  ]
+ },
+ "ALAKAZAM_MEGA": {
+  "gen": 1,
+  "hasMovepool": false,
+  "types": [
+   "PSYCHIC"
+  ]
+ },
+ "ALCREMIE": {
+  "gen": 8,
+  "hasMovepool": true,
+  "types": [
+   "FAIRY"
+  ],
+  "typesFromExpansionMacro": true
+ },
+ "ALOMOMOLA": {
+  "gen": 5,
+  "hasMovepool": true,
+  "types": [
+   "WATER"
+  ]
+ },
+ "ALTARIA": {
+  "gen": 3,
+  "hasMovepool": true,
+  "types": [
+   "DRAGON",
+   "FLYING"
+  ]
+ },
+ "ALTARIA_MEGA": {
+  "gen": 3,
+  "hasMovepool": false,
+  "types": [
+   "DRAGON",
+   "FAIRY"
+  ]
+ },
+ "AMAURA": {
+  "gen": 6,
+  "hasMovepool": true,
+  "types": [
+   "ROCK",
+   "ICE"
+  ]
+ },
+ "AMBIPOM": {
+  "gen": 2,
+  "hasMovepool": true,
+  "types": [
+   "NORMAL"
+  ]
+ },
+ "AMOONGUSS": {
+  "gen": 5,
+  "hasMovepool": true,
+  "types": [
+   "GRASS",
+   "POISON"
+  ]
+ },
+ "AMPHAROS": {
+  "gen": 2,
+  "hasMovepool": true,
+  "types": [
+   "ELECTRIC"
+  ]
+ },
+ "AMPHAROS_MEGA": {
+  "gen": 2,
+  "hasMovepool": false,
+  "types": [
+   "ELECTRIC",
+   "DRAGON"
+  ]
+ },
+ "ANNIHILAPE": {
+  "gen": 1,
+  "hasMovepool": true,
+  "types": [
+   "FIGHTING",
+   "GHOST"
+  ]
+ },
+ "ANORITH": {
+  "gen": 3,
+  "hasMovepool": true,
+  "types": [
+   "ROCK",
+   "BUG"
+  ]
+ },
+ "APPLETUN": {
+  "gen": 8,
+  "hasMovepool": true,
+  "types": [
+   "GRASS",
+   "DRAGON"
+  ]
+ },
+ "APPLETUN_GMAX": {
+  "gen": 8,
+  "hasMovepool": false,
+  "types": [
+   "GRASS",
+   "DRAGON"
+  ]
+ },
+ "APPLIN": {
+  "gen": 8,
+  "hasMovepool": true,
+  "types": [
+   "GRASS",
+   "DRAGON"
+  ]
+ },
+ "ARAQUANID": {
+  "gen": 7,
+  "hasMovepool": true,
+  "types": [
+   "WATER",
+   "BUG"
+  ]
+ },
+ "ARAQUANID_TOTEM": {
+  "gen": 7,
+  "hasMovepool": false,
+  "types": [
+   "WATER",
+   "BUG"
+  ]
+ },
+ "ARBOK": {
+  "gen": 1,
+  "hasMovepool": true,
+  "types": [
+   "POISON"
+  ]
+ },
+ "ARBOLIVA": {
+  "gen": 9,
+  "hasMovepool": true,
+  "types": [
+   "GRASS",
+   "NORMAL"
+  ]
+ },
+ "ARCANINE": {
+  "gen": 1,
+  "hasMovepool": true,
+  "types": [
+   "FIRE"
+  ]
+ },
+ "ARCANINE_HISUI": {
+  "gen": 1,
+  "hasMovepool": true,
+  "types": [
+   "FIRE",
+   "ROCK"
+  ]
+ },
+ "ARCEUS": {
+  "gen": 4,
+  "hasMovepool": true,
+  "types": [
+   "NORMAL"
+  ],
+  "typesFromExpansionMacro": true
+ },
+ "ARCHALUDON": {
+  "gen": 8,
+  "hasMovepool": true,
+  "types": [
+   "STEEL",
+   "DRAGON"
+  ]
+ },
+ "ARCHEN": {
+  "gen": 5,
+  "hasMovepool": true,
+  "types": [
+   "ROCK",
+   "FLYING"
+  ]
+ },
+ "ARCHEOPS": {
+  "gen": 5,
+  "hasMovepool": true,
+  "types": [
+   "ROCK",
+   "FLYING"
+  ]
+ },
+ "ARCTIBAX": {
+  "gen": 9,
+  "hasMovepool": true,
+  "types": [
+   "DRAGON",
+   "ICE"
+  ]
+ },
+ "ARCTOVISH": {
+  "gen": 8,
+  "hasMovepool": true,
+  "types": [
+   "WATER",
+   "ICE"
+  ]
+ },
+ "ARCTOZOLT": {
+  "gen": 8,
+  "hasMovepool": true,
+  "types": [
+   "ELECTRIC",
+   "ICE"
+  ]
+ },
+ "ARIADOS": {
+  "gen": 2,
+  "hasMovepool": true,
+  "types": [
+   "BUG",
+   "POISON"
+  ]
+ },
+ "ARMALDO": {
+  "gen": 3,
+  "hasMovepool": true,
+  "types": [
+   "ROCK",
+   "BUG"
+  ]
+ },
+ "ARMAROUGE": {
+  "gen": 9,
+  "hasMovepool": true,
+  "types": [
+   "FIRE",
+   "PSYCHIC"
+  ]
+ },
+ "AROMATISSE": {
+  "gen": 6,
+  "hasMovepool": true,
+  "types": [
+   "FAIRY"
+  ]
+ },
+ "ARON": {
+  "gen": 3,
+  "hasMovepool": true,
+  "types": [
+   "STEEL",
+   "ROCK"
+  ]
+ },
+ "ARROKUDA": {
+  "gen": 8,
+  "hasMovepool": true,
+  "types": [
+   "WATER"
+  ]
+ },
+ "ARTICUNO": {
+  "gen": 1,
+  "hasMovepool": true,
+  "types": [
+   "ICE",
+   "FLYING"
+  ]
+ },
+ "ARTICUNO_GALAR": {
+  "gen": 1,
+  "hasMovepool": true,
+  "types": [
+   "PSYCHIC",
+   "FLYING"
+  ]
+ },
+ "AUDINO": {
+  "gen": 5,
+  "hasMovepool": true,
+  "types": [
+   "NORMAL"
+  ]
+ },
+ "AUDINO_MEGA": {
+  "gen": 5,
+  "hasMovepool": false,
+  "types": [
+   "NORMAL",
+   "FAIRY"
+  ]
+ },
+ "AURORUS": {
+  "gen": 6,
+  "hasMovepool": true,
+  "types": [
+   "ROCK",
+   "ICE"
+  ]
+ },
+ "AVALUGG": {
+  "gen": 6,
+  "hasMovepool": true,
+  "types": [
+   "ICE"
+  ]
+ },
+ "AVALUGG_HISUI": {
+  "gen": 6,
+  "hasMovepool": true,
+  "types": [
+   "ICE",
+   "ROCK"
+  ]
+ },
+ "AXEW": {
+  "gen": 5,
+  "hasMovepool": true,
+  "types": [
+   "DRAGON"
+  ]
+ },
+ "AZELF": {
+  "gen": 4,
+  "hasMovepool": true,
+  "types": [
+   "PSYCHIC"
+  ]
+ },
+ "AZUMARILL": {
+  "gen": 2,
+  "hasMovepool": true,
+  "types": [
+   "WATER",
+   "FAIRY"
+  ]
+ },
+ "AZURILL": {
+  "gen": 2,
+  "hasMovepool": true,
+  "types": [
+   "NORMAL",
+   "FAIRY"
+  ]
+ },
+ "BAGON": {
+  "gen": 3,
+  "hasMovepool": true,
+  "types": [
+   "DRAGON"
+  ]
+ },
+ "BALTOY": {
+  "gen": 3,
+  "hasMovepool": true,
+  "types": [
+   "GROUND",
+   "PSYCHIC"
+  ]
+ },
+ "BANETTE": {
+  "gen": 3,
+  "hasMovepool": true,
+  "types": [
+   "GHOST"
+  ]
+ },
+ "BANETTE_MEGA": {
+  "gen": 3,
+  "hasMovepool": false,
+  "types": [
+   "GHOST"
+  ]
+ },
+ "BARBARACLE": {
+  "gen": 6,
+  "hasMovepool": true,
+  "types": [
+   "ROCK",
+   "WATER"
+  ]
+ },
+ "BARBARACLE_MEGA": {
+  "gen": 6,
+  "hasMovepool": false,
+  "types": [
+   "ROCK",
+   "FIGHTING"
+  ]
+ },
+ "BARBOACH": {
+  "gen": 3,
+  "hasMovepool": true,
+  "types": [
+   "WATER",
+   "GROUND"
+  ]
+ },
+ "BARRASKEWDA": {
+  "gen": 8,
+  "hasMovepool": true,
+  "types": [
+   "WATER"
+  ]
+ },
+ "BASCULEGION": {
+  "baseFormAlias": "BASCULEGION_M",
+  "gen": 5,
+  "hasMovepool": true,
+  "types": [
+   "WATER",
+   "GHOST"
+  ]
+ },
+ "BASCULEGION_F": {
+  "gen": 5,
+  "hasMovepool": false,
+  "types": [
+   "WATER",
+   "GHOST"
+  ]
+ },
+ "BASCULEGION_M": {
+  "gen": 5,
+  "hasMovepool": false,
+  "types": [
+   "WATER",
+   "GHOST"
+  ]
+ },
+ "BASCULIN": {
+  "baseFormAlias": "BASCULIN_RED_STRIPED",
+  "gen": 5,
+  "hasMovepool": true,
+  "types": [
+   "WATER"
+  ]
+ },
+ "BASCULIN_BLUE_STRIPED": {
+  "gen": 5,
+  "hasMovepool": false,
+  "types": [
+   "WATER"
+  ]
+ },
+ "BASCULIN_RED_STRIPED": {
+  "gen": 5,
+  "hasMovepool": false,
+  "types": [
+   "WATER"
+  ]
+ },
+ "BASCULIN_WHITE_STRIPED": {
+  "gen": 5,
+  "hasMovepool": true,
+  "types": [
+   "WATER"
+  ]
+ },
+ "BASTIODON": {
+  "gen": 4,
+  "hasMovepool": true,
+  "types": [
+   "ROCK",
+   "STEEL"
+  ]
+ },
+ "BAXCALIBUR": {
+  "gen": 9,
+  "hasMovepool": true,
+  "types": [
+   "DRAGON",
+   "ICE"
+  ]
+ },
+ "BAXCALIBUR_MEGA": {
+  "gen": 9,
+  "hasMovepool": false,
+  "types": [
+   "DRAGON",
+   "ICE"
+  ]
+ },
+ "BAYLEEF": {
+  "gen": 2,
+  "hasMovepool": true,
+  "types": [
+   "GRASS"
+  ]
+ },
+ "BEARTIC": {
+  "gen": 5,
+  "hasMovepool": true,
+  "types": [
+   "ICE"
+  ]
+ },
+ "BEAUTIFLY": {
+  "gen": 3,
+  "hasMovepool": true,
+  "types": [
+   "BUG",
+   "FLYING"
+  ]
+ },
+ "BEEDRILL": {
+  "gen": 1,
+  "hasMovepool": true,
+  "types": [
+   "BUG",
+   "POISON"
+  ]
+ },
+ "BEEDRILL_MEGA": {
+  "gen": 1,
+  "hasMovepool": false,
+  "types": [
+   "BUG",
+   "POISON"
+  ]
+ },
+ "BEHEEYEM": {
+  "gen": 5,
+  "hasMovepool": true,
+  "types": [
+   "PSYCHIC"
+  ]
+ },
+ "BELDUM": {
+  "gen": 3,
+  "hasMovepool": true,
+  "types": [
+   "STEEL",
+   "PSYCHIC"
+  ]
+ },
+ "BELLIBOLT": {
+  "gen": 9,
+  "hasMovepool": true,
+  "types": [
+   "ELECTRIC"
+  ]
+ },
+ "BELLOSSOM": {
+  "gen": 1,
+  "hasMovepool": true,
+  "types": [
+   "GRASS"
+  ]
+ },
+ "BELLSPROUT": {
+  "gen": 1,
+  "hasMovepool": true,
+  "types": [
+   "GRASS",
+   "POISON"
+  ]
+ },
+ "BERGMITE": {
+  "gen": 6,
+  "hasMovepool": true,
+  "types": [
+   "ICE"
+  ]
+ },
+ "BEWEAR": {
+  "gen": 7,
+  "hasMovepool": true,
+  "types": [
+   "NORMAL",
+   "FIGHTING"
+  ]
+ },
+ "BIBAREL": {
+  "gen": 4,
+  "hasMovepool": true,
+  "types": [
+   "NORMAL",
+   "WATER"
+  ]
+ },
+ "BIDOOF": {
+  "gen": 4,
+  "hasMovepool": true,
+  "types": [
+   "NORMAL"
+  ]
+ },
+ "BINACLE": {
+  "gen": 6,
+  "hasMovepool": true,
+  "types": [
+   "ROCK",
+   "WATER"
+  ]
+ },
+ "BISHARP": {
+  "gen": 5,
+  "hasMovepool": true,
+  "types": [
+   "DARK",
+   "STEEL"
+  ]
+ },
+ "BLACEPHALON": {
+  "gen": 7,
+  "hasMovepool": true,
+  "types": [
+   "FIRE",
+   "GHOST"
+  ]
+ },
+ "BLASTOISE": {
+  "gen": 1,
+  "hasMovepool": true,
+  "types": [
+   "WATER"
+  ]
+ },
+ "BLASTOISE_GMAX": {
+  "gen": 1,
+  "hasMovepool": false,
+  "types": [
+   "WATER"
+  ]
+ },
+ "BLASTOISE_MEGA": {
+  "gen": 1,
+  "hasMovepool": false,
+  "types": [
+   "WATER"
+  ]
+ },
+ "BLAZIKEN": {
+  "gen": 3,
+  "hasMovepool": true,
+  "types": [
+   "FIRE",
+   "FIGHTING"
+  ]
+ },
+ "BLAZIKEN_MEGA": {
+  "gen": 3,
+  "hasMovepool": false,
+  "types": [
+   "FIRE",
+   "FIGHTING"
+  ]
+ },
+ "BLIPBUG": {
+  "gen": 8,
+  "hasMovepool": true,
+  "types": [
+   "BUG"
+  ]
+ },
+ "BLISSEY": {
+  "gen": 1,
+  "hasMovepool": true,
+  "types": [
+   "NORMAL"
+  ]
+ },
+ "BLITZLE": {
+  "gen": 5,
+  "hasMovepool": true,
+  "types": [
+   "ELECTRIC"
+  ]
+ },
+ "BOLDORE": {
+  "gen": 5,
+  "hasMovepool": true,
+  "types": [
+   "ROCK"
+  ]
+ },
+ "BOLTUND": {
+  "gen": 8,
+  "hasMovepool": true,
+  "types": [
+   "ELECTRIC"
+  ]
+ },
+ "BOMBIRDIER": {
+  "gen": 9,
+  "hasMovepool": true,
+  "types": [
+   "FLYING",
+   "DARK"
+  ]
+ },
+ "BONSLY": {
+  "gen": 2,
+  "hasMovepool": true,
+  "types": [
+   "ROCK"
+  ]
+ },
+ "BOUFFALANT": {
+  "gen": 5,
+  "hasMovepool": true,
+  "types": [
+   "NORMAL"
+  ]
+ },
+ "BOUNSWEET": {
+  "gen": 7,
+  "hasMovepool": true,
+  "types": [
+   "GRASS"
+  ]
+ },
+ "BRAIXEN": {
+  "gen": 6,
+  "hasMovepool": true,
+  "types": [
+   "FIRE"
+  ]
+ },
+ "BRAMBLEGHAST": {
+  "gen": 9,
+  "hasMovepool": true,
+  "types": [
+   "GRASS",
+   "GHOST"
+  ]
+ },
+ "BRAMBLIN": {
+  "gen": 9,
+  "hasMovepool": true,
+  "types": [
+   "GRASS",
+   "GHOST"
+  ]
+ },
+ "BRAVIARY": {
+  "gen": 5,
+  "hasMovepool": true,
+  "types": [
+   "NORMAL",
+   "FLYING"
+  ]
+ },
+ "BRAVIARY_HISUI": {
+  "gen": 5,
+  "hasMovepool": true,
+  "types": [
+   "PSYCHIC",
+   "FLYING"
+  ]
+ },
+ "BRELOOM": {
+  "gen": 3,
+  "hasMovepool": true,
+  "types": [
+   "GRASS",
+   "FIGHTING"
+  ]
+ },
+ "BRIONNE": {
+  "gen": 7,
+  "hasMovepool": true,
+  "types": [
+   "WATER"
+  ]
+ },
+ "BRONZONG": {
+  "gen": 4,
+  "hasMovepool": true,
+  "types": [
+   "STEEL",
+   "PSYCHIC"
+  ]
+ },
+ "BRONZOR": {
+  "gen": 4,
+  "hasMovepool": true,
+  "types": [
+   "STEEL",
+   "PSYCHIC"
+  ]
+ },
+ "BRUTE_BONNET": {
+  "gen": 9,
+  "hasMovepool": true,
+  "types": [
+   "GRASS",
+   "DARK"
+  ]
+ },
+ "BRUXISH": {
+  "gen": 7,
+  "hasMovepool": true,
+  "types": [
+   "WATER",
+   "PSYCHIC"
+  ]
+ },
+ "BUDEW": {
+  "gen": 3,
+  "hasMovepool": true,
+  "types": [
+   "GRASS",
+   "POISON"
+  ]
+ },
+ "BUIZEL": {
+  "gen": 4,
+  "hasMovepool": true,
+  "types": [
+   "WATER"
+  ]
+ },
+ "BULBASAUR": {
+  "gen": 1,
+  "hasMovepool": true,
+  "types": [
+   "GRASS",
+   "POISON"
+  ]
+ },
+ "BUNEARY": {
+  "gen": 4,
+  "hasMovepool": true,
+  "types": [
+   "NORMAL"
+  ]
+ },
+ "BUNNELBY": {
+  "gen": 6,
+  "hasMovepool": true,
+  "types": [
+   "NORMAL"
+  ]
+ },
+ "BURMY": {
+  "baseFormAlias": "BURMY_PLANT",
+  "gen": 4,
+  "hasMovepool": true,
+  "types": [
+   "BUG"
+  ]
+ },
+ "BURMY_PLANT": {
+  "gen": 4,
+  "hasMovepool": false,
+  "types": [
+   "BUG"
+  ]
+ },
+ "BURMY_SANDY": {
+  "gen": 4,
+  "hasMovepool": false,
+  "types": [
+   "BUG"
+  ]
+ },
+ "BURMY_TRASH": {
+  "gen": 4,
+  "hasMovepool": false,
+  "types": [
+   "BUG"
+  ]
+ },
+ "BUTTERFREE": {
+  "gen": 1,
+  "hasMovepool": true,
+  "types": [
+   "BUG",
+   "FLYING"
+  ]
+ },
+ "BUTTERFREE_GMAX": {
+  "gen": 1,
+  "hasMovepool": false,
+  "types": [
+   "BUG",
+   "FLYING"
+  ]
+ },
+ "BUZZWOLE": {
+  "gen": 7,
+  "hasMovepool": true,
+  "types": [
+   "BUG",
+   "FIGHTING"
+  ]
+ },
+ "CACNEA": {
+  "gen": 3,
+  "hasMovepool": true,
+  "types": [
+   "GRASS"
+  ]
+ },
+ "CACTURNE": {
+  "gen": 3,
+  "hasMovepool": true,
+  "types": [
+   "GRASS",
+   "DARK"
+  ]
+ },
+ "CALYREX": {
+  "gen": 8,
+  "hasMovepool": true,
+  "types": [
+   "PSYCHIC",
+   "GRASS"
+  ]
+ },
+ "CALYREX_ICE": {
+  "gen": 8,
+  "hasMovepool": true,
+  "types": [
+   "PSYCHIC",
+   "ICE"
+  ]
+ },
+ "CALYREX_SHADOW": {
+  "gen": 8,
+  "hasMovepool": true,
+  "types": [
+   "PSYCHIC",
+   "GHOST"
+  ]
+ },
+ "CAMERUPT": {
+  "gen": 3,
+  "hasMovepool": true,
+  "types": [
+   "FIRE",
+   "GROUND"
+  ]
+ },
+ "CAMERUPT_MEGA": {
+  "gen": 3,
+  "hasMovepool": false,
+  "types": [
+   "FIRE",
+   "GROUND"
+  ]
+ },
+ "CAPSAKID": {
+  "gen": 9,
+  "hasMovepool": true,
+  "types": [
+   "GRASS"
+  ]
+ },
+ "CARBINK": {
+  "gen": 6,
+  "hasMovepool": true,
+  "types": [
+   "ROCK",
+   "FAIRY"
+  ]
+ },
+ "CARKOL": {
+  "gen": 8,
+  "hasMovepool": true,
+  "types": [
+   "ROCK",
+   "FIRE"
+  ]
+ },
+ "CARNIVINE": {
+  "gen": 4,
+  "hasMovepool": true,
+  "types": [
+   "GRASS"
+  ]
+ },
+ "CARRACOSTA": {
+  "gen": 5,
+  "hasMovepool": true,
+  "types": [
+   "WATER",
+   "ROCK"
+  ]
+ },
+ "CARVANHA": {
+  "gen": 3,
+  "hasMovepool": true,
+  "types": [
+   "WATER",
+   "DARK"
+  ]
+ },
+ "CASCOON": {
+  "gen": 3,
+  "hasMovepool": true,
+  "types": [
+   "BUG"
+  ]
+ },
+ "CASTFORM": {
+  "baseFormAlias": "CASTFORM_NORMAL",
+  "gen": 3,
+  "hasMovepool": true,
+  "types": [
+   "NORMAL"
+  ]
+ },
+ "CASTFORM_NORMAL": {
+  "gen": 3,
+  "hasMovepool": false,
+  "types": [
+   "NORMAL"
+  ]
+ },
+ "CASTFORM_RAINY": {
+  "gen": 3,
+  "hasMovepool": false,
+  "types": [
+   "WATER"
+  ]
+ },
+ "CASTFORM_SNOWY": {
+  "gen": 3,
+  "hasMovepool": false,
+  "types": [
+   "ICE"
+  ]
+ },
+ "CASTFORM_SUNNY": {
+  "gen": 3,
+  "hasMovepool": false,
+  "types": [
+   "FIRE"
+  ]
+ },
+ "CATERPIE": {
+  "gen": 1,
+  "hasMovepool": true,
+  "types": [
+   "BUG"
+  ]
+ },
+ "CELEBI": {
+  "gen": 2,
+  "hasMovepool": true,
+  "types": [
+   "PSYCHIC",
+   "GRASS"
+  ]
+ },
+ "CELESTEELA": {
+  "gen": 7,
+  "hasMovepool": true,
+  "types": [
+   "STEEL",
+   "FLYING"
+  ]
+ },
+ "CENTISKORCH": {
+  "gen": 8,
+  "hasMovepool": true,
+  "types": [
+   "FIRE",
+   "BUG"
+  ]
+ },
+ "CENTISKORCH_GMAX": {
+  "gen": 8,
+  "hasMovepool": false,
+  "types": [
+   "FIRE",
+   "BUG"
+  ]
+ },
+ "CERULEDGE": {
+  "gen": 9,
+  "hasMovepool": true,
+  "types": [
+   "FIRE",
+   "GHOST"
+  ]
+ },
+ "CETITAN": {
+  "gen": 9,
+  "hasMovepool": true,
+  "types": [
+   "ICE"
+  ]
+ },
+ "CETODDLE": {
+  "gen": 9,
+  "hasMovepool": true,
+  "types": [
+   "ICE"
+  ]
+ },
+ "CHANDELURE": {
+  "gen": 5,
+  "hasMovepool": true,
+  "types": [
+   "GHOST",
+   "FIRE"
+  ]
+ },
+ "CHANDELURE_MEGA": {
+  "gen": 5,
+  "hasMovepool": false,
+  "types": [
+   "GHOST",
+   "FIRE"
+  ]
+ },
+ "CHANSEY": {
+  "gen": 1,
+  "hasMovepool": true,
+  "types": [
+   "NORMAL"
+  ]
+ },
+ "CHARCADET": {
+  "gen": 9,
+  "hasMovepool": true,
+  "types": [
+   "FIRE"
+  ]
+ },
+ "CHARIZARD": {
+  "gen": 1,
+  "hasMovepool": true,
+  "types": [
+   "FIRE",
+   "FLYING"
+  ]
+ },
+ "CHARIZARD_GMAX": {
+  "gen": 1,
+  "hasMovepool": false,
+  "types": [
+   "FIRE",
+   "FLYING"
+  ]
+ },
+ "CHARIZARD_MEGA_X": {
+  "gen": 1,
+  "hasMovepool": false,
+  "types": [
+   "FIRE",
+   "DRAGON"
+  ]
+ },
+ "CHARIZARD_MEGA_Y": {
+  "gen": 1,
+  "hasMovepool": false,
+  "types": [
+   "FIRE",
+   "FLYING"
+  ]
+ },
+ "CHARJABUG": {
+  "gen": 7,
+  "hasMovepool": true,
+  "types": [
+   "BUG",
+   "ELECTRIC"
+  ]
+ },
+ "CHARMANDER": {
+  "gen": 1,
+  "hasMovepool": true,
+  "types": [
+   "FIRE"
+  ]
+ },
+ "CHARMELEON": {
+  "gen": 1,
+  "hasMovepool": true,
+  "types": [
+   "FIRE"
+  ]
+ },
+ "CHATOT": {
+  "gen": 4,
+  "hasMovepool": true,
+  "types": [
+   "NORMAL",
+   "FLYING"
+  ]
+ },
+ "CHERRIM": {
+  "baseFormAlias": "CHERRIM_OVERCAST",
+  "gen": 4,
+  "hasMovepool": true,
+  "types": [
+   "GRASS"
+  ]
+ },
+ "CHERRIM_OVERCAST": {
+  "gen": 4,
+  "hasMovepool": false,
+  "types": [
+   "GRASS"
+  ]
+ },
+ "CHERRIM_SUNSHINE": {
+  "gen": 4,
+  "hasMovepool": false,
+  "types": [
+   "GRASS"
+  ]
+ },
+ "CHERUBI": {
+  "gen": 4,
+  "hasMovepool": true,
+  "types": [
+   "GRASS"
+  ]
+ },
+ "CHESNAUGHT": {
+  "gen": 6,
+  "hasMovepool": true,
+  "types": [
+   "GRASS",
+   "FIGHTING"
+  ]
+ },
+ "CHESNAUGHT_MEGA": {
+  "gen": 6,
+  "hasMovepool": false,
+  "types": [
+   "GRASS",
+   "FIGHTING"
+  ]
+ },
+ "CHESPIN": {
+  "gen": 6,
+  "hasMovepool": true,
+  "types": [
+   "GRASS"
+  ]
+ },
+ "CHEWTLE": {
+  "gen": 8,
+  "hasMovepool": true,
+  "types": [
+   "WATER"
+  ]
+ },
+ "CHIEN_PAO": {
+  "gen": 9,
+  "hasMovepool": true,
+  "types": [
+   "DARK",
+   "ICE"
+  ]
+ },
+ "CHIKORITA": {
+  "gen": 2,
+  "hasMovepool": true,
+  "types": [
+   "GRASS"
+  ]
+ },
+ "CHIMCHAR": {
+  "gen": 4,
+  "hasMovepool": true,
+  "types": [
+   "FIRE"
+  ]
+ },
+ "CHIMECHO": {
+  "gen": 3,
+  "hasMovepool": true,
+  "types": [
+   "PSYCHIC"
+  ]
+ },
+ "CHIMECHO_MEGA": {
+  "gen": 3,
+  "hasMovepool": false,
+  "types": [
+   "PSYCHIC",
+   "STEEL"
+  ]
+ },
+ "CHINCHOU": {
+  "gen": 2,
+  "hasMovepool": true,
+  "types": [
+   "WATER",
+   "ELECTRIC"
+  ]
+ },
+ "CHINGLING": {
+  "gen": 3,
+  "hasMovepool": true,
+  "types": [
+   "PSYCHIC"
+  ]
+ },
+ "CHI_YU": {
+  "gen": 9,
+  "hasMovepool": true,
+  "types": [
+   "DARK",
+   "FIRE"
+  ]
+ },
+ "CINCCINO": {
+  "gen": 5,
+  "hasMovepool": true,
+  "types": [
+   "NORMAL"
+  ]
+ },
+ "CINDERACE": {
+  "gen": 8,
+  "hasMovepool": true,
+  "types": [
+   "FIRE"
+  ]
+ },
+ "CINDERACE_GMAX": {
+  "gen": 8,
+  "hasMovepool": false,
+  "types": [
+   "FIRE"
+  ]
+ },
+ "CLAMPERL": {
+  "gen": 3,
+  "hasMovepool": true,
+  "types": [
+   "WATER"
+  ]
+ },
+ "CLAUNCHER": {
+  "gen": 6,
+  "hasMovepool": true,
+  "types": [
+   "WATER"
+  ]
+ },
+ "CLAWITZER": {
+  "gen": 6,
+  "hasMovepool": true,
+  "types": [
+   "WATER"
+  ]
+ },
+ "CLAYDOL": {
+  "gen": 3,
+  "hasMovepool": true,
+  "types": [
+   "GROUND",
+   "PSYCHIC"
+  ]
+ },
+ "CLEFABLE": {
+  "gen": 1,
+  "hasMovepool": true,
+  "types": [
+   "FAIRY"
+  ]
+ },
+ "CLEFABLE_MEGA": {
+  "gen": 1,
+  "hasMovepool": false,
+  "types": [
+   "FAIRY",
+   "FLYING"
+  ]
+ },
+ "CLEFAIRY": {
+  "gen": 1,
+  "hasMovepool": true,
+  "types": [
+   "FAIRY"
+  ]
+ },
+ "CLEFFA": {
+  "gen": 1,
+  "hasMovepool": true,
+  "types": [
+   "FAIRY"
+  ]
+ },
+ "CLOBBOPUS": {
+  "gen": 8,
+  "hasMovepool": true,
+  "types": [
+   "FIGHTING"
+  ]
+ },
+ "CLODSIRE": {
+  "gen": 2,
+  "hasMovepool": true,
+  "types": [
+   "POISON",
+   "GROUND"
+  ]
+ },
+ "CLOYSTER": {
+  "gen": 1,
+  "hasMovepool": true,
+  "types": [
+   "WATER",
+   "ICE"
+  ]
+ },
+ "COALOSSAL": {
+  "gen": 8,
+  "hasMovepool": true,
+  "types": [
+   "ROCK",
+   "FIRE"
+  ]
+ },
+ "COALOSSAL_GMAX": {
+  "gen": 8,
+  "hasMovepool": false,
+  "types": [
+   "ROCK",
+   "FIRE"
+  ]
+ },
+ "COBALION": {
+  "gen": 5,
+  "hasMovepool": true,
+  "types": [
+   "STEEL",
+   "FIGHTING"
+  ]
+ },
+ "COFAGRIGUS": {
+  "gen": 5,
+  "hasMovepool": true,
+  "types": [
+   "GHOST"
+  ]
+ },
+ "COMBEE": {
+  "gen": 4,
+  "hasMovepool": true,
+  "types": [
+   "BUG",
+   "FLYING"
+  ]
+ },
+ "COMBUSKEN": {
+  "gen": 3,
+  "hasMovepool": true,
+  "types": [
+   "FIRE",
+   "FIGHTING"
+  ]
+ },
+ "COMFEY": {
+  "gen": 7,
+  "hasMovepool": true,
+  "types": [
+   "FAIRY"
+  ]
+ },
+ "CONKELDURR": {
+  "gen": 5,
+  "hasMovepool": true,
+  "types": [
+   "FIGHTING"
+  ]
+ },
+ "COPPERAJAH": {
+  "gen": 8,
+  "hasMovepool": true,
+  "types": [
+   "STEEL"
+  ]
+ },
+ "COPPERAJAH_GMAX": {
+  "gen": 8,
+  "hasMovepool": false,
+  "types": [
+   "STEEL"
+  ]
+ },
+ "CORPHISH": {
+  "gen": 3,
+  "hasMovepool": true,
+  "types": [
+   "WATER"
+  ]
+ },
+ "CORSOLA": {
+  "gen": 2,
+  "hasMovepool": true,
+  "types": [
+   "WATER",
+   "ROCK"
+  ]
+ },
+ "CORSOLA_GALAR": {
+  "gen": 2,
+  "hasMovepool": true,
+  "types": [
+   "GHOST"
+  ]
+ },
+ "CORVIKNIGHT": {
+  "gen": 8,
+  "hasMovepool": true,
+  "types": [
+   "FLYING",
+   "STEEL"
+  ]
+ },
+ "CORVIKNIGHT_GMAX": {
+  "gen": 8,
+  "hasMovepool": false,
+  "types": [
+   "FLYING",
+   "STEEL"
+  ]
+ },
+ "CORVISQUIRE": {
+  "gen": 8,
+  "hasMovepool": true,
+  "types": [
+   "FLYING"
+  ]
+ },
+ "COSMOEM": {
+  "gen": 7,
+  "hasMovepool": true,
+  "types": [
+   "PSYCHIC"
+  ]
+ },
+ "COSMOG": {
+  "gen": 7,
+  "hasMovepool": true,
+  "types": [
+   "PSYCHIC"
+  ]
+ },
+ "COTTONEE": {
+  "gen": 5,
+  "hasMovepool": true,
+  "types": [
+   "GRASS",
+   "COTTONEE_FAMILY_TYPE2"
+  ]
+ },
+ "CRABOMINABLE": {
+  "gen": 7,
+  "hasMovepool": true,
+  "types": [
+   "FIGHTING",
+   "ICE"
+  ]
+ },
+ "CRABOMINABLE_MEGA": {
+  "gen": 7,
+  "hasMovepool": false,
+  "types": [
+   "FIGHTING",
+   "ICE"
+  ]
+ },
+ "CRABRAWLER": {
+  "gen": 7,
+  "hasMovepool": true,
+  "types": [
+   "FIGHTING"
+  ]
+ },
+ "CRADILY": {
+  "gen": 3,
+  "hasMovepool": true,
+  "types": [
+   "ROCK",
+   "GRASS"
+  ]
+ },
+ "CRAMORANT": {
+  "gen": 8,
+  "hasMovepool": true,
+  "types": [
+   "FLYING",
+   "WATER"
+  ]
+ },
+ "CRAMORANT_GORGING": {
+  "gen": 8,
+  "hasMovepool": false,
+  "types": [
+   "FLYING",
+   "WATER"
+  ]
+ },
+ "CRAMORANT_GULPING": {
+  "gen": 8,
+  "hasMovepool": false,
+  "types": [
+   "FLYING",
+   "WATER"
+  ]
+ },
+ "CRANIDOS": {
+  "gen": 4,
+  "hasMovepool": true,
+  "types": [
+   "ROCK"
+  ]
+ },
+ "CRAWDAUNT": {
+  "gen": 3,
+  "hasMovepool": true,
+  "types": [
+   "WATER",
+   "DARK"
+  ]
+ },
+ "CRESSELIA": {
+  "gen": 4,
+  "hasMovepool": true,
+  "types": [
+   "PSYCHIC"
+  ]
+ },
+ "CROAGUNK": {
+  "gen": 4,
+  "hasMovepool": true,
+  "types": [
+   "POISON",
+   "FIGHTING"
+  ]
+ },
+ "CROBAT": {
+  "gen": 1,
+  "hasMovepool": true,
+  "types": [
+   "POISON",
+   "FLYING"
+  ]
+ },
+ "CROCALOR": {
+  "gen": 9,
+  "hasMovepool": true,
+  "types": [
+   "FIRE"
+  ]
+ },
+ "CROCONAW": {
+  "gen": 2,
+  "hasMovepool": true,
+  "types": [
+   "WATER"
+  ]
+ },
+ "CRUSTLE": {
+  "gen": 5,
+  "hasMovepool": true,
+  "types": [
+   "BUG",
+   "ROCK"
+  ]
+ },
+ "CRYOGONAL": {
+  "gen": 5,
+  "hasMovepool": true,
+  "types": [
+   "ICE"
+  ]
+ },
+ "CUBCHOO": {
+  "gen": 5,
+  "hasMovepool": true,
+  "types": [
+   "ICE"
+  ]
+ },
+ "CUBONE": {
+  "gen": 1,
+  "hasMovepool": true,
+  "types": [
+   "GROUND"
+  ]
+ },
+ "CUFANT": {
+  "gen": 8,
+  "hasMovepool": true,
+  "types": [
+   "STEEL"
+  ]
+ },
+ "CURSOLA": {
+  "gen": 2,
+  "hasMovepool": true,
+  "types": [
+   "GHOST"
+  ]
+ },
+ "CUTIEFLY": {
+  "gen": 7,
+  "hasMovepool": true,
+  "types": [
+   "BUG",
+   "FAIRY"
+  ]
+ },
+ "CYCLIZAR": {
+  "gen": 9,
+  "hasMovepool": true,
+  "types": [
+   "DRAGON",
+   "NORMAL"
+  ]
+ },
+ "CYNDAQUIL": {
+  "gen": 2,
+  "hasMovepool": true,
+  "types": [
+   "FIRE"
+  ]
+ },
+ "DACHSBUN": {
+  "gen": 9,
+  "hasMovepool": true,
+  "types": [
+   "FAIRY"
+  ]
+ },
+ "DARKRAI": {
+  "gen": 4,
+  "hasMovepool": true,
+  "types": [
+   "DARK"
+  ]
+ },
+ "DARKRAI_MEGA": {
+  "gen": 4,
+  "hasMovepool": false,
+  "types": [
+   "DARK"
+  ]
+ },
+ "DARMANITAN": {
+  "baseFormAlias": "DARMANITAN_STANDARD",
+  "gen": 5,
+  "hasMovepool": true,
+  "types": [
+   "FIRE"
+  ]
+ },
+ "DARMANITAN_GALAR": {
+  "baseFormAlias": "DARMANITAN_GALAR_STANDARD",
+  "gen": 5,
+  "hasMovepool": true,
+  "types": [
+   "ICE"
+  ]
+ },
+ "DARMANITAN_GALAR_STANDARD": {
+  "gen": 5,
+  "hasMovepool": false,
+  "types": [
+   "ICE"
+  ]
+ },
+ "DARMANITAN_GALAR_ZEN": {
+  "gen": 5,
+  "hasMovepool": false,
+  "types": [
+   "ICE",
+   "FIRE"
+  ]
+ },
+ "DARMANITAN_STANDARD": {
+  "gen": 5,
+  "hasMovepool": false,
+  "types": [
+   "FIRE"
+  ]
+ },
+ "DARMANITAN_ZEN": {
+  "gen": 5,
+  "hasMovepool": false,
+  "types": [
+   "FIRE",
+   "PSYCHIC"
+  ]
+ },
+ "DARTRIX": {
+  "gen": 7,
+  "hasMovepool": true,
+  "types": [
+   "GRASS",
+   "FLYING"
+  ]
+ },
+ "DARUMAKA": {
+  "gen": 5,
+  "hasMovepool": true,
+  "types": [
+   "FIRE"
+  ]
+ },
+ "DARUMAKA_GALAR": {
+  "gen": 5,
+  "hasMovepool": true,
+  "types": [
+   "ICE"
+  ]
+ },
+ "DECIDUEYE": {
+  "gen": 7,
+  "hasMovepool": true,
+  "types": [
+   "GRASS",
+   "GHOST"
+  ]
+ },
+ "DECIDUEYE_HISUI": {
+  "gen": 7,
+  "hasMovepool": true,
+  "types": [
+   "GRASS",
+   "FIGHTING"
+  ]
+ },
+ "DEDENNE": {
+  "gen": 6,
+  "hasMovepool": true,
+  "types": [
+   "ELECTRIC",
+   "FAIRY"
+  ]
+ },
+ "DEERLING": {
+  "baseFormAlias": "DEERLING_SPRING",
+  "gen": 5,
+  "hasMovepool": true,
+  "types": [
+   "NORMAL",
+   "GRASS"
+  ]
+ },
+ "DEERLING_AUTUMN": {
+  "gen": 5,
+  "hasMovepool": false,
+  "types": [
+   "NORMAL",
+   "GRASS"
+  ]
+ },
+ "DEERLING_SPRING": {
+  "gen": 5,
+  "hasMovepool": false,
+  "types": [
+   "NORMAL",
+   "GRASS"
+  ]
+ },
+ "DEERLING_SUMMER": {
+  "gen": 5,
+  "hasMovepool": false,
+  "types": [
+   "NORMAL",
+   "GRASS"
+  ]
+ },
+ "DEERLING_WINTER": {
+  "gen": 5,
+  "hasMovepool": false,
+  "types": [
+   "NORMAL",
+   "GRASS"
+  ]
+ },
+ "DEINO": {
+  "gen": 5,
+  "hasMovepool": true,
+  "types": [
+   "DARK",
+   "DRAGON"
+  ]
+ },
+ "DELCATTY": {
+  "gen": 3,
+  "hasMovepool": true,
+  "types": [
+   "NORMAL"
+  ]
+ },
+ "DELIBIRD": {
+  "gen": 2,
+  "hasMovepool": true,
+  "types": [
+   "ICE",
+   "FLYING"
+  ]
+ },
+ "DELPHOX": {
+  "gen": 6,
+  "hasMovepool": true,
+  "types": [
+   "FIRE",
+   "PSYCHIC"
+  ]
+ },
+ "DELPHOX_MEGA": {
+  "gen": 6,
+  "hasMovepool": false,
+  "types": [
+   "FIRE",
+   "PSYCHIC"
+  ]
+ },
+ "DEOXYS_ATTACK": {
+  "gen": 3,
+  "hasMovepool": true,
+  "types": [
+   "PSYCHIC"
+  ]
+ },
+ "DEOXYS_DEFENSE": {
+  "gen": 3,
+  "hasMovepool": true,
+  "types": [
+   "PSYCHIC"
+  ]
+ },
+ "DEOXYS_NORMAL": {
+  "gen": 3,
+  "hasMovepool": true,
+  "types": [
+   "PSYCHIC"
+  ]
+ },
+ "DEOXYS_SPEED": {
+  "gen": 3,
+  "hasMovepool": true,
+  "types": [
+   "PSYCHIC"
+  ]
+ },
+ "DEWGONG": {
+  "gen": 1,
+  "hasMovepool": true,
+  "types": [
+   "WATER",
+   "ICE"
+  ]
+ },
+ "DEWOTT": {
+  "gen": 5,
+  "hasMovepool": true,
+  "types": [
+   "WATER"
+  ]
+ },
+ "DEWPIDER": {
+  "gen": 7,
+  "hasMovepool": true,
+  "types": [
+   "WATER",
+   "BUG"
+  ]
+ },
+ "DHELMISE": {
+  "gen": 7,
+  "hasMovepool": true,
+  "types": [
+   "GHOST",
+   "GRASS"
+  ]
+ },
+ "DIALGA": {
+  "gen": 4,
+  "hasMovepool": true,
+  "types": [
+   "STEEL",
+   "DRAGON"
+  ]
+ },
+ "DIALGA_ORIGIN": {
+  "gen": 4,
+  "hasMovepool": false,
+  "types": [
+   "STEEL",
+   "DRAGON"
+  ]
+ },
+ "DIANCIE": {
+  "gen": 6,
+  "hasMovepool": true,
+  "types": [
+   "ROCK",
+   "FAIRY"
+  ]
+ },
+ "DIANCIE_MEGA": {
+  "gen": 6,
+  "hasMovepool": false,
+  "types": [
+   "ROCK",
+   "FAIRY"
+  ]
+ },
+ "DIGGERSBY": {
+  "gen": 6,
+  "hasMovepool": true,
+  "types": [
+   "NORMAL",
+   "GROUND"
+  ]
+ },
+ "DIGLETT": {
+  "gen": 1,
+  "hasMovepool": true,
+  "types": [
+   "GROUND"
+  ]
+ },
+ "DIGLETT_ALOLA": {
+  "gen": 1,
+  "hasMovepool": true,
+  "types": [
+   "GROUND",
+   "STEEL"
+  ]
+ },
+ "DIPPLIN": {
+  "gen": 8,
+  "hasMovepool": true,
+  "types": [
+   "GRASS",
+   "DRAGON"
+  ]
+ },
+ "DITTO": {
+  "gen": 1,
+  "hasMovepool": true,
+  "types": [
+   "NORMAL"
+  ]
+ },
+ "DODRIO": {
+  "gen": 1,
+  "hasMovepool": true,
+  "types": [
+   "NORMAL",
+   "FLYING"
+  ]
+ },
+ "DODUO": {
+  "gen": 1,
+  "hasMovepool": true,
+  "types": [
+   "NORMAL",
+   "FLYING"
+  ]
+ },
+ "DOLLIV": {
+  "gen": 9,
+  "hasMovepool": true,
+  "types": [
+   "GRASS",
+   "NORMAL"
+  ]
+ },
+ "DONDOZO": {
+  "gen": 9,
+  "hasMovepool": true,
+  "types": [
+   "WATER"
+  ]
+ },
+ "DONPHAN": {
+  "gen": 2,
+  "hasMovepool": true,
+  "types": [
+   "GROUND"
+  ]
+ },
+ "DOTTLER": {
+  "gen": 8,
+  "hasMovepool": true,
+  "types": [
+   "BUG",
+   "PSYCHIC"
+  ]
+ },
+ "DOUBLADE": {
+  "gen": 6,
+  "hasMovepool": true,
+  "types": [
+   "STEEL",
+   "GHOST"
+  ]
+ },
+ "DRACOVISH": {
+  "gen": 8,
+  "hasMovepool": true,
+  "types": [
+   "WATER",
+   "DRAGON"
+  ]
+ },
+ "DRACOZOLT": {
+  "gen": 8,
+  "hasMovepool": true,
+  "types": [
+   "ELECTRIC",
+   "DRAGON"
+  ]
+ },
+ "DRAGALGE": {
+  "gen": 6,
+  "hasMovepool": true,
+  "types": [
+   "POISON",
+   "DRAGON"
+  ]
+ },
+ "DRAGALGE_MEGA": {
+  "gen": 6,
+  "hasMovepool": false,
+  "types": [
+   "POISON",
+   "DRAGON"
+  ]
+ },
+ "DRAGAPULT": {
+  "gen": 8,
+  "hasMovepool": true,
+  "types": [
+   "DRAGON",
+   "GHOST"
+  ]
+ },
+ "DRAGONAIR": {
+  "gen": 1,
+  "hasMovepool": true,
+  "types": [
+   "DRAGON"
+  ]
+ },
+ "DRAGONITE": {
+  "gen": 1,
+  "hasMovepool": true,
+  "types": [
+   "DRAGON",
+   "FLYING"
+  ]
+ },
+ "DRAGONITE_MEGA": {
+  "gen": 1,
+  "hasMovepool": false,
+  "types": [
+   "DRAGON",
+   "FLYING"
+  ]
+ },
+ "DRAKLOAK": {
+  "gen": 8,
+  "hasMovepool": true,
+  "types": [
+   "DRAGON",
+   "GHOST"
+  ]
+ },
+ "DRAMPA": {
+  "gen": 7,
+  "hasMovepool": true,
+  "types": [
+   "NORMAL",
+   "DRAGON"
+  ]
+ },
+ "DRAMPA_MEGA": {
+  "gen": 7,
+  "hasMovepool": false,
+  "types": [
+   "NORMAL",
+   "DRAGON"
+  ]
+ },
+ "DRAPION": {
+  "gen": 4,
+  "hasMovepool": true,
+  "types": [
+   "POISON",
+   "DARK"
+  ]
+ },
+ "DRATINI": {
+  "gen": 1,
+  "hasMovepool": true,
+  "types": [
+   "DRAGON"
+  ]
+ },
+ "DREDNAW": {
+  "gen": 8,
+  "hasMovepool": true,
+  "types": [
+   "WATER",
+   "ROCK"
+  ]
+ },
+ "DREDNAW_GMAX": {
+  "gen": 8,
+  "hasMovepool": false,
+  "types": [
+   "WATER",
+   "ROCK"
+  ]
+ },
+ "DREEPY": {
+  "gen": 8,
+  "hasMovepool": true,
+  "types": [
+   "DRAGON",
+   "GHOST"
+  ]
+ },
+ "DRIFBLIM": {
+  "gen": 4,
+  "hasMovepool": true,
+  "types": [
+   "GHOST",
+   "FLYING"
+  ]
+ },
+ "DRIFLOON": {
+  "gen": 4,
+  "hasMovepool": true,
+  "types": [
+   "GHOST",
+   "FLYING"
+  ]
+ },
+ "DRILBUR": {
+  "gen": 5,
+  "hasMovepool": true,
+  "types": [
+   "GROUND"
+  ]
+ },
+ "DRIZZILE": {
+  "gen": 8,
+  "hasMovepool": true,
+  "types": [
+   "WATER"
+  ]
+ },
+ "DROWZEE": {
+  "gen": 1,
+  "hasMovepool": true,
+  "types": [
+   "PSYCHIC"
+  ]
+ },
+ "DRUDDIGON": {
+  "gen": 5,
+  "hasMovepool": true,
+  "types": [
+   "DRAGON"
+  ]
+ },
+ "DUBWOOL": {
+  "gen": 8,
+  "hasMovepool": true,
+  "types": [
+   "NORMAL"
+  ]
+ },
+ "DUCKLETT": {
+  "gen": 5,
+  "hasMovepool": true,
+  "types": [
+   "WATER",
+   "FLYING"
+  ]
+ },
+ "DUDUNSPARCE": {
+  "baseFormAlias": "DUDUNSPARCE_TWO_SEGMENT",
+  "gen": 2,
+  "hasMovepool": true,
+  "types": [
+   "NORMAL"
+  ]
+ },
+ "DUDUNSPARCE_THREE_SEGMENT": {
+  "gen": 2,
+  "hasMovepool": false,
+  "types": [
+   "NORMAL"
+  ]
+ },
+ "DUDUNSPARCE_TWO_SEGMENT": {
+  "gen": 2,
+  "hasMovepool": false,
+  "types": [
+   "NORMAL"
+  ]
+ },
+ "DUGTRIO": {
+  "gen": 1,
+  "hasMovepool": true,
+  "types": [
+   "GROUND"
+  ]
+ },
+ "DUGTRIO_ALOLA": {
+  "gen": 1,
+  "hasMovepool": true,
+  "types": [
+   "GROUND",
+   "STEEL"
+  ]
+ },
+ "DUNSPARCE": {
+  "gen": 2,
+  "hasMovepool": true,
+  "types": [
+   "NORMAL"
+  ]
+ },
+ "DUOSION": {
+  "gen": 5,
+  "hasMovepool": true,
+  "types": [
+   "PSYCHIC"
+  ]
+ },
+ "DURALUDON": {
+  "gen": 8,
+  "hasMovepool": true,
+  "types": [
+   "STEEL",
+   "DRAGON"
+  ]
+ },
+ "DURALUDON_GMAX": {
+  "gen": 8,
+  "hasMovepool": false,
+  "types": [
+   "STEEL",
+   "DRAGON"
+  ]
+ },
+ "DURANT": {
+  "gen": 5,
+  "hasMovepool": true,
+  "types": [
+   "BUG",
+   "STEEL"
+  ]
+ },
+ "DUSCLOPS": {
+  "gen": 3,
+  "hasMovepool": true,
+  "types": [
+   "GHOST"
+  ]
+ },
+ "DUSKNOIR": {
+  "gen": 3,
+  "hasMovepool": true,
+  "types": [
+   "GHOST"
+  ]
+ },
+ "DUSKULL": {
+  "gen": 3,
+  "hasMovepool": true,
+  "types": [
+   "GHOST"
+  ]
+ },
+ "DUSTOX": {
+  "gen": 3,
+  "hasMovepool": true,
+  "types": [
+   "BUG",
+   "POISON"
+  ]
+ },
+ "DWEBBLE": {
+  "gen": 5,
+  "hasMovepool": true,
+  "types": [
+   "BUG",
+   "ROCK"
+  ]
+ },
+ "EELEKTRIK": {
+  "gen": 5,
+  "hasMovepool": true,
+  "types": [
+   "ELECTRIC"
+  ]
+ },
+ "EELEKTROSS": {
+  "gen": 5,
+  "hasMovepool": true,
+  "types": [
+   "ELECTRIC"
+  ]
+ },
+ "EELEKTROSS_MEGA": {
+  "gen": 5,
+  "hasMovepool": false,
+  "types": [
+   "ELECTRIC"
+  ]
+ },
+ "EEVEE": {
+  "gen": 1,
+  "hasMovepool": true,
+  "types": [
+   "NORMAL"
+  ]
+ },
+ "EEVEE_GMAX": {
+  "gen": 1,
+  "hasMovepool": false,
+  "types": [
+   "NORMAL"
+  ]
+ },
+ "EEVEE_STARTER": {
+  "gen": 1,
+  "hasMovepool": false,
+  "types": [
+   "NORMAL"
+  ]
+ },
+ "EISCUE": {
+  "baseFormAlias": "EISCUE_ICE",
+  "gen": 8,
+  "hasMovepool": true,
+  "types": [
+   "ICE"
+  ]
+ },
+ "EISCUE_ICE": {
+  "gen": 8,
+  "hasMovepool": false,
+  "types": [
+   "ICE"
+  ]
+ },
+ "EISCUE_NOICE": {
+  "gen": 8,
+  "hasMovepool": false,
+  "types": [
+   "ICE"
+  ]
+ },
+ "EKANS": {
+  "gen": 1,
+  "hasMovepool": true,
+  "types": [
+   "POISON"
+  ]
+ },
+ "ELDEGOSS": {
+  "gen": 8,
+  "hasMovepool": true,
+  "types": [
+   "GRASS"
+  ]
+ },
+ "ELECTABUZZ": {
+  "gen": 1,
+  "hasMovepool": true,
+  "types": [
+   "ELECTRIC"
+  ]
+ },
+ "ELECTIVIRE": {
+  "gen": 1,
+  "hasMovepool": true,
+  "types": [
+   "ELECTRIC"
+  ]
+ },
+ "ELECTRIKE": {
+  "gen": 3,
+  "hasMovepool": true,
+  "types": [
+   "ELECTRIC"
+  ]
+ },
+ "ELECTRODE": {
+  "gen": 1,
+  "hasMovepool": true,
+  "types": [
+   "ELECTRIC"
+  ]
+ },
+ "ELECTRODE_HISUI": {
+  "gen": 1,
+  "hasMovepool": true,
+  "types": [
+   "ELECTRIC",
+   "GRASS"
+  ]
+ },
+ "ELEKID": {
+  "gen": 1,
+  "hasMovepool": true,
+  "types": [
+   "ELECTRIC"
+  ]
+ },
+ "ELGYEM": {
+  "gen": 5,
+  "hasMovepool": true,
+  "types": [
+   "PSYCHIC"
+  ]
+ },
+ "EMBOAR": {
+  "gen": 5,
+  "hasMovepool": true,
+  "types": [
+   "FIRE",
+   "FIGHTING"
+  ]
+ },
+ "EMBOAR_MEGA": {
+  "gen": 5,
+  "hasMovepool": false,
+  "types": [
+   "FIRE",
+   "FIGHTING"
+  ]
+ },
+ "EMOLGA": {
+  "gen": 5,
+  "hasMovepool": true,
+  "types": [
+   "ELECTRIC",
+   "FLYING"
+  ]
+ },
+ "EMPOLEON": {
+  "gen": 4,
+  "hasMovepool": true,
+  "types": [
+   "WATER",
+   "STEEL"
+  ]
+ },
+ "ENAMORUS": {
+  "baseFormAlias": "ENAMORUS_INCARNATE",
+  "gen": 8,
+  "hasMovepool": true,
+  "types": [
+   "FAIRY",
+   "FLYING"
+  ]
+ },
+ "ENAMORUS_INCARNATE": {
+  "gen": 8,
+  "hasMovepool": false,
+  "types": [
+   "FAIRY",
+   "FLYING"
+  ]
+ },
+ "ENAMORUS_THERIAN": {
+  "gen": 8,
+  "hasMovepool": false,
+  "types": [
+   "FAIRY",
+   "FLYING"
+  ]
+ },
+ "ENTEI": {
+  "gen": 2,
+  "hasMovepool": true,
+  "types": [
+   "FIRE"
+  ]
+ },
+ "ESCAVALIER": {
+  "gen": 5,
+  "hasMovepool": true,
+  "types": [
+   "BUG",
+   "STEEL"
+  ]
+ },
+ "ESPATHRA": {
+  "gen": 9,
+  "hasMovepool": true,
+  "types": [
+   "PSYCHIC"
+  ]
+ },
+ "ESPEON": {
+  "gen": 1,
+  "hasMovepool": true,
+  "types": [
+   "PSYCHIC"
+  ]
+ },
+ "ESPURR": {
+  "gen": 6,
+  "hasMovepool": true,
+  "types": [
+   "PSYCHIC"
+  ]
+ },
+ "ETERNATUS": {
+  "gen": 8,
+  "hasMovepool": true,
+  "types": [
+   "POISON",
+   "DRAGON"
+  ]
+ },
+ "ETERNATUS_ETERNAMAX": {
+  "gen": 8,
+  "hasMovepool": false,
+  "types": [
+   "POISON",
+   "DRAGON"
+  ]
+ },
+ "EXCADRILL": {
+  "gen": 5,
+  "hasMovepool": true,
+  "types": [
+   "GROUND",
+   "STEEL"
+  ]
+ },
+ "EXCADRILL_MEGA": {
+  "gen": 5,
+  "hasMovepool": false,
+  "types": [
+   "GROUND",
+   "STEEL"
+  ]
+ },
+ "EXEGGCUTE": {
+  "gen": 1,
+  "hasMovepool": true,
+  "types": [
+   "GRASS",
+   "PSYCHIC"
+  ]
+ },
+ "EXEGGUTOR": {
+  "gen": 1,
+  "hasMovepool": true,
+  "types": [
+   "GRASS",
+   "PSYCHIC"
+  ]
+ },
+ "EXEGGUTOR_ALOLA": {
+  "gen": 1,
+  "hasMovepool": true,
+  "types": [
+   "GRASS",
+   "DRAGON"
+  ]
+ },
+ "EXPLOUD": {
+  "gen": 3,
+  "hasMovepool": true,
+  "types": [
+   "NORMAL"
+  ]
+ },
+ "FALINKS": {
+  "gen": 8,
+  "hasMovepool": true,
+  "types": [
+   "FIGHTING"
+  ]
+ },
+ "FALINKS_MEGA": {
+  "gen": 8,
+  "hasMovepool": false,
+  "types": [
+   "FIGHTING"
+  ]
+ },
+ "FARFETCHD": {
+  "gen": 1,
+  "hasMovepool": true,
+  "types": [
+   "NORMAL",
+   "FLYING"
+  ]
+ },
+ "FARFETCHD_GALAR": {
+  "gen": 1,
+  "hasMovepool": true,
+  "types": [
+   "FIGHTING"
+  ]
+ },
+ "FARIGIRAF": {
+  "gen": 2,
+  "hasMovepool": true,
+  "types": [
+   "NORMAL",
+   "PSYCHIC"
+  ]
+ },
+ "FEAROW": {
+  "gen": 1,
+  "hasMovepool": true,
+  "types": [
+   "NORMAL",
+   "FLYING"
+  ]
+ },
+ "FEEBAS": {
+  "gen": 3,
+  "hasMovepool": true,
+  "types": [
+   "WATER"
+  ]
+ },
+ "FENNEKIN": {
+  "gen": 6,
+  "hasMovepool": true,
+  "types": [
+   "FIRE"
+  ]
+ },
+ "FERALIGATR": {
+  "gen": 2,
+  "hasMovepool": true,
+  "types": [
+   "WATER"
+  ]
+ },
+ "FERALIGATR_MEGA": {
+  "gen": 2,
+  "hasMovepool": false,
+  "types": [
+   "WATER",
+   "DRAGON"
+  ]
+ },
+ "FERROSEED": {
+  "gen": 5,
+  "hasMovepool": true,
+  "types": [
+   "GRASS",
+   "STEEL"
+  ]
+ },
+ "FERROTHORN": {
+  "gen": 5,
+  "hasMovepool": true,
+  "types": [
+   "GRASS",
+   "STEEL"
+  ]
+ },
+ "FEZANDIPITI": {
+  "gen": 9,
+  "hasMovepool": true,
+  "types": [
+   "POISON",
+   "FAIRY"
+  ]
+ },
+ "FIDOUGH": {
+  "gen": 9,
+  "hasMovepool": true,
+  "types": [
+   "FAIRY"
+  ]
+ },
+ "FINIZEN": {
+  "gen": 9,
+  "hasMovepool": true,
+  "types": [
+   "WATER"
+  ]
+ },
+ "FINNEON": {
+  "gen": 4,
+  "hasMovepool": true,
+  "types": [
+   "WATER"
+  ]
+ },
+ "FLAAFFY": {
+  "gen": 2,
+  "hasMovepool": true,
+  "types": [
+   "ELECTRIC"
+  ]
+ },
+ "FLABEBE": {
+  "baseFormAlias": "FLABEBE_WHITE",
+  "gen": 6,
+  "hasMovepool": true,
+  "types": [
+   "FAIRY"
+  ]
+ },
+ "FLABEBE_WHITE": {
+  "gen": 6,
+  "hasMovepool": false,
+  "types": [
+   "FAIRY"
+  ]
+ },
+ "FLAB\u00c9B\u00c9": {
+  "gen": 6,
+  "hasMovepool": true,
+  "types": [
+   "FAIRY"
+  ],
+  "typesFromExpansionMacro": true
+ },
+ "FLAMIGO": {
+  "gen": 9,
+  "hasMovepool": true,
+  "types": [
+   "FLYING",
+   "FIGHTING"
+  ]
+ },
+ "FLAPPLE": {
+  "gen": 8,
+  "hasMovepool": true,
+  "types": [
+   "GRASS",
+   "DRAGON"
+  ]
+ },
+ "FLAPPLE_GMAX": {
+  "gen": 8,
+  "hasMovepool": false,
+  "types": [
+   "GRASS",
+   "DRAGON"
+  ]
+ },
+ "FLAREON": {
+  "gen": 1,
+  "hasMovepool": true,
+  "types": [
+   "FIRE"
+  ]
+ },
+ "FLETCHINDER": {
+  "gen": 6,
+  "hasMovepool": true,
+  "types": [
+   "FIRE",
+   "FLYING"
+  ]
+ },
+ "FLETCHLING": {
+  "gen": 6,
+  "hasMovepool": true,
+  "types": [
+   "NORMAL",
+   "FLYING"
+  ]
+ },
+ "FLITTLE": {
+  "gen": 9,
+  "hasMovepool": true,
+  "types": [
+   "PSYCHIC"
+  ]
+ },
+ "FLOATZEL": {
+  "gen": 4,
+  "hasMovepool": true,
+  "types": [
+   "WATER"
+  ]
+ },
+ "FLOETTE": {
+  "baseFormAlias": "FLOETTE_ETERNAL",
+  "gen": 6,
+  "hasMovepool": true,
+  "types": [
+   "FAIRY"
+  ]
+ },
+ "FLOETTE_ETERNAL": {
+  "gen": 6,
+  "hasMovepool": true,
+  "types": [
+   "FAIRY"
+  ]
+ },
+ "FLOETTE_MEGA": {
+  "gen": 6,
+  "hasMovepool": false,
+  "types": [
+   "FAIRY"
+  ]
+ },
+ "FLORAGATO": {
+  "gen": 9,
+  "hasMovepool": true,
+  "types": [
+   "GRASS"
+  ]
+ },
+ "FLORGES": {
+  "gen": 6,
+  "hasMovepool": true,
+  "types": [
+   "FAIRY"
+  ],
+  "typesFromExpansionMacro": true
+ },
+ "FLUTTER_MANE": {
+  "gen": 9,
+  "hasMovepool": true,
+  "types": [
+   "GHOST",
+   "FAIRY"
+  ]
+ },
+ "FLYGON": {
+  "gen": 3,
+  "hasMovepool": true,
+  "types": [
+   "GROUND",
+   "DRAGON"
+  ]
+ },
+ "FOMANTIS": {
+  "gen": 7,
+  "hasMovepool": true,
+  "types": [
+   "GRASS"
+  ]
+ },
+ "FOONGUS": {
+  "gen": 5,
+  "hasMovepool": true,
+  "types": [
+   "GRASS",
+   "POISON"
+  ]
+ },
+ "FORRETRESS": {
+  "gen": 2,
+  "hasMovepool": true,
+  "types": [
+   "BUG",
+   "STEEL"
+  ]
+ },
+ "FRAXURE": {
+  "gen": 5,
+  "hasMovepool": true,
+  "types": [
+   "DRAGON"
+  ]
+ },
+ "FRIGIBAX": {
+  "gen": 9,
+  "hasMovepool": true,
+  "types": [
+   "DRAGON",
+   "ICE"
+  ]
+ },
+ "FRILLISH": {
+  "gen": 5,
+  "hasMovepool": true,
+  "types": [
+   "WATER",
+   "GHOST"
+  ]
+ },
+ "FROAKIE": {
+  "gen": 6,
+  "hasMovepool": true,
+  "types": [
+   "WATER"
+  ]
+ },
+ "FROGADIER": {
+  "gen": 6,
+  "hasMovepool": true,
+  "types": [
+   "WATER"
+  ]
+ },
+ "FROSLASS": {
+  "gen": 3,
+  "hasMovepool": true,
+  "types": [
+   "ICE",
+   "GHOST"
+  ]
+ },
+ "FROSLASS_MEGA": {
+  "gen": 3,
+  "hasMovepool": false,
+  "types": [
+   "ICE",
+   "GHOST"
+  ]
+ },
+ "FROSMOTH": {
+  "gen": 8,
+  "hasMovepool": true,
+  "types": [
+   "ICE",
+   "BUG"
+  ]
+ },
+ "FUECOCO": {
+  "gen": 9,
+  "hasMovepool": true,
+  "types": [
+   "FIRE"
+  ]
+ },
+ "FURFROU": {
+  "gen": 6,
+  "hasMovepool": true,
+  "types": [
+   "NORMAL"
+  ],
+  "typesFromExpansionMacro": true
+ },
+ "FURRET": {
+  "gen": 2,
+  "hasMovepool": true,
+  "types": [
+   "NORMAL"
+  ]
+ },
+ "GABITE": {
+  "gen": 4,
+  "hasMovepool": true,
+  "types": [
+   "DRAGON",
+   "GROUND"
+  ]
+ },
+ "GALLADE": {
+  "gen": 3,
+  "hasMovepool": true,
+  "types": [
+   "PSYCHIC",
+   "FIGHTING"
+  ]
+ },
+ "GALLADE_MEGA": {
+  "gen": 3,
+  "hasMovepool": false,
+  "types": [
+   "PSYCHIC",
+   "FIGHTING"
+  ]
+ },
+ "GALVANTULA": {
+  "gen": 5,
+  "hasMovepool": true,
+  "types": [
+   "BUG",
+   "ELECTRIC"
+  ]
+ },
+ "GARBODOR": {
+  "gen": 5,
+  "hasMovepool": true,
+  "types": [
+   "POISON"
+  ]
+ },
+ "GARBODOR_GMAX": {
+  "gen": 5,
+  "hasMovepool": false,
+  "types": [
+   "POISON"
+  ]
+ },
+ "GARCHOMP": {
+  "gen": 4,
+  "hasMovepool": true,
+  "types": [
+   "DRAGON",
+   "GROUND"
+  ]
+ },
+ "GARCHOMP_MEGA": {
+  "gen": 4,
+  "hasMovepool": false,
+  "types": [
+   "DRAGON",
+   "GROUND"
+  ]
+ },
+ "GARCHOMP_MEGA_Z": {
+  "gen": 4,
+  "hasMovepool": false,
+  "types": [
+   "DRAGON"
+  ]
+ },
+ "GARDEVOIR": {
+  "gen": 3,
+  "hasMovepool": true,
+  "types": [
+   "PSYCHIC",
+   "RALTS_FAMILY_TYPE2"
+  ]
+ },
+ "GARDEVOIR_MEGA": {
+  "gen": 3,
+  "hasMovepool": false,
+  "types": [
+   "PSYCHIC",
+   "FAIRY"
+  ]
+ },
+ "GARGANACL": {
+  "gen": 9,
+  "hasMovepool": true,
+  "types": [
+   "ROCK"
+  ]
+ },
+ "GASTLY": {
+  "gen": 1,
+  "hasMovepool": true,
+  "types": [
+   "GHOST",
+   "POISON"
+  ]
+ },
+ "GASTRODON": {
+  "baseFormAlias": "GASTRODON_WEST",
+  "gen": 4,
+  "hasMovepool": true,
+  "types": [
+   "WATER",
+   "GROUND"
+  ]
+ },
+ "GASTRODON_EAST": {
+  "gen": 4,
+  "hasMovepool": false,
+  "types": [
+   "WATER",
+   "GROUND"
+  ]
+ },
+ "GASTRODON_WEST": {
+  "gen": 4,
+  "hasMovepool": false,
+  "types": [
+   "WATER",
+   "GROUND"
+  ]
+ },
+ "GENESECT": {
+  "gen": 5,
+  "hasMovepool": true,
+  "types": [
+   "BUG",
+   "STEEL"
+  ],
+  "typesFromExpansionMacro": true
+ },
+ "GENGAR": {
+  "gen": 1,
+  "hasMovepool": true,
+  "types": [
+   "GHOST",
+   "POISON"
+  ]
+ },
+ "GENGAR_GMAX": {
+  "gen": 1,
+  "hasMovepool": false,
+  "types": [
+   "GHOST",
+   "POISON"
+  ]
+ },
+ "GENGAR_MEGA": {
+  "gen": 1,
+  "hasMovepool": false,
+  "types": [
+   "GHOST",
+   "POISON"
+  ]
+ },
+ "GEODUDE": {
+  "gen": 1,
+  "hasMovepool": true,
+  "types": [
+   "ROCK",
+   "GROUND"
+  ]
+ },
+ "GEODUDE_ALOLA": {
+  "gen": 1,
+  "hasMovepool": true,
+  "types": [
+   "ROCK",
+   "ELECTRIC"
+  ]
+ },
+ "GHOLDENGO": {
+  "gen": 9,
+  "hasMovepool": true,
+  "types": [
+   "STEEL",
+   "GHOST"
+  ]
+ },
+ "GIBLE": {
+  "gen": 4,
+  "hasMovepool": true,
+  "types": [
+   "DRAGON",
+   "GROUND"
+  ]
+ },
+ "GIGALITH": {
+  "gen": 5,
+  "hasMovepool": true,
+  "types": [
+   "ROCK"
+  ]
+ },
+ "GIMMIGHOUL": {
+  "baseFormAlias": "GIMMIGHOUL_CHEST",
+  "gen": 9,
+  "hasMovepool": true,
+  "types": [
+   "GHOST"
+  ]
+ },
+ "GIMMIGHOUL_CHEST": {
+  "gen": 9,
+  "hasMovepool": false,
+  "types": [
+   "GHOST"
+  ]
+ },
+ "GIMMIGHOUL_ROAMING": {
+  "gen": 9,
+  "hasMovepool": false,
+  "types": [
+   "GHOST"
+  ]
+ },
+ "GIRAFARIG": {
+  "gen": 2,
+  "hasMovepool": true,
+  "types": [
+   "NORMAL",
+   "PSYCHIC"
+  ]
+ },
+ "GIRATINA": {
+  "baseFormAlias": "GIRATINA_ALTERED",
+  "gen": 4,
+  "hasMovepool": true,
+  "types": [
+   "GHOST",
+   "DRAGON"
+  ]
+ },
+ "GIRATINA_ALTERED": {
+  "gen": 4,
+  "hasMovepool": false,
+  "types": [
+   "GHOST",
+   "DRAGON"
+  ]
+ },
+ "GIRATINA_ORIGIN": {
+  "gen": 4,
+  "hasMovepool": false,
+  "types": [
+   "GHOST",
+   "DRAGON"
+  ]
+ },
+ "GLACEON": {
+  "gen": 1,
+  "hasMovepool": true,
+  "types": [
+   "ICE"
+  ]
+ },
+ "GLALIE": {
+  "gen": 3,
+  "hasMovepool": true,
+  "types": [
+   "ICE"
+  ]
+ },
+ "GLALIE_MEGA": {
+  "gen": 3,
+  "hasMovepool": false,
+  "types": [
+   "ICE"
+  ]
+ },
+ "GLAMEOW": {
+  "gen": 4,
+  "hasMovepool": true,
+  "types": [
+   "NORMAL"
+  ]
+ },
+ "GLASTRIER": {
+  "gen": 8,
+  "hasMovepool": true,
+  "types": [
+   "ICE"
+  ]
+ },
+ "GLIGAR": {
+  "gen": 2,
+  "hasMovepool": true,
+  "types": [
+   "GROUND",
+   "FLYING"
+  ]
+ },
+ "GLIMMET": {
+  "gen": 9,
+  "hasMovepool": true,
+  "types": [
+   "ROCK",
+   "POISON"
+  ]
+ },
+ "GLIMMORA": {
+  "gen": 9,
+  "hasMovepool": true,
+  "types": [
+   "ROCK",
+   "POISON"
+  ]
+ },
+ "GLIMMORA_MEGA": {
+  "gen": 9,
+  "hasMovepool": false,
+  "types": [
+   "ROCK",
+   "POISON"
+  ]
+ },
+ "GLISCOR": {
+  "gen": 2,
+  "hasMovepool": true,
+  "types": [
+   "GROUND",
+   "FLYING"
+  ]
+ },
+ "GLOOM": {
+  "gen": 1,
+  "hasMovepool": true,
+  "types": [
+   "GRASS",
+   "POISON"
+  ]
+ },
+ "GOGOAT": {
+  "gen": 6,
+  "hasMovepool": true,
+  "types": [
+   "GRASS"
+  ]
+ },
+ "GOLBAT": {
+  "gen": 1,
+  "hasMovepool": true,
+  "types": [
+   "POISON",
+   "FLYING"
+  ]
+ },
+ "GOLDEEN": {
+  "gen": 1,
+  "hasMovepool": true,
+  "types": [
+   "WATER"
+  ]
+ },
+ "GOLDUCK": {
+  "gen": 1,
+  "hasMovepool": true,
+  "types": [
+   "WATER"
+  ]
+ },
+ "GOLEM": {
+  "gen": 1,
+  "hasMovepool": true,
+  "types": [
+   "ROCK",
+   "GROUND"
+  ]
+ },
+ "GOLEM_ALOLA": {
+  "gen": 1,
+  "hasMovepool": true,
+  "types": [
+   "ROCK",
+   "ELECTRIC"
+  ]
+ },
+ "GOLETT": {
+  "gen": 5,
+  "hasMovepool": true,
+  "types": [
+   "GROUND",
+   "GHOST"
+  ]
+ },
+ "GOLISOPOD": {
+  "gen": 7,
+  "hasMovepool": true,
+  "types": [
+   "BUG",
+   "WATER"
+  ]
+ },
+ "GOLISOPOD_MEGA": {
+  "gen": 7,
+  "hasMovepool": false,
+  "types": [
+   "BUG",
+   "STEEL"
+  ]
+ },
+ "GOLURK": {
+  "gen": 5,
+  "hasMovepool": true,
+  "types": [
+   "GROUND",
+   "GHOST"
+  ]
+ },
+ "GOLURK_MEGA": {
+  "gen": 5,
+  "hasMovepool": false,
+  "types": [
+   "GROUND",
+   "GHOST"
+  ]
+ },
+ "GOODRA": {
+  "gen": 6,
+  "hasMovepool": true,
+  "types": [
+   "DRAGON"
+  ]
+ },
+ "GOODRA_HISUI": {
+  "gen": 6,
+  "hasMovepool": true,
+  "types": [
+   "DRAGON",
+   "STEEL"
+  ]
+ },
+ "GOOMY": {
+  "gen": 6,
+  "hasMovepool": true,
+  "types": [
+   "DRAGON"
+  ]
+ },
+ "GOREBYSS": {
+  "gen": 3,
+  "hasMovepool": true,
+  "types": [
+   "WATER"
+  ]
+ },
+ "GOSSIFLEUR": {
+  "gen": 8,
+  "hasMovepool": true,
+  "types": [
+   "GRASS"
+  ]
+ },
+ "GOTHITA": {
+  "gen": 5,
+  "hasMovepool": true,
+  "types": [
+   "PSYCHIC"
+  ]
+ },
+ "GOTHITELLE": {
+  "gen": 5,
+  "hasMovepool": true,
+  "types": [
+   "PSYCHIC"
+  ]
+ },
+ "GOTHORITA": {
+  "gen": 5,
+  "hasMovepool": true,
+  "types": [
+   "PSYCHIC"
+  ]
+ },
+ "GOUGING_FIRE": {
+  "gen": 9,
+  "hasMovepool": true,
+  "types": [
+   "FIRE",
+   "DRAGON"
+  ]
+ },
+ "GOURGEIST": {
+  "baseFormAlias": "GOURGEIST_AVERAGE",
+  "gen": 6,
+  "hasMovepool": true,
+  "types": [
+   "GHOST",
+   "GRASS"
+  ]
+ },
+ "GOURGEIST_AVERAGE": {
+  "gen": 6,
+  "hasMovepool": false,
+  "types": [
+   "GHOST",
+   "GRASS"
+  ]
+ },
+ "GOURGEIST_LARGE": {
+  "gen": 6,
+  "hasMovepool": false,
+  "types": [
+   "GHOST",
+   "GRASS"
+  ]
+ },
+ "GOURGEIST_SMALL": {
+  "gen": 6,
+  "hasMovepool": false,
+  "types": [
+   "GHOST",
+   "GRASS"
+  ]
+ },
+ "GOURGEIST_SUPER": {
+  "gen": 6,
+  "hasMovepool": false,
+  "types": [
+   "GHOST",
+   "GRASS"
+  ]
+ },
+ "GRAFAIAI": {
+  "gen": 9,
+  "hasMovepool": true,
+  "types": [
+   "POISON",
+   "NORMAL"
+  ]
+ },
+ "GRANBULL": {
+  "gen": 2,
+  "hasMovepool": true,
+  "types": [
+   "FAIRY"
+  ]
+ },
+ "GRAPPLOCT": {
+  "gen": 8,
+  "hasMovepool": true,
+  "types": [
+   "FIGHTING"
+  ]
+ },
+ "GRAVELER": {
+  "gen": 1,
+  "hasMovepool": true,
+  "types": [
+   "ROCK",
+   "GROUND"
+  ]
+ },
+ "GRAVELER_ALOLA": {
+  "gen": 1,
+  "hasMovepool": true,
+  "types": [
+   "ROCK",
+   "ELECTRIC"
+  ]
+ },
+ "GREAT_TUSK": {
+  "gen": 9,
+  "hasMovepool": true,
+  "types": [
+   "GROUND",
+   "FIGHTING"
+  ]
+ },
+ "GREAVARD": {
+  "gen": 9,
+  "hasMovepool": true,
+  "types": [
+   "GHOST"
+  ]
+ },
+ "GREEDENT": {
+  "gen": 8,
+  "hasMovepool": true,
+  "types": [
+   "NORMAL"
+  ]
+ },
+ "GRENINJA": {
+  "gen": 6,
+  "hasMovepool": true,
+  "types": [
+   "WATER",
+   "DARK"
+  ]
+ },
+ "GRENINJA_ASH": {
+  "gen": 6,
+  "hasMovepool": false,
+  "types": [
+   "WATER",
+   "DARK"
+  ]
+ },
+ "GRENINJA_BATTLE_BOND": {
+  "gen": 6,
+  "hasMovepool": false,
+  "types": [
+   "WATER",
+   "DARK"
+  ]
+ },
+ "GRENINJA_MEGA": {
+  "gen": 6,
+  "hasMovepool": false,
+  "types": [
+   "WATER",
+   "DARK"
+  ]
+ },
+ "GRIMER": {
+  "gen": 1,
+  "hasMovepool": true,
+  "types": [
+   "POISON"
+  ]
+ },
+ "GRIMER_ALOLA": {
+  "gen": 1,
+  "hasMovepool": true,
+  "types": [
+   "POISON",
+   "DARK"
+  ]
+ },
+ "GRIMMSNARL": {
+  "gen": 8,
+  "hasMovepool": true,
+  "types": [
+   "DARK",
+   "FAIRY"
+  ]
+ },
+ "GRIMMSNARL_GMAX": {
+  "gen": 8,
+  "hasMovepool": false,
+  "types": [
+   "DARK",
+   "FAIRY"
+  ]
+ },
+ "GROOKEY": {
+  "gen": 8,
+  "hasMovepool": true,
+  "types": [
+   "GRASS"
+  ]
+ },
+ "GROTLE": {
+  "gen": 4,
+  "hasMovepool": true,
+  "types": [
+   "GRASS"
+  ]
+ },
+ "GROUDON": {
+  "gen": 3,
+  "hasMovepool": true,
+  "types": [
+   "GROUND"
+  ]
+ },
+ "GROUDON_PRIMAL": {
+  "gen": 3,
+  "hasMovepool": false,
+  "types": [
+   "GROUND",
+   "FIRE"
+  ]
+ },
+ "GROVYLE": {
+  "gen": 3,
+  "hasMovepool": true,
+  "types": [
+   "GRASS"
+  ]
+ },
+ "GROWLITHE": {
+  "gen": 1,
+  "hasMovepool": true,
+  "types": [
+   "FIRE"
+  ]
+ },
+ "GROWLITHE_HISUI": {
+  "gen": 1,
+  "hasMovepool": true,
+  "types": [
+   "FIRE",
+   "ROCK"
+  ]
+ },
+ "GRUBBIN": {
+  "gen": 7,
+  "hasMovepool": true,
+  "types": [
+   "BUG"
+  ]
+ },
+ "GRUMPIG": {
+  "gen": 3,
+  "hasMovepool": true,
+  "types": [
+   "PSYCHIC"
+  ]
+ },
+ "GULPIN": {
+  "gen": 3,
+  "hasMovepool": true,
+  "types": [
+   "POISON"
+  ]
+ },
+ "GUMSHOOS": {
+  "gen": 7,
+  "hasMovepool": true,
+  "types": [
+   "NORMAL"
+  ]
+ },
+ "GUMSHOOS_TOTEM": {
+  "gen": 7,
+  "hasMovepool": false,
+  "types": [
+   "NORMAL"
+  ]
+ },
+ "GURDURR": {
+  "gen": 5,
+  "hasMovepool": true,
+  "types": [
+   "FIGHTING"
+  ]
+ },
+ "GUZZLORD": {
+  "gen": 7,
+  "hasMovepool": true,
+  "types": [
+   "DARK",
+   "DRAGON"
+  ]
+ },
+ "GYARADOS": {
+  "gen": 1,
+  "hasMovepool": true,
+  "types": [
+   "WATER",
+   "FLYING"
+  ]
+ },
+ "GYARADOS_MEGA": {
+  "gen": 1,
+  "hasMovepool": false,
+  "types": [
+   "WATER",
+   "DARK"
+  ]
+ },
+ "HAKAMO_O": {
+  "gen": 7,
+  "hasMovepool": true,
+  "types": [
+   "DRAGON",
+   "FIGHTING"
+  ]
+ },
+ "HAPPINY": {
+  "gen": 1,
+  "hasMovepool": true,
+  "types": [
+   "NORMAL"
+  ]
+ },
+ "HARIYAMA": {
+  "gen": 3,
+  "hasMovepool": true,
+  "types": [
+   "FIGHTING"
+  ]
+ },
+ "HATENNA": {
+  "gen": 8,
+  "hasMovepool": true,
+  "types": [
+   "PSYCHIC"
+  ]
+ },
+ "HATTERENE": {
+  "gen": 8,
+  "hasMovepool": true,
+  "types": [
+   "PSYCHIC",
+   "FAIRY"
+  ]
+ },
+ "HATTERENE_GMAX": {
+  "gen": 8,
+  "hasMovepool": false,
+  "types": [
+   "PSYCHIC",
+   "FAIRY"
+  ]
+ },
+ "HATTREM": {
+  "gen": 8,
+  "hasMovepool": true,
+  "types": [
+   "PSYCHIC"
+  ]
+ },
+ "HAUNTER": {
+  "gen": 1,
+  "hasMovepool": true,
+  "types": [
+   "GHOST",
+   "POISON"
+  ]
+ },
+ "HAWLUCHA": {
+  "gen": 6,
+  "hasMovepool": true,
+  "types": [
+   "FIGHTING",
+   "FLYING"
+  ]
+ },
+ "HAWLUCHA_MEGA": {
+  "gen": 6,
+  "hasMovepool": false,
+  "types": [
+   "FIGHTING",
+   "FLYING"
+  ]
+ },
+ "HAXORUS": {
+  "gen": 5,
+  "hasMovepool": true,
+  "types": [
+   "DRAGON"
+  ]
+ },
+ "HEATMOR": {
+  "gen": 5,
+  "hasMovepool": true,
+  "types": [
+   "FIRE"
+  ]
+ },
+ "HEATRAN": {
+  "gen": 4,
+  "hasMovepool": true,
+  "types": [
+   "FIRE",
+   "STEEL"
+  ]
+ },
+ "HEATRAN_MEGA": {
+  "gen": 4,
+  "hasMovepool": false,
+  "types": [
+   "FIRE",
+   "STEEL"
+  ]
+ },
+ "HELIOLISK": {
+  "gen": 6,
+  "hasMovepool": true,
+  "types": [
+   "ELECTRIC",
+   "NORMAL"
+  ]
+ },
+ "HELIOPTILE": {
+  "gen": 6,
+  "hasMovepool": true,
+  "types": [
+   "ELECTRIC",
+   "NORMAL"
+  ]
+ },
+ "HERACROSS": {
+  "gen": 2,
+  "hasMovepool": true,
+  "types": [
+   "BUG",
+   "FIGHTING"
+  ]
+ },
+ "HERACROSS_MEGA": {
+  "gen": 2,
+  "hasMovepool": false,
+  "types": [
+   "BUG",
+   "FIGHTING"
+  ]
+ },
+ "HERDIER": {
+  "gen": 5,
+  "hasMovepool": true,
+  "types": [
+   "NORMAL"
+  ]
+ },
+ "HIPPOPOTAS": {
+  "gen": 4,
+  "hasMovepool": true,
+  "types": [
+   "GROUND"
+  ]
+ },
+ "HIPPOWDON": {
+  "gen": 4,
+  "hasMovepool": true,
+  "types": [
+   "GROUND"
+  ]
+ },
+ "HITMONCHAN": {
+  "gen": 1,
+  "hasMovepool": true,
+  "types": [
+   "FIGHTING"
+  ]
+ },
+ "HITMONLEE": {
+  "gen": 1,
+  "hasMovepool": true,
+  "types": [
+   "FIGHTING"
+  ]
+ },
+ "HITMONTOP": {
+  "gen": 1,
+  "hasMovepool": true,
+  "types": [
+   "FIGHTING"
+  ]
+ },
+ "HONCHKROW": {
+  "gen": 2,
+  "hasMovepool": true,
+  "types": [
+   "DARK",
+   "FLYING"
+  ]
+ },
+ "HONEDGE": {
+  "gen": 6,
+  "hasMovepool": true,
+  "types": [
+   "STEEL",
+   "GHOST"
+  ]
+ },
+ "HOOPA_CONFINED": {
+  "gen": 6,
+  "hasMovepool": true,
+  "types": [
+   "PSYCHIC",
+   "GHOST"
+  ]
+ },
+ "HOOPA_UNBOUND": {
+  "gen": 6,
+  "hasMovepool": true,
+  "types": [
+   "PSYCHIC",
+   "DARK"
+  ]
+ },
+ "HOOTHOOT": {
+  "gen": 2,
+  "hasMovepool": true,
+  "types": [
+   "NORMAL",
+   "FLYING"
+  ]
+ },
+ "HOPPIP": {
+  "gen": 2,
+  "hasMovepool": true,
+  "types": [
+   "GRASS",
+   "FLYING"
+  ]
+ },
+ "HORSEA": {
+  "gen": 1,
+  "hasMovepool": true,
+  "types": [
+   "WATER"
+  ]
+ },
+ "HOUNDOOM": {
+  "gen": 2,
+  "hasMovepool": true,
+  "types": [
+   "DARK",
+   "FIRE"
+  ]
+ },
+ "HOUNDOOM_MEGA": {
+  "gen": 2,
+  "hasMovepool": false,
+  "types": [
+   "DARK",
+   "FIRE"
+  ]
+ },
+ "HOUNDOUR": {
+  "gen": 2,
+  "hasMovepool": true,
+  "types": [
+   "DARK",
+   "FIRE"
+  ]
+ },
+ "HOUNDSTONE": {
+  "gen": 9,
+  "hasMovepool": true,
+  "types": [
+   "GHOST"
+  ]
+ },
+ "HO_OH": {
+  "gen": 2,
+  "hasMovepool": true,
+  "types": [
+   "FIRE",
+   "FLYING"
+  ]
+ },
+ "HUNTAIL": {
+  "gen": 3,
+  "hasMovepool": true,
+  "types": [
+   "WATER"
+  ]
+ },
+ "HYDRAPPLE": {
+  "gen": 8,
+  "hasMovepool": true,
+  "types": [
+   "GRASS",
+   "DRAGON"
+  ]
+ },
+ "HYDREIGON": {
+  "gen": 5,
+  "hasMovepool": true,
+  "types": [
+   "DARK",
+   "DRAGON"
+  ]
+ },
+ "HYPNO": {
+  "gen": 1,
+  "hasMovepool": true,
+  "types": [
+   "PSYCHIC"
+  ]
+ },
+ "IGGLYBUFF": {
+  "gen": 1,
+  "hasMovepool": true,
+  "types": [
+   "NORMAL",
+   "FAIRY"
+  ]
+ },
+ "ILLUMISE": {
+  "gen": 3,
+  "hasMovepool": true,
+  "types": [
+   "BUG"
+  ]
+ },
+ "IMPIDIMP": {
+  "gen": 8,
+  "hasMovepool": true,
+  "types": [
+   "DARK",
+   "FAIRY"
+  ]
+ },
+ "INCINEROAR": {
+  "gen": 7,
+  "hasMovepool": true,
+  "types": [
+   "FIRE",
+   "DARK"
+  ]
+ },
+ "INDEEDEE_F": {
+  "gen": 8,
+  "hasMovepool": true,
+  "types": [
+   "PSYCHIC",
+   "NORMAL"
+  ]
+ },
+ "INDEEDEE_M": {
+  "gen": 8,
+  "hasMovepool": true,
+  "types": [
+   "PSYCHIC",
+   "NORMAL"
+  ]
+ },
+ "INFERNAPE": {
+  "gen": 4,
+  "hasMovepool": true,
+  "types": [
+   "FIRE",
+   "FIGHTING"
+  ]
+ },
+ "INKAY": {
+  "gen": 6,
+  "hasMovepool": true,
+  "types": [
+   "DARK",
+   "PSYCHIC"
+  ]
+ },
+ "INTELEON": {
+  "gen": 8,
+  "hasMovepool": true,
+  "types": [
+   "WATER"
+  ]
+ },
+ "INTELEON_GMAX": {
+  "gen": 8,
+  "hasMovepool": false,
+  "types": [
+   "WATER"
+  ]
+ },
+ "IRON_BOULDER": {
+  "gen": 9,
+  "hasMovepool": true,
+  "types": [
+   "ROCK",
+   "PSYCHIC"
+  ]
+ },
+ "IRON_BUNDLE": {
+  "gen": 9,
+  "hasMovepool": true,
+  "types": [
+   "ICE",
+   "WATER"
+  ]
+ },
+ "IRON_CROWN": {
+  "gen": 9,
+  "hasMovepool": true,
+  "types": [
+   "STEEL",
+   "PSYCHIC"
+  ]
+ },
+ "IRON_HANDS": {
+  "gen": 9,
+  "hasMovepool": true,
+  "types": [
+   "FIGHTING",
+   "ELECTRIC"
+  ]
+ },
+ "IRON_JUGULIS": {
+  "gen": 9,
+  "hasMovepool": true,
+  "types": [
+   "DARK",
+   "FLYING"
+  ]
+ },
+ "IRON_LEAVES": {
+  "gen": 9,
+  "hasMovepool": true,
+  "types": [
+   "GRASS",
+   "PSYCHIC"
+  ]
+ },
+ "IRON_MOTH": {
+  "gen": 9,
+  "hasMovepool": true,
+  "types": [
+   "FIRE",
+   "POISON"
+  ]
+ },
+ "IRON_THORNS": {
+  "gen": 9,
+  "hasMovepool": true,
+  "types": [
+   "ROCK",
+   "ELECTRIC"
+  ]
+ },
+ "IRON_TREADS": {
+  "gen": 9,
+  "hasMovepool": true,
+  "types": [
+   "GROUND",
+   "STEEL"
+  ]
+ },
+ "IRON_VALIANT": {
+  "gen": 9,
+  "hasMovepool": true,
+  "types": [
+   "FAIRY",
+   "FIGHTING"
+  ]
+ },
+ "IVYSAUR": {
+  "gen": 1,
+  "hasMovepool": true,
+  "types": [
+   "GRASS",
+   "POISON"
+  ]
+ },
+ "JANGMO_O": {
+  "gen": 7,
+  "hasMovepool": true,
+  "types": [
+   "DRAGON"
+  ]
+ },
+ "JELLICENT": {
+  "gen": 5,
+  "hasMovepool": true,
+  "types": [
+   "WATER",
+   "GHOST"
+  ]
+ },
+ "JIGGLYPUFF": {
+  "gen": 1,
+  "hasMovepool": true,
+  "types": [
+   "NORMAL",
+   "FAIRY"
+  ]
+ },
+ "JIRACHI": {
+  "gen": 3,
+  "hasMovepool": true,
+  "types": [
+   "STEEL",
+   "PSYCHIC"
+  ]
+ },
+ "JOLTEON": {
+  "gen": 1,
+  "hasMovepool": true,
+  "types": [
+   "ELECTRIC"
+  ]
+ },
+ "JOLTIK": {
+  "gen": 5,
+  "hasMovepool": true,
+  "types": [
+   "BUG",
+   "ELECTRIC"
+  ]
+ },
+ "JUMPLUFF": {
+  "gen": 2,
+  "hasMovepool": true,
+  "types": [
+   "GRASS",
+   "FLYING"
+  ]
+ },
+ "JYNX": {
+  "gen": 1,
+  "hasMovepool": true,
+  "types": [
+   "ICE",
+   "PSYCHIC"
+  ]
+ },
+ "KABUTO": {
+  "gen": 1,
+  "hasMovepool": true,
+  "types": [
+   "ROCK",
+   "WATER"
+  ]
+ },
+ "KABUTOPS": {
+  "gen": 1,
+  "hasMovepool": true,
+  "types": [
+   "ROCK",
+   "WATER"
+  ]
+ },
+ "KADABRA": {
+  "gen": 1,
+  "hasMovepool": true,
+  "types": [
+   "PSYCHIC"
+  ]
+ },
+ "KAKUNA": {
+  "gen": 1,
+  "hasMovepool": true,
+  "types": [
+   "BUG",
+   "POISON"
+  ]
+ },
+ "KANGASKHAN": {
+  "gen": 1,
+  "hasMovepool": true,
+  "types": [
+   "NORMAL"
+  ]
+ },
+ "KANGASKHAN_MEGA": {
+  "gen": 1,
+  "hasMovepool": false,
+  "types": [
+   "NORMAL"
+  ]
+ },
+ "KARRABLAST": {
+  "gen": 5,
+  "hasMovepool": true,
+  "types": [
+   "BUG"
+  ]
+ },
+ "KARTANA": {
+  "gen": 7,
+  "hasMovepool": true,
+  "types": [
+   "GRASS",
+   "STEEL"
+  ]
+ },
+ "KECLEON": {
+  "gen": 3,
+  "hasMovepool": true,
+  "types": [
+   "NORMAL"
+  ]
+ },
+ "KELDEO": {
+  "baseFormAlias": "KELDEO_ORDINARY",
+  "gen": 5,
+  "hasMovepool": true,
+  "types": [
+   "WATER",
+   "FIGHTING"
+  ]
+ },
+ "KELDEO_ORDINARY": {
+  "gen": 5,
+  "hasMovepool": false,
+  "types": [
+   "WATER",
+   "FIGHTING"
+  ]
+ },
+ "KELDEO_RESOLUTE": {
+  "gen": 5,
+  "hasMovepool": false,
+  "types": [
+   "WATER",
+   "FIGHTING"
+  ]
+ },
+ "KILOWATTREL": {
+  "gen": 9,
+  "hasMovepool": true,
+  "types": [
+   "ELECTRIC",
+   "FLYING"
+  ]
+ },
+ "KINGAMBIT": {
+  "gen": 5,
+  "hasMovepool": true,
+  "types": [
+   "DARK",
+   "STEEL"
+  ]
+ },
+ "KINGDRA": {
+  "gen": 1,
+  "hasMovepool": true,
+  "types": [
+   "WATER",
+   "DRAGON"
+  ]
+ },
+ "KINGLER": {
+  "gen": 1,
+  "hasMovepool": true,
+  "types": [
+   "WATER"
+  ]
+ },
+ "KINGLER_GMAX": {
+  "gen": 1,
+  "hasMovepool": false,
+  "types": [
+   "WATER"
+  ]
+ },
+ "KIRLIA": {
+  "gen": 3,
+  "hasMovepool": true,
+  "types": [
+   "PSYCHIC",
+   "RALTS_FAMILY_TYPE2"
+  ]
+ },
+ "KLANG": {
+  "gen": 5,
+  "hasMovepool": true,
+  "types": [
+   "STEEL"
+  ]
+ },
+ "KLAWF": {
+  "gen": 9,
+  "hasMovepool": true,
+  "types": [
+   "ROCK"
+  ]
+ },
+ "KLEAVOR": {
+  "gen": 1,
+  "hasMovepool": true,
+  "types": [
+   "BUG",
+   "ROCK"
+  ]
+ },
+ "KLEFKI": {
+  "gen": 6,
+  "hasMovepool": true,
+  "types": [
+   "STEEL",
+   "FAIRY"
+  ]
+ },
+ "KLINK": {
+  "gen": 5,
+  "hasMovepool": true,
+  "types": [
+   "STEEL"
+  ]
+ },
+ "KLINKLANG": {
+  "gen": 5,
+  "hasMovepool": true,
+  "types": [
+   "STEEL"
+  ]
+ },
+ "KOFFING": {
+  "gen": 1,
+  "hasMovepool": true,
+  "types": [
+   "POISON"
+  ]
+ },
+ "KOMALA": {
+  "gen": 7,
+  "hasMovepool": true,
+  "types": [
+   "NORMAL"
+  ]
+ },
+ "KOMMO_O": {
+  "gen": 7,
+  "hasMovepool": true,
+  "types": [
+   "DRAGON",
+   "FIGHTING"
+  ]
+ },
+ "KOMMO_O_TOTEM": {
+  "gen": 7,
+  "hasMovepool": false,
+  "types": [
+   "DRAGON",
+   "FIGHTING"
+  ]
+ },
+ "KORAIDON": {
+  "gen": 9,
+  "hasMovepool": true,
+  "types": [
+   "FIGHTING",
+   "DRAGON"
+  ]
+ },
+ "KRABBY": {
+  "gen": 1,
+  "hasMovepool": true,
+  "types": [
+   "WATER"
+  ]
+ },
+ "KRICKETOT": {
+  "gen": 4,
+  "hasMovepool": true,
+  "types": [
+   "BUG"
+  ]
+ },
+ "KRICKETUNE": {
+  "gen": 4,
+  "hasMovepool": true,
+  "types": [
+   "BUG"
+  ]
+ },
+ "KROKOROK": {
+  "gen": 5,
+  "hasMovepool": true,
+  "types": [
+   "GROUND",
+   "DARK"
+  ]
+ },
+ "KROOKODILE": {
+  "gen": 5,
+  "hasMovepool": true,
+  "types": [
+   "GROUND",
+   "DARK"
+  ]
+ },
+ "KUBFU": {
+  "gen": 8,
+  "hasMovepool": true,
+  "types": [
+   "FIGHTING"
+  ]
+ },
+ "KYOGRE": {
+  "gen": 3,
+  "hasMovepool": true,
+  "types": [
+   "WATER"
+  ]
+ },
+ "KYOGRE_PRIMAL": {
+  "gen": 3,
+  "hasMovepool": false,
+  "types": [
+   "WATER"
+  ]
+ },
+ "KYUREM": {
+  "gen": 5,
+  "hasMovepool": true,
+  "types": [
+   "DRAGON",
+   "ICE"
+  ]
+ },
+ "KYUREM_BLACK": {
+  "gen": 5,
+  "hasMovepool": true,
+  "types": [
+   "DRAGON",
+   "ICE"
+  ]
+ },
+ "KYUREM_WHITE": {
+  "gen": 5,
+  "hasMovepool": true,
+  "types": [
+   "DRAGON",
+   "ICE"
+  ]
+ },
+ "LAIRON": {
+  "gen": 3,
+  "hasMovepool": true,
+  "types": [
+   "STEEL",
+   "ROCK"
+  ]
+ },
+ "LAMPENT": {
+  "gen": 5,
+  "hasMovepool": true,
+  "types": [
+   "GHOST",
+   "FIRE"
+  ]
+ },
+ "LANDORUS": {
+  "baseFormAlias": "LANDORUS_INCARNATE",
+  "gen": 5,
+  "hasMovepool": true,
+  "types": [
+   "GROUND",
+   "FLYING"
+  ]
+ },
+ "LANDORUS_INCARNATE": {
+  "gen": 5,
+  "hasMovepool": false,
+  "types": [
+   "GROUND",
+   "FLYING"
+  ]
+ },
+ "LANDORUS_THERIAN": {
+  "gen": 5,
+  "hasMovepool": false,
+  "types": [
+   "GROUND",
+   "FLYING"
+  ]
+ },
+ "LANTURN": {
+  "gen": 2,
+  "hasMovepool": true,
+  "types": [
+   "WATER",
+   "ELECTRIC"
+  ]
+ },
+ "LAPRAS": {
+  "gen": 1,
+  "hasMovepool": true,
+  "types": [
+   "WATER",
+   "ICE"
+  ]
+ },
+ "LAPRAS_GMAX": {
+  "gen": 1,
+  "hasMovepool": false,
+  "types": [
+   "WATER",
+   "ICE"
+  ]
+ },
+ "LARVESTA": {
+  "gen": 5,
+  "hasMovepool": true,
+  "types": [
+   "BUG",
+   "FIRE"
+  ]
+ },
+ "LARVITAR": {
+  "gen": 2,
+  "hasMovepool": true,
+  "types": [
+   "ROCK",
+   "GROUND"
+  ]
+ },
+ "LATIAS": {
+  "gen": 3,
+  "hasMovepool": true,
+  "types": [
+   "DRAGON",
+   "PSYCHIC"
+  ]
+ },
+ "LATIAS_MEGA": {
+  "gen": 3,
+  "hasMovepool": false,
+  "types": [
+   "DRAGON",
+   "PSYCHIC"
+  ]
+ },
+ "LATIOS": {
+  "gen": 3,
+  "hasMovepool": true,
+  "types": [
+   "DRAGON",
+   "PSYCHIC"
+  ]
+ },
+ "LATIOS_MEGA": {
+  "gen": 3,
+  "hasMovepool": false,
+  "types": [
+   "DRAGON",
+   "PSYCHIC"
+  ]
+ },
+ "LEAFEON": {
+  "gen": 1,
+  "hasMovepool": true,
+  "types": [
+   "GRASS"
+  ]
+ },
+ "LEAVANNY": {
+  "gen": 5,
+  "hasMovepool": true,
+  "types": [
+   "BUG",
+   "GRASS"
+  ]
+ },
+ "LECHONK": {
+  "gen": 9,
+  "hasMovepool": true,
+  "types": [
+   "NORMAL"
+  ]
+ },
+ "LEDIAN": {
+  "gen": 2,
+  "hasMovepool": true,
+  "types": [
+   "BUG",
+   "FLYING"
+  ]
+ },
+ "LEDYBA": {
+  "gen": 2,
+  "hasMovepool": true,
+  "types": [
+   "BUG",
+   "FLYING"
+  ]
+ },
+ "LICKILICKY": {
+  "gen": 1,
+  "hasMovepool": true,
+  "types": [
+   "NORMAL"
+  ]
+ },
+ "LICKITUNG": {
+  "gen": 1,
+  "hasMovepool": true,
+  "types": [
+   "NORMAL"
+  ]
+ },
+ "LIEPARD": {
+  "gen": 5,
+  "hasMovepool": true,
+  "types": [
+   "DARK"
+  ]
+ },
+ "LILEEP": {
+  "gen": 3,
+  "hasMovepool": true,
+  "types": [
+   "ROCK",
+   "GRASS"
+  ]
+ },
+ "LILLIGANT": {
+  "gen": 5,
+  "hasMovepool": true,
+  "types": [
+   "GRASS"
+  ]
+ },
+ "LILLIGANT_HISUI": {
+  "gen": 5,
+  "hasMovepool": true,
+  "types": [
+   "GRASS",
+   "FIGHTING"
+  ]
+ },
+ "LILLIPUP": {
+  "gen": 5,
+  "hasMovepool": true,
+  "types": [
+   "NORMAL"
+  ]
+ },
+ "LINOONE": {
+  "gen": 3,
+  "hasMovepool": true,
+  "types": [
+   "NORMAL"
+  ]
+ },
+ "LINOONE_GALAR": {
+  "gen": 3,
+  "hasMovepool": true,
+  "types": [
+   "DARK",
+   "NORMAL"
+  ]
+ },
+ "LITLEO": {
+  "gen": 6,
+  "hasMovepool": true,
+  "types": [
+   "FIRE",
+   "NORMAL"
+  ]
+ },
+ "LITTEN": {
+  "gen": 7,
+  "hasMovepool": true,
+  "types": [
+   "FIRE"
+  ]
+ },
+ "LITWICK": {
+  "gen": 5,
+  "hasMovepool": true,
+  "types": [
+   "GHOST",
+   "FIRE"
+  ]
+ },
+ "LOKIX": {
+  "gen": 9,
+  "hasMovepool": true,
+  "types": [
+   "BUG",
+   "DARK"
+  ]
+ },
+ "LOMBRE": {
+  "gen": 3,
+  "hasMovepool": true,
+  "types": [
+   "WATER",
+   "GRASS"
+  ]
+ },
+ "LOPUNNY": {
+  "gen": 4,
+  "hasMovepool": true,
+  "types": [
+   "NORMAL"
+  ]
+ },
+ "LOPUNNY_MEGA": {
+  "gen": 4,
+  "hasMovepool": false,
+  "types": [
+   "NORMAL",
+   "FIGHTING"
+  ]
+ },
+ "LOTAD": {
+  "gen": 3,
+  "hasMovepool": true,
+  "types": [
+   "WATER",
+   "GRASS"
+  ]
+ },
+ "LOUDRED": {
+  "gen": 3,
+  "hasMovepool": true,
+  "types": [
+   "NORMAL"
+  ]
+ },
+ "LUCARIO": {
+  "gen": 4,
+  "hasMovepool": true,
+  "types": [
+   "FIGHTING",
+   "STEEL"
+  ]
+ },
+ "LUCARIO_MEGA": {
+  "gen": 4,
+  "hasMovepool": false,
+  "types": [
+   "FIGHTING",
+   "STEEL"
+  ]
+ },
+ "LUCARIO_MEGA_Z": {
+  "gen": 4,
+  "hasMovepool": false,
+  "types": [
+   "FIGHTING",
+   "STEEL"
+  ]
+ },
+ "LUDICOLO": {
+  "gen": 3,
+  "hasMovepool": true,
+  "types": [
+   "WATER",
+   "GRASS"
+  ]
+ },
+ "LUGIA": {
+  "gen": 2,
+  "hasMovepool": true,
+  "types": [
+   "PSYCHIC",
+   "FLYING"
+  ]
+ },
+ "LUMINEON": {
+  "gen": 4,
+  "hasMovepool": true,
+  "types": [
+   "WATER"
+  ]
+ },
+ "LUNALA": {
+  "gen": 7,
+  "hasMovepool": true,
+  "types": [
+   "PSYCHIC",
+   "GHOST"
+  ]
+ },
+ "LUNATONE": {
+  "gen": 3,
+  "hasMovepool": true,
+  "types": [
+   "ROCK",
+   "PSYCHIC"
+  ]
+ },
+ "LURANTIS": {
+  "gen": 7,
+  "hasMovepool": true,
+  "types": [
+   "GRASS"
+  ]
+ },
+ "LURANTIS_TOTEM": {
+  "gen": 7,
+  "hasMovepool": false,
+  "types": [
+   "GRASS"
+  ]
+ },
+ "LUVDISC": {
+  "gen": 3,
+  "hasMovepool": true,
+  "types": [
+   "WATER"
+  ]
+ },
+ "LUXIO": {
+  "gen": 4,
+  "hasMovepool": true,
+  "types": [
+   "ELECTRIC"
+  ]
+ },
+ "LUXRAY": {
+  "gen": 4,
+  "hasMovepool": true,
+  "types": [
+   "ELECTRIC"
+  ]
+ },
+ "LYCANROC_DUSK": {
+  "gen": 7,
+  "hasMovepool": true,
+  "types": [
+   "ROCK"
+  ]
+ },
+ "LYCANROC_MIDDAY": {
+  "gen": 7,
+  "hasMovepool": true,
+  "types": [
+   "ROCK"
+  ]
+ },
+ "LYCANROC_MIDNIGHT": {
+  "gen": 7,
+  "hasMovepool": true,
+  "types": [
+   "ROCK"
+  ]
+ },
+ "MABOSSTIFF": {
+  "gen": 9,
+  "hasMovepool": true,
+  "types": [
+   "DARK"
+  ]
+ },
+ "MACHAMP": {
+  "gen": 1,
+  "hasMovepool": true,
+  "types": [
+   "FIGHTING"
+  ]
+ },
+ "MACHAMP_GMAX": {
+  "gen": 1,
+  "hasMovepool": false,
+  "types": [
+   "FIGHTING"
+  ]
+ },
+ "MACHOKE": {
+  "gen": 1,
+  "hasMovepool": true,
+  "types": [
+   "FIGHTING"
+  ]
+ },
+ "MACHOP": {
+  "gen": 1,
+  "hasMovepool": true,
+  "types": [
+   "FIGHTING"
+  ]
+ },
+ "MAGBY": {
+  "gen": 1,
+  "hasMovepool": true,
+  "types": [
+   "FIRE"
+  ]
+ },
+ "MAGCARGO": {
+  "gen": 2,
+  "hasMovepool": true,
+  "types": [
+   "FIRE",
+   "ROCK"
+  ]
+ },
+ "MAGEARNA": {
+  "gen": 7,
+  "hasMovepool": true,
+  "types": [
+   "STEEL",
+   "FAIRY"
+  ]
+ },
+ "MAGEARNA_MEGA": {
+  "gen": 7,
+  "hasMovepool": false,
+  "types": [
+   "STEEL",
+   "FAIRY"
+  ]
+ },
+ "MAGEARNA_ORIGINAL": {
+  "gen": 7,
+  "hasMovepool": false,
+  "types": [
+   "STEEL",
+   "FAIRY"
+  ]
+ },
+ "MAGEARNA_ORIGINAL_MEGA": {
+  "gen": 7,
+  "hasMovepool": false,
+  "types": [
+   "STEEL",
+   "FAIRY"
+  ]
+ },
+ "MAGIKARP": {
+  "gen": 1,
+  "hasMovepool": true,
+  "types": [
+   "WATER"
+  ]
+ },
+ "MAGMAR": {
+  "gen": 1,
+  "hasMovepool": true,
+  "types": [
+   "FIRE"
+  ]
+ },
+ "MAGMORTAR": {
+  "gen": 1,
+  "hasMovepool": true,
+  "types": [
+   "FIRE"
+  ]
+ },
+ "MAGNEMITE": {
+  "gen": 1,
+  "hasMovepool": true,
+  "types": [
+   "ELECTRIC",
+   "MAGNEMITE_FAMILY_TYPE2"
+  ]
+ },
+ "MAGNETON": {
+  "gen": 1,
+  "hasMovepool": true,
+  "types": [
+   "ELECTRIC",
+   "MAGNEMITE_FAMILY_TYPE2"
+  ]
+ },
+ "MAGNEZONE": {
+  "gen": 1,
+  "hasMovepool": true,
+  "types": [
+   "ELECTRIC",
+   "STEEL"
+  ]
+ },
+ "MAKUHITA": {
+  "gen": 3,
+  "hasMovepool": true,
+  "types": [
+   "FIGHTING"
+  ]
+ },
+ "MALAMAR": {
+  "gen": 6,
+  "hasMovepool": true,
+  "types": [
+   "DARK",
+   "PSYCHIC"
+  ]
+ },
+ "MALAMAR_MEGA": {
+  "gen": 6,
+  "hasMovepool": false,
+  "types": [
+   "DARK",
+   "PSYCHIC"
+  ]
+ },
+ "MAMOSWINE": {
+  "gen": 2,
+  "hasMovepool": true,
+  "types": [
+   "ICE",
+   "GROUND"
+  ]
+ },
+ "MANAPHY": {
+  "gen": 4,
+  "hasMovepool": true,
+  "types": [
+   "WATER"
+  ]
+ },
+ "MANDIBUZZ": {
+  "gen": 5,
+  "hasMovepool": true,
+  "types": [
+   "DARK",
+   "FLYING"
+  ]
+ },
+ "MANECTRIC": {
+  "gen": 3,
+  "hasMovepool": true,
+  "types": [
+   "ELECTRIC"
+  ]
+ },
+ "MANECTRIC_MEGA": {
+  "gen": 3,
+  "hasMovepool": false,
+  "types": [
+   "ELECTRIC"
+  ]
+ },
+ "MANKEY": {
+  "gen": 1,
+  "hasMovepool": true,
+  "types": [
+   "FIGHTING"
+  ]
+ },
+ "MANTINE": {
+  "gen": 2,
+  "hasMovepool": true,
+  "types": [
+   "WATER",
+   "FLYING"
+  ]
+ },
+ "MANTYKE": {
+  "gen": 2,
+  "hasMovepool": true,
+  "types": [
+   "WATER",
+   "FLYING"
+  ]
+ },
+ "MARACTUS": {
+  "gen": 5,
+  "hasMovepool": true,
+  "types": [
+   "GRASS"
+  ]
+ },
+ "MAREANIE": {
+  "gen": 7,
+  "hasMovepool": true,
+  "types": [
+   "POISON",
+   "WATER"
+  ]
+ },
+ "MAREEP": {
+  "gen": 2,
+  "hasMovepool": true,
+  "types": [
+   "ELECTRIC"
+  ]
+ },
+ "MARILL": {
+  "gen": 2,
+  "hasMovepool": true,
+  "types": [
+   "WATER",
+   "FAIRY"
+  ]
+ },
+ "MAROWAK": {
+  "gen": 1,
+  "hasMovepool": true,
+  "types": [
+   "GROUND"
+  ]
+ },
+ "MAROWAK_ALOLA": {
+  "gen": 1,
+  "hasMovepool": true,
+  "types": [
+   "FIRE",
+   "GHOST"
+  ]
+ },
+ "MAROWAK_ALOLA_TOTEM": {
+  "gen": 1,
+  "hasMovepool": false,
+  "types": [
+   "FIRE",
+   "GHOST"
+  ]
+ },
+ "MARSHADOW": {
+  "gen": 7,
+  "hasMovepool": true,
+  "types": [
+   "FIGHTING",
+   "GHOST"
+  ]
+ },
+ "MARSHTOMP": {
+  "gen": 3,
+  "hasMovepool": true,
+  "types": [
+   "WATER",
+   "GROUND"
+  ]
+ },
+ "MASCHIFF": {
+  "gen": 9,
+  "hasMovepool": true,
+  "types": [
+   "DARK"
+  ]
+ },
+ "MASQUERAIN": {
+  "gen": 3,
+  "hasMovepool": true,
+  "types": [
+   "BUG",
+   "FLYING"
+  ]
+ },
+ "MAUSHOLD": {
+  "baseFormAlias": "MAUSHOLD_THREE",
+  "gen": 9,
+  "hasMovepool": true,
+  "types": [
+   "NORMAL"
+  ]
+ },
+ "MAUSHOLD_FOUR": {
+  "gen": 9,
+  "hasMovepool": false,
+  "types": [
+   "NORMAL"
+  ]
+ },
+ "MAUSHOLD_THREE": {
+  "gen": 9,
+  "hasMovepool": false,
+  "types": [
+   "NORMAL"
+  ]
+ },
+ "MAWILE": {
+  "gen": 3,
+  "hasMovepool": true,
+  "types": [
+   "STEEL",
+   "FAIRY"
+  ]
+ },
+ "MAWILE_MEGA": {
+  "gen": 3,
+  "hasMovepool": false,
+  "types": [
+   "STEEL",
+   "FAIRY"
+  ]
+ },
+ "MEDICHAM": {
+  "gen": 3,
+  "hasMovepool": true,
+  "types": [
+   "FIGHTING",
+   "PSYCHIC"
+  ]
+ },
+ "MEDICHAM_MEGA": {
+  "gen": 3,
+  "hasMovepool": false,
+  "types": [
+   "FIGHTING",
+   "PSYCHIC"
+  ]
+ },
+ "MEDITITE": {
+  "gen": 3,
+  "hasMovepool": true,
+  "types": [
+   "FIGHTING",
+   "PSYCHIC"
+  ]
+ },
+ "MEGANIUM": {
+  "gen": 2,
+  "hasMovepool": true,
+  "types": [
+   "GRASS"
+  ]
+ },
+ "MEGANIUM_MEGA": {
+  "gen": 2,
+  "hasMovepool": false,
+  "types": [
+   "GRASS",
+   "FAIRY"
+  ]
+ },
+ "MELMETAL": {
+  "gen": 7,
+  "hasMovepool": true,
+  "types": [
+   "STEEL"
+  ]
+ },
+ "MELMETAL_GMAX": {
+  "gen": 7,
+  "hasMovepool": false,
+  "types": [
+   "STEEL"
+  ]
+ },
+ "MELOETTA": {
+  "baseFormAlias": "MELOETTA_ARIA",
+  "gen": 5,
+  "hasMovepool": true,
+  "types": [
+   "NORMAL",
+   "PSYCHIC"
+  ]
+ },
+ "MELOETTA_ARIA": {
+  "gen": 5,
+  "hasMovepool": false,
+  "types": [
+   "NORMAL",
+   "PSYCHIC"
+  ]
+ },
+ "MELOETTA_PIROUETTE": {
+  "gen": 5,
+  "hasMovepool": false,
+  "types": [
+   "NORMAL",
+   "FIGHTING"
+  ]
+ },
+ "MELTAN": {
+  "gen": 7,
+  "hasMovepool": true,
+  "types": [
+   "STEEL"
+  ]
+ },
+ "MEOWSCARADA": {
+  "gen": 9,
+  "hasMovepool": true,
+  "types": [
+   "GRASS",
+   "DARK"
+  ]
+ },
+ "MEOWSTIC_F": {
+  "gen": 6,
+  "hasMovepool": true,
+  "types": [
+   "PSYCHIC"
+  ]
+ },
+ "MEOWSTIC_F_MEGA": {
+  "gen": 6,
+  "hasMovepool": false,
+  "types": [
+   "PSYCHIC"
+  ]
+ },
+ "MEOWSTIC_M": {
+  "gen": 6,
+  "hasMovepool": true,
+  "types": [
+   "PSYCHIC"
+  ]
+ },
+ "MEOWSTIC_M_MEGA": {
+  "gen": 6,
+  "hasMovepool": false,
+  "types": [
+   "PSYCHIC"
+  ]
+ },
+ "MEOWTH": {
+  "gen": 1,
+  "hasMovepool": true,
+  "types": [
+   "NORMAL"
+  ]
+ },
+ "MEOWTH_ALOLA": {
+  "gen": 1,
+  "hasMovepool": true,
+  "types": [
+   "DARK"
+  ]
+ },
+ "MEOWTH_GALAR": {
+  "gen": 1,
+  "hasMovepool": true,
+  "types": [
+   "STEEL"
+  ]
+ },
+ "MEOWTH_GMAX": {
+  "gen": 1,
+  "hasMovepool": false,
+  "types": [
+   "NORMAL"
+  ]
+ },
+ "MESPRIT": {
+  "gen": 4,
+  "hasMovepool": true,
+  "types": [
+   "PSYCHIC"
+  ]
+ },
+ "METAGROSS": {
+  "gen": 3,
+  "hasMovepool": true,
+  "types": [
+   "STEEL",
+   "PSYCHIC"
+  ]
+ },
+ "METAGROSS_MEGA": {
+  "gen": 3,
+  "hasMovepool": false,
+  "types": [
+   "STEEL",
+   "PSYCHIC"
+  ]
+ },
+ "METANG": {
+  "gen": 3,
+  "hasMovepool": true,
+  "types": [
+   "STEEL",
+   "PSYCHIC"
+  ]
+ },
+ "METAPOD": {
+  "gen": 1,
+  "hasMovepool": true,
+  "types": [
+   "BUG"
+  ]
+ },
+ "MEW": {
+  "gen": 1,
+  "hasMovepool": true,
+  "types": [
+   "PSYCHIC"
+  ]
+ },
+ "MEWTWO": {
+  "gen": 1,
+  "hasMovepool": true,
+  "types": [
+   "PSYCHIC"
+  ]
+ },
+ "MEWTWO_MEGA_X": {
+  "gen": 1,
+  "hasMovepool": false,
+  "types": [
+   "PSYCHIC",
+   "FIGHTING"
+  ]
+ },
+ "MEWTWO_MEGA_Y": {
+  "gen": 1,
+  "hasMovepool": false,
+  "types": [
+   "PSYCHIC"
+  ]
+ },
+ "MIENFOO": {
+  "gen": 5,
+  "hasMovepool": true,
+  "types": [
+   "FIGHTING"
+  ]
+ },
+ "MIENSHAO": {
+  "gen": 5,
+  "hasMovepool": true,
+  "types": [
+   "FIGHTING"
+  ]
+ },
+ "MIGHTYENA": {
+  "gen": 3,
+  "hasMovepool": true,
+  "types": [
+   "DARK"
+  ]
+ },
+ "MILCERY": {
+  "gen": 8,
+  "hasMovepool": true,
+  "types": [
+   "FAIRY"
+  ]
+ },
+ "MILOTIC": {
+  "gen": 3,
+  "hasMovepool": true,
+  "types": [
+   "WATER"
+  ]
+ },
+ "MILTANK": {
+  "gen": 2,
+  "hasMovepool": true,
+  "types": [
+   "NORMAL"
+  ]
+ },
+ "MIME_JR": {
+  "gen": 1,
+  "hasMovepool": true,
+  "types": [
+   "PSYCHIC",
+   "FAIRY"
+  ]
+ },
+ "MIMIKYU": {
+  "baseFormAlias": "MIMIKYU_DISGUISED",
+  "gen": 7,
+  "hasMovepool": true,
+  "types": [
+   "GHOST",
+   "FAIRY"
+  ]
+ },
+ "MIMIKYU_BUSTED": {
+  "gen": 7,
+  "hasMovepool": false,
+  "types": [
+   "GHOST",
+   "FAIRY"
+  ]
+ },
+ "MIMIKYU_BUSTED_TOTEM": {
+  "gen": 7,
+  "hasMovepool": false,
+  "types": [
+   "GHOST",
+   "FAIRY"
+  ]
+ },
+ "MIMIKYU_DISGUISED": {
+  "gen": 7,
+  "hasMovepool": false,
+  "types": [
+   "GHOST",
+   "FAIRY"
+  ]
+ },
+ "MIMIKYU_TOTEM_DISGUISED": {
+  "gen": 7,
+  "hasMovepool": false,
+  "types": [
+   "GHOST",
+   "FAIRY"
+  ]
+ },
+ "MINCCINO": {
+  "gen": 5,
+  "hasMovepool": true,
+  "types": [
+   "NORMAL"
+  ]
+ },
+ "MINIOR": {
+  "gen": 7,
+  "hasMovepool": true,
+  "types": [
+   "ROCK",
+   "FLYING"
+  ],
+  "typesFromExpansionMacro": true
+ },
+ "MINUN": {
+  "gen": 3,
+  "hasMovepool": true,
+  "types": [
+   "ELECTRIC"
+  ]
+ },
+ "MIRAIDON": {
+  "gen": 9,
+  "hasMovepool": true,
+  "types": [
+   "ELECTRIC",
+   "DRAGON"
+  ]
+ },
+ "MISDREAVUS": {
+  "gen": 2,
+  "hasMovepool": true,
+  "types": [
+   "GHOST"
+  ]
+ },
+ "MISMAGIUS": {
+  "gen": 2,
+  "hasMovepool": true,
+  "types": [
+   "GHOST"
+  ]
+ },
+ "MOLTRES": {
+  "gen": 1,
+  "hasMovepool": true,
+  "types": [
+   "FIRE",
+   "FLYING"
+  ]
+ },
+ "MOLTRES_GALAR": {
+  "gen": 1,
+  "hasMovepool": true,
+  "types": [
+   "DARK",
+   "FLYING"
+  ]
+ },
+ "MONFERNO": {
+  "gen": 4,
+  "hasMovepool": true,
+  "types": [
+   "FIRE",
+   "FIGHTING"
+  ]
+ },
+ "MORELULL": {
+  "gen": 7,
+  "hasMovepool": true,
+  "types": [
+   "GRASS",
+   "FAIRY"
+  ]
+ },
+ "MORGREM": {
+  "gen": 8,
+  "hasMovepool": true,
+  "types": [
+   "DARK",
+   "FAIRY"
+  ]
+ },
+ "MORPEKO": {
+  "baseFormAlias": "MORPEKO_FULL_BELLY",
+  "gen": 8,
+  "hasMovepool": true,
+  "types": [
+   "ELECTRIC",
+   "DARK"
+  ]
+ },
+ "MORPEKO_FULL_BELLY": {
+  "gen": 8,
+  "hasMovepool": false,
+  "types": [
+   "ELECTRIC",
+   "DARK"
+  ]
+ },
+ "MORPEKO_HANGRY": {
+  "gen": 8,
+  "hasMovepool": false,
+  "types": [
+   "ELECTRIC",
+   "DARK"
+  ]
+ },
+ "MOTHIM": {
+  "gen": 4,
+  "hasMovepool": true,
+  "types": [
+   "BUG",
+   "FLYING"
+  ],
+  "typesFromExpansionMacro": true
+ },
+ "MR_MIME": {
+  "gen": 1,
+  "hasMovepool": true,
+  "types": [
+   "PSYCHIC",
+   "FAIRY"
+  ]
+ },
+ "MR_MIME_GALAR": {
+  "gen": 1,
+  "hasMovepool": true,
+  "types": [
+   "ICE",
+   "PSYCHIC"
+  ]
+ },
+ "MR_RIME": {
+  "gen": 1,
+  "hasMovepool": true,
+  "types": [
+   "ICE",
+   "PSYCHIC"
+  ]
+ },
+ "MUDBRAY": {
+  "gen": 7,
+  "hasMovepool": true,
+  "types": [
+   "GROUND"
+  ]
+ },
+ "MUDKIP": {
+  "gen": 3,
+  "hasMovepool": true,
+  "types": [
+   "WATER"
+  ]
+ },
+ "MUDSDALE": {
+  "gen": 7,
+  "hasMovepool": true,
+  "types": [
+   "GROUND"
+  ]
+ },
+ "MUK": {
+  "gen": 1,
+  "hasMovepool": true,
+  "types": [
+   "POISON"
+  ]
+ },
+ "MUK_ALOLA": {
+  "gen": 1,
+  "hasMovepool": true,
+  "types": [
+   "POISON",
+   "DARK"
+  ]
+ },
+ "MUNCHLAX": {
+  "gen": 1,
+  "hasMovepool": true,
+  "types": [
+   "NORMAL"
+  ]
+ },
+ "MUNKIDORI": {
+  "gen": 9,
+  "hasMovepool": true,
+  "types": [
+   "POISON",
+   "PSYCHIC"
+  ]
+ },
+ "MUNNA": {
+  "gen": 5,
+  "hasMovepool": true,
+  "types": [
+   "PSYCHIC"
+  ]
+ },
+ "MURKROW": {
+  "gen": 2,
+  "hasMovepool": true,
+  "types": [
+   "DARK",
+   "FLYING"
+  ]
+ },
+ "MUSHARNA": {
+  "gen": 5,
+  "hasMovepool": true,
+  "types": [
+   "PSYCHIC"
+  ]
+ },
+ "NACLI": {
+  "gen": 9,
+  "hasMovepool": true,
+  "types": [
+   "ROCK"
+  ]
+ },
+ "NACLSTACK": {
+  "gen": 9,
+  "hasMovepool": true,
+  "types": [
+   "ROCK"
+  ]
+ },
+ "NAGANADEL": {
+  "gen": 7,
+  "hasMovepool": true,
+  "types": [
+   "POISON",
+   "DRAGON"
+  ]
+ },
+ "NATU": {
+  "gen": 2,
+  "hasMovepool": true,
+  "types": [
+   "PSYCHIC",
+   "FLYING"
+  ]
+ },
+ "NECROZMA": {
+  "gen": 7,
+  "hasMovepool": true,
+  "types": [
+   "PSYCHIC"
+  ]
+ },
+ "NECROZMA_DAWN_WINGS": {
+  "gen": 7,
+  "hasMovepool": false,
+  "types": [
+   "PSYCHIC",
+   "GHOST"
+  ]
+ },
+ "NECROZMA_DUSK_MANE": {
+  "gen": 7,
+  "hasMovepool": false,
+  "types": [
+   "PSYCHIC",
+   "STEEL"
+  ]
+ },
+ "NECROZMA_ULTRA": {
+  "gen": 7,
+  "hasMovepool": false,
+  "types": [
+   "PSYCHIC",
+   "DRAGON"
+  ]
+ },
+ "NICKIT": {
+  "gen": 8,
+  "hasMovepool": true,
+  "types": [
+   "DARK"
+  ]
+ },
+ "NIDOKING": {
+  "gen": 1,
+  "hasMovepool": true,
+  "types": [
+   "POISON",
+   "GROUND"
+  ]
+ },
+ "NIDOQUEEN": {
+  "gen": 1,
+  "hasMovepool": true,
+  "types": [
+   "POISON",
+   "GROUND"
+  ]
+ },
+ "NIDORAN_F": {
+  "gen": 1,
+  "hasMovepool": true,
+  "types": [
+   "POISON"
+  ]
+ },
+ "NIDORAN_M": {
+  "gen": 1,
+  "hasMovepool": true,
+  "types": [
+   "POISON"
+  ]
+ },
+ "NIDORINA": {
+  "gen": 1,
+  "hasMovepool": true,
+  "types": [
+   "POISON"
+  ]
+ },
+ "NIDORINO": {
+  "gen": 1,
+  "hasMovepool": true,
+  "types": [
+   "POISON"
+  ]
+ },
+ "NIHILEGO": {
+  "gen": 7,
+  "hasMovepool": true,
+  "types": [
+   "ROCK",
+   "POISON"
+  ]
+ },
+ "NINCADA": {
+  "gen": 3,
+  "hasMovepool": true,
+  "types": [
+   "BUG",
+   "GROUND"
+  ]
+ },
+ "NINETALES": {
+  "gen": 1,
+  "hasMovepool": true,
+  "types": [
+   "FIRE"
+  ]
+ },
+ "NINETALES_ALOLA": {
+  "gen": 1,
+  "hasMovepool": true,
+  "types": [
+   "ICE",
+   "FAIRY"
+  ]
+ },
+ "NINJASK": {
+  "gen": 3,
+  "hasMovepool": true,
+  "types": [
+   "BUG",
+   "FLYING"
+  ]
+ },
+ "NOCTOWL": {
+  "gen": 2,
+  "hasMovepool": true,
+  "types": [
+   "NORMAL",
+   "FLYING"
+  ]
+ },
+ "NOIBAT": {
+  "gen": 6,
+  "hasMovepool": true,
+  "types": [
+   "FLYING",
+   "DRAGON"
+  ]
+ },
+ "NOIVERN": {
+  "gen": 6,
+  "hasMovepool": true,
+  "types": [
+   "FLYING",
+   "DRAGON"
+  ]
+ },
+ "NOSEPASS": {
+  "gen": 3,
+  "hasMovepool": true,
+  "types": [
+   "ROCK"
+  ]
+ },
+ "NUMEL": {
+  "gen": 3,
+  "hasMovepool": true,
+  "types": [
+   "FIRE",
+   "GROUND"
+  ]
+ },
+ "NUZLEAF": {
+  "gen": 3,
+  "hasMovepool": true,
+  "types": [
+   "GRASS",
+   "DARK"
+  ]
+ },
+ "NYMBLE": {
+  "gen": 9,
+  "hasMovepool": true,
+  "types": [
+   "BUG"
+  ]
+ },
+ "OBSTAGOON": {
+  "gen": 3,
+  "hasMovepool": true,
+  "types": [
+   "DARK",
+   "NORMAL"
+  ]
+ },
+ "OCTILLERY": {
+  "gen": 2,
+  "hasMovepool": true,
+  "types": [
+   "WATER"
+  ]
+ },
+ "ODDISH": {
+  "gen": 1,
+  "hasMovepool": true,
+  "types": [
+   "GRASS",
+   "POISON"
+  ]
+ },
+ "OGERPON": {
+  "gen": 9,
+  "hasMovepool": true,
+  "types": [
+   "GRASS"
+  ],
+  "typesFromExpansionMacro": true
+ },
+ "OINKOLOGNE": {
+  "baseFormAlias": "OINKOLOGNE_M",
+  "gen": 9,
+  "hasMovepool": true,
+  "types": [
+   "NORMAL"
+  ]
+ },
+ "OINKOLOGNE_F": {
+  "gen": 9,
+  "hasMovepool": true,
+  "types": [
+   "NORMAL"
+  ]
+ },
+ "OINKOLOGNE_M": {
+  "gen": 9,
+  "hasMovepool": true,
+  "types": [
+   "NORMAL"
+  ]
+ },
+ "OKIDOGI": {
+  "gen": 9,
+  "hasMovepool": true,
+  "types": [
+   "POISON",
+   "FIGHTING"
+  ]
+ },
+ "OMANYTE": {
+  "gen": 1,
+  "hasMovepool": true,
+  "types": [
+   "ROCK",
+   "WATER"
+  ]
+ },
+ "OMASTAR": {
+  "gen": 1,
+  "hasMovepool": true,
+  "types": [
+   "ROCK",
+   "WATER"
+  ]
+ },
+ "ONIX": {
+  "gen": 1,
+  "hasMovepool": true,
+  "types": [
+   "ROCK",
+   "GROUND"
+  ]
+ },
+ "ORANGURU": {
+  "gen": 7,
+  "hasMovepool": true,
+  "types": [
+   "NORMAL",
+   "PSYCHIC"
+  ]
+ },
+ "ORBEETLE": {
+  "gen": 8,
+  "hasMovepool": true,
+  "types": [
+   "BUG",
+   "PSYCHIC"
+  ]
+ },
+ "ORBEETLE_GMAX": {
+  "gen": 8,
+  "hasMovepool": false,
+  "types": [
+   "BUG",
+   "PSYCHIC"
+  ]
+ },
+ "ORICORIO": {
+  "baseFormAlias": "ORICORIO_BAILE",
+  "gen": 7,
+  "hasMovepool": true,
+  "types": [
+   "FIRE",
+   "FLYING"
+  ]
+ },
+ "ORICORIO_BAILE": {
+  "gen": 7,
+  "hasMovepool": false,
+  "types": [
+   "FIRE",
+   "FLYING"
+  ]
+ },
+ "ORICORIO_PAU": {
+  "gen": 7,
+  "hasMovepool": false,
+  "types": [
+   "PSYCHIC",
+   "FLYING"
+  ]
+ },
+ "ORICORIO_POM_POM": {
+  "gen": 7,
+  "hasMovepool": false,
+  "types": [
+   "ELECTRIC",
+   "FLYING"
+  ]
+ },
+ "ORICORIO_SENSU": {
+  "gen": 7,
+  "hasMovepool": false,
+  "types": [
+   "GHOST",
+   "FLYING"
+  ]
+ },
+ "ORTHWORM": {
+  "gen": 9,
+  "hasMovepool": true,
+  "types": [
+   "STEEL"
+  ]
+ },
+ "OSHAWOTT": {
+  "gen": 5,
+  "hasMovepool": true,
+  "types": [
+   "WATER"
+  ]
+ },
+ "OVERQWIL": {
+  "gen": 2,
+  "hasMovepool": true,
+  "types": [
+   "DARK",
+   "POISON"
+  ]
+ },
+ "PACHIRISU": {
+  "gen": 4,
+  "hasMovepool": true,
+  "types": [
+   "ELECTRIC"
+  ]
+ },
+ "PALAFIN": {
+  "baseFormAlias": "PALAFIN_ZERO",
+  "gen": 9,
+  "hasMovepool": true,
+  "types": [
+   "WATER"
+  ]
+ },
+ "PALAFIN_HERO": {
+  "gen": 9,
+  "hasMovepool": false,
+  "types": [
+   "WATER"
+  ]
+ },
+ "PALAFIN_ZERO": {
+  "gen": 9,
+  "hasMovepool": false,
+  "types": [
+   "WATER"
+  ]
+ },
+ "PALKIA": {
+  "gen": 4,
+  "hasMovepool": true,
+  "types": [
+   "WATER",
+   "DRAGON"
+  ]
+ },
+ "PALKIA_ORIGIN": {
+  "gen": 4,
+  "hasMovepool": false,
+  "types": [
+   "WATER",
+   "DRAGON"
+  ]
+ },
+ "PALOSSAND": {
+  "gen": 7,
+  "hasMovepool": true,
+  "types": [
+   "GHOST",
+   "GROUND"
+  ]
+ },
+ "PALPITOAD": {
+  "gen": 5,
+  "hasMovepool": true,
+  "types": [
+   "WATER",
+   "GROUND"
+  ]
+ },
+ "PANCHAM": {
+  "gen": 6,
+  "hasMovepool": true,
+  "types": [
+   "FIGHTING"
+  ]
+ },
+ "PANGORO": {
+  "gen": 6,
+  "hasMovepool": true,
+  "types": [
+   "FIGHTING",
+   "DARK"
+  ]
+ },
+ "PANPOUR": {
+  "gen": 5,
+  "hasMovepool": true,
+  "types": [
+   "WATER"
+  ]
+ },
+ "PANSAGE": {
+  "gen": 5,
+  "hasMovepool": true,
+  "types": [
+   "GRASS"
+  ]
+ },
+ "PANSEAR": {
+  "gen": 5,
+  "hasMovepool": true,
+  "types": [
+   "FIRE"
+  ]
+ },
+ "PARAS": {
+  "gen": 1,
+  "hasMovepool": true,
+  "types": [
+   "BUG",
+   "GRASS"
+  ]
+ },
+ "PARASECT": {
+  "gen": 1,
+  "hasMovepool": true,
+  "types": [
+   "BUG",
+   "GRASS"
+  ]
+ },
+ "PASSIMIAN": {
+  "gen": 7,
+  "hasMovepool": true,
+  "types": [
+   "FIGHTING"
+  ]
+ },
+ "PATRAT": {
+  "gen": 5,
+  "hasMovepool": true,
+  "types": [
+   "NORMAL"
+  ]
+ },
+ "PAWMI": {
+  "gen": 9,
+  "hasMovepool": true,
+  "types": [
+   "ELECTRIC"
+  ]
+ },
+ "PAWMO": {
+  "gen": 9,
+  "hasMovepool": true,
+  "types": [
+   "ELECTRIC",
+   "FIGHTING"
+  ]
+ },
+ "PAWMOT": {
+  "gen": 9,
+  "hasMovepool": true,
+  "types": [
+   "ELECTRIC",
+   "FIGHTING"
+  ]
+ },
+ "PAWNIARD": {
+  "gen": 5,
+  "hasMovepool": true,
+  "types": [
+   "DARK",
+   "STEEL"
+  ]
+ },
+ "PECHARUNT": {
+  "gen": 9,
+  "hasMovepool": true,
+  "types": [
+   "POISON",
+   "GHOST"
+  ]
+ },
+ "PELIPPER": {
+  "gen": 3,
+  "hasMovepool": true,
+  "types": [
+   "WATER",
+   "FLYING"
+  ]
+ },
+ "PERRSERKER": {
+  "gen": 1,
+  "hasMovepool": true,
+  "types": [
+   "STEEL"
+  ]
+ },
+ "PERSIAN": {
+  "gen": 1,
+  "hasMovepool": true,
+  "types": [
+   "NORMAL"
+  ]
+ },
+ "PERSIAN_ALOLA": {
+  "gen": 1,
+  "hasMovepool": true,
+  "types": [
+   "DARK"
+  ]
+ },
+ "PETILIL": {
+  "gen": 5,
+  "hasMovepool": true,
+  "types": [
+   "GRASS"
+  ]
+ },
+ "PHANPY": {
+  "gen": 2,
+  "hasMovepool": true,
+  "types": [
+   "GROUND"
+  ]
+ },
+ "PHANTUMP": {
+  "gen": 6,
+  "hasMovepool": true,
+  "types": [
+   "GHOST",
+   "GRASS"
+  ]
+ },
+ "PHEROMOSA": {
+  "gen": 7,
+  "hasMovepool": true,
+  "types": [
+   "BUG",
+   "FIGHTING"
+  ]
+ },
+ "PHIONE": {
+  "gen": 4,
+  "hasMovepool": true,
+  "types": [
+   "WATER"
+  ]
+ },
+ "PICHU": {
+  "gen": 1,
+  "hasMovepool": true,
+  "types": [
+   "ELECTRIC"
+  ]
+ },
+ "PICHU_SPIKY_EARED": {
+  "gen": 1,
+  "hasMovepool": false,
+  "types": [
+   "ELECTRIC"
+  ]
+ },
+ "PIDGEOT": {
+  "gen": 1,
+  "hasMovepool": true,
+  "types": [
+   "NORMAL",
+   "FLYING"
+  ]
+ },
+ "PIDGEOTTO": {
+  "gen": 1,
+  "hasMovepool": true,
+  "types": [
+   "NORMAL",
+   "FLYING"
+  ]
+ },
+ "PIDGEOT_MEGA": {
+  "gen": 1,
+  "hasMovepool": false,
+  "types": [
+   "NORMAL",
+   "FLYING"
+  ]
+ },
+ "PIDGEY": {
+  "gen": 1,
+  "hasMovepool": true,
+  "types": [
+   "NORMAL",
+   "FLYING"
+  ]
+ },
+ "PIDOVE": {
+  "gen": 5,
+  "hasMovepool": true,
+  "types": [
+   "NORMAL",
+   "FLYING"
+  ]
+ },
+ "PIGNITE": {
+  "gen": 5,
+  "hasMovepool": true,
+  "types": [
+   "FIRE",
+   "FIGHTING"
+  ]
+ },
+ "PIKACHU": {
+  "gen": 1,
+  "hasMovepool": true,
+  "types": [
+   "ELECTRIC"
+  ]
+ },
+ "PIKACHU_ALOLA": {
+  "gen": 1,
+  "hasMovepool": false,
+  "types": [
+   "ELECTRIC"
+  ]
+ },
+ "PIKACHU_BELLE": {
+  "gen": 1,
+  "hasMovepool": false,
+  "types": [
+   "ELECTRIC"
+  ]
+ },
+ "PIKACHU_COSPLAY": {
+  "gen": 1,
+  "hasMovepool": false,
+  "types": [
+   "ELECTRIC"
+  ]
+ },
+ "PIKACHU_GMAX": {
+  "gen": 1,
+  "hasMovepool": false,
+  "types": [
+   "ELECTRIC"
+  ]
+ },
+ "PIKACHU_HOENN": {
+  "gen": 1,
+  "hasMovepool": false,
+  "types": [
+   "ELECTRIC"
+  ]
+ },
+ "PIKACHU_KALOS": {
+  "gen": 1,
+  "hasMovepool": false,
+  "types": [
+   "ELECTRIC"
+  ]
+ },
+ "PIKACHU_LIBRE": {
+  "gen": 1,
+  "hasMovepool": false,
+  "types": [
+   "ELECTRIC"
+  ]
+ },
+ "PIKACHU_ORIGINAL": {
+  "gen": 1,
+  "hasMovepool": false,
+  "types": [
+   "ELECTRIC"
+  ]
+ },
+ "PIKACHU_PARTNER": {
+  "gen": 1,
+  "hasMovepool": false,
+  "types": [
+   "ELECTRIC"
+  ]
+ },
+ "PIKACHU_PHD": {
+  "gen": 1,
+  "hasMovepool": false,
+  "types": [
+   "ELECTRIC"
+  ]
+ },
+ "PIKACHU_POP_STAR": {
+  "gen": 1,
+  "hasMovepool": false,
+  "types": [
+   "ELECTRIC"
+  ]
+ },
+ "PIKACHU_ROCK_STAR": {
+  "gen": 1,
+  "hasMovepool": false,
+  "types": [
+   "ELECTRIC"
+  ]
+ },
+ "PIKACHU_SINNOH": {
+  "gen": 1,
+  "hasMovepool": false,
+  "types": [
+   "ELECTRIC"
+  ]
+ },
+ "PIKACHU_STARTER": {
+  "gen": 1,
+  "hasMovepool": false,
+  "types": [
+   "ELECTRIC"
+  ]
+ },
+ "PIKACHU_UNOVA": {
+  "gen": 1,
+  "hasMovepool": false,
+  "types": [
+   "ELECTRIC"
+  ]
+ },
+ "PIKACHU_WORLD": {
+  "gen": 1,
+  "hasMovepool": false,
+  "types": [
+   "ELECTRIC"
+  ]
+ },
+ "PIKIPEK": {
+  "gen": 7,
+  "hasMovepool": true,
+  "types": [
+   "NORMAL",
+   "FLYING"
+  ]
+ },
+ "PILOSWINE": {
+  "gen": 2,
+  "hasMovepool": true,
+  "types": [
+   "ICE",
+   "GROUND"
+  ]
+ },
+ "PINCURCHIN": {
+  "gen": 8,
+  "hasMovepool": true,
+  "types": [
+   "ELECTRIC"
+  ]
+ },
+ "PINECO": {
+  "gen": 2,
+  "hasMovepool": true,
+  "types": [
+   "BUG"
+  ]
+ },
+ "PINSIR": {
+  "gen": 1,
+  "hasMovepool": true,
+  "types": [
+   "BUG"
+  ]
+ },
+ "PINSIR_MEGA": {
+  "gen": 1,
+  "hasMovepool": false,
+  "types": [
+   "BUG",
+   "FLYING"
+  ]
+ },
+ "PIPLUP": {
+  "gen": 4,
+  "hasMovepool": true,
+  "types": [
+   "WATER"
+  ]
+ },
+ "PLUSLE": {
+  "gen": 3,
+  "hasMovepool": true,
+  "types": [
+   "ELECTRIC"
+  ]
+ },
+ "POIPOLE": {
+  "gen": 7,
+  "hasMovepool": true,
+  "types": [
+   "POISON"
+  ]
+ },
+ "POLITOED": {
+  "gen": 1,
+  "hasMovepool": true,
+  "types": [
+   "WATER"
+  ]
+ },
+ "POLIWAG": {
+  "gen": 1,
+  "hasMovepool": true,
+  "types": [
+   "WATER"
+  ]
+ },
+ "POLIWHIRL": {
+  "gen": 1,
+  "hasMovepool": true,
+  "types": [
+   "WATER"
+  ]
+ },
+ "POLIWRATH": {
+  "gen": 1,
+  "hasMovepool": true,
+  "types": [
+   "WATER",
+   "FIGHTING"
+  ]
+ },
+ "POLTCHAGEIST": {
+  "baseFormAlias": "POLTCHAGEIST_COUNTERFEIT",
+  "gen": 9,
+  "hasMovepool": true,
+  "types": [
+   "GRASS",
+   "GHOST"
+  ]
+ },
+ "POLTCHAGEIST_ARTISAN": {
+  "gen": 9,
+  "hasMovepool": false,
+  "types": [
+   "GRASS",
+   "GHOST"
+  ]
+ },
+ "POLTCHAGEIST_COUNTERFEIT": {
+  "gen": 9,
+  "hasMovepool": false,
+  "types": [
+   "GRASS",
+   "GHOST"
+  ]
+ },
+ "POLTEAGEIST": {
+  "baseFormAlias": "POLTEAGEIST_PHONY",
+  "gen": 8,
+  "hasMovepool": true,
+  "types": [
+   "GHOST"
+  ]
+ },
+ "POLTEAGEIST_ANTIQUE": {
+  "gen": 8,
+  "hasMovepool": false,
+  "types": [
+   "GHOST"
+  ]
+ },
+ "POLTEAGEIST_PHONY": {
+  "gen": 8,
+  "hasMovepool": false,
+  "types": [
+   "GHOST"
+  ]
+ },
+ "PONYTA": {
+  "gen": 1,
+  "hasMovepool": true,
+  "types": [
+   "FIRE"
+  ]
+ },
+ "PONYTA_GALAR": {
+  "gen": 1,
+  "hasMovepool": true,
+  "types": [
+   "PSYCHIC"
+  ]
+ },
+ "POOCHYENA": {
+  "gen": 3,
+  "hasMovepool": true,
+  "types": [
+   "DARK"
+  ]
+ },
+ "POPPLIO": {
+  "gen": 7,
+  "hasMovepool": true,
+  "types": [
+   "WATER"
+  ]
+ },
+ "PORYGON": {
+  "gen": 1,
+  "hasMovepool": true,
+  "types": [
+   "NORMAL"
+  ]
+ },
+ "PORYGON2": {
+  "gen": 1,
+  "hasMovepool": true,
+  "types": [
+   "NORMAL"
+  ]
+ },
+ "PORYGON_Z": {
+  "gen": 1,
+  "hasMovepool": true,
+  "types": [
+   "NORMAL"
+  ]
+ },
+ "PRIMARINA": {
+  "gen": 7,
+  "hasMovepool": true,
+  "types": [
+   "WATER",
+   "FAIRY"
+  ]
+ },
+ "PRIMEAPE": {
+  "gen": 1,
+  "hasMovepool": true,
+  "types": [
+   "FIGHTING"
+  ]
+ },
+ "PRINPLUP": {
+  "gen": 4,
+  "hasMovepool": true,
+  "types": [
+   "WATER"
+  ]
+ },
+ "PROBOPASS": {
+  "gen": 3,
+  "hasMovepool": true,
+  "types": [
+   "ROCK",
+   "STEEL"
+  ]
+ },
+ "PSYDUCK": {
+  "gen": 1,
+  "hasMovepool": true,
+  "types": [
+   "WATER"
+  ]
+ },
+ "PUMPKABOO": {
+  "baseFormAlias": "PUMPKABOO_AVERAGE",
+  "gen": 6,
+  "hasMovepool": true,
+  "types": [
+   "GHOST",
+   "GRASS"
+  ]
+ },
+ "PUMPKABOO_AVERAGE": {
+  "gen": 6,
+  "hasMovepool": false,
+  "types": [
+   "GHOST",
+   "GRASS"
+  ]
+ },
+ "PUMPKABOO_LARGE": {
+  "gen": 6,
+  "hasMovepool": false,
+  "types": [
+   "GHOST",
+   "GRASS"
+  ]
+ },
+ "PUMPKABOO_SMALL": {
+  "gen": 6,
+  "hasMovepool": false,
+  "types": [
+   "GHOST",
+   "GRASS"
+  ]
+ },
+ "PUMPKABOO_SUPER": {
+  "gen": 6,
+  "hasMovepool": false,
+  "types": [
+   "GHOST",
+   "GRASS"
+  ]
+ },
+ "PUPITAR": {
+  "gen": 2,
+  "hasMovepool": true,
+  "types": [
+   "ROCK",
+   "GROUND"
+  ]
+ },
+ "PURRLOIN": {
+  "gen": 5,
+  "hasMovepool": true,
+  "types": [
+   "DARK"
+  ]
+ },
+ "PURUGLY": {
+  "gen": 4,
+  "hasMovepool": true,
+  "types": [
+   "NORMAL"
+  ]
+ },
+ "PYROAR": {
+  "gen": 6,
+  "hasMovepool": true,
+  "types": [
+   "FIRE",
+   "NORMAL"
+  ]
+ },
+ "PYROAR_MEGA": {
+  "gen": 6,
+  "hasMovepool": false,
+  "types": [
+   "FIRE",
+   "NORMAL"
+  ]
+ },
+ "PYUKUMUKU": {
+  "gen": 7,
+  "hasMovepool": true,
+  "types": [
+   "WATER"
+  ]
+ },
+ "QUAGSIRE": {
+  "gen": 2,
+  "hasMovepool": true,
+  "types": [
+   "WATER",
+   "GROUND"
+  ]
+ },
+ "QUAQUAVAL": {
+  "gen": 9,
+  "hasMovepool": true,
+  "types": [
+   "WATER",
+   "FIGHTING"
+  ]
+ },
+ "QUAXLY": {
+  "gen": 9,
+  "hasMovepool": true,
+  "types": [
+   "WATER"
+  ]
+ },
+ "QUAXWELL": {
+  "gen": 9,
+  "hasMovepool": true,
+  "types": [
+   "WATER"
+  ]
+ },
+ "QUILAVA": {
+  "gen": 2,
+  "hasMovepool": true,
+  "types": [
+   "FIRE"
+  ]
+ },
+ "QUILLADIN": {
+  "gen": 6,
+  "hasMovepool": true,
+  "types": [
+   "GRASS"
+  ]
+ },
+ "QWILFISH": {
+  "gen": 2,
+  "hasMovepool": true,
+  "types": [
+   "WATER",
+   "POISON"
+  ]
+ },
+ "QWILFISH_HISUI": {
+  "gen": 2,
+  "hasMovepool": true,
+  "types": [
+   "DARK",
+   "POISON"
+  ]
+ },
+ "RABOOT": {
+  "gen": 8,
+  "hasMovepool": true,
+  "types": [
+   "FIRE"
+  ]
+ },
+ "RABSCA": {
+  "gen": 9,
+  "hasMovepool": true,
+  "types": [
+   "BUG",
+   "PSYCHIC"
+  ]
+ },
+ "RAGING_BOLT": {
+  "gen": 9,
+  "hasMovepool": true,
+  "types": [
+   "ELECTRIC",
+   "DRAGON"
+  ]
+ },
+ "RAICHU": {
+  "gen": 1,
+  "hasMovepool": true,
+  "types": [
+   "ELECTRIC"
+  ]
+ },
+ "RAICHU_ALOLA": {
+  "gen": 1,
+  "hasMovepool": true,
+  "types": [
+   "ELECTRIC",
+   "PSYCHIC"
+  ]
+ },
+ "RAICHU_MEGA_X": {
+  "gen": 1,
+  "hasMovepool": false,
+  "types": [
+   "ELECTRIC"
+  ]
+ },
+ "RAICHU_MEGA_Y": {
+  "gen": 1,
+  "hasMovepool": false,
+  "types": [
+   "ELECTRIC"
+  ]
+ },
+ "RAIKOU": {
+  "gen": 2,
+  "hasMovepool": true,
+  "types": [
+   "ELECTRIC"
+  ]
+ },
+ "RALTS": {
+  "gen": 3,
+  "hasMovepool": true,
+  "types": [
+   "PSYCHIC",
+   "RALTS_FAMILY_TYPE2"
+  ]
+ },
+ "RAMPARDOS": {
+  "gen": 4,
+  "hasMovepool": true,
+  "types": [
+   "ROCK"
+  ]
+ },
+ "RAPIDASH": {
+  "gen": 1,
+  "hasMovepool": true,
+  "types": [
+   "FIRE"
+  ]
+ },
+ "RAPIDASH_GALAR": {
+  "gen": 1,
+  "hasMovepool": true,
+  "types": [
+   "PSYCHIC",
+   "FAIRY"
+  ]
+ },
+ "RATICATE": {
+  "gen": 1,
+  "hasMovepool": true,
+  "types": [
+   "NORMAL"
+  ]
+ },
+ "RATICATE_ALOLA": {
+  "gen": 1,
+  "hasMovepool": true,
+  "types": [
+   "DARK",
+   "NORMAL"
+  ]
+ },
+ "RATICATE_ALOLA_TOTEM": {
+  "gen": 1,
+  "hasMovepool": false,
+  "types": [
+   "DARK",
+   "NORMAL"
+  ]
+ },
+ "RATTATA": {
+  "gen": 1,
+  "hasMovepool": true,
+  "types": [
+   "NORMAL"
+  ]
+ },
+ "RATTATA_ALOLA": {
+  "gen": 1,
+  "hasMovepool": true,
+  "types": [
+   "DARK",
+   "NORMAL"
+  ]
+ },
+ "RAYQUAZA": {
+  "gen": 3,
+  "hasMovepool": true,
+  "types": [
+   "DRAGON",
+   "FLYING"
+  ]
+ },
+ "RAYQUAZA_MEGA": {
+  "gen": 3,
+  "hasMovepool": false,
+  "types": [
+   "DRAGON",
+   "FLYING"
+  ]
+ },
+ "REGICE": {
+  "gen": 3,
+  "hasMovepool": true,
+  "types": [
+   "ICE"
+  ]
+ },
+ "REGIDRAGO": {
+  "gen": 8,
+  "hasMovepool": true,
+  "types": [
+   "DRAGON"
+  ]
+ },
+ "REGIELEKI": {
+  "gen": 8,
+  "hasMovepool": true,
+  "types": [
+   "ELECTRIC"
+  ]
+ },
+ "REGIGIGAS": {
+  "gen": 4,
+  "hasMovepool": true,
+  "types": [
+   "NORMAL"
+  ]
+ },
+ "REGIROCK": {
+  "gen": 3,
+  "hasMovepool": true,
+  "types": [
+   "ROCK"
+  ]
+ },
+ "REGISTEEL": {
+  "gen": 3,
+  "hasMovepool": true,
+  "types": [
+   "STEEL"
+  ]
+ },
+ "RELICANTH": {
+  "gen": 3,
+  "hasMovepool": true,
+  "types": [
+   "WATER",
+   "ROCK"
+  ]
+ },
+ "RELLOR": {
+  "gen": 9,
+  "hasMovepool": true,
+  "types": [
+   "BUG"
+  ]
+ },
+ "REMORAID": {
+  "gen": 2,
+  "hasMovepool": true,
+  "types": [
+   "WATER"
+  ]
+ },
+ "RESHIRAM": {
+  "gen": 5,
+  "hasMovepool": true,
+  "types": [
+   "DRAGON",
+   "FIRE"
+  ]
+ },
+ "REUNICLUS": {
+  "gen": 5,
+  "hasMovepool": true,
+  "types": [
+   "PSYCHIC"
+  ]
+ },
+ "REVAVROOM": {
+  "gen": 9,
+  "hasMovepool": true,
+  "types": [
+   "STEEL",
+   "POISON"
+  ]
+ },
+ "RHYDON": {
+  "gen": 1,
+  "hasMovepool": true,
+  "types": [
+   "GROUND",
+   "ROCK"
+  ]
+ },
+ "RHYHORN": {
+  "gen": 1,
+  "hasMovepool": true,
+  "types": [
+   "GROUND",
+   "ROCK"
+  ]
+ },
+ "RHYPERIOR": {
+  "gen": 1,
+  "hasMovepool": true,
+  "types": [
+   "GROUND",
+   "ROCK"
+  ]
+ },
+ "RIBOMBEE": {
+  "gen": 7,
+  "hasMovepool": true,
+  "types": [
+   "BUG",
+   "FAIRY"
+  ]
+ },
+ "RIBOMBEE_TOTEM": {
+  "gen": 7,
+  "hasMovepool": false,
+  "types": [
+   "BUG",
+   "FAIRY"
+  ]
+ },
+ "RILLABOOM": {
+  "gen": 8,
+  "hasMovepool": true,
+  "types": [
+   "GRASS"
+  ]
+ },
+ "RILLABOOM_GMAX": {
+  "gen": 8,
+  "hasMovepool": false,
+  "types": [
+   "GRASS"
+  ]
+ },
+ "RIOLU": {
+  "gen": 4,
+  "hasMovepool": true,
+  "types": [
+   "FIGHTING"
+  ]
+ },
+ "ROARING_MOON": {
+  "gen": 9,
+  "hasMovepool": true,
+  "types": [
+   "DRAGON",
+   "DARK"
+  ]
+ },
+ "ROCKRUFF": {
+  "gen": 7,
+  "hasMovepool": true,
+  "types": [
+   "ROCK"
+  ]
+ },
+ "ROCKRUFF_OWN_TEMPO": {
+  "gen": 7,
+  "hasMovepool": false,
+  "types": [
+   "ROCK"
+  ]
+ },
+ "ROGGENROLA": {
+  "gen": 5,
+  "hasMovepool": true,
+  "types": [
+   "ROCK"
+  ]
+ },
+ "ROLYCOLY": {
+  "gen": 8,
+  "hasMovepool": true,
+  "types": [
+   "ROCK"
+  ]
+ },
+ "ROOKIDEE": {
+  "gen": 8,
+  "hasMovepool": true,
+  "types": [
+   "FLYING"
+  ]
+ },
+ "ROSELIA": {
+  "gen": 3,
+  "hasMovepool": true,
+  "types": [
+   "GRASS",
+   "POISON"
+  ]
+ },
+ "ROSERADE": {
+  "gen": 3,
+  "hasMovepool": true,
+  "types": [
+   "GRASS",
+   "POISON"
+  ]
+ },
+ "ROTOM": {
+  "gen": 4,
+  "hasMovepool": true,
+  "types": [
+   "ELECTRIC",
+   "GHOST"
+  ]
+ },
+ "ROTOM_FAN": {
+  "gen": 4,
+  "hasMovepool": true,
+  "types": [
+   "ELECTRIC",
+   "FLYING"
+  ]
+ },
+ "ROTOM_FROST": {
+  "gen": 4,
+  "hasMovepool": true,
+  "types": [
+   "ELECTRIC",
+   "ICE"
+  ]
+ },
+ "ROTOM_HEAT": {
+  "gen": 4,
+  "hasMovepool": true,
+  "types": [
+   "ELECTRIC",
+   "FIRE"
+  ]
+ },
+ "ROTOM_MOW": {
+  "gen": 4,
+  "hasMovepool": true,
+  "types": [
+   "ELECTRIC",
+   "GRASS"
+  ]
+ },
+ "ROTOM_WASH": {
+  "gen": 4,
+  "hasMovepool": true,
+  "types": [
+   "ELECTRIC",
+   "WATER"
+  ]
+ },
+ "ROWLET": {
+  "gen": 7,
+  "hasMovepool": true,
+  "types": [
+   "GRASS",
+   "FLYING"
+  ]
+ },
+ "RUFFLET": {
+  "gen": 5,
+  "hasMovepool": true,
+  "types": [
+   "NORMAL",
+   "FLYING"
+  ]
+ },
+ "RUNERIGUS": {
+  "gen": 5,
+  "hasMovepool": true,
+  "types": [
+   "GROUND",
+   "GHOST"
+  ]
+ },
+ "SABLEYE": {
+  "gen": 3,
+  "hasMovepool": true,
+  "types": [
+   "DARK",
+   "GHOST"
+  ]
+ },
+ "SABLEYE_MEGA": {
+  "gen": 3,
+  "hasMovepool": false,
+  "types": [
+   "DARK",
+   "GHOST"
+  ]
+ },
+ "SALAMENCE": {
+  "gen": 3,
+  "hasMovepool": true,
+  "types": [
+   "DRAGON",
+   "FLYING"
+  ]
+ },
+ "SALAMENCE_MEGA": {
+  "gen": 3,
+  "hasMovepool": false,
+  "types": [
+   "DRAGON",
+   "FLYING"
+  ]
+ },
+ "SALANDIT": {
+  "gen": 7,
+  "hasMovepool": true,
+  "types": [
+   "POISON",
+   "FIRE"
+  ]
+ },
+ "SALAZZLE": {
+  "gen": 7,
+  "hasMovepool": true,
+  "types": [
+   "POISON",
+   "FIRE"
+  ]
+ },
+ "SALAZZLE_TOTEM": {
+  "gen": 7,
+  "hasMovepool": false,
+  "types": [
+   "POISON",
+   "FIRE"
+  ]
+ },
+ "SAMUROTT": {
+  "gen": 5,
+  "hasMovepool": true,
+  "types": [
+   "WATER"
+  ]
+ },
+ "SAMUROTT_HISUI": {
+  "gen": 5,
+  "hasMovepool": true,
+  "types": [
+   "WATER",
+   "DARK"
+  ]
+ },
+ "SANDACONDA": {
+  "gen": 8,
+  "hasMovepool": true,
+  "types": [
+   "GROUND"
+  ]
+ },
+ "SANDACONDA_GMAX": {
+  "gen": 8,
+  "hasMovepool": false,
+  "types": [
+   "GROUND"
+  ]
+ },
+ "SANDILE": {
+  "gen": 5,
+  "hasMovepool": true,
+  "types": [
+   "GROUND",
+   "DARK"
+  ]
+ },
+ "SANDSHREW": {
+  "gen": 1,
+  "hasMovepool": true,
+  "types": [
+   "GROUND"
+  ]
+ },
+ "SANDSHREW_ALOLA": {
+  "gen": 1,
+  "hasMovepool": true,
+  "types": [
+   "ICE",
+   "STEEL"
+  ]
+ },
+ "SANDSLASH": {
+  "gen": 1,
+  "hasMovepool": true,
+  "types": [
+   "GROUND"
+  ]
+ },
+ "SANDSLASH_ALOLA": {
+  "gen": 1,
+  "hasMovepool": true,
+  "types": [
+   "ICE",
+   "STEEL"
+  ]
+ },
+ "SANDYGAST": {
+  "gen": 7,
+  "hasMovepool": true,
+  "types": [
+   "GHOST",
+   "GROUND"
+  ]
+ },
+ "SANDY_SHOCKS": {
+  "gen": 9,
+  "hasMovepool": true,
+  "types": [
+   "ELECTRIC",
+   "GROUND"
+  ]
+ },
+ "SAWK": {
+  "gen": 5,
+  "hasMovepool": true,
+  "types": [
+   "FIGHTING"
+  ]
+ },
+ "SAWSBUCK": {
+  "baseFormAlias": "SAWSBUCK_SPRING",
+  "gen": 5,
+  "hasMovepool": true,
+  "types": [
+   "NORMAL",
+   "GRASS"
+  ]
+ },
+ "SAWSBUCK_AUTUMN": {
+  "gen": 5,
+  "hasMovepool": false,
+  "types": [
+   "NORMAL",
+   "GRASS"
+  ]
+ },
+ "SAWSBUCK_SPRING": {
+  "gen": 5,
+  "hasMovepool": false,
+  "types": [
+   "NORMAL",
+   "GRASS"
+  ]
+ },
+ "SAWSBUCK_SUMMER": {
+  "gen": 5,
+  "hasMovepool": false,
+  "types": [
+   "NORMAL",
+   "GRASS"
+  ]
+ },
+ "SAWSBUCK_WINTER": {
+  "gen": 5,
+  "hasMovepool": false,
+  "types": [
+   "NORMAL",
+   "GRASS"
+  ]
+ },
+ "SCATTERBUG": {
+  "gen": 6,
+  "hasMovepool": true,
+  "types": [
+   "BUG"
+  ],
+  "typesFromExpansionMacro": true
+ },
+ "SCEPTILE": {
+  "gen": 3,
+  "hasMovepool": true,
+  "types": [
+   "GRASS"
+  ]
+ },
+ "SCEPTILE_MEGA": {
+  "gen": 3,
+  "hasMovepool": false,
+  "types": [
+   "GRASS",
+   "DRAGON"
+  ]
+ },
+ "SCIZOR": {
+  "gen": 1,
+  "hasMovepool": true,
+  "types": [
+   "BUG",
+   "STEEL"
+  ]
+ },
+ "SCIZOR_MEGA": {
+  "gen": 1,
+  "hasMovepool": false,
+  "types": [
+   "BUG",
+   "STEEL"
+  ]
+ },
+ "SCOLIPEDE": {
+  "gen": 5,
+  "hasMovepool": true,
+  "types": [
+   "BUG",
+   "POISON"
+  ]
+ },
+ "SCOLIPEDE_MEGA": {
+  "gen": 5,
+  "hasMovepool": false,
+  "types": [
+   "BUG",
+   "POISON"
+  ]
+ },
+ "SCORBUNNY": {
+  "gen": 8,
+  "hasMovepool": true,
+  "types": [
+   "FIRE"
+  ]
+ },
+ "SCOVILLAIN": {
+  "gen": 9,
+  "hasMovepool": true,
+  "types": [
+   "GRASS",
+   "FIRE"
+  ]
+ },
+ "SCOVILLAIN_MEGA": {
+  "gen": 9,
+  "hasMovepool": false,
+  "types": [
+   "GRASS",
+   "FIRE"
+  ]
+ },
+ "SCRAFTY": {
+  "gen": 5,
+  "hasMovepool": true,
+  "types": [
+   "DARK",
+   "FIGHTING"
+  ]
+ },
+ "SCRAFTY_MEGA": {
+  "gen": 5,
+  "hasMovepool": false,
+  "types": [
+   "DARK",
+   "FIGHTING"
+  ]
+ },
+ "SCRAGGY": {
+  "gen": 5,
+  "hasMovepool": true,
+  "types": [
+   "DARK",
+   "FIGHTING"
+  ]
+ },
+ "SCREAM_TAIL": {
+  "gen": 9,
+  "hasMovepool": true,
+  "types": [
+   "FAIRY",
+   "PSYCHIC"
+  ]
+ },
+ "SCYTHER": {
+  "gen": 1,
+  "hasMovepool": true,
+  "types": [
+   "BUG",
+   "FLYING"
+  ]
+ },
+ "SEADRA": {
+  "gen": 1,
+  "hasMovepool": true,
+  "types": [
+   "WATER"
+  ]
+ },
+ "SEAKING": {
+  "gen": 1,
+  "hasMovepool": true,
+  "types": [
+   "WATER"
+  ]
+ },
+ "SEALEO": {
+  "gen": 3,
+  "hasMovepool": true,
+  "types": [
+   "ICE",
+   "WATER"
+  ]
+ },
+ "SEEDOT": {
+  "gen": 3,
+  "hasMovepool": true,
+  "types": [
+   "GRASS"
+  ]
+ },
+ "SEEL": {
+  "gen": 1,
+  "hasMovepool": true,
+  "types": [
+   "WATER"
+  ]
+ },
+ "SEISMITOAD": {
+  "gen": 5,
+  "hasMovepool": true,
+  "types": [
+   "WATER",
+   "GROUND"
+  ]
+ },
+ "SENTRET": {
+  "gen": 2,
+  "hasMovepool": true,
+  "types": [
+   "NORMAL"
+  ]
+ },
+ "SERPERIOR": {
+  "gen": 5,
+  "hasMovepool": true,
+  "types": [
+   "GRASS"
+  ]
+ },
+ "SERVINE": {
+  "gen": 5,
+  "hasMovepool": true,
+  "types": [
+   "GRASS"
+  ]
+ },
+ "SEVIPER": {
+  "gen": 3,
+  "hasMovepool": true,
+  "types": [
+   "POISON"
+  ]
+ },
+ "SEWADDLE": {
+  "gen": 5,
+  "hasMovepool": true,
+  "types": [
+   "BUG",
+   "GRASS"
+  ]
+ },
+ "SHARPEDO": {
+  "gen": 3,
+  "hasMovepool": true,
+  "types": [
+   "WATER",
+   "DARK"
+  ]
+ },
+ "SHARPEDO_MEGA": {
+  "gen": 3,
+  "hasMovepool": false,
+  "types": [
+   "WATER",
+   "DARK"
+  ]
+ },
+ "SHAYMIN_LAND": {
+  "gen": 4,
+  "hasMovepool": true,
+  "types": [
+   "GRASS"
+  ]
+ },
+ "SHAYMIN_SKY": {
+  "gen": 4,
+  "hasMovepool": true,
+  "types": [
+   "GRASS",
+   "FLYING"
+  ]
+ },
+ "SHEDINJA": {
+  "gen": 3,
+  "hasMovepool": true,
+  "types": [
+   "BUG",
+   "GHOST"
+  ]
+ },
+ "SHELGON": {
+  "gen": 3,
+  "hasMovepool": true,
+  "types": [
+   "DRAGON"
+  ]
+ },
+ "SHELLDER": {
+  "gen": 1,
+  "hasMovepool": true,
+  "types": [
+   "WATER"
+  ]
+ },
+ "SHELLOS": {
+  "baseFormAlias": "SHELLOS_WEST",
+  "gen": 4,
+  "hasMovepool": true,
+  "types": [
+   "WATER"
+  ]
+ },
+ "SHELLOS_EAST": {
+  "gen": 4,
+  "hasMovepool": false,
+  "types": [
+   "WATER"
+  ]
+ },
+ "SHELLOS_WEST": {
+  "gen": 4,
+  "hasMovepool": false,
+  "types": [
+   "WATER"
+  ]
+ },
+ "SHELMET": {
+  "gen": 5,
+  "hasMovepool": true,
+  "types": [
+   "BUG"
+  ]
+ },
+ "SHIELDON": {
+  "gen": 4,
+  "hasMovepool": true,
+  "types": [
+   "ROCK",
+   "STEEL"
+  ]
+ },
+ "SHIFTRY": {
+  "gen": 3,
+  "hasMovepool": true,
+  "types": [
+   "GRASS",
+   "DARK"
+  ]
+ },
+ "SHIINOTIC": {
+  "gen": 7,
+  "hasMovepool": true,
+  "types": [
+   "GRASS",
+   "FAIRY"
+  ]
+ },
+ "SHINX": {
+  "gen": 4,
+  "hasMovepool": true,
+  "types": [
+   "ELECTRIC"
+  ]
+ },
+ "SHROODLE": {
+  "gen": 9,
+  "hasMovepool": true,
+  "types": [
+   "POISON",
+   "NORMAL"
+  ]
+ },
+ "SHROOMISH": {
+  "gen": 3,
+  "hasMovepool": true,
+  "types": [
+   "GRASS"
+  ]
+ },
+ "SHUCKLE": {
+  "gen": 2,
+  "hasMovepool": true,
+  "types": [
+   "BUG",
+   "ROCK"
+  ]
+ },
+ "SHUPPET": {
+  "gen": 3,
+  "hasMovepool": true,
+  "types": [
+   "GHOST"
+  ]
+ },
+ "SIGILYPH": {
+  "gen": 5,
+  "hasMovepool": true,
+  "types": [
+   "PSYCHIC",
+   "FLYING"
+  ]
+ },
+ "SILCOON": {
+  "gen": 3,
+  "hasMovepool": true,
+  "types": [
+   "BUG"
+  ]
+ },
+ "SILICOBRA": {
+  "gen": 8,
+  "hasMovepool": true,
+  "types": [
+   "GROUND"
+  ]
+ },
+ "SILVALLY": {
+  "gen": 7,
+  "hasMovepool": true,
+  "types": [
+   "NORMAL"
+  ],
+  "typesFromExpansionMacro": true
+ },
+ "SIMIPOUR": {
+  "gen": 5,
+  "hasMovepool": true,
+  "types": [
+   "WATER"
+  ]
+ },
+ "SIMISAGE": {
+  "gen": 5,
+  "hasMovepool": true,
+  "types": [
+   "GRASS"
+  ]
+ },
+ "SIMISEAR": {
+  "gen": 5,
+  "hasMovepool": true,
+  "types": [
+   "FIRE"
+  ]
+ },
+ "SINISTCHA": {
+  "baseFormAlias": "SINISTCHA_UNREMARKABLE",
+  "gen": 9,
+  "hasMovepool": true,
+  "types": [
+   "GRASS",
+   "GHOST"
+  ]
+ },
+ "SINISTCHA_MASTERPIECE": {
+  "gen": 9,
+  "hasMovepool": false,
+  "types": [
+   "GRASS",
+   "GHOST"
+  ]
+ },
+ "SINISTCHA_UNREMARKABLE": {
+  "gen": 9,
+  "hasMovepool": false,
+  "types": [
+   "GRASS",
+   "GHOST"
+  ]
+ },
+ "SINISTEA": {
+  "baseFormAlias": "SINISTEA_PHONY",
+  "gen": 8,
+  "hasMovepool": true,
+  "types": [
+   "GHOST"
+  ]
+ },
+ "SINISTEA_ANTIQUE": {
+  "gen": 8,
+  "hasMovepool": false,
+  "types": [
+   "GHOST"
+  ]
+ },
+ "SINISTEA_PHONY": {
+  "gen": 8,
+  "hasMovepool": false,
+  "types": [
+   "GHOST"
+  ]
+ },
+ "SIRFETCHD": {
+  "gen": 1,
+  "hasMovepool": true,
+  "types": [
+   "FIGHTING"
+  ]
+ },
+ "SIZZLIPEDE": {
+  "gen": 8,
+  "hasMovepool": true,
+  "types": [
+   "FIRE",
+   "BUG"
+  ]
+ },
+ "SKARMORY": {
+  "gen": 2,
+  "hasMovepool": true,
+  "types": [
+   "STEEL",
+   "FLYING"
+  ]
+ },
+ "SKARMORY_MEGA": {
+  "gen": 2,
+  "hasMovepool": false,
+  "types": [
+   "STEEL",
+   "FLYING"
+  ]
+ },
+ "SKELEDIRGE": {
+  "gen": 9,
+  "hasMovepool": true,
+  "types": [
+   "FIRE",
+   "GHOST"
+  ]
+ },
+ "SKIDDO": {
+  "gen": 6,
+  "hasMovepool": true,
+  "types": [
+   "GRASS"
+  ]
+ },
+ "SKIPLOOM": {
+  "gen": 2,
+  "hasMovepool": true,
+  "types": [
+   "GRASS",
+   "FLYING"
+  ]
+ },
+ "SKITTY": {
+  "gen": 3,
+  "hasMovepool": true,
+  "types": [
+   "NORMAL"
+  ]
+ },
+ "SKORUPI": {
+  "gen": 4,
+  "hasMovepool": true,
+  "types": [
+   "POISON",
+   "BUG"
+  ]
+ },
+ "SKRELP": {
+  "gen": 6,
+  "hasMovepool": true,
+  "types": [
+   "POISON",
+   "WATER"
+  ]
+ },
+ "SKUNTANK": {
+  "gen": 4,
+  "hasMovepool": true,
+  "types": [
+   "POISON",
+   "DARK"
+  ]
+ },
+ "SKWOVET": {
+  "gen": 8,
+  "hasMovepool": true,
+  "types": [
+   "NORMAL"
+  ]
+ },
+ "SLAKING": {
+  "gen": 3,
+  "hasMovepool": true,
+  "types": [
+   "NORMAL"
+  ]
+ },
+ "SLAKOTH": {
+  "gen": 3,
+  "hasMovepool": true,
+  "types": [
+   "NORMAL"
+  ]
+ },
+ "SLIGGOO": {
+  "gen": 6,
+  "hasMovepool": true,
+  "types": [
+   "DRAGON"
+  ]
+ },
+ "SLIGGOO_HISUI": {
+  "gen": 6,
+  "hasMovepool": true,
+  "types": [
+   "DRAGON",
+   "STEEL"
+  ]
+ },
+ "SLITHER_WING": {
+  "gen": 9,
+  "hasMovepool": true,
+  "types": [
+   "BUG",
+   "FIGHTING"
+  ]
+ },
+ "SLOWBRO": {
+  "gen": 1,
+  "hasMovepool": true,
+  "types": [
+   "WATER",
+   "PSYCHIC"
+  ]
+ },
+ "SLOWBRO_GALAR": {
+  "gen": 1,
+  "hasMovepool": true,
+  "types": [
+   "POISON",
+   "PSYCHIC"
+  ]
+ },
+ "SLOWBRO_MEGA": {
+  "gen": 1,
+  "hasMovepool": false,
+  "types": [
+   "WATER",
+   "PSYCHIC"
+  ]
+ },
+ "SLOWKING": {
+  "gen": 1,
+  "hasMovepool": true,
+  "types": [
+   "WATER",
+   "PSYCHIC"
+  ]
+ },
+ "SLOWKING_GALAR": {
+  "gen": 1,
+  "hasMovepool": true,
+  "types": [
+   "POISON",
+   "PSYCHIC"
+  ]
+ },
+ "SLOWPOKE": {
+  "gen": 1,
+  "hasMovepool": true,
+  "types": [
+   "WATER",
+   "PSYCHIC"
+  ]
+ },
+ "SLOWPOKE_GALAR": {
+  "gen": 1,
+  "hasMovepool": true,
+  "types": [
+   "PSYCHIC"
+  ]
+ },
+ "SLUGMA": {
+  "gen": 2,
+  "hasMovepool": true,
+  "types": [
+   "FIRE"
+  ]
+ },
+ "SLURPUFF": {
+  "gen": 6,
+  "hasMovepool": true,
+  "types": [
+   "FAIRY"
+  ]
+ },
+ "SMEARGLE": {
+  "gen": 2,
+  "hasMovepool": true,
+  "types": [
+   "NORMAL"
+  ]
+ },
+ "SMOLIV": {
+  "gen": 9,
+  "hasMovepool": true,
+  "types": [
+   "GRASS",
+   "NORMAL"
+  ]
+ },
+ "SMOOCHUM": {
+  "gen": 1,
+  "hasMovepool": true,
+  "types": [
+   "ICE",
+   "PSYCHIC"
+  ]
+ },
+ "SNEASEL": {
+  "gen": 2,
+  "hasMovepool": true,
+  "types": [
+   "DARK",
+   "ICE"
+  ]
+ },
+ "SNEASEL_HISUI": {
+  "gen": 2,
+  "hasMovepool": true,
+  "types": [
+   "FIGHTING",
+   "POISON"
+  ]
+ },
+ "SNEASLER": {
+  "gen": 2,
+  "hasMovepool": true,
+  "types": [
+   "FIGHTING",
+   "POISON"
+  ]
+ },
+ "SNIVY": {
+  "gen": 5,
+  "hasMovepool": true,
+  "types": [
+   "GRASS"
+  ]
+ },
+ "SNOM": {
+  "gen": 8,
+  "hasMovepool": true,
+  "types": [
+   "ICE",
+   "BUG"
+  ]
+ },
+ "SNORLAX": {
+  "gen": 1,
+  "hasMovepool": true,
+  "types": [
+   "NORMAL"
+  ]
+ },
+ "SNORLAX_GMAX": {
+  "gen": 1,
+  "hasMovepool": false,
+  "types": [
+   "NORMAL"
+  ]
+ },
+ "SNORUNT": {
+  "gen": 3,
+  "hasMovepool": true,
+  "types": [
+   "ICE"
+  ]
+ },
+ "SNOVER": {
+  "gen": 4,
+  "hasMovepool": true,
+  "types": [
+   "GRASS",
+   "ICE"
+  ]
+ },
+ "SNUBBULL": {
+  "gen": 2,
+  "hasMovepool": true,
+  "types": [
+   "FAIRY"
+  ]
+ },
+ "SOBBLE": {
+  "gen": 8,
+  "hasMovepool": true,
+  "types": [
+   "WATER"
+  ]
+ },
+ "SOLGALEO": {
+  "gen": 7,
+  "hasMovepool": true,
+  "types": [
+   "PSYCHIC",
+   "STEEL"
+  ]
+ },
+ "SOLOSIS": {
+  "gen": 5,
+  "hasMovepool": true,
+  "types": [
+   "PSYCHIC"
+  ]
+ },
+ "SOLROCK": {
+  "gen": 3,
+  "hasMovepool": true,
+  "types": [
+   "ROCK",
+   "PSYCHIC"
+  ]
+ },
+ "SPEAROW": {
+  "gen": 1,
+  "hasMovepool": true,
+  "types": [
+   "NORMAL",
+   "FLYING"
+  ]
+ },
+ "SPECTRIER": {
+  "gen": 8,
+  "hasMovepool": true,
+  "types": [
+   "GHOST"
+  ]
+ },
+ "SPEWPA": {
+  "gen": 6,
+  "hasMovepool": true,
+  "types": [
+   "BUG"
+  ],
+  "typesFromExpansionMacro": true
+ },
+ "SPHEAL": {
+  "gen": 3,
+  "hasMovepool": true,
+  "types": [
+   "ICE",
+   "WATER"
+  ]
+ },
+ "SPIDOPS": {
+  "gen": 9,
+  "hasMovepool": true,
+  "types": [
+   "BUG"
+  ]
+ },
+ "SPINARAK": {
+  "gen": 2,
+  "hasMovepool": true,
+  "types": [
+   "BUG",
+   "POISON"
+  ]
+ },
+ "SPINDA": {
+  "gen": 3,
+  "hasMovepool": true,
+  "types": [
+   "NORMAL"
+  ]
+ },
+ "SPIRITOMB": {
+  "gen": 4,
+  "hasMovepool": true,
+  "types": [
+   "GHOST",
+   "DARK"
+  ]
+ },
+ "SPOINK": {
+  "gen": 3,
+  "hasMovepool": true,
+  "types": [
+   "PSYCHIC"
+  ]
+ },
+ "SPRIGATITO": {
+  "gen": 9,
+  "hasMovepool": true,
+  "types": [
+   "GRASS"
+  ]
+ },
+ "SPRITZEE": {
+  "gen": 6,
+  "hasMovepool": true,
+  "types": [
+   "FAIRY"
+  ]
+ },
+ "SQUAWKABILLY": {
+  "baseFormAlias": "SQUAWKABILLY_GREEN",
+  "gen": 9,
+  "hasMovepool": true,
+  "types": [
+   "NORMAL",
+   "FLYING"
+  ]
+ },
+ "SQUAWKABILLY_BLUE": {
+  "gen": 9,
+  "hasMovepool": false,
+  "types": [
+   "NORMAL",
+   "FLYING"
+  ]
+ },
+ "SQUAWKABILLY_GREEN": {
+  "gen": 9,
+  "hasMovepool": false,
+  "types": [
+   "NORMAL",
+   "FLYING"
+  ]
+ },
+ "SQUAWKABILLY_WHITE": {
+  "gen": 9,
+  "hasMovepool": false,
+  "types": [
+   "NORMAL",
+   "FLYING"
+  ]
+ },
+ "SQUAWKABILLY_YELLOW": {
+  "gen": 9,
+  "hasMovepool": false,
+  "types": [
+   "NORMAL",
+   "FLYING"
+  ]
+ },
+ "SQUIRTLE": {
+  "gen": 1,
+  "hasMovepool": true,
+  "types": [
+   "WATER"
+  ]
+ },
+ "STAKATAKA": {
+  "gen": 7,
+  "hasMovepool": true,
+  "types": [
+   "ROCK",
+   "STEEL"
+  ]
+ },
+ "STANTLER": {
+  "gen": 2,
+  "hasMovepool": true,
+  "types": [
+   "NORMAL"
+  ]
+ },
+ "STARAPTOR": {
+  "gen": 4,
+  "hasMovepool": true,
+  "types": [
+   "NORMAL",
+   "FLYING"
+  ]
+ },
+ "STARAPTOR_MEGA": {
+  "gen": 4,
+  "hasMovepool": false,
+  "types": [
+   "FIGHTING",
+   "FLYING"
+  ]
+ },
+ "STARAVIA": {
+  "gen": 4,
+  "hasMovepool": true,
+  "types": [
+   "NORMAL",
+   "FLYING"
+  ]
+ },
+ "STARLY": {
+  "gen": 4,
+  "hasMovepool": true,
+  "types": [
+   "NORMAL",
+   "FLYING"
+  ]
+ },
+ "STARMIE": {
+  "gen": 1,
+  "hasMovepool": true,
+  "types": [
+   "WATER",
+   "PSYCHIC"
+  ]
+ },
+ "STARMIE_MEGA": {
+  "gen": 1,
+  "hasMovepool": false,
+  "types": [
+   "WATER",
+   "PSYCHIC"
+  ]
+ },
+ "STARYU": {
+  "gen": 1,
+  "hasMovepool": true,
+  "types": [
+   "WATER"
+  ]
+ },
+ "STEELIX": {
+  "gen": 1,
+  "hasMovepool": true,
+  "types": [
+   "STEEL",
+   "GROUND"
+  ]
+ },
+ "STEELIX_MEGA": {
+  "gen": 1,
+  "hasMovepool": false,
+  "types": [
+   "STEEL",
+   "GROUND"
+  ]
+ },
+ "STEENEE": {
+  "gen": 7,
+  "hasMovepool": true,
+  "types": [
+   "GRASS"
+  ]
+ },
+ "STONJOURNER": {
+  "gen": 8,
+  "hasMovepool": true,
+  "types": [
+   "ROCK"
+  ]
+ },
+ "STOUTLAND": {
+  "gen": 5,
+  "hasMovepool": true,
+  "types": [
+   "NORMAL"
+  ]
+ },
+ "STUFFUL": {
+  "gen": 7,
+  "hasMovepool": true,
+  "types": [
+   "NORMAL",
+   "FIGHTING"
+  ]
+ },
+ "STUNFISK": {
+  "gen": 5,
+  "hasMovepool": true,
+  "types": [
+   "GROUND",
+   "ELECTRIC"
+  ]
+ },
+ "STUNFISK_GALAR": {
+  "gen": 5,
+  "hasMovepool": true,
+  "types": [
+   "GROUND",
+   "STEEL"
+  ]
+ },
+ "STUNKY": {
+  "gen": 4,
+  "hasMovepool": true,
+  "types": [
+   "POISON",
+   "DARK"
+  ]
+ },
+ "SUDOWOODO": {
+  "gen": 2,
+  "hasMovepool": true,
+  "types": [
+   "ROCK"
+  ]
+ },
+ "SUICUNE": {
+  "gen": 2,
+  "hasMovepool": true,
+  "types": [
+   "WATER"
+  ]
+ },
+ "SUNFLORA": {
+  "gen": 2,
+  "hasMovepool": true,
+  "types": [
+   "GRASS"
+  ]
+ },
+ "SUNKERN": {
+  "gen": 2,
+  "hasMovepool": true,
+  "types": [
+   "GRASS"
+  ]
+ },
+ "SURSKIT": {
+  "gen": 3,
+  "hasMovepool": true,
+  "types": [
+   "BUG",
+   "WATER"
+  ]
+ },
+ "SWABLU": {
+  "gen": 3,
+  "hasMovepool": true,
+  "types": [
+   "NORMAL",
+   "FLYING"
+  ]
+ },
+ "SWADLOON": {
+  "gen": 5,
+  "hasMovepool": true,
+  "types": [
+   "BUG",
+   "GRASS"
+  ]
+ },
+ "SWALOT": {
+  "gen": 3,
+  "hasMovepool": true,
+  "types": [
+   "POISON"
+  ]
+ },
+ "SWAMPERT": {
+  "gen": 3,
+  "hasMovepool": true,
+  "types": [
+   "WATER",
+   "GROUND"
+  ]
+ },
+ "SWAMPERT_MEGA": {
+  "gen": 3,
+  "hasMovepool": false,
+  "types": [
+   "WATER",
+   "GROUND"
+  ]
+ },
+ "SWANNA": {
+  "gen": 5,
+  "hasMovepool": true,
+  "types": [
+   "WATER",
+   "FLYING"
+  ]
+ },
+ "SWELLOW": {
+  "gen": 3,
+  "hasMovepool": true,
+  "types": [
+   "NORMAL",
+   "FLYING"
+  ]
+ },
+ "SWINUB": {
+  "gen": 2,
+  "hasMovepool": true,
+  "types": [
+   "ICE",
+   "GROUND"
+  ]
+ },
+ "SWIRLIX": {
+  "gen": 6,
+  "hasMovepool": true,
+  "types": [
+   "FAIRY"
+  ]
+ },
+ "SWOOBAT": {
+  "gen": 5,
+  "hasMovepool": true,
+  "types": [
+   "PSYCHIC",
+   "FLYING"
+  ]
+ },
+ "SYLVEON": {
+  "gen": 1,
+  "hasMovepool": true,
+  "types": [
+   "FAIRY"
+  ]
+ },
+ "TADBULB": {
+  "gen": 9,
+  "hasMovepool": true,
+  "types": [
+   "ELECTRIC"
+  ]
+ },
+ "TAILLOW": {
+  "gen": 3,
+  "hasMovepool": true,
+  "types": [
+   "NORMAL",
+   "FLYING"
+  ]
+ },
+ "TALONFLAME": {
+  "gen": 6,
+  "hasMovepool": true,
+  "types": [
+   "FIRE",
+   "FLYING"
+  ]
+ },
+ "TANDEMAUS": {
+  "gen": 9,
+  "hasMovepool": true,
+  "types": [
+   "NORMAL"
+  ]
+ },
+ "TANGELA": {
+  "gen": 1,
+  "hasMovepool": true,
+  "types": [
+   "GRASS"
+  ]
+ },
+ "TANGROWTH": {
+  "gen": 1,
+  "hasMovepool": true,
+  "types": [
+   "GRASS"
+  ]
+ },
+ "TAPU_BULU": {
+  "gen": 7,
+  "hasMovepool": true,
+  "types": [
+   "GRASS",
+   "FAIRY"
+  ]
+ },
+ "TAPU_FINI": {
+  "gen": 7,
+  "hasMovepool": true,
+  "types": [
+   "WATER",
+   "FAIRY"
+  ]
+ },
+ "TAPU_KOKO": {
+  "gen": 7,
+  "hasMovepool": true,
+  "types": [
+   "ELECTRIC",
+   "FAIRY"
+  ]
+ },
+ "TAPU_LELE": {
+  "gen": 7,
+  "hasMovepool": true,
+  "types": [
+   "PSYCHIC",
+   "FAIRY"
+  ]
+ },
+ "TAROUNTULA": {
+  "gen": 9,
+  "hasMovepool": true,
+  "types": [
+   "BUG"
+  ]
+ },
+ "TATSUGIRI": {
+  "baseFormAlias": "TATSUGIRI_CURLY",
+  "gen": 9,
+  "hasMovepool": true,
+  "types": [
+   "DRAGON",
+   "WATER"
+  ]
+ },
+ "TATSUGIRI_CURLY": {
+  "gen": 9,
+  "hasMovepool": false,
+  "types": [
+   "DRAGON",
+   "WATER"
+  ]
+ },
+ "TATSUGIRI_CURLY_MEGA": {
+  "gen": 9,
+  "hasMovepool": false,
+  "types": [
+   "DRAGON",
+   "WATER"
+  ]
+ },
+ "TATSUGIRI_DROOPY": {
+  "gen": 9,
+  "hasMovepool": false,
+  "types": [
+   "DRAGON",
+   "WATER"
+  ]
+ },
+ "TATSUGIRI_DROOPY_MEGA": {
+  "gen": 9,
+  "hasMovepool": false,
+  "types": [
+   "DRAGON",
+   "WATER"
+  ]
+ },
+ "TATSUGIRI_STRETCHY": {
+  "gen": 9,
+  "hasMovepool": false,
+  "types": [
+   "DRAGON",
+   "WATER"
+  ]
+ },
+ "TATSUGIRI_STRETCHY_MEGA": {
+  "gen": 9,
+  "hasMovepool": false,
+  "types": [
+   "DRAGON",
+   "WATER"
+  ]
+ },
+ "TAUROS": {
+  "gen": 1,
+  "hasMovepool": true,
+  "types": [
+   "NORMAL"
+  ]
+ },
+ "TAUROS_PALDEA_AQUA": {
+  "gen": 1,
+  "hasMovepool": true,
+  "types": [
+   "FIGHTING",
+   "WATER"
+  ]
+ },
+ "TAUROS_PALDEA_BLAZE": {
+  "gen": 1,
+  "hasMovepool": true,
+  "types": [
+   "FIGHTING",
+   "FIRE"
+  ]
+ },
+ "TAUROS_PALDEA_COMBAT": {
+  "gen": 1,
+  "hasMovepool": true,
+  "types": [
+   "FIGHTING"
+  ]
+ },
+ "TEDDIURSA": {
+  "gen": 2,
+  "hasMovepool": true,
+  "types": [
+   "NORMAL"
+  ]
+ },
+ "TENTACOOL": {
+  "gen": 1,
+  "hasMovepool": true,
+  "types": [
+   "WATER",
+   "POISON"
+  ]
+ },
+ "TENTACRUEL": {
+  "gen": 1,
+  "hasMovepool": true,
+  "types": [
+   "WATER",
+   "POISON"
+  ]
+ },
+ "TEPIG": {
+  "gen": 5,
+  "hasMovepool": true,
+  "types": [
+   "FIRE"
+  ]
+ },
+ "TERAPAGOS": {
+  "baseFormAlias": "TERAPAGOS_NORMAL",
+  "gen": 9,
+  "hasMovepool": true,
+  "types": [
+   "NORMAL"
+  ]
+ },
+ "TERAPAGOS_NORMAL": {
+  "gen": 9,
+  "hasMovepool": false,
+  "types": [
+   "NORMAL"
+  ]
+ },
+ "TERAPAGOS_STELLAR": {
+  "gen": 9,
+  "hasMovepool": false,
+  "types": [
+   "NORMAL"
+  ]
+ },
+ "TERAPAGOS_TERASTAL": {
+  "gen": 9,
+  "hasMovepool": false,
+  "types": [
+   "NORMAL"
+  ]
+ },
+ "TERRAKION": {
+  "gen": 5,
+  "hasMovepool": true,
+  "types": [
+   "ROCK",
+   "FIGHTING"
+  ]
+ },
+ "THIEVUL": {
+  "gen": 8,
+  "hasMovepool": true,
+  "types": [
+   "DARK"
+  ]
+ },
+ "THROH": {
+  "gen": 5,
+  "hasMovepool": true,
+  "types": [
+   "FIGHTING"
+  ]
+ },
+ "THUNDURUS": {
+  "baseFormAlias": "THUNDURUS_INCARNATE",
+  "gen": 5,
+  "hasMovepool": true,
+  "types": [
+   "ELECTRIC",
+   "FLYING"
+  ]
+ },
+ "THUNDURUS_INCARNATE": {
+  "gen": 5,
+  "hasMovepool": false,
+  "types": [
+   "ELECTRIC",
+   "FLYING"
+  ]
+ },
+ "THUNDURUS_THERIAN": {
+  "gen": 5,
+  "hasMovepool": false,
+  "types": [
+   "ELECTRIC",
+   "FLYING"
+  ]
+ },
+ "THWACKEY": {
+  "gen": 8,
+  "hasMovepool": true,
+  "types": [
+   "GRASS"
+  ]
+ },
+ "TIMBURR": {
+  "gen": 5,
+  "hasMovepool": true,
+  "types": [
+   "FIGHTING"
+  ]
+ },
+ "TING_LU": {
+  "gen": 9,
+  "hasMovepool": true,
+  "types": [
+   "DARK",
+   "GROUND"
+  ]
+ },
+ "TINKATINK": {
+  "gen": 9,
+  "hasMovepool": true,
+  "types": [
+   "FAIRY",
+   "STEEL"
+  ]
+ },
+ "TINKATON": {
+  "gen": 9,
+  "hasMovepool": true,
+  "types": [
+   "FAIRY",
+   "STEEL"
+  ]
+ },
+ "TINKATUFF": {
+  "gen": 9,
+  "hasMovepool": true,
+  "types": [
+   "FAIRY",
+   "STEEL"
+  ]
+ },
+ "TIRTOUGA": {
+  "gen": 5,
+  "hasMovepool": true,
+  "types": [
+   "WATER",
+   "ROCK"
+  ]
+ },
+ "TOEDSCOOL": {
+  "gen": 9,
+  "hasMovepool": true,
+  "types": [
+   "GROUND",
+   "GRASS"
+  ]
+ },
+ "TOEDSCRUEL": {
+  "gen": 9,
+  "hasMovepool": true,
+  "types": [
+   "GROUND",
+   "GRASS"
+  ]
+ },
+ "TOGEDEMARU": {
+  "gen": 7,
+  "hasMovepool": true,
+  "types": [
+   "ELECTRIC",
+   "STEEL"
+  ]
+ },
+ "TOGEDEMARU_TOTEM": {
+  "gen": 7,
+  "hasMovepool": false,
+  "types": [
+   "ELECTRIC",
+   "STEEL"
+  ]
+ },
+ "TOGEKISS": {
+  "gen": 2,
+  "hasMovepool": true,
+  "types": [
+   "TOGEPI_FAMILY_TYPE1",
+   "FLYING"
+  ]
+ },
+ "TOGEPI": {
+  "gen": 2,
+  "hasMovepool": true,
+  "types": [
+   "TOGEPI_FAMILY_TYPE1"
+  ]
+ },
+ "TOGETIC": {
+  "gen": 2,
+  "hasMovepool": true,
+  "types": [
+   "TOGEPI_FAMILY_TYPE1",
+   "FLYING"
+  ]
+ },
+ "TORCHIC": {
+  "gen": 3,
+  "hasMovepool": true,
+  "types": [
+   "FIRE"
+  ]
+ },
+ "TORKOAL": {
+  "gen": 3,
+  "hasMovepool": true,
+  "types": [
+   "FIRE"
+  ]
+ },
+ "TORNADUS": {
+  "baseFormAlias": "TORNADUS_INCARNATE",
+  "gen": 5,
+  "hasMovepool": true,
+  "types": [
+   "FLYING"
+  ]
+ },
+ "TORNADUS_INCARNATE": {
+  "gen": 5,
+  "hasMovepool": false,
+  "types": [
+   "FLYING"
+  ]
+ },
+ "TORNADUS_THERIAN": {
+  "gen": 5,
+  "hasMovepool": false,
+  "types": [
+   "FLYING"
+  ]
+ },
+ "TORRACAT": {
+  "gen": 7,
+  "hasMovepool": true,
+  "types": [
+   "FIRE"
+  ]
+ },
+ "TORTERRA": {
+  "gen": 4,
+  "hasMovepool": true,
+  "types": [
+   "GRASS",
+   "GROUND"
+  ]
+ },
+ "TOTODILE": {
+  "gen": 2,
+  "hasMovepool": true,
+  "types": [
+   "WATER"
+  ]
+ },
+ "TOUCANNON": {
+  "gen": 7,
+  "hasMovepool": true,
+  "types": [
+   "NORMAL",
+   "FLYING"
+  ]
+ },
+ "TOXAPEX": {
+  "gen": 7,
+  "hasMovepool": true,
+  "types": [
+   "POISON",
+   "WATER"
+  ]
+ },
+ "TOXEL": {
+  "gen": 8,
+  "hasMovepool": true,
+  "types": [
+   "ELECTRIC",
+   "POISON"
+  ]
+ },
+ "TOXICROAK": {
+  "gen": 4,
+  "hasMovepool": true,
+  "types": [
+   "POISON",
+   "FIGHTING"
+  ]
+ },
+ "TOXTRICITY_AMPED": {
+  "gen": 8,
+  "hasMovepool": true,
+  "types": [
+   "ELECTRIC",
+   "POISON"
+  ]
+ },
+ "TOXTRICITY_AMPED_GMAX": {
+  "gen": 8,
+  "hasMovepool": false,
+  "types": [
+   "ELECTRIC",
+   "POISON"
+  ]
+ },
+ "TOXTRICITY_LOW_KEY": {
+  "gen": 8,
+  "hasMovepool": true,
+  "types": [
+   "ELECTRIC",
+   "POISON"
+  ]
+ },
+ "TOXTRICITY_LOW_KEY_GMAX": {
+  "gen": 8,
+  "hasMovepool": false,
+  "types": [
+   "ELECTRIC",
+   "POISON"
+  ]
+ },
+ "TRANQUILL": {
+  "gen": 5,
+  "hasMovepool": true,
+  "types": [
+   "NORMAL",
+   "FLYING"
+  ]
+ },
+ "TRAPINCH": {
+  "gen": 3,
+  "hasMovepool": true,
+  "types": [
+   "GROUND"
+  ]
+ },
+ "TREECKO": {
+  "gen": 3,
+  "hasMovepool": true,
+  "types": [
+   "GRASS"
+  ]
+ },
+ "TREVENANT": {
+  "gen": 6,
+  "hasMovepool": true,
+  "types": [
+   "GHOST",
+   "GRASS"
+  ]
+ },
+ "TROPIUS": {
+  "gen": 3,
+  "hasMovepool": true,
+  "types": [
+   "GRASS",
+   "FLYING"
+  ]
+ },
+ "TRUBBISH": {
+  "gen": 5,
+  "hasMovepool": true,
+  "types": [
+   "POISON"
+  ]
+ },
+ "TRUMBEAK": {
+  "gen": 7,
+  "hasMovepool": true,
+  "types": [
+   "NORMAL",
+   "FLYING"
+  ]
+ },
+ "TSAREENA": {
+  "gen": 7,
+  "hasMovepool": true,
+  "types": [
+   "GRASS"
+  ]
+ },
+ "TURTONATOR": {
+  "gen": 7,
+  "hasMovepool": true,
+  "types": [
+   "FIRE",
+   "DRAGON"
+  ]
+ },
+ "TURTWIG": {
+  "gen": 4,
+  "hasMovepool": true,
+  "types": [
+   "GRASS"
+  ]
+ },
+ "TYMPOLE": {
+  "gen": 5,
+  "hasMovepool": true,
+  "types": [
+   "WATER"
+  ]
+ },
+ "TYNAMO": {
+  "gen": 5,
+  "hasMovepool": true,
+  "types": [
+   "ELECTRIC"
+  ]
+ },
+ "TYPE_NULL": {
+  "gen": 7,
+  "hasMovepool": true,
+  "types": [
+   "NORMAL"
+  ]
+ },
+ "TYPHLOSION": {
+  "gen": 2,
+  "hasMovepool": true,
+  "types": [
+   "FIRE"
+  ]
+ },
+ "TYPHLOSION_HISUI": {
+  "gen": 2,
+  "hasMovepool": true,
+  "types": [
+   "FIRE",
+   "GHOST"
+  ]
+ },
+ "TYRANITAR": {
+  "gen": 2,
+  "hasMovepool": true,
+  "types": [
+   "ROCK",
+   "DARK"
+  ]
+ },
+ "TYRANITAR_MEGA": {
+  "gen": 2,
+  "hasMovepool": false,
+  "types": [
+   "ROCK",
+   "DARK"
+  ]
+ },
+ "TYRANTRUM": {
+  "gen": 6,
+  "hasMovepool": true,
+  "types": [
+   "ROCK",
+   "DRAGON"
+  ]
+ },
+ "TYROGUE": {
+  "gen": 1,
+  "hasMovepool": true,
+  "types": [
+   "FIGHTING"
+  ]
+ },
+ "TYRUNT": {
+  "gen": 6,
+  "hasMovepool": true,
+  "types": [
+   "ROCK",
+   "DRAGON"
+  ]
+ },
+ "UMBREON": {
+  "gen": 1,
+  "hasMovepool": true,
+  "types": [
+   "DARK"
+  ]
+ },
+ "UNFEZANT": {
+  "gen": 5,
+  "hasMovepool": true,
+  "types": [
+   "NORMAL",
+   "FLYING"
+  ]
+ },
+ "UNOWN": {
+  "gen": 2,
+  "hasMovepool": true,
+  "types": [
+   "PSYCHIC"
+  ],
+  "typesFromExpansionMacro": true
+ },
+ "URSALUNA": {
+  "gen": 2,
+  "hasMovepool": true,
+  "types": [
+   "GROUND",
+   "NORMAL"
+  ]
+ },
+ "URSALUNA_BLOODMOON": {
+  "gen": 2,
+  "hasMovepool": true,
+  "types": [
+   "GROUND",
+   "NORMAL"
+  ]
+ },
+ "URSARING": {
+  "gen": 2,
+  "hasMovepool": true,
+  "types": [
+   "NORMAL"
+  ]
+ },
+ "URSHIFU_RAPID_STRIKE": {
+  "gen": 8,
+  "hasMovepool": true,
+  "types": [
+   "FIGHTING",
+   "WATER"
+  ]
+ },
+ "URSHIFU_RAPID_STRIKE_GMAX": {
+  "gen": 8,
+  "hasMovepool": false,
+  "types": [
+   "FIGHTING",
+   "WATER"
+  ]
+ },
+ "URSHIFU_SINGLE_STRIKE": {
+  "gen": 8,
+  "hasMovepool": true,
+  "types": [
+   "FIGHTING",
+   "DARK"
+  ]
+ },
+ "URSHIFU_SINGLE_STRIKE_GMAX": {
+  "gen": 8,
+  "hasMovepool": false,
+  "types": [
+   "FIGHTING",
+   "DARK"
+  ]
+ },
+ "UXIE": {
+  "gen": 4,
+  "hasMovepool": true,
+  "types": [
+   "PSYCHIC"
+  ]
+ },
+ "VANILLISH": {
+  "gen": 5,
+  "hasMovepool": true,
+  "types": [
+   "ICE"
+  ]
+ },
+ "VANILLITE": {
+  "gen": 5,
+  "hasMovepool": true,
+  "types": [
+   "ICE"
+  ]
+ },
+ "VANILLUXE": {
+  "gen": 5,
+  "hasMovepool": true,
+  "types": [
+   "ICE"
+  ]
+ },
+ "VAPOREON": {
+  "gen": 1,
+  "hasMovepool": true,
+  "types": [
+   "WATER"
+  ]
+ },
+ "VAROOM": {
+  "gen": 9,
+  "hasMovepool": true,
+  "types": [
+   "STEEL",
+   "POISON"
+  ]
+ },
+ "VELUZA": {
+  "gen": 9,
+  "hasMovepool": true,
+  "types": [
+   "WATER",
+   "PSYCHIC"
+  ]
+ },
+ "VENIPEDE": {
+  "gen": 5,
+  "hasMovepool": true,
+  "types": [
+   "BUG",
+   "POISON"
+  ]
+ },
+ "VENOMOTH": {
+  "gen": 1,
+  "hasMovepool": true,
+  "types": [
+   "BUG",
+   "POISON"
+  ]
+ },
+ "VENONAT": {
+  "gen": 1,
+  "hasMovepool": true,
+  "types": [
+   "BUG",
+   "POISON"
+  ]
+ },
+ "VENUSAUR": {
+  "gen": 1,
+  "hasMovepool": true,
+  "types": [
+   "GRASS",
+   "POISON"
+  ]
+ },
+ "VENUSAUR_GMAX": {
+  "gen": 1,
+  "hasMovepool": false,
+  "types": [
+   "GRASS",
+   "POISON"
+  ]
+ },
+ "VENUSAUR_MEGA": {
+  "gen": 1,
+  "hasMovepool": false,
+  "types": [
+   "GRASS",
+   "POISON"
+  ]
+ },
+ "VESPIQUEN": {
+  "gen": 4,
+  "hasMovepool": true,
+  "types": [
+   "BUG",
+   "FLYING"
+  ]
+ },
+ "VIBRAVA": {
+  "gen": 3,
+  "hasMovepool": true,
+  "types": [
+   "GROUND",
+   "DRAGON"
+  ]
+ },
+ "VICTINI": {
+  "gen": 5,
+  "hasMovepool": true,
+  "types": [
+   "PSYCHIC",
+   "FIRE"
+  ]
+ },
+ "VICTREEBEL": {
+  "gen": 1,
+  "hasMovepool": true,
+  "types": [
+   "GRASS",
+   "POISON"
+  ]
+ },
+ "VICTREEBEL_MEGA": {
+  "gen": 1,
+  "hasMovepool": false,
+  "types": [
+   "GRASS",
+   "POISON"
+  ]
+ },
+ "VIGOROTH": {
+  "gen": 3,
+  "hasMovepool": true,
+  "types": [
+   "NORMAL"
+  ]
+ },
+ "VIKAVOLT": {
+  "gen": 7,
+  "hasMovepool": true,
+  "types": [
+   "BUG",
+   "ELECTRIC"
+  ]
+ },
+ "VIKAVOLT_TOTEM": {
+  "gen": 7,
+  "hasMovepool": false,
+  "types": [
+   "BUG",
+   "ELECTRIC"
+  ]
+ },
+ "VILEPLUME": {
+  "gen": 1,
+  "hasMovepool": true,
+  "types": [
+   "GRASS",
+   "POISON"
+  ]
+ },
+ "VIRIZION": {
+  "gen": 5,
+  "hasMovepool": true,
+  "types": [
+   "GRASS",
+   "FIGHTING"
+  ]
+ },
+ "VIVILLON": {
+  "gen": 6,
+  "hasMovepool": true,
+  "types": [
+   "BUG",
+   "FLYING"
+  ],
+  "typesFromExpansionMacro": true
+ },
+ "VOLBEAT": {
+  "gen": 3,
+  "hasMovepool": true,
+  "types": [
+   "BUG"
+  ]
+ },
+ "VOLCANION": {
+  "gen": 6,
+  "hasMovepool": true,
+  "types": [
+   "FIRE",
+   "WATER"
+  ]
+ },
+ "VOLCARONA": {
+  "gen": 5,
+  "hasMovepool": true,
+  "types": [
+   "BUG",
+   "FIRE"
+  ]
+ },
+ "VOLTORB": {
+  "gen": 1,
+  "hasMovepool": true,
+  "types": [
+   "ELECTRIC"
+  ]
+ },
+ "VOLTORB_HISUI": {
+  "gen": 1,
+  "hasMovepool": true,
+  "types": [
+   "ELECTRIC",
+   "GRASS"
+  ]
+ },
+ "VULLABY": {
+  "gen": 5,
+  "hasMovepool": true,
+  "types": [
+   "DARK",
+   "FLYING"
+  ]
+ },
+ "VULPIX": {
+  "gen": 1,
+  "hasMovepool": true,
+  "types": [
+   "FIRE"
+  ]
+ },
+ "VULPIX_ALOLA": {
+  "gen": 1,
+  "hasMovepool": true,
+  "types": [
+   "ICE"
+  ]
+ },
+ "WAILMER": {
+  "gen": 3,
+  "hasMovepool": true,
+  "types": [
+   "WATER"
+  ]
+ },
+ "WAILORD": {
+  "gen": 3,
+  "hasMovepool": true,
+  "types": [
+   "WATER"
+  ]
+ },
+ "WALKING_WAKE": {
+  "gen": 9,
+  "hasMovepool": true,
+  "types": [
+   "WATER",
+   "DRAGON"
+  ]
+ },
+ "WALREIN": {
+  "gen": 3,
+  "hasMovepool": true,
+  "types": [
+   "ICE",
+   "WATER"
+  ]
+ },
+ "WARTORTLE": {
+  "gen": 1,
+  "hasMovepool": true,
+  "types": [
+   "WATER"
+  ]
+ },
+ "WATCHOG": {
+  "gen": 5,
+  "hasMovepool": true,
+  "types": [
+   "NORMAL"
+  ]
+ },
+ "WATTREL": {
+  "gen": 9,
+  "hasMovepool": true,
+  "types": [
+   "ELECTRIC",
+   "FLYING"
+  ]
+ },
+ "WEAVILE": {
+  "gen": 2,
+  "hasMovepool": true,
+  "types": [
+   "DARK",
+   "ICE"
+  ]
+ },
+ "WEEDLE": {
+  "gen": 1,
+  "hasMovepool": true,
+  "types": [
+   "BUG",
+   "POISON"
+  ]
+ },
+ "WEEPINBELL": {
+  "gen": 1,
+  "hasMovepool": true,
+  "types": [
+   "GRASS",
+   "POISON"
+  ]
+ },
+ "WEEZING": {
+  "gen": 1,
+  "hasMovepool": true,
+  "types": [
+   "POISON"
+  ]
+ },
+ "WEEZING_GALAR": {
+  "gen": 1,
+  "hasMovepool": true,
+  "types": [
+   "POISON",
+   "FAIRY"
+  ]
+ },
+ "WHIMSICOTT": {
+  "gen": 5,
+  "hasMovepool": true,
+  "types": [
+   "GRASS",
+   "COTTONEE_FAMILY_TYPE2"
+  ]
+ },
+ "WHIRLIPEDE": {
+  "gen": 5,
+  "hasMovepool": true,
+  "types": [
+   "BUG",
+   "POISON"
+  ]
+ },
+ "WHISCASH": {
+  "gen": 3,
+  "hasMovepool": true,
+  "types": [
+   "WATER",
+   "GROUND"
+  ]
+ },
+ "WHISMUR": {
+  "gen": 3,
+  "hasMovepool": true,
+  "types": [
+   "NORMAL"
+  ]
+ },
+ "WIGGLYTUFF": {
+  "gen": 1,
+  "hasMovepool": true,
+  "types": [
+   "NORMAL",
+   "FAIRY"
+  ]
+ },
+ "WIGLETT": {
+  "gen": 9,
+  "hasMovepool": true,
+  "types": [
+   "WATER"
+  ]
+ },
+ "WIMPOD": {
+  "gen": 7,
+  "hasMovepool": true,
+  "types": [
+   "BUG",
+   "WATER"
+  ]
+ },
+ "WINGULL": {
+  "gen": 3,
+  "hasMovepool": true,
+  "types": [
+   "WATER",
+   "FLYING"
+  ]
+ },
+ "WISHIWASHI": {
+  "baseFormAlias": "WISHIWASHI_SOLO",
+  "gen": 7,
+  "hasMovepool": true,
+  "types": [
+   "WATER"
+  ]
+ },
+ "WISHIWASHI_SCHOOL": {
+  "gen": 7,
+  "hasMovepool": false,
+  "types": [
+   "WATER"
+  ]
+ },
+ "WISHIWASHI_SOLO": {
+  "gen": 7,
+  "hasMovepool": false,
+  "types": [
+   "WATER"
+  ]
+ },
+ "WOBBUFFET": {
+  "gen": 2,
+  "hasMovepool": true,
+  "types": [
+   "PSYCHIC"
+  ]
+ },
+ "WOOBAT": {
+  "gen": 5,
+  "hasMovepool": true,
+  "types": [
+   "PSYCHIC",
+   "FLYING"
+  ]
+ },
+ "WOOLOO": {
+  "gen": 8,
+  "hasMovepool": true,
+  "types": [
+   "NORMAL"
+  ]
+ },
+ "WOOPER": {
+  "gen": 2,
+  "hasMovepool": true,
+  "types": [
+   "WATER",
+   "GROUND"
+  ]
+ },
+ "WOOPER_PALDEA": {
+  "gen": 2,
+  "hasMovepool": true,
+  "types": [
+   "POISON",
+   "GROUND"
+  ]
+ },
+ "WORMADAM_PLANT": {
+  "gen": 4,
+  "hasMovepool": true,
+  "types": [
+   "BUG",
+   "GRASS"
+  ]
+ },
+ "WORMADAM_SANDY": {
+  "gen": 4,
+  "hasMovepool": true,
+  "types": [
+   "BUG",
+   "GROUND"
+  ]
+ },
+ "WORMADAM_TRASH": {
+  "gen": 4,
+  "hasMovepool": true,
+  "types": [
+   "BUG",
+   "STEEL"
+  ]
+ },
+ "WO_CHIEN": {
+  "gen": 9,
+  "hasMovepool": true,
+  "types": [
+   "DARK",
+   "GRASS"
+  ]
+ },
+ "WUGTRIO": {
+  "gen": 9,
+  "hasMovepool": true,
+  "types": [
+   "WATER"
+  ]
+ },
+ "WURMPLE": {
+  "gen": 3,
+  "hasMovepool": true,
+  "types": [
+   "BUG"
+  ]
+ },
+ "WYNAUT": {
+  "gen": 2,
+  "hasMovepool": true,
+  "types": [
+   "PSYCHIC"
+  ]
+ },
+ "WYRDEER": {
+  "gen": 2,
+  "hasMovepool": true,
+  "types": [
+   "NORMAL",
+   "PSYCHIC"
+  ]
+ },
+ "XATU": {
+  "gen": 2,
+  "hasMovepool": true,
+  "types": [
+   "PSYCHIC",
+   "FLYING"
+  ]
+ },
+ "XERNEAS": {
+  "baseFormAlias": "XERNEAS_NEUTRAL",
+  "gen": 6,
+  "hasMovepool": true,
+  "types": [
+   "FAIRY"
+  ]
+ },
+ "XERNEAS_ACTIVE": {
+  "gen": 6,
+  "hasMovepool": false,
+  "types": [
+   "FAIRY"
+  ]
+ },
+ "XERNEAS_NEUTRAL": {
+  "gen": 6,
+  "hasMovepool": false,
+  "types": [
+   "FAIRY"
+  ]
+ },
+ "XURKITREE": {
+  "gen": 7,
+  "hasMovepool": true,
+  "types": [
+   "ELECTRIC"
+  ]
+ },
+ "YAMASK": {
+  "gen": 5,
+  "hasMovepool": true,
+  "types": [
+   "GHOST"
+  ]
+ },
+ "YAMASK_GALAR": {
+  "gen": 5,
+  "hasMovepool": true,
+  "types": [
+   "GROUND",
+   "GHOST"
+  ]
+ },
+ "YAMPER": {
+  "gen": 8,
+  "hasMovepool": true,
+  "types": [
+   "ELECTRIC"
+  ]
+ },
+ "YANMA": {
+  "gen": 2,
+  "hasMovepool": true,
+  "types": [
+   "BUG",
+   "FLYING"
+  ]
+ },
+ "YANMEGA": {
+  "gen": 2,
+  "hasMovepool": true,
+  "types": [
+   "BUG",
+   "FLYING"
+  ]
+ },
+ "YUNGOOS": {
+  "gen": 7,
+  "hasMovepool": true,
+  "types": [
+   "NORMAL"
+  ]
+ },
+ "YVELTAL": {
+  "gen": 6,
+  "hasMovepool": true,
+  "types": [
+   "DARK",
+   "FLYING"
+  ]
+ },
+ "ZACIAN": {
+  "baseFormAlias": "ZACIAN_HERO",
+  "gen": 8,
+  "hasMovepool": true,
+  "types": [
+   "FAIRY"
+  ]
+ },
+ "ZACIAN_CROWNED": {
+  "gen": 8,
+  "hasMovepool": false,
+  "types": [
+   "FAIRY",
+   "STEEL"
+  ]
+ },
+ "ZACIAN_HERO": {
+  "gen": 8,
+  "hasMovepool": false,
+  "types": [
+   "FAIRY"
+  ]
+ },
+ "ZAMAZENTA": {
+  "baseFormAlias": "ZAMAZENTA_HERO",
+  "gen": 8,
+  "hasMovepool": true,
+  "types": [
+   "FIGHTING"
+  ]
+ },
+ "ZAMAZENTA_CROWNED": {
+  "gen": 8,
+  "hasMovepool": false,
+  "types": [
+   "FIGHTING",
+   "STEEL"
+  ]
+ },
+ "ZAMAZENTA_HERO": {
+  "gen": 8,
+  "hasMovepool": false,
+  "types": [
+   "FIGHTING"
+  ]
+ },
+ "ZANGOOSE": {
+  "gen": 3,
+  "hasMovepool": true,
+  "types": [
+   "NORMAL"
+  ]
+ },
+ "ZAPDOS": {
+  "gen": 1,
+  "hasMovepool": true,
+  "types": [
+   "ELECTRIC",
+   "FLYING"
+  ]
+ },
+ "ZAPDOS_GALAR": {
+  "gen": 1,
+  "hasMovepool": true,
+  "types": [
+   "FIGHTING",
+   "FLYING"
+  ]
+ },
+ "ZARUDE": {
+  "gen": 8,
+  "hasMovepool": true,
+  "types": [
+   "DARK",
+   "GRASS"
+  ]
+ },
+ "ZARUDE_DADA": {
+  "gen": 8,
+  "hasMovepool": false,
+  "types": [
+   "DARK",
+   "GRASS"
+  ]
+ },
+ "ZEBSTRIKA": {
+  "gen": 5,
+  "hasMovepool": true,
+  "types": [
+   "ELECTRIC"
+  ]
+ },
+ "ZEKROM": {
+  "gen": 5,
+  "hasMovepool": true,
+  "types": [
+   "DRAGON",
+   "ELECTRIC"
+  ]
+ },
+ "ZERAORA": {
+  "gen": 7,
+  "hasMovepool": true,
+  "types": [
+   "ELECTRIC"
+  ]
+ },
+ "ZERAORA_MEGA": {
+  "gen": 7,
+  "hasMovepool": false,
+  "types": [
+   "ELECTRIC"
+  ]
+ },
+ "ZIGZAGOON": {
+  "gen": 3,
+  "hasMovepool": true,
+  "types": [
+   "NORMAL"
+  ]
+ },
+ "ZIGZAGOON_GALAR": {
+  "gen": 3,
+  "hasMovepool": true,
+  "types": [
+   "DARK",
+   "NORMAL"
+  ]
+ },
+ "ZOROARK": {
+  "gen": 5,
+  "hasMovepool": true,
+  "types": [
+   "DARK"
+  ]
+ },
+ "ZOROARK_HISUI": {
+  "gen": 5,
+  "hasMovepool": true,
+  "types": [
+   "NORMAL",
+   "GHOST"
+  ]
+ },
+ "ZORUA": {
+  "gen": 5,
+  "hasMovepool": true,
+  "types": [
+   "DARK"
+  ]
+ },
+ "ZORUA_HISUI": {
+  "gen": 5,
+  "hasMovepool": true,
+  "types": [
+   "NORMAL",
+   "GHOST"
+  ]
+ },
+ "ZUBAT": {
+  "gen": 1,
+  "hasMovepool": true,
+  "types": [
+   "POISON",
+   "FLYING"
+  ]
+ },
+ "ZWEILOUS": {
+  "gen": 5,
+  "hasMovepool": true,
+  "types": [
+   "DARK",
+   "DRAGON"
+  ]
+ },
+ "ZYGARDE": {
+  "baseFormAlias": "ZYGARDE_50",
+  "gen": 6,
+  "hasMovepool": true,
+  "types": [
+   "DRAGON",
+   "GROUND"
+  ]
+ },
+ "ZYGARDE_10_AURA_BREAK": {
+  "gen": 6,
+  "hasMovepool": false,
+  "types": [
+   "DRAGON",
+   "GROUND"
+  ]
+ },
+ "ZYGARDE_10_POWER_CONSTRUCT": {
+  "gen": 6,
+  "hasMovepool": false,
+  "types": [
+   "DRAGON",
+   "GROUND"
+  ]
+ },
+ "ZYGARDE_50": {
+  "gen": 6,
+  "hasMovepool": false,
+  "types": [
+   "DRAGON",
+   "GROUND"
+  ]
+ },
+ "ZYGARDE_50_POWER_CONSTRUCT": {
+  "gen": 6,
+  "hasMovepool": false,
+  "types": [
+   "DRAGON",
+   "GROUND"
+  ]
+ },
+ "ZYGARDE_COMPLETE": {
+  "gen": 6,
+  "hasMovepool": false,
+  "types": [
+   "DRAGON",
+   "GROUND"
+  ]
+ },
+ "ZYGARDE_MEGA": {
+  "gen": 6,
+  "hasMovepool": false,
+  "types": [
+   "DRAGON",
+   "GROUND"
+  ]
+ }
+}
