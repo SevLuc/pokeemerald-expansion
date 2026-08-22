@@ -7042,6 +7042,8 @@ Gender: Male
 Music: Male
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
+Party Size: 6
+Pool Rules: Basic
 
 SPECIES_GEODUDE_ALOLA (F)
 Level: 14
@@ -7088,9 +7090,19 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Bulldoze
 - Body Press
 
+Rockruff (F)
+Level: 14
+Ability: Vital Spirit
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Rock Tomb
+- Sucker Punch
+- Attract
+- Play Rough
+
 LongTurd (Onix) (F)
 Level: 14
 Ability: Sturdy
+Tags: Ace
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Swagger
 - Dig

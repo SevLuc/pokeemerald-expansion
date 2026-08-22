@@ -9,22 +9,25 @@ hard-but-fair rebalance against vanilla.
 ## Gym 1 — Pewter (Brock, Rock) — Boulder Badge
 - Level cap: 14.
 - Vanilla team: Geodude Lv12, Onix Lv14.
-- Rebalanced team: ALOLAN GEODUDE (F) Lv14, Galvanize (Headbutt / Rock Tomb /
-  Bulldoze / Mud-Slap); ARON (F) Lv14, Sturdy (Aerial Ace / Rock Tomb /
-  Iron Head / Body Press); GLIMMET (F) Lv14, Corrosion (Acid Spray / Ancient
-  Power / Mud Shot / Spikes); AERODACTYL (F) Lv14, Pressure (Rock Blast / Wing
-  Attack / Thunder Fang / Bulldoze); STAKATAKA Lv14 (genderless), Beast Boost
-  (Rock Tomb / Heavy Slam / Bulldoze / Body Press); ONIX (F) Lv14 nicknamed
-  "LongTurd", ace, Sturdy
-  (Swagger / Dig / Rock Tomb / Self-Destruct). All of Brock's Pokemon are female
-  (except Stakataka, which is genderless), at the level cap (14), with perfect
-  IVs. Alolan Geodude (Rock/Electric) uses Galvanize so Headbutt becomes a
-  boosted Electric STAB, backed by Ground coverage. Aron (Steel/Rock) is a bulky
-  pivot: Body Press scales off its high Defense, Iron Head is Steel STAB.
-  Stakataka (Rock/Steel, Ultra Beast, BST 570) is the heavy: Body Press off its
-  211 Defense plus Beast Boost make it a major power spike for a first gym. Onix
-  is a Sturdy suicide-wall: survives one hit, chips with Rock Tomb, and can
-  Self-Destruct. All movesets are level-cap-legal.
+- Structure: a TRAINER POOL of 7 members that fields 6 (Party Size 6, Pool Rules
+  Basic). Onix is tagged the ace (always fielded). The intended selection is
+  BST-matching to the player's team; that custom pick function is NOT built yet,
+  so with the default pool rules the game currently picks 6 semi-randomly (ace
+  always in). See "pending" note below.
+- Pool members (all Lv14, perfect IVs, all female except genderless Stakataka):
+  - ALOLAN GEODUDE (F), Galvanize (Headbutt / Rock Tomb / Bulldoze / Mud-Slap)
+  - ARON (F), Sturdy (Aerial Ace / Rock Tomb / Iron Head / Body Press)
+  - GLIMMET (F), Corrosion (Acid Spray / Ancient Power / Mud Shot / Spikes)
+  - AERODACTYL (F), Pressure (Rock Blast / Wing Attack / Thunder Fang / Bulldoze)
+  - STAKATAKA (genderless), Beast Boost (Rock Tomb / Heavy Slam / Bulldoze / Body
+    Press) - Ultra Beast, BST 570, big power spike for a first gym
+  - ROCKRUFF (F), Vital Spirit (Rock Tomb / Sucker Punch / Attract / Play Rough)
+  - ONIX (F) nicknamed "LongTurd", ACE, Sturdy (Swagger / Dig / Rock Tomb /
+    Self-Destruct) - suicide-wall
+- All movesets are level-cap-legal (verified with the moveset-legality skill).
+- PENDING: the BST-matching pool pick function (custom POOL_PICK_* in
+  src/trainer_pools.c + a player-BST helper). Until it exists, picking is the
+  default semi-random-with-ace behavior.
 - History fragments: see BROCK-* in lore-ledger.md
 
 ## Gym 2 — Cerulean (Misty, Water) — Cascade Badge
