@@ -91,8 +91,50 @@ hard-but-fair rebalance against vanilla.
 - History fragments: see MISTY-* in lore-ledger.md.
 
 ## Gym 3 — Vermilion (Lt. Surge, Electric) — Thunder Badge
+- Level cap: 27 (`FLAG_BADGE03_GET` row; see progression.md).
 - Vanilla team: Voltorb Lv21, Pikachu Lv18, Raichu Lv24.
-- Rebalanced team: (TBD)
+- Structure: a TRAINER POOL of 10 Electric-types that fields 6 (Party Size 6,
+  Pool Rules Basic, Pool Prune Bst Match). Raichu is the ACE (always fielded
+  last). The other 5 slots are BST-matched to the player: the game sums the
+  player's team base-stat totals and fields the ace plus the five other members
+  whose combined BST is closest to that total (POOL_PRUNE_BST_MATCH in
+  src/trainer_pools.c). No forced lead (Surge-only difference from Misty).
+- Pool members (10, all Lv27 = at the cap, perfect IVs, no EVs; no nicknames).
+  All natures are +Speed except the two slow bruisers Iron Hands (Brave) and
+  Pincurchin (Quiet). The +Speed natures shed the UNUSED attacking stat: Timid
+  for pure special attackers, Jolly for pure physical, Naive for the two mixed
+  members (Raichu, H-Electrode) so neither attacking stat is cut. BST spread
+  405 (Pachirisu) - 570 (Iron Hands). Momentum/VoltTurn theme: six members carry
+  Volt Switch or a pivot, Pincurchin's Electric Surge and Iron Hands' own
+  Electric Terrain power the pool's Electric moves and Quark Drive:
+  - JOLTEON (M), Volt Absorb, Timid (Thunderbolt / Magnet Rise / Trailblaze / Yawn)
+  - ROTOM-FROST (genderless), Levitate, Timid (Blizzard / Thunderbolt / Light
+    Screen / Reflect) - Blizzard is trainer-set (form move, not in the learn
+    pool in this build; trainer parties are not learnset-bound).
+  - IRON HANDS (genderless), Quark Drive, Brave (Electric Terrain / Drain Punch /
+    Thunder Punch / Ice Punch) - Ultra-ish power pick, BST 570; self-sets terrain
+    to trigger its own Quark Drive.
+  - HISUIAN ELECTRODE (genderless), Static, Naive (Chloroblast / Thunderbolt /
+    Ice Ball / Self-Destruct) - Electric/Grass, fast suicide disruptor.
+  - HELIOLISK (M), Dry Skin, Timid (Thunderbolt / Hyper Voice / Signal Beam /
+    Grass Knot)
+  - MORPEKO (F), Hunger Switch, Jolly (Wild Charge / Seed Bomb / Stomping Tantrum
+    / Super Fang) - Aura Wheel is locked by the cap (L55), so Wild Charge is its
+    Electric STAB.
+  - TOGEDEMARU (M), Iron Barbs, Jolly (Nuzzle / Iron Head / Endeavor / Volt Switch)
+  - PINCURCHIN (F), Electric Surge, Quiet (Rising Voltage / Self-Destruct /
+    Muddy Water / Thunder Wave) - the slow terrain setter; Rising Voltage
+    doubles under its own terrain.
+  - PACHIRISU (M), Volt Absorb, Timid (Nuzzle / Light Screen / Mud Slap / Volt
+    Switch) - pure annoyer; Super Fang is locked by the cap (L37).
+  - RAICHU (F), ACE, Static, Naive (Extreme Speed / Thunderbolt / Surf / Grass
+    Knot) - fast mixed cleaner. Extreme Speed is trainer-set (not in the FRLG
+    Pichu/Pikachu/Raichu learn pool in this build; it was only ever an event
+    move).
+- Two off-learnset moves are set directly on the trainer mons (legal for trainer
+  parties, which are not bound by learnset legality): Rotom-Frost's Blizzard and
+  Raichu's Extreme Speed. Every other move is cap-27 legal (verified with the
+  moveset-legality skill).
 - Gate: vanilla FRLG already gates the gym behind Cut (the cuttable tree at
   (19,24) is the only entrance to the gym pocket; Cut comes from the S.S. Anne
   Captain). Reframed as Surge's "first trial": cross the S.S. Anne, reach the

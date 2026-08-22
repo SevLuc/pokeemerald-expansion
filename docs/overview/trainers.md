@@ -44,7 +44,7 @@ moves auto-filled (level-up), IVs placeholder. Refine movesets/IVs on the balanc
 |---|---|---|
 | Brock | `TRAINER_LEADER_BROCK` | TODO |
 | Misty | `TRAINER_LEADER_MISTY` | TODO |
-| Lt. Surge | `TRAINER_LEADER_LT_SURGE` | TODO |
+| Lt. Surge | `TRAINER_LEADER_LT_SURGE` | Pool of 10 Electric, fields 6, ace Raichu, Lv27 (see gyms.md) |
 | Erika | `TRAINER_LEADER_ERIKA` | TODO |
 | Koga | `TRAINER_LEADER_KOGA` | TODO |
 | Sabrina | `TRAINER_LEADER_SABRINA` | TODO |

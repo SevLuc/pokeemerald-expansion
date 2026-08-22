@@ -17,21 +17,38 @@ description: >-
 Runs one deterministic report per species. All facts come from the repository's
 own data, so any move it marks LEGAL is actually learnable in this build.
 
-## Output guardrail (do not editorialize)
+## Output guardrail (MANDATORY - data only, no advice by default)
 
-Relay the script's output as data. Specifically:
+STOP. This skill outputs DATA, not advice. The default and only behavior is to
+relay the script's report verbatim. Adding ANY recommendation is a failure of
+this skill, even when it seems helpful, even mid-pool-building, even when the
+user just asked you to build a team.
 
-- Reproduce ALL of the script's sections in full: the advised sets, and every
-  move bucket (level-up, egg, TM, tutor/other) and the locked-by-cap list.
+Reproduce ALL of the script's sections in full and NOTHING ELSE:
+
+- Reproduce every section: the header, the advised sets, every move bucket
+  (level-up, egg, TM, tutor/other), and the locked-by-cap list.
 - Do NOT drop, summarize, sample, or collapse a bucket into "highlights" or
   "notable moves". If a bucket has 60 moves, list all 60.
-- Do NOT invent recommendations, ratings, roles, "build hooks", or a proposed
-  set unless the user explicitly asks for one. The report is data, not advice.
 - Reformatting for readability (tables, columns) is fine as long as no move and
   no set is added or removed.
 
-If the user then asks for a recommended set, draft it AFTER showing the raw
-buckets, and pick only from moves the script marked possible.
+You MUST NOT, unless the user's CURRENT message literally asks you to build,
+propose, or recommend a set:
+
+- propose or recommend a moveset, ability, nature, gender, item, EV/IV spread,
+  or role
+- rate moves, tag "core" vs "filler", add "build hooks", "synergy notes",
+  "swap options", or "next steps"
+- comment on which moves are good, notable, or worth picking
+- append a "Proposed:" / "Recommended:" block after the report
+
+"Build the pool / team" is NOT a standing request for advice. Each species run
+prints the buckets and stops. Wait for the user to explicitly ask for a set.
+
+ONLY when the user's current message explicitly asks for a recommended set:
+draft it AFTER showing the raw buckets in full, and pick only from moves the
+script marked possible.
 
 ## Run it
 
