@@ -628,6 +628,7 @@ gSpecials::
 	def_special CB2_StartCreditsSequence
 	def_special DoPokemonLeagueLightingEffect
 	def_special GetStarterPokemon
+	def_special RollRandomStarters
 	def_special SetIcefallCaveCrackedIceMetatiles
 	def_special UpdateLoreleiDollCollection
 	def_special SampleResortGorgeousMonAndReward

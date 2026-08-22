@@ -7,6 +7,16 @@ Update in the same PR as the change.
 `YYYY-MM-DD` — area — one-line summary (PR/commit ref)
 
 ## Entries
+- 2026-08-22 - starters/gameplay - Player starter is now randomized per save. On
+  a new game the Oak's Lab starter scene rolls one random Grass, one Water, and
+  one Fire starter, each drawn independently from all nine generations (729
+  possible trios). The three balls show and give the rolled species; the player
+  still picks by type. Rolled once per save (idempotent) and stored in
+  `VAR_STARTER_GRASS/WATER/FIRE`. `GetStarterPokemon` is rolled-aware so the
+  credits and Champion's Room text name the correct species. Rival starter is
+  unchanged. New special `RollRandomStarters` in `src/starter_choose.c`; three
+  one-line species swaps in `PalletTown_ProfessorOaksLab_Frlg/scripts.inc`.
+  Design spec: `docs/superpowers/specs/2026-08-22-randomized-starters-design.md`.
 - 2026-08-22 - trainers/gyms - Rebalanced Lt. Surge (Gym 3, Thunder Badge) from a
   3-mon team into a 10-member Electric TRAINER POOL that fields 6, mirroring
   Brock/Misty (Party Size 6, Pool Rules Basic, Pool Prune Bst Match). Raichu is the
