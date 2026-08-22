@@ -129,8 +129,9 @@ by the time you reach the gym you realize the whole town can't stop half-mention
 her duck. Keep every line SUBTLE and VARIED (never repeat the same beat).
 - Each route trainer: keep their INTRO as their own character; replace their
   POST-BATTLE line with one oblique Misty/Psyduck (or deniable "egg") flavor drop.
-- TOGEPI stays deniable: only ever "an EGG" / "something she guards" until the
-  user commits Togepi's arc. No Togepi by name yet.
+- TOGEPI ARC: DROPPED FOR NOW (user decision 2026-08-22). Do not build a Togepi
+  storyline. Existing deniable "an EGG" / "something she guards" flavor already
+  in-game can stay as-is; just never name Togepi or extend it into an arc.
 - Angles to rotate so it never feels repetitive: the duck's escapes, its blank
   stupidity, the bug rule, her running the gym solo, the sisters/looks, her only
   ever training water, a mysterious egg, her chasing the duck cross-country.

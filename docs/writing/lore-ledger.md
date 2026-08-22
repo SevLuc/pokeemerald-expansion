@@ -52,11 +52,11 @@ truth until they're updated):
   Oak-himself beats are separate branches on Prof. Oak. Aide reward/YES-NO flows and
   famechecker calls were preserved; only flavor text swapped.
 REMAINING:
-- SKIPPED this pass (no spare NPC without a NEW object; not forced onto plot/mismatch):
-  OAK-09 (no spare Pallet townsperson - FatMan is BLAINE-RUMORS, SignLady is tutorial),
-  LORELEI-06 (Icefall Cave has zero object NPCs). Both need a Porymap object to place.
-- Stage 3 (needs Porymap objects): every fragment whose Source is "new" (the Pallet
-  photo, new Four Island / Icefall / reception islanders, etc.), plus OAK-09 / LORELEI-06.
+- OAK-09 and LORELEI-06 were later PLACED on nearby existing NPCs (Route 1 boy;
+  Four Island Pokemon Center woman) rather than new objects. LORELEI-06 was reworded
+  content-safe (dropped the "a child, the ice, the water" detail). See their rows.
+- Stage 3 (needs Porymap objects): the remaining fragments whose Source is "new"
+  (e.g. the Pallet photo object, any beat with no spare NPC on its map).
 - Note: BRUNO-03/04 moved from Kindle Road/Mt Ember (all-trainers, no spare flavor NPC)
   to Ember Spa patrons on the same island - spa-goers reporting mountain sightings, so
   SHOW-DON'T-TELL and Bruno's One Island footprint are preserved.
@@ -478,7 +478,7 @@ only, no new art, no moved story beats.
 | LORELEI-03 | Lorelei (crusade origin) | Islander: "Ever since, she'll not hear one bad word about ICE types. Owes them everything, she says. Won't say more." | Four Island NPC (existing) | Four Island | reached Four Island | 3 | drafted | - |
 | LORELEI-04 | Lorelei (the doll shrine) | Doll object (reflavor): "Shelves of stuffed ICE POKéMON. One LAPRAS doll sits above them all, old and hugged near bald." | doll object (existing) | Four Island, Lorelei's House | reached Four Island | 4 | drafted | - |
 | LORELEI-05 | Lorelei (home vs. duty) | Her vanilla "the island where I was born…" lines, logged as-is (the fierce-defender core). | Lorelei (vanilla) | Four Island, Lorelei's House | vanilla | 5 | in-game | - |
-| LORELEI-06 | Lorelei (where it happened) | In the cave: "Cold, isn't it? This is where it happened. A child, the ice, the water. …She came back." | (none) | Four Island, Icefall Cave | reached Four Island | 6 | SKIPPED | Icefall Cave (Entrance/1F/B1F/Back) has ZERO object NPCs (only item balls). No new objects allowed. |
+| LORELEI-06 | Lorelei (where it happened) | "The ice in ICEFALL CAVE has never once melted. …Something happened in there, a long time ago. LORELEI would know. She won't say." | Four Island Pokemon Center woman (existing, repurposed) | Four Island | reached Four Island | 6 | in-game | CONTENT-SAFE REWORD: dropped the original "a child, the ice, the water" detail (a minor + near-drowning); kept a coy adult-voiced mystery instead. Placed close to Icefall since the cave has no NPC objects. |
 | LORELEI-07 | Lorelei (fierce defender) | Islander (after Rocket beat): "She left the LEAGUE the moment we were threatened. Came home cold and furious. We were glad of it." | Four Island NPC (existing) | Four Island | FLAG_DEFEATED_ROCKETS_IN_WAREHOUSE | 7 | drafted | - |
 | LORELEI-08 | Lorelei (the grudge, coy) | Islander: "She keeps a list. Every ICE type folks call weak, she'll prove wrong. Top of it? Some soft no-account she just calls VANILLA." | Four Island FatMan (existing slushie NPC, reflavored) | Four Island | reached Four Island | 8 | in-game | [FLAG: dated] [FLAG: release-swap] |
 | LORELEI-09 | Lorelei (post-defeat) | Reception callback: "Beat LORELEI? She'll not sleep a month. She'll say ICE can always get stronger. …She's not wrong." | reception NPC (existing/new) | Indigo Plateau reception | FLAG_DEFEATED_LORELEI | 9 | drafted | - |
@@ -655,7 +655,7 @@ naming her. FOLLOW-UP: realign Agatha's ledger spine to foreground this axis
 | OAK-06 | Oak (the ratings) | Aide: "He rates every DEX personally. Out loud. At length. To anyone who'll stand still. Bring him a full one and the poor man might weep." | Oak's Lab Aide3 (existing Worker_F aide, reflavored; famechecker OAK 2 kept) | Pallet, Oak's Lab | none (ambient) | 6 | in-game | - |
 | OAK-07 | Oak + Agatha (hook, coy) | Lab: "An old friend once told me a scholar is a trainer who gave up. …She wasn't entirely wrong. But SOMEONE must write it all down! …Where was I. Yes! Your DEX!" | Prof. Oak (prepended to his mid-game RatePokedexOrTryGiveBalls talk) | Pallet, Oak's Lab | LAB_SCENE 6 (after dex started, pre-national dex) | 7 | in-game | [FLAG: canon-check] |
 | OAK-08 | Oak (post-game) | After Hall of Fame: "CHAMPION, and my DEX still has gaps. …No rest for either of us! Now, about those blank pages…" (folded with AGATHA-08) | Prof. Oak (post-game DontStartNationalDexScene branch) | Pallet, Oak's Lab | FLAG_SYS_GAME_CLEAR (post-E4, pre-national dex) | 8 | in-game | [FLAG: canon-check] |
-| OAK-09 | Oak (reverence vs. gremlin) | Pallet townsperson: "PROF. OAK? A great man. A genius. …Also he once called my house at 3 AM to ask if my PIDGEY was 'new.'" | (none) | Pallet Town | none | 9 | SKIPPED | no spare Pallet townsperson: FatMan already carries BLAINE-RUMORS, SignLady is a tutorial NPC, houses are Mom/Daisy (plot). No new objects allowed. |
+| OAK-09 | Oak (reverence vs. gremlin) | "I saw PROFESSOR OAK out here at 3 in the morning! Chasing a PIDGEY around with a clipboard. He said it was for the DATA." | Route 1 boy (existing, repurposed) | Route 1 (Pallet-adjacent) | none | 9 | in-game | Moved to the Route 1 boy (closest spare NPC); Pallet overworld had no spare townsperson. |
 | OAK-10 | Oak (bridge to Agatha) | Aide: "Off the record? He knows not everyone catches for science. Some battle to prove it. He respects it, though he'll never say. …An old rival of his would adore you." | Route 11 East Entrance 2F aide (existing ITEMFINDER aide, intro reflavored; reward flow kept) | Route 11 East Entrance 2F | on the aide's dex-reward talk | 10 | in-game | [FLAG: canon-check] |
 
 Consistency notes:
