@@ -60,15 +60,15 @@ Route22_EventScript_EarlyRivalApproachBottom::
 	return
 
 Route22_EventScript_EarlyRivalSquirtle::
-	trainerbattle_earlyrival TRAINER_RIVAL_ROUTE22_EARLY_SQUIRTLE, 0, Route22_Text_EarlyRivalDefeat, Text_RivalVictory
+	trainerbattle_earlyrival TRAINER_RIVAL_ROUTE22_EARLY_SQUIRTLE, 0, Route22_Text_EarlyRivalDefeat, Route22_Text_EarlyRivalVictory
 	return
 
 Route22_EventScript_EarlyRivalBulbasaur::
-	trainerbattle_earlyrival TRAINER_RIVAL_ROUTE22_EARLY_BULBASAUR, 0, Route22_Text_EarlyRivalDefeat, Text_RivalVictory
+	trainerbattle_earlyrival TRAINER_RIVAL_ROUTE22_EARLY_BULBASAUR, 0, Route22_Text_EarlyRivalDefeat, Route22_Text_EarlyRivalVictory
 	return
 
 Route22_EventScript_EarlyRivalCharmander::
-	trainerbattle_earlyrival TRAINER_RIVAL_ROUTE22_EARLY_CHARMANDER, 0, Route22_Text_EarlyRivalDefeat, Text_RivalVictory
+	trainerbattle_earlyrival TRAINER_RIVAL_ROUTE22_EARLY_CHARMANDER, 0, Route22_Text_EarlyRivalDefeat, Route22_Text_EarlyRivalVictory
 	return
 
 Route22_EventScript_EarlyRivalTwitch::
@@ -262,6 +262,13 @@ Route22_Text_EarlyRivalIntro::
 Route22_Text_EarlyRivalDefeat::
 	.string "wait I preslept an insomnia\n"
 	.string "guy!? whats going on man??$"
+
+Route22_Text_EarlyRivalVictory::
+	.string "Wait you actually lost to me?\p"
+	.string "Bro I'm not even trying,\n"
+	.string "this is content.\p"
+	.string "Run it back when you're\n"
+	.string "ready, {PLAYER}. Peaceeee!$"
 
 Route22_Text_EarlyRivalPostBattle::
 	.string "Huh!?? bro what is the\n"
