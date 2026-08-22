@@ -9,12 +9,13 @@ hard-but-fair rebalance against vanilla.
 ## Gym 1 — Pewter (Brock, Rock) — Boulder Badge
 - Level cap: 14.
 - Vanilla team: Geodude Lv12, Onix Lv14.
-- Rebalanced team: ALOLAN GEODUDE (F) Lv12, Galvanize (Headbutt / Rock Tomb /
-  Bulldoze / Mud-Slap); ONIX (F) Lv14, ace, Sturdy (Swagger / Dig / Rock Tomb /
-  Self-Destruct). All of Brock's Pokemon are female. Alolan Geodude (Rock/Electric)
-  uses Galvanize so Headbutt becomes a boosted Electric STAB, backed by Ground
-  coverage. Onix is a Sturdy suicide-wall: survives one hit, chips with Rock Tomb,
-  and can Self-Destruct. Both movesets are level-cap-legal.
+- Rebalanced team: ALOLAN GEODUDE (F) Lv14, Galvanize (Headbutt / Rock Tomb /
+  Bulldoze / Mud-Slap); ONIX (F) Lv14 nicknamed "LongTurd", ace, Sturdy (Swagger /
+  Dig / Rock Tomb / Self-Destruct). All of Brock's Pokemon are female, at the
+  level cap (14), with perfect IVs. Alolan Geodude (Rock/Electric) uses Galvanize
+  so Headbutt becomes a boosted Electric STAB, backed by Ground coverage. Onix is
+  a Sturdy suicide-wall: survives one hit, chips with Rock Tomb, and can
+  Self-Destruct. Both movesets are level-cap-legal.
 - History fragments: see BROCK-* in lore-ledger.md
 
 ## Gym 2 — Cerulean (Misty, Water) — Cascade Badge
