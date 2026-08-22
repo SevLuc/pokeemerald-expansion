@@ -30,9 +30,11 @@ python3 .claude/skills/moveset-legality/check_moveset.py SPECIES [LEVEL_CAP]
 
 ## What it prints
 
-1. **Header** — species, the level cap, and the configured level-up learnset
+1. **Header** — species, the level cap, the configured level-up learnset
    generation (read from `P_LVL_UP_LEARNSETS`; `GEN_LATEST` is resolved to the
-   number in `include/config/general.h`).
+   number in `include/config/general.h`), the species' **abilities** (the slot-3
+   ability is marked `(hidden)`), and its **gender** ratio (so you can tell
+   whether a trainer mon can be female / is genderless).
 2. **Legal pool at cap**, split into four buckets:
    - **Level-up (<= cap)** with the level each move is learned.
    - **Egg moves.**

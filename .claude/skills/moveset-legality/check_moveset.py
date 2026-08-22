@@ -104,6 +104,28 @@ def _load_json_local_or_git(root, relpath):
             pass
     return None
 
+def get_species_info(root, species):
+    """Read abilities + gender ratio for a species from the species_info
+    family headers. Returns (abilities_list, gender_string)."""
+    import glob
+    for f in sorted(glob.glob(os.path.join(root, 'src/data/pokemon/species_info/gen_*_families.h'))):
+        text = open(f).read()
+        m = re.search(r'\[SPECIES_' + re.escape(species) + r'\]\s*=\s*\{', text)
+        if not m:
+            continue
+        blk = text[m.end():m.end() + 2000]
+        am = re.search(r'\.abilities\s*=\s*\{([^}]*)\}', blk)
+        abilities = []  # list of (name, is_hidden); slot index 2 is the hidden ability
+        if am:
+            slots = [a.strip().replace('ABILITY_', '') for a in am.group(1).split(',')]
+            for i, a in enumerate(slots):
+                if a and a != 'NONE':
+                    abilities.append((a.replace('_', ' ').title(), i == 2))
+        gm = re.search(r'\.genderRatio\s*=\s*([A-Z0-9_()]+)', blk)
+        gender = gm.group(1) if gm else '?'
+        return abilities, gender
+    return None, None
+
 def get_advised(root, species):
     d = _load_json_local_or_git(root, 'docs/data/trainer-movesets.json')
     if d is None:
@@ -142,9 +164,16 @@ def main():
     OK = "✓"   # checkmark
     NO = "✗"   # cross
 
+    abilities, gender = get_species_info(root, species)
+
     print("=" * 70)
     print(f"SPECIES: {species}   (all_learnables key: {full_key})")
     print(f"LEVEL CAP: {cap}   |   level-up learnset gen: GEN_{gen}")
+    if abilities is not None:
+        gtxt = {"MON_GENDERLESS": "genderless"}.get(gender, gender)
+        shown = [f"{name} (hidden)" if hidden else name for name, hidden in abilities]
+        print(f"ABILITIES: {', '.join(shown) if shown else '(none)'}")
+        print(f"GENDER: {gtxt}")
     print("=" * 70)
 
     # ---- advised sets first, with checkmarks ---------------------------------
