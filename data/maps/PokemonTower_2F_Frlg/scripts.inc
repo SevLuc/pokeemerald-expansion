@@ -120,15 +120,9 @@ PokemonTower_2F_Text_RivalDefeat::
 	.string "where would I be?$"
 
 PokemonTower_2F_Text_RivalPostBattle::
-	.string "How's your POKéDEX coming?\n"
-	.string "I just caught a CUBONE!\p"
-	.string "I can't find the bigger MAROWAK.\n"
-	.string "Where could they be?\p"
-	.string "I bet there aren't any left!\p"
-	.string "Well, I better get going.\n"
-	.string "I've got a lot to accomplish,\l"
-	.string "unlike you.\p"
-	.string "Smell ya later!$"
+	.string "Wait really?\n"
+	.string "Old lady in the mansion?\p"
+	.string "Oh Cinnabar Island!!$"
 
 PokemonTower_2F_Text_TwitchRivalIntro::
 	.string "is your mon dead? for real?\n"
