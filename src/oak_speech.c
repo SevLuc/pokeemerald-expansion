@@ -1150,7 +1150,9 @@ static void Task_OakSpeech_WelcomeToTheWorld(u8 taskId)
         else
         {
             OakSpeechPrintMessage(gOakSpeech_Text_WelcomeToTheWorld, sOakSpeechResources->textSpeed, FALSE);
-            gTasks[taskId].func = Task_OakSpeech_ThisWorld;
+            // Skip the vanilla Nidoran demo + Oak monologue: the brief author
+            // welcome flows straight into the boy/girl + name prompts.
+            gTasks[taskId].func = Task_OakSpeech_FadeOutOak;
         }
     }
 }

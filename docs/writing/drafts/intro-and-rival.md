@@ -1,8 +1,11 @@
-# Intro + Rival select (PARKED)
+# Intro + Rival select
 
-STATUS: parked mid-design. Revisit AFTER the other characters. The rivals will
-get personalized, full arcs written by the user, so Phase 2 personalities are
-intentionally deferred. Nothing here is in-game yet.
+STATUS: intro welcome + rival-pick framing are now IN-GAME (2026-08-22). Final
+in-game text lives in data/text/new_game_intro_frlg.inc
+(gOakSpeech_Text_WelcomeToTheWorld = author welcome; gOakSpeech_Text_WhatWasHisName
+= rival-pick framing). The Oak-speech task skips the Nidoran demo so the welcome
+flows straight into boy/girl + name. The rivals' per-encounter arcs are still the
+user's to write; the drafts below are the earlier design notes.
 
 ## New-game intro flow (decided)
 1. Author welcome (replaces the Oak-speech welcome text; prepend to

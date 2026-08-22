@@ -7,6 +7,19 @@ Update in the same PR as the change.
 `YYYY-MM-DD` — area — one-line summary (PR/commit ref)
 
 ## Entries
+- 2026-08-22 - intro/story - Wired the new-game intro. Replaced the vanilla Oak
+  monologue with a brief author welcome (casual/old-school framing, "play by
+  whatever rules you like, the goal is to have FUN and explore") that flows
+  straight into the boy/girl + name prompts; the Oak-speech task now skips the
+  Nidoran demo (`src/oak_speech.c`, WelcomeToTheWorld -> FadeOutOak). Replaced the
+  "this is my grandson" rival-name preamble with the rival-pick framing
+  (`gOakSpeech_Text_WhatWasHisName`): the rival is flavored toward your favorite
+  opponent, so you choose which. Text in `data/text/new_game_intro_frlg.inc`.
+- 2026-08-22 - items/gameplay - Oak's first Poke Ball gift bumped from 5 to 90
+  (`PalletTown_ProfessorOaksLab_Frlg`, the Pokedex-handoff gift). The later
+  "ran out of balls" top-up still gives 5.
+- 2026-08-22 - QoL/config - Confirmed OW_HEAL_AFTER_BATTLE = TRUE (party fully
+  heals after every won/ended battle); no change needed, recorded for the overview.
 - 2026-08-22 - starters/gameplay - Player starter is now randomized per save. On
   a new game the Oak's Lab starter scene rolls one random Grass, one Water, and
   one Fire starter, each drawn independently from all nine generations (729
