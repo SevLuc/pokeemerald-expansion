@@ -780,6 +780,7 @@ PalletTown_ProfessorOaksLab_Movement_OakWalkToDeskSouth::
 	step_end
 
 PalletTown_ProfessorOaksLab_EventScript_RatePokedexOrTryGiveBalls::
+	msgbox PalletTown_ProfessorOaksLab_Text_OakScholarWhoGaveUp
 	setvar VAR_0x8004, 0
 	specialvar VAR_RESULT, GetFrlgPokedexCount
 	copyvar VAR_0x8008, VAR_0x8005
@@ -921,6 +922,7 @@ PalletTown_ProfessorOaksLab_EventScript_TryStartNationalDexScene::
 	end
 
 PalletTown_ProfessorOaksLab_EventScript_DontStartNationalDexScene::
+	msgbox PalletTown_ProfessorOaksLab_Text_OakChampionStillGaps
 	release
 	end
 
@@ -1251,7 +1253,7 @@ PalletTown_ProfessorOaksLab_EventScript_Aide1::
 	lock
 	faceplayer
 	goto_if_set FLAG_SYS_GAME_CLEAR, PalletTown_ProfessorOaksLab_EventScript_Aide1GameClear
-	msgbox PalletTown_ProfessorOaksLab_Text_StudyAsOaksAide
+	msgbox PalletTown_ProfessorOaksLab_Text_AideOakQuietAtAgatha
 	release
 	end
 
@@ -1265,7 +1267,7 @@ PalletTown_ProfessorOaksLab_EventScript_Aide2::
 	lock
 	faceplayer
 	goto_if_set FLAG_SYS_GAME_CLEAR, PalletTown_ProfessorOaksLab_EventScript_Aide2GameClear
-	msgbox PalletTown_ProfessorOaksLab_Text_StudyAsOaksAide
+	msgbox PalletTown_ProfessorOaksLab_Text_AideLanceTypeCharts
 	release
 	end
 
@@ -1737,10 +1739,50 @@ PalletTown_ProfessorOaksLab_Text_OakIsGoingToHaveRadioShow::
 	.string "OAK's POKéMON SEMINAR.$"
 
 PalletTown_ProfessorOaksLab_Text_OakIsAuthorityOnMons::
-	.string "PROF. OAK may not look like much,\n"
-	.string "but he's the authority on POKéMON.\p"
-	.string "Many POKéMON TRAINERS hold him in\n"
-	.string "high regard.$"
+	.string "The PROFESSOR rates every DEX\n"
+	.string "personally. Out loud. At length.\p"
+	.string "To anyone who'll stand still.\p"
+	.string "Bring him a full one someday.\n"
+	.string "I think the poor man might weep.$"
+
+PalletTown_ProfessorOaksLab_Text_AideOakQuietAtAgatha::
+	.string "I study POKéMON as PROF. OAK's\n"
+	.string "AIDE. …Mostly I field his calls.\p"
+	.string "Ask him about the old days and he\n"
+	.string "lights right up.\p"
+	.string "But say the name AGATHA to him?\n"
+	.string "He goes quiet. Every time.\p"
+	.string "…I've learned not to ask.$"
+
+PalletTown_ProfessorOaksLab_Text_AideLanceTypeCharts::
+	.string "I study POKéMON as PROF. OAK's\n"
+	.string "AIDE. We catalogue everything.\p"
+	.string "LANCE of the ELITE FOUR came by\n"
+	.string "once. The PROFESSOR showed him\l"
+	.string "the type charts for an hour.\p"
+	.string "LANCE only nodded. Said,\n"
+	.string "'So… a dragon.'\p"
+	.string "The PROFESSOR had to go lie down.$"
+
+PalletTown_ProfessorOaksLab_Text_OakScholarWhoGaveUp::
+	.string "OAK: Ah, {PLAYER}!\p"
+	.string "An old friend once told me a\n"
+	.string "scholar is a trainer who gave up.\p"
+	.string "…She wasn't entirely wrong.\p"
+	.string "But SOMEONE must write it all\n"
+	.string "down! …Where was I.\p"
+	.string "Yes! Your POKéDEX. Let's see it.$"
+
+PalletTown_ProfessorOaksLab_Text_OakChampionStillGaps::
+	.string "OAK: CHAMPION, and my DEX still\n"
+	.string "has gaps.\p"
+	.string "…You see my problem.\n"
+	.string "No rest for either of us!\p"
+	.string "AGATHA? …Hoho. We were young.\p"
+	.string "She never forgave me for setting\n"
+	.string "my POKéBALLS down for a notebook.\p"
+	.string "…Perhaps she was right.\p"
+	.string "Now! About those blank pages…$"
 
 PalletTown_ProfessorOaksLab_Text_OakFavorToAskYouPlayer::
 	.string "Ah, now this is excellent!\p"

@@ -52,13 +52,12 @@ OneIsland_KindleRoad_EmberSpa_EventScript_SpaHeal::
 	end
 
 OneIsland_KindleRoad_EmberSpa_Text_WaterWarmsMeToCore::
-	.string "Hm!\n"
-	.string "Haaaaaaaaaaah!\p"
-	.string "Aaaah! This is heavenly!\n"
-	.string "The water warms me to my core!\p"
-	.string "You should jump in, too.\p"
-	.string "Go to the middle, relax, and get\n"
-	.string "good and warm!$"
+	.string "Haaaah… nothing beats the spring\n"
+	.string "after a climb.\p"
+	.string "Up the mountain, the wild POKéMON\n"
+	.string "don't run from BRUNO.\p"
+	.string "They sit with him. Still and quiet.\p"
+	.string "…I've seen it with my own eyes.$"
 
 OneIsland_KindleRoad_EmberSpa_Text_EnjoyBowlOfChowder::
 	.string "My favorite part of bathing comes\n"
@@ -73,8 +72,11 @@ OneIsland_KindleRoad_EmberSpa_Text_WaterExquisiteFullyRefreshed::
 	.string "fully refreshed!$"
 
 OneIsland_KindleRoad_EmberSpa_Text_HotSpringIsTherapeutic::
-	.string "Soaking in a hot spring pool is\n"
-	.string "therapeutic, people say.$"
+	.string "You hike MT. EMBER much?\p"
+	.string "Every trail that man BRUNO walks\n"
+	.string "comes back cleaner than he found it.\p"
+	.string "Never says a word about it.\n"
+	.string "Just does it, and moves on.$"
 
 OneIsland_KindleRoad_EmberSpa_Text_SeeHowSmoothMySkinIs::
 	.string "Have a look at my face.\n"

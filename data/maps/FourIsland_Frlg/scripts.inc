@@ -208,10 +208,12 @@ FourIsland_Text_LoreleiHasLotsOfStuffedDolls::
 	.string "FOUR ISLAND, her collection grows!$"
 
 FourIsland_Text_MadeSlushieUsingIcefallCaveIce::
-	.string "Ooh, chilly!\p"
-	.string "I made a slushie using ice I\n"
-	.string "shaved inside ICEFALL CAVE.\p"
-	.string "It's chilly and tasty!$"
+	.string "LORELEI keeps a list, you know.\p"
+	.string "Every ICE type folks dare to call\n"
+	.string "weak, she means to prove wrong.\p"
+	.string "Top of the list?\p"
+	.string "Some soft little no-account she\n"
+	.string "only ever calls VANILLA.$"
 
 FourIsland_Text_LoreleisHouse::
 	.string "LORELEI'S HOUSE$"

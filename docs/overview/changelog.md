@@ -7,6 +7,19 @@ Update in the same PR as the change.
 `YYYY-MM-DD` — area — one-line summary (PR/commit ref)
 
 ## Entries
+- 2026-08-22 - story/lore - Authored + placed 15 distributed-lore beats for Oak and
+  the Elite Four by overwriting existing generic NPCs (no new objects): Oak OAK-05/06/
+  07/08/10 (aide gags, dex-rating gremlin, Agatha hook, post-game musing), Lorelei-08
+  (Four Island grudge list, "VANILLA"), Bruno-03/04 (Ember Spa mountain sightings),
+  Agatha-03/04/08 (young Agatha, Oak goes quiet, post-game reflection), Lance-03/04/05/
+  06 (Seven Island Mart + Cinnabar Lab + Oak's Lab "so... a dragon"). OAK-08 and
+  AGATHA-08 folded into one post-game Oak branch (FLAG_SYS_GAME_CLEAR). Lore-ledger
+  updated per beat. Skipped (need new Porymap objects): OAK-09 (Pallet 3 AM Pidgey,
+  no spare townsperson) and LORELEI-06 (Icefall Cave has no NPC objects). Note:
+  OAK-07 prepends Oak's recurring dex-rating talk, so it repeats on each mid-game
+  Oak chat (broken-record gremlin voice; fire-once would need a spare flag).
+- 2026-08-22 - story/rival - Wired Twitch's post-game National-Dex lines and placed
+  Buhrito's Pokemon Tower post-battle "Cinnabar" gag (intentional wrong-geography kept).
 - 2026-08-22 - story/brock - Placed 4 of Brock's 6 remaining Pewter-arc gossip
   lines by repurposing Pewter's one spare NPC (the Bug Catcher) into a single
   PROGRESSIVE Brock-gossip NPC: ungated "get in line / his lawyers, mostly",

@@ -41,11 +41,25 @@ truth until they're updated):
   in-game arcs; Giovanni's was already reflavored. Their world-NPC/gym scripts were
   already in-game from earlier work (verified). Coy level preserved (Brock never
   states divorce; Erika stays contradictory; Blaine's MEWTWO stays implied).
+- Stage 2d - distributed E4/Oak gaps placed by overwriting existing generic NPCs
+  (this pass): OAK-05 (Route 15 EXP SHARE aide), OAK-06 (Oak's Lab Aide3), OAK-07
+  (Prof. Oak mid-game RatePokedex prepend), OAK-08 + AGATHA-08 (Prof. Oak post-game
+  DontStartNationalDexScene, folded), OAK-10 (Route 11 ITEMFINDER aide), AGATHA-03
+  (Lavender PokéCenter Gentleman), AGATHA-04 (Oak's Lab Aide1), LANCE-06 (Oak's Lab
+  Aide2), LORELEI-08 (Four Island FatMan), BRUNO-03/04 (Ember Spa OldMan/BaldingMan2),
+  LANCE-03/04 (Seven Island Mart Fisher/Lass), LANCE-05 (Cinnabar Lab Research Room
+  Scientist). Oak's Lab used three DIFFERENT aides for the three aide beats; the two
+  Oak-himself beats are separate branches on Prof. Oak. Aide reward/YES-NO flows and
+  famechecker calls were preserved; only flavor text swapped.
 REMAINING:
-- Oak: the other route aides (Route 10 / 11 etc.) stay vanilla-functional so the
-  nuzlocke gag isn't repeated; the starter-choice scene stays mostly instructional.
+- SKIPPED this pass (no spare NPC without a NEW object; not forced onto plot/mismatch):
+  OAK-09 (no spare Pallet townsperson - FatMan is BLAINE-RUMORS, SignLady is tutorial),
+  LORELEI-06 (Icefall Cave has zero object NPCs). Both need a Porymap object to place.
 - Stage 3 (needs Porymap objects): every fragment whose Source is "new" (the Pallet
-  photo, new Four Island / Icefall / reception islanders, etc.).
+  photo, new Four Island / Icefall / reception islanders, etc.), plus OAK-09 / LORELEI-06.
+- Note: BRUNO-03/04 moved from Kindle Road/Mt Ember (all-trainers, no spare flavor NPC)
+  to Ember Spa patrons on the same island - spa-goers reporting mountain sightings, so
+  SHOW-DON'T-TELL and Bruno's One Island footprint are preserved.
 
 ## Brock - "the phones" gag + serial-divorcé history
 Concept: Brock's gym is cluttered with ringing phones. Surface gag: he's always
@@ -464,9 +478,9 @@ only, no new art, no moved story beats.
 | LORELEI-03 | Lorelei (crusade origin) | Islander: "Ever since, she'll not hear one bad word about ICE types. Owes them everything, she says. Won't say more." | Four Island NPC (existing) | Four Island | reached Four Island | 3 | drafted | - |
 | LORELEI-04 | Lorelei (the doll shrine) | Doll object (reflavor): "Shelves of stuffed ICE POKéMON. One LAPRAS doll sits above them all, old and hugged near bald." | doll object (existing) | Four Island, Lorelei's House | reached Four Island | 4 | drafted | - |
 | LORELEI-05 | Lorelei (home vs. duty) | Her vanilla "the island where I was born…" lines, logged as-is (the fierce-defender core). | Lorelei (vanilla) | Four Island, Lorelei's House | vanilla | 5 | in-game | - |
-| LORELEI-06 | Lorelei (where it happened) | In the cave: "Cold, isn't it? This is where it happened. A child, the ice, the water. …She came back." | Icefall Cave NPC (existing/new) | Four Island, Icefall Cave | reached Four Island | 6 | drafted | - |
+| LORELEI-06 | Lorelei (where it happened) | In the cave: "Cold, isn't it? This is where it happened. A child, the ice, the water. …She came back." | (none) | Four Island, Icefall Cave | reached Four Island | 6 | SKIPPED | Icefall Cave (Entrance/1F/B1F/Back) has ZERO object NPCs (only item balls). No new objects allowed. |
 | LORELEI-07 | Lorelei (fierce defender) | Islander (after Rocket beat): "She left the LEAGUE the moment we were threatened. Came home cold and furious. We were glad of it." | Four Island NPC (existing) | Four Island | FLAG_DEFEATED_ROCKETS_IN_WAREHOUSE | 7 | drafted | - |
-| LORELEI-08 | Lorelei (the grudge, coy) | Islander: "She keeps a list. Every ICE type folks call weak, she'll prove wrong. Top of it? Some soft no-account she just calls VANILLA." | Four Island NPC (existing) | Four Island | reached Four Island | 8 | drafted | [FLAG: dated] [FLAG: release-swap] |
+| LORELEI-08 | Lorelei (the grudge, coy) | Islander: "She keeps a list. Every ICE type folks call weak, she'll prove wrong. Top of it? Some soft no-account she just calls VANILLA." | Four Island FatMan (existing slushie NPC, reflavored) | Four Island | reached Four Island | 8 | in-game | [FLAG: dated] [FLAG: release-swap] |
 | LORELEI-09 | Lorelei (post-defeat) | Reception callback: "Beat LORELEI? She'll not sleep a month. She'll say ICE can always get stronger. …She's not wrong." | reception NPC (existing/new) | Indigo Plateau reception | FLAG_DEFEATED_LORELEI | 9 | drafted | - |
 | LORELEI-10 | Lorelei (battle voice) | Intro (crusade + ICE BUCKET CHALLENGE + VANILLA jab); flavored defeat "…Not the ICE. Never the ICE. …That was me. Only me."; post-battle "you beat ME, not ICE." Option A. | Lorelei | Indigo Plateau, Lorelei's Room | at the battle | 10 | in-game | [FLAG: dated] [FLAG: release-swap] |
 
@@ -517,8 +531,8 @@ reflavored directly. Uses existing NPCs only, no new art, no moved beats.
 |---|---|---|---|---|---|---|---|---|
 | BRUNO-01 | Bruno (the care) | Black Belt: "Senior tends his POKéMON's hurts before his own, every time. …I try to be like that." | Black Belt (existing, reflavor) | One Island, Ember Spa | reached One Island | 1 | drafted | - |
 | BRUNO-02 | Bruno (the aura) | Black Belt: "Sat with him in the spring once. He said maybe three words the whole hour. Best hour of my life." | Black Belt (existing, reflavor) | One Island, Ember Spa | reached One Island | 2 | drafted | - |
-| BRUNO-03 | Bruno (lives in the wild) | Hiker: "Up the mountain the wild POKéMON don't run from him. They sit with him. I've seen it." | Hiker (existing/new) | One Island, Kindle Road / Mt. Ember | reached One Island | 3 | drafted | - |
-| BRUNO-04 | Bruno (steward) | Wanderer: "Every trail that man walks comes back cleaner. Never says a word about it. Just does it." | wild-area NPC (existing/new) | One Island, Kindle Road | reached One Island | 4 | drafted | - |
+| BRUNO-03 | Bruno (lives in the wild) | Spa patron (mountain-goer): "Up the mountain the wild POKéMON don't run from him. They sit with him. …I've seen it." | Ember Spa OldMan (existing, reflavored) | One Island, Ember Spa | reached One Island | 3 | in-game | - |
+| BRUNO-04 | Bruno (steward) | Spa patron: "Every trail that man walks comes back cleaner than he found it. Never says a word about it. Just does it." | Ember Spa BaldingMan2 (existing, reflavored) | One Island, Ember Spa | reached One Island | 4 | in-game | - |
 | BRUNO-05 | Bruno (equanimity) | Islander (candybar, reframed): "One of the ELITE FOUR came all this way for a RAGE CANDYBAR. Sold out. He just smiled, thanked us, and left. Not a flicker." | Two Island NPC (existing, reflavor) | Two Island | reached Two Island | 5 | drafted | - |
 | BRUNO-06 | Bruno (honors every path) | Sevault NPC: "Folk think he trains alone by creed. He'll tell you every path has worth. He walked one once with a fellow called BRAWLY." | Sevault NPC (existing, reflavor) | Seven Island, Sevault Canyon | reached Seven Island | 6 | drafted | [FLAG: canon-check] |
 | BRUNO-07 | Bruno (why the League) | Sevault NPC: "Why leave his quiet mountain for the LEAGUE? One thing moves him. The chance to meet someone truly strong." | Sevault NPC (existing, reflavor) | Seven Island, Sevault Canyon | reached Seven Island | 7 | drafted | - |
@@ -574,12 +588,12 @@ and Bruno (the Sevii circuit).
 |---|---|---|---|---|---|---|---|---|
 | AGATHA-01 | Agatha (the terror) | Indigo PC (reflavor): her GHOST types are terror, and "that old lady's got a short fuse. …Bless her." | trainer NPC (existing, reflavor) | Indigo Plateau PC | reached League | 1 | drafted | - |
 | AGATHA-02 | Agatha (the philosophy) | Six Island Mart (reflavor): oldest-ever E4 member. "Fill a book with POKéMON? She'd sooner fill a graveyard. Battle, prove it, live long. …Then she'll end you." | Mart NPC (existing, reflavor) | Six Island Mart | reached Six Island | 2 | drafted | - |
-| AGATHA-03 | Agatha (history, coy) | Lavender old-timer: young Agatha trained among the Tower's spirits, "back when someone she knew chose books over battle." | Lavender NPC (existing/new) | Lavender Town | after Pokémon Tower | 3 | drafted | - |
-| AGATHA-04 | Agatha (the grief, coy) | Oak's aide: "The PROFESSOR goes quiet when her name comes up. …I've learned not to ask." | Oak's Lab aide (existing) | Pallet, Oak's Lab | after ~5th badge | 4 | drafted | - |
+| AGATHA-03 | Agatha (history, coy) | Lavender old-timer: young Agatha trained among the Tower's spirits, "back when a friend of hers chose books over battle." | Lavender PokéCenter 1F Gentleman (existing, reflavored) | Lavender Town PokéCenter | none (ambient) | 3 | in-game | - |
+| AGATHA-04 | Agatha (the grief, coy) | Oak's aide: "Say the name AGATHA to him? He goes quiet. Every time. …I've learned not to ask." | Oak's Lab Aide1 (existing Scientist aide, reflavored; game-clear radio branch kept) | Pallet, Oak's Lab | none (ambient) | 4 | in-game | [FLAG: canon-check] |
 | AGATHA-05 | Agatha (the photo, coy) | Old photo at the Lab: two young trainers squaring off, grinning like they meant it. No names written. | photo object (existing/new) | Pallet, Oak's Lab | after ~5th badge | 5 | drafted | - |
 | AGATHA-06 | Agatha (why she stays) | Islander: "She could have retired a legend. She stays in the ring. Like she's proving something to somebody." | Six Island NPC (existing/new) | Six Island | reached Six Island | 6 | drafted | - |
 | AGATHA-07 | Agatha (who she respects) | Reception NPC: "She's got no time for POKéDEX-fillers. But a trainer who battles to prove herself? …That one she'll respect to the grave." | reception NPC (existing/new) | Indigo Plateau reception | reached League | 7 | drafted | - |
-| AGATHA-08 | Agatha + Oak (capstone) | OAK, coy: "AGATHA? …We were young. She never forgave me for putting my POKéBALLS down. …Perhaps she was right." | Prof. Oak | Pallet, Oak's Lab | post-E4 | 8 | drafted | [FLAG: canon-check] |
+| AGATHA-08 | Agatha + Oak (capstone) | OAK, coy: "AGATHA? …We were young. She never forgave me for setting my POKéBALLS down for a notebook. …Perhaps she was right." | Prof. Oak (folded into OAK-08 post-game DontStartNationalDexScene branch) | Pallet, Oak's Lab | FLAG_SYS_GAME_CLEAR (post-E4) | 8 | in-game | [FLAG: canon-check] |
 | AGATHA-09 | Agatha (battle voice) | FLAVORED: intro roasts OAK + the thesis ("not for cataloguing… for BATTLE"); defeat "There's fire in you, child. …I like that."; post "OAK was right about you. Don't tell him I said so." | Agatha | Indigo Plateau, Agatha's Room | at the battle | 9 | in-game | - |
 | AGATHA-10 | Agatha (post-defeat) | Reception callback: "She called you 'something special,' did she? From that one, that's a love letter." | reception NPC (existing/new) | Indigo Plateau reception | FLAG_DEFEATED_AGATHA | 10 | drafted | - |
 
@@ -637,12 +651,12 @@ naming her. FOLLOW-UP: realign Agatha's ledger spine to foreground this axis
 | OAK-02 | Oak (dex mania) | Lab dex charge: "Every species. Every last one. Leave NO gaps, NO blank pages! …You'll catch them all. I can feel it. Off you go!" | Prof. Oak | Pallet, Oak's Lab | story (starter/dex) | 2 | drafted | - |
 | OAK-03 | Oak (the DEX) | Parcel/POKéDEX handoff: "A POKéDEX! High-tech, hand-picked, and horribly, wonderfully EMPTY. Fill it. For science. For me. …Mostly for me." | Prof. Oak | Pallet, Oak's Lab | story (parcel) | 3 | drafted | - |
 | OAK-04 | Oak (nuzlocke denial, coy) | Aide: "He heard a rumor that spooked him. Some trainers keep but ONE POKéMON per route. Retire it if it falls. He went pale. 'Not {PLAYER},' he said. …You will catch them all. Won't you?" | Oak's Aide (existing, reflavor) | Route 2 / 10 / 11 aide buildings | dex milestone / reached route | 4 | drafted | [FLAG: dated] |
-| OAK-05 | Oak (the horror, coy) | Aide: "Some trainer breezed through. Caught one POKéMON. ONE. Then left. The PROFESSOR hasn't slept. …Please. Catch two. For me." | Oak's Aide (existing, reflavor) | Route aide building | dex milestone / reached route | 5 | drafted | [FLAG: dated] |
-| OAK-06 | Oak (the ratings) | Aide/lab: "He rates every DEX personally. Out loud. At length. To anyone. Bring him a full one and I think the poor man might weep." | Oak's Aide (existing/new) | route aide / Oak's Lab | dex progress | 6 | drafted | - |
-| OAK-07 | Oak + Agatha (hook, coy) | Lab: "An old friend once told me a scholar is a trainer who gave up. …She wasn't entirely wrong. But SOMEONE must write it all down! …Where was I. Yes! Your DEX!" | Prof. Oak | Pallet, Oak's Lab | after dex started | 7 | drafted | [FLAG: canon-check] |
-| OAK-08 | Oak (post-game) | After Hall of Fame: "CHAMPION, and my DEX still has gaps. …You see my problem. No rest for either of us! Now, about those blank pages-" | Prof. Oak | Pallet, Oak's Lab | FLAG_SYS_GAME_CLEAR | 8 | drafted | - |
-| OAK-09 | Oak (reverence vs. gremlin) | Pallet townsperson: "PROF. OAK? A great man. A genius. …Also he once called my house at 3 AM to ask if my PIDGEY was 'new.'" | Pallet NPC (existing/new) | Pallet Town | none | 9 | drafted | - |
-| OAK-10 | Oak (bridge to Agatha) | Aide: "Between us? He knows not everyone catches for science. Some battle to prove themselves. He respects it, though he'll never say. …An old rival of his would adore you." | Oak's Aide (existing/new) | route aide building | mid-game | 10 | drafted | [FLAG: canon-check] |
+| OAK-05 | Oak (the horror, coy) | Aide: "Some trainer breezed through. Caught one POKéMON. ONE. Then left. The PROFESSOR hasn't slept. …Please. Catch two. For me." | Route 15 West Entrance 2F aide (existing EXP SHARE aide, intro reflavored; YES/NO reward flow kept) | Route 15 West Entrance 2F | on the aide's dex-reward talk | 5 | in-game | [FLAG: dated] |
+| OAK-06 | Oak (the ratings) | Aide: "He rates every DEX personally. Out loud. At length. To anyone who'll stand still. Bring him a full one and the poor man might weep." | Oak's Lab Aide3 (existing Worker_F aide, reflavored; famechecker OAK 2 kept) | Pallet, Oak's Lab | none (ambient) | 6 | in-game | - |
+| OAK-07 | Oak + Agatha (hook, coy) | Lab: "An old friend once told me a scholar is a trainer who gave up. …She wasn't entirely wrong. But SOMEONE must write it all down! …Where was I. Yes! Your DEX!" | Prof. Oak (prepended to his mid-game RatePokedexOrTryGiveBalls talk) | Pallet, Oak's Lab | LAB_SCENE 6 (after dex started, pre-national dex) | 7 | in-game | [FLAG: canon-check] |
+| OAK-08 | Oak (post-game) | After Hall of Fame: "CHAMPION, and my DEX still has gaps. …No rest for either of us! Now, about those blank pages…" (folded with AGATHA-08) | Prof. Oak (post-game DontStartNationalDexScene branch) | Pallet, Oak's Lab | FLAG_SYS_GAME_CLEAR (post-E4, pre-national dex) | 8 | in-game | [FLAG: canon-check] |
+| OAK-09 | Oak (reverence vs. gremlin) | Pallet townsperson: "PROF. OAK? A great man. A genius. …Also he once called my house at 3 AM to ask if my PIDGEY was 'new.'" | (none) | Pallet Town | none | 9 | SKIPPED | no spare Pallet townsperson: FatMan already carries BLAINE-RUMORS, SignLady is a tutorial NPC, houses are Mom/Daisy (plot). No new objects allowed. |
+| OAK-10 | Oak (bridge to Agatha) | Aide: "Off the record? He knows not everyone catches for science. Some battle to prove it. He respects it, though he'll never say. …An old rival of his would adore you." | Route 11 East Entrance 2F aide (existing ITEMFINDER aide, intro reflavored; reward flow kept) | Route 11 East Entrance 2F | on the aide's dex-reward talk | 10 | in-game | [FLAG: canon-check] |
 
 Consistency notes:
 - Oak's own lines go FULL comedy from Route 1; the new-game narration stays the
@@ -689,10 +703,10 @@ through NPCs everywhere who have a Lance story or have been happily converted.
 |---|---|---|---|---|---|---|---|---|
 | LANCE-01 | Lance (the gospel) | Reception: "The fourth room is LANCE, the dragon master. He'll tell you your POKéMON is a dragon. All of them. …Just nod. He's usually right, somehow." | reception NPC (existing/new) | Indigo Plateau reception | reached League | 1 | drafted | - |
 | LANCE-02 | Lance (the convert) | Saffron fan (reflavor canon): "LANCE showed me my GYARADOS is a SEA DRAGON. Now I can't UNSEE it! He's the greatest, LANCE!" | Saffron fan (existing, reflavor) | Saffron City | after Saffron | 2 | drafted | - |
-| LANCE-03 | Lance (dragon in waiting) | Fisher: "LANCE called my MAGIKARP 'a dragon in waiting.' …It's a GYARADOS now. The man SEES it." | Fisher (existing/new) | Route / Cerulean | none | 3 | drafted | - |
-| LANCE-04 | Lance (the taxonomy) | Trainer: "To LANCE there are two kinds of POKéMON. Dragons, and dragons that don't know it yet. …I'm starting to think he's onto something." | trainer NPC (existing/new) | any town | reached League | 4 | drafted | - |
-| LANCE-05 | Lance (ancient dragon) | Fossil NPC: "Told LANCE his AERODACTYL is a ROCK type. He just smiled. 'An ANCIENT dragon,' he said. …You can't argue that smile." | Cinnabar / Fossil NPC (existing/new) | Cinnabar / Fossil | none | 5 | drafted | - |
-| LANCE-06 | Lance + Oak (cross-link) | Oak's aide: "PROF. OAK showed him the type charts for an hour. LANCE nodded. Said, 'So… a dragon.' OAK had to go lie down." | Oak's Lab aide (existing) | Pallet, Oak's Lab | mid-game | 6 | drafted | [FLAG: canon-check] |
+| LANCE-03 | Lance (dragon in waiting) | Fisher: "LANCE called my MAGIKARP 'a dragon in waiting.' …It's a GYARADOS now. The man SEES it." | Seven Island Mart Fisher (existing flavor NPC, reflavored) | Seven Island Mart | none | 3 | in-game | - |
+| LANCE-04 | Lance (the taxonomy) | "To LANCE there are two kinds of POKéMON. Dragons, and dragons that don't know it yet. …I'm starting to think he's onto something." | Seven Island Mart Lass (existing flavor NPC, reflavored) | Seven Island Mart | none | 4 | in-game | - |
+| LANCE-05 | Lance (ancient dragon) | Fossil NPC: "Told LANCE his AERODACTYL is a ROCK type. He just smiled. 'An ANCIENT dragon,' he said. …You can't argue that smile." | Cinnabar PokéMON Lab Research Room Scientist (existing, reflavored; sits by the OLD AMBER) | Cinnabar, PokéMON Lab Research Room | none | 5 | in-game | [FLAG: canon-check] |
+| LANCE-06 | Lance + Oak (cross-link) | Oak's aide: "PROF. OAK showed him the type charts for an hour. LANCE nodded. Said, 'So… a dragon.' OAK had to go lie down." | Oak's Lab Aide2 (existing Scientist aide, reflavored; game-clear Daisy branch kept) | Pallet, Oak's Lab | none (ambient) | 6 | in-game | [FLAG: canon-check] |
 | LANCE-07 | Lance (bloodline) | NPC (reflavor canon cousin): "It runs in the blood. A cousin of his leads a gym far away. Same gift, sees the dragon in everything. …Holidays there sound exhausting." | Indigo NPC (existing, reflavor) | Indigo Plateau / town | reached League | 7 | drafted | [FLAG: canon-check] |
 | LANCE-08 | Lance (the belief / awe) | Reception: "His dragons fight like they can't be hurt. Because HE believes it. So THEY believe it. …That's the wall you're climbing." | reception NPC (existing/new) | Indigo Plateau reception | reached League | 8 | drafted | - |
 | LANCE-09 | Lance (battle voice) | INTRO "I like dragons." (rematch "I still like dragons.") / DEFEAT (D-C) "…You DO like dragons, though? …Say you like dragons." / POST "…DRAGGIN DEEZ NUTS!! …Go on. The CHAMPION waits." (vanilla rival-reveal dropped; the RIVAL battle still auto-triggers on entering the next room) | Lance | Indigo Plateau, Lance's Room | at the battle | 9 | in-game | [FLAG: dated] |

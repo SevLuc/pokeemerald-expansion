@@ -18,8 +18,12 @@ CinnabarIsland_PokemonLab_ResearchRoom_EventScript_AmberPipe::
 	end
 
 CinnabarIsland_PokemonLab_ResearchRoom_Text_EeveeCanEvolveIntroThreeMons::
-	.string "EEVEE can evolve into one of three\n"
-	.string "kinds of POKéMON.$"
+	.string "That OLD AMBER we revive here?\p"
+	.string "Out comes AERODACTYL. A ROCK\n"
+	.string "type, I once told LANCE.\p"
+	.string "He only smiled.\n"
+	.string "'An ANCIENT dragon,' he said.\p"
+	.string "…You can't argue that smile.$"
 
 CinnabarIsland_PokemonLab_ResearchRoom_Text_LegendaryBirdEmail::
 	.string "There's an e-mail message.\p"
