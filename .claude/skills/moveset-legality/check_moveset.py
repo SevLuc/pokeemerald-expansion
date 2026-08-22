@@ -139,34 +139,16 @@ def main():
         if k in lu_over: return False, f"level-up L{lu_over[k][0]} only (> cap, no TM/tutor/egg path)"
         return False, "not learnable by this species in this build"
 
+    OK = "✓"   # checkmark
+    NO = "✗"   # cross
+
     print("=" * 70)
     print(f"SPECIES: {species}   (all_learnables key: {full_key})")
     print(f"LEVEL CAP: {cap}   |   level-up learnset gen: GEN_{gen}")
     print("=" * 70)
 
-    print(f"\nLEGAL POOL AT CAP {cap}")
-    print("-" * 70)
-    print("Level-up (<= %d):" % cap)
-    for k, (lv, mv) in sorted(lu_le.items(), key=lambda x: x[1][0]):
-        print(f"   L{lv:<3} {pretty(mv)}")
-    print("Egg moves:")
-    print("   " + (", ".join(sorted(pretty(v) for v in egg.values())) if egg else "(none)"))
-    print("TM moves (learnable):")
-    print("   " + (", ".join(sorted(pretty(v) for v in tm_pool.values())) if tm_pool else "(none)"))
-    print("Tutor / other teachable moves:")
-    print("   " + (", ".join(sorted(pretty(v) for v in tutor_pool.values())) if tutor_pool else "(none)"))
-
-    print(f"\nLOCKED BY CAP (level-up moves learned above L{cap}, no TM/tutor/egg path)")
-    print("-" * 70)
-    locked = {k: v for k, v in lu_over.items()
-              if k not in egg and k not in tm_pool and k not in tutor_pool}
-    if locked:
-        for k, (lv, mv) in sorted(locked.items(), key=lambda x: x[1][0]):
-            print(f"   L{lv:<3} {pretty(mv)}")
-    else:
-        print("   (none)")
-
-    print(f"\nADVISED SETS (docs/data/trainer-movesets.json)")
+    # ---- advised sets first, with checkmarks ---------------------------------
+    print(f"\nADVISED SETS   ({OK} = possible at cap {cap}, {NO} = not possible)")
     print("-" * 70)
     advised = get_advised(root, species)
     if advised is None:
@@ -180,11 +162,45 @@ def main():
             ok = sum(1 for good, _ in verds if good)
             print(f"\n[{i}] {e.get('hack','?')} | {e.get('trainer','?')} "
                   f"| gym {e.get('gym','?')} | Lv {e.get('level','?')} "
-                  f"| ability {e.get('ability','?')} | nature {e.get('nature','?')}")
-            print(f"    LEGAL {ok}/{len(moves)}")
+                  f"| ability {e.get('ability','?')} | nature {e.get('nature','?')}"
+                  f"   ->  {ok}/{len(moves)} possible")
             for mv, (good, reason) in zip(moves, verds):
-                tag = "LEGAL " if good else "ILLEGAL"
-                print(f"      [{tag}] {mv:<16} {reason}")
+                mark = OK if good else NO
+                note = reason if good else f"NOT POSSIBLE - {reason}"
+                print(f"      {mark} {pretty(mv):<16} {note}")
+
+    # ---- swap menu: every legal move, to replace any cross above -------------
+    print(f"\nSWAP MENU - all moves POSSIBLE at cap {cap} (pick replacements for any {NO})")
+    print("-" * 70)
+    print("Level-up (<= %d):" % cap)
+    for k, (lv, mv) in sorted(lu_le.items(), key=lambda x: x[1][0]):
+        print(f"   {OK} L{lv:<3} {pretty(mv)}")
+    print("Egg moves:")
+    for v in sorted(pretty(v) for v in egg.values()):
+        print(f"   {OK} {v}")
+    if not egg:
+        print("   (none)")
+    print("TM moves (learnable):")
+    for v in sorted(pretty(v) for v in tm_pool.values()):
+        print(f"   {OK} {v}")
+    if not tm_pool:
+        print("   (none)")
+    print("Tutor / other teachable moves:")
+    for v in sorted(pretty(v) for v in tutor_pool.values()):
+        print(f"   {OK} {v}")
+    if not tutor_pool:
+        print("   (none)")
+
+    # ---- what the cap removes (context) --------------------------------------
+    print(f"\nNOT POSSIBLE - locked by cap (level-up above L{cap}, no TM/tutor/egg path)")
+    print("-" * 70)
+    locked = {k: v for k, v in lu_over.items()
+              if k not in egg and k not in tm_pool and k not in tutor_pool}
+    if locked:
+        for k, (lv, mv) in sorted(locked.items(), key=lambda x: x[1][0]):
+            print(f"   {NO} L{lv:<3} {pretty(mv)}")
+    else:
+        print("   (none)")
 
 if __name__ == '__main__':
     main()
