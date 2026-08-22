@@ -15,7 +15,7 @@ hard-but-fair rebalance against vanilla.
   so with the default pool rules the game currently picks 6 semi-randomly (ace
   always in). See "pending" note below.
 - Pool members (all Lv14, perfect IVs, all female except genderless Stakataka):
-  - ALOLAN GEODUDE (F) nicknamed "turd sayan", Galvanize (Headbutt / Rock Tomb /
+  - ALOLAN GEODUDE (F) nicknamed "goku turd", Galvanize (Headbutt / Rock Tomb /
     Bulldoze / Mud-Slap)
   - ARON (F), Sturdy (Aerial Ace / Rock Tomb / Iron Head / Body Press)
   - GLIMMET (F), Corrosion (Acid Spray / Ancient Power / Mud Shot / Spikes)
