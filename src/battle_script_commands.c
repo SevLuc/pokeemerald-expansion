@@ -10193,6 +10193,12 @@ static void Cmd_givecaughtmon(void)
                 SetMonData(caughtMon, MON_DATA_HELD_ITEM, &lostItem);  // Restore non-berry items
         }
 
+        // Caught Pokemon start at maximum friendship.
+        {
+            u32 maxFriendship = MAX_FRIENDSHIP;
+            SetMonData(caughtMon, MON_DATA_FRIENDSHIP, &maxFriendship);
+        }
+
         u32 emptySlot;
         for (emptySlot = 0; emptySlot < PARTY_SIZE; emptySlot++)
         {
