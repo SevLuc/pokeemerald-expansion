@@ -16,7 +16,11 @@ CeladonCity_House1_EventScript_Rocket2::
 CeladonCity_House1_Text_SlotsReelInTheDough::
 	.string "Hehehe!\p"
 	.string "The slots just reel in the dough,\n"
-	.string "big-time!$"
+	.string "big-time!\p"
+	.string "The BOSS came up from nothing, you\n"
+	.string "know. Clawed his way here.\p"
+	.string "And it's still not enough for him.\n"
+	.string "…It never will be.$"
 
 CeladonCity_House1_Text_ShippedMonsAsSlotPrizes::
 	.string "CHIEF!\p"

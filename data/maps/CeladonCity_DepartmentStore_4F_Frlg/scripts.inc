@@ -38,8 +38,12 @@ CeladonCity_DepartmentStore_4F_Items::
 CeladonCity_DepartmentStore_4F_Text_GettingPokeDollAsPresent::
 	.string "I'm getting a present for my\n"
 	.string "girlfriend.\p"
-	.string "I guess a POKé DOLL will be it.\n"
-	.string "It's the popular thing.$"
+	.string "A POKé DOLL, I guess. The popular\n"
+	.string "thing.\p"
+	.string "What she really wants isn't sold\n"
+	.string "here. One of HER perfumes.\p"
+	.string "You don't buy those. …She picks\n"
+	.string "who gets one.$"
 
 CeladonCity_DepartmentStore_4F_Text_CanRunAwayWithPokeDoll::
 	.string "I heard something useful.\p"

@@ -37,7 +37,12 @@ SaffronCity_PokemonCenter_1F_EventScript_YoungsterRocketsGone::
 
 SaffronCity_PokemonCenter_1F_Text_GrowthRatesDifferBySpecies::
 	.string "POKéMON growth rates differ from\n"
-	.string "species to species.$"
+	.string "species to species.\p"
+	.string "Let one grow past your hand, mind,\n"
+	.string "and it stops listening.\p"
+	.string "They say that's what happened to\n"
+	.string "HER. The power outgrew the girl.\p"
+	.string "…Went cold in her hands.$"
 
 SaffronCity_PokemonCenter_1F_Text_SilphCoVictimOfFame::
 	.string "SILPH CO. is widely known to all.\p"

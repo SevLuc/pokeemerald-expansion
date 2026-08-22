@@ -25,7 +25,10 @@ CeladonCity_Hotel_Text_ThisHotelIsForPeople::
 CeladonCity_Hotel_Text_OnVacationWithBrotherAndBoyfriend::
 	.string "I'm on vacation with my brother and\n"
 	.string "boyfriend.\p"
-	.string "CELADON is such a pretty city!$"
+	.string "I can't say why, but this city sits\n"
+	.string "so easy on me.\p"
+	.string "They say it's on the wind. …I've\n"
+	.string "stopped asking why.$"
 
 CeladonCity_Hotel_Text_WhyDidSheBringBrother::
 	.string "Why?\n"

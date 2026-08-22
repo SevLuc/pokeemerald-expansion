@@ -185,8 +185,13 @@ SaffronCity_Text_WorkerMSabrinaFreed::
 	.string "That was you, wasn't it? Thank you.$"
 
 SaffronCity_Text_SafeToGoOutAgain::
-	.string "Yeah! TEAM ROCKET is gone!\n"
-	.string "It's safe to go out again!$"
+	.string "TEAM ROCKET's gone. Safe to go\n"
+	.string "out again, they keep telling me.\p"
+	.string "But it's so quiet now. Too quiet.\p"
+	.string "Feels like the whole street is\n"
+	.string "holding its breath.\p"
+	.string "…I don't like it. I want it to\n"
+	.string "stop.$"
 
 SaffronCity_Text_PeopleComingBackToSaffron::
 	.string "People fled from here in droves\n"
@@ -206,17 +211,24 @@ SaffronCity_Text_LassSabrinaFreed::
 	.string "today. Like a bell. Like before.$"
 
 SaffronCity_Text_FlewHereOnPidgeot::
-	.string "I flew here on my PIDGEOT when\n"
-	.string "I read about SILPH.\p"
-	.string "It's already over?\n"
-	.string "I missed the media action…$"
+	.string "I flew in on my PIDGEOT when I read\n"
+	.string "about SILPH. Missed all the action.\p"
+	.string "Odd town, though. Everyone walks\n"
+	.string "like they're half asleep.\p"
+	.string "Ask them why and they just… smile\n"
+	.string "at you. Anyway! Nice weather.$"
 
 SaffronCity_Text_Pidgeot::
 	.string "PIDGEOT: Bi bibii!$"
 
 SaffronCity_Text_SawRocketBossEscaping::
 	.string "I saw the ROCKET BOSS escaping\n"
-	.string "SILPH's building.$"
+	.string "SILPH's building.\p"
+	.string "Caught his face for just a second.\p"
+	.string "That's what stuck with me, though.\n"
+	.string "It was so… ordinary.\p"
+	.string "A face you'd pass in any city and\n"
+	.string "never think twice.$"
 
 SaffronCity_Text_ImASecurityGuard::
 	.string "I'm a security guard.\p"

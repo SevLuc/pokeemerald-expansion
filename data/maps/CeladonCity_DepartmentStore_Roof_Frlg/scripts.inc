@@ -333,10 +333,12 @@ CeladonCity_DepartmentStore_Roof_Text_ImNotThirstyAfterAll::
 	.string "I'm not thirsty after all!$"
 
 CeladonCity_DepartmentStore_Roof_Text_MySisterIsImmature::
-	.string "My sister is a TRAINER, believe it\n"
+	.string "My sister's a TRAINER, believe it\n"
 	.string "or not.\p"
-	.string "But, she's so immature, she drives\n"
-	.string "me nuts!$"
+	.string "Ran off to that flower GYM a while\n"
+	.string "back. Came home… different.\p"
+	.string "Quieter. Steadier. Won't say a word\n"
+	.string "about what goes on past the door.$"
 
 CeladonCity_DepartmentStore_Roof_Text_ImThirstyIWantDrink::
 	.string "I'm thirsty!\n"
