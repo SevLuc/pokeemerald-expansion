@@ -23,7 +23,8 @@ CinnabarIsland_PokemonLab_ResearchRoom_Text_EeveeCanEvolveIntroThreeMons::
 	.string "type, I once told LANCE.\p"
 	.string "He only smiled.\n"
 	.string "'An ANCIENT dragon,' he said.\p"
-	.string "…You can't argue that smile.$"
+	.string "…I still can't tell you if he\n"
+	.string "was joking.$"
 
 CinnabarIsland_PokemonLab_ResearchRoom_Text_LegendaryBirdEmail::
 	.string "There's an e-mail message.\p"

@@ -43,8 +43,8 @@ SevenIsland_Mart_Text_MonHavePersonalitiesOfTheirOwn::
 	.string "two kinds of POKéMON.\p"
 	.string "Dragons… and dragons that don't\n"
 	.string "know it yet.\p"
-	.string "…I'm starting to think the man's\n"
-	.string "onto something.$"
+	.string "…I've caught myself eyeing my own\n"
+	.string "team differently since.$"
 
 SevenIsland_Mart_Text_PreparationsCompleteForRuins::
 	.string "Okay, preparations are complete\n"
@@ -56,5 +56,5 @@ SevenIsland_Mart_Text_NeedToFishOnSevenIsland::
 	.string "LANCE once called my MAGIKARP\n"
 	.string "'a dragon in waiting.'\p"
 	.string "…It's a GYARADOS now.\n"
-	.string "The man SEES it, I tell you.$"
+	.string "I've wondered what he saw.$"
 
