@@ -47,10 +47,45 @@ hard-but-fair rebalance against vanilla.
 - History fragments: see BROCK-* in lore-ledger.md
 
 ## Gym 2 — Cerulean (Misty, Water) — Cascade Badge
+- Level cap: 23 (`FLAG_BADGE02_GET` row in src/caps.c; see progression.md).
 - Vanilla team: Staryu Lv18, Starmie Lv21.
-- Rebalanced team: PSYDUCK Lv16 (lead; Water Gun / Disable / Tail Whip /
-  Confusion), Staryu Lv18, Starmie Lv21. Psyduck is a comic opener added as a
-  3rd body (net difficulty holds - the two real threats still follow).
+- Structure: a TRAINER POOL of 10 water-types that fields 6 (Party Size 6, Pool
+  Rules Basic, Pool Prune Bst Match). Two members are always fielded:
+  - PSYDUCK is the FORCED LEAD (`POOL_TAG_LEAD`, always slot 1). Story-mandated:
+    Psyduck is Misty's ever-present comic opener, so it always leads regardless
+    of the player's team. See MISTY-* lore.
+  - STARMIE is the ACE (`POOL_TAG_ACE`, always fielded last), the canon finisher.
+  The remaining 4 slots are BST-matched to the player: the game sums the
+  player's team base-stat totals and fields the four other members whose
+  combined BST (added to Psyduck + Starmie) is closest to that total.
+- BST matching: POOL_PRUNE_BST_MATCH (src/trainer_pools.c) now force-keeps BOTH
+  ace- and lead-tagged members, then closest-total-matches the rest. This
+  forced-lead behaviour is Misty-only (no other pool uses a LEAD tag). Covered by
+  a test in test/battle/trainer_control.c ("...always fields the lead-tagged mon
+  first...").
+- Pool members (10, all Lv22, perfect IVs, no EVs, all female except genderless
+  Starmie; each runs a +Speed nature that lowers its unused attacking stat).
+  BST spread 295 (Horsea) - 525 (Vaporeon). Heavy RAIN theme: four Rain Dance
+  setters (Psyduck, Horsea, Ludicolo, Vaporeon) feed Swift Swim (Horsea,
+  Ludicolo, Goldeen) and Hydration (Vaporeon). All movesets cap-23 legal
+  (verified with the moveset-legality skill):
+  - PSYDUCK (F) LEAD, Swift Swim, Timid (Rain Dance / Scald / Psychic / Aerial
+    Ace) - the story-mandated comic opener, sets rain turn 1.
+  - HORSEA (F), Swift Swim, Timid (Rain Dance / Octazooka / Dragon Breath / Ice Beam)
+  - BRIONNE (F), Liquid Voice, Timid (Echoed Voice / Rain Dance) - Liquid Voice
+    makes Echoed Voice a ramping Water STAB.
+  - PYUKUMUKU (F), Innards Out, Timid (Block / Spite / Double Team) - trap-staller;
+    Block stops switching, Innards Out dumps its HP into the trapped foe on death.
+  - CORSOLA (F), Regenerator, Timid (Scald / Ancient Power / Light Screen / Sucker Punch)
+  - LUDICOLO (F), Swift Swim, Timid (Rain Dance / Giga Drain / Ice Beam / Scald)
+    - self-sets rain and sweeps at doubled Speed.
+  - AZUMARILL (F), Sap Sipper, Jolly (Perish Song / Whirlpool / Bulldoze /
+    Waterfall) - Whirlpool + Perish Song trap; Sap Sipper walls Grass.
+  - GOLDEEN (F), Swift Swim, Naive (Scald / Drill Run / Poison Jab / Icy Wind)
+  - VAPOREON (F), Hydration, Timid (Rain Dance / Water Pulse / Ice Beam / Wish)
+    - the wall; Rain Dance + Hydration = status-proof, Wish heals the pool.
+  - STARMIE (genderless) ACE, Natural Cure, Timid (Water Pulse / Psybeam /
+    Thunderbolt / Ice Beam) - fast BoltBeam finisher, always fielded.
 - Gimmick: no BUG-type POKéMON allowed in the gym (party check on entry; the Gym
   Guy shoves you out). See MISTY-07.
 - History fragments: see MISTY-* in lore-ledger.md.
