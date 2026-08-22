@@ -73,7 +73,7 @@ PalletTown_ProfessorOaksLab_EventScript_NationalDexScene::
 	call_if_eq VAR_FACING, DIR_SOUTH, PalletTown_ProfessorOaksLab_EventScript_NationalDexSceneRivalEnterSouth
 	call_if_eq VAR_FACING, DIR_EAST, PalletTown_ProfessorOaksLab_EventScript_NationalDexSceneRivalEnterEastWest
 	call_if_eq VAR_FACING, DIR_WEST, PalletTown_ProfessorOaksLab_EventScript_NationalDexSceneRivalEnterEastWest
-	msgbox PalletTown_ProfessorOaksLab_Text_RivalJustLetMeHandleEverything
+	call PalletTown_ProfessorOaksLab_EventScript_NatDexRivalLine1
 	fadedefaultbgm
 	msgbox PalletTown_ProfessorOaksLab_Text_OakNeedYourHelpTooNeedToSeePokedexes
 	call_if_eq VAR_FACING, DIR_NORTH, PalletTown_ProfessorOaksLab_EventScript_PlayerFaceOakNorth
@@ -106,7 +106,7 @@ PalletTown_ProfessorOaksLab_EventScript_NationalDexScene::
 	call EventScript_RestorePrevTextColor
 	special EnableNationalPokedex
 	msgbox PalletTown_ProfessorOaksLab_Text_OakMustReallyWorkToFillPokedex
-	msgbox PalletTown_ProfessorOaksLab_Text_RivalIllCompleteThePokedex
+	call PalletTown_ProfessorOaksLab_EventScript_NatDexRivalLine2
 	closemessage
 	playbgm MUS_RG_RIVAL_EXIT, 0
 	call_if_eq VAR_FACING, DIR_NORTH, PalletTown_ProfessorOaksLab_EventScript_RivalExitNorth
@@ -1757,6 +1757,40 @@ PalletTown_ProfessorOaksLab_Text_OakSightingsOfRareMons::
 	.string "myself, but I'm much too old.\p"
 	.string "Since I can't do it, {PLAYER}, I'd\n"
 	.string "like you to go in my place.$"
+
+PalletTown_ProfessorOaksLab_EventScript_NatDexRivalLine1::
+	goto_if_eq VAR_RIVAL_ID, RIVAL_ID_TWITCH, PalletTown_ProfessorOaksLab_EventScript_NatDexRivalLine1Twitch
+	msgbox PalletTown_ProfessorOaksLab_Text_RivalJustLetMeHandleEverything
+	return
+
+PalletTown_ProfessorOaksLab_EventScript_NatDexRivalLine1Twitch::
+	msgbox PalletTown_ProfessorOaksLab_Text_TwitchRivalJustLetMeHandleEverything
+	return
+
+PalletTown_ProfessorOaksLab_EventScript_NatDexRivalLine2::
+	goto_if_eq VAR_RIVAL_ID, RIVAL_ID_TWITCH, PalletTown_ProfessorOaksLab_EventScript_NatDexRivalLine2Twitch
+	msgbox PalletTown_ProfessorOaksLab_Text_RivalIllCompleteThePokedex
+	return
+
+PalletTown_ProfessorOaksLab_EventScript_NatDexRivalLine2Twitch::
+	msgbox PalletTown_ProfessorOaksLab_Text_TwitchRivalIllCompleteThePokedex
+	return
+
+PalletTown_ProfessorOaksLab_Text_TwitchRivalJustLetMeHandleEverything::
+	.string "chill, {PLAYER}, we got the dex.\p"
+	.string "we have ten thousand people.\n"
+	.string "we fill it in like a day.\p"
+	.string "somebody is already fishing.\n"
+	.string "do not ask who.$"
+
+PalletTown_ProfessorOaksLab_Text_TwitchRivalIllCompleteThePokedex::
+	.string "national dex? say less.\p"
+	.string "ONE ISLAND first.\n"
+	.string "Sevii speedrun. we go.\p"
+	.string "do NOT check the ledge over\n"
+	.string "there…\p"
+	.string "we are gonna check the ledge\n"
+	.string "over there.$"
 
 PalletTown_ProfessorOaksLab_Text_RivalJustLetMeHandleEverything::
 	.string "{RIVAL}: Hey, I heard that!\p"
