@@ -9,15 +9,16 @@ u32 GetCurrentLevelCap(void)
 {
     static const u32 sLevelCapFlagMap[][2] =
     {
-        {FLAG_BADGE01_GET, 15},
-        {FLAG_BADGE02_GET, 19},
-        {FLAG_BADGE03_GET, 24},
-        {FLAG_BADGE04_GET, 29},
-        {FLAG_BADGE05_GET, 31},
-        {FLAG_BADGE06_GET, 33},
-        {FLAG_BADGE07_GET, 42},
-        {FLAG_BADGE08_GET, 46},
-        {FLAG_IS_CHAMPION, 58},
+        {FLAG_BADGE01_GET, 14}, // Brock
+        {FLAG_BADGE02_GET, 23}, // Misty
+        {FLAG_BADGE03_GET, 27}, // Surge
+        {FLAG_BADGE04_GET, 35}, // Erika
+        {FLAG_DEFEATED_POKEMON_TOWER_RIVAL, 38}, // Rocket Hideout until the Tower rival is beaten
+        {FLAG_BADGE05_GET, 50}, // Koga
+        {FLAG_BADGE06_GET, 53}, // Sabrina
+        {FLAG_BADGE07_GET, 58}, // Blaine
+        {FLAG_BADGE08_GET, 63}, // Giovanni (Earth)
+        {FLAG_IS_CHAMPION, 72}, // Elite Four
     };
 
     u32 i;

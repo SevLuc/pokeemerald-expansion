@@ -37,16 +37,23 @@ value for the first badge you have NOT yet earned, from the table in
 
 | Progress point | Cap |
 |---|---|
-| Before Boulder (Brock) | 15 |
-| Before Cascade (Misty) | 19 |
-| Before Thunder (Surge) | 24 |
-| Before Rainbow (Erika) | 29 |
-| Before Soul (Koga) | 31 |
-| Before Marsh (Sabrina) | 33 |
-| Before Volcano (Blaine) | 42 |
-| Before Earth (Giovanni) | 46 |
-| Before Champion | 58 |
+| Before Boulder (Brock) | 14 |
+| Before Cascade (Misty) | 23 |
+| Before Thunder (Surge) | 27 |
+| Before Rainbow (Erika) | 35 |
+| Rocket Hideout until the Tower rival | 38 |
+| Before Soul (Koga) | 50 |
+| Before Marsh (Sabrina) | 53 |
+| Before Volcano (Blaine) | 58 |
+| Before Earth (Giovanni) | 63 |
+| Before / during Elite Four | 72 |
 | Champion onward | 100 |
+
+The **38** step is gated on `FLAG_DEFEATED_POKEMON_TOWER_RIVAL`, set when the player
+beats the Pokemon Tower rival (in `PokemonTower_2F_Frlg/scripts.inc`, alongside
+`VAR_MAP_SCENE_POKEMON_TOWER_2F`). Post-Erika the cap sits at 38 through the Rocket
+Hideout / Tower stretch, then lifts to 50 (Koga) once that rival is beaten. The flag
+fires only on a win (a loss whites you out before the scene runs).
 
 The field party menu also offers a `LEVEL` option (`LEVEL UP` / `LEVEL TO CAP`)
 that levels a mon for free but never past the current cap.

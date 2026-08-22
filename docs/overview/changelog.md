@@ -7,6 +7,13 @@ Update in the same PR as the change.
 `YYYY-MM-DD` — area — one-line summary (PR/commit ref)
 
 ## Entries
+- 2026-08-21 - caps/balance - Locked in the hard level-cap ladder to new values in
+  `src/caps.c`: Brock 14, Misty 23, Surge 27, Erika 35, Koga 50, Sabrina 53, Blaine
+  58, Giovanni 63, Elite Four 72 (Champion onward 100). The Rocket-Hideout-until-Tower
+  step (38) is gated on new FLAG_DEFEATED_POKEMON_TOWER_RIVAL, set when the Tower rival
+  is beaten (reclaimed FLAG_UNUSED_0x020). Also added the Twitch rival's TPP-team
+  trainer entries (`TRAINER_RIVAL_TWITCH_*`) with cap-aligned levels (data only,
+  unreferenced until scripts branch on VAR_RIVAL_ID).
 - 2026-08-19 - story/flavor - Giovanni "the man who was here all along" self-made
   arc (game-wide). Giovanni is UNIQUE: the recurring antagonist you battle three
   times (Rocket Hideout -> Silph Co -> Viridian Gym) and hear about all game. Hidden
