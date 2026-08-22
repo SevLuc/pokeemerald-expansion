@@ -7,6 +7,11 @@ Update in the same PR as the change.
 `YYYY-MM-DD` — area — one-line summary (PR/commit ref)
 
 ## Entries
+- 2026-08-22 - pokemon/balance - All species set to the easiest catch rate. Every
+  `.catchRate` in `src/data/pokemon/species_info/*.h` (1343 entries) set to 255
+  (the max; higher = easier to catch). Legendaries, starters, and everything else
+  now catch as easily as a Caterpie. Trade-off: removes catching difficulty as a
+  balance lever (Master Ball / status / weakening no longer matter for capture).
 - 2026-08-22 - pokemon/gameplay - Caught Pokemon now start at MAXIMUM friendship
   (255). Hooked in `Cmd_givecaughtmon` (`src/battle_script_commands.c`), just
   before `GiveCapturedMonToPlayer`, setting `MON_DATA_FRIENDSHIP` to
