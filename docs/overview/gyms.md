@@ -11,7 +11,8 @@ hard-but-fair rebalance against vanilla.
 - Vanilla team: Geodude Lv12, Onix Lv14.
 - Rebalanced team: ALOLAN GEODUDE (F) Lv14, Galvanize (Headbutt / Rock Tomb /
   Bulldoze / Mud-Slap); ARON (F) Lv14, Sturdy (Aerial Ace / Rock Tomb /
-  Iron Head / Body Press); ONIX (F) Lv14 nicknamed "LongTurd", ace, Sturdy
+  Iron Head / Body Press); GLIMMET (F) Lv14, Corrosion (Acid Spray / Ancient
+  Power / Mud Shot / Spikes); ONIX (F) Lv14 nicknamed "LongTurd", ace, Sturdy
   (Swagger / Dig / Rock Tomb / Self-Destruct). All of Brock's Pokemon are female,
   at the level cap (14), with perfect IVs. Alolan Geodude (Rock/Electric) uses
   Galvanize so Headbutt becomes a boosted Electric STAB, backed by Ground
