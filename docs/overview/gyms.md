@@ -13,15 +13,18 @@ hard-but-fair rebalance against vanilla.
   Bulldoze / Mud-Slap); ARON (F) Lv14, Sturdy (Aerial Ace / Rock Tomb /
   Iron Head / Body Press); GLIMMET (F) Lv14, Corrosion (Acid Spray / Ancient
   Power / Mud Shot / Spikes); AERODACTYL (F) Lv14, Pressure (Rock Blast / Wing
-  Attack / Thunder Fang / Bulldoze); ONIX (F) Lv14 nicknamed "LongTurd", ace,
-  Sturdy
-  (Swagger / Dig / Rock Tomb / Self-Destruct). All of Brock's Pokemon are female,
-  at the level cap (14), with perfect IVs. Alolan Geodude (Rock/Electric) uses
-  Galvanize so Headbutt becomes a boosted Electric STAB, backed by Ground
-  coverage. Aron (Steel/Rock) is a bulky pivot: Body Press scales off its high
-  Defense, Iron Head is Steel STAB. Onix is a Sturdy suicide-wall: survives one
-  hit, chips with Rock Tomb, and can Self-Destruct. All movesets are
-  level-cap-legal.
+  Attack / Thunder Fang / Bulldoze); STAKATAKA Lv14 (genderless), Beast Boost
+  (Rock Tomb / Heavy Slam / Bulldoze / Body Press); ONIX (F) Lv14 nicknamed
+  "LongTurd", ace, Sturdy
+  (Swagger / Dig / Rock Tomb / Self-Destruct). All of Brock's Pokemon are female
+  (except Stakataka, which is genderless), at the level cap (14), with perfect
+  IVs. Alolan Geodude (Rock/Electric) uses Galvanize so Headbutt becomes a
+  boosted Electric STAB, backed by Ground coverage. Aron (Steel/Rock) is a bulky
+  pivot: Body Press scales off its high Defense, Iron Head is Steel STAB.
+  Stakataka (Rock/Steel, Ultra Beast, BST 570) is the heavy: Body Press off its
+  211 Defense plus Beast Boost make it a major power spike for a first gym. Onix
+  is a Sturdy suicide-wall: survives one hit, chips with Rock Tomb, and can
+  Self-Destruct. All movesets are level-cap-legal.
 - History fragments: see BROCK-* in lore-ledger.md
 
 ## Gym 2 — Cerulean (Misty, Water) — Cascade Badge
