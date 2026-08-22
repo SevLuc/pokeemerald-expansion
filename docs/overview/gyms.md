@@ -10,7 +10,7 @@ hard-but-fair rebalance against vanilla.
 - Level cap: 14.
 - Vanilla team: Geodude Lv12, Onix Lv14.
 - Rebalanced team: ALOLAN GEODUDE (F) Lv14, Galvanize (Headbutt / Rock Tomb /
-  Bulldoze / Mud-Slap); ARON (F) Lv14, Heavy Metal (Aerial Ace / Rock Tomb /
+  Bulldoze / Mud-Slap); ARON (F) Lv14, Sturdy (Aerial Ace / Rock Tomb /
   Iron Head / Body Press); ONIX (F) Lv14 nicknamed "LongTurd", ace, Sturdy
   (Swagger / Dig / Rock Tomb / Self-Destruct). All of Brock's Pokemon are female,
   at the level cap (14), with perfect IVs. Alolan Geodude (Rock/Electric) uses
