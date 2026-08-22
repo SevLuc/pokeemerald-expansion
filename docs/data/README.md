@@ -57,3 +57,61 @@ Per generation (index entries incl. forms):
 2. Shortlist species.
 3. Pull those keys from `movepools.json` to pick fun, legal movesets.
 4. Write teams in Pokémon Showdown syntax in `src/data/trainers.party`.
+
+---
+
+# Trainer movesets (reference, from other hard-mode hacks)
+
+`trainer-movesets.json` is a **species-keyed reference** of how three
+respected hard-but-fair romhacks actually build each Pokémon on trainers.
+Use it for inspiration when building our teams: ask "what are good movesets
+for Onix?" and pull `trainer-movesets.json["ONIX"]` to see every set those
+hacks give Onix (item, ability, nature, moves, level, which trainer).
+
+These are **external references, not our data.** Some sets use megas,
+Gen 8/9 moves, or abilities that are OFF or out-of-era here. Treat them as
+ideas; always confirm legality against `movepools.json` before writing a
+team in `src/data/trainers.party`.
+
+### Sources
+
+| `source` value        | Hack           | Notes |
+|-----------------------|----------------|-------|
+| `Run&Bun`             | Run & Bun      | full sets: item/ability/nature/moves |
+| `PlatinumKaizo`       | Platinum Kaizo | item/ability/nature/moves + AI flags in source |
+| `EmeraldKaizo`        | Emerald Kaizo  | from EK Mastersheet.txt |
+| `EmeraldKaizo-Rival`  | Emerald Kaizo  | rival teams (vary by player starter) |
+
+### `trainer-movesets.json` shape (~1.9 MB)
+Keyed by this build's species constant (same keys as `pokedex-index.json`),
+each mapping to a list of the sets that appear across the three hacks:
+
+```json
+"ONIX": [
+  { "source": "PlatinumKaizo", "hack": "Platinum Kaizo",
+    "trainer": "Roughneck Robert", "gym": "Roark", "location": "Route 207",
+    "level": 34, "item": "Choice Scarf", "ability": "Rock Head",
+    "nature": "Impish", "gender": "",
+    "moves": ["Explosion", "Earthquake", "Head Smash"] }
+]
+```
+
+Fields present depend on source (`ability` only where the source lists it;
+`gym` only for the xlsx hacks). Move names are kept verbatim from the source
+(e.g. EK writes some in ALLCAPS for emphasis). A few Run & Bun entries have
+an empty `moves` list because the source sheet left those cells blank.
+
+### Counts
+- **836** species, **5589** trainer sets
+  (Run&Bun 1777, PlatinumKaizo 2040, EmeraldKaizo 1634, Rival 138).
+
+### Regenerate (data lives in editable Google Docs, so refresh occasionally)
+
+```bash
+python3 docs/data/build_trainer_movesets.py
+```
+
+Zero third-party deps (stdlib xlsx reader). Fetches all three docs live and
+rewrites `trainer-movesets.json`. Source URLs are at the top of the script.
+Add `--local <dir>` to parse pre-downloaded copies
+(`runbun.xlsx`, `plat.xlsx`, `ek_master.txt`, `ek_rival.txt`).
