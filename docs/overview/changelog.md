@@ -75,6 +75,40 @@ Update in the same PR as the change.
   "ran out of balls" top-up still gives 5.
 - 2026-08-22 - QoL/config - Confirmed OW_HEAL_AFTER_BATTLE = TRUE (party fully
   heals after every won/ended battle); no change needed, recorded for the overview.
+- 2026-08-22 - pokemon/balance - All species set to the easiest catch rate. Every
+  `.catchRate` in `src/data/pokemon/species_info/*.h` (1343 entries) set to 255
+  (the max; higher = easier to catch). Legendaries, starters, and everything else
+  now catch as easily as a Caterpie. Trade-off: removes catching difficulty as a
+  balance lever (Master Ball / status / weakening no longer matter for capture).
+- 2026-08-22 - pokemon/gameplay - Caught Pokemon now start at MAXIMUM friendship
+  (255). Hooked in `Cmd_givecaughtmon` (`src/battle_script_commands.c`), just
+  before `GiveCapturedMonToPlayer`, setting `MON_DATA_FRIENDSHIP` to
+  `MAX_FRIENDSHIP`. Only affects wild captures (not gifts, eggs, or starters).
+  Makes friendship evolutions immediate and helps Return/Frustration users.
+- 2026-08-22 - pokemon/evolutions - Eevee gains stone-based paths for its three
+  friendship Eeveelutions so all eight are obtainable without friendship grind:
+  Sun Stone → Espeon, Moon Stone → Umbreon, Shiny Stone → Sylveon. The original
+  friendship/time/Fairy-move methods are kept alongside. Data in
+  `src/data/pokemon/species_info/gen_1_families.h` (inside the existing
+  P_GEN_2/P_GEN_6 cross-evo guards).
+- 2026-08-22 - items/shops - Celadon Dept. Store 4F clerk now sells the full
+  evolution-item set so no trade/item evolution is stuck. Added stones (Ice, Sun,
+  Moon, Shiny, Dusk, Dawn, Oval) and trade/held-item evo items (Linking Cord,
+  Metal Coat, King's Rock, Dragon Scale, Protector, Electirizer, Magmarizer,
+  Up-Grade, Dubious Disc, Reaper Cloth, Prism Scale, Razor Fang, Razor Claw) on
+  top of the existing Fire/Thunder/Water/Leaf stones. List in
+  `data/maps/CeladonCity_DepartmentStore_4F_Frlg/scripts.inc`. To match the
+  evolution-stone price tier (3000), four outlier evo items were flattened to
+  `.price = 3000` in `src/data/items.h`: Linking Cord (was 8000), King's Rock
+  (was 10000), Razor Fang and Razor Claw (were 15000). Side effect: this is a
+  global price change, so their sell value and cost at any other shop also drop.
+- 2026-08-22 - pokemon/evolutions - Karrablast and Shelmet can now evolve
+  single-player. Both previously had ONLY a partner-species trade evolution
+  (Karrablast ↔ Shelmet), which the Linking Cord item does not trigger
+  (`src/pokemon.c` item-use path matches EVO_ITEM only). Added an
+  `{EVO_ITEM, ITEM_LINKING_CORD, ...}` fallback to each so using a Linking Cord
+  evolves Karrablast → Escavalier and Shelmet → Accelgor; the original link-trade
+  method is kept. Data in `src/data/pokemon/species_info/gen_5_families.h`.
 - 2026-08-22 - starters/gameplay - Player starter is now randomized per save. On
   a new game the Oak's Lab starter scene rolls one random Grass, one Water, and
   one Fire starter, each drawn independently from all nine generations (729
