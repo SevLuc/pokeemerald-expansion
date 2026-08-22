@@ -7146,30 +7146,108 @@ Music: Female
 Items: Super Potion
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
+Party Size: 6
+Pool Rules: Basic
+Pool Prune: Bst Match
 
-Psyduck
-Level: 16
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Water Gun
-- Disable
-- Tail Whip
-- Confusion
+Psyduck (F)
+Level: 22
+Ability: Swift Swim
+Tags: Lead
+Nature: Timid
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Rain Dance
+- Scald
+- Psychic
+- Aerial Ace
 
-Staryu
-Level: 18
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Tackle
-- Harden
-- Recover
+Horsea (F)
+Level: 22
+Ability: Swift Swim
+Nature: Timid
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Rain Dance
+- Octazooka
+- Dragon Breath
+- Ice Beam
+
+Brionne (F)
+Level: 22
+Ability: Liquid Voice
+Nature: Timid
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Echoed Voice
+- Rain Dance
+
+Pyukumuku (F)
+Level: 22
+Ability: Innards Out
+Nature: Timid
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Block
+- Spite
+- Double Team
+
+Corsola (F)
+Level: 22
+Ability: Regenerator
+Nature: Timid
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Scald
+- Ancient Power
+- Light Screen
+- Sucker Punch
+
+Ludicolo (F)
+Level: 22
+Ability: Swift Swim
+Nature: Timid
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Rain Dance
+- Giga Drain
+- Ice Beam
+- Scald
+
+Azumarill (F)
+Level: 22
+Ability: Sap Sipper
+Nature: Jolly
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Perish Song
+- Whirlpool
+- Bulldoze
+- Waterfall
+
+Goldeen (F)
+Level: 22
+Ability: Swift Swim
+Nature: Naive
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Scald
+- Drill Run
+- Poison Jab
+- Icy Wind
+
+Vaporeon (F)
+Level: 22
+Ability: Hydration
+Nature: Timid
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Rain Dance
 - Water Pulse
+- Ice Beam
+- Wish
 
 Starmie
-Level: 21
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Swift
-- Recover
-- Rapid Spin
+Level: 22
+Ability: Natural Cure
+Tags: Ace
+Nature: Timid
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Water Pulse
+- Psybeam
+- Thunderbolt
+- Ice Beam
 
 === TRAINER_LEADER_LT_SURGE ===
 Name: LT. SURGE

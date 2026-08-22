@@ -304,6 +304,30 @@ TEST("Trainer Party Pool BST match prune fields the members whose total BST is c
     Free(testParty);
 }
 
+TEST("Trainer Party Pool BST match prune always fields the lead-tagged mon first, even far below the player's BST")
+{
+    enum Species playerA, playerB, expectedOther;
+    //  Pool 16: forced lead Magikarp (BST 200, Tags: Lead), ace Wobbuffet
+    //  (405, Tags: Ace); non-reserved Eevee (325), Snorlax (540). Party Size 3,
+    //  so lead + ace are always fielded and the one non-reserved member whose
+    //  (605 + its BST) is closest to the player's team BST fills the middle.
+    //  Magikarp must lead in every case despite its tiny BST.
+    PARAMETRIZE { playerA = SPECIES_MAGIKARP; playerB = SPECIES_NONE;    expectedOther = SPECIES_EEVEE;   }  //  target 200  -> 605+325=930 vs 605+540=1145
+    PARAMETRIZE { playerA = SPECIES_SNORLAX;  playerB = SPECIES_SNORLAX;  expectedOther = SPECIES_SNORLAX; }  //  target 1080 -> 1145 closer than 930
+
+    ZeroPlayerPartyMons();
+    CreateMon(&gPlayerParty[0], playerA, 5, 0, OTID_STRUCT_PRESET(0));
+    if (playerB != SPECIES_NONE)
+        CreateMon(&gPlayerParty[1], playerB, 5, 0, OTID_STRUCT_PRESET(0));
+
+    struct Pokemon *testParty = Alloc(6 * sizeof(struct Pokemon));
+    CreateNPCTrainerPartyFromTrainer(testParty, GetTrainerStructFromId(16), TRUE, BATTLE_TYPE_TRAINER);
+    EXPECT(GetMonData(&testParty[0], MON_DATA_SPECIES) == SPECIES_MAGIKARP);    //  forced lead, fielded first
+    EXPECT(GetMonData(&testParty[1], MON_DATA_SPECIES) == expectedOther);       //  BST-matched middle
+    EXPECT(GetMonData(&testParty[2], MON_DATA_SPECIES) == SPECIES_WOBBUFFET);   //  forced ace, fielded last
+    Free(testParty);
+}
+
 TEST("trainerproc supports both Double Battle: Yes and Battle Type: Doubles")
 {
     u32 currTrainer;

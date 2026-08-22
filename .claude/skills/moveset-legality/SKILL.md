@@ -17,6 +17,22 @@ description: >-
 Runs one deterministic report per species. All facts come from the repository's
 own data, so any move it marks LEGAL is actually learnable in this build.
 
+## Output guardrail (do not editorialize)
+
+Relay the script's output as data. Specifically:
+
+- Reproduce ALL of the script's sections in full: the advised sets, and every
+  move bucket (level-up, egg, TM, tutor/other) and the locked-by-cap list.
+- Do NOT drop, summarize, sample, or collapse a bucket into "highlights" or
+  "notable moves". If a bucket has 60 moves, list all 60.
+- Do NOT invent recommendations, ratings, roles, "build hooks", or a proposed
+  set unless the user explicitly asks for one. The report is data, not advice.
+- Reformatting for readability (tables, columns) is fine as long as no move and
+  no set is added or removed.
+
+If the user then asks for a recommended set, draft it AFTER showing the raw
+buckets, and pick only from moves the script marked possible.
+
 ## Run it
 
 ```bash

@@ -375,10 +375,15 @@ static u32 GetPlayerPartyBSTTotal(void)
     return total;
 }
 
-//  Keeps the ace(s) plus the combination of the remaining members whose total
-//  base-stat total is closest to the player's team total. Disables the rest so
-//  the default pick functions field exactly that set (ace last). Ties are broken
-//  toward the higher total (a hair stronger for the player).
+//  Keeps the always-fielded members (any ace- or lead-tagged mon) plus the
+//  combination of the remaining members whose total base-stat total is closest
+//  to the player's team total. Disables the rest so the default pick functions
+//  field exactly that set (lead first, ace last). Ties are broken toward the
+//  higher total (a hair stronger for the player).
+//
+//  Lead-tagged mons are force-kept exactly like aces so a story-mandated lead
+//  (e.g. Misty's Psyduck) is always fielded even when its BST is far below the
+//  player's team, which the plain closest-total search would otherwise prune.
 static void BstMatchPrune(const struct Trainer *trainer, u8 *poolIndexArray, const struct PoolRules *rules)
 {
     u32 poolSize = trainer->poolSize;
@@ -392,8 +397,8 @@ static void BstMatchPrune(const struct Trainer *trainer, u8 *poolIndexArray, con
     u8 candPos[POOL_BST_MATCH_MAX_CANDIDATES];  //  positions in poolIndexArray
     u32 candBST[POOL_BST_MATCH_MAX_CANDIDATES];
     u32 candCount = 0;
-    u32 aceBSTsum = 0;
-    u32 aceCount = 0;
+    u32 keptBSTsum = 0;  //  BST of always-fielded members (ace + lead tags)
+    u32 keptCount = 0;
 
     for (u32 i = 0; i < poolSize; i++)
     {
@@ -401,10 +406,11 @@ static void BstMatchPrune(const struct Trainer *trainer, u8 *poolIndexArray, con
             continue;
         u32 partyIdx = poolIndexArray[i];
         u32 bst = GetSpeciesBST(trainer->party[partyIdx].species);
-        if (trainer->party[partyIdx].tags & (1u << POOL_TAG_ACE))
+        //  Aces and leads are always fielded, so reserve them out of the search.
+        if (trainer->party[partyIdx].tags & ((1u << POOL_TAG_ACE) | (1u << POOL_TAG_LEAD)))
         {
-            aceBSTsum += bst;
-            aceCount++;
+            keptBSTsum += bst;
+            keptCount++;
         }
         else if (candCount < POOL_BST_MATCH_MAX_CANDIDATES)
         {
@@ -419,11 +425,11 @@ static void BstMatchPrune(const struct Trainer *trainer, u8 *poolIndexArray, con
         }
     }
 
-    //  Can't satisfy the ace requirement, or not enough non-ace members: bail
-    //  and let the default picker field what it can.
-    if (partySize < aceCount)
+    //  Can't satisfy the reserved (ace + lead) members, or not enough remaining
+    //  members: bail and let the default picker field what it can.
+    if (partySize < keptCount)
         return;
-    u32 k = partySize - aceCount;  //  number of non-ace members to keep
+    u32 k = partySize - keptCount;  //  number of non-reserved members to keep
     if (k > candCount)
         return;
 
@@ -434,7 +440,7 @@ static void BstMatchPrune(const struct Trainer *trainer, u8 *poolIndexArray, con
     u32 numMasks = 1u << candCount;
     for (u32 mask = 0; mask < numMasks; mask++)
     {
-        u32 sum = aceBSTsum;
+        u32 sum = keptBSTsum;
         u32 count = 0;
         for (u32 b = 0; b < candCount; b++)
         {
@@ -460,7 +466,7 @@ static void BstMatchPrune(const struct Trainer *trainer, u8 *poolIndexArray, con
     if (!haveBest)
         return;
 
-    //  Disable every non-ace candidate not chosen; aces stay enabled.
+    //  Disable every non-reserved candidate not chosen; aces and leads stay enabled.
     for (u32 b = 0; b < candCount; b++)
     {
         if (!(bestMask & (1u << b)))
