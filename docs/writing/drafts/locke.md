@@ -20,39 +20,53 @@
 
 ## One line
 
-The self-styled star of a stream nobody can confirm is airing: Locke narrates his
-whole run to a phantom chat, performs even his losses as content, and reveres "the
-run" as sacred ritual, while quietly wondering if anyone is watching at all.
+The warmest man behind a camera: Locke narrates his whole run to a chat he loves,
+genuinely adores Pokemon, roots for everyone (his rival included), thanks people
+just for playing, and pours out so much sincere encouragement that you barely
+notice the faint ache underneath, the quiet not-knowing whether anyone's watching.
 
 ## The concept: The Documentarian
 
 Locke is always RECORDING THE RUN. Every battle is an "episode" for a stream / an
-audience that may or may not exist. He narrates his own fights (including his
-defeats) as content, performing to a chat he addresses directly but never hears
-back from.
+audience he treats as beloved guests. He narrates his own fights (including his
+defeats) as content, talking to a chat he adores and thanking them for being there.
+The core of him is WARMTH: he loves this game, he wants everyone to love it too, he
+celebrates the player even as their rival, and he thanks people, sincerely, just
+for showing up.
 
-**The engine (silly-through-contrast):** relentless upbeat showman patter for the
-camera vs. a quiet emptiness underneath. The joke is the performance; the heart is
-the question the performance is built to avoid ("...is anyone actually watching?").
-Two straight men hold the comedy up:
-- He genuinely REVERES "the run" as a sacred vow (permadeath, deathless, one life).
-  That sincerity is the straight man to his own carnival-barker delivery.
-- The phantom audience is the straight man to his hype. The louder the sell, the
-  more you notice the silence answering it.
+**The engine (silly-through-contrast):** a relentlessly SUPPORTIVE, grateful,
+game-loving showman vs. a faint ache he never names. The dominant read is wholesome:
+he hypes your team, congratulates your wins over him, urges the audience to go start
+their own run, means every "thank you." The comedy is the sheer volume of sincere
+encouragement poured at a room he can't see answer back. Two things hold it up:
+- His warmth is REAL, not a bit. The gratitude and encouragement are load-bearing;
+  the sincerity is the straight man to his carnival-barker delivery. He also
+  genuinely REVERES "the run" as a sacred vow (permadeath, deathless, one life).
+- The unseen audience is the faint undertone. He loves them so openly that the
+  silence answering back becomes the only shadow on him, and it stays a shadow.
 
-Keep it MOSTLY FUNNY. The pathos only peeks through in glimpses, never mawkish,
-never a speech. He would rather die than let the bit drop, so the sadness leaks
-around the edges of the bit, not through a confession.
+Keep it MOSTLY WARM. The pathos is a faint undertone, not the thesis: it is just
+the small cost of aiming this much sincere love at an audience he can't confirm is
+there. It peeks through in glimpses, never mawkish, never a speech. Even the sad
+beats are mostly carried by his love of the game, not by hollowness.
 
 ## Locked voice + release flag
 
-- **Streamer-homage NPC** [FLAG: release-swap]. Cocky, mythologizing, "the run" is
-  scripture. Style-guide example feel: "One death and the whole run's over. I do
-  NOT lose. ...probably."
+- **Streamer-homage NPC** [FLAG: release-swap]. Warm, encouraging, game-loving
+  showman; "the run" is scripture but the audience is beloved. Style-guide example
+  feel: "One death and the whole run's over. I do NOT lose. ...but hey, you might.
+  Go find out. Seriously, go play."
 - Verbal kit: "we're LIVE," "chat," "clip that," "great content," "the run,"
   "deathless," "the vow," "roll it," "that's a wrap," a gracious-host spin on every
   loss ("beautiful," "struggle sells," "the people love an underdog arc"). He talks
   TO the camera and ABOUT himself in showrunner terms (episode, season finale, arc).
+- **Supportive / grateful / encouraging kit (the core):** "thank you for playing,"
+  "thanks for being here," "so glad you're here," "you're doing GREAT," "look at
+  that team, that's beautiful," "go start your own run," "that's a future champ
+  right there," and celebrating the PLAYER'S win over him without a sulk ("that was
+  a clean beat, chat, give it up for the challenger"). "Thank you for playing" /
+  "thanks for being here" is his SIGNATURE note; land it often. He is a supportive
+  rival, never a sore loser; every viewer is a future trainer he's rooting for.
 - Sign-off slot (vanilla ends beats on "Smell ya later!"): Locke signs off like a
   broadcast wrapping. Candidate: "...And we're clear." / "That's the episode."
 - HARD LINE ON HOMAGE: the persona is a composite of nuzlocke-streamer CULTURE, not
@@ -91,74 +105,80 @@ and after; inside the battle he is deadly.
 > content AFTER the fight, so the fight itself still lands.
 
 - **Oak's Lab (Ep. 1):**
-  - intro: `And we're LIVE. Day one, fresh save. Say hi to the new challenger, chat. ...You'll do.`
-  - loss spin: `Ohh, we take the L on episode one. Clip it. Honestly? Great content. Everybody loves an underdog arc.`
+  - intro: `And we're LIVE. Day one, fresh save. Say hi to the new challenger, chat. ...Oh, you're gonna be GOOD.`
+  - loss spin: `Ohh, we take the L on episode one! And chat, what a beat. Give it up for the challenger. Thank you for playing, seriously. This is why I love this game.`
 - **Route 22 (early):**
-  - intro: `Still rolling, chat. Look who followed us out of the lab. Camera's on you. Try to be interesting.`
-  - loss spin: `And that's a loss, folks. Beautiful. Struggle sells. Trust me on this.`
+  - intro: `Still rolling, chat. Look who followed us out of the lab. Camera's on you, superstar. Show 'em what you've got.`
+  - loss spin: `And that's a loss, folks! Beautiful. Look at that team, you're doing GREAT. Thanks for the fight. Now go make everyone out there wanna play too.`
 - **Cerulean:**
-  - intro: `Back, and the roster's stacked. Numbers are up. ...The numbers are up, right?`
-  - loss spin: `Two for two on camera. Cool, cool. ...Chat's still here, so. That's what matters.`
+  - intro: `Back, and the roster's stacked, and honestly so is yours. Numbers are up. ...You're the numbers, chat. You're why I do this.`
+  - loss spin: `Two for two on camera, and I'm HERE for it. Clean beat. Thank you for being here, all of you. That's what matters.`
 - **S.S. Anne:**
-  - intro: `Luxury episode, chat. Big boat, big run. Still deathless. That's the brand. ...Not one.`
-  - loss spin: `Losing in style, at least. Frame it nice. The run goes on. The run always goes on.`
+  - intro: `Luxury episode, chat. Big boat, big run. Still deathless. That's the brand. And you? You belong on this deck. Roll it.`
+  - loss spin: `Losing in style! Frame it nice. That was gorgeous, challenger, thank you. The run goes on. It always does, and I'm glad you're on it.`
 - **Pokemon Tower, Lavender (the glimpse):**
-  - intro: `...Keep it down, chat. Show some respect. A nuzlocker's meant to FEAR a place like this. One death ends the whole run. That's the vow. ...Funny. Mine never seem to. Nobody's around to see them go.`
-  - loss spin: `...Clip that one. If anyone's out there. ...You're out there, right? ...Right. Let's move.`
+  - intro: `...Keep it down, chat. Show some respect. A nuzlocker's meant to FEAR a place like this. One death ends the whole run. That's the vow. ...Funny. Mine never seem to fall. And if they did... would anybody be here to see them go?`
+  - loss spin: `...Clean fought. Thank you for that. Truly. ...You're still out there, right, chat? ...Yeah. Yeah. Thanks for staying. Let's move.`
 - **Silph Co., Saffron:**
-  - intro: `Still here. Still recording. Even if the light's just... blinking red at me now. Where were we. Right. The run.`
-  - loss spin: `Beaten again, live, no cuts. ...I keep the tape rolling. Somebody's gotta.`
+  - intro: `Still here, still recording. Light's just... blinking red at me now. Doesn't matter. I love this too much to stop. Where were we? Right. The run. And you, challenger, you're a joy to film. Let's go.`
+  - loss spin: `Beaten again, live, no cuts, and I wouldn't trade it. Thank you for playing. Whoever's watching, or nobody, I'm still so glad I got to see THAT run. Keep the tape rolling.`
 - **Route 22 (late):**
-  - intro: `Final stretch, chat. All eight badges. Deathless, obviously. The vow held. ...Somebody write that down. Please.`
-  - loss spin: `Warm-up loss, doesn't count. ...Nothing counts if the room's empty. ...Forget I said that. Onward.`
+  - intro: `Final stretch, chat. All eight badges. Deathless, obviously. The vow held. And look at you, ready for the big one. So proud, honestly. Let's put on a show.`
+  - loss spin: `Warm-up loss, doesn't count, and you EARNED it. Thank you. ...Even if the room's quiet, you filled it. Go finish this. Go be champion.`
 - **Champion, Indigo (the landing):**
-  - intro: `This is the one. Season finale. Whoever's out there watching... thank you. For the whole run. Really. ...Okay. Roll it.`
-  - loss / post: `...And that's a wrap. Beaten on camera, live, no edits. ...Perfect, actually. You keep the run going now. I'll keep filming it. ...Somebody's gotta remember it happened.`
+  - intro: `This is the one. Season finale. Whoever's out there watching, thank you. For the whole run. For playing at all. And challenger... thank you most. Okay. Roll it.`
+  - loss / post: `...And that's a wrap. Beaten on camera, live, no edits, and it's PERFECT. You keep the run going now, you hear me? Go tell people to start theirs. ...Somebody's gotta remember this game, and I'm so glad it's you. Thank you for playing.`
 
 ## Per-encounter arc (mapped onto the 8 EXISTING rival fights, add/move nothing)
 
 The built-in losing streak IS the arc: you beat him at every one of these, and he
-reframes each loss as content, episode by episode. The phantom-audience thread runs
-underneath: brash and sure early, subtly hollow by the later fights, one real glimpse
-at Lavender, and a Champion beat that lands the character.
+reframes each loss as content AND as a reason to thank you, episode by episode. The
+through-line is sincere love and gratitude, faintly shadowed by the unseen audience:
+warm and encouraging throughout, brighter than ever early, the faint ache surfacing
+once at Lavender, and a Champion beat where the warmth lands the character.
 
-1. **Oak's Lab (Ep. 1, starter pick).** Sets up the bit: he "goes live," frames the
-   whole rivalry as his series, calls you "the challenger" like casting a co-star.
-   The tutorial loss becomes episode-one content. Fully brash; no cracks yet.
+1. **Oak's Lab (Ep. 1, starter pick).** Sets up the warmth: he "goes live," frames
+   the whole rivalry as his series, and greets you like the best thing to happen to
+   the channel ("you're gonna be GOOD"). The tutorial loss becomes episode-one
+   content AND his first thank-you. Bright, generous, no shadow yet.
    (Mechanically starter-only here, not a generated team, so keep it light setup.)
-2. **Route 22 (early).** The show's on the road. He directs you at the camera ("try
-   to be interesting"). Spins the loss as underdog-arc storytelling. Still all sell.
-3. **Cerulean.** Peak brag: the roster's growing, "numbers are up." First hairline
-   crack, a tacked-on "...right?" that he talks straight past. The audience is
-   starting to be something he ASSERTS rather than sees.
-4. **S.S. Anne (Vermilion).** The "luxury episode." Leans hard on the deathless
-   brand ("that's the brand. ...Not one."). The over-insistence is the tell; the
-   more he sells the vow, the more you hear him reassuring himself.
-5. **Pokemon Tower (Lavender) - the glimpse.** A place of death. The permadeath
-   bravado meets something quieter: he preaches the sacred fear of the run, then
-   admits, half to the camera, that his mons never actually fall and nobody is
-   around to witness them if they did. This is the one beat where the emptiness
-   surfaces plainly, then he snaps the bit back up and moves on. Play the crack
-   straight; do not undercut it with a joke on the same page.
-6. **Silph Co. (Saffron).** He is visibly performing to a dead channel now ("the
-   light's just blinking red at me"), and keeps going anyway. The devotion to the
-   run is what carries him when the audience clearly won't. Quietly the bravest beat.
-7. **Route 22 (late).** All eight badges, deathless as promised, and he needs it
-   RECORDED ("somebody write that down. Please."). The hype is intact but load-
-   bearing; the run is the only thing holding him up.
+2. **Route 22 (early).** The show's on the road. He hypes you at the camera and
+   celebrates the loss as your win, thanking you and urging the audience to go play
+   too. All warmth, all encouragement.
+3. **Cerulean.** He brags the roster's growing, but pivots to hyping YOURS and
+   telling chat they're why he does this. Still glowing; the audience is beloved,
+   not yet doubted.
+4. **S.S. Anne (Vermilion).** The "luxury episode." He sells the deathless brand but
+   folds you into it ("you belong on this deck"), thanking you for a gorgeous fight.
+   Generous host energy throughout.
+5. **Pokemon Tower (Lavender) - the glimpse.** A place of death. Amid the warmth,
+   one quieter question surfaces: he preaches the sacred fear of the run, then
+   wonders aloud whether anybody would be there to see his mons fall. It is the one
+   beat where the faint ache shows plainly, but his gratitude carries it, he thanks
+   the player and thanks chat for staying, then moves on. Play the quiet honestly;
+   do not undercut it with a joke, but let the warmth, not hollowness, hold the page.
+6. **Silph Co. (Saffron).** The channel's clearly gone quiet ("light's just blinking
+   red"), and he keeps going anyway, because he LOVES this, not because he's empty.
+   He says so, and calls the player a joy to film. The love of the game carries him
+   when the audience won't. Warm and quietly the bravest beat.
+7. **Route 22 (late).** All eight badges, deathless as promised, and he is PROUD of
+   you, ready to hype the big one. A faint "even if the room's quiet" flickers, but
+   he spends it on encouraging you to go be champion. Warmth load-bearing.
 8. **Champion (Indigo) - the landing.** Season finale. He thanks whoever might be
-   watching, sincerely, for the whole run. On the loss he calls it a wrap, hands YOU
-   the run to carry, and says the quiet part once: "Somebody's gotta remember it
-   happened." That is the character, landed: the whole documentary was never about
-   an audience. It was about being remembered. This frames Oak's fixed capstone
-   ("you forgot to treat your POKéMON with love and trust") from a new angle: Locke
-   loved the RECORD of them more than the bond, and it left him alone at the top.
-   Keep Oak's line untouched; Locke's arc just gives it a target.
+   watching, sincerely, for the whole run and for playing at all, and thanks the
+   player most. On the loss he calls it a wrap, hands YOU the run to carry, tells you
+   to go get others to start theirs, and says it warm: "Somebody's gotta remember
+   this game, and I'm so glad it's you." That is the character, landed: the whole
+   documentary was love, love of the game, of chat, of the player, aimed at a room
+   he could never quite see answer. This frames Oak's fixed capstone ("you forgot to
+   treat your POKéMON with love and trust") gently: Locke's love ran to the RECORD
+   and the audience more than the bond in his hands, so it's a nudge, not a verdict.
+   Keep Oak's line untouched; Locke's arc just gives it a soft target.
 
-**Rematch (post-game).** The channel never really ends. He is back, still filming,
-still narrating, a re-run of a series he can't stop making. Light callback beat;
-keep the melancholy faint and the showman intact ("Back for the special edition,
-chat. ...You never left, did you.").
+**Rematch (post-game).** The channel never really ends, and he's delighted about it.
+He is back, still filming, still thanking everyone, a re-run of a series he loves too
+much to stop making. Light callback beat; keep the warmth up front, the ache faint,
+the showman intact ("Back for the special edition, chat. So glad you're still here.").
 
 ## Release-safety notes
 
@@ -180,10 +200,20 @@ chat. ...You never left, did you.").
 
 ## Consistency notes / tensions resolved
 
-- **Tonal control (style-guide §1, the whole job):** the comedy is quarantined to
-  Locke's intros, loss-spins, and narration. His in-battle threat is real (kept
-  counter-ace held for the finale, coverage team), so the hard-but-fair fight is not
-  deflated. The Lavender crack and the Silph "dead channel" beat are played STRAIGHT.
+- **Tone rebalance (WARMTH IS CORE):** Locke's sincere positivity is the load-bearing
+  center of the character, not a bit. He genuinely loves Pokemon, encourages the
+  player and the audience, celebrates the player's wins over him, urges everyone to
+  start their own run, and thanks people for playing / for being here (his signature
+  note). The phantom-audience melancholy is now a FAINT UNDERTONE, not the thesis:
+  just the small cost of aiming this much real love at a room he can't see answer. His
+  support and gratitude are SINCERE, never a performance covering hollowness. Even the
+  sad beats (Lavender, Silph) are mostly carried by his love of the game and his
+  thank-yous, not by emptiness; at Silph he keeps going because he loves it.
+- **Tonal control (style-guide §1, the whole job):** the comedy AND the warmth are
+  quarantined to Locke's intros, loss-spins, and narration. His in-battle threat is
+  real (kept counter-ace held for the finale, coverage team), so the hard-but-fair
+  fight is not deflated. The Lavender glimpse and the Silph "dead channel" beat are
+  played STRAIGHT, but warmth (not hollowness) holds the page.
 - **Distributed fragments are constrained by the rival being a variable identity.**
   Town NPCs cannot name a rival whose identity differs per save (Buhrito / Twitch /
   Locke); vanilla rival gossip is generic ("your rival"). Any Locke-specific ambient
