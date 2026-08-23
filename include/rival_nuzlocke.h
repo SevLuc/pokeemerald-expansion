@@ -35,4 +35,9 @@ u8 BuildLockeParty(struct Pokemon *party, u16 trainerNum);
 u32 GetLockeSeed(void);
 void InitLockeSeed(void);
 
+// Pure helpers (deterministic, no global state).
+u32 Locke_Hash(u32 seed, u32 salt);
+u32 Locke_CountWeaknesses(enum Species species);
+enum Species Locke_AreaSpeciesAt(u8 mapGroup, u8 mapNum, u8 slotType, u32 pick);
+
 #endif // GUARD_RIVAL_NUZLOCKE_H

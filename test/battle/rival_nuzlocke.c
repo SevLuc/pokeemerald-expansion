@@ -3,6 +3,7 @@
 #include "rival_nuzlocke.h"
 #include "event_data.h"
 #include "constants/vars.h"
+#include "constants/maps.h"
 
 TEST("Locke: predicate matches all rival fights except Oak's Lab and Twitch")
 {
@@ -25,4 +26,25 @@ TEST("Locke: seed is stable once set and nonzero after init")
     EXPECT_EQ(GetLockeSeed(), first); // stable across calls
     InitLockeSeed();                  // idempotent: does not overwrite an existing seed
     EXPECT_EQ(GetLockeSeed(), first);
+}
+
+TEST("Locke: weakness count matches known typings")
+{
+    // Geodude (Rock/Ground): weak to Water, Grass, Ice, Fighting, Ground, Steel = 6
+    EXPECT_EQ(Locke_CountWeaknesses(SPECIES_GEODUDE), 6);
+    // Pidgey (Normal/Flying): weak to Electric, Ice, Rock = 3
+    EXPECT_EQ(Locke_CountWeaknesses(SPECIES_PIDGEY), 3);
+}
+
+TEST("Locke: hashed RNG is deterministic and varies by salt")
+{
+    u32 a = Locke_Hash(12345u, 1u);
+    EXPECT_EQ(a, Locke_Hash(12345u, 1u));
+    EXPECT(a != Locke_Hash(12345u, 2u));
+}
+
+TEST("Locke: land species lookup returns a valid species from Route 1")
+{
+    enum Species s = Locke_AreaSpeciesAt(MAP_GROUP(MAP_ROUTE1), MAP_NUM(MAP_ROUTE1), LOCKE_SLOT_LAND, 0);
+    EXPECT(s != SPECIES_NONE);
 }
