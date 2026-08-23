@@ -18,6 +18,7 @@
 #include "battle_gimmick.h"
 #include "berry.h"
 #include "bg.h"
+#include "caps.h"
 #include "rival_nuzlocke.h"
 #include "data.h"
 #include "debug.h"
@@ -1916,7 +1917,21 @@ u8 CreateNPCTrainerPartyFromTrainer(struct Pokemon *party, const struct Trainer 
                 otId.method = OT_ID_PRESET;
                 otId.value = HIHALF(personalityValue) ^ LOHALF(personalityValue);
             }
-            CreateMon(&party[i], partyData[monIndex].species, partyData[monIndex].lvl, personalityValue, otId);
+            u32 monLevel = partyData[monIndex].lvl;
+            // Gym leaders & Elite Four: the opener (slot 0, whichever mon the pool
+            // leads with) is dropped to cap-4 so the first mon is always a rung
+            // below the fight, without pinning a specific lead via a Lead tag.
+            if (i == 0 && monsCount > 1)
+            {
+                u32 tClass = trainer->trainerClass;
+                if (tClass == TRAINER_CLASS_LEADER_FRLG || tClass == TRAINER_CLASS_ELITE_FOUR_FRLG
+                 || tClass == TRAINER_CLASS_LEADER || tClass == TRAINER_CLASS_ELITE_FOUR)
+                {
+                    u32 cap = GetCurrentLevelCap();
+                    monLevel = (cap > 4) ? cap - 4 : 1;
+                }
+            }
+            CreateMon(&party[i], partyData[monIndex].species, monLevel, personalityValue, otId);
             SetMonData(&party[i], MON_DATA_HELD_ITEM, &partyData[monIndex].heldItem);
 
             CustomTrainerPartyAssignMoves(&party[i], &partyData[monIndex]);

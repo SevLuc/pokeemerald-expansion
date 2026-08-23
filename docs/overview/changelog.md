@@ -7,6 +7,12 @@ Update in the same PR as the change.
 `YYYY-MM-DD` — area — one-line summary (PR/commit ref)
 
 ## Entries
+- 2026-08-23 - balance/gyms - Gym leaders & Elite Four now always open with a mon
+  4 levels under their current level cap. Applied by code (slot 0 in
+  CreateNPCTrainerPartyFromTrainer, src/battle_main.c) for any Leader/Elite-Four
+  class trainer, so the cap-4 opener holds even when the pool leads with an
+  untagged random mon (Brock, Lt. Surge) - no Lead tag needed. Ace still sits at
+  the cap and closes; other members stay cap-2 from the data. Champion excluded.
 - 2026-08-23 - rival/dialogue - Locke is now a fully playable 3rd rival identity.
   Added RIVAL_ID_LOCKE (=2) and the "LOCKE" pick-menu option + flavor blurb
   (src/oak_speech.c, data/text/new_game_intro_frlg.inc, include/constants/vars.h,
