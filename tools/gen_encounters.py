@@ -15,7 +15,7 @@ src/data/wild_encounters.json per docs/design/encounter-tables.md:
 Run:  python3 tools/gen_encounters.py
 Idempotent; reproducible; prints coverage + per-split fairness report.
 """
-import re, glob, json, os, collections, itertools, statistics as st
+import re, glob, json, os, sys, collections, itertools, statistics as st
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SPECIES_DIR = os.path.join(ROOT, "src/data/pokemon/species_info")
@@ -255,8 +255,40 @@ for e in group["encounters"]:
     fr_entries.append((si, name, e))
 fr_entries.sort(key=lambda x: (x[0], x[1]))
 
+# --only <substr>[,<substr>...]  (freeze / add-a-map mode)
+# Only (re)fill FireRed maps whose base_label name contains one of the given
+# substrings; treat every species already assigned to the other maps as "placed"
+# so their tables stay byte-for-byte identical. Lets us add a new encounter map
+# without reshuffling the whole world. Without --only, the full holistic rebuild
+# runs as before.
+ONLY = None
+_argv = sys.argv[1:]
+for _i, _a in enumerate(_argv):
+    if _a.startswith("--only="):
+        ONLY = [s for s in _a[len("--only="):].split(",") if s]
+    elif _a == "--only" and _i + 1 < len(_argv):
+        ONLY = [s for s in _argv[_i + 1].split(",") if s]
+def is_target(name):
+    return ONLY is not None and any(sub in name for sub in ONLY)
+
 placed_land, placed_water = set(), set()
 report_rows = []
+
+if ONLY is not None:
+    for _si, _name, _e in fr_entries:
+        if is_target(_name):
+            continue
+        for _meth in ("land_mons", "rock_smash_mons"):
+            if _meth in _e:
+                placed_land.update(m["species"] for m in _e[_meth]["mons"])
+        for _meth in ("water_mons", "fishing_mons"):
+            if _meth in _e:
+                placed_water.update(m["species"] for m in _e[_meth]["mons"])
+    process_entries = [t for t in fr_entries if is_target(t[1])]
+    print(f"--only {ONLY}: freezing existing tables, filling "
+          f"{[t[1] for t in process_entries]}")
+else:
+    process_entries = fr_entries
 
 def fill_table(roots, placed, biome, k, cap, items, target):
     """pick k distinct roots: eff@cap nearest target, globally-unplaced first, biome-pref."""
@@ -273,7 +305,7 @@ def fill_table(roots, placed, biome, k, cap, items, target):
     take(lambda r: True)                                     # anything
     return out
 
-for si, name, e in fr_entries:
+for si, name, e in process_entries:
     _, cap, items, target = SPLITS[si]
     biome = biome_of(name)
     for meth in ("land_mons", "rock_smash_mons"):
@@ -311,8 +343,9 @@ def sweep(roots, placed, is_water):
             else:
                 continue
             break
-sweep(LAND_ROOTS, placed_land, False)
-sweep(WATER_ROOTS, placed_water, True)
+if ONLY is None:
+    sweep(LAND_ROOTS, placed_land, False)
+    sweep(WATER_ROOTS, placed_water, True)
 
 # mirror FireRed -> LeafGreen (identical species+levels per map)
 byname = {}

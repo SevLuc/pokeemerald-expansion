@@ -7,6 +7,35 @@ Update in the same PR as the change.
 `YYYY-MM-DD` — area — one-line summary (PR/commit ref)
 
 ## Entries
+- 2026-08-23 - intro/rival - The "received X from Oak" line in Oak's Lab now names the
+  rival's starter by identity instead of always the vanilla type-counter (which showed
+  e.g. "Squirtle"): Twitch always Charmander, Buhrito always Elekid; any other identity
+  (a future Locke) keeps the variable type-counter species. Only the displayed name
+  changes - the removed ball object and the battle party are untouched.
+  data/maps/PalletTown_ProfessorOaksLab_Frlg/scripts.inc.
+- 2026-08-23 - config/battle - New games now default the battle style to SET (was
+  SHIFT). src/new_game.c.
+- 2026-08-23 - ui/summary - Skills (stats) page: press A to toggle the six stats
+  between actual values and IVs, shown as raw 0-31 numbers. Config-only via
+  P_SUMMARY_SCREEN_IV_EV_INFO / P_SUMMARY_SCREEN_IV_ONLY / P_SUMMARY_SCREEN_IV_EV_VALUES
+  in include/config/summary_screen.h.
+- 2026-08-23 - battle/balance - Disabled B_AFFECTION_MECHANICS (include/config/battle.h).
+  Caught Pokemon start at max friendship (for instant friendship evolutions); with
+  affection on, that silently gave the player's mons +2 crit stage (near-constant
+  "A critical hit!") plus hidden dodge / survive-a-hit / damage-reduction / self-cure
+  buffs. Friendship evolutions are unaffected by this flag.
+- 2026-08-23 - field/heal - Auto-heal-after-battle now also fires on the early-rival
+  WIN path, so the party heals after the Oak's Lab first fight and the Route 22 early
+  rival fields (previously only wild and normal-trainer battles healed). src/battle_setup.c.
+- 2026-08-23 - encounters - Added a wild grass table to Pewter City, a 5th pre-Brock
+  grass area (Lv5-8): Anorith, Lileep, Cranidos, Elekid, Glimmet, Growlithe,
+  Growlithe-Hisui, Mienfoo, Rufflet, Shieldon, Spinda, Amaura (fossil/rock flavor).
+  gen_encounters.py gains a --only freeze mode so a new map can be filled without
+  reshuffling existing tables. tools/gen_encounters.py, src/data/wild_encounters.json,
+  docs/overview/encounters.md. Tall-grass metatiles (0x0D) were painted into the
+  fenced flower garden's interior lawn (Pewter tiles x27-35, y26-29; enterable via the
+  bottom gap at x31,y30), so the table triggers in-game.
+  data/layouts/PewterCity_Frlg/map.bin.
 - 2026-08-23 - trainers/gyms - Gym leader teams now tier their levels instead of
   fielding a whole team at the cap. Only the ACE sits at the level cap; the bulk
   sit at cap-2, and a forced LEAD (Misty's Psyduck) sits at cap-4. Pool gyms with
