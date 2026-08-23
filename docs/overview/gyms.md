@@ -3,6 +3,12 @@
 One section per gym: leader, type, badge, level cap, team, and puzzle. Tracks our
 hard-but-fair rebalance against vanilla.
 
+Level tiering (all gyms): only the ACE sits at the level cap. Other members sit
+below it - cap-2 for the bulk, and cap-4 for a forced LEAD where one exists
+(Misty only). Pool gyms with no LEAD tag (Brock, Lt. Surge) have no cap-4 member,
+since an untagged mon is not guaranteed to be drawn; every non-ace pool member is
+cap-2 there. The party is rebuilt fresh at the start of every battle.
+
 > STATUS: stub. Generate baseline teams from trainer data after first build.
 > Cross-link each leader's history to docs/writing/lore-ledger.md.
 
@@ -15,7 +21,8 @@ hard-but-fair rebalance against vanilla.
   team base-stat totals and fields the ace plus the five other members whose
   combined BST is closest to that total (implemented as the POOL_PRUNE_BST_MATCH
   prune in src/trainer_pools.c).
-- Pool members (all Lv14, perfect IVs, no EVs, all female except genderless
+- Pool members (non-ace all Lv12 = cap-2; ace Onix Lv14; no forced lead, so no
+  cap-4 member. Perfect IVs, no EVs, all female except genderless
   Stakataka; each runs a +Speed nature that lowers its unused attacking stat -
   Timid for the special attacker Glimmet, Jolly for the physical members, except
   the ultra-slow Stakataka which runs Adamant (+Atk/-SpA) instead of wasting a
@@ -63,7 +70,8 @@ hard-but-fair rebalance against vanilla.
   forced-lead behaviour is Misty-only (no other pool uses a LEAD tag). Covered by
   a test in test/battle/trainer_control.c ("...always fields the lead-tagged mon
   first...").
-- Pool members (10, all Lv23 = at the cap, perfect IVs, no EVs, all female except genderless
+- Pool members (10; Starmie ace Lv23 = cap, Psyduck lead Lv19 = cap-4, the other
+  8 Lv21 = cap-2. Perfect IVs, no EVs, all female except genderless
   Starmie; each runs a +Speed nature that lowers its unused attacking stat).
   BST spread 295 (Horsea) - 525 (Vaporeon). Heavy RAIN theme: four Rain Dance
   setters (Psyduck, Horsea, Ludicolo, Vaporeon) feed Swift Swim (Horsea,
@@ -99,7 +107,8 @@ hard-but-fair rebalance against vanilla.
   player's team base-stat totals and fields the ace plus the five other members
   whose combined BST is closest to that total (POOL_PRUNE_BST_MATCH in
   src/trainer_pools.c). No forced lead (Surge-only difference from Misty).
-- Pool members (10, all Lv27 = at the cap, perfect IVs, no EVs; no nicknames).
+- Pool members (10; Raichu ace Lv27 = cap, the other 9 Lv25 = cap-2; no forced
+  lead, so no cap-4 member. Perfect IVs, no EVs; no nicknames).
   All natures are +Speed except the two slow bruisers Iron Hands (Brave) and
   Pincurchin (Quiet). The +Speed natures shed the UNUSED attacking stat: Timid
   for pure special attackers, Jolly for pure physical, Naive for the two mixed
@@ -145,7 +154,9 @@ hard-but-fair rebalance against vanilla.
 
 ## Gym 4 — Celadon (Erika, Grass) — Rainbow Badge
 - Vanilla team: (fill from data)
-- Rebalanced team: (TBD)
+- Rebalanced team: (TBD — still the vanilla-count roster, fixed team).
+- Levels (tiered, cap 29): Victreebel Lv25 (lead, cap-4), Tangela Lv27 (cap-2),
+  Vileplume Lv29 (ace, cap).
 - Gimmick: canon "ladies only" flower gym, reframed - the gym women are Brock's
   "previous sponsors" (his exes) taking refuge; Erika hosts them all and is not one
   herself. Coy, cross-links the Brock arc. See ERIKA-EXES.
@@ -158,7 +169,9 @@ hard-but-fair rebalance against vanilla.
 
 ## Gym 5 — Fuchsia (Koga, Poison) — Soul Badge
 - Vanilla team: (fill from data)
-- Rebalanced team: (TBD)
+- Rebalanced team: (TBD — still the vanilla-count roster, fixed team).
+- Levels (tiered, cap 43): Koffing Lv39 (lead, cap-4), Muk Lv41 (cap-2), Koffing
+  Lv41 (cap-2), Weezing Lv43 (ace, cap).
 - Gimmick: canon invisible-wall maze, reframed - it's a deliberate PROTESTER-
   REPELLENT (petitioners who come to shout at Koga about the smog get lost and give
   up). See KOGA-REVEAL.
@@ -168,7 +181,9 @@ hard-but-fair rebalance against vanilla.
 
 ## Gym 6 — Saffron (Sabrina, Psychic) — Marsh Badge
 - Vanilla team: (fill from data)
-- Rebalanced team: (TBD)
+- Rebalanced team: (TBD — still the vanilla-count roster, fixed team).
+- Levels (tiered, cap 43): Kadabra Lv39 (lead, cap-4), Mr. Mime Lv41 (cap-2),
+  Venomoth Lv41 (cap-2), Alakazam Lv43 (ace, cap).
 - Gimmick: canon teleport-panel maze, reframed as a POSSESSION trial - every trainer
   is forced to fight and gives a contradictory false direction to reach Sabrina; the
   Gym Guide (also possessed) warns "trust no one, not even me." See SABRINA-GYM.
@@ -178,7 +193,9 @@ hard-but-fair rebalance against vanilla.
 
 ## Gym 7 — Cinnabar (Blaine, Fire) — Volcano Badge
 - Vanilla team: (fill from data)
-- Rebalanced team: (TBD)
+- Rebalanced team: (TBD — still the vanilla-count roster, fixed team).
+- Levels (tiered, cap 47): Growlithe Lv43 (lead, cap-4), Ponyta Lv45 (cap-2),
+  Rapidash Lv45 (cap-2), Arcanine Lv47 (ace, cap).
 - Gimmick: canon quiz-door trivia gate, reframed as Blaine testing the MIND before
   the POKéMON (raw power without wisdom is what made a monster). Mechanic unchanged.
 - Arc: Blaine helped create MEWTWO at the POKéMON MANSION on Dr. Fuji's team; it broke
@@ -188,7 +205,11 @@ hard-but-fair rebalance against vanilla.
 
 ## Gym 8 - Viridian (Giovanni, Ground) - Earth Badge
 - Vanilla team: (fill from data)
-- Rebalanced team: (TBD; Earth cap is 63)
+- Rebalanced team: (TBD — still the vanilla-count roster, fixed team; Earth cap is 63).
+- Levels (tiered, cap 50): Rhyhorn Lv46 (lead, cap-4), Dugtrio Lv48 (cap-2),
+  Nidoqueen Lv48 (cap-2), Nidoking Lv48 (cap-2), Rhyhorn Lv50 (ace, cap). This is
+  the TRAINER_LEADER_GIOVANNI gym fight; his two earlier Rocket boss fights
+  (TRAINER_BOSS_GIOVANNI/_2) are separate and unchanged.
 - Gimmick: the gym is LOCKED the entire game (canon; opens only after badges 2-7)
   and its LEADER is never seen. We reframe the locked door as the town's civic
   blind spot: Viridian is earnestly, proudly devoted to a LEADER nobody has ever
