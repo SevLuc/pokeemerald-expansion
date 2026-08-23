@@ -790,6 +790,72 @@ Consistency notes:
 - Reflavor the existing canon references (Saffron LANCE superfan, the Indigo cousin
   line) rather than adding new NPCs where possible.
 
+## Locke (rival identity) - the Documentarian
+Concept: Locke is one of the selectable rival identities at the new-game intro
+(VAR_RIVAL_ID; alongside Buhrito the default and Twitch). Voice = the style-guide
+Streamer-homage NPC: warm, self-mythologizing showman, "the run" is scripture. The
+core concept is THE DOCUMENTARIAN: he is always RECORDING THE RUN for a stream /
+audience he adores, narrating his own battles (defeats included) as content to a chat
+he loves. WARMTH IS CORE: he genuinely loves Pokemon, encourages everyone to play,
+celebrates the player's wins over him, and thanks people for playing / being here
+(signature note); his support and gratitude are SINCERE, not a bit. Silly-through-
+contrast: the sheer volume of that sincere encouragement poured at a room he can't
+see answer back. The phantom-audience melancholy ("...is anyone actually watching?")
+is now a FAINT UNDERTONE, not the thesis, just the small cost of that much love; it
+peeks only in glimpses and warmth mostly carries even those. His IMPLEMENTED
+mechanics ARE his lore (nuzlocke
+every save; kept counter-starter ace held for the finale, never led; the rest
+generated fresh each save so "no two runs play out the same" is literally true).
+Full character core + sample battle voice: drafts/locke.md.
+
+DELIVERY: the concept lives almost entirely in his OWN battle voice across the 8
+existing rival fights (add/move nothing). The built-in losing streak IS the arc: he
+spins every loss as content AND a reason to thank you, warm and encouraging
+throughout, one faint-ache glimpse at Lavender, a warm Champion beat that lands it. Distributed town fragments are constrained,
+a rival identity varies per save (Buhrito/Twitch/Locke), so any Locke-specific ambient
+line needs a VAR_RIVAL_ID branch on an existing NPC; logged as IDEAS only. HOMAGE, NOT
+likeness: a composite of nuzlocke-streamer culture, no real handle/catchphrase.
+
+| ID | Subject | Reveal | Source NPC | Map | Gate | Order | Status | Flags |
+|---|---|---|---|---|---|---|---|---|
+| LOCKE-INTRO | Locke (the pick) | New-game select blurb (existing): "LOCKE. Father of the Nuzlocke. No two runs play out the same. This is your pick?" | new-game intro | (menu) | new game | 0 | in-game | [FLAG: release-swap] |
+| LOCKE-01 | Locke (Ep. 1, Oak's Lab) | Battle voice: "goes live," casts the rivalry as his series, greets you as the best thing to happen to the channel; spins the tutorial loss as episode-one content AND his first thank-you. Bright, generous, no shadow yet. | Locke | Pallet, Oak's Lab | starter pick | 1 | drafted | [FLAG: release-swap] |
+| LOCKE-02 | Locke (Route 22 early) | Battle voice: show on the road; hypes YOU at the camera, celebrates the loss as your win, thanks you and urges the audience to go play too. All warmth. | Locke | Route 22 | none (early) | 2 | drafted | [FLAG: release-swap] |
+| LOCKE-03 | Locke (Cerulean) | Battle voice: brags the roster's growing but pivots to hyping YOURS and telling chat they're why he does this. Still glowing; audience beloved, not doubted. | Locke | Cerulean City | after robbed house | 3 | drafted | [FLAG: release-swap] |
+| LOCKE-04 | Locke (S.S. Anne) | Battle voice: "luxury episode"; sells the deathless brand but folds YOU into it ("you belong on this deck") and thanks you for a gorgeous fight. Generous host energy. | Locke | S.S. Anne 2F Corridor | story (ship) | 4 | drafted | [FLAG: release-swap] |
+| LOCKE-05 | Locke (Pokemon Tower) THE GLIMPSE | Battle voice: preaches the sacred fear of permadeath in a graveyard, then wonders aloud if anyone would be there to see his mons fall. The one faint-ache surface; played STRAIGHT, but his gratitude (thanks the player, thanks chat for staying) carries the page, not hollowness. | Locke | Pokemon Tower 2F | story (Lavender) | 5 | drafted | [FLAG: release-swap] |
+| LOCKE-06 | Locke (Silph Co.) | Battle voice: channel's gone quiet ("the light's just blinking red"), keeps going anyway because he LOVES this, not because he's empty; calls the player a joy to film. Love of the game carries him; warm, quietly brave. | Locke | Silph Co. 7F | story (Saffron) | 6 | drafted | [FLAG: release-swap] |
+| LOCKE-07 | Locke (Route 22 late) | Battle voice: all eight badges, deathless as promised, and he is PROUD of you, ready to hype the big one; a faint "even if the room's quiet" spent on encouraging you to go be champion. Warmth load-bearing. | Locke | Route 22 | all badges | 7 | drafted | [FLAG: release-swap] |
+| LOCKE-08 | Locke (Champion) THE LANDING | Battle voice: thanks whoever's watching for the whole run and for playing at all, thanks the player most; on the loss calls it a wrap, hands the run to YOU, tells you to get others to start theirs, and lands it warm ("Somebody's gotta remember this game, and I'm so glad it's you"). Gives Oak's fixed "love and trust" capstone a SOFT target (love ran to the record/audience more than the bond in hand). | Locke | Indigo Plateau, Champion's Room | story (Champion) | 8 | drafted | [FLAG: release-swap] |
+| LOCKE-09 | Locke (rematch, post-game) | Battle voice: the channel never ends and he's delighted; back filming and thanking everyone, a re-run he loves too much to stop. Warmth up front, ache faint, showman intact. | Locke | Indigo Plateau, Champion's Room | post-game rematch | 9 | idea | [FLAG: release-swap] |
+| LOCKE-CAND | Locke (distributed, CANDIDATE) | IDEA only: phantom-audience / "Father of the Nuzlocke" ambient color via VAR_RIVAL_ID-branched EXISTING NPCs (candidate carriers: the rival-mentioning townsfolk who already reference "your rival"). MUST branch on VAR_RIVAL_ID; MUST NOT route through Oak's generic un-named nuzlocke NPCs (see OAK-04). No new NPCs, no new beats. | existing rival-gossip NPCs (TBD) | various | none | - | idea | [FLAG: release-swap] |
+
+Consistency notes:
+- TONE REBALANCE: WARMTH IS CORE. Locke's sincere positivity (loves Pokemon,
+  encourages everyone to play, celebrates the player's wins over him, thanks people
+  for playing / being here) is the load-bearing center, not a bit. The phantom-
+  audience melancholy is a FAINT UNDERTONE, not the thesis; support and gratitude are
+  SINCERE, never a performance covering hollowness. Even Lavender/Silph are mostly
+  carried by warmth and thank-yous, not emptiness (at Silph he keeps going because
+  he loves it).
+- Comedy AND warmth are quarantined to Locke's narration (intros, loss-spins). His
+  in-battle threat is real (counter-ace held for the finale, coverage team), so the
+  hard-but-fair fight is not deflated. LOCKE-05 (Lavender) and LOCKE-06 (Silph dead
+  channel) play STRAIGHT, with warmth (not hollowness) holding the page.
+- MECHANICS ARE LOCKED; flavor conforms. Never write a line claiming his mons truly
+  die, that his team is fixed, or that he leads with his ace. Lore explains the
+  mechanics as showmanship (ace saved for the finale; every season a fresh cast).
+- HOMAGE, NOT likeness [FLAG: release-swap]. Composite of nuzlocke-streamer culture;
+  no real handle/catchphrase/bit. Named-scene name-drops stay on Buhrito/Twitch.
+- OFF THE MANDATORY PATH: Locke is a selectable rival identity (Buhrito is default),
+  so a release pass can cut him from the pick list without touching the plot.
+- CROSS-LINK (Oak arc): "Father of the Nuzlocke" stays on Locke's own lines + the
+  pick blurb; it must NOT leak into Oak's generic un-named nuzlocke gag (OAK-04),
+  which deliberately never names the rivals.
+- Battle text is STARTER-AGNOSTIC (same Locke lines regardless of the player's
+  starter; only his generated team + kept counter-ace differ per save), same wiring
+  model as buhrito.md / twitch.md (branch each existing beat on VAR_RIVAL_ID).
+
 ## Viridian fisherman - the Super Rod giver (mechanic-legibility NPC)
 Concept: a light, one-note local Fisher in Viridian City who hands the player their
 first and only rod (a SUPER ROD) right after they reach town, pre-gym. His purpose
