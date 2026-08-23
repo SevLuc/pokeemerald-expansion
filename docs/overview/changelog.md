@@ -7,6 +7,12 @@ Update in the same PR as the change.
 `YYYY-MM-DD` — area — one-line summary (PR/commit ref)
 
 ## Entries
+- 2026-08-23 - intro/rival - Rival pick now shows a per-rival flavor blurb before
+  the YES/NO confirm (Oak speech). Blurbs indexed by VAR_RIVAL_ID via
+  sRivalFlavorText[] in src/oak_speech.c; strings in
+  data/text/new_game_intro_frlg.inc (Buhrito, Twitch, Locke). Locke's encounters
+  not yet wired; missing/OOB index falls back to the generic confirm line. Built
+  clean on Mac.
 - 2026-08-23 - trainers/elite-four - Wired Lorelei's Ice pool into
   src/data/trainers_frlg.party (11 members, fields 6 via Party Size 6 + Bst Match,
   Lapras ace). Added a new `POOL_PICK_SNOW_LEAD` pick function
