@@ -43,6 +43,51 @@ and the Twitch path (single team, always Abby). Buhrito currently reuses the van
 Twitch teams are DRAFT: authentic TPP species + nicknames, levels pegged to the caps,
 moves auto-filled (level-up), IVs placeholder. Refine movesets/IVs on the balance pass.
 
+#### Rival (Locke) - generated nuzlocke teams
+The default (non-Twitch) rival, Locke, plays nuzlocke-style: his party is BUILT AT
+BATTLE TIME instead of coming from a static `trainers.party` entry. A per-save random
+seed (stored in two event vars, rolled once at new game) drives the generation, so
+every playthrough gives Locke a different but internally consistent team, and the same
+save always reproduces the same team. Implementation lives in `src/rival_nuzlocke.c`,
+`include/rival_nuzlocke.h`, and the per-fight data in `src/data/rival_nuzlocke_battles.h`;
+it hooks into `CreateNPCTrainerParty` in `src/battle_main.c`. The Twitch rival is a
+separate character and is completely unaffected.
+
+Scope:
+- Applies to ALL Locke fights EXCEPT Oak's Lab. The Oak's Lab fight keeps its static,
+  starter-only team (the tutorial loss).
+- The Route 22 early fight fields 4 mons. Every fight from Cerulean onward fields 6.
+- Levels match the vanilla rival's per-fight ACE level: 12 / 18 / 20 / 25 / 40 / 53 /
+  63, and 75 for the Champion rematch.
+
+How a team is built:
+- Starter (his ace): the type that COUNTERS the player's starter, kept the whole game.
+  Which of the three trainer-id variants is used encodes the starter, so it is fixed
+  per save. The starter is ALWAYS on the team but NEVER leads.
+- Lead (slot 0): the LEAST-WEAK mon (fewest type weaknesses) leads. The starter is
+  benched from the lead slot even when it would otherwise qualify.
+- Non-starter mons: one is rolled per "visited area" from that area's own wild
+  encounter table (land / water / fishing), walked in a fixed story order. Dupes
+  clause: no repeated species. Each rolled mon is evolved to whatever stage its level
+  allows.
+- When a fight's visited-area pool has more candidates than team slots, members are
+  chosen for TYPE COVERAGE: prefer mons that resist the starter's weaknesses and that
+  minimize shared team weaknesses.
+
+Visited-area pools per fight (cumulative, from `rival_nuzlocke_battles.h`, 34 areas total):
+
+| Fight | Areas added at this fight |
+|---|---|
+| Route 22 early | Route 1, Viridian City (fishing), Route 22 |
+| Cerulean | Routes 2-4, Viridian Forest, Mt Moon, Cerulean (fishing), Routes 24-25 |
+| S.S. Anne | Routes 5-6, Vermilion (fishing), Route 11 |
+| Pokemon Tower | Routes 8-10, Rock Tunnel |
+| Silph Co | Route 7, Celadon (fishing), Routes 12-18 |
+| Route 22 late | Routes 19-21 (water), Seafoam |
+| Champion | Victory Road, Route 23 |
+
+(Later fights include all earlier areas, so the pool grows across the game.)
+
 ### Gym leaders
 | Leader | Constant | Status |
 |---|---|---|
