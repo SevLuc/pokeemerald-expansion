@@ -832,6 +832,10 @@ static bool8 StartMenuRepelCallback(void)
         }
     }
 
+    // Hand control back to the input handler; without this gMenuCallback stays
+    // pointed at this function and it re-runs (re-toggling) every frame, which
+    // hard-locks the menu in a rapid ON/OFF flip.
+    gMenuCallback = HandleStartMenuInput;
     return FALSE;
 }
 
