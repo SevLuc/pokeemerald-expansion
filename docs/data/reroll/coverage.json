@@ -1,0 +1,1533 @@
+{
+ "assignments": [
+  {
+   "const": "TRAINER_COOLTRAINER_ALEXA",
+   "segment": 9,
+   "slot": 0,
+   "old_species": "Grimmsnarl",
+   "new_species": "Flutter Mane",
+   "level": 66
+  },
+  {
+   "const": "TRAINER_SWIMMER_MALE_RICHARD",
+   "segment": 7,
+   "slot": 1,
+   "old_species": "Sharpedo",
+   "new_species": "Iron Bundle",
+   "level": 53
+  },
+  {
+   "const": "TRAINER_SWIMMER_FEMALE_ANYA",
+   "segment": 7,
+   "slot": 2,
+   "old_species": "Sharpedo",
+   "new_species": "Urshifu (Rapid Strike)",
+   "level": 53
+  },
+  {
+   "const": "TRAINER_BLACK_BELT_DAISUKE",
+   "segment": 9,
+   "slot": 1,
+   "old_species": "Primeape",
+   "new_species": "Urshifu (Single Strike)",
+   "level": 64
+  },
+  {
+   "const": "TRAINER_SCIENTIST_TED",
+   "segment": 7,
+   "slot": 0,
+   "old_species": "Electabuzz",
+   "new_species": "Rotom-Heat",
+   "level": 55
+  },
+  {
+   "const": "TRAINER_SWIMMER_FEMALE_MELISSA",
+   "segment": 7,
+   "slot": 0,
+   "old_species": "Sharpedo",
+   "new_species": "Rotom-Wash",
+   "level": 54
+  },
+  {
+   "const": "TRAINER_SCIENTIST_BRAYDON",
+   "segment": 7,
+   "slot": 2,
+   "old_species": "Electabuzz",
+   "new_species": "Rotom-Frost",
+   "level": 57
+  },
+  {
+   "const": "TRAINER_SCIENTIST_BRAYDON",
+   "segment": 7,
+   "slot": 0,
+   "old_species": "Hisuian Voltorb",
+   "new_species": "Rotom-Fan",
+   "level": 55
+  },
+  {
+   "const": "TRAINER_COOLTRAINER_GEORGE",
+   "segment": 9,
+   "slot": 3,
+   "old_species": "Electabuzz",
+   "new_species": "Rotom-Mow",
+   "level": 67
+  },
+  {
+   "const": "TRAINER_COOLTRAINER_GEORGE",
+   "segment": 9,
+   "slot": 1,
+   "old_species": "Lanturn",
+   "new_species": "Rotom",
+   "level": 65
+  },
+  {
+   "const": "TRAINER_BLACK_BELT_DAISUKE",
+   "segment": 9,
+   "slot": 0,
+   "old_species": "Blaziken",
+   "new_species": "Kubfu",
+   "level": 63
+  },
+  {
+   "const": "TRAINER_BIRD_KEEPER_ROGER",
+   "segment": 7,
+   "slot": 1,
+   "old_species": "Golbat",
+   "new_species": "Dragonite",
+   "level": 54
+  },
+  {
+   "const": "TRAINER_BIRD_KEEPER_ROGER",
+   "segment": 7,
+   "slot": 0,
+   "old_species": "Masquerain",
+   "new_species": "Salamence",
+   "level": 53
+  },
+  {
+   "const": "TRAINER_CHANNELER_PATRICIA",
+   "segment": 5,
+   "slot": 0,
+   "old_species": "Palossand",
+   "new_species": "Dragapult",
+   "level": 47,
+   "note": "final placed early (no late surplus of its type)"
+  },
+  {
+   "const": "TRAINER_SUPER_NERD_MIGUEL",
+   "segment": 2,
+   "slot": 2,
+   "old_species": "Pawniard",
+   "new_species": "Archaludon",
+   "level": 20,
+   "note": "final placed early (no late surplus of its type)"
+  },
+  {
+   "const": "TRAINER_TEAM_ROCKET_GRUNT_19",
+   "segment": 5,
+   "slot": 2,
+   "old_species": "Sharpedo",
+   "new_species": "Hydreigon",
+   "level": 49,
+   "note": "final placed early (no late surplus of its type)"
+  },
+  {
+   "const": "TRAINER_GENTLEMAN_LAMAR",
+   "segment": 3,
+   "slot": 0,
+   "old_species": "Tinkatuff",
+   "new_species": "Hisuian Goodra",
+   "level": 24,
+   "note": "final placed early (no late surplus of its type)"
+  },
+  {
+   "const": "TRAINER_BURGLAR_QUINN",
+   "segment": 7,
+   "slot": 0,
+   "old_species": "Talonflame",
+   "new_species": "Arcanine",
+   "level": 55
+  },
+  {
+   "const": "TRAINER_SUPER_NERD_AVERY",
+   "segment": 7,
+   "slot": 3,
+   "old_species": "Hisuian Growlithe",
+   "new_species": "Hisuian Arcanine",
+   "level": 57
+  },
+  {
+   "const": "TRAINER_CHANNELER_HOPE",
+   "segment": 5,
+   "slot": 0,
+   "old_species": "Palossand",
+   "new_species": "Gholdengo",
+   "level": 47,
+   "note": "final placed early (no late surplus of its type)"
+  },
+  {
+   "const": "TRAINER_TEAM_ROCKET_GRUNT_24",
+   "segment": 6,
+   "slot": 0,
+   "old_species": "Sharpedo",
+   "new_species": "Kingambit",
+   "level": 50,
+   "note": "final placed early (no late surplus of its type)"
+  },
+  {
+   "const": "TRAINER_COOLTRAINER_ALEXA",
+   "segment": 9,
+   "slot": 1,
+   "old_species": "Gardevoir",
+   "new_species": "Togekiss",
+   "level": 67
+  },
+  {
+   "const": "TRAINER_COOLTRAINER_ROLANDO",
+   "segment": 9,
+   "slot": 3,
+   "old_species": "Girafarig",
+   "new_species": "Snorlax",
+   "level": 63
+  },
+  {
+   "const": "TRAINER_TAMER_VINCENT",
+   "segment": 9,
+   "slot": 1,
+   "old_species": "Ursaring",
+   "new_species": "Blissey",
+   "level": 67
+  },
+  {
+   "const": "TRAINER_SWIMMER_MALE_REECE",
+   "segment": 7,
+   "slot": 2,
+   "old_species": "Lombre",
+   "new_species": "Gyarados",
+   "level": 53
+  },
+  {
+   "const": "TRAINER_SWIMMER_MALE_DARRIN",
+   "segment": 7,
+   "slot": 2,
+   "old_species": "Pelipper",
+   "new_species": "Milotic",
+   "level": 55
+  },
+  {
+   "const": "TRAINER_SWIMMER_MALE_REECE",
+   "segment": 7,
+   "slot": 1,
+   "old_species": "Poliwhirl",
+   "new_species": "Kingdra",
+   "level": 53
+  },
+  {
+   "const": "TRAINER_SCIENTIST_TED",
+   "segment": 7,
+   "slot": 1,
+   "old_species": "Electrode",
+   "new_species": "Electivire",
+   "level": 56
+  },
+  {
+   "const": "TRAINER_BLACK_BELT_DAISUKE",
+   "segment": 9,
+   "slot": 2,
+   "old_species": "Infernape",
+   "new_species": "Annihilape",
+   "level": 65
+  },
+  {
+   "const": "TRAINER_COOL_COUPLE_RAY_TYRA",
+   "segment": 9,
+   "slot": 0,
+   "old_species": "Nidoking",
+   "new_species": "Crobat",
+   "level": 70
+  },
+  {
+   "const": "TRAINER_BIRD_KEEPER_CARTER",
+   "segment": 5,
+   "slot": 2,
+   "old_species": "Butterfree",
+   "new_species": "Noivern",
+   "level": 44,
+   "note": "final placed early (no late surplus of its type)"
+  },
+  {
+   "const": "TRAINER_GENTLEMAN_LAMAR",
+   "segment": 3,
+   "slot": 1,
+   "old_species": "Metang",
+   "new_species": "Duraludon",
+   "level": 25,
+   "note": "final placed early (no late surplus of its type)"
+  },
+  {
+   "const": "TRAINER_SWIMMER_MALE_AXLE",
+   "segment": 7,
+   "slot": 2,
+   "old_species": "Lombre",
+   "new_species": "Lapras",
+   "level": 53
+  },
+  {
+   "const": "TRAINER_PICNICKER_IRENE",
+   "segment": 7,
+   "slot": 2,
+   "old_species": "Exeggcute",
+   "new_species": "Tangrowth",
+   "level": 55
+  },
+  {
+   "const": "TRAINER_BURGLAR_ARNIE",
+   "segment": 7,
+   "slot": 0,
+   "old_species": "Blaziken",
+   "new_species": "Hisuian Typhlosion",
+   "level": 55
+  },
+  {
+   "const": "TRAINER_TAMER_JASON",
+   "segment": 8,
+   "slot": 0,
+   "old_species": "Krookodile",
+   "new_species": "Mamoswine",
+   "level": 62
+  },
+  {
+   "const": "TRAINER_HIKER_ALAN",
+   "segment": 4,
+   "slot": 0,
+   "old_species": "Larvitar",
+   "new_species": "Aggron",
+   "level": 27,
+   "note": "final placed early (no late surplus of its type)"
+  },
+  {
+   "const": "TRAINER_SWIMMER_FEMALE_NORA",
+   "segment": 7,
+   "slot": 0,
+   "old_species": "Sharpedo",
+   "new_species": "Dondozo",
+   "level": 53
+  },
+  {
+   "const": "TRAINER_COOLTRAINER_COLBY",
+   "segment": 9,
+   "slot": 3,
+   "old_species": "Pelipper",
+   "new_species": "Walrein",
+   "level": 68
+  },
+  {
+   "const": "TRAINER_COOLTRAINER_CAROLINE",
+   "segment": 9,
+   "slot": 3,
+   "old_species": "Amoonguss",
+   "new_species": "Sceptile",
+   "level": 69
+  },
+  {
+   "const": "TRAINER_PICNICKER_IRENE",
+   "segment": 7,
+   "slot": 1,
+   "old_species": "Breloom",
+   "new_species": "Meowscarada",
+   "level": 54
+  },
+  {
+   "const": "TRAINER_COOLTRAINER_CAROLINE",
+   "segment": 9,
+   "slot": 1,
+   "old_species": "Gloom",
+   "new_species": "Alolan Exeggutor",
+   "level": 67
+  },
+  {
+   "const": "TRAINER_JUGGLER_NELSON",
+   "segment": 9,
+   "slot": 1,
+   "old_species": "Alolan Raichu",
+   "new_species": "Exeggutor",
+   "level": 64
+  },
+  {
+   "const": "TRAINER_CUE_BALL_KOJI",
+   "segment": 5,
+   "slot": 0,
+   "old_species": "Primeape",
+   "new_species": "Lucario",
+   "level": 35,
+   "note": "final placed early (no late surplus of its type)"
+  },
+  {
+   "const": "TRAINER_BLACK_BELT_ATSUSHI",
+   "segment": 8,
+   "slot": 0,
+   "old_species": "Marowak",
+   "new_species": "Hippowdon",
+   "level": 61
+  },
+  {
+   "const": "TRAINER_HIKER_CLARK",
+   "segment": 4,
+   "slot": 0,
+   "old_species": "Rhyhorn",
+   "new_species": "Probopass",
+   "level": 28,
+   "note": "final placed early (no late surplus of its type)"
+  },
+  {
+   "const": "TRAINER_CHANNELER_CARLY",
+   "segment": 5,
+   "slot": 0,
+   "old_species": "Doublade",
+   "new_species": "Dusknoir",
+   "level": 47,
+   "note": "final placed early (no late surplus of its type)"
+  },
+  {
+   "const": "TRAINER_SUPER_NERD_AVERY",
+   "segment": 7,
+   "slot": 0,
+   "old_species": "Skeledirge",
+   "new_species": "Flareon",
+   "level": 54
+  },
+  {
+   "const": "TRAINER_PICNICKER_IRENE",
+   "segment": 7,
+   "slot": 0,
+   "old_species": "Cacturne",
+   "new_species": "Leafeon",
+   "level": 53
+  },
+  {
+   "const": "TRAINER_JUGGLER_NELSON",
+   "segment": 9,
+   "slot": 2,
+   "old_species": "Metagross",
+   "new_species": "Espeon",
+   "level": 65
+  },
+  {
+   "const": "TRAINER_TEAM_ROCKET_GRUNT_26",
+   "segment": 6,
+   "slot": 0,
+   "old_species": "Sharpedo",
+   "new_species": "Umbreon",
+   "level": 50,
+   "note": "final placed early (no late surplus of its type)"
+  },
+  {
+   "const": "TRAINER_COOLTRAINER_ALEXA",
+   "segment": 9,
+   "slot": 2,
+   "old_species": "Mr. Mime",
+   "new_species": "Sylveon",
+   "level": 68
+  },
+  {
+   "const": "TRAINER_HIKER_LENNY",
+   "segment": 4,
+   "slot": 0,
+   "old_species": "Cranidos",
+   "new_species": "Tyrantrum",
+   "level": 27,
+   "note": "final placed early (no late surplus of its type)"
+  },
+  {
+   "const": "TRAINER_HIKER_LENNY",
+   "segment": 4,
+   "slot": 2,
+   "old_species": "Larvitar",
+   "new_species": "Aurorus",
+   "level": 29,
+   "note": "final placed early (no late surplus of its type)"
+  },
+  {
+   "const": "TRAINER_JUGGLER_NELSON",
+   "segment": 9,
+   "slot": 3,
+   "old_species": "Girafarig",
+   "new_species": "Farigiraf",
+   "level": 66
+  },
+  {
+   "const": "TRAINER_BLACK_BELT_TAKASHI",
+   "segment": 8,
+   "slot": 1,
+   "old_species": "Palossand",
+   "new_species": "Flygon",
+   "level": 61
+  },
+  {
+   "const": "TRAINER_JUGGLER_GREGORY",
+   "segment": 9,
+   "slot": 0,
+   "old_species": "Lunatone",
+   "new_species": "Gallade",
+   "level": 67
+  },
+  {
+   "const": "TRAINER_COOLTRAINER_CAROLINE",
+   "segment": 9,
+   "slot": 2,
+   "old_species": "Vileplume",
+   "new_species": "Dhelmise",
+   "level": 68
+  },
+  {
+   "const": "TRAINER_COOLTRAINER_ROLANDO",
+   "segment": 9,
+   "slot": 0,
+   "old_species": "Wigglytuff",
+   "new_species": "Porygon2",
+   "level": 63
+  },
+  {
+   "const": "TRAINER_COOLTRAINER_ROLANDO",
+   "segment": 9,
+   "slot": 1,
+   "old_species": "Slaking",
+   "new_species": "Lickilicky",
+   "level": 63
+  },
+  {
+   "const": "TRAINER_BIRD_KEEPER_JACOB",
+   "segment": 5,
+   "slot": 0,
+   "old_species": "Pelipper",
+   "new_species": "Aerodactyl",
+   "level": 35,
+   "note": "final placed early (no late surplus of its type)"
+  },
+  {
+   "const": "TRAINER_COOLTRAINER_SAMUEL",
+   "segment": 8,
+   "slot": 3,
+   "old_species": "Graveler",
+   "new_species": "Gliscor",
+   "level": 61
+  },
+  {
+   "const": "TRAINER_BIRD_KEEPER_JACOB",
+   "segment": 5,
+   "slot": 1,
+   "old_species": "Talonflame",
+   "new_species": "Mandibuzz",
+   "level": 36,
+   "note": "final placed early (no late surplus of its type)"
+  },
+  {
+   "const": "TRAINER_BIRD_KEEPER_JACOB",
+   "segment": 5,
+   "slot": 3,
+   "old_species": "Altaria",
+   "new_species": "Hisuian Braviary",
+   "level": 38,
+   "note": "final placed early (no late surplus of its type)"
+  },
+  {
+   "const": "TRAINER_COOLTRAINER_YUJI",
+   "segment": 8,
+   "slot": 2,
+   "old_species": "Clodsire",
+   "new_species": "Steelix",
+   "level": 60
+  },
+  {
+   "const": "TRAINER_COOLTRAINER_ALEXA",
+   "segment": 9,
+   "slot": 4,
+   "old_species": "Dachsbun",
+   "new_species": "Hatterene",
+   "level": 70
+  },
+  {
+   "const": "TRAINER_TEAM_ROCKET_GRUNT_26",
+   "segment": 6,
+   "slot": 1,
+   "old_species": "Skuntank",
+   "new_species": "Weavile",
+   "level": 51,
+   "note": "final placed early (no late surplus of its type)"
+  },
+  {
+   "const": "TRAINER_CHANNELER_LAUREL",
+   "segment": 5,
+   "slot": 0,
+   "old_species": "Drifblim",
+   "new_species": "Polteageist",
+   "level": 46,
+   "note": "final placed early (no late surplus of its type)"
+  },
+  {
+   "const": "TRAINER_CUE_BALL_CAMRON",
+   "segment": 5,
+   "slot": 1,
+   "old_species": "Primeape",
+   "new_species": "Machamp",
+   "level": 36,
+   "note": "final placed early (no late surplus of its type)"
+  },
+  {
+   "const": "TRAINER_BIRD_KEEPER_WILTON",
+   "segment": 5,
+   "slot": 0,
+   "old_species": "Pelipper",
+   "new_species": "Honchkrow",
+   "level": 37,
+   "note": "final placed early (no late surplus of its type)"
+  },
+  {
+   "const": "TRAINER_BIRD_KEEPER_SEBASTIAN",
+   "segment": 5,
+   "slot": 0,
+   "old_species": "Talonflame",
+   "new_species": "Hawlucha",
+   "level": 40,
+   "note": "final placed early (no late surplus of its type)"
+  },
+  {
+   "const": "TRAINER_BIRD_KEEPER_ROBERT",
+   "segment": 5,
+   "slot": 0,
+   "old_species": "Altaria",
+   "new_species": "Flamigo",
+   "level": 39,
+   "note": "final placed early (no late surplus of its type)"
+  },
+  {
+   "const": "TRAINER_CUE_BALL_KOJI",
+   "segment": 5,
+   "slot": 1,
+   "old_species": "Machoke",
+   "new_species": "Heracross",
+   "level": 35,
+   "note": "final placed early (no late surplus of its type)"
+  },
+  {
+   "const": "TRAINER_BIRD_KEEPER_ROBERT",
+   "segment": 5,
+   "slot": 2,
+   "old_species": "Pelipper",
+   "new_species": "Scyther",
+   "level": 41,
+   "note": "final placed early (no late surplus of its type)"
+  },
+  {
+   "const": "TRAINER_COOLTRAINER_WARREN",
+   "segment": 8,
+   "slot": 1,
+   "old_species": "Marowak",
+   "new_species": "Claydol",
+   "level": 59
+  },
+  {
+   "const": "TRAINER_COOLTRAINER_CAROLINE",
+   "segment": 9,
+   "slot": 4,
+   "old_species": "Venusaur",
+   "new_species": "Leavanny",
+   "level": 70
+  },
+  {
+   "const": "TRAINER_BUG_CATCHER_BRENT",
+   "segment": 4,
+   "slot": 0,
+   "old_species": "Butterfree",
+   "new_species": "Scizor",
+   "level": 27,
+   "note": "final placed early (no late surplus of its type)"
+  },
+  {
+   "const": "TRAINER_CHANNELER_PAULA",
+   "segment": 5,
+   "slot": 0,
+   "old_species": "Doublade",
+   "new_species": "Aegislash",
+   "level": 47,
+   "note": "final placed early (no late surplus of its type)"
+  },
+  {
+   "const": "TRAINER_PSYCHIC_CAMERON",
+   "segment": 6,
+   "slot": 0,
+   "old_species": "Exeggcute",
+   "new_species": "Bronzong",
+   "level": 50,
+   "note": "final placed early (no late surplus of its type)"
+  },
+  {
+   "const": "TRAINER_BURGLAR_DUSTY",
+   "segment": 7,
+   "slot": 1,
+   "old_species": "Hisuian Growlithe",
+   "new_species": "Rapidash",
+   "level": 57
+  },
+  {
+   "const": "TRAINER_SWIMMER_MALE_AXLE",
+   "segment": 7,
+   "slot": 1,
+   "old_species": "Poliwhirl",
+   "new_species": "Politoed",
+   "level": 53
+  },
+  {
+   "const": "TRAINER_PSYCHIC_JOHAN",
+   "segment": 6,
+   "slot": 0,
+   "old_species": "Metagross",
+   "new_species": "Alakazam",
+   "level": 50,
+   "note": "final placed early (no late surplus of its type)"
+  },
+  {
+   "const": "TRAINER_HIKER_ALAN",
+   "segment": 4,
+   "slot": 1,
+   "old_species": "Archen",
+   "new_species": "Rampardos",
+   "level": 27
+  },
+  {
+   "const": "TRAINER_HIKER_LENNY",
+   "segment": 4,
+   "slot": 1,
+   "old_species": "Glimmet",
+   "new_species": "Bastiodon",
+   "level": 28
+  },
+  {
+   "const": "TRAINER_BUG_CATCHER_CONNER",
+   "segment": 4,
+   "slot": 0,
+   "old_species": "Butterfree",
+   "new_species": "Armaldo",
+   "level": 27
+  },
+  {
+   "const": "TRAINER_PICNICKER_SOFIA",
+   "segment": 4,
+   "slot": 2,
+   "old_species": "Weepinbell",
+   "new_species": "Cradily",
+   "level": 31
+  },
+  {
+   "const": "TRAINER_BUG_CATCHER_CONNER",
+   "segment": 4,
+   "slot": 1,
+   "old_species": "Butterfree",
+   "new_species": "Accelgor",
+   "level": 27
+  },
+  {
+   "const": "TRAINER_BUG_CATCHER_BRENT",
+   "segment": 4,
+   "slot": 1,
+   "old_species": "Parasect",
+   "new_species": "Escavalier",
+   "level": 28
+  },
+  {
+   "const": "TRAINER_CHANNELER_LAUREL",
+   "segment": 5,
+   "slot": 1,
+   "old_species": "Palossand",
+   "new_species": "Mismagius",
+   "level": 47
+  },
+  {
+   "const": "TRAINER_PICNICKER_CAITLIN",
+   "segment": 4,
+   "slot": 0,
+   "old_species": "Minccino",
+   "new_species": "Kangaskhan",
+   "level": 28
+  },
+  {
+   "const": "TRAINER_PICNICKER_ARIANA",
+   "segment": 4,
+   "slot": 0,
+   "old_species": "Jigglypuff",
+   "new_species": "Tauros",
+   "level": 27
+  },
+  {
+   "const": "TRAINER_PICNICKER_ARIANA",
+   "segment": 4,
+   "slot": 1,
+   "old_species": "Dubwool",
+   "new_species": "Miltank",
+   "level": 28
+  },
+  {
+   "const": "TRAINER_TEAM_ROCKET_GRUNT_14",
+   "segment": 4,
+   "slot": 0,
+   "old_species": "Morgrem",
+   "new_species": "Bisharp",
+   "level": 32
+  },
+  {
+   "const": "TRAINER_FISHERMAN_ELLIOT",
+   "segment": 5,
+   "slot": 0,
+   "old_species": "Sharpedo",
+   "new_species": "Barraskewda",
+   "level": 37
+  },
+  {
+   "const": "TRAINER_FISHERMAN_ELLIOT",
+   "segment": 5,
+   "slot": 3,
+   "old_species": "Poliwhirl",
+   "new_species": "Slowking",
+   "level": 40
+  },
+  {
+   "const": "TRAINER_PICNICKER_VALERIE",
+   "segment": 5,
+   "slot": 0,
+   "old_species": "Weepinbell",
+   "new_species": "Bellossom",
+   "level": 41
+  },
+  {
+   "const": "TRAINER_PSYCHIC_JOHAN",
+   "segment": 6,
+   "slot": 1,
+   "old_species": "Xatu",
+   "new_species": "Gothitelle",
+   "level": 50
+  },
+  {
+   "const": "TRAINER_PSYCHIC_JOHAN",
+   "segment": 6,
+   "slot": 3,
+   "old_species": "Girafarig",
+   "new_species": "Reuniclus",
+   "level": 52
+  },
+  {
+   "const": "TRAINER_HIKER_LENNY",
+   "segment": 4,
+   "slot": 3,
+   "old_species": "Rhyhorn",
+   "new_species": "Lycanroc",
+   "level": 30
+  },
+  {
+   "const": "TRAINER_LASS_JULIA",
+   "segment": 4,
+   "slot": 0,
+   "old_species": "Morgrem",
+   "new_species": "Comfey",
+   "level": 31
+  },
+  {
+   "const": "TRAINER_BUG_CATCHER_KEIGO",
+   "segment": 3,
+   "slot": 1,
+   "old_species": "Butterfree",
+   "new_species": "Durant",
+   "level": 23
+  },
+  {
+   "const": "TRAINER_CHANNELER_RUTH",
+   "segment": 5,
+   "slot": 0,
+   "old_species": "Drifblim",
+   "new_species": "Cofagrigus",
+   "level": 48
+  },
+  {
+   "const": "TRAINER_LASS_JULIA",
+   "segment": 4,
+   "slot": 1,
+   "old_species": "Mawile",
+   "new_species": "Clefable",
+   "level": 32
+  },
+  {
+   "const": "TRAINER_PICNICKER_MARTHA",
+   "segment": 4,
+   "slot": 1,
+   "old_species": "Bewear",
+   "new_species": "Lopunny",
+   "level": 31
+  },
+  {
+   "const": "TRAINER_LASS_ANDREA",
+   "segment": 4,
+   "slot": 0,
+   "old_species": "Swablu",
+   "new_species": "Komala",
+   "level": 31
+  },
+  {
+   "const": "TRAINER_CHANNELER_JODY",
+   "segment": 5,
+   "slot": 0,
+   "old_species": "Doublade",
+   "new_species": "Froslass",
+   "level": 47
+  },
+  {
+   "const": "TRAINER_PICNICKER_LEAH",
+   "segment": 4,
+   "slot": 1,
+   "old_species": "Hisuian Voltorb",
+   "new_species": "Whimsicott",
+   "level": 30
+  },
+  {
+   "const": "TRAINER_LASS_ANDREA",
+   "segment": 4,
+   "slot": 1,
+   "old_species": "Minccino",
+   "new_species": "Maushold",
+   "level": 32
+  },
+  {
+   "const": "TRAINER_BUG_CATCHER_KEIGO",
+   "segment": 3,
+   "slot": 2,
+   "old_species": "Butterfree",
+   "new_species": "Forretress",
+   "level": 23
+  },
+  {
+   "const": "TRAINER_HIKER_LUCAS",
+   "segment": 4,
+   "slot": 0,
+   "old_species": "Cranidos",
+   "new_species": "Solrock",
+   "level": 29
+  },
+  {
+   "const": "TRAINER_FISHERMAN_NED",
+   "segment": 5,
+   "slot": 1,
+   "old_species": "Toxapex",
+   "new_species": "Seadra",
+   "level": 39
+  },
+  {
+   "const": "TRAINER_CHANNELER_KARINA",
+   "segment": 5,
+   "slot": 0,
+   "old_species": "Palossand",
+   "new_species": "Misdreavus",
+   "level": 48
+  },
+  {
+   "const": "TRAINER_GAMER_RICH",
+   "segment": 4,
+   "slot": 0,
+   "old_species": "Electabuzz",
+   "new_species": "Togedemaru",
+   "level": 31
+  },
+  {
+   "const": "TRAINER_LASS_LISA",
+   "segment": 4,
+   "slot": 0,
+   "old_species": "Lombre",
+   "new_species": "Tangela",
+   "level": 33
+  },
+  {
+   "const": "TRAINER_BUG_CATCHER_KEIGO",
+   "segment": 3,
+   "slot": 0,
+   "old_species": "Masquerain",
+   "new_species": "Volbeat",
+   "level": 23
+  },
+  {
+   "const": "TRAINER_BUG_CATCHER_ELIJAH",
+   "segment": 3,
+   "slot": 0,
+   "old_species": "Parasect",
+   "new_species": "Illumise",
+   "level": 23
+  },
+  {
+   "const": "TRAINER_CAMPER_JUSTIN",
+   "segment": 5,
+   "slot": 1,
+   "old_species": "Morgrem",
+   "new_species": "Azumarill",
+   "level": 41
+  },
+  {
+   "const": "TRAINER_CAMPER_CHRIS",
+   "segment": 4,
+   "slot": 0,
+   "old_species": "Hisuian Growlithe",
+   "new_species": "Ponyta",
+   "level": 27
+  },
+  {
+   "const": "TRAINER_FISHERMAN_CHIP",
+   "segment": 5,
+   "slot": 0,
+   "old_species": "Staryu",
+   "new_species": "Pyukumuku",
+   "level": 39
+  },
+  {
+   "const": "TRAINER_FISHERMAN_NED",
+   "segment": 5,
+   "slot": 2,
+   "old_species": "Primarina",
+   "new_species": "Sealeo",
+   "level": 40
+  },
+  {
+   "const": "TRAINER_BURGLAR_ARNIE",
+   "segment": 7,
+   "slot": 1,
+   "old_species": "Blaziken",
+   "new_species": "Braixen",
+   "level": 56
+  },
+  {
+   "const": "TRAINER_SUPER_NERD_ERIK",
+   "segment": 7,
+   "slot": 0,
+   "old_species": "Delphox",
+   "new_species": "Quilava",
+   "level": 55
+  },
+  {
+   "const": "TRAINER_LASS_JANICE",
+   "segment": 2,
+   "slot": 0,
+   "old_species": "Jigglypuff",
+   "new_species": "Porygon",
+   "level": 15
+  },
+  {
+   "const": "TRAINER_HIKER_MARCOS",
+   "segment": 2,
+   "slot": 2,
+   "old_species": "Graveler",
+   "new_species": "Nosepass",
+   "level": 17
+  },
+  {
+   "const": "TRAINER_YOUNGSTER_CHAD",
+   "segment": 2,
+   "slot": 1,
+   "old_species": "Metang",
+   "new_species": "Duosion",
+   "level": 21
+  },
+  {
+   "const": "TRAINER_PSYCHIC_TYRON",
+   "segment": 6,
+   "slot": 1,
+   "old_species": "Metagross",
+   "new_species": "Hattrem",
+   "level": 52
+  },
+  {
+   "const": "TRAINER_CAMPER_LIAM",
+   "segment": 1,
+   "slot": 0,
+   "old_species": "Larvitar",
+   "new_species": "Tyrunt",
+   "level": 12
+  },
+  {
+   "const": "TRAINER_BUG_CATCHER_ANTHONY",
+   "segment": 1,
+   "slot": 0,
+   "old_species": "Butterfree",
+   "new_species": "Anorith",
+   "level": 10
+  },
+  {
+   "const": "TRAINER_SUPER_NERD_ERIK",
+   "segment": 7,
+   "slot": 2,
+   "old_species": "Chandelure",
+   "new_species": "Growlithe",
+   "level": 57
+  },
+  {
+   "const": "TRAINER_SUPER_NERD_AVERY",
+   "segment": 7,
+   "slot": 1,
+   "old_species": "Infernape",
+   "new_species": "Litten",
+   "level": 55
+  },
+  {
+   "const": "TRAINER_BUG_CATCHER_ANTHONY",
+   "segment": 1,
+   "slot": 1,
+   "old_species": "Butterfree",
+   "new_species": "Karrablast",
+   "level": 11
+  },
+  {
+   "const": "TRAINER_SUPER_NERD_DEREK",
+   "segment": 7,
+   "slot": 0,
+   "old_species": "Ninetales",
+   "new_species": "Darumaka",
+   "level": 57
+  },
+  {
+   "const": "TRAINER_GENTLEMAN_THOMAS",
+   "segment": 3,
+   "slot": 0,
+   "old_species": "Haunter",
+   "new_species": "Sinistea",
+   "level": 23
+  },
+  {
+   "const": "TRAINER_PSYCHIC_CAMERON",
+   "segment": 6,
+   "slot": 2,
+   "old_species": "Galarian Slowbro",
+   "new_species": "Smoochum",
+   "level": 52
+  },
+  {
+   "const": "TRAINER_GENTLEMAN_THOMAS",
+   "segment": 3,
+   "slot": 1,
+   "old_species": "Drakloak",
+   "new_species": "Yamask",
+   "level": 24
+  },
+  {
+   "const": "TRAINER_BURGLAR_QUINN",
+   "segment": 7,
+   "slot": 1,
+   "old_species": "Skeledirge",
+   "new_species": "Vulpix",
+   "level": 56
+  },
+  {
+   "const": "TRAINER_SAILOR_HUEY",
+   "segment": 3,
+   "slot": 0,
+   "old_species": "Lombre",
+   "new_species": "Horsea",
+   "level": 24
+  },
+  {
+   "const": "TRAINER_SAILOR_DUNCAN",
+   "segment": 3,
+   "slot": 2,
+   "old_species": "Poliwhirl",
+   "new_species": "Spheal",
+   "level": 26
+  },
+  {
+   "const": "TRAINER_PSYCHIC_PRESTON",
+   "segment": 6,
+   "slot": 0,
+   "old_species": "Galarian Slowking",
+   "new_species": "Solosis",
+   "level": 52
+  },
+  {
+   "const": "TRAINER_GENTLEMAN_BROOKS",
+   "segment": 3,
+   "slot": 0,
+   "old_species": "Mienfoo",
+   "new_species": "Riolu",
+   "level": 25
+  },
+  {
+   "const": "TRAINER_YOUNGSTER_DAN",
+   "segment": 2,
+   "slot": 0,
+   "old_species": "Brionne",
+   "new_species": "Chewtle",
+   "level": 21
+  },
+  {
+   "const": "TRAINER_FISHERMAN_DALE",
+   "segment": 3,
+   "slot": 1,
+   "old_species": "Staryu",
+   "new_species": "Arrokuda",
+   "level": 23
+  },
+  {
+   "const": "TRAINER_SUPER_NERD_JOVAN",
+   "segment": 2,
+   "slot": 1,
+   "old_species": "Hisuian Voltorb",
+   "new_species": "Mareep",
+   "level": 19
+  },
+  {
+   "const": "TRAINER_CHANNELER_ANGELICA",
+   "segment": 5,
+   "slot": 0,
+   "old_species": "Drifblim",
+   "new_species": "Litwick",
+   "level": 46
+  },
+  {
+   "const": "TRAINER_CHANNELER_JANAE",
+   "segment": 5,
+   "slot": 0,
+   "old_species": "Doublade",
+   "new_species": "Dreepy",
+   "level": 48
+  },
+  {
+   "const": "TRAINER_SUPER_NERD_JOVAN",
+   "segment": 2,
+   "slot": 0,
+   "old_species": "Chinchou",
+   "new_species": "Shinx",
+   "level": 18
+  },
+  {
+   "const": "TRAINER_BURGLAR_RAMON",
+   "segment": 7,
+   "slot": 0,
+   "old_species": "Cinderace",
+   "new_species": "Charcadet",
+   "level": 57
+  },
+  {
+   "const": "TRAINER_LASS_CRISSY",
+   "segment": 2,
+   "slot": 1,
+   "old_species": "Weepinbell",
+   "new_species": "Hoppip",
+   "level": 21
+  },
+  {
+   "const": "TRAINER_LASS_IRIS",
+   "segment": 2,
+   "slot": 0,
+   "old_species": "Morgrem",
+   "new_species": "Marill",
+   "level": 18
+  },
+  {
+   "const": "TRAINER_BIRD_KEEPER_PERRY",
+   "segment": 5,
+   "slot": 0,
+   "old_species": "Talonflame",
+   "new_species": "Rookidee",
+   "level": 39
+  },
+  {
+   "const": "TRAINER_BIRD_KEEPER_PERRY",
+   "segment": 5,
+   "slot": 1,
+   "old_species": "Altaria",
+   "new_species": "Noibat",
+   "level": 40
+  },
+  {
+   "const": "TRAINER_LASS_HALEY",
+   "segment": 2,
+   "slot": 2,
+   "old_species": "Mawile",
+   "new_species": "Togepi",
+   "level": 21
+  },
+  {
+   "const": "TRAINER_CUE_BALL_JAMAL",
+   "segment": 5,
+   "slot": 3,
+   "old_species": "Primeape",
+   "new_species": "Makuhita",
+   "level": 37
+  },
+  {
+   "const": "TRAINER_YOUNGSTER_BEN",
+   "segment": 2,
+   "slot": 1,
+   "old_species": "Ditto",
+   "new_species": "Happiny",
+   "level": 17
+  },
+  {
+   "const": "TRAINER_CAMPER_SHANE",
+   "segment": 2,
+   "slot": 0,
+   "old_species": "Budew",
+   "new_species": "Lotad",
+   "level": 18
+  },
+  {
+   "const": "TRAINER_LASS_HALEY",
+   "segment": 2,
+   "slot": 0,
+   "old_species": "Clefairy",
+   "new_species": "Cleffa",
+   "level": 19
+  },
+  {
+   "const": "TRAINER_LASS_RELI",
+   "segment": 2,
+   "slot": 0,
+   "old_species": "Minccino",
+   "new_species": "Igglybuff",
+   "level": 18
+  },
+  {
+   "const": "TRAINER_TEAM_ROCKET_GRUNT",
+   "segment": 2,
+   "slot": 0,
+   "old_species": "Nidorino",
+   "new_species": "Paldean Wooper",
+   "level": 19
+  },
+  {
+   "const": "TRAINER_ENGINEER_BAILY",
+   "segment": 3,
+   "slot": 1,
+   "old_species": "Chinchou",
+   "new_species": "Pichu",
+   "level": 26
+  },
+  {
+   "const": "TRAINER_SAILOR_EDMOND",
+   "segment": 3,
+   "slot": 1,
+   "old_species": "Floatzel",
+   "new_species": "Magikarp",
+   "level": 26
+  },
+  {
+   "const": "TRAINER_PICNICKER_NANCY",
+   "segment": 3,
+   "slot": 1,
+   "old_species": "Morgrem",
+   "new_species": "Ralts",
+   "level": 23
+  },
+  {
+   "const": "TRAINER_YOUNGSTER_JOEY",
+   "segment": 2,
+   "slot": 1,
+   "old_species": "Swablu",
+   "new_species": "Azurill",
+   "level": 20
+  },
+  {
+   "const": "TRAINER_PICNICKER_MISSY",
+   "segment": 7,
+   "slot": 1,
+   "old_species": "Gastrodon",
+   "new_species": "Goodra",
+   "level": 55,
+   "retheme": "Dragon"
+  },
+  {
+   "const": "TRAINER_PICNICKER_MISSY",
+   "segment": 7,
+   "slot": 0,
+   "old_species": "Primarina",
+   "new_species": "Haxorus",
+   "level": 54,
+   "retheme": "Dragon"
+  },
+  {
+   "const": "TRAINER_SCIENTIST_TAYLOR",
+   "segment": 6,
+   "slot": 4,
+   "old_species": "Ampharos",
+   "new_species": "Sliggoo",
+   "level": 51,
+   "retheme": "Dragon"
+  },
+  {
+   "const": "TRAINER_SCIENTIST_TAYLOR",
+   "segment": 6,
+   "slot": 0,
+   "old_species": "Electabuzz",
+   "new_species": "Hisuian Sliggoo",
+   "level": 50,
+   "retheme": "Dragon"
+  },
+  {
+   "const": "TRAINER_SCIENTIST_TAYLOR",
+   "segment": 6,
+   "slot": 1,
+   "old_species": "Luxray",
+   "new_species": "Dragonair",
+   "level": 50,
+   "retheme": "Dragon"
+  },
+  {
+   "const": "TRAINER_SCIENTIST_TAYLOR",
+   "segment": 6,
+   "slot": 2,
+   "old_species": "Raichu",
+   "new_species": "Shelgon",
+   "level": 50,
+   "retheme": "Dragon"
+  },
+  {
+   "const": "TRAINER_SCIENTIST_TAYLOR",
+   "segment": 6,
+   "slot": 3,
+   "old_species": "Electrode",
+   "new_species": "Fraxure",
+   "level": 50,
+   "retheme": "Dragon"
+  },
+  {
+   "const": "TRAINER_PICNICKER_ISABELLE",
+   "segment": 3,
+   "slot": 2,
+   "old_species": "Dubwool",
+   "new_species": "Axew",
+   "level": 24,
+   "retheme": "Dragon"
+  },
+  {
+   "const": "TRAINER_CAMPER_RICKY",
+   "segment": 3,
+   "slot": 0,
+   "old_species": "Krokorok",
+   "new_species": "Dratini",
+   "level": 23,
+   "retheme": "Dragon"
+  },
+  {
+   "const": "TRAINER_PICNICKER_ISABELLE",
+   "segment": 3,
+   "slot": 0,
+   "old_species": "Fletchinder",
+   "new_species": "Bagon",
+   "level": 23,
+   "retheme": "Dragon"
+  },
+  {
+   "const": "TRAINER_PICNICKER_ISABELLE",
+   "segment": 3,
+   "slot": 1,
+   "old_species": "Vigoroth",
+   "new_species": "Goomy",
+   "level": 23,
+   "retheme": "Dragon"
+  },
+  {
+   "const": "TRAINER_SCIENTIST_IVAN",
+   "segment": 7,
+   "slot": 1,
+   "old_species": "Hisuian Electrode",
+   "new_species": "Glaceon",
+   "level": 57,
+   "retheme": "Ice"
+  },
+  {
+   "const": "TRAINER_SCIENTIST_IVAN",
+   "segment": 7,
+   "slot": 0,
+   "old_species": "Electrode",
+   "new_species": "Dewgong",
+   "level": 56,
+   "retheme": "Ice",
+   "note": "filler (already-used species of theme; no new coverage)"
+  },
+  {
+   "const": "TRAINER_SCIENTIST_JOSE",
+   "segment": 6,
+   "slot": 1,
+   "old_species": "Electrode",
+   "new_species": "Glalie",
+   "level": 51,
+   "retheme": "Ice"
+  },
+  {
+   "const": "TRAINER_SCIENTIST_JOSE",
+   "segment": 6,
+   "slot": 0,
+   "old_species": "Electabuzz",
+   "new_species": "Alolan Sandslash",
+   "level": 50,
+   "retheme": "Ice"
+  },
+  {
+   "const": "TRAINER_CAMPER_JEFF",
+   "segment": 3,
+   "slot": 1,
+   "old_species": "Girafarig",
+   "new_species": "Amaura",
+   "level": 24,
+   "retheme": "Ice"
+  },
+  {
+   "const": "TRAINER_LASS_ANN",
+   "segment": 3,
+   "slot": 1,
+   "old_species": "Swablu",
+   "new_species": "Alolan Sandshrew",
+   "level": 24,
+   "retheme": "Ice"
+  },
+  {
+   "const": "TRAINER_CAMPER_JEFF",
+   "segment": 3,
+   "slot": 0,
+   "old_species": "Tandemaus",
+   "new_species": "Snorunt",
+   "level": 23,
+   "retheme": "Ice"
+  },
+  {
+   "const": "TRAINER_LASS_ANN",
+   "segment": 3,
+   "slot": 0,
+   "old_species": "Minccino",
+   "new_species": "Alolan Vulpix",
+   "level": 23,
+   "retheme": "Ice"
+  },
+  {
+   "const": "TRAINER_YOUNGSTER_EDDIE",
+   "segment": 5,
+   "slot": 0,
+   "old_species": "Ditto",
+   "new_species": "Copperajah",
+   "level": 38,
+   "retheme": "Steel",
+   "note": "final placed earlier than ideal (no free late trainer of this type)"
+  },
+  {
+   "const": "TRAINER_LASS_DAWN",
+   "segment": 3,
+   "slot": 1,
+   "old_species": "Mawile",
+   "new_species": "Bonsly",
+   "level": 25,
+   "retheme": "Rock"
+  },
+  {
+   "const": "TRAINER_LASS_DAWN",
+   "segment": 3,
+   "slot": 0,
+   "old_species": "Tinkatuff",
+   "new_species": "Rockruff",
+   "level": 24,
+   "retheme": "Rock"
+  }
+ ],
+ "unused_before": 183,
+ "unused_after": 0,
+ "notes": "Retheme Dragon HI: TRAINER_PICNICKER_MISSY(seg7) <- ['Goodra', 'Haxorus'] | Retheme Dragon MID: TRAINER_SCIENTIST_TAYLOR(seg6) <- ['Sliggoo', 'Hisuian Sliggoo', 'Dragonair', 'Shelgon', 'Fraxure'] | Retheme Dragon LO: TRAINER_CAMPER_RICKY(seg3), TRAINER_PICNICKER_ISABELLE(seg3) <- ['Axew', 'Dratini', 'Bagon', 'Goomy'] | Retheme Ice HI: TRAINER_SCIENTIST_IVAN(seg7) <- ['Glaceon'] (+1 filler) | Retheme Ice MID: TRAINER_SCIENTIST_JOSE(seg6) <- ['Glalie', 'Alolan Sandslash'] | Retheme Ice LO: TRAINER_CAMPER_JEFF(seg3), TRAINER_LASS_ANN(seg3) <- ['Amaura', 'Alolan Sandshrew', 'Snorunt', 'Alolan Vulpix'] | Retheme Steel HI: TRAINER_YOUNGSTER_EDDIE(seg5) <- ['Copperajah'] | Retheme Rock LO: TRAINER_LASS_DAWN(seg3) <- ['Bonsly', 'Rockruff']"
+}

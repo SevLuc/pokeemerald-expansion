@@ -1,0 +1,159 @@
+{
+ "segment": 1,
+ "cap": 14,
+ "floor": 5,
+ "trainers": [
+  {
+   "const": "TRAINER_BUG_CATCHER_RICK",
+   "class": "Bug Catcher",
+   "theme": "Bug",
+   "theme_source": "class-locked",
+   "team": [
+    {
+     "species": "Caterpie",
+     "level": 5,
+     "base": "Caterpie",
+     "baseBst": 195,
+     "orig": "Weedle",
+     "origBst": 195
+    },
+    {
+     "species": "Metapod",
+     "level": 5,
+     "base": "Metapod",
+     "baseBst": 205,
+     "orig": "Caterpie",
+     "origBst": 195
+    }
+   ]
+  },
+  {
+   "const": "TRAINER_BUG_CATCHER_DOUG",
+   "class": "Bug Catcher",
+   "theme": "Bug",
+   "theme_source": "class-locked",
+   "team": [
+    {
+     "species": "Surskit",
+     "level": 5,
+     "base": "Surskit",
+     "baseBst": 269,
+     "orig": "Weedle",
+     "origBst": 195
+    },
+    {
+     "species": "Metapod",
+     "level": 6,
+     "base": "Metapod",
+     "baseBst": 205,
+     "orig": "Kakuna",
+     "origBst": 205
+    },
+    {
+     "species": "Metapod",
+     "level": 7,
+     "base": "Caterpie",
+     "baseBst": 195,
+     "orig": "Weedle",
+     "origBst": 195
+    }
+   ]
+  },
+  {
+   "const": "TRAINER_BUG_CATCHER_SAMMY",
+   "class": "Bug Catcher",
+   "theme": "Bug",
+   "theme_source": "class-locked",
+   "team": [
+    {
+     "species": "Metapod",
+     "level": 9,
+     "base": "Caterpie",
+     "baseBst": 195,
+     "orig": "Weedle",
+     "origBst": 195
+    }
+   ]
+  },
+  {
+   "const": "TRAINER_BUG_CATCHER_ANTHONY",
+   "class": "Bug Catcher",
+   "theme": "Bug",
+   "theme_source": "class-locked",
+   "team": [
+    {
+     "species": "Anorith",
+     "level": 10,
+     "base": "Caterpie",
+     "baseBst": 195,
+     "orig": "Caterpie",
+     "origBst": 195
+    },
+    {
+     "species": "Karrablast",
+     "level": 11,
+     "base": "Metapod",
+     "baseBst": 205,
+     "orig": "Caterpie",
+     "origBst": 195
+    }
+   ]
+  },
+  {
+   "const": "TRAINER_BUG_CATCHER_CHARLIE",
+   "class": "Bug Catcher",
+   "theme": "Bug",
+   "theme_source": "class-locked",
+   "team": [
+    {
+     "species": "Butterfree",
+     "level": 11,
+     "base": "Metapod",
+     "baseBst": 205,
+     "orig": "Metapod",
+     "origBst": 205
+    },
+    {
+     "species": "Butterfree",
+     "level": 12,
+     "base": "Caterpie",
+     "baseBst": 195,
+     "orig": "Caterpie",
+     "origBst": 195
+    },
+    {
+     "species": "Paras",
+     "level": 13,
+     "base": "Paras",
+     "baseBst": 285,
+     "orig": "Metapod",
+     "origBst": 205
+    }
+   ]
+  },
+  {
+   "const": "TRAINER_CAMPER_LIAM",
+   "class": "Camper",
+   "theme": "Rock",
+   "theme_source": "gym-override",
+   "team": [
+    {
+     "species": "Tyrunt",
+     "level": 12,
+     "base": "Larvitar",
+     "baseBst": 300,
+     "orig": "Geodude",
+     "origBst": 300
+    },
+    {
+     "species": "Cranidos",
+     "level": 13,
+     "base": "Cranidos",
+     "baseBst": 350,
+     "orig": "Sandshrew",
+     "origBst": 300
+    }
+   ]
+  }
+ ]
+}

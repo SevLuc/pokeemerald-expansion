@@ -18,6 +18,12 @@ priced at the 3000 stone tier. So no trade-evo or item-evo mon is stuck.
 friendship evolutions are immediate. Eevee also gains stone paths (Sun→Espeon,
 Moon→Umbreon, Shiny→Sylveon) as a backup.
 
+**Water encounter authoring rule:** all rods now behave identically (the fishing
+code always rolls super-rod slots 5-9), and the player gets a Super Rod from the
+Viridian fisherman early. When wiring water encounters, author each map's fishing
+table in slots 5-9, and set the Surf `water_mons` list to the SAME species, so
+fishing (any rod) and surfing give the same fish per body of water.
+
 ---
 
 ## Normal  ✅ DONE
@@ -355,7 +361,9 @@ Spiritomb
 Froslass
 
 **Ghost / Electric**
-Rotom
+Rotom (base). All appliance forms also in the pool: Rotom-Heat (Electric/Fire),
+Rotom-Wash (Electric/Water), Rotom-Frost (Electric/Ice), Rotom-Fan
+(Electric/Flying), Rotom-Mow (Electric/Grass); each BST 520.
 
 _Note: Yamask → Cofagrigus both in (Unovan Yamask, pure Ghost). Gimmighoul →
 Gholdengo both in._
@@ -470,8 +478,8 @@ Lotad, Lombre, Ludicolo
 **Water / Rock**
 Drednaw
 
-_Note: Prinplup (in) but its final evo Empoleon (Water/Steel) not selected -
-Piplup line caps at Prinplup unless revived. Samurott + Hisuian Samurott both in._
+_Note: Piplup → Prinplup → Empoleon full line in (Empoleon is listed under
+Steel/Water in the Steel section). Samurott + Hisuian Samurott both in._
 
 ---
 

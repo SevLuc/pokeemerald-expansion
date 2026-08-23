@@ -1,0 +1,1215 @@
+{
+ "segment": 6,
+ "cap": 53,
+ "floor": 50,
+ "trainers": [
+  {
+   "const": "TRAINER_BLACK_BELT_HITOSHI",
+   "class": "Black Belt",
+   "theme": "Fighting",
+   "theme_source": "class-locked",
+   "team": [
+    {
+     "species": "Primeape",
+     "level": 50,
+     "base": "Mankey",
+     "baseBst": 305,
+     "orig": "Machop",
+     "origBst": 305
+    },
+    {
+     "species": "Machoke",
+     "level": 50,
+     "base": "Machop",
+     "baseBst": 305,
+     "orig": "Mankey",
+     "origBst": 305
+    },
+    {
+     "species": "Hitmonchan",
+     "level": 50,
+     "base": "Hitmonchan",
+     "baseBst": 455,
+     "orig": "Primeape",
+     "origBst": 455
+    }
+   ]
+  },
+  {
+   "const": "TRAINER_BLACK_BELT_HIDEKI",
+   "class": "Black Belt",
+   "theme": "Fighting",
+   "theme_source": "class-locked",
+   "team": [
+    {
+     "species": "Bewear",
+     "level": 50,
+     "base": "Stufful",
+     "baseBst": 340,
+     "orig": "Machop",
+     "origBst": 305
+    },
+    {
+     "species": "Blaziken",
+     "level": 50,
+     "base": "Combusken",
+     "baseBst": 405,
+     "orig": "Machoke",
+     "origBst": 405
+    }
+   ]
+  },
+  {
+   "const": "TRAINER_BLACK_BELT_AARON",
+   "class": "Black Belt",
+   "theme": "Fighting",
+   "theme_source": "class-locked",
+   "team": [
+    {
+     "species": "Hitmonlee",
+     "level": 50,
+     "base": "Hitmonlee",
+     "baseBst": 455,
+     "orig": "Primeape",
+     "origBst": 455
+    }
+   ]
+  },
+  {
+   "const": "TRAINER_BLACK_BELT_MIKE",
+   "class": "Black Belt",
+   "theme": "Fighting",
+   "theme_source": "class-locked",
+   "team": [
+    {
+     "species": "Pangoro",
+     "level": 50,
+     "base": "Pancham",
+     "baseBst": 348,
+     "orig": "Mankey",
+     "origBst": 305
+    },
+    {
+     "species": "Mienshao",
+     "level": 50,
+     "base": "Mienfoo",
+     "baseBst": 350,
+     "orig": "Mankey",
+     "origBst": 305
+    },
+    {
+     "species": "Breloom",
+     "level": 50,
+     "base": "Breloom",
+     "baseBst": 460,
+     "orig": "Primeape",
+     "origBst": 455
+    }
+   ]
+  },
+  {
+   "const": "TRAINER_BLACK_BELT_KOICHI",
+   "class": "Black Belt",
+   "theme": "Fighting",
+   "theme_source": "class-locked",
+   "team": [
+    {
+     "species": "Primeape",
+     "level": 50,
+     "base": "Primeape",
+     "baseBst": 455,
+     "orig": "Hitmonlee",
+     "origBst": 455
+    },
+    {
+     "species": "Hariyama",
+     "level": 50,
+     "base": "Hariyama",
+     "baseBst": 474,
+     "orig": "Hitmonchan",
+     "origBst": 455
+    }
+   ]
+  },
+  {
+   "const": "TRAINER_PSYCHIC_JOHAN",
+   "class": "Psychic",
+   "theme": "Psychic",
+   "theme_source": "gym-override",
+   "team": [
+    {
+     "species": "Metagross",
+     "level": 50,
+     "base": "Metang",
+     "baseBst": 420,
+     "orig": "Kadabra",
+     "origBst": 400
+    },
+    {
+     "species": "Gothitelle",
+     "level": 50,
+     "base": "Natu",
+     "baseBst": 320,
+     "orig": "Slowpoke",
+     "origBst": 315
+    },
+    {
+     "species": "Mr. Rime",
+     "level": 51,
+     "base": "Galarian Mr. Mime",
+     "baseBst": 460,
+     "orig": "Mr Mime",
+     "origBst": 460
+    },
+    {
+     "species": "Reuniclus",
+     "level": 52,
+     "base": "Girafarig",
+     "baseBst": 455,
+     "orig": "Kadabra",
+     "origBst": 400
+    }
+   ]
+  },
+  {
+   "const": "TRAINER_PSYCHIC_TYRON",
+   "class": "Psychic",
+   "theme": "Psychic",
+   "theme_source": "gym-override",
+   "team": [
+    {
+     "species": "Lunatone",
+     "level": 51,
+     "base": "Lunatone",
+     "baseBst": 460,
+     "orig": "Mr Mime",
+     "origBst": 460
+    },
+    {
+     "species": "Hattrem",
+     "level": 52,
+     "base": "Metang",
+     "baseBst": 420,
+     "orig": "Kadabra",
+     "origBst": 400
+    }
+   ]
+  },
+  {
+   "const": "TRAINER_PSYCHIC_CAMERON",
+   "class": "Psychic",
+   "theme": "Psychic",
+   "theme_source": "gym-override",
+   "team": [
+    {
+     "species": "Exeggcute",
+     "level": 50,
+     "base": "Exeggcute",
+     "baseBst": 325,
+     "orig": "Slowpoke",
+     "origBst": 315
+    },
+    {
+     "species": "Hypno",
+     "level": 51,
+     "base": "Drowzee",
+     "baseBst": 328,
+     "orig": "Slowpoke",
+     "origBst": 315
+    },
+    {
+     "species": "Smoochum",
+     "level": 52,
+     "base": "Galarian Slowbro",
+     "baseBst": 490,
+     "orig": "Slowbro",
+     "origBst": 490
+    }
+   ]
+  },
+  {
+   "const": "TRAINER_PSYCHIC_PRESTON",
+   "class": "Psychic",
+   "theme": "Psychic",
+   "theme_source": "gym-override",
+   "team": [
+    {
+     "species": "Solosis",
+     "level": 52,
+     "base": "Galarian Slowking",
+     "baseBst": 490,
+     "orig": "Slowbro",
+     "origBst": 490
+    }
+   ]
+  },
+  {
+   "const": "TRAINER_CHANNELER_AMANDA",
+   "class": "Channeler",
+   "theme": "Psychic",
+   "theme_source": "gym-override",
+   "team": [
+    {
+     "species": "Kadabra",
+     "level": 51,
+     "base": "Abra",
+     "baseBst": 310,
+     "orig": "Gastly",
+     "origBst": 310
+    },
+    {
+     "species": "Jynx",
+     "level": 52,
+     "base": "Jynx",
+     "baseBst": 455,
+     "orig": "Haunter",
+     "origBst": 405
+    }
+   ]
+  },
+  {
+   "const": "TRAINER_CHANNELER_STACY",
+   "class": "Channeler",
+   "theme": "Psychic",
+   "theme_source": "gym-override",
+   "team": [
+    {
+     "species": "Girafarig",
+     "level": 52,
+     "base": "Girafarig",
+     "baseBst": 455,
+     "orig": "Haunter",
+     "origBst": 405
+    }
+   ]
+  },
+  {
+   "const": "TRAINER_CHANNELER_TASHA",
+   "class": "Channeler",
+   "theme": "Psychic",
+   "theme_source": "gym-override",
+   "team": [
+    {
+     "species": "Mime Jr.",
+     "level": 50,
+     "base": "Mime Jr.",
+     "baseBst": 310,
+     "orig": "Gastly",
+     "origBst": 310
+    },
+    {
+     "species": "Slowbro",
+     "level": 51,
+     "base": "Slowpoke",
+     "baseBst": 315,
+     "orig": "Gastly",
+     "origBst": 310
+    },
+    {
+     "species": "Jynx",
+     "level": 52,
+     "base": "Jynx",
+     "baseBst": 455,
+     "orig": "Haunter",
+     "origBst": 405
+    }
+   ]
+  },
+  {
+   "const": "TRAINER_SCIENTIST_CONNOR",
+   "class": "Scientist",
+   "theme": "Poison",
+   "theme_source": "dialogue",
+   "team": [
+    {
+     "species": "Alolan Muk",
+     "level": 50,
+     "base": "Alolan Grimer",
+     "baseBst": 325,
+     "orig": "Grimer",
+     "origBst": 325
+    },
+    {
+     "species": "Galarian Weezing",
+     "level": 50,
+     "base": "Galarian Weezing",
+     "baseBst": 490,
+     "orig": "Weezing",
+     "origBst": 490
+    },
+    {
+     "species": "Glimmora",
+     "level": 50,
+     "base": "Glimmet",
+     "baseBst": 350,
+     "orig": "Koffing",
+     "origBst": 340
+    },
+    {
+     "species": "Victreebel",
+     "level": 50,
+     "base": "Victreebel",
+     "baseBst": 490,
+     "orig": "Weezing",
+     "origBst": 490
+    }
+   ]
+  },
+  {
+   "const": "TRAINER_SCIENTIST_JERRY",
+   "class": "Scientist",
+   "theme": "Electric",
+   "theme_source": "dialogue",
+   "team": [
+    {
+     "species": "Lanturn",
+     "level": 50,
+     "base": "Chinchou",
+     "baseBst": 330,
+     "orig": "Magnemite",
+     "origBst": 325
+    },
+    {
+     "species": "Hisuian Voltorb",
+     "level": 50,
+     "base": "Hisuian Voltorb",
+     "baseBst": 330,
+     "orig": "Voltorb",
+     "origBst": 330
+    },
+    {
+     "species": "Alolan Raichu",
+     "level": 50,
+     "base": "Alolan Raichu",
+     "baseBst": 485,
+     "orig": "Magneton",
+     "origBst": 465
+    }
+   ]
+  },
+  {
+   "const": "TRAINER_TEAM_ROCKET_GRUNT_23",
+   "class": "Team Rocket",
+   "theme": "Poison",
+   "theme_source": "class-locked",
+   "team": [
+    {
+     "species": "Gloom",
+     "level": 50,
+     "base": "Oddish",
+     "baseBst": 320,
+     "orig": "Cubone",
+     "origBst": 320
+    },
+    {
+     "species": "Nidorino",
+     "level": 50,
+     "base": "Nidoran\u2642",
+     "baseBst": 273,
+     "orig": "Zubat",
+     "origBst": 245
+    }
+   ]
+  },
+  {
+   "const": "TRAINER_TEAM_ROCKET_GRUNT_24",
+   "class": "Team Rocket",
+   "theme": "Dark",
+   "theme_source": "class-locked",
+   "team": [
+    {
+     "species": "Sharpedo",
+     "level": 50,
+     "base": "Sharpedo",
+     "baseBst": 460,
+     "orig": "Golbat",
+     "origBst": 455
+    },
+    {
+     "species": "Grimmsnarl",
+     "level": 50,
+     "base": "Impidimp",
+     "baseBst": 265,
+     "orig": "Zubat",
+     "origBst": 245
+    },
+    {
+     "species": "Malamar",
+     "level": 50,
+     "base": "Inkay",
+     "baseBst": 288,
+     "orig": "Zubat",
+     "origBst": 245
+    },
+    {
+     "species": "Zweilous",
+     "level": 50,
+     "base": "Zweilous",
+     "baseBst": 420,
+     "orig": "Raticate",
+     "origBst": 413
+    },
+    {
+     "species": "Krookodile",
+     "level": 50,
+     "base": "Sandile",
+     "baseBst": 292,
+     "orig": "Zubat",
+     "origBst": 245
+    }
+   ]
+  },
+  {
+   "const": "TRAINER_SCIENTIST_JOSE",
+   "class": "Scientist",
+   "theme": "Electric",
+   "theme_source": "dialogue",
+   "team": [
+    {
+     "species": "Alolan Sandslash",
+     "level": 50,
+     "base": "Electabuzz",
+     "baseBst": 490,
+     "orig": "Electrode",
+     "origBst": 490
+    },
+    {
+     "species": "Glalie",
+     "level": 51,
+     "base": "Electrode",
+     "baseBst": 490,
+     "orig": "Weezing",
+     "origBst": 490
+    }
+   ]
+  },
+  {
+   "const": "TRAINER_TEAM_ROCKET_GRUNT_25",
+   "class": "Team Rocket",
+   "theme": "Poison",
+   "theme_source": "class-locked",
+   "team": [
+    {
+     "species": "Clodsire",
+     "level": 50,
+     "base": "Clodsire",
+     "baseBst": 430,
+     "orig": "Raticate",
+     "origBst": 413
+    },
+    {
+     "species": "Vileplume",
+     "level": 50,
+     "base": "Vileplume",
+     "baseBst": 490,
+     "orig": "Hypno",
+     "origBst": 483
+    },
+    {
+     "species": "Venomoth",
+     "level": 51,
+     "base": "Venomoth",
+     "baseBst": 450,
+     "orig": "Raticate",
+     "origBst": 413
+    }
+   ]
+  },
+  {
+   "const": "TRAINER_SCIENTIST_RODNEY",
+   "class": "Scientist",
+   "theme": "Electric",
+   "theme_source": "dialogue",
+   "team": [
+    {
+     "species": "Hisuian Electrode",
+     "level": 51,
+     "base": "Hisuian Electrode",
+     "baseBst": 490,
+     "orig": "Electrode",
+     "origBst": 490
+    }
+   ]
+  },
+  {
+   "const": "TRAINER_TEAM_ROCKET_GRUNT_26",
+   "class": "Team Rocket",
+   "theme": "Dark",
+   "theme_source": "class-locked",
+   "team": [
+    {
+     "species": "Sharpedo",
+     "level": 50,
+     "base": "Carvanha",
+     "baseBst": 305,
+     "orig": "Machop",
+     "origBst": 305
+    },
+    {
+     "species": "Skuntank",
+     "level": 51,
+     "base": "Stunky",
+     "baseBst": 329,
+     "orig": "Drowzee",
+     "origBst": 328
+    }
+   ]
+  },
+  {
+   "const": "TRAINER_TEAM_ROCKET_GRUNT_27",
+   "class": "Team Rocket",
+   "theme": "Poison",
+   "theme_source": "class-locked",
+   "team": [
+    {
+     "species": "Amoonguss",
+     "level": 50,
+     "base": "Foongus",
+     "baseBst": 294,
+     "orig": "Ekans",
+     "origBst": 288
+    },
+    {
+     "species": "Nidorina",
+     "level": 50,
+     "base": "Nidoran\u2640",
+     "baseBst": 275,
+     "orig": "Zubat",
+     "origBst": 245
+    },
+    {
+     "species": "Muk",
+     "level": 51,
+     "base": "Grimer",
+     "baseBst": 325,
+     "orig": "Cubone",
+     "origBst": 320
+    }
+   ]
+  },
+  {
+   "const": "TRAINER_SCIENTIST_BEAU",
+   "class": "Scientist",
+   "theme": "Poison",
+   "theme_source": "dialogue",
+   "team": [
+    {
+     "species": "Garbodor",
+     "level": 50,
+     "base": "Garbodor",
+     "baseBst": 474,
+     "orig": "Magneton",
+     "origBst": 465
+    },
+    {
+     "species": "Nidorina",
+     "level": 50,
+     "base": "Nidorina",
+     "baseBst": 365,
+     "orig": "Koffing",
+     "origBst": 340
+    },
+    {
+     "species": "Dragalge",
+     "level": 50,
+     "base": "Dragalge",
+     "baseBst": 494,
+     "orig": "Weezing",
+     "origBst": 490
+    },
+    {
+     "species": "Garbodor",
+     "level": 51,
+     "base": "Trubbish",
+     "baseBst": 329,
+     "orig": "Magnemite",
+     "origBst": 325
+    }
+   ]
+  },
+  {
+   "const": "TRAINER_TEAM_ROCKET_GRUNT_28",
+   "class": "Team Rocket",
+   "theme": "Poison",
+   "theme_source": "class-locked",
+   "team": [
+    {
+     "species": "Golbat",
+     "level": 51,
+     "base": "Golbat",
+     "baseBst": 455,
+     "orig": "Arbok",
+     "origBst": 438
+    }
+   ]
+  },
+  {
+   "const": "TRAINER_TEAM_ROCKET_GRUNT_29",
+   "class": "Team Rocket",
+   "theme": "Dark",
+   "theme_source": "class-locked",
+   "team": [
+    {
+     "species": "Spiritomb",
+     "level": 51,
+     "base": "Spiritomb",
+     "baseBst": 485,
+     "orig": "Hypno",
+     "origBst": 483
+    }
+   ]
+  },
+  {
+   "const": "TRAINER_JUGGLER_DALTON",
+   "class": "Juggler",
+   "theme": "Psychic",
+   "theme_source": "class-locked",
+   "team": [
+    {
+     "species": "Metagross",
+     "level": 50,
+     "base": "Metang",
+     "baseBst": 420,
+     "orig": "Kadabra",
+     "origBst": 400
+    },
+    {
+     "species": "Mr. Mime",
+     "level": 51,
+     "base": "Mr. Mime",
+     "baseBst": 460,
+     "orig": "Mr Mime",
+     "origBst": 460
+    }
+   ]
+  },
+  {
+   "const": "TRAINER_SCIENTIST_TAYLOR",
+   "class": "Scientist",
+   "theme": "Electric",
+   "theme_source": "dialogue",
+   "team": [
+    {
+     "species": "Hisuian Sliggoo",
+     "level": 50,
+     "base": "Elekid",
+     "baseBst": 360,
+     "orig": "Voltorb",
+     "origBst": 330
+    },
+    {
+     "species": "Dragonair",
+     "level": 50,
+     "base": "Luxio",
+     "baseBst": 363,
+     "orig": "Koffing",
+     "origBst": 340
+    },
+    {
+     "species": "Shelgon",
+     "level": 50,
+     "base": "Raichu",
+     "baseBst": 485,
+     "orig": "Magneton",
+     "origBst": 465
+    },
+    {
+     "species": "Fraxure",
+     "level": 50,
+     "base": "Voltorb",
+     "baseBst": 330,
+     "orig": "Magnemite",
+     "origBst": 325
+    },
+    {
+     "species": "Sliggoo",
+     "level": 51,
+     "base": "Flaaffy",
+     "baseBst": 365,
+     "orig": "Koffing",
+     "origBst": 340
+    }
+   ]
+  },
+  {
+   "const": "TRAINER_TEAM_ROCKET_GRUNT_30",
+   "class": "Team Rocket",
+   "theme": "Dark",
+   "theme_source": "class-locked",
+   "team": [
+    {
+     "species": "Zoroark",
+     "level": 50,
+     "base": "Zorua",
+     "baseBst": 330,
+     "orig": "Machop",
+     "origBst": 305
+    },
+    {
+     "species": "Murkrow",
+     "level": 51,
+     "base": "Murkrow",
+     "baseBst": 405,
+     "orig": "Machoke",
+     "origBst": 405
+    }
+   ]
+  },
+  {
+   "const": "TRAINER_TEAM_ROCKET_GRUNT_31",
+   "class": "Team Rocket",
+   "theme": "Poison",
+   "theme_source": "class-locked",
+   "team": [
+    {
+     "species": "Budew",
+     "level": 50,
+     "base": "Budew",
+     "baseBst": 280,
+     "orig": "Zubat",
+     "origBst": 245
+    },
+    {
+     "species": "Nidorino",
+     "level": 50,
+     "base": "Nidoran\u2642",
+     "baseBst": 273,
+     "orig": "Zubat",
+     "origBst": 245
+    },
+    {
+     "species": "Amoonguss",
+     "level": 51,
+     "base": "Amoonguss",
+     "baseBst": 464,
+     "orig": "Golbat",
+     "origBst": 455
+    }
+   ]
+  },
+  {
+   "const": "TRAINER_SCIENTIST_JOSHUA",
+   "class": "Scientist",
+   "theme": "Poison",
+   "theme_source": "dialogue",
+   "team": [
+    {
+     "species": "Weezing",
+     "level": 50,
+     "base": "Weezing",
+     "baseBst": 490,
+     "orig": "Electrode",
+     "origBst": 490
+    },
+    {
+     "species": "Alolan Muk",
+     "level": 51,
+     "base": "Alolan Muk",
+     "baseBst": 500,
+     "orig": "Muk",
+     "origBst": 500
+    }
+   ]
+  },
+  {
+   "const": "TRAINER_TEAM_ROCKET_GRUNT_33",
+   "class": "Team Rocket",
+   "theme": "Poison",
+   "theme_source": "class-locked",
+   "team": [
+    {
+     "species": "Drapion",
+     "level": 50,
+     "base": "Skorupi",
+     "baseBst": 330,
+     "orig": "Cubone",
+     "origBst": 320
+    },
+    {
+     "species": "Tentacruel",
+     "level": 51,
+     "base": "Tentacool",
+     "baseBst": 335,
+     "orig": "Cubone",
+     "origBst": 320
+    }
+   ]
+  },
+  {
+   "const": "TRAINER_TEAM_ROCKET_GRUNT_34",
+   "class": "Team Rocket",
+   "theme": "Dark",
+   "theme_source": "class-locked",
+   "team": [
+    {
+     "species": "Zweilous",
+     "level": 50,
+     "base": "Deino",
+     "baseBst": 300,
+     "orig": "Sandshrew",
+     "origBst": 300
+    },
+    {
+     "species": "Absol",
+     "level": 51,
+     "base": "Absol",
+     "baseBst": 465,
+     "orig": "Sandslash",
+     "origBst": 450
+    }
+   ]
+  },
+  {
+   "const": "TRAINER_TEAM_ROCKET_GRUNT_35",
+   "class": "Team Rocket",
+   "theme": "Poison",
+   "theme_source": "class-locked",
+   "team": [
+    {
+     "species": "Clodsire",
+     "level": 50,
+     "base": "Clodsire",
+     "baseBst": 430,
+     "orig": "Raticate",
+     "origBst": 413
+    },
+    {
+     "species": "Nidorina",
+     "level": 50,
+     "base": "Nidoran\u2640",
+     "baseBst": 275,
+     "orig": "Zubat",
+     "origBst": 245
+    },
+    {
+     "species": "Skuntank",
+     "level": 50,
+     "base": "Skuntank",
+     "baseBst": 479,
+     "orig": "Golbat",
+     "origBst": 455
+    },
+    {
+     "species": "Weepinbell",
+     "level": 51,
+     "base": "Bellsprout",
+     "baseBst": 300,
+     "orig": "Rattata",
+     "origBst": 253
+    }
+   ]
+  },
+  {
+   "const": "TRAINER_SCIENTIST_PARKER",
+   "class": "Scientist",
+   "theme": "Poison",
+   "theme_source": "dialogue",
+   "team": [
+    {
+     "species": "Weezing",
+     "level": 50,
+     "base": "Koffing",
+     "baseBst": 340,
+     "orig": "Grimer",
+     "origBst": 325
+    },
+    {
+     "species": "Toxapex",
+     "level": 51,
+     "base": "Toxapex",
+     "baseBst": 495,
+     "orig": "Electrode",
+     "origBst": 490
+    }
+   ]
+  },
+  {
+   "const": "TRAINER_TEAM_ROCKET_GRUNT_32",
+   "class": "Team Rocket",
+   "theme": "Dark",
+   "theme_source": "class-locked",
+   "team": [
+    {
+     "species": "Sneasel",
+     "level": 50,
+     "base": "Sneasel",
+     "baseBst": 430,
+     "orig": "Raticate",
+     "origBst": 413
+    },
+    {
+     "species": "Cacturne",
+     "level": 50,
+     "base": "Cacturne",
+     "baseBst": 475,
+     "orig": "Arbok",
+     "origBst": 438
+    },
+    {
+     "species": "Pawniard",
+     "level": 51,
+     "base": "Pawniard",
+     "baseBst": 340,
+     "orig": "Koffing",
+     "origBst": 340
+    },
+    {
+     "species": "Malamar",
+     "level": 52,
+     "base": "Malamar",
+     "baseBst": 482,
+     "orig": "Golbat",
+     "origBst": 455
+    }
+   ]
+  },
+  {
+   "const": "TRAINER_TEAM_ROCKET_GRUNT_36",
+   "class": "Team Rocket",
+   "theme": "Poison",
+   "theme_source": "class-locked",
+   "team": [
+    {
+     "species": "Drapion",
+     "level": 50,
+     "base": "Drapion",
+     "baseBst": 500,
+     "orig": "Weezing",
+     "origBst": 490
+    },
+    {
+     "species": "Gengar",
+     "level": 51,
+     "base": "Gengar",
+     "baseBst": 500,
+     "orig": "Golbat",
+     "origBst": 455
+    },
+    {
+     "species": "Nidorino",
+     "level": 52,
+     "base": "Nidorino",
+     "baseBst": 365,
+     "orig": "Koffing",
+     "origBst": 340
+    }
+   ]
+  },
+  {
+   "const": "TRAINER_SCIENTIST_ED",
+   "class": "Scientist",
+   "theme": "Electric",
+   "theme_source": "dialogue",
+   "team": [
+    {
+     "species": "Lanturn",
+     "level": 50,
+     "base": "Chinchou",
+     "baseBst": 330,
+     "orig": "Voltorb",
+     "origBst": 330
+    },
+    {
+     "species": "Electabuzz",
+     "level": 51,
+     "base": "Elekid",
+     "baseBst": 360,
+     "orig": "Koffing",
+     "origBst": 340
+    },
+    {
+     "species": "Ampharos",
+     "level": 52,
+     "base": "Ampharos",
+     "baseBst": 510,
+     "orig": "Magneton",
+     "origBst": 465
+    }
+   ]
+  },
+  {
+   "const": "TRAINER_TEAM_ROCKET_GRUNT_37",
+   "class": "Team Rocket",
+   "theme": "Dark",
+   "theme_source": "class-locked",
+   "team": [
+    {
+     "species": "Krookodile",
+     "level": 50,
+     "base": "Krokorok",
+     "baseBst": 351,
+     "orig": "Drowzee",
+     "origBst": 328
+    },
+    {
+     "species": "Grimmsnarl",
+     "level": 51,
+     "base": "Morgrem",
+     "baseBst": 370,
+     "orig": "Grimer",
+     "origBst": 325
+    },
+    {
+     "species": "Sharpedo",
+     "level": 52,
+     "base": "Carvanha",
+     "baseBst": 305,
+     "orig": "Machop",
+     "origBst": 305
+    }
+   ]
+  },
+  {
+   "const": "TRAINER_TEAM_ROCKET_GRUNT_38",
+   "class": "Team Rocket",
+   "theme": "Poison",
+   "theme_source": "class-locked",
+   "team": [
+    {
+     "species": "Muk",
+     "level": 50,
+     "base": "Muk",
+     "baseBst": 500,
+     "orig": "Golbat",
+     "origBst": 455
+    },
+    {
+     "species": "Skuntank",
+     "level": 51,
+     "base": "Stunky",
+     "baseBst": 329,
+     "orig": "Drowzee",
+     "origBst": 328
+    },
+    {
+     "species": "Nidoking",
+     "level": 52,
+     "base": "Nidoking",
+     "baseBst": 505,
+     "orig": "Hypno",
+     "origBst": 483
+    }
+   ]
+  },
+  {
+   "const": "TRAINER_SCIENTIST_TRAVIS",
+   "class": "Scientist",
+   "theme": "Electric",
+   "theme_source": "dialogue",
+   "team": [
+    {
+     "species": "Hisuian Voltorb",
+     "level": 51,
+     "base": "Hisuian Voltorb",
+     "baseBst": 330,
+     "orig": "Magnemite",
+     "origBst": 325
+    },
+    {
+     "species": "Luxray",
+     "level": 52,
+     "base": "Luxio",
+     "baseBst": 363,
+     "orig": "Koffing",
+     "origBst": 340
+    }
+   ]
+  },
+  {
+   "const": "TRAINER_TEAM_ROCKET_GRUNT_39",
+   "class": "Team Rocket",
+   "theme": "Dark",
+   "theme_source": "class-locked",
+   "team": [
+    {
+     "species": "Morpeko",
+     "level": 52,
+     "base": "Morpeko",
+     "baseBst": 436,
+     "orig": "Machoke",
+     "origBst": 405
+    }
+   ]
+  },
+  {
+   "const": "TRAINER_TEAM_ROCKET_GRUNT_40",
+   "class": "Team Rocket",
+   "theme": "Poison",
+   "theme_source": "class-locked",
+   "team": [
+    {
+     "species": "Budew",
+     "level": 50,
+     "base": "Budew",
+     "baseBst": 280,
+     "orig": "Rattata",
+     "origBst": 253
+    },
+    {
+     "species": "Amoonguss",
+     "level": 50,
+     "base": "Foongus",
+     "baseBst": 294,
+     "orig": "Rattata",
+     "origBst": 253
+    },
+    {
+     "species": "Nidorino",
+     "level": 50,
+     "base": "Nidoran\u2642",
+     "baseBst": 273,
+     "orig": "Zubat",
+     "origBst": 245
+    },
+    {
+     "species": "Weepinbell",
+     "level": 51,
+     "base": "Bellsprout",
+     "baseBst": 300,
+     "orig": "Rattata",
+     "origBst": 253
+    },
+    {
+     "species": "Toxapex",
+     "level": 52,
+     "base": "Mareanie",
+     "baseBst": 305,
+     "orig": "Ekans",
+     "origBst": 288
+    }
+   ]
+  },
+  {
+   "const": "TRAINER_TEAM_ROCKET_GRUNT_41",
+   "class": "Team Rocket",
+   "theme": "Dark",
+   "theme_source": "class-locked",
+   "team": [
+    {
+     "species": "Vullaby",
+     "level": 50,
+     "base": "Vullaby",
+     "baseBst": 370,
+     "orig": "Cubone",
+     "origBst": 320
+    },
+    {
+     "species": "Zoroark",
+     "level": 51,
+     "base": "Zorua",
+     "baseBst": 330,
+     "orig": "Drowzee",
+     "origBst": 328
+    },
+    {
+     "species": "Sneasel",
+     "level": 52,
+     "base": "Sneasel",
+     "baseBst": 430,
+     "orig": "Marowak",
+     "origBst": 425
+    }
+   ]
+  }
+ ]
+}

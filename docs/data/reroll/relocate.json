@@ -1,0 +1,638 @@
+{
+  "edits": [
+    {
+      "const": "TRAINER_SWIMMER_FEMALE_ALICE",
+      "segment": 7,
+      "slot": 0,
+      "old_species": "Shellos",
+      "new_species": "Gholdengo",
+      "level": 53,
+      "kind": "host",
+      "retheme": "Ghost"
+    },
+    {
+      "const": "TRAINER_SWIMMER_FEMALE_ALICE",
+      "segment": 7,
+      "slot": 1,
+      "old_species": "Lanturn",
+      "new_species": "Polteageist",
+      "level": 54,
+      "kind": "host",
+      "retheme": "Ghost"
+    },
+    {
+      "const": "TRAINER_SWIMMER_FEMALE_ANYA",
+      "segment": 7,
+      "slot": 1,
+      "old_species": "Floatzel",
+      "new_species": "Scizor",
+      "level": 53,
+      "kind": "host",
+      "retheme": "Bug"
+    },
+    {
+      "const": "TRAINER_SWIMMER_FEMALE_ANYA",
+      "segment": 7,
+      "slot": 3,
+      "old_species": "Lanturn",
+      "new_species": "Scyther",
+      "level": 53,
+      "kind": "host",
+      "retheme": "Bug"
+    },
+    {
+      "const": "TRAINER_SWIMMER_FEMALE_ANYA",
+      "segment": 7,
+      "slot": 4,
+      "old_species": "Slowbro",
+      "new_species": "Heracross",
+      "level": 54,
+      "kind": "host",
+      "retheme": "Bug"
+    },
+    {
+      "const": "TRAINER_SWIMMER_FEMALE_CONNIE",
+      "segment": 7,
+      "slot": 0,
+      "old_species": "Lombre",
+      "new_species": "Archaludon",
+      "level": 53,
+      "kind": "host",
+      "retheme": "Dragon"
+    },
+    {
+      "const": "TRAINER_SWIMMER_FEMALE_CONNIE",
+      "segment": 7,
+      "slot": 1,
+      "old_species": "Lombre",
+      "new_species": "Noivern",
+      "level": 53,
+      "kind": "host",
+      "retheme": "Dragon"
+    },
+    {
+      "const": "TRAINER_SWIMMER_FEMALE_CONNIE",
+      "segment": 7,
+      "slot": 2,
+      "old_species": "Lombre",
+      "new_species": "Hisuian Goodra",
+      "level": 54,
+      "kind": "host",
+      "retheme": "Dragon"
+    },
+    {
+      "const": "TRAINER_SWIMMER_MALE_DARRIN",
+      "segment": 7,
+      "slot": 0,
+      "old_species": "Poliwhirl",
+      "new_species": "Hawlucha",
+      "level": 53,
+      "kind": "host",
+      "retheme": "Fighting"
+    },
+    {
+      "const": "TRAINER_SWIMMER_MALE_DARRIN",
+      "segment": 7,
+      "slot": 1,
+      "old_species": "Poliwhirl",
+      "new_species": "Lucario",
+      "level": 54,
+      "kind": "host",
+      "retheme": "Fighting"
+    },
+    {
+      "const": "TRAINER_SWIMMER_MALE_DARRIN",
+      "segment": 7,
+      "slot": 3,
+      "old_species": "Poliwhirl",
+      "new_species": "Flamigo",
+      "level": 56,
+      "kind": "host",
+      "retheme": "Fighting"
+    },
+    {
+      "const": "TRAINER_SWIMMER_MALE_TONY",
+      "segment": 7,
+      "slot": 0,
+      "old_species": "Toxapex",
+      "new_species": "Aegislash",
+      "level": 53,
+      "kind": "host",
+      "retheme": "Ghost"
+    },
+    {
+      "const": "TRAINER_SWIMMER_MALE_TONY",
+      "segment": 7,
+      "slot": 1,
+      "old_species": "Samurott",
+      "new_species": "Dusknoir",
+      "level": 53,
+      "kind": "host",
+      "retheme": "Ghost"
+    },
+    {
+      "const": "TRAINER_COOLTRAINER_SAMUEL",
+      "segment": 8,
+      "slot": 0,
+      "old_species": "Whiscash",
+      "new_species": "Hydreigon",
+      "level": 58,
+      "kind": "host",
+      "retheme": "Dark"
+    },
+    {
+      "const": "TRAINER_COOLTRAINER_SAMUEL",
+      "segment": 8,
+      "slot": 1,
+      "old_species": "Gastrodon",
+      "new_species": "Kingambit",
+      "level": 59,
+      "kind": "host",
+      "retheme": "Dark"
+    },
+    {
+      "const": "TRAINER_COOLTRAINER_SAMUEL",
+      "segment": 8,
+      "slot": 2,
+      "old_species": "Onix",
+      "new_species": "Honchkrow",
+      "level": 60,
+      "kind": "host",
+      "retheme": "Dark"
+    },
+    {
+      "const": "TRAINER_COOLTRAINER_SAMUEL",
+      "segment": 8,
+      "slot": 4,
+      "old_species": "Nidoqueen",
+      "new_species": "Mandibuzz",
+      "level": 62,
+      "kind": "host",
+      "retheme": "Dark"
+    },
+    {
+      "const": "TRAINER_COOLTRAINER_WARREN",
+      "segment": 8,
+      "slot": 0,
+      "old_species": "Sandslash",
+      "new_species": "Probopass",
+      "level": 58,
+      "kind": "host",
+      "retheme": "Rock"
+    },
+    {
+      "const": "TRAINER_COOLTRAINER_WARREN",
+      "segment": 8,
+      "slot": 2,
+      "old_species": "Rhydon",
+      "new_species": "Aerodactyl",
+      "level": 60,
+      "kind": "host",
+      "retheme": "Rock"
+    },
+    {
+      "const": "TRAINER_COOLTRAINER_WARREN",
+      "segment": 8,
+      "slot": 3,
+      "old_species": "Onix",
+      "new_species": "Aurorus",
+      "level": 61,
+      "kind": "host",
+      "retheme": "Rock"
+    },
+    {
+      "const": "TRAINER_COOLTRAINER_WARREN",
+      "segment": 8,
+      "slot": 4,
+      "old_species": "Nidoking",
+      "new_species": "Tyrantrum",
+      "level": 62,
+      "kind": "host",
+      "retheme": "Rock"
+    },
+    {
+      "const": "TRAINER_COOLTRAINER_YUJI",
+      "segment": 8,
+      "slot": 1,
+      "old_species": "Dugtrio",
+      "new_species": "Umbreon",
+      "level": 59,
+      "kind": "host",
+      "retheme": "Dark"
+    },
+    {
+      "const": "TRAINER_COOLTRAINER_YUJI",
+      "segment": 8,
+      "slot": 4,
+      "old_species": "Quagsire",
+      "new_species": "Weavile",
+      "level": 62,
+      "kind": "host",
+      "retheme": "Dark"
+    },
+    {
+      "const": "TRAINER_COOLTRAINER_CAROLINE",
+      "segment": 9,
+      "slot": 0,
+      "old_species": "Ferrothorn",
+      "new_species": "Aggron",
+      "level": 66,
+      "kind": "host",
+      "retheme": "Rock"
+    },
+    {
+      "const": "TRAINER_COOLTRAINER_COLBY",
+      "segment": 9,
+      "slot": 0,
+      "old_species": "Gastrodon",
+      "new_species": "Bronzong",
+      "level": 65,
+      "kind": "host",
+      "retheme": "Psychic"
+    },
+    {
+      "const": "TRAINER_COOLTRAINER_COLBY",
+      "segment": 9,
+      "slot": 1,
+      "old_species": "Wailord",
+      "new_species": "Hisuian Braviary",
+      "level": 66,
+      "kind": "host",
+      "retheme": "Psychic"
+    },
+    {
+      "const": "TRAINER_COOLTRAINER_COLBY",
+      "segment": 9,
+      "slot": 2,
+      "old_species": "Starmie",
+      "new_species": "Alakazam",
+      "level": 67,
+      "kind": "host",
+      "retheme": "Psychic"
+    },
+    {
+      "const": "TRAINER_COOLTRAINER_NAOMI",
+      "segment": 9,
+      "slot": 2,
+      "old_species": "Ninetales",
+      "new_species": "Dragapult",
+      "level": 63,
+      "kind": "host",
+      "retheme": "Dragon"
+    },
+    {
+      "const": "TRAINER_COOLTRAINER_NAOMI",
+      "segment": 9,
+      "slot": 4,
+      "old_species": "Chandelure",
+      "new_species": "Duraludon",
+      "level": 63,
+      "kind": "host",
+      "retheme": "Dragon"
+    },
+    {
+      "const": "TRAINER_POKEMANIAC_DAWSON",
+      "segment": 9,
+      "slot": 0,
+      "old_species": "Swampert",
+      "new_species": "Machamp",
+      "level": 63,
+      "kind": "host",
+      "retheme": "Fighting"
+    },
+    {
+      "const": "TRAINER_SUPER_NERD_MIGUEL",
+      "segment": 2,
+      "slot": 2,
+      "old_species": "Archaludon",
+      "new_species": "Pawniard",
+      "level": 20,
+      "kind": "backfill"
+    },
+    {
+      "const": "TRAINER_GENTLEMAN_LAMAR",
+      "segment": 3,
+      "slot": 0,
+      "old_species": "Hisuian Goodra",
+      "new_species": "Tinkatuff",
+      "level": 24,
+      "kind": "backfill"
+    },
+    {
+      "const": "TRAINER_GENTLEMAN_LAMAR",
+      "segment": 3,
+      "slot": 1,
+      "old_species": "Duraludon",
+      "new_species": "Metang",
+      "level": 25,
+      "kind": "backfill"
+    },
+    {
+      "const": "TRAINER_BUG_CATCHER_BRENT",
+      "segment": 4,
+      "slot": 0,
+      "old_species": "Scizor",
+      "new_species": "Butterfree",
+      "level": 27,
+      "kind": "backfill"
+    },
+    {
+      "const": "TRAINER_HIKER_ALAN",
+      "segment": 4,
+      "slot": 0,
+      "old_species": "Aggron",
+      "new_species": "Larvitar",
+      "level": 27,
+      "kind": "backfill"
+    },
+    {
+      "const": "TRAINER_HIKER_CLARK",
+      "segment": 4,
+      "slot": 0,
+      "old_species": "Probopass",
+      "new_species": "Rhyhorn",
+      "level": 28,
+      "kind": "backfill"
+    },
+    {
+      "const": "TRAINER_HIKER_LENNY",
+      "segment": 4,
+      "slot": 0,
+      "old_species": "Tyrantrum",
+      "new_species": "Cranidos",
+      "level": 27,
+      "kind": "backfill"
+    },
+    {
+      "const": "TRAINER_HIKER_LENNY",
+      "segment": 4,
+      "slot": 2,
+      "old_species": "Aurorus",
+      "new_species": "Larvitar",
+      "level": 29,
+      "kind": "backfill"
+    },
+    {
+      "const": "TRAINER_BIRD_KEEPER_CARTER",
+      "segment": 5,
+      "slot": 2,
+      "old_species": "Noivern",
+      "new_species": "Butterfree",
+      "level": 44,
+      "kind": "backfill"
+    },
+    {
+      "const": "TRAINER_BIRD_KEEPER_JACOB",
+      "segment": 5,
+      "slot": 0,
+      "old_species": "Aerodactyl",
+      "new_species": "Pelipper",
+      "level": 35,
+      "kind": "backfill"
+    },
+    {
+      "const": "TRAINER_BIRD_KEEPER_JACOB",
+      "segment": 5,
+      "slot": 1,
+      "old_species": "Mandibuzz",
+      "new_species": "Talonflame",
+      "level": 36,
+      "kind": "backfill"
+    },
+    {
+      "const": "TRAINER_BIRD_KEEPER_JACOB",
+      "segment": 5,
+      "slot": 3,
+      "old_species": "Hisuian Braviary",
+      "new_species": "Altaria",
+      "level": 38,
+      "kind": "backfill"
+    },
+    {
+      "const": "TRAINER_BIRD_KEEPER_ROBERT",
+      "segment": 5,
+      "slot": 0,
+      "old_species": "Flamigo",
+      "new_species": "Altaria",
+      "level": 39,
+      "kind": "backfill"
+    },
+    {
+      "const": "TRAINER_BIRD_KEEPER_ROBERT",
+      "segment": 5,
+      "slot": 2,
+      "old_species": "Scyther",
+      "new_species": "Pelipper",
+      "level": 41,
+      "kind": "backfill"
+    },
+    {
+      "const": "TRAINER_BIRD_KEEPER_SEBASTIAN",
+      "segment": 5,
+      "slot": 0,
+      "old_species": "Hawlucha",
+      "new_species": "Talonflame",
+      "level": 40,
+      "kind": "backfill"
+    },
+    {
+      "const": "TRAINER_BIRD_KEEPER_WILTON",
+      "segment": 5,
+      "slot": 0,
+      "old_species": "Honchkrow",
+      "new_species": "Pelipper",
+      "level": 37,
+      "kind": "backfill"
+    },
+    {
+      "const": "TRAINER_CHANNELER_CARLY",
+      "segment": 5,
+      "slot": 0,
+      "old_species": "Dusknoir",
+      "new_species": "Doublade",
+      "level": 47,
+      "kind": "backfill"
+    },
+    {
+      "const": "TRAINER_CHANNELER_HOPE",
+      "segment": 5,
+      "slot": 0,
+      "old_species": "Gholdengo",
+      "new_species": "Palossand",
+      "level": 47,
+      "kind": "backfill"
+    },
+    {
+      "const": "TRAINER_CHANNELER_LAUREL",
+      "segment": 5,
+      "slot": 0,
+      "old_species": "Polteageist",
+      "new_species": "Drifblim",
+      "level": 46,
+      "kind": "backfill"
+    },
+    {
+      "const": "TRAINER_CHANNELER_PATRICIA",
+      "segment": 5,
+      "slot": 0,
+      "old_species": "Dragapult",
+      "new_species": "Palossand",
+      "level": 47,
+      "kind": "backfill"
+    },
+    {
+      "const": "TRAINER_CHANNELER_PAULA",
+      "segment": 5,
+      "slot": 0,
+      "old_species": "Aegislash",
+      "new_species": "Doublade",
+      "level": 47,
+      "kind": "backfill"
+    },
+    {
+      "const": "TRAINER_CUE_BALL_CAMRON",
+      "segment": 5,
+      "slot": 1,
+      "old_species": "Machamp",
+      "new_species": "Primeape",
+      "level": 36,
+      "kind": "backfill"
+    },
+    {
+      "const": "TRAINER_CUE_BALL_KOJI",
+      "segment": 5,
+      "slot": 0,
+      "old_species": "Lucario",
+      "new_species": "Primeape",
+      "level": 35,
+      "kind": "backfill"
+    },
+    {
+      "const": "TRAINER_CUE_BALL_KOJI",
+      "segment": 5,
+      "slot": 1,
+      "old_species": "Heracross",
+      "new_species": "Machoke",
+      "level": 35,
+      "kind": "backfill"
+    },
+    {
+      "const": "TRAINER_TEAM_ROCKET_GRUNT_19",
+      "segment": 5,
+      "slot": 2,
+      "old_species": "Hydreigon",
+      "new_species": "Sharpedo",
+      "level": 49,
+      "kind": "backfill"
+    },
+    {
+      "const": "TRAINER_PSYCHIC_CAMERON",
+      "segment": 6,
+      "slot": 0,
+      "old_species": "Bronzong",
+      "new_species": "Exeggcute",
+      "level": 50,
+      "kind": "backfill"
+    },
+    {
+      "const": "TRAINER_PSYCHIC_JOHAN",
+      "segment": 6,
+      "slot": 0,
+      "old_species": "Alakazam",
+      "new_species": "Metagross",
+      "level": 50,
+      "kind": "backfill"
+    },
+    {
+      "const": "TRAINER_TEAM_ROCKET_GRUNT_24",
+      "segment": 6,
+      "slot": 0,
+      "old_species": "Kingambit",
+      "new_species": "Sharpedo",
+      "level": 50,
+      "kind": "backfill"
+    },
+    {
+      "const": "TRAINER_TEAM_ROCKET_GRUNT_26",
+      "segment": 6,
+      "slot": 0,
+      "old_species": "Umbreon",
+      "new_species": "Sharpedo",
+      "level": 50,
+      "kind": "backfill"
+    },
+    {
+      "const": "TRAINER_TEAM_ROCKET_GRUNT_26",
+      "segment": 6,
+      "slot": 1,
+      "old_species": "Weavile",
+      "new_species": "Skuntank",
+      "level": 51,
+      "kind": "backfill"
+    }
+  ],
+  "retheme_trainers": [
+    {
+      "const": "TRAINER_SWIMMER_FEMALE_ALICE",
+      "type": "Ghost",
+      "segment": 7
+    },
+    {
+      "const": "TRAINER_SWIMMER_FEMALE_ANYA",
+      "type": "Bug",
+      "segment": 7
+    },
+    {
+      "const": "TRAINER_SWIMMER_FEMALE_CONNIE",
+      "type": "Dragon",
+      "segment": 7
+    },
+    {
+      "const": "TRAINER_SWIMMER_MALE_DARRIN",
+      "type": "Fighting",
+      "segment": 7
+    },
+    {
+      "const": "TRAINER_SWIMMER_MALE_TONY",
+      "type": "Ghost",
+      "segment": 7
+    },
+    {
+      "const": "TRAINER_COOLTRAINER_SAMUEL",
+      "type": "Dark",
+      "segment": 8
+    },
+    {
+      "const": "TRAINER_COOLTRAINER_WARREN",
+      "type": "Rock",
+      "segment": 8
+    },
+    {
+      "const": "TRAINER_COOLTRAINER_YUJI",
+      "type": "Dark",
+      "segment": 8
+    },
+    {
+      "const": "TRAINER_COOLTRAINER_CAROLINE",
+      "type": "Rock",
+      "segment": 9
+    },
+    {
+      "const": "TRAINER_COOLTRAINER_COLBY",
+      "type": "Psychic",
+      "segment": 9
+    },
+    {
+      "const": "TRAINER_COOLTRAINER_NAOMI",
+      "type": "Dragon",
+      "segment": 9
+    },
+    {
+      "const": "TRAINER_POKEMANIAC_DAWSON",
+      "type": "Fighting",
+      "segment": 9
+    }
+  ],
+  "finals_relocated": 30,
+  "invariant_ok": true
+}
