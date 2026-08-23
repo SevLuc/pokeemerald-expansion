@@ -664,11 +664,11 @@
               "party": [
                 {
                   "species": "Charmeleon",
-                  "level": 23
+                  "level": 22
                 },
                 {
                   "species": "Pidgeotto",
-                  "level": 22
+                  "level": 21
                 }
               ],
               "variant": "twitch"
@@ -1460,27 +1460,27 @@
               "party": [
                 {
                   "species": "Charmeleon",
-                  "level": 27
-                },
-                {
-                  "species": "Pidgeotto",
                   "level": 26
                 },
                 {
+                  "species": "Pidgeotto",
+                  "level": 25
+                },
+                {
                   "species": "Drowzee",
-                  "level": 24
+                  "level": 23
                 },
                 {
                   "species": "Rattata",
-                  "level": 24
+                  "level": 23
                 },
                 {
                   "species": "Rattata",
-                  "level": 24
+                  "level": 23
                 },
                 {
                   "species": "Spearow",
-                  "level": 25
+                  "level": 24
                 }
               ],
               "variant": "twitch"
@@ -5246,19 +5246,19 @@
               "party": [
                 {
                   "species": "Pidgeot",
-                  "level": 50
+                  "level": 52
                 },
                 {
                   "species": "Venomoth",
-                  "level": 49
+                  "level": 51
                 },
                 {
                   "species": "Raticate",
-                  "level": 48
+                  "level": 50
                 },
                 {
                   "species": "Vileplume",
-                  "level": 49
+                  "level": 51
                 }
               ],
               "variant": "twitch"

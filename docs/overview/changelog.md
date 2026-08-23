@@ -24,6 +24,43 @@ Update in the same PR as the change.
   src/rival_nuzlocke.c, include/rival_nuzlocke.h, src/data/rival_nuzlocke_battles.h;
   hooked in CreateNPCTrainerParty (src/battle_main.c). Overview in
   docs/overview/trainers.md.
+- 2026-08-23 - intro/rival - Rival pick now shows a per-rival flavor blurb before
+  the YES/NO confirm (Oak speech). Blurbs indexed by VAR_RIVAL_ID via
+  sRivalFlavorText[] in src/oak_speech.c; strings in
+  data/text/new_game_intro_frlg.inc (Buhrito, Twitch, Locke). Locke's encounters
+  not yet wired; missing/OOB index falls back to the generic confirm line. Built
+  clean on Mac.
+- 2026-08-23 - trainers/elite-four - Wired Lorelei's Ice pool into
+  src/data/trainers_frlg.party (11 members, fields 6 via Party Size 6 + Bst Match,
+  Lapras ace). Added a new `POOL_PICK_SNOW_LEAD` pick function
+  (include/trainer_pools.h, src/trainer_pools.c): leads with a Snow Warning mon
+  (Alolan Ninetales) if fielded, else a Snowscape carrier, so Snow is up turn 1
+  regardless of the BST-matched draw. Ninetales is not force-kept (stays a normal
+  candidate). Test added in test/battle/trainer_control.c. Not yet compiled
+  (web session); build + playtest on Mac.
+- 2026-08-23 - trainers/elite-four - Drafted Lorelei's Ice draw pool (11 members,
+  all Lv72 cap-legal: abilities, natures, movesets) built around modern Snow.
+  Alolan Ninetales is the preferred Snow lead with a conditional fallback (a
+  Snowscape carrier leads if she is not fielded); Lapras is the ace. New doc
+  docs/overview/elite-four.md; trainers.md Lorelei row updated. Fielded subset,
+  pool wiring, and the conditional-lead rule in src/trainer_pools.c are TODO.
+- 2026-08-23 - trainers/rival - Placed the Twitch rival teams on the trainer curve
+  (cap-1 top for crit-path fights, only leaders hold the cap). Cerulean 23->22,
+  S.S. Anne 27->26 (whole teams -1); Silph 50->52 (whole team +2). Oak's Lab (5,
+  tutorial), Route 22 early (13, cap-1), Pokemon Tower (38, gate), Route 22 late
+  (63, E4-split floor) and Champion (72, capstone) unchanged. VAR_RIVAL_ID branches
+  were already wired. (src/data/trainers_frlg.party; progression json regenerated)
+- 2026-08-23 - mechanics/moves - Player-only banned moves. 76 moves (all setup,
+  Protect/Detect stall family, Toxic + Will-O-Wisp, entry hazards, and key utility:
+  Baton Pass, Destiny Bond, Trick Room, Tailwind, Whirlwind/Roar, Leech Seed,
+  Trick/Switcheroo/Bestow, Spite, Mind Reader/Lock-On) are stripped from player and
+  wild Pokemon; TRAINERS keep them (auto-moveset path untouched). When a banned move
+  sits in a species' level-up learnset, the player's mon gets a curated same-type egg
+  move instead (1336 mapped), else backfills its other legal level-up moves (831).
+  Enforced on capture/gift/starter/fossil/egg-hatch, level-up + evolution learning,
+  TM/tutor, and the Move Relearner. New: src/data/banned_moves.h, test/banned_moves.c;
+  hooks in pokemon.c, wild_encounter.c, script_pokemon_util.c, daycare.c,
+  move_relearner.c. Full list + rationale in docs/overview/banned-moves.md.
 - 2026-08-23 - encounters/region-wide - Rebuilt every wild encounter table via
   `tools/gen_encounters.py`. Base forms only (family roots); all kept roots
   (192 land + 41 water) catchable before the E4. Equal chance per slot; fishing

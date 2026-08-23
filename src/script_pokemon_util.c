@@ -145,6 +145,7 @@ void CreateScriptedWildMon(enum Species species, u8 level, enum Item item)
         RANDOM_UNOWN_LETTER);
     CreateMonWithIVs(&gParties[B_TRAINER_OPPONENT_A][0], species, level, personality, OTID_STRUCT_PLAYER_ID, USE_RANDOM_IVS);
     GiveMonInitialMoveset(&gParties[B_TRAINER_OPPONENT_A][0]);
+    ApplyPlayerMoveBans(&gParties[B_TRAINER_OPPONENT_A][0]); // static/gift encounter: catchable, keep it clean
     if (item)
     {
         heldItem[0] = item;
@@ -164,6 +165,7 @@ void CreateScriptedDoubleWildMon(enum Species species1, u8 level1, enum Item ite
         RANDOM_UNOWN_LETTER);
     CreateMonWithIVs(&gParties[B_TRAINER_OPPONENT_A][0], species1, level1, personality, OTID_STRUCT_PLAYER_ID, USE_RANDOM_IVS);
     GiveMonInitialMoveset(&gParties[B_TRAINER_OPPONENT_A][0]);
+    ApplyPlayerMoveBans(&gParties[B_TRAINER_OPPONENT_A][0]);
     if (item1)
     {
         heldItem1[0] = item1;
@@ -177,6 +179,7 @@ void CreateScriptedDoubleWildMon(enum Species species1, u8 level1, enum Item ite
         RANDOM_UNOWN_LETTER);
     CreateMonWithIVs(&gParties[B_TRAINER_OPPONENT_A][1], species2, level2, personality, OTID_STRUCT_PLAYER_ID, USE_RANDOM_IVS);
     GiveMonInitialMoveset(&gParties[B_TRAINER_OPPONENT_A][1]);
+    ApplyPlayerMoveBans(&gParties[B_TRAINER_OPPONENT_A][1]);
     if (item2)
     {
         heldItem2[0] = item2;
@@ -486,7 +489,10 @@ static u32 ScriptGiveMonParameterized(u8 side, u8 slot, enum Species species, u8
     TryFormChange(&mon, FORM_CHANGE_ITEM_HOLD, B_TRAINER_PLAYER);
 
     if (side == B_SIDE_PLAYER)
+    {
+        ApplyPlayerMoveBans(&mon); // gift/starter/fossil mons never carry banned moves
         return GiveScriptedMonToPlayer(&mon, slot);
+    }
 
     assertf(slot < PARTY_SIZE, "invalid slot: %d", slot)
     {
@@ -509,6 +515,7 @@ u32 ScriptGiveMon(enum Species species, u8 level, enum Item item)
         SetMonData(&mon, MON_DATA_HELD_ITEM, heldItem);
     }
 
+    ApplyPlayerMoveBans(&mon); // scripted gift mons never carry banned moves
     return GiveScriptedMonToPlayer(&mon, PARTY_SIZE);
 }
 

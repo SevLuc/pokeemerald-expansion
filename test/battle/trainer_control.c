@@ -328,6 +328,25 @@ TEST("Trainer Party Pool BST match prune always fields the lead-tagged mon first
     Free(testParty);
 }
 
+TEST("Trainer Party Pool Snow Lead picks a snow-setter first (Snow Warning preferred, else Snowscape)")
+{
+    u32 currTrainer;
+    enum Species expectedLead;
+    //  Party Size == pool size, so all three are fielded and the Snow Lead pick
+    //  function decides slot 0:
+    //  17: Abomasnow (Snow Warning) leads over non-setters.
+    //  18: no Snow Warning present, so the Snowscape carrier (Glaceon) leads.
+    //  19: Snow Warning (Abomasnow) is preferred over a Snowscape carrier (Glaceon).
+    PARAMETRIZE { currTrainer = 17; expectedLead = SPECIES_ABOMASNOW; }
+    PARAMETRIZE { currTrainer = 18; expectedLead = SPECIES_GLACEON; }
+    PARAMETRIZE { currTrainer = 19; expectedLead = SPECIES_ABOMASNOW; }
+
+    struct Pokemon *testParty = Alloc(6 * sizeof(struct Pokemon));
+    CreateNPCTrainerPartyFromTrainer(testParty, GetTrainerStructFromId(currTrainer), TRUE, BATTLE_TYPE_TRAINER);
+    EXPECT(GetMonData(&testParty[0], MON_DATA_SPECIES) == expectedLead);  //  snow-setter leads
+    Free(testParty);
+}
+
 TEST("trainerproc supports both Double Battle: Yes and Battle Type: Doubles")
 {
     u32 currTrainer;

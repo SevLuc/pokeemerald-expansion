@@ -334,3 +334,66 @@ Snorlax
 
 Wobbuffet
 Tags: Ace
+
+=== 17 ===
+Name: Test14
+Class: Pkmn Trainer 1
+Pic: Red
+Gender: Male
+Music: Male
+Battle Type: Singles
+Party Size: 3
+Pool Rules: Basic
+Pool Pick Functions: Snow Lead
+
+Abomasnow
+Level: 50
+Ability: Snow Warning
+
+Eevee
+
+Snorlax
+
+=== 18 ===
+Name: Test15
+Class: Pkmn Trainer 1
+Pic: Red
+Gender: Male
+Music: Male
+Battle Type: Singles
+Party Size: 3
+Pool Rules: Basic
+Pool Pick Functions: Snow Lead
+
+Glaceon
+Level: 50
+Ability: Snow Cloak
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Snowscape
+
+Eevee
+
+Snorlax
+
+=== 19 ===
+Name: Test16
+Class: Pkmn Trainer 1
+Pic: Red
+Gender: Male
+Music: Male
+Battle Type: Singles
+Party Size: 3
+Pool Rules: Basic
+Pool Pick Functions: Snow Lead
+
+Glaceon
+Level: 50
+Ability: Snow Cloak
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Snowscape
+
+Abomasnow
+Level: 50
+Ability: Snow Warning
+
+Eevee

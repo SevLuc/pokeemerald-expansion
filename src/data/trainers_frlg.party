@@ -6302,46 +6302,121 @@ Items: Full Restore / Full Restore
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 Mugshot: Purple
+Party Size: 6
+Pool Rules: Basic
+Pool Prune: Bst Match
+Pool Pick Functions: Snow Lead
 
-Dewgong
-Level: 52
-IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
-- Ice Beam
+SPECIES_NINETALES_ALOLA
+Level: 72
+Ability: Snow Warning
+Nature: Timid
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Blizzard
+- Moonblast
+- Icy Wind
+- Aurora Veil
+
+Lapras
+Level: 72
+Ability: Shell Armor
+Tags: Ace
+Nature: Relaxed
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Surf
-- Hail
-- Safeguard
-
-Cloyster
-Level: 51
-IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
-- Spikes
-- Protect
-- Hail
-- Dive
+- Freeze-Dry
+- Confuse Ray
+- Earthquake
 
 Slowbro
-Level: 52
-IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
-- Ice Beam
+Level: 72
+Ability: Regenerator
+Nature: Sassy
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Snowscape
+- Teleport
+- Psychic
 - Surf
-- Amnesia
-- Yawn
 
 Jynx
-Level: 54
-IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
-- Ice Punch
-- Double Slap
-- Lovely Kiss
-- Attract
-
-Lapras @ Sitrus Berry
-Level: 54
-IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
-- Confuse Ray
+Level: 72
+Ability: Dry Skin
+Nature: Timid
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Ice Beam
+- Psychic
+- Aurora Veil
+- Lovely Kiss
+
+Dewgong
+Level: 72
+Ability: Ice Body
+Nature: Timid
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Blizzard
+- Drill Run
+- Snowscape
 - Surf
-- Body Slam
+
+Articuno
+Level: 72
+Ability: Snow Cloak
+Nature: Timid
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Blizzard
+- Snowscape
+- Air Slash
+- Roost
+
+Froslass
+Level: 72
+Ability: Snow Cloak
+Nature: Timid
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Snowscape
+- Blizzard
+- Shadow Ball
+- Confuse Ray
+
+SPECIES_MR_RIME
+Level: 72
+Ability: Ice Body
+Nature: Timid
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Freeze-Dry
+- Psychic
+- Icy Wind
+- Focus Blast
+
+Mamoswine
+Level: 72
+Ability: Thick Fat
+Nature: Jolly
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Earthquake
+- Icicle Crash
+- Ice Shard
+- Superpower
+
+Glaceon
+Level: 72
+Ability: Snow Cloak
+Nature: Timid
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Aurora Veil
+- Blizzard
+- Freeze-Dry
+- Snowscape
+
+Weavile
+Level: 72
+Ability: Pressure
+Nature: Jolly
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Night Slash
+- Ice Punch
+- Low Kick
+- Poison Jab
 
 === TRAINER_ELITE_FOUR_BRUNO ===
 Name: BRUNO
@@ -13502,11 +13577,11 @@ Music: Male
 Double Battle: No
 
 Abby (Charmeleon)
-Level: 23
+Level: 22
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 
 Bird Jesus (Pidgeotto)
-Level: 22
+Level: 21
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 
 === TRAINER_RIVAL_TWITCH_SS_ANNE ===
@@ -13518,27 +13593,27 @@ Music: Male
 Double Battle: No
 
 Abby (Charmeleon)
-Level: 27
-IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
-
-Bird Jesus (Pidgeotto)
 Level: 26
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 
+Bird Jesus (Pidgeotto)
+Level: 25
+IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+
 The Keeper (Drowzee)
-Level: 24
+Level: 23
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 
 Digrat (Rattata)
-Level: 24
+Level: 23
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 
 Jay Leno (Rattata)
-Level: 24
+Level: 23
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 
 Dux (Spearow)
-Level: 25
+Level: 24
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 
 === TRAINER_RIVAL_TWITCH_POKEMON_TOWER ===
@@ -13574,19 +13649,19 @@ Music: Male
 Double Battle: No
 
 Bird Jesus (Pidgeot)
-Level: 50
+Level: 52
 IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 
 ATV (Venomoth)
-Level: 49
+Level: 51
 IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 
 BigDig (Raticate)
-Level: 48
+Level: 50
 IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 
 Cabbage (Vileplume)
-Level: 49
+Level: 51
 IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 
 === TRAINER_RIVAL_TWITCH_ROUTE22_LATE ===
