@@ -4748,7 +4748,7 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Rhyhorn
-Level: 45
+Level: 46
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Take Down
 - Rock Blast
@@ -4756,7 +4756,7 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Earthquake
 
 Dugtrio
-Level: 42
+Level: 48
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Slash
 - Sand Tomb
@@ -4764,7 +4764,7 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Earthquake
 
 Nidoqueen
-Level: 44
+Level: 48
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Body Slam
 - Double Kick
@@ -4772,7 +4772,7 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Earthquake
 
 Nidoking
-Level: 45
+Level: 48
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Thrash
 - Double Kick
@@ -6584,7 +6584,7 @@ Pool Rules: Basic
 Pool Prune: Bst Match
 
 goku turd (SPECIES_GEODUDE_ALOLA) (F)
-Level: 14
+Level: 12
 Ability: Galvanize
 Nature: Jolly
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
@@ -6594,7 +6594,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Mud Slap
 
 Aron (F)
-Level: 14
+Level: 12
 Ability: Sturdy
 Nature: Jolly
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
@@ -6604,7 +6604,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Body Press
 
 Glimmet (F)
-Level: 14
+Level: 12
 Ability: Corrosion
 Nature: Timid
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
@@ -6614,7 +6614,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Spikes
 
 Supa Burd (Aerodactyl) (F)
-Level: 14
+Level: 12
 Ability: Pressure
 Nature: Jolly
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
@@ -6624,7 +6624,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Bulldoze
 
 Stakataka
-Level: 14
+Level: 12
 Ability: Beast Boost
 Nature: Adamant
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
@@ -6634,7 +6634,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Body Press
 
 sexy dawg (Rockruff) (F)
-Level: 14
+Level: 12
 Ability: Vital Spirit
 Nature: Jolly
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
@@ -6644,7 +6644,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Play Rough
 
 SPECIES_GROWLITHE_HISUI (F)
-Level: 14
+Level: 12
 Ability: Intimidate
 Nature: Jolly
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
@@ -6654,7 +6654,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Morning Sun
 
 sexy turt (Chewtle) (F)
-Level: 14
+Level: 12
 Ability: Strong Jaw
 Nature: Jolly
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
@@ -6688,7 +6688,7 @@ Pool Rules: Basic
 Pool Prune: Bst Match
 
 Psyduck (F)
-Level: 23
+Level: 19
 Ability: Swift Swim
 Tags: Lead
 Nature: Timid
@@ -6699,7 +6699,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Aerial Ace
 
 Horsea (F)
-Level: 23
+Level: 21
 Ability: Swift Swim
 Nature: Timid
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
@@ -6709,7 +6709,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Ice Beam
 
 Brionne (F)
-Level: 23
+Level: 21
 Ability: Liquid Voice
 Nature: Timid
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
@@ -6717,7 +6717,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Rain Dance
 
 Pyukumuku (F)
-Level: 23
+Level: 21
 Ability: Innards Out
 Nature: Timid
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
@@ -6726,7 +6726,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Double Team
 
 Corsola (F)
-Level: 23
+Level: 21
 Ability: Regenerator
 Nature: Timid
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
@@ -6736,7 +6736,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Sucker Punch
 
 Ludicolo (F)
-Level: 23
+Level: 21
 Ability: Swift Swim
 Nature: Timid
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
@@ -6746,7 +6746,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Scald
 
 Azumarill (F)
-Level: 23
+Level: 21
 Ability: Sap Sipper
 Nature: Jolly
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
@@ -6756,7 +6756,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Waterfall
 
 Goldeen (F)
-Level: 23
+Level: 21
 Ability: Swift Swim
 Nature: Naive
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
@@ -6766,7 +6766,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Icy Wind
 
 Vaporeon (F)
-Level: 23
+Level: 21
 Ability: Hydration
 Nature: Timid
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
@@ -6800,7 +6800,7 @@ Pool Rules: Basic
 Pool Prune: Bst Match
 
 Jolteon (M)
-Level: 27
+Level: 25
 Ability: Volt Absorb
 Nature: Timid
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
@@ -6810,7 +6810,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Yawn
 
 SPECIES_ROTOM_FROST
-Level: 27
+Level: 25
 Ability: Levitate
 Nature: Timid
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
@@ -6820,7 +6820,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Reflect
 
 SPECIES_IRON_HANDS
-Level: 27
+Level: 25
 Ability: Quark Drive
 Nature: Brave
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
@@ -6830,7 +6830,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Ice Punch
 
 SPECIES_ELECTRODE_HISUI
-Level: 27
+Level: 25
 Ability: Static
 Nature: Naive
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
@@ -6840,7 +6840,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Self Destruct
 
 Heliolisk (M)
-Level: 27
+Level: 25
 Ability: Dry Skin
 Nature: Timid
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
@@ -6850,7 +6850,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Grass Knot
 
 Morpeko (F)
-Level: 27
+Level: 25
 Ability: Hunger Switch
 Nature: Jolly
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
@@ -6860,7 +6860,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Super Fang
 
 Togedemaru (M)
-Level: 27
+Level: 25
 Ability: Iron Barbs
 Nature: Jolly
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
@@ -6870,7 +6870,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Volt Switch
 
 Pincurchin (F)
-Level: 27
+Level: 25
 Ability: Electric Surge
 Nature: Quiet
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
@@ -6880,7 +6880,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Thunder Wave
 
 Pachirisu (M)
-Level: 27
+Level: 25
 Ability: Volt Absorb
 Nature: Timid
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
@@ -6911,7 +6911,7 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Victreebel
-Level: 29
+Level: 25
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Stun Spore
 - Acid
@@ -6919,7 +6919,7 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Giga Drain
 
 Tangela
-Level: 24
+Level: 27
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Poison Powder
 - Constrict
@@ -6945,7 +6945,7 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Koffing
-Level: 37
+Level: 39
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Self Destruct
 - Sludge
@@ -6953,7 +6953,7 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Toxic
 
 Muk
-Level: 39
+Level: 41
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Minimize
 - Sludge
@@ -6961,7 +6961,7 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Toxic
 
 Koffing
-Level: 37
+Level: 41
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Self Destruct
 - Sludge
@@ -6987,7 +6987,7 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Growlithe
-Level: 42
+Level: 43
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Bite
 - Roar
@@ -6995,7 +6995,7 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Fire Blast
 
 Ponyta
-Level: 40
+Level: 45
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Stomp
 - Bounce
@@ -7003,7 +7003,7 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Fire Blast
 
 Rapidash
-Level: 42
+Level: 45
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Stomp
 - Bounce
@@ -7029,7 +7029,7 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Kadabra
-Level: 38
+Level: 39
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Psybeam
 - Reflect
@@ -7037,7 +7037,7 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Calm Mind
 
 Mr Mime
-Level: 37
+Level: 41
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Barrier
 - Psybeam
@@ -7045,7 +7045,7 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Calm Mind
 
 Venomoth
-Level: 38
+Level: 41
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Psybeam
 - Gust
