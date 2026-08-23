@@ -656,6 +656,7 @@ static const u8 *const sRivalNameChoices[] =
 {
     [RIVAL_ID_BUHRITO] = gNameChoice_Buhrito,
     [RIVAL_ID_TWITCH]  = gNameChoice_Twitch,
+    [RIVAL_ID_LOCKE]   = gNameChoice_Locke,
 };
 
 // Flavor blurb shown when a rival is picked, right before the YES/NO confirm.
@@ -667,6 +668,7 @@ static const u8 *const sRivalFlavorText[] =
 {
     [RIVAL_ID_BUHRITO] = gOakSpeech_Text_RivalFlavor_Buhrito,
     [RIVAL_ID_TWITCH]  = gOakSpeech_Text_RivalFlavor_Twitch,
+    [RIVAL_ID_LOCKE]   = gOakSpeech_Text_RivalFlavor_Locke,
 };
 
 // Number of default name presets shown for the PLAYER's own name menu (that menu

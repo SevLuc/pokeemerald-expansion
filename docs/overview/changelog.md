@@ -7,6 +7,20 @@ Update in the same PR as the change.
 `YYYY-MM-DD` — area — one-line summary (PR/commit ref)
 
 ## Entries
+- 2026-08-23 - rival/dialogue - Locke is now a fully playable 3rd rival identity.
+  Added RIVAL_ID_LOCKE (=2) and the "LOCKE" pick-menu option + flavor blurb
+  (src/oak_speech.c, data/text/new_game_intro_frlg.inc, include/constants/vars.h,
+  include/event_scripts.h). Wired his full battle dialogue (intro/defeat/post, plus
+  victory lines on the earlyrival beats) across all rival encounters via
+  goto_if_eq VAR_RIVAL_ID, RIVAL_ID_LOCKE branches that KEEP the vanilla per-starter
+  split and reuse the vanilla rival trainer ids: Oak's Lab, Route 22 early, Cerulean,
+  S.S. Anne, Pokemon Tower, Silph, Route 22 late, Champion (7 map scripts.inc). Voice
+  is the warm "Documentarian" streamer-homage (docs/writing/drafts/locke.md). ALSO
+  gated the runtime-generated nuzlocke team to the Locke identity only
+  (ShouldGenerateLockeParty = VAR_RIVAL_ID == RIVAL_ID_LOCKE), so the default rival
+  (Buhrito) reverts to its vanilla static teams; Twitch unaffected. Deferred: Locke
+  lines for the Champion rematch and a few non-battle rival slots (Oak's Lab parcel
+  scene, Silph pre-approach) still fall through to the default rival's text.
 - 2026-08-23 - intro/rival - The "received X from Oak" line in Oak's Lab now names the
   rival's starter by identity instead of always the vanilla type-counter (which showed
   e.g. "Squirtle"): Twitch always Charmander, Buhrito always Elekid; any other identity

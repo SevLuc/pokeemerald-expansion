@@ -229,3 +229,204 @@ the showman intact ("Back for the special edition, chat. So glad you're still he
   claims his mons truly die, or that his team is fixed, or that he leads with his ace.
   The lore explains the mechanics as showmanship (ace saved for the finale; every
   season a fresh cast), it does not override them.
+
+---
+
+## Full rival dialogue (READY TO WIRE)
+
+Final-ready per-beat lines, one string set per fight, presented like twitch.md's
+"Full rival dialogue" section: gen-3 breaks inline (`\n` next line, `\l` scroll,
+`\p` new textbox), `{PLAYER}`/`{RIVAL}` placeholders, terminate each string with `$`
+when transcribed to the .inc. Two macro shapes drive the string count:
+
+- `trainerbattle_earlyrival` beats need FOUR strings: INTRO, DEFEAT (player WINS),
+  VICTORY (player LOSES), POST-BATTLE (after, player won).
+- `trainerbattle_no_intro` beats need THREE strings: INTRO, DEFEAT (player WINS),
+  POST-BATTLE (after, player won).
+
+Arc holds: brash-warm early; the first faint "…right?" at Cerulean; over-warm
+insistence at S.S. Anne; the ONE quiet glimpse at Lavender (played straight, no
+joke on the page); performing-to-a-dead-channel-but-keeps-going-out-of-love at
+Silph; load-bearing warmth at late Route 22; the Champion LANDS it warm and hands
+off gracefully into Oak's fixed capstone. Fights keep their dignity: intros are
+showman-warm, the gratitude and encouragement land in DEFEAT/POST after the battle.
+No em dashes anywhere. [FLAG: release-swap] on the whole voice (homage-generic).
+
+### 1. Oak's Lab (Ep. 1) - starter pick + tutorial battle
+_Wiring note: map `PalletTown_ProfessorOaksLab_Frlg`, macro `trainerbattle_earlyrival` -> 4 strings (INTRO / DEFEAT / VICTORY / POST-BATTLE). Starter-only team here; keep it light setup._
+
+- **INTRO:**
+  `And we're LIVE, chat.` \n `Day one, fresh save.` \p
+  `Say hi to the new` \n `challenger.` \p
+  `…Oh, you are gonna` \n `be GOOD.`
+- **DEFEAT (player wins):**
+  `Ohh, we take the L` \n `on episode one!` \p
+  `And what a beat.` \n `Give it up for the` \l `challenger.` \p
+  `Thank you for playing.` \n `This is why I love` \l `this game.`
+- **VICTORY (player loses):**
+  `And that's the episode!` \n `Clean run, chat.` \p
+  `But hey, YOU showed up.` \n `Thank you for that.` \p
+  `…And we're clear.`
+- **POST-BATTLE (player won):**
+  `Go on, get out there,` \n `{PLAYER}.` \p
+  `That's a future champ,` \n `chat. Believe it.` \p
+  `…And we're clear.`
+
+### 2. Route 22 (early) - road to the League
+_Wiring note: map `Route22_Frlg`, macro `trainerbattle_earlyrival` -> 4 strings (INTRO / DEFEAT / VICTORY / POST-BATTLE)._
+
+- **INTRO:**
+  `Still rolling, chat.` \n `Look who followed us` \l `out of the lab.` \p
+  `Camera's on YOU now,` \n `superstar.` \p
+  `Show 'em what you've` \n `got.`
+- **DEFEAT (player wins):**
+  `And that's a loss,` \n `folks! Beautiful.` \p
+  `Look at that team.` \n `You're doing GREAT.` \p
+  `Thanks for the fight,` \n `{PLAYER}.`
+- **VICTORY (player loses):**
+  `That's the episode!` \n `We held the line.` \p
+  `But you'll get there.` \n `I know it, chat.` \p
+  `…And we're clear.`
+- **POST-BATTLE (player won):**
+  `Now go make everyone` \n `out there wanna play` \l `too.` \p
+  `Thank you for being` \n `here. Roll it.`
+
+### 3. Cerulean City - after the robbed house / Nugget Bridge
+_Wiring note: map `CeruleanCity_Frlg`, macro `trainerbattle_no_intro` -> 3 strings (INTRO / DEFEAT / POST-BATTLE). The Bill nudge folds into POST-BATTLE; the separate Fame Checker handoff sub-beat (giveitem) stays its own scripted lines, unchanged here. First faint "…right?" undertone._
+
+- **INTRO:**
+  `Back, and the roster's` \n `stacked, chat.` \p
+  `Honestly? So is yours.` \n `Numbers are up.` \p
+  `…You're the numbers.` \n `You're why I do this.` \p
+  `…right?`
+- **DEFEAT (player wins):**
+  `Two for two on camera,` \n `and I'm HERE for it.` \p
+  `Clean beat, {PLAYER}.` \p
+  `Thank you for being` \n `here. All of you.` \p
+  `That's what matters.` \n `…That's what matters.`
+- **POST-BATTLE (player won):**
+  `Go north, chat sent me.` \p
+  `The Bill guy shows off` \n `his rare mons for free.` \p
+  `Great content. Go say` \n `hi.` \p
+  `…And we're clear.`
+
+### 4. S.S. Anne - 2F corridor
+_Wiring note: map `SSAnne_2F_Corridor_Frlg`, macro `trainerbattle_no_intro` -> 3 strings (INTRO / DEFEAT / POST-BATTLE). CUT nudge lives in POST-BATTLE. Over-warm insistence._
+
+- **INTRO:**
+  `Luxury episode, chat!` \n `Big boat, big run.` \p
+  `Still deathless. That's` \n `the brand.` \p
+  `And you? You belong` \n `on this deck. Roll it.`
+- **DEFEAT (player wins):**
+  `Losing in style!` \n `Frame it nice.` \p
+  `That was gorgeous,` \n `challenger. Thank you.` \p
+  `The run goes on. It` \n `always does.` \p
+  `And I'm so glad you're` \n `on it. Really. I am.`
+- **POST-BATTLE (player won):**
+  `There's a CUT master` \n `aboard. Go get CUT.` \p
+  `Great for the show.` \p
+  `Thank you for playing,` \n `{PLAYER}. Roll it.`
+
+### 5. Pokemon Tower, Lavender - THE GLIMPSE
+_Wiring note: map `PokemonTower_2F_Frlg`, macro `trainerbattle_no_intro` -> 3 strings (INTRO / DEFEAT / POST-BATTLE). Played STRAIGHT: warmth carries the page, do NOT undercut with a joke on any of these three strings._
+
+- **INTRO:**
+  `…Keep it down, chat.` \n `Show some respect.` \p
+  `A nuzlocker's meant to` \n `FEAR a place like this.` \p
+  `One death ends the` \n `whole run. That's the` \l `vow.` \p
+  `…Funny. Mine never` \n `seem to fall.` \p
+  `And if they did…` \p
+  `would anybody be here` \n `to see them go?`
+- **DEFEAT (player wins):**
+  `…Clean fought.` \n `Thank you for that.` \p
+  `Truly.` \p
+  `…You're still out` \n `there, right, chat?` \p
+  `…Yeah. Yeah.` \p
+  `Thanks for staying.` \n `Let's move.`
+- **POST-BATTLE (player won):**
+  `…Go on, {PLAYER}.` \n `I'm right behind you.` \p
+  `Thank you for being` \n `here. I mean it.`
+
+### 6. Silph Co. 7F - Saffron
+_Wiring note: map `SilphCo_7F_Frlg`, macro `trainerbattle_no_intro` -> 3 strings (INTRO / DEFEAT / POST-BATTLE). Giovanni nudge in POST-BATTLE. Dead-channel beat, played straight; love of the game holds it, not hollowness._
+
+- **INTRO:**
+  `Still here, chat.` \n `Still recording.` \p
+  `The light's just…` \n `blinking red at me now.` \p
+  `Doesn't matter. I love` \n `this too much to stop.` \p
+  `Where were we? Right.` \n `The run.` \p
+  `And you, challenger?` \n `You're a joy to film.` \p
+  `Let's go.`
+- **DEFEAT (player wins):**
+  `Beaten again. Live,` \n `no cuts.` \p
+  `And I wouldn't trade it.` \p
+  `Thank you for playing.` \p
+  `Whoever's watching…` \n `or nobody…` \p
+  `I'm still so glad I got` \n `to see THAT run.`
+- **POST-BATTLE (player won):**
+  `Giovanni's up ahead.` \n `Go take his tower.` \p
+  `Keep the tape rolling,` \n `{PLAYER}.` \p
+  `Thank you for being` \n `here. Always.`
+
+### 7. Route 22 (late) - rematch before Victory Road
+_Wiring note: map `Route22_Frlg`, macro `trainerbattle_earlyrival` -> 4 strings (INTRO / DEFEAT / VICTORY / POST-BATTLE). All 8 badges. Warmth load-bearing._
+
+- **INTRO:**
+  `Final stretch, chat.` \n `All eight badges.` \p
+  `Deathless, obviously.` \n `The vow held.` \p
+  `And look at you.` \n `Ready for the big one.` \p
+  `So proud, honestly.` \n `Let's put on a show.`
+- **DEFEAT (player wins):**
+  `Warm-up loss. Doesn't` \n `count. And you EARNED` \l `it.` \p
+  `Thank you, {PLAYER}.` \p
+  `…Even if the room's` \n `quiet…` \p
+  `you filled it.`
+- **VICTORY (player loses):**
+  `That's the episode.` \n `We held on.` \p
+  `But you're so close.` \n `Go again. I'll wait.` \p
+  `…And we're clear.`
+- **POST-BATTLE (player won):**
+  `Go finish this.` \n `Go be champion.` \p
+  `I'll be watching.` \n `Someone should be.` \p
+  `Thank you for playing.` \n `Now go.`
+
+### 8. Champion - Indigo Plateau - THE LANDING
+_Wiring note: map `PokemonLeague_ChampionsRoom_Frlg`, macro `trainerbattle_no_intro` -> 3 strings (INTRO / DEFEAT / POST-BATTLE). POST-BATTLE precedes Oak's fixed capstone ("love and trust"); end on a graceful handoff. Do NOT rewrite Oak._
+
+- **INTRO:**
+  `This is the one, chat.` \n `Season finale.` \p
+  `Whoever's out there` \n `watching… thank you.` \p
+  `For the whole run.` \n `For playing at all.` \p
+  `And challenger…` \n `thank you most.` \p
+  `Okay. Roll it.`
+- **DEFEAT (player wins):**
+  `…And that's a wrap.` \p
+  `Beaten on camera. Live.` \n `No edits.` \p
+  `And it's PERFECT.`
+- **POST-BATTLE (player won, before Oak enters):**
+  `You keep the run going` \n `now. You hear me?` \p
+  `Go tell people to start` \n `theirs.` \p
+  `Somebody's gotta` \n `remember this game…` \p
+  `and I'm so glad it's you.` \p
+  `Thank you for playing.` \n `…And we're clear.`
+
+### R. Rematch - post-game Champion
+_Wiring note: map `PokemonLeague_ChampionsRoom_Frlg` (rematch entry), macro `trainerbattle_no_intro` -> 3 strings (INTRO / DEFEAT / POST-BATTLE). Light callback: warmth up front, ache faint, showman intact._
+
+- **INTRO:**
+  `Back for the special` \n `edition, chat!` \p
+  `So glad you're still` \n `here.` \p
+  `The channel never really` \n `ends, you know.` \p
+  `I love this too much.` \n `Roll it, {PLAYER}.`
+- **DEFEAT (player wins):**
+  `Beaten again, and it` \n `never gets old.` \p
+  `Thank you for the` \n `re-run.` \p
+  `Best series I ever` \n `made.` \p
+  `…And we're clear.`
+- **POST-BATTLE (player won):**
+  `Come back anytime.` \n `I'm always recording.` \p
+  `Thank you for being` \n `here, {PLAYER}.` \p
+  `Every single time.` \n `That's the episode.`
+
+> READY TO WIRE. Voice locked to the Documentarian core above. The user or a build
+> session branches each beat on VAR_RIVAL_ID to these Locke variants; text only here.

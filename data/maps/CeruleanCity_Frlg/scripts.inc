@@ -41,6 +41,7 @@ CeruleanCity_EventScript_Rival::
 	applymovement LOCALID_CERULEAN_RIVAL, CeruleanCity_Movement_RivalEnter
 	waitmovement 0
 	goto_if_eq VAR_RIVAL_ID, RIVAL_ID_TWITCH, CeruleanCity_EventScript_RivalTwitch
+	goto_if_eq VAR_RIVAL_ID, RIVAL_ID_LOCKE, CeruleanCity_EventScript_RivalLocke
 	msgbox CeruleanCity_Text_RivalIntro
 	setvar VAR_LAST_TALKED, LOCALID_CERULEAN_RIVAL
 	call_if_eq VAR_STARTER_MON, 2, CeruleanCity_EventScript_RivalSquirtle
@@ -89,6 +90,46 @@ CeruleanCity_EventScript_RivalTwitch::
 	removeobject LOCALID_CERULEAN_RIVAL
 	releaseall
 	end
+
+@ Locke keeps the vanilla per-starter split. The Fame Checker handoff lines
+@ (OhRightLittlePresentAsFavor / ExplainFameCheckerSmellYa) stay vanilla.
+CeruleanCity_EventScript_RivalLocke::
+	msgbox CeruleanCity_Text_LockeRivalIntro
+	setvar VAR_LAST_TALKED, LOCALID_CERULEAN_RIVAL
+	call_if_eq VAR_STARTER_MON, 2, CeruleanCity_EventScript_RivalLockeSquirtle
+	call_if_eq VAR_STARTER_MON, 1, CeruleanCity_EventScript_RivalLockeBulbasaur
+	call_if_eq VAR_STARTER_MON, 0, CeruleanCity_EventScript_RivalLockeCharmander
+	famechecker FAMECHECKER_BILL, 0
+	msgbox CeruleanCity_Text_LockeRivalPostBattle
+	closemessage
+	playbgm MUS_RG_RIVAL_EXIT, 0
+	call_if_eq VAR_TEMP_1, 0, CeruleanCity_EventScript_RivalStartExit
+	call_if_eq VAR_TEMP_1, 1, CeruleanCity_EventScript_RivalStartExit
+	call_if_eq VAR_TEMP_1, 2, CeruleanCity_EventScript_RivalStartExitRight
+	msgbox CeruleanCity_Text_OhRightLittlePresentAsFavor
+	setvar VAR_MAP_SCENE_CERULEAN_CITY_RIVAL, 1
+	setflag FLAG_GOT_FAME_CHECKER
+	giveitem ITEM_FAME_CHECKER
+	msgbox CeruleanCity_Text_ExplainFameCheckerSmellYa
+	closemessage
+	applymovement LOCALID_CERULEAN_RIVAL, CeruleanCity_Movement_RivalExit
+	waitmovement 0
+	fadedefaultbgm
+	removeobject LOCALID_CERULEAN_RIVAL
+	releaseall
+	end
+
+CeruleanCity_EventScript_RivalLockeSquirtle::
+	trainerbattle_no_intro TRAINER_RIVAL_CERULEAN_SQUIRTLE, CeruleanCity_Text_LockeRivalDefeat
+	return
+
+CeruleanCity_EventScript_RivalLockeBulbasaur::
+	trainerbattle_no_intro TRAINER_RIVAL_CERULEAN_BULBASAUR, CeruleanCity_Text_LockeRivalDefeat
+	return
+
+CeruleanCity_EventScript_RivalLockeCharmander::
+	trainerbattle_no_intro TRAINER_RIVAL_CERULEAN_CHARMANDER, CeruleanCity_Text_LockeRivalDefeat
+	return
 
 CeruleanCity_EventScript_RivalSquirtle::
 	trainerbattle_no_intro TRAINER_RIVAL_CERULEAN_SQUIRTLE, CeruleanCity_Text_RivalDefeat
@@ -420,6 +461,32 @@ CeruleanCity_Text_RivalPostBattle::
 	.string "I ran into some demon\n"
 	.string "optionals.\p"
 	.string "Aight, Peaceeee!$"
+
+CeruleanCity_Text_LockeRivalIntro::
+	.string "Back, and the roster's\n"
+	.string "stacked, chat.\p"
+	.string "Honestly? So is yours.\n"
+	.string "Numbers are up.\p"
+	.string "…You're the numbers.\n"
+	.string "You're why I do this.\p"
+	.string "…right?$"
+
+CeruleanCity_Text_LockeRivalDefeat::
+	.string "Two for two on camera,\n"
+	.string "and I'm HERE for it.\p"
+	.string "Clean beat, {PLAYER}.\p"
+	.string "Thank you for being\n"
+	.string "here. All of you.\p"
+	.string "That's what matters.\n"
+	.string "…That's what matters.$"
+
+CeruleanCity_Text_LockeRivalPostBattle::
+	.string "Go north, chat sent me.\p"
+	.string "The Bill guy shows off\n"
+	.string "his rare mons for free.\p"
+	.string "Great content. Go say\n"
+	.string "hi.\p"
+	.string "…And we're clear.$"
 
 CeruleanCity_Text_TwitchRivalIntro::
 	.string "yo, you beat the bridge?\n"
