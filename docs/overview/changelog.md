@@ -7,6 +7,12 @@ Update in the same PR as the change.
 `YYYY-MM-DD` — area — one-line summary (PR/commit ref)
 
 ## Entries
+- 2026-08-23 - trainers/rival - Placed the Twitch rival teams on the trainer curve
+  (cap-1 top for crit-path fights, only leaders hold the cap). Cerulean 23->22,
+  S.S. Anne 27->26 (whole teams -1); Silph 50->52 (whole team +2). Oak's Lab (5,
+  tutorial), Route 22 early (13, cap-1), Pokemon Tower (38, gate), Route 22 late
+  (63, E4-split floor) and Champion (72, capstone) unchanged. VAR_RIVAL_ID branches
+  were already wired. (src/data/trainers_frlg.party; progression json regenerated)
 - 2026-08-23 - mechanics/moves - Player-only banned moves. 76 moves (all setup,
   Protect/Detect stall family, Toxic + Will-O-Wisp, entry hazards, and key utility:
   Baton Pass, Destiny Bond, Trick Room, Tailwind, Whirlwind/Roar, Leech Seed,
