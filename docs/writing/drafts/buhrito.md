@@ -84,9 +84,33 @@ Battle: `TRAINER_RIVAL_OAKS_LAB_{BULBASAUR,CHARMANDER,SQUIRTLE}`
 - **RivalVictory (you LOSE the tutorial battle):** `They didnt get rid of the tutorial bro!? I know how fighting works, I am not that rusty` _(same line as RivalDefeat - the tutorial joke lands win or lose)_
 - **RivalGoToughenMyMon (he leaves):** `alright bet {Player}, time to lockity splockity blobbity`
 
-> That is the COMPLETE set of rival beats before Route 1. After this he leaves;
-> you head to Route 1. The initial Pokedex (parcel delivery in Viridian, then back
-> to Oak) has NO rival dialogue in vanilla, so nothing to write there.
+> That is the COMPLETE set of rival beats in the starter/tutorial scene. After this
+> he leaves; you head to Route 1. CORRECTION (2026-08-23): the POKéDEX handoff scene
+> DOES have rival dialogue in vanilla, four lines, tracked below as beat 0b. (An
+> earlier note here wrongly said this scene had none.)
+
+## 0b. Oak's Lab - POKéDEX handoff (parcel delivered)  [LOCKED / IN-GAME]
+File: `data/maps/PalletTown_ProfessorOaksLab_Frlg/scripts.inc`
+Scene: `EventScript_ReceiveDexScene`. You hand Oak his parcel, the rival barges in,
+Oak gives out both POKéDEXES. Four rival lines, branched on VAR_RIVAL_ID (vanilla text
+labels reused). FINAL shipped text below (wired into scripts.inc); do not edit here
+without matching the script.
+- **Text_RivalGramps (barges in on Oak):**
+  `{RIVAL}: yo Oak, what's good!`
+- **Text_RivalWhatDidYouCallMeFor (confused why he came):**
+  `{RIVAL}: wait, why am I here?` \n `you pinged me, bro?`
+- **Text_RivalLeaveItToMeGramps (accepts the dex mission):**
+  `{RIVAL}: bet, Oak. this dex?` \n `I'll solo it, no guide.`
+- **Text_RivalTellSisNotToGiveYouMap (REVAMPED exit, 4 pages):** the vanilla TOWN
+  MAP / borrow-from-sister taunt is DROPPED. Replaced by a MAGIKARP theorycraft
+  monologue that quietly foreshadows his Champion arc (dormant now, pop off later =
+  the magikarp metaphor applied to himself). Ends on his sign-off "Peaceeee!".
+  `oh {PLAYER}, real quick.` \n `magikarp. If you think about it…` \p
+  `splashes for 20 levels doing` \n `nothing. then? straight god.` \p
+  `that's the whole gameplan, bro.` \n `dormant now, pop off later.` \p
+  `docless, calcless, no setup.` \n `let's play some baller ass` \l `POKéMON. Peaceeee!`
+  _(SUPERSEDES the earlier Town Map/sister draft. "docless, calcless, no setup" is his
+  meta jargon; the magikarp = self foreshadow is the deliberate Champion-arc seed.)_
 
 ## 1. Route 22 - first battle (before Viridian gate)
 File: `data/maps/Route22_Frlg/scripts.inc` · Battle: `TRAINER_RIVAL_ROUTE22_EARLY_*`

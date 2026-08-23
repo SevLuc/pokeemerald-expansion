@@ -806,6 +806,32 @@ Consistency note: this is the CANON world-fact for fishing in the hack. No other
 NPC may suggest a rarer/better rod, a Good Rod upgrade, or that Surf beats a rod.
 If a future line implies rod-hunting, it contradicts FISH-01.
 
+## Rivals (Buhrito / Twitch) - shared-scene placement log
+Concept: the forced rival is one of two voices branched on VAR_RIVAL_ID - **Buhrito**
+(extremely-online backseat theorist) or **Twitch** (personified TPP hive-mind). Full
+per-beat dialogue and character bibles live in drafts/buhrito.md and drafts/twitch.md;
+this section only LOGS which shared vanilla rival scenes have been reflavored, so the
+ledger stays a complete map. Both voices [FLAG: release-swap] [FLAG: dated] (homage
+personas; genericize before any public release).
+
+| ID | Subject | Reveal | Source NPC | Map | Gate | Order | Status | Flags |
+|---|---|---|---|---|---|---|---|---|
+| RIVAL-DEX | Rival (POKéDEX handoff beat) | 4 rival lines (Gramps / WhatDidYouCallMeFor / LeaveItToMeGramps / TellSisNotToGiveYouMap) reflavored per voice, branched on VAR_RIVAL_ID. Beats 1-3 keep their function (barge in on Oak, confused why summoned, accept the dex task). Beat 4 (formerly the TOWN MAP/sister taunt) is REVAMPED for BOTH voices; the vanilla map/sister plot is dropped. Buhrito beat 4 = a MAGIKARP theorycraft monologue that foreshadows his Champion arc (dormant now, pop off later), ending "Peaceeee!". Twitch beat 4 = self-referential stream-meta (doesn't register {PLAYER}, "clip WHAT," F for no reason, emote spam), timeline-neutral (no future TPP events, no reuse of the in-lab Helix/START9/wall jokes). | Buhrito / Twitch rival | Oak's Lab (EventScript_ReceiveDexScene) | story (deliver Oak's Parcel) | - | in-game | [FLAG: release-swap] [FLAG: dated] |
+
+Consistency notes:
+- LOCKED + wired into scripts.inc (coordinator, 2026-08-23). This row and the drafts
+  (buhrito.md / twitch.md 0b) now mirror the shipped text exactly. Do not edit the docs
+  without matching the script.
+- Fixes an earlier buhrito.md note that wrongly claimed this scene had no rival lines.
+- The vanilla TOWN MAP / borrow-from-sister plot in beat 4 is DROPPED on both branches.
+- SUPERSEDED drafts (do not reintroduce): Buhrito's Town Map/sister beat 4; Twitch's
+  Town Map version AND the later Helix/START9/PC/wall redraft (repeated in-lab jokes) and
+  any Flareon / Bird Jesus material at this beat (future-dated).
+- Neither voice uses vanilla "Smell ya later!"; Buhrito signs off "Peaceeee!", Twitch
+  leaves on emote spam ("bye, chat").
+- Twitch writing rules now LOCKED in twitch.md: (1) no future-dated TPP events at game
+  start, (2) no reusing jokes already spent in the nearby in-lab Text_TwitchRival* lines.
+
 ## Template: new gym leader
 Copy per leader. Keep fragments optional and gated so a rushing player still
 finishes and a curious one gets the hidden layer.
