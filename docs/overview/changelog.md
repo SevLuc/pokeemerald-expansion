@@ -7,6 +7,13 @@ Update in the same PR as the change.
 `YYYY-MM-DD` — area — one-line summary (PR/commit ref)
 
 ## Entries
+- 2026-08-23 - encounters/region-wide - Rebuilt every wild encounter table via
+  `tools/gen_encounters.py`. Base forms only (family roots); all kept roots
+  (192 land + 41 water) catchable before the E4. Equal chance per slot; fishing
+  authored in slots 5-9 with Surf water_mons matched (per the master fishing-code
+  convention) so all rods + Surf yield the same fish; vanilla level bands kept.
+  Difficulty tiered by effective BST per split (level cap + item access, items at
+  Erika). LeafGreen mirrored. Overview regenerated. (design: docs/design/encounter-tables.md)
 - 2026-08-23 - trainers/AI - Gave every non-Twitch trainer the Try To Faint AI flag.
   543 regular trainers went from `Check Bad Move` to `Check Bad Move / Try To Faint`
   (includes the two early Giovanni/Omega boss fights, which are no longer AI-light).
