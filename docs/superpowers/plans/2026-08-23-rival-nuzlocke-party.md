@@ -29,7 +29,7 @@
 - Type chart: `uq4_12_t GetTypeModifier(enum Type atkType, enum Type defType)`, `src/battle_util.c:8368`. `UQ_4_12(1.0)` is neutral; `> UQ_4_12(1.0)` means the defender is weak to that attacking type. Helpers `uq4_12_multiply`, `UQ_4_12`, `UQ_4_12_TO_INT` are in `include/constants/battle.h` / `include/battle.h`.
 - Species types: `gSpeciesInfo[species].types[0]` and `.types[1]` (`enum Type`), `include/pokemon.h`.
 - Wild data: `extern const struct WildPokemonHeader gWildMonHeaders[]`, `include/wild_encounter.h:48`. Each header has `mapGroup`, `mapNum`, and `encounterTypes[TIMES_OF_DAY_COUNT]` with `landMonsInfo`, `waterMonsInfo`, `fishingMonsInfo`, each a `const struct WildPokemonInfo *` whose `->wildPokemon[]` is an array of `struct WildPokemon { u8 minLevel; u8 maxLevel; enum Species species; }`. Array length per slot type is a fixed constant (`LAND_WILD_COUNT`, `WATER_WILD_COUNT`, `FISH_WILD_COUNT` in `include/wild_encounter.h` / `constants`). The header array terminates with a sentinel entry (`mapGroup == 0xFF`).
-- Unused event vars available for the seed: `VAR_UNUSED_0x404E`, `VAR_UNUSED_0x4083` (both in `include/constants/vars.h`). Each holds 16 bits; the two together store the 32-bit seed.
+- Unused event vars available for the seed: `0x40F7`, `0x40F8` (aliased `VAR_LOCKE_SEED_LO`/`HI` in `include/constants/vars.h`, in the same free block this hack already uses for `VAR_RIVAL_ID`/`VAR_STARTER_*`). NOTE: `0x404E` and `0x4083` are NOT free in FRLG (`VAR_NATIONAL_DEX_FRLG` and a Sevii map-scene var) - do not use them. Each var holds 16 bits; the two together store the 32-bit seed.
 - New-game init lives in `src/new_game.c` (`NewGameInitData`).
 
 ## File structure
