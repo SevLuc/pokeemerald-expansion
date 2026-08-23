@@ -1,0 +1,263 @@
+{
+ "segment": 8,
+ "cap": 63,
+ "floor": 58,
+ "trainers": [
+  {
+   "const": "TRAINER_TAMER_JASON",
+   "class": "Tamer",
+   "theme": "Ground",
+   "theme_source": "gym-override",
+   "team": [
+    {
+     "species": "Mamoswine",
+     "level": 62,
+     "base": "Krokorok",
+     "baseBst": 351,
+     "orig": "Rhyhorn",
+     "origBst": 345
+    }
+   ]
+  },
+  {
+   "const": "TRAINER_TAMER_COLE",
+   "class": "Tamer",
+   "theme": "Ground",
+   "theme_source": "gym-override",
+   "team": [
+    {
+     "species": "Piloswine",
+     "level": 61,
+     "base": "Piloswine",
+     "baseBst": 450,
+     "orig": "Arbok",
+     "origBst": 448
+    },
+    {
+     "species": "Golem",
+     "level": 62,
+     "base": "Golem",
+     "baseBst": 495,
+     "orig": "Tauros",
+     "origBst": 490
+    }
+   ]
+  },
+  {
+   "const": "TRAINER_BLACK_BELT_ATSUSHI",
+   "class": "Black Belt",
+   "theme": "Ground",
+   "theme_source": "gym-override",
+   "team": [
+    {
+     "species": "Hippowdon",
+     "level": 61,
+     "base": "Cubone",
+     "baseBst": 320,
+     "orig": "Machop",
+     "origBst": 305
+    },
+    {
+     "species": "Swampert",
+     "level": 62,
+     "base": "Marshtomp",
+     "baseBst": 405,
+     "orig": "Machoke",
+     "origBst": 405
+    }
+   ]
+  },
+  {
+   "const": "TRAINER_BLACK_BELT_KIYO",
+   "class": "Black Belt",
+   "theme": "Ground",
+   "theme_source": "gym-override",
+   "team": [
+    {
+     "species": "Garchomp",
+     "level": 62,
+     "base": "Gabite",
+     "baseBst": 410,
+     "orig": "Machoke",
+     "origBst": 405
+    }
+   ]
+  },
+  {
+   "const": "TRAINER_BLACK_BELT_TAKASHI",
+   "class": "Black Belt",
+   "theme": "Ground",
+   "theme_source": "gym-override",
+   "team": [
+    {
+     "species": "Tyranitar",
+     "level": 60,
+     "base": "Pupitar",
+     "baseBst": 410,
+     "orig": "Machoke",
+     "origBst": 405
+    },
+    {
+     "species": "Flygon",
+     "level": 61,
+     "base": "Sandygast",
+     "baseBst": 320,
+     "orig": "Machop",
+     "origBst": 305
+    },
+    {
+     "species": "Alolan Dugtrio",
+     "level": 62,
+     "base": "Alolan Dugtrio",
+     "baseBst": 425,
+     "orig": "Machoke",
+     "origBst": 405
+    }
+   ]
+  },
+  {
+   "const": "TRAINER_COOLTRAINER_SAMUEL",
+   "class": "Cooltrainer",
+   "theme": "Ground",
+   "theme_source": "gym-override",
+   "team": [
+    {
+     "species": "Whiscash",
+     "level": 58,
+     "base": "Whiscash",
+     "baseBst": 468,
+     "orig": "Sandslash",
+     "origBst": 450
+    },
+    {
+     "species": "Gastrodon",
+     "level": 59,
+     "base": "Gastrodon",
+     "baseBst": 475,
+     "orig": "Sandslash",
+     "origBst": 450
+    },
+    {
+     "species": "Onix",
+     "level": 60,
+     "base": "Onix",
+     "baseBst": 385,
+     "orig": "Rhyhorn",
+     "origBst": 345
+    },
+    {
+     "species": "Gliscor",
+     "level": 61,
+     "base": "Graveler",
+     "baseBst": 390,
+     "orig": "Nidorino",
+     "origBst": 365
+    },
+    {
+     "species": "Nidoqueen",
+     "level": 62,
+     "base": "Nidoqueen",
+     "baseBst": 505,
+     "orig": "Nidoking",
+     "origBst": 505
+    }
+   ]
+  },
+  {
+   "const": "TRAINER_COOLTRAINER_YUJI",
+   "class": "Cooltrainer",
+   "theme": "Ground",
+   "theme_source": "gym-override",
+   "team": [
+    {
+     "species": "Rhydon",
+     "level": 58,
+     "base": "Rhydon",
+     "baseBst": 485,
+     "orig": "Sandslash",
+     "origBst": 450
+    },
+    {
+     "species": "Dugtrio",
+     "level": 59,
+     "base": "Dugtrio",
+     "baseBst": 425,
+     "orig": "Graveler",
+     "origBst": 390
+    },
+    {
+     "species": "Steelix",
+     "level": 60,
+     "base": "Clodsire",
+     "baseBst": 430,
+     "orig": "Onix",
+     "origBst": 385
+    },
+    {
+     "species": "Gligar",
+     "level": 61,
+     "base": "Gligar",
+     "baseBst": 430,
+     "orig": "Graveler",
+     "origBst": 390
+    },
+    {
+     "species": "Quagsire",
+     "level": 62,
+     "base": "Quagsire",
+     "baseBst": 430,
+     "orig": "Marowak",
+     "origBst": 425
+    }
+   ]
+  },
+  {
+   "const": "TRAINER_COOLTRAINER_WARREN",
+   "class": "Cooltrainer",
+   "theme": "Ground",
+   "theme_source": "gym-override",
+   "team": [
+    {
+     "species": "Sandslash",
+     "level": 58,
+     "base": "Sandslash",
+     "baseBst": 450,
+     "orig": "Marowak",
+     "origBst": 425
+    },
+    {
+     "species": "Claydol",
+     "level": 59,
+     "base": "Marowak",
+     "baseBst": 425,
+     "orig": "Marowak",
+     "origBst": 425
+    },
+    {
+     "species": "Rhydon",
+     "level": 60,
+     "base": "Rhyhorn",
+     "baseBst": 345,
+     "orig": "Rhyhorn",
+     "origBst": 345
+    },
+    {
+     "species": "Onix",
+     "level": 61,
+     "base": "Onix",
+     "baseBst": 385,
+     "orig": "Nidorina",
+     "origBst": 365
+    },
+    {
+     "species": "Nidoking",
+     "level": 62,
+     "base": "Nidoking",
+     "baseBst": 505,
+     "orig": "Nidoqueen",
+     "origBst": 505
+    }
+   ]
+  }
+ ]
+}

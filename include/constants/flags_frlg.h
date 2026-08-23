@@ -3,7 +3,7 @@
 
 
 #define FLAG_DEFEATED_POKEMON_TOWER_RIVAL    0x020 // Level-cap gate: set when the Pokemon Tower rival is beaten; lifts the cap from 38 to 50
-#define FLAG_0x021               0x021
+#define FLAG_GOT_VIRIDIAN_SUPER_ROD    0x021 // Viridian City fisherman gave the Super Rod
 #define FLAG_0x022               0x022
 #define FLAG_0x023               0x023
 #define FLAG_0x024               0x024

@@ -1,0 +1,463 @@
+{
+ "segment": 9,
+ "cap": 72,
+ "floor": 63,
+ "trainers": [
+  {
+   "const": "TRAINER_COOLTRAINER_NAOMI",
+   "class": "Cooltrainer",
+   "theme": "Fire",
+   "theme_source": "dialogue",
+   "team": [
+    {
+     "species": "Darmanitan",
+     "level": 63,
+     "base": "Darmanitan",
+     "baseBst": 480,
+     "orig": "Persian",
+     "origBst": 440
+    },
+    {
+     "species": "Skeledirge",
+     "level": 63,
+     "base": "Crocalor",
+     "baseBst": 411,
+     "orig": "Ponyta",
+     "origBst": 410
+    },
+    {
+     "species": "Ninetales",
+     "level": 63,
+     "base": "Ninetales",
+     "baseBst": 505,
+     "orig": "Rapidash",
+     "origBst": 500
+    },
+    {
+     "species": "Delphox",
+     "level": 63,
+     "base": "Fennekin",
+     "baseBst": 307,
+     "orig": "Vulpix",
+     "origBst": 299
+    },
+    {
+     "species": "Chandelure",
+     "level": 63,
+     "base": "Chandelure",
+     "baseBst": 520,
+     "orig": "Ninetales",
+     "origBst": 505
+    }
+   ]
+  },
+  {
+   "const": "TRAINER_COOLTRAINER_ROLANDO",
+   "class": "Cooltrainer",
+   "theme": "Normal",
+   "theme_source": "dialogue",
+   "team": [
+    {
+     "species": "Porygon2",
+     "level": 63,
+     "base": "Wigglytuff",
+     "baseBst": 435,
+     "orig": "Raticate",
+     "origBst": 413
+    },
+    {
+     "species": "Lickilicky",
+     "level": 63,
+     "base": "Vigoroth",
+     "baseBst": 440,
+     "orig": "Ivysaur",
+     "origBst": 405
+    },
+    {
+     "species": "Chansey",
+     "level": 63,
+     "base": "Chansey",
+     "baseBst": 450,
+     "orig": "Wartortle",
+     "origBst": 405
+    },
+    {
+     "species": "Snorlax",
+     "level": 63,
+     "base": "Girafarig",
+     "baseBst": 455,
+     "orig": "Charmeleon",
+     "origBst": 405
+    },
+    {
+     "species": "Porygon-Z",
+     "level": 64,
+     "base": "Porygon-Z",
+     "baseBst": 535,
+     "orig": "Charizard",
+     "origBst": 534
+    }
+   ]
+  },
+  {
+   "const": "TRAINER_POKEMANIAC_DAWSON",
+   "class": "Pokemaniac",
+   "theme": "Ground",
+   "theme_source": "dialogue",
+   "team": [
+    {
+     "species": "Swampert",
+     "level": 63,
+     "base": "Marshtomp",
+     "baseBst": 405,
+     "orig": "Charmeleon",
+     "origBst": 405
+    },
+    {
+     "species": "Rhyperior",
+     "level": 63,
+     "base": "Rhyperior",
+     "baseBst": 535,
+     "orig": "Lapras",
+     "origBst": 535
+    },
+    {
+     "species": "Onix",
+     "level": 64,
+     "base": "Onix",
+     "baseBst": 385,
+     "orig": "Lickitung",
+     "origBst": 385
+    }
+   ]
+  },
+  {
+   "const": "TRAINER_BLACK_BELT_DAISUKE",
+   "class": "Black Belt",
+   "theme": "Fighting",
+   "theme_source": "class-locked",
+   "team": [
+    {
+     "species": "Kubfu",
+     "level": 63,
+     "base": "Combusken",
+     "baseBst": 405,
+     "orig": "Machoke",
+     "origBst": 405
+    },
+    {
+     "species": "Urshifu (Single Strike)",
+     "level": 64,
+     "base": "Mankey",
+     "baseBst": 305,
+     "orig": "Machop",
+     "origBst": 305
+    },
+    {
+     "species": "Annihilape",
+     "level": 65,
+     "base": "Monferno",
+     "baseBst": 405,
+     "orig": "Machoke",
+     "origBst": 405
+    }
+   ]
+  },
+  {
+   "const": "TRAINER_JUGGLER_NELSON",
+   "class": "Juggler",
+   "theme": "Psychic",
+   "theme_source": "class-locked",
+   "team": [
+    {
+     "species": "Grumpig",
+     "level": 63,
+     "base": "Spoink",
+     "baseBst": 330,
+     "orig": "Drowzee",
+     "origBst": 328
+    },
+    {
+     "species": "Exeggutor",
+     "level": 64,
+     "base": "Alolan Raichu",
+     "baseBst": 485,
+     "orig": "Hypno",
+     "origBst": 483
+    },
+    {
+     "species": "Espeon",
+     "level": 65,
+     "base": "Metang",
+     "baseBst": 420,
+     "orig": "Kadabra",
+     "origBst": 400
+    },
+    {
+     "species": "Farigiraf",
+     "level": 66,
+     "base": "Girafarig",
+     "baseBst": 455,
+     "orig": "Kadabra",
+     "origBst": 400
+    }
+   ]
+  },
+  {
+   "const": "TRAINER_JUGGLER_GREGORY",
+   "class": "Juggler",
+   "theme": "Psychic",
+   "theme_source": "class-locked",
+   "team": [
+    {
+     "species": "Gallade",
+     "level": 67,
+     "base": "Lunatone",
+     "baseBst": 460,
+     "orig": "Mr Mime",
+     "origBst": 460
+    }
+   ]
+  },
+  {
+   "const": "TRAINER_TAMER_VINCENT",
+   "class": "Tamer",
+   "theme": "Normal",
+   "theme_source": "dialogue",
+   "team": [
+    {
+     "species": "Cinccino",
+     "level": 66,
+     "base": "Cinccino",
+     "baseBst": 470,
+     "orig": "Persian",
+     "origBst": 440
+    },
+    {
+     "species": "Blissey",
+     "level": 67,
+     "base": "Ursaring",
+     "baseBst": 500,
+     "orig": "Golduck",
+     "origBst": 500
+    }
+   ]
+  },
+  {
+   "const": "TRAINER_COOLTRAINER_GEORGE",
+   "class": "Cooltrainer",
+   "theme": "Electric",
+   "theme_source": "dialogue",
+   "team": [
+    {
+     "species": "Magnezone",
+     "level": 64,
+     "base": "Magnezone",
+     "baseBst": 535,
+     "orig": "Exeggutor",
+     "origBst": 530
+    },
+    {
+     "species": "Rotom",
+     "level": 65,
+     "base": "Lanturn",
+     "baseBst": 460,
+     "orig": "Sandslash",
+     "origBst": 450
+    },
+    {
+     "species": "Jolteon",
+     "level": 66,
+     "base": "Jolteon",
+     "baseBst": 525,
+     "orig": "Cloyster",
+     "origBst": 525
+    },
+    {
+     "species": "Rotom-Mow",
+     "level": 67,
+     "base": "Electabuzz",
+     "baseBst": 490,
+     "orig": "Electrode",
+     "origBst": 490
+    },
+    {
+     "species": "Iron Hands",
+     "level": 68,
+     "base": "Iron Hands",
+     "baseBst": 570,
+     "orig": "Arcanine",
+     "origBst": 555
+    }
+   ]
+  },
+  {
+   "const": "TRAINER_COOLTRAINER_COLBY",
+   "class": "Cooltrainer",
+   "theme": "Water",
+   "theme_source": "dialogue",
+   "team": [
+    {
+     "species": "Gastrodon",
+     "level": 65,
+     "base": "Gastrodon",
+     "baseBst": 475,
+     "orig": "Kingler",
+     "origBst": 475
+    },
+    {
+     "species": "Wailord",
+     "level": 66,
+     "base": "Wailmer",
+     "baseBst": 400,
+     "orig": "Poliwhirl",
+     "origBst": 385
+    },
+    {
+     "species": "Starmie",
+     "level": 67,
+     "base": "Starmie",
+     "baseBst": 520,
+     "orig": "Tentacruel",
+     "origBst": 515
+    },
+    {
+     "species": "Walrein",
+     "level": 68,
+     "base": "Pelipper",
+     "baseBst": 440,
+     "orig": "Seadra",
+     "origBst": 440
+    },
+    {
+     "species": "Basculegion",
+     "level": 69,
+     "base": "Basculegion",
+     "baseBst": 530,
+     "orig": "Blastoise",
+     "origBst": 530
+    }
+   ]
+  },
+  {
+   "const": "TRAINER_COOLTRAINER_CAROLINE",
+   "class": "Cooltrainer",
+   "theme": "Grass",
+   "theme_source": "dialogue",
+   "team": [
+    {
+     "species": "Ferrothorn",
+     "level": 66,
+     "base": "Ferroseed",
+     "baseBst": 305,
+     "orig": "Bellsprout",
+     "origBst": 300
+    },
+    {
+     "species": "Alolan Exeggutor",
+     "level": 67,
+     "base": "Gloom",
+     "baseBst": 395,
+     "orig": "Weepinbell",
+     "origBst": 390
+    },
+    {
+     "species": "Dhelmise",
+     "level": 68,
+     "base": "Vileplume",
+     "baseBst": 490,
+     "orig": "Victreebel",
+     "origBst": 490
+    },
+    {
+     "species": "Sceptile",
+     "level": 69,
+     "base": "Foongus",
+     "baseBst": 294,
+     "orig": "Paras",
+     "origBst": 285
+    },
+    {
+     "species": "Leavanny",
+     "level": 70,
+     "base": "Ivysaur",
+     "baseBst": 405,
+     "orig": "Parasect",
+     "origBst": 405
+    }
+   ]
+  },
+  {
+   "const": "TRAINER_COOLTRAINER_ALEXA",
+   "class": "Cooltrainer",
+   "theme": "Fairy",
+   "theme_source": "dialogue",
+   "team": [
+    {
+     "species": "Flutter Mane",
+     "level": 66,
+     "base": "Morgrem",
+     "baseBst": 370,
+     "orig": "Clefairy",
+     "origBst": 323
+    },
+    {
+     "species": "Togekiss",
+     "level": 67,
+     "base": "Kirlia",
+     "baseBst": 278,
+     "orig": "Jigglypuff",
+     "origBst": 270
+    },
+    {
+     "species": "Sylveon",
+     "level": 68,
+     "base": "Mr. Mime",
+     "baseBst": 460,
+     "orig": "Persian",
+     "origBst": 440
+    },
+    {
+     "species": "Mimikyu",
+     "level": 69,
+     "base": "Mimikyu",
+     "baseBst": 476,
+     "orig": "Dewgong",
+     "origBst": 475
+    },
+    {
+     "species": "Hatterene",
+     "level": 70,
+     "base": "Dachsbun",
+     "baseBst": 477,
+     "orig": "Chansey",
+     "origBst": 450
+    }
+   ]
+  },
+  {
+   "const": "TRAINER_COOL_COUPLE_RAY_TYRA",
+   "class": "Cool Couple",
+   "theme": "Poison",
+   "theme_source": "dialogue",
+   "team": [
+    {
+     "species": "Crobat",
+     "level": 70,
+     "base": "Nidoking",
+     "baseBst": 505,
+     "orig": "Nidoqueen",
+     "origBst": 505
+    },
+    {
+     "species": "Nidoqueen",
+     "level": 71,
+     "base": "Nidoqueen",
+     "baseBst": 505,
+     "orig": "Nidoking",
+     "origBst": 505
+    }
+   ]
+  }
+ ]
+}

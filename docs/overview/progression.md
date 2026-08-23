@@ -58,6 +58,26 @@ fires only on a win (a loss whites you out before the scene runs).
 The field party menu also offers a `LEVEL` option (`LEVEL UP` / `LEVEL TO CAP`)
 that levels a mon for free but never past the current cap.
 
+## Trainer level ramp (design rule)
+
+Within each gym-gate split, trainer levels rise LINEARLY along the critical path
+so the player meets the cap right as they reach the gym:
+
+- **Floor** (first / lowest trainer in the split) = the PREVIOUS split's cap
+  (Segment 1 has no previous cap, so its floor is the starter level, 5).
+- Each trainer along the path (optional or mandatory) is >= the previous one.
+- **Last trainer before the gym** = cap - 1.
+- **Gym leader** (holds the cap) = at the cap.
+- Optional / off-main-path fights (e.g. the Route 22 rival) are placed near the
+  top of their availability window rather than forced onto the strict monotonic
+  main-path line.
+
+Applied so far: Segment 1 (Before Brock, cap 14). Trainer levels live in
+`src/data/trainers_frlg.party`; the current per-segment breakdown is queryable in
+`docs/data/progression-trainers.json` (regenerated after each ramp pass).
+Non-linear late-game segments (Celadon/Fuchsia era) are approximated by
+critical-path order.
+
 ## Mid-game forced route + finer level caps (PLANNED - needs implementation sign-off)
 
 Problem: the Lt. Surge -> Erika stretch is long and non-linear. Silph Co (and the

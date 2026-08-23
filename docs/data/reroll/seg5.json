@@ -1,0 +1,2455 @@
+{
+ "segment": 5,
+ "cap": 50,
+ "floor": 35,
+ "trainers": [
+  {
+   "const": "TRAINER_BIKER_LAO",
+   "class": "Biker",
+   "theme": "Poison",
+   "theme_source": "class-locked",
+   "team": [
+    {
+     "species": "Alolan Grimer",
+     "level": 35,
+     "base": "Alolan Grimer",
+     "baseBst": 325,
+     "orig": "Grimer",
+     "origBst": 325
+    },
+    {
+     "species": "Glimmora",
+     "level": 35,
+     "base": "Glimmet",
+     "baseBst": 350,
+     "orig": "Koffing",
+     "origBst": 340
+    }
+   ]
+  },
+  {
+   "const": "TRAINER_CUE_BALL_KOJI",
+   "class": "Cue Ball",
+   "theme": "Fighting",
+   "theme_source": "class-locked",
+   "team": [
+    {
+     "species": "Lucario",
+     "level": 35,
+     "base": "Mankey",
+     "baseBst": 305,
+     "orig": "Machop",
+     "origBst": 305
+    },
+    {
+     "species": "Heracross",
+     "level": 35,
+     "base": "Machop",
+     "baseBst": 305,
+     "orig": "Mankey",
+     "origBst": 305
+    },
+    {
+     "species": "Bewear",
+     "level": 35,
+     "base": "Stufful",
+     "baseBst": 340,
+     "orig": "Machop",
+     "origBst": 305
+    }
+   ]
+  },
+  {
+   "const": "TRAINER_CUE_BALL_LUKE",
+   "class": "Cue Ball",
+   "theme": "Fighting",
+   "theme_source": "class-locked",
+   "team": [
+    {
+     "species": "Pangoro",
+     "level": 35,
+     "base": "Pancham",
+     "baseBst": 348,
+     "orig": "Mankey",
+     "origBst": 305
+    },
+    {
+     "species": "Mienfoo",
+     "level": 35,
+     "base": "Mienfoo",
+     "baseBst": 350,
+     "orig": "Machop",
+     "origBst": 305
+    }
+   ]
+  },
+  {
+   "const": "TRAINER_BIKER_RUBEN",
+   "class": "Biker",
+   "theme": "Poison",
+   "theme_source": "class-locked",
+   "team": [
+    {
+     "species": "Vileplume",
+     "level": 35,
+     "base": "Vileplume",
+     "baseBst": 490,
+     "orig": "Weezing",
+     "origBst": 490
+    },
+    {
+     "species": "Nidorina",
+     "level": 35,
+     "base": "Nidorina",
+     "baseBst": 365,
+     "orig": "Koffing",
+     "origBst": 340
+    },
+    {
+     "species": "Victreebel",
+     "level": 35,
+     "base": "Victreebel",
+     "baseBst": 490,
+     "orig": "Weezing",
+     "origBst": 490
+    }
+   ]
+  },
+  {
+   "const": "TRAINER_BIKER_HIDEO",
+   "class": "Biker",
+   "theme": "Poison",
+   "theme_source": "class-locked",
+   "team": [
+    {
+     "species": "Galarian Weezing",
+     "level": 36,
+     "base": "Galarian Weezing",
+     "baseBst": 490,
+     "orig": "Weezing",
+     "origBst": 490
+    }
+   ]
+  },
+  {
+   "const": "TRAINER_CUE_BALL_CAMRON",
+   "class": "Cue Ball",
+   "theme": "Fighting",
+   "theme_source": "class-locked",
+   "team": [
+    {
+     "species": "Machoke",
+     "level": 35,
+     "base": "Machop",
+     "baseBst": 305,
+     "orig": "Mankey",
+     "origBst": 305
+    },
+    {
+     "species": "Machamp",
+     "level": 36,
+     "base": "Mankey",
+     "baseBst": 305,
+     "orig": "Machop",
+     "origBst": 305
+    }
+   ]
+  },
+  {
+   "const": "TRAINER_YOUNG_COUPLE_LEA_JED",
+   "class": "Young Couple",
+   "theme": "Fairy",
+   "theme_source": "dialogue",
+   "team": [
+    {
+     "species": "Galarian Rapidash",
+     "level": 35,
+     "base": "Galarian Rapidash",
+     "baseBst": 500,
+     "orig": "Rapidash",
+     "origBst": 500
+    },
+    {
+     "species": "Alolan Ninetales",
+     "level": 36,
+     "base": "Alolan Ninetales",
+     "baseBst": 505,
+     "orig": "Ninetales",
+     "origBst": 505
+    }
+   ]
+  },
+  {
+   "const": "TRAINER_BIKER_VIRGIL",
+   "class": "Biker",
+   "theme": "Poison",
+   "theme_source": "class-locked",
+   "team": [
+    {
+     "species": "Galarian Slowbro",
+     "level": 35,
+     "base": "Galarian Slowbro",
+     "baseBst": 490,
+     "orig": "Weezing",
+     "origBst": 490
+    },
+    {
+     "species": "Nidorino",
+     "level": 35,
+     "base": "Nidorino",
+     "baseBst": 365,
+     "orig": "Koffing",
+     "origBst": 340
+    },
+    {
+     "species": "Galarian Slowking",
+     "level": 36,
+     "base": "Galarian Slowking",
+     "baseBst": 490,
+     "orig": "Weezing",
+     "origBst": 490
+    }
+   ]
+  },
+  {
+   "const": "TRAINER_CUE_BALL_ISAIAH",
+   "class": "Cue Ball",
+   "theme": "Fighting",
+   "theme_source": "class-locked",
+   "team": [
+    {
+     "species": "Bewear",
+     "level": 35,
+     "base": "Stufful",
+     "baseBst": 340,
+     "orig": "Machop",
+     "origBst": 305
+    },
+    {
+     "species": "Mienshao",
+     "level": 36,
+     "base": "Mienshao",
+     "baseBst": 510,
+     "orig": "Machamp",
+     "origBst": 505
+    }
+   ]
+  },
+  {
+   "const": "TRAINER_CUE_BALL_RAUL",
+   "class": "Cue Ball",
+   "theme": "Fighting",
+   "theme_source": "class-locked",
+   "team": [
+    {
+     "species": "Pangoro",
+     "level": 35,
+     "base": "Pancham",
+     "baseBst": 348,
+     "orig": "Mankey",
+     "origBst": 305
+    },
+    {
+     "species": "Hitmonlee",
+     "level": 36,
+     "base": "Hitmonlee",
+     "baseBst": 455,
+     "orig": "Primeape",
+     "origBst": 455
+    }
+   ]
+  },
+  {
+   "const": "TRAINER_BIKER_NIKOLAS",
+   "class": "Biker",
+   "theme": "Poison",
+   "theme_source": "class-locked",
+   "team": [
+    {
+     "species": "Skorupi",
+     "level": 36,
+     "base": "Skorupi",
+     "baseBst": 330,
+     "orig": "Voltorb",
+     "origBst": 330
+    },
+    {
+     "species": "Tentacruel",
+     "level": 37,
+     "base": "Tentacool",
+     "baseBst": 335,
+     "orig": "Voltorb",
+     "origBst": 330
+    }
+   ]
+  },
+  {
+   "const": "TRAINER_BIKER_BILLY",
+   "class": "Biker",
+   "theme": "Poison",
+   "theme_source": "class-locked",
+   "team": [
+    {
+     "species": "Drapion",
+     "level": 37,
+     "base": "Drapion",
+     "baseBst": 500,
+     "orig": "Muk",
+     "origBst": 500
+    }
+   ]
+  },
+  {
+   "const": "TRAINER_CUE_BALL_JAMAL",
+   "class": "Cue Ball",
+   "theme": "Fighting",
+   "theme_source": "class-locked",
+   "team": [
+    {
+     "species": "Mienfoo",
+     "level": 35,
+     "base": "Mienfoo",
+     "baseBst": 350,
+     "orig": "Mankey",
+     "origBst": 305
+    },
+    {
+     "species": "Machoke",
+     "level": 35,
+     "base": "Machop",
+     "baseBst": 305,
+     "orig": "Mankey",
+     "origBst": 305
+    },
+    {
+     "species": "Poliwrath",
+     "level": 36,
+     "base": "Poliwrath",
+     "baseBst": 510,
+     "orig": "Machamp",
+     "origBst": 505
+    },
+    {
+     "species": "Makuhita",
+     "level": 37,
+     "base": "Mankey",
+     "baseBst": 305,
+     "orig": "Machop",
+     "origBst": 305
+    }
+   ]
+  },
+  {
+   "const": "TRAINER_CUE_BALL_ZEEK",
+   "class": "Cue Ball",
+   "theme": "Fighting",
+   "theme_source": "class-locked",
+   "team": [
+    {
+     "species": "Blaziken",
+     "level": 37,
+     "base": "Combusken",
+     "baseBst": 405,
+     "orig": "Machoke",
+     "origBst": 405
+    }
+   ]
+  },
+  {
+   "const": "TRAINER_CUE_BALL_COREY",
+   "class": "Cue Ball",
+   "theme": "Fighting",
+   "theme_source": "class-locked",
+   "team": [
+    {
+     "species": "Hitmonchan",
+     "level": 36,
+     "base": "Hitmonchan",
+     "baseBst": 455,
+     "orig": "Primeape",
+     "origBst": 455
+    },
+    {
+     "species": "Infernape",
+     "level": 37,
+     "base": "Monferno",
+     "baseBst": 405,
+     "orig": "Machoke",
+     "origBst": 405
+    }
+   ]
+  },
+  {
+   "const": "TRAINER_BIKER_WILLIAM",
+   "class": "Biker",
+   "theme": "Poison",
+   "theme_source": "class-locked",
+   "team": [
+    {
+     "species": "Weepinbell",
+     "level": 35,
+     "base": "Weepinbell",
+     "baseBst": 390,
+     "orig": "Koffing",
+     "origBst": 340
+    },
+    {
+     "species": "Dragalge",
+     "level": 35,
+     "base": "Dragalge",
+     "baseBst": 494,
+     "orig": "Weezing",
+     "origBst": 490
+    },
+    {
+     "species": "Glimmora",
+     "level": 35,
+     "base": "Glimmet",
+     "baseBst": 350,
+     "orig": "Koffing",
+     "origBst": 340
+    },
+    {
+     "species": "Nidorina",
+     "level": 36,
+     "base": "Nidorina",
+     "baseBst": 365,
+     "orig": "Koffing",
+     "origBst": 340
+    },
+    {
+     "species": "Toxapex",
+     "level": 37,
+     "base": "Toxapex",
+     "baseBst": 495,
+     "orig": "Weezing",
+     "origBst": 490
+    }
+   ]
+  },
+  {
+   "const": "TRAINER_BIKER_JAXON",
+   "class": "Biker",
+   "theme": "Poison",
+   "theme_source": "class-locked",
+   "team": [
+    {
+     "species": "Muk",
+     "level": 37,
+     "base": "Muk",
+     "baseBst": 500,
+     "orig": "Weezing",
+     "origBst": 490
+    },
+    {
+     "species": "Gengar",
+     "level": 38,
+     "base": "Gengar",
+     "baseBst": 500,
+     "orig": "Muk",
+     "origBst": 500
+    }
+   ]
+  },
+  {
+   "const": "TRAINER_BIRD_KEEPER_JACOB",
+   "class": "Bird Keeper",
+   "theme": "Flying",
+   "theme_source": "class-locked",
+   "team": [
+    {
+     "species": "Aerodactyl",
+     "level": 35,
+     "base": "Wingull",
+     "baseBst": 270,
+     "orig": "Spearow",
+     "origBst": 262
+    },
+    {
+     "species": "Mandibuzz",
+     "level": 36,
+     "base": "Fletchling",
+     "baseBst": 278,
+     "orig": "Spearow",
+     "origBst": 262
+    },
+    {
+     "species": "Masquerain",
+     "level": 37,
+     "base": "Masquerain",
+     "baseBst": 454,
+     "orig": "Fearow",
+     "origBst": 442
+    },
+    {
+     "species": "Hisuian Braviary",
+     "level": 38,
+     "base": "Swablu",
+     "baseBst": 310,
+     "orig": "Spearow",
+     "origBst": 262
+    }
+   ]
+  },
+  {
+   "const": "TRAINER_BIRD_KEEPER_RAMIRO",
+   "class": "Bird Keeper",
+   "theme": "Flying",
+   "theme_source": "class-locked",
+   "team": [
+    {
+     "species": "Xatu",
+     "level": 38,
+     "base": "Xatu",
+     "baseBst": 470,
+     "orig": "Dodrio",
+     "origBst": 470
+    }
+   ]
+  },
+  {
+   "const": "TRAINER_BIRD_KEEPER_WILTON",
+   "class": "Bird Keeper",
+   "theme": "Flying",
+   "theme_source": "class-locked",
+   "team": [
+    {
+     "species": "Honchkrow",
+     "level": 37,
+     "base": "Wingull",
+     "baseBst": 270,
+     "orig": "Spearow",
+     "origBst": 262
+    },
+    {
+     "species": "Golbat",
+     "level": 38,
+     "base": "Golbat",
+     "baseBst": 455,
+     "orig": "Fearow",
+     "origBst": 442
+    }
+   ]
+  },
+  {
+   "const": "TRAINER_YOUNGSTER_EDDIE",
+   "class": "Youngster",
+   "theme": "Normal",
+   "theme_source": "dialogue",
+   "team": [
+    {
+     "species": "Copperajah",
+     "level": 38,
+     "base": "Ditto",
+     "baseBst": 288,
+     "orig": "Ekans",
+     "origBst": 288
+    }
+   ]
+  },
+  {
+   "const": "TRAINER_GAMER_HUGO",
+   "class": "Gamer",
+   "theme": "Electric",
+   "theme_source": "dialogue",
+   "team": [
+    {
+     "species": "Pikachu",
+     "level": 37,
+     "base": "Pikachu",
+     "baseBst": 320,
+     "orig": "Poliwag",
+     "origBst": 300
+    },
+    {
+     "species": "Magneton",
+     "level": 38,
+     "base": "Magnemite",
+     "baseBst": 325,
+     "orig": "Horsea",
+     "origBst": 295
+    }
+   ]
+  },
+  {
+   "const": "TRAINER_YOUNGSTER_DILLON",
+   "class": "Youngster",
+   "theme": "Normal",
+   "theme_source": "dialogue",
+   "team": [
+    {
+     "species": "Minccino",
+     "level": 38,
+     "base": "Minccino",
+     "baseBst": 300,
+     "orig": "Sandshrew",
+     "origBst": 300
+    },
+    {
+     "species": "Staraptor",
+     "level": 39,
+     "base": "Starly",
+     "baseBst": 245,
+     "orig": "Zubat",
+     "origBst": 245
+    }
+   ]
+  },
+  {
+   "const": "TRAINER_YOUNGSTER_DAVE",
+   "class": "Youngster",
+   "theme": "Normal",
+   "theme_source": "dialogue",
+   "team": [
+    {
+     "species": "Slaking",
+     "level": 38,
+     "base": "Slakoth",
+     "baseBst": 280,
+     "orig": "Nidoran M",
+     "origBst": 273
+    },
+    {
+     "species": "Lickitung",
+     "level": 39,
+     "base": "Lickitung",
+     "baseBst": 385,
+     "orig": "Nidorino",
+     "origBst": 365
+    }
+   ]
+  },
+  {
+   "const": "TRAINER_GAMER_JASPER",
+   "class": "Gamer",
+   "theme": "Electric",
+   "theme_source": "dialogue",
+   "team": [
+    {
+     "species": "Lanturn",
+     "level": 38,
+     "base": "Chinchou",
+     "baseBst": 330,
+     "orig": "Bellsprout",
+     "origBst": 300
+    },
+    {
+     "species": "Electrode",
+     "level": 39,
+     "base": "Voltorb",
+     "baseBst": 330,
+     "orig": "Oddish",
+     "origBst": 320
+    }
+   ]
+  },
+  {
+   "const": "TRAINER_GAMER_DARIAN",
+   "class": "Gamer",
+   "theme": "Electric",
+   "theme_source": "dialogue",
+   "team": [
+    {
+     "species": "Electabuzz",
+     "level": 38,
+     "base": "Elekid",
+     "baseBst": 360,
+     "orig": "Growlithe",
+     "origBst": 350
+    },
+    {
+     "species": "Hisuian Voltorb",
+     "level": 39,
+     "base": "Hisuian Voltorb",
+     "baseBst": 330,
+     "orig": "Vulpix",
+     "origBst": 299
+    }
+   ]
+  },
+  {
+   "const": "TRAINER_ENGINEER_BRAXTON",
+   "class": "Engineer",
+   "theme": "Electric",
+   "theme_source": "class-locked",
+   "team": [
+    {
+     "species": "Luxray",
+     "level": 39,
+     "base": "Luxio",
+     "baseBst": 363,
+     "orig": "Magnemite",
+     "origBst": 325
+    }
+   ]
+  },
+  {
+   "const": "TRAINER_YOUNGSTER_YASU",
+   "class": "Youngster",
+   "theme": "Normal",
+   "theme_source": "dialogue",
+   "team": [
+    {
+     "species": "Dubwool",
+     "level": 37,
+     "base": "Wooloo",
+     "baseBst": 270,
+     "orig": "Rattata",
+     "origBst": 253
+    },
+    {
+     "species": "Jigglypuff",
+     "level": 38,
+     "base": "Jigglypuff",
+     "baseBst": 270,
+     "orig": "Rattata",
+     "origBst": 253
+    },
+    {
+     "species": "Wigglytuff",
+     "level": 39,
+     "base": "Wigglytuff",
+     "baseBst": 435,
+     "orig": "Raticate",
+     "origBst": 413
+    }
+   ]
+  },
+  {
+   "const": "TRAINER_GAMER_DIRK",
+   "class": "Gamer",
+   "theme": "Electric",
+   "theme_source": "dialogue",
+   "team": [
+    {
+     "species": "Ampharos",
+     "level": 39,
+     "base": "Flaaffy",
+     "baseBst": 365,
+     "orig": "Voltorb",
+     "origBst": 330
+    },
+    {
+     "species": "Lanturn",
+     "level": 40,
+     "base": "Chinchou",
+     "baseBst": 330,
+     "orig": "Magnemite",
+     "origBst": 325
+    }
+   ]
+  },
+  {
+   "const": "TRAINER_ENGINEER_BERNIE",
+   "class": "Engineer",
+   "theme": "Electric",
+   "theme_source": "class-locked",
+   "team": [
+    {
+     "species": "Electrode",
+     "level": 38,
+     "base": "Voltorb",
+     "baseBst": 330,
+     "orig": "Magnemite",
+     "origBst": 325
+    },
+    {
+     "species": "Hisuian Voltorb",
+     "level": 39,
+     "base": "Hisuian Voltorb",
+     "baseBst": 330,
+     "orig": "Magnemite",
+     "origBst": 325
+    },
+    {
+     "species": "Raichu",
+     "level": 40,
+     "base": "Raichu",
+     "baseBst": 485,
+     "orig": "Magneton",
+     "origBst": 465
+    }
+   ]
+  },
+  {
+   "const": "TRAINER_FISHERMAN_NED",
+   "class": "Fisherman",
+   "theme": "Water",
+   "theme_source": "class-locked",
+   "team": [
+    {
+     "species": "Golduck",
+     "level": 38,
+     "base": "Psyduck",
+     "baseBst": 320,
+     "orig": "Goldeen",
+     "origBst": 320
+    },
+    {
+     "species": "Seadra",
+     "level": 39,
+     "base": "Mareanie",
+     "baseBst": 305,
+     "orig": "Poliwag",
+     "origBst": 300
+    },
+    {
+     "species": "Sealeo",
+     "level": 40,
+     "base": "Popplio",
+     "baseBst": 320,
+     "orig": "Goldeen",
+     "origBst": 320
+    }
+   ]
+  },
+  {
+   "const": "TRAINER_FISHERMAN_CHIP",
+   "class": "Fisherman",
+   "theme": "Water",
+   "theme_source": "class-locked",
+   "team": [
+    {
+     "species": "Pyukumuku",
+     "level": 39,
+     "base": "Staryu",
+     "baseBst": 340,
+     "orig": "Tentacool",
+     "origBst": 335
+    },
+    {
+     "species": "Dewgong",
+     "level": 40,
+     "base": "Seel",
+     "baseBst": 325,
+     "orig": "Goldeen",
+     "origBst": 320
+    }
+   ]
+  },
+  {
+   "const": "TRAINER_FISHERMAN_HANK",
+   "class": "Fisherman",
+   "theme": "Water",
+   "theme_source": "class-locked",
+   "team": [
+    {
+     "species": "Shellos",
+     "level": 40,
+     "base": "Shellos",
+     "baseBst": 325,
+     "orig": "Goldeen",
+     "origBst": 320
+    }
+   ]
+  },
+  {
+   "const": "TRAINER_FISHERMAN_ELLIOT",
+   "class": "Fisherman",
+   "theme": "Water",
+   "theme_source": "class-locked",
+   "team": [
+    {
+     "species": "Barraskewda",
+     "level": 37,
+     "base": "Carvanha",
+     "baseBst": 305,
+     "orig": "Poliwag",
+     "origBst": 300
+    },
+    {
+     "species": "Samurott",
+     "level": 38,
+     "base": "Oshawott",
+     "baseBst": 308,
+     "orig": "Shellder",
+     "origBst": 305
+    },
+    {
+     "species": "Floatzel",
+     "level": 39,
+     "base": "Buizel",
+     "baseBst": 330,
+     "orig": "Goldeen",
+     "origBst": 320
+    },
+    {
+     "species": "Slowking",
+     "level": 40,
+     "base": "Poliwag",
+     "baseBst": 300,
+     "orig": "Horsea",
+     "origBst": 295
+    }
+   ]
+  },
+  {
+   "const": "TRAINER_ROCKER_LUCA",
+   "class": "Rocker",
+   "theme": "Electric",
+   "theme_source": "class-locked",
+   "team": [
+    {
+     "species": "Electabuzz",
+     "level": 40,
+     "base": "Elekid",
+     "baseBst": 360,
+     "orig": "Voltorb",
+     "origBst": 330
+    },
+    {
+     "species": "Electabuzz",
+     "level": 41,
+     "base": "Electabuzz",
+     "baseBst": 490,
+     "orig": "Electrode",
+     "origBst": 490
+    }
+   ]
+  },
+  {
+   "const": "TRAINER_CAMPER_JUSTIN",
+   "class": "Camper",
+   "theme": "Fairy",
+   "theme_source": "dialogue",
+   "team": [
+    {
+     "species": "Gardevoir",
+     "level": 40,
+     "base": "Kirlia",
+     "baseBst": 278,
+     "orig": "Nidoran M",
+     "origBst": 273
+    },
+    {
+     "species": "Azumarill",
+     "level": 41,
+     "base": "Morgrem",
+     "baseBst": 370,
+     "orig": "Nidorino",
+     "origBst": 365
+    }
+   ]
+  },
+  {
+   "const": "TRAINER_FISHERMAN_ANDREW",
+   "class": "Fisherman",
+   "theme": "Water",
+   "theme_source": "class-locked",
+   "team": [
+    {
+     "species": "Feebas",
+     "level": 40,
+     "base": "Feebas",
+     "baseBst": 200,
+     "orig": "Magikarp",
+     "origBst": 200
+    },
+    {
+     "species": "Quagsire",
+     "level": 41,
+     "base": "Wooper",
+     "baseBst": 210,
+     "orig": "Magikarp",
+     "origBst": 200
+    }
+   ]
+  },
+  {
+   "const": "TRAINER_YOUNG_COUPLE_GIA_JES",
+   "class": "Young Couple",
+   "theme": "Fairy",
+   "theme_source": "dialogue",
+   "team": [
+    {
+     "species": "Cottonee",
+     "level": 40,
+     "base": "Cottonee",
+     "baseBst": 280,
+     "orig": "Nidoran M",
+     "origBst": 273
+    },
+    {
+     "species": "Tinkaton",
+     "level": 41,
+     "base": "Tinkatink",
+     "baseBst": 297,
+     "orig": "Nidoran F",
+     "origBst": 275
+    }
+   ]
+  },
+  {
+   "const": "TRAINER_PICNICKER_ALMA",
+   "class": "Picnicker",
+   "theme": "Ground",
+   "theme_source": "dialogue",
+   "team": [
+    {
+     "species": "Marowak",
+     "level": 39,
+     "base": "Cubone",
+     "baseBst": 320,
+     "orig": "Goldeen",
+     "origBst": 320
+    },
+    {
+     "species": "Sandslash",
+     "level": 40,
+     "base": "Sandshrew",
+     "baseBst": 300,
+     "orig": "Poliwag",
+     "origBst": 300
+    },
+    {
+     "species": "Graveler",
+     "level": 41,
+     "base": "Geodude",
+     "baseBst": 300,
+     "orig": "Horsea",
+     "origBst": 295
+    }
+   ]
+  },
+  {
+   "const": "TRAINER_BIRD_KEEPER_SEBASTIAN",
+   "class": "Bird Keeper",
+   "theme": "Flying",
+   "theme_source": "class-locked",
+   "team": [
+    {
+     "species": "Hawlucha",
+     "level": 40,
+     "base": "Fletchling",
+     "baseBst": 278,
+     "orig": "Pidgey",
+     "origBst": 251
+    },
+    {
+     "species": "Rufflet",
+     "level": 41,
+     "base": "Rufflet",
+     "baseBst": 350,
+     "orig": "Pidgeotto",
+     "origBst": 349
+    }
+   ]
+  },
+  {
+   "const": "TRAINER_PICNICKER_SUSIE",
+   "class": "Picnicker",
+   "theme": "Normal",
+   "theme_source": "dialogue",
+   "team": [
+    {
+     "species": "Dubwool",
+     "level": 38,
+     "base": "Wooloo",
+     "baseBst": 270,
+     "orig": "Pidgey",
+     "origBst": 251
+    },
+    {
+     "species": "Maushold Four",
+     "level": 39,
+     "base": "Tandemaus",
+     "baseBst": 305,
+     "orig": "Meowth",
+     "origBst": 290
+    },
+    {
+     "species": "Jigglypuff",
+     "level": 40,
+     "base": "Jigglypuff",
+     "baseBst": 270,
+     "orig": "Rattata",
+     "origBst": 253
+    },
+    {
+     "species": "Eevee",
+     "level": 41,
+     "base": "Eevee",
+     "baseBst": 325,
+     "orig": "Pikachu",
+     "origBst": 320
+    },
+    {
+     "species": "Ursaring",
+     "level": 42,
+     "base": "Teddiursa",
+     "baseBst": 330,
+     "orig": "Meowth",
+     "origBst": 290
+    }
+   ]
+  },
+  {
+   "const": "TRAINER_BEAUTY_SHEILA",
+   "class": "Beauty",
+   "theme": "Fairy",
+   "theme_source": "class-locked",
+   "team": [
+    {
+     "species": "Mawile",
+     "level": 41,
+     "base": "Mawile",
+     "baseBst": 380,
+     "orig": "Clefairy",
+     "origBst": 323
+    },
+    {
+     "species": "Mime Jr.",
+     "level": 42,
+     "base": "Mime Jr.",
+     "baseBst": 310,
+     "orig": "Meowth",
+     "origBst": 290
+    }
+   ]
+  },
+  {
+   "const": "TRAINER_BEAUTY_LOLA",
+   "class": "Beauty",
+   "theme": "Fairy",
+   "theme_source": "class-locked",
+   "team": [
+    {
+     "species": "Morgrem",
+     "level": 40,
+     "base": "Impidimp",
+     "baseBst": 265,
+     "orig": "Rattata",
+     "origBst": 253
+    },
+    {
+     "species": "Clefairy",
+     "level": 41,
+     "base": "Clefairy",
+     "baseBst": 323,
+     "orig": "Pikachu",
+     "origBst": 320
+    },
+    {
+     "species": "Grimmsnarl",
+     "level": 42,
+     "base": "Impidimp",
+     "baseBst": 265,
+     "orig": "Rattata",
+     "origBst": 253
+    }
+   ]
+  },
+  {
+   "const": "TRAINER_PICNICKER_VALERIE",
+   "class": "Picnicker",
+   "theme": "Grass",
+   "theme_source": "dialogue",
+   "team": [
+    {
+     "species": "Bellossom",
+     "level": 41,
+     "base": "Bellsprout",
+     "baseBst": 300,
+     "orig": "Poliwag",
+     "origBst": 300
+    },
+    {
+     "species": "Ferrothorn",
+     "level": 42,
+     "base": "Ferroseed",
+     "baseBst": 305,
+     "orig": "Poliwag",
+     "origBst": 300
+    }
+   ]
+  },
+  {
+   "const": "TRAINER_PICNICKER_GWEN",
+   "class": "Picnicker",
+   "theme": "Fairy",
+   "theme_source": "dialogue",
+   "team": [
+    {
+     "species": "Gardevoir",
+     "level": 39,
+     "base": "Kirlia",
+     "baseBst": 278,
+     "orig": "Pidgey",
+     "origBst": 251
+    },
+    {
+     "species": "Dachsbun",
+     "level": 40,
+     "base": "Fidough",
+     "baseBst": 312,
+     "orig": "Meowth",
+     "origBst": 290
+    },
+    {
+     "species": "Cottonee",
+     "level": 41,
+     "base": "Cottonee",
+     "baseBst": 280,
+     "orig": "Pidgey",
+     "origBst": 251
+    },
+    {
+     "species": "Tinkaton",
+     "level": 42,
+     "base": "Tinkatuff",
+     "baseBst": 380,
+     "orig": "Pidgeotto",
+     "origBst": 349
+    }
+   ]
+  },
+  {
+   "const": "TRAINER_BIRD_KEEPER_ROBERT",
+   "class": "Bird Keeper",
+   "theme": "Flying",
+   "theme_source": "class-locked",
+   "team": [
+    {
+     "species": "Flamigo",
+     "level": 39,
+     "base": "Swablu",
+     "baseBst": 310,
+     "orig": "Pidgey",
+     "origBst": 251
+    },
+    {
+     "species": "Corviknight",
+     "level": 40,
+     "base": "Corvisquire",
+     "baseBst": 365,
+     "orig": "Pidgeotto",
+     "origBst": 349
+    },
+    {
+     "species": "Scyther",
+     "level": 41,
+     "base": "Wingull",
+     "baseBst": 270,
+     "orig": "Spearow",
+     "origBst": 262
+    },
+    {
+     "species": "Jumpluff",
+     "level": 42,
+     "base": "Jumpluff",
+     "baseBst": 460,
+     "orig": "Fearow",
+     "origBst": 442
+    }
+   ]
+  },
+  {
+   "const": "TRAINER_BIRD_KEEPER_PERRY",
+   "class": "Bird Keeper",
+   "theme": "Flying",
+   "theme_source": "class-locked",
+   "team": [
+    {
+     "species": "Rookidee",
+     "level": 39,
+     "base": "Fletchling",
+     "baseBst": 278,
+     "orig": "Spearow",
+     "origBst": 262
+    },
+    {
+     "species": "Noibat",
+     "level": 40,
+     "base": "Swablu",
+     "baseBst": 310,
+     "orig": "Pidgey",
+     "origBst": 251
+    },
+    {
+     "species": "Pelipper",
+     "level": 41,
+     "base": "Wingull",
+     "baseBst": 270,
+     "orig": "Pidgey",
+     "origBst": 251
+    },
+    {
+     "species": "Talonflame",
+     "level": 42,
+     "base": "Fletchling",
+     "baseBst": 278,
+     "orig": "Spearow",
+     "origBst": 262
+    },
+    {
+     "species": "Altaria",
+     "level": 43,
+     "base": "Swablu",
+     "baseBst": 310,
+     "orig": "Spearow",
+     "origBst": 262
+    }
+   ]
+  },
+  {
+   "const": "TRAINER_BIKER_JARED",
+   "class": "Biker",
+   "theme": "Poison",
+   "theme_source": "class-locked",
+   "team": [
+    {
+     "species": "Nidorino",
+     "level": 41,
+     "base": "Nidorino",
+     "baseBst": 365,
+     "orig": "Koffing",
+     "origBst": 340
+    },
+    {
+     "species": "Weepinbell",
+     "level": 42,
+     "base": "Weepinbell",
+     "baseBst": 390,
+     "orig": "Koffing",
+     "origBst": 340
+    },
+    {
+     "species": "Glimmora",
+     "level": 43,
+     "base": "Glimmet",
+     "baseBst": 350,
+     "orig": "Koffing",
+     "origBst": 340
+    }
+   ]
+  },
+  {
+   "const": "TRAINER_BIKER_GERALD",
+   "class": "Biker",
+   "theme": "Poison",
+   "theme_source": "class-locked",
+   "team": [
+    {
+     "species": "Nidorina",
+     "level": 42,
+     "base": "Nidorina",
+     "baseBst": 365,
+     "orig": "Koffing",
+     "origBst": 340
+    },
+    {
+     "species": "Alolan Muk",
+     "level": 43,
+     "base": "Alolan Muk",
+     "baseBst": 500,
+     "orig": "Muk",
+     "origBst": 500
+    }
+   ]
+  },
+  {
+   "const": "TRAINER_BIRD_KEEPER_DONALD",
+   "class": "Bird Keeper",
+   "theme": "Flying",
+   "theme_source": "class-locked",
+   "team": [
+    {
+     "species": "Talonflame",
+     "level": 43,
+     "base": "Fletchinder",
+     "baseBst": 382,
+     "orig": "Farfetchd",
+     "origBst": 377
+    }
+   ]
+  },
+  {
+   "const": "TRAINER_BIRD_KEEPER_BECK",
+   "class": "Bird Keeper",
+   "theme": "Flying",
+   "theme_source": "class-locked",
+   "team": [
+    {
+     "species": "Vullaby",
+     "level": 42,
+     "base": "Vullaby",
+     "baseBst": 370,
+     "orig": "Pidgeotto",
+     "origBst": 349
+    },
+    {
+     "species": "Tropius",
+     "level": 43,
+     "base": "Tropius",
+     "baseBst": 460,
+     "orig": "Fearow",
+     "origBst": 442
+    }
+   ]
+  },
+  {
+   "const": "TRAINER_BIRD_KEEPER_MARLON",
+   "class": "Bird Keeper",
+   "theme": "Flying",
+   "theme_source": "class-locked",
+   "team": [
+    {
+     "species": "Pelipper",
+     "level": 41,
+     "base": "Wingull",
+     "baseBst": 270,
+     "orig": "Spearow",
+     "origBst": 262
+    },
+    {
+     "species": "Decidueye",
+     "level": 42,
+     "base": "Rowlet",
+     "baseBst": 320,
+     "orig": "Doduo",
+     "origBst": 310
+    },
+    {
+     "species": "Skarmory",
+     "level": 43,
+     "base": "Skarmory",
+     "baseBst": 465,
+     "orig": "Fearow",
+     "origBst": 442
+    }
+   ]
+  },
+  {
+   "const": "TRAINER_BIKER_ISAAC",
+   "class": "Biker",
+   "theme": "Poison",
+   "theme_source": "class-locked",
+   "team": [
+    {
+     "species": "Garbodor",
+     "level": 42,
+     "base": "Trubbish",
+     "baseBst": 329,
+     "orig": "Grimer",
+     "origBst": 325
+    },
+    {
+     "species": "Skuntank",
+     "level": 43,
+     "base": "Stunky",
+     "baseBst": 329,
+     "orig": "Grimer",
+     "origBst": 325
+    },
+    {
+     "species": "Nidorino",
+     "level": 44,
+     "base": "Nidorino",
+     "baseBst": 365,
+     "orig": "Koffing",
+     "origBst": 340
+    }
+   ]
+  },
+  {
+   "const": "TRAINER_BIKER_MALIK",
+   "class": "Biker",
+   "theme": "Poison",
+   "theme_source": "class-locked",
+   "team": [
+    {
+     "species": "Weepinbell",
+     "level": 43,
+     "base": "Weepinbell",
+     "baseBst": 390,
+     "orig": "Koffing",
+     "origBst": 340
+    },
+    {
+     "species": "Weezing",
+     "level": 44,
+     "base": "Koffing",
+     "baseBst": 340,
+     "orig": "Grimer",
+     "origBst": 325
+    }
+   ]
+  },
+  {
+   "const": "TRAINER_BIRD_KEEPER_MITCH",
+   "class": "Bird Keeper",
+   "theme": "Flying",
+   "theme_source": "class-locked",
+   "team": [
+    {
+     "species": "Talonflame",
+     "level": 41,
+     "base": "Fletchling",
+     "baseBst": 278,
+     "orig": "Pidgey",
+     "origBst": 251
+    },
+    {
+     "species": "Altaria",
+     "level": 42,
+     "base": "Swablu",
+     "baseBst": 310,
+     "orig": "Spearow",
+     "origBst": 262
+    },
+    {
+     "species": "Pelipper",
+     "level": 43,
+     "base": "Wingull",
+     "baseBst": 270,
+     "orig": "Pidgey",
+     "origBst": 251
+    },
+    {
+     "species": "Staraptor",
+     "level": 44,
+     "base": "Staraptor",
+     "baseBst": 485,
+     "orig": "Fearow",
+     "origBst": 442
+    }
+   ]
+  },
+  {
+   "const": "TRAINER_BIRD_KEEPER_CARTER",
+   "class": "Bird Keeper",
+   "theme": "Flying",
+   "theme_source": "class-locked",
+   "team": [
+    {
+     "species": "Talonflame",
+     "level": 42,
+     "base": "Fletchling",
+     "baseBst": 278,
+     "orig": "Pidgey",
+     "origBst": 251
+    },
+    {
+     "species": "Xatu",
+     "level": 43,
+     "base": "Natu",
+     "baseBst": 320,
+     "orig": "Doduo",
+     "origBst": 310
+    },
+    {
+     "species": "Noivern",
+     "level": 44,
+     "base": "Butterfree",
+     "baseBst": 395,
+     "orig": "Pidgeotto",
+     "origBst": 349
+    }
+   ]
+  },
+  {
+   "const": "TRAINER_BIKER_LUKAS",
+   "class": "Biker",
+   "theme": "Poison",
+   "theme_source": "class-locked",
+   "team": [
+    {
+     "species": "Glimmora",
+     "level": 41,
+     "base": "Glimmet",
+     "baseBst": 350,
+     "orig": "Koffing",
+     "origBst": 340
+    },
+    {
+     "species": "Nidorina",
+     "level": 42,
+     "base": "Nidorina",
+     "baseBst": 365,
+     "orig": "Koffing",
+     "origBst": 340
+    },
+    {
+     "species": "Alolan Muk",
+     "level": 43,
+     "base": "Alolan Grimer",
+     "baseBst": 325,
+     "orig": "Grimer",
+     "origBst": 325
+    },
+    {
+     "species": "Nidorino",
+     "level": 44,
+     "base": "Nidorino",
+     "baseBst": 365,
+     "orig": "Koffing",
+     "origBst": 340
+    }
+   ]
+  },
+  {
+   "const": "TRAINER_BIRD_KEEPER_BENNY",
+   "class": "Bird Keeper",
+   "theme": "Flying",
+   "theme_source": "class-locked",
+   "team": [
+    {
+     "species": "Altaria",
+     "level": 43,
+     "base": "Swablu",
+     "baseBst": 310,
+     "orig": "Spearow",
+     "origBst": 262
+    },
+    {
+     "species": "Altaria",
+     "level": 44,
+     "base": "Altaria",
+     "baseBst": 490,
+     "orig": "Fearow",
+     "origBst": 442
+    }
+   ]
+  },
+  {
+   "const": "TRAINER_TWINS_KIRI_JAN",
+   "class": "Twins",
+   "theme": "Normal",
+   "theme_source": "dialogue",
+   "team": [
+    {
+     "species": "Staraptor",
+     "level": 44,
+     "base": "Staravia",
+     "baseBst": 340,
+     "orig": "Charmander",
+     "origBst": 309
+    },
+    {
+     "species": "Buneary",
+     "level": 45,
+     "base": "Buneary",
+     "baseBst": 350,
+     "orig": "Squirtle",
+     "origBst": 314
+    }
+   ]
+  },
+  {
+   "const": "TRAINER_PICNICKER_YAZMIN",
+   "class": "Picnicker",
+   "theme": "Grass",
+   "theme_source": "dialogue",
+   "team": [
+    {
+     "species": "Serperior",
+     "level": 43,
+     "base": "Snivy",
+     "baseBst": 308,
+     "orig": "Bellsprout",
+     "origBst": 300
+    },
+    {
+     "species": "Exeggcute",
+     "level": 44,
+     "base": "Exeggcute",
+     "baseBst": 325,
+     "orig": "Oddish",
+     "origBst": 320
+    },
+    {
+     "species": "Breloom",
+     "level": 45,
+     "base": "Breloom",
+     "baseBst": 460,
+     "orig": "Tangela",
+     "origBst": 435
+    }
+   ]
+  },
+  {
+   "const": "TRAINER_BIRD_KEEPER_EDWIN",
+   "class": "Bird Keeper",
+   "theme": "Flying",
+   "theme_source": "class-locked",
+   "team": [
+    {
+     "species": "Rufflet",
+     "level": 42,
+     "base": "Rufflet",
+     "baseBst": 350,
+     "orig": "Pidgeotto",
+     "origBst": 349
+    },
+    {
+     "species": "Archeops",
+     "level": 43,
+     "base": "Archen",
+     "baseBst": 401,
+     "orig": "Farfetchd",
+     "origBst": 377
+    },
+    {
+     "species": "Delibird",
+     "level": 44,
+     "base": "Delibird",
+     "baseBst": 330,
+     "orig": "Doduo",
+     "origBst": 310
+    },
+    {
+     "species": "Pelipper",
+     "level": 45,
+     "base": "Wingull",
+     "baseBst": 270,
+     "orig": "Pidgey",
+     "origBst": 251
+    }
+   ]
+  },
+  {
+   "const": "TRAINER_BIRD_KEEPER_CHESTER",
+   "class": "Bird Keeper",
+   "theme": "Flying",
+   "theme_source": "class-locked",
+   "team": [
+    {
+     "species": "Corviknight",
+     "level": 43,
+     "base": "Corviknight",
+     "baseBst": 495,
+     "orig": "Dodrio",
+     "origBst": 470
+    },
+    {
+     "species": "Jumpluff",
+     "level": 44,
+     "base": "Skiploom",
+     "baseBst": 340,
+     "orig": "Doduo",
+     "origBst": 310
+    },
+    {
+     "species": "Drifblim",
+     "level": 45,
+     "base": "Drifloon",
+     "baseBst": 348,
+     "orig": "Doduo",
+     "origBst": 310
+    }
+   ]
+  },
+  {
+   "const": "TRAINER_PICNICKER_KINDRA",
+   "class": "Picnicker",
+   "theme": "Grass",
+   "theme_source": "dialogue",
+   "team": [
+    {
+     "species": "Roselia",
+     "level": 43,
+     "base": "Roselia",
+     "baseBst": 400,
+     "orig": "Gloom",
+     "origBst": 395
+    },
+    {
+     "species": "Cacturne",
+     "level": 44,
+     "base": "Cacnea",
+     "baseBst": 335,
+     "orig": "Oddish",
+     "origBst": 320
+    },
+    {
+     "species": "Lombre",
+     "level": 45,
+     "base": "Lombre",
+     "baseBst": 340,
+     "orig": "Oddish",
+     "origBst": 320
+    }
+   ]
+  },
+  {
+   "const": "TRAINER_BEAUTY_OLIVIA",
+   "class": "Beauty",
+   "theme": "Fairy",
+   "theme_source": "class-locked",
+   "team": [
+    {
+     "species": "Clefairy",
+     "level": 44,
+     "base": "Clefairy",
+     "baseBst": 323,
+     "orig": "Bulbasaur",
+     "origBst": 318
+    },
+    {
+     "species": "Togetic",
+     "level": 45,
+     "base": "Togetic",
+     "baseBst": 405,
+     "orig": "Ivysaur",
+     "origBst": 405
+    }
+   ]
+  },
+  {
+   "const": "TRAINER_BIKER_ALEX",
+   "class": "Biker",
+   "theme": "Poison",
+   "theme_source": "class-locked",
+   "team": [
+    {
+     "species": "Weepinbell",
+     "level": 44,
+     "base": "Weepinbell",
+     "baseBst": 390,
+     "orig": "Koffing",
+     "origBst": 340
+    },
+    {
+     "species": "Garbodor",
+     "level": 45,
+     "base": "Trubbish",
+     "baseBst": 329,
+     "orig": "Grimer",
+     "origBst": 325
+    },
+    {
+     "species": "Nidoqueen",
+     "level": 46,
+     "base": "Nidoqueen",
+     "baseBst": 505,
+     "orig": "Weezing",
+     "origBst": 490
+    }
+   ]
+  },
+  {
+   "const": "TRAINER_BIKER_ERNEST",
+   "class": "Biker",
+   "theme": "Poison",
+   "theme_source": "class-locked",
+   "team": [
+    {
+     "species": "Glimmora",
+     "level": 42,
+     "base": "Glimmet",
+     "baseBst": 350,
+     "orig": "Koffing",
+     "origBst": 340
+    },
+    {
+     "species": "Nidorina",
+     "level": 43,
+     "base": "Nidorina",
+     "baseBst": 365,
+     "orig": "Koffing",
+     "origBst": 340
+    },
+    {
+     "species": "Nidoking",
+     "level": 44,
+     "base": "Nidoking",
+     "baseBst": 505,
+     "orig": "Weezing",
+     "origBst": 490
+    },
+    {
+     "species": "Nidorino",
+     "level": 45,
+     "base": "Nidorino",
+     "baseBst": 365,
+     "orig": "Koffing",
+     "origBst": 340
+    },
+    {
+     "species": "Skuntank",
+     "level": 46,
+     "base": "Stunky",
+     "baseBst": 329,
+     "orig": "Grimer",
+     "origBst": 325
+    }
+   ]
+  },
+  {
+   "const": "TRAINER_PICNICKER_BECKY",
+   "class": "Picnicker",
+   "theme": "Electric",
+   "theme_source": "dialogue",
+   "team": [
+    {
+     "species": "Magneton",
+     "level": 45,
+     "base": "Magnemite",
+     "baseBst": 325,
+     "orig": "Pikachu",
+     "origBst": 320
+    },
+    {
+     "species": "Alolan Raichu",
+     "level": 46,
+     "base": "Alolan Raichu",
+     "baseBst": 485,
+     "orig": "Raichu",
+     "origBst": 485
+    }
+   ]
+  },
+  {
+   "const": "TRAINER_BEAUTY_GRACE",
+   "class": "Beauty",
+   "theme": "Fairy",
+   "theme_source": "class-locked",
+   "team": [
+    {
+     "species": "Grimmsnarl",
+     "level": 45,
+     "base": "Morgrem",
+     "baseBst": 370,
+     "orig": "Pidgeotto",
+     "origBst": 349
+    },
+    {
+     "species": "Mr. Mime",
+     "level": 46,
+     "base": "Mr. Mime",
+     "baseBst": 460,
+     "orig": "Wigglytuff",
+     "origBst": 435
+    }
+   ]
+  },
+  {
+   "const": "TRAINER_PICNICKER_CELIA",
+   "class": "Picnicker",
+   "theme": "Fairy",
+   "theme_source": "dialogue",
+   "team": [
+    {
+     "species": "Mawile",
+     "level": 46,
+     "base": "Mawile",
+     "baseBst": 380,
+     "orig": "Clefairy",
+     "origBst": 323
+    }
+   ]
+  },
+  {
+   "const": "TRAINER_CRUSH_KIN_RON_MYA",
+   "class": "Crush Kin",
+   "theme": "Fighting",
+   "theme_source": "class-locked",
+   "team": [
+    {
+     "species": "Primeape",
+     "level": 45,
+     "base": "Primeape",
+     "baseBst": 455,
+     "orig": "Hitmonchan",
+     "origBst": 455
+    },
+    {
+     "species": "Hariyama",
+     "level": 46,
+     "base": "Hariyama",
+     "baseBst": 474,
+     "orig": "Hitmonlee",
+     "origBst": 455
+    }
+   ]
+  },
+  {
+   "const": "TRAINER_TAMER_PHIL",
+   "class": "Tamer",
+   "theme": "Poison",
+   "theme_source": "gym-override",
+   "team": [
+    {
+     "species": "Venomoth",
+     "level": 48,
+     "base": "Venomoth",
+     "baseBst": 450,
+     "orig": "Sandslash",
+     "origBst": 450
+    },
+    {
+     "species": "Amoonguss",
+     "level": 49,
+     "base": "Amoonguss",
+     "baseBst": 464,
+     "orig": "Arbok",
+     "origBst": 448
+    }
+   ]
+  },
+  {
+   "const": "TRAINER_TAMER_EDGAR",
+   "class": "Tamer",
+   "theme": "Poison",
+   "theme_source": "gym-override",
+   "team": [
+    {
+     "species": "Garbodor",
+     "level": 47,
+     "base": "Garbodor",
+     "baseBst": 474,
+     "orig": "Arbok",
+     "origBst": 448
+    },
+    {
+     "species": "Skuntank",
+     "level": 48,
+     "base": "Skuntank",
+     "baseBst": 479,
+     "orig": "Sandslash",
+     "origBst": 450
+    },
+    {
+     "species": "Weezing",
+     "level": 49,
+     "base": "Weezing",
+     "baseBst": 490,
+     "orig": "Arbok",
+     "origBst": 448
+    }
+   ]
+  },
+  {
+   "const": "TRAINER_JUGGLER_KIRK",
+   "class": "Juggler",
+   "theme": "Poison",
+   "theme_source": "gym-override",
+   "team": [
+    {
+     "species": "Drapion",
+     "level": 46,
+     "base": "Skorupi",
+     "baseBst": 330,
+     "orig": "Drowzee",
+     "origBst": 328
+    },
+    {
+     "species": "Tentacruel",
+     "level": 47,
+     "base": "Tentacool",
+     "baseBst": 335,
+     "orig": "Drowzee",
+     "origBst": 328
+    },
+    {
+     "species": "Venusaur",
+     "level": 48,
+     "base": "Ivysaur",
+     "baseBst": 405,
+     "orig": "Kadabra",
+     "origBst": 400
+    },
+    {
+     "species": "Weezing",
+     "level": 49,
+     "base": "Koffing",
+     "baseBst": 340,
+     "orig": "Drowzee",
+     "origBst": 328
+    }
+   ]
+  },
+  {
+   "const": "TRAINER_JUGGLER_SHAWN",
+   "class": "Juggler",
+   "theme": "Poison",
+   "theme_source": "gym-override",
+   "team": [
+    {
+     "species": "Garbodor",
+     "level": 48,
+     "base": "Trubbish",
+     "baseBst": 329,
+     "orig": "Drowzee",
+     "origBst": 328
+    },
+    {
+     "species": "Sneasler",
+     "level": 49,
+     "base": "Sneasler",
+     "baseBst": 510,
+     "orig": "Hypno",
+     "origBst": 483
+    }
+   ]
+  },
+  {
+   "const": "TRAINER_JUGGLER_KAYDEN",
+   "class": "Juggler",
+   "theme": "Poison",
+   "theme_source": "gym-override",
+   "team": [
+    {
+     "species": "Roserade",
+     "level": 49,
+     "base": "Roserade",
+     "baseBst": 515,
+     "orig": "Hypno",
+     "origBst": 483
+    }
+   ]
+  },
+  {
+   "const": "TRAINER_JUGGLER_NATE",
+   "class": "Juggler",
+   "theme": "Poison",
+   "theme_source": "gym-override",
+   "team": [
+    {
+     "species": "Skuntank",
+     "level": 48,
+     "base": "Stunky",
+     "baseBst": 329,
+     "orig": "Drowzee",
+     "origBst": 328
+    },
+    {
+     "species": "Haunter",
+     "level": 49,
+     "base": "Haunter",
+     "baseBst": 405,
+     "orig": "Kadabra",
+     "origBst": 400
+    }
+   ]
+  },
+  {
+   "const": "TRAINER_CHANNELER_PATRICIA",
+   "class": "Channeler",
+   "theme": "Ghost",
+   "theme_source": "class-locked",
+   "team": [
+    {
+     "species": "Dragapult",
+     "level": 47,
+     "base": "Sandygast",
+     "baseBst": 320,
+     "orig": "Gastly",
+     "origBst": 310
+    }
+   ]
+  },
+  {
+   "const": "TRAINER_CHANNELER_CARLY",
+   "class": "Channeler",
+   "theme": "Ghost",
+   "theme_source": "class-locked",
+   "team": [
+    {
+     "species": "Dusknoir",
+     "level": 47,
+     "base": "Honedge",
+     "baseBst": 325,
+     "orig": "Gastly",
+     "origBst": 310
+    }
+   ]
+  },
+  {
+   "const": "TRAINER_CHANNELER_HOPE",
+   "class": "Channeler",
+   "theme": "Ghost",
+   "theme_source": "class-locked",
+   "team": [
+    {
+     "species": "Gholdengo",
+     "level": 47,
+     "base": "Sandygast",
+     "baseBst": 320,
+     "orig": "Gastly",
+     "origBst": 310
+    }
+   ]
+  },
+  {
+   "const": "TRAINER_CHANNELER_PAULA",
+   "class": "Channeler",
+   "theme": "Ghost",
+   "theme_source": "class-locked",
+   "team": [
+    {
+     "species": "Aegislash",
+     "level": 47,
+     "base": "Honedge",
+     "baseBst": 325,
+     "orig": "Gastly",
+     "origBst": 310
+    }
+   ]
+  },
+  {
+   "const": "TRAINER_CHANNELER_LAUREL",
+   "class": "Channeler",
+   "theme": "Ghost",
+   "theme_source": "class-locked",
+   "team": [
+    {
+     "species": "Polteageist",
+     "level": 46,
+     "base": "Drifloon",
+     "baseBst": 348,
+     "orig": "Gastly",
+     "origBst": 310
+    },
+    {
+     "species": "Mismagius",
+     "level": 47,
+     "base": "Sandygast",
+     "baseBst": 320,
+     "orig": "Gastly",
+     "origBst": 310
+    }
+   ]
+  },
+  {
+   "const": "TRAINER_CHANNELER_JODY",
+   "class": "Channeler",
+   "theme": "Ghost",
+   "theme_source": "class-locked",
+   "team": [
+    {
+     "species": "Froslass",
+     "level": 47,
+     "base": "Honedge",
+     "baseBst": 325,
+     "orig": "Gastly",
+     "origBst": 310
+    }
+   ]
+  },
+  {
+   "const": "TRAINER_CHANNELER_TAMMY",
+   "class": "Channeler",
+   "theme": "Ghost",
+   "theme_source": "class-locked",
+   "team": [
+    {
+     "species": "Drakloak",
+     "level": 48,
+     "base": "Drakloak",
+     "baseBst": 410,
+     "orig": "Haunter",
+     "origBst": 405
+    }
+   ]
+  },
+  {
+   "const": "TRAINER_CHANNELER_RUTH",
+   "class": "Channeler",
+   "theme": "Ghost",
+   "theme_source": "class-locked",
+   "team": [
+    {
+     "species": "Cofagrigus",
+     "level": 48,
+     "base": "Drifloon",
+     "baseBst": 348,
+     "orig": "Gastly",
+     "origBst": 310
+    }
+   ]
+  },
+  {
+   "const": "TRAINER_CHANNELER_KARINA",
+   "class": "Channeler",
+   "theme": "Ghost",
+   "theme_source": "class-locked",
+   "team": [
+    {
+     "species": "Misdreavus",
+     "level": 48,
+     "base": "Sandygast",
+     "baseBst": 320,
+     "orig": "Gastly",
+     "origBst": 310
+    }
+   ]
+  },
+  {
+   "const": "TRAINER_CHANNELER_JANAE",
+   "class": "Channeler",
+   "theme": "Ghost",
+   "theme_source": "class-locked",
+   "team": [
+    {
+     "species": "Dreepy",
+     "level": 48,
+     "base": "Honedge",
+     "baseBst": 325,
+     "orig": "Gastly",
+     "origBst": 310
+    }
+   ]
+  },
+  {
+   "const": "TRAINER_CHANNELER_ANGELICA",
+   "class": "Channeler",
+   "theme": "Ghost",
+   "theme_source": "class-locked",
+   "team": [
+    {
+     "species": "Litwick",
+     "level": 46,
+     "base": "Drifloon",
+     "baseBst": 348,
+     "orig": "Gastly",
+     "origBst": 310
+    },
+    {
+     "species": "Palossand",
+     "level": 47,
+     "base": "Sandygast",
+     "baseBst": 320,
+     "orig": "Gastly",
+     "origBst": 310
+    },
+    {
+     "species": "Doublade",
+     "level": 48,
+     "base": "Honedge",
+     "baseBst": 325,
+     "orig": "Gastly",
+     "origBst": 310
+    }
+   ]
+  },
+  {
+   "const": "TRAINER_CHANNELER_EMILIA",
+   "class": "Channeler",
+   "theme": "Ghost",
+   "theme_source": "class-locked",
+   "team": [
+    {
+     "species": "Drifblim",
+     "level": 48,
+     "base": "Drifloon",
+     "baseBst": 348,
+     "orig": "Gastly",
+     "origBst": 310
+    }
+   ]
+  },
+  {
+   "const": "TRAINER_CHANNELER_JENNIFER",
+   "class": "Channeler",
+   "theme": "Ghost",
+   "theme_source": "class-locked",
+   "team": [
+    {
+     "species": "Palossand",
+     "level": 49,
+     "base": "Sandygast",
+     "baseBst": 320,
+     "orig": "Gastly",
+     "origBst": 310
+    }
+   ]
+  },
+  {
+   "const": "TRAINER_TEAM_ROCKET_GRUNT_19",
+   "class": "Team Rocket",
+   "theme": "Dark",
+   "theme_source": "class-locked",
+   "team": [
+    {
+     "species": "Malamar",
+     "level": 47,
+     "base": "Inkay",
+     "baseBst": 288,
+     "orig": "Zubat",
+     "origBst": 245
+    },
+    {
+     "species": "Krookodile",
+     "level": 48,
+     "base": "Sandile",
+     "baseBst": 292,
+     "orig": "Zubat",
+     "origBst": 245
+    },
+    {
+     "species": "Hydreigon",
+     "level": 49,
+     "base": "Sharpedo",
+     "baseBst": 460,
+     "orig": "Golbat",
+     "origBst": 455
+    }
+   ]
+  },
+  {
+   "const": "TRAINER_TEAM_ROCKET_GRUNT_20",
+   "class": "Team Rocket",
+   "theme": "Dark",
+   "theme_source": "class-locked",
+   "team": [
+    {
+     "species": "Pawniard",
+     "level": 48,
+     "base": "Pawniard",
+     "baseBst": 340,
+     "orig": "Koffing",
+     "origBst": 340
+    },
+    {
+     "species": "Zoroark",
+     "level": 49,
+     "base": "Zorua",
+     "baseBst": 330,
+     "orig": "Drowzee",
+     "origBst": 328
+    }
+   ]
+  },
+  {
+   "const": "TRAINER_TEAM_ROCKET_GRUNT_21",
+   "class": "Team Rocket",
+   "theme": "Dark",
+   "theme_source": "class-locked",
+   "team": [
+    {
+     "species": "Malamar",
+     "level": 46,
+     "base": "Inkay",
+     "baseBst": 288,
+     "orig": "Zubat",
+     "origBst": 245
+    },
+    {
+     "species": "Deino",
+     "level": 47,
+     "base": "Deino",
+     "baseBst": 300,
+     "orig": "Rattata",
+     "origBst": 253
+    },
+    {
+     "species": "Zweilous",
+     "level": 48,
+     "base": "Zweilous",
+     "baseBst": 420,
+     "orig": "Raticate",
+     "origBst": 413
+    },
+    {
+     "species": "Krookodile",
+     "level": 49,
+     "base": "Sandile",
+     "baseBst": 292,
+     "orig": "Zubat",
+     "origBst": 245
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,599 @@
+{
+ "segment": 3,
+ "cap": 27,
+ "floor": 23,
+ "trainers": [
+  {
+   "const": "TRAINER_BUG_CATCHER_KEIGO",
+   "class": "Bug Catcher",
+   "theme": "Bug",
+   "theme_source": "class-locked",
+   "team": [
+    {
+     "species": "Volbeat",
+     "level": 23,
+     "base": "Surskit",
+     "baseBst": 269,
+     "orig": "Weedle",
+     "origBst": 195
+    },
+    {
+     "species": "Durant",
+     "level": 23,
+     "base": "Metapod",
+     "baseBst": 205,
+     "orig": "Caterpie",
+     "origBst": 195
+    },
+    {
+     "species": "Forretress",
+     "level": 23,
+     "base": "Caterpie",
+     "baseBst": 195,
+     "orig": "Weedle",
+     "origBst": 195
+    }
+   ]
+  },
+  {
+   "const": "TRAINER_CAMPER_RICKY",
+   "class": "Camper",
+   "theme": "Ground",
+   "theme_source": "dialogue",
+   "team": [
+    {
+     "species": "Dratini",
+     "level": 23,
+     "base": "Krokorok",
+     "baseBst": 351,
+     "orig": "Squirtle",
+     "origBst": 314
+    }
+   ]
+  },
+  {
+   "const": "TRAINER_PICNICKER_NANCY",
+   "class": "Picnicker",
+   "theme": "Fairy",
+   "theme_source": "dialogue",
+   "team": [
+    {
+     "species": "Kirlia",
+     "level": 23,
+     "base": "Kirlia",
+     "baseBst": 278,
+     "orig": "Rattata",
+     "origBst": 253
+    },
+    {
+     "species": "Ralts",
+     "level": 23,
+     "base": "Morgrem",
+     "baseBst": 370,
+     "orig": "Pikachu",
+     "origBst": 320
+    }
+   ]
+  },
+  {
+   "const": "TRAINER_BUG_CATCHER_ELIJAH",
+   "class": "Bug Catcher",
+   "theme": "Bug",
+   "theme_source": "class-locked",
+   "team": [
+    {
+     "species": "Illumise",
+     "level": 23,
+     "base": "Parasect",
+     "baseBst": 405,
+     "orig": "Butterfree",
+     "origBst": 395
+    }
+   ]
+  },
+  {
+   "const": "TRAINER_PICNICKER_ISABELLE",
+   "class": "Picnicker",
+   "theme": "Normal",
+   "theme_source": "dialogue",
+   "team": [
+    {
+     "species": "Bagon",
+     "level": 23,
+     "base": "Fletchling",
+     "baseBst": 278,
+     "orig": "Pidgey",
+     "origBst": 251
+    },
+    {
+     "species": "Goomy",
+     "level": 23,
+     "base": "Slakoth",
+     "baseBst": 280,
+     "orig": "Pidgey",
+     "origBst": 251
+    },
+    {
+     "species": "Axew",
+     "level": 24,
+     "base": "Wooloo",
+     "baseBst": 270,
+     "orig": "Pidgey",
+     "origBst": 251
+    }
+   ]
+  },
+  {
+   "const": "TRAINER_CAMPER_JEFF",
+   "class": "Camper",
+   "theme": "Normal",
+   "theme_source": "dialogue",
+   "team": [
+    {
+     "species": "Snorunt",
+     "level": 23,
+     "base": "Tandemaus",
+     "baseBst": 305,
+     "orig": "Spearow",
+     "origBst": 262
+    },
+    {
+     "species": "Amaura",
+     "level": 24,
+     "base": "Girafarig",
+     "baseBst": 455,
+     "orig": "Raticate",
+     "origBst": 413
+    }
+   ]
+  },
+  {
+   "const": "TRAINER_LASS_ANN",
+   "class": "Lass",
+   "theme": "Normal",
+   "theme_source": "dialogue",
+   "team": [
+    {
+     "species": "Alolan Vulpix",
+     "level": 23,
+     "base": "Minccino",
+     "baseBst": 300,
+     "orig": "Pidgey",
+     "origBst": 251
+    },
+    {
+     "species": "Alolan Sandshrew",
+     "level": 24,
+     "base": "Swablu",
+     "baseBst": 310,
+     "orig": "Nidoran F",
+     "origBst": 275
+    }
+   ]
+  },
+  {
+   "const": "TRAINER_YOUNGSTER_TYLER",
+   "class": "Youngster",
+   "theme": "Normal",
+   "theme_source": "dialogue",
+   "team": [
+    {
+     "species": "Vigoroth",
+     "level": 24,
+     "base": "Slakoth",
+     "baseBst": 280,
+     "orig": "Nidoran M",
+     "origBst": 273
+    }
+   ]
+  },
+  {
+   "const": "TRAINER_GENTLEMAN_ARTHUR",
+   "class": "Gentleman",
+   "theme": "Fire",
+   "theme_source": "dialogue",
+   "team": [
+    {
+     "species": "Charmeleon",
+     "level": 23,
+     "base": "Charmander",
+     "baseBst": 309,
+     "orig": "Nidoran M",
+     "origBst": 273
+    },
+    {
+     "species": "Pignite",
+     "level": 24,
+     "base": "Tepig",
+     "baseBst": 308,
+     "orig": "Nidoran F",
+     "origBst": 275
+    }
+   ]
+  },
+  {
+   "const": "TRAINER_GENTLEMAN_THOMAS",
+   "class": "Gentleman",
+   "theme": "Ghost",
+   "theme_source": "dialogue",
+   "team": [
+    {
+     "species": "Sinistea",
+     "level": 23,
+     "base": "Haunter",
+     "baseBst": 405,
+     "orig": "Growlithe",
+     "origBst": 350
+    },
+    {
+     "species": "Yamask",
+     "level": 24,
+     "base": "Drakloak",
+     "baseBst": 410,
+     "orig": "Growlithe",
+     "origBst": 350
+    }
+   ]
+  },
+  {
+   "const": "TRAINER_FISHERMAN_DALE",
+   "class": "Fisherman",
+   "theme": "Water",
+   "theme_source": "class-locked",
+   "team": [
+    {
+     "species": "Brionne",
+     "level": 23,
+     "base": "Popplio",
+     "baseBst": 320,
+     "orig": "Goldeen",
+     "origBst": 320
+    },
+    {
+     "species": "Arrokuda",
+     "level": 23,
+     "base": "Staryu",
+     "baseBst": 340,
+     "orig": "Tentacool",
+     "origBst": 335
+    },
+    {
+     "species": "Buizel",
+     "level": 24,
+     "base": "Buizel",
+     "baseBst": 330,
+     "orig": "Goldeen",
+     "origBst": 320
+    }
+   ]
+  },
+  {
+   "const": "TRAINER_GENTLEMAN_BROOKS",
+   "class": "Gentleman",
+   "theme": "Fighting",
+   "theme_source": "dialogue",
+   "team": [
+    {
+     "species": "Riolu",
+     "level": 25,
+     "base": "Mienfoo",
+     "baseBst": 350,
+     "orig": "Pikachu",
+     "origBst": 320
+    }
+   ]
+  },
+  {
+   "const": "TRAINER_GENTLEMAN_LAMAR",
+   "class": "Gentleman",
+   "theme": "Steel",
+   "theme_source": "dialogue",
+   "team": [
+    {
+     "species": "Hisuian Goodra",
+     "level": 24,
+     "base": "Tinkatuff",
+     "baseBst": 380,
+     "orig": "Growlithe",
+     "origBst": 350
+    },
+    {
+     "species": "Duraludon",
+     "level": 25,
+     "base": "Metang",
+     "baseBst": 420,
+     "orig": "Ponyta",
+     "origBst": 410
+    }
+   ]
+  },
+  {
+   "const": "TRAINER_LASS_DAWN",
+   "class": "Lass",
+   "theme": "Fairy",
+   "theme_source": "dialogue",
+   "team": [
+    {
+     "species": "Rockruff",
+     "level": 24,
+     "base": "Tinkatink",
+     "baseBst": 297,
+     "orig": "Rattata",
+     "origBst": 253
+    },
+    {
+     "species": "Bonsly",
+     "level": 25,
+     "base": "Mawile",
+     "baseBst": 380,
+     "orig": "Pikachu",
+     "origBst": 320
+    }
+   ]
+  },
+  {
+   "const": "TRAINER_FISHERMAN_BARNY",
+   "class": "Fisherman",
+   "theme": "Water",
+   "theme_source": "class-locked",
+   "team": [
+    {
+     "species": "Kabuto",
+     "level": 23,
+     "base": "Kabuto",
+     "baseBst": 355,
+     "orig": "Tentacool",
+     "origBst": 335
+    },
+    {
+     "species": "Tirtouga",
+     "level": 24,
+     "base": "Tirtouga",
+     "baseBst": 355,
+     "orig": "Staryu",
+     "origBst": 340
+    },
+    {
+     "species": "Frogadier",
+     "level": 25,
+     "base": "Froakie",
+     "baseBst": 314,
+     "orig": "Shellder",
+     "origBst": 305
+    }
+   ]
+  },
+  {
+   "const": "TRAINER_SAILOR_PHILLIP",
+   "class": "Sailor",
+   "theme": "Water",
+   "theme_source": "class-locked",
+   "team": [
+    {
+     "species": "Marshtomp",
+     "level": 25,
+     "base": "Mudkip",
+     "baseBst": 310,
+     "orig": "Machop",
+     "origBst": 305
+    }
+   ]
+  },
+  {
+   "const": "TRAINER_SAILOR_HUEY",
+   "class": "Sailor",
+   "theme": "Water",
+   "theme_source": "class-locked",
+   "team": [
+    {
+     "species": "Horsea",
+     "level": 24,
+     "base": "Lombre",
+     "baseBst": 340,
+     "orig": "Tentacool",
+     "origBst": 335
+    },
+    {
+     "species": "Omanyte",
+     "level": 25,
+     "base": "Omanyte",
+     "baseBst": 355,
+     "orig": "Staryu",
+     "origBst": 340
+    }
+   ]
+  },
+  {
+   "const": "TRAINER_SAILOR_DYLAN",
+   "class": "Sailor",
+   "theme": "Water",
+   "theme_source": "class-locked",
+   "team": [
+    {
+     "species": "Dewott",
+     "level": 23,
+     "base": "Oshawott",
+     "baseBst": 308,
+     "orig": "Horsea",
+     "origBst": 295
+    },
+    {
+     "species": "Drizzile",
+     "level": 24,
+     "base": "Sobble",
+     "baseBst": 310,
+     "orig": "Horsea",
+     "origBst": 295
+    },
+    {
+     "species": "Prinplup",
+     "level": 25,
+     "base": "Piplup",
+     "baseBst": 314,
+     "orig": "Horsea",
+     "origBst": 295
+    }
+   ]
+  },
+  {
+   "const": "TRAINER_SAILOR_LEONARD",
+   "class": "Sailor",
+   "theme": "Water",
+   "theme_source": "class-locked",
+   "team": [
+    {
+     "species": "Wartortle",
+     "level": 26,
+     "base": "Squirtle",
+     "baseBst": 314,
+     "orig": "Shellder",
+     "origBst": 305
+    }
+   ]
+  },
+  {
+   "const": "TRAINER_SAILOR_DUNCAN",
+   "class": "Sailor",
+   "theme": "Water",
+   "theme_source": "class-locked",
+   "team": [
+    {
+     "species": "Carvanha",
+     "level": 24,
+     "base": "Carvanha",
+     "baseBst": 305,
+     "orig": "Horsea",
+     "origBst": 295
+    },
+    {
+     "species": "Seel",
+     "level": 25,
+     "base": "Seel",
+     "baseBst": 325,
+     "orig": "Shellder",
+     "origBst": 305
+    },
+    {
+     "species": "Spheal",
+     "level": 26,
+     "base": "Poliwhirl",
+     "baseBst": 385,
+     "orig": "Tentacool",
+     "origBst": 335
+    }
+   ]
+  },
+  {
+   "const": "TRAINER_SAILOR_EDMOND",
+   "class": "Sailor",
+   "theme": "Water",
+   "theme_source": "class-locked",
+   "team": [
+    {
+     "species": "Brionne",
+     "level": 25,
+     "base": "Popplio",
+     "baseBst": 320,
+     "orig": "Machop",
+     "origBst": 305
+    },
+    {
+     "species": "Magikarp",
+     "level": 26,
+     "base": "Buizel",
+     "baseBst": 330,
+     "orig": "Shellder",
+     "origBst": 305
+    }
+   ]
+  },
+  {
+   "const": "TRAINER_SAILOR_TREVOR",
+   "class": "Sailor",
+   "theme": "Water",
+   "theme_source": "class-locked",
+   "team": [
+    {
+     "species": "Chinchou",
+     "level": 25,
+     "base": "Chinchou",
+     "baseBst": 330,
+     "orig": "Machop",
+     "origBst": 305
+    },
+    {
+     "species": "Staryu",
+     "level": 26,
+     "base": "Staryu",
+     "baseBst": 340,
+     "orig": "Tentacool",
+     "origBst": 335
+    }
+   ]
+  },
+  {
+   "const": "TRAINER_SAILOR_DWAYNE",
+   "class": "Sailor",
+   "theme": "Electric",
+   "theme_source": "gym-override",
+   "team": [
+    {
+     "species": "Luxio",
+     "level": 25,
+     "base": "Luxio",
+     "baseBst": 363,
+     "orig": "Pikachu",
+     "origBst": 320
+    },
+    {
+     "species": "Flaaffy",
+     "level": 26,
+     "base": "Flaaffy",
+     "baseBst": 365,
+     "orig": "Pikachu",
+     "origBst": 320
+    }
+   ]
+  },
+  {
+   "const": "TRAINER_ENGINEER_BAILY",
+   "class": "Engineer",
+   "theme": "Electric",
+   "theme_source": "gym-override",
+   "team": [
+    {
+     "species": "Elekid",
+     "level": 25,
+     "base": "Elekid",
+     "baseBst": 360,
+     "orig": "Voltorb",
+     "origBst": 330
+    },
+    {
+     "species": "Pichu",
+     "level": 26,
+     "base": "Chinchou",
+     "baseBst": 330,
+     "orig": "Magnemite",
+     "origBst": 325
+    }
+   ]
+  },
+  {
+   "const": "TRAINER_GENTLEMAN_TUCKER",
+   "class": "Gentleman",
+   "theme": "Electric",
+   "theme_source": "gym-override",
+   "team": [
+    {
+     "species": "Voltorb",
+     "level": 26,
+     "base": "Voltorb",
+     "baseBst": 330,
+     "orig": "Pikachu",
+     "origBst": 320
+    }
+   ]
+  }
+ ]
+}
