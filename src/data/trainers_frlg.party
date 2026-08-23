@@ -13,7 +13,7 @@ Pic: Youngster Frlg
 Gender: Male
 Music: Male
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Slakoth
 Level: 16
@@ -30,7 +30,7 @@ Pic: Youngster Frlg
 Gender: Male
 Music: Male
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Wooloo
 Level: 16
@@ -43,7 +43,7 @@ Pic: Youngster Frlg
 Gender: Male
 Music: Male
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Diglett
 Level: 15
@@ -64,7 +64,7 @@ Pic: Youngster Frlg
 Gender: Male
 Music: Male
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Geodude
 Level: 17
@@ -81,7 +81,7 @@ Pic: Youngster Frlg
 Gender: Male
 Music: Male
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Wooloo
 Level: 19
@@ -98,7 +98,7 @@ Pic: Youngster Frlg
 Gender: Male
 Music: Male
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Chewtle
 Level: 21
@@ -111,7 +111,7 @@ Pic: Youngster Frlg
 Gender: Male
 Music: Male
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Gothita
 Level: 20
@@ -128,7 +128,7 @@ Pic: Youngster Frlg
 Gender: Male
 Music: Male
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Vigoroth
 Level: 24
@@ -141,7 +141,7 @@ Pic: Youngster Frlg
 Gender: Male
 Music: Male
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Copperajah
 Level: 38
@@ -154,7 +154,7 @@ Pic: Youngster Frlg
 Gender: Male
 Music: Male
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Minccino
 Level: 38
@@ -171,7 +171,7 @@ Pic: Youngster Frlg
 Gender: Male
 Music: Male
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Dubwool
 Level: 37
@@ -192,7 +192,7 @@ Pic: Youngster Frlg
 Gender: Male
 Music: Male
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Slaking
 Level: 38
@@ -209,7 +209,7 @@ Pic: Youngster Frlg
 Gender: Male
 Music: Male
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Rattata
 Level: 17
@@ -226,7 +226,7 @@ Pic: Bug Catcher Frlg
 Gender: Male
 Music: Male
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Caterpie
 Level: 5
@@ -243,7 +243,7 @@ Pic: Bug Catcher Frlg
 Gender: Male
 Music: Male
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Surskit
 Level: 5
@@ -264,7 +264,7 @@ Pic: Bug Catcher Frlg
 Gender: Male
 Music: Male
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Metapod
 Level: 9
@@ -277,7 +277,7 @@ Pic: Bug Catcher Frlg
 Gender: Male
 Music: Male
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Butterfree
 Level: 14
@@ -298,7 +298,7 @@ Pic: Bug Catcher Frlg
 Gender: Male
 Music: Male
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Butterfree
 Level: 14
@@ -323,7 +323,7 @@ Pic: Bug Catcher Frlg
 Gender: Male
 Music: Male
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Butterfree
 Level: 14
@@ -340,7 +340,7 @@ Pic: Bug Catcher Frlg
 Gender: Male
 Music: Male
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Surskit
 Level: 18
@@ -357,7 +357,7 @@ Pic: Bug Catcher Frlg
 Gender: Male
 Music: Male
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Butterfree
 Level: 17
@@ -378,7 +378,7 @@ Pic: Bug Catcher Frlg
 Gender: Male
 Music: Male
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Butterfree
 Level: 16
@@ -403,7 +403,7 @@ Pic: Bug Catcher Frlg
 Gender: Male
 Music: Male
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Volbeat
 Level: 23
@@ -424,7 +424,7 @@ Pic: Bug Catcher Frlg
 Gender: Male
 Music: Male
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Illumise
 Level: 23
@@ -437,7 +437,7 @@ Pic: Bug Catcher Frlg
 Gender: Male
 Music: Male
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Butterfree
 Level: 27
@@ -454,7 +454,7 @@ Pic: Bug Catcher Frlg
 Gender: Male
 Music: Male
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Armaldo
 Level: 27
@@ -475,7 +475,7 @@ Pic: Lass Frlg
 Gender: Male
 Music: Female
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Porygon
 Level: 15
@@ -492,7 +492,7 @@ Pic: Lass Frlg
 Gender: Male
 Music: Female
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Hatenna
 Level: 14
@@ -509,7 +509,7 @@ Pic: Lass Frlg
 Gender: Male
 Music: Female
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Kirlia
 Level: 14
@@ -522,7 +522,7 @@ Pic: Lass Frlg
 Gender: Male
 Music: Female
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Shroomish
 Level: 20
@@ -543,7 +543,7 @@ Pic: Lass Frlg
 Gender: Male
 Music: Female
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Dartrix
 Level: 17
@@ -560,7 +560,7 @@ Pic: Lass Frlg
 Gender: Male
 Music: Female
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Marill
 Level: 18
@@ -573,7 +573,7 @@ Pic: Lass Frlg
 Gender: Male
 Music: Female
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Igglybuff
 Level: 18
@@ -590,7 +590,7 @@ Pic: Lass Frlg
 Gender: Male
 Music: Female
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Cottonee
 Level: 16
@@ -611,7 +611,7 @@ Pic: Lass Frlg
 Gender: Male
 Music: Female
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Cleffa
 Level: 19
@@ -632,7 +632,7 @@ Pic: Lass Frlg
 Gender: Male
 Music: Female
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Vulpix-Alola
 Level: 23
@@ -649,7 +649,7 @@ Pic: Lass Frlg
 Gender: Male
 Music: Female
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Rockruff
 Level: 24
@@ -666,7 +666,7 @@ Pic: Lass Frlg
 Gender: Male
 Music: Female
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Nidorina
 Level: 32
@@ -683,7 +683,7 @@ Pic: Lass Frlg
 Gender: Male
 Music: Female
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Komala
 Level: 31
@@ -704,7 +704,7 @@ Pic: Lass Frlg
 Gender: Male
 Music: Female
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Vigoroth
 Level: 29
@@ -733,7 +733,7 @@ Pic: Lass Frlg
 Gender: Male
 Music: Female
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Comfey
 Level: 31
@@ -750,7 +750,7 @@ Pic: Lass Frlg
 Gender: Male
 Music: Female
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Floragato
 Level: 33
@@ -767,7 +767,7 @@ Pic: Lass Frlg
 Gender: Male
 Music: Female
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Tangela
 Level: 33
@@ -784,7 +784,7 @@ Pic: Sailor Frlg
 Gender: Male
 Music: Male
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Brionne
 Level: 25
@@ -801,7 +801,7 @@ Pic: Sailor Frlg
 Gender: Male
 Music: Male
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Chinchou
 Level: 25
@@ -818,7 +818,7 @@ Pic: Sailor Frlg
 Gender: Male
 Music: Male
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Wartortle
 Level: 26
@@ -831,7 +831,7 @@ Pic: Sailor Frlg
 Gender: Male
 Music: Male
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Carvanha
 Level: 24
@@ -852,7 +852,7 @@ Pic: Sailor Frlg
 Gender: Male
 Music: Male
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Horsea
 Level: 24
@@ -869,7 +869,7 @@ Pic: Sailor Frlg
 Gender: Male
 Music: Male
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Dewott
 Level: 23
@@ -890,7 +890,7 @@ Pic: Sailor Frlg
 Gender: Male
 Music: Male
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Marshtomp
 Level: 25
@@ -903,7 +903,7 @@ Pic: Sailor Frlg
 Gender: Male
 Music: Male
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Luxio
 Level: 25
@@ -920,7 +920,7 @@ Pic: Camper Frlg
 Gender: Male
 Music: Male
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Tyrunt
 Level: 12
@@ -937,7 +937,7 @@ Pic: Camper Frlg
 Gender: Male
 Music: Male
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Lotad
 Level: 18
@@ -954,7 +954,7 @@ Pic: Camper Frlg
 Gender: Male
 Music: Male
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Machop
 Level: 20
@@ -967,7 +967,7 @@ Pic: Camper Frlg
 Gender: Male
 Music: Male
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Dratini
 Level: 23
@@ -980,7 +980,7 @@ Pic: Camper Frlg
 Gender: Male
 Music: Male
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Snorunt
 Level: 23
@@ -997,7 +997,7 @@ Pic: Camper Frlg
 Gender: Male
 Music: Male
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Ponyta
 Level: 27
@@ -1014,7 +1014,7 @@ Pic: Camper Frlg
 Gender: Male
 Music: Male
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Dugtrio
 Level: 27
@@ -1039,7 +1039,7 @@ Pic: Picnicker Frlg
 Gender: Male
 Music: Girl
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Psyduck
 Level: 22
@@ -1052,7 +1052,7 @@ Pic: Picnicker Frlg
 Gender: Male
 Music: Girl
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Kirlia
 Level: 23
@@ -1069,7 +1069,7 @@ Pic: Picnicker Frlg
 Gender: Male
 Music: Girl
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Bagon
 Level: 23
@@ -1090,7 +1090,7 @@ Pic: Picnicker Frlg
 Gender: Male
 Music: Girl
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Grovyle
 Level: 19
@@ -1107,7 +1107,7 @@ Pic: Picnicker Frlg
 Gender: Male
 Music: Girl
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Dartrix
 Level: 27
@@ -1132,7 +1132,7 @@ Pic: Picnicker Frlg
 Gender: Male
 Music: Girl
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Kangaskhan
 Level: 28
@@ -1145,7 +1145,7 @@ Pic: Picnicker Frlg
 Gender: Male
 Music: Girl
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Eevee
 Level: 28
@@ -1162,7 +1162,7 @@ Pic: Picnicker Frlg
 Gender: Male
 Music: Girl
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Budew
 Level: 28
@@ -1179,7 +1179,7 @@ Pic: Picnicker Frlg
 Gender: Male
 Music: Girl
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Parasect
 Level: 29
@@ -1200,7 +1200,7 @@ Pic: Picnicker Frlg
 Gender: Male
 Music: Girl
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Staravia
 Level: 30
@@ -1217,7 +1217,7 @@ Pic: Picnicker Frlg
 Gender: Male
 Music: Girl
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Meganium
 Level: 33
@@ -1234,7 +1234,7 @@ Pic: Picnicker Frlg
 Gender: Male
 Music: Girl
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Pidgey
 Level: 24
@@ -1263,7 +1263,7 @@ Pic: Pokemaniac Frlg
 Gender: Male
 Music: Suspicious
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Buneary
 Level: 28
@@ -1280,7 +1280,7 @@ Pic: Pokemaniac Frlg
 Gender: Male
 Music: Suspicious
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Hippopotas
 Level: 28
@@ -1297,7 +1297,7 @@ Pic: Pokemaniac Frlg
 Gender: Male
 Music: Suspicious
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Rufflet
 Level: 30
@@ -1318,7 +1318,7 @@ Pic: Pokemaniac Frlg
 Gender: Male
 Music: Suspicious
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Sandygast
 Level: 31
@@ -1335,7 +1335,7 @@ Pic: Pokemaniac Frlg
 Gender: Male
 Music: Suspicious
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Ursaring
 Level: 32
@@ -1348,7 +1348,7 @@ Pic: Pokemaniac Frlg
 Gender: Male
 Music: Suspicious
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Machamp
 Level: 63
@@ -1369,7 +1369,7 @@ Pic: Pokemaniac Frlg
 Gender: Male
 Music: Suspicious
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Vibrava
 Level: 29
@@ -1386,7 +1386,7 @@ Pic: Super Nerd Frlg
 Gender: Male
 Music: Suspicious
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Shinx
 Level: 18
@@ -1403,7 +1403,7 @@ Pic: Super Nerd Frlg
 Gender: Male
 Music: Suspicious
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Honedge
 Level: 18
@@ -1424,7 +1424,7 @@ Pic: Super Nerd Frlg
 Gender: Male
 Music: Suspicious
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Skorupi
 Level: 30
@@ -1449,7 +1449,7 @@ Pic: Super Nerd Frlg
 Gender: Male
 Music: Suspicious
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Grimer-Alola
 Level: 30
@@ -1470,7 +1470,7 @@ Pic: Super Nerd Frlg
 Gender: Male
 Music: Suspicious
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Luxray
 Level: 33
@@ -1483,7 +1483,7 @@ Pic: Super Nerd Frlg
 Gender: Male
 Music: Suspicious
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Quilava
 Level: 55
@@ -1504,7 +1504,7 @@ Pic: Super Nerd Frlg
 Gender: Male
 Music: Suspicious
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Flareon
 Level: 54
@@ -1529,7 +1529,7 @@ Pic: Super Nerd Frlg
 Gender: Male
 Music: Suspicious
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Darumaka
 Level: 57
@@ -1542,7 +1542,7 @@ Pic: Super Nerd Frlg
 Gender: Male
 Music: Suspicious
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Lampent
 Level: 56
@@ -1559,7 +1559,7 @@ Pic: Hiker Frlg
 Gender: Male
 Music: Hiker
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Larvitar
 Level: 15
@@ -1580,7 +1580,7 @@ Pic: Hiker Frlg
 Gender: Male
 Music: Hiker
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Cubone
 Level: 19
@@ -1597,7 +1597,7 @@ Pic: Hiker Frlg
 Gender: Male
 Music: Hiker
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Gible
 Level: 18
@@ -1622,7 +1622,7 @@ Pic: Hiker Frlg
 Gender: Male
 Music: Hiker
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Archen
 Level: 21
@@ -1635,7 +1635,7 @@ Pic: Hiker Frlg
 Gender: Male
 Music: Hiker
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Larvitar
 Level: 27
@@ -1652,7 +1652,7 @@ Pic: Hiker Frlg
 Gender: Male
 Music: Hiker
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Baltoy
 Level: 27
@@ -1673,7 +1673,7 @@ Pic: Hiker Frlg
 Gender: Male
 Music: Hiker
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Rhyhorn
 Level: 28
@@ -1690,7 +1690,7 @@ Pic: Hiker Frlg
 Gender: Male
 Music: Hiker
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Marshtomp
 Level: 28
@@ -1707,7 +1707,7 @@ Pic: Hiker Frlg
 Gender: Male
 Music: Hiker
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Baltoy
 Level: 29
@@ -1728,7 +1728,7 @@ Pic: Hiker Frlg
 Gender: Male
 Music: Hiker
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Glimmet
 Level: 31
@@ -1741,7 +1741,7 @@ Pic: Hiker Frlg
 Gender: Male
 Music: Hiker
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Marowak
 Level: 30
@@ -1758,7 +1758,7 @@ Pic: Hiker Frlg
 Gender: Male
 Music: Hiker
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Cranidos
 Level: 27
@@ -1783,7 +1783,7 @@ Pic: Hiker Frlg
 Gender: Male
 Music: Hiker
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Pupitar
 Level: 28
@@ -1804,7 +1804,7 @@ Pic: Hiker Frlg
 Gender: Male
 Music: Hiker
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Solrock
 Level: 29
@@ -1821,7 +1821,7 @@ Pic: Biker Frlg
 Gender: Male
 Music: Male
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Nidorino
 Level: 41
@@ -1842,7 +1842,7 @@ Pic: Biker Frlg
 Gender: Male
 Music: Male
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Weepinbell
 Level: 43
@@ -1859,7 +1859,7 @@ Pic: Biker Frlg
 Gender: Male
 Music: Male
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Glimmora
 Level: 42
@@ -1888,7 +1888,7 @@ Pic: Biker Frlg
 Gender: Male
 Music: Male
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Weepinbell
 Level: 44
@@ -1909,7 +1909,7 @@ Pic: Biker Frlg
 Gender: Male
 Music: Male
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Grimer-Alola
 Level: 35
@@ -1926,7 +1926,7 @@ Pic: Biker Frlg
 Gender: Male
 Music: Male
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Weezing-Galar
 Level: 36
@@ -1939,7 +1939,7 @@ Pic: Biker Frlg
 Gender: Male
 Music: Male
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Vileplume
 Level: 35
@@ -1960,7 +1960,7 @@ Pic: Biker Frlg
 Gender: Male
 Music: Male
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Drapion
 Level: 37
@@ -1973,7 +1973,7 @@ Pic: Biker Frlg
 Gender: Male
 Music: Male
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Skorupi
 Level: 36
@@ -1990,7 +1990,7 @@ Pic: Biker Frlg
 Gender: Male
 Music: Male
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Muk
 Level: 37
@@ -2007,7 +2007,7 @@ Pic: Biker Frlg
 Gender: Male
 Music: Male
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Weepinbell
 Level: 35
@@ -2036,7 +2036,7 @@ Pic: Biker Frlg
 Gender: Male
 Music: Male
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Glimmora
 Level: 41
@@ -2061,7 +2061,7 @@ Pic: Biker Frlg
 Gender: Male
 Music: Male
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Garbodor
 Level: 42
@@ -2082,7 +2082,7 @@ Pic: Biker Frlg
 Gender: Male
 Music: Male
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Nidorina
 Level: 42
@@ -2099,7 +2099,7 @@ Pic: Burglar Frlg
 Gender: Male
 Music: Suspicious
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Arcanine
 Level: 55
@@ -2120,7 +2120,7 @@ Pic: Burglar Frlg
 Gender: Male
 Music: Suspicious
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Charcadet
 Level: 57
@@ -2133,7 +2133,7 @@ Pic: Burglar Frlg
 Gender: Male
 Music: Suspicious
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Cinderace
 Level: 56
@@ -2150,7 +2150,7 @@ Pic: Burglar Frlg
 Gender: Male
 Music: Suspicious
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Typhlosion-Hisui
 Level: 55
@@ -2167,7 +2167,7 @@ Pic: Burglar Frlg
 Gender: Male
 Music: Suspicious
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Ceruledge
 Level: 57
@@ -2180,7 +2180,7 @@ Pic: Burglar Frlg
 Gender: Male
 Music: Suspicious
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Growlithe-Hisui
 Level: 56
@@ -2197,7 +2197,7 @@ Pic: Engineer Frlg
 Gender: Male
 Music: Male
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Elekid
 Level: 25
@@ -2214,7 +2214,7 @@ Pic: Engineer Frlg
 Gender: Male
 Music: Male
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Luxray
 Level: 39
@@ -2227,7 +2227,7 @@ Pic: Engineer Frlg
 Gender: Male
 Music: Male
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Electrode
 Level: 38
@@ -2248,7 +2248,7 @@ Pic: Fisherman Frlg
 Gender: Male
 Music: Hiker
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Brionne
 Level: 23
@@ -2269,7 +2269,7 @@ Pic: Fisherman Frlg
 Gender: Male
 Music: Hiker
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Kabuto
 Level: 23
@@ -2290,7 +2290,7 @@ Pic: Fisherman Frlg
 Gender: Male
 Music: Hiker
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Golduck
 Level: 38
@@ -2311,7 +2311,7 @@ Pic: Fisherman Frlg
 Gender: Male
 Music: Hiker
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Pyukumuku
 Level: 39
@@ -2328,7 +2328,7 @@ Pic: Fisherman Frlg
 Gender: Male
 Music: Hiker
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Shellos
 Level: 40
@@ -2341,7 +2341,7 @@ Pic: Fisherman Frlg
 Gender: Male
 Music: Hiker
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Barraskewda
 Level: 37
@@ -2366,7 +2366,7 @@ Pic: Fisherman Frlg
 Gender: Male
 Music: Hiker
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Seaking
 Level: 28
@@ -2391,7 +2391,7 @@ Pic: Fisherman Frlg
 Gender: Male
 Music: Hiker
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Shellder
 Level: 31
@@ -2408,7 +2408,7 @@ Pic: Fisherman Frlg
 Gender: Male
 Music: Hiker
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Magikarp
 Level: 27
@@ -2441,7 +2441,7 @@ Pic: Fisherman Frlg
 Gender: Male
 Music: Hiker
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Seaking
 Level: 33
@@ -2458,7 +2458,7 @@ Pic: Fisherman Frlg
 Gender: Male
 Music: Hiker
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Feebas
 Level: 40
@@ -2475,7 +2475,7 @@ Pic: Swimmer M Frlg
 Gender: Male
 Music: Swimmer
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Poliwag
 Level: 21
@@ -2492,7 +2492,7 @@ Pic: Swimmer M Frlg
 Gender: Male
 Music: Swimmer
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Staryu
 Level: 53
@@ -2509,7 +2509,7 @@ Pic: Swimmer M Frlg
 Gender: Male
 Music: Swimmer
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Primarina
 Level: 53
@@ -2530,7 +2530,7 @@ Pic: Swimmer M Frlg
 Gender: Male
 Music: Swimmer
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Swampert
 Level: 53
@@ -2547,7 +2547,7 @@ Pic: Swimmer M Frlg
 Gender: Male
 Music: Swimmer
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Inteleon
 Level: 53
@@ -2572,7 +2572,7 @@ Pic: Swimmer M Frlg
 Gender: Male
 Music: Swimmer
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Dewgong
 Level: 53
@@ -2593,7 +2593,7 @@ Pic: Swimmer M Frlg
 Gender: Male
 Music: Swimmer
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Aegislash
 Level: 53
@@ -2610,7 +2610,7 @@ Pic: Swimmer M Frlg
 Gender: Male
 Music: Swimmer
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Carracosta
 Level: 53
@@ -2639,7 +2639,7 @@ Pic: Swimmer M Frlg
 Gender: Male
 Music: Swimmer
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Sharpedo
 Level: 55
@@ -2656,7 +2656,7 @@ Pic: Swimmer M Frlg
 Gender: Male
 Music: Swimmer
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Lombre
 Level: 55
@@ -2669,7 +2669,7 @@ Pic: Swimmer M Frlg
 Gender: Male
 Music: Swimmer
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Hawlucha
 Level: 53
@@ -2694,7 +2694,7 @@ Pic: Swimmer M Frlg
 Gender: Male
 Music: Swimmer
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Seadra
 Level: 33
@@ -2711,7 +2711,7 @@ Pic: Swimmer M Frlg
 Gender: Male
 Music: Swimmer
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Starmie
 Level: 37
@@ -2724,7 +2724,7 @@ Pic: Swimmer M Frlg
 Gender: Male
 Music: Swimmer
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Staryu
 Level: 33
@@ -2741,7 +2741,7 @@ Pic: Swimmer M Frlg
 Gender: Male
 Music: Swimmer
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Poliwhirl
 Level: 32
@@ -2762,7 +2762,7 @@ Pic: Cue Ball Frlg
 Gender: Male
 Music: Male
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Primeape
 Level: 35
@@ -2783,7 +2783,7 @@ Pic: Cue Ball Frlg
 Gender: Male
 Music: Male
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Pangoro
 Level: 35
@@ -2800,7 +2800,7 @@ Pic: Cue Ball Frlg
 Gender: Male
 Music: Male
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Machoke
 Level: 35
@@ -2817,7 +2817,7 @@ Pic: Cue Ball Frlg
 Gender: Male
 Music: Male
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Pangoro
 Level: 35
@@ -2834,7 +2834,7 @@ Pic: Cue Ball Frlg
 Gender: Male
 Music: Male
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Bewear
 Level: 35
@@ -2851,7 +2851,7 @@ Pic: Cue Ball Frlg
 Gender: Male
 Music: Male
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Blaziken
 Level: 37
@@ -2864,7 +2864,7 @@ Pic: Cue Ball Frlg
 Gender: Male
 Music: Male
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Mienfoo
 Level: 35
@@ -2889,7 +2889,7 @@ Pic: Cue Ball Frlg
 Gender: Male
 Music: Male
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Hitmonchan
 Level: 36
@@ -2906,7 +2906,7 @@ Pic: Cue Ball Frlg
 Gender: Male
 Music: Male
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Tentacool
 Level: 31
@@ -2927,7 +2927,7 @@ Pic: Gamer Frlg
 Gender: Male
 Music: Male
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Pikachu
 Level: 37
@@ -2944,7 +2944,7 @@ Pic: Gamer Frlg
 Gender: Male
 Music: Male
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Lanturn
 Level: 38
@@ -2961,7 +2961,7 @@ Pic: Gamer Frlg
 Gender: Male
 Music: Male
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Ampharos
 Level: 39
@@ -2978,7 +2978,7 @@ Pic: Gamer Frlg
 Gender: Male
 Music: Male
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Electabuzz
 Level: 38
@@ -2995,7 +2995,7 @@ Pic: Gamer Frlg
 Gender: Male
 Music: Male
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Metang
 Level: 31
@@ -3016,7 +3016,7 @@ Pic: Gamer Frlg
 Gender: Male
 Music: Male
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Togedemaru
 Level: 31
@@ -3033,7 +3033,7 @@ Pic: Beauty Frlg
 Gender: Male
 Music: Female
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Jumpluff
 Level: 31
@@ -3058,7 +3058,7 @@ Pic: Beauty Frlg
 Gender: Male
 Music: Female
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Torterra
 Level: 33
@@ -3075,7 +3075,7 @@ Pic: Beauty Frlg
 Gender: Male
 Music: Female
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Voltorb-Hisui
 Level: 34
@@ -3088,7 +3088,7 @@ Pic: Beauty Frlg
 Gender: Male
 Music: Female
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Morgrem
 Level: 40
@@ -3109,7 +3109,7 @@ Pic: Beauty Frlg
 Gender: Male
 Music: Female
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Mawile
 Level: 41
@@ -3126,7 +3126,7 @@ Pic: Swimmer F Frlg
 Gender: Male
 Music: Female
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Relicanth
 Level: 56
@@ -3139,7 +3139,7 @@ Pic: Swimmer F Frlg
 Gender: Male
 Music: Female
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Dondozo
 Level: 53
@@ -3160,7 +3160,7 @@ Pic: Swimmer F Frlg
 Gender: Male
 Music: Female
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Rotom-Wash
 Level: 54
@@ -3177,7 +3177,7 @@ Pic: Beauty Frlg
 Gender: Male
 Music: Female
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Grimmsnarl
 Level: 45
@@ -3194,7 +3194,7 @@ Pic: Beauty Frlg
 Gender: Male
 Music: Female
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Clefairy
 Level: 44
@@ -3211,7 +3211,7 @@ Pic: Swimmer F Frlg
 Gender: Male
 Music: Female
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Weepinbell
 Level: 33
@@ -3232,7 +3232,7 @@ Pic: Swimmer F Frlg
 Gender: Male
 Music: Female
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Blastoise
 Level: 53
@@ -3261,7 +3261,7 @@ Pic: Swimmer F Frlg
 Gender: Male
 Music: Female
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Gholdengo
 Level: 53
@@ -3278,7 +3278,7 @@ Pic: Swimmer F Frlg
 Gender: Male
 Music: Female
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Archaludon
 Level: 53
@@ -3299,7 +3299,7 @@ Pic: Swimmer F Frlg
 Gender: Male
 Music: Female
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Ludicolo
 Level: 54
@@ -3320,7 +3320,7 @@ Pic: Psychic M Frlg
 Gender: Male
 Music: Intense
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Metagross
 Level: 50
@@ -3345,7 +3345,7 @@ Pic: Psychic M Frlg
 Gender: Male
 Music: Intense
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Lunatone
 Level: 51
@@ -3362,7 +3362,7 @@ Pic: Psychic M Frlg
 Gender: Male
 Music: Intense
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Exeggcute
 Level: 50
@@ -3383,7 +3383,7 @@ Pic: Psychic M Frlg
 Gender: Male
 Music: Intense
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Solosis
 Level: 52
@@ -3396,7 +3396,7 @@ Pic: Rocker Frlg
 Gender: Male
 Music: Male
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Voltorb
 Level: 20
@@ -3417,7 +3417,7 @@ Pic: Rocker Frlg
 Gender: Male
 Music: Male
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Electabuzz
 Level: 40
@@ -3434,7 +3434,7 @@ Pic: Juggler Frlg
 Gender: Male
 Music: Hiker
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Metagross
 Level: 50
@@ -3451,7 +3451,7 @@ Pic: Juggler Frlg
 Gender: Male
 Music: Hiker
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Grumpig
 Level: 63
@@ -3476,7 +3476,7 @@ Pic: Juggler Frlg
 Gender: Male
 Music: Hiker
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Drapion
 Level: 46
@@ -3501,7 +3501,7 @@ Pic: Juggler Frlg
 Gender: Male
 Music: Hiker
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Garbodor
 Level: 48
@@ -3518,7 +3518,7 @@ Pic: Juggler Frlg
 Gender: Male
 Music: Hiker
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Gallade
 Level: 67
@@ -3531,7 +3531,7 @@ Pic: Juggler Frlg
 Gender: Male
 Music: Hiker
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Voltorb
 Level: 46
@@ -3572,7 +3572,7 @@ Pic: Juggler Frlg
 Gender: Male
 Music: Hiker
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Roserade
 Level: 49
@@ -3585,7 +3585,7 @@ Pic: Juggler Frlg
 Gender: Male
 Music: Hiker
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Skuntank
 Level: 48
@@ -3602,7 +3602,7 @@ Pic: Tamer Frlg
 Gender: Male
 Music: Hiker
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Venomoth
 Level: 48
@@ -3619,7 +3619,7 @@ Pic: Tamer Frlg
 Gender: Male
 Music: Hiker
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Garbodor
 Level: 47
@@ -3640,7 +3640,7 @@ Pic: Tamer Frlg
 Gender: Male
 Music: Hiker
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Mamoswine
 Level: 62
@@ -3653,7 +3653,7 @@ Pic: Tamer Frlg
 Gender: Male
 Music: Hiker
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Piloswine
 Level: 61
@@ -3670,7 +3670,7 @@ Pic: Tamer Frlg
 Gender: Male
 Music: Hiker
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Cinccino
 Level: 66
@@ -3687,7 +3687,7 @@ Pic: Tamer Frlg
 Gender: Male
 Music: Hiker
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Rhyhorn
 Level: 42
@@ -3712,7 +3712,7 @@ Pic: Bird Keeper Frlg
 Gender: Male
 Music: Cool
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Talonflame
 Level: 40
@@ -3729,7 +3729,7 @@ Pic: Bird Keeper Frlg
 Gender: Male
 Music: Cool
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Rookidee
 Level: 39
@@ -3758,7 +3758,7 @@ Pic: Bird Keeper Frlg
 Gender: Male
 Music: Cool
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Altaria
 Level: 39
@@ -3783,7 +3783,7 @@ Pic: Bird Keeper Frlg
 Gender: Male
 Music: Cool
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Talonflame
 Level: 43
@@ -3796,7 +3796,7 @@ Pic: Bird Keeper Frlg
 Gender: Male
 Music: Cool
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Altaria
 Level: 43
@@ -3813,7 +3813,7 @@ Pic: Bird Keeper Frlg
 Gender: Male
 Music: Cool
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Rufflet
 Level: 42
@@ -3838,7 +3838,7 @@ Pic: Bird Keeper Frlg
 Gender: Male
 Music: Cool
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Corviknight
 Level: 43
@@ -3859,7 +3859,7 @@ Pic: Bird Keeper Frlg
 Gender: Male
 Music: Cool
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Pelipper
 Level: 37
@@ -3876,7 +3876,7 @@ Pic: Bird Keeper Frlg
 Gender: Male
 Music: Cool
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Xatu
 Level: 38
@@ -3889,7 +3889,7 @@ Pic: Bird Keeper Frlg
 Gender: Male
 Music: Cool
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Pelipper
 Level: 35
@@ -3914,7 +3914,7 @@ Pic: Bird Keeper Frlg
 Gender: Male
 Music: Cool
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Salamence
 Level: 53
@@ -3935,7 +3935,7 @@ Pic: Bird Keeper Frlg
 Gender: Male
 Music: Cool
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Pidgeotto
 Level: 39
@@ -3960,7 +3960,7 @@ Pic: Bird Keeper Frlg
 Gender: Male
 Music: Cool
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Farfetchd
 Level: 39
@@ -3977,7 +3977,7 @@ Pic: Bird Keeper Frlg
 Gender: Male
 Music: Cool
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Talonflame
 Level: 42
@@ -3998,7 +3998,7 @@ Pic: Bird Keeper Frlg
 Gender: Male
 Music: Cool
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Talonflame
 Level: 41
@@ -4023,7 +4023,7 @@ Pic: Bird Keeper Frlg
 Gender: Male
 Music: Cool
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Vullaby
 Level: 42
@@ -4040,7 +4040,7 @@ Pic: Bird Keeper Frlg
 Gender: Male
 Music: Cool
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Pelipper
 Level: 41
@@ -4061,7 +4061,7 @@ Pic: Black Belt Frlg
 Gender: Male
 Music: Intense
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Primeape
 Level: 50
@@ -4078,7 +4078,7 @@ Pic: Black Belt Frlg
 Gender: Male
 Music: Intense
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Pangoro
 Level: 50
@@ -4099,7 +4099,7 @@ Pic: Black Belt Frlg
 Gender: Male
 Music: Intense
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Bewear
 Level: 50
@@ -4116,7 +4116,7 @@ Pic: Black Belt Frlg
 Gender: Male
 Music: Intense
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Hitmonlee
 Level: 50
@@ -4129,7 +4129,7 @@ Pic: Black Belt Frlg
 Gender: Male
 Music: Intense
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Primeape
 Level: 50
@@ -4150,7 +4150,7 @@ Pic: Black Belt Frlg
 Gender: Male
 Music: Intense
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Hippowdon
 Level: 61
@@ -4167,7 +4167,7 @@ Pic: Black Belt Frlg
 Gender: Male
 Music: Intense
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Garchomp
 Level: 62
@@ -4180,7 +4180,7 @@ Pic: Black Belt Frlg
 Gender: Male
 Music: Intense
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Tyranitar
 Level: 60
@@ -4201,7 +4201,7 @@ Pic: Black Belt Frlg
 Gender: Male
 Music: Intense
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Kubfu
 Level: 63
@@ -4441,7 +4441,7 @@ Pic: Scientist Frlg
 Gender: Male
 Music: Suspicious
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Rotom-Heat
 Level: 55
@@ -4458,7 +4458,7 @@ Pic: Scientist Frlg
 Gender: Male
 Music: Suspicious
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Muk-Alola
 Level: 50
@@ -4483,7 +4483,7 @@ Pic: Scientist Frlg
 Gender: Male
 Music: Suspicious
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Lanturn
 Level: 50
@@ -4504,7 +4504,7 @@ Pic: Scientist Frlg
 Gender: Male
 Music: Suspicious
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Sandslash-Alola
 Level: 50
@@ -4521,7 +4521,7 @@ Pic: Scientist Frlg
 Gender: Male
 Music: Suspicious
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Electrode-Hisui
 Level: 51
@@ -4534,7 +4534,7 @@ Pic: Scientist Frlg
 Gender: Male
 Music: Suspicious
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Garbodor
 Level: 50
@@ -4559,7 +4559,7 @@ Pic: Scientist Frlg
 Gender: Male
 Music: Suspicious
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Sliggoo-Hisui
 Level: 50
@@ -4588,7 +4588,7 @@ Pic: Scientist Frlg
 Gender: Male
 Music: Suspicious
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Weezing
 Level: 50
@@ -4605,7 +4605,7 @@ Pic: Scientist Frlg
 Gender: Male
 Music: Suspicious
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Weezing
 Level: 50
@@ -4622,7 +4622,7 @@ Pic: Scientist Frlg
 Gender: Male
 Music: Suspicious
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Lanturn
 Level: 50
@@ -4643,7 +4643,7 @@ Pic: Scientist Frlg
 Gender: Male
 Music: Suspicious
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Voltorb-Hisui
 Level: 51
@@ -4660,7 +4660,7 @@ Pic: Scientist Frlg
 Gender: Male
 Music: Suspicious
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Rotom-Fan
 Level: 55
@@ -4681,7 +4681,7 @@ Pic: Scientist Frlg
 Gender: Male
 Music: Suspicious
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Dewgong
 Level: 56
@@ -4698,7 +4698,7 @@ Pic: Leader Giovanni Frlg
 Gender: Male
 Music: Aqua
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Onix
 Level: 25
@@ -4719,7 +4719,7 @@ Pic: Leader Giovanni Frlg
 Gender: Male
 Music: Aqua
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Nidorino
 Level: 37
@@ -4794,7 +4794,7 @@ Pic: Rocket Grunt M Frlg
 Gender: Male
 Music: Aqua
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Wooper-Paldea
 Level: 19
@@ -4811,7 +4811,7 @@ Pic: Rocket Grunt M Frlg
 Gender: Male
 Music: Aqua
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Deino
 Level: 18
@@ -4832,7 +4832,7 @@ Pic: Rocket Grunt M Frlg
 Gender: Male
 Music: Aqua
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Budew
 Level: 20
@@ -4849,7 +4849,7 @@ Pic: Rocket Grunt M Frlg
 Gender: Male
 Music: Aqua
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Impidimp
 Level: 20
@@ -4866,7 +4866,7 @@ Pic: Rocket Grunt M Frlg
 Gender: Male
 Music: Aqua
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Grimer-Alola
 Level: 21
@@ -4883,7 +4883,7 @@ Pic: Rocket Grunt M Frlg
 Gender: Male
 Music: Aqua
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Venonat
 Level: 18
@@ -4900,7 +4900,7 @@ Pic: Rocket Grunt M Frlg
 Gender: Male
 Music: Aqua
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Clodsire
 Level: 33
@@ -4917,7 +4917,7 @@ Pic: Rocket Grunt M Frlg
 Gender: Male
 Music: Aqua
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Zoroark
 Level: 33
@@ -4934,7 +4934,7 @@ Pic: Rocket Grunt M Frlg
 Gender: Male
 Music: Aqua
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Venomoth
 Level: 33
@@ -4951,7 +4951,7 @@ Pic: Rocket Grunt M Frlg
 Gender: Male
 Music: Aqua
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Pawniard
 Level: 32
@@ -4972,7 +4972,7 @@ Pic: Rocket Grunt M Frlg
 Gender: Male
 Music: Aqua
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Nidorino
 Level: 31
@@ -4997,7 +4997,7 @@ Pic: Rocket Grunt M Frlg
 Gender: Male
 Music: Aqua
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Stunky
 Level: 33
@@ -5014,7 +5014,7 @@ Pic: Rocket Grunt M Frlg
 Gender: Male
 Music: Aqua
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Budew
 Level: 30
@@ -5043,7 +5043,7 @@ Pic: Rocket Grunt M Frlg
 Gender: Male
 Music: Aqua
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Bisharp
 Level: 32
@@ -5064,7 +5064,7 @@ Pic: Rocket Grunt M Frlg
 Gender: Male
 Music: Aqua
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Mareanie
 Level: 33
@@ -5081,7 +5081,7 @@ Pic: Rocket Grunt M Frlg
 Gender: Male
 Music: Aqua
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Haunter
 Level: 32
@@ -5102,7 +5102,7 @@ Pic: Rocket Grunt M Frlg
 Gender: Male
 Music: Aqua
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Krokorok
 Level: 32
@@ -5123,7 +5123,7 @@ Pic: Rocket Grunt M Frlg
 Gender: Male
 Music: Aqua
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Morgrem
 Level: 33
@@ -5140,7 +5140,7 @@ Pic: Rocket Grunt M Frlg
 Gender: Male
 Music: Aqua
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Malamar
 Level: 47
@@ -5161,7 +5161,7 @@ Pic: Rocket Grunt M Frlg
 Gender: Male
 Music: Aqua
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Pawniard
 Level: 48
@@ -5178,7 +5178,7 @@ Pic: Rocket Grunt M Frlg
 Gender: Male
 Music: Aqua
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Malamar
 Level: 46
@@ -5203,7 +5203,7 @@ Pic: Rocket Grunt M Frlg
 Gender: Male
 Music: Aqua
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Drowzee
 Level: 26
@@ -5220,7 +5220,7 @@ Pic: Rocket Grunt M Frlg
 Gender: Male
 Music: Aqua
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Gloom
 Level: 50
@@ -5237,7 +5237,7 @@ Pic: Rocket Grunt M Frlg
 Gender: Male
 Music: Aqua
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Sharpedo
 Level: 50
@@ -5266,7 +5266,7 @@ Pic: Rocket Grunt M Frlg
 Gender: Male
 Music: Aqua
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Clodsire
 Level: 50
@@ -5287,7 +5287,7 @@ Pic: Rocket Grunt M Frlg
 Gender: Male
 Music: Aqua
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Sharpedo
 Level: 50
@@ -5304,7 +5304,7 @@ Pic: Rocket Grunt M Frlg
 Gender: Male
 Music: Aqua
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Amoonguss
 Level: 50
@@ -5325,7 +5325,7 @@ Pic: Rocket Grunt M Frlg
 Gender: Male
 Music: Aqua
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Golbat
 Level: 51
@@ -5338,7 +5338,7 @@ Pic: Rocket Grunt M Frlg
 Gender: Male
 Music: Aqua
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Spiritomb
 Level: 51
@@ -5351,7 +5351,7 @@ Pic: Rocket Grunt M Frlg
 Gender: Male
 Music: Aqua
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Zoroark
 Level: 50
@@ -5368,7 +5368,7 @@ Pic: Rocket Grunt M Frlg
 Gender: Male
 Music: Aqua
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Budew
 Level: 50
@@ -5389,7 +5389,7 @@ Pic: Rocket Grunt M Frlg
 Gender: Male
 Music: Aqua
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Sneasel
 Level: 50
@@ -5414,7 +5414,7 @@ Pic: Rocket Grunt M Frlg
 Gender: Male
 Music: Aqua
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Drapion
 Level: 50
@@ -5431,7 +5431,7 @@ Pic: Rocket Grunt M Frlg
 Gender: Male
 Music: Aqua
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Zweilous
 Level: 50
@@ -5448,7 +5448,7 @@ Pic: Rocket Grunt M Frlg
 Gender: Male
 Music: Aqua
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Clodsire
 Level: 50
@@ -5473,7 +5473,7 @@ Pic: Rocket Grunt M Frlg
 Gender: Male
 Music: Aqua
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Drapion
 Level: 50
@@ -5494,7 +5494,7 @@ Pic: Rocket Grunt M Frlg
 Gender: Male
 Music: Aqua
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Krookodile
 Level: 50
@@ -5515,7 +5515,7 @@ Pic: Rocket Grunt M Frlg
 Gender: Male
 Music: Aqua
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Muk
 Level: 50
@@ -5536,7 +5536,7 @@ Pic: Rocket Grunt M Frlg
 Gender: Male
 Music: Aqua
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Morpeko
 Level: 52
@@ -5549,7 +5549,7 @@ Pic: Rocket Grunt M Frlg
 Gender: Male
 Music: Aqua
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Budew
 Level: 50
@@ -5578,7 +5578,7 @@ Pic: Rocket Grunt M Frlg
 Gender: Male
 Music: Aqua
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Vullaby
 Level: 50
@@ -6992,7 +6992,7 @@ Pic: Gentleman Frlg
 Gender: Male
 Music: Rich
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Sinistea
 Level: 23
@@ -7009,7 +7009,7 @@ Pic: Gentleman Frlg
 Gender: Male
 Music: Rich
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Charmeleon
 Level: 23
@@ -7026,7 +7026,7 @@ Pic: Gentleman Frlg
 Gender: Male
 Music: Rich
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Voltorb
 Level: 26
@@ -7039,7 +7039,7 @@ Pic: Gentleman Frlg
 Gender: Male
 Music: Rich
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Persian
 Level: 48
@@ -7052,7 +7052,7 @@ Pic: Gentleman Frlg
 Gender: Male
 Music: Rich
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Growlithe
 Level: 17
@@ -7666,7 +7666,7 @@ Pic: Channeler Frlg
 Gender: Male
 Music: Suspicious
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Palossand
 Level: 47
@@ -7679,7 +7679,7 @@ Pic: Channeler Frlg
 Gender: Male
 Music: Suspicious
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Doublade
 Level: 47
@@ -7692,7 +7692,7 @@ Pic: Channeler Frlg
 Gender: Male
 Music: Suspicious
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Palossand
 Level: 47
@@ -7705,7 +7705,7 @@ Pic: Channeler Frlg
 Gender: Male
 Music: Suspicious
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Doublade
 Level: 47
@@ -7718,7 +7718,7 @@ Pic: Channeler Frlg
 Gender: Male
 Music: Suspicious
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Drifblim
 Level: 46
@@ -7735,7 +7735,7 @@ Pic: Channeler Frlg
 Gender: Male
 Music: Suspicious
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Froslass
 Level: 47
@@ -7748,7 +7748,7 @@ Pic: Channeler Frlg
 Gender: Male
 Music: Suspicious
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Drakloak
 Level: 48
@@ -7761,7 +7761,7 @@ Pic: Channeler Frlg
 Gender: Male
 Music: Suspicious
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Cofagrigus
 Level: 48
@@ -7774,7 +7774,7 @@ Pic: Channeler Frlg
 Gender: Male
 Music: Suspicious
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Misdreavus
 Level: 48
@@ -7787,7 +7787,7 @@ Pic: Channeler Frlg
 Gender: Male
 Music: Suspicious
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Dreepy
 Level: 48
@@ -7800,7 +7800,7 @@ Pic: Channeler Frlg
 Gender: Male
 Music: Suspicious
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Litwick
 Level: 46
@@ -7821,7 +7821,7 @@ Pic: Channeler Frlg
 Gender: Male
 Music: Suspicious
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Drifblim
 Level: 48
@@ -7834,7 +7834,7 @@ Pic: Channeler Frlg
 Gender: Male
 Music: Suspicious
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Palossand
 Level: 49
@@ -7847,7 +7847,7 @@ Pic: Channeler Frlg
 Gender: Male
 Music: Suspicious
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Kadabra
 Level: 51
@@ -7864,7 +7864,7 @@ Pic: Channeler Frlg
 Gender: Male
 Music: Suspicious
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Girafarig
 Level: 52
@@ -7877,7 +7877,7 @@ Pic: Channeler Frlg
 Gender: Male
 Music: Suspicious
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Mime Jr.
 Level: 50
@@ -7898,7 +7898,7 @@ Pic: Hiker Frlg
 Gender: Male
 Music: Hiker
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Cubone
 Level: 27
@@ -7915,7 +7915,7 @@ Pic: Picnicker Frlg
 Gender: Male
 Music: Girl
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Marowak
 Level: 39
@@ -7936,7 +7936,7 @@ Pic: Picnicker Frlg
 Gender: Male
 Music: Girl
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Dubwool
 Level: 38
@@ -7965,7 +7965,7 @@ Pic: Picnicker Frlg
 Gender: Male
 Music: Girl
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Bellossom
 Level: 41
@@ -7982,7 +7982,7 @@ Pic: Picnicker Frlg
 Gender: Male
 Music: Girl
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Gardevoir
 Level: 39
@@ -8007,7 +8007,7 @@ Pic: Biker Frlg
 Gender: Male
 Music: Male
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Slowbro-Galar
 Level: 35
@@ -8028,7 +8028,7 @@ Pic: Camper Frlg
 Gender: Male
 Music: Male
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Diglett
 Level: 19
@@ -8045,7 +8045,7 @@ Pic: Picnicker Frlg
 Gender: Male
 Music: Girl
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Haxorus
 Level: 54
@@ -8062,7 +8062,7 @@ Pic: Picnicker Frlg
 Gender: Male
 Music: Girl
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Leafeon
 Level: 53
@@ -8083,7 +8083,7 @@ Pic: Picnicker Frlg
 Gender: Male
 Music: Girl
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Foongus
 Level: 29
@@ -8104,7 +8104,7 @@ Pic: Picnicker Frlg
 Gender: Male
 Music: Girl
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Tauros
 Level: 27
@@ -8129,7 +8129,7 @@ Pic: Picnicker Frlg
 Gender: Male
 Music: Girl
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Swadloon
 Level: 29
@@ -8146,7 +8146,7 @@ Pic: Camper Frlg
 Gender: Male
 Music: Male
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Gardevoir
 Level: 40
@@ -8163,7 +8163,7 @@ Pic: Picnicker Frlg
 Gender: Male
 Music: Girl
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Serperior
 Level: 43
@@ -8184,7 +8184,7 @@ Pic: Picnicker Frlg
 Gender: Male
 Music: Girl
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Roselia
 Level: 43
@@ -8205,7 +8205,7 @@ Pic: Picnicker Frlg
 Gender: Male
 Music: Girl
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Magneton
 Level: 45
@@ -8222,7 +8222,7 @@ Pic: Picnicker Frlg
 Gender: Male
 Music: Girl
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Mawile
 Level: 46
@@ -8235,7 +8235,7 @@ Pic: Gentleman Frlg
 Gender: Male
 Music: Rich
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Riolu
 Level: 25
@@ -8248,7 +8248,7 @@ Pic: Gentleman Frlg
 Gender: Male
 Music: Rich
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Tinkatuff
 Level: 24
@@ -8265,7 +8265,7 @@ Pic: Twins Frlg
 Gender: Male
 Music: Twins
 Double Battle: Yes
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Tinkatuff
 Level: 33
@@ -8299,7 +8299,7 @@ Pic: Young Couple Frlg
 Gender: Male
 Music: Girl
 Double Battle: Yes
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Cottonee
 Level: 40
@@ -8316,7 +8316,7 @@ Pic: Twins Frlg
 Gender: Male
 Music: Twins
 Double Battle: Yes
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Staraptor
 Level: 44
@@ -8333,7 +8333,7 @@ Pic: Crush Kin Frlg
 Gender: Male
 Music: Intense
 Double Battle: Yes
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Primeape
 Level: 45
@@ -8350,7 +8350,7 @@ Pic: Young Couple Frlg
 Gender: Male
 Music: Girl
 Double Battle: Yes
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Rapidash-Galar
 Level: 35
@@ -8367,7 +8367,7 @@ Pic: Sis And Bro Frlg
 Gender: Male
 Music: Swimmer
 Double Battle: Yes
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Tentacruel
 Level: 53
@@ -8384,7 +8384,7 @@ Pic: Sis And Bro Frlg
 Gender: Male
 Music: Swimmer
 Double Battle: Yes
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Seadra
 Level: 33
@@ -8401,7 +8401,7 @@ Pic: Youngster Frlg
 Gender: Male
 Music: Male
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Raticate
 Level: 28
@@ -8418,7 +8418,7 @@ Pic: Youngster Frlg
 Gender: Male
 Music: Male
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Raticate
 Level: 48
@@ -8435,7 +8435,7 @@ Pic: Youngster Frlg
 Gender: Male
 Music: Male
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Ekans
 Level: 20
@@ -8452,7 +8452,7 @@ Pic: Lass Frlg
 Gender: Male
 Music: Female
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Pidgey
 Level: 20
@@ -8469,7 +8469,7 @@ Pic: Lass Frlg
 Gender: Male
 Music: Female
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Pidgeotto
 Level: 28
@@ -8486,7 +8486,7 @@ Pic: Youngster Frlg
 Gender: Male
 Music: Male
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Raticate
 Level: 19
@@ -8507,7 +8507,7 @@ Pic: Youngster Frlg
 Gender: Male
 Music: Male
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Raticate
 Level: 27
@@ -8528,7 +8528,7 @@ Pic: Youngster Frlg
 Gender: Male
 Music: Male
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Raticate
 Level: 52
@@ -8549,7 +8549,7 @@ Pic: Youngster Frlg
 Gender: Male
 Music: Male
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Arbok
 Level: 28
@@ -8566,7 +8566,7 @@ Pic: Lass Frlg
 Gender: Male
 Music: Female
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Pidgeotto
 Level: 20
@@ -8583,7 +8583,7 @@ Pic: Lass Frlg
 Gender: Male
 Music: Female
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Pidgeotto
 Level: 28
@@ -8600,7 +8600,7 @@ Pic: Youngster Frlg
 Gender: Male
 Music: Male
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Arbok
 Level: 48
@@ -8617,7 +8617,7 @@ Pic: Hiker Frlg
 Gender: Male
 Music: Hiker
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Machoke
 Level: 25
@@ -8634,7 +8634,7 @@ Pic: Professor Oak Frlg
 Gender: Male
 Music: Male
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Ekans
 Level: 5
@@ -8647,7 +8647,7 @@ Pic: Rocket Grunt F Frlg
 Gender: Male
 Music: Aqua
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Houndour
 Level: 49
@@ -8664,7 +8664,7 @@ Pic: Psychic F Frlg
 Gender: Male
 Music: Intense
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Natu
 Level: 48
@@ -8697,7 +8697,7 @@ Pic: Crush Girl Frlg
 Gender: Male
 Music: Intense
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Mankey @ Black Belt
 Level: 37
@@ -8714,7 +8714,7 @@ Pic: Tuber F Frlg
 Gender: Male
 Music: Girl
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Poliwag
 Level: 34
@@ -8735,7 +8735,7 @@ Pic: Pokemon Breeder Frlg
 Gender: Male
 Music: Female
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Pikachu
 Level: 48
@@ -8808,7 +8808,7 @@ Pic: Aroma Lady Frlg
 Gender: Male
 Music: Female
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Bellsprout
 Level: 37
@@ -8825,7 +8825,7 @@ Pic: Ruin Maniac Frlg
 Gender: Male
 Music: Hiker
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Graveler
 Level: 48
@@ -8847,7 +8847,7 @@ Gender: Male
 Music: Female
 Items: Full Restore
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Hoppip @ Stardust
 Level: 48
@@ -8864,7 +8864,7 @@ Pic: Painter Frlg
 Gender: Male
 Music: Female
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Smeargle
 Level: 50
@@ -8881,7 +8881,7 @@ Pic: Biker Frlg
 Gender: Male
 Music: Male
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Koffing
 Level: 37
@@ -8906,7 +8906,7 @@ Pic: Biker Frlg
 Gender: Male
 Music: Male
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Koffing
 Level: 38
@@ -8923,7 +8923,7 @@ Pic: Biker Frlg
 Gender: Male
 Music: Male
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Grimer
 Level: 38
@@ -8936,7 +8936,7 @@ Pic: Bug Catcher Frlg
 Gender: Male
 Music: Male
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Anorith
 Level: 10
@@ -8953,7 +8953,7 @@ Pic: Bug Catcher Frlg
 Gender: Male
 Music: Male
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Butterfree
 Level: 11
@@ -8974,7 +8974,7 @@ Pic: Twins Frlg
 Gender: Male
 Music: Twins
 Double Battle: Yes
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Clefairy
 Level: 28
@@ -8991,7 +8991,7 @@ Pic: Youngster Frlg
 Gender: Male
 Music: Male
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Dusclops
 Level: 54
@@ -9012,7 +9012,7 @@ Pic: Biker Frlg
 Gender: Male
 Music: Male
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Weepinbell
 Level: 32
@@ -9033,7 +9033,7 @@ Pic: Biker Frlg
 Gender: Male
 Music: Male
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Koffing
 Level: 33
@@ -9050,7 +9050,7 @@ Pic: Rocket Grunt M Frlg
 Gender: Male
 Music: Aqua
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Cubone
 Level: 37
@@ -9067,7 +9067,7 @@ Pic: Rocket Grunt M Frlg
 Gender: Male
 Music: Aqua
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Rattata
 Level: 35
@@ -9092,7 +9092,7 @@ Pic: Rocket Grunt M Frlg
 Gender: Male
 Music: Aqua
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Zubat
 Level: 38
@@ -9113,7 +9113,7 @@ Pic: Rocket Grunt M Frlg
 Gender: Male
 Music: Aqua
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Muk
 Level: 48
@@ -9134,7 +9134,7 @@ Pic: Rocket Grunt M Frlg
 Gender: Male
 Music: Aqua
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Machop
 Level: 48
@@ -9155,7 +9155,7 @@ Pic: Rocket Grunt M Frlg
 Gender: Male
 Music: Aqua
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Hypno
 Level: 49
@@ -9240,7 +9240,7 @@ Pic: Scientist Frlg
 Gender: Male
 Music: Suspicious
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Voltorb
 Level: 46
@@ -9289,7 +9289,7 @@ Pic: Swimmer F Frlg
 Gender: Male
 Music: Female
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Seel
 Level: 36
@@ -9310,7 +9310,7 @@ Pic: Swimmer F Frlg
 Gender: Male
 Music: Female
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Seadra
 Level: 37
@@ -9327,7 +9327,7 @@ Pic: Swimmer F Frlg
 Gender: Male
 Music: Female
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Psyduck
 Level: 35
@@ -9348,7 +9348,7 @@ Pic: Swimmer M Frlg
 Gender: Male
 Music: Swimmer
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Starmie
 Level: 38
@@ -9361,7 +9361,7 @@ Pic: Swimmer M Frlg
 Gender: Male
 Music: Swimmer
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Shellder
 Level: 35
@@ -9382,7 +9382,7 @@ Pic: Fisherman Frlg
 Gender: Male
 Music: Hiker
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Goldeen
 Level: 33
@@ -9411,7 +9411,7 @@ Pic: Crush Girl Frlg
 Gender: Male
 Music: Intense
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Hitmonlee @ Black Belt
 Level: 38
@@ -9428,7 +9428,7 @@ Pic: Black Belt Frlg
 Gender: Male
 Music: Intense
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Machop @ Black Belt
 Level: 38
@@ -9445,7 +9445,7 @@ Pic: Black Belt Frlg
 Gender: Male
 Music: Intense
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Machop @ Black Belt
 Level: 37
@@ -9462,7 +9462,7 @@ Pic: Camper Frlg
 Gender: Male
 Music: Male
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Nidorino
 Level: 36
@@ -9483,7 +9483,7 @@ Pic: Picnicker Frlg
 Gender: Male
 Music: Girl
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Meowth
 Level: 35
@@ -9508,7 +9508,7 @@ Pic: Crush Kin Frlg
 Gender: Male
 Music: Intense
 Double Battle: Yes
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Machoke @ Black Belt
 Level: 39
@@ -9525,7 +9525,7 @@ Pic: Aroma Lady Frlg
 Gender: Male
 Music: Female
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Bulbasaur
 Level: 36
@@ -9546,7 +9546,7 @@ Pic: Tuber F Frlg
 Gender: Male
 Music: Girl
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Staryu
 Level: 34
@@ -9571,7 +9571,7 @@ Pic: Twins Frlg
 Gender: Male
 Music: Twins
 Double Battle: Yes
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Clefairy
 Level: 37
@@ -9588,7 +9588,7 @@ Pic: Swimmer F Frlg
 Gender: Male
 Music: Female
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Kingler
 Level: 38
@@ -9601,7 +9601,7 @@ Pic: Painter Frlg
 Gender: Male
 Music: Female
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Smeargle
 Level: 50
@@ -9618,7 +9618,7 @@ Pic: Painter Frlg
 Gender: Male
 Music: Female
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Smeargle
 Level: 50
@@ -9636,7 +9636,7 @@ Gender: Male
 Music: Female
 Items: Full Restore
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Mareep @ Stardust
 Level: 47
@@ -9657,7 +9657,7 @@ Pic: Youngster Frlg
 Gender: Male
 Music: Male
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Raticate
 Level: 48
@@ -9674,7 +9674,7 @@ Pic: Swimmer M Frlg
 Gender: Male
 Music: Swimmer
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Poliwhirl
 Level: 48
@@ -9695,7 +9695,7 @@ Pic: Rocket Grunt M Frlg
 Gender: Male
 Music: Aqua
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Rattata
 Level: 48
@@ -9716,7 +9716,7 @@ Pic: Rocket Grunt M Frlg
 Gender: Male
 Music: Aqua
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Koffing
 Level: 49
@@ -9741,7 +9741,7 @@ Pic: Rocket Grunt F Frlg
 Gender: Male
 Music: Aqua
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Ekans
 Level: 48
@@ -9762,7 +9762,7 @@ Pic: Bird Keeper Frlg
 Gender: Male
 Music: Cool
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Pidgey
 Level: 47
@@ -9779,7 +9779,7 @@ Pic: Bird Keeper Frlg
 Gender: Male
 Music: Cool
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Spearow
 Level: 47
@@ -9796,7 +9796,7 @@ Pic: Bird Keeper Frlg
 Gender: Male
 Music: Cool
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Hoothoot
 Level: 47
@@ -9813,7 +9813,7 @@ Pic: Fisherman Frlg
 Gender: Male
 Music: Hiker
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Qwilfish
 Level: 49
@@ -9830,7 +9830,7 @@ Pic: Swimmer M Frlg
 Gender: Male
 Music: Swimmer
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Kingler
 Level: 49
@@ -9847,7 +9847,7 @@ Pic: Swimmer F Frlg
 Gender: Male
 Music: Female
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Marill
 Level: 50
@@ -9860,7 +9860,7 @@ Pic: Sis And Bro Frlg
 Gender: Male
 Music: Swimmer
 Double Battle: Yes
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Poliwhirl
 Level: 50
@@ -9877,7 +9877,7 @@ Pic: Aroma Lady Frlg
 Gender: Male
 Music: Female
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Sunkern
 Level: 49
@@ -9894,7 +9894,7 @@ Pic: Swimmer M Frlg
 Gender: Male
 Music: Swimmer
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Gyarados
 Level: 50
@@ -9907,7 +9907,7 @@ Pic: Swimmer F Frlg
 Gender: Male
 Music: Female
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Chinchou
 Level: 49
@@ -9924,7 +9924,7 @@ Pic: Twins Frlg
 Gender: Male
 Music: Twins
 Double Battle: Yes
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Pikachu
 Level: 50
@@ -9941,7 +9941,7 @@ Pic: Hiker Frlg
 Gender: Male
 Music: Hiker
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Onix
 Level: 49
@@ -9958,7 +9958,7 @@ Pic: Ruin Maniac Frlg
 Gender: Male
 Music: Hiker
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Golem
 Level: 50
@@ -9971,7 +9971,7 @@ Pic: Ruin Maniac Frlg
 Gender: Male
 Music: Hiker
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Machoke
 Level: 49
@@ -9988,7 +9988,7 @@ Pic: Hiker Frlg
 Gender: Male
 Music: Hiker
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Sudowoodo
 Level: 50
@@ -10001,7 +10001,7 @@ Pic: Pokemaniac Frlg
 Gender: Male
 Music: Suspicious
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Rhyhorn
 Level: 49
@@ -10018,7 +10018,7 @@ Pic: Psychic M Frlg
 Gender: Male
 Music: Intense
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Girafarig
 Level: 52
@@ -10035,7 +10035,7 @@ Pic: Psychic F Frlg
 Gender: Male
 Music: Intense
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Natu
 Level: 48
@@ -10068,7 +10068,7 @@ Pic: Aroma Lady Frlg
 Gender: Male
 Music: Female
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Bellossom
 Level: 50
@@ -10085,7 +10085,7 @@ Pic: Young Couple Frlg
 Gender: Male
 Music: Girl
 Double Battle: Yes
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Golduck
 Level: 50
@@ -10102,7 +10102,7 @@ Pic: Juggler Frlg
 Gender: Male
 Music: Hiker
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Voltorb
 Level: 47
@@ -10143,7 +10143,7 @@ Pic: Crush Girl Frlg
 Gender: Male
 Music: Intense
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Primeape @ Black Belt
 Level: 48
@@ -10164,7 +10164,7 @@ Pic: Crush Girl Frlg
 Gender: Male
 Music: Intense
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Hitmonchan @ Black Belt
 Level: 38
@@ -10181,7 +10181,7 @@ Pic: Tamer Frlg
 Gender: Male
 Music: Hiker
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Sandslash
 Level: 48
@@ -10202,7 +10202,7 @@ Pic: Pokemaniac Frlg
 Gender: Male
 Music: Suspicious
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Rhyhorn
 Level: 33
@@ -10445,7 +10445,7 @@ Pic: Ruin Maniac Frlg
 Gender: Male
 Music: Hiker
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Onix
 Level: 50
@@ -10458,7 +10458,7 @@ Pic: Ruin Maniac Frlg
 Gender: Male
 Music: Hiker
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Geodude
 Level: 48
@@ -10491,7 +10491,7 @@ Pic: Painter Frlg
 Gender: Male
 Music: Female
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Smeargle
 Level: 50
@@ -10508,7 +10508,7 @@ Pic: Gentleman Frlg
 Gender: Male
 Music: Rich
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Marowak
 Level: 49
@@ -10526,7 +10526,7 @@ Gender: Male
 Music: Female
 Items: Full Restore
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Persian @ Nugget
 Level: 49
@@ -10551,7 +10551,7 @@ Pic: Ruin Maniac Frlg
 Gender: Male
 Music: Hiker
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Onix
 Level: 47
@@ -10572,7 +10572,7 @@ Pic: Psychic F Frlg
 Gender: Male
 Music: Intense
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Natu
 Level: 48
@@ -10593,7 +10593,7 @@ Pic: Pokemon Breeder Frlg
 Gender: Male
 Music: Female
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Chansey
 Level: 50
@@ -10606,7 +10606,7 @@ Pic: Pokemon Breeder Frlg
 Gender: Male
 Music: Female
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Clefairy
 Level: 48
@@ -10627,7 +10627,7 @@ Pic: Bug Catcher Frlg
 Gender: Male
 Music: Male
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Heracross
 Level: 49
@@ -10640,7 +10640,7 @@ Pic: Bug Catcher Frlg
 Gender: Male
 Music: Male
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Yanma
 Level: 45
@@ -10665,7 +10665,7 @@ Pic: Bug Catcher Frlg
 Gender: Male
 Music: Male
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Venonat
 Level: 48
@@ -10682,7 +10682,7 @@ Pic: Youngster Frlg
 Gender: Male
 Music: Male
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Weepinbell
 Level: 47
@@ -10703,7 +10703,7 @@ Pic: Youngster Frlg
 Gender: Male
 Music: Male
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Farfetchd
 Level: 48
@@ -10720,7 +10720,7 @@ Pic: Lass Frlg
 Gender: Male
 Music: Female
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Hoppip
 Level: 46
@@ -10745,7 +10745,7 @@ Pic: Lass Frlg
 Gender: Male
 Music: Female
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Snubbull
 Level: 49
@@ -10758,7 +10758,7 @@ Pic: Camper Frlg
 Gender: Male
 Music: Male
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Pinsir
 Level: 49
@@ -10775,7 +10775,7 @@ Pic: Picnicker Frlg
 Gender: Male
 Music: Girl
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Paras
 Level: 48
@@ -10796,7 +10796,7 @@ Pic: Ruin Maniac Frlg
 Gender: Male
 Music: Hiker
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Sandslash
 Level: 48
@@ -10817,7 +10817,7 @@ Pic: Picnicker Frlg
 Gender: Male
 Music: Girl
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Nidoran M
 Level: 21
@@ -10834,7 +10834,7 @@ Pic: Picnicker Frlg
 Gender: Male
 Music: Girl
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Nidorino
 Level: 29
@@ -10851,7 +10851,7 @@ Pic: Picnicker Frlg
 Gender: Male
 Music: Girl
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Nidorino
 Level: 49
@@ -10868,7 +10868,7 @@ Pic: Camper Frlg
 Gender: Male
 Music: Male
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Squirtle
 Level: 22
@@ -10881,7 +10881,7 @@ Pic: Camper Frlg
 Gender: Male
 Music: Male
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Wartortle
 Level: 30
@@ -10894,7 +10894,7 @@ Pic: Camper Frlg
 Gender: Male
 Music: Male
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Wartortle
 Level: 55
@@ -10907,7 +10907,7 @@ Pic: Camper Frlg
 Gender: Male
 Music: Male
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Spearow
 Level: 21
@@ -10924,7 +10924,7 @@ Pic: Camper Frlg
 Gender: Male
 Music: Male
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Fearow
 Level: 29
@@ -10941,7 +10941,7 @@ Pic: Camper Frlg
 Gender: Male
 Music: Male
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Fearow
 Level: 54
@@ -10958,7 +10958,7 @@ Pic: Picnicker Frlg
 Gender: Male
 Music: Girl
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Pidgeotto
 Level: 21
@@ -10979,7 +10979,7 @@ Pic: Picnicker Frlg
 Gender: Male
 Music: Girl
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Pidgeotto
 Level: 29
@@ -11000,7 +11000,7 @@ Pic: Picnicker Frlg
 Gender: Male
 Music: Girl
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Pidgeotto
 Level: 47
@@ -11021,7 +11021,7 @@ Pic: Youngster Frlg
 Gender: Male
 Music: Male
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Rattata
 Level: 22
@@ -11042,7 +11042,7 @@ Pic: Youngster Frlg
 Gender: Male
 Music: Male
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Raticate
 Level: 47
@@ -11063,7 +11063,7 @@ Pic: Engineer Frlg
 Gender: Male
 Music: Male
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Magneton
 Level: 28
@@ -11084,7 +11084,7 @@ Pic: Gamer Frlg
 Gender: Male
 Music: Male
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Growlithe
 Level: 29
@@ -11101,7 +11101,7 @@ Pic: Camper Frlg
 Gender: Male
 Music: Male
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Growlithe
 Level: 24
@@ -11118,7 +11118,7 @@ Pic: Camper Frlg
 Gender: Male
 Music: Male
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Growlithe
 Level: 29
@@ -11135,7 +11135,7 @@ Pic: Camper Frlg
 Gender: Male
 Music: Male
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Arcanine
 Level: 54
@@ -11152,7 +11152,7 @@ Pic: Picnicker Frlg
 Gender: Male
 Music: Girl
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Meowth
 Level: 25
@@ -11165,7 +11165,7 @@ Pic: Picnicker Frlg
 Gender: Male
 Music: Girl
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Persian
 Level: 30
@@ -11178,7 +11178,7 @@ Pic: Picnicker Frlg
 Gender: Male
 Music: Girl
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Persian
 Level: 55
@@ -11191,7 +11191,7 @@ Pic: Hiker Frlg
 Gender: Male
 Music: Hiker
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Machoke
 Level: 30
@@ -11208,7 +11208,7 @@ Pic: Pokemaniac Frlg
 Gender: Male
 Music: Suspicious
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Rhydon
 Level: 54
@@ -11225,7 +11225,7 @@ Pic: Pokemaniac Frlg
 Gender: Male
 Music: Suspicious
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Marowak
 Level: 29
@@ -11242,7 +11242,7 @@ Pic: Pokemaniac Frlg
 Gender: Male
 Music: Suspicious
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Marowak
 Level: 54
@@ -11259,7 +11259,7 @@ Pic: Hiker Frlg
 Gender: Male
 Music: Hiker
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Onix
 Level: 31
@@ -11276,7 +11276,7 @@ Pic: Lass Frlg
 Gender: Male
 Music: Female
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Pidgeotto
 Level: 22
@@ -11305,7 +11305,7 @@ Pic: Lass Frlg
 Gender: Male
 Music: Female
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Pidgeot
 Level: 46
@@ -11334,7 +11334,7 @@ Pic: Super Nerd Frlg
 Gender: Male
 Music: Suspicious
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Muk
 Level: 28
@@ -11355,7 +11355,7 @@ Pic: Gamer Frlg
 Gender: Male
 Music: Male
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Growlithe
 Level: 30
@@ -11372,7 +11372,7 @@ Pic: Biker Frlg
 Gender: Male
 Music: Male
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Muk
 Level: 28
@@ -11389,7 +11389,7 @@ Pic: Fisherman Frlg
 Gender: Male
 Music: Hiker
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Poliwhirl
 Level: 28
@@ -11414,7 +11414,7 @@ Pic: Rocker Frlg
 Gender: Male
 Music: Male
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Electrode
 Level: 33
@@ -11431,7 +11431,7 @@ Pic: Beauty Frlg
 Gender: Male
 Music: Female
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Clefairy
 Level: 49
@@ -11448,7 +11448,7 @@ Pic: Bird Keeper Frlg
 Gender: Male
 Music: Cool
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Pidgeotto
 Level: 28
@@ -11473,7 +11473,7 @@ Pic: Bird Keeper Frlg
 Gender: Male
 Music: Cool
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Pidgeot
 Level: 47
@@ -11498,7 +11498,7 @@ Pic: Picnicker Frlg
 Gender: Male
 Music: Girl
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Pidgeotto
 Level: 27
@@ -11527,7 +11527,7 @@ Pic: Picnicker Frlg
 Gender: Male
 Music: Girl
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Pidgeotto
 Level: 47
@@ -11556,7 +11556,7 @@ Pic: Picnicker Frlg
 Gender: Male
 Music: Girl
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Pidgeot
 Level: 52
@@ -11585,7 +11585,7 @@ Pic: Biker Frlg
 Gender: Male
 Music: Male
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Koffing
 Level: 47
@@ -11610,7 +11610,7 @@ Pic: Bird Keeper Frlg
 Gender: Male
 Music: Cool
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Fearow
 Level: 32
@@ -11627,7 +11627,7 @@ Pic: Bird Keeper Frlg
 Gender: Male
 Music: Cool
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Fearow
 Level: 49
@@ -11644,7 +11644,7 @@ Pic: Bird Keeper Frlg
 Gender: Male
 Music: Cool
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Fearow
 Level: 30
@@ -11665,7 +11665,7 @@ Pic: Bird Keeper Frlg
 Gender: Male
 Music: Cool
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Fearow
 Level: 48
@@ -11686,7 +11686,7 @@ Pic: Beauty Frlg
 Gender: Male
 Music: Female
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Pidgeot
 Level: 49
@@ -11703,7 +11703,7 @@ Pic: Bird Keeper Frlg
 Gender: Male
 Music: Cool
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Dodrio
 Level: 30
@@ -11724,7 +11724,7 @@ Pic: Bird Keeper Frlg
 Gender: Male
 Music: Cool
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Dodrio
 Level: 48
@@ -11745,7 +11745,7 @@ Pic: Picnicker Frlg
 Gender: Male
 Music: Girl
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Pikachu
 Level: 32
@@ -11762,7 +11762,7 @@ Pic: Picnicker Frlg
 Gender: Male
 Music: Girl
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Pikachu
 Level: 49
@@ -11779,7 +11779,7 @@ Pic: Picnicker Frlg
 Gender: Male
 Music: Girl
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Raichu
 Level: 54
@@ -11796,7 +11796,7 @@ Pic: Crush Kin Frlg
 Gender: Male
 Music: Intense
 Double Battle: Yes
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Hitmonchan @ Black Belt
 Level: 33
@@ -11813,7 +11813,7 @@ Pic: Crush Kin Frlg
 Gender: Male
 Music: Intense
 Double Battle: Yes
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Hitmonchan @ Black Belt
 Level: 51
@@ -11830,7 +11830,7 @@ Pic: Crush Kin Frlg
 Gender: Male
 Music: Intense
 Double Battle: Yes
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Hitmonchan @ Black Belt
 Level: 56
@@ -11847,7 +11847,7 @@ Pic: Biker Frlg
 Gender: Male
 Music: Male
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Weezing
 Level: 48
@@ -11868,7 +11868,7 @@ Pic: Cue Ball Frlg
 Gender: Male
 Music: Male
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Primeape
 Level: 49
@@ -11885,7 +11885,7 @@ Pic: Biker Frlg
 Gender: Male
 Music: Male
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Weezing
 Level: 49
@@ -11902,7 +11902,7 @@ Pic: Cue Ball Frlg
 Gender: Male
 Music: Male
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Machoke
 Level: 49
@@ -11919,7 +11919,7 @@ Pic: Cue Ball Frlg
 Gender: Male
 Music: Male
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Primeape
 Level: 49
@@ -11936,7 +11936,7 @@ Pic: Bird Keeper Frlg
 Gender: Male
 Music: Cool
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Fearow
 Level: 28
@@ -11961,7 +11961,7 @@ Pic: Bird Keeper Frlg
 Gender: Male
 Music: Cool
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Fearow
 Level: 47
@@ -11986,7 +11986,7 @@ Pic: Swimmer F Frlg
 Gender: Male
 Music: Female
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Seaking
 Level: 49
@@ -12003,7 +12003,7 @@ Pic: Swimmer M Frlg
 Gender: Male
 Music: Swimmer
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Seadra
 Level: 52
@@ -12028,7 +12028,7 @@ Pic: Picnicker Frlg
 Gender: Male
 Music: Girl
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Seaking
 Level: 49
@@ -12045,7 +12045,7 @@ Pic: Picnicker Frlg
 Gender: Male
 Music: Girl
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Seaking
 Level: 54
@@ -12062,7 +12062,7 @@ Pic: Fisherman Frlg
 Gender: Male
 Music: Hiker
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Magikarp
 Level: 47
@@ -12095,7 +12095,7 @@ Pic: Swimmer M Frlg
 Gender: Male
 Music: Swimmer
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Starmie
 Level: 50
@@ -12108,7 +12108,7 @@ Pic: Sis And Bro Frlg
 Gender: Male
 Music: Swimmer
 Double Battle: Yes
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Seadra
 Level: 50
@@ -12125,7 +12125,7 @@ Pic: Sis And Bro Frlg
 Gender: Male
 Music: Swimmer
 Double Battle: Yes
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Seadra
 Level: 55
@@ -12142,7 +12142,7 @@ Pic: Swimmer M Frlg
 Gender: Male
 Music: Swimmer
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Starmie
 Level: 50
@@ -12155,7 +12155,7 @@ Pic: Crush Girl Frlg
 Gender: Male
 Music: Intense
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Mankey @ Black Belt
 Level: 50
@@ -12172,7 +12172,7 @@ Pic: Crush Girl Frlg
 Gender: Male
 Music: Intense
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Primeape @ Black Belt
 Level: 55
@@ -12189,7 +12189,7 @@ Pic: Crush Girl Frlg
 Gender: Male
 Music: Intense
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Hitmonlee @ Black Belt
 Level: 50
@@ -12206,7 +12206,7 @@ Pic: Crush Girl Frlg
 Gender: Male
 Music: Intense
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Hitmonlee @ Black Belt
 Level: 55
@@ -12223,7 +12223,7 @@ Pic: Black Belt Frlg
 Gender: Male
 Music: Intense
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Machoke @ Black Belt
 Level: 50
@@ -12240,7 +12240,7 @@ Pic: Black Belt Frlg
 Gender: Male
 Music: Intense
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Machoke @ Black Belt
 Level: 55
@@ -12257,7 +12257,7 @@ Pic: Black Belt Frlg
 Gender: Male
 Music: Intense
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Machoke @ Black Belt
 Level: 50
@@ -12274,7 +12274,7 @@ Pic: Black Belt Frlg
 Gender: Male
 Music: Intense
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Machoke @ Black Belt
 Level: 55
@@ -12291,7 +12291,7 @@ Pic: Crush Kin Frlg
 Gender: Male
 Music: Intense
 Double Battle: Yes
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Machoke @ Black Belt
 Level: 51
@@ -12308,7 +12308,7 @@ Pic: Crush Kin Frlg
 Gender: Male
 Music: Intense
 Double Battle: Yes
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Machamp @ Black Belt
 Level: 56
@@ -12325,7 +12325,7 @@ Pic: Tuber F Frlg
 Gender: Male
 Music: Girl
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Poliwhirl
 Level: 47
@@ -12346,7 +12346,7 @@ Pic: Twins Frlg
 Gender: Male
 Music: Twins
 Double Battle: Yes
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Clefairy
 Level: 49
@@ -12363,7 +12363,7 @@ Pic: Painter Frlg
 Gender: Male
 Music: Female
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Smeargle
 Level: 54
@@ -12380,7 +12380,7 @@ Pic: Youngster Frlg
 Gender: Male
 Music: Male
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Raticate
 Level: 53
@@ -12397,7 +12397,7 @@ Pic: Pokemon Breeder Frlg
 Gender: Male
 Music: Female
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Pikachu
 Level: 53
@@ -12418,7 +12418,7 @@ Pic: Young Couple Frlg
 Gender: Male
 Music: Girl
 Double Battle: Yes
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Nidorina
 Level: 30
@@ -12435,7 +12435,7 @@ Pic: Young Couple Frlg
 Gender: Male
 Music: Girl
 Double Battle: Yes
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Nidoking
 Level: 55
@@ -12452,7 +12452,7 @@ Pic: Bird Keeper Frlg
 Gender: Male
 Music: Cool
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Pidgeotto
 Level: 53
@@ -12469,7 +12469,7 @@ Pic: Bird Keeper Frlg
 Gender: Male
 Music: Cool
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Fearow
 Level: 53
@@ -12486,7 +12486,7 @@ Pic: Bird Keeper Frlg
 Gender: Male
 Music: Cool
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Noctowl
 Level: 53
@@ -12503,7 +12503,7 @@ Pic: Swimmer F Frlg
 Gender: Male
 Music: Female
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Marill
 Level: 54
@@ -12516,7 +12516,7 @@ Pic: Psychic F Frlg
 Gender: Male
 Music: Intense
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Natu
 Level: 52
@@ -12549,7 +12549,7 @@ Pic: Swimmer M Frlg
 Gender: Male
 Music: Swimmer
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Gyarados
 Level: 55
@@ -12562,7 +12562,7 @@ Pic: Hiker Frlg
 Gender: Male
 Music: Hiker
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Onix
 Level: 54
@@ -12579,7 +12579,7 @@ Pic: Ruin Maniac Frlg
 Gender: Male
 Music: Hiker
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Machoke
 Level: 54
@@ -12596,7 +12596,7 @@ Pic: Pokemaniac Frlg
 Gender: Male
 Music: Suspicious
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Rhydon
 Level: 55
@@ -12613,7 +12613,7 @@ Pic: Psychic M Frlg
 Gender: Male
 Music: Intense
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Girafarig
 Level: 56
@@ -12630,7 +12630,7 @@ Pic: Psychic F Frlg
 Gender: Male
 Music: Intense
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Natu
 Level: 53
@@ -12663,7 +12663,7 @@ Pic: Juggler Frlg
 Gender: Male
 Music: Hiker
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Electrode
 Level: 52
@@ -12740,7 +12740,7 @@ Pic: Crush Girl Frlg
 Gender: Male
 Music: Intense
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Primeape @ Black Belt
 Level: 54
@@ -12761,7 +12761,7 @@ Pic: Tamer Frlg
 Gender: Male
 Music: Hiker
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Sandslash
 Level: 52
@@ -12960,7 +12960,7 @@ Pic: Bug Catcher Frlg
 Gender: Male
 Music: Male
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Metapod
 Level: 19
@@ -12981,7 +12981,7 @@ Pic: Bug Catcher Frlg
 Gender: Male
 Music: Male
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Butterfree
 Level: 27
@@ -13002,7 +13002,7 @@ Pic: Bug Catcher Frlg
 Gender: Male
 Music: Male
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Butterfree
 Level: 51
@@ -13023,7 +13023,7 @@ Pic: Swimmer M Frlg
 Gender: Male
 Music: Swimmer
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Poliwhirl
 Level: 49
@@ -13040,7 +13040,7 @@ Pic: Swimmer M Frlg
 Gender: Male
 Music: Swimmer
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Seadra
 Level: 49
@@ -13057,7 +13057,7 @@ Pic: Swimmer F Frlg
 Gender: Male
 Music: Female
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Poliwhirl
 Level: 49
@@ -13455,7 +13455,7 @@ Pic: Cue Ball Frlg
 Gender: Male
 Music: Male
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint
 
 Weezing
 Level: 39
