@@ -61,7 +61,7 @@ moves auto-filled (level-up), IVs placeholder. Refine movesets/IVs on the balanc
 ### Elite Four + Champion
 | Slot | First | Rematch | Status |
 |---|---|---|---|
-| Lorelei | `TRAINER_ELITE_FOUR_LORELEI` | `TRAINER_ELITE_FOUR_LORELEI_2` | TODO |
+| Lorelei | `TRAINER_ELITE_FOUR_LORELEI` | `TRAINER_ELITE_FOUR_LORELEI_2` | Pool drafted (see elite-four.md); fielded subset + wiring TODO |
 | Bruno | `TRAINER_ELITE_FOUR_BRUNO` | `TRAINER_ELITE_FOUR_BRUNO_2` | TODO |
 | Agatha | `TRAINER_ELITE_FOUR_AGATHA` | `TRAINER_ELITE_FOUR_AGATHA_2` | TODO |
 | Lance | `TRAINER_ELITE_FOUR_LANCE` | `TRAINER_ELITE_FOUR_LANCE_2` | TODO |

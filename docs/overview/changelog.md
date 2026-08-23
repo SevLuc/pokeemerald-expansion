@@ -7,6 +7,12 @@ Update in the same PR as the change.
 `YYYY-MM-DD` — area — one-line summary (PR/commit ref)
 
 ## Entries
+- 2026-08-23 - trainers/elite-four - Drafted Lorelei's Ice draw pool (11 members,
+  all Lv72 cap-legal: abilities, natures, movesets) built around modern Snow.
+  Alolan Ninetales is the preferred Snow lead with a conditional fallback (a
+  Snowscape carrier leads if she is not fielded); Lapras is the ace. New doc
+  docs/overview/elite-four.md; trainers.md Lorelei row updated. Fielded subset,
+  pool wiring, and the conditional-lead rule in src/trainer_pools.c are TODO.
 - 2026-08-22 - story/surge - NPC fill pass: reflavored 12 vanilla NPCs across
   Vermilion (Mart, Fan Club, House3) and the S.S. Anne (corridors, deck, cabins)
   with Surge's discipline / earned-composure / ship-history lore that builds the
