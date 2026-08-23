@@ -790,6 +790,60 @@ Consistency notes:
 - Reflavor the existing canon references (Saffron LANCE superfan, the Indigo cousin
   line) rather than adding new NPCs where possible.
 
+## Locke (rival identity) - the Documentarian
+Concept: Locke is one of the selectable rival identities at the new-game intro
+(VAR_RIVAL_ID; alongside Buhrito the default and Twitch). Voice = the style-guide
+Streamer-homage NPC: cocky, self-mythologizing, "the run" is scripture. The core
+concept is THE DOCUMENTARIAN: he is always RECORDING THE RUN for a stream / audience
+that may or may not exist, narrating his own battles (defeats included) as content to
+a phantom chat. Silly-through-contrast: relentless upbeat performance for the camera
+vs. a quiet emptiness underneath ("...is anyone actually watching?"). Mostly funny;
+the pathos peeks only in glimpses. His IMPLEMENTED mechanics ARE his lore (nuzlocke
+every save; kept counter-starter ace held for the finale, never led; the rest
+generated fresh each save so "no two runs play out the same" is literally true).
+Full character core + sample battle voice: drafts/locke.md.
+
+DELIVERY: the concept lives almost entirely in his OWN battle voice across the 8
+existing rival fights (add/move nothing). The built-in losing streak IS the arc: he
+spins every loss as content, brash early, subtly hollow later, one real glimpse at
+Lavender, a Champion beat that lands it. Distributed town fragments are constrained,
+a rival identity varies per save (Buhrito/Twitch/Locke), so any Locke-specific ambient
+line needs a VAR_RIVAL_ID branch on an existing NPC; logged as IDEAS only. HOMAGE, NOT
+likeness: a composite of nuzlocke-streamer culture, no real handle/catchphrase.
+
+| ID | Subject | Reveal | Source NPC | Map | Gate | Order | Status | Flags |
+|---|---|---|---|---|---|---|---|---|
+| LOCKE-INTRO | Locke (the pick) | New-game select blurb (existing): "LOCKE. Father of the Nuzlocke. No two runs play out the same. This is your pick?" | new-game intro | (menu) | new game | 0 | in-game | [FLAG: release-swap] |
+| LOCKE-01 | Locke (Ep. 1, Oak's Lab) | Battle voice: "goes live," casts the rivalry as his series, spins the tutorial loss as episode-one content. Fully brash, no cracks. | Locke | Pallet, Oak's Lab | starter pick | 1 | drafted | [FLAG: release-swap] |
+| LOCKE-02 | Locke (Route 22 early) | Battle voice: show on the road; directs YOU at the camera; loss spun as underdog-arc content. | Locke | Route 22 | none (early) | 2 | drafted | [FLAG: release-swap] |
+| LOCKE-03 | Locke (Cerulean) | Battle voice: peak brag ("numbers are up"); first hairline crack, a tacked-on "...right?" he talks past. | Locke | Cerulean City | after robbed house | 3 | drafted | [FLAG: release-swap] |
+| LOCKE-04 | Locke (S.S. Anne) | Battle voice: "luxury episode"; over-insists on the deathless brand ("Not one."), the tell that he is reassuring himself. | Locke | S.S. Anne 2F Corridor | story (ship) | 4 | drafted | [FLAG: release-swap] |
+| LOCKE-05 | Locke (Pokemon Tower) THE GLIMPSE | Battle voice: preaches the sacred fear of permadeath in a graveyard, then admits his mons never fall and nobody is around to see them. The one plain surface of the emptiness; played STRAIGHT, no joke on the crack. | Locke | Pokemon Tower 2F | story (Lavender) | 5 | drafted | [FLAG: release-swap] |
+| LOCKE-06 | Locke (Silph Co.) | Battle voice: performing to a dead channel ("the light's just blinking red"), keeps going anyway; the run carries him when the audience won't. | Locke | Silph Co. 7F | story (Saffron) | 6 | drafted | [FLAG: release-swap] |
+| LOCKE-07 | Locke (Route 22 late) | Battle voice: all eight badges, deathless as promised, needs it RECORDED ("somebody write that down. Please."). Hype intact but load-bearing. | Locke | Route 22 | all badges | 7 | drafted | [FLAG: release-swap] |
+| LOCKE-08 | Locke (Champion) THE LANDING | Battle voice: thanks the maybe-audience for the whole run; on the loss calls it a wrap, hands the run to YOU, says the quiet part once ("Somebody's gotta remember it happened."). Gives Oak's fixed "love and trust" capstone a target (loved the record more than the bond). | Locke | Indigo Plateau, Champion's Room | story (Champion) | 8 | drafted | [FLAG: release-swap] |
+| LOCKE-09 | Locke (rematch, post-game) | Battle voice: the channel never ends; back filming a re-run he can't stop making. Faint melancholy, showman intact. | Locke | Indigo Plateau, Champion's Room | post-game rematch | 9 | idea | [FLAG: release-swap] |
+| LOCKE-CAND | Locke (distributed, CANDIDATE) | IDEA only: phantom-audience / "Father of the Nuzlocke" ambient color via VAR_RIVAL_ID-branched EXISTING NPCs (candidate carriers: the rival-mentioning townsfolk who already reference "your rival"). MUST branch on VAR_RIVAL_ID; MUST NOT route through Oak's generic un-named nuzlocke NPCs (see OAK-04). No new NPCs, no new beats. | existing rival-gossip NPCs (TBD) | various | none | - | idea | [FLAG: release-swap] |
+
+Consistency notes:
+- Comedy is quarantined to Locke's narration (intros, loss-spins). His in-battle
+  threat is real (counter-ace held for the finale, coverage team), so the hard-but-
+  fair fight is not deflated. LOCKE-05 (Lavender) and LOCKE-06 (Silph dead channel)
+  play STRAIGHT.
+- MECHANICS ARE LOCKED; flavor conforms. Never write a line claiming his mons truly
+  die, that his team is fixed, or that he leads with his ace. Lore explains the
+  mechanics as showmanship (ace saved for the finale; every season a fresh cast).
+- HOMAGE, NOT likeness [FLAG: release-swap]. Composite of nuzlocke-streamer culture;
+  no real handle/catchphrase/bit. Named-scene name-drops stay on Buhrito/Twitch.
+- OFF THE MANDATORY PATH: Locke is a selectable rival identity (Buhrito is default),
+  so a release pass can cut him from the pick list without touching the plot.
+- CROSS-LINK (Oak arc): "Father of the Nuzlocke" stays on Locke's own lines + the
+  pick blurb; it must NOT leak into Oak's generic un-named nuzlocke gag (OAK-04),
+  which deliberately never names the rivals.
+- Battle text is STARTER-AGNOSTIC (same Locke lines regardless of the player's
+  starter; only his generated team + kept counter-ace differ per save), same wiring
+  model as buhrito.md / twitch.md (branch each existing beat on VAR_RIVAL_ID).
+
 ## Viridian fisherman - the Super Rod giver (mechanic-legibility NPC)
 Concept: a light, one-note local Fisher in Viridian City who hands the player their
 first and only rod (a SUPER ROD) right after they reach town, pre-gym. His purpose
