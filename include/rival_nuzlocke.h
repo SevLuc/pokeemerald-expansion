@@ -31,6 +31,11 @@ bool32 IsLockeRivalTrainer(u16 trainerNum);
 // Fills party with Locke's generated team, returns the count.
 u8 BuildLockeParty(struct Pokemon *party, u16 trainerNum);
 
+// Number of entries in the ordered visited-area table.
+u32 Locke_AreaArrayLen(void);
+// poolCount for a Locke fight (leading sLockeAreas[] entries in its pool), 0 if not a Locke fight.
+u32 Locke_BattlePoolCount(u16 trainerNum);
+
 // Per-save seed, stored across two unused vars.
 u32 GetLockeSeed(void);
 void InitLockeSeed(void);

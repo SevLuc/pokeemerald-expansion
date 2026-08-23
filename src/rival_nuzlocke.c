@@ -9,25 +9,31 @@
 #include "constants/vars.h"
 #include "constants/maps.h" // MAP_GROUP(MAP_UNDEFINED) sentinel
 
-static const u16 sLockeTrainerIds[] =
+#include "data/rival_nuzlocke_battles.h"
+
+static const struct LockeBattle *Locke_FindBattle(u16 trainerNum)
 {
-    TRAINER_RIVAL_ROUTE22_EARLY_SQUIRTLE, TRAINER_RIVAL_ROUTE22_EARLY_BULBASAUR, TRAINER_RIVAL_ROUTE22_EARLY_CHARMANDER,
-    TRAINER_RIVAL_CERULEAN_SQUIRTLE, TRAINER_RIVAL_CERULEAN_BULBASAUR, TRAINER_RIVAL_CERULEAN_CHARMANDER,
-    TRAINER_RIVAL_SS_ANNE_SQUIRTLE, TRAINER_RIVAL_SS_ANNE_BULBASAUR, TRAINER_RIVAL_SS_ANNE_CHARMANDER,
-    TRAINER_RIVAL_POKEMON_TOWER_SQUIRTLE, TRAINER_RIVAL_POKEMON_TOWER_BULBASAUR, TRAINER_RIVAL_POKEMON_TOWER_CHARMANDER,
-    TRAINER_RIVAL_SILPH_SQUIRTLE, TRAINER_RIVAL_SILPH_BULBASAUR, TRAINER_RIVAL_SILPH_CHARMANDER,
-    TRAINER_RIVAL_ROUTE22_LATE_SQUIRTLE, TRAINER_RIVAL_ROUTE22_LATE_BULBASAUR, TRAINER_RIVAL_ROUTE22_LATE_CHARMANDER,
-    TRAINER_CHAMPION_FIRST_SQUIRTLE, TRAINER_CHAMPION_FIRST_BULBASAUR, TRAINER_CHAMPION_FIRST_CHARMANDER,
-    TRAINER_CHAMPION_REMATCH_SQUIRTLE, TRAINER_CHAMPION_REMATCH_BULBASAUR, TRAINER_CHAMPION_REMATCH_CHARMANDER,
-};
+    u32 i;
+    for (i = 0; i < ARRAY_COUNT(sLockeBattles); i++)
+        if (sLockeBattles[i].trainerId == trainerNum)
+            return &sLockeBattles[i];
+    return NULL;
+}
 
 bool32 IsLockeRivalTrainer(u16 trainerNum)
 {
-    u32 i;
-    for (i = 0; i < ARRAY_COUNT(sLockeTrainerIds); i++)
-        if (sLockeTrainerIds[i] == trainerNum)
-            return TRUE;
-    return FALSE;
+    return Locke_FindBattle(trainerNum) != NULL;
+}
+
+u32 Locke_AreaArrayLen(void)
+{
+    return ARRAY_COUNT(sLockeAreas);
+}
+
+u32 Locke_BattlePoolCount(u16 trainerNum)
+{
+    const struct LockeBattle *b = Locke_FindBattle(trainerNum);
+    return b ? b->poolCount : 0;
 }
 
 u8 BuildLockeParty(struct Pokemon *party, u16 trainerNum) { return 0; }

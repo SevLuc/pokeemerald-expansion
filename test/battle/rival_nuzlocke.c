@@ -48,3 +48,11 @@ TEST("Locke: land species lookup returns a valid species from Route 1")
     enum Species s = Locke_AreaSpeciesAt(MAP_GROUP(MAP_ROUTE1), MAP_NUM(MAP_ROUTE1), LOCKE_SLOT_LAND, 0);
     EXPECT(s != SPECIES_NONE);
 }
+
+TEST("Locke: every battle poolCount is within the area array and early fight is 3")
+{
+    EXPECT(Locke_AreaArrayLen() >= 3);
+    EXPECT_EQ(Locke_BattlePoolCount(TRAINER_RIVAL_ROUTE22_EARLY_SQUIRTLE), 3);
+    EXPECT(Locke_BattlePoolCount(TRAINER_CHAMPION_FIRST_SQUIRTLE) <= Locke_AreaArrayLen());
+    EXPECT(Locke_BattlePoolCount(TRAINER_CHAMPION_FIRST_SQUIRTLE) >= 5);
+}
