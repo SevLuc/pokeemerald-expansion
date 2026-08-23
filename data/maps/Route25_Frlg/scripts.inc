@@ -122,7 +122,10 @@ Route25_Text_MistyHighHopesAboutThisPlace::
 	.string "hopes about this place.$"
 
 Route25_Text_AreYouHereAlone::
-	.string "Hello, are you here alone?\p"
-	.string "If you're out at CERULEAN's cape…\n"
-	.string "Well, it should be as a couple.$"
+	.string "Out at CERULEAN's cape alone?\n"
+	.string "It's meant for couples, you know.\p"
+	.string "The SISTERS bring dates up here.\n"
+	.string "MISTY brings that duck of hers.\p"
+	.string "…And whatever she's been guarding\n"
+	.string "by the shore. Won't say what.$"
 

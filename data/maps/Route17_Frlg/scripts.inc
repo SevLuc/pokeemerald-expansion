@@ -59,14 +59,18 @@ Route17_Text_VirgilPostBattle::
 	.string "I love racing downhill!$"
 
 Route17_Text_BillyIntro::
-	.string "We're BIKERS!\n"
-	.string "We rule the roads, man!$"
+	.string "We're BIKERS! We rule the road!\n"
+	.string "Every inch of it, man!\p"
+	.string "…The city? Nah. We don't do the\n"
+	.string "city no more. Road's better.$"
 
 Route17_Text_BillyDefeat::
 	.string "Smoked!$"
 
 Route17_Text_BillyPostBattle::
-	.string "Are you looking for adventure?$"
+	.string "Adventure's out here on the slope.\p"
+	.string "Not back down in CELADON. Not with\n"
+	.string "what's growing in that garden.$"
 
 Route17_Text_NikolasIntro::
 	.string "Let VOLTORB electrify you!$"
@@ -100,13 +104,19 @@ Route17_Text_JamalPostBattle::
 	.string "I'm sure I lost weight there!$"
 
 Route17_Text_CoreyIntro::
-	.string "Be a rebel!$"
+	.string "Be a rebel, like me!\p"
+	.string "Out here on the slope, no man\n"
+	.string "sends CELADON a single coin.$"
 
 Route17_Text_CoreyDefeat::
 	.string "Aaaargh!$"
 
 Route17_Text_CoreyPostBattle::
-	.string "Be ready to fight for your beliefs!$"
+	.string "Stand up for what you believe in!\p"
+	.string "Me, I believe a man shouldn't pay\n"
+	.string "the flower district's taxes.\p"
+	.string "…That's why I live up on the road\n"
+	.string "now. Cheaper. And, uh, safer.$"
 
 Route17_Text_JaxonIntro::
 	.string "Nice BIKE!\n"

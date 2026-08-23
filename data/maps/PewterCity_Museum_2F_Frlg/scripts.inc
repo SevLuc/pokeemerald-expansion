@@ -53,28 +53,31 @@ Text_SeismicTossTaught::
 	.string "Keep it up.$"
 
 PewterCity_Museum_1F_Text_WhatsSpecialAboutMoonStone::
-	.string "MOON STONE, huh?\p"
-	.string "What's so special about it?\n"
-	.string "Looks like an ordinary rock to me.$"
+	.string "Looks like a plain rock to you.\p"
+	.string "There's harder stone in PEWTER\n"
+	.string "than anything in this case.\p"
+	.string "…Wears a GYM LEADER's face.$"
 
 PewterCity_Museum_1F_Text_BoughtColorTVForMoonLanding::
-	.string "July 20, 1969!\p"
-	.string "Humankind first set foot on the\n"
-	.string "moon that day.\p"
-	.string "I bought a color TV just so I\n"
-	.string "could watch that news.$"
+	.string "Back when I was young, one phone\n"
+	.string "in a house was a marvel.\p"
+	.string "You should see the wall of them\n"
+	.string "at the GYM now. …All ringing.$"
 
 PewterCity_Museum_1F_Text_RunningSpaceExhibitThisMonth::
 	.string "This month, we're running a space\n"
 	.string "exhibit.$"
 
 PewterCity_Museum_1F_Text_AskedDaddyToCatchPikachu::
-	.string "I want a PIKACHU!\n"
-	.string "It's so cute!\p"
-	.string "I asked my daddy to catch me one!$"
+	.string "When I'm big I'll go to CERULEAN\n"
+	.string "and only keep WATER POKéMON.\p"
+	.string "There's a girl there who does.\n"
+	.string "…I don't know why. I just like it.$"
 
 PewterCity_Museum_1F_Text_PikachuSoonIPromise::
-	.string "Yeah, a PIKACHU soon, I promise!$"
+	.string "A PIKACHU soon, pumpkin, promise.\p"
+	.string "…BROCK caught one for a child\n"
+	.string "once. Took no thanks for it.$"
 
 PewterCity_Museum_1F_Text_SpaceShuttle::
 	.string "Space Shuttle$"

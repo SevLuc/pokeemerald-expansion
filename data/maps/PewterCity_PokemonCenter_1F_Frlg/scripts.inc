@@ -45,21 +45,20 @@ PewterCity_PokemonCenter_1F_EventScript_GBAKid2::
 	end
 
 PewterCity_PokemonCenter_1F_Text_TeamRocketMtMoonImOnPhone::
-	.string "What!?\p"
-	.string "TEAM ROCKET is at MT. MOON?\n"
-	.string "Huh?\p"
-	.string "I'm on the phone!\n"
-	.string "Scram!$"
+	.string "TEAM ROCKET, at MT. MOON!?\p"
+	.string "Not now! I'm on the phone! Scram!\p"
+	.string "Bah… one call rattles me for hours.\p"
+	.string "They say BROCK's GYM has a wall of\n"
+	.string "them. However does he sleep.$"
 
 PewterCity_PokemonCenter_1F_Text_Jigglypuff::
 	.string "JIGGLYPUFF: Puu pupuu!$"
 
 PewterCity_PokemonCenter_1F_Text_WhenJiggylypuffSingsMonsGetDrowsy::
-	.string "Yawn!\p"
-	.string "When JIGGLYPUFF sings, POKéMON get\n"
-	.string "drowsy…\p"
-	.string "…Me, too…\n"
-	.string "Snore…$"
+	.string "Yawn… when JIGGLYPUFF sings,\n"
+	.string "everyone nods off. …Me too. Snore.\p"
+	.string "They say BROCK sleeps through\n"
+	.string "anything. 'Cept a ringing phone.$"
 
 PewterCity_PokemonCenter_1F_Text_TradingMyClefairyForPikachu::
 	.string "I really want a PIKACHU, so I'm\n"

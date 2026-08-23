@@ -247,22 +247,15 @@ PokemonLeague_ChampionsRoom_Movement_RivalWatchOakEnter::
 	step_end
 
 PokemonLeague_ChampionsRoom_Text_Intro::
-	.string "{RIVAL}: Hey, {PLAYER}!\p"
-	.string "I was looking forward to seeing\n"
-	.string "you, {PLAYER}.\p"
-	.string "My rival should be strong to keep\n"
-	.string "me sharp.\p"
-	.string "While working on my POKéDEX, I\n"
-	.string "looked all over for POKéMON.\p"
-	.string "Not only that, I assembled teams\n"
-	.string "that would beat any POKéMON type.\p"
-	.string "And now…\p"
-	.string "I'm the POKéMON LEAGUE CHAMPION!\p"
-	.string "{PLAYER}!\n"
-	.string "Do you know what that means?\p"
-	.string "I'll tell you.\p"
-	.string "I am the most powerful TRAINER in\n"
-	.string "the world!$"
+	.string "Yoo whats good {PLAYER}!\p"
+	.string "What you doing here\n"
+	.string "pulling up on me?\p"
+	.string "Last guy that was here\n"
+	.string "sold the game,\l"
+	.string "so im supa locked.\p"
+	.string "Come on!\p"
+	.string "NO SETUP Fair Red\n"
+	.string "bringing 3 shitmons!$"
 
 PokemonLeague_ChampionsRoom_Text_RematchIntro::
 	.string "{RIVAL}: Hey, {PLAYER}!\p"
@@ -283,13 +276,7 @@ PokemonLeague_ChampionsRoom_Text_RematchIntro::
 	.string "the world!$"
 
 PokemonLeague_ChampionsRoom_Text_Defeat::
-	.string "NO!\n"
-	.string "That can't be!\l"
-	.string "You beat me at my best!\p"
-	.string "After all that work to become\n"
-	.string "the LEAGUE CHAMP?\p"
-	.string "My reign is over already?\n"
-	.string "It's not fair!$"
+	.string "burrito.exe has crashed$"
 
 PokemonLeague_ChampionsRoom_Text_Victory::
 	.string "はーはッ！\n"
@@ -303,13 +290,19 @@ PokemonLeague_ChampionsRoom_Text_Victory::
 	.string "はーッ！　はーはッはッ！$"
 
 PokemonLeague_ChampionsRoom_Text_PostBattle::
-	.string "Why?\n"
-	.string "Why did I lose?\p"
-	.string "I never made any mistakes raising\n"
-	.string "my POKéMON…\p"
-	.string "Darn it! You're the new POKéMON\n"
-	.string "LEAGUE CHAMPION!\p"
-	.string "Although I don't like to admit it…$"
+	.string "How I got the title:\n"
+	.string "Father of the drayano\l"
+	.string "gauntlet?\p"
+	.string "Cause Im him bro!\p"
+	.string "My team here was suspicious\n"
+	.string "but we nuzlock to ball\l"
+	.string "out bro!\p"
+	.string "Thats why we nuzlock at\n"
+	.string "the end of the day!\p"
+	.string "I am gonna call it here\n"
+	.string "for now,\p"
+	.string "but thank god we beat\n"
+	.string "this game bro!$"
 
 PokemonLeague_ChampionsRoom_Text_TwitchIntro::
 	.string "chat, is this real. we made it.\p"

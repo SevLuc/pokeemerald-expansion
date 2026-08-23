@@ -55,10 +55,16 @@ PokemonMansion_1F_Text_NewMonDiscoveredInGuyanaJungle::
 	.string "Diary: July 5\n"
 	.string "Guyana, South America\p"
 	.string "A new POKéMON was discovered deep\n"
-	.string "in the jungle.$"
+	.string "in the jungle.\p"
+	.string "Below it, in a younger hand:\n"
+	.string "A whole new life.\p"
+	.string "We could learn everything.$"
 
 PokemonMansion_1F_Text_ChristenedDiscoveredMonMew::
 	.string "Diary: July 10\n"
 	.string "We christened the newly discovered\l"
-	.string "POKéMON, MEW.$"
+	.string "POKéMON, MEW.\p"
+	.string "A later note, unsigned:\n"
+	.string "So rare a thing to hold.\p"
+	.string "We should be careful with it.$"
 

@@ -82,6 +82,79 @@ Update in the same PR as the change.
   persistent flag `FLAG_GOT_VIRIDIAN_SUPER_ROD` (repurposed 0x21; the FRLG
   `FLAG_GOT_*_ROD` names are all stubbed to 0 in this Emerald-based build and
   cannot be used). Lore fact logged FISH-01 in docs/writing/lore-ledger.md.
+- 2026-08-22 - story/surge - NPC fill pass: reflavored 12 vanilla NPCs across
+  Vermilion (Mart, Fan Club, House3) and the S.S. Anne (corridors, deck, cabins)
+  with Surge's discipline / earned-composure / ship-history lore that builds the
+  Captain payoff. Cross-nudges: Mart man + S.S. Anne police agent -> Giovanni
+  (faceless boss), Fan Club woman -> Misty. Rocket/Cut/famechecker info preserved
+  by appending. Skipped 3 low-fit NPCs to avoid over-saturating the "freedom" beat.
+  Lore-ledger SURGE-09..20 added.
+- 2026-08-22 - story/brock+misty - NPC fill pass: replaced 19 vanilla flavor NPCs
+  with leader lore (Brock 11 across Pewter Museum/Houses/PC/Mart; Misty 8 across
+  Cerulean city/PC + Route 25). Subtle and varied, no repeated beats; divorce/
+  alimony kept off minors (kids got innocent or coy-only lines). Built-in
+  cross-nudges: Museum girl -> Misty, House1 -> Giovanni (Viridian leader away),
+  Cerulean policeman -> Giovanni (faceless boss), PC rocker -> Surge. Functional
+  hints (CUT, obedience tutorial, famechecker) preserved by appending. Lore-ledger
+  rows BROCK-11..21 and MISTY-08..15 added. From the NPC fill lists.
+- 2026-08-22 - story/lore - Authored + placed 15 distributed-lore beats for Oak and
+  the Elite Four by overwriting existing generic NPCs (no new objects): Oak OAK-05/06/
+  07/08/10 (aide gags, dex-rating gremlin, Agatha hook, post-game musing), Lorelei-08
+  (Four Island grudge list, "VANILLA"), Bruno-03/04 (Ember Spa mountain sightings),
+  Agatha-03/04/08 (young Agatha, Oak goes quiet, post-game reflection), Lance-03/04/05/
+  06 (Seven Island Mart + Cinnabar Lab + Oak's Lab "so... a dragon"). OAK-08 and
+  AGATHA-08 folded into one post-game Oak branch (FLAG_SYS_GAME_CLEAR). Lore-ledger
+  updated per beat. Skipped (need new Porymap objects): OAK-09 (Pallet 3 AM Pidgey,
+  no spare townsperson) and LORELEI-06 (Icefall Cave has no NPC objects). Note:
+  OAK-07 prepends Oak's recurring dex-rating talk, so it repeats on each mid-game
+  Oak chat (broken-record gremlin voice; fire-once would need a spare flag).
+- 2026-08-22 - story/rival - Wired Twitch's post-game National-Dex lines and placed
+  Buhrito's Pokemon Tower post-battle "Cinnabar" gag (intentional wrong-geography kept).
+- 2026-08-22 - story/brock - Placed 4 of Brock's 6 remaining Pewter-arc gossip
+  lines by repurposing Pewter's one spare NPC (the Bug Catcher) into a single
+  PROGRESSIVE Brock-gossip NPC: ungated "get in line / his lawyers, mostly",
+  then FLAG_BADGE01_GET "alimony doesn't pay itself", FLAG_BADGE06_GET "married
+  again, connect the dots", FLAG_SYS_GAME_CLEAR "still on the phone, eternal"
+  (checked most-progressed-first). Logged as BROCK-03/08/09/10 in the lore-ledger.
+  Skipped (no spare female/child NPC without new objects): the "I knew BROCK,
+  briefly" woman and the "generous every month" kid (BROCK-03b/03c stay UNPLACED).
+  Gym/Museum guides and plot NPCs untouched.
+- 2026-08-22 - story/rival - Split the shared rival loss line: Route 22 early now
+  has its own Buhrito-voice loss line instead of the Oak's Lab tutorial joke.
+- 2026-08-22 - story/rival - Placed Buhrito's dialogue across all 8 rival
+  encounters (Oak's Lab, Route 22 early, Cerulean, S.S. Anne, Pokemon Tower,
+  Silph Co, Route 22 late, Champion). Buhrito is the default rival (RIVAL_ID_BUHRITO)
+  so his lines went into each encounter's non-Twitch default text labels; the Twitch
+  branch, teams, and mechanics are untouched. Verbatim from docs/writing/drafts/buhrito.md
+  (gen-3 line breaks only). Skipped as unwritten: Pokemon Tower "Cinnabar" post-battle
+  gag (pending geo-error call), Champion rematch intro, post-game National-Dex lines.
+  Known issue: Text_RivalVictory (player-loss line) is shared by the Oak's Lab tutorial
+  loss and the Route 22 early loss, so the Route 22 loss currently shows the tutorial
+  joke; splitting it needs a label change (deferred).
+- 2026-08-22 - QoL/gameplay - Infinite-repel toggle added to the Start menu
+  ("REPEL: ON/OFF"). While ON, all wild encounters are suppressed with zero repel
+  consumption (guard in `IsWildLevelAllowedByRepel`, `src/wild_encounter.c`);
+  toggled by `FLAG_TOGGLE_NO_ENCOUNTERS` (reclaimed FLAG_UNUSED_0x4A7). Start-menu
+  action + dynamic label in `src/start_menu.c`. Fishing and scripted battles are
+  unaffected (same as a normal repel).
+- 2026-08-22 - intro/story - Wired the new-game intro. Replaced the vanilla Oak
+  monologue with a brief author welcome (casual/old-school framing, "play by
+  whatever rules you like, the goal is to have FUN and explore") that flows
+  straight into the boy/girl + name prompts; the Oak-speech task now skips the
+  Nidoran demo (`src/oak_speech.c`, WelcomeToTheWorld -> FadeOutOak). Replaced the
+  "this is my grandson" rival-name preamble with the rival-pick framing
+  (`gOakSpeech_Text_WhatWasHisName`): the rival is flavored toward your favorite
+  opponent, so you choose which. Text in `data/text/new_game_intro_frlg.inc`.
+- 2026-08-22 - items/gameplay - Oak's first Poke Ball gift bumped from 5 to 90
+  (`PalletTown_ProfessorOaksLab_Frlg`, the Pokedex-handoff gift). The later
+  "ran out of balls" top-up still gives 5.
+- 2026-08-22 - QoL/config - Confirmed OW_HEAL_AFTER_BATTLE = TRUE (party fully
+  heals after every won/ended battle); no change needed, recorded for the overview.
+- 2026-08-22 - pokemon/balance - All species set to the easiest catch rate. Every
+  `.catchRate` in `src/data/pokemon/species_info/*.h` (1343 entries) set to 255
+  (the max; higher = easier to catch). Legendaries, starters, and everything else
+  now catch as easily as a Caterpie. Trade-off: removes catching difficulty as a
+  balance lever (Master Ball / status / weakening no longer matter for capture).
 - 2026-08-22 - pokemon/gameplay - Caught Pokemon now start at MAXIMUM friendship
   (255). Hooked in `Cmd_givecaughtmon` (`src/battle_script_commands.c`), just
   before `GiveCapturedMonToPlayer`, setting `MON_DATA_FRIENDSHIP` to

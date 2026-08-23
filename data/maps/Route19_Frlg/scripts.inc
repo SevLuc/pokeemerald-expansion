@@ -56,7 +56,13 @@ Route19_Text_DouglasDefeat::
 
 Route19_Text_DouglasPostBattle::
 	.string "I see a couple of islands over\n"
-	.string "yonder!$"
+	.string "yonder, to the west.\p"
+	.string "One of them burned, years back.\n"
+	.string "I was out here the day it went up.\p"
+	.string "Something rose from the smoke and\n"
+	.string "flew north over the sea.\p"
+	.string "…Never saw it come down. Don't\n"
+	.string "much look that way anymore.$"
 
 Route19_Text_DavidIntro::
 	.string "I tried diving for POKéMON, but it\n"

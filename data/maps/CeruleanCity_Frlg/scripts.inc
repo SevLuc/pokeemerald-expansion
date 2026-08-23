@@ -392,33 +392,34 @@ CeruleanCity_EventScript_GymSign::
 	end
 
 CeruleanCity_Text_RivalIntro::
-	.string "{RIVAL}: Yo! {PLAYER}!\p"
-	.string "You're still struggling along back\n"
-	.string "here?\p"
-	.string "I'm doing great! I caught a bunch\n"
-	.string "of strong and smart POKéMON!\p"
-	.string "Here, let me see what you caught,\n"
-	.string "{PLAYER}!$"
+	.string "Yo {PLAYER} whats poppin?\p"
+	.string "you talked to the old guy\n"
+	.string "in the house next to the\l"
+	.string "pokecenter?\p"
+	.string "proposing a trade RALTS\n"
+	.string "for Lickytung?\p"
+	.string "this guy is trying to hit\n"
+	.string "a lick on me\p"
+	.string "Oh… I forgot this was a\n"
+	.string "fight…\p"
+	.string "we good though!$"
 
 CeruleanCity_Text_RivalDefeat::
-	.string "Hey!\n"
-	.string "Take it easy!\l"
-	.string "You won already!$"
+	.string "Wait wait wait wait wait\n"
+	.string "I misclicked.$"
 
 CeruleanCity_Text_RivalPostBattle::
-	.string "{RIVAL}: Hey, guess what?\p"
-	.string "I went to BILL's and got him to\n"
-	.string "show me his rare POKéMON.\p"
-	.string "That added a lot of pages to my\n"
-	.string "POKéDEX!\p"
-	.string "After all, BILL's world famous as a\n"
-	.string "POKéMANIAC.\p"
-	.string "He invented the POKéMON Storage\n"
-	.string "System on PC, too.\p"
-	.string "Since you're using his system,\n"
-	.string "you should go thank him.\p"
-	.string "Well, I better get rolling!\n"
-	.string "Smell ya later!$"
+	.string "Oh yo, real quick,\n"
+	.string "go find the Bill guy up\l"
+	.string "north.\p"
+	.string "He just shows you his rare\n"
+	.string "mons for free,\l"
+	.string "absolute cinema.\p"
+	.string "Watch out though, even\n"
+	.string "with my goated movement\p"
+	.string "I ran into some demon\n"
+	.string "optionals.\p"
+	.string "Aight, Peaceeee!$"
 
 CeruleanCity_Text_TwitchRivalIntro::
 	.string "yo, you beat the bridge?\n"
@@ -461,19 +462,22 @@ CeruleanCity_Text_TwitchExplainFameChecker::
 	.string "GG. we go next.$"
 
 CeruleanCity_Text_OhRightLittlePresentAsFavor::
-	.string "Oh, yeah, right.\p"
-	.string "I feel sorry for you. No, really.\n"
-	.string "You're always plodding behind me.\p"
-	.string "So here, I'll give you a little\n"
-	.string "present as a favor.$"
+	.string "Oh wait, hold up.\p"
+	.string "Ngl I kinda feel bad,\n"
+	.string "you're playing this thing\l"
+	.string "totally blind.\p"
+	.string "Here, take this, on me.$"
 
 CeruleanCity_Text_ExplainFameCheckerSmellYa::
-	.string "A chatty gossip like you…\n"
-	.string "That thing's perfect.\p"
-	.string "I don't need it because I don't\n"
-	.string "give a hoot about others.\p"
-	.string "All right, this time I really am\n"
-	.string "gone. Smell ya!$"
+	.string "It's basically the wiki,\n"
+	.string "pulls up intel on all the\l"
+	.string "big-name trainers.\p"
+	.string "I don't need it, I got the\n"
+	.string "whole meta memorized\l"
+	.string "already.\p"
+	.string "You a bum though…\p"
+	.string "Aight, for real this time.\n"
+	.string "Peaceeee!$"
 
 CeruleanCity_Text_GruntIntro::
 	.string "Hey! Stay out!\n"
@@ -519,10 +523,10 @@ CeruleanCity_Text_YouCanCutDownSmallTrees::
 CeruleanCity_Text_IfSlowbroWasntThereCouldCutTree::
 	.string "If that SLOWBRO wasn't there, you\n"
 	.string "could CUT down the small tree.\p"
-	.string "That way, you could get to the\n"
-	.string "other side.\p"
-	.string "I think there's a way around it,\n"
-	.string "though.$"
+	.string "That way, you'd reach the other\n"
+	.string "side. There's a way around, though.\p"
+	.string "That SLOWBRO's near as stubborn\n"
+	.string "as MISTY's PSYDUCK!$"
 
 CeruleanCity_Text_PokemonEncyclopediaAmusing::
 	.string "That PSYDUCK answers to no one.\n"
@@ -536,10 +540,12 @@ CeruleanCity_Text_MistyPsyduckHeart::
 
 CeruleanCity_Text_PeopleHereWereRobbed::
 	.string "The people here were robbed.\p"
-	.string "It's obvious that TEAM ROCKET is\n"
-	.string "behind this most heinous crime!\p"
-	.string "Even our POLICE FORCE has\n"
-	.string "trouble with the ROCKETS!$"
+	.string "TEAM ROCKET is behind it, sure as\n"
+	.string "anything. Our FORCE can't cope.\p"
+	.string "And the one giving the orders?\n"
+	.string "No one's ever seen his face.\p"
+	.string "A clean-handed man, somewhere.\n"
+	.string "…The kind you never think to watch.$"
 
 CeruleanCity_Text_SlowbroUseSonicboom::
 	.string "Okay! SLOWBRO!\n"
@@ -562,7 +568,9 @@ CeruleanCity_Text_HardToControlMonsObedience::
 	.string "No! That's wrong!\n"
 	.string "It's so hard to control POKéMON!\p"
 	.string "Your POKéMON's obedience depends\n"
-	.string "on your abilities as a TRAINER.$"
+	.string "on your abilities as a TRAINER.\p"
+	.string "Even MISTY can't make her silly\n"
+	.string "one mind. Mine only loafs, though.$"
 
 CeruleanCity_Text_SlowbroTookSnooze::
 	.string "SLOWBRO took a snooze…$"
@@ -577,9 +585,10 @@ CeruleanCity_Text_SlowbroIgnoredOrders::
 	.string "SLOWBRO ignored orders…$"
 
 CeruleanCity_Text_WantBrightRedBicycle::
-	.string "I want a bright red bicycle.\p"
-	.string "I'll keep it at home, so it won't\n"
-	.string "get dirty.$"
+	.string "The SENSATIONAL SISTERS keep it\n"
+	.string "all spotless for their shows.\p"
+	.string "Not MISTY. That girl's forever\n"
+	.string "soaked. Lives in the pool, near.$"
 
 CeruleanCity_Text_ThisIsCeruleanCave::
 	.string "This is CERULEAN CAVE.\p"

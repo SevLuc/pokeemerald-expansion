@@ -101,8 +101,8 @@ ViridianCity_Mart_Text_SayHiToOakForMe::
 	.string "PROF. OAK for me, too.$"
 
 ViridianCity_Mart_Text_ShopDoesGoodBusinessInAntidotes::
-	.string "This shop does good business in\n"
-	.string "ANTIDOTES, I've heard.$"
+	.string "Oh, I knew BROCK. Once.\p"
+	.string "…Briefly.$"
 
 ViridianCity_Mart_Text_GotToBuySomePotions::
 	.string "I've got to buy some POTIONS.\p"

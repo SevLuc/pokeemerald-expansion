@@ -30,7 +30,11 @@ FuchsiaCity_PokemonCenter_1F_Text_CantBecomeGoodTrainerWithOneMon::
 	.string "You can't become a good TRAINER\n"
 	.string "with just one strong POKéMON.\p"
 	.string "But raising many POKéMON evenly\n"
-	.string "is no easy task, either.$"
+	.string "is no easy task, either.\p"
+	.string "Funny. A whole city can run off one\n"
+	.string "POKéMON's breath, and does.\p"
+	.string "You don't raise a fuss about it.\n"
+	.string "You just… breathe it in.$"
 
 FuchsiaCity_PokemonCenter_1F_Text_PokemonLeagueWestOfViridian::
 	.string "There's a narrow trail west of\n"

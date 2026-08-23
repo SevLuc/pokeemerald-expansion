@@ -27,10 +27,13 @@ LavenderTown_PokemonCenter_1F_EventScript_Youngster::
 	end
 
 LavenderTown_PokemonCenter_1F_Text_RocketsDoAnythingForMoney::
-	.string "TEAM ROCKET will do anything for\n"
-	.string "the sake of money!\p"
-	.string "There is no job too dirty, no deed\n"
-	.string "too heinous, no crime too wicked!$"
+	.string "You know AGATHA of the ELITE\n"
+	.string "FOUR? The GHOST trainer?\p"
+	.string "She trained here as a girl, among\n"
+	.string "the TOWER's spirits.\p"
+	.string "Fierce even then. …Back when a\n"
+	.string "friend of hers chose books over\l"
+	.string "battle.$"
 
 LavenderTown_PokemonCenter_1F_Text_CubonesMotherKilledByRockets::
 	.string "I saw CUBONE's mother trying to\n"

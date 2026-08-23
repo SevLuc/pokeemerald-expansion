@@ -344,35 +344,26 @@ SilphCo_7F_Text_Grunt2PostBattle::
 	.string "ticked off!$"
 
 SilphCo_7F_Text_RivalWhatKeptYou::
-	.string "{RIVAL}: What kept you, {PLAYER}?$"
+	.string "tea speedrun WR$"
 
 SilphCo_7F_Text_RivalIntro::
-	.string "{RIVAL}: Hahaha! I thought you'd\n"
-	.string "turn up if I waited here!\p"
-	.string "I guess TEAM ROCKET slowed you\n"
-	.string "down! Not that I care!\p"
-	.string "I saw you in SAFFRON, so I decided\n"
-	.string "to see if you got better!$"
+	.string "So this is a fight? …\p"
+	.string "I hope I have 6 mons in\n"
+	.string "my party…\p"
+	.string "Its all good though they\n"
+	.string "dont know I got fart lead\l"
+	.string "on deck.$"
 
 SilphCo_7F_Text_RivalDefeat::
-	.string "Oh, man!\n"
-	.string "So, you are ready for BOSS\l"
-	.string "ROCKET!$"
+	.string "okay we're trolling,\n"
+	.string "what was I cooking…?$"
 
 SilphCo_7F_Text_RivalPostBattle::
-	.string "Well, {PLAYER}!\n"
-	.string "I'm moving on up and ahead!\p"
-	.string "By checking my POKéDEX, I'm\n"
-	.string "starting to see what's strong and\l"
-	.string "how they evolve!\p"
-	.string "Am I a genius or what?\p"
-	.string "I'm going to the POKéMON LEAGUE to\n"
-	.string "boot out the ELITE FOUR.\p"
-	.string "I'll become the world's most\n"
-	.string "powerful TRAINER!\p"
-	.string "{PLAYER}, well, good luck to you!\n"
-	.string "Don't sweat it!\l"
-	.string "Smell ya!$"
+	.string "Giovanni? Giovanni is not\n"
+	.string "a thread bro.\p"
+	.string "Honestly bro, I prepped\n"
+	.string "for like… 2 minutes.\p"
+	.string "Get his bum ass$"
 
 SilphCo_7F_Text_TwitchRivalWhatKeptYou::
 	.string "it is a RANGE.\n"

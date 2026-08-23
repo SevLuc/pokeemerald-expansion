@@ -193,12 +193,15 @@ gPikachuIntro_Text_Page3::
 	.string "adventure begin!$"
 
 gOakSpeech_Text_WelcomeToTheWorld::
-	.string "Hello, there!\n"
-	.string "Glad to meet you!\p"
-	.string "Welcome to the world of POKéMON!\p"
-	.string "My name is OAK.\p"
-	.string "People affectionately refer to me\n"
-	.string "as the POKéMON PROFESSOR.\p$"
+	.string "Hi there! Welcome.\p"
+	.string "This game is made for casual,\n"
+	.string "old-school POKéMON fun.\p"
+	.string "What that means… you have to find\n"
+	.string "out for yourself.\p"
+	.string "Play by whatever rules you like.\p"
+	.string "The goal is to have FUN and\n"
+	.string "explore!\p"
+	.string "Hope you have a great time!$"
 
 gOakSpeech_Text_ThisWorld::
 	.string "This world…$"
@@ -226,10 +229,14 @@ gOakSpeech_Text_SoYourNameIsPlayer::
 	.string "So your name is {PLAYER}.$"
 
 gOakSpeech_Text_WhatWasHisName::
-	.string "This is my grandson.\p"
-	.string "He's been your rival since you both\n"
-	.string "were babies.\p"
-	.string "…Erm, what was his name now?$"
+	.string "The rival is a bit different in\n"
+	.string "this game.\p"
+	.string "It's heavily flavored toward your\n"
+	.string "favorite opponent.\p"
+	.string "That's why you get to choose from\n"
+	.string "these options.\p"
+	.string "Pick whichever you'd find the most\n"
+	.string "fun as a rival!$"
 
 gOakSpeech_Text_YourRivalsNameWhatWasIt::
 	.string "Your rival's name, what was it now?$"

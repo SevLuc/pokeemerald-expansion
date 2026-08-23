@@ -40,9 +40,16 @@ VermilionCity_Mart_Text_TeamRocketAreWickedPeople::
 	.string "They also abandon POKéMON that\n"
 	.string "they consider unpopular or useless.\p"
 	.string "That's the sort of horrid people\n"
-	.string "they are, TEAM ROCKET.$"
+	.string "they are, TEAM ROCKET.\p"
+	.string "The trade never truly stopped, mind.\n"
+	.string "It only changed hands.\p"
+	.string "Everyone here can name the grunts.\n"
+	.string "No one can name who sends them.$"
 
 VermilionCity_Mart_Text_MonsGoodOrBadDependingOnTrainer::
-	.string "I think POKéMON can be good or\n"
-	.string "bad. It depends on the TRAINER.$"
+	.string "A POKéMON's only as good as its\n"
+	.string "TRAINER. Loud or quiet, no odds.\p"
+	.string "Power went out down the whole row\n"
+	.string "last winter. Ours never flickered.\p"
+	.string "…Never did learn why.$"
 

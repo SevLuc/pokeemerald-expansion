@@ -120,7 +120,10 @@ VermilionCity_PokemonFanClub_EventScript_RulesSign2::
 
 VermilionCity_PokemonFanClub_Text_AdmirePikachusTail::
 	.string "Won't you admire my PIKACHU's\n"
-	.string "adorable tail?$"
+	.string "adorable tail?\p"
+	.string "Half the city keeps an electric\n"
+	.string "type now. Wasn't always so.\p"
+	.string "…You start to wonder what changed.$"
 
 VermilionCity_PokemonFanClub_Text_PikachuTwiceAsCute::
 	.string "Humph!\p"
@@ -129,9 +132,10 @@ VermilionCity_PokemonFanClub_Text_PikachuTwiceAsCute::
 
 VermilionCity_PokemonFanClub_Text_AdoreMySeel::
 	.string "I just adore my SEEL!\n"
-	.string "It's so lovable!\p"
-	.string "It squeals, “Kyuuuh,” when I\n"
-	.string "hug it!$"
+	.string "It never strays. That's why I love it.\p"
+	.string "A girl up north keeps only what\n"
+	.string "can't follow her from the water.\p"
+	.string "…I never quite understood that.$"
 
 VermilionCity_PokemonFanClub_Text_SeelFarMoreAttractive::
 	.string "Oh, dear!\p"
@@ -200,7 +204,9 @@ VermilionCity_PokemonFanClub_Text_MakeRoomForThis::
 
 VermilionCity_PokemonFanClub_Text_ChairmanVeryVocalAboutPokemon::
 	.string "Our CHAIRMAN is very vocal about\n"
-	.string "POKéMON.$"
+	.string "POKéMON. Loud men, this city.\p"
+	.string "Funny, though. The one they'd\n"
+	.string "all follow hardly says a word.$"
 
 VermilionCity_PokemonFanClub_Text_ListenPolitelyToOtherTrainers::
 	.string "Let's all listen politely to other\n"
