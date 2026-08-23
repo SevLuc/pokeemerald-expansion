@@ -1094,6 +1094,7 @@ static void _GiveEggFromDaycare(struct DayCare *daycare)
         InheritAbility(&egg, &daycare->mons[parentSlots[1]].mon, &daycare->mons[parentSlots[0]].mon);
 
     GiveMoveIfItem(&egg, daycare);
+    ApplyPlayerMoveBans(&egg); // bred eggs never hatch with banned level-up or inherited moves
 
     isEgg = TRUE;
     SetMonData(&egg, MON_DATA_IS_EGG, &isEgg);

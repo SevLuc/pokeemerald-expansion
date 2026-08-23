@@ -457,6 +457,7 @@ const struct NatureInfo gNaturesInfo[NUM_NATURES] =
 
 #include "data/pokemon/trainer_class_lookups.h"
 #include "data/pokemon/experience_tables.h"
+#include "data/banned_moves.h" // player-only move bans + curated replacements
 
 #if P_LVL_UP_LEARNSETS >= GEN_9
 #include "data/pokemon/level_up_learnsets/gen_9.h" // Scarlet/Violet
@@ -1613,6 +1614,134 @@ void GiveBoxMonInitialMoveset(struct BoxPokemon *boxMon) //Credit: AsparagusEdua
     }
 }
 
+// Is this a move the player is never allowed to have on their Pokemon?
+// (Trainers are not affected - this is only queried on player/wild acquisition
+// paths.) See src/data/banned_moves.h.
+bool32 IsMovePlayerBanned(u32 move)
+{
+    u32 i;
+    for (i = 0; i < ARRAY_COUNT(sPlayerBannedMoves); i++)
+    {
+        if (sPlayerBannedMoves[i] == move)
+            return TRUE;
+    }
+    return FALSE;
+}
+
+// If a species learns a banned move by level-up, return the curated replacement
+// to give the player instead. MOVE_NONE means "no replacement" (backfill).
+u32 GetBannedMoveReplacement(u32 species, u32 move)
+{
+    u32 i;
+    for (i = 0; i < ARRAY_COUNT(sBannedMoveReplacements); i++)
+    {
+        if (sBannedMoveReplacements[i].species == species
+         && sBannedMoveReplacements[i].bannedMove == move)
+            return sBannedMoveReplacements[i].replacement;
+    }
+    return MOVE_NONE;
+}
+
+// Resolve what a player mon should learn for a given learnset move: the move
+// itself if legal, its curated replacement if banned, or MOVE_NONE to skip.
+static u32 ResolvePlayerLearnMove(u32 species, u32 move)
+{
+    u32 replacement;
+    if (!IsMovePlayerBanned(move))
+        return move;
+    replacement = GetBannedMoveReplacement(species, move);
+    if (replacement == MOVE_NONE || IsMovePlayerBanned(replacement))
+        return MOVE_NONE;
+    return replacement;
+}
+
+// Scrub banned moves from a freshly-acquired player/wild Pokemon: swap each
+// banned move for its curated replacement, or drop it and backfill from the
+// species' own legal level-up moves. Preserves legal inherited/egg/special
+// moves the mon already has.
+void ApplyPlayerMoveBans(struct Pokemon *mon)
+{
+    enum Species species = GetMonData(mon, MON_DATA_SPECIES);
+    u32 level = GetMonData(mon, MON_DATA_LEVEL);
+    enum Move moves[MAX_MON_MOVES];
+    u32 i, j;
+    bool32 changed = FALSE;
+
+    for (i = 0; i < MAX_MON_MOVES; i++)
+    {
+        enum Move move = GetMonData(mon, MON_DATA_MOVE1 + i);
+        moves[i] = move;
+        if (move == MOVE_NONE || !IsMovePlayerBanned(move))
+            continue;
+
+        enum Move replacement = GetBannedMoveReplacement(species, move);
+        bool32 knowsReplacement = FALSE;
+        if (replacement != MOVE_NONE)
+        {
+            for (j = 0; j < MAX_MON_MOVES; j++)
+            {
+                if (GetMonData(mon, MON_DATA_MOVE1 + j) == replacement)
+                {
+                    knowsReplacement = TRUE;
+                    break;
+                }
+            }
+        }
+        if (replacement != MOVE_NONE && !IsMovePlayerBanned(replacement) && !knowsReplacement)
+            moves[i] = replacement;
+        else
+            moves[i] = MOVE_NONE; // drop; backfilled below
+        changed = TRUE;
+    }
+
+    if (!changed)
+        return;
+
+    // Backfill any emptied slots from the species' legal level-up moves,
+    // most-recent first, skipping banned and already-present moves.
+    const struct LevelUpMove *learnset = GetSpeciesLevelUpLearnset(species);
+    for (i = 0; i < MAX_MON_MOVES; i++)
+    {
+        u32 k;
+        enum Move fill = MOVE_NONE;
+
+        if (moves[i] != MOVE_NONE)
+            continue;
+
+        for (k = 0; learnset[k].move != LEVEL_UP_MOVE_END; k++)
+        {
+            enum Move candidate = learnset[k].move;
+            bool32 present = FALSE;
+
+            if (learnset[k].level > level)
+                break;
+            if (learnset[k].level == 0)
+                continue;
+            if (IsMovePlayerBanned(candidate))
+                continue;
+
+            for (j = 0; j < MAX_MON_MOVES; j++)
+            {
+                if (moves[j] == candidate)
+                {
+                    present = TRUE;
+                    break;
+                }
+            }
+            if (!present)
+                fill = candidate; // keep scanning for the most recent legal move
+        }
+        moves[i] = fill;
+    }
+
+    for (i = 0; i < MAX_MON_MOVES; i++)
+    {
+        u32 pp = GetMovePP(moves[i]);
+        SetMonData(mon, MON_DATA_MOVE1 + i, &moves[i]);
+        SetMonData(mon, MON_DATA_PP1 + i, &pp);
+    }
+}
+
 void GiveMonDefaultMove(struct Pokemon *mon, u32 slot)
 {
     GiveBoxMonDefaultMove(&mon->box, slot);
@@ -1697,8 +1826,12 @@ enum Move MonTryLearningNewMoveAtLevel(struct Pokemon *mon, bool32 firstMove, u3
 
     if (learnset[sLearningMoveTableID].level == level)
     {
-        gMoveToLearn = learnset[sLearningMoveTableID].move;
+        enum Move toLearn = learnset[sLearningMoveTableID].move;
         sLearningMoveTableID++;
+        toLearn = ResolvePlayerLearnMove(species, toLearn);
+        if (toLearn == MOVE_NONE)
+            return MonTryLearningNewMoveAtLevel(mon, FALSE, level); // banned, no replacement: try next
+        gMoveToLearn = toLearn;
         retVal = GiveMoveToMon(mon, gMoveToLearn);
     }
 
@@ -5093,6 +5226,8 @@ u8 CanLearnTeachableMove(enum Species species, enum Move move)
     const u16 *teachableLearnset = GetSpeciesTeachableLearnset(species);
     if (species == SPECIES_EGG)
         return FALSE;
+    if (IsMovePlayerBanned(move)) // player can't learn banned moves via TM/tutor/relearner
+        return FALSE;
     for (u32 i = 0; teachableLearnset[i] != MOVE_UNAVAILABLE; i++)
     {
         if (teachableLearnset[i] == move)
@@ -6276,8 +6411,12 @@ u16 MonTryLearningNewMoveEvolution(struct Pokemon *mon, bool8 firstMove)
         while ((learnset[sLearningMoveTableID].level == 0 || learnset[sLearningMoveTableID].level == level)
              && !(P_EVOLUTION_LEVEL_1_LEARN >= GEN_8 && learnset[sLearningMoveTableID].level == 1))
         {
-            gMoveToLearn = learnset[sLearningMoveTableID].move;
+            enum Move toLearn = learnset[sLearningMoveTableID].move;
             sLearningMoveTableID++;
+            toLearn = ResolvePlayerLearnMove(species, toLearn);
+            if (toLearn == MOVE_NONE)
+                continue; // banned, no replacement: check next entry
+            gMoveToLearn = toLearn;
             return GiveMoveToMon(mon, gMoveToLearn);
         }
         sLearningMoveTableID++;

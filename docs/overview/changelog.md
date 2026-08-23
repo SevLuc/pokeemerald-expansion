@@ -13,6 +13,17 @@ Update in the same PR as the change.
   tutorial), Route 22 early (13, cap-1), Pokemon Tower (38, gate), Route 22 late
   (63, E4-split floor) and Champion (72, capstone) unchanged. VAR_RIVAL_ID branches
   were already wired. (src/data/trainers_frlg.party; progression json regenerated)
+- 2026-08-23 - mechanics/moves - Player-only banned moves. 76 moves (all setup,
+  Protect/Detect stall family, Toxic + Will-O-Wisp, entry hazards, and key utility:
+  Baton Pass, Destiny Bond, Trick Room, Tailwind, Whirlwind/Roar, Leech Seed,
+  Trick/Switcheroo/Bestow, Spite, Mind Reader/Lock-On) are stripped from player and
+  wild Pokemon; TRAINERS keep them (auto-moveset path untouched). When a banned move
+  sits in a species' level-up learnset, the player's mon gets a curated same-type egg
+  move instead (1336 mapped), else backfills its other legal level-up moves (831).
+  Enforced on capture/gift/starter/fossil/egg-hatch, level-up + evolution learning,
+  TM/tutor, and the Move Relearner. New: src/data/banned_moves.h, test/banned_moves.c;
+  hooks in pokemon.c, wild_encounter.c, script_pokemon_util.c, daycare.c,
+  move_relearner.c. Full list + rationale in docs/overview/banned-moves.md.
 - 2026-08-23 - encounters/region-wide - Rebuilt every wild encounter table via
   `tools/gen_encounters.py`. Base forms only (family roots); all kept roots
   (192 land + 41 water) catchable before the E4. Equal chance per slot; fishing
