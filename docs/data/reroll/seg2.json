@@ -420,7 +420,7 @@
      "origBst": 330
     },
     {
-     "species": "Archaludon",
+     "species": "Pawniard",
      "level": 20,
      "base": "Pawniard",
      "baseBst": 340,
@@ -438,7 +438,7 @@
     {
      "species": "Paldean Wooper",
      "level": 19,
-     "base": "Nidoran♂",
+     "base": "Nidoran\u2642",
      "baseBst": 273,
      "orig": "Rattata",
      "origBst": 253
@@ -446,7 +446,7 @@
     {
      "species": "Nidorina",
      "level": 20,
-     "base": "Nidoran♀",
+     "base": "Nidoran\u2640",
      "baseBst": 275,
      "orig": "Zubat",
      "origBst": 245

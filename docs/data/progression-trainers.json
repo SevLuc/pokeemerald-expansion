@@ -557,7 +557,7 @@
                   "level": 19
                 },
                 {
-                  "species": "Archaludon",
+                  "species": "Pawniard",
                   "level": 20
                 }
               ]
@@ -1287,10 +1287,6 @@
                 {
                   "species": "Elekid",
                   "level": 25
-                },
-                {
-                  "species": "Pichu",
-                  "level": 26
                 }
               ]
             },
@@ -1537,11 +1533,11 @@
               "name": "LAMAR",
               "party": [
                 {
-                  "species": "Goodra-Hisui",
+                  "species": "Tinkatuff",
                   "level": 24
                 },
                 {
-                  "species": "Duraludon",
+                  "species": "Metang",
                   "level": 25
                 }
               ]
@@ -1773,7 +1769,7 @@
               "name": "ALAN",
               "party": [
                 {
-                  "species": "Aggron",
+                  "species": "Larvitar",
                   "level": 27
                 },
                 {
@@ -1803,7 +1799,7 @@
               "name": "BRENT",
               "party": [
                 {
-                  "species": "Scizor",
+                  "species": "Butterfree",
                   "level": 27
                 },
                 {
@@ -1911,7 +1907,7 @@
               "name": "CLARK",
               "party": [
                 {
-                  "species": "Probopass",
+                  "species": "Rhyhorn",
                   "level": 28
                 },
                 {
@@ -1992,7 +1988,7 @@
               "name": "LENNY",
               "party": [
                 {
-                  "species": "Tyrantrum",
+                  "species": "Cranidos",
                   "level": 27
                 },
                 {
@@ -2000,7 +1996,7 @@
                   "level": 28
                 },
                 {
-                  "species": "Aurorus",
+                  "species": "Larvitar",
                   "level": 29
                 },
                 {
@@ -2909,11 +2905,11 @@
               "name": "KOJI",
               "party": [
                 {
-                  "species": "Lucario",
+                  "species": "Primeape",
                   "level": 35
                 },
                 {
-                  "species": "Heracross",
+                  "species": "Machoke",
                   "level": 35
                 },
                 {
@@ -2977,7 +2973,7 @@
                   "level": 35
                 },
                 {
-                  "species": "Machamp",
+                  "species": "Primeape",
                   "level": 36
                 }
               ]
@@ -3181,11 +3177,11 @@
               "name": "JACOB",
               "party": [
                 {
-                  "species": "Aerodactyl",
+                  "species": "Pelipper",
                   "level": 35
                 },
                 {
-                  "species": "Mandibuzz",
+                  "species": "Talonflame",
                   "level": 36
                 },
                 {
@@ -3193,7 +3189,7 @@
                   "level": 37
                 },
                 {
-                  "species": "Braviary-Hisui",
+                  "species": "Altaria",
                   "level": 38
                 }
               ]
@@ -3215,7 +3211,7 @@
               "name": "WILTON",
               "party": [
                 {
-                  "species": "Honchkrow",
+                  "species": "Pelipper",
                   "level": 37
                 },
                 {
@@ -3545,7 +3541,7 @@
               "name": "SEBASTIAN",
               "party": [
                 {
-                  "species": "Hawlucha",
+                  "species": "Talonflame",
                   "level": 40
                 },
                 {
@@ -3659,7 +3655,7 @@
               "name": "ROBERT",
               "party": [
                 {
-                  "species": "Flamigo",
+                  "species": "Altaria",
                   "level": 39
                 },
                 {
@@ -3667,7 +3663,7 @@
                   "level": 40
                 },
                 {
-                  "species": "Scyther",
+                  "species": "Pelipper",
                   "level": 41
                 },
                 {
@@ -3859,7 +3855,7 @@
                   "level": 43
                 },
                 {
-                  "species": "Noivern",
+                  "species": "Butterfree",
                   "level": 44
                 }
               ]
@@ -4373,7 +4369,7 @@
               "name": "PATRICIA",
               "party": [
                 {
-                  "species": "Dragapult",
+                  "species": "Palossand",
                   "level": 47
                 }
               ]
@@ -4384,7 +4380,7 @@
               "name": "CARLY",
               "party": [
                 {
-                  "species": "Dusknoir",
+                  "species": "Doublade",
                   "level": 47
                 }
               ]
@@ -4395,7 +4391,7 @@
               "name": "HOPE",
               "party": [
                 {
-                  "species": "Gholdengo",
+                  "species": "Palossand",
                   "level": 47
                 }
               ]
@@ -4412,7 +4408,7 @@
               "name": "PAULA",
               "party": [
                 {
-                  "species": "Aegislash",
+                  "species": "Doublade",
                   "level": 47
                 }
               ]
@@ -4423,7 +4419,7 @@
               "name": "LAUREL",
               "party": [
                 {
-                  "species": "Polteageist",
+                  "species": "Drifblim",
                   "level": 46
                 },
                 {
@@ -4560,7 +4556,7 @@
                   "level": 48
                 },
                 {
-                  "species": "Hydreigon",
+                  "species": "Sharpedo",
                   "level": 49
                 }
               ]
@@ -4732,7 +4728,7 @@
               "name": "JOHAN",
               "party": [
                 {
-                  "species": "Alakazam",
+                  "species": "Metagross",
                   "level": 50
                 },
                 {
@@ -4770,7 +4766,7 @@
               "name": "CAMERON",
               "party": [
                 {
-                  "species": "Bronzong",
+                  "species": "Exeggcute",
                   "level": 50
                 },
                 {
@@ -4908,7 +4904,7 @@
               "name": "GRUNT",
               "party": [
                 {
-                  "species": "Kingambit",
+                  "species": "Sharpedo",
                   "level": 50
                 },
                 {
@@ -4992,11 +4988,11 @@
               "name": "GRUNT",
               "party": [
                 {
-                  "species": "Umbreon",
+                  "species": "Sharpedo",
                   "level": 50
                 },
                 {
-                  "species": "Weavile",
+                  "species": "Skuntank",
                   "level": 51
                 }
               ]
@@ -5622,11 +5618,11 @@
               "name": "TONY",
               "party": [
                 {
-                  "species": "Toxapex",
+                  "species": "Aegislash",
                   "level": 53
                 },
                 {
-                  "species": "Samurott",
+                  "species": "Dusknoir",
                   "level": 53
                 }
               ]
@@ -5721,11 +5717,11 @@
               "name": "ALICE",
               "party": [
                 {
-                  "species": "Shellos",
+                  "species": "Gholdengo",
                   "level": 53
                 },
                 {
-                  "species": "Lanturn",
+                  "species": "Polteageist",
                   "level": 54
                 }
               ]
@@ -5736,15 +5732,15 @@
               "name": "CONNIE",
               "party": [
                 {
-                  "species": "Lombre",
+                  "species": "Archaludon",
                   "level": 53
                 },
                 {
-                  "species": "Lombre",
+                  "species": "Noivern",
                   "level": 53
                 },
                 {
-                  "species": "Lombre",
+                  "species": "Goodra-Hisui",
                   "level": 54
                 }
               ]
@@ -5759,7 +5755,7 @@
                   "level": 53
                 },
                 {
-                  "species": "Floatzel",
+                  "species": "Scizor",
                   "level": 53
                 },
                 {
@@ -5767,11 +5763,11 @@
                   "level": 53
                 },
                 {
-                  "species": "Lanturn",
+                  "species": "Scyther",
                   "level": 53
                 },
                 {
-                  "species": "Slowbro",
+                  "species": "Heracross",
                   "level": 54
                 }
               ]
@@ -5916,11 +5912,11 @@
               "name": "DARRIN",
               "party": [
                 {
-                  "species": "Poliwhirl",
+                  "species": "Hawlucha",
                   "level": 53
                 },
                 {
-                  "species": "Poliwhirl",
+                  "species": "Lucario",
                   "level": 54
                 },
                 {
@@ -5928,7 +5924,7 @@
                   "level": 55
                 },
                 {
-                  "species": "Poliwhirl",
+                  "species": "Flamigo",
                   "level": 56
                 }
               ]
@@ -6356,15 +6352,15 @@
               "name": "SAMUEL",
               "party": [
                 {
-                  "species": "Whiscash",
+                  "species": "Hydreigon",
                   "level": 58
                 },
                 {
-                  "species": "Gastrodon",
+                  "species": "Kingambit",
                   "level": 59
                 },
                 {
-                  "species": "Onix",
+                  "species": "Honchkrow",
                   "level": 60
                 },
                 {
@@ -6372,7 +6368,7 @@
                   "level": 61
                 },
                 {
-                  "species": "Nidoqueen",
+                  "species": "Mandibuzz",
                   "level": 62
                 }
               ]
@@ -6387,7 +6383,7 @@
                   "level": 58
                 },
                 {
-                  "species": "Dugtrio",
+                  "species": "Umbreon",
                   "level": 59
                 },
                 {
@@ -6399,7 +6395,7 @@
                   "level": 61
                 },
                 {
-                  "species": "Quagsire",
+                  "species": "Weavile",
                   "level": 62
                 }
               ]
@@ -6410,7 +6406,7 @@
               "name": "WARREN",
               "party": [
                 {
-                  "species": "Sandslash",
+                  "species": "Probopass",
                   "level": 58
                 },
                 {
@@ -6418,15 +6414,15 @@
                   "level": 59
                 },
                 {
-                  "species": "Rhydon",
+                  "species": "Aerodactyl",
                   "level": 60
                 },
                 {
-                  "species": "Onix",
+                  "species": "Aurorus",
                   "level": 61
                 },
                 {
-                  "species": "Nidoking",
+                  "species": "Tyrantrum",
                   "level": 62
                 }
               ]
@@ -6593,7 +6589,7 @@
                   "level": 63
                 },
                 {
-                  "species": "Ninetales",
+                  "species": "Dragapult",
                   "level": 63
                 },
                 {
@@ -6601,7 +6597,7 @@
                   "level": 63
                 },
                 {
-                  "species": "Chandelure",
+                  "species": "Duraludon",
                   "level": 63
                 }
               ]
@@ -6645,7 +6641,7 @@
               "name": "DAWSON",
               "party": [
                 {
-                  "species": "Swampert",
+                  "species": "Machamp",
                   "level": 63
                 },
                 {
@@ -6765,15 +6761,15 @@
               "name": "COLBY",
               "party": [
                 {
-                  "species": "Gastrodon",
+                  "species": "Bronzong",
                   "level": 65
                 },
                 {
-                  "species": "Wailord",
+                  "species": "Braviary-Hisui",
                   "level": 66
                 },
                 {
-                  "species": "Starmie",
+                  "species": "Alakazam",
                   "level": 67
                 },
                 {
@@ -6792,7 +6788,7 @@
               "name": "CAROLINE",
               "party": [
                 {
-                  "species": "Ferrothorn",
+                  "species": "Aggron",
                   "level": 66
                 },
                 {

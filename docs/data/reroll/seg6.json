@@ -138,7 +138,7 @@
    "theme_source": "gym-override",
    "team": [
     {
-     "species": "Alakazam",
+     "species": "Metagross",
      "level": 50,
      "base": "Metang",
      "baseBst": 420,
@@ -202,7 +202,7 @@
    "theme_source": "gym-override",
    "team": [
     {
-     "species": "Bronzong",
+     "species": "Exeggcute",
      "level": 50,
      "base": "Exeggcute",
      "baseBst": 325,
@@ -404,7 +404,7 @@
     {
      "species": "Nidorino",
      "level": 50,
-     "base": "Nidoran♂",
+     "base": "Nidoran\u2642",
      "baseBst": 273,
      "orig": "Zubat",
      "origBst": 245
@@ -418,7 +418,7 @@
    "theme_source": "class-locked",
    "team": [
     {
-     "species": "Kingambit",
+     "species": "Sharpedo",
      "level": 50,
      "base": "Sharpedo",
      "baseBst": 460,
@@ -538,7 +538,7 @@
    "theme_source": "class-locked",
    "team": [
     {
-     "species": "Umbreon",
+     "species": "Sharpedo",
      "level": 50,
      "base": "Carvanha",
      "baseBst": 305,
@@ -546,7 +546,7 @@
      "origBst": 305
     },
     {
-     "species": "Weavile",
+     "species": "Skuntank",
      "level": 51,
      "base": "Stunky",
      "baseBst": 329,
@@ -572,7 +572,7 @@
     {
      "species": "Nidorina",
      "level": 50,
-     "base": "Nidoran♀",
+     "base": "Nidoran\u2640",
      "baseBst": 275,
      "orig": "Zubat",
      "origBst": 245
@@ -772,7 +772,7 @@
     {
      "species": "Nidorino",
      "level": 50,
-     "base": "Nidoran♂",
+     "base": "Nidoran\u2642",
      "baseBst": 273,
      "orig": "Zubat",
      "origBst": 245
@@ -876,7 +876,7 @@
     {
      "species": "Nidorina",
      "level": 50,
-     "base": "Nidoran♀",
+     "base": "Nidoran\u2640",
      "baseBst": 275,
      "orig": "Zubat",
      "origBst": 245
@@ -1156,7 +1156,7 @@
     {
      "species": "Nidorino",
      "level": 50,
-     "base": "Nidoran♂",
+     "base": "Nidoran\u2642",
      "baseBst": 273,
      "orig": "Zubat",
      "origBst": 245

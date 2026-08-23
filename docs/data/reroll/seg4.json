@@ -74,7 +74,7 @@
    "theme_source": "class-locked",
    "team": [
     {
-     "species": "Aggron",
+     "species": "Larvitar",
      "level": 27,
      "base": "Larvitar",
      "baseBst": 300,
@@ -122,7 +122,7 @@
    "theme_source": "class-locked",
    "team": [
     {
-     "species": "Scizor",
+     "species": "Butterfree",
      "level": 27,
      "base": "Butterfree",
      "baseBst": 395,
@@ -290,7 +290,7 @@
    "theme_source": "class-locked",
    "team": [
     {
-     "species": "Probopass",
+     "species": "Rhyhorn",
      "level": 28,
      "base": "Rhyhorn",
      "baseBst": 345,
@@ -410,7 +410,7 @@
    "theme_source": "class-locked",
    "team": [
     {
-     "species": "Tyrantrum",
+     "species": "Cranidos",
      "level": 27,
      "base": "Cranidos",
      "baseBst": 350,
@@ -426,7 +426,7 @@
      "origBst": 305
     },
     {
-     "species": "Aurorus",
+     "species": "Larvitar",
      "level": 29,
      "base": "Larvitar",
      "baseBst": 300,
@@ -908,7 +908,7 @@
     {
      "species": "Nidorina",
      "level": 32,
-     "base": "Nidoran♀",
+     "base": "Nidoran\u2640",
      "baseBst": 275,
      "orig": "Nidoran F",
      "origBst": 275
@@ -1388,7 +1388,7 @@
     {
      "species": "Nidorino",
      "level": 34,
-     "base": "Nidoran♂",
+     "base": "Nidoran\u2642",
      "baseBst": 273,
      "orig": "Zubat",
      "origBst": 245
@@ -1484,7 +1484,7 @@
     {
      "species": "Nidorino",
      "level": 31,
-     "base": "Nidoran♂",
+     "base": "Nidoran\u2642",
      "baseBst": 273,
      "orig": "Rattata",
      "origBst": 253
@@ -1508,7 +1508,7 @@
     {
      "species": "Nidorina",
      "level": 34,
-     "base": "Nidoran♀",
+     "base": "Nidoran\u2640",
      "baseBst": 275,
      "orig": "Rattata",
      "origBst": 253

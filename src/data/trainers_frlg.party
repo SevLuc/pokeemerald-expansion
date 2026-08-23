@@ -439,7 +439,7 @@ Music: Male
 Double Battle: No
 AI: Check Bad Move
 
-Scizor
+Butterfree
 Level: 27
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -1350,7 +1350,7 @@ Music: Suspicious
 Double Battle: No
 AI: Check Bad Move
 
-Swampert
+Machamp
 Level: 63
 IVs: 3 HP / 3 Atk / 3 Def / 3 SpA / 3 SpD / 3 Spe
 
@@ -1413,7 +1413,7 @@ Cufant
 Level: 19
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-Archaludon
+Pawniard
 Level: 20
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -1637,7 +1637,7 @@ Music: Hiker
 Double Battle: No
 AI: Check Bad Move
 
-Aggron
+Larvitar
 Level: 27
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -1675,7 +1675,7 @@ Music: Hiker
 Double Battle: No
 AI: Check Bad Move
 
-Probopass
+Rhyhorn
 Level: 28
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -1760,7 +1760,7 @@ Music: Hiker
 Double Battle: No
 AI: Check Bad Move
 
-Tyrantrum
+Cranidos
 Level: 27
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -1768,7 +1768,7 @@ Bastiodon
 Level: 28
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-Aurorus
+Larvitar
 Level: 29
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -2595,11 +2595,11 @@ Music: Swimmer
 Double Battle: No
 AI: Check Bad Move
 
-Toxapex
+Aegislash
 Level: 53
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-Samurott
+Dusknoir
 Level: 53
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -2671,11 +2671,11 @@ Music: Swimmer
 Double Battle: No
 AI: Check Bad Move
 
-Poliwhirl
+Hawlucha
 Level: 53
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-Poliwhirl
+Lucario
 Level: 54
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -2683,7 +2683,7 @@ Milotic
 Level: 55
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-Poliwhirl
+Flamigo
 Level: 56
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -2764,11 +2764,11 @@ Music: Male
 Double Battle: No
 AI: Check Bad Move
 
-Lucario
+Primeape
 Level: 35
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-Heracross
+Machoke
 Level: 35
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -2806,7 +2806,7 @@ Machoke
 Level: 35
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-Machamp
+Primeape
 Level: 36
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -3238,7 +3238,7 @@ Blastoise
 Level: 53
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-Floatzel
+Scizor
 Level: 53
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -3246,11 +3246,11 @@ Urshifu-Rapid Strike
 Level: 53
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-Lanturn
+Scyther
 Level: 53
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-Slowbro
+Heracross
 Level: 54
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -3263,11 +3263,11 @@ Music: Female
 Double Battle: No
 AI: Check Bad Move
 
-Shellos
+Gholdengo
 Level: 53
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-Lanturn
+Polteageist
 Level: 54
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -3280,15 +3280,15 @@ Music: Female
 Double Battle: No
 AI: Check Bad Move
 
-Lombre
+Archaludon
 Level: 53
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-Lombre
+Noivern
 Level: 53
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-Lombre
+Goodra-Hisui
 Level: 54
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -3322,7 +3322,7 @@ Music: Intense
 Double Battle: No
 AI: Check Bad Move
 
-Alakazam
+Metagross
 Level: 50
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 
@@ -3364,7 +3364,7 @@ Music: Intense
 Double Battle: No
 AI: Check Bad Move
 
-Bronzong
+Exeggcute
 Level: 50
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 
@@ -3714,7 +3714,7 @@ Music: Cool
 Double Battle: No
 AI: Check Bad Move
 
-Hawlucha
+Talonflame
 Level: 40
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -3760,7 +3760,7 @@ Music: Cool
 Double Battle: No
 AI: Check Bad Move
 
-Flamigo
+Altaria
 Level: 39
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -3768,7 +3768,7 @@ Corviknight
 Level: 40
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-Scyther
+Pelipper
 Level: 41
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -3861,7 +3861,7 @@ Music: Cool
 Double Battle: No
 AI: Check Bad Move
 
-Honchkrow
+Pelipper
 Level: 37
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -3891,11 +3891,11 @@ Music: Cool
 Double Battle: No
 AI: Check Bad Move
 
-Aerodactyl
+Pelipper
 Level: 35
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-Mandibuzz
+Talonflame
 Level: 36
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -3903,7 +3903,7 @@ Masquerain
 Level: 37
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-Braviary-Hisui
+Altaria
 Level: 38
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -3987,7 +3987,7 @@ Xatu
 Level: 43
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-Noivern
+Butterfree
 Level: 44
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -5150,7 +5150,7 @@ Krookodile
 Level: 48
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-Hydreigon
+Sharpedo
 Level: 49
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -5239,7 +5239,7 @@ Music: Aqua
 Double Battle: No
 AI: Check Bad Move
 
-Kingambit
+Sharpedo
 Level: 50
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -5289,11 +5289,11 @@ Music: Aqua
 Double Battle: No
 AI: Check Bad Move
 
-Umbreon
+Sharpedo
 Level: 50
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-Weavile
+Skuntank
 Level: 51
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -5602,15 +5602,15 @@ Items: Super Potion
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
-Whiscash
+Hydreigon
 Level: 58
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
-Gastrodon
+Kingambit
 Level: 59
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
-Onix
+Honchkrow
 Level: 60
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
@@ -5618,7 +5618,7 @@ Gliscor
 Level: 61
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
-Nidoqueen
+Mandibuzz
 Level: 62
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
@@ -5662,15 +5662,15 @@ Items: Hyper Potion
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
-Gastrodon
+Bronzong
 Level: 65
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
-Wailord
+Braviary-Hisui
 Level: 66
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
-Starmie
+Alakazam
 Level: 67
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
@@ -5926,7 +5926,7 @@ Rhydon
 Level: 58
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
-Dugtrio
+Umbreon
 Level: 59
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
@@ -5938,7 +5938,7 @@ Gligar
 Level: 61
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
-Quagsire
+Weavile
 Level: 62
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
@@ -5952,7 +5952,7 @@ Items: Hyper Potion
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
-Sandslash
+Probopass
 Level: 58
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
@@ -5960,15 +5960,15 @@ Claydol
 Level: 59
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
-Rhydon
+Aerodactyl
 Level: 60
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
-Onix
+Aurorus
 Level: 61
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
-Nidoking
+Tyrantrum
 Level: 62
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
@@ -6012,7 +6012,7 @@ Items: Hyper Potion
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
-Ferrothorn
+Aggron
 Level: 66
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
@@ -6130,7 +6130,7 @@ Skeledirge
 Level: 63
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
-Ninetales
+Dragapult
 Level: 63
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
@@ -6138,7 +6138,7 @@ Delphox
 Level: 63
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
-Chandelure
+Duraludon
 Level: 63
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
@@ -7668,7 +7668,7 @@ Music: Suspicious
 Double Battle: No
 AI: Check Bad Move
 
-Dragapult
+Palossand
 Level: 47
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -7681,7 +7681,7 @@ Music: Suspicious
 Double Battle: No
 AI: Check Bad Move
 
-Dusknoir
+Doublade
 Level: 47
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -7694,7 +7694,7 @@ Music: Suspicious
 Double Battle: No
 AI: Check Bad Move
 
-Gholdengo
+Palossand
 Level: 47
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -7707,7 +7707,7 @@ Music: Suspicious
 Double Battle: No
 AI: Check Bad Move
 
-Aegislash
+Doublade
 Level: 47
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -7720,7 +7720,7 @@ Music: Suspicious
 Double Battle: No
 AI: Check Bad Move
 
-Polteageist
+Drifblim
 Level: 46
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -8250,11 +8250,11 @@ Music: Rich
 Double Battle: No
 AI: Check Bad Move
 
-Goodra-Hisui
+Tinkatuff
 Level: 24
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-Duraludon
+Metang
 Level: 25
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 

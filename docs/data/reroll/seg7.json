@@ -66,7 +66,7 @@
    "theme_source": "class-locked",
    "team": [
     {
-     "species": "Toxapex",
+     "species": "Aegislash",
      "level": 53,
      "base": "Mareanie",
      "baseBst": 305,
@@ -74,7 +74,7 @@
      "origBst": 295
     },
     {
-     "species": "Samurott",
+     "species": "Dusknoir",
      "level": 53,
      "base": "Oshawott",
      "baseBst": 308,
@@ -234,7 +234,7 @@
    "theme_source": "class-locked",
    "team": [
     {
-     "species": "Shellos",
+     "species": "Gholdengo",
      "level": 53,
      "base": "Shellos",
      "baseBst": 325,
@@ -242,7 +242,7 @@
      "origBst": 320
     },
     {
-     "species": "Lanturn",
+     "species": "Polteageist",
      "level": 54,
      "base": "Lanturn",
      "baseBst": 460,
@@ -258,7 +258,7 @@
    "theme_source": "class-locked",
    "team": [
     {
-     "species": "Lombre",
+     "species": "Archaludon",
      "level": 53,
      "base": "Lombre",
      "baseBst": 340,
@@ -266,7 +266,7 @@
      "origBst": 340
     },
     {
-     "species": "Lombre",
+     "species": "Noivern",
      "level": 53,
      "base": "Lombre",
      "baseBst": 340,
@@ -274,7 +274,7 @@
      "origBst": 340
     },
     {
-     "species": "Lombre",
+     "species": "Hisuian Goodra",
      "level": 54,
      "base": "Lombre",
      "baseBst": 340,
@@ -298,7 +298,7 @@
      "origBst": 300
     },
     {
-     "species": "Floatzel",
+     "species": "Scizor",
      "level": 53,
      "base": "Buizel",
      "baseBst": 330,
@@ -314,7 +314,7 @@
      "origBst": 450
     },
     {
-     "species": "Lanturn",
+     "species": "Scyther",
      "level": 53,
      "base": "Chinchou",
      "baseBst": 330,
@@ -322,7 +322,7 @@
      "origBst": 320
     },
     {
-     "species": "Slowbro",
+     "species": "Heracross",
      "level": 54,
      "base": "Slowpoke",
      "baseBst": 315,
@@ -546,7 +546,7 @@
    "theme_source": "class-locked",
    "team": [
     {
-     "species": "Poliwhirl",
+     "species": "Hawlucha",
      "level": 53,
      "base": "Poliwag",
      "baseBst": 300,
@@ -554,7 +554,7 @@
      "origBst": 295
     },
     {
-     "species": "Poliwhirl",
+     "species": "Lucario",
      "level": 54,
      "base": "Poliwag",
      "baseBst": 300,
@@ -570,7 +570,7 @@
      "origBst": 440
     },
     {
-     "species": "Poliwhirl",
+     "species": "Flamigo",
      "level": 56,
      "base": "Poliwag",
      "baseBst": 300,

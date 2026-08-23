@@ -7,6 +7,18 @@ Update in the same PR as the change.
 `YYYY-MM-DD` — area — one-line summary (PR/commit ref)
 
 ## Entries
+- 2026-08-23 - trainers/coverage - Relocated the ~30 high-BST FINAL evolutions that
+  the coverage pass had to leave in segments 2-6 (no late themed trainer existed for
+  their type) onto LATE (seg 7-9) trainers, so they appear at believable levels
+  (host levels 53-67). Rethemed 12 late generic trainers (Ghost/Bug/Dragon/Fighting
+  Swimmers in seg7; Dark/Rock/Psychic/Fighting Cooltrainers + a Pokemaniac in seg
+  8-9) and backfilled each vacated early slot with an on-theme, level-appropriate,
+  already-used species. Invariant preserved: all 528 kept species still appear >=1;
+  60 slots edited across 35 trainers. Plan in docs/data/reroll/relocate.json.
+  Caveats: needed 12 retheme trainers (not fewer) because late generic trainers have
+  very few duplicate-backed slots to safely displace; 5 of them are Water Swimmers
+  now fielding non-Water finals, which is thematically loose for Kanto-authentic feel
+  (revisit if it bothers). Build verified (make firered).
 - 2026-08-23 - pokemon/pool - Added all five Rotom appliance forms to the kept pool
   (Rotom-Heat Electric/Fire, Rotom-Wash Electric/Water, Rotom-Frost Electric/Ice,
   Rotom-Fan Electric/Flying, Rotom-Mow Electric/Grass; each BST 520). Base Rotom

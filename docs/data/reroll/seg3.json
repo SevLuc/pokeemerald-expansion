@@ -290,7 +290,7 @@
    "theme_source": "dialogue",
    "team": [
     {
-     "species": "Hisuian Goodra",
+     "species": "Tinkatuff",
      "level": 24,
      "base": "Tinkatuff",
      "baseBst": 380,
@@ -298,7 +298,7 @@
      "origBst": 350
     },
     {
-     "species": "Duraludon",
+     "species": "Metang",
      "level": 25,
      "base": "Metang",
      "baseBst": 420,

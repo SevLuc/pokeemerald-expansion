@@ -122,7 +122,7 @@
    "theme_source": "gym-override",
    "team": [
     {
-     "species": "Whiscash",
+     "species": "Hydreigon",
      "level": 58,
      "base": "Whiscash",
      "baseBst": 468,
@@ -130,7 +130,7 @@
      "origBst": 450
     },
     {
-     "species": "Gastrodon",
+     "species": "Kingambit",
      "level": 59,
      "base": "Gastrodon",
      "baseBst": 475,
@@ -138,7 +138,7 @@
      "origBst": 450
     },
     {
-     "species": "Onix",
+     "species": "Honchkrow",
      "level": 60,
      "base": "Onix",
      "baseBst": 385,
@@ -154,7 +154,7 @@
      "origBst": 365
     },
     {
-     "species": "Nidoqueen",
+     "species": "Mandibuzz",
      "level": 62,
      "base": "Nidoqueen",
      "baseBst": 505,
@@ -178,7 +178,7 @@
      "origBst": 450
     },
     {
-     "species": "Dugtrio",
+     "species": "Umbreon",
      "level": 59,
      "base": "Dugtrio",
      "baseBst": 425,
@@ -202,7 +202,7 @@
      "origBst": 390
     },
     {
-     "species": "Quagsire",
+     "species": "Weavile",
      "level": 62,
      "base": "Quagsire",
      "baseBst": 430,
@@ -218,7 +218,7 @@
    "theme_source": "gym-override",
    "team": [
     {
-     "species": "Sandslash",
+     "species": "Probopass",
      "level": 58,
      "base": "Sandslash",
      "baseBst": 450,
@@ -234,7 +234,7 @@
      "origBst": 425
     },
     {
-     "species": "Rhydon",
+     "species": "Aerodactyl",
      "level": 60,
      "base": "Rhyhorn",
      "baseBst": 345,
@@ -242,7 +242,7 @@
      "origBst": 345
     },
     {
-     "species": "Onix",
+     "species": "Aurorus",
      "level": 61,
      "base": "Onix",
      "baseBst": 385,
@@ -250,7 +250,7 @@
      "origBst": 365
     },
     {
-     "species": "Nidoking",
+     "species": "Tyrantrum",
      "level": 62,
      "base": "Nidoking",
      "baseBst": 505,

@@ -34,7 +34,7 @@
    "theme_source": "class-locked",
    "team": [
     {
-     "species": "Lucario",
+     "species": "Primeape",
      "level": 35,
      "base": "Mankey",
      "baseBst": 305,
@@ -42,7 +42,7 @@
      "origBst": 305
     },
     {
-     "species": "Heracross",
+     "species": "Machoke",
      "level": 35,
      "base": "Machop",
      "baseBst": 305,
@@ -146,7 +146,7 @@
      "origBst": 305
     },
     {
-     "species": "Machamp",
+     "species": "Primeape",
      "level": 36,
      "base": "Mankey",
      "baseBst": 305,
@@ -458,7 +458,7 @@
    "theme_source": "class-locked",
    "team": [
     {
-     "species": "Aerodactyl",
+     "species": "Pelipper",
      "level": 35,
      "base": "Wingull",
      "baseBst": 270,
@@ -466,7 +466,7 @@
      "origBst": 262
     },
     {
-     "species": "Mandibuzz",
+     "species": "Talonflame",
      "level": 36,
      "base": "Fletchling",
      "baseBst": 278,
@@ -482,7 +482,7 @@
      "origBst": 442
     },
     {
-     "species": "Hisuian Braviary",
+     "species": "Altaria",
      "level": 38,
      "base": "Swablu",
      "baseBst": 310,
@@ -514,7 +514,7 @@
    "theme_source": "class-locked",
    "team": [
     {
-     "species": "Honchkrow",
+     "species": "Pelipper",
      "level": 37,
      "base": "Wingull",
      "baseBst": 270,
@@ -1018,7 +1018,7 @@
    "theme_source": "class-locked",
    "team": [
     {
-     "species": "Hawlucha",
+     "species": "Talonflame",
      "level": 40,
      "base": "Fletchling",
      "baseBst": 278,
@@ -1210,7 +1210,7 @@
    "theme_source": "class-locked",
    "team": [
     {
-     "species": "Flamigo",
+     "species": "Altaria",
      "level": 39,
      "base": "Swablu",
      "baseBst": 310,
@@ -1226,7 +1226,7 @@
      "origBst": 349
     },
     {
-     "species": "Scyther",
+     "species": "Pelipper",
      "level": 41,
      "base": "Wingull",
      "baseBst": 270,
@@ -1538,7 +1538,7 @@
      "origBst": 310
     },
     {
-     "species": "Noivern",
+     "species": "Butterfree",
      "level": 44,
      "base": "Butterfree",
      "baseBst": 395,
@@ -2130,7 +2130,7 @@
    "theme_source": "class-locked",
    "team": [
     {
-     "species": "Dragapult",
+     "species": "Palossand",
      "level": 47,
      "base": "Sandygast",
      "baseBst": 320,
@@ -2146,7 +2146,7 @@
    "theme_source": "class-locked",
    "team": [
     {
-     "species": "Dusknoir",
+     "species": "Doublade",
      "level": 47,
      "base": "Honedge",
      "baseBst": 325,
@@ -2162,7 +2162,7 @@
    "theme_source": "class-locked",
    "team": [
     {
-     "species": "Gholdengo",
+     "species": "Palossand",
      "level": 47,
      "base": "Sandygast",
      "baseBst": 320,
@@ -2178,7 +2178,7 @@
    "theme_source": "class-locked",
    "team": [
     {
-     "species": "Aegislash",
+     "species": "Doublade",
      "level": 47,
      "base": "Honedge",
      "baseBst": 325,
@@ -2194,7 +2194,7 @@
    "theme_source": "class-locked",
    "team": [
     {
-     "species": "Polteageist",
+     "species": "Drifblim",
      "level": 46,
      "base": "Drifloon",
      "baseBst": 348,
@@ -2378,7 +2378,7 @@
      "origBst": 245
     },
     {
-     "species": "Hydreigon",
+     "species": "Sharpedo",
      "level": 49,
      "base": "Sharpedo",
      "baseBst": 460,
