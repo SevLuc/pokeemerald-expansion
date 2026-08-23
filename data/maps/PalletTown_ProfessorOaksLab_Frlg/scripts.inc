@@ -615,14 +615,14 @@ PalletTown_ProfessorOaksLab_EventScript_ReceiveDexScene::
 	removeitem ITEM_OAKS_PARCEL
 	msgbox PalletTown_ProfessorOaksLab_Text_OakCustomBallIOrdered
 	playbgm MUS_RG_ENCOUNTER_RIVAL, 0
-	msgbox PalletTown_ProfessorOaksLab_Text_RivalGramps
+	call PalletTown_ProfessorOaksLab_EventScript_SayRivalDexGramps
 	closemessage
 	call_if_eq VAR_FACING, DIR_NORTH, PalletTown_ProfessorOaksLab_EventScript_DexSceneRivalEnterNorth
 	call_if_eq VAR_FACING, DIR_SOUTH, PalletTown_ProfessorOaksLab_EventScript_DexSceneRivalEnterSouth
 	call_if_eq VAR_FACING, DIR_EAST, PalletTown_ProfessorOaksLab_EventScript_DexSceneRivalEnterEastWest
 	call_if_eq VAR_FACING, DIR_WEST, PalletTown_ProfessorOaksLab_EventScript_DexSceneRivalEnterEastWest
 	fadedefaultbgm
-	msgbox PalletTown_ProfessorOaksLab_Text_RivalWhatDidYouCallMeFor
+	call PalletTown_ProfessorOaksLab_EventScript_SayRivalDexWhatCalledMeFor
 	closemessage
 	delay 30
 	playse SE_PIN
@@ -670,12 +670,12 @@ PalletTown_ProfessorOaksLab_EventScript_ReceiveDexScene::
 	msgbox PalletTown_ProfessorOaksLab_Text_OakExplainCatching
 	famechecker FAMECHECKER_OAK, 1
 	msgbox PalletTown_ProfessorOaksLab_Text_OakCompleteMonGuideWasMyDream
-	msgbox PalletTown_ProfessorOaksLab_Text_RivalLeaveItToMeGramps
+	call PalletTown_ProfessorOaksLab_EventScript_SayRivalDexLeaveItToMe
 	call_if_eq VAR_FACING, DIR_NORTH, PalletTown_ProfessorOaksLab_EventScript_DexSceneRivalFacePlayerNorth
 	call_if_eq VAR_FACING, DIR_SOUTH, PalletTown_ProfessorOaksLab_EventScript_DexSceneRivalFacePlayerSouth
 	call_if_eq VAR_FACING, DIR_EAST, PalletTown_ProfessorOaksLab_EventScript_DexSceneRivalFacePlayerEastWest
 	call_if_eq VAR_FACING, DIR_WEST, PalletTown_ProfessorOaksLab_EventScript_DexSceneRivalFacePlayerEastWest
-	msgbox PalletTown_ProfessorOaksLab_Text_RivalTellSisNotToGiveYouMap
+	call PalletTown_ProfessorOaksLab_EventScript_SayRivalDexParting
 	closemessage
 	playbgm MUS_RG_RIVAL_EXIT, 0
 	call_if_eq VAR_FACING, DIR_NORTH, PalletTown_ProfessorOaksLab_EventScript_RivalExitNorth
@@ -1093,6 +1093,7 @@ PalletTown_ProfessorOaksLab_EventScript_ConfirmStarterChoice::
 	waitmovement 0
 	showmonpic PLAYER_STARTER_SPECIES, 10, 3
 	textcolor NPC_TEXT_COLOR_MALE
+	bufferspeciesname STR_VAR_1, PLAYER_STARTER_SPECIES
 	goto_if_eq PLAYER_STARTER_NUM, 0, PalletTown_ProfessorOaksLab_EventScript_ConfirmBulbasaur
 	goto_if_eq PLAYER_STARTER_NUM, 1, PalletTown_ProfessorOaksLab_EventScript_ConfirmSquirtle
 	goto_if_eq PLAYER_STARTER_NUM, 2, PalletTown_ProfessorOaksLab_EventScript_ConfirmCharmander
@@ -1374,6 +1375,38 @@ PalletTown_ProfessorOaksLab_EventScript_SayTwitchGoToughenMyMon::
 	msgbox PalletTown_ProfessorOaksLab_Text_TwitchRivalGoToughenMyMon
 	return
 
+PalletTown_ProfessorOaksLab_EventScript_SayRivalDexGramps::
+	goto_if_eq VAR_RIVAL_ID, RIVAL_ID_TWITCH, PalletTown_ProfessorOaksLab_EventScript_SayTwitchDexGramps
+	msgbox PalletTown_ProfessorOaksLab_Text_RivalGramps
+	return
+PalletTown_ProfessorOaksLab_EventScript_SayTwitchDexGramps::
+	msgbox PalletTown_ProfessorOaksLab_Text_TwitchRivalDexGramps
+	return
+
+PalletTown_ProfessorOaksLab_EventScript_SayRivalDexWhatCalledMeFor::
+	goto_if_eq VAR_RIVAL_ID, RIVAL_ID_TWITCH, PalletTown_ProfessorOaksLab_EventScript_SayTwitchDexWhatCalledMeFor
+	msgbox PalletTown_ProfessorOaksLab_Text_RivalWhatDidYouCallMeFor
+	return
+PalletTown_ProfessorOaksLab_EventScript_SayTwitchDexWhatCalledMeFor::
+	msgbox PalletTown_ProfessorOaksLab_Text_TwitchRivalDexWhatDidYouCallMeFor
+	return
+
+PalletTown_ProfessorOaksLab_EventScript_SayRivalDexLeaveItToMe::
+	goto_if_eq VAR_RIVAL_ID, RIVAL_ID_TWITCH, PalletTown_ProfessorOaksLab_EventScript_SayTwitchDexLeaveItToMe
+	msgbox PalletTown_ProfessorOaksLab_Text_RivalLeaveItToMeGramps
+	return
+PalletTown_ProfessorOaksLab_EventScript_SayTwitchDexLeaveItToMe::
+	msgbox PalletTown_ProfessorOaksLab_Text_TwitchRivalDexLeaveItToMe
+	return
+
+PalletTown_ProfessorOaksLab_EventScript_SayRivalDexParting::
+	goto_if_eq VAR_RIVAL_ID, RIVAL_ID_TWITCH, PalletTown_ProfessorOaksLab_EventScript_SayTwitchDexParting
+	msgbox PalletTown_ProfessorOaksLab_Text_RivalDexParting
+	return
+PalletTown_ProfessorOaksLab_EventScript_SayTwitchDexParting::
+	msgbox PalletTown_ProfessorOaksLab_Text_TwitchRivalDexParting
+	return
+
 PalletTown_ProfessorOaksLab_Text_TwitchRivalGrampsIsntAround::
 	.string "chat we are LIVE.\n"
 	.string "where is the old man?\p"
@@ -1496,25 +1529,45 @@ PalletTown_ProfessorOaksLab_Text_RivalGoToughenMyMon::
 	.string "lockity splockity blobbity.$"
 
 PalletTown_ProfessorOaksLab_Text_RivalGramps::
-	.string "{RIVAL}: Gramps!$"
+	.string "{RIVAL}: yo Oak, what's good!$"
+
+PalletTown_ProfessorOaksLab_Text_TwitchRivalDexGramps::
+	.string "we made it. input lag, chat.$"
 
 PalletTown_ProfessorOaksLab_Text_RivalWhatDidYouCallMeFor::
-	.string "{RIVAL}: I almost forgot!\n"
-	.string "What did you call me for?$"
+	.string "{RIVAL}: wait, why am I here?\n"
+	.string "you pinged me, bro?$"
+
+PalletTown_ProfessorOaksLab_Text_TwitchRivalDexWhatDidYouCallMeFor::
+	.string "half of chat is lurking.\n"
+	.string "the other half is asleep.$"
 
 PalletTown_ProfessorOaksLab_Text_RivalLeaveItToMeGramps::
-	.string "{RIVAL}: All right, Gramps!\n"
-	.string "Leave it all to me!$"
+	.string "{RIVAL}: bet, Oak. this dex?\n"
+	.string "I'll solo it, no guide.$"
 
-PalletTown_ProfessorOaksLab_Text_RivalTellSisNotToGiveYouMap::
-	.string "{PLAYER}, I hate to say it, but you\n"
-	.string "won't be necessary for this.\p"
-	.string "I know! I'll borrow a TOWN MAP\n"
-	.string "from my sis!\p"
-	.string "I'll tell her not to lend you one,\n"
-	.string "{PLAYER}! Hahaha!\p"
-	.string "Don't bother coming around to\n"
-	.string "my place after this!$"
+PalletTown_ProfessorOaksLab_Text_TwitchRivalDexLeaveItToMe::
+	.string "we CATCH them all, old man.\n"
+	.string "…if the PC lets us keep them.$"
+
+PalletTown_ProfessorOaksLab_Text_RivalDexParting::
+	.string "oh {PLAYER}, real quick.\n"
+	.string "magikarp. If you think about it…\p"
+	.string "splashes for 20 levels doing\n"
+	.string "nothing. then? straight god.\p"
+	.string "that's the whole gameplan, bro.\n"
+	.string "dormant now, pop off later.\p"
+	.string "docless, calcless, no setup.\n"
+	.string "let's play some baller ass\l"
+	.string "POKéMON. Peaceeee!$"
+
+PalletTown_ProfessorOaksLab_Text_TwitchRivalDexParting::
+	.string "{PLAYER}? who is that. Kappa.\p"
+	.string "someone said clip that.\n"
+	.string "clip WHAT. nothing happened.\p"
+	.string "F in the chat for this guy.\n"
+	.string "no reason. just F.\p"
+	.string "emote spam is back. bye, chat.$"
 
 PalletTown_ProfessorOaksLab_Text_OakThreeMonsChooseOne::
 	.string "OAK: {RIVAL}?\n"
@@ -1549,22 +1602,22 @@ PalletTown_ProfessorOaksLab_Text_OakHeyDontGoAwayYet::
 	.string "Don't go away yet!$"
 
 PalletTown_ProfessorOaksLab_Text_OakChoosingCharmander::
-	.string "Ah! CHARMANDER is your choice.\n"
+	.string "Ah! {STR_VAR_1} is your choice.\n"
 	.string "You should raise it patiently.\p"
 	.string "So, {PLAYER}, you're claiming the\n"
-	.string "FIRE POKéMON CHARMANDER?$"
+	.string "FIRE POKéMON {STR_VAR_1}?$"
 
 PalletTown_ProfessorOaksLab_Text_OakChoosingSquirtle::
-	.string "Hm! SQUIRTLE is your choice.\n"
+	.string "Hm! {STR_VAR_1} is your choice.\n"
 	.string "It's one worth raising.\p"
 	.string "So, {PLAYER}, you've decided on the\n"
-	.string "WATER POKéMON SQUIRTLE?$"
+	.string "WATER POKéMON {STR_VAR_1}?$"
 
 PalletTown_ProfessorOaksLab_Text_OakChoosingBulbasaur::
-	.string "I see! BULBASAUR is your choice.\n"
+	.string "I see! {STR_VAR_1} is your choice.\n"
 	.string "It's very easy to raise.\p"
 	.string "So, {PLAYER}, you want to go with\n"
-	.string "the GRASS POKéMON BULBASAUR?$"
+	.string "the GRASS POKéMON {STR_VAR_1}?$"
 
 PalletTown_ProfessorOaksLab_Text_OakThisMonIsEnergetic::
 	.string "This POKéMON is really quite\n"

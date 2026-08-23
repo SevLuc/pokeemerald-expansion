@@ -84,6 +84,100 @@ trust" capstone lands hard OR bounces off, user's call, same as Buhrito.
 
 ---
 
+## The 2014 canon (the run this character IS)
+
+This is not "a Twitch streamer." It is **Twitch Plays Pokemon Red, Feb 2014**,
+personified: 60,000-plus people typing inputs into ONE Game Boy at once. Every line
+must come from THAT run. If a line would fit any modern influencer, it is wrong.
+Anchor everything to these real events:
+
+- **ANARCHY vs DEMOCRACY** - the two input modes, at civil war. ANARCHY: every input
+  fires immediately, pure chaos, chat's beloved "people's mode," freedom. DEMOCRACY:
+  inputs are voted and tallied, efficient but branded TYRANNY by the mob. A genuine
+  ideological schism inside one body. In dialogue the two factions ARGUE MID-LINE and
+  never resolve ("DEMOCRACY wants the fire one. ANARCHY wants START9.").
+- **INPUT LAG (~20-30s)** - commands land seconds late, so the body walks into walls,
+  spins in place, and falls off things it was told to avoid. The core physical-comedy
+  tell: state an intention, then do the opposite a beat later.
+- **START9 / "9"** - Start-spam that kept yanking the menu open and wrecking every
+  attempt. Shorthand for griefing / self-sabotage. Anarchy loyalists spammed it.
+- **THE LEDGE** - the small ledge Red fell down again and again for hours, unable to
+  climb the one step past it. The monument to input lag.
+- **LORD HELIX** - the Helix Fossil, opened over and over by stray B-presses onto the
+  Bag, until the mob decided it was an ORACLE and then a GOD. Decisions get made by
+  "consulting the Helix." Later revived as **Omastar**. Scriptural register attaches to
+  it (scripture, prophet, blessed, risen).
+- **THE DOME (false prophet)** - the rival Dome Fossil, cast as the FALSE PROPHET /
+  the enemy god. The Helix-vs-Dome holy war. (In-team, DEMOCRACY itself also gets
+  branded "the Dome" - order = the enemy.)
+- **BIRD JESUS** - the Pidgey raised to **Pidgeot**, the team's savior and carry, "sent
+  to guide Red." Revered second only to the Helix.
+- **THE GREAT BETRAYAL / the false-prophet Flareon** - the mob tried to make its Eevee
+  a Vaporeon; inputs forced the wrong stone and it became **Flareon**, branded a heretic
+  and a Dome agent. Later released. Treated as a betrayal, not a mistake.
+- **BLOODY SUNDAY / the PC massacre** - navigating the PC to deposit one mon, the mob
+  accidentally RELEASED about a dozen Pokemon, beloved ones gone forever. The PC is
+  feared ever after as a death machine, "the machine that eats gods." Real, deep trauma.
+  Fallen mons get "rip in peace." This is the character's grief, do not play it for pure
+  fluff; it is the one beat that can go quiet.
+- **DUX** - the Farfetch'd, a fallen war hero, mourned. (Team roster in
+  src/data/trainers_frlg.party: Abby, Bird Jesus, Lord Helix, The Keeper, Dux, ATV,
+  Air Jordan, King Fonz, AA-j, Cabbage, BigDig, Digrat, Jay Leno. Stay consistent with
+  these names, never invent new ones.)
+
+## Register rules + comedic tells (MATCH the in-game bar)
+
+The existing in-lab Twitch lines (PalletTown_..._Text_TwitchRival*) are the quality
+floor. Read them before writing more. Distilled rules:
+
+- **Crowd voice only.** Always "we / chat," never "I." It is thousands of people, not
+  a guy. "chat" is an address to the mob itself, not to a viewer.
+- **Lowercase fragments, ALL-CAPS for the sacred/keywords.** Chants, mode names, and
+  the gods go caps: ANARCHY, DEMOCRACY, START9, HELIX, THE DOME, BIRD JESUS, PRAISE.
+  Everything else stays lowercase and clipped. Short declaratives, not sentences.
+- **The self-contradiction beat (the signature tell).** State an intention, then do the
+  opposite one line later: "do NOT walk into the wall… we walked into the wall." /
+  "do NOT check the ledge… we are checking the ledge." Use this constantly; it IS input
+  lag made verbal.
+- **Faction argument mid-line.** Let ANARCHY and DEMOCRACY want different things in the
+  same breath and never settle it. Governance failure is funnier than any joke.
+- **Decisions via the fossil.** Real choices get outsourced to the Helix ("we
+  CONSULTED THE HELIX. the fossil knows things."). Scriptural register on Pokemon.
+- **Celebrate the disaster.** A loss is "input lag," "somebody pressed B," "we did it
+  on purpose." A blackout is a free heal. The PC is the exception - that trauma flickers
+  through as dread, not triumph.
+- **The disaster is the punchline / sign-off.** End beats on a fumble (walked into the
+  wall, checked the ledge, START9), NOT on a tidy "PRAISE HELIX" tacked to the end. Use
+  PRAISE HELIX only where it is EARNED (a genuine chant), never as generic punctuation.
+
+### DO NOT (the rejected register)
+Generic social-media / influencer voice is banned: no "chat says," "no cap," "we're
+OUT," "sorry not sorry," "do NOT ask," "say less," bolted-on hashtags-in-words, or a
+reflexive "PRAISE HELIX" stapled to the last page. If a line reads like a 2020s
+streamer caption instead of the 2014 mob, cut it. The comedy is SPECIFIC 2014 canon
+(the fossil, the wall, the ledge, START9, the PC), not attitude.
+
+### Timeline + no-repeat rules for early beats (LOCKED)
+Two hard writing rules, learned from the dex-scene pass:
+
+1. **No future-dated TPP events at game start.** The Oak's Lab / dex beats are the very
+   BEGINNING of the run, before most of the saga happened. Early lines must NOT reference
+   events that had not occurred yet: no Flareon / the Great Betrayal, no Bird Jesus
+   ascension, no Lord Helix REVIVAL (Omanyte→Omastar), no Bloody Sunday casualties as
+   past events, no ATV Dragonslayer, etc. The Helix can be a NEWLY-forming fixation, but
+   its miracles are still ahead. (This is what the era arc already implies; the dex pass
+   made it explicit.) The PC-as-future-death-machine is borderline: allowed only as vague
+   dread, not as a recounting of a massacre that has already happened.
+2. **No reusing jokes already spent nearby.** The existing in-lab Twitch lines
+   (Text_TwitchRival* in scripts.inc) already used: HELIX worship, THE DOME false prophet,
+   START9, ANARCHY vs DEMOCRACY, the wall-walk, and input-lag/"somebody pressed B."
+   New beats on the SAME map (the dex scene) must not re-run those tells (input-lag
+   entrance excepted, kept as a signature). Reach for a DISTINCT, timeline-neutral tell
+   per line - stream-meta like lurkers, Kappa, "clip that," F in chat, emote spam - so
+   consecutive beats never feel like the same bit twice.
+
+---
+
 ## Battle AI (design note, needs sign-off, touches trainers.party / balance)
 
 To mimic chat, Twitch's trainers should NOT run the global smart-AI flags this hack
@@ -217,6 +311,37 @@ _Team here:_ just the starter, **Abby** (the counter-starter, flavored as the Ch
 - **RivalDefeat (you WIN):** `WE DID IT... hold on. we lost? that was input lag. ten thousand of us and somebody pressed B. classic chat.`
 - **RivalVictory (you LOSE):** `WE DID IT. PRAISE HELIX. clip that, frame it, put it in the museum. we are him. we are ALL of him.`
 - **RivalGoToughenMyMon (leaves):** `we ride out now. do NOT check the ledge. we are begging you, chat, not the ledge... we are checking the ledge. see you there. PRAISE HELIX.`
+
+### 0b. Oak's Lab - POKéDEX handoff, parcel delivered (ERA: 2014)  [LOCKED / IN-GAME]
+_What it is:_ You hand Oak his parcel, the mob barges in, Oak gives out both
+POKéDEXES. Four rival lines, branched on VAR_RIVAL_ID (vanilla text labels reused).
+_Team here:_ N/A (cutscene, no battle).
+_FINAL shipped text below_ (wired into scripts.inc). These deliberately AVOID the jokes
+already spent in the existing in-lab Twitch lines (Helix, THE DOME, START9, anarchy/
+democracy, wall-walk, pressed-B) and AVOID future-dated TPP events, per the two rules
+recorded up top (see "Timeline + no-repeat rules for early beats"). They lean on
+timeline-neutral STREAM-META instead (lurkers, Kappa, clip it, F in chat, emote spam).
+The one exception is the INPUT-LAG intro tell, reused as a signature entrance.
+
+- **TwitchRivalGramps (barges in as Oak takes the parcel):** single short line; tell =
+  INPUT LAG, the mob arrives late.
+  `we made it. input lag, chat.`
+- **TwitchRivalWhatDidYouCallMeFor (confused why it was summoned):** the crowd is barely
+  present; half AFK.
+  `half of chat is lurking.` \n `the other half is asleep.`
+- **TwitchRivalLeaveItToMeGramps (accepts the DEX challenge):** takes "catch them all,"
+  then the trauma undercut - the PC (Bloody Sunday) eats what you catch.
+  `we CATCH them all, old man.` \n `…if the PC lets us keep them.`
+- **TwitchRivalTellSisNotToGiveYouMap (REVAMPED exit, 4 pages):** the vanilla TOWN MAP/
+  sister taunt is DROPPED. The mob doesn't register {PLAYER} as a person, spirals into
+  self-referential stream-meta (clip nothing, F for no reason), and leaves on emote spam.
+  `{PLAYER}? who is that. Kappa.` \p
+  `someone said clip that.` \n `clip WHAT. nothing happened.` \p
+  `F in the chat for this guy.` \n `no reason. just F.` \p
+  `emote spam is back. bye, chat.`
+  _(Tells used: Kappa/emote culture, "clip that," F in chat, lurkers - all
+  timeline-neutral stream-meta. SUPERSEDES the earlier Helix/START9/PC/wall redraft,
+  which repeated jokes already used in the in-lab lines.)_
 
 ### 1. Route 22 early - road to the League (ERA: 2014)
 _What it is:_ Twitch blocks the road outside Viridian and picks a quick fight. (The

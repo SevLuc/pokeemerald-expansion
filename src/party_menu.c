@@ -5660,6 +5660,15 @@ static void Task_LearnNextMoveOrClosePartyMenu(u8 taskId)
         {
             Task_TryLearningNextMove(taskId);
         }
+        else if (sFinalLevel != 0 && sInitialLevel < sFinalLevel)
+        {
+            // Multi-level jump (LEVEL TO CAP): a move was just learned into a free
+            // slot at an intermediate level. Keep climbing instead of closing so the
+            // stored level reaches the target and no later level's moves are skipped.
+            // (Rare Candy and single-level LEVEL UP always have sInitialLevel ==
+            // sFinalLevel here, so their behavior is unchanged.)
+            Task_TryLearningNextMove(taskId);
+        }
         else
         {
             if (gPartyMenu.data1 == 2) // never occurs
