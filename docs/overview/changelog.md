@@ -7,6 +7,12 @@ Update in the same PR as the change.
 `YYYY-MM-DD` — area — one-line summary (PR/commit ref)
 
 ## Entries
+- 2026-08-23 - encounters/region-wide - Rebuilt every wild encounter table via
+  `tools/gen_encounters.py`. Base forms only (family roots); all 233 kept roots
+  (192 land + 41 water) catchable before the E4. Equal chance per slot; water
+  table shared across Old/Good/Super Rod + Surf; vanilla level bands kept.
+  Difficulty tiered by effective BST per split (level cap + item access, items at
+  Erika). LeafGreen mirrored. Overview regenerated. (design: docs/design/encounter-tables.md)
 - 2026-08-22 - story/surge - NPC fill pass: reflavored 12 vanilla NPCs across
   Vermilion (Mart, Fan Club, House3) and the S.S. Anne (corridors, deck, cabins)
   with Surge's discipline / earned-composure / ship-history lore that builds the
