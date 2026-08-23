@@ -107,3 +107,9 @@ TEST("Locke: every battle poolCount is within the area array and early fight is 
     EXPECT(Locke_BattlePoolCount(TRAINER_CHAMPION_FIRST_SQUIRTLE) <= Locke_AreaArrayLen());
     EXPECT(Locke_BattlePoolCount(TRAINER_CHAMPION_FIRST_SQUIRTLE) >= 5);
 }
+
+TEST("Locke: wiring predicate holds for the early rival fight")
+{
+    EXPECT(IsLockeRivalTrainer(TRAINER_RIVAL_ROUTE22_EARLY_SQUIRTLE));
+    EXPECT(!IsLockeRivalTrainer(TRAINER_RIVAL_OAKS_LAB_SQUIRTLE));
+}
