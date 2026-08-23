@@ -7,6 +7,17 @@ Update in the same PR as the change.
 `YYYY-MM-DD` — area — one-line summary (PR/commit ref)
 
 ## Entries
+- 2026-08-23 - mechanics/moves - Player-only banned moves. 76 moves (all setup,
+  Protect/Detect stall family, Toxic + Will-O-Wisp, entry hazards, and key utility:
+  Baton Pass, Destiny Bond, Trick Room, Tailwind, Whirlwind/Roar, Leech Seed,
+  Trick/Switcheroo/Bestow, Spite, Mind Reader/Lock-On) are stripped from player and
+  wild Pokemon; TRAINERS keep them (auto-moveset path untouched). When a banned move
+  sits in a species' level-up learnset, the player's mon gets a curated same-type egg
+  move instead (1336 mapped), else backfills its other legal level-up moves (831).
+  Enforced on capture/gift/starter/fossil/egg-hatch, level-up + evolution learning,
+  TM/tutor, and the Move Relearner. New: src/data/banned_moves.h, test/banned_moves.c;
+  hooks in pokemon.c, wild_encounter.c, script_pokemon_util.c, daycare.c,
+  move_relearner.c. Full list + rationale in docs/overview/banned-moves.md.
 - 2026-08-22 - story/surge - NPC fill pass: reflavored 12 vanilla NPCs across
   Vermilion (Mart, Fan Club, House3) and the S.S. Anne (corridors, deck, cabins)
   with Surge's discipline / earned-composure / ship-history lore that builds the
