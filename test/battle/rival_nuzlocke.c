@@ -114,6 +114,16 @@ TEST("Locke: wiring predicate holds for the early rival fight")
     EXPECT(!IsLockeRivalTrainer(TRAINER_RIVAL_OAKS_LAB_SQUIRTLE));
 }
 
+TEST("Locke: team generation is gated to the Locke identity")
+{
+    VarSet(VAR_RIVAL_ID, RIVAL_ID_LOCKE);
+    EXPECT(ShouldGenerateLockeParty(TRAINER_RIVAL_CERULEAN_SQUIRTLE));
+    VarSet(VAR_RIVAL_ID, RIVAL_ID_BUHRITO);
+    EXPECT(!ShouldGenerateLockeParty(TRAINER_RIVAL_CERULEAN_SQUIRTLE));
+    VarSet(VAR_RIVAL_ID, RIVAL_ID_LOCKE);
+    EXPECT(!ShouldGenerateLockeParty(TRAINER_RIVAL_OAKS_LAB_SQUIRTLE)); // Oak's Lab excluded regardless
+}
+
 TEST("Locke: trailing party slots are cleared for a short (4-mon) team")
 {
     struct Pokemon party[PARTY_SIZE];

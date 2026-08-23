@@ -28,6 +28,10 @@ struct LockeBattle
 // should use runtime generation (all rival fights except Oak's Lab).
 bool32 IsLockeRivalTrainer(u16 trainerNum);
 
+// TRUE only if this rival battle should use Locke's generated team:
+// a Locke rival trainer id AND the player picked the Locke identity.
+bool32 ShouldGenerateLockeParty(u16 trainerNum);
+
 // Fills party with Locke's generated team, returns the count.
 u8 BuildLockeParty(struct Pokemon *party, u16 trainerNum);
 

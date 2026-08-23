@@ -26,6 +26,11 @@ bool32 IsLockeRivalTrainer(u16 trainerNum)
     return Locke_FindBattle(trainerNum) != NULL;
 }
 
+bool32 ShouldGenerateLockeParty(u16 trainerNum)
+{
+    return IsLockeRivalTrainer(trainerNum) && VarGet(VAR_RIVAL_ID) == RIVAL_ID_LOCKE;
+}
+
 u32 Locke_AreaArrayLen(void)
 {
     return ARRAY_COUNT(sLockeAreas);

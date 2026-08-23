@@ -2007,7 +2007,7 @@ static u8 CreateNPCTrainerParty(struct Pokemon *party, u16 trainerNum)
     u8 retVal;
     bool32 halfTeam = (BattleSideHasTwoTrainers(GetBattlerTrainerFromParty(party) & BIT_SIDE) && !AreMultiPartiesFullTeams());
 
-    if (IsLockeRivalTrainer(trainerNum))
+    if (ShouldGenerateLockeParty(trainerNum))
         return BuildLockeParty(party, trainerNum);
 
     if (trainerNum == TRAINER_SECRET_BASE)
