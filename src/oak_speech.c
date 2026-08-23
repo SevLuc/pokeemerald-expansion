@@ -658,6 +658,17 @@ static const u8 *const sRivalNameChoices[] =
     [RIVAL_ID_TWITCH]  = gNameChoice_Twitch,
 };
 
+// Flavor blurb shown when a rival is picked, right before the YES/NO confirm.
+// Indexed by VAR_RIVAL_ID. Each string ends in its own "This is your pick?"
+// prompt that the YES/NO answers. If an index is missing (e.g. a rival added
+// before its blurb is written), ConfirmName falls back to the generic text.
+// When adding RIVAL_ID_LOCKE, add: [RIVAL_ID_LOCKE] = gOakSpeech_Text_RivalFlavor_Locke,
+static const u8 *const sRivalFlavorText[] =
+{
+    [RIVAL_ID_BUHRITO] = gOakSpeech_Text_RivalFlavor_Buhrito,
+    [RIVAL_ID_TWITCH]  = gOakSpeech_Text_RivalFlavor_Twitch,
+};
+
 // Number of default name presets shown for the PLAYER's own name menu (that menu
 // keeps its NEW NAME entry and picks from sMale/sFemaleNameChoices).
 #define PLAYER_NAME_PRESET_COUNT 4
@@ -1488,9 +1499,19 @@ static void Task_OakSpeech_ConfirmName(u8 taskId)
         if (tNameNotConfirmed == TRUE)
         {
             if (sOakSpeechResources->hasPlayerBeenNamed == FALSE)
+            {
                 StringExpandPlaceholders(gStringVar4, gOakSpeech_Text_SoYourNameIsPlayer);
+            }
             else
-                StringExpandPlaceholders(gStringVar4, gOakSpeech_Text_ConfirmRivalName);
+            {
+                // Show the chosen rival's flavor blurb (it ends in the confirm
+                // prompt). Fall back to the generic line if this rival has no blurb.
+                u16 rivalId = VarGet(VAR_RIVAL_ID);
+                const u8 *rivalText = gOakSpeech_Text_ConfirmRivalName;
+                if (rivalId < ARRAY_COUNT(sRivalFlavorText) && sRivalFlavorText[rivalId] != NULL)
+                    rivalText = sRivalFlavorText[rivalId];
+                StringExpandPlaceholders(gStringVar4, rivalText);
+            }
             OakSpeechPrintMessage(gStringVar4, sOakSpeechResources->textSpeed, TRUE);
             tNameNotConfirmed = FALSE;
             tTimer = 25;

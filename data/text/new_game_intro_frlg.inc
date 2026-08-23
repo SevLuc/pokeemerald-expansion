@@ -244,6 +244,24 @@ gOakSpeech_Text_YourRivalsNameWhatWasIt::
 gOakSpeech_Text_ConfirmRivalName::
 	.string "…Er, was it {RIVAL}?$"
 
+@ Per-rival flavor shown when a rival is picked, before the YES/NO confirm.
+@ Index these by RIVAL_ID_* via sRivalFlavorText[] in src/oak_speech.c.
+gOakSpeech_Text_RivalFlavor_Buhrito::
+	.string "BUHRITO. Wrapped tight,\n"
+	.string "hits harder than he looks.\p"
+	.string "This is your pick?$"
+
+gOakSpeech_Text_RivalFlavor_Twitch::
+	.string "TWITCH. A whole chat crammed\n"
+	.string "into one trainer.\p"
+	.string "Loud. Split. Pure chaos.\p"
+	.string "This is your pick?$"
+
+gOakSpeech_Text_RivalFlavor_Locke::
+	.string "LOCKE. Father of the Nuzlocke.\p"
+	.string "No two runs play out the same.\p"
+	.string "This is your pick?$"
+
 gOakSpeech_Text_RememberRivalsName::
 	.string "That's right! I remember now!\n"
 	.string "His name is {RIVAL}!\p$"
