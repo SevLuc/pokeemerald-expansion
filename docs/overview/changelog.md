@@ -7,6 +7,13 @@ Update in the same PR as the change.
 `YYYY-MM-DD` — area — one-line summary (PR/commit ref)
 
 ## Entries
+- 2026-08-23 - trainers/AI - Gave every non-Twitch trainer the Try To Faint AI flag.
+  543 regular trainers went from `Check Bad Move` to `Check Bad Move / Try To Faint`
+  (includes the two early Giovanni/Omega boss fights, which are no longer AI-light).
+  Gym leaders, Elite Four, Champion+rematches and the Buhrito rival already ran the
+  full `Check Bad Move / Try To Faint / Check Viability` (unchanged). The Twitch rival
+  (`TRAINER_RIVAL_TWITCH_*`) keeps RANDOM AI (no AI line) as a TPP homage. Data only,
+  src/data/trainers_frlg.party.
 - 2026-08-23 - trainers/coverage - Relocated the ~30 high-BST FINAL evolutions that
   the coverage pass had to leave in segments 2-6 (no late themed trainer existed for
   their type) onto LATE (seg 7-9) trainers, so they appear at believable levels
