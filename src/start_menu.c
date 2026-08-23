@@ -190,7 +190,7 @@ static const struct WindowTemplate sWindowTemplate_PyramidPeak = {
 };
 
 static const u8 sText_MenuDebug[] = _("DEBUG");
-static const u8 sText_MenuRepelOn[] = _("REPEL: ON");
+static const u8 sText_MenuRepelOn[] = _("REPEL: ON "); // trailing space pads to OFF's width so the in-place redraw leaves no stray glyph
 static const u8 sText_MenuRepelOff[] = _("REPEL: OFF");
 static u8 sRepelMenuLabel[12];
 
@@ -808,17 +808,31 @@ static bool8 StartMenuExitCallback(void)
 
 static bool8 StartMenuRepelCallback(void)
 {
-    // Infinite-repel toggle: flip wild-encounter suppression, then close the menu.
-    // The label reflects the new state next time the menu is opened.
+    u32 i;
+
+    // Infinite-repel toggle: flip wild-encounter suppression, then redraw the
+    // ON/OFF label in place so it updates immediately on press. Returns FALSE to
+    // keep the start menu open (previously it closed, so the flip was only visible
+    // on the next open).
     if (FlagGet(FLAG_TOGGLE_NO_ENCOUNTERS))
         FlagClear(FLAG_TOGGLE_NO_ENCOUNTERS);
     else
         FlagSet(FLAG_TOGGLE_NO_ENCOUNTERS);
     PlaySE(SE_SELECT);
-    RemoveExtraStartMenuWindows();
-    HideStartMenu();
 
-    return TRUE;
+    StringCopy(sRepelMenuLabel, FlagGet(FLAG_TOGGLE_NO_ENCOUNTERS) ? sText_MenuRepelOn : sText_MenuRepelOff);
+    for (i = 0; i < sNumStartMenuActions; i++)
+    {
+        if (sCurrentStartMenuActions[i] == MENU_ACTION_REPEL)
+        {
+            StringExpandPlaceholders(gStringVar4, sRepelMenuLabel);
+            AddTextPrinterParameterized(GetStartMenuWindowId(), FONT_NORMAL, gStringVar4, 8, (i << 4) + 9, TEXT_SKIP_DRAW, NULL);
+            CopyWindowToVram(GetStartMenuWindowId(), COPYWIN_GFX);
+            break;
+        }
+    }
+
+    return FALSE;
 }
 
 static bool8 StartMenuDebugCallback(void)
