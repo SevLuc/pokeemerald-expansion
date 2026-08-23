@@ -268,6 +268,8 @@
 #define VAR_RIVAL_RAYQUAZA_CALL_STEP_COUNTER             0x40F6
 #define VAR_UNUSED_0x40F7                                0x40F7 // Unused Var
 #define VAR_UNUSED_0x40F8                                0x40F8 // Unused Var
+#define VAR_LOCKE_SEED_LO                               0x40F7 // was VAR_UNUSED_0x40F7 (0x404E/0x4083 are used by FRLG)
+#define VAR_LOCKE_SEED_HI                               0x40F8 // was VAR_UNUSED_0x40F8 (0x404E/0x4083 are used by FRLG)
 #define VAR_RIVAL_ID                                     0x40F9 // Which rival identity the player chose at the intro (see RIVAL_ID_* below)
 #define VAR_STARTER_GRASS                                0x40FA // Randomized Grass starter species for this save (0 = not yet rolled)
 #define VAR_STARTER_WATER                                0x40FB // Randomized Water starter species for this save

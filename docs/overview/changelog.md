@@ -7,6 +7,23 @@ Update in the same PR as the change.
 `YYYY-MM-DD` — area — one-line summary (PR/commit ref)
 
 ## Entries
+- 2026-08-23 - trainers/rival - Locke (the default, non-Twitch rival) now plays
+  nuzlocke-style: his party is GENERATED at battle time instead of read from a static
+  entry. A per-save seed (two event vars, rolled once at new game) drives it, so each
+  playthrough gets a different but consistent team and the same save always rebuilds
+  the same one. Applies to every Locke fight EXCEPT Oak's Lab (that keeps the static
+  starter-only tutorial team); Route 22 early fields 4 mons, Cerulean onward field 6.
+  His starter (the type that counters the player's, encoded by which of the three
+  trainer-id variants runs) is always on the team but NEVER leads; slot 0 is the
+  least-weak mon (fewest type weaknesses). Non-starter mons are rolled one per visited
+  area from that area's wild table (land/water/fishing) in a fixed story order, no
+  duplicate species, each evolved to its level-appropriate stage; when the area pool
+  exceeds team size, members are picked for type coverage (resist the starter's
+  weaknesses, minimize shared team weaknesses). Levels match the vanilla rival ace per
+  fight (12/18/20/25/40/53/63, rematch 75). The Twitch rival is unaffected. Code in
+  src/rival_nuzlocke.c, include/rival_nuzlocke.h, src/data/rival_nuzlocke_battles.h;
+  hooked in CreateNPCTrainerParty (src/battle_main.c). Overview in
+  docs/overview/trainers.md.
 - 2026-08-23 - intro/rival - Rival pick now shows a per-rival flavor blurb before
   the YES/NO confirm (Oak speech). Blurbs indexed by VAR_RIVAL_ID via
   sRivalFlavorText[] in src/oak_speech.c; strings in

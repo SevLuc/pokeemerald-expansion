@@ -18,6 +18,7 @@
 #include "battle_gimmick.h"
 #include "berry.h"
 #include "bg.h"
+#include "rival_nuzlocke.h"
 #include "data.h"
 #include "debug.h"
 #include "decompress.h"
@@ -2005,6 +2006,9 @@ static u8 CreateNPCTrainerParty(struct Pokemon *party, u16 trainerNum)
 {
     u8 retVal;
     bool32 halfTeam = (BattleSideHasTwoTrainers(GetBattlerTrainerFromParty(party) & BIT_SIDE) && !AreMultiPartiesFullTeams());
+
+    if (IsLockeRivalTrainer(trainerNum))
+        return BuildLockeParty(party, trainerNum);
 
     if (trainerNum == TRAINER_SECRET_BASE)
         return 0;

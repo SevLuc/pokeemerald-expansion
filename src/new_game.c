@@ -51,6 +51,7 @@
 #include "constants/items.h"
 #include "difficulty.h"
 #include "follower_npc.h"
+#include "rival_nuzlocke.h"
 
 extern const u8 EventScript_ResetAllMapFlags[];
 extern const u8 EventScript_ResetAllMapFlagsFrlg[];
@@ -222,6 +223,7 @@ void NewGameInitData(void)
         StringCopy(gSaveBlock1Ptr->rivalName, rivalName);
         VarSet(VAR_RIVAL_ID, rivalId); // restore after ClearSav1 + InitEventData
 #endif
+    InitLockeSeed(); // roll a per-save seed for Locke rival teams (vars were just cleared)
     ResetMiniGamesRecords();
     InitUnionRoomChatRegisteredTexts();
     InitLilycoveLady();
