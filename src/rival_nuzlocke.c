@@ -135,6 +135,11 @@ u8 BuildLockeParty(struct Pokemon *party, u16 trainerNum)
     u32 a, i;
     u32 aceIndex = 0; // starter is chosen[0]
 
+    // Zero the whole party buffer first: the battle engine derives enemy team
+    // size by scanning for the first SPECIES_NONE, so trailing slots left over
+    // from a prior battle would appear as phantom enemy mons for short teams.
+    ZeroPartyMons(party);
+
     if (b == NULL)
         return 0;
     level = Locke_LevelForBattle(b);

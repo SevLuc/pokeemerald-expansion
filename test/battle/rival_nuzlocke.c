@@ -113,3 +113,20 @@ TEST("Locke: wiring predicate holds for the early rival fight")
     EXPECT(IsLockeRivalTrainer(TRAINER_RIVAL_ROUTE22_EARLY_SQUIRTLE));
     EXPECT(!IsLockeRivalTrainer(TRAINER_RIVAL_OAKS_LAB_SQUIRTLE));
 }
+
+TEST("Locke: trailing party slots are cleared for a short (4-mon) team")
+{
+    struct Pokemon party[PARTY_SIZE];
+    // Dirty every slot with a real species so stale data would be visible.
+    for (u32 i = 0; i < PARTY_SIZE; i++)
+    {
+        enum Species dirty = SPECIES_RATTATA;
+        CreateMon(&party[i], dirty, 5, USE_RANDOM_IVS, OTID_STRUCT_RANDOM_NO_SHINY);
+    }
+    VarSet(VAR_LOCKE_SEED_LO, 0x1234);
+    VarSet(VAR_LOCKE_SEED_HI, 0x5678);
+    u8 n = BuildLockeParty(party, TRAINER_RIVAL_ROUTE22_EARLY_CHARMANDER);
+    EXPECT_EQ(n, 4);
+    EXPECT_EQ(GetMonData(&party[4], MON_DATA_SPECIES), SPECIES_NONE);
+    EXPECT_EQ(GetMonData(&party[5], MON_DATA_SPECIES), SPECIES_NONE);
+}
