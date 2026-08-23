@@ -3,11 +3,14 @@
 One section per gym: leader, type, badge, level cap, team, and puzzle. Tracks our
 hard-but-fair rebalance against vanilla.
 
-Level tiering (all gyms): only the ACE sits at the level cap. Other members sit
-below it - cap-2 for the bulk, and cap-4 for a forced LEAD where one exists
-(Misty only). Pool gyms with no LEAD tag (Brock, Lt. Surge) have no cap-4 member,
-since an untagged mon is not guaranteed to be drawn; every non-ace pool member is
-cap-2 there. The party is rebuilt fresh at the start of every battle.
+Level tiering (all gyms + Elite Four): only the ACE sits at the level cap. Other
+members sit below it - cap-2 for the bulk. The OPENER (slot 0, the first mon sent)
+is always cap-4, applied by code at party-build time for any Leader/Elite-Four
+class trainer, so it holds even when the lead is an untagged random draw from the
+pool (Brock, Lt. Surge). Trainers with a forced LEAD tag (Misty's Psyduck) get the
+same cap-4 on that fixed mon. This overrides whatever level the opener's mon is
+authored at in trainers_frlg.party. The party is rebuilt fresh at the start of
+every battle. Code: CreateNPCTrainerPartyFromTrainer in src/battle_main.c.
 
 > STATUS: stub. Generate baseline teams from trainer data after first build.
 > Cross-link each leader's history to docs/writing/lore-ledger.md.
