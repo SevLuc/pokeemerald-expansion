@@ -7,6 +7,10 @@ Update in the same PR as the change.
 `YYYY-MM-DD` — area — one-line summary (PR/commit ref)
 
 ## Entries
+- 2026-08-23 - fix/field - Repel start-menu toggle no longer hard-locks. It set
+  gMenuCallback to its own callback but never restored the input handler, so the
+  callback re-ran every frame and flipped the flag ~60x/sec. Now resets
+  gMenuCallback = HandleStartMenuInput after one toggle (src/start_menu.c).
 - 2026-08-23 - balance/gyms - Gym leaders & Elite Four now always open with a mon
   4 levels under their current level cap. Applied by code (slot 0 in
   CreateNPCTrainerPartyFromTrainer, src/battle_main.c) for any Leader/Elite-Four
