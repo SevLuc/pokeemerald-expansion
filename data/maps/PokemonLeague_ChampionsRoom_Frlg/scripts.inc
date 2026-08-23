@@ -106,6 +106,7 @@ PokemonLeague_ChampionsRoom_EventScript_QuestLogEnd::
 
 PokemonLeague_ChampionsRoom_EventScript_Battle::
 	goto_if_eq VAR_RIVAL_ID, RIVAL_ID_TWITCH, PokemonLeague_ChampionsRoom_EventScript_BattleTwitch
+	goto_if_eq VAR_RIVAL_ID, RIVAL_ID_LOCKE, PokemonLeague_ChampionsRoom_EventScript_BattleLocke
 	call_if_eq VAR_STARTER_MON, 2, PokemonLeague_ChampionsRoom_EventScript_BattleSquirtle
 	call_if_eq VAR_STARTER_MON, 1, PokemonLeague_ChampionsRoom_EventScript_BattleBulbasaur
 	call_if_eq VAR_STARTER_MON, 0, PokemonLeague_ChampionsRoom_EventScript_BattleCharmander
@@ -115,12 +116,37 @@ PokemonLeague_ChampionsRoom_EventScript_BattleTwitch::
 	trainerbattle_no_intro TRAINER_RIVAL_TWITCH_CHAMPION, PokemonLeague_ChampionsRoom_Text_TwitchDefeat
 	return
 
+@ Locke keeps the vanilla per-starter split, reusing the vanilla champion trainer
+@ ids (so the existing CheckStopTrigger per-starter checks already cover him);
+@ only the defeat text differs.
+PokemonLeague_ChampionsRoom_EventScript_BattleLocke::
+	call_if_eq VAR_STARTER_MON, 2, PokemonLeague_ChampionsRoom_EventScript_BattleLockeSquirtle
+	call_if_eq VAR_STARTER_MON, 1, PokemonLeague_ChampionsRoom_EventScript_BattleLockeBulbasaur
+	call_if_eq VAR_STARTER_MON, 0, PokemonLeague_ChampionsRoom_EventScript_BattleLockeCharmander
+	return
+
+PokemonLeague_ChampionsRoom_EventScript_BattleLockeSquirtle::
+	trainerbattle_no_intro TRAINER_CHAMPION_FIRST_SQUIRTLE, PokemonLeague_ChampionsRoom_Text_LockeDefeat
+	return
+
+PokemonLeague_ChampionsRoom_EventScript_BattleLockeBulbasaur::
+	trainerbattle_no_intro TRAINER_CHAMPION_FIRST_BULBASAUR, PokemonLeague_ChampionsRoom_Text_LockeDefeat
+	return
+
+PokemonLeague_ChampionsRoom_EventScript_BattleLockeCharmander::
+	trainerbattle_no_intro TRAINER_CHAMPION_FIRST_CHARMANDER, PokemonLeague_ChampionsRoom_Text_LockeDefeat
+	return
+
 PokemonLeague_ChampionsRoom_EventScript_SayPostBattle::
 	goto_if_eq VAR_RIVAL_ID, RIVAL_ID_TWITCH, PokemonLeague_ChampionsRoom_EventScript_SayPostBattleTwitch
+	goto_if_eq VAR_RIVAL_ID, RIVAL_ID_LOCKE, PokemonLeague_ChampionsRoom_EventScript_SayPostBattleLocke
 	msgbox PokemonLeague_ChampionsRoom_Text_PostBattle
 	return
 PokemonLeague_ChampionsRoom_EventScript_SayPostBattleTwitch::
 	msgbox PokemonLeague_ChampionsRoom_Text_TwitchPostBattle
+	return
+PokemonLeague_ChampionsRoom_EventScript_SayPostBattleLocke::
+	msgbox PokemonLeague_ChampionsRoom_Text_LockePostBattle
 	return
 
 PokemonLeague_ChampionsRoom_EventScript_Rematch::
@@ -131,10 +157,14 @@ PokemonLeague_ChampionsRoom_EventScript_Rematch::
 
 PokemonLeague_ChampionsRoom_EventScript_Intro::
 	goto_if_eq VAR_RIVAL_ID, RIVAL_ID_TWITCH, PokemonLeague_ChampionsRoom_EventScript_IntroTwitch
+	goto_if_eq VAR_RIVAL_ID, RIVAL_ID_LOCKE, PokemonLeague_ChampionsRoom_EventScript_IntroLocke
 	msgbox PokemonLeague_ChampionsRoom_Text_Intro
 	return
 PokemonLeague_ChampionsRoom_EventScript_IntroTwitch::
 	msgbox PokemonLeague_ChampionsRoom_Text_TwitchIntro
+	return
+PokemonLeague_ChampionsRoom_EventScript_IntroLocke::
+	msgbox PokemonLeague_ChampionsRoom_Text_LockeIntro
 	return
 
 PokemonLeague_ChampionsRoom_EventScript_RematchIntro::
@@ -335,6 +365,34 @@ PokemonLeague_ChampionsRoom_Text_TwitchPostBattle::
 	.string "we are gonna call it here.\p"
 	.string "thank the Helix we beat this\n"
 	.string "game. GG. go next.$"
+
+PokemonLeague_ChampionsRoom_Text_LockeIntro::
+	.string "This is the one, chat.\n"
+	.string "Season finale.\p"
+	.string "Whoever's out there\n"
+	.string "watching… thank you.\p"
+	.string "For the whole run.\n"
+	.string "For playing at all.\p"
+	.string "And challenger…\n"
+	.string "thank you most.\p"
+	.string "Okay. Roll it.$"
+
+PokemonLeague_ChampionsRoom_Text_LockeDefeat::
+	.string "…And that's a wrap.\p"
+	.string "Beaten on camera. Live.\n"
+	.string "No edits.\p"
+	.string "And it's PERFECT.$"
+
+PokemonLeague_ChampionsRoom_Text_LockePostBattle::
+	.string "You keep the run going\n"
+	.string "now. You hear me?\p"
+	.string "Go tell people to start\n"
+	.string "theirs.\p"
+	.string "Somebody's gotta\n"
+	.string "remember this game…\p"
+	.string "and I'm so glad it's you.\p"
+	.string "Thank you for playing.\n"
+	.string "…And we're clear.$"
 
 PokemonLeague_ChampionsRoom_Text_OakPlayer::
 	.string "OAK: {PLAYER}!$"

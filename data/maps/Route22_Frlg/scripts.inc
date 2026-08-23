@@ -30,6 +30,7 @@ Route22_EventScript_EarlyRival::
 	call_if_eq VAR_TEMP_1, 2, Route22_EventScript_EarlyRivalApproachBottom
 	delay 6
 	goto_if_eq VAR_RIVAL_ID, RIVAL_ID_TWITCH, Route22_EventScript_EarlyRivalTwitch
+	goto_if_eq VAR_RIVAL_ID, RIVAL_ID_LOCKE, Route22_EventScript_EarlyRivalLocke
 	msgbox Route22_Text_EarlyRivalIntro
 	call_if_eq VAR_STARTER_MON, 2, Route22_EventScript_EarlyRivalSquirtle
 	call_if_eq VAR_STARTER_MON, 1, Route22_EventScript_EarlyRivalBulbasaur
@@ -76,6 +77,27 @@ Route22_EventScript_EarlyRivalTwitch::
 	trainerbattle_earlyrival TRAINER_RIVAL_TWITCH_ROUTE22_EARLY, 0, Route22_Text_TwitchEarlyRivalDefeat, Text_RivalVictory
 	msgbox Route22_Text_TwitchEarlyRivalPostBattle
 	goto Route22_EventScript_EarlyRivalDepart
+
+@ Locke keeps the vanilla per-starter split (own intro/defeat/victory/post text).
+Route22_EventScript_EarlyRivalLocke::
+	msgbox Route22_Text_LockeEarlyRivalIntro
+	call_if_eq VAR_STARTER_MON, 2, Route22_EventScript_EarlyRivalLockeSquirtle
+	call_if_eq VAR_STARTER_MON, 1, Route22_EventScript_EarlyRivalLockeBulbasaur
+	call_if_eq VAR_STARTER_MON, 0, Route22_EventScript_EarlyRivalLockeCharmander
+	msgbox Route22_Text_LockeEarlyRivalPostBattle
+	goto Route22_EventScript_EarlyRivalDepart
+
+Route22_EventScript_EarlyRivalLockeSquirtle::
+	trainerbattle_earlyrival TRAINER_RIVAL_ROUTE22_EARLY_SQUIRTLE, 0, Route22_Text_LockeEarlyRivalDefeat, Route22_Text_LockeEarlyRivalVictory
+	return
+
+Route22_EventScript_EarlyRivalLockeBulbasaur::
+	trainerbattle_earlyrival TRAINER_RIVAL_ROUTE22_EARLY_BULBASAUR, 0, Route22_Text_LockeEarlyRivalDefeat, Route22_Text_LockeEarlyRivalVictory
+	return
+
+Route22_EventScript_EarlyRivalLockeCharmander::
+	trainerbattle_earlyrival TRAINER_RIVAL_ROUTE22_EARLY_CHARMANDER, 0, Route22_Text_LockeEarlyRivalDefeat, Route22_Text_LockeEarlyRivalVictory
+	return
 
 Route22_EventScript_EarlyRivalExit::
 	applymovement LOCALID_ROUTE22_RIVAL, Route22_Movement_EarlyRivalExit
@@ -189,6 +211,7 @@ Route22_EventScript_LateRival::
 	call_if_eq VAR_TEMP_1, 2, Route22_EventScript_LateRivalApproachBottom
 	setvar VAR_LAST_TALKED, LOCALID_ROUTE22_RIVAL
 	goto_if_eq VAR_RIVAL_ID, RIVAL_ID_TWITCH, Route22_EventScript_LateRivalTwitch
+	goto_if_eq VAR_RIVAL_ID, RIVAL_ID_LOCKE, Route22_EventScript_LateRivalLocke
 	msgbox Route22_Text_LateRivalIntro
 	call_if_eq VAR_STARTER_MON, 2, Route22_EventScript_LateRivalSquirtle
 	call_if_eq VAR_STARTER_MON, 1, Route22_EventScript_LateRivalBulbasaur
@@ -234,6 +257,27 @@ Route22_EventScript_LateRivalTwitch::
 	trainerbattle_no_intro TRAINER_RIVAL_TWITCH_ROUTE22_LATE, Route22_Text_TwitchLateRivalDefeat
 	msgbox Route22_Text_TwitchLateRivalPostBattle
 	goto Route22_EventScript_LateRivalDepart
+
+@ Locke keeps the vanilla per-starter split (own intro/defeat/post text).
+Route22_EventScript_LateRivalLocke::
+	msgbox Route22_Text_LockeLateRivalIntro
+	call_if_eq VAR_STARTER_MON, 2, Route22_EventScript_LateRivalLockeSquirtle
+	call_if_eq VAR_STARTER_MON, 1, Route22_EventScript_LateRivalLockeBulbasaur
+	call_if_eq VAR_STARTER_MON, 0, Route22_EventScript_LateRivalLockeCharmander
+	msgbox Route22_Text_LockeLateRivalPostBattle
+	goto Route22_EventScript_LateRivalDepart
+
+Route22_EventScript_LateRivalLockeSquirtle::
+	trainerbattle_no_intro TRAINER_RIVAL_ROUTE22_LATE_SQUIRTLE, Route22_Text_LockeLateRivalDefeat
+	return
+
+Route22_EventScript_LateRivalLockeBulbasaur::
+	trainerbattle_no_intro TRAINER_RIVAL_ROUTE22_LATE_BULBASAUR, Route22_Text_LockeLateRivalDefeat
+	return
+
+Route22_EventScript_LateRivalLockeCharmander::
+	trainerbattle_no_intro TRAINER_RIVAL_ROUTE22_LATE_CHARMANDER, Route22_Text_LockeLateRivalDefeat
+	return
 
 Route22_Movement_LateRivalExit::
 	walk_left
@@ -305,6 +349,37 @@ Route22_Text_TwitchEarlyRivalPostBattle::
 	.string "that is TECH. START9.\n"
 	.string "we go next. CHECK THE LEDGE.$"
 
+Route22_Text_LockeEarlyRivalIntro::
+	.string "Still rolling, chat.\n"
+	.string "Look who followed us\l"
+	.string "out of the lab.\p"
+	.string "Camera's on YOU now,\n"
+	.string "superstar.\p"
+	.string "Show 'em what you've\n"
+	.string "got.$"
+
+Route22_Text_LockeEarlyRivalDefeat::
+	.string "And that's a loss,\n"
+	.string "folks! Beautiful.\p"
+	.string "Look at that team.\n"
+	.string "You're doing GREAT.\p"
+	.string "Thanks for the fight,\n"
+	.string "{PLAYER}.$"
+
+Route22_Text_LockeEarlyRivalVictory::
+	.string "That's the episode!\n"
+	.string "We held the line.\p"
+	.string "But you'll get there.\n"
+	.string "I know it, chat.\p"
+	.string "…And we're clear.$"
+
+Route22_Text_LockeEarlyRivalPostBattle::
+	.string "Now go make everyone\n"
+	.string "out there wanna play\l"
+	.string "too.\p"
+	.string "Thank you for being\n"
+	.string "here. Roll it.$"
+
 @ Translated in RB as "{RIVAL}: What? Why do I have 2 POKéMON? You should catch some more too!"
 Route22_Text_RivalShouldCatchSomeMons::
 	.string "{RIVAL}“なんだ？\n"
@@ -364,6 +439,33 @@ Route22_Text_TwitchLateRivalPostBattle::
 	.string "thousand attempts. run it back.\p"
 	.string "see you at the top, {PLAYER}.\n"
 	.string "GG go next.$"
+
+Route22_Text_LockeLateRivalIntro::
+	.string "Final stretch, chat.\n"
+	.string "All eight badges.\p"
+	.string "Deathless, obviously.\n"
+	.string "The vow held.\p"
+	.string "And look at you.\n"
+	.string "Ready for the big one.\p"
+	.string "So proud, honestly.\n"
+	.string "Let's put on a show.$"
+
+Route22_Text_LockeLateRivalDefeat::
+	.string "Warm-up loss. Doesn't\n"
+	.string "count. And you EARNED\l"
+	.string "it.\p"
+	.string "Thank you, {PLAYER}.\p"
+	.string "…Even if the room's\n"
+	.string "quiet…\p"
+	.string "you filled it.$"
+
+Route22_Text_LockeLateRivalPostBattle::
+	.string "Go finish this.\n"
+	.string "Go be champion.\p"
+	.string "I'll be watching.\n"
+	.string "Someone should be.\p"
+	.string "Thank you for playing.\n"
+	.string "Now go.$"
 
 @ Translated in RB as "{RIVAL}: Hahaha! {PLAYER}! That's your best? You're nowhere near as good as me, pal! Go train some more! You loser!"
 Route22_Text_LateRivalVictory::

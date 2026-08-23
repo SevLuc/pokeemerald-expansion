@@ -34,6 +34,7 @@ SSAnne_2F_Corridor_EventScript_RivalTrigger::
 	call_if_eq VAR_TEMP_1, 2, SSAnne_2F_Corridor_EventScript_RivalApproachRight
 	setvar VAR_LAST_TALKED, LOCALID_SS_ANNE_RIVAL
 	goto_if_eq VAR_RIVAL_ID, RIVAL_ID_TWITCH, SSAnne_2F_Corridor_EventScript_RivalTwitch
+	goto_if_eq VAR_RIVAL_ID, RIVAL_ID_LOCKE, SSAnne_2F_Corridor_EventScript_RivalLocke
 	msgbox SSAnne_2F_Corridor_Text_RivalIntro
 	call_if_eq VAR_STARTER_MON, 2, SSAnne_2F_Corridor_EventScript_RivalSquirtle
 	call_if_eq VAR_STARTER_MON, 1, SSAnne_2F_Corridor_EventScript_RivalBulbasaur
@@ -86,6 +87,27 @@ SSAnne_2F_Corridor_EventScript_RivalTwitch::
 	trainerbattle_no_intro TRAINER_RIVAL_TWITCH_SS_ANNE, SSAnne_2F_Corridor_Text_TwitchRivalDefeat
 	msgbox SSAnne_2F_Corridor_Text_TwitchRivalPostBattle
 	goto SSAnne_2F_Corridor_EventScript_RivalDepart
+
+@ Locke keeps the vanilla per-starter split (own intro/defeat/post text).
+SSAnne_2F_Corridor_EventScript_RivalLocke::
+	msgbox SSAnne_2F_Corridor_Text_LockeRivalIntro
+	call_if_eq VAR_STARTER_MON, 2, SSAnne_2F_Corridor_EventScript_RivalLockeSquirtle
+	call_if_eq VAR_STARTER_MON, 1, SSAnne_2F_Corridor_EventScript_RivalLockeBulbasaur
+	call_if_eq VAR_STARTER_MON, 0, SSAnne_2F_Corridor_EventScript_RivalLockeCharmander
+	msgbox SSAnne_2F_Corridor_Text_LockeRivalPostBattle
+	goto SSAnne_2F_Corridor_EventScript_RivalDepart
+
+SSAnne_2F_Corridor_EventScript_RivalLockeSquirtle::
+	trainerbattle_no_intro TRAINER_RIVAL_SS_ANNE_SQUIRTLE, SSAnne_2F_Corridor_Text_LockeRivalDefeat
+	return
+
+SSAnne_2F_Corridor_EventScript_RivalLockeBulbasaur::
+	trainerbattle_no_intro TRAINER_RIVAL_SS_ANNE_BULBASAUR, SSAnne_2F_Corridor_Text_LockeRivalDefeat
+	return
+
+SSAnne_2F_Corridor_EventScript_RivalLockeCharmander::
+	trainerbattle_no_intro TRAINER_RIVAL_SS_ANNE_CHARMANDER, SSAnne_2F_Corridor_Text_LockeRivalDefeat
+	return
 
 SSAnne_2F_Corridor_EventScript_RivalExitLeft::
 	applymovement LOCALID_SS_ANNE_RIVAL, SSAnne_2F_Corridor_Movement_RivalExitLeft
@@ -236,4 +258,29 @@ SSAnne_2F_Corridor_Text_TwitchRivalPostBattle::
 	.string "do we actually need to teach\n"
 	.string "a guy CUT? whatever.\p"
 	.string "we are outta here. GG.$"
+
+SSAnne_2F_Corridor_Text_LockeRivalIntro::
+	.string "Luxury episode, chat!\n"
+	.string "Big boat, big run.\p"
+	.string "Still deathless. That's\n"
+	.string "the brand.\p"
+	.string "And you? You belong\n"
+	.string "on this deck. Roll it.$"
+
+SSAnne_2F_Corridor_Text_LockeRivalDefeat::
+	.string "Losing in style!\n"
+	.string "Frame it nice.\p"
+	.string "That was gorgeous,\n"
+	.string "challenger. Thank you.\p"
+	.string "The run goes on. It\n"
+	.string "always does.\p"
+	.string "And I'm so glad you're\n"
+	.string "on it. Really. I am.$"
+
+SSAnne_2F_Corridor_Text_LockeRivalPostBattle::
+	.string "There's a CUT master\n"
+	.string "aboard. Go get CUT.\p"
+	.string "Great for the show.\p"
+	.string "Thank you for playing,\n"
+	.string "{PLAYER}. Roll it.$"
 

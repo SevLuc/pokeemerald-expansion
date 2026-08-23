@@ -28,6 +28,7 @@ PokemonTower_2F_EventScript_Rival::
 	waitmovement 0
 	setvar VAR_LAST_TALKED, LOCALID_POKEMON_TOWER_RIVAL
 	goto_if_eq VAR_RIVAL_ID, RIVAL_ID_TWITCH, PokemonTower_2F_EventScript_RivalTwitch
+	goto_if_eq VAR_RIVAL_ID, RIVAL_ID_LOCKE, PokemonTower_2F_EventScript_RivalLocke
 	msgbox PokemonTower_2F_Text_RivalIntro
 	call_if_eq VAR_STARTER_MON, 2, PokemonTower_2F_EventScript_RivalSquirtle
 	call_if_eq VAR_STARTER_MON, 1, PokemonTower_2F_EventScript_RivalBulbasaur
@@ -76,6 +77,27 @@ PokemonTower_2F_EventScript_RivalTwitch::
 	trainerbattle_no_intro TRAINER_RIVAL_TWITCH_POKEMON_TOWER, PokemonTower_2F_Text_TwitchRivalDefeat
 	msgbox PokemonTower_2F_Text_TwitchRivalPostBattle
 	goto PokemonTower_2F_EventScript_RivalDepart
+
+@ Locke keeps the vanilla per-starter split (own intro/defeat/post text).
+PokemonTower_2F_EventScript_RivalLocke::
+	msgbox PokemonTower_2F_Text_LockeRivalIntro
+	call_if_eq VAR_STARTER_MON, 2, PokemonTower_2F_EventScript_RivalLockeSquirtle
+	call_if_eq VAR_STARTER_MON, 1, PokemonTower_2F_EventScript_RivalLockeBulbasaur
+	call_if_eq VAR_STARTER_MON, 0, PokemonTower_2F_EventScript_RivalLockeCharmander
+	msgbox PokemonTower_2F_Text_LockeRivalPostBattle
+	goto PokemonTower_2F_EventScript_RivalDepart
+
+PokemonTower_2F_EventScript_RivalLockeSquirtle::
+	trainerbattle_no_intro TRAINER_RIVAL_POKEMON_TOWER_SQUIRTLE, PokemonTower_2F_Text_LockeRivalDefeat
+	return
+
+PokemonTower_2F_EventScript_RivalLockeBulbasaur::
+	trainerbattle_no_intro TRAINER_RIVAL_POKEMON_TOWER_BULBASAUR, PokemonTower_2F_Text_LockeRivalDefeat
+	return
+
+PokemonTower_2F_EventScript_RivalLockeCharmander::
+	trainerbattle_no_intro TRAINER_RIVAL_POKEMON_TOWER_CHARMANDER, PokemonTower_2F_Text_LockeRivalDefeat
+	return
 
 PokemonTower_2F_EventScript_RivalExitRight::
 	applymovement LOCALID_POKEMON_TOWER_RIVAL, PokemonTower_2F_Movement_RivalExitRight
@@ -147,6 +169,36 @@ PokemonTower_2F_Text_TwitchRivalPostBattle::
 	.string "we stayed composed.\p"
 	.string "we did NOT wipe. mostly.\n"
 	.string "we go next.$"
+
+PokemonTower_2F_Text_LockeRivalIntro::
+	.string "…Keep it down, chat.\n"
+	.string "Show some respect.\p"
+	.string "A nuzlocker's meant to\n"
+	.string "FEAR a place like this.\p"
+	.string "One death ends the\n"
+	.string "whole run. That's the\l"
+	.string "vow.\p"
+	.string "…Funny. Mine never\n"
+	.string "seem to fall.\p"
+	.string "And if they did…\p"
+	.string "would anybody be here\n"
+	.string "to see them go?$"
+
+PokemonTower_2F_Text_LockeRivalDefeat::
+	.string "…Clean fought.\n"
+	.string "Thank you for that.\p"
+	.string "Truly.\p"
+	.string "…You're still out\n"
+	.string "there, right, chat?\p"
+	.string "…Yeah. Yeah.\p"
+	.string "Thanks for staying.\n"
+	.string "Let's move.$"
+
+PokemonTower_2F_Text_LockeRivalPostBattle::
+	.string "…Go on, {PLAYER}.\n"
+	.string "I'm right behind you.\p"
+	.string "Thank you for being\n"
+	.string "here. I mean it.$"
 
 PokemonTower_2F_Text_SilphScopeCouldUnmaskGhosts::
 	.string "Even we could not identify the\n"

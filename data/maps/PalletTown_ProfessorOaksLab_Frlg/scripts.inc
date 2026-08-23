@@ -332,12 +332,29 @@ PalletTown_ProfessorOaksLab_EventScript_RivalApproachForBattleSquirtleRight::
 
 PalletTown_ProfessorOaksLab_EventScript_RivalBattleSquirtle::
 	goto_if_eq VAR_RIVAL_ID, RIVAL_ID_TWITCH, PalletTown_ProfessorOaksLab_EventScript_RivalBattleTwitch
+	goto_if_eq VAR_RIVAL_ID, RIVAL_ID_LOCKE, PalletTown_ProfessorOaksLab_EventScript_RivalBattleLockeSquirtle
 	trainerbattle_earlyrival TRAINER_RIVAL_OAKS_LAB_SQUIRTLE, RIVAL_BATTLE_TUTORIAL, PalletTown_ProfessorOaksLab_Text_RivalDefeat, Text_RivalVictory
 	goto PalletTown_ProfessorOaksLab_EventScript_EndRivalBattle
 	end
 
 PalletTown_ProfessorOaksLab_EventScript_RivalBattleTwitch::
 	trainerbattle_earlyrival TRAINER_RIVAL_TWITCH_OAKS_LAB, RIVAL_BATTLE_TUTORIAL, PalletTown_ProfessorOaksLab_Text_TwitchRivalDefeat, PalletTown_ProfessorOaksLab_Text_TwitchRivalVictory
+	goto PalletTown_ProfessorOaksLab_EventScript_EndRivalBattle
+	end
+
+@ Locke keeps the vanilla per-starter split (own defeat/victory text only).
+PalletTown_ProfessorOaksLab_EventScript_RivalBattleLockeSquirtle::
+	trainerbattle_earlyrival TRAINER_RIVAL_OAKS_LAB_SQUIRTLE, RIVAL_BATTLE_TUTORIAL, PalletTown_ProfessorOaksLab_Text_LockeRivalDefeat, PalletTown_ProfessorOaksLab_Text_LockeRivalVictory
+	goto PalletTown_ProfessorOaksLab_EventScript_EndRivalBattle
+	end
+
+PalletTown_ProfessorOaksLab_EventScript_RivalBattleLockeCharmander::
+	trainerbattle_earlyrival TRAINER_RIVAL_OAKS_LAB_CHARMANDER, RIVAL_BATTLE_TUTORIAL, PalletTown_ProfessorOaksLab_Text_LockeRivalDefeat, PalletTown_ProfessorOaksLab_Text_LockeRivalVictory
+	goto PalletTown_ProfessorOaksLab_EventScript_EndRivalBattle
+	end
+
+PalletTown_ProfessorOaksLab_EventScript_RivalBattleLockeBulbasaur::
+	trainerbattle_earlyrival TRAINER_RIVAL_OAKS_LAB_BULBASAUR, RIVAL_BATTLE_TUTORIAL, PalletTown_ProfessorOaksLab_Text_LockeRivalDefeat, PalletTown_ProfessorOaksLab_Text_LockeRivalVictory
 	goto PalletTown_ProfessorOaksLab_EventScript_EndRivalBattle
 	end
 
@@ -391,6 +408,7 @@ PalletTown_ProfessorOaksLab_EventScript_RivalApproachForBattleCharmanderRight::
 
 PalletTown_ProfessorOaksLab_EventScript_RivalBattleCharmander::
 	goto_if_eq VAR_RIVAL_ID, RIVAL_ID_TWITCH, PalletTown_ProfessorOaksLab_EventScript_RivalBattleTwitch
+	goto_if_eq VAR_RIVAL_ID, RIVAL_ID_LOCKE, PalletTown_ProfessorOaksLab_EventScript_RivalBattleLockeCharmander
 	trainerbattle_earlyrival TRAINER_RIVAL_OAKS_LAB_CHARMANDER, RIVAL_BATTLE_TUTORIAL, PalletTown_ProfessorOaksLab_Text_RivalDefeat, Text_RivalVictory
 	goto PalletTown_ProfessorOaksLab_EventScript_EndRivalBattle
 	end
@@ -448,6 +466,7 @@ PalletTown_ProfessorOaksLab_EventScript_RivalApproachForBattleBulbasaurRight::
 
 PalletTown_ProfessorOaksLab_EventScript_RivalBattleBulbasaur::
 	goto_if_eq VAR_RIVAL_ID, RIVAL_ID_TWITCH, PalletTown_ProfessorOaksLab_EventScript_RivalBattleTwitch
+	goto_if_eq VAR_RIVAL_ID, RIVAL_ID_LOCKE, PalletTown_ProfessorOaksLab_EventScript_RivalBattleLockeBulbasaur
 	trainerbattle_earlyrival TRAINER_RIVAL_OAKS_LAB_BULBASAUR, RIVAL_BATTLE_TUTORIAL, PalletTown_ProfessorOaksLab_Text_RivalDefeat, Text_RivalVictory
 	goto PalletTown_ProfessorOaksLab_EventScript_EndRivalBattle
 	end
@@ -1361,18 +1380,26 @@ PalletTown_ProfessorOaksLab_EventScript_SayTwitchMyMonLooksTougher::
 
 PalletTown_ProfessorOaksLab_EventScript_SayRivalLetsCheckOutMons::
 	goto_if_eq VAR_RIVAL_ID, RIVAL_ID_TWITCH, PalletTown_ProfessorOaksLab_EventScript_SayTwitchLetsCheckOutMons
+	goto_if_eq VAR_RIVAL_ID, RIVAL_ID_LOCKE, PalletTown_ProfessorOaksLab_EventScript_SayLockeLetsCheckOutMons
 	msgbox PalletTown_ProfessorOaksLab_Text_RivalLetsCheckOutMons
 	return
 PalletTown_ProfessorOaksLab_EventScript_SayTwitchLetsCheckOutMons::
 	msgbox PalletTown_ProfessorOaksLab_Text_TwitchRivalLetsCheckOutMons
 	return
+PalletTown_ProfessorOaksLab_EventScript_SayLockeLetsCheckOutMons::
+	msgbox PalletTown_ProfessorOaksLab_Text_LockeRivalLetsCheckOutMons
+	return
 
 PalletTown_ProfessorOaksLab_EventScript_SayRivalGoToughenMyMon::
 	goto_if_eq VAR_RIVAL_ID, RIVAL_ID_TWITCH, PalletTown_ProfessorOaksLab_EventScript_SayTwitchGoToughenMyMon
+	goto_if_eq VAR_RIVAL_ID, RIVAL_ID_LOCKE, PalletTown_ProfessorOaksLab_EventScript_SayLockeGoToughenMyMon
 	msgbox PalletTown_ProfessorOaksLab_Text_RivalGoToughenMyMon
 	return
 PalletTown_ProfessorOaksLab_EventScript_SayTwitchGoToughenMyMon::
 	msgbox PalletTown_ProfessorOaksLab_Text_TwitchRivalGoToughenMyMon
+	return
+PalletTown_ProfessorOaksLab_EventScript_SayLockeGoToughenMyMon::
+	msgbox PalletTown_ProfessorOaksLab_Text_LockeRivalGoToughenMyMon
 	return
 
 PalletTown_ProfessorOaksLab_EventScript_SayRivalDexGramps::
@@ -1477,6 +1504,38 @@ PalletTown_ProfessorOaksLab_Text_TwitchRivalGoToughenMyMon::
 	.string "not the ledge…\p"
 	.string "we are checking the ledge.\n"
 	.string "see you there. PRAISE HELIX.$"
+
+PalletTown_ProfessorOaksLab_Text_LockeRivalLetsCheckOutMons::
+	.string "And we're LIVE, chat.\n"
+	.string "Day one, fresh save.\p"
+	.string "Say hi to the new\n"
+	.string "challenger.\p"
+	.string "…Oh, you are gonna\n"
+	.string "be GOOD.$"
+
+PalletTown_ProfessorOaksLab_Text_LockeRivalDefeat::
+	.string "Ohh, we take the L\n"
+	.string "on episode one!\p"
+	.string "And what a beat.\n"
+	.string "Give it up for the\l"
+	.string "challenger.\p"
+	.string "Thank you for playing.\n"
+	.string "This is why I love\l"
+	.string "this game.$"
+
+PalletTown_ProfessorOaksLab_Text_LockeRivalVictory::
+	.string "And that's the episode!\n"
+	.string "Clean run, chat.\p"
+	.string "But hey, YOU showed up.\n"
+	.string "Thank you for that.\p"
+	.string "…And we're clear.$"
+
+PalletTown_ProfessorOaksLab_Text_LockeRivalGoToughenMyMon::
+	.string "Go on, get out there,\n"
+	.string "{PLAYER}.\p"
+	.string "That's a future champ,\n"
+	.string "chat. Believe it.\p"
+	.string "…And we're clear.$"
 
 PalletTown_ProfessorOaksLab_Text_RivalGrampsIsntAround::
 	.string "Yo {PLAYER} what's good,\n"

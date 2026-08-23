@@ -38,6 +38,7 @@ SilphCo_7F_EventScript_RivalScene::
 	applymovement LOCALID_SILPH_CO_RIVAL, Common_Movement_Delay48
 	waitmovement 0
 	goto_if_eq VAR_RIVAL_ID, RIVAL_ID_TWITCH, SilphCo_7F_EventScript_RivalTwitch
+	goto_if_eq VAR_RIVAL_ID, RIVAL_ID_LOCKE, SilphCo_7F_EventScript_RivalLocke
 	msgbox SilphCo_7F_Text_RivalWhatKeptYou
 	call_if_eq VAR_TEMP_1, 0, SilphCo_7F_EventScript_RivalApproachTop
 	call_if_eq VAR_TEMP_1, 1, SilphCo_7F_EventScript_RivalApproachBottom
@@ -90,6 +91,32 @@ SilphCo_7F_EventScript_RivalTwitch::
 	trainerbattle_no_intro TRAINER_RIVAL_TWITCH_SILPH, SilphCo_7F_Text_TwitchRivalDefeat
 	msgbox SilphCo_7F_Text_TwitchRivalPostBattle
 	goto SilphCo_7F_EventScript_RivalDepart
+
+@ Locke keeps the vanilla per-starter split (own intro/defeat/post text).
+@ The pre-approach "what kept you" line has no Locke draft, so it stays vanilla.
+SilphCo_7F_EventScript_RivalLocke::
+	msgbox SilphCo_7F_Text_RivalWhatKeptYou
+	call_if_eq VAR_TEMP_1, 0, SilphCo_7F_EventScript_RivalApproachTop
+	call_if_eq VAR_TEMP_1, 1, SilphCo_7F_EventScript_RivalApproachBottom
+	msgbox SilphCo_7F_Text_LockeRivalIntro
+	setvar VAR_LAST_TALKED, LOCALID_SILPH_CO_RIVAL
+	call_if_eq VAR_STARTER_MON, 2, SilphCo_7F_EventScript_RivalLockeSquirtle
+	call_if_eq VAR_STARTER_MON, 1, SilphCo_7F_EventScript_RivalLockeBulbasaur
+	call_if_eq VAR_STARTER_MON, 0, SilphCo_7F_EventScript_RivalLockeCharmander
+	msgbox SilphCo_7F_Text_LockeRivalPostBattle
+	goto SilphCo_7F_EventScript_RivalDepart
+
+SilphCo_7F_EventScript_RivalLockeSquirtle::
+	trainerbattle_no_intro TRAINER_RIVAL_SILPH_SQUIRTLE, SilphCo_7F_Text_LockeRivalDefeat
+	return
+
+SilphCo_7F_EventScript_RivalLockeBulbasaur::
+	trainerbattle_no_intro TRAINER_RIVAL_SILPH_BULBASAUR, SilphCo_7F_Text_LockeRivalDefeat
+	return
+
+SilphCo_7F_EventScript_RivalLockeCharmander::
+	trainerbattle_no_intro TRAINER_RIVAL_SILPH_CHARMANDER, SilphCo_7F_Text_LockeRivalDefeat
+	return
 
 SilphCo_7F_EventScript_RivalExitTop::
 	applymovement LOCALID_SILPH_CO_RIVAL, SilphCo_7F_Movement_RivalExitTop
@@ -397,6 +424,37 @@ SilphCo_7F_Text_TwitchRivalPostBattle::
 	.string "{PLAYER}, you should delete\l"
 	.string "your save file…\p"
 	.string "it is corrupted.$"
+
+SilphCo_7F_Text_LockeRivalIntro::
+	.string "Still here, chat.\n"
+	.string "Still recording.\p"
+	.string "The light's just…\n"
+	.string "blinking red at me now.\p"
+	.string "Doesn't matter. I love\n"
+	.string "this too much to stop.\p"
+	.string "Where were we? Right.\n"
+	.string "The run.\p"
+	.string "And you, challenger?\n"
+	.string "You're a joy to film.\p"
+	.string "Let's go.$"
+
+SilphCo_7F_Text_LockeRivalDefeat::
+	.string "Beaten again. Live,\n"
+	.string "no cuts.\p"
+	.string "And I wouldn't trade it.\p"
+	.string "Thank you for playing.\p"
+	.string "Whoever's watching…\n"
+	.string "or nobody…\p"
+	.string "I'm still so glad I got\n"
+	.string "to see THAT run.$"
+
+SilphCo_7F_Text_LockeRivalPostBattle::
+	.string "Giovanni's up ahead.\n"
+	.string "Go take his tower.\p"
+	.string "Keep the tape rolling,\n"
+	.string "{PLAYER}.\p"
+	.string "Thank you for being\n"
+	.string "here. Always.$"
 
 SilphCo_7F_Text_FloorSign::
 	.string "SILPH CO. HEAD OFFICE\n"
