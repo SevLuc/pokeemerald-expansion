@@ -8,11 +8,94 @@ Update in the same PR as the change.
 
 ## Entries
 - 2026-08-23 - encounters/region-wide - Rebuilt every wild encounter table via
-  `tools/gen_encounters.py`. Base forms only (family roots); all 233 kept roots
-  (192 land + 41 water) catchable before the E4. Equal chance per slot; water
-  table shared across Old/Good/Super Rod + Surf; vanilla level bands kept.
+  `tools/gen_encounters.py`. Base forms only (family roots); all kept roots
+  (192 land + 41 water) catchable before the E4. Equal chance per slot; fishing
+  authored in slots 5-9 with Surf water_mons matched (per the master fishing-code
+  convention) so all rods + Surf yield the same fish; vanilla level bands kept.
   Difficulty tiered by effective BST per split (level cap + item access, items at
   Erika). LeafGreen mirrored. Overview regenerated. (design: docs/design/encounter-tables.md)
+- 2026-08-23 - trainers/AI - Gave every non-Twitch trainer the Try To Faint AI flag.
+  543 regular trainers went from `Check Bad Move` to `Check Bad Move / Try To Faint`
+  (includes the two early Giovanni/Omega boss fights, which are no longer AI-light).
+  Gym leaders, Elite Four, Champion+rematches and the Buhrito rival already ran the
+  full `Check Bad Move / Try To Faint / Check Viability` (unchanged). The Twitch rival
+  (`TRAINER_RIVAL_TWITCH_*`) keeps RANDOM AI (no AI line) as a TPP homage. Data only,
+  src/data/trainers_frlg.party.
+- 2026-08-23 - trainers/coverage - Relocated the ~30 high-BST FINAL evolutions that
+  the coverage pass had to leave in segments 2-6 (no late themed trainer existed for
+  their type) onto LATE (seg 7-9) trainers, so they appear at believable levels
+  (host levels 53-67). Rethemed 12 late generic trainers (Ghost/Bug/Dragon/Fighting
+  Swimmers in seg7; Dark/Rock/Psychic/Fighting Cooltrainers + a Pokemaniac in seg
+  8-9) and backfilled each vacated early slot with an on-theme, level-appropriate,
+  already-used species. Invariant preserved: all 528 kept species still appear >=1;
+  60 slots edited across 35 trainers. Plan in docs/data/reroll/relocate.json.
+  Caveats: needed 12 retheme trainers (not fewer) because late generic trainers have
+  very few duplicate-backed slots to safely displace; 5 of them are Water Swimmers
+  now fielding non-Water finals, which is thematically loose for Kanto-authentic feel
+  (revisit if it bothers). Build verified (make firered).
+- 2026-08-23 - pokemon/pool - Added all five Rotom appliance forms to the kept pool
+  (Rotom-Heat Electric/Fire, Rotom-Wash Electric/Water, Rotom-Frost Electric/Ice,
+  Rotom-Fan Electric/Flying, Rotom-Mow Electric/Grass; each BST 520). Base Rotom
+  was already in. Recorded in docs/data/kept-pokemon-stats.csv and the Electric/
+  Ghost entry of docs/overview/encounters-candidates.md.
+- 2026-08-23 - trainers/coverage - Coverage pass so EVERY kept-pool species (528
+  incl. Rotom forms) now appears on at least one trainer. Was 183 unused -> 0.
+  Reassigned 184 slots across 119 trainers, always replacing an OVER-used duplicate
+  (BST window relaxed for this pass; nothing dropped to zero). Finals/pseudo-legends
+  placed in late segments (7-9). Added the two missing trainer THEMES by rethemeing
+  whole teams: Dragon x4 and Ice x4 trainers (Cooltrainer/Scientist/Picnicker/Camper/
+  Lass classes across segs 3/6/7), plus 1 Steel and 1 Rock retheme. All 11 legendaries
+  (Flutter Mane, Iron Bundle, Kubfu, both Urshifu, all 6 Rotom forms) placed on
+  seg7-9 matching-type trainers. Over-spikes shrank (Butterfree 20->12, Sharpedo
+  13->5, Electabuzz 10->4). Plan in docs/data/reroll/coverage.json; data in
+  src/data/trainers_frlg.party. Caveat: Rock/Steel/Ghost/Bug have no late-segment
+  themed trainers, so ~30 of their high-BST finals sit in segs 4-6 rather than 7-9
+  (flagged per-mon in coverage.json). Build verified (make firered).
+- 2026-08-23 - trainers/teams - Rerolled every GENERIC trainer's team across all 9
+  segments (special characters - gym-leader pools, rivals, Giovanni, Elite Four,
+  Champion, twitch variants - untouched). Each trainer keeps its team SIZE; species
+  are drawn only from the kept encounter pool, matched to lore/type (class-locked
+  like Bug Catcher->Bug; gym-map trainers use the gym type; generic classes themed
+  from their dialogue). RULES: pick a base species whose BST is within [origBST,
+  origBST+50] (equal-or-stronger only, nearest-tight upper widen when a band is
+  sparse), THEN auto-evolve it to its level-appropriate form using LEVEL-UP
+  evolutions only (so a Lv18 Caterpie becomes a Lv18 Butterfree; friendship/beauty/
+  item/trade evos do NOT auto-fire). Levels follow the per-split ramp. Rerolled mons
+  use auto level-up movesets. Level-up evolution table extracted to
+  docs/data/level-evos.json; per-segment reroll plans in docs/data/reroll/seg1..9.
+  json. Data in src/data/trainers_frlg.party. Distribution is even (max species ~1%
+  of slots, no 3+ intra-team clumps). Known gaps: 127 rematch trainers (_2/_3
+  consts) were NOT in scope and still carry vanilla teams; JSON map-order quirks
+  (Pokemon Tower high in Segment 5, Nugget Bridge post-gym in Segment 2). Build
+  verified (make firered).
+- 2026-08-22 - fix - Viridian fisherman flag now also defined in the FRLG flag
+  header. FRLG map scripts resolve flags via include/constants/flags_frlg.h, not
+  flags.h; FLAG_GOT_VIRIDIAN_SUPER_ROD was only in the latter, causing an
+  undefined-reference link error. Repurposed FLAG_0x021 in flags_frlg.h to 0x21 to
+  match. (Lesson: FRLG script flags go in flags_frlg.h.)
+- 2026-08-22 - trainers/balance - Adopted a per-split trainer LEVEL RAMP rule and
+  applied it to Segment 1 (Before Brock, cap 14) as the template. Rule: within
+  each gym-gate split, trainer levels rise linearly along the critical path from a
+  floor (= the previous split's cap; Segment 1 floor = starter level 5) up to
+  cap-1 for the last trainer before the gym, with the gym leader at the cap.
+  Segment 1 result (path order): Oak's Lab rival 5 (floor, unchanged); Viridian
+  Forest Rick 6, Doug 7, Sammy 9->8, Anthony 7/8->8/9, Charlie 7/7/7->9/9/10;
+  Route 22 early rival 9->12 (optional off-path spike, all 3 starter branches);
+  Pewter Gym Camper Liam 10/11->12/13 (cap-1); Brock pool 14 (cap, unchanged).
+  Data in src/data/trainers_frlg.party. Remaining segments (2-9) still to do;
+  docs/data/progression-trainers.json will be regenerated after the full pass.
+- 2026-08-22 - items/fishing - Fishing overhaul so rod choice never matters. (1)
+  `ChooseWildMonIndex_Fishing` (`src/wild_encounter.c`) now ignores the rod and
+  always rolls the super-rod slots (5-9), so Old/Good/Super Rod all pull the same
+  fish; wild fishing tables should be authored in slots 5-9 and each water map's
+  Surf `water_mons` set to match so fishing and surfing yield the same encounters.
+  (2) New Fisherman NPC in Viridian City gives a SUPER ROD early (before the first
+  gym) and his dialogue explains rods/Surf are equivalent. Script + text in
+  `data/maps/ViridianCity_Frlg/scripts.inc`; object placed in that map's map.json
+  (placeholder tile 10,25 by the SW water, reposition in Porymap). Uses a new
+  persistent flag `FLAG_GOT_VIRIDIAN_SUPER_ROD` (repurposed 0x21; the FRLG
+  `FLAG_GOT_*_ROD` names are all stubbed to 0 in this Emerald-based build and
+  cannot be used). Lore fact logged FISH-01 in docs/writing/lore-ledger.md.
 - 2026-08-22 - story/surge - NPC fill pass: reflavored 12 vanilla NPCs across
   Vermilion (Mart, Fan Club, House3) and the S.S. Anne (corridors, deck, cabins)
   with Surge's discipline / earned-composure / ship-history lore that builds the

@@ -233,14 +233,11 @@ def biome_ok(sp, biome):
 enc_data = json.load(open(WILD_JSON))
 group = enc_data["wild_encounter_groups"][0]
 
-# equal chance: flatten shared field rates + unify fishing rod groups
+# equal chance: flatten shared field rates (fishing groups kept as-is; the engine's
+# ChooseWildMonIndex_Fishing already makes every rod roll the super-rod slots 5-9,
+# so we author fishing species into slots 5-9 and match Surf water_mons to them)
 for fld in group["fields"]:
-    n = len(fld["encounter_rates"])
-    fld["encounter_rates"] = [1] * n
-    if fld["type"] == "fishing_mons" and "groups" in fld:
-        allidx = list(range(n))
-        for g in fld["groups"]:
-            fld["groups"][g] = allidx  # every rod rolls the whole pool
+    fld["encounter_rates"] = [1] * len(fld["encounter_rates"])
 
 def levels_of(mons):
     xs = [m["min_level"] for m in mons] + [m["max_level"] for m in mons]
@@ -284,13 +281,17 @@ for si, name, e in fr_entries:
         mons = e[meth]["mons"]
         for slot, r in zip(mons, fill_table(LAND_ROOTS, placed_land, biome, len(mons), cap, items, target)):
             slot["species"] = r; placed_land.add(r)
-    wmaps = [m for m in ("water_mons", "fishing_mons") if m in e]
-    if wmaps:
-        need = max(len(e[m]["mons"]) for m in wmaps)
-        wpicks = fill_table(WATER_ROOTS, placed_water, "ice", need, cap, items, target)
-        for m in wmaps:
-            for i, slot in enumerate(e[m]["mons"]):
-                r = wpicks[i % len(wpicks)]; slot["species"] = r; placed_water.add(r)
+    if "water_mons" in e or "fishing_mons" in e:
+        # one shared set W of 5 species; Surf == fishing (engine rolls fishing slots 5-9)
+        W = fill_table(WATER_ROOTS, placed_water, "ice", 5, cap, items, target)
+        if "water_mons" in e:
+            for i, slot in enumerate(e["water_mons"]["mons"]):
+                slot["species"] = W[i % len(W)]
+        if "fishing_mons" in e:
+            for i, slot in enumerate(e["fishing_mons"]["mons"]):
+                slot["species"] = W[i % len(W)]   # slots 0-4 mirror; 5-9 = W (the rolled set)
+        for r in W:
+            placed_water.add(r)
     report_rows.append((name, si, biome))
 
 # coverage sweep: force any never-placed root into the nearest-fitting area of its split
@@ -383,7 +384,8 @@ for si, name, e in fr_entries:
     if "fishing_mons" in e or "water_mons" in e:
         wm = e.get("fishing_mons", e.get("water_mons"))
         lo, hi = levels_of(wm["mons"])
-        lines.append(f"- water (rods+Surf) Lv{lo}-{hi}: {sp_list(wm['mons'])}")
+        uniq = list(dict.fromkeys(m["species"].replace("SPECIES_", "") for m in wm["mons"]))
+        lines.append(f"- water (rods+Surf) Lv{lo}-{hi}: {', '.join(uniq)}")
     lines.append("")
 open(OVERVIEW, "w").write("\n".join(lines))
 print(f"wrote {OVERVIEW}")
