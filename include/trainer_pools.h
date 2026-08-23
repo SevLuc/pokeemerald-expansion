@@ -22,6 +22,9 @@ enum PoolRulesets {
 enum PoolPickFunctions {
     POOL_PICK_DEFAULT,
     POOL_PICK_LOWEST,
+    //  Leads with a snow-setter: prefers a fielded mon whose ability is
+    //  Snow Warning, else one that knows Snowscape. Ace/other picks default.
+    POOL_PICK_SNOW_LEAD,
 };
 
 enum PoolPruneOptions {
