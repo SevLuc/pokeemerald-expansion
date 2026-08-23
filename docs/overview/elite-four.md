@@ -8,6 +8,23 @@ history to docs/writing/lore-ledger.md.
 > src/data/trainers_frlg.party with the new Snow Lead pick function). Rematch
 > team (`_2`) and lore fragments are still TODO. Build + playtest on Mac.
 
+## Planned level tiers (NOT yet applied)
+The E4 + Champion will be rebuilt as draw pools like the gym leaders (ace at cap,
+cap-2 bulk, cap-4 lead only where a `Tags: Lead` mon exists). When those teams are
+built, tier the fielded 6 to these target spreads. Levels not applied to the
+current trainer data yet - noted here for the rebuild:
+
+| Fight | Fielded-6 levels (lead - ace) |
+|--|--|
+| Lorelei | 60 / 61 / 61 / 61 / 61 / 63 |
+| Bruno | 61 / 62 / 63 / 63 / 63 / 65 |
+| Agatha | 63 / 64 / 64 / 65 / 65 / 66 |
+| Lance | 64 / 66 / 66 / 66 / 67 / 69 |
+| Champion | 67 / 68 / 69 / 70 / 70 / 72 |
+
+Current data (unchanged): Lorelei pool all Lv72; Bruno/Agatha/Lance vanilla 5-mon
+teams; Champion 3 variants ~Lv57-63.
+
 ## Lorelei (Ice) - first E4 member
 - Trainer: `TRAINER_ELITE_FOUR_LORELEI` (rematch `TRAINER_ELITE_FOUR_LORELEI_2`, TODO).
 - Level cap: 72 (the `FLAG_IS_CHAMPION` row in src/caps.c; "before / during Elite

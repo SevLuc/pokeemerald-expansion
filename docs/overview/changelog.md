@@ -7,6 +7,17 @@ Update in the same PR as the change.
 `YYYY-MM-DD` — area — one-line summary (PR/commit ref)
 
 ## Entries
+- 2026-08-23 - trainers/gyms - Gym leader teams now tier their levels instead of
+  fielding a whole team at the cap. Only the ACE sits at the level cap; the bulk
+  sit at cap-2, and a forced LEAD (Misty's Psyduck) sits at cap-4. Pool gyms with
+  no LEAD tag (Brock, Lt. Surge) get no cap-4 member (an untagged mon is not
+  guaranteed to be drawn), so every non-ace pool member is cap-2. Applied to all 8
+  gyms in src/data/trainers_frlg.party: Brock (ace 14, rest 12), Misty (ace 23,
+  lead 19, rest 21), Lt. Surge (ace 27, rest 25), Erika (29/27/25), Koga
+  (43/41/39), Blaine (47/45/43), Sabrina (43/41/39), Giovanni gym/TRAINER_LEADER
+  (50/48/46). Aces and their caps unchanged; only non-ace members moved (a slight
+  net-easier tweak). Giovanni's two Rocket boss fights left untouched. gyms.md
+  updated.
 - 2026-08-23 - trainers/rival - Locke (the default, non-Twitch rival) now plays
   nuzlocke-style: his party is GENERATED at battle time instead of read from a static
   entry. A per-save seed (two event vars, rolled once at new game) drives it, so each
