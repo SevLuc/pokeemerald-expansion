@@ -1196,6 +1196,7 @@ PalletTown_ProfessorOaksLab_EventScript_RivalTakesStarter::
 	call PalletTown_ProfessorOaksLab_EventScript_SayRivalIllTakeThisOneThen
 	removeobject RIVAL_STARTER_ID
 	textcolor NPC_TEXT_COLOR_NEUTRAL
+	call PalletTown_ProfessorOaksLab_EventScript_SetRivalDisplaySpecies
 	bufferspeciesname STR_VAR_1, RIVAL_STARTER_SPECIES
 	message PalletTown_ProfessorOaksLab_Text_RivalReceivedMonFromOak
 	waitmessage
@@ -1208,6 +1209,23 @@ PalletTown_ProfessorOaksLab_EventScript_RivalTakesStarter::
 
 PalletTown_ProfessorOaksLab_EventScript_ReadyEndSignLadyScene::
 	setvar VAR_MAP_SCENE_PALLET_TOWN_SIGN_LADY, 1
+	return
+
+@ Overrides the name shown in "received X from Oak" by rival identity.
+@ Twitch always battles Charmander; Buhrito always battles Elekid.
+@ Any other identity (e.g. a future Locke) keeps the variable counter species
+@ already stored in RIVAL_STARTER_SPECIES by the starter-ball scripts.
+PalletTown_ProfessorOaksLab_EventScript_SetRivalDisplaySpecies::
+	goto_if_eq VAR_RIVAL_ID, RIVAL_ID_TWITCH, PalletTown_ProfessorOaksLab_EventScript_RivalDisplayCharmander
+	goto_if_eq VAR_RIVAL_ID, RIVAL_ID_BUHRITO, PalletTown_ProfessorOaksLab_EventScript_RivalDisplayElekid
+	return
+
+PalletTown_ProfessorOaksLab_EventScript_RivalDisplayCharmander::
+	setvar RIVAL_STARTER_SPECIES, SPECIES_CHARMANDER
+	return
+
+PalletTown_ProfessorOaksLab_EventScript_RivalDisplayElekid::
+	setvar RIVAL_STARTER_SPECIES, SPECIES_ELEKID
 	return
 
 PalletTown_ProfessorOaksLab_Movement_RivalWalksToCharmander::

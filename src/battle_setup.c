@@ -1484,6 +1484,8 @@ static void CB2_EndTrainerBattle(void)
         else
         {
             gSpecialVar_Result = FALSE;
+            if (ShouldAutoHealPartyAfterBattle())
+                HealPlayerParty();
         }
         DowngradeBadPoison();
         SetMainCallback2(CB2_ReturnToFieldContinueScriptPlayMapMusic);
