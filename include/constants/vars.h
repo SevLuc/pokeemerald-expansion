@@ -283,6 +283,7 @@
 // Rival identities selected at the new-game intro (stored in VAR_RIVAL_ID).
 #define RIVAL_ID_BUHRITO                                 0 // default: vanilla-style starter-countering rival
 #define RIVAL_ID_TWITCH                                  1 // TPP-personified single-team rival
+#define RIVAL_ID_LOCKE                                   2 // nuzlocke Documentarian rival (runtime-generated team)
 #define VARS_COUNT                                       (VARS_END - VARS_START + 1)
 
 #define SPECIAL_VARS_START            0x8000

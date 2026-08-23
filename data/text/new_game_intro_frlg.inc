@@ -7,6 +7,9 @@ gNameChoice_Buhrito::
 gNameChoice_Twitch::
 	.string "TWITCH$"
 
+gNameChoice_Locke::
+	.string "LOCKE$"
+
 gNameChoice_Green::
 	.string "GREEN$"
 
