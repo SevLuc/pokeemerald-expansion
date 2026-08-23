@@ -17,8 +17,12 @@ Route 22 early fight); nothing extra to create.
 Status: **DONE** = custom team drafted in `src/data/trainers_frlg.party`. **TODO** =
 still the vanilla FRLG baseline, needs a hand-built team.
 
-Note: Omega runs RANDOM AI on the two early Giovanni fights (Rounds 1 and 2), the
-same idea chosen for the Twitch rival. Precedent for keeping those AI-light.
+AI: as of 2026-08-23 every non-Twitch trainer runs at least `Check Bad Move /
+Try To Faint`. Gym leaders, Elite Four, Champion (+ rematches) and the Buhrito
+rival run the full `Check Bad Move / Try To Faint / Check Viability`. The two
+early Giovanni (Omega) boss fights are NO LONGER AI-light; they now faint like
+everyone else. Only the Twitch rival (`TRAINER_RIVAL_TWITCH_*`) keeps RANDOM AI,
+as a Twitch Plays Pokemon homage.
 
 ### Rivals
 Each rival fight = the Buhrito path (vanilla 3 starter-variants, counters the player)

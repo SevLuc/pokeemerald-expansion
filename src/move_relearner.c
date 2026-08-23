@@ -880,6 +880,9 @@ static u32 GetRelearnerLevelUpMoves(struct BoxPokemon *mon, u16 *moves)
             if (learnset[i].level > level)
                 break;
 
+            if (IsMovePlayerBanned(learnset[i].move))
+                continue;
+
             if (BoxMonKnowsMove(mon, learnset[i].move))
                 continue;
 
@@ -913,6 +916,8 @@ static u32 GetRelearnerEggMoves(struct BoxPokemon *mon, u16 *moves)
 
     for (u32 i = 0; eggMoves[i] != MOVE_UNAVAILABLE; i++)
     {
+        if (IsMovePlayerBanned(eggMoves[i]))
+            continue;
         if (!BoxMonKnowsMove(mon, eggMoves[i]))
             moves[numMoves++] = eggMoves[i];
     }

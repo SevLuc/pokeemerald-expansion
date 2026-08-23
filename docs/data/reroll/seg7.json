@@ -1,0 +1,991 @@
+{
+ "segment": 7,
+ "cap": 58,
+ "floor": 53,
+ "trainers": [
+  {
+   "const": "TRAINER_SWIMMER_MALE_REECE",
+   "class": "Swimmer M",
+   "theme": "Water",
+   "theme_source": "class-locked",
+   "team": [
+    {
+     "species": "Primarina",
+     "level": 53,
+     "base": "Popplio",
+     "baseBst": 320,
+     "orig": "Goldeen",
+     "origBst": 320
+    },
+    {
+     "species": "Kingdra",
+     "level": 53,
+     "base": "Poliwag",
+     "baseBst": 300,
+     "orig": "Horsea",
+     "origBst": 295
+    },
+    {
+     "species": "Gyarados",
+     "level": 53,
+     "base": "Lombre",
+     "baseBst": 340,
+     "orig": "Staryu",
+     "origBst": 340
+    }
+   ]
+  },
+  {
+   "const": "TRAINER_SWIMMER_MALE_RICHARD",
+   "class": "Swimmer M",
+   "theme": "Water",
+   "theme_source": "class-locked",
+   "team": [
+    {
+     "species": "Staryu",
+     "level": 53,
+     "base": "Staryu",
+     "baseBst": 340,
+     "orig": "Tentacool",
+     "origBst": 335
+    },
+    {
+     "species": "Iron Bundle",
+     "level": 53,
+     "base": "Carvanha",
+     "baseBst": 305,
+     "orig": "Shellder",
+     "origBst": 305
+    }
+   ]
+  },
+  {
+   "const": "TRAINER_SWIMMER_MALE_TONY",
+   "class": "Swimmer M",
+   "theme": "Water",
+   "theme_source": "class-locked",
+   "team": [
+    {
+     "species": "Aegislash",
+     "level": 53,
+     "base": "Mareanie",
+     "baseBst": 305,
+     "orig": "Horsea",
+     "origBst": 295
+    },
+    {
+     "species": "Dusknoir",
+     "level": 53,
+     "base": "Oshawott",
+     "baseBst": 308,
+     "orig": "Horsea",
+     "origBst": 295
+    }
+   ]
+  },
+  {
+   "const": "TRAINER_SWIMMER_MALE_MATTHEW",
+   "class": "Swimmer M",
+   "theme": "Water",
+   "theme_source": "class-locked",
+   "team": [
+    {
+     "species": "Swampert",
+     "level": 53,
+     "base": "Mudkip",
+     "baseBst": 310,
+     "orig": "Poliwag",
+     "origBst": 300
+    },
+    {
+     "species": "Wailord",
+     "level": 53,
+     "base": "Wailmer",
+     "baseBst": 400,
+     "orig": "Poliwhirl",
+     "origBst": 385
+    }
+   ]
+  },
+  {
+   "const": "TRAINER_SWIMMER_MALE_DOUGLAS",
+   "class": "Swimmer M",
+   "theme": "Water",
+   "theme_source": "class-locked",
+   "team": [
+    {
+     "species": "Inteleon",
+     "level": 53,
+     "base": "Sobble",
+     "baseBst": 310,
+     "orig": "Horsea",
+     "origBst": 295
+    },
+    {
+     "species": "Kabutops",
+     "level": 53,
+     "base": "Kabuto",
+     "baseBst": 355,
+     "orig": "Tentacool",
+     "origBst": 335
+    },
+    {
+     "species": "Omastar",
+     "level": 53,
+     "base": "Omanyte",
+     "baseBst": 355,
+     "orig": "Tentacool",
+     "origBst": 335
+    },
+    {
+     "species": "Golduck",
+     "level": 54,
+     "base": "Psyduck",
+     "baseBst": 320,
+     "orig": "Goldeen",
+     "origBst": 320
+    }
+   ]
+  },
+  {
+   "const": "TRAINER_SWIMMER_MALE_DAVID",
+   "class": "Swimmer M",
+   "theme": "Water",
+   "theme_source": "class-locked",
+   "team": [
+    {
+     "species": "Dewgong",
+     "level": 53,
+     "base": "Seel",
+     "baseBst": 325,
+     "orig": "Goldeen",
+     "origBst": 320
+    },
+    {
+     "species": "Greninja",
+     "level": 53,
+     "base": "Froakie",
+     "baseBst": 314,
+     "orig": "Shellder",
+     "origBst": 305
+    },
+    {
+     "species": "Basculin",
+     "level": 54,
+     "base": "Basculin",
+     "baseBst": 460,
+     "orig": "Seaking",
+     "origBst": 450
+    }
+   ]
+  },
+  {
+   "const": "TRAINER_SWIMMER_MALE_AXLE",
+   "class": "Swimmer M",
+   "theme": "Water",
+   "theme_source": "class-locked",
+   "team": [
+    {
+     "species": "Carracosta",
+     "level": 53,
+     "base": "Tirtouga",
+     "baseBst": 355,
+     "orig": "Tentacool",
+     "origBst": 335
+    },
+    {
+     "species": "Politoed",
+     "level": 53,
+     "base": "Poliwhirl",
+     "baseBst": 385,
+     "orig": "Tentacool",
+     "origBst": 335
+    },
+    {
+     "species": "Lapras",
+     "level": 53,
+     "base": "Lombre",
+     "baseBst": 340,
+     "orig": "Staryu",
+     "origBst": 340
+    },
+    {
+     "species": "Empoleon",
+     "level": 53,
+     "base": "Piplup",
+     "baseBst": 314,
+     "orig": "Horsea",
+     "origBst": 295
+    },
+    {
+     "species": "Starmie",
+     "level": 54,
+     "base": "Starmie",
+     "baseBst": 520,
+     "orig": "Tentacruel",
+     "origBst": 515
+    }
+   ]
+  },
+  {
+   "const": "TRAINER_SWIMMER_FEMALE_ALICE",
+   "class": "Swimmer F",
+   "theme": "Water",
+   "theme_source": "class-locked",
+   "team": [
+    {
+     "species": "Gholdengo",
+     "level": 53,
+     "base": "Shellos",
+     "baseBst": 325,
+     "orig": "Goldeen",
+     "origBst": 320
+    },
+    {
+     "species": "Polteageist",
+     "level": 54,
+     "base": "Lanturn",
+     "baseBst": 460,
+     "orig": "Seaking",
+     "origBst": 450
+    }
+   ]
+  },
+  {
+   "const": "TRAINER_SWIMMER_FEMALE_CONNIE",
+   "class": "Swimmer F",
+   "theme": "Water",
+   "theme_source": "class-locked",
+   "team": [
+    {
+     "species": "Archaludon",
+     "level": 53,
+     "base": "Lombre",
+     "baseBst": 340,
+     "orig": "Staryu",
+     "origBst": 340
+    },
+    {
+     "species": "Noivern",
+     "level": 53,
+     "base": "Lombre",
+     "baseBst": 340,
+     "orig": "Staryu",
+     "origBst": 340
+    },
+    {
+     "species": "Hisuian Goodra",
+     "level": 54,
+     "base": "Lombre",
+     "baseBst": 340,
+     "orig": "Staryu",
+     "origBst": 340
+    }
+   ]
+  },
+  {
+   "const": "TRAINER_SWIMMER_FEMALE_ANYA",
+   "class": "Swimmer F",
+   "theme": "Water",
+   "theme_source": "class-locked",
+   "team": [
+    {
+     "species": "Blastoise",
+     "level": 53,
+     "base": "Squirtle",
+     "baseBst": 314,
+     "orig": "Poliwag",
+     "origBst": 300
+    },
+    {
+     "species": "Scizor",
+     "level": 53,
+     "base": "Buizel",
+     "baseBst": 330,
+     "orig": "Goldeen",
+     "origBst": 320
+    },
+    {
+     "species": "Urshifu (Rapid Strike)",
+     "level": 53,
+     "base": "Sharpedo",
+     "baseBst": 460,
+     "orig": "Seaking",
+     "origBst": 450
+    },
+    {
+     "species": "Scyther",
+     "level": 53,
+     "base": "Chinchou",
+     "baseBst": 330,
+     "orig": "Goldeen",
+     "origBst": 320
+    },
+    {
+     "species": "Heracross",
+     "level": 54,
+     "base": "Slowpoke",
+     "baseBst": 315,
+     "orig": "Poliwag",
+     "origBst": 300
+    }
+   ]
+  },
+  {
+   "const": "TRAINER_SIS_AND_BRO_LIA_LUC",
+   "class": "Sis And Bro",
+   "theme": "Water",
+   "theme_source": "dialogue",
+   "team": [
+    {
+     "species": "Tentacruel",
+     "level": 53,
+     "base": "Tentacool",
+     "baseBst": 335,
+     "orig": "Goldeen",
+     "origBst": 320
+    },
+    {
+     "species": "Whiscash",
+     "level": 54,
+     "base": "Whiscash",
+     "baseBst": 468,
+     "orig": "Seaking",
+     "origBst": 450
+    }
+   ]
+  },
+  {
+   "const": "TRAINER_SWIMMER_FEMALE_MELISSA",
+   "class": "Swimmer F",
+   "theme": "Water",
+   "theme_source": "class-locked",
+   "team": [
+    {
+     "species": "Rotom-Wash",
+     "level": 54,
+     "base": "Carvanha",
+     "baseBst": 305,
+     "orig": "Poliwag",
+     "origBst": 300
+    },
+    {
+     "species": "Dewgong",
+     "level": 55,
+     "base": "Dewgong",
+     "baseBst": 475,
+     "orig": "Seaking",
+     "origBst": 450
+    }
+   ]
+  },
+  {
+   "const": "TRAINER_PICNICKER_MISSY",
+   "class": "Picnicker",
+   "theme": "Water",
+   "theme_source": "dialogue",
+   "team": [
+    {
+     "species": "Haxorus",
+     "level": 54,
+     "base": "Popplio",
+     "baseBst": 320,
+     "orig": "Goldeen",
+     "origBst": 320
+    },
+    {
+     "species": "Goodra",
+     "level": 55,
+     "base": "Gastrodon",
+     "baseBst": 475,
+     "orig": "Seaking",
+     "origBst": 450
+    }
+   ]
+  },
+  {
+   "const": "TRAINER_SWIMMER_FEMALE_NORA",
+   "class": "Swimmer F",
+   "theme": "Water",
+   "theme_source": "class-locked",
+   "team": [
+    {
+     "species": "Dondozo",
+     "level": 53,
+     "base": "Carvanha",
+     "baseBst": 305,
+     "orig": "Shellder",
+     "origBst": 305
+    },
+    {
+     "species": "Sharpedo",
+     "level": 54,
+     "base": "Carvanha",
+     "baseBst": 305,
+     "orig": "Shellder",
+     "origBst": 305
+    },
+    {
+     "species": "Vaporeon",
+     "level": 55,
+     "base": "Vaporeon",
+     "baseBst": 525,
+     "orig": "Cloyster",
+     "origBst": 525
+    }
+   ]
+  },
+  {
+   "const": "TRAINER_BIRD_KEEPER_ROGER",
+   "class": "Bird Keeper",
+   "theme": "Flying",
+   "theme_source": "class-locked",
+   "team": [
+    {
+     "species": "Salamence",
+     "level": 53,
+     "base": "Masquerain",
+     "baseBst": 454,
+     "orig": "Fearow",
+     "origBst": 442
+    },
+    {
+     "species": "Dragonite",
+     "level": 54,
+     "base": "Golbat",
+     "baseBst": 455,
+     "orig": "Fearow",
+     "origBst": 442
+    },
+    {
+     "species": "Braviary",
+     "level": 55,
+     "base": "Rufflet",
+     "baseBst": 350,
+     "orig": "Pidgeotto",
+     "origBst": 349
+    }
+   ]
+  },
+  {
+   "const": "TRAINER_SWIMMER_MALE_DEAN",
+   "class": "Swimmer M",
+   "theme": "Water",
+   "theme_source": "class-locked",
+   "team": [
+    {
+     "species": "Lombre",
+     "level": 55,
+     "base": "Lombre",
+     "baseBst": 340,
+     "orig": "Staryu",
+     "origBst": 340
+    }
+   ]
+  },
+  {
+   "const": "TRAINER_PICNICKER_IRENE",
+   "class": "Picnicker",
+   "theme": "Grass",
+   "theme_source": "dialogue",
+   "team": [
+    {
+     "species": "Leafeon",
+     "level": 53,
+     "base": "Cacnea",
+     "baseBst": 335,
+     "orig": "Tentacool",
+     "origBst": 335
+    },
+    {
+     "species": "Meowscarada",
+     "level": 54,
+     "base": "Shroomish",
+     "baseBst": 295,
+     "orig": "Horsea",
+     "origBst": 295
+    },
+    {
+     "species": "Tangrowth",
+     "level": 55,
+     "base": "Exeggcute",
+     "baseBst": 325,
+     "orig": "Seel",
+     "origBst": 325
+    }
+   ]
+  },
+  {
+   "const": "TRAINER_SWIMMER_MALE_BARRY",
+   "class": "Swimmer M",
+   "theme": "Water",
+   "theme_source": "class-locked",
+   "team": [
+    {
+     "species": "Sharpedo",
+     "level": 55,
+     "base": "Carvanha",
+     "baseBst": 305,
+     "orig": "Shellder",
+     "origBst": 305
+    },
+    {
+     "species": "Hisuian Samurott",
+     "level": 56,
+     "base": "Hisuian Samurott",
+     "baseBst": 528,
+     "orig": "Cloyster",
+     "origBst": 525
+    }
+   ]
+  },
+  {
+   "const": "TRAINER_SWIMMER_MALE_DARRIN",
+   "class": "Swimmer M",
+   "theme": "Water",
+   "theme_source": "class-locked",
+   "team": [
+    {
+     "species": "Hawlucha",
+     "level": 53,
+     "base": "Poliwag",
+     "baseBst": 300,
+     "orig": "Horsea",
+     "origBst": 295
+    },
+    {
+     "species": "Lucario",
+     "level": 54,
+     "base": "Poliwag",
+     "baseBst": 300,
+     "orig": "Horsea",
+     "origBst": 295
+    },
+    {
+     "species": "Milotic",
+     "level": 55,
+     "base": "Pelipper",
+     "baseBst": 440,
+     "orig": "Seadra",
+     "origBst": 440
+    },
+    {
+     "species": "Flamigo",
+     "level": 56,
+     "base": "Poliwag",
+     "baseBst": 300,
+     "orig": "Horsea",
+     "origBst": 295
+    }
+   ]
+  },
+  {
+   "const": "TRAINER_SWIMMER_FEMALE_SHIRLEY",
+   "class": "Swimmer F",
+   "theme": "Water",
+   "theme_source": "class-locked",
+   "team": [
+    {
+     "species": "Ludicolo",
+     "level": 54,
+     "base": "Ludicolo",
+     "baseBst": 480,
+     "orig": "Seadra",
+     "origBst": 440
+    },
+    {
+     "species": "Poliwhirl",
+     "level": 55,
+     "base": "Poliwag",
+     "baseBst": 300,
+     "orig": "Horsea",
+     "origBst": 295
+    },
+    {
+     "species": "Drednaw",
+     "level": 56,
+     "base": "Drednaw",
+     "baseBst": 485,
+     "orig": "Seadra",
+     "origBst": 440
+    }
+   ]
+  },
+  {
+   "const": "TRAINER_SWIMMER_FEMALE_TIFFANY",
+   "class": "Swimmer F",
+   "theme": "Water",
+   "theme_source": "class-locked",
+   "team": [
+    {
+     "species": "Relicanth",
+     "level": 56,
+     "base": "Relicanth",
+     "baseBst": 485,
+     "orig": "Seaking",
+     "origBst": 450
+    }
+   ]
+  },
+  {
+   "const": "TRAINER_SUPER_NERD_ERIK",
+   "class": "Super Nerd",
+   "theme": "Fire",
+   "theme_source": "gym-override",
+   "team": [
+    {
+     "species": "Quilava",
+     "level": 55,
+     "base": "Fennekin",
+     "baseBst": 307,
+     "orig": "Vulpix",
+     "origBst": 299
+    },
+    {
+     "species": "Emboar",
+     "level": 56,
+     "base": "Tepig",
+     "baseBst": 308,
+     "orig": "Vulpix",
+     "origBst": 299
+    },
+    {
+     "species": "Growlithe",
+     "level": 57,
+     "base": "Chandelure",
+     "baseBst": 520,
+     "orig": "Ninetales",
+     "origBst": 505
+    }
+   ]
+  },
+  {
+   "const": "TRAINER_SUPER_NERD_AVERY",
+   "class": "Super Nerd",
+   "theme": "Fire",
+   "theme_source": "gym-override",
+   "team": [
+    {
+     "species": "Flareon",
+     "level": 54,
+     "base": "Crocalor",
+     "baseBst": 411,
+     "orig": "Ponyta",
+     "origBst": 410
+    },
+    {
+     "species": "Litten",
+     "level": 55,
+     "base": "Chimchar",
+     "baseBst": 309,
+     "orig": "Charmander",
+     "origBst": 309
+    },
+    {
+     "species": "Charizard",
+     "level": 56,
+     "base": "Charmander",
+     "baseBst": 309,
+     "orig": "Vulpix",
+     "origBst": 299
+    },
+    {
+     "species": "Hisuian Arcanine",
+     "level": 57,
+     "base": "Hisuian Growlithe",
+     "baseBst": 350,
+     "orig": "Growlithe",
+     "origBst": 350
+    }
+   ]
+  },
+  {
+   "const": "TRAINER_SUPER_NERD_DEREK",
+   "class": "Super Nerd",
+   "theme": "Fire",
+   "theme_source": "gym-override",
+   "team": [
+    {
+     "species": "Darumaka",
+     "level": 57,
+     "base": "Ninetales",
+     "baseBst": 505,
+     "orig": "Rapidash",
+     "origBst": 500
+    }
+   ]
+  },
+  {
+   "const": "TRAINER_SUPER_NERD_ZAC",
+   "class": "Super Nerd",
+   "theme": "Fire",
+   "theme_source": "gym-override",
+   "team": [
+    {
+     "species": "Lampent",
+     "level": 56,
+     "base": "Lampent",
+     "baseBst": 370,
+     "orig": "Growlithe",
+     "origBst": 350
+    },
+    {
+     "species": "Typhlosion",
+     "level": 57,
+     "base": "Cyndaquil",
+     "baseBst": 309,
+     "orig": "Vulpix",
+     "origBst": 299
+    }
+   ]
+  },
+  {
+   "const": "TRAINER_BURGLAR_QUINN",
+   "class": "Burglar",
+   "theme": "Fire",
+   "theme_source": "gym-override",
+   "team": [
+    {
+     "species": "Arcanine",
+     "level": 55,
+     "base": "Fletchinder",
+     "baseBst": 382,
+     "orig": "Growlithe",
+     "origBst": 350
+    },
+    {
+     "species": "Vulpix",
+     "level": 56,
+     "base": "Fuecoco",
+     "baseBst": 310,
+     "orig": "Vulpix",
+     "origBst": 299
+    },
+    {
+     "species": "Armarouge",
+     "level": 57,
+     "base": "Armarouge",
+     "baseBst": 525,
+     "orig": "Ninetales",
+     "origBst": 505
+    }
+   ]
+  },
+  {
+   "const": "TRAINER_BURGLAR_RAMON",
+   "class": "Burglar",
+   "theme": "Fire",
+   "theme_source": "gym-override",
+   "team": [
+    {
+     "species": "Charcadet",
+     "level": 57,
+     "base": "Raboot",
+     "baseBst": 420,
+     "orig": "Ponyta",
+     "origBst": 410
+    }
+   ]
+  },
+  {
+   "const": "TRAINER_BURGLAR_DUSTY",
+   "class": "Burglar",
+   "theme": "Fire",
+   "theme_source": "gym-override",
+   "team": [
+    {
+     "species": "Cinderace",
+     "level": 56,
+     "base": "Scorbunny",
+     "baseBst": 310,
+     "orig": "Vulpix",
+     "origBst": 299
+    },
+    {
+     "species": "Rapidash",
+     "level": 57,
+     "base": "Hisuian Growlithe",
+     "baseBst": 350,
+     "orig": "Growlithe",
+     "origBst": 350
+    }
+   ]
+  },
+  {
+   "const": "TRAINER_SCIENTIST_TED",
+   "class": "Scientist",
+   "theme": "Electric",
+   "theme_source": "dialogue",
+   "team": [
+    {
+     "species": "Rotom-Heat",
+     "level": 55,
+     "base": "Electabuzz",
+     "baseBst": 490,
+     "orig": "Electrode",
+     "origBst": 490
+    },
+    {
+     "species": "Electivire",
+     "level": 56,
+     "base": "Electrode",
+     "baseBst": 490,
+     "orig": "Weezing",
+     "origBst": 490
+    }
+   ]
+  },
+  {
+   "const": "TRAINER_YOUNGSTER_JOHNSON",
+   "class": "Youngster",
+   "theme": "Ghost",
+   "theme_source": "dialogue",
+   "team": [
+    {
+     "species": "Dusclops",
+     "level": 54,
+     "base": "Duskull",
+     "baseBst": 295,
+     "orig": "Ekans",
+     "origBst": 288
+    },
+    {
+     "species": "Gimmighoul",
+     "level": 55,
+     "base": "Gimmighoul",
+     "baseBst": 300,
+     "orig": "Ekans",
+     "origBst": 288
+    },
+    {
+     "species": "Alolan Marowak",
+     "level": 56,
+     "base": "Alolan Marowak",
+     "baseBst": 425,
+     "orig": "Raticate",
+     "origBst": 413
+    }
+   ]
+  },
+  {
+   "const": "TRAINER_BURGLAR_ARNIE",
+   "class": "Burglar",
+   "theme": "Fire",
+   "theme_source": "class-locked",
+   "team": [
+    {
+     "species": "Hisuian Typhlosion",
+     "level": 55,
+     "base": "Torchic",
+     "baseBst": 310,
+     "orig": "Charmander",
+     "origBst": 309
+    },
+    {
+     "species": "Braixen",
+     "level": 56,
+     "base": "Combusken",
+     "baseBst": 405,
+     "orig": "Charmeleon",
+     "origBst": 405
+    }
+   ]
+  },
+  {
+   "const": "TRAINER_BURGLAR_SIMON",
+   "class": "Burglar",
+   "theme": "Fire",
+   "theme_source": "class-locked",
+   "team": [
+    {
+     "species": "Ceruledge",
+     "level": 57,
+     "base": "Ceruledge",
+     "baseBst": 525,
+     "orig": "Ninetales",
+     "origBst": 505
+    }
+   ]
+  },
+  {
+   "const": "TRAINER_SCIENTIST_BRAYDON",
+   "class": "Scientist",
+   "theme": "Electric",
+   "theme_source": "dialogue",
+   "team": [
+    {
+     "species": "Rotom-Fan",
+     "level": 55,
+     "base": "Hisuian Voltorb",
+     "baseBst": 330,
+     "orig": "Magnemite",
+     "origBst": 325
+    },
+    {
+     "species": "Alolan Raichu",
+     "level": 56,
+     "base": "Alolan Raichu",
+     "baseBst": 485,
+     "orig": "Magneton",
+     "origBst": 465
+    },
+    {
+     "species": "Rotom-Frost",
+     "level": 57,
+     "base": "Elekid",
+     "baseBst": 360,
+     "orig": "Voltorb",
+     "origBst": 330
+    }
+   ]
+  },
+  {
+   "const": "TRAINER_BURGLAR_LEWIS",
+   "class": "Burglar",
+   "theme": "Fire",
+   "theme_source": "class-locked",
+   "team": [
+    {
+     "species": "Hisuian Growlithe",
+     "level": 56,
+     "base": "Hisuian Growlithe",
+     "baseBst": 350,
+     "orig": "Growlithe",
+     "origBst": 350
+    },
+    {
+     "species": "Incineroar",
+     "level": 57,
+     "base": "Torracat",
+     "baseBst": 420,
+     "orig": "Ponyta",
+     "origBst": 410
+    }
+   ]
+  },
+  {
+   "const": "TRAINER_SCIENTIST_IVAN",
+   "class": "Scientist",
+   "theme": "Electric",
+   "theme_source": "dialogue",
+   "team": [
+    {
+     "species": "Dewgong",
+     "level": 56,
+     "base": "Voltorb",
+     "baseBst": 330,
+     "orig": "Magnemite",
+     "origBst": 325
+    },
+    {
+     "species": "Glaceon",
+     "level": 57,
+     "base": "Hisuian Electrode",
+     "baseBst": 490,
+     "orig": "Electrode",
+     "origBst": 490
+    }
+   ]
+  }
+ ]
+}

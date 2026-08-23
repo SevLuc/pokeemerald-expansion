@@ -1,0 +1,1055 @@
+{
+ "segment": 2,
+ "cap": 23,
+ "floor": 14,
+ "trainers": [
+  {
+   "const": "TRAINER_LASS_ROBIN",
+   "class": "Lass",
+   "theme": "Fairy",
+   "theme_source": "dialogue",
+   "note": "timid cute lass",
+   "team": [
+    {
+     "species": "Kirlia",
+     "level": 14,
+     "base": "Kirlia",
+     "baseBst": 278,
+     "orig": "Jigglypuff",
+     "origBst": 270
+    }
+   ]
+  },
+  {
+   "const": "TRAINER_BUG_CATCHER_JAMES",
+   "class": "Bug Catcher",
+   "theme": "Bug",
+   "theme_source": "class-locked",
+   "team": [
+    {
+     "species": "Butterfree",
+     "level": 14,
+     "base": "Metapod",
+     "baseBst": 205,
+     "orig": "Caterpie",
+     "origBst": 195
+    },
+    {
+     "species": "Surskit",
+     "level": 14,
+     "base": "Surskit",
+     "baseBst": 269,
+     "orig": "Metapod",
+     "origBst": 205
+    }
+   ]
+  },
+  {
+   "const": "TRAINER_LASS_SALLY",
+   "class": "Lass",
+   "theme": "Psychic",
+   "theme_source": "dialogue",
+   "note": "mysterious intriguing gaze",
+   "team": [
+    {
+     "species": "Hatenna",
+     "level": 14,
+     "base": "Hatenna",
+     "baseBst": 265,
+     "orig": "Rattata",
+     "origBst": 253
+    },
+    {
+     "species": "Inkay",
+     "level": 15,
+     "base": "Inkay",
+     "baseBst": 288,
+     "orig": "Nidoran F",
+     "origBst": 275
+    }
+   ]
+  },
+  {
+   "const": "TRAINER_BUG_CATCHER_GREG",
+   "class": "Bug Catcher",
+   "theme": "Bug",
+   "theme_source": "class-locked",
+   "team": [
+    {
+     "species": "Butterfree",
+     "level": 14,
+     "base": "Caterpie",
+     "baseBst": 195,
+     "orig": "Weedle",
+     "origBst": 195
+    },
+    {
+     "species": "Paras",
+     "level": 14,
+     "base": "Paras",
+     "baseBst": 285,
+     "orig": "Kakuna",
+     "origBst": 205
+    },
+    {
+     "species": "Butterfree",
+     "level": 14,
+     "base": "Metapod",
+     "baseBst": 205,
+     "orig": "Caterpie",
+     "origBst": 195
+    },
+    {
+     "species": "Surskit",
+     "level": 15,
+     "base": "Surskit",
+     "baseBst": 269,
+     "orig": "Metapod",
+     "origBst": 205
+    }
+   ]
+  },
+  {
+   "const": "TRAINER_YOUNGSTER_CALVIN",
+   "class": "Youngster",
+   "theme": "Normal",
+   "theme_source": "dialogue",
+   "note": "brash shorts youngster",
+   "team": [
+    {
+     "species": "Wooloo",
+     "level": 16,
+     "base": "Wooloo",
+     "baseBst": 270,
+     "orig": "Spearow",
+     "origBst": 262
+    }
+   ]
+  },
+  {
+   "const": "TRAINER_LASS_JANICE",
+   "class": "Lass",
+   "theme": "Normal",
+   "theme_source": "dialogue",
+   "note": "watchful plain lass",
+   "team": [
+    {
+     "species": "Porygon",
+     "level": 15,
+     "base": "Jigglypuff",
+     "baseBst": 270,
+     "orig": "Pidgey",
+     "origBst": 251
+    },
+    {
+     "species": "Fletchling",
+     "level": 16,
+     "base": "Fletchling",
+     "baseBst": 278,
+     "orig": "Pidgey",
+     "origBst": 251
+    }
+   ]
+  },
+  {
+   "const": "TRAINER_BUG_CATCHER_COLTON",
+   "class": "Bug Catcher",
+   "theme": "Bug",
+   "theme_source": "class-locked",
+   "team": [
+    {
+     "species": "Butterfree",
+     "level": 14,
+     "base": "Caterpie",
+     "baseBst": 195,
+     "orig": "Caterpie",
+     "origBst": 195
+    },
+    {
+     "species": "Butterfree",
+     "level": 15,
+     "base": "Caterpie",
+     "baseBst": 195,
+     "orig": "Weedle",
+     "origBst": 195
+    },
+    {
+     "species": "Butterfree",
+     "level": 16,
+     "base": "Metapod",
+     "baseBst": 205,
+     "orig": "Caterpie",
+     "origBst": 195
+    }
+   ]
+  },
+  {
+   "const": "TRAINER_YOUNGSTER_BEN",
+   "class": "Youngster",
+   "theme": "Normal",
+   "theme_source": "dialogue",
+   "note": "classic shorts kid",
+   "team": [
+    {
+     "species": "Slakoth",
+     "level": 16,
+     "base": "Slakoth",
+     "baseBst": 280,
+     "orig": "Rattata",
+     "origBst": 253
+    },
+    {
+     "species": "Happiny",
+     "level": 17,
+     "base": "Ditto",
+     "baseBst": 288,
+     "orig": "Ekans",
+     "origBst": 288
+    }
+   ]
+  },
+  {
+   "const": "TRAINER_HIKER_MARCOS",
+   "class": "Hiker",
+   "theme": "Rock",
+   "theme_source": "class-locked",
+   "team": [
+    {
+     "species": "Larvitar",
+     "level": 15,
+     "base": "Larvitar",
+     "baseBst": 300,
+     "orig": "Geodude",
+     "origBst": 300
+    },
+    {
+     "species": "Rhyhorn",
+     "level": 16,
+     "base": "Rhyhorn",
+     "baseBst": 345,
+     "orig": "Geodude",
+     "origBst": 300
+    },
+    {
+     "species": "Nosepass",
+     "level": 17,
+     "base": "Graveler",
+     "baseBst": 390,
+     "orig": "Onix",
+     "origBst": 385
+    }
+   ]
+  },
+  {
+   "const": "TRAINER_YOUNGSTER_JOSH",
+   "class": "Youngster",
+   "theme": "Ground",
+   "theme_source": "dialogue",
+   "note": "cave-exploring youngster",
+   "team": [
+    {
+     "species": "Diglett",
+     "level": 15,
+     "base": "Diglett",
+     "baseBst": 265,
+     "orig": "Rattata",
+     "origBst": 253
+    },
+    {
+     "species": "Barboach",
+     "level": 16,
+     "base": "Barboach",
+     "baseBst": 288,
+     "orig": "Rattata",
+     "origBst": 253
+    },
+    {
+     "species": "Swinub",
+     "level": 17,
+     "base": "Swinub",
+     "baseBst": 250,
+     "orig": "Zubat",
+     "origBst": 245
+    }
+   ]
+  },
+  {
+   "const": "TRAINER_LASS_MIRIAM",
+   "class": "Lass",
+   "theme": "Grass",
+   "theme_source": "dialogue",
+   "note": "botanical cave lass",
+   "team": [
+    {
+     "species": "Dartrix",
+     "level": 17,
+     "base": "Rowlet",
+     "baseBst": 320,
+     "orig": "Oddish",
+     "origBst": 320
+    },
+    {
+     "species": "Ferroseed",
+     "level": 18,
+     "base": "Ferroseed",
+     "baseBst": 305,
+     "orig": "Bellsprout",
+     "origBst": 300
+    }
+   ]
+  },
+  {
+   "const": "TRAINER_LASS_IRIS",
+   "class": "Lass",
+   "theme": "Fairy",
+   "theme_source": "dialogue",
+   "note": "playful clefairy lass",
+   "team": [
+    {
+     "species": "Marill",
+     "level": 18,
+     "base": "Morgrem",
+     "baseBst": 370,
+     "orig": "Clefairy",
+     "origBst": 323
+    }
+   ]
+  },
+  {
+   "const": "TRAINER_SUPER_NERD_JOVAN",
+   "class": "Super Nerd",
+   "theme": "Electric",
+   "theme_source": "dialogue",
+   "note": "jumpy techy nerd",
+   "team": [
+    {
+     "species": "Shinx",
+     "level": 18,
+     "base": "Chinchou",
+     "baseBst": 330,
+     "orig": "Magnemite",
+     "origBst": 325
+    },
+    {
+     "species": "Mareep",
+     "level": 19,
+     "base": "Hisuian Voltorb",
+     "baseBst": 330,
+     "orig": "Voltorb",
+     "origBst": 330
+    }
+   ]
+  },
+  {
+   "const": "TRAINER_BUG_CATCHER_KENT",
+   "class": "Bug Catcher",
+   "theme": "Bug",
+   "theme_source": "class-locked",
+   "team": [
+    {
+     "species": "Surskit",
+     "level": 18,
+     "base": "Surskit",
+     "baseBst": 269,
+     "orig": "Weedle",
+     "origBst": 195
+    },
+    {
+     "species": "Paras",
+     "level": 19,
+     "base": "Paras",
+     "baseBst": 285,
+     "orig": "Kakuna",
+     "origBst": 205
+    }
+   ]
+  },
+  {
+   "const": "TRAINER_BUG_CATCHER_ROBBY",
+   "class": "Bug Catcher",
+   "theme": "Bug",
+   "theme_source": "class-locked",
+   "team": [
+    {
+     "species": "Butterfree",
+     "level": 17,
+     "base": "Metapod",
+     "baseBst": 205,
+     "orig": "Caterpie",
+     "origBst": 195
+    },
+    {
+     "species": "Paras",
+     "level": 18,
+     "base": "Paras",
+     "baseBst": 285,
+     "orig": "Metapod",
+     "origBst": 205
+    },
+    {
+     "species": "Surskit",
+     "level": 19,
+     "base": "Surskit",
+     "baseBst": 269,
+     "orig": "Caterpie",
+     "origBst": 195
+    }
+   ]
+  },
+  {
+   "const": "TRAINER_SUPER_NERD_MIGUEL",
+   "class": "Super Nerd",
+   "theme": "Steel",
+   "theme_source": "dialogue",
+   "note": "techy nerd default",
+   "team": [
+    {
+     "species": "Honedge",
+     "level": 18,
+     "base": "Honedge",
+     "baseBst": 325,
+     "orig": "Grimer",
+     "origBst": 325
+    },
+    {
+     "species": "Cufant",
+     "level": 19,
+     "base": "Cufant",
+     "baseBst": 330,
+     "orig": "Voltorb",
+     "origBst": 330
+    },
+    {
+     "species": "Pawniard",
+     "level": 20,
+     "base": "Pawniard",
+     "baseBst": 340,
+     "orig": "Koffing",
+     "origBst": 340
+    }
+   ]
+  },
+  {
+   "const": "TRAINER_TEAM_ROCKET_GRUNT",
+   "class": "Team Rocket",
+   "theme": "Poison",
+   "theme_source": "class-locked",
+   "team": [
+    {
+     "species": "Paldean Wooper",
+     "level": 19,
+     "base": "Nidoran\u2642",
+     "baseBst": 273,
+     "orig": "Rattata",
+     "origBst": 253
+    },
+    {
+     "species": "Nidorina",
+     "level": 20,
+     "base": "Nidoran\u2640",
+     "baseBst": 275,
+     "orig": "Zubat",
+     "origBst": 245
+    }
+   ]
+  },
+  {
+   "const": "TRAINER_TEAM_ROCKET_GRUNT_2",
+   "class": "Team Rocket",
+   "theme": "Dark",
+   "theme_source": "class-locked",
+   "team": [
+    {
+     "species": "Deino",
+     "level": 18,
+     "base": "Deino",
+     "baseBst": 300,
+     "orig": "Sandshrew",
+     "origBst": 300
+    },
+    {
+     "species": "Impidimp",
+     "level": 19,
+     "base": "Impidimp",
+     "baseBst": 265,
+     "orig": "Rattata",
+     "origBst": 253
+    },
+    {
+     "species": "Sandile",
+     "level": 20,
+     "base": "Sandile",
+     "baseBst": 292,
+     "orig": "Zubat",
+     "origBst": 245
+    }
+   ]
+  },
+  {
+   "const": "TRAINER_TEAM_ROCKET_GRUNT_3",
+   "class": "Team Rocket",
+   "theme": "Poison",
+   "theme_source": "class-locked",
+   "team": [
+    {
+     "species": "Budew",
+     "level": 20,
+     "base": "Budew",
+     "baseBst": 280,
+     "orig": "Zubat",
+     "origBst": 245
+    },
+    {
+     "species": "Foongus",
+     "level": 21,
+     "base": "Foongus",
+     "baseBst": 294,
+     "orig": "Ekans",
+     "origBst": 288
+    }
+   ]
+  },
+  {
+   "const": "TRAINER_TEAM_ROCKET_GRUNT_4",
+   "class": "Team Rocket",
+   "theme": "Dark",
+   "theme_source": "class-locked",
+   "team": [
+    {
+     "species": "Impidimp",
+     "level": 20,
+     "base": "Impidimp",
+     "baseBst": 265,
+     "orig": "Rattata",
+     "origBst": 253
+    },
+    {
+     "species": "Carvanha",
+     "level": 21,
+     "base": "Carvanha",
+     "baseBst": 305,
+     "orig": "Sandshrew",
+     "origBst": 300
+    }
+   ]
+  },
+  {
+   "const": "TRAINER_LASS_CRISSY",
+   "class": "Lass",
+   "theme": "Grass",
+   "theme_source": "dialogue",
+   "note": "mushroom pokemon hunter",
+   "team": [
+    {
+     "species": "Shroomish",
+     "level": 20,
+     "base": "Shroomish",
+     "baseBst": 295,
+     "orig": "Paras",
+     "origBst": 285
+    },
+    {
+     "species": "Hoppip",
+     "level": 21,
+     "base": "Bellsprout",
+     "baseBst": 300,
+     "orig": "Paras",
+     "origBst": 285
+    },
+    {
+     "species": "Ivysaur",
+     "level": 22,
+     "base": "Ivysaur",
+     "baseBst": 405,
+     "orig": "Parasect",
+     "origBst": 405
+    }
+   ]
+  },
+  {
+   "const": "TRAINER_TEAM_ROCKET_GRUNT_5",
+   "class": "Team Rocket",
+   "theme": "Dark",
+   "theme_source": "class-locked",
+   "team": [
+    {
+     "species": "Alolan Grimer",
+     "level": 21,
+     "base": "Alolan Grimer",
+     "baseBst": 325,
+     "orig": "Machop",
+     "origBst": 305
+    },
+    {
+     "species": "Stunky",
+     "level": 22,
+     "base": "Stunky",
+     "baseBst": 329,
+     "orig": "Drowzee",
+     "origBst": 328
+    }
+   ]
+  },
+  {
+   "const": "TRAINER_PICNICKER_DIANA",
+   "class": "Picnicker",
+   "theme": "Water",
+   "theme_source": "gym-override",
+   "note": "cerulean gym",
+   "team": [
+    {
+     "species": "Psyduck",
+     "level": 22,
+     "base": "Psyduck",
+     "baseBst": 320,
+     "orig": "Goldeen",
+     "origBst": 320
+    }
+   ]
+  },
+  {
+   "const": "TRAINER_SWIMMER_MALE_LUIS",
+   "class": "Swimmer M",
+   "theme": "Water",
+   "theme_source": "gym-override",
+   "note": "cerulean gym",
+   "team": [
+    {
+     "species": "Poliwag",
+     "level": 21,
+     "base": "Poliwag",
+     "baseBst": 300,
+     "orig": "Horsea",
+     "origBst": 295
+    },
+    {
+     "species": "Mareanie",
+     "level": 22,
+     "base": "Mareanie",
+     "baseBst": 305,
+     "orig": "Shellder",
+     "origBst": 305
+    }
+   ]
+  },
+  {
+   "const": "TRAINER_TEAM_ROCKET_GRUNT_6",
+   "class": "Team Rocket",
+   "theme": "Poison",
+   "theme_source": "class-locked",
+   "team": [
+    {
+     "species": "Venonat",
+     "level": 18,
+     "base": "Venonat",
+     "baseBst": 305,
+     "orig": "Ekans",
+     "origBst": 288
+    },
+    {
+     "species": "Zubat",
+     "level": 19,
+     "base": "Zubat",
+     "baseBst": 245,
+     "orig": "Zubat",
+     "origBst": 245
+    }
+   ]
+  },
+  {
+   "const": "TRAINER_CAMPER_ETHAN",
+   "class": "Camper",
+   "theme": "Fighting",
+   "theme_source": "dialogue",
+   "note": "aggressive stomping camper",
+   "team": [
+    {
+     "species": "Machop",
+     "level": 20,
+     "base": "Machop",
+     "baseBst": 305,
+     "orig": "Mankey",
+     "origBst": 305
+    }
+   ]
+  },
+  {
+   "const": "TRAINER_LASS_RELI",
+   "class": "Lass",
+   "theme": "Normal",
+   "theme_source": "dialogue",
+   "note": "gauntlet lass default",
+   "team": [
+    {
+     "species": "Igglybuff",
+     "level": 18,
+     "base": "Minccino",
+     "baseBst": 300,
+     "orig": "Nidoran M",
+     "origBst": 273
+    },
+    {
+     "species": "Tandemaus",
+     "level": 19,
+     "base": "Tandemaus",
+     "baseBst": 305,
+     "orig": "Nidoran F",
+     "origBst": 275
+    }
+   ]
+  },
+  {
+   "const": "TRAINER_YOUNGSTER_TIMMY",
+   "class": "Youngster",
+   "theme": "Ground",
+   "theme_source": "dialogue",
+   "note": "gauntlet youngster default",
+   "team": [
+    {
+     "species": "Geodude",
+     "level": 17,
+     "base": "Geodude",
+     "baseBst": 300,
+     "orig": "Sandshrew",
+     "origBst": 300
+    },
+    {
+     "species": "Trapinch",
+     "level": 18,
+     "base": "Trapinch",
+     "baseBst": 290,
+     "orig": "Ekans",
+     "origBst": 288
+    }
+   ]
+  },
+  {
+   "const": "TRAINER_LASS_ALI",
+   "class": "Lass",
+   "theme": "Grass",
+   "theme_source": "dialogue",
+   "note": "grassy gauntlet lass",
+   "team": [
+    {
+     "species": "Cottonee",
+     "level": 16,
+     "base": "Cottonee",
+     "baseBst": 280,
+     "orig": "Pidgey",
+     "origBst": 251
+    },
+    {
+     "species": "Exeggcute",
+     "level": 17,
+     "base": "Exeggcute",
+     "baseBst": 325,
+     "orig": "Oddish",
+     "origBst": 320
+    },
+    {
+     "species": "Servine",
+     "level": 18,
+     "base": "Snivy",
+     "baseBst": 308,
+     "orig": "Bellsprout",
+     "origBst": 300
+    }
+   ]
+  },
+  {
+   "const": "TRAINER_BUG_CATCHER_CALE",
+   "class": "Bug Catcher",
+   "theme": "Bug",
+   "theme_source": "class-locked",
+   "team": [
+    {
+     "species": "Butterfree",
+     "level": 16,
+     "base": "Caterpie",
+     "baseBst": 195,
+     "orig": "Caterpie",
+     "origBst": 195
+    },
+    {
+     "species": "Butterfree",
+     "level": 16,
+     "base": "Caterpie",
+     "baseBst": 195,
+     "orig": "Weedle",
+     "origBst": 195
+    },
+    {
+     "species": "Paras",
+     "level": 17,
+     "base": "Paras",
+     "baseBst": 285,
+     "orig": "Metapod",
+     "origBst": 205
+    },
+    {
+     "species": "Butterfree",
+     "level": 18,
+     "base": "Metapod",
+     "baseBst": 205,
+     "orig": "Kakuna",
+     "origBst": 205
+    }
+   ]
+  },
+  {
+   "const": "TRAINER_CAMPER_SHANE",
+   "class": "Camper",
+   "theme": "Grass",
+   "theme_source": "dialogue",
+   "note": "watching from grass",
+   "team": [
+    {
+     "species": "Lotad",
+     "level": 18,
+     "base": "Budew",
+     "baseBst": 280,
+     "orig": "Rattata",
+     "origBst": 253
+    },
+    {
+     "species": "Sewaddle",
+     "level": 19,
+     "base": "Sewaddle",
+     "baseBst": 310,
+     "orig": "Ekans",
+     "origBst": 288
+    }
+   ]
+  },
+  {
+   "const": "TRAINER_HIKER_FRANKLIN",
+   "class": "Hiker",
+   "theme": "Ground",
+   "theme_source": "class-locked",
+   "team": [
+    {
+     "species": "Cubone",
+     "level": 19,
+     "base": "Cubone",
+     "baseBst": 320,
+     "orig": "Machop",
+     "origBst": 305
+    },
+    {
+     "species": "Sandshrew",
+     "level": 20,
+     "base": "Sandshrew",
+     "baseBst": 300,
+     "orig": "Geodude",
+     "origBst": 300
+    }
+   ]
+  },
+  {
+   "const": "TRAINER_YOUNGSTER_JOEY",
+   "class": "Youngster",
+   "theme": "Normal",
+   "theme_source": "dialogue",
+   "note": "local practice youngster",
+   "team": [
+    {
+     "species": "Wooloo",
+     "level": 19,
+     "base": "Wooloo",
+     "baseBst": 270,
+     "orig": "Rattata",
+     "origBst": 253
+    },
+    {
+     "species": "Azurill",
+     "level": 20,
+     "base": "Swablu",
+     "baseBst": 310,
+     "orig": "Spearow",
+     "origBst": 262
+    }
+   ]
+  },
+  {
+   "const": "TRAINER_HIKER_WAYNE",
+   "class": "Hiker",
+   "theme": "Rock",
+   "theme_source": "class-locked",
+   "team": [
+    {
+     "species": "Archen",
+     "level": 21,
+     "base": "Archen",
+     "baseBst": 401,
+     "orig": "Onix",
+     "origBst": 385
+    }
+   ]
+  },
+  {
+   "const": "TRAINER_YOUNGSTER_DAN",
+   "class": "Youngster",
+   "theme": "Water",
+   "theme_source": "dialogue",
+   "note": "ss anne party boy",
+   "team": [
+    {
+     "species": "Chewtle",
+     "level": 21,
+     "base": "Popplio",
+     "baseBst": 320,
+     "orig": "Slowpoke",
+     "origBst": 315
+    }
+   ]
+  },
+  {
+   "const": "TRAINER_PICNICKER_KELSEY",
+   "class": "Picnicker",
+   "theme": "Grass",
+   "theme_source": "dialogue",
+   "note": "outdoorsy picnicker",
+   "team": [
+    {
+     "species": "Grovyle",
+     "level": 19,
+     "base": "Treecko",
+     "baseBst": 310,
+     "orig": "Nidoran M",
+     "origBst": 273
+    },
+    {
+     "species": "Floragato",
+     "level": 20,
+     "base": "Sprigatito",
+     "baseBst": 310,
+     "orig": "Nidoran F",
+     "origBst": 275
+    }
+   ]
+  },
+  {
+   "const": "TRAINER_HIKER_NOB",
+   "class": "Hiker",
+   "theme": "Ground",
+   "theme_source": "class-locked",
+   "team": [
+    {
+     "species": "Gible",
+     "level": 18,
+     "base": "Gible",
+     "baseBst": 300,
+     "orig": "Geodude",
+     "origBst": 300
+    },
+    {
+     "species": "Baltoy",
+     "level": 18,
+     "base": "Baltoy",
+     "baseBst": 300,
+     "orig": "Geodude",
+     "origBst": 300
+    },
+    {
+     "species": "Sandygast",
+     "level": 19,
+     "base": "Sandygast",
+     "baseBst": 320,
+     "orig": "Machop",
+     "origBst": 305
+    },
+    {
+     "species": "Drilbur",
+     "level": 20,
+     "base": "Drilbur",
+     "baseBst": 328,
+     "orig": "Geodude",
+     "origBst": 300
+    }
+   ]
+  },
+  {
+   "const": "TRAINER_CAMPER_FLINT",
+   "class": "Camper",
+   "theme": "Ground",
+   "theme_source": "dialogue",
+   "note": "cocky camper default",
+   "team": [
+    {
+     "species": "Diglett",
+     "level": 19,
+     "base": "Diglett",
+     "baseBst": 265,
+     "orig": "Rattata",
+     "origBst": 253
+    },
+    {
+     "species": "Phanpy",
+     "level": 20,
+     "base": "Phanpy",
+     "baseBst": 330,
+     "orig": "Ekans",
+     "origBst": 288
+    }
+   ]
+  },
+  {
+   "const": "TRAINER_YOUNGSTER_CHAD",
+   "class": "Youngster",
+   "theme": "Psychic",
+   "theme_source": "dialogue",
+   "note": "psychic hunch battler",
+   "team": [
+    {
+     "species": "Gothita",
+     "level": 20,
+     "base": "Gothita",
+     "baseBst": 290,
+     "orig": "Ekans",
+     "origBst": 288
+    },
+    {
+     "species": "Duosion",
+     "level": 21,
+     "base": "Beldum",
+     "baseBst": 300,
+     "orig": "Sandshrew",
+     "origBst": 300
+    }
+   ]
+  },
+  {
+   "const": "TRAINER_LASS_HALEY",
+   "class": "Lass",
+   "theme": "Fairy",
+   "theme_source": "dialogue",
+   "note": "loves cute pokemon",
+   "team": [
+    {
+     "species": "Cleffa",
+     "level": 19,
+     "base": "Clefairy",
+     "baseBst": 323,
+     "orig": "Oddish",
+     "origBst": 320
+    },
+    {
+     "species": "Tinkatink",
+     "level": 20,
+     "base": "Tinkatink",
+     "baseBst": 297,
+     "orig": "Pidgey",
+     "origBst": 251
+    },
+    {
+     "species": "Togepi",
+     "level": 21,
+     "base": "Mawile",
+     "baseBst": 380,
+     "orig": "Oddish",
+     "origBst": 320
+    }
+   ]
+  }
+ ]
+}

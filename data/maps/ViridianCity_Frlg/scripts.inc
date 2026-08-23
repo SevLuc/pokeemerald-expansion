@@ -372,3 +372,58 @@ ViridianCity_Text_GymDoorsAreLocked::
 	.string "VIRIDIAN GYM's doors are locked.\p"
 	.string "The LEADER is away… on business.$"
 
+ViridianCity_EventScript_Fisherman::
+	lock
+	faceplayer
+	goto_if_set FLAG_GOT_VIRIDIAN_SUPER_ROD, ViridianCity_EventScript_FishermanAlready
+	msgbox ViridianCity_Text_FishermanGiveRod, MSGBOX_DEFAULT
+	checkitemspace ITEM_SUPER_ROD
+	goto_if_eq VAR_RESULT, FALSE, ViridianCity_EventScript_FishermanNoRoom
+	additem ITEM_SUPER_ROD
+	msgreceiveditem ViridianCity_Text_ReceivedSuperRod, ITEM_SUPER_ROD
+	setflag FLAG_GOT_VIRIDIAN_SUPER_ROD
+	msgbox ViridianCity_Text_FishermanGotRod, MSGBOX_DEFAULT
+	release
+	end
+
+ViridianCity_EventScript_FishermanAlready::
+	msgbox ViridianCity_Text_FishermanAlready, MSGBOX_DEFAULT
+	release
+	end
+
+ViridianCity_EventScript_FishermanNoRoom::
+	msgbox ViridianCity_Text_FishermanNoRoom, MSGBOX_DEFAULT
+	release
+	end
+
+ViridianCity_Text_FishermanGiveRod::
+	.string "Ahoy there, young TRAINER!\n"
+	.string "Fixing to fish our waters, eh?\p"
+	.string "Here. Take my spare SUPER ROD.\n"
+	.string "The only rod you'll ever need.\p"
+	.string "Some folks chase rod after rod,\n"
+	.string "certain a finer one bites better.\p"
+	.string "Not round here, friend. Every rod\n"
+	.string "calls up the same POKéMON.\p"
+	.string "SURF out and cast, same catch.\n"
+	.string "A pond gives what a pond gives.$"
+
+ViridianCity_Text_ReceivedSuperRod::
+	.string "{PLAYER} received a SUPER ROD\n"
+	.string "from the FISHERMAN.$"
+
+ViridianCity_Text_FishermanGotRod::
+	.string "That's her. A fine SUPER ROD.\p"
+	.string "Cast it, or SURF out and cast,\n"
+	.string "makes no difference to the fish.$"
+
+ViridianCity_Text_FishermanAlready::
+	.string "Still got that SUPER ROD? Good.\n"
+	.string "You're set for life, that.\p"
+	.string "Don't go hunting a better one.\n"
+	.string "Rod or SURF, same fish either way.$"
+
+ViridianCity_Text_FishermanNoRoom::
+	.string "Ha! Your BAG's too full to take\n"
+	.string "her. Come back with room.$"
+

@@ -790,6 +790,22 @@ Consistency notes:
 - Reflavor the existing canon references (Saffron LANCE superfan, the Indigo cousin
   line) rather than adding new NPCs where possible.
 
+## Viridian fisherman - the Super Rod giver (mechanic-legibility NPC)
+Concept: a light, one-note local Fisher in Viridian City who hands the player their
+first and only rod (a SUPER ROD) right after they reach town, pre-gym. His purpose
+is to make a hack mechanic LEGIBLE in-character: rod tier and Surf do not change
+what bites, every rod and Surf pull the same POKéMON from a given body of water.
+So no NPC anywhere should ever imply the player needs a "better" rod. Zen-fisher
+quirk ("a pond gives what a pond gives"); NOT a big arc. Keep him Baseline-warm.
+
+| ID | Subject | Reveal | Source NPC | Map | Gate | Order | Status | Flags |
+|---|---|---|---|---|---|---|---|---|
+| FISH-01 | Fishing mechanic (legibility) | Fisher gives the SUPER ROD early and explains, in-character, that every rod and SURF pull the same POKéMON from a given water, so there is no "better" rod to hunt. | new Fisher NPC | Viridian City | none (pre-gym, on reaching town) | 1 | drafted | - |
+
+Consistency note: this is the CANON world-fact for fishing in the hack. No other
+NPC may suggest a rarer/better rod, a Good Rod upgrade, or that Surf beats a rod.
+If a future line implies rod-hunting, it contradicts FISH-01.
+
 ## Template: new gym leader
 Copy per leader. Keep fragments optional and gated so a rushing player still
 finishes and a curious one gets the hidden layer.
