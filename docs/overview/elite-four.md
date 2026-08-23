@@ -4,9 +4,9 @@ One section per member: leader, type, level cap, structure, pool, and movesets.
 Tracks our hard-but-fair rebalance against vanilla. Cross-link each member's
 history to docs/writing/lore-ledger.md.
 
-> STATUS: Lorelei pool drafted (movesets + abilities + natures). Party size and
-> the fought subset are not yet decided; pool mechanics need implementation in
-> src/trainer_pools.c. See TODOs below.
+> STATUS: Lorelei pool implemented (trainer entry wired in
+> src/data/trainers_frlg.party with the new Snow Lead pick function). Rematch
+> team (`_2`) and lore fragments are still TODO. Build + playtest on Mac.
 
 ## Lorelei (Ice) - first E4 member
 - Trainer: `TRAINER_ELITE_FOUR_LORELEI` (rematch `TRAINER_ELITE_FOUR_LORELEI_2`, TODO).
@@ -20,18 +20,29 @@ history to docs/writing/lore-ledger.md.
   free via Snow Warning; several members carry the Snowscape move as backup.
 
 ### Structure (draw pool)
-- This is a TRAINER POOL that Lorelei draws her fought team from (like the gym
-  pools in gyms.md). Party size and the prune rule are TODO (E4 standard is 5-6;
-  decide before implementing).
-- **Ace:** LAPRAS (always fielded).
-- **Lead rule (conditional Snow lead):** ALOLAN NINETALES is the preferred lead
-  and is sent out first whenever it is in the fielded team, so it sets Snow on
-  turn 1 with Snow Warning. **If Alolan Ninetales is NOT fielded, a Pokemon that
-  knows Snowscape must lead instead** (Slowbro, Dewgong, Articuno, Froslass, or
-  Glaceon), so Snow is up on turn 1 regardless of who is drawn. NEEDS
-  IMPLEMENTATION in src/trainer_pools.c (a conditional-lead rule; the existing
-  `POOL_TAG_LEAD` is an unconditional forced lead, so this needs a small
-  extension or a Snowscape-carrier fallback).
+- This is a TRAINER POOL of 11 that fields 6, exactly like the gym pools in
+  gyms.md (`Party Size: 6`, `Pool Rules: Basic`, `Pool Prune: Bst Match`). The
+  game sums the player's team base-stat totals and fields the ace plus the five
+  other members whose combined BST is closest to that total
+  (`POOL_PRUNE_BST_MATCH` in src/trainer_pools.c). Party Size is fixed at 6 so a
+  player cannot shrink Lorelei's team by bringing fewer of their own mons.
+- **Ace:** LAPRAS (`Tags: Ace`, always fielded, sent out last).
+- **Lead rule (conditional Snow lead):** implemented as a new pick function
+  `POOL_PICK_SNOW_LEAD` (src/trainer_pools.c), selected in the party file with
+  `Pool Pick Functions: Snow Lead`. For slot 1 it scans the already-fielded mons
+  and leads with one whose ability is **Snow Warning** (Alolan Ninetales, free
+  turn-1 Snow); if none was drawn it leads with one that knows **Snowscape**
+  (Slowbro, Dewgong, Articuno, Froslass, or Glaceon). Alolan Ninetales is NOT
+  force-kept, so it stays an ordinary BST-matched candidate; it only leads when
+  it is actually fielded.
+- **Guarantee:** with Party Size 6, a snow-setter is always fielded. Lapras is
+  the ace, leaving 5 slots drawn from 10 candidates, and only 4 of those are
+  non-setters (Jynx, Mr. Rime, Mamoswine, Weavile). By pigeonhole at least one of
+  the 5 is a snow-setter, so the lead rule never has an empty hand. This holds as
+  long as (Party Size - reserved) stays greater than the count of non-setters; if
+  the pool composition changes, re-check it.
+- Held items: none. Trainer bag items: Full Restore x2 (AI healing, kept from
+  vanilla, same as Misty's Super Potion; not a held item).
 
 ### Pool members (11)
 All at Lv72 = at the cap, perfect IVs, no EVs, no held items (no items anywhere in
@@ -82,13 +93,14 @@ backup-lead rule.
   Mamoswine (Ground/Rock/Fighting coverage) and Weavile (Low Kick) are the
   deliberate answers; Froslass is immune to Fighting.
 
+### Done
+- [x] Party Size 6, BST-matched draw pool of 11 (like the gyms).
+- [x] Conditional Snow-lead rule (`POOL_PICK_SNOW_LEAD` in src/trainer_pools.c):
+      Ninetales first if fielded, else a Snowscape carrier. Covered by a test in
+      test/battle/trainer_control.c ("Trainer Party Pool Snow Lead ...").
+- [x] Lorelei's trainer entry wired in src/data/trainers_frlg.party.
+
 ### TODO
-- [ ] Decide party size and the fielded subset (or keep all 11 as a BST-matched
-      draw pool like the gyms).
-- [ ] Implement the conditional Snow-lead rule (Ninetales first if fielded, else a
-      Snowscape carrier) in src/trainer_pools.c, plus a test in
-      test/battle/trainer_control.c.
-- [ ] Write Lorelei's trainer entry (Showdown syntax) once the fielded set is
-      fixed; wire the pool.
+- [ ] Build + playtest on Mac (this was authored in a web session, not compiled).
 - [ ] Rematch team (`_2`).
 - History fragments: see LORELEI-* in docs/writing/lore-ledger.md (TODO).

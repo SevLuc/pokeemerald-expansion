@@ -5,9 +5,11 @@
 #include "pokemon.h"
 #include "random.h"
 #include "trainer_pools.h"
+#include "constants/abilities.h"
 #include "constants/battle.h"
 #include "constants/battle_ai.h"
 #include "constants/items.h"
+#include "constants/moves.h"
 
 #include "data/battle_pool_rules.h"
 
@@ -60,6 +62,52 @@ static u32 DefaultLeadPickFunction(const struct Trainer *trainer, u8 *poolIndexA
         {
             monIndex = poolIndexArray[firstLeadIndex];
             poolIndexArray[firstLeadIndex] = POOL_SLOT_DISABLED;
+        }
+    }
+    return monIndex;
+}
+
+//  Leads with a snow-setter from the already-fielded (enabled) mons:
+//  prefers one whose ability is Snow Warning (free turn-1 snow), else one that
+//  knows Snowscape. Returns POOL_SLOT_DISABLED (falls through to ace/other) for
+//  non-lead slots or if no snow-setter is fielded. Used by Lorelei's E4 pool so
+//  Snow is up on turn 1 whether or not Alolan Ninetales was drawn.
+static u32 SnowLeadPickFunction(const struct Trainer *trainer, u8 *poolIndexArray, u32 partyIndex, u32 monsCount, u32 battleTypeFlags, struct PoolRules *rules)
+{
+    u32 monIndex = POOL_SLOT_DISABLED;
+    if ((partyIndex == 0)
+     || (partyIndex == 1 && (battleTypeFlags & BATTLE_TYPE_DOUBLE)))
+    {
+        u32 snowWarningIndex = POOL_SLOT_DISABLED;   //  position in poolIndexArray
+        u32 snowscapeIndex = POOL_SLOT_DISABLED;     //  position in poolIndexArray
+        for (u32 currIndex = 0; currIndex < trainer->poolSize; currIndex++)
+        {
+            if (poolIndexArray[currIndex] == POOL_SLOT_DISABLED)
+                continue;
+            const struct TrainerMon *mon = &trainer->party[poolIndexArray[currIndex]];
+            //  Snow Warning is top priority; stop as soon as one is found.
+            if (mon->ability == ABILITY_SNOW_WARNING)
+            {
+                snowWarningIndex = currIndex;
+                break;
+            }
+            if (snowscapeIndex == POOL_SLOT_DISABLED)
+            {
+                for (u32 moveIndex = 0; moveIndex < MAX_MON_MOVES; moveIndex++)
+                {
+                    if (mon->moves[moveIndex] == MOVE_SNOWSCAPE)
+                    {
+                        snowscapeIndex = currIndex;
+                        break;
+                    }
+                }
+            }
+        }
+        u32 chosenArrayIndex = (snowWarningIndex != POOL_SLOT_DISABLED) ? snowWarningIndex : snowscapeIndex;
+        if (chosenArrayIndex != POOL_SLOT_DISABLED)
+        {
+            monIndex = poolIndexArray[chosenArrayIndex];
+            poolIndexArray[chosenArrayIndex] = POOL_SLOT_DISABLED;
         }
     }
     return monIndex;
@@ -323,6 +371,11 @@ static struct PickFunctions GetPickFunctions(const struct Trainer *trainer)
         pickFunctions.LeadFunction = &PickLowest;
         pickFunctions.AceFunction = &PickLowest;
         pickFunctions.OtherFunction = &PickLowest;
+        break;
+    case POOL_PICK_SNOW_LEAD:
+        pickFunctions.LeadFunction = &SnowLeadPickFunction;
+        pickFunctions.AceFunction = &DefaultAcePickFunction;
+        pickFunctions.OtherFunction = &DefaultOtherPickFunction;
         break;
     default:
         pickFunctions.LeadFunction = &DefaultLeadPickFunction;

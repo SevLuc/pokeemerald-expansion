@@ -7,6 +7,14 @@ Update in the same PR as the change.
 `YYYY-MM-DD` — area — one-line summary (PR/commit ref)
 
 ## Entries
+- 2026-08-23 - trainers/elite-four - Wired Lorelei's Ice pool into
+  src/data/trainers_frlg.party (11 members, fields 6 via Party Size 6 + Bst Match,
+  Lapras ace). Added a new `POOL_PICK_SNOW_LEAD` pick function
+  (include/trainer_pools.h, src/trainer_pools.c): leads with a Snow Warning mon
+  (Alolan Ninetales) if fielded, else a Snowscape carrier, so Snow is up turn 1
+  regardless of the BST-matched draw. Ninetales is not force-kept (stays a normal
+  candidate). Test added in test/battle/trainer_control.c. Not yet compiled
+  (web session); build + playtest on Mac.
 - 2026-08-23 - trainers/elite-four - Drafted Lorelei's Ice draw pool (11 members,
   all Lv72 cap-legal: abilities, natures, movesets) built around modern Snow.
   Alolan Ninetales is the preferred Snow lead with a conditional fallback (a
