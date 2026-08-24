@@ -8014,8 +8014,8 @@ Ability: Oblivious
 Nature: Naive
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Earthquake
-- Waterfall
-- Zen Headbutt
+- Aqua Tail
+- Ice Beam
 - Rock Slide
 
 Eletashart (Electabuzz)
@@ -8083,8 +8083,8 @@ Ability: Oblivious
 Nature: Naive
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Earthquake
-- Waterfall
-- Zen Headbutt
+- Aqua Tail
+- Ice Beam
 - Rock Slide
 
 Eletashart (Electabuzz)
@@ -8152,8 +8152,8 @@ Ability: Oblivious
 Nature: Naive
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Earthquake
-- Waterfall
-- Zen Headbutt
+- Aqua Tail
+- Ice Beam
 - Rock Slide
 
 Eletashart (Electabuzz)
@@ -8219,11 +8219,13 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 Supersymes (Whiscash)
 Level: 70
+Ability: Oblivious
+Nature: Naive
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Earthquake
 - Aqua Tail
-- Zen Headbutt
-- Future Sight
+- Ice Beam
+- Rock Slide
 
 Eletashart (Electabuzz)
 Level: 72
@@ -8286,11 +8288,13 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 Supersymes (Whiscash)
 Level: 70
+Ability: Oblivious
+Nature: Naive
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Earthquake
 - Aqua Tail
-- Zen Headbutt
-- Future Sight
+- Ice Beam
+- Rock Slide
 
 Eletashart (Electabuzz)
 Level: 72
@@ -8353,11 +8357,13 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 Supersymes (Whiscash)
 Level: 70
+Ability: Oblivious
+Nature: Naive
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Earthquake
 - Aqua Tail
-- Zen Headbutt
-- Future Sight
+- Ice Beam
+- Rock Slide
 
 Eletashart (Electabuzz)
 Level: 72
