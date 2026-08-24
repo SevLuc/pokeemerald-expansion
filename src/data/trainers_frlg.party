@@ -7606,11 +7606,13 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 Eletashart (Electabuzz)
 Level: 38
+Ability: Static
+Nature: Naive
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Discharge
-- Thunder Punch
-- Low Kick
-- Thunder Wave
+- Thunderbolt
+- Fire Punch
+- Ice Punch
+- Cross Chop
 
 === TRAINER_RIVAL_POKEMON_TOWER_BULBASAUR ===
 Name: TERRY
@@ -7673,11 +7675,13 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 Eletashart (Electabuzz)
 Level: 38
+Ability: Static
+Nature: Naive
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Discharge
-- Thunder Punch
-- Low Kick
-- Thunder Wave
+- Thunderbolt
+- Fire Punch
+- Ice Punch
+- Cross Chop
 
 === TRAINER_RIVAL_POKEMON_TOWER_CHARMANDER ===
 Name: TERRY
@@ -7740,11 +7744,13 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 Eletashart (Electabuzz)
 Level: 38
+Ability: Static
+Nature: Naive
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Discharge
-- Thunder Punch
-- Low Kick
-- Thunder Wave
+- Thunderbolt
+- Fire Punch
+- Ice Punch
+- Cross Chop
 
 === TRAINER_RIVAL_SILPH_SQUIRTLE ===
 Name: TERRY
