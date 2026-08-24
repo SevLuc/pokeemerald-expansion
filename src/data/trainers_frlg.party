@@ -4224,7 +4224,7 @@ Music: Male
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
-Electafart (Elekid)
+ELECTAFART (Elekid)
 Level: 5
 Nature: Hasty
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
@@ -4241,7 +4241,7 @@ Music: Male
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
-Electafart (Elekid)
+ELECTAFART (Elekid)
 Level: 5
 Nature: Hasty
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
@@ -4258,7 +4258,7 @@ Music: Male
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
-Electafart (Elekid)
+ELECTAFART (Elekid)
 Level: 5
 Nature: Hasty
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
@@ -4275,7 +4275,7 @@ Music: Male
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
-Electafart (Elekid)
+ELECTAFART (Elekid)
 Level: 9
 Nature: Hasty
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
@@ -4284,7 +4284,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Thunder Shock
 - Karate Chop
 
-Hoothoot (Hoothoot)
+HOOTHOOT (Hoothoot)
 Level: 9
 Ability: Insomnia
 Status: STATUS1_SLEEP_TURN(3)
@@ -4295,13 +4295,13 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Growl
 - Hypnosis
 
-Magikarp (Magikarp)
+MAGIKARP (Magikarp)
 Level: 9
 Nature: Jolly
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Splash
 
-Methfather (Shroomish)
+METHFATHER (Shroomish)
 Level: 9
 Status: STATUS1_FREEZE
 Nature: Timid
@@ -4310,7 +4310,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Tackle
 - Stun Spore
 
-Bananafan (Skitty)
+BANANAFAN (Skitty)
 Level: 9
 Status: STATUS1_SLEEP_TURN(3)
 Nature: Jolly
@@ -4329,7 +4329,7 @@ Music: Male
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
-Electafart (Elekid)
+ELECTAFART (Elekid)
 Level: 9
 Nature: Hasty
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
@@ -4338,7 +4338,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Thunder Shock
 - Karate Chop
 
-Hoothoot (Hoothoot)
+HOOTHOOT (Hoothoot)
 Level: 9
 Ability: Insomnia
 Status: STATUS1_SLEEP_TURN(3)
@@ -4349,13 +4349,13 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Growl
 - Hypnosis
 
-Magikarp (Magikarp)
+MAGIKARP (Magikarp)
 Level: 9
 Nature: Jolly
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Splash
 
-Methfather (Shroomish)
+METHFATHER (Shroomish)
 Level: 9
 Status: STATUS1_FREEZE
 Nature: Timid
@@ -4364,7 +4364,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Tackle
 - Stun Spore
 
-Bananafan (Skitty)
+BANANAFAN (Skitty)
 Level: 9
 Status: STATUS1_SLEEP_TURN(3)
 Nature: Jolly
@@ -4383,7 +4383,7 @@ Music: Male
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
-Electafart (Elekid)
+ELECTAFART (Elekid)
 Level: 9
 Nature: Hasty
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
@@ -4392,7 +4392,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Thunder Shock
 - Karate Chop
 
-Hoothoot (Hoothoot)
+HOOTHOOT (Hoothoot)
 Level: 9
 Ability: Insomnia
 Status: STATUS1_SLEEP_TURN(3)
@@ -4403,13 +4403,13 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Growl
 - Hypnosis
 
-Magikarp (Magikarp)
+MAGIKARP (Magikarp)
 Level: 9
 Nature: Jolly
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Splash
 
-Methfather (Shroomish)
+METHFATHER (Shroomish)
 Level: 9
 Status: STATUS1_FREEZE
 Nature: Timid
@@ -4418,7 +4418,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Tackle
 - Stun Spore
 
-Bananafan (Skitty)
+BANANAFAN (Skitty)
 Level: 9
 Status: STATUS1_SLEEP_TURN(3)
 Nature: Jolly
@@ -4437,7 +4437,7 @@ Music: Male
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
-BillClintn (Swellow)
+BILLCLINTN (Swellow)
 Level: 18
 Ability: Scrappy
 Nature: Naive
@@ -4447,7 +4447,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Steel Wing
 - U-turn
 
-Sixten (Raticate)
+SIXTEN (Raticate)
 Level: 20
 Ability: Hustle
 Nature: Jolly
@@ -4457,7 +4457,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Quick Attack
 - Mud-Slap
 
-Supersimes (Barboach)
+SUPERSIMES (Barboach)
 Level: 19
 Ability: Oblivious
 Nature: Naive
@@ -4467,7 +4467,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Icy Wind
 - Spark
 
-JimmyJon (Marshtomp)
+JIMMYJON (Marshtomp)
 Level: 19
 Ability: Torrent
 Nature: Timid
@@ -4477,7 +4477,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Ice Punch
 - Rock Tomb
 
-Ballsack (Magnemite)
+BALLSACK (Magnemite)
 Level: 18
 Ability: Magnet Pull
 Nature: Naive
@@ -4487,7 +4487,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Endure
 - Explosion
 
-Eletashart (Elekid)
+ELETASHART (Elekid)
 Level: 21
 Ability: Static
 Nature: Naive
@@ -4506,7 +4506,7 @@ Music: Male
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
-BillClintn (Swellow)
+BILLCLINTN (Swellow)
 Level: 18
 Ability: Scrappy
 Nature: Naive
@@ -4516,7 +4516,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Steel Wing
 - U-turn
 
-Sixten (Raticate)
+SIXTEN (Raticate)
 Level: 20
 Ability: Hustle
 Nature: Jolly
@@ -4526,7 +4526,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Quick Attack
 - Mud-Slap
 
-Supersimes (Barboach)
+SUPERSIMES (Barboach)
 Level: 19
 Ability: Oblivious
 Nature: Naive
@@ -4536,7 +4536,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Icy Wind
 - Spark
 
-JimmyJon (Marshtomp)
+JIMMYJON (Marshtomp)
 Level: 19
 Ability: Torrent
 Nature: Timid
@@ -4546,7 +4546,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Ice Punch
 - Rock Tomb
 
-Ballsack (Magnemite)
+BALLSACK (Magnemite)
 Level: 18
 Ability: Magnet Pull
 Nature: Naive
@@ -4556,7 +4556,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Endure
 - Explosion
 
-Eletashart (Elekid)
+ELETASHART (Elekid)
 Level: 21
 Ability: Static
 Nature: Naive
@@ -4575,7 +4575,7 @@ Music: Male
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
-BillClintn (Swellow)
+BILLCLINTN (Swellow)
 Level: 18
 Ability: Scrappy
 Nature: Naive
@@ -4585,7 +4585,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Steel Wing
 - U-turn
 
-Sixten (Raticate)
+SIXTEN (Raticate)
 Level: 20
 Ability: Hustle
 Nature: Jolly
@@ -4595,7 +4595,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Quick Attack
 - Mud-Slap
 
-Supersimes (Barboach)
+SUPERSIMES (Barboach)
 Level: 19
 Ability: Oblivious
 Nature: Naive
@@ -4605,7 +4605,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Icy Wind
 - Spark
 
-JimmyJon (Marshtomp)
+JIMMYJON (Marshtomp)
 Level: 19
 Ability: Torrent
 Nature: Timid
@@ -4615,7 +4615,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Ice Punch
 - Rock Tomb
 
-Ballsack (Magnemite)
+BALLSACK (Magnemite)
 Level: 18
 Ability: Magnet Pull
 Nature: Naive
@@ -4625,7 +4625,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Endure
 - Explosion
 
-Eletashart (Elekid)
+ELETASHART (Elekid)
 Level: 21
 Ability: Static
 Nature: Naive
@@ -6784,7 +6784,7 @@ Party Size: 6
 Pool Rules: Basic
 Pool Prune: Bst Match
 
-goku turd (SPECIES_GEODUDE_ALOLA) (F)
+GOKU TURD (SPECIES_GEODUDE_ALOLA) (F)
 Level: 12
 Ability: Galvanize
 Nature: Jolly
@@ -6814,7 +6814,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Mud Shot
 - Spikes
 
-Supa Burd (Aerodactyl) (F)
+SUPA BURD (Aerodactyl) (F)
 Level: 12
 Ability: Pressure
 Nature: Jolly
@@ -6834,7 +6834,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Bulldoze
 - Body Press
 
-sexy dawg (Rockruff) (F)
+SEXY DAWG (Rockruff) (F)
 Level: 12
 Ability: Vital Spirit
 Nature: Jolly
@@ -6854,7 +6854,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Wild Charge
 - Morning Sun
 
-sexy turt (Chewtle) (F)
+SEXY TURT (Chewtle) (F)
 Level: 12
 Ability: Strong Jaw
 Nature: Jolly
@@ -6864,7 +6864,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Ice Fang
 - Attract
 
-LongTurd (Onix) (F)
+LONGTURD (Onix) (F)
 Level: 14
 Ability: Sturdy
 Tags: Ace
@@ -7347,7 +7347,7 @@ Music: Male
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
-BillClintn (Swellow)
+BILLCLINTN (Swellow)
 Level: 23
 Ability: Scrappy
 Nature: Naive
@@ -7357,7 +7357,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Roost
 - U-turn
 
-Sixten (Raticate)
+SIXTEN (Raticate)
 Level: 23
 Ability: Hustle
 Nature: Jolly
@@ -7367,7 +7367,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Quick Attack
 - Mud-Slap
 
-MtSucamore (Victreebel)
+MTSUCAMORE (Victreebel)
 Level: 24
 Ability: Chlorophyll
 Nature: Naive
@@ -7377,7 +7377,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Sleep Powder
 - Sucker Punch
 
-JimmyJon (Marshtomp)
+JIMMYJON (Marshtomp)
 Level: 24
 Ability: Torrent
 Nature: Timid
@@ -7387,7 +7387,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Ice Punch
 - Rock Tomb
 
-BaldKing (Poliwhirl)
+BALDKING (Poliwhirl)
 Level: 25
 Ability: Water Absorb
 Nature: Naive
@@ -7397,7 +7397,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Mud Shot
 - Brick Break
 
-Eletashart (Electabuzz)
+ELETASHART (Electabuzz)
 Level: 26
 Ability: Static
 Nature: Jolly
@@ -7416,7 +7416,7 @@ Music: Male
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
-BillClintn (Swellow)
+BILLCLINTN (Swellow)
 Level: 23
 Ability: Scrappy
 Nature: Naive
@@ -7426,7 +7426,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Roost
 - U-turn
 
-Sixten (Raticate)
+SIXTEN (Raticate)
 Level: 23
 Ability: Hustle
 Nature: Jolly
@@ -7436,7 +7436,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Quick Attack
 - Mud-Slap
 
-MtSucamore (Victreebel)
+MTSUCAMORE (Victreebel)
 Level: 24
 Ability: Chlorophyll
 Nature: Naive
@@ -7446,7 +7446,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Sleep Powder
 - Sucker Punch
 
-JimmyJon (Marshtomp)
+JIMMYJON (Marshtomp)
 Level: 24
 Ability: Torrent
 Nature: Timid
@@ -7456,7 +7456,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Ice Punch
 - Rock Tomb
 
-BaldKing (Poliwhirl)
+BALDKING (Poliwhirl)
 Level: 25
 Ability: Water Absorb
 Nature: Naive
@@ -7466,7 +7466,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Mud Shot
 - Brick Break
 
-Eletashart (Electabuzz)
+ELETASHART (Electabuzz)
 Level: 26
 Ability: Static
 Nature: Jolly
@@ -7485,7 +7485,7 @@ Music: Male
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
-BillClintn (Swellow)
+BILLCLINTN (Swellow)
 Level: 23
 Ability: Scrappy
 Nature: Naive
@@ -7495,7 +7495,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Roost
 - U-turn
 
-Sixten (Raticate)
+SIXTEN (Raticate)
 Level: 23
 Ability: Hustle
 Nature: Jolly
@@ -7505,7 +7505,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Quick Attack
 - Mud-Slap
 
-MtSucamore (Victreebel)
+MTSUCAMORE (Victreebel)
 Level: 24
 Ability: Chlorophyll
 Nature: Naive
@@ -7515,7 +7515,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Sleep Powder
 - Sucker Punch
 
-JimmyJon (Marshtomp)
+JIMMYJON (Marshtomp)
 Level: 24
 Ability: Torrent
 Nature: Timid
@@ -7525,7 +7525,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Ice Punch
 - Rock Tomb
 
-BaldKing (Poliwhirl)
+BALDKING (Poliwhirl)
 Level: 25
 Ability: Water Absorb
 Nature: Naive
@@ -7535,7 +7535,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Mud Shot
 - Brick Break
 
-Eletashart (Electabuzz)
+ELETASHART (Electabuzz)
 Level: 26
 Ability: Static
 Nature: Jolly
@@ -7554,7 +7554,7 @@ Music: Male
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
-Manniz (Persian)
+MANNIZ (Persian)
 Level: 34
 Ability: Technician
 Nature: Jolly
@@ -7564,7 +7564,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Body Slam
 - Bite
 
-Supersymes (Whiscash)
+SUPERSYMES (Whiscash)
 Level: 36
 Ability: Oblivious
 Nature: Naive
@@ -7574,7 +7574,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Ice Beam
 - Rock Slide
 
-MtSucamore (Victreebel)
+MTSUCAMORE (Victreebel)
 Level: 36
 Ability: Chlorophyll
 Nature: Naive
@@ -7584,7 +7584,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Sleep Powder
 - Sucker Punch
 
-Wetfart (Milotic)
+WETFART (Milotic)
 Level: 36
 Ability: Marvel Scale
 Nature: Timid
@@ -7594,7 +7594,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Recover
 - Mirror Coat
 
-Ballsack (Magneton)
+BALLSACK (Magneton)
 Level: 36
 Ability: Sturdy
 Nature: Timid
@@ -7604,7 +7604,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Thunder Wave
 - Magnet Rise
 
-Eletashart (Electabuzz)
+ELETASHART (Electabuzz)
 Level: 38
 Ability: Static
 Nature: Naive
@@ -7623,7 +7623,7 @@ Music: Male
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
-Manniz (Persian)
+MANNIZ (Persian)
 Level: 34
 Ability: Technician
 Nature: Jolly
@@ -7633,7 +7633,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Body Slam
 - Bite
 
-Supersymes (Whiscash)
+SUPERSYMES (Whiscash)
 Level: 36
 Ability: Oblivious
 Nature: Naive
@@ -7643,7 +7643,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Ice Beam
 - Rock Slide
 
-MtSucamore (Victreebel)
+MTSUCAMORE (Victreebel)
 Level: 36
 Ability: Chlorophyll
 Nature: Naive
@@ -7653,7 +7653,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Sleep Powder
 - Sucker Punch
 
-Wetfart (Milotic)
+WETFART (Milotic)
 Level: 36
 Ability: Marvel Scale
 Nature: Timid
@@ -7663,7 +7663,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Recover
 - Mirror Coat
 
-Ballsack (Magneton)
+BALLSACK (Magneton)
 Level: 36
 Ability: Sturdy
 Nature: Timid
@@ -7673,7 +7673,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Thunder Wave
 - Magnet Rise
 
-Eletashart (Electabuzz)
+ELETASHART (Electabuzz)
 Level: 38
 Ability: Static
 Nature: Naive
@@ -7692,7 +7692,7 @@ Music: Male
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
-Manniz (Persian)
+MANNIZ (Persian)
 Level: 34
 Ability: Technician
 Nature: Jolly
@@ -7702,7 +7702,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Body Slam
 - Bite
 
-Supersymes (Whiscash)
+SUPERSYMES (Whiscash)
 Level: 36
 Ability: Oblivious
 Nature: Naive
@@ -7712,7 +7712,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Ice Beam
 - Rock Slide
 
-MtSucamore (Victreebel)
+MTSUCAMORE (Victreebel)
 Level: 36
 Ability: Chlorophyll
 Nature: Naive
@@ -7722,7 +7722,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Sleep Powder
 - Sucker Punch
 
-Wetfart (Milotic)
+WETFART (Milotic)
 Level: 36
 Ability: Marvel Scale
 Nature: Timid
@@ -7732,7 +7732,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Recover
 - Mirror Coat
 
-Ballsack (Magneton)
+BALLSACK (Magneton)
 Level: 36
 Ability: Sturdy
 Nature: Timid
@@ -7742,7 +7742,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Thunder Wave
 - Magnet Rise
 
-Eletashart (Electabuzz)
+ELETASHART (Electabuzz)
 Level: 38
 Ability: Static
 Nature: Naive
@@ -7761,7 +7761,7 @@ Music: Male
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
-Turd (Golem)
+TURD (Golem)
 Level: 46
 Ability: Sturdy
 Nature: Adamant
@@ -7771,7 +7771,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Sucker Punch
 - Fire Punch
 
-SikelFan (Alakazam)
+SIKELFAN (Alakazam)
 Level: 48
 Ability: Magic Guard
 Nature: Timid
@@ -7781,7 +7781,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Dazzling Gleam
 - Hyper Beam
 
-Dr. Sikel (Snorlax)
+DR. SIKEL (Snorlax)
 Level: 49
 Ability: Thick Fat
 Nature: Relaxed
@@ -7791,7 +7791,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Rest
 - Sleep Talk
 
-Wetfart (Milotic)
+WETFART (Milotic)
 Level: 47
 Ability: Marvel Scale
 Nature: Timid
@@ -7801,7 +7801,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Recover
 - Flip Turn
 
-Ballsack (Magneton)
+BALLSACK (Magneton)
 Level: 47
 Ability: Sturdy
 Nature: Timid
@@ -7811,7 +7811,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Thunder Wave
 - Magnet Rise
 
-Hellya (Lapras)
+HELLYA (Lapras)
 Level: 48
 Ability: Shell Armor
 Nature: Timid
@@ -7830,7 +7830,7 @@ Music: Male
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
-Turd (Golem)
+TURD (Golem)
 Level: 46
 Ability: Sturdy
 Nature: Adamant
@@ -7840,7 +7840,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Sucker Punch
 - Fire Punch
 
-SikelFan (Alakazam)
+SIKELFAN (Alakazam)
 Level: 48
 Ability: Magic Guard
 Nature: Timid
@@ -7850,7 +7850,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Dazzling Gleam
 - Hyper Beam
 
-Dr. Sikel (Snorlax)
+DR. SIKEL (Snorlax)
 Level: 49
 Ability: Thick Fat
 Nature: Relaxed
@@ -7860,7 +7860,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Rest
 - Sleep Talk
 
-Wetfart (Milotic)
+WETFART (Milotic)
 Level: 47
 Ability: Marvel Scale
 Nature: Timid
@@ -7870,7 +7870,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Recover
 - Flip Turn
 
-Ballsack (Magneton)
+BALLSACK (Magneton)
 Level: 47
 Ability: Sturdy
 Nature: Timid
@@ -7880,7 +7880,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Thunder Wave
 - Magnet Rise
 
-Hellya (Lapras)
+HELLYA (Lapras)
 Level: 48
 Ability: Shell Armor
 Nature: Timid
@@ -7899,7 +7899,7 @@ Music: Male
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
-Turd (Golem)
+TURD (Golem)
 Level: 46
 Ability: Sturdy
 Nature: Adamant
@@ -7909,7 +7909,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Sucker Punch
 - Fire Punch
 
-SikelFan (Alakazam)
+SIKELFAN (Alakazam)
 Level: 48
 Ability: Magic Guard
 Nature: Timid
@@ -7919,7 +7919,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Dazzling Gleam
 - Hyper Beam
 
-Dr. Sikel (Snorlax)
+DR. SIKEL (Snorlax)
 Level: 49
 Ability: Thick Fat
 Nature: Relaxed
@@ -7929,7 +7929,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Rest
 - Sleep Talk
 
-Wetfart (Milotic)
+WETFART (Milotic)
 Level: 47
 Ability: Marvel Scale
 Nature: Timid
@@ -7939,7 +7939,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Recover
 - Flip Turn
 
-Ballsack (Magneton)
+BALLSACK (Magneton)
 Level: 47
 Ability: Sturdy
 Nature: Timid
@@ -7949,7 +7949,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Thunder Wave
 - Magnet Rise
 
-Hellya (Lapras)
+HELLYA (Lapras)
 Level: 48
 Ability: Shell Armor
 Nature: Timid
@@ -7988,7 +7988,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Sucker Punch
 - Fire Punch
 
-Pokwo (Dragonite)
+POKWO (Dragonite)
 Level: 59
 Ability: Multiscale
 Nature: Jolly
@@ -7998,7 +7998,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Earthquake
 - Dual Wingbeat
 
-Dawg_sr (Hitmonchan)
+DAWG_SR (Hitmonchan)
 Level: 58
 Ability: Iron Fist
 Nature: Jolly
@@ -8008,7 +8008,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Mach Punch
 - Earthquake
 
-Supersymes (Whiscash)
+SUPERSYMES (Whiscash)
 Level: 58
 Ability: Oblivious
 Nature: Naive
@@ -8018,7 +8018,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Ice Beam
 - Rock Slide
 
-Eletashart (Electabuzz)
+ELETASHART (Electabuzz)
 Level: 61
 Ability: Static
 Nature: Naive
@@ -8057,7 +8057,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Sucker Punch
 - Fire Punch
 
-Pokwo (Dragonite)
+POKWO (Dragonite)
 Level: 59
 Ability: Multiscale
 Nature: Jolly
@@ -8067,7 +8067,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Earthquake
 - Dual Wingbeat
 
-Dawg_sr (Hitmonchan)
+DAWG_SR (Hitmonchan)
 Level: 58
 Ability: Iron Fist
 Nature: Jolly
@@ -8077,7 +8077,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Mach Punch
 - Earthquake
 
-Supersymes (Whiscash)
+SUPERSYMES (Whiscash)
 Level: 58
 Ability: Oblivious
 Nature: Naive
@@ -8087,7 +8087,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Ice Beam
 - Rock Slide
 
-Eletashart (Electabuzz)
+ELETASHART (Electabuzz)
 Level: 61
 Ability: Static
 Nature: Naive
@@ -8126,7 +8126,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Sucker Punch
 - Fire Punch
 
-Pokwo (Dragonite)
+POKWO (Dragonite)
 Level: 59
 Ability: Multiscale
 Nature: Jolly
@@ -8136,7 +8136,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Earthquake
 - Dual Wingbeat
 
-Dawg_sr (Hitmonchan)
+DAWG_SR (Hitmonchan)
 Level: 58
 Ability: Iron Fist
 Nature: Jolly
@@ -8146,7 +8146,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Mach Punch
 - Earthquake
 
-Supersymes (Whiscash)
+SUPERSYMES (Whiscash)
 Level: 58
 Ability: Oblivious
 Nature: Naive
@@ -8156,7 +8156,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Ice Beam
 - Rock Slide
 
-Eletashart (Electabuzz)
+ELETASHART (Electabuzz)
 Level: 61
 Ability: Static
 Nature: Naive
@@ -8197,7 +8197,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Sucker Punch
 - Fire Punch
 
-Pokwo (Dragonite)
+POKWO (Dragonite)
 Level: 70
 Ability: Multiscale
 Nature: Jolly
@@ -8207,7 +8207,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Earthquake
 - Dual Wingbeat
 
-Dawg_sr (Hitmonchan)
+DAWG_SR (Hitmonchan)
 Level: 69
 Ability: Iron Fist
 Nature: Jolly
@@ -8217,7 +8217,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Mach Punch
 - Earthquake
 
-Supersymes (Whiscash)
+SUPERSYMES (Whiscash)
 Level: 70
 Ability: Oblivious
 Nature: Naive
@@ -8227,7 +8227,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Ice Beam
 - Rock Slide
 
-Eletashart (Electabuzz)
+ELETASHART (Electabuzz)
 Level: 72
 Ability: Static
 Nature: Naive
@@ -8268,7 +8268,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Sucker Punch
 - Fire Punch
 
-Pokwo (Dragonite)
+POKWO (Dragonite)
 Level: 70
 Ability: Multiscale
 Nature: Jolly
@@ -8278,7 +8278,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Earthquake
 - Dual Wingbeat
 
-Dawg_sr (Hitmonchan)
+DAWG_SR (Hitmonchan)
 Level: 69
 Ability: Iron Fist
 Nature: Jolly
@@ -8288,7 +8288,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Mach Punch
 - Earthquake
 
-Supersymes (Whiscash)
+SUPERSYMES (Whiscash)
 Level: 70
 Ability: Oblivious
 Nature: Naive
@@ -8298,7 +8298,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Ice Beam
 - Rock Slide
 
-Eletashart (Electabuzz)
+ELETASHART (Electabuzz)
 Level: 72
 Ability: Static
 Nature: Naive
@@ -8339,7 +8339,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Sucker Punch
 - Fire Punch
 
-Pokwo (Dragonite)
+POKWO (Dragonite)
 Level: 70
 Ability: Multiscale
 Nature: Jolly
@@ -8349,7 +8349,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Earthquake
 - Dual Wingbeat
 
-Dawg_sr (Hitmonchan)
+DAWG_SR (Hitmonchan)
 Level: 69
 Ability: Iron Fist
 Nature: Jolly
@@ -8359,7 +8359,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Mach Punch
 - Earthquake
 
-Supersymes (Whiscash)
+SUPERSYMES (Whiscash)
 Level: 70
 Ability: Oblivious
 Nature: Naive
@@ -8369,7 +8369,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Ice Beam
 - Rock Slide
 
-Eletashart (Electabuzz)
+ELETASHART (Electabuzz)
 Level: 72
 Ability: Static
 Nature: Naive
@@ -14193,7 +14193,7 @@ Gender: Male
 Music: Male
 Double Battle: No
 
-Abby (Charmander)
+ABBY (Charmander)
 Level: 5
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -14205,11 +14205,11 @@ Gender: Male
 Music: Male
 Double Battle: No
 
-Abby (Charmander)
+ABBY (Charmander)
 Level: 13
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-Bird Jesus (Pidgey)
+BIRD JESUS (Pidgey)
 Level: 12
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -14221,11 +14221,11 @@ Gender: Male
 Music: Male
 Double Battle: No
 
-Abby (Charmeleon)
+ABBY (Charmeleon)
 Level: 22
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 
-Bird Jesus (Pidgeotto)
+BIRD JESUS (Pidgeotto)
 Level: 21
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 
@@ -14237,27 +14237,27 @@ Gender: Male
 Music: Male
 Double Battle: No
 
-Abby (Charmeleon)
+ABBY (Charmeleon)
 Level: 26
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 
-Bird Jesus (Pidgeotto)
+BIRD JESUS (Pidgeotto)
 Level: 25
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 
-The Keeper (Drowzee)
+THE KEEPER (Drowzee)
 Level: 23
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 
-Digrat (Rattata)
+DIGRAT (Rattata)
 Level: 23
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 
-Jay Leno (Rattata)
+JAY LENO (Rattata)
 Level: 23
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 
-Dux (Spearow)
+DUX (Spearow)
 Level: 24
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 
@@ -14269,19 +14269,19 @@ Gender: Male
 Music: Male
 Double Battle: No
 
-Bird Jesus (Pidgeot)
+BIRD JESUS (Pidgeot)
 Level: 38
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
-BigDig (Raticate)
+BIGDIG (Raticate)
 Level: 36
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
-The Keeper (Hypno)
+THE KEEPER (Hypno)
 Level: 37
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
-Cabbage (Gloom)
+CABBAGE (Gloom)
 Level: 36
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
@@ -14293,7 +14293,7 @@ Gender: Male
 Music: Male
 Double Battle: No
 
-Bird Jesus (Pidgeot)
+BIRD JESUS (Pidgeot)
 Level: 52
 IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 
@@ -14301,11 +14301,11 @@ ATV (Venomoth)
 Level: 51
 IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 
-BigDig (Raticate)
+BIGDIG (Raticate)
 Level: 50
 IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 
-Cabbage (Vileplume)
+CABBAGE (Vileplume)
 Level: 51
 IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 
@@ -14317,7 +14317,7 @@ Gender: Male
 Music: Male
 Double Battle: No
 
-Bird Jesus (Pidgeot)
+BIRD JESUS (Pidgeot)
 Level: 62
 IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 
@@ -14325,19 +14325,19 @@ ATV (Venomoth)
 Level: 62
 IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 
-Air Jordan (Lapras)
+AIR JORDAN (Lapras)
 Level: 62
 IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 
-King Fonz (Nidoking)
+KING FONZ (Nidoking)
 Level: 63
 IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 
-AA-j (Zapdos)
+AA-J (Zapdos)
 Level: 63
 IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 
-Lord Helix (Omastar)
+LORD HELIX (Omastar)
 Level: 63
 IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 
@@ -14350,19 +14350,19 @@ Music: Male
 Double Battle: No
 Mugshot: Yellow
 
-Lord Helix (Omastar)
+LORD HELIX (Omastar)
 Level: 70
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
-Bird Jesus (Pidgeot)
+BIRD JESUS (Pidgeot)
 Level: 70
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
-AA-j (Zapdos)
+AA-J (Zapdos)
 Level: 72
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
-Air Jordan (Lapras)
+AIR JORDAN (Lapras)
 Level: 71
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
@@ -14370,6 +14370,6 @@ ATV (Venomoth)
 Level: 70
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
-King Fonz (Nidoking)
+KING FONZ (Nidoking)
 Level: 71
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
