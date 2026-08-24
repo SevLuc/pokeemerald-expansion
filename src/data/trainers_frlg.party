@@ -7970,11 +7970,13 @@ AI: Check Bad Move / Try To Faint / Check Viability
 
 UVWXY (Ludicolo)
 Level: 56
+Ability: Own Tempo
+Nature: Modest
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Surf
 - Giga Drain
 - Ice Beam
-- Rain Dance
+- Scald
+- Leech Seed
 
 TURD (Golem)
 Level: 59
@@ -8027,11 +8029,13 @@ AI: Check Bad Move / Try To Faint / Check Viability
 
 UVWXY (Ludicolo)
 Level: 56
+Ability: Own Tempo
+Nature: Modest
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Surf
 - Giga Drain
 - Ice Beam
-- Rain Dance
+- Scald
+- Leech Seed
 
 TURD (Golem)
 Level: 59
@@ -8084,11 +8088,13 @@ AI: Check Bad Move / Try To Faint / Check Viability
 
 UVWXY (Ludicolo)
 Level: 56
+Ability: Own Tempo
+Nature: Modest
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Surf
 - Giga Drain
 - Ice Beam
-- Rain Dance
+- Scald
+- Leech Seed
 
 TURD (Golem)
 Level: 59
