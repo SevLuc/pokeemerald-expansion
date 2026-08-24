@@ -4489,11 +4489,13 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 Eletashart (Elekid)
 Level: 21
+Ability: Static
+Nature: Naive
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Shock Wave
-- Thunder Wave
-- Low Kick
-- Swift
+- Brick Break
+- Ice Punch
+- Fire Punch
 
 === TRAINER_RIVAL_CERULEAN_BULBASAUR ===
 Name: TERRY
@@ -4556,11 +4558,13 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 Eletashart (Elekid)
 Level: 21
+Ability: Static
+Nature: Naive
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Shock Wave
-- Thunder Wave
-- Low Kick
-- Swift
+- Brick Break
+- Ice Punch
+- Fire Punch
 
 === TRAINER_RIVAL_CERULEAN_CHARMANDER ===
 Name: TERRY
@@ -4623,11 +4627,13 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 Eletashart (Elekid)
 Level: 21
+Ability: Static
+Nature: Naive
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Shock Wave
-- Thunder Wave
-- Low Kick
-- Swift
+- Brick Break
+- Ice Punch
+- Fire Punch
 
 === TRAINER_SCIENTIST_TED ===
 Name: TED
