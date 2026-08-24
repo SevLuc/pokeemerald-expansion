@@ -7763,11 +7763,13 @@ AI: Check Bad Move / Try To Faint / Check Viability
 
 Turd (Golem)
 Level: 46
+Ability: Sturdy
+Nature: Adamant
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Earthquake
-- Stone Edge
-- Rock Blast
-- Steamroller
+- Rock Slide
+- Sucker Punch
+- Fire Punch
 
 SikelFan (Alakazam)
 Level: 48
@@ -7820,11 +7822,13 @@ AI: Check Bad Move / Try To Faint / Check Viability
 
 Turd (Golem)
 Level: 46
+Ability: Sturdy
+Nature: Adamant
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Earthquake
-- Stone Edge
-- Rock Blast
-- Steamroller
+- Rock Slide
+- Sucker Punch
+- Fire Punch
 
 SikelFan (Alakazam)
 Level: 48
@@ -7877,11 +7881,13 @@ AI: Check Bad Move / Try To Faint / Check Viability
 
 Turd (Golem)
 Level: 46
+Ability: Sturdy
+Nature: Adamant
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Earthquake
-- Stone Edge
-- Rock Blast
-- Steamroller
+- Rock Slide
+- Sucker Punch
+- Fire Punch
 
 SikelFan (Alakazam)
 Level: 48
