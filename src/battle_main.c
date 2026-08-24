@@ -1918,17 +1918,29 @@ u8 CreateNPCTrainerPartyFromTrainer(struct Pokemon *party, const struct Trainer 
                 otId.value = HIHALF(personalityValue) ^ LOHALF(personalityValue);
             }
             u32 monLevel = partyData[monIndex].lvl;
-            // Gym leaders & Elite Four: the opener (slot 0, whichever mon the pool
-            // leads with) is dropped to cap-4 so the first mon is always a rung
-            // below the fight, without pinning a specific lead via a Lead tag.
-            if (i == 0 && monsCount > 1)
+            // Gym leaders that draw from a pool get their fielded levels tiered off
+            // the current level cap, so the numbers track the cap automatically and
+            // a new gym only needs the right tags (never hand-typed levels):
+            //   - the Ace-tagged mon sits AT the cap (always fielded, sent out last);
+            //   - the opener (slot 0, whichever mon the pool leads with, tagged Lead
+            //     or an untagged random draw) sits at cap-4;
+            //   - every other member sits at cap-2.
+            // Elite Four / Champion are intentionally excluded: their members keep
+            // the levels authored in trainers_frlg.party (a graduated climb toward
+            // the Champion), and non-pool leaders keep their authored levels too.
             {
                 u32 tClass = trainer->trainerClass;
-                if (tClass == TRAINER_CLASS_LEADER_FRLG || tClass == TRAINER_CLASS_ELITE_FOUR_FRLG
-                 || tClass == TRAINER_CLASS_LEADER || tClass == TRAINER_CLASS_ELITE_FOUR)
+                bool32 isPoolGymLeader = (trainer->poolSize != 0)
+                    && (tClass == TRAINER_CLASS_LEADER_FRLG || tClass == TRAINER_CLASS_LEADER);
+                if (isPoolGymLeader)
                 {
                     u32 cap = GetCurrentLevelCap();
-                    monLevel = (cap > 4) ? cap - 4 : 1;
+                    if (partyData[monIndex].tags & (1u << POOL_TAG_ACE))
+                        monLevel = cap;                        // ace at the cap
+                    else if (i == 0 && monsCount > 1)
+                        monLevel = (cap > 4) ? cap - 4 : 1;    // opener at cap-4
+                    else
+                        monLevel = (cap > 2) ? cap - 2 : 1;    // the rest at cap-2
                 }
             }
             CreateMon(&party[i], partyData[monIndex].species, monLevel, personalityValue, otId);

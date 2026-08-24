@@ -3,14 +3,27 @@
 One section per gym: leader, type, badge, level cap, team, and puzzle. Tracks our
 hard-but-fair rebalance against vanilla.
 
-Level tiering (all gyms + Elite Four): only the ACE sits at the level cap. Other
-members sit below it - cap-2 for the bulk. The OPENER (slot 0, the first mon sent)
-is always cap-4, applied by code at party-build time for any Leader/Elite-Four
-class trainer, so it holds even when the lead is an untagged random draw from the
-pool (Brock, Lt. Surge). Trainers with a forced LEAD tag (Misty's Psyduck) get the
-same cap-4 on that fixed mon. This overrides whatever level the opener's mon is
-authored at in trainers_frlg.party. The party is rebuilt fresh at the start of
-every battle. Code: CreateNPCTrainerPartyFromTrainer in src/battle_main.c.
+Level tiering (gym leaders that draw from a pool): the fielded levels are derived
+by code from the current level cap at party-build time, so the numbers always
+track the cap and a new gym never needs hand-typed levels, only the right tags:
+- the ACE-tagged mon (always fielded, sent out last) sits AT the cap;
+- the OPENER (slot 0, the first mon sent) sits at cap-4. This holds whether the
+  opener is an untagged random draw from the pool (Brock, Lt. Surge, Erika, Koga)
+  or a forced LEAD-tagged mon (Misty's Psyduck);
+- every other member sits at cap-2.
+Whatever levels the mons are authored at in trainers_frlg.party are overridden by
+this rule. It applies only to Leader-class trainers that use a pool (poolSize != 0);
+non-pool leaders keep their authored levels. The Elite Four / Champion are
+excluded on purpose - they keep the levels authored in the data (a graduated climb
+toward the Champion, see elite-four.md), NOT the cap. The party is rebuilt fresh at
+the start of every battle. Code: CreateNPCTrainerPartyFromTrainer in
+src/battle_main.c.
+
+Ace / lead generation (all pool teams): the ACE is always fielded. That is
+guaranteed by the `Tags: Ace` mon plus the Bst Match prune, which force-keeps the
+ace and picks it for the last slot. A forced lead is OPTIONAL: tag a mon `Tags:
+Lead` only when a specific mon must open (Misty's Psyduck); most gyms leave the
+opener as a random draw. See how_to_trainer_party_pool.md and src/trainer_pools.c.
 
 > STATUS: stub. Generate baseline teams from trainer data after first build.
 > Cross-link each leader's history to docs/writing/lore-ledger.md.
@@ -24,8 +37,9 @@ every battle. Code: CreateNPCTrainerPartyFromTrainer in src/battle_main.c.
   team base-stat totals and fields the ace plus the five other members whose
   combined BST is closest to that total (implemented as the POOL_PRUNE_BST_MATCH
   prune in src/trainer_pools.c).
-- Pool members (non-ace all Lv12 = cap-2; ace Onix Lv14; no forced lead, so no
-  cap-4 member. Perfect IVs, no EVs, all female except genderless
+- Pool members (non-ace all cap-2; ace Onix at cap; no forced lead tag, but the
+  opener slot is still dropped to cap-4 by code whichever mon is drawn there.
+  Perfect IVs, no EVs, all female except genderless
   Stakataka; each runs a +Speed nature that lowers its unused attacking stat -
   Timid for the special attacker Glimmet, Jolly for the physical members, except
   the ultra-slow Stakataka which runs Adamant (+Atk/-SpA) instead of wasting a
@@ -110,8 +124,9 @@ every battle. Code: CreateNPCTrainerPartyFromTrainer in src/battle_main.c.
   player's team base-stat totals and fields the ace plus the five other members
   whose combined BST is closest to that total (POOL_PRUNE_BST_MATCH in
   src/trainer_pools.c). No forced lead (Surge-only difference from Misty).
-- Pool members (10; Raichu ace Lv27 = cap, the other 9 Lv25 = cap-2; no forced
-  lead, so no cap-4 member. Perfect IVs, no EVs; no nicknames).
+- Pool members (10; Raichu ace at cap, the other 9 at cap-2; no forced lead tag,
+  but the opener slot is still dropped to cap-4 by code. Perfect IVs, no EVs; no
+  nicknames).
   All natures are +Speed except the two slow bruisers Iron Hands (Brave) and
   Pincurchin (Quiet). The +Speed natures shed the UNUSED attacking stat: Timid
   for pure special attackers, Jolly for pure physical, Naive for the two mixed
@@ -159,12 +174,14 @@ every battle. Code: CreateNPCTrainerPartyFromTrainer in src/battle_main.c.
 - Vanilla team: Victreebel Lv29, Tangela Lv24, Vileplume Lv29 (fixed 3).
 - Rebalanced team: a TRAINER POOL of 10 Grass-types that fields 6 (Party Size 6,
   Pool Rules Basic, Pool Prune Bst Match). Vileplume is the ACE (always fielded
-  last). No forced lead (Surge-style), so no cap-4 member. The other 5 slots are
+  last). No forced lead tag (Surge-style), but the opener slot is still dropped to
+  cap-4 by code whichever mon is drawn there. The other 5 slots are
   BST-matched to the player (POOL_PRUNE_BST_MATCH in src/trainer_pools.c). Perfect
   IVs, no EVs, no nicknames; all mons female (flower-gym flavor). Sun is the pool's
   backbone: six members carry Sunny Day and four more have Chlorophyll to abuse it.
-- Levels: cap 35 (`FLAG_BADGE04_GET` row in src/caps.c). Vileplume ace Lv35 = cap;
-  the other 9 pool members Lv33 = cap-2. Pool (ability / nature / moves):
+- Levels: cap 35 (`FLAG_BADGE04_GET` row in src/caps.c), derived by code at battle
+  time. Vileplume ace at cap (35); the fielded opener at cap-4 (31); every other
+  fielded member at cap-2 (33). Pool (ability / nature / moves):
   - VILEPLUME (ace), Effect Spore, Timid (Sleep Powder / Giga Drain / Sludge Bomb / Strength Sap)
   - TANGROWTH, Chlorophyll, Hasty (Sunny Day / Solar Beam / Ancient Power / Earthquake)
   - MEOWSCARADA, Overgrow, Jolly (Flower Trick / Throat Chop / Acrobatics / Low Kick)
@@ -189,12 +206,14 @@ every battle. Code: CreateNPCTrainerPartyFromTrainer in src/battle_main.c.
 - Vanilla team: Koffing Lv39, Muk Lv41, Koffing Lv41, Weezing Lv43 (fixed 4).
 - Rebalanced team: a TRAINER POOL of 9 Poison-types that fields 6 (Party Size 6,
   Pool Rules Basic, Pool Prune Bst Match). Venomoth is the ACE (always fielded
-  last). No forced lead (Surge/Brock model), so no cap-4 member. The other 5 slots
+  last). No forced lead tag (Surge/Brock model), but the opener slot is still
+  dropped to cap-4 by code whichever mon is drawn there. The other 5 slots
   are BST-matched to the player (POOL_PRUNE_BST_MATCH in src/trainer_pools.c).
   Perfect IVs, no EVs, no nicknames. Kept distinct from Erika: pure-Poison +
   Poison/other typings, zero Grass/Poison overlap.
-- Levels: cap 50 (`FLAG_BADGE05_GET` row in src/caps.c). Venomoth ace Lv50 = cap;
-  the other 8 pool members Lv48 = cap-2. Pool (ability / nature / moves):
+- Levels: cap 50 (`FLAG_BADGE05_GET` row in src/caps.c), derived by code at battle
+  time. Venomoth ace at cap (50); the fielded opener at cap-4 (46); every other
+  fielded member at cap-2 (48). Pool (ability / nature / moves):
   - VENOMOTH (ace), Tinted Lens, Timid (Bug Buzz / Sludge Bomb / Energy Ball / Psychic)
   - CROBAT, Inner Focus, Jolly (Acrobatics / Cross Poison / U-turn / Roost)
   - MUK, Poison Touch, Jolly (Explosion / Shadow Punch / Poison Jab / Fire Punch)

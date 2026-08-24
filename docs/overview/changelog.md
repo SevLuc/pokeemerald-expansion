@@ -7,6 +7,17 @@ Update in the same PR as the change.
 `YYYY-MM-DD` — area — one-line summary (PR/commit ref)
 
 ## Entries
+- 2026-08-24 - balance/trainers - Gym-leader pool teams now derive their fielded
+  levels from the current level cap at battle time instead of relying on hand-typed
+  levels in trainers_frlg.party: the `Tags: Ace` mon sits at the cap, the opener
+  (slot 0) at cap-4, and every other member at cap-2. Applies to Leader-class
+  trainers that use a pool (Brock/Misty/Surge/Erika/Koga and any future gym); the
+  Elite Four / Champion are excluded and keep their authored (graduated) levels, and
+  non-pool leaders keep theirs too. Ace generation is already guaranteed by the
+  `Tags: Ace` mon plus the Bst Match prune; a forced lead stays optional via
+  `Tags: Lead`. Code: CreateNPCTrainerPartyFromTrainer (src/battle_main.c),
+  `isPoolGymLeader` gate. Test: test/battle/trainer_control.c ("... tiers fielded
+  levels off the level cap ..."). Docs: overview/gyms.md, overview/elite-four.md.
 - 2026-08-24 - feature/trainers - Added a per-Pokemon `Status:` field to the
   `trainers.party` format so a trainer's mon can enter battle already afflicted.
   Extends trainerproc (parse + emit), adds `u32 status` to `struct TrainerMon`
