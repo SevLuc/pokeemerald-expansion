@@ -6909,30 +6909,110 @@ Music: Female
 Items: Hyper Potion / Full Heal
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
+Party Size: 6
+Pool Rules: Basic
+Pool Prune: Bst Match
 
-Victreebel
-Level: 25
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Stun Spore
-- Acid
-- Poison Powder
+Tangrowth (F)
+Level: 33
+Ability: Chlorophyll
+Nature: Hasty
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Sunny Day
+- Solar Beam
+- Ancient Power
+- Earthquake
+
+Meowscarada (F)
+Level: 33
+Ability: Overgrow
+Nature: Jolly
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Flower Trick
+- Throat Chop
+- Acrobatics
+- Low Kick
+
+Exeggutor (F)
+Level: 33
+Ability: Chlorophyll
+Nature: Timid
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Sunny Day
+- Solar Beam
+- Psychic
+- Sludge Bomb
+
+Roserade (F)
+Level: 33
+Ability: Technician
+Nature: Timid
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Giga Drain
+- Sludge Bomb
+- Dazzling Gleam
+- Mud Shot
 
-Tangela
-Level: 27
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Poison Powder
-- Constrict
-- Ingrain
-- Giga Drain
+Victreebel (F)
+Level: 33
+Ability: Chlorophyll
+Nature: Timid
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Sunny Day
+- Solar Beam
+- Sludge Bomb
+- Weather Ball
 
-Vileplume
-Level: 29
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Jumpluff (F)
+Level: 33
+Ability: Chlorophyll
+Nature: Jolly
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Sunny Day
+- Leech Seed
+- Substitute
+- Acrobatics
+
+Meganium (F)
+Level: 33
+Ability: Leaf Guard
+Nature: Jolly
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Leaf Blade
+- Earthquake
+- Sunny Day
+- Synthesis
+
+Parasect (F)
+Level: 33
+Ability: Dry Skin
+Nature: Adamant
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Spore
+- Fell Stinger
+- Seed Bomb
+- Substitute
+
+Venusaur (F)
+Level: 33
+Ability: Chlorophyll
+Nature: Timid
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Sunny Day
+- Solar Beam
+- Sludge Bomb
+- Earth Power
+
+Vileplume (F)
+Level: 35
+Ability: Effect Spore
+Tags: Ace
+Nature: Timid
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Sleep Powder
-- Acid
-- Stun Spore
 - Giga Drain
+- Sludge Bomb
+- Strength Sap
 
 === TRAINER_LEADER_KOGA ===
 Name: KOGA

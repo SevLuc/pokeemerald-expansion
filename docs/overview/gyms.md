@@ -156,10 +156,25 @@ every battle. Code: CreateNPCTrainerPartyFromTrainer in src/battle_main.c.
 - History fragments: see SURGE-* in lore-ledger.md (payoff = S.S. Anne Captain).
 
 ## Gym 4 — Celadon (Erika, Grass) — Rainbow Badge
-- Vanilla team: (fill from data)
-- Rebalanced team: (TBD — still the vanilla-count roster, fixed team).
-- Levels (tiered, cap 29): Victreebel Lv25 (lead, cap-4), Tangela Lv27 (cap-2),
-  Vileplume Lv29 (ace, cap).
+- Vanilla team: Victreebel Lv29, Tangela Lv24, Vileplume Lv29 (fixed 3).
+- Rebalanced team: a TRAINER POOL of 10 Grass-types that fields 6 (Party Size 6,
+  Pool Rules Basic, Pool Prune Bst Match). Vileplume is the ACE (always fielded
+  last). No forced lead (Surge-style), so no cap-4 member. The other 5 slots are
+  BST-matched to the player (POOL_PRUNE_BST_MATCH in src/trainer_pools.c). Perfect
+  IVs, no EVs, no nicknames; all mons female (flower-gym flavor). Sun is the pool's
+  backbone: six members carry Sunny Day and four more have Chlorophyll to abuse it.
+- Levels: cap 35 (`FLAG_BADGE04_GET` row in src/caps.c). Vileplume ace Lv35 = cap;
+  the other 9 pool members Lv33 = cap-2. Pool (ability / nature / moves):
+  - VILEPLUME (ace), Effect Spore, Timid (Sleep Powder / Giga Drain / Sludge Bomb / Strength Sap)
+  - TANGROWTH, Chlorophyll, Hasty (Sunny Day / Solar Beam / Ancient Power / Earthquake)
+  - MEOWSCARADA, Overgrow, Jolly (Flower Trick / Throat Chop / Acrobatics / Low Kick)
+  - EXEGGUTOR, Chlorophyll, Timid (Sunny Day / Solar Beam / Psychic / Sludge Bomb)
+  - ROSERADE, Technician, Timid (Giga Drain / Sludge Bomb / Dazzling Gleam / Mud Shot)
+  - VICTREEBEL, Chlorophyll, Timid (Sunny Day / Solar Beam / Sludge Bomb / Weather Ball)
+  - JUMPLUFF, Chlorophyll, Jolly (Sunny Day / Leech Seed / Substitute / Acrobatics)
+  - MEGANIUM, Leaf Guard, Jolly (Leaf Blade / Earthquake / Sunny Day / Synthesis)
+  - PARASECT, Dry Skin, Adamant (Spore / Fell Stinger / Seed Bomb / Substitute) - deliberate meme pick
+  - VENUSAUR, Chlorophyll, Timid (Sunny Day / Solar Beam / Sludge Bomb / Earth Power)
 - Gimmick: canon "ladies only" flower gym, reframed - the gym women are Brock's
   "previous sponsors" (his exes) taking refuge; Erika hosts them all and is not one
   herself. Coy, cross-links the Brock arc. See ERIKA-EXES.
