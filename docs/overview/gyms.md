@@ -156,10 +156,25 @@ every battle. Code: CreateNPCTrainerPartyFromTrainer in src/battle_main.c.
 - History fragments: see SURGE-* in lore-ledger.md (payoff = S.S. Anne Captain).
 
 ## Gym 4 — Celadon (Erika, Grass) — Rainbow Badge
-- Vanilla team: (fill from data)
-- Rebalanced team: (TBD — still the vanilla-count roster, fixed team).
-- Levels (tiered, cap 29): Victreebel Lv25 (lead, cap-4), Tangela Lv27 (cap-2),
-  Vileplume Lv29 (ace, cap).
+- Vanilla team: Victreebel Lv29, Tangela Lv24, Vileplume Lv29 (fixed 3).
+- Rebalanced team: a TRAINER POOL of 10 Grass-types that fields 6 (Party Size 6,
+  Pool Rules Basic, Pool Prune Bst Match). Vileplume is the ACE (always fielded
+  last). No forced lead (Surge-style), so no cap-4 member. The other 5 slots are
+  BST-matched to the player (POOL_PRUNE_BST_MATCH in src/trainer_pools.c). Perfect
+  IVs, no EVs, no nicknames; all mons female (flower-gym flavor). Sun is the pool's
+  backbone: six members carry Sunny Day and four more have Chlorophyll to abuse it.
+- Levels: cap 35 (`FLAG_BADGE04_GET` row in src/caps.c). Vileplume ace Lv35 = cap;
+  the other 9 pool members Lv33 = cap-2. Pool (ability / nature / moves):
+  - VILEPLUME (ace), Effect Spore, Timid (Sleep Powder / Giga Drain / Sludge Bomb / Strength Sap)
+  - TANGROWTH, Chlorophyll, Hasty (Sunny Day / Solar Beam / Ancient Power / Earthquake)
+  - MEOWSCARADA, Overgrow, Jolly (Flower Trick / Throat Chop / Acrobatics / Low Kick)
+  - EXEGGUTOR, Chlorophyll, Timid (Sunny Day / Solar Beam / Psychic / Sludge Bomb)
+  - ROSERADE, Technician, Timid (Giga Drain / Sludge Bomb / Dazzling Gleam / Mud Shot)
+  - VICTREEBEL, Chlorophyll, Timid (Sunny Day / Solar Beam / Sludge Bomb / Weather Ball)
+  - JUMPLUFF, Chlorophyll, Jolly (Sunny Day / Leech Seed / Substitute / Acrobatics)
+  - MEGANIUM, Leaf Guard, Jolly (Leaf Blade / Earthquake / Sunny Day / Synthesis)
+  - PARASECT, Dry Skin, Adamant (Spore / Fell Stinger / Seed Bomb / Substitute) - deliberate meme pick
+  - VENUSAUR, Chlorophyll, Timid (Sunny Day / Solar Beam / Sludge Bomb / Earth Power)
 - Gimmick: canon "ladies only" flower gym, reframed - the gym women are Brock's
   "previous sponsors" (his exes) taking refuge; Erika hosts them all and is not one
   herself. Coy, cross-links the Brock arc. See ERIKA-EXES.
@@ -171,10 +186,24 @@ every battle. Code: CreateNPCTrainerPartyFromTrainer in src/battle_main.c.
   confirmed; NO plain telling.
 
 ## Gym 5 — Fuchsia (Koga, Poison) — Soul Badge
-- Vanilla team: (fill from data)
-- Rebalanced team: (TBD — still the vanilla-count roster, fixed team).
-- Levels (tiered, cap 43): Koffing Lv39 (lead, cap-4), Muk Lv41 (cap-2), Koffing
-  Lv41 (cap-2), Weezing Lv43 (ace, cap).
+- Vanilla team: Koffing Lv39, Muk Lv41, Koffing Lv41, Weezing Lv43 (fixed 4).
+- Rebalanced team: a TRAINER POOL of 9 Poison-types that fields 6 (Party Size 6,
+  Pool Rules Basic, Pool Prune Bst Match). Venomoth is the ACE (always fielded
+  last). No forced lead (Surge/Brock model), so no cap-4 member. The other 5 slots
+  are BST-matched to the player (POOL_PRUNE_BST_MATCH in src/trainer_pools.c).
+  Perfect IVs, no EVs, no nicknames. Kept distinct from Erika: pure-Poison +
+  Poison/other typings, zero Grass/Poison overlap.
+- Levels: cap 50 (`FLAG_BADGE05_GET` row in src/caps.c). Venomoth ace Lv50 = cap;
+  the other 8 pool members Lv48 = cap-2. Pool (ability / nature / moves):
+  - VENOMOTH (ace), Tinted Lens, Timid (Bug Buzz / Sludge Bomb / Energy Ball / Psychic)
+  - CROBAT, Inner Focus, Jolly (Acrobatics / Cross Poison / U-turn / Roost)
+  - MUK, Poison Touch, Jolly (Explosion / Shadow Punch / Poison Jab / Fire Punch)
+  - MUK-ALOLA, Poison Touch, Jolly (Knock Off / Poison Jab / Ice Punch / Explosion)
+  - WEEZING, Levitate, Timid (Toxic Spikes / Flamethrower / Sludge Bomb / Dark Pulse)
+  - DRAPION, Sniper, Jolly (Cross Poison / Night Slash / Earthquake / Aqua Tail)
+  - GARBODOR, Weak Armor, Jolly (Gunk Shot / Explosion / Seed Bomb / Drain Punch)
+  - SKUNTANK, Aftermath, Naive (Fire Blast / Sucker Punch / Gunk Shot / Poison Gas)
+  - SNEASLER, Poison Touch, Jolly (Dire Claw / Drain Punch / Acrobatics / Throat Chop)
 - Gimmick: canon invisible-wall maze, reframed - it's a deliberate PROTESTER-
   REPELLENT (petitioners who come to shout at Koga about the smog get lost and give
   up). See KOGA-REVEAL.
