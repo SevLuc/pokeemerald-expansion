@@ -7,6 +7,7 @@
 #include "random.h"
 #include "string_util.h"
 #include "trainer_pools.h"
+#include "caps.h"
 #include "constants/item.h"
 #include "constants/abilities.h"
 #include "constants/trainers.h"
@@ -354,6 +355,23 @@ TEST("trainerproc supports both Double Battle: Yes and Battle Type: Doubles")
     PARAMETRIZE { currTrainer = 13; }
     const struct Trainer *trainer = GetTrainerStructFromId(currTrainer);
     EXPECT(trainer->battleType == TRAINER_BATTLE_TYPE_DOUBLES);
+}
+
+TEST("Trainer Party Pool gym leader tiers fielded levels off the level cap (ace=cap, lead=cap-4, rest=cap-2)")
+{
+    //  Trainer 20 is a Leader-class pool. Its authored levels are all 50, but a
+    //  pool gym leader has its fielded levels derived from the current cap at
+    //  battle time: the Ace-tagged mon sits at the cap, the opener (the Lead-tagged
+    //  Magikarp) at cap-4, and every other member at cap-2. Assertions are relative
+    //  to the cap so they hold whatever level cap the test harness resolves.
+    u32 cap = GetCurrentLevelCap();
+    ASSUME(cap > 4);
+    struct Pokemon *testParty = Alloc(6 * sizeof(struct Pokemon));
+    CreateNPCTrainerPartyFromTrainer(testParty, GetTrainerStructFromId(20), FALSE, BATTLE_TYPE_TRAINER);
+    EXPECT(GetMonData(&testParty[0], MON_DATA_LEVEL) == cap - 4);  //  opener / lead
+    EXPECT(GetMonData(&testParty[1], MON_DATA_LEVEL) == cap - 2);  //  the rest
+    EXPECT(GetMonData(&testParty[2], MON_DATA_LEVEL) == cap);      //  ace, always last
+    Free(testParty);
 }
 
 TEST("CreateNPCTrainerPartyForTrainer generates default moves if no moves are specified")

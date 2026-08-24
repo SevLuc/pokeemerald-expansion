@@ -397,3 +397,27 @@ Level: 50
 Ability: Snow Warning
 
 Eevee
+
+=== 20 ===
+Name: Test17
+Class: Leader
+Pic: Red
+Gender: Male
+Music: Male
+Battle Type: Singles
+Party Size: 3
+Pool Rules: Basic
+
+Magikarp
+Level: 50
+Tags: Lead
+
+Eevee
+Level: 50
+
+Snorlax
+Level: 50
+
+Wobbuffet
+Level: 50
+Tags: Ace

@@ -9,10 +9,15 @@ history to docs/writing/lore-ledger.md.
 > team (`_2`) and lore fragments are still TODO. Build + playtest on Mac.
 
 ## Planned level tiers (NOT yet applied)
-The E4 + Champion will be rebuilt as draw pools like the gym leaders (ace at cap,
-cap-2 bulk, cap-4 lead only where a `Tags: Lead` mon exists). When those teams are
-built, tier the fielded 6 to these target spreads. Levels not applied to the
-current trainer data yet - noted here for the rebuild:
+The E4 + Champion will be rebuilt as draw pools like the gym leaders, keeping the
+same ace / lead tags for GENERATION (ace always fielded and sent out last; a `Tags:
+Lead` mon only where one must open). LEVELS, however, are the deliberate exception:
+unlike the gym leaders, the E4 does NOT snap to the level cap. Every E4 fight shares
+cap 72, but the members climb toward the Champion, so their levels are authored
+per-member in the trainer data and are NOT derived by code. The gym cap-tiering in
+CreateNPCTrainerPartyFromTrainer explicitly skips the Elite Four / Champion classes
+for exactly this reason (see the `isPoolGymLeader` gate). Author the fielded 6 to
+these target spreads directly in trainers_frlg.party:
 
 | Fight | Fielded-6 levels (lead - ace) |
 |--|--|
@@ -22,8 +27,9 @@ current trainer data yet - noted here for the rebuild:
 | Lance | 64 / 66 / 66 / 66 / 67 / 69 |
 | Champion | 67 / 68 / 69 / 70 / 70 / 72 |
 
-Current data (unchanged): Lorelei pool all Lv72; Bruno/Agatha/Lance vanilla 5-mon
-teams; Champion 3 variants ~Lv57-63.
+Current data (unchanged): Lorelei pool all Lv72 (author the 60-63 spread above when
+building the fielded set); Bruno/Agatha/Lance vanilla 5-mon teams; Champion 3
+variants ~Lv57-63.
 
 ## Lorelei (Ice) - first E4 member
 - Trainer: `TRAINER_ELITE_FOUR_LORELEI` (rematch `TRAINER_ELITE_FOUR_LORELEI_2`, TODO).
