@@ -4288,7 +4288,8 @@ Hoothoot (Hoothoot)
 Level: 9
 Ability: Insomnia
 Status: STATUS1_SLEEP_TURN(3)
-IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+Nature: Jolly
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Peck
 - Tackle
 - Growl
@@ -4296,13 +4297,15 @@ IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 
 Magikarp (Magikarp)
 Level: 9
-IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+Nature: Jolly
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Splash
 
 Methfather (Shroomish)
 Level: 9
 Status: STATUS1_FREEZE
-IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+Nature: Timid
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Absorb
 - Tackle
 - Stun Spore
@@ -4310,7 +4313,8 @@ IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 Bananafan (Skitty)
 Level: 9
 Status: STATUS1_SLEEP_TURN(3)
-IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+Nature: Jolly
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Fake Out
 - Tackle
 - Growl
@@ -4338,7 +4342,8 @@ Hoothoot (Hoothoot)
 Level: 9
 Ability: Insomnia
 Status: STATUS1_SLEEP_TURN(3)
-IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+Nature: Jolly
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Peck
 - Tackle
 - Growl
@@ -4346,13 +4351,15 @@ IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 
 Magikarp (Magikarp)
 Level: 9
-IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+Nature: Jolly
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Splash
 
 Methfather (Shroomish)
 Level: 9
 Status: STATUS1_FREEZE
-IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+Nature: Timid
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Absorb
 - Tackle
 - Stun Spore
@@ -4360,7 +4367,8 @@ IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 Bananafan (Skitty)
 Level: 9
 Status: STATUS1_SLEEP_TURN(3)
-IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+Nature: Jolly
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Fake Out
 - Tackle
 - Growl
@@ -4388,7 +4396,8 @@ Hoothoot (Hoothoot)
 Level: 9
 Ability: Insomnia
 Status: STATUS1_SLEEP_TURN(3)
-IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+Nature: Jolly
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Peck
 - Tackle
 - Growl
@@ -4396,13 +4405,15 @@ IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 
 Magikarp (Magikarp)
 Level: 9
-IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+Nature: Jolly
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Splash
 
 Methfather (Shroomish)
 Level: 9
 Status: STATUS1_FREEZE
-IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+Nature: Timid
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Absorb
 - Tackle
 - Stun Spore
@@ -4410,7 +4421,8 @@ IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 Bananafan (Skitty)
 Level: 9
 Status: STATUS1_SLEEP_TURN(3)
-IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+Nature: Jolly
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Fake Out
 - Tackle
 - Growl
