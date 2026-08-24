@@ -4224,11 +4224,13 @@ Music: Male
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
-Squirtle
+ELECTAFART (Elekid)
 Level: 5
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Tackle
-- Tail Whip
+Nature: Hasty
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Quick Attack
+- Leer
+- Thunder Shock
 
 === TRAINER_RIVAL_OAKS_LAB_BULBASAUR ===
 Name: TERRY
@@ -4239,11 +4241,13 @@ Music: Male
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
-Bulbasaur
+ELECTAFART (Elekid)
 Level: 5
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Tackle
-- Growl
+Nature: Hasty
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Quick Attack
+- Leer
+- Thunder Shock
 
 === TRAINER_RIVAL_OAKS_LAB_CHARMANDER ===
 Name: TERRY
@@ -4254,11 +4258,13 @@ Music: Male
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
-Charmander
+ELECTAFART (Elekid)
 Level: 5
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Scratch
-- Growl
+Nature: Hasty
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Quick Attack
+- Leer
+- Thunder Shock
 
 === TRAINER_RIVAL_ROUTE22_EARLY_SQUIRTLE ===
 Name: TERRY
@@ -4269,17 +4275,50 @@ Music: Male
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
-Pidgey
-Level: 11
-IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
-- Tackle
-- Sand Attack
+ELECTAFART (Elekid)
+Level: 9
+Nature: Hasty
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Quick Attack
+- Leer
+- Thunder Shock
+- Karate Chop
 
-Squirtle
-Level: 12
-IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+HOOTHOOT (Hoothoot)
+Level: 9
+Ability: Insomnia
+Status: STATUS1_SLEEP_TURN(3)
+Nature: Jolly
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Peck
 - Tackle
-- Tail Whip
+- Growl
+- Hypnosis
+
+MAGIKARP (Magikarp)
+Level: 9
+Nature: Jolly
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Splash
+
+METHFATHER (Shroomish)
+Level: 9
+Status: STATUS1_FREEZE
+Nature: Timid
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Absorb
+- Tackle
+- Stun Spore
+
+BANANAFAN (Skitty)
+Level: 9
+Status: STATUS1_SLEEP_TURN(3)
+Nature: Jolly
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Fake Out
+- Tackle
+- Growl
+- Attract
 
 === TRAINER_RIVAL_ROUTE22_EARLY_BULBASAUR ===
 Name: TERRY
@@ -4290,17 +4329,50 @@ Music: Male
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
-Pidgey
-Level: 11
-IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
-- Tackle
-- Sand Attack
+ELECTAFART (Elekid)
+Level: 9
+Nature: Hasty
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Quick Attack
+- Leer
+- Thunder Shock
+- Karate Chop
 
-Bulbasaur
-Level: 12
-IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+HOOTHOOT (Hoothoot)
+Level: 9
+Ability: Insomnia
+Status: STATUS1_SLEEP_TURN(3)
+Nature: Jolly
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Peck
 - Tackle
 - Growl
+- Hypnosis
+
+MAGIKARP (Magikarp)
+Level: 9
+Nature: Jolly
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Splash
+
+METHFATHER (Shroomish)
+Level: 9
+Status: STATUS1_FREEZE
+Nature: Timid
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Absorb
+- Tackle
+- Stun Spore
+
+BANANAFAN (Skitty)
+Level: 9
+Status: STATUS1_SLEEP_TURN(3)
+Nature: Jolly
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Fake Out
+- Tackle
+- Growl
+- Attract
 
 === TRAINER_RIVAL_ROUTE22_EARLY_CHARMANDER ===
 Name: TERRY
@@ -4311,17 +4383,50 @@ Music: Male
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
-Pidgey
-Level: 11
-IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
-- Tackle
-- Sand Attack
+ELECTAFART (Elekid)
+Level: 9
+Nature: Hasty
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Quick Attack
+- Leer
+- Thunder Shock
+- Karate Chop
 
-Charmander
-Level: 12
-IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
-- Scratch
+HOOTHOOT (Hoothoot)
+Level: 9
+Ability: Insomnia
+Status: STATUS1_SLEEP_TURN(3)
+Nature: Jolly
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Peck
+- Tackle
 - Growl
+- Hypnosis
+
+MAGIKARP (Magikarp)
+Level: 9
+Nature: Jolly
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Splash
+
+METHFATHER (Shroomish)
+Level: 9
+Status: STATUS1_FREEZE
+Nature: Timid
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Absorb
+- Tackle
+- Stun Spore
+
+BANANAFAN (Skitty)
+Level: 9
+Status: STATUS1_SLEEP_TURN(3)
+Nature: Jolly
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Fake Out
+- Tackle
+- Growl
+- Attract
 
 === TRAINER_RIVAL_CERULEAN_SQUIRTLE ===
 Name: TERRY
@@ -4332,33 +4437,65 @@ Music: Male
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
-Pidgeotto
+BILLCLINTN (Swellow)
 Level: 18
-IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
-- Tackle
-- Sand Attack
-- Gust
+Ability: Scrappy
+Nature: Naive
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Aerial Ace
 - Quick Attack
+- Steel Wing
+- U-turn
 
-Abra
-Level: 16
-IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
-- Teleport
-
-Rattata
-Level: 15
-IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
-- Tackle
-- Tail Whip
+SIXTEN (Raticate)
+Level: 20
+Ability: Hustle
+Nature: Jolly
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Hyper Fang
+- Bite
 - Quick Attack
+- Mud-Slap
 
-Squirtle
+SUPERSIMES (Barboach)
+Level: 19
+Ability: Oblivious
+Nature: Naive
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Water Pulse
+- Magnitude
+- Icy Wind
+- Spark
+
+JIMMYJON (Marshtomp)
+Level: 19
+Ability: Torrent
+Nature: Timid
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Mud Shot
+- Water Pulse
+- Ice Punch
+- Rock Tomb
+
+BALLSACK (Magnemite)
 Level: 18
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-- Tackle
-- Tail Whip
-- Withdraw
-- Water Gun
+Ability: Magnet Pull
+Nature: Naive
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Magnet Bomb
+- Shock Wave
+- Endure
+- Explosion
+
+ELETASHART (Elekid)
+Level: 21
+Ability: Static
+Nature: Naive
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Shock Wave
+- Brick Break
+- Ice Punch
+- Fire Punch
 
 === TRAINER_RIVAL_CERULEAN_BULBASAUR ===
 Name: TERRY
@@ -4369,33 +4506,65 @@ Music: Male
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
-Pidgeotto
+BILLCLINTN (Swellow)
 Level: 18
-IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
-- Tackle
-- Sand Attack
-- Gust
+Ability: Scrappy
+Nature: Naive
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Aerial Ace
 - Quick Attack
+- Steel Wing
+- U-turn
 
-Abra
-Level: 16
-IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
-- Teleport
-
-Rattata
-Level: 15
-IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
-- Tackle
-- Tail Whip
+SIXTEN (Raticate)
+Level: 20
+Ability: Hustle
+Nature: Jolly
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Hyper Fang
+- Bite
 - Quick Attack
+- Mud-Slap
 
-Bulbasaur
+SUPERSIMES (Barboach)
+Level: 19
+Ability: Oblivious
+Nature: Naive
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Water Pulse
+- Magnitude
+- Icy Wind
+- Spark
+
+JIMMYJON (Marshtomp)
+Level: 19
+Ability: Torrent
+Nature: Timid
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Mud Shot
+- Water Pulse
+- Ice Punch
+- Rock Tomb
+
+BALLSACK (Magnemite)
 Level: 18
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-- Sleep Powder
-- Poison Powder
-- Vine Whip
-- Leech Seed
+Ability: Magnet Pull
+Nature: Naive
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Magnet Bomb
+- Shock Wave
+- Endure
+- Explosion
+
+ELETASHART (Elekid)
+Level: 21
+Ability: Static
+Nature: Naive
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Shock Wave
+- Brick Break
+- Ice Punch
+- Fire Punch
 
 === TRAINER_RIVAL_CERULEAN_CHARMANDER ===
 Name: TERRY
@@ -4406,33 +4575,65 @@ Music: Male
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
-Pidgeotto
+BILLCLINTN (Swellow)
 Level: 18
-IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
-- Tackle
-- Sand Attack
-- Gust
+Ability: Scrappy
+Nature: Naive
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Aerial Ace
 - Quick Attack
+- Steel Wing
+- U-turn
 
-Abra
-Level: 16
-IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
-- Teleport
-
-Rattata
-Level: 15
-IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
-- Tackle
-- Tail Whip
+SIXTEN (Raticate)
+Level: 20
+Ability: Hustle
+Nature: Jolly
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Hyper Fang
+- Bite
 - Quick Attack
+- Mud-Slap
 
-Charmander
+SUPERSIMES (Barboach)
+Level: 19
+Ability: Oblivious
+Nature: Naive
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Water Pulse
+- Magnitude
+- Icy Wind
+- Spark
+
+JIMMYJON (Marshtomp)
+Level: 19
+Ability: Torrent
+Nature: Timid
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Mud Shot
+- Water Pulse
+- Ice Punch
+- Rock Tomb
+
+BALLSACK (Magnemite)
 Level: 18
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-- Metal Claw
-- Ember
-- Growl
-- Scratch
+Ability: Magnet Pull
+Nature: Naive
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Magnet Bomb
+- Shock Wave
+- Endure
+- Explosion
+
+ELETASHART (Elekid)
+Level: 21
+Ability: Static
+Nature: Naive
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Shock Wave
+- Brick Break
+- Ice Punch
+- Fire Punch
 
 === TRAINER_SCIENTIST_TED ===
 Name: TED
@@ -6583,7 +6784,7 @@ Party Size: 6
 Pool Rules: Basic
 Pool Prune: Bst Match
 
-goku turd (SPECIES_GEODUDE_ALOLA) (F)
+GOKU TURD (SPECIES_GEODUDE_ALOLA) (F)
 Level: 12
 Ability: Galvanize
 Nature: Jolly
@@ -6613,7 +6814,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Mud Shot
 - Spikes
 
-Supa Burd (Aerodactyl) (F)
+SUPA BURD (Aerodactyl) (F)
 Level: 12
 Ability: Pressure
 Nature: Jolly
@@ -6633,7 +6834,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Bulldoze
 - Body Press
 
-sexy dawg (Rockruff) (F)
+SEXY DAWG (Rockruff) (F)
 Level: 12
 Ability: Vital Spirit
 Nature: Jolly
@@ -6653,7 +6854,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Wild Charge
 - Morning Sun
 
-sexy turt (Chewtle) (F)
+SEXY TURT (Chewtle) (F)
 Level: 12
 Ability: Strong Jaw
 Nature: Jolly
@@ -6663,7 +6864,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Ice Fang
 - Attract
 
-LongTurd (Onix) (F)
+LONGTURD (Onix) (F)
 Level: 14
 Ability: Sturdy
 Tags: Ace
@@ -7146,21 +7347,65 @@ Music: Male
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
-Pidgeotto
-Level: 19
-IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+BILLCLINTN (Swellow)
+Level: 23
+Ability: Scrappy
+Nature: Naive
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Aerial Ace
+- Quick Attack
+- Roost
+- U-turn
 
-Raticate
-Level: 20
-IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+SIXTEN (Raticate)
+Level: 23
+Ability: Hustle
+Nature: Jolly
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Hyper Fang
+- Throat Chop
+- Quick Attack
+- Mud-Slap
 
-Kadabra
-Level: 18
-IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+MTSUCAMORE (Victreebel)
+Level: 24
+Ability: Chlorophyll
+Nature: Naive
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Seed Bomb
+- Sludge Bomb
+- Sleep Powder
+- Sucker Punch
 
-Wartortle
-Level: 20
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+JIMMYJON (Marshtomp)
+Level: 24
+Ability: Torrent
+Nature: Timid
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Mud Shot
+- Water Pulse
+- Ice Punch
+- Rock Tomb
+
+BALDKING (Poliwhirl)
+Level: 25
+Ability: Water Absorb
+Nature: Naive
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Water Pulse
+- Ice Punch
+- Mud Shot
+- Brick Break
+
+ELETASHART (Electabuzz)
+Level: 26
+Ability: Static
+Nature: Jolly
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Thunder Punch
+- Fire Punch
+- Cross Chop
+- Ice Punch
 
 === TRAINER_RIVAL_SS_ANNE_BULBASAUR ===
 Name: TERRY
@@ -7171,21 +7416,65 @@ Music: Male
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
-Pidgeotto
-Level: 19
-IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+BILLCLINTN (Swellow)
+Level: 23
+Ability: Scrappy
+Nature: Naive
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Aerial Ace
+- Quick Attack
+- Roost
+- U-turn
 
-Raticate
-Level: 20
-IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+SIXTEN (Raticate)
+Level: 23
+Ability: Hustle
+Nature: Jolly
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Hyper Fang
+- Throat Chop
+- Quick Attack
+- Mud-Slap
 
-Kadabra
-Level: 18
-IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+MTSUCAMORE (Victreebel)
+Level: 24
+Ability: Chlorophyll
+Nature: Naive
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Seed Bomb
+- Sludge Bomb
+- Sleep Powder
+- Sucker Punch
 
-Ivysaur
-Level: 20
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+JIMMYJON (Marshtomp)
+Level: 24
+Ability: Torrent
+Nature: Timid
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Mud Shot
+- Water Pulse
+- Ice Punch
+- Rock Tomb
+
+BALDKING (Poliwhirl)
+Level: 25
+Ability: Water Absorb
+Nature: Naive
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Water Pulse
+- Ice Punch
+- Mud Shot
+- Brick Break
+
+ELETASHART (Electabuzz)
+Level: 26
+Ability: Static
+Nature: Jolly
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Thunder Punch
+- Fire Punch
+- Cross Chop
+- Ice Punch
 
 === TRAINER_RIVAL_SS_ANNE_CHARMANDER ===
 Name: TERRY
@@ -7196,21 +7485,65 @@ Music: Male
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
-Pidgeotto
-Level: 19
-IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+BILLCLINTN (Swellow)
+Level: 23
+Ability: Scrappy
+Nature: Naive
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Aerial Ace
+- Quick Attack
+- Roost
+- U-turn
 
-Raticate
-Level: 20
-IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+SIXTEN (Raticate)
+Level: 23
+Ability: Hustle
+Nature: Jolly
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Hyper Fang
+- Throat Chop
+- Quick Attack
+- Mud-Slap
 
-Kadabra
-Level: 18
-IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+MTSUCAMORE (Victreebel)
+Level: 24
+Ability: Chlorophyll
+Nature: Naive
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Seed Bomb
+- Sludge Bomb
+- Sleep Powder
+- Sucker Punch
 
-Charmeleon
-Level: 20
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+JIMMYJON (Marshtomp)
+Level: 24
+Ability: Torrent
+Nature: Timid
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Mud Shot
+- Water Pulse
+- Ice Punch
+- Rock Tomb
+
+BALDKING (Poliwhirl)
+Level: 25
+Ability: Water Absorb
+Nature: Naive
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Water Pulse
+- Ice Punch
+- Mud Shot
+- Brick Break
+
+ELETASHART (Electabuzz)
+Level: 26
+Ability: Static
+Nature: Jolly
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Thunder Punch
+- Fire Punch
+- Cross Chop
+- Ice Punch
 
 === TRAINER_RIVAL_POKEMON_TOWER_SQUIRTLE ===
 Name: TERRY
@@ -7221,25 +7554,65 @@ Music: Male
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
-Pidgeotto
-Level: 25
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+MANNIZ (Persian)
+Level: 34
+Ability: Technician
+Nature: Jolly
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Fake Out
+- U-turn
+- Body Slam
+- Bite
 
-Growlithe
-Level: 23
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+SUPERSYMES (Whiscash)
+Level: 36
+Ability: Oblivious
+Nature: Naive
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Earthquake
+- Aqua Tail
+- Ice Beam
+- Rock Slide
 
-Exeggcute
-Level: 22
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+MTSUCAMORE (Victreebel)
+Level: 36
+Ability: Chlorophyll
+Nature: Naive
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Seed Bomb
+- Sludge Bomb
+- Sleep Powder
+- Sucker Punch
 
-Kadabra
-Level: 20
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+WETFART (Milotic)
+Level: 36
+Ability: Marvel Scale
+Nature: Timid
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Scald
+- Ice Beam
+- Recover
+- Mirror Coat
 
-Wartortle
-Level: 25
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+BALLSACK (Magneton)
+Level: 36
+Ability: Sturdy
+Nature: Timid
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Thunderbolt
+- Flash Cannon
+- Thunder Wave
+- Magnet Rise
+
+ELETASHART (Electabuzz)
+Level: 38
+Ability: Static
+Nature: Naive
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Thunderbolt
+- Fire Punch
+- Ice Punch
+- Cross Chop
 
 === TRAINER_RIVAL_POKEMON_TOWER_BULBASAUR ===
 Name: TERRY
@@ -7250,25 +7623,65 @@ Music: Male
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
-Pidgeotto
-Level: 25
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+MANNIZ (Persian)
+Level: 34
+Ability: Technician
+Nature: Jolly
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Fake Out
+- U-turn
+- Body Slam
+- Bite
 
-Gyarados
-Level: 23
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+SUPERSYMES (Whiscash)
+Level: 36
+Ability: Oblivious
+Nature: Naive
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Earthquake
+- Aqua Tail
+- Ice Beam
+- Rock Slide
 
-Growlithe
-Level: 22
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+MTSUCAMORE (Victreebel)
+Level: 36
+Ability: Chlorophyll
+Nature: Naive
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Seed Bomb
+- Sludge Bomb
+- Sleep Powder
+- Sucker Punch
 
-Kadabra
-Level: 20
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+WETFART (Milotic)
+Level: 36
+Ability: Marvel Scale
+Nature: Timid
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Scald
+- Ice Beam
+- Recover
+- Mirror Coat
 
-Ivysaur
-Level: 25
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+BALLSACK (Magneton)
+Level: 36
+Ability: Sturdy
+Nature: Timid
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Thunderbolt
+- Flash Cannon
+- Thunder Wave
+- Magnet Rise
+
+ELETASHART (Electabuzz)
+Level: 38
+Ability: Static
+Nature: Naive
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Thunderbolt
+- Fire Punch
+- Ice Punch
+- Cross Chop
 
 === TRAINER_RIVAL_POKEMON_TOWER_CHARMANDER ===
 Name: TERRY
@@ -7279,25 +7692,65 @@ Music: Male
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
-Pidgeotto
-Level: 25
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+MANNIZ (Persian)
+Level: 34
+Ability: Technician
+Nature: Jolly
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Fake Out
+- U-turn
+- Body Slam
+- Bite
 
-Exeggcute
-Level: 23
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+SUPERSYMES (Whiscash)
+Level: 36
+Ability: Oblivious
+Nature: Naive
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Earthquake
+- Aqua Tail
+- Ice Beam
+- Rock Slide
 
-Gyarados
-Level: 22
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+MTSUCAMORE (Victreebel)
+Level: 36
+Ability: Chlorophyll
+Nature: Naive
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Seed Bomb
+- Sludge Bomb
+- Sleep Powder
+- Sucker Punch
 
-Kadabra
-Level: 20
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+WETFART (Milotic)
+Level: 36
+Ability: Marvel Scale
+Nature: Timid
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Scald
+- Ice Beam
+- Recover
+- Mirror Coat
 
-Charmeleon
-Level: 25
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+BALLSACK (Magneton)
+Level: 36
+Ability: Sturdy
+Nature: Timid
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Thunderbolt
+- Flash Cannon
+- Thunder Wave
+- Magnet Rise
+
+ELETASHART (Electabuzz)
+Level: 38
+Ability: Static
+Nature: Naive
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Thunderbolt
+- Fire Punch
+- Ice Punch
+- Cross Chop
 
 === TRAINER_RIVAL_SILPH_SQUIRTLE ===
 Name: TERRY
@@ -7308,25 +7761,65 @@ Music: Male
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
-Pidgeot
-Level: 37
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+TURD (Golem)
+Level: 46
+Ability: Sturdy
+Nature: Adamant
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Earthquake
+- Rock Slide
+- Sucker Punch
+- Fire Punch
 
-Growlithe
-Level: 38
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+SIKELFAN (Alakazam)
+Level: 48
+Ability: Magic Guard
+Nature: Timid
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Psychic
+- Shadow Ball
+- Dazzling Gleam
+- Hyper Beam
 
-Exeggcute
-Level: 35
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+DR. SIKEL (Snorlax)
+Level: 49
+Ability: Thick Fat
+Nature: Relaxed
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Body Slam
+- Earthquake
+- Rest
+- Sleep Talk
 
-Alakazam
-Level: 35
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+WETFART (Milotic)
+Level: 47
+Ability: Marvel Scale
+Nature: Timid
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Scald
+- Ice Beam
+- Recover
+- Flip Turn
 
-Blastoise
-Level: 40
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+BALLSACK (Magneton)
+Level: 47
+Ability: Sturdy
+Nature: Timid
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Thunderbolt
+- Flash Cannon
+- Thunder Wave
+- Magnet Rise
+
+HELLYA (Lapras)
+Level: 48
+Ability: Shell Armor
+Nature: Timid
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Freeze-Dry
+- Surf
+- Psychic
+- Thunderbolt
 
 === TRAINER_RIVAL_SILPH_BULBASAUR ===
 Name: TERRY
@@ -7337,25 +7830,65 @@ Music: Male
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
-Pidgeot
-Level: 37
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+TURD (Golem)
+Level: 46
+Ability: Sturdy
+Nature: Adamant
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Earthquake
+- Rock Slide
+- Sucker Punch
+- Fire Punch
 
-Gyarados
-Level: 38
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+SIKELFAN (Alakazam)
+Level: 48
+Ability: Magic Guard
+Nature: Timid
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Psychic
+- Shadow Ball
+- Dazzling Gleam
+- Hyper Beam
 
-Growlithe
-Level: 35
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+DR. SIKEL (Snorlax)
+Level: 49
+Ability: Thick Fat
+Nature: Relaxed
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Body Slam
+- Earthquake
+- Rest
+- Sleep Talk
 
-Alakazam
-Level: 35
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+WETFART (Milotic)
+Level: 47
+Ability: Marvel Scale
+Nature: Timid
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Scald
+- Ice Beam
+- Recover
+- Flip Turn
 
-Venusaur
-Level: 40
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+BALLSACK (Magneton)
+Level: 47
+Ability: Sturdy
+Nature: Timid
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Thunderbolt
+- Flash Cannon
+- Thunder Wave
+- Magnet Rise
+
+HELLYA (Lapras)
+Level: 48
+Ability: Shell Armor
+Nature: Timid
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Freeze-Dry
+- Surf
+- Psychic
+- Thunderbolt
 
 === TRAINER_RIVAL_SILPH_CHARMANDER ===
 Name: TERRY
@@ -7366,25 +7899,65 @@ Music: Male
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
-Pidgeot
-Level: 37
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+TURD (Golem)
+Level: 46
+Ability: Sturdy
+Nature: Adamant
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Earthquake
+- Rock Slide
+- Sucker Punch
+- Fire Punch
 
-Exeggcute
-Level: 38
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+SIKELFAN (Alakazam)
+Level: 48
+Ability: Magic Guard
+Nature: Timid
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Psychic
+- Shadow Ball
+- Dazzling Gleam
+- Hyper Beam
 
-Gyarados
-Level: 35
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+DR. SIKEL (Snorlax)
+Level: 49
+Ability: Thick Fat
+Nature: Relaxed
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Body Slam
+- Earthquake
+- Rest
+- Sleep Talk
 
-Alakazam
-Level: 35
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+WETFART (Milotic)
+Level: 47
+Ability: Marvel Scale
+Nature: Timid
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Scald
+- Ice Beam
+- Recover
+- Flip Turn
 
-Charizard
-Level: 40
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+BALLSACK (Magneton)
+Level: 47
+Ability: Sturdy
+Nature: Timid
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Thunderbolt
+- Flash Cannon
+- Thunder Wave
+- Magnet Rise
+
+HELLYA (Lapras)
+Level: 48
+Ability: Shell Armor
+Nature: Timid
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Freeze-Dry
+- Surf
+- Psychic
+- Thunderbolt
 
 === TRAINER_RIVAL_ROUTE22_LATE_SQUIRTLE ===
 Name: TERRY
@@ -7395,53 +7968,65 @@ Music: Male
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
-Pidgeot
-Level: 47
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
-- Feather Dance
-- Wing Attack
-- Gust
-- Quick Attack
+UVWXY (Ludicolo)
+Level: 56
+Ability: Own Tempo
+Nature: Timid
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Giga Drain
+- Ice Beam
+- Scald
+- Leech Seed
 
-Rhyhorn
-Level: 45
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
-- Take Down
-- Horn Drill
-- Rock Blast
-- Fury Attack
+TURD (Golem)
+Level: 59
+Ability: Sturdy
+Nature: Adamant
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Earthquake
+- Rock Slide
+- Sucker Punch
+- Fire Punch
 
-Growlithe
-Level: 45
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
-- Flame Wheel
-- Take Down
-- Leer
-- Agility
+POKWO (Dragonite)
+Level: 59
+Ability: Multiscale
+Nature: Jolly
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Outrage
+- Extreme Speed
+- Earthquake
+- Dual Wingbeat
 
-Exeggcute
-Level: 45
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
-- Solar Beam
-- Sleep Powder
-- Poison Powder
-- Stun Spore
+DAWG_SR (Hitmonchan)
+Level: 58
+Ability: Iron Fist
+Nature: Jolly
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Close Combat
+- Ice Punch
+- Mach Punch
+- Earthquake
 
-Alakazam
-Level: 47
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
-- Psychic
-- Calm Mind
-- Future Sight
-- Disable
+SUPERSYMES (Whiscash)
+Level: 58
+Ability: Oblivious
+Nature: Naive
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Earthquake
+- Aqua Tail
+- Ice Beam
+- Rock Slide
 
-Blastoise
-Level: 53
-IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
-- Water Gun
-- Rain Dance
-- Bite
-- Rapid Spin
+ELETASHART (Electabuzz)
+Level: 61
+Ability: Static
+Nature: Naive
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Thunderbolt
+- Fire Punch
+- Ice Punch
+- Cross Chop
 
 === TRAINER_RIVAL_ROUTE22_LATE_BULBASAUR ===
 Name: TERRY
@@ -7452,53 +8037,65 @@ Music: Male
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
-Pidgeot
-Level: 47
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
-- Feather Dance
-- Wing Attack
-- Gust
-- Quick Attack
+UVWXY (Ludicolo)
+Level: 56
+Ability: Own Tempo
+Nature: Timid
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Giga Drain
+- Ice Beam
+- Scald
+- Leech Seed
 
-Rhyhorn
-Level: 45
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
-- Take Down
-- Horn Drill
-- Rock Blast
-- Fury Attack
+TURD (Golem)
+Level: 59
+Ability: Sturdy
+Nature: Adamant
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Earthquake
+- Rock Slide
+- Sucker Punch
+- Fire Punch
 
-Gyarados
-Level: 45
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
-- Hydro Pump
-- Twister
-- Leer
-- Rain Dance
+POKWO (Dragonite)
+Level: 59
+Ability: Multiscale
+Nature: Jolly
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Outrage
+- Extreme Speed
+- Earthquake
+- Dual Wingbeat
 
-Growlithe
-Level: 45
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
-- Flame Wheel
-- Take Down
-- Leer
-- Agility
+DAWG_SR (Hitmonchan)
+Level: 58
+Ability: Iron Fist
+Nature: Jolly
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Close Combat
+- Ice Punch
+- Mach Punch
+- Earthquake
 
-Alakazam
-Level: 47
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
-- Psychic
-- Calm Mind
-- Future Sight
-- Disable
+SUPERSYMES (Whiscash)
+Level: 58
+Ability: Oblivious
+Nature: Naive
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Earthquake
+- Aqua Tail
+- Ice Beam
+- Rock Slide
 
-Venusaur
-Level: 53
-IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
-- Razor Leaf
-- Sweet Scent
-- Growth
-- Synthesis
+ELETASHART (Electabuzz)
+Level: 61
+Ability: Static
+Nature: Naive
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Thunderbolt
+- Fire Punch
+- Ice Punch
+- Cross Chop
 
 === TRAINER_RIVAL_ROUTE22_LATE_CHARMANDER ===
 Name: TERRY
@@ -7509,53 +8106,65 @@ Music: Male
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
-Pidgeot
-Level: 47
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
-- Feather Dance
-- Wing Attack
-- Gust
-- Quick Attack
+UVWXY (Ludicolo)
+Level: 56
+Ability: Own Tempo
+Nature: Timid
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Giga Drain
+- Ice Beam
+- Scald
+- Leech Seed
 
-Rhyhorn
-Level: 45
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
-- Take Down
-- Horn Drill
-- Rock Blast
-- Fury Attack
+TURD (Golem)
+Level: 59
+Ability: Sturdy
+Nature: Adamant
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Earthquake
+- Rock Slide
+- Sucker Punch
+- Fire Punch
 
-Exeggcute
-Level: 45
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
-- Solar Beam
-- Sleep Powder
-- Poison Powder
-- Stun Spore
+POKWO (Dragonite)
+Level: 59
+Ability: Multiscale
+Nature: Jolly
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Outrage
+- Extreme Speed
+- Earthquake
+- Dual Wingbeat
 
-Gyarados
-Level: 45
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
-- Hydro Pump
-- Twister
-- Leer
-- Rain Dance
+DAWG_SR (Hitmonchan)
+Level: 58
+Ability: Iron Fist
+Nature: Jolly
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Close Combat
+- Ice Punch
+- Mach Punch
+- Earthquake
 
-Alakazam
-Level: 47
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
-- Psychic
-- Calm Mind
-- Future Sight
-- Disable
+SUPERSYMES (Whiscash)
+Level: 58
+Ability: Oblivious
+Nature: Naive
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Earthquake
+- Aqua Tail
+- Ice Beam
+- Rock Slide
 
-Charizard
-Level: 53
-IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
-- Flamethrower
-- Wing Attack
-- Slash
-- Scary Face
+ELETASHART (Electabuzz)
+Level: 61
+Ability: Static
+Nature: Naive
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Thunderbolt
+- Fire Punch
+- Ice Punch
+- Cross Chop
 
 === TRAINER_CHAMPION_FIRST_SQUIRTLE ===
 Name: TERRY
@@ -7568,53 +8177,65 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 Mugshot: Yellow
 
-Pidgeot
-Level: 59
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Aerial Ace
-- Feather Dance
-- Sand Attack
-- Whirlwind
-
-Alakazam
-Level: 57
+POGZAM (Alakazam)
+Level: 67
+Ability: Magic Guard
+Nature: Timid
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Psychic
-- Future Sight
-- Recover
-- Reflect
+- Shadow Ball
+- Dazzling Gleam
+- Hyper Beam
 
-Rhydon
-Level: 59
+TURD (Golem)
+Level: 68
+Ability: Sturdy
+Nature: Adamant
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Take Down
 - Earthquake
-- Rock Tomb
-- Scary Face
+- Rock Slide
+- Sucker Punch
+- Fire Punch
 
-Arcanine
-Level: 59
+POKWO (Dragonite)
+Level: 70
+Ability: Multiscale
+Nature: Jolly
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Outrage
 - Extreme Speed
-- Flamethrower
-- Roar
-- Bite
+- Earthquake
+- Dual Wingbeat
 
-Exeggutor
-Level: 61
+DAWG_SR (Hitmonchan)
+Level: 69
+Ability: Iron Fist
+Nature: Jolly
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Giga Drain
-- Egg Bomb
-- Sleep Powder
-- Light Screen
+- Close Combat
+- Ice Punch
+- Mach Punch
+- Earthquake
 
-Blastoise @ Sitrus Berry
-Level: 63
+SUPERSYMES (Whiscash)
+Level: 70
+Ability: Oblivious
+Nature: Naive
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Hydro Pump
-- Rain Dance
-- Skull Bash
-- Bite
+- Earthquake
+- Aqua Tail
+- Ice Beam
+- Rock Slide
+
+ELETASHART (Electabuzz)
+Level: 72
+Ability: Static
+Nature: Naive
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Thunderbolt
+- Fire Punch
+- Ice Punch
+- Cross Chop
 
 === TRAINER_CHAMPION_FIRST_BULBASAUR ===
 Name: TERRY
@@ -7627,53 +8248,65 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 Mugshot: Yellow
 
-Pidgeot
-Level: 59
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Aerial Ace
-- Feather Dance
-- Sand Attack
-- Whirlwind
-
-Alakazam
-Level: 57
+POGZAM (Alakazam)
+Level: 67
+Ability: Magic Guard
+Nature: Timid
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Psychic
-- Future Sight
-- Recover
-- Reflect
+- Shadow Ball
+- Dazzling Gleam
+- Hyper Beam
 
-Rhydon
-Level: 59
+TURD (Golem)
+Level: 68
+Ability: Sturdy
+Nature: Adamant
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Take Down
 - Earthquake
-- Rock Tomb
-- Scary Face
+- Rock Slide
+- Sucker Punch
+- Fire Punch
 
-Gyarados
-Level: 59
+POKWO (Dragonite)
+Level: 70
+Ability: Multiscale
+Nature: Jolly
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Hydro Pump
-- Dragon Rage
-- Bite
-- Thrash
-
-Arcanine
-Level: 61
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Outrage
 - Extreme Speed
-- Flamethrower
-- Roar
-- Bite
+- Earthquake
+- Dual Wingbeat
 
-Venusaur @ Sitrus Berry
-Level: 63
+DAWG_SR (Hitmonchan)
+Level: 69
+Ability: Iron Fist
+Nature: Jolly
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Solar Beam
-- Synthesis
-- Sunny Day
-- Growth
+- Close Combat
+- Ice Punch
+- Mach Punch
+- Earthquake
+
+SUPERSYMES (Whiscash)
+Level: 70
+Ability: Oblivious
+Nature: Naive
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Earthquake
+- Aqua Tail
+- Ice Beam
+- Rock Slide
+
+ELETASHART (Electabuzz)
+Level: 72
+Ability: Static
+Nature: Naive
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Thunderbolt
+- Fire Punch
+- Ice Punch
+- Cross Chop
 
 === TRAINER_CHAMPION_FIRST_CHARMANDER ===
 Name: TERRY
@@ -7686,53 +8319,65 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 Mugshot: Yellow
 
-Pidgeot
-Level: 59
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Aerial Ace
-- Feather Dance
-- Sand Attack
-- Whirlwind
-
-Alakazam
-Level: 57
+POGZAM (Alakazam)
+Level: 67
+Ability: Magic Guard
+Nature: Timid
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Psychic
-- Future Sight
-- Recover
-- Reflect
+- Shadow Ball
+- Dazzling Gleam
+- Hyper Beam
 
-Rhydon
-Level: 59
+TURD (Golem)
+Level: 68
+Ability: Sturdy
+Nature: Adamant
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Take Down
 - Earthquake
-- Rock Tomb
-- Scary Face
+- Rock Slide
+- Sucker Punch
+- Fire Punch
 
-Exeggutor
-Level: 59
+POKWO (Dragonite)
+Level: 70
+Ability: Multiscale
+Nature: Jolly
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Giga Drain
-- Egg Bomb
-- Sleep Powder
-- Light Screen
+- Outrage
+- Extreme Speed
+- Earthquake
+- Dual Wingbeat
 
-Gyarados
-Level: 61
+DAWG_SR (Hitmonchan)
+Level: 69
+Ability: Iron Fist
+Nature: Jolly
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Hydro Pump
-- Dragon Rage
-- Bite
-- Thrash
+- Close Combat
+- Ice Punch
+- Mach Punch
+- Earthquake
 
-Charizard @ Sitrus Berry
-Level: 63
+SUPERSYMES (Whiscash)
+Level: 70
+Ability: Oblivious
+Nature: Naive
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Fire Blast
-- Aerial Ace
-- Slash
-- Fire Spin
+- Earthquake
+- Aqua Tail
+- Ice Beam
+- Rock Slide
+
+ELETASHART (Electabuzz)
+Level: 72
+Ability: Static
+Nature: Naive
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Thunderbolt
+- Fire Punch
+- Ice Punch
+- Cross Chop
 
 === TRAINER_CHANNELER_PATRICIA ===
 Name: PATRICIA
@@ -13548,7 +14193,7 @@ Gender: Male
 Music: Male
 Double Battle: No
 
-Abby (Charmander)
+ABBY (Charmander)
 Level: 5
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -13560,11 +14205,11 @@ Gender: Male
 Music: Male
 Double Battle: No
 
-Abby (Charmander)
+ABBY (Charmander)
 Level: 13
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-Bird Jesus (Pidgey)
+BIRD JESUS (Pidgey)
 Level: 12
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -13576,11 +14221,11 @@ Gender: Male
 Music: Male
 Double Battle: No
 
-Abby (Charmeleon)
+ABBY (Charmeleon)
 Level: 22
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 
-Bird Jesus (Pidgeotto)
+BIRD JESUS (Pidgeotto)
 Level: 21
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 
@@ -13592,27 +14237,27 @@ Gender: Male
 Music: Male
 Double Battle: No
 
-Abby (Charmeleon)
+ABBY (Charmeleon)
 Level: 26
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 
-Bird Jesus (Pidgeotto)
+BIRD JESUS (Pidgeotto)
 Level: 25
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 
-The Keeper (Drowzee)
+THE KEEPER (Drowzee)
 Level: 23
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 
-Digrat (Rattata)
+DIGRAT (Rattata)
 Level: 23
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 
-Jay Leno (Rattata)
+JAY LENO (Rattata)
 Level: 23
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 
-Dux (Spearow)
+DUX (Spearow)
 Level: 24
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 
@@ -13624,19 +14269,19 @@ Gender: Male
 Music: Male
 Double Battle: No
 
-Bird Jesus (Pidgeot)
+BIRD JESUS (Pidgeot)
 Level: 38
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
-BigDig (Raticate)
+BIGDIG (Raticate)
 Level: 36
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
-The Keeper (Hypno)
+THE KEEPER (Hypno)
 Level: 37
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
-Cabbage (Gloom)
+CABBAGE (Gloom)
 Level: 36
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
@@ -13648,7 +14293,7 @@ Gender: Male
 Music: Male
 Double Battle: No
 
-Bird Jesus (Pidgeot)
+BIRD JESUS (Pidgeot)
 Level: 52
 IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 
@@ -13656,11 +14301,11 @@ ATV (Venomoth)
 Level: 51
 IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 
-BigDig (Raticate)
+BIGDIG (Raticate)
 Level: 50
 IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 
-Cabbage (Vileplume)
+CABBAGE (Vileplume)
 Level: 51
 IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 
@@ -13672,7 +14317,7 @@ Gender: Male
 Music: Male
 Double Battle: No
 
-Bird Jesus (Pidgeot)
+BIRD JESUS (Pidgeot)
 Level: 62
 IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 
@@ -13680,19 +14325,19 @@ ATV (Venomoth)
 Level: 62
 IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 
-Air Jordan (Lapras)
+AIR JORDAN (Lapras)
 Level: 62
 IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 
-King Fonz (Nidoking)
+KING FONZ (Nidoking)
 Level: 63
 IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 
-AA-j (Zapdos)
+AA-J (Zapdos)
 Level: 63
 IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 
-Lord Helix (Omastar)
+LORD HELIX (Omastar)
 Level: 63
 IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 
@@ -13705,19 +14350,19 @@ Music: Male
 Double Battle: No
 Mugshot: Yellow
 
-Lord Helix (Omastar)
+LORD HELIX (Omastar)
 Level: 70
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
-Bird Jesus (Pidgeot)
+BIRD JESUS (Pidgeot)
 Level: 70
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
-AA-j (Zapdos)
+AA-J (Zapdos)
 Level: 72
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
-Air Jordan (Lapras)
+AIR JORDAN (Lapras)
 Level: 71
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
@@ -13725,6 +14370,6 @@ ATV (Venomoth)
 Level: 70
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
-King Fonz (Nidoking)
+KING FONZ (Nidoking)
 Level: 71
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
