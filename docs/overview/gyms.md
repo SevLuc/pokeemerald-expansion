@@ -186,10 +186,24 @@ every battle. Code: CreateNPCTrainerPartyFromTrainer in src/battle_main.c.
   confirmed; NO plain telling.
 
 ## Gym 5 — Fuchsia (Koga, Poison) — Soul Badge
-- Vanilla team: (fill from data)
-- Rebalanced team: (TBD — still the vanilla-count roster, fixed team).
-- Levels (tiered, cap 43): Koffing Lv39 (lead, cap-4), Muk Lv41 (cap-2), Koffing
-  Lv41 (cap-2), Weezing Lv43 (ace, cap).
+- Vanilla team: Koffing Lv39, Muk Lv41, Koffing Lv41, Weezing Lv43 (fixed 4).
+- Rebalanced team: a TRAINER POOL of 9 Poison-types that fields 6 (Party Size 6,
+  Pool Rules Basic, Pool Prune Bst Match). Venomoth is the ACE (always fielded
+  last). No forced lead (Surge/Brock model), so no cap-4 member. The other 5 slots
+  are BST-matched to the player (POOL_PRUNE_BST_MATCH in src/trainer_pools.c).
+  Perfect IVs, no EVs, no nicknames. Kept distinct from Erika: pure-Poison +
+  Poison/other typings, zero Grass/Poison overlap.
+- Levels: cap 50 (`FLAG_BADGE05_GET` row in src/caps.c). Venomoth ace Lv50 = cap;
+  the other 8 pool members Lv48 = cap-2. Pool (ability / nature / moves):
+  - VENOMOTH (ace), Tinted Lens, Timid (Bug Buzz / Sludge Bomb / Energy Ball / Psychic)
+  - CROBAT, Inner Focus, Jolly (Acrobatics / Cross Poison / U-turn / Roost)
+  - MUK, Poison Touch, Jolly (Explosion / Shadow Punch / Poison Jab / Fire Punch)
+  - MUK-ALOLA, Poison Touch, Jolly (Knock Off / Poison Jab / Ice Punch / Explosion)
+  - WEEZING, Levitate, Timid (Toxic Spikes / Flamethrower / Sludge Bomb / Dark Pulse)
+  - DRAPION, Sniper, Jolly (Cross Poison / Night Slash / Earthquake / Aqua Tail)
+  - GARBODOR, Weak Armor, Jolly (Gunk Shot / Explosion / Seed Bomb / Drain Punch)
+  - SKUNTANK, Aftermath, Naive (Fire Blast / Sucker Punch / Gunk Shot / Poison Gas)
+  - SNEASLER, Poison Touch, Jolly (Dire Claw / Drain Punch / Acrobatics / Throat Chop)
 - Gimmick: canon invisible-wall maze, reframed - it's a deliberate PROTESTER-
   REPELLENT (petitioners who come to shout at Koga about the smog get lost and give
   up). See KOGA-REVEAL.
