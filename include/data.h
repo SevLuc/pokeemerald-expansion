@@ -84,6 +84,7 @@ struct TrainerMon
     u8 dynamaxLevel:4;
     u8 padding2:4;
     u32 tags;
+    u32 status; // Pre-battle STATUS1_* applied to the mon when the party is built (e.g. STATUS1_SLEEP_TURN(3)).
 };
 
 #define TRAINER_PARTY(partyArray) partyArray, .partySize = ARRAY_COUNT(partyArray)

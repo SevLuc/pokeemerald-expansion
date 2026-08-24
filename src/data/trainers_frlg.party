@@ -4224,11 +4224,12 @@ Music: Male
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
-Squirtle
+electafart (Elekid)
 Level: 5
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Tackle
-- Tail Whip
+- Quick Attack
+- Leer
+- Thunder Shock
 
 === TRAINER_RIVAL_OAKS_LAB_BULBASAUR ===
 Name: TERRY
@@ -4239,11 +4240,12 @@ Music: Male
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
-Bulbasaur
+electafart (Elekid)
 Level: 5
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Tackle
-- Growl
+- Quick Attack
+- Leer
+- Thunder Shock
 
 === TRAINER_RIVAL_OAKS_LAB_CHARMANDER ===
 Name: TERRY
@@ -4254,11 +4256,12 @@ Music: Male
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
-Charmander
+electafart (Elekid)
 Level: 5
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Scratch
-- Growl
+- Quick Attack
+- Leer
+- Thunder Shock
 
 === TRAINER_RIVAL_ROUTE22_EARLY_SQUIRTLE ===
 Name: TERRY
@@ -4269,17 +4272,45 @@ Music: Male
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
-Pidgey
-Level: 11
+electafart (Elekid)
+Level: 9
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
-- Tackle
-- Sand Attack
+- Quick Attack
+- Leer
+- Thunder Shock
+- Low Kick
 
-Squirtle
-Level: 12
+hoothoot (Hoothoot)
+Level: 9
+Ability: Insomnia
+Status: STATUS1_SLEEP_TURN(3)
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+- Peck
 - Tackle
-- Tail Whip
+- Growl
+- Hypnosis
+
+magikarp (Magikarp)
+Level: 9
+IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+- Splash
+
+methfather (Shroomish)
+Level: 9
+Status: STATUS1_FREEZE
+IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+- Absorb
+- Tackle
+- Stun Spore
+
+bananafan (Skitty)
+Level: 9
+Status: STATUS1_SLEEP_TURN(3)
+IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+- Fake Out
+- Tackle
+- Growl
+- Attract
 
 === TRAINER_RIVAL_ROUTE22_EARLY_BULBASAUR ===
 Name: TERRY
@@ -4290,17 +4321,45 @@ Music: Male
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
-Pidgey
-Level: 11
+electafart (Elekid)
+Level: 9
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
-- Tackle
-- Sand Attack
+- Quick Attack
+- Leer
+- Thunder Shock
+- Low Kick
 
-Bulbasaur
-Level: 12
+hoothoot (Hoothoot)
+Level: 9
+Ability: Insomnia
+Status: STATUS1_SLEEP_TURN(3)
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+- Peck
 - Tackle
 - Growl
+- Hypnosis
+
+magikarp (Magikarp)
+Level: 9
+IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+- Splash
+
+methfather (Shroomish)
+Level: 9
+Status: STATUS1_FREEZE
+IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+- Absorb
+- Tackle
+- Stun Spore
+
+bananafan (Skitty)
+Level: 9
+Status: STATUS1_SLEEP_TURN(3)
+IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+- Fake Out
+- Tackle
+- Growl
+- Attract
 
 === TRAINER_RIVAL_ROUTE22_EARLY_CHARMANDER ===
 Name: TERRY
@@ -4311,17 +4370,45 @@ Music: Male
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
-Pidgey
-Level: 11
+electafart (Elekid)
+Level: 9
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
-- Tackle
-- Sand Attack
+- Quick Attack
+- Leer
+- Thunder Shock
+- Low Kick
 
-Charmander
-Level: 12
+hoothoot (Hoothoot)
+Level: 9
+Ability: Insomnia
+Status: STATUS1_SLEEP_TURN(3)
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
-- Scratch
+- Peck
+- Tackle
 - Growl
+- Hypnosis
+
+magikarp (Magikarp)
+Level: 9
+IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+- Splash
+
+methfather (Shroomish)
+Level: 9
+Status: STATUS1_FREEZE
+IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+- Absorb
+- Tackle
+- Stun Spore
+
+bananafan (Skitty)
+Level: 9
+Status: STATUS1_SLEEP_TURN(3)
+IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+- Fake Out
+- Tackle
+- Growl
+- Attract
 
 === TRAINER_RIVAL_CERULEAN_SQUIRTLE ===
 Name: TERRY
@@ -4332,33 +4419,53 @@ Music: Male
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
-Pidgeotto
+BillClintn (Swellow)
 Level: 18
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
-- Tackle
-- Sand Attack
-- Gust
+- Wing Attack
+- Quick Attack
+- Pluck
+- Focus Energy
+
+sixten (Raticate)
+Level: 20
+IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+- Hyper Fang
+- Sucker Punch
+- Pursuit
 - Quick Attack
 
-Abra
-Level: 16
+supersimes (Barboach)
+Level: 19
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
-- Teleport
-
-Rattata
-Level: 15
-IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
-- Tackle
-- Tail Whip
-- Quick Attack
-
-Squirtle
-Level: 18
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-- Tackle
-- Tail Whip
-- Withdraw
+- Mud Bomb
 - Water Gun
+- Amnesia
+- Mud-Slap
+
+JimmyJon (Marshtomp)
+Level: 19
+IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+- Mud Shot
+- Water Gun
+- Tackle
+- Mud-Slap
+
+BallSack (Magnemite)
+Level: 18
+IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+- Magnet Bomb
+- Thunder Shock
+- Thunder Wave
+- Sonic Boom
+
+eletashart (Elekid)
+Level: 21
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+- Shock Wave
+- Thunder Wave
+- Low Kick
+- Swift
 
 === TRAINER_RIVAL_CERULEAN_BULBASAUR ===
 Name: TERRY
@@ -4369,33 +4476,53 @@ Music: Male
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
-Pidgeotto
+BillClintn (Swellow)
 Level: 18
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
-- Tackle
-- Sand Attack
-- Gust
+- Wing Attack
+- Quick Attack
+- Pluck
+- Focus Energy
+
+sixten (Raticate)
+Level: 20
+IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+- Hyper Fang
+- Sucker Punch
+- Pursuit
 - Quick Attack
 
-Abra
-Level: 16
+supersimes (Barboach)
+Level: 19
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
-- Teleport
+- Mud Bomb
+- Water Gun
+- Amnesia
+- Mud-Slap
 
-Rattata
-Level: 15
+JimmyJon (Marshtomp)
+Level: 19
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+- Mud Shot
+- Water Gun
 - Tackle
-- Tail Whip
-- Quick Attack
+- Mud-Slap
 
-Bulbasaur
+BallSack (Magnemite)
 Level: 18
+IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+- Magnet Bomb
+- Thunder Shock
+- Thunder Wave
+- Sonic Boom
+
+eletashart (Elekid)
+Level: 21
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-- Sleep Powder
-- Poison Powder
-- Vine Whip
-- Leech Seed
+- Shock Wave
+- Thunder Wave
+- Low Kick
+- Swift
 
 === TRAINER_RIVAL_CERULEAN_CHARMANDER ===
 Name: TERRY
@@ -4406,33 +4533,53 @@ Music: Male
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
-Pidgeotto
+BillClintn (Swellow)
 Level: 18
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
-- Tackle
-- Sand Attack
-- Gust
+- Wing Attack
+- Quick Attack
+- Pluck
+- Focus Energy
+
+sixten (Raticate)
+Level: 20
+IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+- Hyper Fang
+- Sucker Punch
+- Pursuit
 - Quick Attack
 
-Abra
-Level: 16
+supersimes (Barboach)
+Level: 19
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
-- Teleport
+- Mud Bomb
+- Water Gun
+- Amnesia
+- Mud-Slap
 
-Rattata
-Level: 15
+JimmyJon (Marshtomp)
+Level: 19
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+- Mud Shot
+- Water Gun
 - Tackle
-- Tail Whip
-- Quick Attack
+- Mud-Slap
 
-Charmander
+BallSack (Magnemite)
 Level: 18
+IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+- Magnet Bomb
+- Thunder Shock
+- Thunder Wave
+- Sonic Boom
+
+eletashart (Elekid)
+Level: 21
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-- Metal Claw
-- Ember
-- Growl
-- Scratch
+- Shock Wave
+- Thunder Wave
+- Low Kick
+- Swift
 
 === TRAINER_SCIENTIST_TED ===
 Name: TED
@@ -7146,21 +7293,53 @@ Music: Male
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
-Pidgeotto
-Level: 19
+BillClintn (Swellow)
+Level: 23
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+- Wing Attack
+- Quick Attack
+- Pluck
+- Focus Energy
 
-Raticate
-Level: 20
+sixten (Raticate)
+Level: 23
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+- Hyper Fang
+- Sucker Punch
+- Pursuit
+- Quick Attack
 
-Kadabra
-Level: 18
+MtSucamore (Victreebel)
+Level: 24
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+- Razor Leaf
+- Sleep Powder
+- Vine Whip
+- Sweet Scent
 
-Wartortle
-Level: 20
+JimmyJon (Marshtomp)
+Level: 24
+IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+- Mud Shot
+- Water Gun
+- Tackle
+- Mud-Slap
+
+BaldKing (Poliwhirl)
+Level: 25
+IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+- Body Slam
+- Water Gun
+- Hypnosis
+- Double Slap
+
+eletashart (Electabuzz)
+Level: 26
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+- Electro Ball
+- Shock Wave
+- Low Kick
+- Thunder Wave
 
 === TRAINER_RIVAL_SS_ANNE_BULBASAUR ===
 Name: TERRY
@@ -7171,21 +7350,53 @@ Music: Male
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
-Pidgeotto
-Level: 19
+BillClintn (Swellow)
+Level: 23
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+- Wing Attack
+- Quick Attack
+- Pluck
+- Focus Energy
 
-Raticate
-Level: 20
+sixten (Raticate)
+Level: 23
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+- Hyper Fang
+- Sucker Punch
+- Pursuit
+- Quick Attack
 
-Kadabra
-Level: 18
+MtSucamore (Victreebel)
+Level: 24
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+- Razor Leaf
+- Sleep Powder
+- Vine Whip
+- Sweet Scent
 
-Ivysaur
-Level: 20
+JimmyJon (Marshtomp)
+Level: 24
+IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+- Mud Shot
+- Water Gun
+- Tackle
+- Mud-Slap
+
+BaldKing (Poliwhirl)
+Level: 25
+IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+- Body Slam
+- Water Gun
+- Hypnosis
+- Double Slap
+
+eletashart (Electabuzz)
+Level: 26
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+- Electro Ball
+- Shock Wave
+- Low Kick
+- Thunder Wave
 
 === TRAINER_RIVAL_SS_ANNE_CHARMANDER ===
 Name: TERRY
@@ -7196,21 +7407,53 @@ Music: Male
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
-Pidgeotto
-Level: 19
+BillClintn (Swellow)
+Level: 23
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+- Wing Attack
+- Quick Attack
+- Pluck
+- Focus Energy
 
-Raticate
-Level: 20
+sixten (Raticate)
+Level: 23
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+- Hyper Fang
+- Sucker Punch
+- Pursuit
+- Quick Attack
 
-Kadabra
-Level: 18
+MtSucamore (Victreebel)
+Level: 24
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+- Razor Leaf
+- Sleep Powder
+- Vine Whip
+- Sweet Scent
 
-Charmeleon
-Level: 20
+JimmyJon (Marshtomp)
+Level: 24
+IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+- Mud Shot
+- Water Gun
+- Tackle
+- Mud-Slap
+
+BaldKing (Poliwhirl)
+Level: 25
+IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+- Body Slam
+- Water Gun
+- Hypnosis
+- Double Slap
+
+eletashart (Electabuzz)
+Level: 26
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+- Electro Ball
+- Shock Wave
+- Low Kick
+- Thunder Wave
 
 === TRAINER_RIVAL_POKEMON_TOWER_SQUIRTLE ===
 Name: TERRY
@@ -7221,25 +7464,53 @@ Music: Male
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
-Pidgeotto
-Level: 25
+Manniz (Persian)
+Level: 34
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+- Feint Attack
+- Power Gem
+- Swift
+- Fury Swipes
 
-Growlithe
-Level: 23
+supersymes (Whiscash)
+Level: 36
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+- Magnitude
+- Water Pulse
+- Zen Headbutt
+- Amnesia
 
-Exeggcute
-Level: 22
+MtSucamore (Victreebel)
+Level: 36
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+- Leaf Tornado
+- Razor Leaf
+- Sleep Powder
+- Vine Whip
 
-Kadabra
-Level: 20
+Wetfart (Milotic)
+Level: 36
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+- Aqua Tail
+- Water Pulse
+- Recover
+- Twister
 
-Wartortle
-Level: 25
+ballsack (Magneton)
+Level: 36
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+- Electro Ball
+- Mirror Shot
+- Thunder Wave
+- Spark
+
+eletashart (Electabuzz)
+Level: 38
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+- Discharge
+- Thunder Punch
+- Low Kick
+- Thunder Wave
 
 === TRAINER_RIVAL_POKEMON_TOWER_BULBASAUR ===
 Name: TERRY
@@ -7250,25 +7521,53 @@ Music: Male
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
-Pidgeotto
-Level: 25
+Manniz (Persian)
+Level: 34
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+- Feint Attack
+- Power Gem
+- Swift
+- Fury Swipes
 
-Gyarados
-Level: 23
+supersymes (Whiscash)
+Level: 36
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+- Magnitude
+- Water Pulse
+- Zen Headbutt
+- Amnesia
 
-Growlithe
-Level: 22
+MtSucamore (Victreebel)
+Level: 36
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+- Leaf Tornado
+- Razor Leaf
+- Sleep Powder
+- Vine Whip
 
-Kadabra
-Level: 20
+Wetfart (Milotic)
+Level: 36
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+- Aqua Tail
+- Water Pulse
+- Recover
+- Twister
 
-Ivysaur
-Level: 25
+ballsack (Magneton)
+Level: 36
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+- Electro Ball
+- Mirror Shot
+- Thunder Wave
+- Spark
+
+eletashart (Electabuzz)
+Level: 38
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+- Discharge
+- Thunder Punch
+- Low Kick
+- Thunder Wave
 
 === TRAINER_RIVAL_POKEMON_TOWER_CHARMANDER ===
 Name: TERRY
@@ -7279,25 +7578,53 @@ Music: Male
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
-Pidgeotto
-Level: 25
+Manniz (Persian)
+Level: 34
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+- Feint Attack
+- Power Gem
+- Swift
+- Fury Swipes
 
-Exeggcute
-Level: 23
+supersymes (Whiscash)
+Level: 36
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+- Magnitude
+- Water Pulse
+- Zen Headbutt
+- Amnesia
 
-Gyarados
-Level: 22
+MtSucamore (Victreebel)
+Level: 36
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+- Leaf Tornado
+- Razor Leaf
+- Sleep Powder
+- Vine Whip
 
-Kadabra
-Level: 20
+Wetfart (Milotic)
+Level: 36
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+- Aqua Tail
+- Water Pulse
+- Recover
+- Twister
 
-Charmeleon
-Level: 25
+ballsack (Magneton)
+Level: 36
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+- Electro Ball
+- Mirror Shot
+- Thunder Wave
+- Spark
+
+eletashart (Electabuzz)
+Level: 38
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+- Discharge
+- Thunder Punch
+- Low Kick
+- Thunder Wave
 
 === TRAINER_RIVAL_SILPH_SQUIRTLE ===
 Name: TERRY

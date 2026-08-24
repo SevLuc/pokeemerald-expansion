@@ -25,23 +25,52 @@ everyone else. Only the Twitch rival (`TRAINER_RIVAL_TWITCH_*`) keeps RANDOM AI,
 as a Twitch Plays Pokemon homage.
 
 ### Rivals
-Each rival fight = the Buhrito path (vanilla 3 starter-variants, counters the player)
-and the Twitch path (single team, always Abby). Buhrito currently reuses the vanilla
-"TERRY" teams; Twitch has its own TPP-roster constants.
+Each rival fight = the Buhrito path (3 starter-variant constants, selected by the
+player's starter) and the Twitch path (single team, always Abby). Buhrito is his own
+character now: his ace is the Elekid line (nickname "electafart"/"eletashart"), and
+he fields the SAME team in all three starter-variant constants (the variant only
+encodes which starter the player picked). Twitch has its own TPP-roster constants.
+
+Note on the early-game gag: Buhrito's Route 22 early team is deliberately
+self-sabotaged. Several of his mons walk in PRE-STATUSED (asleep / frozen) via the
+new per-mon `Status:` field in `trainers.party` (see that file's header docs and
+`TrainerMon.status` in `include/data.h`). The Hoothoot is preslept but has Insomnia,
+so it immediately shrugs the sleep off on send-out - that is the joke.
 
 | Omega | Fight | Buhrito constants | Buhrito | Twitch constant | Twitch |
 |---|---|---|---|---|---|
-| Rival 1 | Oak's Lab | `TRAINER_RIVAL_OAKS_LAB_{SQUIRTLE,BULBASAUR,CHARMANDER}` | TODO | `TRAINER_RIVAL_TWITCH_OAKS_LAB` | DONE |
-| Rival A | Route 22 early | `..._ROUTE22_EARLY_*` | TODO | `..._TWITCH_ROUTE22_EARLY` | DONE |
-| Rival 2 | Cerulean | `..._CERULEAN_*` | TODO | `..._TWITCH_CERULEAN` | DONE |
-| Rival 3 | S.S. Anne | `..._SS_ANNE_*` | TODO | `..._TWITCH_SS_ANNE` | DONE |
-| Rival 4 | Pokemon Tower | `..._POKEMON_TOWER_*` | TODO | `..._TWITCH_POKEMON_TOWER` | DONE |
+| Rival 1 | Oak's Lab | `TRAINER_RIVAL_OAKS_LAB_{SQUIRTLE,BULBASAUR,CHARMANDER}` | DONE (Elekid Lv5) | `TRAINER_RIVAL_TWITCH_OAKS_LAB` | DONE |
+| Rival A | Route 22 early | `..._ROUTE22_EARLY_*` | DONE (5 mons Lv9, pre-status gag) | `..._TWITCH_ROUTE22_EARLY` | DONE |
+| Rival 2 | Cerulean | `..._CERULEAN_*` | DONE (6 mons Lv18-21) | `..._TWITCH_CERULEAN` | DONE |
+| Rival 3 | S.S. Anne | `..._SS_ANNE_*` | DONE (6 mons Lv23-26) | `..._TWITCH_SS_ANNE` | DONE |
+| Rival 4 | Pokemon Tower | `..._POKEMON_TOWER_*` | DONE (6 mons Lv34-38) | `..._TWITCH_POKEMON_TOWER` | DONE |
 | Rival 5 | Silph Co | `..._SILPH_*` | TODO | `..._TWITCH_SILPH` | DONE |
 | Rival 6 | Route 22 late | `..._ROUTE22_LATE_*` | TODO | `..._TWITCH_ROUTE22_LATE` | DONE |
 | Champion | Indigo Plateau | `TRAINER_CHAMPION_FIRST_*` (+ rematch `TRAINER_CHAMPION_REMATCH_*`) | TODO | `..._TWITCH_CHAMPION` | DONE |
 
 Twitch teams are DRAFT: authentic TPP species + nicknames, levels pegged to the caps,
 moves auto-filled (level-up), IVs placeholder. Refine movesets/IVs on the balance pass.
+
+#### Buhrito roster (filled fights)
+Same team is written to all three starter-variant constants per fight. Ace (Elekid
+line, nickname eletashart/electafart) is fielded LAST from Cerulean onward; IVs are 6
+across the board with the ace at 12. All movesets are level-up-legal at the listed
+level. Nicknames are Buhrito's bit and are intentionally crude/silly.
+
+- Oak's Lab (Lv5): electafart (Elekid) - Quick Attack / Leer / Thunder Shock.
+- Route 22 early (Lv9, the pre-status gag, in send-out order): electafart (Elekid) lead;
+  hoothoot (Hoothoot, Ability Insomnia, preslept 3 turns -> wakes on send-out);
+  magikarp (Magikarp, Splash only); methfather (Shroomish, pre-FROZEN);
+  bananafan (Skitty, preslept 3 turns).
+- Cerulean (Lv18-21): BillClintn (Swellow) lead, sixten (Raticate), supersimes (Barboach),
+  JimmyJon (Marshtomp), BallSack (Magnemite), eletashart (Elekid, ace Lv21).
+- S.S. Anne (Lv23-26): BillClintn (Swellow) lead, sixten (Raticate), MtSucamore (Victreebel),
+  JimmyJon (Marshtomp), BaldKing (Poliwhirl), eletashart (Electabuzz, ace Lv26).
+- Pokemon Tower (Lv34-38): Manniz (Persian) lead, supersymes (Whiscash), MtSucamore (Victreebel),
+  Wetfart (Milotic), ballsack (Magneton), eletashart (Electabuzz, ace Lv38). IVs 12 across.
+
+Pre-status is set with the per-mon `Status:` field in `trainers.party` (`STATUS1_*`),
+applied in `CreateNPCTrainerPartyFromTrainer` via `TrainerMon.status`.
 
 #### Rival (Locke) - generated nuzlocke teams
 The default (non-Twitch) rival, Locke, plays nuzlocke-style: his party is BUILT AT

@@ -56,6 +56,12 @@ Optional fields for Pokemon:
     - Gigantamax (Yes/No, sets to Gigantamax factor)
                  (doesn't do anything to Pokemon without a Gigantamax form, also sets "shouldDynamax" to True)
     - Tera Type (Set to a Type, either Fire or TYPE_FIRE, also sets "shouldTerastal" to True)
+    - Status (a STATUS1_* value applied to the Pokemon as it is built, so it enters
+              battle already afflicted. Written verbatim as a C expression, e.g.
+              "Status: STATUS1_FREEZE" or "Status: STATUS1_SLEEP_TURN(3)". See
+              include/constants/battle.h for the STATUS1_* values. NOTE: this is a
+              per-Pokemon starting AFFLICTION and is unrelated to the trainer-level
+              "Starting Status" field above, which sets field effects like terrain.)
 Moves are defined with a - (dash) followed by a single space, then the move name.
 Either "- Tackle" or "- MOVE_TACKLE" works. One move per line.
 Moves have to be the last lines of a Pokemon.
