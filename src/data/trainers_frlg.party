@@ -4224,7 +4224,7 @@ Music: Male
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
-electafart (Elekid)
+Electafart (Elekid)
 Level: 5
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Quick Attack
@@ -4240,7 +4240,7 @@ Music: Male
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
-electafart (Elekid)
+Electafart (Elekid)
 Level: 5
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Quick Attack
@@ -4256,7 +4256,7 @@ Music: Male
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
-electafart (Elekid)
+Electafart (Elekid)
 Level: 5
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Quick Attack
@@ -4272,7 +4272,7 @@ Music: Male
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
-electafart (Elekid)
+Electafart (Elekid)
 Level: 9
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 - Quick Attack
@@ -4280,7 +4280,7 @@ IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 - Thunder Shock
 - Low Kick
 
-hoothoot (Hoothoot)
+Hoothoot (Hoothoot)
 Level: 9
 Ability: Insomnia
 Status: STATUS1_SLEEP_TURN(3)
@@ -4290,12 +4290,12 @@ IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 - Growl
 - Hypnosis
 
-magikarp (Magikarp)
+Magikarp (Magikarp)
 Level: 9
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 - Splash
 
-methfather (Shroomish)
+Methfather (Shroomish)
 Level: 9
 Status: STATUS1_FREEZE
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
@@ -4303,7 +4303,7 @@ IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 - Tackle
 - Stun Spore
 
-bananafan (Skitty)
+Bananafan (Skitty)
 Level: 9
 Status: STATUS1_SLEEP_TURN(3)
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
@@ -4321,7 +4321,7 @@ Music: Male
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
-electafart (Elekid)
+Electafart (Elekid)
 Level: 9
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 - Quick Attack
@@ -4329,7 +4329,7 @@ IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 - Thunder Shock
 - Low Kick
 
-hoothoot (Hoothoot)
+Hoothoot (Hoothoot)
 Level: 9
 Ability: Insomnia
 Status: STATUS1_SLEEP_TURN(3)
@@ -4339,12 +4339,12 @@ IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 - Growl
 - Hypnosis
 
-magikarp (Magikarp)
+Magikarp (Magikarp)
 Level: 9
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 - Splash
 
-methfather (Shroomish)
+Methfather (Shroomish)
 Level: 9
 Status: STATUS1_FREEZE
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
@@ -4352,7 +4352,7 @@ IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 - Tackle
 - Stun Spore
 
-bananafan (Skitty)
+Bananafan (Skitty)
 Level: 9
 Status: STATUS1_SLEEP_TURN(3)
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
@@ -4370,7 +4370,7 @@ Music: Male
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
-electafart (Elekid)
+Electafart (Elekid)
 Level: 9
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 - Quick Attack
@@ -4378,7 +4378,7 @@ IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 - Thunder Shock
 - Low Kick
 
-hoothoot (Hoothoot)
+Hoothoot (Hoothoot)
 Level: 9
 Ability: Insomnia
 Status: STATUS1_SLEEP_TURN(3)
@@ -4388,12 +4388,12 @@ IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 - Growl
 - Hypnosis
 
-magikarp (Magikarp)
+Magikarp (Magikarp)
 Level: 9
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 - Splash
 
-methfather (Shroomish)
+Methfather (Shroomish)
 Level: 9
 Status: STATUS1_FREEZE
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
@@ -4401,7 +4401,7 @@ IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 - Tackle
 - Stun Spore
 
-bananafan (Skitty)
+Bananafan (Skitty)
 Level: 9
 Status: STATUS1_SLEEP_TURN(3)
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
@@ -4427,7 +4427,7 @@ IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 - Pluck
 - Focus Energy
 
-sixten (Raticate)
+Sixten (Raticate)
 Level: 20
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 - Hyper Fang
@@ -4435,7 +4435,7 @@ IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 - Pursuit
 - Quick Attack
 
-supersimes (Barboach)
+Supersimes (Barboach)
 Level: 19
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 - Mud Bomb
@@ -4451,7 +4451,7 @@ IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 - Tackle
 - Mud-Slap
 
-BallSack (Magnemite)
+Ballsack (Magnemite)
 Level: 18
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 - Magnet Bomb
@@ -4459,7 +4459,7 @@ IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 - Thunder Wave
 - Sonic Boom
 
-eletashart (Elekid)
+Eletashart (Elekid)
 Level: 21
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Shock Wave
@@ -4484,7 +4484,7 @@ IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 - Pluck
 - Focus Energy
 
-sixten (Raticate)
+Sixten (Raticate)
 Level: 20
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 - Hyper Fang
@@ -4492,7 +4492,7 @@ IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 - Pursuit
 - Quick Attack
 
-supersimes (Barboach)
+Supersimes (Barboach)
 Level: 19
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 - Mud Bomb
@@ -4508,7 +4508,7 @@ IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 - Tackle
 - Mud-Slap
 
-BallSack (Magnemite)
+Ballsack (Magnemite)
 Level: 18
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 - Magnet Bomb
@@ -4516,7 +4516,7 @@ IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 - Thunder Wave
 - Sonic Boom
 
-eletashart (Elekid)
+Eletashart (Elekid)
 Level: 21
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Shock Wave
@@ -4541,7 +4541,7 @@ IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 - Pluck
 - Focus Energy
 
-sixten (Raticate)
+Sixten (Raticate)
 Level: 20
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 - Hyper Fang
@@ -4549,7 +4549,7 @@ IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 - Pursuit
 - Quick Attack
 
-supersimes (Barboach)
+Supersimes (Barboach)
 Level: 19
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 - Mud Bomb
@@ -4565,7 +4565,7 @@ IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 - Tackle
 - Mud-Slap
 
-BallSack (Magnemite)
+Ballsack (Magnemite)
 Level: 18
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 - Magnet Bomb
@@ -4573,7 +4573,7 @@ IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 - Thunder Wave
 - Sonic Boom
 
-eletashart (Elekid)
+Eletashart (Elekid)
 Level: 21
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Shock Wave
@@ -7301,7 +7301,7 @@ IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 - Pluck
 - Focus Energy
 
-sixten (Raticate)
+Sixten (Raticate)
 Level: 23
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 - Hyper Fang
@@ -7333,7 +7333,7 @@ IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 - Hypnosis
 - Double Slap
 
-eletashart (Electabuzz)
+Eletashart (Electabuzz)
 Level: 26
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Electro Ball
@@ -7358,7 +7358,7 @@ IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 - Pluck
 - Focus Energy
 
-sixten (Raticate)
+Sixten (Raticate)
 Level: 23
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 - Hyper Fang
@@ -7390,7 +7390,7 @@ IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 - Hypnosis
 - Double Slap
 
-eletashart (Electabuzz)
+Eletashart (Electabuzz)
 Level: 26
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Electro Ball
@@ -7415,7 +7415,7 @@ IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 - Pluck
 - Focus Energy
 
-sixten (Raticate)
+Sixten (Raticate)
 Level: 23
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 - Hyper Fang
@@ -7447,7 +7447,7 @@ IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 - Hypnosis
 - Double Slap
 
-eletashart (Electabuzz)
+Eletashart (Electabuzz)
 Level: 26
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Electro Ball
@@ -7472,7 +7472,7 @@ IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Swift
 - Fury Swipes
 
-supersymes (Whiscash)
+Supersymes (Whiscash)
 Level: 36
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Magnitude
@@ -7496,7 +7496,7 @@ IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Recover
 - Twister
 
-ballsack (Magneton)
+Ballsack (Magneton)
 Level: 36
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Electro Ball
@@ -7504,7 +7504,7 @@ IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Thunder Wave
 - Spark
 
-eletashart (Electabuzz)
+Eletashart (Electabuzz)
 Level: 38
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Discharge
@@ -7529,7 +7529,7 @@ IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Swift
 - Fury Swipes
 
-supersymes (Whiscash)
+Supersymes (Whiscash)
 Level: 36
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Magnitude
@@ -7553,7 +7553,7 @@ IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Recover
 - Twister
 
-ballsack (Magneton)
+Ballsack (Magneton)
 Level: 36
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Electro Ball
@@ -7561,7 +7561,7 @@ IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Thunder Wave
 - Spark
 
-eletashart (Electabuzz)
+Eletashart (Electabuzz)
 Level: 38
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Discharge
@@ -7586,7 +7586,7 @@ IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Swift
 - Fury Swipes
 
-supersymes (Whiscash)
+Supersymes (Whiscash)
 Level: 36
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Magnitude
@@ -7610,7 +7610,7 @@ IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Recover
 - Twister
 
-ballsack (Magneton)
+Ballsack (Magneton)
 Level: 36
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Electro Ball
@@ -7618,7 +7618,7 @@ IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Thunder Wave
 - Spark
 
-eletashart (Electabuzz)
+Eletashart (Electabuzz)
 Level: 38
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Discharge
@@ -7635,25 +7635,53 @@ Music: Male
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
-Pidgeot
-Level: 37
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-
-Growlithe
-Level: 38
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-
-Exeggcute
-Level: 35
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-
-Alakazam
-Level: 35
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-
-Blastoise
-Level: 40
+Turd (Golem)
+Level: 46
 IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+- Earthquake
+- Stone Edge
+- Rock Blast
+- Steamroller
+
+SikelFan (Alakazam)
+Level: 48
+IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+- Psychic
+- Psycho Cut
+- Calm Mind
+- Recover
+
+Dr. Sikel (Snorlax)
+Level: 49
+IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+- Body Slam
+- Crunch
+- Earthquake
+- Rest
+
+Wetfart (Milotic)
+Level: 47
+IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+- Hydro Pump
+- Ice Beam
+- Recover
+- Aqua Tail
+
+Ballsack (Magneton)
+Level: 47
+IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+- Thunderbolt
+- Flash Cannon
+- Thunder Wave
+- Electro Ball
+
+Hellya (Lapras)
+Level: 48
+IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+- Ice Beam
+- Surf
+- Body Slam
+- Perish Song
 
 === TRAINER_RIVAL_SILPH_BULBASAUR ===
 Name: TERRY
@@ -7664,25 +7692,53 @@ Music: Male
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
-Pidgeot
-Level: 37
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-
-Gyarados
-Level: 38
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-
-Growlithe
-Level: 35
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-
-Alakazam
-Level: 35
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-
-Venusaur
-Level: 40
+Turd (Golem)
+Level: 46
 IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+- Earthquake
+- Stone Edge
+- Rock Blast
+- Steamroller
+
+SikelFan (Alakazam)
+Level: 48
+IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+- Psychic
+- Psycho Cut
+- Calm Mind
+- Recover
+
+Dr. Sikel (Snorlax)
+Level: 49
+IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+- Body Slam
+- Crunch
+- Earthquake
+- Rest
+
+Wetfart (Milotic)
+Level: 47
+IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+- Hydro Pump
+- Ice Beam
+- Recover
+- Aqua Tail
+
+Ballsack (Magneton)
+Level: 47
+IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+- Thunderbolt
+- Flash Cannon
+- Thunder Wave
+- Electro Ball
+
+Hellya (Lapras)
+Level: 48
+IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+- Ice Beam
+- Surf
+- Body Slam
+- Perish Song
 
 === TRAINER_RIVAL_SILPH_CHARMANDER ===
 Name: TERRY
@@ -7693,25 +7749,53 @@ Music: Male
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
-Pidgeot
-Level: 37
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-
-Exeggcute
-Level: 38
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-
-Gyarados
-Level: 35
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-
-Alakazam
-Level: 35
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-
-Charizard
-Level: 40
+Turd (Golem)
+Level: 46
 IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+- Earthquake
+- Stone Edge
+- Rock Blast
+- Steamroller
+
+SikelFan (Alakazam)
+Level: 48
+IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+- Psychic
+- Psycho Cut
+- Calm Mind
+- Recover
+
+Dr. Sikel (Snorlax)
+Level: 49
+IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+- Body Slam
+- Crunch
+- Earthquake
+- Rest
+
+Wetfart (Milotic)
+Level: 47
+IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+- Hydro Pump
+- Ice Beam
+- Recover
+- Aqua Tail
+
+Ballsack (Magneton)
+Level: 47
+IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+- Thunderbolt
+- Flash Cannon
+- Thunder Wave
+- Electro Ball
+
+Hellya (Lapras)
+Level: 48
+IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+- Ice Beam
+- Surf
+- Body Slam
+- Perish Song
 
 === TRAINER_RIVAL_ROUTE22_LATE_SQUIRTLE ===
 Name: TERRY
@@ -7722,53 +7806,53 @@ Music: Male
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
-Pidgeot
-Level: 47
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
-- Feather Dance
-- Wing Attack
-- Gust
-- Quick Attack
-
-Rhyhorn
-Level: 45
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
-- Take Down
-- Horn Drill
-- Rock Blast
-- Fury Attack
-
-Growlithe
-Level: 45
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
-- Flame Wheel
-- Take Down
-- Leer
-- Agility
-
-Exeggcute
-Level: 45
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
-- Solar Beam
-- Sleep Powder
-- Poison Powder
-- Stun Spore
-
-Alakazam
-Level: 47
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
-- Psychic
-- Calm Mind
-- Future Sight
-- Disable
-
-Blastoise
-Level: 53
+UVWXY (Ludicolo)
+Level: 56
 IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
-- Water Gun
+- Surf
+- Giga Drain
+- Ice Beam
 - Rain Dance
-- Bite
-- Rapid Spin
+
+TURD (Golem)
+Level: 59
+IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
+- Earthquake
+- Stone Edge
+- Explosion
+- Double-Edge
+
+Pokwo (Dragonite)
+Level: 59
+IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
+- Dragon Rush
+- Fire Punch
+- Thunder Punch
+- Aqua Tail
+
+Dawg_sr (Hitmonchan)
+Level: 58
+IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
+- Sky Uppercut
+- Ice Punch
+- Thunder Punch
+- Mach Punch
+
+Supersymes (Whiscash)
+Level: 58
+IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
+- Earthquake
+- Aqua Tail
+- Zen Headbutt
+- Future Sight
+
+Eletashart (Electabuzz)
+Level: 61
+IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
+- Thunderbolt
+- Ice Punch
+- Fire Punch
+- Low Kick
 
 === TRAINER_RIVAL_ROUTE22_LATE_BULBASAUR ===
 Name: TERRY
@@ -7779,53 +7863,53 @@ Music: Male
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
-Pidgeot
-Level: 47
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
-- Feather Dance
-- Wing Attack
-- Gust
-- Quick Attack
-
-Rhyhorn
-Level: 45
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
-- Take Down
-- Horn Drill
-- Rock Blast
-- Fury Attack
-
-Gyarados
-Level: 45
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
-- Hydro Pump
-- Twister
-- Leer
+UVWXY (Ludicolo)
+Level: 56
+IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
+- Surf
+- Giga Drain
+- Ice Beam
 - Rain Dance
 
-Growlithe
-Level: 45
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
-- Flame Wheel
-- Take Down
-- Leer
-- Agility
-
-Alakazam
-Level: 47
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
-- Psychic
-- Calm Mind
-- Future Sight
-- Disable
-
-Venusaur
-Level: 53
+TURD (Golem)
+Level: 59
 IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
-- Razor Leaf
-- Sweet Scent
-- Growth
-- Synthesis
+- Earthquake
+- Stone Edge
+- Explosion
+- Double-Edge
+
+Pokwo (Dragonite)
+Level: 59
+IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
+- Dragon Rush
+- Fire Punch
+- Thunder Punch
+- Aqua Tail
+
+Dawg_sr (Hitmonchan)
+Level: 58
+IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
+- Sky Uppercut
+- Ice Punch
+- Thunder Punch
+- Mach Punch
+
+Supersymes (Whiscash)
+Level: 58
+IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
+- Earthquake
+- Aqua Tail
+- Zen Headbutt
+- Future Sight
+
+Eletashart (Electabuzz)
+Level: 61
+IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
+- Thunderbolt
+- Ice Punch
+- Fire Punch
+- Low Kick
 
 === TRAINER_RIVAL_ROUTE22_LATE_CHARMANDER ===
 Name: TERRY
@@ -7836,53 +7920,53 @@ Music: Male
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
-Pidgeot
-Level: 47
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
-- Feather Dance
-- Wing Attack
-- Gust
-- Quick Attack
-
-Rhyhorn
-Level: 45
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
-- Take Down
-- Horn Drill
-- Rock Blast
-- Fury Attack
-
-Exeggcute
-Level: 45
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
-- Solar Beam
-- Sleep Powder
-- Poison Powder
-- Stun Spore
-
-Gyarados
-Level: 45
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
-- Hydro Pump
-- Twister
-- Leer
+UVWXY (Ludicolo)
+Level: 56
+IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
+- Surf
+- Giga Drain
+- Ice Beam
 - Rain Dance
 
-Alakazam
-Level: 47
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
-- Psychic
-- Calm Mind
-- Future Sight
-- Disable
-
-Charizard
-Level: 53
+TURD (Golem)
+Level: 59
 IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
-- Flamethrower
-- Wing Attack
-- Slash
-- Scary Face
+- Earthquake
+- Stone Edge
+- Explosion
+- Double-Edge
+
+Pokwo (Dragonite)
+Level: 59
+IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
+- Dragon Rush
+- Fire Punch
+- Thunder Punch
+- Aqua Tail
+
+Dawg_sr (Hitmonchan)
+Level: 58
+IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
+- Sky Uppercut
+- Ice Punch
+- Thunder Punch
+- Mach Punch
+
+Supersymes (Whiscash)
+Level: 58
+IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
+- Earthquake
+- Aqua Tail
+- Zen Headbutt
+- Future Sight
+
+Eletashart (Electabuzz)
+Level: 61
+IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
+- Thunderbolt
+- Ice Punch
+- Fire Punch
+- Low Kick
 
 === TRAINER_CHAMPION_FIRST_SQUIRTLE ===
 Name: TERRY
@@ -7895,53 +7979,53 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 Mugshot: Yellow
 
-Pidgeot
-Level: 59
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Aerial Ace
-- Feather Dance
-- Sand Attack
-- Whirlwind
-
-Alakazam
-Level: 57
+POGZAM (Alakazam)
+Level: 67
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Psychic
-- Future Sight
+- Psycho Cut
+- Calm Mind
 - Recover
-- Reflect
 
-Rhydon
-Level: 59
+TURD (Golem)
+Level: 68
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Take Down
 - Earthquake
-- Rock Tomb
-- Scary Face
+- Stone Edge
+- Explosion
+- Double-Edge
 
-Arcanine
-Level: 59
+Pokwo (Dragonite)
+Level: 70
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Extreme Speed
-- Flamethrower
-- Roar
-- Bite
+- Dragon Dance
+- Dragon Rush
+- Fire Punch
+- Aqua Tail
 
-Exeggutor
-Level: 61
+Dawg_sr (Hitmonchan)
+Level: 69
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Giga Drain
-- Egg Bomb
-- Sleep Powder
-- Light Screen
+- Sky Uppercut
+- Ice Punch
+- Thunder Punch
+- Fire Punch
 
-Blastoise @ Sitrus Berry
-Level: 63
+Supersymes (Whiscash)
+Level: 70
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Hydro Pump
-- Rain Dance
-- Skull Bash
-- Bite
+- Earthquake
+- Aqua Tail
+- Zen Headbutt
+- Future Sight
+
+Eletashart (Electabuzz) @ Sitrus Berry
+Level: 72
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Thunderbolt
+- Ice Punch
+- Fire Punch
+- Low Kick
 
 === TRAINER_CHAMPION_FIRST_BULBASAUR ===
 Name: TERRY
@@ -7954,53 +8038,53 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 Mugshot: Yellow
 
-Pidgeot
-Level: 59
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Aerial Ace
-- Feather Dance
-- Sand Attack
-- Whirlwind
-
-Alakazam
-Level: 57
+POGZAM (Alakazam)
+Level: 67
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Psychic
-- Future Sight
+- Psycho Cut
+- Calm Mind
 - Recover
-- Reflect
 
-Rhydon
-Level: 59
+TURD (Golem)
+Level: 68
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Take Down
 - Earthquake
-- Rock Tomb
-- Scary Face
+- Stone Edge
+- Explosion
+- Double-Edge
 
-Gyarados
-Level: 59
+Pokwo (Dragonite)
+Level: 70
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Hydro Pump
-- Dragon Rage
-- Bite
-- Thrash
+- Dragon Dance
+- Dragon Rush
+- Fire Punch
+- Aqua Tail
 
-Arcanine
-Level: 61
+Dawg_sr (Hitmonchan)
+Level: 69
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Extreme Speed
-- Flamethrower
-- Roar
-- Bite
+- Sky Uppercut
+- Ice Punch
+- Thunder Punch
+- Fire Punch
 
-Venusaur @ Sitrus Berry
-Level: 63
+Supersymes (Whiscash)
+Level: 70
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Solar Beam
-- Synthesis
-- Sunny Day
-- Growth
+- Earthquake
+- Aqua Tail
+- Zen Headbutt
+- Future Sight
+
+Eletashart (Electabuzz) @ Sitrus Berry
+Level: 72
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Thunderbolt
+- Ice Punch
+- Fire Punch
+- Low Kick
 
 === TRAINER_CHAMPION_FIRST_CHARMANDER ===
 Name: TERRY
@@ -8013,53 +8097,53 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 Mugshot: Yellow
 
-Pidgeot
-Level: 59
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Aerial Ace
-- Feather Dance
-- Sand Attack
-- Whirlwind
-
-Alakazam
-Level: 57
+POGZAM (Alakazam)
+Level: 67
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Psychic
-- Future Sight
+- Psycho Cut
+- Calm Mind
 - Recover
-- Reflect
 
-Rhydon
-Level: 59
+TURD (Golem)
+Level: 68
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Take Down
 - Earthquake
-- Rock Tomb
-- Scary Face
+- Stone Edge
+- Explosion
+- Double-Edge
 
-Exeggutor
-Level: 59
+Pokwo (Dragonite)
+Level: 70
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Giga Drain
-- Egg Bomb
-- Sleep Powder
-- Light Screen
+- Dragon Dance
+- Dragon Rush
+- Fire Punch
+- Aqua Tail
 
-Gyarados
-Level: 61
+Dawg_sr (Hitmonchan)
+Level: 69
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Hydro Pump
-- Dragon Rage
-- Bite
-- Thrash
+- Sky Uppercut
+- Ice Punch
+- Thunder Punch
+- Fire Punch
 
-Charizard @ Sitrus Berry
-Level: 63
+Supersymes (Whiscash)
+Level: 70
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Fire Blast
-- Aerial Ace
-- Slash
-- Fire Spin
+- Earthquake
+- Aqua Tail
+- Zen Headbutt
+- Future Sight
+
+Eletashart (Electabuzz) @ Sitrus Berry
+Level: 72
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Thunderbolt
+- Ice Punch
+- Fire Punch
+- Low Kick
 
 === TRAINER_CHANNELER_PATRICIA ===
 Name: PATRICIA

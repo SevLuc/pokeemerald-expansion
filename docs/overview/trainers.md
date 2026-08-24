@@ -27,7 +27,7 @@ as a Twitch Plays Pokemon homage.
 ### Rivals
 Each rival fight = the Buhrito path (3 starter-variant constants, selected by the
 player's starter) and the Twitch path (single team, always Abby). Buhrito is his own
-character now: his ace is the Elekid line (nickname "electafart"/"eletashart"), and
+character now: his ace is the Elekid line (nickname "Electafart"/"Eletashart"), and
 he fields the SAME team in all three starter-variant constants (the variant only
 encodes which starter the player picked). Twitch has its own TPP-roster constants.
 
@@ -44,30 +44,39 @@ so it immediately shrugs the sleep off on send-out - that is the joke.
 | Rival 2 | Cerulean | `..._CERULEAN_*` | DONE (6 mons Lv18-21) | `..._TWITCH_CERULEAN` | DONE |
 | Rival 3 | S.S. Anne | `..._SS_ANNE_*` | DONE (6 mons Lv23-26) | `..._TWITCH_SS_ANNE` | DONE |
 | Rival 4 | Pokemon Tower | `..._POKEMON_TOWER_*` | DONE (6 mons Lv34-38) | `..._TWITCH_POKEMON_TOWER` | DONE |
-| Rival 5 | Silph Co | `..._SILPH_*` | TODO | `..._TWITCH_SILPH` | DONE |
-| Rival 6 | Route 22 late | `..._ROUTE22_LATE_*` | TODO | `..._TWITCH_ROUTE22_LATE` | DONE |
-| Champion | Indigo Plateau | `TRAINER_CHAMPION_FIRST_*` (+ rematch `TRAINER_CHAMPION_REMATCH_*`) | TODO | `..._TWITCH_CHAMPION` | DONE |
+| Rival 5 | Silph Co | `..._SILPH_*` | DONE (6 mons Lv46-49) | `..._TWITCH_SILPH` | DONE |
+| Rival 6 | Route 22 late | `..._ROUTE22_LATE_*` | DONE (6 mons Lv56-61) | `..._TWITCH_ROUTE22_LATE` | DONE |
+| Champion | Indigo Plateau | `TRAINER_CHAMPION_FIRST_*` (+ rematch `TRAINER_CHAMPION_REMATCH_*`) | DONE first fight (6 mons Lv67-72); rematch TODO | `..._TWITCH_CHAMPION` | DONE |
 
 Twitch teams are DRAFT: authentic TPP species + nicknames, levels pegged to the caps,
 moves auto-filled (level-up), IVs placeholder. Refine movesets/IVs on the balance pass.
 
 #### Buhrito roster (filled fights)
 Same team is written to all three starter-variant constants per fight. Ace (Elekid
-line, nickname eletashart/electafart) is fielded LAST from Cerulean onward; IVs are 6
-across the board with the ace at 12. All movesets are level-up-legal at the listed
-level. Nicknames are Buhrito's bit and are intentionally crude/silly.
+line, nickname Eletashart/Electafart) is fielded LAST from Cerulean onward. Early
+teams (through S.S. Anne) run level-up-legal movesets; the later teams (Pokemon Tower
+onward) also use standard TM/tutor moves (Earthquake, Ice Beam, Surf, the elemental
+punches, etc.). Nicknames are Buhrito's bit, intentionally crude/silly, all capitalized.
 
-- Oak's Lab (Lv5): electafart (Elekid) - Quick Attack / Leer / Thunder Shock.
-- Route 22 early (Lv9, the pre-status gag, in send-out order): electafart (Elekid) lead;
-  hoothoot (Hoothoot, Ability Insomnia, preslept 3 turns -> wakes on send-out);
-  magikarp (Magikarp, Splash only); methfather (Shroomish, pre-FROZEN);
-  bananafan (Skitty, preslept 3 turns).
-- Cerulean (Lv18-21): BillClintn (Swellow) lead, sixten (Raticate), supersimes (Barboach),
-  JimmyJon (Marshtomp), BallSack (Magnemite), eletashart (Elekid, ace Lv21).
-- S.S. Anne (Lv23-26): BillClintn (Swellow) lead, sixten (Raticate), MtSucamore (Victreebel),
-  JimmyJon (Marshtomp), BaldKing (Poliwhirl), eletashart (Electabuzz, ace Lv26).
-- Pokemon Tower (Lv34-38): Manniz (Persian) lead, supersymes (Whiscash), MtSucamore (Victreebel),
-  Wetfart (Milotic), ballsack (Magneton), eletashart (Electabuzz, ace Lv38). IVs 12 across.
+- Oak's Lab (Lv5): Electafart (Elekid) - Quick Attack / Leer / Thunder Shock.
+- Route 22 early (Lv9, the pre-status gag, in send-out order): Electafart (Elekid) lead;
+  Hoothoot (Hoothoot, Ability Insomnia, preslept 3 turns -> wakes on send-out);
+  Magikarp (Magikarp, Splash only); Methfather (Shroomish, pre-FROZEN);
+  Bananafan (Skitty, preslept 3 turns).
+- Cerulean (Lv18-21): BillClintn (Swellow) lead, Sixten (Raticate), Supersimes (Barboach),
+  JimmyJon (Marshtomp), Ballsack (Magnemite), Eletashart (Elekid, ace Lv21).
+- S.S. Anne (Lv23-26): BillClintn (Swellow) lead, Sixten (Raticate), MtSucamore (Victreebel),
+  JimmyJon (Marshtomp), BaldKing (Poliwhirl), Eletashart (Electabuzz, ace Lv26).
+- Pokemon Tower (Lv34-38): Manniz (Persian) lead, Supersymes (Whiscash), MtSucamore (Victreebel),
+  Wetfart (Milotic), Ballsack (Magneton), Eletashart (Electabuzz, ace Lv38). IVs 12 across.
+- Silph Co (Lv46-49): Turd (Golem) lead, SikelFan (Alakazam), Dr. Sikel (Snorlax),
+  Wetfart (Milotic), Ballsack (Magneton), Hellya (Lapras). IVs 18 across. (No Elekid-line
+  ace in this fight per current spec; strongest is Dr. Sikel Lv49.)
+- Route 22 late rematch (Lv56-61): UVWXY (Ludicolo) lead, TURD (Golem), Pokwo (Dragonite),
+  Dawg_sr (Hitmonchan), Supersymes (Whiscash), Eletashart (Electabuzz, ace Lv61). IVs 30 across.
+- Champion, first fight (Lv67-72): POGZAM (Alakazam) lead, TURD (Golem), Pokwo (Dragonite),
+  Dawg_sr (Hitmonchan), Supersymes (Whiscash), Eletashart (Electabuzz, ace Lv72 @ Sitrus Berry).
+  IVs 31; trainer carries 4 Full Restores + Yellow mugshot (kept from the champion slot).
 
 Pre-status is set with the per-mon `Status:` field in `trainers.party` (`STATUS1_*`),
 applied in `CreateNPCTrainerPartyFromTrainer` via `TrainerMon.status`.

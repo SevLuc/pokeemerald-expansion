@@ -14,15 +14,18 @@ Update in the same PR as the change.
   Written verbatim as a `STATUS1_*` C expression, e.g. `Status: STATUS1_FREEZE` or
   `Status: STATUS1_SLEEP_TURN(3)`. Distinct from the trainer-level "Starting Status"
   (field effects). Docs added to trainers.party header.
-- 2026-08-24 - content/rival - Filled in Buhrito's teams for the first five rival
-  encounters (his ace is the Elekid line). Oak's Lab: electafart (Elekid) Lv5.
-  Route 22 early: 5 mons Lv9 with a self-sabotage pre-status gag (Hoothoot preslept
-  but Insomnia wakes it, Shroomish pre-frozen, Skitty preslept, Magikarp with only
-  Splash). Cerulean: 6 mons Lv18-21. S.S. Anne: 6 mons Lv23-26 (ace evolves to
-  Electabuzz). Pokemon Tower: 6 mons Lv34-38 (Persian/Whiscash/Victreebel/Milotic/
-  Magneton + Electabuzz ace). Same team written to all three starter-variant
-  constants per fight; movesets are level-up-legal at each level.
-  overview/trainers.md updated.
+- 2026-08-24 - content/rival - Filled in Buhrito's teams for ALL seven rival
+  encounters (his ace is the Elekid line; nicknames are capitalized). Oak's Lab:
+  Electafart (Elekid) Lv5. Route 22 early: 5 mons Lv9 with a self-sabotage pre-status
+  gag (Hoothoot preslept but Insomnia wakes it, Shroomish pre-frozen, Skitty preslept,
+  Magikarp with only Splash). Cerulean: 6 mons Lv18-21. S.S. Anne: 6 mons Lv23-26 (ace
+  evolves to Electabuzz). Pokemon Tower: 6 mons Lv34-38. Silph Co: 6 mons Lv46-49
+  (Golem/Alakazam/Snorlax/Milotic/Magneton/Lapras). Route 22 late rematch: 6 mons
+  Lv56-61 (Ludicolo/Golem/Dragonite/Hitmonchan/Whiscash + Electabuzz ace). Champion
+  first fight: 6 mons Lv67-72 (ace @ Sitrus Berry, keeps the 4 Full Restores + mugshot).
+  Same team written to all three starter-variant constants per fight. Early teams run
+  level-up-legal sets; later teams also use standard TM/tutor moves. overview/trainers.md
+  updated. (Champion REMATCH still TODO.)
 - 2026-08-23 - fix/field - Repel start-menu toggle no longer hard-locks. It set
   gMenuCallback to its own callback but never restored the input handler, so the
   callback re-ran every frame and flipped the flag ~60x/sec. Now resets
