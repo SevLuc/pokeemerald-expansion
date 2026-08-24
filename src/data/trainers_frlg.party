@@ -7349,11 +7349,13 @@ AI: Check Bad Move / Try To Faint / Check Viability
 
 BillClintn (Swellow)
 Level: 23
+Ability: Scrappy
+Nature: Naive
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Wing Attack
+- Aerial Ace
 - Quick Attack
-- Pluck
-- Focus Energy
+- Roost
+- U-turn
 
 Sixten (Raticate)
 Level: 23
@@ -7406,11 +7408,13 @@ AI: Check Bad Move / Try To Faint / Check Viability
 
 BillClintn (Swellow)
 Level: 23
+Ability: Scrappy
+Nature: Naive
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Wing Attack
+- Aerial Ace
 - Quick Attack
-- Pluck
-- Focus Energy
+- Roost
+- U-turn
 
 Sixten (Raticate)
 Level: 23
@@ -7463,11 +7467,13 @@ AI: Check Bad Move / Try To Faint / Check Viability
 
 BillClintn (Swellow)
 Level: 23
+Ability: Scrappy
+Nature: Naive
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Wing Attack
+- Aerial Ace
 - Quick Attack
-- Pluck
-- Focus Energy
+- Roost
+- U-turn
 
 Sixten (Raticate)
 Level: 23
