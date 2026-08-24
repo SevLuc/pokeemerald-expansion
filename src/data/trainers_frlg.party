@@ -4479,11 +4479,13 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 Ballsack (Magnemite)
 Level: 18
+Ability: Magnet Pull
+Nature: Naive
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Magnet Bomb
-- Thunder Shock
-- Thunder Wave
-- Sonic Boom
+- Shock Wave
+- Endure
+- Explosion
 
 Eletashart (Elekid)
 Level: 21
@@ -4544,11 +4546,13 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 Ballsack (Magnemite)
 Level: 18
+Ability: Magnet Pull
+Nature: Naive
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Magnet Bomb
-- Thunder Shock
-- Thunder Wave
-- Sonic Boom
+- Shock Wave
+- Endure
+- Explosion
 
 Eletashart (Elekid)
 Level: 21
@@ -4609,11 +4613,13 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 Ballsack (Magnemite)
 Level: 18
+Ability: Magnet Pull
+Nature: Naive
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Magnet Bomb
-- Thunder Shock
-- Thunder Wave
-- Sonic Boom
+- Shock Wave
+- Endure
+- Explosion
 
 Eletashart (Elekid)
 Level: 21
