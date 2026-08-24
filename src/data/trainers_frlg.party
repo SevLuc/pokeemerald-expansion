@@ -8020,11 +8020,13 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 Eletashart (Electabuzz)
 Level: 61
+Ability: Static
+Nature: Naive
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Thunderbolt
-- Ice Punch
 - Fire Punch
-- Low Kick
+- Ice Punch
+- Cross Chop
 
 === TRAINER_RIVAL_ROUTE22_LATE_BULBASAUR ===
 Name: TERRY
@@ -8087,11 +8089,13 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 Eletashart (Electabuzz)
 Level: 61
+Ability: Static
+Nature: Naive
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Thunderbolt
-- Ice Punch
 - Fire Punch
-- Low Kick
+- Ice Punch
+- Cross Chop
 
 === TRAINER_RIVAL_ROUTE22_LATE_CHARMANDER ===
 Name: TERRY
@@ -8154,11 +8158,13 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 Eletashart (Electabuzz)
 Level: 61
+Ability: Static
+Nature: Naive
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Thunderbolt
-- Ice Punch
 - Fire Punch
-- Low Kick
+- Ice Punch
+- Cross Chop
 
 === TRAINER_CHAMPION_FIRST_SQUIRTLE ===
 Name: TERRY
