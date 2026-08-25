@@ -28,13 +28,9 @@ LavenderTown_House1_Text_Cubone::
 	.string "CUBONE: Kyarugoo!$"
 
 LavenderTown_House1_Text_RocketsKilledCubonesMother::
-	.string "TEAM ROCKET. I've no gentle\n"
-	.string "word for them.\p"
-	.string "A mother CUBONE fled from\n"
-	.string "them and did not make it.\p"
-	.string "She left a little one behind.\p"
-	.string "Some nights I still hear it\n"
-	.string "crying for her.$"
+	.string "TEAM ROCKET.\p"
+	.string "The mother CUBONE ran.\n"
+	.string "She didn't reach the door…$"
 
 LavenderTown_House1_Text_GhostOfPokemonTowerIsGone::
 	.string "The ghost of POKéMON TOWER is\n"

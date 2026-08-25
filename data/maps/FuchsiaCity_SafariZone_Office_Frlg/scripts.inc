@@ -44,10 +44,8 @@ FuchsiaCity_SafariZone_Office_Text_CouldntUnderstandWarden::
 	.string "it. Awful, isn't it.$"
 
 FuchsiaCity_SafariZone_Office_Text_PrizeInSafariZone::
-	.string "Make it clear out to the far\n"
-	.string "corner of the SAFARI ZONE.\p"
-	.string "A prize waits there for those\n"
-	.string "who go the whole distance.\p"
-	.string "Most folks turn back long\n"
-	.string "before they reach it.$"
+	.string "Reach the far corner of the\n"
+	.string "SAFARI ZONE.\p"
+	.string "A prize waits for anyone who\n"
+	.string "goes the distance.$"
 

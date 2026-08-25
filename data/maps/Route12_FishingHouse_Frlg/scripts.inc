@@ -100,9 +100,9 @@ Route12_FishingHouse_EventScript_MagikarpRecordSignRecordSet::
 Route12_FishingHouse_Text_DoYouLikeToFish::
 	.string "I'm the FISHING GURU's kid\n"
 	.string "brother.\p"
-	.string "A day with no cast is a day\n"
-	.string "wasted, I always say.\p"
-	.string "So tell me true. Do you fish?$"
+	.string "A day without a cast is a day\n"
+	.string "wasted.\p"
+	.string "Do you fish?$"
 
 Route12_FishingHouse_Text_TakeThisAndFish::
 	.string "Grand! I like your style.\n"
@@ -126,7 +126,7 @@ Route12_FishingHouse_Text_IfYouCatchBigMagikarpShowMe::
 
 Route12_FishingHouse_Text_OhThatsDisappointing::
 	.string "Oh…\n"
-	.string "And here I had hopes for you.$"
+	.string "And I had hopes for you.$"
 
 Route12_FishingHouse_Text_TryFishingBringMeMagikarp::
 	.string "Hello there, {PLAYER}!\n"

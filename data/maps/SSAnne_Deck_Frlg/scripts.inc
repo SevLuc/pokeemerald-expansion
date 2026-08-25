@@ -38,10 +38,10 @@ SSAnne_Deck_Text_ScrubbingDecksHardWork::
 	.string "This ship owes him plenty.$"
 
 SSAnne_Deck_Text_FeelSeasick::
-	.string "Urgh… the horizon won't hold\n"
-	.string "still…\p"
-	.string "I came up top for the air. Don't\n"
-	.string "make me talk. Just… breathe.$"
+	.string "Urgh… the horizon won't\n"
+	.string "hold still…\p"
+	.string "Came up for the air.\n"
+	.string "Don't make me talk…$"
 
 SSAnne_Deck_Text_EdmondIntro::
 	.string "Hey, matey!\p"

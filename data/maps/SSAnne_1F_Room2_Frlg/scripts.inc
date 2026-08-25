@@ -43,8 +43,8 @@ SSAnne_1F_Room2_Text_AnnPostBattle::
 	.string "POKéMON CENTER!$"
 
 SSAnne_1F_Room2_Text_CruisingAroundWorld::
-	.string "We take one grand cruise a year,\n"
+	.string "One cruise a year,\n"
 	.string "the children and I.\p"
-	.string "They count the ports. I count the\n"
-	.string "quiet between them.$"
+	.string "They count the ports off\n"
+	.string "on their fingers…$"
 

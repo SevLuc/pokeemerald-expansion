@@ -381,15 +381,14 @@ CeladonCity_GameCorner_PrizeRoom_EventScript_YellowFlute::
 
 CeladonCity_GameCorner_PrizeRoom_Text_FancyThatPorygon::
 	.string "That PORYGON up there…\p"
-	.string "I've dreamed on it for months.\p"
-	.string "The COINS never quite add\n"
-	.string "up, though. Never quite.$"
+	.string "The COINS never quite\n"
+	.string "add up.$"
 
 CeladonCity_GameCorner_PrizeRoom_Text_RakedItInToday::
 	.string "Gahaha! Big night!\n"
 	.string "The reels loved me today.\p"
-	.string "Tomorrow they'll take it\n"
-	.string "all back. …They always do.$"
+	.string "Tomorrow they take it\n"
+	.string "all back…$"
 
 CeladonCity_GameCorner_PrizeRoom_Text_CoinCaseRequired::
 	.string "A COIN CASE is required…$"

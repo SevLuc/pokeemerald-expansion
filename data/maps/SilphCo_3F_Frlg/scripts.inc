@@ -35,12 +35,10 @@ SilphCo_3F_EventScript_Grunt::
 	end
 
 SilphCo_3F_Text_WhatAmIToDo::
-	.string "I only work here. I file\n"
-	.string "reports. I make the tea.\p"
+	.string "I file reports. I make the\n"
+	.string "tea.\p"
 	.string "Now there are men with\n"
-	.string "POKéMON at every door.\p"
-	.string "What's someone like me\n"
-	.string "supposed to do?$"
+	.string "POKéMON at every door.$"
 
 SilphCo_3F_Text_YouAndYourMonsSavedUs::
 	.string "{PLAYER}!\n"

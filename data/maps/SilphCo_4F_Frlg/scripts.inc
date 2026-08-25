@@ -40,9 +40,7 @@ SilphCo_4F_EventScript_Grunt2::
 	end
 
 SilphCo_4F_Text_CantYouSeeImHiding::
-	.string "Sssh! Keep your voice down!\p"
-	.string "If they find this office,\n"
-	.string "they find me.\p"
+	.string "Sssh! Keep your voice down.\p"
 	.string "I've been under this desk\n"
 	.string "for hours. Don't tell them.$"
 

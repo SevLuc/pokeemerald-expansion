@@ -50,44 +50,47 @@ SSAnne_Kitchen_EventScript_Chef7::
 	end
 
 SSAnne_Kitchen_Text_BusyOutOfTheWay::
-	.string "Coming through! Hot pans!\p"
-	.string "We plate two hundred covers\n"
-	.string "tonight. Mind your elbows.$"
+	.string "Coming through, hot pans!\p"
+	.string "Two hundred covers tonight.\n"
+	.string "Mind your elbows…$"
 
 SSAnne_Kitchen_Text_SawOddBerryInTrash::
-	.string "Found a strange BERRY in the bin\n"
-	.string "this morning.\p"
-	.string "Tossed by mistake, I'd wager. A\n"
-	.string "good cook wastes nothing.$"
+	.string "Found a strange BERRY\n"
+	.string "in the bin.\p"
+	.string "Tossed by mistake,\n"
+	.string "I'd wager…$"
 
 SSAnne_Kitchen_Text_SoBusyImDizzy::
-	.string "Six orders up and my head's\n"
+	.string "Six orders up, head\n"
 	.string "spinning.\p"
-	.string "Give a working cook some room,\n"
-	.string "would you?$"
+	.string "Give a working cook\n"
+	.string "some room…$"
 
 SSAnne_Kitchen_Text_PeelSpudsEveryDay::
-	.string "Hum-de-hum… peeling spuds\n"
+	.string "Hum-de-hum… spuds\n"
 	.string "again.\p"
-	.string "Honest work. The soup doesn't\n"
-	.string "care whose hands made it.$"
+	.string "Same today as yesterday…$"
 
 SSAnne_Kitchen_Text_HearAboutSnorlaxItsAGlutton::
-	.string "You ever cook for a SNORLAX?\p"
-	.string "That one could clear my whole\n"
-	.string "larder and still ask for pudding.$"
+	.string "You ever cook for a\n"
+	.string "SNORLAX?\p"
+	.string "Clears my whole larder,\n"
+	.string "then eyes the pudding…$"
 
 SSAnne_Kitchen_Text_OnlyGetToPeelOnions::
-	.string "Sniff… five years trained, and\n"
+	.string "Sniff… five years trained,\n"
 	.string "still only the onions…\p"
-	.string "It's the onions making me cry.\n"
-	.string "…It's the onions. Truly.$"
+	.string "It's the onions making\n"
+	.string "me cry.\p"
+	.string "…It's the onions.$"
 
 SSAnne_Kitchen_Text_IAmLeChefMainCourseIs::
-	.string "Ahem. Behold. I am LE CHEF.\p"
-	.string "Tonight's masterpiece, my life's\n"
-	.string "great work, it is…\p"
-	.string "…a potato. A very fine potato.$"
+	.string "Ahem. Behold.\n"
+	.string "I am LE CHEF.\p"
+	.string "Tonight's masterpiece,\n"
+	.string "my life's work…\p"
+	.string "…a potato.\n"
+	.string "A very fine potato.$"
 
 SSAnne_Kitchen_Text_SalmonDuSalad::
 	.string "Salmon du Salad!\p"

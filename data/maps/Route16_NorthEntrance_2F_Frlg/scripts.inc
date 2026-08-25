@@ -51,14 +51,12 @@ Route16_NorthEntrance_2F_EventScript_GetAideRequestInfo::
 	return
 
 Route16_NorthEntrance_2F_Text_OnBikeRideWithGirlfriend::
-	.string "Me and my girl are out for a\n"
-	.string "lazy spin on our new bikes.$"
+	.string "Out for a lazy spin with my\n"
+	.string "girl on our new bikes.$"
 
 Route16_NorthEntrance_2F_Text_RidingTogetherOnNewBikes::
-	.string "We saved up ages for these\n"
-	.string "bikes.\p"
-	.string "Today's our very first ride out\n"
-	.string "together!$"
+	.string "Our first ride out together\n"
+	.string "on the new bikes.$"
 
 Route16_NorthEntrance_2F_Text_ItsCeladonDeptStore::
 	.string "Let's see what the binoculars have\n"
@@ -72,21 +70,16 @@ Route16_NorthEntrance_2F_Text_LongPathOverWater::
 	.string "away.$"
 
 Route16_NorthEntrance_2F_Text_GiveAmuletCoinIfCaught40::
-	.string "Hello again! One of PROF. OAK's\n"
-	.string "AIDES, remember?\p"
-	.string "Forty species in the POKéDEX\n"
-	.string "earns a reward, OAK says,\l"
-	.string "and I'm the one holding it.\p"
-	.string "An AMULET COIN, left in my care\n"
-	.string "for you.\p"
-	.string "So then, {PLAYER}.\p"
-	.string "Have you gathered data on at\n"
-	.string "least 40 kinds of POKéMON?$"
+	.string "Hello again. PROF. OAK's AIDE.\p"
+	.string "Forty species logged earns a\n"
+	.string "reward, and I'm holding it.\p"
+	.string "An AMULET COIN.\p"
+	.string "So. Forty kinds recorded yet?$"
 
 Route16_NorthEntrance_2F_Text_GreatHereYouGo::
 	.string "Marvelous! {STR_VAR_3} kinds on\n"
-	.string "record already!\p"
-	.string "You've earned this. Take it!$"
+	.string "record.\p"
+	.string "You've earned this. Take it.$"
 
 Route16_NorthEntrance_2F_Text_ReceivedAmuletCoinFromAide::
 	.string "{PLAYER} received the AMULET COIN\n"
@@ -94,6 +87,6 @@ Route16_NorthEntrance_2F_Text_ReceivedAmuletCoinFromAide::
 
 Route16_NorthEntrance_2F_Text_ExplainAmuletCoin::
 	.string "An AMULET COIN is a held item.\p"
-	.string "Let its holder share in a win,\n"
+	.string "Let its holder share a win\n"
 	.string "and the prize money climbs.$"
 

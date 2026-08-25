@@ -43,9 +43,8 @@ SilphCo_8F_Text_WonderIfSilphIsFinished::
 	.string "finished…\p"
 	.string "My father kept his carving\n"
 	.string "knife from the old trade.\p"
-	.string "Said a factory can be taken.\n"
-	.string "A pair of hands can't.\p"
-	.string "Maybe he was the wise one.$"
+	.string "Said they can seize a\n"
+	.string "factory. Not a pair of hands.$"
 
 SilphCo_8F_Text_ThanksForSavingUs::
 	.string "Thanks for saving us!$"

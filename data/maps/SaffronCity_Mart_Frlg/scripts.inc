@@ -39,7 +39,7 @@ SaffronCity_Mart_Text_MaxRepelMoreEffectiveThanSuper::
 
 SaffronCity_Mart_Text_ReviveIsCostly::
 	.string "A REVIVE costs a fortune…\n"
-	.string "but it wakes a fainted POKéMON.\p"
-	.string "Stock up while the shops\n"
-	.string "still open at all.$"
+	.string "but it wakes the fallen.\p"
+	.string "Stock up while the shop's\n"
+	.string "still open.$"
 

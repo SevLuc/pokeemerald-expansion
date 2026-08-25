@@ -10,12 +10,10 @@ Route2_ViridianForest_SouthEntrance_EventScript_Woman2::
 	end
 
 Route2_ViridianForest_SouthEntrance_Text_ForestIsMaze::
-	.string "Bound for VIRIDIAN FOREST?\n"
-	.string "It's a green maze in there.\l"
+	.string "VIRIDIAN FOREST is a green maze.\l"
 	.string "Mind you don't lose the path.$"
 
 Route2_ViridianForest_SouthEntrance_Text_RattataHasWickedBite::
-	.string "RATTATA looks like nothing much.\n"
-	.string "That bite says otherwise.\p"
-	.string "Caught yourself one yet?$"
+	.string "RATTATA looks like nothing.\n"
+	.string "That bite says otherwise.$"
 

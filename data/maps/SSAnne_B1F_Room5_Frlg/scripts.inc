@@ -16,10 +16,10 @@ SSAnne_B1F_Room5_EventScript_Machoke::
 	end
 
 SSAnne_B1F_Room5_Text_MachokeHasStrengthToMoveRocks::
-	.string "My MACHOKE is the strongest pal\n"
-	.string "aboard this ship!\p"
-	.string "It shoves crates the sailors can't\n"
-	.string "budge. Big boulders, too!$"
+	.string "My MACHOKE's the strongest\n"
+	.string "pal aboard!\p"
+	.string "Shoves crates the sailors\n"
+	.string "can't budge…$"
 
 SSAnne_B1F_Room5_Text_Machoke::
 	.string "MACHOKE: Gwoh! Goggoh!$"

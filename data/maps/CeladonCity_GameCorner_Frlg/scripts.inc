@@ -495,23 +495,18 @@ CeladonCity_GameCorner_Text_HereAreYourCoins::
 
 CeladonCity_GameCorner_Text_RumoredTeamRocketRunsThisPlace::
 	.string "Keep your voice down.\p"
-	.string "Notice the same few faces\n"
-	.string "here who never once play?\p"
-	.string "Just watch the back wall.\n"
-	.string "And the folks who guard it.$"
+	.string "Some here never play.\n"
+	.string "They just watch the back wall.$"
 
 CeladonCity_GameCorner_Text_ThinkMachinesHaveDifferentOdds::
-	.string "I swear these machines\n"
-	.string "all pay out different.\p"
-	.string "That corner one's cursed.\n"
-	.string "The wall one… kinder, I think.\p"
-	.string "…Or I've sat here far\n"
-	.string "too long to tell.$"
+	.string "These machines don't\n"
+	.string "pay the same.\p"
+	.string "That corner one's cursed…$"
 
 CeladonCity_GameCorner_Text_DoYouWantToPlay::
-	.string "Kid. You want these?\p"
-	.string "I'm done chasing reels for\n"
-	.string "one night. Take my COINS.$"
+	.string "Kid. Take my COINS.\p"
+	.string "I'm done chasing reels\n"
+	.string "tonight.$"
 
 CeladonCity_GameCorner_Text_Received10CoinsFromMan::
 	.string "{PLAYER} received 10 COINS\n"
@@ -525,10 +520,10 @@ CeladonCity_GameCorner_Text_WinsComeAndGo::
 	.string "Nothing's a sure thing.$"
 
 CeladonCity_GameCorner_Text_WinOrLoseItsOnlyLuck::
-	.string "Win, lose… it's the same\n"
-	.string "reel spinning either way.\p"
+	.string "Win or lose, it's the same\n"
+	.string "reel spinning.\p"
 	.string "I don't come for the COINS\n"
-	.string "anymore. Just the quiet.$"
+	.string "anymore…$"
 
 CeladonCity_GameCorner_Text_GymGuyAdvice::
 	.string "Hey!\p"
@@ -548,16 +543,12 @@ CeladonCity_GameCorner_Text_RareMonsForCoins::
 	.string "But, I just can't seem to win!$"
 
 CeladonCity_GameCorner_Text_SoEasyToGetHooked::
-	.string "These games are a trap.\p"
-	.string "Step in for one spin.\n"
-	.string "Walk out come morning.\p"
-	.string "…Ask me how I'd know.$"
+	.string "Step in for one spin.\p"
+	.string "Walk out come morning.$"
 
 CeladonCity_GameCorner_Text_WantSomeCoins::
-	.string "What's the matter?\n"
 	.string "Short on COINS? Here.\p"
-	.string "I'm cutting myself off.\n"
-	.string "Start while it's still a game.$"
+	.string "I'm cutting myself off.$"
 
 CeladonCity_GameCorner_Text_Received20CoinsFromNiceGuy::
 	.string "{PLAYER} received 20 COINS\n"
@@ -571,9 +562,9 @@ CeladonCity_GameCorner_Text_NeedMoreCoinsForMonIWant::
 	.string "POKéMON I want!$"
 
 CeladonCity_GameCorner_Text_HereAreSomeCoinsShoo::
-	.string "Agh, you broke my rhythm!\p"
+	.string "You broke my rhythm!\p"
 	.string "Here, take some COINS.\n"
-	.string "Just let a man concentrate.$"
+	.string "Just let me be.$"
 
 CeladonCity_GameCorner_Text_Received20CoinsFromMan::
 	.string "{PLAYER} received 20 COINS\n"

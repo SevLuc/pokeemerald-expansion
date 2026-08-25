@@ -299,22 +299,20 @@ SilphCo_7F_Text_RocketBossWentToBoardroom::
 	.string "I'm worried.$"
 
 SilphCo_7F_Text_RocketsAfterMasterBall::
-	.string "You know what they're really\n"
-	.string "after? The MASTER BALL.\p"
-	.string "SILPH built one. A ball that\n"
-	.string "catches any POKéMON, no fail.\p"
-	.string "In their hands, nothing wild\n"
-	.string "would ever be free again.$"
+	.string "SILPH built a ball that\n"
+	.string "catches anything. No fail.\p"
+	.string "The MASTER BALL.\p"
+	.string "That's what they're really\n"
+	.string "after.$"
 
 SilphCo_7F_Text_CanceledMasterBallProject::
 	.string "We canceled the MASTER BALL\n"
 	.string "project because of TEAM ROCKET.$"
 
 SilphCo_7F_Text_BadIfTeamRocketTookOver::
-	.string "If they walk out with our\n"
+	.string "If they leave with our\n"
 	.string "research and our POKéMON…\p"
-	.string "it won't just be SAFFRON\n"
-	.string "that pays for it.$"
+	.string "it won't stop at SAFFRON.$"
 
 SilphCo_7F_Text_WowYouChasedOffTeamRocket::
 	.string "Wow!\p"
@@ -322,11 +320,11 @@ SilphCo_7F_Text_WowYouChasedOffTeamRocket::
 	.string "yourself?$"
 
 SilphCo_7F_Text_ReallyDangerousHere::
-	.string "You! You shouldn't be up\n"
-	.string "this high!\p"
+	.string "You! You can't be up this\n"
+	.string "high!\p"
 	.string "It's far too dangerous.\p"
-	.string "You came for us? You're just\n"
-	.string "a kid… you can't-$"
+	.string "You came for us? You're\n"
+	.string "just a-$"
 
 SilphCo_7F_Text_ThankYouSoMuch::
 	.string "Thank you so much!$"

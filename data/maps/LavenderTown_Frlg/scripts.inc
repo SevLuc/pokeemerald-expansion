@@ -55,10 +55,9 @@ LavenderTown_Text_SoThereAreBelievers::
 	.string "So there are believers…$"
 
 LavenderTown_Text_JustImaginingWhiteHand::
-	.string "…No? That's all right.\p"
-	.string "That cold little hand on\n"
-	.string "your shoulder…\p"
-	.string "I'm sure it's nothing.$"
+	.string "…No?\p"
+	.string "Then whose hand is that\n"
+	.string "on your shoulder…$"
 
 LavenderTown_Text_TownKnownAsMonGraveSite::
 	.string "This town is known as the grave\n"

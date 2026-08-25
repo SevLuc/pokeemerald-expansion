@@ -6,7 +6,7 @@ UndergroundPath_EastEntrance_EventScript_Woman::
 	end
 
 UndergroundPath_EastEntrance_Text_DoYouGoToCeladonDeptStore::
-	.string "CELADON's DEPARTMENT STORE keeps\n"
+	.string "CELADON's DEPARTMENT STORE has\n"
 	.string "everything under one roof.\p"
-	.string "Do you get up that way much?$"
+	.string "Get up that way much?$"
 

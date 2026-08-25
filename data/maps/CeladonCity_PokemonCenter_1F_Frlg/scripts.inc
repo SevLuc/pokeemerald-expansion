@@ -28,11 +28,9 @@ CeladonCity_PokemonCenter_1F_EventScript_Youngster::
 
 CeladonCity_PokemonCenter_1F_Text_PokeFluteAwakensSleepingMons::
 	.string "A POKé FLUTE wakes what\n"
-	.string "sleeps. You knew that.\p"
-	.string "What you may not know:\n"
-	.string "the note is pitched for them.\p"
-	.string "We hear nothing at all.\n"
-	.string "They hear it in their bones.$"
+	.string "sleeps.\p"
+	.string "The note's pitched for them.\n"
+	.string "We don't hear it at all.$"
 
 CeladonCity_PokemonCenter_1F_Text_RodeHereFromFuchsia::
 	.string "I rode all the way up from FUCHSIA.\p"

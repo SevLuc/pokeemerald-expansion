@@ -45,15 +45,13 @@ SaffronCity_PokemonCenter_1F_Text_GrowthRatesDifferBySpecies::
 	.string "…Went cold in her hands.$"
 
 SaffronCity_PokemonCenter_1F_Text_SilphCoVictimOfFame::
-	.string "SILPH CO. is the pride of\n"
-	.string "SAFFRON. Known the world over.\p"
-	.string "And that's just it.\p"
-	.string "Shine bright enough, and\n"
+	.string "SILPH CO. is known the\n"
+	.string "world over.\p"
+	.string "Shine that bright, and\n"
 	.string "thieves come looking.$"
 
 SaffronCity_PokemonCenter_1F_Text_GreatIfEliteFourCameBeatRockets::
-	.string "Sigh…\n"
-	.string "I keep hoping.\p"
+	.string "Sigh…\p"
 	.string "Maybe the ELITE FOUR will\n"
 	.string "ride in and run them off.\p"
 	.string "Nobody's coming, though.\n"

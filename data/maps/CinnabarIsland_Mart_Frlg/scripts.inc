@@ -33,18 +33,12 @@ CinnabarIsland_Mart_Items::
 	end
 
 CinnabarIsland_Mart_Text_DontTheyHaveXAttack::
-	.string "You get used to the heat here\n"
-	.string "soon enough.\p"
-	.string "Me, I never leave this MART\n"
-	.string "without a full bag.\p"
-	.string "…You never know, on an island\n"
-	.string "like this one.$"
+	.string "You get used to the heat.\p"
+	.string "The island, never quite.$"
 
 CinnabarIsland_Mart_Text_ExtraItemsNeverHurt::
 	.string "I came to study the volcano.\p"
-	.string "Funny thing, though…\p"
-	.string "The real work on this island\n"
-	.string "ended long ago.\p"
-	.string "In a fire, they say. Before\n"
-	.string "the LAB. Before any of us.$"
+	.string "The real work here ended long\n"
+	.string "ago.\p"
+	.string "In a fire, they say…$"
 

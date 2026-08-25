@@ -42,8 +42,6 @@ VermilionCity_House3_Text_DearPippiLetter::
 VermilionCity_House3_Text_SendMyPidgeyToUnionRoom::
 	.string "I love trading MAIL with all\n"
 	.string "kinds of people.\p"
-	.string "I send my PIDGEY off to the\n"
-	.string "UNION ROOM to carry it for me.\p"
-	.string "A PIDGEY makes a fine little\n"
-	.string "postman, don't you think?$"
+	.string "I send my PIDGEY to the\n"
+	.string "UNION ROOM to carry it.$"
 

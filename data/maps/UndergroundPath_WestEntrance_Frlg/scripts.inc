@@ -6,9 +6,8 @@ UndergroundPath_WestEntrance_EventScript_BaldingMan::
 	end
 
 UndergroundPath_WestEntrance_Text_SleepyMonNearCeladon::
-	.string "They all flick a coin in the\n"
-	.string "drain before they cross under.\p"
-	.string "I never have. Not once.\p"
-	.string "…Still here, aren't I. Still got\n"
-	.string "all my coins, too.$"
+	.string "They all drop a coin in the\n"
+	.string "drain before crossing under.\p"
+	.string "I never have.\p"
+	.string "…Not once, in all these years.$"
 

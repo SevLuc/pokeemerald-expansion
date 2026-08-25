@@ -56,20 +56,14 @@ CeladonCity_DepartmentStore_3F_Text_OTStandsForOriginalTrainer::
 	.string "the TRAINER that caught it first.$"
 
 CeladonCity_DepartmentStore_3F_Text_BuddyTradingKangaskhanForHaunter::
-	.string "My buddy's finally trading!\p"
-	.string "His KANGASKHAN for my\n"
-	.string "HAUNTER, up on the roof.\p"
-	.string "By the vending machines.\n"
-	.string "A deal's a deal.$"
+	.string "My buddy's trading his\n"
+	.string "KANGASKHAN for my HAUNTER.\p"
+	.string "Up on the roof.$"
 
 CeladonCity_DepartmentStore_3F_Text_HaunterEvolvedOnTrade::
-	.string "I love HAUNTER.\n"
-	.string "I collect them!\p"
-	.string "So I traded for one more.\p"
-	.string "Huh? It changed on the way\n"
-	.string "over! Came out something else!\p"
-	.string "…Some way to lose\n"
-	.string "a HAUNTER.$"
+	.string "I collect HAUNTER.\p"
+	.string "So I traded for one more…\p"
+	.string "It came out something else.$"
 
 CeladonCity_DepartmentStore_3F_Text_CanIdentifyTradeMonsByID::
 	.string "You can identify POKéMON you get\n"

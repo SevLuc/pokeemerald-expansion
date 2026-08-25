@@ -45,8 +45,6 @@ CeruleanCity_Mart_Text_RepelWorksOnWeakMons::
 CeruleanCity_Mart_Text_DoYouKnowAboutRareCandy::
 	.string "You know about RARE CANDY?\n"
 	.string "You won't find it on a shelf.\p"
-	.string "One bite and a POKéMON shoots\n"
-	.string "up a level, quick as that.\p"
-	.string "…Feels a bit like cheating,\n"
-	.string "if you ask me.$"
+	.string "One bite and a POKéMON jumps\n"
+	.string "a level, just like that.$"
 

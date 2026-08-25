@@ -24,13 +24,9 @@ CeruleanCity_House2_EventScript_WallHole::
 
 CeruleanCity_House2_Text_RocketsStoleTMForDig::
 	.string "Those no-good ROCKETS!\n"
-	.string "Look what they did to my place!\p"
+	.string "Look what they did to my place.\p"
 	.string "Made off with my TM for DIG.\n"
-	.string "I'd saved a good while for that.\p"
-	.string "Was going to teach it to a\n"
-	.string "SANDSHREW. Dig me a proper cellar.\p"
-	.string "…Now I've a hole in the wall\n"
-	.string "and nothing to dig with.$"
+	.string "I'd saved a good while for it.$"
 
 CeruleanCity_House2_Text_TeachDiglettDigWithoutTM::
 	.string "I figure what's lost is lost.\p"
@@ -39,9 +35,7 @@ CeruleanCity_House2_Text_TeachDiglettDigWithoutTM::
 
 CeruleanCity_House2_Text_TeamRocketTryingToDigIntoNoGood::
 	.string "TEAM ROCKET, digging around…\n"
-	.string "Up to no good, I'll bet.\p"
-	.string "Who tunnels into a house just\n"
-	.string "to swipe one dusty TM?$"
+	.string "Up to no good, I'll bet.$"
 
 CeruleanCity_House2_Text_TeamRocketLeftWayOut::
 	.string "TEAM ROCKET left a way out!$"

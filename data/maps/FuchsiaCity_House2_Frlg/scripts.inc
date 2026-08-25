@@ -34,9 +34,9 @@ FuchsiaCity_House2_EventScript_NoRoomForGoodRod::
 FuchsiaCity_House2_Text_DoYouLikeToFish::
 	.string "I'm the FISHING GURU's older\n"
 	.string "brother.\p"
-	.string "The water runs quiet here.\n"
-	.string "Good for a long, slow think.\p"
-	.string "So tell me, do you fish?$"
+	.string "Quiet water here. Good for a\n"
+	.string "long think.\p"
+	.string "You fish?$"
 
 FuchsiaCity_House2_Text_LikeYourStyleTakeThis::
 	.string "Grand! I like your style.\n"
@@ -57,8 +57,7 @@ FuchsiaCity_House2_Text_GoodRodCanCatchBetterMons::
 
 FuchsiaCity_House2_Text_OhThatsDisappointing::
 	.string "Oh…\n"
-	.string "No patience for it, then.\p"
-	.string "A shame. A real shame.$"
+	.string "No patience in you, then…$"
 
 FuchsiaCity_House2_Text_HowAreTheFishBiting::
 	.string "Hello there, {PLAYER}!\p"

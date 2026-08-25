@@ -258,12 +258,11 @@ ViridianCity_Text_ViridiansGymLeaderReturned::
 	.string "come back to us.$"
 
 ViridianCity_Text_WantToKnowAboutCaterpillarMons::
-	.string "You want to know about the two\n"
-	.string "kinds of caterpillar POKéMON?\p"
-	.string "Both turn up in the forest\n"
-	.string "north of here.\p"
-	.string "Catch 'em young and they\n"
-	.string "toughen up fast. …Mostly.$"
+	.string "Two kinds of caterpillar\n"
+	.string "POKéMON, in the forest north.\p"
+	.string "Catch 'em young. They toughen\n"
+	.string "up fast.\p"
+	.string "…Mostly.$"
 
 ViridianCity_Text_OhOkayThen::
 	.string "Oh, okay then!$"

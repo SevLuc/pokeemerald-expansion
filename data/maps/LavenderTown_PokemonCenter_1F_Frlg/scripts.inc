@@ -36,21 +36,13 @@ LavenderTown_PokemonCenter_1F_Text_RocketsDoAnythingForMoney::
 	.string "battle.$"
 
 LavenderTown_PokemonCenter_1F_Text_CubonesMotherKilledByRockets::
-	.string "I saw it happen.\p"
-	.string "The mother CUBONE, running\n"
-	.string "from those ROCKETS…\p"
-	.string "She didn't get far.\p"
-	.string "I still hear it, when the\n"
-	.string "night goes quiet.$"
+	.string "I saw the mother CUBONE\n"
+	.string "run from the ROCKETS.\p"
+	.string "She didn't get far…$"
 
 LavenderTown_PokemonCenter_1F_Text_PeoplePayForCuboneSkulls::
-	.string "My grandpa tells this old\n"
-	.string "story.\p"
-	.string "A TRAINER who walked all\n"
-	.string "KANTO with an empty belt.\p"
-	.string "Caught nothing. The wild ones\n"
-	.string "just followed him.\p"
-	.string "I called it a fairy tale…\p"
-	.string "Then one on the path wouldn't\n"
-	.string "run from me. Now I wonder.$"
+	.string "Grandpa tells of a TRAINER\n"
+	.string "who caught nothing.\p"
+	.string "The wild ones followed him\n"
+	.string "all the same…$"
 

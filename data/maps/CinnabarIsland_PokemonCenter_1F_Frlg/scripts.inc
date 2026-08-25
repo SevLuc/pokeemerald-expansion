@@ -152,14 +152,11 @@ CinnabarIsland_PokemonCenter_1F_Text_CinnabarGymLocked::
 	.string "of the fire whole.$"
 
 CinnabarIsland_PokemonCenter_1F_Text_VisitUnionRoom::
-	.string "You'll have sailed in from\n"
-	.string "VERMILION, I'd wager.\p"
+	.string "You sailed in from VERMILION.\p"
 	.string "They call themselves the gate\n"
-	.string "to the sea. Ha!\p"
+	.string "to the sea.\p"
 	.string "Their harbor silts up every\n"
-	.string "autumn. Ours never has.\p"
-	.string "Sail from CINNABAR, friend.\n"
-	.string "Always have, always will.$"
+	.string "autumn. Ours never has.$"
 
 CinnabarIsland_PokemonCenter_1F_Text_EvolutionCanWaitForNewMoves::
 	.string "POKéMON can still learn techniques\n"

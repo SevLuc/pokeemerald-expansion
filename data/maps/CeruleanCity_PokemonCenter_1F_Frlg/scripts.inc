@@ -57,12 +57,10 @@ CeruleanCity_PokemonCenter_1F_Text_BillCollectsRareMons::
 	.string "types, though. …I wonder why.$"
 
 CeruleanCity_PokemonCenter_1F_Text_TryTradingUpstairs::
-	.string "Head upstairs and trade POKéMON\n"
-	.string "with a friend sometime.\p"
+	.string "Trade POKéMON with a friend\n"
+	.string "upstairs sometime.\p"
 	.string "You'll turn up all sorts you'd\n"
 	.string "never catch yourself.\p"
-	.string "And a traded POKéMON grows\n"
-	.string "a touch faster, too.\p"
-	.string "Our LEADER never trades a thing,\n"
-	.string "mind. Keeps to her own pool.$"
+	.string "Our LEADER never trades, mind.\n"
+	.string "Keeps to her own pool.$"
 

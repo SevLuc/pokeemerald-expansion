@@ -6,8 +6,7 @@ DiglettsCave_SouthEntrance_EventScript_OldMan::
 	end
 
 DiglettsCave_SouthEntrance_Text_DiglettDugThisTunnel::
-	.string "Feel that draft on your neck?\n"
-	.string "DIGLETT bored this whole tunnel.\p"
-	.string "Comes out clear at VIRIDIAN, so\n"
-	.string "they swear. I've never dared it.$"
+	.string "DIGLETT bored this tunnel clean\n"
+	.string "through to VIRIDIAN.\p"
+	.string "Never dared walk it myself.$"
 

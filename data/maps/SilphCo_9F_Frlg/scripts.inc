@@ -47,18 +47,16 @@ SilphCo_9F_EventScript_Grunt2::
 SilphCo_9F_Text_YouShouldTakeQuickNap::
 	.string "You look worn through.\p"
 	.string "There's a cot in the back.\n"
-	.string "Rest your POKéMON a while.\p"
-	.string "Even now, someone should\n"
-	.string "mind the ones who fight for us.$"
+	.string "Rest your POKéMON.$"
 
 SilphCo_9F_Text_DontGiveUp::
 	.string "Don't give up now.\p"
-	.string "They tell a story here… a\n"
-	.string "trainer who walked all KANTO\p"
-	.string "with an empty belt, and the\n"
-	.string "wild ones chose to follow.\p"
-	.string "One person changed things.\n"
-	.string "So can you.$"
+	.string "They say a trainer once\n"
+	.string "walked all KANTO…\p"
+	.string "belt empty, and the wild\n"
+	.string "ones chose to follow.\p"
+	.string "One person. That was all\n"
+	.string "it took.$"
 
 SilphCo_9F_Text_ThankYouSoMuch::
 	.string "Thank you so much.$"

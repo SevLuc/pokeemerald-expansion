@@ -28,13 +28,11 @@ ViridianCity_PokemonCenter_1F_EventScript_Youngster::
 
 ViridianCity_PokemonCenter_1F_Text_FeelFreeToUsePC::
 	.string "I painted the ROUTE signs\n"
-	.string "around here. Forty years.\p"
-	.string "There's a little arrow chalked\n"
-	.string "under every one of them.\p"
-	.string "I never drew those. Somebody's\n"
-	.string "always a step ahead of me.\p"
-	.string "…I redraw them when they fade,\n"
-	.string "all the same.$"
+	.string "around here.\p"
+	.string "There's an arrow chalked under\n"
+	.string "every one.\p"
+	.string "I never drew them. Someone's\n"
+	.string "always a step ahead.$"
 
 ViridianCity_PokemonCenter_1F_Text_PokeCenterInEveryTown::
 	.string "There's a POKéMON CENTER in every\n"

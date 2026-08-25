@@ -20,8 +20,7 @@ SSAnne_1F_Room4_Text_WaiterCherryPiePlease::
 	.string "please!$"
 
 SSAnne_1F_Room4_Text_WaitressCherryPiePlease::
-	.string "Waitress! A slice of cherry pie,\n"
-	.string "and mind the crust.\p"
-	.string "One does travel to be spoiled,\n"
-	.string "after all.$"
+	.string "Waitress! Cherry pie.\p"
+	.string "And mind the crust\n"
+	.string "this time…$"
 

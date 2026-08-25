@@ -204,15 +204,13 @@ PewterCity_Museum_1F_Text_DontHaveEnoughMoney::
 	.string "You don't have enough money.$"
 
 PewterCity_Museum_1F_Text_PleaseEnjoyYourself::
-	.string "Take your time, look around.\p"
 	.string "My grandfather turned POKé\n"
 	.string "BALLS by hand.\p"
 	.string "One a day, if the wood was\n"
 	.string "good.\p"
 	.string "SILPH stamps out a thousand\n"
 	.string "an hour now.\p"
-	.string "I kept his knife. Can't sell\n"
-	.string "it. Can't toss it, either.$"
+	.string "I kept his knife.$"
 
 PewterCity_Museum_1F_Text_DoYouKnowWhatAmberIs::
 	.string "You can't sneak in the back way!\n"

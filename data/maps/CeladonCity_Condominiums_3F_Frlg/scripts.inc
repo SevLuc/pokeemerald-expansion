@@ -51,35 +51,26 @@ CeladonCity_Condominiums_3F_EventScript_Computer3::
 	end
 
 CeladonCity_Condominiums_3F_Text_ImTheProgrammer::
-	.string "Me? I just play guitar.\p"
-	.string "Can't sleep for that GAME\n"
-	.string "CORNER jingle downtown.\p"
-	.string "…Gets in your head like\n"
-	.string "a slot reel, and it stays.$"
+	.string "That GAME CORNER jingle.\p"
+	.string "I hear it in my sleep now,\n"
+	.string "spinning like a reel…$"
 
 CeladonCity_Condominiums_3F_Text_ImTheGraphicArtist::
-	.string "I sketch the routes for fun.\n"
-	.string "Signs, bridges, all of it.\p"
-	.string "Those little chalk arrows\n"
-	.string "under the road signs, though?\p"
-	.string "Don't look at me.\n"
-	.string "I never drew a one of them.$"
+	.string "I draw the road signs.\p"
+	.string "The chalk arrows under them…\n"
+	.string "none of those are mine.$"
 
 CeladonCity_Condominiums_3F_Text_IWroteTheStory::
-	.string "I've been writing a book\n"
-	.string "about our GYM LEADER.\p"
-	.string "Ten years now. Every draft,\n"
-	.string "she comes out a different woman.\p"
-	.string "…I've given up on finishing\n"
-	.string "it. She won't hold still.$"
+	.string "Ten years writing our GYM\n"
+	.string "LEADER. Every draft, a\n"
+	.string "different woman.\p"
+	.string "…She won't hold still.$"
 
 CeladonCity_Condominiums_3F_Text_ImGameDesignerShowMeFinishedPokedex::
-	.string "The DEPT. STORE stocks\n"
-	.string "near everything, they say.\p"
-	.string "Near. The one thing I've\n"
-	.string "wanted isn't on any floor.\p"
-	.string "Been hunting it for years.\n"
-	.string "…Half the fun's the hunt.$"
+	.string "The DEPT. STORE has every\n"
+	.string "floor but the one with the\n"
+	.string "thing I want.\p"
+	.string "…Been hunting it for years.$"
 
 CeladonCity_Condominiums_3F_Text_CompletedPokedexCongratulations::
 	.string "Wow! Excellent!\n"

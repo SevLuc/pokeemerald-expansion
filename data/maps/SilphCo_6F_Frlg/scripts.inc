@@ -91,57 +91,55 @@ SilphCo_6F_EventScript_Grunt2::
 	end
 
 SilphCo_6F_Text_RocketsTookOverBuilding::
-	.string "One morning they simply\n"
+	.string "One morning they just\n"
 	.string "walked in.\p"
-	.string "Keycards, guards, the lot.\n"
-	.string "By noon the tower was theirs.\p"
-	.string "We never stood a chance.$"
+	.string "Keycards, guards, the lot.\p"
+	.string "By noon the tower was\n"
+	.string "theirs.$"
 
 SilphCo_6F_Text_BetterGetBackToWork::
 	.string "Well, better get back to work.$"
 
 SilphCo_6F_Text_HelpMePlease::
 	.string "Oh dear, oh dear…\p"
-	.string "I didn't sign on for this.\n"
-	.string "I wanted a steady desk job.\p"
-	.string "Help me. Please.$"
+	.string "I wanted a quiet desk job.\n"
+	.string "Not this.\p"
+	.string "Help me…$"
 
 SilphCo_6F_Text_WeGotEngaged::
 	.string "We got engaged.\n"
 	.string "Heheh!$"
 
 SilphCo_6F_Text_ThatManIsSuchACoward::
-	.string "That man beside me?\p"
-	.string "Weeping into the carpet\n"
-	.string "since the ROCKETS arrived.\p"
-	.string "One of us has to keep our\n"
-	.string "head. So it's me.$"
+	.string "The man beside me's wept\n"
+	.string "into the carpet for hours.\p"
+	.string "One of us has to keep a\n"
+	.string "level head.$"
 
 SilphCo_6F_Text_NeedsMeToLookAfterHim::
 	.string "He's so helpless, he needed\n"
 	.string "someone like me to look after him.$"
 
 SilphCo_6F_Text_RocketsTryingToConquerWorld::
-	.string "You understand what's at\n"
-	.string "stake here?\p"
-	.string "They don't just want SILPH.\n"
-	.string "They want every POKéMON in it.\p"
-	.string "And then the wild ones\n"
-	.string "beyond these walls.$"
+	.string "It isn't only SILPH they\n"
+	.string "want.\p"
+	.string "It's every POKéMON inside.\p"
+	.string "Then the wild ones beyond\n"
+	.string "these walls.$"
 
 SilphCo_6F_Text_RocketsRanAwayBecauseOfYou::
 	.string "TEAM ROCKET ran away, and it's all\n"
 	.string "because of you!$"
 
 SilphCo_6F_Text_TargetedSilphForOurMonProducts::
-	.string "They came for what SILPH\n"
-	.string "makes. The POKé BALLS.\p"
+	.string "They came for the POKé\n"
+	.string "BALLS.\p"
 	.string "My grandfather carved his\n"
 	.string "by hand, one at a time.\p"
-	.string "Our line stamps out a\n"
-	.string "thousand an hour.\p"
-	.string "We ended his craft. Now\n"
-	.string "someone's come to end ours.$"
+	.string "We stamp out thousands an\n"
+	.string "hour.\p"
+	.string "Now it's our turn to be\n"
+	.string "swept aside.$"
 
 SilphCo_6F_Text_ComeWorkForSilphWhenYoureOlder::
 	.string "Come work for SILPH when you\n"

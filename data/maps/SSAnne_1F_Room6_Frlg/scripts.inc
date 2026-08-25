@@ -25,15 +25,13 @@ SSAnne_1F_Room6_EventScript_DeclineHealMale::
 	end
 
 SSAnne_1F_Room6_Text_TakeAShortRest::
-	.string "You look worn to the bone.\p"
-	.string "Sit a while. The sea keeps its own\n"
-	.string "slow time out here.$"
+	.string "You look worn through.\p"
+	.string "Sit a while. The sea's in\n"
+	.string "no hurry…$"
 
 SSAnne_1F_Room6_Text_GladEveryoneIsRefreshed::
-	.string "There. Everyone's got their color\n"
-	.string "back again.\p"
-	.string "A calm room does more than any\n"
-	.string "medicine, I find.$"
+	.string "There. Everyone's got\n"
+	.string "their color back…$"
 
 SSAnne_1F_Room6_Text_SorryYouLookLikeMyBrother::
 	.string "Oh, I'm sorry for fussing over you.\n"

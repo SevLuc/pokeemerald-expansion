@@ -34,12 +34,8 @@ VermilionCity_House1_EventScript_NoRoomForOldRod::
 
 VermilionCity_House1_Text_ImFishingGuruDoYouLikeToFish::
 	.string "I'm the FISHING GURU!\p"
-	.string "Fished these waters since before\n"
-	.string "you were born, near enough.\p"
 	.string "I can name what's biting with\n"
-	.string "my eyes shut. Just the cry'll do.\p"
-	.string "Kids these days? They just\n"
-	.string "check the DEX. Ah, well.\p"
+	.string "my eyes shut. Just the cry.\p"
 	.string "Tell me… do you like to fish?$"
 
 VermilionCity_House1_Text_TakeThisAndFish::
@@ -59,9 +55,7 @@ VermilionCity_House1_Text_FishingIsAWayOfLife::
 
 VermilionCity_House1_Text_OhThatsSoDisappointing::
 	.string "Oh…\n"
-	.string "A shame. A real shame.\p"
-	.string "…You'll learn. The water\n"
-	.string "has a way of teaching.$"
+	.string "A shame. A real shame.$"
 
 VermilionCity_House1_Text_HowAreTheFishBiting::
 	.string "Hello there, {PLAYER}!\p"

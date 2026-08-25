@@ -359,10 +359,8 @@ VermilionCity_Text_WelcomeToTheSSAnne::
 	.string "Welcome aboard the S.S. ANNE!\p"
 	.string "Finest ship in KANTO, and she\n"
 	.string "sails from VERMILION.\p"
-	.string "Don't let a CINNABAR man tell you\n"
-	.string "THEIR rock is the real port.\p"
-	.string "The sea starts here. Ask anyone.\n"
-	.string "…Anyone from VERMILION.$"
+	.string "Let a CINNABAR man tell you\n"
+	.string "their rock is the real port…$"
 
 VermilionCity_Text_DoYouHaveATicket::
 	.string "Welcome to the S.S. ANNE!\p"
@@ -426,13 +424,9 @@ VermilionCity_Text_Seagallop12Departing::
 	.string "departing immediately.$"
 
 VermilionCity_Text_Route2AideHasPackageForYou::
-	.string "Oh, {PLAYER}! Good to see you.\n"
-	.string "How's the journey treating you?\p"
+	.string "Oh, {PLAYER}! Good to see you.\p"
 	.string "I'm one of PROF. OAK's AIDES.\p"
-	.string "Did you run into the other AIDE?\n"
-	.string "He's holding a package for you.\p"
-	.string "He said he'd wait around ROUTE 2,\n"
-	.string "hoping you'd pass through.\p"
-	.string "If you're up that way, do look\n"
-	.string "him up, {PLAYER}.$"
+	.string "The other AIDE has a package\n"
+	.string "for you. He's waiting on ROUTE 2.\p"
+	.string "Look him up if you pass through.$"
 

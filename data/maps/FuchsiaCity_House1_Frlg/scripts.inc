@@ -28,15 +28,10 @@ FuchsiaCity_House1_Text_WardenIsOldHasFalseTeeth::
 
 FuchsiaCity_House1_Text_BillIsMyGrandson::
 	.string "Hear that call out back?\n"
-	.string "A NIDORAN. Female, that one.\p"
-	.string "Don't need to lay eyes on it.\n"
-	.string "Fifty years, you just know.\p"
-	.string "Kids today squint at their\n"
-	.string "gadgets instead. …Their loss.$"
+	.string "NIDORAN. The female one.\p"
+	.string "Didn't need to look.$"
 
 FuchsiaCity_House1_Text_BillFilesHisOwnMonData::
-	.string "Grandpa names them by ear.\n"
-	.string "Showing off, if you ask me.\p"
-	.string "I just point my POKéDEX at\n"
-	.string "it. Way faster.$"
+	.string "Grandpa names them by ear.\p"
+	.string "I just point my POKéDEX.$"
 

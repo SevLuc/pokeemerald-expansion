@@ -164,11 +164,9 @@ FuchsiaCity_Text_WheresSara::
 	.string "…Pays well, though.$"
 
 FuchsiaCity_Text_ItemBallInThere::
-	.string "I'm training to walk quiet,\n"
+	.string "I'm learning to move quiet,\n"
 	.string "like the GYM LEADER does.\p"
-	.string "See? You never heard me\n"
-	.string "coming. Not a sound.\p"
-	.string "…You did hear me? Aw.$"
+	.string "…You heard me anyway.$"
 
 FuchsiaCity_Text_CitySign::
 	.string "FUCHSIA CITY\n"

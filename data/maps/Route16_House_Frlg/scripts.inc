@@ -36,19 +36,18 @@ Route16_House_EventScript_Fearow::
 
 Route16_House_Text_FoundMySecretRetreat::
 	.string "Oh, my.\n"
-	.string "You've sniffed out my hideaway.\p"
-	.string "Keep it to yourself, won't you?\n"
-	.string "Here, a little thanks for that.$"
+	.string "You've found my hideaway.\p"
+	.string "Keep it quiet, won't you?\n"
+	.string "Here, for your trouble.$"
 
 Route16_House_Text_ReceivedHM02FromGirl::
 	.string "{PLAYER} received HM02\n"
 	.string "from the girl.$"
 
 Route16_House_Text_ExplainHM02::
-	.string "That's HM02, FLY.\n"
-	.string "A true traveler's treasure.\p"
-	.string "Whisk yourself off to any town\n"
-	.string "you've already seen. Do enjoy.$"
+	.string "That's HM02, FLY.\p"
+	.string "Whisk off to any town you've\n"
+	.string "already seen.$"
 
 Route16_House_Text_DontHaveAnyRoomForThis::
 	.string "You don't have any room for this.$"

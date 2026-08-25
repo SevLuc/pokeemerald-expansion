@@ -14,21 +14,19 @@ SafariZone_North_RestHouse_EventScript_Gentleman::
 	end
 
 SafariZone_East_Text_KeepAnyItemFoundOnSafari::
-	.string "Any item you spot in here is\n"
+	.string "Any item you find here is\n"
 	.string "yours to keep.\p"
-	.string "But chase every last one and\n"
-	.string "the clock will beat you.$"
+	.string "Chase them all and the clock\n"
+	.string "beats you.$"
 
 SafariZone_East_Text_PrizeInDeepestPartOfSafariZone::
-	.string "They say the deepest reach\n"
-	.string "of the ZONE hides a prize.\p"
-	.string "I'd fish my way out there, but\n"
-	.string "every pond keeps stopping me.$"
+	.string "Deepest part of the ZONE,\n"
+	.string "they say, a prize.\p"
+	.string "Every pond out here stops me\n"
+	.string "short.$"
 
 SafariZone_East_Text_MyEeveeEvolvedIntoFlareon::
 	.string "My EEVEE became a JOLTEON.\p"
-	.string "My neighbor's turned into a\n"
-	.string "VAPOREON. Same litter, once.\p"
-	.string "Funny, how each one picks\n"
-	.string "its own shape.$"
+	.string "My neighbor's, a VAPOREON.\n"
+	.string "Same litter…$"
 

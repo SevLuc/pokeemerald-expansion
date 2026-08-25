@@ -14,17 +14,16 @@ Route2_ViridianForest_NorthEntrance_EventScript_CooltrainerF::
 	end
 
 Route2_ViridianForest_NorthEntrance_Text_ManyMonsOnlyInForests::
-	.string "Hey, check under the ROUTE sign.\n"
-	.string "There's a little arrow chalked on.\p"
-	.string "There's one in every town, I bet.\n"
-	.string "All pointing the same way.\p"
-	.string "…And nobody'll say who draws 'em.$"
+	.string "Check under the ROUTE sign.\n"
+	.string "An arrow, chalked on.\p"
+	.string "One in every town, all pointing\n"
+	.string "the same way.\p"
+	.string "…No one says who draws them.$"
 
 Route2_ViridianForest_NorthEntrance_Text_CanCutSkinnyTrees::
-	.string "See those spindly trees along\n"
-	.string "the roadside?\p"
-	.string "The right POKéMON move fells them\n"
-	.string "in one clean stroke, I'm told.$"
+	.string "Those spindly roadside trees?\p"
+	.string "The right move fells them in\n"
+	.string "one stroke, I hear.$"
 
 Route2_ViridianForest_NorthEntrance_Text_CanCancelEvolution::
 	.string "Do you know the evolution-cancel\n"
