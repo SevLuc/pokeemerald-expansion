@@ -7,6 +7,35 @@ Update in the same PR as the change.
 `YYYY-MM-DD` — area — one-line summary (PR/commit ref)
 
 ## Entries
+- 2026-08-25 - content/trainers - Filled Giovanni's two earlier Rocket-boss fights
+  (TRAINER_BOSS_GIOVANNI / _2) to mirror his gym sand pool at a younger evolution
+  stage, with levels fit to the progression curve at each story beat (near the local
+  rival's levels), not to the cap. Rocket Hideout (post-Erika Lv35, before the Tower
+  rival's 34/38): Dugtrio Lv34, Kangaskhan Lv35, Rhyhorn Lv37 (Rhyhorn runs Ice Fang
+  since it cannot learn Rhyperior's Avalanche). Silph Co. (on the Silph rival's curve,
+  ace 52): Kangaskhan Lv49, Nidoking Lv50, Rhydon Lv51, Nidoqueen Lv52 ace, the Nido
+  pair now Moon-Stone-evolved and Rhyhorn grown to Rhydon. Perfect IVs;
+  abilities/natures/movesets match their gym versions at each stage (Rhyhorn/Rhydon use
+  Lightning Rod since pre-Rhyperior forms lack Solid Rock). All movesets verified
+  against each species' legal pool. Docs: overview/gyms.md.
+- 2026-08-25 - content/trainers - Converted Gym 8 Giovanni (Ground, cap 63) to a
+  trainer pool, replacing his vanilla 5-mon roster in trainers_frlg.party. Fields 6
+  of a 10-Ground pool, ace Nidoqueen (Tags: Ace, Sheer Force special nuke) with
+  Hippowdon as forced lead (Tags: Lead) so Sand Stream opens a sand team (mirror of
+  Blaine's sun; Marowak/Rhyperior/Nidoking carry Sandstorm to refresh it). Kangaskhan
+  is a deliberate off-type Normal wildcard. Party Size 6 / Pool Rules Basic / Pool
+  Prune Bst Match, perfect IVs, +Speed/relevant natures. Only TRAINER_LEADER_GIOVANNI
+  (the gym fight) changed; his Rocket-boss fights (TRAINER_BOSS_GIOVANNI/_2) are
+  untouched. All movesets verified level-cap-legal with the moveset-legality skill.
+  Docs: overview/gyms.md.
+- 2026-08-25 - content/trainers - Built pool teams for Gym 6 Sabrina (Psychic, cap
+  53) and Gym 7 Blaine (Fire, cap 58), replacing their vanilla 4-mon rosters in
+  trainers_frlg.party. Sabrina fields 6 of a 10-Psychic pool, ace Alakazam (Tags:
+  Ace); Blaine fields 6 of an 8-Fire pool, ace Arcanine (Tags: Ace) with Ninetales
+  as forced lead (Tags: Lead) so Drought opens a sun team. Both use Party Size 6 /
+  Pool Rules Basic / Pool Prune Bst Match, perfect IVs, +Speed natures. All movesets
+  verified level-cap-legal with the moveset-legality skill (Rapidash's Flare Blitz is
+  legal via Ponyta's L55 pre-evo learnup). Docs: overview/gyms.md.
 - 2026-08-25 - content/npc-flavor - Kanto vanilla-NPC fill pass: reflavored 161
   not-yet-flavored flavor NPCs (177 text blocks) across 23 Kanto maps in the
   slight-nudge / show-dont-tell doctrine. Seeded 10 new distributed world-threads
