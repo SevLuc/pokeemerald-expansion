@@ -4,32 +4,36 @@ One section per member: leader, type, level cap, structure, pool, and movesets.
 Tracks our hard-but-fair rebalance against vanilla. Cross-link each member's
 history to docs/writing/lore-ledger.md.
 
-> STATUS: Lorelei pool implemented (trainer entry wired in
-> src/data/trainers_frlg.party with the new Snow Lead pick function). Rematch
-> team (`_2`) and lore fragments are still TODO. Build + playtest on Mac.
+> STATUS: Lorelei and Bruno pools implemented (trainer entries wired in
+> src/data/trainers_frlg.party; Bruno is a 17-mon Fighting+Steel draw pool).
+> Rematch teams (`_2`) and lore fragments are still TODO. Build + playtest on Mac.
 
-## Planned level tiers (NOT yet applied)
-The E4 + Champion will be rebuilt as draw pools like the gym leaders, keeping the
-same ace / lead tags for GENERATION (ace always fielded and sent out last; a `Tags:
-Lead` mon only where one must open). LEVELS, however, are the deliberate exception:
-unlike the gym leaders, the E4 does NOT snap to the level cap. Every E4 fight shares
-cap 72, but the members climb toward the Champion, so their levels are authored
-per-member in the trainer data and are NOT derived by code. The gym cap-tiering in
-CreateNPCTrainerPartyFromTrainer explicitly skips the Elite Four / Champion classes
-for exactly this reason (see the `isPoolGymLeader` gate). Author the fielded 6 to
-these target spreads directly in trainers_frlg.party:
+## Level tiers
+The E4 + Champion are draw pools like the gym leaders, keeping the same ace / lead
+tags for GENERATION (ace always fielded and sent out last; a `Tags: Lead` mon only
+where one must open). LEVELS, however, are the deliberate exception: unlike the gym
+leaders, the E4 does NOT snap to the level cap. Every E4 fight shares cap 72, but
+the members climb toward the Champion, so their fielded levels are set per-member.
 
-| Fight | Fielded-6 levels (lead - ace) |
-|--|--|
-| Lorelei | 60 / 61 / 61 / 61 / 61 / 63 |
-| Bruno | 61 / 62 / 63 / 63 / 63 / 65 |
-| Agatha | 63 / 64 / 64 / 65 / 65 / 66 |
-| Lance | 64 / 66 / 66 / 66 / 67 / 69 |
-| Champion | 67 / 68 / 69 / 70 / 70 / 72 |
+These levels are attached to the fielded SLOT, not to a species: whatever mon the
+pool draws into a slot inherits that slot's level (slot 0 = lead, last slot = ace,
+per trainer_pools.c). The gym cap-tiering in CreateNPCTrainerPartyFromTrainer still
+skips the Elite Four (E4 never snaps to the cap); instead the per-slot spread is
+authored in `GetEliteFourPoolSlotLevels` (src/battle_main.c) and applied to any E4
+pool trainer that has an entry there:
 
-Current data (unchanged): Lorelei pool all Lv72 (author the 60-63 spread above when
-building the fielded set); Bruno/Agatha/Lance vanilla 5-mon teams; Champion 3
-variants ~Lv57-63.
+| Fight | Fielded-6 levels (lead - ace) | Status |
+|--|--|--|
+| Lorelei | 60 / 61 / 61 / 61 / 61 / 63 | implemented (code) |
+| Bruno | 61 / 62 / 63 / 63 / 63 / 65 | implemented (code) |
+| Agatha | 63 / 64 / 64 / 65 / 65 / 66 | planned |
+| Lance | 64 / 66 / 66 / 66 / 67 / 69 | planned |
+| Champion | 67 / 68 / 69 / 70 / 70 / 72 | planned |
+
+The `Level:` lines in trainers_frlg.party are fallbacks only for E4 pools with a
+slot-level entry; the real fielded levels come from the code table above. Current
+data: Lorelei and Bruno are pools driven by the slot-level code; Agatha/Lance are
+still vanilla 5-mon teams; Champion is 3 variants ~Lv57-63.
 
 ## Lorelei (Ice) - first E4 member
 - Trainer: `TRAINER_ELITE_FOUR_LORELEI` (rematch `TRAINER_ELITE_FOUR_LORELEI_2`, TODO).
@@ -72,9 +76,11 @@ variants ~Lv57-63.
   vanilla, same as Misty's Super Potion; not a held item).
 
 ### Pool members (12)
-All at Lv72 = at the cap, perfect IVs, no EVs, no held items (no items anywhere in
-this game). Snowscape carriers are marked (snow-setter) since they satisfy the
-backup-lead rule.
+Perfect IVs, no EVs, no held items (no items anywhere in this game). Movesets are
+legal at Lv72 (the cap). NOTE: fielded levels are now set per SLOT by code, not the
+authored Lv72 - Lorelei fields 60/61/61/61/61/63 (see Level tiers). The authored
+`Level: 72` lines are legality references / fallbacks only. Snowscape carriers are
+marked (snow-setter) since they satisfy the backup-lead rule.
 
 - **ALOLAN NINETALES** (preferred lead), Ice/Fairy, Snow Warning, Timid
   (Blizzard / Moonblast / Icy Wind / Aurora Veil) - sets Snow turn 1; Aurora Veil
@@ -137,3 +143,93 @@ backup-lead rule.
 - [ ] Build + playtest on Mac (this was authored in a web session, not compiled).
 - [ ] Rematch team (`_2`).
 - History fragments: see LORELEI-* in docs/writing/lore-ledger.md (TODO).
+
+## Bruno (Fighting + Steel) - second E4 member
+- Trainer: `TRAINER_ELITE_FOUR_BRUNO` (rematch `TRAINER_ELITE_FOUR_BRUNO_2`, TODO).
+- Level cap: 72 (shared E4 cap). Bruno does NOT snap to the cap; his fielded 6
+  climb toward the Champion at 61 / 62 / 63 / 63 / 63 / 65 (lead - ace), set per
+  slot by `GetEliteFourPoolSlotLevels` (see Level tiers above).
+- Theme: reflavoured from a pure Fighting master into a "fists of steel" martial
+  discipline - Fighting types plus a Steel core (plus one Ground pick, Sandslash).
+  Every moveset verified legal in this build with the moveset-legality skill.
+
+### Structure (draw pool)
+- A TRAINER POOL of 17 that fields 6, like the gyms and Lorelei (`Party Size: 6`,
+  `Pool Rules: Basic`, `Pool Prune: Bst Match`). The game fields the ace plus the
+  five members whose combined BST is closest to the player's team BST total.
+- **Ace:** NamasteNiffo (MACHAMP) (`Tags: Ace`, always fielded, sent out last).
+- No forced lead: whichever mon is drawn into slot 0 leads (and takes the lead
+  level, 61). No held items anywhere. Trainer bag items: Full Restore x2 (kept
+  from vanilla, AI healing, same as Lorelei).
+
+### Pool members (17)
+Nicknames in quotes. Ability / nature / moves. All legal at their fielded level.
+
+Fighting (9):
+- **"NamasteNiffo" MACHAMP** (ACE), No Guard, Jolly
+  (Dynamic Punch / Stone Edge / Payback / Fire Blast) - No Guard makes Dynamic
+  Punch, Stone Edge AND Fire Blast never miss.
+- **"360 NOSCOPE" HITMONLEE**, Reckless, Jolly
+  (High Jump Kick / Sucker Punch / Earthquake / Mach Punch) - Reckless-boosted HJK
+  nuke plus double priority.
+- **HITMONCHAN**, Iron Fist, Jolly
+  (Close Combat / Bullet Punch / Ice Punch / Fire Punch) - Iron Fist boosts the
+  three punches; the elemental-fist boxer.
+- **URSHIFU (Single Strike)**, Unseen Fist, Jolly
+  (Wicked Blow / Close Combat / Sucker Punch / Ice Punch) - always-crit Dark STAB
+  that ignores Protect.
+- **URSHIFU (Rapid Strike)**, Unseen Fist, Jolly
+  (Surging Strikes / Close Combat / Aqua Jet / Poison Jab) - three guaranteed
+  crits, ignores Protect.
+- **POLIWRATH**, Water Absorb, Jolly
+  (Close Combat / Liquidation / Ice Punch / Earthquake) - heals off any Water move.
+- **LUCARIO**, Inner Focus, Timid
+  (Aura Sphere / Flash Cannon / Dark Pulse / Vacuum Wave) - special breaker with
+  special-priority Vacuum Wave. The Fighting/Steel bridge.
+- **HAWLUCHA**, Mold Breaker, Jolly
+  (Close Combat / Acrobatics / Rock Tomb / Dig) - fast coverage attacker; Mold
+  Breaker Dig hits Levitate mons.
+- **HERACROSS**, Moxie, Jolly
+  (Close Combat / Megahorn / Earthquake / Rock Tomb) - Moxie snowball.
+
+Steel (7):
+- **"banksy" GHOLDENGO**, Good as Gold, Timid
+  (Flash Cannon / Shadow Ball / Power Gem / Focus Blast) - immune to all status
+  moves; immune to Fighting (patches the team's shared Fighting weakness).
+- **MAGNEZONE**, Analytic, Modest
+  (Thunderbolt / Flash Cannon / Magnet Rise / Body Press) - Magnet Rise covers its
+  4x Ground weakness.
+- **EMPOLEON**, Torrent, Timid
+  (Surf / Flash Cannon / Ice Beam / Roost) - fast special pivot with recovery.
+- **BRONZONG**, Levitate, Brave
+  (Iron Head / Earthquake / Confuse Ray / Zen Headbutt) - Levitate = Ground immune.
+- **FERROTHORN**, Iron Barbs, Relaxed
+  (Power Whip / Iron Head / Bulldoze / Body Press) - Body Press off 131 Def; Iron
+  Barbs contact chip.
+- **TOGEDEMARU**, Iron Barbs, Jolly
+  (Iron Head / Zing Zap / Nuzzle / Magnet Rise) - flinch/paralysis pressure.
+- **STEELIX**, Sheer Force, Adamant
+  (Iron Head / Rock Slide / Crunch / Thunder Fang) - all four moves get the Sheer
+  Force boost; no Ground STAB by design.
+
+Ground (1):
+- **SANDSLASH**, Sand Veil, Adamant
+  (Earthquake / Rock Slide / Leech Life / Sand Attack) - disruptive/sustain; the
+  one off-theme pick.
+
+### Notes / gaps
+- Team-wide shared weaknesses lean on the Steel core; Gholdengo (Fighting-immune)
+  and the Steel bulk cover the Fighting-weak members. Sandslash is off-theme (pure
+  Ground) by deliberate choice.
+
+### Done
+- [x] Party Size 6, BST-matched draw pool of 17 (like the gyms / Lorelei).
+- [x] Per-slot fielded levels via `GetEliteFourPoolSlotLevels` (src/battle_main.c);
+      Bruno 61/62/63/63/63/65, and Lorelei brought onto her planned 60/61/61/61/61/63.
+- [x] Bruno's trainer entry wired in src/data/trainers_frlg.party (validated with
+      the trainerproc tool: all 17 species / abilities / moves resolve).
+
+### TODO
+- [ ] Build + playtest on Mac (authored in a web session, not compiled/ROM-tested).
+- [ ] Rematch team (`_2`).
+- History fragments: see BRUNO-* in docs/writing/lore-ledger.md (TODO).

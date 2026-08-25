@@ -6746,46 +6746,180 @@ Items: Full Restore / Full Restore
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 Mugshot: Green
+Party Size: 6
+Pool Rules: Basic
+Pool Prune: Bst Match
 
-Onix
-Level: 51
-IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
+NamasteNiffo (Machamp)
+Level: 65
+Ability: No Guard
+Tags: Ace
+Nature: Jolly
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Dynamic Punch
+- Stone Edge
+- Payback
+- Fire Blast
+
+360 NOSCOPE (Hitmonlee)
+Level: 63
+Ability: Reckless
+Nature: Jolly
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- High Jump Kick
+- Sucker Punch
 - Earthquake
-- Rock Tomb
-- Iron Tail
-- Roar
+- Mach Punch
 
 Hitmonchan
-Level: 53
-IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
-- Sky Uppercut
-- Mach Punch
-- Rock Tomb
-- Counter
+Level: 63
+Ability: Iron Fist
+Nature: Jolly
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Close Combat
+- Bullet Punch
+- Ice Punch
+- Fire Punch
 
-Hitmonlee
-Level: 53
-IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
-- Mega Kick
-- Foresight
-- Brick Break
-- Facade
+SPECIES_URSHIFU_SINGLE_STRIKE
+Level: 63
+Ability: Unseen Fist
+Nature: Jolly
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Wicked Blow
+- Close Combat
+- Sucker Punch
+- Ice Punch
 
-Onix
-Level: 54
-IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
-- Double Edge
+SPECIES_URSHIFU_RAPID_STRIKE
+Level: 63
+Ability: Unseen Fist
+Nature: Jolly
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Surging Strikes
+- Close Combat
+- Aqua Jet
+- Poison Jab
+
+Poliwrath
+Level: 63
+Ability: Water Absorb
+Nature: Jolly
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Close Combat
+- Liquidation
+- Ice Punch
 - Earthquake
-- Iron Tail
-- Sand Tomb
 
-Machamp @ Sitrus Berry
-Level: 56
-IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
-- Cross Chop
-- Bulk Up
-- Scary Face
+Lucario
+Level: 63
+Ability: Inner Focus
+Nature: Timid
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Aura Sphere
+- Flash Cannon
+- Dark Pulse
+- Vacuum Wave
+
+Hawlucha
+Level: 63
+Ability: Mold Breaker
+Nature: Jolly
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Close Combat
+- Acrobatics
 - Rock Tomb
+- Dig
+
+Heracross
+Level: 63
+Ability: Moxie
+Nature: Jolly
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Close Combat
+- Megahorn
+- Earthquake
+- Rock Tomb
+
+banksy (Gholdengo)
+Level: 63
+Ability: Good as Gold
+Nature: Timid
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Flash Cannon
+- Shadow Ball
+- Power Gem
+- Focus Blast
+
+Magnezone
+Level: 63
+Ability: Analytic
+Nature: Modest
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Thunderbolt
+- Flash Cannon
+- Magnet Rise
+- Body Press
+
+Empoleon
+Level: 63
+Ability: Torrent
+Nature: Timid
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Surf
+- Flash Cannon
+- Ice Beam
+- Roost
+
+Bronzong
+Level: 63
+Ability: Levitate
+Nature: Brave
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Iron Head
+- Earthquake
+- Confuse Ray
+- Zen Headbutt
+
+Ferrothorn
+Level: 63
+Ability: Iron Barbs
+Nature: Relaxed
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Power Whip
+- Iron Head
+- Bulldoze
+- Body Press
+
+Togedemaru
+Level: 63
+Ability: Iron Barbs
+Nature: Jolly
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Iron Head
+- Zing Zap
+- Nuzzle
+- Magnet Rise
+
+Steelix
+Level: 63
+Ability: Sheer Force
+Nature: Adamant
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Iron Head
+- Rock Slide
+- Crunch
+- Thunder Fang
+
+Sandslash
+Level: 63
+Ability: Sand Veil
+Nature: Adamant
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Earthquake
+- Rock Slide
+- Leech Life
+- Sand Attack
 
 === TRAINER_ELITE_FOUR_AGATHA ===
 Name: AGATHA

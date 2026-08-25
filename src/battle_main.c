@@ -1863,6 +1863,32 @@ void CustomTrainerPartyAssignMoves(struct Pokemon *mon, const struct TrainerMon 
     }
 }
 
+// Elite Four (and Champion) draw-pool level spreads.
+//
+// Unlike the gym leaders - whose fielded levels are derived from the current
+// level cap (see the tiering block below) - the Elite Four do NOT snap to the
+// cap: they climb toward the Champion, so each member's fielded levels are
+// authored here. The numbers are attached to the fielded SLOT, not to a
+// species: whatever mon the pool draws into a slot inherits that slot's level.
+// Slot order is fixed by the pool builder (trainer_pools.c): slot 0 is the
+// lead, the last slot is the ace (sent out last), the rest fill the middle.
+// Returns a 6-entry level array (lead ... ace) for a known E4 pool, else NULL.
+static const u8 *GetEliteFourPoolSlotLevels(const struct Trainer *trainer)
+{
+    // Levels mirror docs/overview/elite-four.md "Planned level tiers".
+    if (trainer == GetTrainerStructFromId(TRAINER_ELITE_FOUR_LORELEI))
+    {
+        static const u8 sLoreleiSlotLevels[6] = { 60, 61, 61, 61, 61, 63 };
+        return sLoreleiSlotLevels;
+    }
+    if (trainer == GetTrainerStructFromId(TRAINER_ELITE_FOUR_BRUNO))
+    {
+        static const u8 sBrunoSlotLevels[6] = { 61, 62, 63, 63, 63, 65 };
+        return sBrunoSlotLevels;
+    }
+    return NULL;
+}
+
 u8 CreateNPCTrainerPartyFromTrainer(struct Pokemon *party, const struct Trainer *trainer, bool32 halfTeam, u32 battleTypeFlags)
 {
     u32 personalityValue;
@@ -1925,9 +1951,10 @@ u8 CreateNPCTrainerPartyFromTrainer(struct Pokemon *party, const struct Trainer 
             //   - the opener (slot 0, whichever mon the pool leads with, tagged Lead
             //     or an untagged random draw) sits at cap-4;
             //   - every other member sits at cap-2.
-            // Elite Four / Champion are intentionally excluded: their members keep
-            // the levels authored in trainers_frlg.party (a graduated climb toward
-            // the Champion), and non-pool leaders keep their authored levels too.
+            // Elite Four / Champion do NOT snap to the cap: their pools instead
+            // field a per-member level spread authored in GetEliteFourPoolSlotLevels,
+            // indexed by fielded slot (lead ... ace). Non-pool leaders keep their
+            // authored levels.
             {
                 u32 tClass = trainer->trainerClass;
                 bool32 isPoolGymLeader = (trainer->poolSize != 0)
@@ -1941,6 +1968,12 @@ u8 CreateNPCTrainerPartyFromTrainer(struct Pokemon *party, const struct Trainer 
                         monLevel = (cap > 4) ? cap - 4 : 1;    // opener at cap-4
                     else
                         monLevel = (cap > 2) ? cap - 2 : 1;    // the rest at cap-2
+                }
+                else if (trainer->poolSize != 0 && monsCount == 6)
+                {
+                    const u8 *slotLevels = GetEliteFourPoolSlotLevels(trainer);
+                    if (slotLevels != NULL && i < 6)
+                        monLevel = slotLevels[i];              // per-slot E4 level
                 }
             }
             CreateMon(&party[i], partyData[monIndex].species, monLevel, personalityValue, otId);

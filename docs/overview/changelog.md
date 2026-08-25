@@ -7,6 +7,14 @@ Update in the same PR as the change.
 `YYYY-MM-DD` — area — one-line summary (PR/commit ref)
 
 ## Entries
+- 2026-08-25 - content/e4-bruno - Rebuilt Elite Four Bruno as a 17-mon Fighting +
+  Steel draw pool (fields 6, BST-matched), ace NamasteNiffo (Machamp, No Guard).
+  Reflavored from pure-Fighting to "fists of steel": Fighting core + a Steel core
+  (Gholdengo/Magnezone/Empoleon/Bronzong/Ferrothorn/Togedemaru/Steelix) + Sandslash.
+  All movesets legality-checked. Added GetEliteFourPoolSlotLevels (src/battle_main.c)
+  so E4 pools take per-SLOT fielded levels (lead..ace) instead of snapping to cap:
+  Bruno 61/62/63/63/63/65, and Lorelei onto her planned 60/61/61/61/61/63. Party
+  data validated with the trainerproc tool. Not yet compiled/ROM-tested (web session).
 - 2026-08-25 - content/economy - Set every Celadon Game Corner prize to cost 1 coin.
   All prize costs in the prize room (Pokemon, TMs, and battle items) were changed to
   1 coin, and the price labels in the exchange menus (src/data/script_menu.h) were
