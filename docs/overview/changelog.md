@@ -7,6 +7,11 @@ Update in the same PR as the change.
 `YYYY-MM-DD` — area — one-line summary (PR/commit ref)
 
 ## Entries
+- 2026-08-25 - content/trainers - Added Aurorus to Lorelei's Elite Four snow pool
+  (TRAINER_ELITE_FOUR_LORELEI), bringing it to 12 candidates that field 6. Lv72,
+  Snow Warning (a second free-Snow lead alongside Alolan Ninetales), Modest, Blizzard
+  / Freeze-Dry / Earth Power / Aurora Veil (all cap-legal at 72). Docs: overview/
+  elite-four.md updated (pool count, snow-lead rule, guarantee math, member list).
 - 2026-08-25 - content/trainers - Filled Giovanni's two earlier Rocket-boss fights
   (TRAINER_BOSS_GIOVANNI / _2) to mirror his gym sand pool at a younger evolution
   stage, with levels fit to the progression curve at each story beat (near the local

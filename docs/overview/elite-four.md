@@ -43,7 +43,7 @@ variants ~Lv57-63.
   free via Snow Warning; several members carry the Snowscape move as backup.
 
 ### Structure (draw pool)
-- This is a TRAINER POOL of 11 that fields 6, exactly like the gym pools in
+- This is a TRAINER POOL of 12 that fields 6, exactly like the gym pools in
   gyms.md (`Party Size: 6`, `Pool Rules: Basic`, `Pool Prune: Bst Match`). The
   game sums the player's team base-stat totals and fields the ace plus the five
   other members whose combined BST is closest to that total
@@ -53,21 +53,22 @@ variants ~Lv57-63.
 - **Lead rule (conditional Snow lead):** implemented as a new pick function
   `POOL_PICK_SNOW_LEAD` (src/trainer_pools.c), selected in the party file with
   `Pool Pick Functions: Snow Lead`. For slot 1 it scans the already-fielded mons
-  and leads with one whose ability is **Snow Warning** (Alolan Ninetales, free
-  turn-1 Snow); if none was drawn it leads with one that knows **Snowscape**
+  and leads with one whose ability is **Snow Warning** (Alolan Ninetales or
+  Aurorus, free turn-1 Snow); if none was drawn it leads with one that knows **Snowscape**
   (Slowbro, Dewgong, Articuno, Froslass, or Glaceon). Alolan Ninetales is NOT
   force-kept, so it stays an ordinary BST-matched candidate; it only leads when
   it is actually fielded.
 - **Guarantee:** with Party Size 6, a snow-setter is always fielded. Lapras is
-  the ace, leaving 5 slots drawn from 10 candidates, and only 4 of those are
+  the ace, leaving 5 slots drawn from 11 candidates, and only 4 of those are
   non-setters (Jynx, Mr. Rime, Mamoswine, Weavile). By pigeonhole at least one of
-  the 5 is a snow-setter, so the lead rule never has an empty hand. This holds as
+  the 5 is a snow-setter, so the lead rule never has an empty hand. Adding Aurorus
+  (a second Snow Warning auto-setter) widens the margin further. This holds as
   long as (Party Size - reserved) stays greater than the count of non-setters; if
   the pool composition changes, re-check it.
 - Held items: none. Trainer bag items: Full Restore x2 (AI healing, kept from
   vanilla, same as Misty's Super Potion; not a held item).
 
-### Pool members (11)
+### Pool members (12)
 All at Lv72 = at the cap, perfect IVs, no EVs, no held items (no items anywhere in
 this game). Snowscape carriers are marked (snow-setter) since they satisfy the
 backup-lead rule.
@@ -108,6 +109,11 @@ backup-lead rule.
   (Night Slash / Ice Punch / Low Kick / Poison Jab) - fast physical breaker; Ice +
   Dark + Fighting + Poison is near-perfect neutral coverage (Low Kick answers
   Steel, Poison Jab answers Fairy).
+- **AURORUS** (snow-setter), Rock/Ice, Snow Warning, Modest
+  (Blizzard / Freeze-Dry / Earth Power / Aurora Veil) - a second free-Snow lead;
+  bulky special attacker. Blizzard is 100% accurate under its own Snow, Freeze-Dry
+  beats Waters, Earth Power answers Steel/Fire/Rock, and it can put up Aurora Veil
+  itself.
 
 ### Notes / gaps
 - Dropped during pool-building: Cloyster and Iron Bundle (Iron Bundle's strong

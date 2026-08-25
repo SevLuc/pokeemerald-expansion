@@ -6726,6 +6726,16 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Low Kick
 - Poison Jab
 
+Aurorus
+Level: 72
+Ability: Snow Warning
+Nature: Modest
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Blizzard
+- Freeze-Dry
+- Earth Power
+- Aurora Veil
+
 === TRAINER_ELITE_FOUR_BRUNO ===
 Name: BRUNO
 Class: Elite Four Frlg
