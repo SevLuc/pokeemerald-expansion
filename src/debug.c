@@ -992,6 +992,35 @@ static void Debug_HandleInput_Numeric(u8 taskId, s32 min, s32 max, u32 digits)
     }
 }
 
+// Like Debug_HandleInput_Numeric, but scrolling past an end rolls over to the
+// other end instead of clamping (e.g. level 100 -> 1 and 1 -> 100).
+static void Debug_HandleInput_Numeric_Wrap(u8 taskId, s32 min, s32 max, u32 digits)
+{
+    s32 range = max - min + 1;
+    if (JOY_NEW(DPAD_UP))
+    {
+        gTasks[taskId].tInput += sPowersOfTen[gTasks[taskId].tDigit];
+        while (gTasks[taskId].tInput > max)
+            gTasks[taskId].tInput -= range;
+    }
+    if (JOY_NEW(DPAD_DOWN))
+    {
+        gTasks[taskId].tInput -= sPowersOfTen[gTasks[taskId].tDigit];
+        while (gTasks[taskId].tInput < min)
+            gTasks[taskId].tInput += range;
+    }
+    if (JOY_NEW(DPAD_LEFT))
+    {
+        if (gTasks[taskId].tDigit > 0)
+            gTasks[taskId].tDigit -= 1;
+    }
+    if (JOY_NEW(DPAD_RIGHT))
+    {
+        if (gTasks[taskId].tDigit < digits - 1)
+            gTasks[taskId].tDigit += 1;
+    }
+}
+
 enum SongType { SONG_SE, SONG_MUS };
 enum FindSongMode { SONG_FIRST_GE, SONG_FIRST_GT, SONG_LAST_LT };
 u32 FindSong(enum SongType, enum FindSongMode, u32 fromSongId);
@@ -2991,7 +3020,7 @@ static void DebugAction_Give_Pokemon_SelectLevel(u8 taskId)
     if (JOY_NEW(DPAD_ANY))
     {
         PlaySE(SE_SELECT);
-        Debug_HandleInput_Numeric(taskId, 1, MAX_LEVEL, 3);
+        Debug_HandleInput_Numeric_Wrap(taskId, 1, MAX_LEVEL, 3);
         Debug_Display_Level(gTasks[taskId].tInput, gTasks[taskId].tDigit, gTasks[taskId].tSubWindowId);
     }
 
