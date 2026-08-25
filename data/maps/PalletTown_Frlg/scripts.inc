@@ -471,20 +471,12 @@ PalletTown_Text_OakGrassUnsafeNeedMon::
 PalletTown_Text_RaisingMonsToo::
 	.string "PALLET buried a box, long ago.\p"
 	.string "To be opened only when one of\n"
-	.string "ours reaches the very top.\p"
-	.string "No one living recalls what's\n"
-	.string "inside it.\p"
-	.string "My gran helped bury the thing.\n"
-	.string "She only smiled when I asked.$"
+	.string "ours reaches the very top…$"
 
 PalletTown_Text_PalletBoxOpened::
-	.string "So it's you.\p"
-	.string "A PALLET child, and the CHAMPION\n"
-	.string "now. After all this time.\p"
-	.string "We're digging up that old box\n"
-	.string "tonight, down by the water.\p"
-	.string "You ought to be there.\n"
-	.string "The whole town means to be.$"
+	.string "You made it to the top.\p"
+	.string "They're opening the box tonight.\n"
+	.string "Down by the water.$"
 
 PalletTown_Text_CanStoreItemsAndMonsInPC::
 	.string "Technology is incredible!\p"
