@@ -7,7 +7,7 @@ Source of truth: `src/data/banned_moves.h` (list + curated replacements).
 Engine: `IsMovePlayerBanned` / `GetBannedMoveReplacement` / `ApplyPlayerMoveBans`
 in `src/pokemon.c`. Tests: `test/banned_moves.c`.
 
-## The list (76 moves)
+## The list (77 moves)
 
 ### Setup / stat-boost (49)
 Swords Dance, Meditate, Sharpen, Howl, Bulk Up, Hone Claws, Nasty Plot, Tail Glow,
@@ -29,13 +29,13 @@ Toxic, Will-O-Wisp
 ### Entry hazards (4)
 Spikes, Toxic Spikes, Sticky Web, Stealth Rock
 
-### Item / accuracy / other utility (13)
+### Item / accuracy / other utility (14)
 Baton Pass, Destiny Bond, Trick Room, Tailwind, Whirlwind, Roar, Leech Seed, Trick,
-Switcheroo, Bestow, Spite, Mind Reader, Lock-On
+Switcheroo, Bestow, Spite, Mind Reader, Lock-On, Substitute
 
 ## Kept legal on purpose
 Recovery (Recover / Roost / Wish / Rest / Synthesis / etc.), all non-Toxic/WoW status,
-Substitute, Encore, Taunt, Perish Song, Disable, Haze. Skull Bash and Magnet Rise were
+Encore, Taunt, Perish Song, Disable, Haze. Skull Bash and Magnet Rise were
 reviewed and left legal (Skull Bash attacks; Magnet Rise is utility, not a stat boost).
 
 ## What happens when a mon would learn a banned move

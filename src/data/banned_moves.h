@@ -5,7 +5,7 @@
 // Toxic/Will-O-Wisp, entry hazards). Trainers are unaffected - they still use
 // these. Enforced for player-owned and wild Pokemon; see ApplyPlayerMoveBans,
 // IsMovePlayerBanned and GetBannedMoveReplacement in pokemon.c.
-// 76 banned moves; 1336 curated same/near-type replacements below.
+// 77 banned moves; 1336 curated same/near-type replacements below.
 static const u16 sPlayerBannedMoves[] =
 {
     MOVE_SWORDS_DANCE,
@@ -84,6 +84,7 @@ static const u16 sPlayerBannedMoves[] =
     MOVE_BESTOW,
     MOVE_MIND_READER,
     MOVE_LOCK_ON,
+    MOVE_SUBSTITUTE,
 };
 
 // When a banned move sits in a species' level-up learnset, the player's mon

@@ -229,30 +229,6 @@ FuchsiaCity_Text_KabutoSign::
 FuchsiaCity_Text_Ellipsis::
 	.string "……$"
 
-Text_SubstituteTeach::
-	.string "Aww, I wish I was a KANGASKHAN\n"
-	.string "baby.\p"
-	.string "I'd love to be a substitute for the\n"
-	.string "baby…\p"
-	.string "And snuggle in the mother\n"
-	.string "KANGASKHAN's belly pouch.\p"
-	.string "But only POKéMON can use the\n"
-	.string "technique SUBSTITUTE…\p"
-	.string "Want me to teach SUBSTITUTE to\n"
-	.string "one of your POKéMON?$"
-
-Text_SubstituteDeclined::
-	.string "Oh, really?\n"
-	.string "SUBSTITUTE seems so fun…$"
-
-Text_SubstituteWhichMon::
-	.string "Which POKéMON wants to learn\n"
-	.string "SUBSTITUTE?$"
-
-Text_SubstituteTaught::
-	.string "Boy, what I'd give to crawl inside\n"
-	.string "a KANGASKHAN belly pouch…$"
-
 FuchsiaCity_Text_MyFatherIsGymLeader::
 	.string "My father is the GYM LEADER of\n"
 	.string "this town.\p"

@@ -33,6 +33,7 @@ TEST("IsMovePlayerBanned flags banned moves and clears legal ones")
     EXPECT(IsMovePlayerBanned(MOVE_TOXIC));
     EXPECT(IsMovePlayerBanned(MOVE_SWORDS_DANCE));
     EXPECT(IsMovePlayerBanned(MOVE_STEALTH_ROCK));
+    EXPECT(IsMovePlayerBanned(MOVE_SUBSTITUTE));
     EXPECT(!IsMovePlayerBanned(MOVE_TACKLE));
     EXPECT(!IsMovePlayerBanned(MOVE_SURF));
 }

@@ -96,22 +96,6 @@ MoveTutor_EventScript_SleepTalkTaught::
 	release
 	end
 
-LilycoveCity_DepartmentStoreRooftop_EventScript_SubstituteTutor::
-	lock
-	faceplayer
-	move_tutor MOVE_SUBSTITUTE, MoveTutor_Text_SubstituteTeach, MoveTutor_Text_SubstituteWhichMon, MoveTutor_EventScript_SubstituteDeclined, MoveTutor_EventScript_SubstituteTaught, FLAG_MOVE_TUTOR_TAUGHT_SUBSTITUTE
-	end
-
-MoveTutor_EventScript_SubstituteDeclined::
-	msgbox MoveTutor_Text_SubstituteDeclined, MSGBOX_DEFAULT
-	release
-	end
-
-MoveTutor_EventScript_SubstituteTaught::
-	msgbox MoveTutor_Text_SubstituteTaught, MSGBOX_DEFAULT
-	release
-	end
-
 MossdeepCity_EventScript_DynamicPunchTutor::
 	lock
 	faceplayer
