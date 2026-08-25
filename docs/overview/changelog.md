@@ -7,6 +7,10 @@ Update in the same PR as the change.
 `YYYY-MM-DD` — area — one-line summary (PR/commit ref)
 
 ## Entries
+- 2026-08-25 - content/economy - Set every Celadon Game Corner prize to cost 1 coin.
+  All prize costs in the prize room (Pokemon, TMs, and battle items) were changed to
+  1 coin, and the price labels in the exchange menus (src/data/script_menu.h) were
+  updated to match ("1 COIN"). Covers both FireRed and LeafGreen prize tables.
 - 2026-08-25 - content/trainers - Added Aurorus to Lorelei's Elite Four snow pool
   (TRAINER_ELITE_FOUR_LORELEI), bringing it to 12 candidates that field 6. Lv72,
   Refrigerate, Modest, Hyper Voice / Discharge / Earth Power / Hyper Beam (all
