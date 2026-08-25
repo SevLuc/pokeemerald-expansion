@@ -1886,6 +1886,11 @@ static const u8 *GetEliteFourPoolSlotLevels(const struct Trainer *trainer)
         static const u8 sBrunoSlotLevels[6] = { 61, 62, 63, 63, 63, 65 };
         return sBrunoSlotLevels;
     }
+    if (trainer == GetTrainerStructFromId(TRAINER_ELITE_FOUR_AGATHA))
+    {
+        static const u8 sAgathaSlotLevels[6] = { 63, 64, 64, 65, 65, 66 };
+        return sAgathaSlotLevels;
+    }
     return NULL;
 }
 

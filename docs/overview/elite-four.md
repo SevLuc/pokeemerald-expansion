@@ -4,9 +4,10 @@ One section per member: leader, type, level cap, structure, pool, and movesets.
 Tracks our hard-but-fair rebalance against vanilla. Cross-link each member's
 history to docs/writing/lore-ledger.md.
 
-> STATUS: Lorelei and Bruno pools implemented (trainer entries wired in
-> src/data/trainers_frlg.party; Bruno is a 17-mon Fighting+Steel draw pool).
-> Rematch teams (`_2`) and lore fragments are still TODO. Build + playtest on Mac.
+> STATUS: Lorelei, Bruno and Agatha pools implemented (trainer entries wired in
+> src/data/trainers_frlg.party; Bruno is a 17-mon Fighting+Steel pool, Agatha a
+> 14-mon Ghost+Poison pool). Rematch teams (`_2`) and lore fragments are still
+> TODO. Build + playtest on Mac.
 
 ## Level tiers
 The E4 + Champion are draw pools like the gym leaders, keeping the same ace / lead
@@ -26,7 +27,7 @@ pool trainer that has an entry there:
 |--|--|--|
 | Lorelei | 60 / 61 / 61 / 61 / 61 / 63 | implemented (code) |
 | Bruno | 61 / 62 / 63 / 63 / 63 / 65 | implemented (code) |
-| Agatha | 63 / 64 / 64 / 65 / 65 / 66 | planned |
+| Agatha | 63 / 64 / 64 / 65 / 65 / 66 | implemented (code) |
 | Lance | 64 / 66 / 66 / 66 / 67 / 69 | planned |
 | Champion | 67 / 68 / 69 / 70 / 70 / 72 | planned |
 
@@ -233,3 +234,76 @@ Ground (1):
 - [ ] Build + playtest on Mac (authored in a web session, not compiled/ROM-tested).
 - [ ] Rematch team (`_2`).
 - History fragments: see BRUNO-* in docs/writing/lore-ledger.md (TODO).
+
+## Agatha (Ghost + Poison) - third E4 member
+- Trainer: `TRAINER_ELITE_FOUR_AGATHA` (rematch `TRAINER_ELITE_FOUR_AGATHA_2`, TODO).
+- Level cap: 72 (shared E4 cap). Agatha does NOT snap to the cap; her fielded 6
+  climb 63 / 64 / 64 / 65 / 65 / 66 (lead - ace), set per slot by
+  `GetEliteFourPoolSlotLevels` (see Level tiers above).
+- Theme: canon gen-1 Agatha (Gengar / Golbat / Haunter / Arbok) reframed as a
+  Ghost + Poison pool. A disruption-heavy roster (Confuse Ray / Will-O-Wisp /
+  Spore / Strength Sap) around hard-hitting Ghosts. Every moveset legality-checked.
+- NOTE: Gengar's only ability here is Cursed Body (this build sets
+  `P_UPDATED_ABILITIES = GEN_LATEST`), NOT Levitate - so Gengar keeps the standard
+  Ghost/Poison weaknesses (Ground, Psychic, Ghost, Dark).
+
+### Structure (draw pool)
+- A TRAINER POOL of 14 that fields 6, like the gyms and the other E4
+  (`Party Size: 6`, `Pool Rules: Basic`, `Pool Prune: Bst Match`).
+- **Ace:** GENGAR (`Tags: Ace`, always fielded, sent out last).
+- No forced lead: whichever mon is drawn into slot 0 leads (takes the lead level,
+  63). No held items. Trainer bag: Full Restore x2 (AI healing, like Lorelei/Bruno).
+
+### Pool members (14)
+Ability / nature / moves. All legal at their fielded level.
+
+Ghost (10):
+- **GENGAR** (ACE), Ghost/Poison, Cursed Body, Timid
+  (Sludge Wave / Shadow Ball / Dazzling Gleam / Confuse Ray)
+- **POLTEAGEIST**, Ghost, Cursed Body, Timid
+  (Will-O-Wisp / Strength Sap / Shadow Ball / Confuse Ray) - defensive annoyer.
+- **MISMAGIUS**, Ghost, Levitate, Timid
+  (Confuse Ray / Shadow Ball / Mystical Fire / Dazzling Gleam)
+- **DUSKNOIR**, Ghost, Pressure, Adamant
+  (Poltergeist / Shadow Sneak / Thunder Punch / Revenge) - bulky physical.
+- **DRAGAPULT**, Dragon/Ghost, Clear Body, Jolly
+  (Dragon Darts / U-turn / Phantom Force / Infestation) - fast pivot/chipper.
+- **MIMIKYU**, Ghost/Fairy, Disguise, Jolly
+  (Play Rough / Shadow Claw / Confuse Ray / Will-O-Wisp) - Disguise buys a free
+  status turn.
+- **CHANDELURE**, Ghost/Fire, Flame Body, Timid
+  (Flamethrower / Shadow Ball / Energy Ball / Confuse Ray) - 145 SpA nuke.
+- **DRIFBLIM**, Ghost/Flying, Aftermath, Calm
+  (Shadow Ball / Air Slash / Strength Sap / Thunder Wave) - 150-HP staller.
+- **BASCULEGION**, Water/Ghost, Adaptability, Jolly
+  (Wave Crash / Last Respects / Aqua Jet / Head Smash) - Last Respects scales with
+  fainted allies; 2x STAB via Adaptability.
+- **DHELMISE**, Ghost/Grass, Steelworker, Brave
+  (Anchor Shot / Grassy Glide / Earthquake / Synthesis) - trapping tank (Power Whip
+  is cap-locked at L64, so no Ghost STAB).
+
+Poison (4):
+- **CROBAT**, Poison/Flying, Infiltrator, Jolly
+  (Brave Bird / Cross Poison / U-turn / Roost) - fast pivot.
+- **AMOONGUSS**, Grass/Poison, Regenerator, Relaxed
+  (Energy Ball / Sludge Bomb / Foul Play / Spore) - fat Spore/Regenerator pivot.
+- **DRAGALGE**, Poison/Dragon, Adaptability, Modest
+  (Draco Meteor / Sludge Wave / Hydro Pump / Flip Turn) - 2x-STAB special breaker.
+- **SNEASLER**, Fighting/Poison, Poison Touch, Jolly
+  (Close Combat / Dire Claw / Fake Out / U-turn) - Hisuian line, no Ice moves.
+
+### Notes / gaps
+- Disruption-heavy but every status is "fair" (Confuse Ray, Will-O-Wisp, para) with
+  the one exception of Amoonguss's Spore (100% sleep) - flag if that crosses the line.
+- Reuse: none of Agatha's mons overlap the other implemented pools.
+
+### Done
+- [x] Party Size 6, BST-matched draw pool of 14.
+- [x] Agatha slot spread {63,64,64,65,65,66} added to `GetEliteFourPoolSlotLevels`.
+- [x] Agatha's trainer entry wired in src/data/trainers_frlg.party (validated with
+      the trainerproc tool: all 14 species / abilities / moves resolve).
+
+### TODO
+- [ ] Build + playtest on Mac (authored in a web session, not compiled/ROM-tested).
+- [ ] Rematch team (`_2`).
+- History fragments: see AGATHA-* in docs/writing/lore-ledger.md (TODO).
