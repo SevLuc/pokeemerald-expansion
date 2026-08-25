@@ -91,39 +91,57 @@ SilphCo_6F_EventScript_Grunt2::
 	end
 
 SilphCo_6F_Text_RocketsTookOverBuilding::
-	.string "The ROCKETS came and took over\n"
-	.string "the building!$"
+	.string "One morning they simply\n"
+	.string "walked in.\p"
+	.string "Keycards, guards, the lot.\n"
+	.string "By noon the tower was theirs.\p"
+	.string "We never stood a chance.$"
 
 SilphCo_6F_Text_BetterGetBackToWork::
 	.string "Well, better get back to work.$"
 
 SilphCo_6F_Text_HelpMePlease::
-	.string "Oh dear, oh dear.\n"
-	.string "Help me, please!$"
+	.string "Oh dear, oh dear…\p"
+	.string "I didn't sign on for this.\n"
+	.string "I wanted a steady desk job.\p"
+	.string "Help me. Please.$"
 
 SilphCo_6F_Text_WeGotEngaged::
 	.string "We got engaged.\n"
 	.string "Heheh!$"
 
 SilphCo_6F_Text_ThatManIsSuchACoward::
-	.string "That man next to me…\n"
-	.string "He's such a coward!$"
+	.string "That man beside me?\p"
+	.string "Weeping into the carpet\n"
+	.string "since the ROCKETS arrived.\p"
+	.string "One of us has to keep our\n"
+	.string "head. So it's me.$"
 
 SilphCo_6F_Text_NeedsMeToLookAfterHim::
 	.string "He's so helpless, he needed\n"
 	.string "someone like me to look after him.$"
 
 SilphCo_6F_Text_RocketsTryingToConquerWorld::
-	.string "TEAM ROCKET is trying to conquer\n"
-	.string "the world with POKéMON.$"
+	.string "You understand what's at\n"
+	.string "stake here?\p"
+	.string "They don't just want SILPH.\n"
+	.string "They want every POKéMON in it.\p"
+	.string "And then the wild ones\n"
+	.string "beyond these walls.$"
 
 SilphCo_6F_Text_RocketsRanAwayBecauseOfYou::
 	.string "TEAM ROCKET ran away, and it's all\n"
 	.string "because of you!$"
 
 SilphCo_6F_Text_TargetedSilphForOurMonProducts::
-	.string "They must have targeted SILPH for\n"
-	.string "our POKéMON products.$"
+	.string "They came for what SILPH\n"
+	.string "makes. The POKé BALLS.\p"
+	.string "My grandfather carved his\n"
+	.string "by hand, one at a time.\p"
+	.string "Our line stamps out a\n"
+	.string "thousand an hour.\p"
+	.string "We ended his craft. Now\n"
+	.string "someone's come to end ours.$"
 
 SilphCo_6F_Text_ComeWorkForSilphWhenYoureOlder::
 	.string "Come work for SILPH when you\n"

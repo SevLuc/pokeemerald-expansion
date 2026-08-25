@@ -898,6 +898,44 @@ Consistency notes:
 - Twitch writing rules now LOCKED in twitch.md: (1) no future-dated TPP events at game
   start, (2) no reusing jokes already spent in the nearby in-lab Text_TwitchRival* lines.
 
+## World-threads (ambient NPC lore, added 2026-08-25)
+
+> Ten distributed world-threads seeded across ordinary flavor NPCs in the same
+> slight-nudge / show-never-tell doctrine as the leader histories. Each appears only
+> on a handful of dispersed carriers (never a single-town chorus). Everyone else in the
+> Kanto fill pass got standalone town-character flavor. Sevii is deliberately untouched
+> (post-game). Full before/after: docs/writing/fill-pass-2026-08-kanto.md.
+
+| ID | Thread | Register | Reveal (never stated outright) | Gate | Status |
+|---|---|---|---|---|---|
+| WT-01 | The Chalk Arrows | mundane-strange | A small chalk arrow keeps appearing under route signs and bridges in every town, and nobody will admit to making them. | Ungated early sightings read as coincidence | in-game |
+| WT-02 | The Last Ball-Whittlers | melancholy | A dying craft: families who once turned Poke Balls by hand, made obsolete by Silph's factory, and can't quite let the old tools go. | Ungated | in-game |
+| WT-03 | The Routes Got Harder | tense | Ordinary people quietly note that the wild Pokemon don't spook like they used to and travel isn't as safe as it once was. | Ungated but the tone can tighten by mid-game (post-badge bra | in-game |
+| WT-04 | The Culvert Coin | funny-contrast | A town has a solemn ritual of flicking a coin into a drain before crossing, and it has completely detached from any reason. | Ungated | in-game |
+| WT-05 | The Walker | wistful | An old half-legend of a trainer who walked all of Kanto with an empty belt, catching nothing, and the wild Pokemon simply followed. | Ungated fireside color | in-game |
+| WT-06 | Two Ports, One Sea | funny-contrast | Vermilion and Cinnabar have a decades-old civic feud over which is the true gateway to the sea, and travelers get an earful at both docks. | Ungated | in-game |
+| WT-07 | The Clefairy Come Down | eerie | Near a full moon, Clefairy leave Mt. Moon and turn up far from it, in town gardens and yards, gone by dawn. | Ungated ambient | in-game |
+| WT-08 | The Tunnel Was Meant To Be Lit | melancholy | Rock Tunnel was supposed to have a full run of lamps; the crew strung the wire, the funding went quiet, and it stayed dark forever. | Ungated | in-game |
+| WT-09 | By the Cry | warm | Old-timers can name any Pokemon blind, just from its call, and gently mourn that the kids now just check the Dex. | Ungated | in-game |
+| WT-10 | The Pallet Box | warm | Pallet Town buried a box generations ago, to be opened only when one of its own reaches the very top, and nobody alive expected that day to come. | Told as a sleepy legend early | in-game |
+
+### Carriers placed this pass
+
+- **WT-01 The Chalk Arrows**: CeladonCity_Condominiums_3F (GraphicArtist), CeruleanCity_BikeShop (Woman), ViridianCity_PokemonCenter_1F (Gentleman), Route2_ViridianForest_NorthEntrance (Youngster)
+- **WT-02 The Last Ball-Whittlers**: CeladonCity (OldMan2), SilphCo_6F (WorkerM2), SilphCo_8F (WorkerM), PewterCity_Museum_1F (Scientist1)
+- **WT-03 The Routes Got Harder**: VermilionCity_PokemonCenter_1F (Man), ViridianCity_School (Woman), Route4 (Woman)
+- **WT-04 The Culvert Coin**: UndergroundPath_SouthEntrance (Woman), UndergroundPath_WestEntrance (BaldingMan)
+- **WT-05 The Walker**: SSAnne_2F_Room3 (Gentleman), SilphCo_9F (HealWoman), LavenderTown_PokemonCenter_1F (Youngster), SafariZone_West_RestHouse (CooltrainerF), Route12_NorthEntrance_2F (Lass)
+- **WT-06 Two Ports, One Sea**: SSAnne_1F_Room3 (BaldingMan), SSAnne_2F_Room5 (Gentleman), VermilionCity (FerrySailor), CinnabarIsland_PokemonCenter_1F (Gentleman)
+- **WT-07 The Clefairy Come Down**: PewterCity_PokemonCenter_1F (GBAKid2), Route3 (Youngster)
+- **WT-08 The Tunnel Was Meant To Be Lit**: LavenderTown_Mart (BaldingMan), CeruleanCity_House1 (BadgeGuy), Route10_PokemonCenter_1F (Youngster)
+- **WT-09 By the Cry**: CeladonCity_Condominiums_RoofRoom (BlackBelt), FuchsiaCity_House1 (OldMan), FuchsiaCity_House1 (LittleBoy), VermilionCity_House1 (FishingGuru)
+- **WT-10 The Pallet Box**: ViridianCity_House (BaldingMan)
+
+> Note: WT-10 (The Pallet Box) only its early LEGEND seed is placed (Viridian House
+> old-timer, as a neighbor's rumor). Pallet Town has no vanilla flavor NPC to carry the
+> post-Elite-Four payoff; that payoff still needs a dedicated Pallet NPC slot (follow-up).
+
 ## Template: new gym leader
 Copy per leader. Keep fragments optional and gated so a rushing player still
 finishes and a curious one gets the hidden layer.

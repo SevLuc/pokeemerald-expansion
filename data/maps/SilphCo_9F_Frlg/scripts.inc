@@ -45,11 +45,20 @@ SilphCo_9F_EventScript_Grunt2::
 	end
 
 SilphCo_9F_Text_YouShouldTakeQuickNap::
-	.string "You look tired.\n"
-	.string "You should take a quick nap.$"
+	.string "You look worn through.\p"
+	.string "There's a cot in the back.\n"
+	.string "Rest your POKéMON a while.\p"
+	.string "Even now, someone should\n"
+	.string "mind the ones who fight for us.$"
 
 SilphCo_9F_Text_DontGiveUp::
-	.string "Don't give up!$"
+	.string "Don't give up now.\p"
+	.string "They tell a story here… a\n"
+	.string "trainer who walked all KANTO\p"
+	.string "with an empty belt, and the\n"
+	.string "wild ones chose to follow.\p"
+	.string "One person changed things.\n"
+	.string "So can you.$"
 
 SilphCo_9F_Text_ThankYouSoMuch::
 	.string "Thank you so much.$"

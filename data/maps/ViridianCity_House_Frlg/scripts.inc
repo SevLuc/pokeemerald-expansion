@@ -24,13 +24,19 @@ ViridianCity_House_EventScript_NicknameSign::
 	end
 
 ViridianCity_House_Text_NicknamingIsFun::
-	.string "Coming up with nicknames is fun,\n"
-	.string "but it's not so easy to do.\p"
-	.string "Clever names are nice, but simple\n"
-	.string "names are easier to remember.$"
+	.string "My neighbor down PALLET way\n"
+	.string "tells an old story.\p"
+	.string "They buried a box, generations\n"
+	.string "back.\p"
+	.string "To be opened only when one of\n"
+	.string "theirs reaches the very top.\p"
+	.string "Nobody living recalls what's\n"
+	.string "inside. …A long wait, that.$"
 
 ViridianCity_House_Text_MyDaddyLovesMonsToo::
-	.string "My daddy loves POKéMON, too.$"
+	.string "My daddy loves POKéMON, too!\p"
+	.string "He says someday he'll catch me\n"
+	.string "a little one all my own.$"
 
 ViridianCity_House_Text_Speary::
 	.string "SPEARY: Tetweet!$"

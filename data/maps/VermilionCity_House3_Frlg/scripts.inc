@@ -40,8 +40,10 @@ VermilionCity_House3_Text_DearPippiLetter::
 	.string "VERMILION appears to be safe.$"
 
 VermilionCity_House3_Text_SendMyPidgeyToUnionRoom::
-	.string "I want to exchange MAIL with all\n"
-	.string "sorts of people.\p"
-	.string "I send my PIDGEY to a UNION ROOM\n"
-	.string "to exchange MAIL for me.$"
+	.string "I love trading MAIL with all\n"
+	.string "kinds of people.\p"
+	.string "I send my PIDGEY off to the\n"
+	.string "UNION ROOM to carry it for me.\p"
+	.string "A PIDGEY makes a fine little\n"
+	.string "postman, don't you think?$"
 

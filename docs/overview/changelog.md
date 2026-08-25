@@ -7,6 +7,17 @@ Update in the same PR as the change.
 `YYYY-MM-DD` — area — one-line summary (PR/commit ref)
 
 ## Entries
+- 2026-08-25 - content/npc-flavor - Kanto vanilla-NPC fill pass: reflavored 161
+  not-yet-flavored flavor NPCs (177 text blocks) across 23 Kanto maps in the
+  slight-nudge / show-dont-tell doctrine. Seeded 10 new distributed world-threads
+  (WT-01..WT-10 in lore-ledger.md: chalk arrows, hand-carved Poke Balls dying to
+  Silph, bolder wilds, the culvert-coin ritual, the empty-belt Walker, the
+  Vermilion/Cinnabar ferry feud, the Clefairy full-moon descent, Rock Tunnel's
+  unlit lamps, naming Pokemon by their cry, and the Pallet box legend) onto their
+  dispersed carriers; every other NPC got standalone town-character flavor. Sevii
+  Islands and all functional / plot / tutorial / pet-Pokemon NPCs left vanilla on
+  purpose. WT-10's post-Elite-Four payoff still needs a dedicated Pallet NPC (TODO).
+  Review: docs/writing/fill-pass-2026-08-kanto.md. No .pory maps affected.
 - 2026-08-24 - balance/trainers - Gym-leader pool teams now derive their fielded
   levels from the current level cap at battle time instead of relying on hand-typed
   levels in trainers_frlg.party: the `Tags: Ace` mon sits at the cap, the opener

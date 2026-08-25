@@ -55,8 +55,9 @@ SilphCo_10F_Text_TravisPostBattle::
 	.string "Then go on home!$"
 
 SilphCo_10F_Text_WaaaImScared::
-	.string "Waaaaa!\n"
-	.string "I'm scared!$"
+	.string "I can't stop shaking…\p"
+	.string "They're on every floor.\n"
+	.string "There's nowhere left to run.$"
 
 SilphCo_10F_Text_KeepMeCryingASecret::
 	.string "About me crying…\n"

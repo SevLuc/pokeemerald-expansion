@@ -6,6 +6,9 @@ UndergroundPath_WestEntrance_EventScript_BaldingMan::
 	end
 
 UndergroundPath_WestEntrance_Text_SleepyMonNearCeladon::
-	.string "I heard a sleepy POKéMON appeared\n"
-	.string "out near CELADON CITY, too.$"
+	.string "They all flick a coin in the\n"
+	.string "drain before they cross under.\p"
+	.string "I never have. Not once.\p"
+	.string "…Still here, aren't I. Still got\n"
+	.string "all my coins, too.$"
 

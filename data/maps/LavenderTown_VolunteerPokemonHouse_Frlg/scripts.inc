@@ -86,22 +86,31 @@ LavenderTown_PokemonCenter_1F_Text_HearMrFujiNotFromAroundHere::
 	.string "these parts originally, either.$"
 
 LavenderTown_VolunteerPokemonHouse_Text_WhereDidMrFujiGo::
-	.string "That's odd, MR. FUJI isn't here.\n"
-	.string "Where'd he go?$"
+	.string "Strange… MR. FUJI isn't\n"
+	.string "here.\p"
+	.string "He never leaves the little\n"
+	.string "ones alone like this.\p"
+	.string "Where could he have gone?$"
 
 LavenderTown_VolunteerPokemonHouse_Text_MrFujiWasPrayingForCubonesMother::
 	.string "MR. FUJI had been praying alone\n"
 	.string "for CUBONE's mother.$"
 
 LavenderTown_VolunteerPokemonHouse_Text_MrFujiLooksAfterOrphanedMons::
-	.string "This is really MR. FUJI's house.\p"
-	.string "He's really kind.\p"
-	.string "He looks after abandoned and\n"
-	.string "orphaned POKéMON.$"
+	.string "This is MR. FUJI's house,\n"
+	.string "really.\p"
+	.string "He's ever so kind.\p"
+	.string "He takes in the POKéMON no\n"
+	.string "one else will.\p"
+	.string "The lost ones. The orphaned\n"
+	.string "ones, too.$"
 
 LavenderTown_VolunteerPokemonHouse_Text_MonsNiceToHug::
-	.string "It's so warm!\n"
-	.string "POKéMON are so nice to hug.$"
+	.string "This one's so warm.\p"
+	.string "Even in this town, POKéMON\n"
+	.string "are warm to hold.\p"
+	.string "It makes the sad feeling go\n"
+	.string "quiet for a while.$"
 
 LavenderTown_VolunteerPokemonHouse_Text_Nidorino::
 	.string "NIDORINO: Gaoo!$"

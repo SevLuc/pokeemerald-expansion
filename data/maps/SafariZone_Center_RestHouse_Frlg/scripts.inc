@@ -14,6 +14,8 @@ SafariZone_Center_Text_WhereDidErikGo::
 	.string "ERIK, go?$"
 
 SafariZone_Center_Text_CatchingMonsAsGifts::
-	.string "I'm catching POKéMON to take home\n"
-	.string "as gifts.$"
+	.string "I'm catching a few to bring\n"
+	.string "home as gifts.\p"
+	.string "My niece wants one that\n"
+	.string "spits fire. …We'll see.$"
 

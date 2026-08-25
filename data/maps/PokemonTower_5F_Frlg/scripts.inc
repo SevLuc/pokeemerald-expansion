@@ -42,9 +42,12 @@ PokemonTower_5F_EventScript_Janae::
 	end
 
 PokemonTower_5F_Text_RestHereInPurifiedSpace::
-	.string "Come, child!\n"
-	.string "I have purified this space.\l"
-	.string "You can rest here.$"
+	.string "Come closer, child.\p"
+	.string "I've cleansed this small\n"
+	.string "corner of the TOWER.\p"
+	.string "Nothing restless can reach\n"
+	.string "you here.\l"
+	.string "Rest a while.$"
 
 PokemonTower_5F_Text_TammyIntro::
 	.string "Give…me…\n"

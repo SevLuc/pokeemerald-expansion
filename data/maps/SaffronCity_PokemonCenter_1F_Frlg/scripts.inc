@@ -45,15 +45,19 @@ SaffronCity_PokemonCenter_1F_Text_GrowthRatesDifferBySpecies::
 	.string "…Went cold in her hands.$"
 
 SaffronCity_PokemonCenter_1F_Text_SilphCoVictimOfFame::
-	.string "SILPH CO. is widely known to all.\p"
-	.string "It's a victim of its own fame - it\n"
-	.string "attracted TEAM ROCKET.$"
+	.string "SILPH CO. is the pride of\n"
+	.string "SAFFRON. Known the world over.\p"
+	.string "And that's just it.\p"
+	.string "Shine bright enough, and\n"
+	.string "thieves come looking.$"
 
 SaffronCity_PokemonCenter_1F_Text_GreatIfEliteFourCameBeatRockets::
 	.string "Sigh…\n"
-	.string "Wouldn't this be great?\p"
-	.string "If the ELITE FOUR came and\n"
-	.string "stomped TEAM ROCKET?$"
+	.string "I keep hoping.\p"
+	.string "Maybe the ELITE FOUR will\n"
+	.string "ride in and run them off.\p"
+	.string "Nobody's coming, though.\n"
+	.string "Are they…$"
 
 SaffronCity_PokemonCenter_1F_Text_TeamRocketTookOff::
 	.string "TEAM ROCKET took off!\n"

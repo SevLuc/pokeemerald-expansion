@@ -47,16 +47,18 @@ LavenderTown_EventScript_PokemonTowerSign::
 	end
 
 LavenderTown_Text_DoYouBelieveInGhosts::
-	.string "Do you believe in ghosts?$"
+	.string "Do you believe the dead\n"
+	.string "stay near us?$"
 
 LavenderTown_Text_SoThereAreBelievers::
 	.string "Really?\n"
 	.string "So there are believers…$"
 
 LavenderTown_Text_JustImaginingWhiteHand::
-	.string "Hahaha, I guess not.\p"
-	.string "That white hand on your shoulder…\n"
-	.string "I'm just imagining it.$"
+	.string "…No? That's all right.\p"
+	.string "That cold little hand on\n"
+	.string "your shoulder…\p"
+	.string "I'm sure it's nothing.$"
 
 LavenderTown_Text_TownKnownAsMonGraveSite::
 	.string "This town is known as the grave\n"

@@ -72,11 +72,15 @@ CeruleanCity_House1_EventScript_StopDescribingBadges::
 	end
 
 CeruleanCity_House1_Text_BadgesHaveAmazingSecrets::
-	.string "Only skilled TRAINERS can collect\n"
-	.string "POKéMON BADGES.\p"
-	.string "I see you have at least one.\p"
-	.string "Those BADGES have amazing secrets,\n"
-	.string "did you know?$"
+	.string "I sat on the town council, once.\p"
+	.string "We promised ROCK TUNNEL lamps.\n"
+	.string "All the way through.\p"
+	.string "The money went elsewhere. It\n"
+	.string "always does. The tunnel's still black.\p"
+	.string "My father walked it by candle\n"
+	.string "every winter. Carried one for me.\p"
+	.string "…I never did finish what we\n"
+	.string "started for him.$"
 
 CeruleanCity_House1_Text_DescribeWhichBadge::
 	.string "Now then…\p"

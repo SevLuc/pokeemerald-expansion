@@ -33,11 +33,18 @@ CinnabarIsland_Mart_Items::
 	end
 
 CinnabarIsland_Mart_Text_DontTheyHaveXAttack::
-	.string "Don't they have X ATTACK?\p"
-	.string "I like it because it raises the\n"
-	.string "ATTACK stat in battle.$"
+	.string "You get used to the heat here\n"
+	.string "soon enough.\p"
+	.string "Me, I never leave this MART\n"
+	.string "without a full bag.\p"
+	.string "…You never know, on an island\n"
+	.string "like this one.$"
 
 CinnabarIsland_Mart_Text_ExtraItemsNeverHurt::
-	.string "It never hurts to have extra items.\n"
-	.string "You never know what might happen.$"
+	.string "I came to study the volcano.\p"
+	.string "Funny thing, though…\p"
+	.string "The real work on this island\n"
+	.string "ended long ago.\p"
+	.string "In a fire, they say. Before\n"
+	.string "the LAB. Before any of us.$"
 

@@ -142,10 +142,13 @@ CeladonCity_Text_GameCornerIsBadForCitysImage::
 	.string "…I don't ask. I just breathe.$"
 
 CeladonCity_Text_BlewItAllAtSlots::
-	.string "Moan…\n"
-	.string "I blew it all at the slots!\p"
-	.string "I knew I should have cashed in my\n"
-	.string "COINS for prizes!$"
+	.string "Moan…\p"
+	.string "I used to whittle POKé BALLS\n"
+	.string "by hand. Good ones, too.\p"
+	.string "Then SILPH's factory made\n"
+	.string "mine worth nothing overnight.\p"
+	.string "So now I sit at the slots.\n"
+	.string "…Old hands need something.$"
 
 CeladonCity_Text_MyTrustedPalPoliwrath::
 	.string "This is my trusted pal, POLIWRATH.\p"

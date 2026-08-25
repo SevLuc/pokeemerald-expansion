@@ -10,8 +10,12 @@ SSAnne_2F_Room3_EventScript_OldMan::
 	end
 
 SSAnne_2F_Room3_Text_SeenMonsFerryPeople::
-	.string "Ah, yes, I have seen some POKéMON\n"
-	.string "ferry people across the water!$"
+	.string "Old sailors tell of a trainer with\n"
+	.string "an empty belt.\p"
+	.string "Crossed all of KANTO, they say,\n"
+	.string "and never caught a single one.\p"
+	.string "The wild ones followed him anyway.\n"
+	.string "Even bore him over the water.$"
 
 SSAnne_2F_Room3_Text_SomeTreesCanBeCutDown::
 	.string "Small trees can be chopped down\n"

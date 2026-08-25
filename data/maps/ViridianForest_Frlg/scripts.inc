@@ -64,10 +64,12 @@ ViridianForest_EventScript_Charlie::
 	end
 
 ViridianForest_Text_FriendsItchingToBattle::
-	.string "I came here with some friends to\n"
-	.string "catch us some BUG POKéMON!\p"
-	.string "They're all itching to get into\n"
-	.string "some POKéMON battles!$"
+	.string "Me and my buddies came to\n"
+	.string "catch some BUG POKéMON!\p"
+	.string "They're all itching to get\n"
+	.string "into a battle.\p"
+	.string "Winner buys lunch back in\n"
+	.string "PEWTER!$"
 
 ViridianForest_Text_RickIntro::
 	.string "Hey! You have POKéMON!\n"
@@ -131,10 +133,12 @@ ViridianForest_Text_CharliePostBattle::
 	.string "They're a lot of fun!$"
 
 ViridianForest_Text_RanOutOfPokeBalls::
-	.string "I was throwing POKé BALLS to\n"
-	.string "catch POKéMON, and I ran out.\p"
-	.string "That's why you can never have too\n"
-	.string "many POKé BALLS.$"
+	.string "I was tossing POKé BALLS left\n"
+	.string "and right, and I ran clean out.\p"
+	.string "That's the thing… you can\n"
+	.string "never carry too many.\p"
+	.string "Guess I'll hoof it back to\n"
+	.string "VIRIDIAN for more.$"
 
 ViridianForest_Text_AvoidGrassyAreasWhenWeak::
 	.string "TRAINER TIPS\p"

@@ -126,6 +126,6 @@ Route16_NorthEntrance_1F_Text_ExcuseMeWaitUp::
 	.string "Wait up, please!$"
 
 Route16_NorthEntrance_1F_Text_HowdYouGetInGoodEffort::
-	.string "How'd you get in?\n"
-	.string "Good effort!$"
+	.string "Well, how'd you slip past me?\n"
+	.string "…Ah, no matter. Good on you.$"
 

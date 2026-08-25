@@ -22,16 +22,22 @@ SafariZone_West_Text_KogaPatrolsSafariEverySoOften::
 	.string "knowing that we're safe.$"
 
 SafariZone_West_Text_RocksMakeMonRunButEasierCatch::
-	.string "Tossing ROCKS at POKéMON might\n"
-	.string "make them run, but they'll be\l"
-	.string "easier to catch.$"
+	.string "Pelt a POKéMON with a ROCK\n"
+	.string "and it may bolt, but it'll be\l"
+	.string "far easier to catch after.$"
 
 SafariZone_West_Text_BaitMakesMonStickAround::
-	.string "Using BAIT will make POKéMON more\n"
-	.string "likely to stick around if they get\l"
-	.string "busy eating.$"
+	.string "Toss out some BAIT and a\n"
+	.string "POKéMON may linger to eat,\l"
+	.string "staying put a good while.$"
 
 SafariZone_West_Text_HikedLotsDidntSeeMonIWanted::
-	.string "I hiked a lot, but I didn't see any\n"
-	.string "POKéMON I wanted.$"
+	.string "Hiked all day. Threw BAIT,\n"
+	.string "threw ROCKS. Caught nothing.\p"
+	.string "Old-timers tell of a walker\n"
+	.string "who crossed KANTO with an\l"
+	.string "empty belt…\p"
+	.string "and the wild ones just\n"
+	.string "followed him. No BALLS at all.\p"
+	.string "…Maybe I've got it backward.$"
 

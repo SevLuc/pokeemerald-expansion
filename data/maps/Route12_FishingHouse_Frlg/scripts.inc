@@ -98,11 +98,11 @@ Route12_FishingHouse_EventScript_MagikarpRecordSignRecordSet::
 	end
 
 Route12_FishingHouse_Text_DoYouLikeToFish::
-	.string "I'm the FISHING GURU's younger\n"
+	.string "I'm the FISHING GURU's kid\n"
 	.string "brother.\p"
-	.string "I simply looove fishing!\n"
-	.string "I can't bear to go without.\p"
-	.string "Tell me, do you like to fish?$"
+	.string "A day with no cast is a day\n"
+	.string "wasted, I always say.\p"
+	.string "So tell me true. Do you fish?$"
 
 Route12_FishingHouse_Text_TakeThisAndFish::
 	.string "Grand! I like your style.\n"
@@ -126,7 +126,7 @@ Route12_FishingHouse_Text_IfYouCatchBigMagikarpShowMe::
 
 Route12_FishingHouse_Text_OhThatsDisappointing::
 	.string "Oh…\n"
-	.string "That's so disappointing…$"
+	.string "And here I had hopes for you.$"
 
 Route12_FishingHouse_Text_TryFishingBringMeMagikarp::
 	.string "Hello there, {PLAYER}!\n"

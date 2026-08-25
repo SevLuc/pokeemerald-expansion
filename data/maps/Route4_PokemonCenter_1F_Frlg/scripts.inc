@@ -192,10 +192,10 @@ Route4_PokemonCenter_1F_Text_IDontGiveRefunds::
 	.string "You knew what you were getting!$"
 
 Route4_PokemonCenter_1F_Text_ShouldStoreMonsUsingPC::
-	.string "Sometimes, you'll have too many\n"
-	.string "POKéMON with you to add any more.\p"
-	.string "In that case, you should just\n"
-	.string "store some using any PC.$"
+	.string "Party full and one more POKéMON\n"
+	.string "you'd like to keep? Happens plenty.\p"
+	.string "Just box a few at any PC.\n"
+	.string "They'll keep safe till you need 'em.$"
 
 Route4_PokemonCenter_1F_Text_ItsANewspaper::
 	.string "It's a newspaper.$"

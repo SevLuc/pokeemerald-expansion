@@ -38,9 +38,10 @@ SSAnne_Deck_Text_ScrubbingDecksHardWork::
 	.string "This ship owes him plenty.$"
 
 SSAnne_Deck_Text_FeelSeasick::
-	.string "Urf… I feel ill…\p"
-	.string "I got seasick, so I stepped out to\n"
-	.string "get some air…$"
+	.string "Urgh… the horizon won't hold\n"
+	.string "still…\p"
+	.string "I came up top for the air. Don't\n"
+	.string "make me talk. Just… breathe.$"
 
 SSAnne_Deck_Text_EdmondIntro::
 	.string "Hey, matey!\p"

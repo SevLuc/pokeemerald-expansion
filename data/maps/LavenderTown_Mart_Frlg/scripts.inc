@@ -39,24 +39,30 @@ LavenderTown_Mart_Items::
 	end
 
 LavenderTown_Mart_Text_SearchingForStatRaiseItems::
-	.string "I'm searching for items that raise\n"
-	.string "the stats of POKéMON.\p"
-	.string "They're effective over the course\n"
-	.string "of a single battle.\p"
-	.string "X ATTACK, X DEFEND, X SPEED, \n"
-	.string "and X SPECIAL are what I'm after.\p"
-	.string "Do you know where I can get them?$"
+	.string "I helped dig ROCK TUNNEL,\n"
+	.string "years back.\p"
+	.string "They swore we'd have lamps by\n"
+	.string "winter. We strung the wire…\p"
+	.string "Then the money went quiet.\n"
+	.string "It's still dark down there.\p"
+	.string "I carried a candle every\n"
+	.string "shift. The habit stayed.$"
 
 LavenderTown_Mart_Text_DidYouBuyRevives::
-	.string "Did you buy some REVIVES?\n"
-	.string "They revive any fainted POKéMON!$"
+	.string "Stock up on REVIVES while\n"
+	.string "you're here.\p"
+	.string "They'll bring a fainted\n"
+	.string "POKéMON right back.\p"
+	.string "Funny place to sell them…\n"
+	.string "round here, of all towns.$"
 
 LavenderTown_Mart_Text_TrainerDuosCanChallengeYou::
-	.string "Sometimes, a TRAINER duo will\n"
-	.string "challenge you with two POKéMON\l"
-	.string "at the same time.\p"
-	.string "If that happens, you have to send\n"
-	.string "out two POKéMON to battle, too.$"
+	.string "Sometimes two TRAINERS\n"
+	.string "team up against you.\p"
+	.string "Two POKéMON at once, side\n"
+	.string "by side.\p"
+	.string "You'll have to send out two\n"
+	.string "of your own to answer them.$"
 
 LavenderTown_Mart_Text_SoldNuggetFromMountainsFor5000::
 	.string "この　あいだ　やまおくで\n"

@@ -44,23 +44,32 @@ VermilionCity_PokemonCenter_1F_EventScript_ExplainVSSeeker::
 	end
 
 VermilionCity_PokemonCenter_1F_Text_TrainerMonsStrongerThanWild::
-	.string "Even if they are the same level,\n"
-	.string "POKéMON can have very different\l"
-	.string "stats and abilities.\p"
-	.string "A POKéMON raised by a TRAINER is\n"
-	.string "stronger than one in the wild.$"
+	.string "Even at the same level, POKéMON\n"
+	.string "can differ. Stats, abilities.\p"
+	.string "One raised by a good TRAINER\n"
+	.string "outdoes a wild one. The hand shows.\p"
+	.string "The LT here never brags of it.\p"
+	.string "…Folks just stopped losing sleep,\n"
+	.string "somewhere along the way.$"
 
 VermilionCity_PokemonCenter_1F_Text_PoisonedMonFaintedWhileWalking::
-	.string "My POKéMON was poisoned!\n"
-	.string "It fainted while we were walking!$"
+	.string "My POKéMON was poisoned…\n"
+	.string "fainted right there on the road.\p"
+	.string "I'd my little one with me, too.\n"
+	.string "The wild ones don't back off now.\p"
+	.string "Used to be, a stamp of your foot\n"
+	.string "sent them running. Not lately.\p"
+	.string "…I'll not walk that route with\n"
+	.string "the child again. Not soon.$"
 
 VermilionCity_PokemonCenter_1F_Text_AllMonWeakToSpecificTypes::
-	.string "It is true that a higher-level\n"
-	.string "POKéMON will be more powerful…\p"
-	.string "But, all POKéMON will have weak\n"
-	.string "points against specific types.\p"
-	.string "So, there appears to be no\n"
-	.string "universally strong POKéMON.$"
+	.string "Sure, a higher-level POKéMON\n"
+	.string "hits harder…\p"
+	.string "But every POKéMON has a type\n"
+	.string "it just can't stand up to.\p"
+	.string "So there's no such thing as one\n"
+	.string "POKéMON that beats them all!\p"
+	.string "…I think about this a lot.$"
 
 VermilionCity_PokemonCenter_1F_Text_UrgeToBattleSomeoneAgain::
 	.string "The urge to battle with someone\n"

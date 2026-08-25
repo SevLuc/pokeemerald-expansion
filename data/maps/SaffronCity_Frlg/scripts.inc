@@ -142,32 +142,47 @@ SaffronCity_EventScript_TrainerFanClubSign::
 	end
 
 SaffronCity_Text_WhatDoYouWantGetLost::
-	.string "What do you want?\n"
-	.string "Get lost!$"
+	.string "This street's ours now.\n"
+	.string "Turn around.\p"
+	.string "You didn't see anything.\n"
+	.string "Keep it that way.$"
 
 SaffronCity_Text_BossTakeTownForTeamRocket::
-	.string "BOSS said he'll take this town\n"
-	.string "in the name of TEAM ROCKET!$"
+	.string "The BOSS wants SAFFRON.\n"
+	.string "So SAFFRON is his.\p"
+	.string "That's how it works now.\n"
+	.string "Get used to it.$"
 
 SaffronCity_Text_DontGetDefiantOrIllHurtYou::
-	.string "Don't get defiant!\n"
-	.string "Or I'll have to hurt you!$"
+	.string "Eyes down. Keep walking.\p"
+	.string "Folks who don't… we have\n"
+	.string "a quiet word with them.\p"
+	.string "You don't want the quiet\n"
+	.string "word.$"
 
 SaffronCity_Text_SaffronBelongsToTeamRocket::
-	.string "SAFFRON belongs to TEAM ROCKET!$"
+	.string "Every door. Every gate.\n"
+	.string "We hold the keys now.\p"
+	.string "SAFFRON answers to\n"
+	.string "TEAM ROCKET.$"
 
 SaffronCity_Text_CriminalLifeMakesMeFeelAlive::
-	.string "My life as a criminal makes me feel\n"
-	.string "so alive!$"
+	.string "No badges. No rules.\n"
+	.string "No one to answer to.\p"
+	.string "You've no idea how good\n"
+	.string "that feels.$"
 
 SaffronCity_Text_WatchWhereYoureWalking::
-	.string "Ow!\n"
-	.string "Watch where you're walking!$"
+	.string "Watch where you step.\p"
+	.string "I'm not in the habit of\n"
+	.string "asking twice.$"
 
 SaffronCity_Text_WeCanExploitMonsAroundWorld::
-	.string "With SILPH under control, we can\n"
-	.string "exploit POKéMON around the world!\p"
-	.string "We'll get stinking rich, yeahah!$"
+	.string "Once SILPH bends to us,\n"
+	.string "every POKéMON is stock.\p"
+	.string "To buy. To sell. To break.\p"
+	.string "And we'll be the ones who\n"
+	.string "set the price.$"
 
 SaffronCity_Text_YouBeatTeamRocket::
 	.string "You beat TEAM ROCKET all alone?\n"

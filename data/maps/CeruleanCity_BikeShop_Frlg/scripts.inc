@@ -107,14 +107,18 @@ CeruleanCity_BikeShop_Text_MakeRoomForBicycle::
 	.string "BICYCLE!$"
 
 CeruleanCity_BikeShop_Text_CityBikeGoodEnoughForMe::
-	.string "A plain city bike is good enough\n"
-	.string "for me.\p"
-	.string "After all, you can't put a shopping\n"
-	.string "basket on a mountain bike.$"
+	.string "A plain city bike suits me fine.\n"
+	.string "I just pedal around town.\p"
+	.string "Down under the bridge there's a\n"
+	.string "little chalk arrow on the stone.\p"
+	.string "Been there for years. I've asked\n"
+	.string "around. Nobody drew it.$"
 
 CeruleanCity_BikeShop_Text_BikesCoolButExpensive::
-	.string "These bikes are cool, but they're\n"
-	.string "way expensive!$"
+	.string "These bikes are so cool…\n"
+	.string "but they cost a fortune!\p"
+	.string "I've been saving up. I'm only\n"
+	.string "about a million short.$"
 
 CeruleanCity_BikeShop_Text_WowYourBikeIsCool::
 	.string "Wow.\n"

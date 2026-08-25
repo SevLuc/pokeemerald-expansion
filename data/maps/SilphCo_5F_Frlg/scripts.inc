@@ -58,9 +58,11 @@ SilphCo_5F_EventScript_Dalton::
 	end
 
 SilphCo_5F_Text_RocketsInUproarAboutIntruder::
-	.string "TEAM ROCKET is in an uproar over\n"
-	.string "some intruder.\p"
-	.string "That's you, right?$"
+	.string "The whole building's buzzing.\n"
+	.string "Some intruder slipped past them.\p"
+	.string "That's you, isn't it?\p"
+	.string "Whatever you're planning…\n"
+	.string "please. Don't stop now.$"
 
 SilphCo_5F_Text_YoureOurHeroThankYou::
 	.string "TEAM ROCKET took off!\n"

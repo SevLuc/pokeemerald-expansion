@@ -104,12 +104,12 @@ CeladonCity_Condominiums_RoofRoom_EventScript_ExitBlackboard::
 	end
 
 CeladonCity_Condominiums_RoofRoom_Text_TheresNothingIDontKnow::
-	.string "There is nothing that I don't know,\n"
-	.string "like I wrote on the blackboard.\p"
-	.string "I know about the world of POKéMON\n"
-	.string "in your GAME BOY ADVANCE!\p"
-	.string "Get together with your friends and\n"
-	.string "enjoy trading POKéMON!$"
+	.string "Everything worth knowing,\n"
+	.string "I've chalked on that board.\p"
+	.string "Name me any POKéMON.\n"
+	.string "I'll tell it by its cry alone.\p"
+	.string "The young ones just tap\n"
+	.string "the DEX. …No ear on them.$"
 
 CeladonCity_Condominiums_RoofRoom_Text_ObtainedAnEevee::
 	.string "{PLAYER} obtained an EEVEE!$"

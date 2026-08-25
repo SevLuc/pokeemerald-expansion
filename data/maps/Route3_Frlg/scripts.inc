@@ -10,10 +10,12 @@ Route3_EventScript_RouteSign::
 	end
 
 Route3_Text_TunnelFromCeruleanTiring::
-	.string "Whew… I better take a rest…\n"
-	.string "Groan…\p"
-	.string "That tunnel from CERULEAN takes a\n"
-	.string "lot out of you!$"
+	.string "I stopped to rest by MT MOON…\n"
+	.string "and saw the strangest thing.\p"
+	.string "Near the full moon, CLEFAIRY come\n"
+	.string "down off the mountain.\p"
+	.string "One sat right in the path at dawn.\n"
+	.string "By sunup, not a single one left.$"
 
 Route3_Text_ColtonIntro::
 	.string "Hey!\n"

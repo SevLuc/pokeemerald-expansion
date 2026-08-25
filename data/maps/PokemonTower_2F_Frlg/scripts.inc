@@ -201,8 +201,10 @@ PokemonTower_2F_Text_LockeRivalPostBattle::
 	.string "here. I mean it.$"
 
 PokemonTower_2F_Text_SilphScopeCouldUnmaskGhosts::
-	.string "Even we could not identify the\n"
-	.string "wayward ghosts.\p"
-	.string "A SILPH SCOPE might be able to\n"
-	.string "unmask them.$"
+	.string "Even we cannot name the\n"
+	.string "ghosts that wander here.\p"
+	.string "Their faces are hidden\n"
+	.string "from us.\p"
+	.string "A SILPH SCOPE, they say,\n"
+	.string "might lift the veil.$"
 

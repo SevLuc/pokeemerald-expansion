@@ -380,12 +380,16 @@ CeladonCity_GameCorner_PrizeRoom_EventScript_YellowFlute::
 	end
 
 CeladonCity_GameCorner_PrizeRoom_Text_FancyThatPorygon::
-	.string "I sure do fancy that PORYGON!\n"
-	.string "But, it's hard to win at slots!$"
+	.string "That PORYGON up there…\p"
+	.string "I've dreamed on it for months.\p"
+	.string "The COINS never quite add\n"
+	.string "up, though. Never quite.$"
 
 CeladonCity_GameCorner_PrizeRoom_Text_RakedItInToday::
-	.string "Gahaha! I raked it in today!\n"
-	.string "If only every day were like this…$"
+	.string "Gahaha! Big night!\n"
+	.string "The reels loved me today.\p"
+	.string "Tomorrow they'll take it\n"
+	.string "all back. …They always do.$"
 
 CeladonCity_GameCorner_PrizeRoom_Text_CoinCaseRequired::
 	.string "A COIN CASE is required…$"
