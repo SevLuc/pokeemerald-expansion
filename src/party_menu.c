@@ -3120,7 +3120,10 @@ static void Task_HandleSelectionMenuInput(u8 taskId)
         s8 input;
         s16 *data = gTasks[taskId].data;
 
-        if (sPartyMenuInternal->numActions <= 3)
+        // The LEVEL submenu (LEVEL UP / LEVEL TO CAP / CANCEL) rolls over when
+        // scrolling past either end. Other <=3 action menus keep the vanilla
+        // no-wraparound behavior.
+        if (sPartyMenuInternal->numActions <= 3 && sPartyMenuInternal->actions[0] != MENU_LEVEL_UP)
             input = Menu_ProcessInputNoWrapAround_other();
         else
             input = ProcessMenuInput_other();
