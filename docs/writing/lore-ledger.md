@@ -930,11 +930,15 @@ Consistency notes:
 - **WT-07 The Clefairy Come Down**: PewterCity_PokemonCenter_1F (GBAKid2), Route3 (Youngster)
 - **WT-08 The Tunnel Was Meant To Be Lit**: LavenderTown_Mart (BaldingMan), CeruleanCity_House1 (BadgeGuy), Route10_PokemonCenter_1F (Youngster)
 - **WT-09 By the Cry**: CeladonCity_Condominiums_RoofRoom (BlackBelt), FuchsiaCity_House1 (OldMan), FuchsiaCity_House1 (LittleBoy), VermilionCity_House1 (FishingGuru)
-- **WT-10 The Pallet Box**: ViridianCity_House (BaldingMan)
+- **WT-10 The Pallet Box**: ViridianCity_House (BaldingMan, neighbor's rumor); PalletTown
+  Sign Lady (`PalletTown_Text_RaisingMonsToo` = the legend pre-clear;
+  `PalletTown_Text_PalletBoxOpened` = the payoff, gated on `FLAG_SYS_GAME_CLEAR`).
 
-> Note: WT-10 (The Pallet Box) only its early LEGEND seed is placed (Viridian House
-> old-timer, as a neighbor's rumor). Pallet Town has no vanilla flavor NPC to carry the
-> post-Elite-Four payoff; that payoff still needs a dedicated Pallet NPC slot (follow-up).
+> Note: WT-10 (The Pallet Box) is fully placed on EXISTING vanilla NPCs (no NPC added).
+> The Viridian House old-timer carries the far-off rumor; Pallet's Sign Lady carries both
+> the sleepy legend (before you are Champion) and the post-Elite-Four payoff (after
+> `FLAG_SYS_GAME_CLEAR`), swapped by a `goto_if_set` branch on her repeatable line. The
+> box's contents are never shown on screen.
 
 ## Template: new gym leader
 Copy per leader. Keep fragments optional and gated so a rushing player still

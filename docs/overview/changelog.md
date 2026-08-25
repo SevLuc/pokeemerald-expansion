@@ -16,8 +16,9 @@ Update in the same PR as the change.
   unlit lamps, naming Pokemon by their cry, and the Pallet box legend) onto their
   dispersed carriers; every other NPC got standalone town-character flavor. Sevii
   Islands and all functional / plot / tutorial / pet-Pokemon NPCs left vanilla on
-  purpose. WT-10's post-Elite-Four payoff still needs a dedicated Pallet NPC (TODO).
-  Review: docs/writing/fill-pass-2026-08-kanto.md. No .pory maps affected.
+  purpose. WT-10's post-Elite-Four payoff is placed on Pallet's existing Sign Lady
+  (legend pre-clear, payoff after FLAG_SYS_GAME_CLEAR via a goto_if_set branch); no
+  NPC added. Review: docs/writing/fill-pass-2026-08-kanto.md. No .pory maps affected.
 - 2026-08-24 - balance/trainers - Gym-leader pool teams now derive their fielded
   levels from the current level cap at battle time instead of relying on hand-typed
   levels in trainers_frlg.party: the `Tags: Ace` mon sits at the cap, the opener

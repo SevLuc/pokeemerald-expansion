@@ -710,3 +710,10 @@ reading). `[thread]` marks a seeded world-thread; the rest are standalone.
 - **Boy**
     - was: I was throwing POKé BALLS to catch POKéMON, and I ran out. / That's why you can never have too many POKé BALLS.
     - now: I was tossing POKé BALLS left and right, and I ran clean out. / That's the thing… you can never carry too many. / Guess I'll hoof it back to VIRIDIAN for more.
+
+## PalletTown (WT-10 follow-up, existing NPC, no NPC added)
+- **SignLady** [pallet-capsule] (repeatable line, `PalletTown_Text_RaisingMonsToo`)
+    - was: I'm raising POKéMON, too. / When they get strong, they can protect me.
+    - now (before Champion): PALLET buried a box, long ago. / To be opened only when one of ours reaches the very top. / No one living recalls what's inside it. / My gran helped bury the thing. She only smiled when I asked.
+- **SignLady** [pallet-capsule] (post-clear branch, `PalletTown_Text_PalletBoxOpened`, gated on FLAG_SYS_GAME_CLEAR)
+    - now (after Champion): So it's you. / A PALLET child, and the CHAMPION now. After all this time. / We're digging up that old box tonight, down by the water. / You ought to be there. The whole town means to be.
