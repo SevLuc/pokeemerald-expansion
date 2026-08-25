@@ -112,7 +112,7 @@ backup-lead rule.
   (Night Slash / Ice Punch / Low Kick / Poison Jab) - fast physical breaker; Ice +
   Dark + Fighting + Poison is near-perfect neutral coverage (Low Kick answers
   Steel, Poison Jab answers Fairy).
-- **AURORUS**, Rock/Ice, Refrigerate, Modest
+- **AURORUS**, Rock/Ice, Refrigerate, Timid
   (Hyper Voice / Discharge / Earth Power / Hyper Beam) - offensive Refrigerate
   build: Refrigerate turns Hyper Voice and Hyper Beam into boosted Ice STAB, with
   Discharge (Electric) + Earth Power (Ground) giving near-complete coverage
