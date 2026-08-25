@@ -310,12 +310,41 @@ opener as a random draw. See how_to_trainer_party_pool.md and src/trainer_pools.
   fragments. Canon-blend, tag canon-check. See BLAINE-* in lore-ledger.md.
 
 ## Gym 8 - Viridian (Giovanni, Ground) - Earth Badge
-- Vanilla team: (fill from data)
-- Rebalanced team: (TBD — still the vanilla-count roster, fixed team; Earth cap is 63).
-- Levels (tiered, cap 50): Rhyhorn Lv46 (lead, cap-4), Dugtrio Lv48 (cap-2),
-  Nidoqueen Lv48 (cap-2), Nidoking Lv48 (cap-2), Rhyhorn Lv50 (ace, cap). This is
-  the TRAINER_LEADER_GIOVANNI gym fight; his two earlier Rocket boss fights
+- Level cap: 63 (`FLAG_BADGE08_GET` row in src/caps.c; see progression.md).
+- Vanilla team: Rhyhorn Lv46, Dugtrio Lv48, Nidoqueen Lv48, Nidoking Lv48, Rhyhorn Lv50.
+- Structure: a TRAINER POOL of 10 Ground-types that fields 6 (Party Size 6, Pool
+  Rules Basic, Pool Prune Bst Match). Nidoqueen is tagged the ace (always fielded
+  last) and Hippowdon is the FORCED LEAD (Tags: Lead, always the opener at cap-4) so
+  its Sand Stream sets sand on turn 1 for the whole team. Perfect IVs, no EVs. This
+  is the TRAINER_LEADER_GIOVANNI gym fight; his two earlier Rocket boss fights
   (TRAINER_BOSS_GIOVANNI/_2) are separate and unchanged.
+- Theme: a SAND team, the mirror of Blaine's sun. Hippowdon opens with Sand Stream;
+  Marowak, Rhyperior and Nidoking each also carry Sandstorm to re-set it. Sand chips
+  the player's non-Ground/Rock/Steel mons, gives Rhyperior +50% SpD, and feeds the
+  Sand Force / Sand Veil members. Kangaskhan is a deliberate off-type (Normal) wildcard.
+- Pool members (non-ace all cap-2; ace Nidoqueen at cap; forced-lead Hippowdon at
+  cap-4):
+  - HIPPOWDON, LEAD, Sand Stream, Careful (Earthquake / Crunch / Ice Fang / Slack
+    Off) - the sand-setter; bulky and sticky via Slack Off
+  - DUGTRIO, Sand Force (Earthquake / Stone Edge / Sucker Punch / Night Slash) - fast
+    revenge-killer; Sand Force boosts its Ground/Rock moves in sand
+  - MAROWAK, Battle Armor, Adamant (Earthquake / Attract / Sandstorm / Icy Wind) - a
+    sand-refreshing annoyer, crit-immune via Battle Armor
+  - DONPHAN, Sand Veil, Rash (Earthquake / Seed Bomb / Ice Shard / Stone Edge) - Ice
+    Shard priority; wide coverage
+  - RHYPERIOR, Solid Rock, Adamant (Earthquake / Stone Edge / Avalanche / Sandstorm) -
+    Solid Rock softens its 4x Water/Grass weaks; +50% SpD in sand
+  - KROOKODILE, Anger Point (Earthquake / Crunch / Stone Edge / Close Combat) - fast
+    dual-STAB attacker with wide coverage
+  - GLISCOR, Sand Veil (Earthquake / Acrobatics / U-turn / Roost) - evasive pivot;
+    itemless Acrobatics hits 110 BP; Roost recovery
+  - NIDOKING, Sheer Force (Earthquake / Poison Jab / Ice Punch / Sandstorm) - Sheer
+    Force boosts Poison Jab and Ice Punch; also a sand-refresher
+  - KANGASKHAN, Scrappy (Body Slam / Aqua Tail / Icy Wind / Fake Out) - off-type
+    Normal wildcard; Scrappy lets Body Slam hit Ghosts
+  - NIDOQUEEN, ACE, Sheer Force, Timid (Earth Power / Sludge Wave / Ice Beam /
+    Thunderbolt) - a Sheer Force special nuke with BoltBeam coverage
+- All movesets are level-cap-legal at 63 (verified with the moveset-legality skill).
 - Gimmick: the gym is LOCKED the entire game (canon; opens only after badges 2-7)
   and its LEADER is never seen. We reframe the locked door as the town's civic
   blind spot: Viridian is earnestly, proudly devoted to a LEADER nobody has ever

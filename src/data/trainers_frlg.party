@@ -4947,46 +4947,111 @@ Music: Aqua
 Items: Hyper Potion / Hyper Potion / Full Heal
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
+Party Size: 6
+Pool Rules: Basic
+Pool Prune: Bst Match
 
-Rhyhorn
-Level: 46
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Take Down
-- Rock Blast
-- Scary Face
+Hippowdon
+Level: 61
+Ability: Sand Stream
+Tags: Lead
+Nature: Careful
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Earthquake
+- Crunch
+- Ice Fang
+- Slack Off
 
 Dugtrio
-Level: 48
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Slash
-- Sand Tomb
-- Mud Slap
+Level: 61
+Ability: Sand Force
+Nature: Jolly
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Earthquake
+- Stone Edge
+- Sucker Punch
+- Night Slash
 
-Nidoqueen
-Level: 48
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Body Slam
-- Double Kick
-- Poison Sting
+Marowak
+Level: 61
+Ability: Battle Armor
+Nature: Adamant
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Earthquake
+- Attract
+- Sandstorm
+- Icy Wind
+
+Donphan
+Level: 61
+Ability: Sand Veil
+Nature: Rash
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Earthquake
+- Seed Bomb
+- Ice Shard
+- Stone Edge
+
+Rhyperior
+Level: 61
+Ability: Solid Rock
+Nature: Adamant
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Earthquake
+- Stone Edge
+- Avalanche
+- Sandstorm
+
+Krookodile
+Level: 61
+Ability: Anger Point
+Nature: Jolly
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Earthquake
+- Crunch
+- Stone Edge
+- Close Combat
+
+Gliscor
+Level: 61
+Ability: Sand Veil
+Nature: Jolly
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Earthquake
+- Acrobatics
+- U-turn
+- Roost
 
 Nidoking
-Level: 48
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Thrash
-- Double Kick
-- Poison Sting
+Level: 61
+Ability: Sheer Force
+Nature: Jolly
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Earthquake
+- Poison Jab
+- Ice Punch
+- Sandstorm
 
-Rhyhorn
-Level: 50
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Take Down
-- Rock Blast
-- Scary Face
-- Earthquake
+Kangaskhan
+Level: 61
+Ability: Scrappy
+Nature: Jolly
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Body Slam
+- Aqua Tail
+- Icy Wind
+- Fake Out
+
+Nidoqueen
+Level: 63
+Ability: Sheer Force
+Tags: Ace
+Nature: Timid
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Earth Power
+- Sludge Wave
+- Ice Beam
+- Thunderbolt
 
 === TRAINER_TEAM_ROCKET_GRUNT ===
 Name: GRUNT

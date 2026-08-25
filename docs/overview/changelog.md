@@ -7,6 +7,16 @@ Update in the same PR as the change.
 `YYYY-MM-DD` — area — one-line summary (PR/commit ref)
 
 ## Entries
+- 2026-08-25 - content/trainers - Converted Gym 8 Giovanni (Ground, cap 63) to a
+  trainer pool, replacing his vanilla 5-mon roster in trainers_frlg.party. Fields 6
+  of a 10-Ground pool, ace Nidoqueen (Tags: Ace, Sheer Force special nuke) with
+  Hippowdon as forced lead (Tags: Lead) so Sand Stream opens a sand team (mirror of
+  Blaine's sun; Marowak/Rhyperior/Nidoking carry Sandstorm to refresh it). Kangaskhan
+  is a deliberate off-type Normal wildcard. Party Size 6 / Pool Rules Basic / Pool
+  Prune Bst Match, perfect IVs, +Speed/relevant natures. Only TRAINER_LEADER_GIOVANNI
+  (the gym fight) changed; his Rocket-boss fights (TRAINER_BOSS_GIOVANNI/_2) are
+  untouched. All movesets verified level-cap-legal with the moveset-legality skill.
+  Docs: overview/gyms.md.
 - 2026-08-25 - content/trainers - Built pool teams for Gym 6 Sabrina (Psychic, cap
   53) and Gym 7 Blaine (Fire, cap 58), replacing their vanilla 4-mon rosters in
   trainers_frlg.party. Sabrina fields 6 of a 10-Psychic pool, ace Alakazam (Tags:
