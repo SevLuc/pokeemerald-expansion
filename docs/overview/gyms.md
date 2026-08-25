@@ -231,10 +231,36 @@ opener as a random draw. See how_to_trainer_party_pool.md and src/trainer_pools.
   a necessary evil, and the gym insiders reveal he's a spin doctor. Semi-plain arc.
 
 ## Gym 6 — Saffron (Sabrina, Psychic) — Marsh Badge
-- Vanilla team: (fill from data)
-- Rebalanced team: (TBD — still the vanilla-count roster, fixed team).
-- Levels (tiered, cap 43): Kadabra Lv39 (lead, cap-4), Mr. Mime Lv41 (cap-2),
-  Venomoth Lv41 (cap-2), Alakazam Lv43 (ace, cap).
+- Level cap: 53 (`FLAG_BADGE06_GET` row in src/caps.c; see progression.md).
+- Vanilla team: Kadabra Lv39, Mr. Mime Lv41, Venomoth Lv41, Alakazam Lv43.
+- Structure: a TRAINER POOL of 10 Psychic-types that fields 6 (Party Size 6, Pool
+  Rules Basic, Pool Prune Bst Match). Alakazam is tagged the ace (always fielded
+  last); no forced lead, so the opener is a random BST-matched draw dropped to
+  cap-4 by code. Perfect IVs, no EVs; each runs a +Speed nature that lowers its
+  unused attacking stat (Timid on the special attackers, Adamant on the physical
+  Contrary Malamar).
+- Pool members (non-ace all cap-2; ace Alakazam at cap):
+  - ESPEON, Magic Bounce (Psychic / Dazzling Gleam / Mud-Slap / Morning Sun) -
+    reflects status and hazards; Mud-Slap answers Steel
+  - GOTHITELLE, Shadow Tag (Psychic / Thunderbolt / Signal Beam / Hypnosis) -
+    traps the player in; the Shadow Tag + Hypnosis lock is deliberate
+  - GARDEVOIR, Synchronize (Moonblast / Psychic / Aura Sphere / Mystical Fire) -
+    the widest coverage in the pool
+  - HATTERENE, Magic Bounce, Modest (Psychic / Dazzling Gleam / Mystical Fire /
+    Nuzzle) - Nuzzle paralyzes fast switch-ins to offset its 29 Speed
+  - MR. MIME, Filter (Psychic / Dazzling Gleam / Mystical Fire / Grass Knot) -
+    dual STAB plus Steel and Ground coverage
+  - XATU, Magic Bounce (Psychic / Air Slash / Heat Wave / Confuse Ray) - annoying
+    pivot; Heat Wave for Steel
+  - DELPHOX, Blaze (Overheat / Psychic / Laser Focus / Hypnosis) - Laser Focus
+    guarantees a crit that ignores Overheat's SpA drop
+  - FARIGIRAF, Sap Sipper (Psychic / Hyper Voice / Dazzling Gleam / Earthquake) -
+    Normal/Psychic; Earthquake is its only Steel-breaker
+  - MALAMAR, Contrary, Adamant (Night Slash / Psycho Cut / Superpower / Hypnosis) -
+    Superpower snowballs via Contrary; the pool's lone physical attacker
+  - ALAKAZAM, ACE, Synchronize (Psychic / Dazzling Gleam / Shadow Ball / Hypnosis)
+    - the canon glass-cannon sweeper
+- All movesets are level-cap-legal at 53 (verified with the moveset-legality skill).
 - Gimmick: canon teleport-panel maze, reframed as a POSSESSION trial - every trainer
   is forced to fight and gives a contradictory false direction to reach Sabrina; the
   Gym Guide (also possessed) warns "trust no one, not even me." See SABRINA-GYM.
@@ -243,10 +269,39 @@ opener as a random draw. See how_to_trainer_party_pool.md and src/trainer_pools.
   Mr. Psychic. See SABRINA-* in lore-ledger.md.
 
 ## Gym 7 — Cinnabar (Blaine, Fire) — Volcano Badge
-- Vanilla team: (fill from data)
-- Rebalanced team: (TBD — still the vanilla-count roster, fixed team).
-- Levels (tiered, cap 47): Growlithe Lv43 (lead, cap-4), Ponyta Lv45 (cap-2),
-  Rapidash Lv45 (cap-2), Arcanine Lv47 (ace, cap).
+- Level cap: 58 (`FLAG_BADGE07_GET` row in src/caps.c; see progression.md).
+- Vanilla team: Growlithe Lv43, Ponyta Lv45, Rapidash Lv45, Arcanine Lv47.
+- Structure: a TRAINER POOL of 8 Fire-types that fields 6 (Party Size 6, Pool
+  Rules Basic, Pool Prune Bst Match). Arcanine is tagged the ace (always fielded
+  last) and Ninetales is the FORCED LEAD (Tags: Lead, always the opener at cap-4)
+  so its Drought sets sun on turn 1 for the whole team. Perfect IVs, no EVs;
+  +Speed natures (Jolly on the physical members, Timid on the special attackers,
+  Adamant on Talonflame).
+- Theme: a SUN team. Ninetales opens with Drought; Skeledirge, Flareon and Rapidash
+  each also carry Sunny Day to re-set it. Sun powers every Fire STAB and turns the
+  various Solar Beams into no-charge hits. The pool answers Fire's walls
+  (Water/Rock/Ground) with Wild Charge, High Horsepower, Earthquake, Solar Beam,
+  Energy Ball and Scorching Sands.
+- Pool members (non-ace all cap-2; ace Arcanine at cap; forced-lead Ninetales at
+  cap-4):
+  - NINETALES, LEAD, Drought (Flamethrower / Scorching Sands / Energy Ball /
+    Confuse Ray) - the sun-setter and glue
+  - HISUIAN ARCANINE, Rock Head (Head Smash / Flare Blitz / Close Combat / Extreme
+    Speed) - Rock Head zeroes both nukes' recoil
+  - SKELEDIRGE, Blaze (Flamethrower / Shadow Ball / Sunny Day / Solar Beam) - bulky
+    and self-sufficient; its own sun makes Solar Beam no-charge
+  - FLAREON, Guts (Flare Blitz / Superpower / Quick Attack / Sunny Day) - physical
+    wall-breaker; Guts stays dormant without a status source
+  - RAPIDASH, Flame Body (Flare Blitz / Wild Charge / High Horsepower / Sunny Day) -
+    Flare Blitz is cap-legal via Ponyta's L55 learnup
+  - TALONFLAME, Gale Wings, Adamant (Flare Blitz / Acrobatics / Tailwind / U-turn) -
+    priority itemless Acrobatics (110 BP) via Gale Wings
+  - DARMANITAN, Sheer Force (Flare Blitz / Earthquake / Rock Slide / Iron Head) -
+    Sheer Force boosts Rock Slide, Iron Head and Flare Blitz
+  - ARCANINE, ACE, Intimidate (Flare Blitz / Close Combat / Wild Charge / Extreme
+    Speed) - the canon signature; priority plus wide coverage
+- All movesets are level-cap-legal at 58 (verified with the moveset-legality skill);
+  Rapidash's Flare Blitz is legal via its pre-evolution (Ponyta learns it at L55).
 - Gimmick: canon quiz-door trivia gate, reframed as Blaine testing the MIND before
   the POKéMON (raw power without wisdom is what made a monster). Mechanic unchanged.
 - Arc: Blaine helped create MEWTWO at the POKéMON MANSION on Dr. Fuji's team; it broke

@@ -7,6 +7,14 @@ Update in the same PR as the change.
 `YYYY-MM-DD` — area — one-line summary (PR/commit ref)
 
 ## Entries
+- 2026-08-25 - content/trainers - Built pool teams for Gym 6 Sabrina (Psychic, cap
+  53) and Gym 7 Blaine (Fire, cap 58), replacing their vanilla 4-mon rosters in
+  trainers_frlg.party. Sabrina fields 6 of a 10-Psychic pool, ace Alakazam (Tags:
+  Ace); Blaine fields 6 of an 8-Fire pool, ace Arcanine (Tags: Ace) with Ninetales
+  as forced lead (Tags: Lead) so Drought opens a sun team. Both use Party Size 6 /
+  Pool Rules Basic / Pool Prune Bst Match, perfect IVs, +Speed natures. All movesets
+  verified level-cap-legal with the moveset-legality skill (Rapidash's Flare Blitz is
+  legal via Ponyta's L55 pre-evo learnup). Docs: overview/gyms.md.
 - 2026-08-24 - balance/trainers - Gym-leader pool teams now derive their fielded
   levels from the current level cap at battle time instead of relying on hand-typed
   levels in trainers_frlg.party: the `Tags: Ace` mon sits at the cap, the opener
