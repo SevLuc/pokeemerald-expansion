@@ -53,18 +53,21 @@ variants ~Lv57-63.
 - **Lead rule (conditional Snow lead):** implemented as a new pick function
   `POOL_PICK_SNOW_LEAD` (src/trainer_pools.c), selected in the party file with
   `Pool Pick Functions: Snow Lead`. For slot 1 it scans the already-fielded mons
-  and leads with one whose ability is **Snow Warning** (Alolan Ninetales or
-  Aurorus, free turn-1 Snow); if none was drawn it leads with one that knows **Snowscape**
+  and leads with one whose ability is **Snow Warning** (Alolan Ninetales, free
+  turn-1 Snow); if none was drawn it leads with one that knows **Snowscape**
   (Slowbro, Dewgong, Articuno, Froslass, or Glaceon). Alolan Ninetales is NOT
   force-kept, so it stays an ordinary BST-matched candidate; it only leads when
   it is actually fielded.
-- **Guarantee:** with Party Size 6, a snow-setter is always fielded. Lapras is
-  the ace, leaving 5 slots drawn from 11 candidates, and only 4 of those are
-  non-setters (Jynx, Mr. Rime, Mamoswine, Weavile). By pigeonhole at least one of
-  the 5 is a snow-setter, so the lead rule never has an empty hand. Adding Aurorus
-  (a second Snow Warning auto-setter) widens the margin further. This holds as
-  long as (Party Size - reserved) stays greater than the count of non-setters; if
-  the pool composition changes, re-check it.
+- **Guarantee (weakened by the Refrigerate Aurorus):** originally, with Party
+  Size 6, a snow-setter was always fielded, Lapras reserved as ace, 5 slots drawn
+  from 10, only 4 non-setters (Jynx, Mr. Rime, Mamoswine, Weavile), so pigeonhole
+  forced at least one setter. Aurorus is a Refrigerate ATTACKER (not a setter), so
+  the non-setter count is now 5 (the four above plus Aurorus) out of 11 candidates.
+  The 5 drawn slots can in principle all be non-setters, so a snow-setter is NO
+  LONGER hard-guaranteed. In practice the six Snowscape / Snow Warning members are
+  usually BST-picked, but the pigeonhole no longer holds. To restore the hard
+  guarantee, give Aurorus a Snowscape move (making it a setter again) or otherwise
+  keep the non-setter count at 4. Re-check whenever the pool composition changes.
 - Held items: none. Trainer bag items: Full Restore x2 (AI healing, kept from
   vanilla, same as Misty's Super Potion; not a held item).
 
@@ -109,11 +112,12 @@ backup-lead rule.
   (Night Slash / Ice Punch / Low Kick / Poison Jab) - fast physical breaker; Ice +
   Dark + Fighting + Poison is near-perfect neutral coverage (Low Kick answers
   Steel, Poison Jab answers Fairy).
-- **AURORUS** (snow-setter), Rock/Ice, Snow Warning, Modest
-  (Blizzard / Freeze-Dry / Earth Power / Aurora Veil) - a second free-Snow lead;
-  bulky special attacker. Blizzard is 100% accurate under its own Snow, Freeze-Dry
-  beats Waters, Earth Power answers Steel/Fire/Rock, and it can put up Aurora Veil
-  itself.
+- **AURORUS**, Rock/Ice, Refrigerate, Modest
+  (Hyper Voice / Discharge / Earth Power / Hyper Beam) - offensive Refrigerate
+  build: Refrigerate turns Hyper Voice and Hyper Beam into boosted Ice STAB, with
+  Discharge (Electric) + Earth Power (Ground) giving near-complete coverage
+  (Ice/Electric/Ground). Not a snow-setter (see the weakened guarantee above);
+  cannot learn Power Gem in this build, and it carries no Rock STAB here.
 
 ### Notes / gaps
 - Dropped during pool-building: Cloyster and Iron Bundle (Iron Bundle's strong

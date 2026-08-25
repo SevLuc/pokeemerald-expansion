@@ -6728,13 +6728,13 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 Aurorus
 Level: 72
-Ability: Snow Warning
+Ability: Refrigerate
 Nature: Modest
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Blizzard
-- Freeze-Dry
+- Hyper Voice
+- Discharge
 - Earth Power
-- Aurora Veil
+- Hyper Beam
 
 === TRAINER_ELITE_FOUR_BRUNO ===
 Name: BRUNO

@@ -9,9 +9,13 @@ Update in the same PR as the change.
 ## Entries
 - 2026-08-25 - content/trainers - Added Aurorus to Lorelei's Elite Four snow pool
   (TRAINER_ELITE_FOUR_LORELEI), bringing it to 12 candidates that field 6. Lv72,
-  Snow Warning (a second free-Snow lead alongside Alolan Ninetales), Modest, Blizzard
-  / Freeze-Dry / Earth Power / Aurora Veil (all cap-legal at 72). Docs: overview/
-  elite-four.md updated (pool count, snow-lead rule, guarantee math, member list).
+  Refrigerate, Modest, Hyper Voice / Discharge / Earth Power / Hyper Beam (all
+  cap-legal at 72; Refrigerate turns both Hyper Voice and Hyper Beam into boosted
+  Ice STAB, giving Ice/Electric/Ground coverage). NOTE: as a Refrigerate attacker
+  Aurorus is a non-setter, so it raises the pool's non-setter count to 5 and the
+  hard "a snow-setter is always fielded" guarantee no longer strictly holds (give
+  it a Snowscape move to restore it). Docs: overview/elite-four.md updated (pool
+  count, snow-lead rule, weakened-guarantee note, member list).
 - 2026-08-25 - content/trainers - Filled Giovanni's two earlier Rocket-boss fights
   (TRAINER_BOSS_GIOVANNI / _2) to mirror his gym sand pool at a younger evolution
   stage, with levels fit to the progression curve at each story beat (near the local
