@@ -6726,6 +6726,16 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Low Kick
 - Poison Jab
 
+Aurorus
+Level: 72
+Ability: Refrigerate
+Nature: Timid
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Hyper Voice
+- Discharge
+- Earth Power
+- Hyper Beam
+
 === TRAINER_ELITE_FOUR_BRUNO ===
 Name: BRUNO
 Class: Elite Four Frlg
