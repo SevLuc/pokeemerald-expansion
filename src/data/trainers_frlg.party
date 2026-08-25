@@ -4901,17 +4901,35 @@ Music: Aqua
 Double Battle: No
 AI: Check Bad Move / Try To Faint
 
-Onix
-Level: 25
-IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
-
-Rhyhorn
-Level: 24
-IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
+Dugtrio
+Level: 35
+Ability: Sand Force
+Nature: Jolly
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Earthquake
+- Stone Edge
+- Sucker Punch
+- Night Slash
 
 Kangaskhan
-Level: 29
-IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
+Level: 36
+Ability: Scrappy
+Nature: Jolly
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Body Slam
+- Aqua Tail
+- Icy Wind
+- Fake Out
+
+Rhyhorn
+Level: 38
+Ability: Lightning Rod
+Nature: Adamant
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Earthquake
+- Stone Edge
+- Ice Fang
+- Sandstorm
 
 === TRAINER_BOSS_GIOVANNI_2 ===
 Name: GIOVANNI
@@ -4922,21 +4940,45 @@ Music: Aqua
 Double Battle: No
 AI: Check Bad Move / Try To Faint
 
-Nidorino
-Level: 37
-IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
-
 Kangaskhan
-Level: 35
-IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
+Level: 49
+Ability: Scrappy
+Nature: Jolly
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Body Slam
+- Aqua Tail
+- Icy Wind
+- Fake Out
 
-Rhyhorn
-Level: 37
-IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
+Nidoking
+Level: 50
+Ability: Sheer Force
+Nature: Jolly
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Earthquake
+- Poison Jab
+- Ice Punch
+- Sandstorm
+
+Rhydon
+Level: 51
+Ability: Lightning Rod
+Nature: Adamant
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Earthquake
+- Stone Edge
+- Avalanche
+- Sandstorm
 
 Nidoqueen
-Level: 41
-IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
+Level: 53
+Ability: Sheer Force
+Nature: Timid
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Earth Power
+- Sludge Wave
+- Ice Beam
+- Thunderbolt
 
 === TRAINER_LEADER_GIOVANNI ===
 Name: GIOVANNI
