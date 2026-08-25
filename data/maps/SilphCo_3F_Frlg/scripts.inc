@@ -35,8 +35,10 @@ SilphCo_3F_EventScript_Grunt::
 	end
 
 SilphCo_3F_Text_WhatAmIToDo::
-	.string "I work for SILPH CO.\n"
-	.string "What am I to do?$"
+	.string "I file reports. I make the\n"
+	.string "tea.\p"
+	.string "Now there are men with\n"
+	.string "POKéMON at every door.$"
 
 SilphCo_3F_Text_YouAndYourMonsSavedUs::
 	.string "{PLAYER}!\n"

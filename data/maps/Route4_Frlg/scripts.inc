@@ -17,8 +17,9 @@ Route4_EventScript_RouteSign::
 	end
 
 Route4_Text_TrippedOverGeodude::
-	.string "Ouch! I tripped over a rocky\n"
-	.string "POKéMON, GEODUDE!$"
+	.string "Ow. Tripped over a GEODUDE in\n"
+	.string "the road. It never flinched.\p"
+	.string "The wild ones hold the road now.$"
 
 Route4_Text_CrissyIntro::
 	.string "I came to MT. MOON in search of\n"

@@ -31,10 +31,13 @@ CeladonCity_Hotel_Text_OnVacationWithBrotherAndBoyfriend::
 	.string "stopped asking why.$"
 
 CeladonCity_Hotel_Text_WhyDidSheBringBrother::
-	.string "Why?\n"
-	.string "Why did she bring her brother?$"
+	.string "Why did she bring\n"
+	.string "her little brother?\p"
+	.string "I planned this for two…$"
 
 CeladonCity_Hotel_Text_SisBroughtMeOnVacation::
-	.string "Yippee! I'm on vacation!\n"
-	.string "My sis brought me along! Awesome!$"
+	.string "Vacation! Sis brought me\n"
+	.string "to the big city!\p"
+	.string "Her friend just sighs and\n"
+	.string "sighs. Weird guy.$"
 

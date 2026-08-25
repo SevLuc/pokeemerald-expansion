@@ -27,14 +27,11 @@ FuchsiaCity_House1_Text_WardenIsOldHasFalseTeeth::
 	.string "switches every morning.$"
 
 FuchsiaCity_House1_Text_BillIsMyGrandson::
-	.string "Hmm?\n"
-	.string "You've met BILL?\p"
-	.string "He's my grandson!\p"
-	.string "He always liked collecting things,\n"
-	.string "even as a child!$"
+	.string "Hear that call out back?\n"
+	.string "NIDORAN. The female one.\p"
+	.string "Didn't need to look.$"
 
 FuchsiaCity_House1_Text_BillFilesHisOwnMonData::
-	.string "BILL files his own POKéMON data on\n"
-	.string "his PC.\p"
-	.string "Did he show you?$"
+	.string "Grandpa names them by ear.\p"
+	.string "I just point my POKéDEX.$"
 

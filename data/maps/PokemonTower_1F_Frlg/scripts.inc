@@ -37,8 +37,9 @@ PokemonTower_1F_EventScript_WorkerF::
 	end
 
 PokemonTower_1F_Text_ErectedInMemoryOfDeadMons::
-	.string "POKéMON TOWER was erected in the\n"
-	.string "memory of POKéMON that died.$"
+	.string "POKéMON TOWER stands for\n"
+	.string "the ones we've lost.\p"
+	.string "Walk soft. They hear you…$"
 
 PokemonTower_1F_Text_ComeToPayRespectsSon::
 	.string "Did you come to pay respects?\p"
@@ -46,22 +47,24 @@ PokemonTower_1F_Text_ComeToPayRespectsSon::
 	.string "son.$"
 
 PokemonTower_1F_Text_ComeToPayRespectsGirl::
-	.string "Did you come to pay respects?\p"
-	.string "Bless your POKéMON-loving heart,\n"
-	.string "girl.$"
+	.string "Come to pay respects?\p"
+	.string "Bless you, child.\p"
+	.string "Few young ones stop\n"
+	.string "here…$"
 
 PokemonTower_1F_Text_CameToPrayForDepartedClefairy::
-	.string "I came to pray for my dearly\n"
-	.string "departed CLEFAIRY.\p"
-	.string "Sniff!\n"
-	.string "I'm awash in tears…$"
+	.string "I sit with my CLEFAIRY.\p"
+	.string "We watched the moon fill,\n"
+	.string "many nights.\p"
+	.string "Now just me…$"
 
 PokemonTower_1F_Text_GrowlitheWhyDidYouDie::
-	.string "My GROWLITHE…\n"
-	.string "Why did you die?$"
+	.string "My GROWLITHE…\p"
+	.string "You were always so warm.\n"
+	.string "Why so cold now…$"
 
 PokemonTower_1F_Text_SenseSpiritsUpToMischief::
 	.string "I am a CHANNELER.\p"
-	.string "There are spirits up to mischief.\n"
-	.string "I sense them high in the TOWER.$"
+	.string "Something high in the TOWER\n"
+	.string "won't let them sleep…$"
 

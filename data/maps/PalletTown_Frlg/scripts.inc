@@ -358,7 +358,13 @@ PalletTown_EventScript_SignLadyMoveOutOfWayLeft::
 PalletTown_EventScript_SignLadyDone::
 	applymovement LOCALID_PALLET_SIGN_LADY, Common_Movement_FacePlayer
 	waitmovement 0
+	goto_if_set FLAG_SYS_GAME_CLEAR, PalletTown_EventScript_SignLadyBoxOpened
 	msgbox PalletTown_Text_RaisingMonsToo
+	release
+	end
+
+PalletTown_EventScript_SignLadyBoxOpened::
+	msgbox PalletTown_Text_PalletBoxOpened
 	release
 	end
 
@@ -463,9 +469,14 @@ PalletTown_Text_OakGrassUnsafeNeedMon::
 	.string "We have an encyclopedia to fill.$"
 
 PalletTown_Text_RaisingMonsToo::
-	.string "I'm raising POKéMON, too.\p"
-	.string "When they get strong, they can\n"
-	.string "protect me.$"
+	.string "PALLET buried a box, long ago.\p"
+	.string "To be opened only when one of\n"
+	.string "ours reaches the very top…$"
+
+PalletTown_Text_PalletBoxOpened::
+	.string "You made it to the top.\p"
+	.string "They're opening the box tonight.\n"
+	.string "Down by the water.$"
 
 PalletTown_Text_CanStoreItemsAndMonsInPC::
 	.string "Technology is incredible!\p"

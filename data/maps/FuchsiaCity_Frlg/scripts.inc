@@ -164,10 +164,9 @@ FuchsiaCity_Text_WheresSara::
 	.string "…Pays well, though.$"
 
 FuchsiaCity_Text_ItemBallInThere::
-	.string "That item ball in there…\n"
-	.string "Were you wanting that?\p"
-	.string "Me, too!\n"
-	.string "…Huh? That's a POKéMON?$"
+	.string "I'm learning to move quiet,\n"
+	.string "like the GYM LEADER does.\p"
+	.string "…You heard me anyway.$"
 
 FuchsiaCity_Text_CitySign::
 	.string "FUCHSIA CITY\n"

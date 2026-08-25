@@ -60,10 +60,12 @@ Route12_NorthEntrance_2F_Text_ReceivedTM27FromLittleGirl::
 	.string "from the little girl.$"
 
 Route12_NorthEntrance_2F_Text_ExplainTM27::
-	.string "TM27 is a move called RETURN…\p"
-	.string "If you treat your POKéMON good,\n"
-	.string "it will return your love by working\l"
-	.string "its hardest in battle.$"
+	.string "TM27 is RETURN.\p"
+	.string "Treat a POKéMON well and it\n"
+	.string "fights the harder for you.\p"
+	.string "There's a ROUTE 12 tale. A man\n"
+	.string "who crossed KANTO, catching none.\p"
+	.string "…The wild ones followed anyway.$"
 
 Route12_NorthEntrance_2F_Text_DontHaveRoomForThis::
 	.string "You don't have room for this.$"

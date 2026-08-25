@@ -40,9 +40,10 @@ CeladonCity_Restaurant_EventScript_FatMan::
 	end
 
 CeladonCity_Restaurant_Text_TakingBreakRightNow::
-	.string "Hi!\p"
-	.string "Sorry, but we're taking a break\n"
-	.string "right now.$"
+	.string "Welcome!\p"
+	.string "The kitchen's resting\n"
+	.string "just now.\p"
+	.string "Come back hungry.$"
 
 CeladonCity_Restaurant_Text_OftenGoToDrugstore::
 	.string "My POKéMON are weak, so I often\n"
@@ -52,21 +53,23 @@ CeladonCity_Restaurant_Text_OftenGoToDrugstore::
 	.string "ERIKA decides who gets those.$"
 
 CeladonCity_Restaurant_Text_PsstBasementUnderGameCorner::
-	.string "Psst! There's a basement under the\n"
-	.string "GAME CORNER, I hear.$"
+	.string "Psst. There's a floor below\n"
+	.string "the GAME CORNER.\p"
+	.string "And no stairs meant to\n"
+	.string "find it…$"
 
 CeladonCity_Restaurant_Text_ManLostItAllAtSlots::
 	.string "Munch…\p"
-	.string "The man at that table lost it all\n"
-	.string "at the slots.$"
+	.string "That fellow lost every COIN\n"
+	.string "to the reels.\p"
+	.string "Still ordered the big plate.$"
 
 CeladonCity_Restaurant_Text_TakeThisImBusted::
-	.string "Go ahead! Laugh!\n"
-	.string "I'm flat-out busted!\p"
-	.string "No more slots for me!\n"
-	.string "I'm going straight!\p"
-	.string "Here!\n"
-	.string "I won't be needing this anymore!$"
+	.string "Go on, laugh.\n"
+	.string "I'm cleaned right out.\p"
+	.string "No more reels. I'm going\n"
+	.string "straight.\p"
+	.string "Here. You take it.$"
 
 CeladonCity_Restaurant_Text_ReceivedCoinCaseFromMan::
 	.string "{PLAYER} received a COIN CASE\n"

@@ -44,10 +44,8 @@ FuchsiaCity_SafariZone_Office_Text_CouldntUnderstandWarden::
 	.string "it. Awful, isn't it.$"
 
 FuchsiaCity_SafariZone_Office_Text_PrizeInSafariZone::
-	.string "WARDEN SLOWPOKE is running a\n"
-	.string "promotion campaign right now.\p"
-	.string "Try to get to the farthest corner\n"
-	.string "of the SAFARI ZONE.\p"
-	.string "If you can make it, you'll win a\n"
-	.string "very convenient prize.$"
+	.string "Reach the far corner of the\n"
+	.string "SAFARI ZONE.\p"
+	.string "A prize waits for anyone who\n"
+	.string "goes the distance.$"
 

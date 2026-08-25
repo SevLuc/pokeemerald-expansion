@@ -50,38 +50,47 @@ SSAnne_Kitchen_EventScript_Chef7::
 	end
 
 SSAnne_Kitchen_Text_BusyOutOfTheWay::
-	.string "You, mon petit!\n"
-	.string "We're busy here!\l"
-	.string "Out of the way!$"
+	.string "Coming through, hot pans!\p"
+	.string "Two hundred covers tonight.\n"
+	.string "Mind your elbows…$"
 
 SSAnne_Kitchen_Text_SawOddBerryInTrash::
-	.string "I saw an odd BERRY in the trash.\n"
-	.string "I wonder what that was?$"
+	.string "Found a strange BERRY\n"
+	.string "in the bin.\p"
+	.string "Tossed by mistake,\n"
+	.string "I'd wager…$"
 
 SSAnne_Kitchen_Text_SoBusyImDizzy::
-	.string "I'm so busy I'm getting dizzy!\n"
-	.string "You have to give me room here!$"
+	.string "Six orders up, head\n"
+	.string "spinning.\p"
+	.string "Give a working cook\n"
+	.string "some room…$"
 
 SSAnne_Kitchen_Text_PeelSpudsEveryDay::
-	.string "Hum-de-hum-de-ho…\p"
-	.string "I peel spuds every day!\n"
-	.string "Hum-hum…$"
+	.string "Hum-de-hum… spuds\n"
+	.string "again.\p"
+	.string "Same today as yesterday…$"
 
 SSAnne_Kitchen_Text_HearAboutSnorlaxItsAGlutton::
-	.string "Did you hear about SNORLAX?\n"
-	.string "It's a glutton.\p"
-	.string "No other POKéMON eats and sleeps\n"
-	.string "the way SNORLAX can and does!$"
+	.string "You ever cook for a\n"
+	.string "SNORLAX?\p"
+	.string "Clears my whole larder,\n"
+	.string "then eyes the pudding…$"
 
 SSAnne_Kitchen_Text_OnlyGetToPeelOnions::
-	.string "Snivel… Sniff…\p"
-	.string "I only get to peel onions…\n"
-	.string "Snivel…$"
+	.string "Sniff… five years trained,\n"
+	.string "still only the onions…\p"
+	.string "It's the onions making\n"
+	.string "me cry.\p"
+	.string "…It's the onions.$"
 
 SSAnne_Kitchen_Text_IAmLeChefMainCourseIs::
-	.string "Er-hem!\n"
-	.string "Indeed I am le CHEF!\p"
-	.string "Le main course is$"
+	.string "Ahem. Behold.\n"
+	.string "I am LE CHEF.\p"
+	.string "Tonight's masterpiece,\n"
+	.string "my life's work…\p"
+	.string "…a potato.\n"
+	.string "A very fine potato.$"
 
 SSAnne_Kitchen_Text_SalmonDuSalad::
 	.string "Salmon du Salad!\p"

@@ -91,39 +91,55 @@ SilphCo_6F_EventScript_Grunt2::
 	end
 
 SilphCo_6F_Text_RocketsTookOverBuilding::
-	.string "The ROCKETS came and took over\n"
-	.string "the building!$"
+	.string "One morning they just\n"
+	.string "walked in.\p"
+	.string "Keycards, guards, the lot.\p"
+	.string "By noon the tower was\n"
+	.string "theirs.$"
 
 SilphCo_6F_Text_BetterGetBackToWork::
 	.string "Well, better get back to work.$"
 
 SilphCo_6F_Text_HelpMePlease::
-	.string "Oh dear, oh dear.\n"
-	.string "Help me, please!$"
+	.string "Oh dear, oh dear…\p"
+	.string "I wanted a quiet desk job.\n"
+	.string "Not this.\p"
+	.string "Help me…$"
 
 SilphCo_6F_Text_WeGotEngaged::
 	.string "We got engaged.\n"
 	.string "Heheh!$"
 
 SilphCo_6F_Text_ThatManIsSuchACoward::
-	.string "That man next to me…\n"
-	.string "He's such a coward!$"
+	.string "The man beside me's wept\n"
+	.string "into the carpet for hours.\p"
+	.string "One of us has to keep a\n"
+	.string "level head.$"
 
 SilphCo_6F_Text_NeedsMeToLookAfterHim::
 	.string "He's so helpless, he needed\n"
 	.string "someone like me to look after him.$"
 
 SilphCo_6F_Text_RocketsTryingToConquerWorld::
-	.string "TEAM ROCKET is trying to conquer\n"
-	.string "the world with POKéMON.$"
+	.string "It isn't only SILPH they\n"
+	.string "want.\p"
+	.string "It's every POKéMON inside.\p"
+	.string "Then the wild ones beyond\n"
+	.string "these walls.$"
 
 SilphCo_6F_Text_RocketsRanAwayBecauseOfYou::
 	.string "TEAM ROCKET ran away, and it's all\n"
 	.string "because of you!$"
 
 SilphCo_6F_Text_TargetedSilphForOurMonProducts::
-	.string "They must have targeted SILPH for\n"
-	.string "our POKéMON products.$"
+	.string "They came for the POKé\n"
+	.string "BALLS.\p"
+	.string "My grandfather carved his\n"
+	.string "by hand, one at a time.\p"
+	.string "We stamp out thousands an\n"
+	.string "hour.\p"
+	.string "Now it's our turn to be\n"
+	.string "swept aside.$"
 
 SilphCo_6F_Text_ComeWorkForSilphWhenYoureOlder::
 	.string "Come work for SILPH when you\n"
