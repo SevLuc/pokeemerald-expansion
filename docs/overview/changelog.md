@@ -7,7 +7,16 @@ Update in the same PR as the change.
 `YYYY-MM-DD` — area — one-line summary (PR/commit ref)
 
 ## Entries
-- 2026-08-25 - content/e4-bruno - Rebuilt Elite Four Bruno as a 17-mon Fighting +
+- 2026-08-25 - balance/banned-moves - Banned Substitute for the player. Added
+  MOVE_SUBSTITUTE to src/data/banned_moves.h (now 77 moves), so no player-owned or
+  wild Pokemon can carry it via level-up, evolution, egg, TM, tutor, the Move Relearner,
+  capture, gifts, or static encounters (CanLearnTeachableMove and ApplyPlayerMoveBans
+  gate every path). Trainers are unaffected and still use it, per the banned-moves
+  design. Also removed the now-dead dedicated Substitute move tutors, whose only move
+  is now unlearnable: the Fuchsia City tutor (FRLG, src/scripts + FuchsiaCity_Frlg map
+  NPC + its text) and the Lilycove Dept. Store rooftop tutor (Emerald equivalent).
+  Substitute stays a defined, fully functional move. Docs: overview/banned-moves.md
+  updated (moved out of "kept legal", counts bumped); test added in test/banned_moves.c.
   Steel draw pool (fields 6, BST-matched), ace NamasteNiffo (Machamp, No Guard).
   Reflavored from pure-Fighting to "fists of steel": Fighting core + a Steel core
   (Gholdengo/Magnezone/Empoleon/Bronzong/Ferrothorn/Togedemaru/Steelix) + Sandslash.
