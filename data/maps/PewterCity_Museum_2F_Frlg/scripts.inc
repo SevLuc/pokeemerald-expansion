@@ -65,8 +65,11 @@ PewterCity_Museum_1F_Text_BoughtColorTVForMoonLanding::
 	.string "at the GYM now. …All ringing.$"
 
 PewterCity_Museum_1F_Text_RunningSpaceExhibitThisMonth::
-	.string "This month, we're running a space\n"
-	.string "exhibit.$"
+	.string "This month, a space exhibit.\p"
+	.string "That's a real moon rock, up\n"
+	.string "on the stand.\p"
+	.string "Came all that way through the\n"
+	.string "dark…$"
 
 PewterCity_Museum_1F_Text_AskedDaddyToCatchPikachu::
 	.string "When I'm big I'll go to CERULEAN\n"

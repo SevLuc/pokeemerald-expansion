@@ -37,14 +37,13 @@ FuchsiaCity_PokemonCenter_1F_Text_CantBecomeGoodTrainerWithOneMon::
 	.string "You just… breathe it in.$"
 
 FuchsiaCity_PokemonCenter_1F_Text_PokemonLeagueWestOfViridian::
-	.string "There's a narrow trail west of\n"
-	.string "VIRIDIAN CITY.\p"
-	.string "It goes to the POKéMON LEAGUE HQ.\n"
-	.string "The HQ governs all TRAINERS.$"
+	.string "The road to the LEAGUE runs\n"
+	.string "west of VIRIDIAN.\p"
+	.string "Long way from here.$"
 
 FuchsiaCity_PokemonCenter_1F_Text_VisitSafariZoneForPokedex::
-	.string "If you're working on a POKéDEX,\n"
-	.string "visit the SAFARI ZONE.\p"
-	.string "All sorts of rare POKéMON breed\n"
-	.string "there.$"
+	.string "Filling a POKéDEX? The\n"
+	.string "SAFARI ZONE.\p"
+	.string "Saw a KANGASKHAN there\n"
+	.string "once. Just once.$"
 

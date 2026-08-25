@@ -97,9 +97,10 @@ Route24_Movement_WalkDown::
 	step_end
 
 Route24_Text_JustEarnedFabulousPrize::
-	.string "Congratulations! You beat our\n"
-	.string "five contest TRAINERS!\p"
-	.string "You just earned a fabulous prize!$"
+	.string "Heh. Five of ours, and you\n"
+	.string "dropped every one.\p"
+	.string "There's a prize for talent\n"
+	.string "like that.$"
 
 Route24_Text_ReceivedNuggetFromMysteryTrainer::
 	.string "{PLAYER} received a NUGGET\n"

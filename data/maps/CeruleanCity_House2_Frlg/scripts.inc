@@ -23,14 +23,10 @@ CeruleanCity_House2_EventScript_WallHole::
 	end
 
 CeruleanCity_House2_Text_RocketsStoleTMForDig::
-	.string "Those miserable ROCKETS!\p"
-	.string "Look what they've done to my\n"
-	.string "house!\p"
-	.string "They stole a TM for teaching\n"
-	.string "POKéMON how to DIG holes!\p"
-	.string "I was going to use it on a\n"
-	.string "MANKEY or a SANDSHREW…\p"
-	.string "That cost me a bundle, it did!$"
+	.string "Those no-good ROCKETS!\n"
+	.string "Look what they did to my place.\p"
+	.string "Made off with my TM for DIG.\n"
+	.string "I'd saved a good while for it.$"
 
 CeruleanCity_House2_Text_TeachDiglettDigWithoutTM::
 	.string "I figure what's lost is lost.\p"
@@ -38,8 +34,8 @@ CeruleanCity_House2_Text_TeachDiglettDigWithoutTM::
 	.string "DIG without a TM.$"
 
 CeruleanCity_House2_Text_TeamRocketTryingToDigIntoNoGood::
-	.string "TEAM ROCKET must be trying to DIG\n"
-	.string "their way into no good!$"
+	.string "TEAM ROCKET, digging around…\n"
+	.string "Up to no good, I'll bet.$"
 
 CeruleanCity_House2_Text_TeamRocketLeftWayOut::
 	.string "TEAM ROCKET left a way out!$"

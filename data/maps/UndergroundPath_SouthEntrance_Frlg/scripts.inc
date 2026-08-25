@@ -6,6 +6,9 @@ UndergroundPath_SouthEntrance_EventScript_Woman::
 	end
 
 UndergroundPath_SouthEntrance_Text_PeopleLoseThingsInTheDarkness::
-	.string "People often lose things in the\n"
-	.string "darkness of the UNDERGROUND PATH.$"
+	.string "Flick a coin down the drain\n"
+	.string "before you go under.\p"
+	.string "Why? …You just do, dear.\p"
+	.string "Don't ask what happens if you\n"
+	.string "don't.$"
 

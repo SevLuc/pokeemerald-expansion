@@ -172,34 +172,23 @@ CeruleanCity_House5_EventScript_BerryCrushRankings::
 	end
 
 CeruleanCity_House1_Text_AnyInterestInBerries::
-	.string "I concoct a variety of medicine\n"
-	.string "from BERRY POWDER.\p"
-	.string "Using good BERRY POWDER, I can\n"
-	.string "make any kind of medicine.\p"
-	.string "Now tell me, have you any interest\n"
-	.string "in BERRIES?$"
+	.string "I brew my medicines from\n"
+	.string "BERRY POWDER, my own way.\p"
+	.string "Good POWDER, good cures.\p"
+	.string "Tell me… any love for BERRIES?$"
 
 CeruleanCity_House1_Text_HaveJustTheThing::
-	.string "Ah, good! For you, then, I have\n"
-	.string "just the thing.$"
+	.string "Ah! Then I've just the thing\n"
+	.string "for you.$"
 
 CeruleanCity_House1_Text_GoCrushBerriesAtDirectCorner::
-	.string "There's something new on the second\n"
-	.string "floor of POKéMON CENTERS, at the\l"
-	.string "DIRECT CORNER.\p"
-	.string "They installed a Wireless Adapter\n"
-	.string "machine for crushing BERRIES.\p"
-	.string "This is where you come in.\p"
-	.string "I have a favor to ask, one that\n"
-	.string "I can entrust only to you.\p"
-	.string "Could you make BERRY POWDER for\n"
-	.string "me using that machine?\p"
-	.string "Don't forget, the machine is at the\n"
-	.string "DIRECT CORNER of POKéMON CENTERS.\p"
-	.string "I'll concoct medicine for you if\n"
-	.string "you bring me some BERRY POWDER.\p"
-	.string "Don't forget, crush BERRIES into\n"
-	.string "BERRY POWDER and bring it to me.$"
+	.string "Upstairs in the POKéMON CENTERS,\n"
+	.string "at the DIRECT CORNER…\p"
+	.string "There's a machine for crushing\n"
+	.string "BERRIES into POWDER.\p"
+	.string "Crush some for me on it, would you?\p"
+	.string "Bring the POWDER back and I'll\n"
+	.string "brew you medicine for it.$"
 
 CeruleanCity_House1_Text_WhyMustYouLieNoBerries::
 	.string "Why must you lie to me?\p"

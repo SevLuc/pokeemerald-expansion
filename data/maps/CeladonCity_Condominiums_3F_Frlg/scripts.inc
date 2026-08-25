@@ -51,25 +51,26 @@ CeladonCity_Condominiums_3F_EventScript_Computer3::
 	end
 
 CeladonCity_Condominiums_3F_Text_ImTheProgrammer::
-	.string "Me?\n"
-	.string "I'm the programmer!$"
+	.string "That GAME CORNER jingle.\p"
+	.string "I hear it in my sleep now,\n"
+	.string "spinning like a reel…$"
 
 CeladonCity_Condominiums_3F_Text_ImTheGraphicArtist::
-	.string "I'm the graphic artist!\n"
-	.string "I drew you!$"
+	.string "I draw the road signs.\p"
+	.string "The chalk arrows under them…\n"
+	.string "none of those are mine.$"
 
 CeladonCity_Condominiums_3F_Text_IWroteTheStory::
-	.string "I wrote the story!\n"
-	.string "Isn't ERIKA cute?\p"
-	.string "I like MISTY a lot, too!\n"
-	.string "Oh, and SABRINA, I like her!$"
+	.string "Ten years writing our GYM\n"
+	.string "LEADER. Every draft, a\n"
+	.string "different woman.\p"
+	.string "…She won't hold still.$"
 
 CeladonCity_Condominiums_3F_Text_ImGameDesignerShowMeFinishedPokedex::
-	.string "Is that right?\p"
-	.string "I'm the game designer!\p"
-	.string "Filling up your POKéDEX is tough,\n"
-	.string "but don't quit!\p"
-	.string "When you finish, come tell me!$"
+	.string "The DEPT. STORE has every\n"
+	.string "floor but the one with the\n"
+	.string "thing I want.\p"
+	.string "…Been hunting it for years.$"
 
 CeladonCity_Condominiums_3F_Text_CompletedPokedexCongratulations::
 	.string "Wow! Excellent!\n"

@@ -65,8 +65,9 @@ PewterCity_PokemonCenter_1F_Text_TradingMyClefairyForPikachu::
 	.string "trading my CLEFAIRY for one.$"
 
 PewterCity_PokemonCenter_1F_Text_TradingPikachuWithKid::
-	.string "I'm trading POKéMON with that kid\n"
-	.string "there.\p"
-	.string "I had two PIKACHU, so I figured\n"
-	.string "I might as well trade one.$"
+	.string "Near a full moon, they come\n"
+	.string "down off MT MOON.\p"
+	.string "Someone sets a saucer of milk\n"
+	.string "out on those nights.\p"
+	.string "Won't say who it's for…$"
 

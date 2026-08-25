@@ -94,13 +94,19 @@ ViridianCity_School_EventScript_ExitBlackboard::
 	end
 
 ViridianCity_School_Text_TryingToMemorizeNotes::
-	.string "Whew! I'm trying to memorize all my\n"
-	.string "notes.$"
+	.string "Whew! Memorizing all my notes.\p"
+	.string "Type match-ups, status moves…\p"
+	.string "…Don't quiz me yet.$"
 
 ViridianCity_School_Text_ReadBlackboardCarefully::
-	.string "Okay!\p"
-	.string "Be sure to read what's on the\n"
-	.string "blackboard carefully!$"
+	.string "Read the blackboard, all of\n"
+	.string "you.\p"
+	.string "My father crossed to PEWTER\n"
+	.string "with a single POKéMON.\p"
+	.string "The wild ones don't bolt like\n"
+	.string "they did then.\p"
+	.string "Don't cross with less than a\n"
+	.string "full team.$"
 
 ViridianCity_School_Text_NotebookFirstPage::
 	.string "Let's check out the notebook.\p"

@@ -39,7 +39,12 @@ SilphCo_8F_EventScript_Grunt2::
 	end
 
 SilphCo_8F_Text_WonderIfSilphIsFinished::
-	.string "I wonder if SILPH is finished…$"
+	.string "I wonder if SILPH is\n"
+	.string "finished…\p"
+	.string "My father kept his carving\n"
+	.string "knife from the old trade.\p"
+	.string "Said they can seize a\n"
+	.string "factory. Not a pair of hands.$"
 
 SilphCo_8F_Text_ThanksForSavingUs::
 	.string "Thanks for saving us!$"

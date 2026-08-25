@@ -25,12 +25,13 @@ SSAnne_1F_Room6_EventScript_DeclineHealMale::
 	end
 
 SSAnne_1F_Room6_Text_TakeAShortRest::
-	.string "You look tired. Would you like to\n"
-	.string "take a short rest?$"
+	.string "You look worn through.\p"
+	.string "Sit a while. The sea's in\n"
+	.string "no hurry…$"
 
 SSAnne_1F_Room6_Text_GladEveryoneIsRefreshed::
-	.string "I'm glad to see that everyone is\n"
-	.string "looking refreshed and chipper.$"
+	.string "There. Everyone's got\n"
+	.string "their color back…$"
 
 SSAnne_1F_Room6_Text_SorryYouLookLikeMyBrother::
 	.string "Oh, I'm sorry for fussing over you.\n"

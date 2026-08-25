@@ -16,5 +16,8 @@ SSAnne_2F_Room6_Text_CaptainIsAwfullySick::
 	.string "…Some tired doesn't come from work.$"
 
 SSAnne_2F_Room6_Text_ManyPeopleGetSeasick::
-	.string "I hear many people get seasick.$"
+	.string "Half the ship's gone green\n"
+	.string "by now.\p"
+	.string "Not me. A floor's meant\n"
+	.string "to rock…$"
 

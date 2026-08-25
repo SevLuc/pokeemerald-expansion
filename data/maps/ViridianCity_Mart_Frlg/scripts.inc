@@ -105,7 +105,7 @@ ViridianCity_Mart_Text_ShopDoesGoodBusinessInAntidotes::
 	.string "…Briefly.$"
 
 ViridianCity_Mart_Text_GotToBuySomePotions::
-	.string "I've got to buy some POTIONS.\p"
-	.string "You never know when your POKéMON\n"
-	.string "will need quick healing.$"
+	.string "Gotta stock up on POTIONS.\p"
+	.string "Ran clean dry once.\n"
+	.string "Never again.$"
 
