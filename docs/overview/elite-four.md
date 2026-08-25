@@ -47,7 +47,7 @@ still vanilla 5-mon teams; Champion is 3 variants ~Lv57-63.
   free via Snow Warning; several members carry the Snowscape move as backup.
 
 ### Structure (draw pool)
-- This is a TRAINER POOL of 11 that fields 6, exactly like the gym pools in
+- This is a TRAINER POOL of 12 that fields 6, exactly like the gym pools in
   gyms.md (`Party Size: 6`, `Pool Rules: Basic`, `Pool Prune: Bst Match`). The
   game sums the player's team base-stat totals and fields the ace plus the five
   other members whose combined BST is closest to that total
@@ -62,19 +62,25 @@ still vanilla 5-mon teams; Champion is 3 variants ~Lv57-63.
   (Slowbro, Dewgong, Articuno, Froslass, or Glaceon). Alolan Ninetales is NOT
   force-kept, so it stays an ordinary BST-matched candidate; it only leads when
   it is actually fielded.
-- **Guarantee:** with Party Size 6, a snow-setter is always fielded. Lapras is
-  the ace, leaving 5 slots drawn from 10 candidates, and only 4 of those are
-  non-setters (Jynx, Mr. Rime, Mamoswine, Weavile). By pigeonhole at least one of
-  the 5 is a snow-setter, so the lead rule never has an empty hand. This holds as
-  long as (Party Size - reserved) stays greater than the count of non-setters; if
-  the pool composition changes, re-check it.
+- **Guarantee (weakened by the Refrigerate Aurorus):** originally, with Party
+  Size 6, a snow-setter was always fielded, Lapras reserved as ace, 5 slots drawn
+  from 10, only 4 non-setters (Jynx, Mr. Rime, Mamoswine, Weavile), so pigeonhole
+  forced at least one setter. Aurorus is a Refrigerate ATTACKER (not a setter), so
+  the non-setter count is now 5 (the four above plus Aurorus) out of 11 candidates.
+  The 5 drawn slots can in principle all be non-setters, so a snow-setter is NO
+  LONGER hard-guaranteed. In practice the six Snowscape / Snow Warning members are
+  usually BST-picked, but the pigeonhole no longer holds. To restore the hard
+  guarantee, give Aurorus a Snowscape move (making it a setter again) or otherwise
+  keep the non-setter count at 4. Re-check whenever the pool composition changes.
 - Held items: none. Trainer bag items: Full Restore x2 (AI healing, kept from
   vanilla, same as Misty's Super Potion; not a held item).
 
-### Pool members (11)
-All at Lv72 = at the cap, perfect IVs, no EVs, no held items (no items anywhere in
-this game). Snowscape carriers are marked (snow-setter) since they satisfy the
-backup-lead rule.
+### Pool members (12)
+Perfect IVs, no EVs, no held items (no items anywhere in this game). Movesets are
+legal at Lv72 (the cap). NOTE: fielded levels are now set per SLOT by code, not the
+authored Lv72 - Lorelei fields 60/61/61/61/61/63 (see Level tiers). The authored
+`Level: 72` lines are legality references / fallbacks only. Snowscape carriers are
+marked (snow-setter) since they satisfy the backup-lead rule.
 
 - **ALOLAN NINETALES** (preferred lead), Ice/Fairy, Snow Warning, Timid
   (Blizzard / Moonblast / Icy Wind / Aurora Veil) - sets Snow turn 1; Aurora Veil
@@ -112,6 +118,12 @@ backup-lead rule.
   (Night Slash / Ice Punch / Low Kick / Poison Jab) - fast physical breaker; Ice +
   Dark + Fighting + Poison is near-perfect neutral coverage (Low Kick answers
   Steel, Poison Jab answers Fairy).
+- **AURORUS**, Rock/Ice, Refrigerate, Timid
+  (Hyper Voice / Discharge / Earth Power / Hyper Beam) - offensive Refrigerate
+  build: Refrigerate turns Hyper Voice and Hyper Beam into boosted Ice STAB, with
+  Discharge (Electric) + Earth Power (Ground) giving near-complete coverage
+  (Ice/Electric/Ground). Not a snow-setter (see the weakened guarantee above);
+  cannot learn Power Gem in this build, and it carries no Rock STAB here.
 
 ### Notes / gaps
 - Dropped during pool-building: Cloyster and Iron Bundle (Iron Bundle's strong

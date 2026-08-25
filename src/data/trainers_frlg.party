@@ -4901,17 +4901,35 @@ Music: Aqua
 Double Battle: No
 AI: Check Bad Move / Try To Faint
 
-Onix
-Level: 25
-IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
-
-Rhyhorn
-Level: 24
-IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
+Dugtrio
+Level: 34
+Ability: Sand Force
+Nature: Jolly
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Earthquake
+- Stone Edge
+- Sucker Punch
+- Night Slash
 
 Kangaskhan
-Level: 29
-IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
+Level: 35
+Ability: Scrappy
+Nature: Jolly
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Body Slam
+- Aqua Tail
+- Icy Wind
+- Fake Out
+
+Rhyhorn
+Level: 37
+Ability: Lightning Rod
+Nature: Adamant
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Earthquake
+- Stone Edge
+- Ice Fang
+- Sandstorm
 
 === TRAINER_BOSS_GIOVANNI_2 ===
 Name: GIOVANNI
@@ -4922,21 +4940,45 @@ Music: Aqua
 Double Battle: No
 AI: Check Bad Move / Try To Faint
 
-Nidorino
-Level: 37
-IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
-
 Kangaskhan
-Level: 35
-IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
+Level: 49
+Ability: Scrappy
+Nature: Jolly
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Body Slam
+- Aqua Tail
+- Icy Wind
+- Fake Out
 
-Rhyhorn
-Level: 37
-IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
+Nidoking
+Level: 50
+Ability: Sheer Force
+Nature: Jolly
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Earthquake
+- Poison Jab
+- Ice Punch
+- Sandstorm
+
+Rhydon
+Level: 51
+Ability: Lightning Rod
+Nature: Adamant
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Earthquake
+- Stone Edge
+- Avalanche
+- Sandstorm
 
 Nidoqueen
-Level: 41
-IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
+Level: 52
+Ability: Sheer Force
+Nature: Timid
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Earth Power
+- Sludge Wave
+- Ice Beam
+- Thunderbolt
 
 === TRAINER_LEADER_GIOVANNI ===
 Name: GIOVANNI
@@ -4947,46 +4989,111 @@ Music: Aqua
 Items: Hyper Potion / Hyper Potion / Full Heal
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
+Party Size: 6
+Pool Rules: Basic
+Pool Prune: Bst Match
 
-Rhyhorn
-Level: 46
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Take Down
-- Rock Blast
-- Scary Face
+Hippowdon
+Level: 61
+Ability: Sand Stream
+Tags: Lead
+Nature: Careful
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Earthquake
+- Crunch
+- Ice Fang
+- Slack Off
 
 Dugtrio
-Level: 48
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Slash
-- Sand Tomb
-- Mud Slap
+Level: 61
+Ability: Sand Force
+Nature: Jolly
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Earthquake
+- Stone Edge
+- Sucker Punch
+- Night Slash
 
-Nidoqueen
-Level: 48
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Body Slam
-- Double Kick
-- Poison Sting
+Marowak
+Level: 61
+Ability: Battle Armor
+Nature: Adamant
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Earthquake
+- Attract
+- Sandstorm
+- Icy Wind
+
+Donphan
+Level: 61
+Ability: Sand Veil
+Nature: Rash
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Earthquake
+- Seed Bomb
+- Ice Shard
+- Stone Edge
+
+Rhyperior
+Level: 61
+Ability: Solid Rock
+Nature: Adamant
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Earthquake
+- Stone Edge
+- Avalanche
+- Sandstorm
+
+Krookodile
+Level: 61
+Ability: Anger Point
+Nature: Jolly
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Earthquake
+- Crunch
+- Stone Edge
+- Close Combat
+
+Gliscor
+Level: 61
+Ability: Sand Veil
+Nature: Jolly
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Earthquake
+- Acrobatics
+- U-turn
+- Roost
 
 Nidoking
-Level: 48
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Thrash
-- Double Kick
-- Poison Sting
+Level: 61
+Ability: Sheer Force
+Nature: Jolly
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Earthquake
+- Poison Jab
+- Ice Punch
+- Sandstorm
 
-Rhyhorn
-Level: 50
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Take Down
-- Rock Blast
-- Scary Face
-- Earthquake
+Kangaskhan
+Level: 61
+Ability: Scrappy
+Nature: Jolly
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Body Slam
+- Aqua Tail
+- Icy Wind
+- Fake Out
+
+Nidoqueen
+Level: 63
+Ability: Sheer Force
+Tags: Ace
+Nature: Timid
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Earth Power
+- Sludge Wave
+- Ice Beam
+- Thunderbolt
 
 === TRAINER_TEAM_ROCKET_GRUNT ===
 Name: GRUNT
@@ -6619,6 +6726,16 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Low Kick
 - Poison Jab
 
+Aurorus
+Level: 72
+Ability: Refrigerate
+Nature: Timid
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Hyper Voice
+- Discharge
+- Earth Power
+- Hyper Beam
+
 === TRAINER_ELITE_FOUR_BRUNO ===
 Name: BRUNO
 Class: Elite Four Frlg
@@ -7462,38 +7579,91 @@ Music: Male
 Items: Hyper Potion / Hyper Potion / Full Heal
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
+Party Size: 6
+Pool Rules: Basic
+Pool Prune: Bst Match
 
-Growlithe
-Level: 43
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Bite
-- Roar
-- Take Down
-- Fire Blast
+Ninetales
+Level: 56
+Ability: Drought
+Tags: Lead
+Nature: Timid
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Flamethrower
+- Scorching Sands
+- Energy Ball
+- Confuse Ray
 
-Ponyta
-Level: 45
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Stomp
-- Bounce
-- Fire Spin
-- Fire Blast
+SPECIES_ARCANINE_HISUI
+Level: 56
+Ability: Rock Head
+Nature: Jolly
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Head Smash
+- Flare Blitz
+- Close Combat
+- Extreme Speed
+
+Skeledirge
+Level: 56
+Ability: Blaze
+Nature: Timid
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Flamethrower
+- Shadow Ball
+- Sunny Day
+- Solar Beam
+
+Flareon
+Level: 56
+Ability: Guts
+Nature: Jolly
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Flare Blitz
+- Superpower
+- Quick Attack
+- Sunny Day
 
 Rapidash
-Level: 45
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Stomp
-- Bounce
-- Fire Spin
-- Fire Blast
+Level: 56
+Ability: Flame Body
+Nature: Jolly
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Flare Blitz
+- Wild Charge
+- High Horsepower
+- Sunny Day
+
+Talonflame
+Level: 56
+Ability: Gale Wings
+Nature: Adamant
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Flare Blitz
+- Acrobatics
+- Tailwind
+- U-turn
+
+Darmanitan
+Level: 56
+Ability: Sheer Force
+Nature: Jolly
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Flare Blitz
+- Earthquake
+- Rock Slide
+- Iron Head
 
 Arcanine
-Level: 47
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Bite
-- Roar
-- Take Down
-- Fire Blast
+Level: 58
+Ability: Intimidate
+Tags: Ace
+Nature: Jolly
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Flare Blitz
+- Close Combat
+- Wild Charge
+- Extreme Speed
 
 === TRAINER_LEADER_SABRINA ===
 Name: SABRINA
@@ -7504,38 +7674,110 @@ Music: Female
 Items: Hyper Potion / Hyper Potion / Full Heal
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
+Party Size: 6
+Pool Rules: Basic
+Pool Prune: Bst Match
 
-Kadabra
-Level: 39
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Psybeam
-- Reflect
-- Future Sight
-- Calm Mind
+Espeon
+Level: 51
+Ability: Magic Bounce
+Nature: Timid
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Psychic
+- Dazzling Gleam
+- Mud Slap
+- Morning Sun
+
+Gothitelle
+Level: 51
+Ability: Shadow Tag
+Nature: Timid
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Psychic
+- Thunderbolt
+- Signal Beam
+- Hypnosis
+
+Gardevoir
+Level: 51
+Ability: Synchronize
+Nature: Timid
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Moonblast
+- Psychic
+- Aura Sphere
+- Mystical Fire
+
+Hatterene
+Level: 51
+Ability: Magic Bounce
+Nature: Modest
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Psychic
+- Dazzling Gleam
+- Mystical Fire
+- Nuzzle
 
 Mr Mime
-Level: 41
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Barrier
-- Psybeam
-- Baton Pass
-- Calm Mind
+Level: 51
+Ability: Filter
+Nature: Timid
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Psychic
+- Dazzling Gleam
+- Mystical Fire
+- Grass Knot
 
-Venomoth
-Level: 41
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Psybeam
-- Gust
-- Leech Life
-- Supersonic
+Xatu
+Level: 51
+Ability: Magic Bounce
+Nature: Timid
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Psychic
+- Air Slash
+- Heat Wave
+- Confuse Ray
+
+Delphox
+Level: 51
+Ability: Blaze
+Nature: Timid
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Overheat
+- Psychic
+- Laser Focus
+- Hypnosis
+
+Farigiraf
+Level: 51
+Ability: Sap Sipper
+Nature: Timid
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Psychic
+- Hyper Voice
+- Dazzling Gleam
+- Earthquake
+
+Malamar
+Level: 51
+Ability: Contrary
+Nature: Adamant
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Night Slash
+- Psycho Cut
+- Superpower
+- Hypnosis
 
 Alakazam
-Level: 43
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Level: 53
+Ability: Synchronize
+Tags: Ace
+Nature: Timid
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Psychic
-- Recover
-- Future Sight
-- Calm Mind
+- Dazzling Gleam
+- Shadow Ball
+- Hypnosis
 
 === TRAINER_GENTLEMAN_THOMAS ===
 Name: THOMAS
