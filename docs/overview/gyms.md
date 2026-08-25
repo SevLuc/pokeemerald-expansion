@@ -346,13 +346,16 @@ opener as a random draw. See how_to_trainer_party_pool.md and src/trainer_pools.
     Thunderbolt) - a Sheer Force special nuke with BoltBeam coverage
 - All movesets are level-cap-legal at 63 (verified with the moveset-legality skill).
 - Earlier fights (the recurring arc): his two Rocket-boss battles show the SAME lines
-  at a younger evolution stage, with levels raised toward each fight's cap. These are
-  TRAINER_BOSS_GIOVANNI / _2 (not pool trainers, so authored levels).
-  - Rocket Hideout (toward cap 38): DUGTRIO Lv35 (Sand Force), KANGASKHAN Lv36
-    (Scrappy), RHYHORN Lv38 (Lightning Rod), a young sand core. Rhyhorn uses Ice Fang
+  at a younger evolution stage, with levels fit to the progression CURVE at each story
+  beat (near the rival's levels there), NOT to the cap. These are TRAINER_BOSS_GIOVANNI
+  / _2 (not pool trainers, so authored levels).
+  - Rocket Hideout (post-Erika Lv35, before the Pokemon Tower rival's 34/38; the cap of
+    38 is a ceiling, not the curve): DUGTRIO Lv34 (Sand Force), KANGASKHAN Lv35
+    (Scrappy), RHYHORN Lv37 (Lightning Rod), a young sand core. Rhyhorn uses Ice Fang
     where its evolved Rhyperior runs Avalanche (Rhyhorn cannot learn Avalanche).
-  - Silph Co. (toward cap 53): KANGASKHAN Lv49, NIDOKING Lv50 (Sheer Force), RHYDON
-    Lv51 (Lightning Rod), NIDOQUEEN Lv53 ace (Sheer Force). The Nido pair is now
+  - Silph Co. (on the Silph rival's curve, ace 52; the cap here is 53 but that is
+    Sabrina's gate, not this beat): KANGASKHAN Lv49, NIDOKING Lv50 (Sheer Force),
+    RHYDON Lv51 (Lightning Rod), NIDOQUEEN Lv52 ace (Sheer Force). The Nido pair is now
     Moon-Stone-evolved and Rhyhorn has grown to Rhydon; movesets/abilities/natures
     mirror their gym-pool versions at this stage.
 - Gimmick: the gym is LOCKED the entire game (canon; opens only after badges 2-7)
