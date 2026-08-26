@@ -7711,7 +7711,7 @@ Party Size: 6
 Pool Rules: Basic
 Pool Prune: Bst Match
 
-Ninetales
+TESTSUBJECT (Ninetales)
 Level: 56
 Ability: Drought
 Tags: Lead
@@ -7722,7 +7722,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Energy Ball
 - Confuse Ray
 
-SPECIES_ARCANINE_HISUI
+GOLDEN BOY2 (SPECIES_ARCANINE_HISUI)
 Level: 56
 Ability: Rock Head
 Nature: Jolly
@@ -7732,7 +7732,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Close Combat
 - Extreme Speed
 
-Skeledirge
+HOT CROC (Skeledirge)
 Level: 56
 Ability: Blaze
 Nature: Timid
@@ -7742,7 +7742,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Sunny Day
 - Solar Beam
 
-Flareon
+FIREFURRY (Flareon)
 Level: 56
 Ability: Guts
 Nature: Jolly
@@ -7752,7 +7752,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Quick Attack
 - Sunny Day
 
-Rapidash
+ASS (Rapidash)
 Level: 56
 Ability: Flame Body
 Nature: Jolly
@@ -7762,7 +7762,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - High Horsepower
 - Sunny Day
 
-Talonflame
+OLD GLORY (Talonflame)
 Level: 56
 Ability: Gale Wings
 Nature: Adamant
@@ -7772,7 +7772,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Tailwind
 - U-turn
 
-Darmanitan
+PANTHOOTS (Darmanitan)
 Level: 56
 Ability: Sheer Force
 Nature: Jolly
@@ -7782,7 +7782,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Rock Slide
 - Iron Head
 
-Arcanine
+GOLDEN BOY (Arcanine)
 Level: 58
 Ability: Intimidate
 Tags: Ace
