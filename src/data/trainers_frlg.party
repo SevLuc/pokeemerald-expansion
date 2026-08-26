@@ -4993,7 +4993,7 @@ Party Size: 6
 Pool Rules: Basic
 Pool Prune: Bst Match
 
-Hippowdon
+OVERACHIEVER (Hippowdon)
 Level: 61
 Ability: Sand Stream
 Tags: Lead
@@ -5004,7 +5004,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Ice Fang
 - Slack Off
 
-Dugtrio
+TRIOTRIOTRIO (Dugtrio)
 Level: 61
 Ability: Sand Force
 Nature: Jolly
@@ -5014,7 +5014,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Sucker Punch
 - Night Slash
 
-Marowak
+WACK (Marowak)
 Level: 61
 Ability: Battle Armor
 Nature: Adamant
@@ -5024,7 +5024,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Sandstorm
 - Icy Wind
 
-Donphan
+BBQFOOD (Donphan)
 Level: 61
 Ability: Sand Veil
 Nature: Rash
@@ -5034,7 +5034,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Ice Shard
 - Stone Edge
 
-Rhyperior
+BRO THINKS (Rhyperior)
 Level: 61
 Ability: Solid Rock
 Nature: Adamant
@@ -5044,7 +5044,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Avalanche
 - Sandstorm
 
-Krookodile
+PIMP DEALER (Krookodile)
 Level: 61
 Ability: Anger Point
 Nature: Jolly
@@ -5054,7 +5054,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Stone Edge
 - Close Combat
 
-Gliscor
+STINGBOB (Gliscor)
 Level: 61
 Ability: Sand Veil
 Nature: Jolly
@@ -5064,7 +5064,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - U-turn
 - Roost
 
-Nidoking
+PIMPLEPURPLE (Nidoking)
 Level: 61
 Ability: Sheer Force
 Nature: Jolly
@@ -5074,7 +5074,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Ice Punch
 - Sandstorm
 
-Kangaskhan
+YO MOMMA (Kangaskhan)
 Level: 61
 Ability: Scrappy
 Nature: Jolly
@@ -5084,7 +5084,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Icy Wind
 - Fake Out
 
-Nidoqueen
+RESPECT THIS (Nidoqueen)
 Level: 63
 Ability: Sheer Force
 Tags: Ace
@@ -6615,7 +6615,7 @@ Pool Rules: Basic
 Pool Prune: Bst Match
 Pool Pick Functions: Snow Lead
 
-SPECIES_NINETALES_ALOLA
+MR SPARKLES (SPECIES_NINETALES_ALOLA)
 Level: 72
 Ability: Snow Warning
 Nature: Timid
@@ -6625,7 +6625,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Icy Wind
 - Aurora Veil
 
-Lapras
+BIG FRIENDLY GUN (Lapras)
 Level: 72
 Ability: Shell Armor
 Tags: Ace
@@ -6636,7 +6636,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Confuse Ray
 - Earthquake
 
-Slowbro
+PEPEGA (Slowbro)
 Level: 72
 Ability: Regenerator
 Nature: Sassy
@@ -6646,7 +6646,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Psychic
 - Surf
 
-Jynx
+FLUTTER AT HOME (Jynx)
 Level: 72
 Ability: Dry Skin
 Nature: Timid
@@ -6656,7 +6656,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Aurora Veil
 - Lovely Kiss
 
-Dewgong
+GOOD DAWG (Dewgong)
 Level: 72
 Ability: Ice Body
 Nature: Timid
@@ -6666,7 +6666,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Snowscape
 - Surf
 
-Articuno
+FREEZE BIRB (Articuno)
 Level: 72
 Ability: Snow Cloak
 Nature: Timid
@@ -6676,7 +6676,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Air Slash
 - Roost
 
-Froslass
+GHOAST (Froslass)
 Level: 72
 Ability: Snow Cloak
 Nature: Timid
@@ -6686,7 +6686,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Shadow Ball
 - Confuse Ray
 
-SPECIES_MR_RIME
+FAKE ASS MIME (SPECIES_MR_RIME)
 Level: 72
 Ability: Ice Body
 Nature: Timid
@@ -6696,7 +6696,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Icy Wind
 - Focus Blast
 
-Mamoswine
+HILLBILLY (Mamoswine)
 Level: 72
 Ability: Thick Fat
 Nature: Jolly
@@ -6706,7 +6706,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Ice Shard
 - Superpower
 
-Glaceon
+JUST DO BETTER (Glaceon)
 Level: 72
 Ability: Snow Cloak
 Nature: Timid
@@ -6716,7 +6716,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Freeze-Dry
 - Snowscape
 
-Weavile
+RON BEASTLEY (Weavile)
 Level: 72
 Ability: Pressure
 Nature: Jolly
@@ -6726,7 +6726,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Low Kick
 - Poison Jab
 
-Aurorus
+RAINBOWHUGGER (Aurorus)
 Level: 72
 Ability: Refrigerate
 Nature: Timid
@@ -6771,7 +6771,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Earthquake
 - Mach Punch
 
-Hitmonchan
+WEAVEBOB (Hitmonchan)
 Level: 63
 Ability: Iron Fist
 Nature: Jolly
@@ -6781,7 +6781,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Ice Punch
 - Fire Punch
 
-SPECIES_URSHIFU_SINGLE_STRIKE
+UNFAIRBEAR (SPECIES_URSHIFU_SINGLE_STRIKE)
 Level: 63
 Ability: Unseen Fist
 Nature: Jolly
@@ -6791,7 +6791,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Sucker Punch
 - Ice Punch
 
-SPECIES_URSHIFU_RAPID_STRIKE
+UNFAIRWATERBEAR (SPECIES_URSHIFU_RAPID_STRIKE)
 Level: 63
 Ability: Unseen Fist
 Nature: Jolly
@@ -6801,7 +6801,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Aqua Jet
 - Poison Jab
 
-Poliwrath
+ANGRYFORNOTHIN (Poliwrath)
 Level: 63
 Ability: Water Absorb
 Nature: Jolly
@@ -6811,7 +6811,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Ice Punch
 - Earthquake
 
-Lucario
+THIS GUY (Lucario)
 Level: 63
 Ability: Inner Focus
 Nature: Timid
@@ -6821,7 +6821,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Dark Pulse
 - Vacuum Wave
 
-Hawlucha
+HI JUMP BIRD (Hawlucha)
 Level: 63
 Ability: Mold Breaker
 Nature: Jolly
@@ -6831,7 +6831,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Rock Tomb
 - Dig
 
-Heracross
+SHORT KING (Heracross)
 Level: 63
 Ability: Moxie
 Nature: Jolly
@@ -6841,7 +6841,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Earthquake
 - Rock Tomb
 
-banksy (Gholdengo)
+BANKSY (Gholdengo)
 Level: 63
 Ability: Good as Gold
 Nature: Timid
@@ -6851,7 +6851,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Power Gem
 - Focus Blast
 
-Magnezone
+BOTTING OUT (Magnezone)
 Level: 63
 Ability: Analytic
 Nature: Modest
@@ -6861,7 +6861,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Magnet Rise
 - Body Press
 
-Empoleon
+DEF PENGUIN (Empoleon)
 Level: 63
 Ability: Torrent
 Nature: Timid
@@ -6871,7 +6871,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Ice Beam
 - Roost
 
-Bronzong
+FLYING WALL (Bronzong)
 Level: 63
 Ability: Levitate
 Nature: Brave
@@ -6881,7 +6881,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Confuse Ray
 - Zen Headbutt
 
-Ferrothorn
+LEGOBLOCK (Ferrothorn)
 Level: 63
 Ability: Iron Barbs
 Nature: Relaxed
@@ -6891,7 +6891,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Bulldoze
 - Body Press
 
-Togedemaru
+TEAM CARRIER (Togedemaru)
 Level: 63
 Ability: Iron Barbs
 Nature: Jolly
@@ -6901,7 +6901,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Nuzzle
 - Magnet Rise
 
-Steelix
+GIGACHAD (Steelix)
 Level: 63
 Ability: Sheer Force
 Nature: Adamant
@@ -6911,7 +6911,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Crunch
 - Thunder Fang
 
-Sandslash
+CLIPPY (Sandslash)
 Level: 63
 Ability: Sand Veil
 Nature: Adamant
@@ -6935,7 +6935,7 @@ Party Size: 6
 Pool Rules: Basic
 Pool Prune: Bst Match
 
-Gengar
+SMUGBOB (Gengar)
 Level: 66
 Ability: Cursed Body
 Tags: Ace
@@ -6946,7 +6946,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Dazzling Gleam
 - Confuse Ray
 
-Polteageist
+ELIZABETH (Polteageist)
 Level: 63
 Ability: Cursed Body
 Nature: Timid
@@ -6956,7 +6956,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Shadow Ball
 - Confuse Ray
 
-Mismagius
+POINTYHAT (Mismagius)
 Level: 63
 Ability: Levitate
 Nature: Timid
@@ -6966,7 +6966,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Mystical Fire
 - Dazzling Gleam
 
-Dusknoir
+TERMINATOR (Dusknoir)
 Level: 63
 Ability: Pressure
 Nature: Adamant
@@ -6976,7 +6976,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Thunder Punch
 - Revenge
 
-Dragapult
+INCEPTION (Dragapult)
 Level: 63
 Ability: Clear Body
 Nature: Jolly
@@ -6986,7 +6986,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Phantom Force
 - Infestation
 
-Mimikyu
+PIKACHU (Mimikyu)
 Level: 63
 Ability: Disguise
 Nature: Jolly
@@ -6996,7 +6996,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Confuse Ray
 - Will-O-Wisp
 
-Chandelure
+WAXBOB (Chandelure)
 Level: 63
 Ability: Flame Body
 Nature: Timid
@@ -7006,7 +7006,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Energy Ball
 - Confuse Ray
 
-Drifblim
+FLOWERBRINGER (Drifblim)
 Level: 63
 Ability: Aftermath
 Nature: Calm
@@ -7016,7 +7016,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Strength Sap
 - Thunder Wave
 
-Basculegion
+DEADFISH (Basculegion)
 Level: 63
 Ability: Adaptability
 Nature: Jolly
@@ -7026,7 +7026,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Aqua Jet
 - Head Smash
 
-Dhelmise
+POSER (Dhelmise)
 Level: 63
 Ability: Steelworker
 Nature: Brave
@@ -7036,7 +7036,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Earthquake
 - Synthesis
 
-Crobat
+EVERY DAMN GAME (Crobat)
 Level: 63
 Ability: Infiltrator
 Nature: Jolly
@@ -7046,7 +7046,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - U-turn
 - Roost
 
-Amoonguss
+CORONA LORD (Amoonguss)
 Level: 63
 Ability: Regenerator
 Nature: Relaxed
@@ -7056,7 +7056,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Foul Play
 - Spore
 
-Dragalge
+EVOLVED ARBOK (Dragalge)
 Level: 63
 Ability: Adaptability
 Nature: Modest
@@ -7066,7 +7066,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Hydro Pump
 - Flip Turn
 
-Sneasler
+PSYCHIC CHECK (Sneasler)
 Level: 63
 Ability: Poison Touch
 Nature: Jolly
@@ -7086,46 +7086,70 @@ Items: Full Restore / Full Restore
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 Mugshot: Blue
+Party Size: 6
+Pool Rules: Basic
+Pool Prune: None
 
-Gyarados
-Level: 56
-IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
-- Hyper Beam
-- Dragon Rage
-- Twister
-- Bite
-
-Dragonair
-Level: 54
-IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
-- Hyper Beam
-- Safeguard
-- Dragon Rage
+SMOTHERED MATE (Dragonite)
+Level: 69
+Ability: Multiscale
+Tags: Ace
+Nature: Jolly
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Outrage
+- Extreme Speed
+- Earthquake
+- Iron Head
 
-Dragonair
-Level: 54
-IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
-- Hyper Beam
-- Safeguard
+SMOTHERED MATE (Dragonite)
+Level: 66
+Ability: Multiscale
+Nature: Jolly
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Thunder Wave
-- Outrage
+- Supersonic
+- Dragon Claw
+- Fire Punch
 
-Aerodactyl
-Level: 58
-IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
-- Hyper Beam
-- Ancient Power
-- Wing Attack
-- Scary Face
+SMOTHERED MATE (Dragonite)
+Level: 66
+Ability: Multiscale
+Nature: Jolly
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Breaking Swipe
+- Roost
+- Mud-Slap
+- Dual Wingbeat
 
-Dragonite @ Sitrus Berry
-Level: 60
-IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
-- Hyper Beam
-- Safeguard
-- Outrage
-- Wing Attack
+SMOTHERED MATE (Dragonite)
+Level: 66
+Ability: Multiscale
+Nature: Timid
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Dragon Pulse
+- Air Slash
+- Flamethrower
+- Surf
+
+SMOTHERED MATE (Dragonite)
+Level: 67
+Ability: Multiscale
+Nature: Timid
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Draco Meteor
+- Fire Blast
+- Hurricane
+- Focus Blast
+
+SUPA FRAUD (Zoroark)
+Level: 66
+Ability: Illusion
+Nature: Timid
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Night Daze
+- Aura Sphere
+- Flamethrower
+- Sludge Bomb
 
 === TRAINER_LEADER_BROCK ===
 Name: BROCK
@@ -7149,7 +7173,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Bulldoze
 - Mud Slap
 
-Aron (F)
+BUILT DIFF (Aron) (F)
 Level: 12
 Ability: Sturdy
 Nature: Jolly
@@ -7159,7 +7183,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Iron Head
 - Body Press
 
-Glimmet (F)
+TOXIC EX (Glimmet) (F)
 Level: 12
 Ability: Corrosion
 Nature: Timid
@@ -7179,7 +7203,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Thunder Fang
 - Bulldoze
 
-Stakataka
+TAKATA BRO (Stakataka)
 Level: 12
 Ability: Beast Boost
 Nature: Adamant
@@ -7189,7 +7213,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Bulldoze
 - Body Press
 
-SEXY DAWG (Rockruff) (F)
+HAPPY DAWG (Rockruff) (F)
 Level: 12
 Ability: Vital Spirit
 Nature: Jolly
@@ -7199,7 +7223,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Attract
 - Play Rough
 
-SPECIES_GROWLITHE_HISUI (F)
+ITWASNTME (SPECIES_GROWLITHE_HISUI) (F)
 Level: 12
 Ability: Intimidate
 Nature: Jolly
@@ -7243,7 +7267,7 @@ Party Size: 6
 Pool Rules: Basic
 Pool Prune: Bst Match
 
-Psyduck (F)
+IDIOT KING (Psyduck) (F)
 Level: 19
 Ability: Swift Swim
 Tags: Lead
@@ -7254,7 +7278,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Psychic
 - Aerial Ace
 
-Horsea (F)
+LARP DRAGON (Horsea) (F)
 Level: 21
 Ability: Swift Swim
 Nature: Timid
@@ -7264,7 +7288,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Dragon Breath
 - Ice Beam
 
-Brionne (F)
+SINGBOB (Brionne) (F)
 Level: 21
 Ability: Liquid Voice
 Nature: Timid
@@ -7272,7 +7296,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Echoed Voice
 - Rain Dance
 
-Pyukumuku (F)
+BEACH BUM (Pyukumuku) (F)
 Level: 21
 Ability: Innards Out
 Nature: Timid
@@ -7281,7 +7305,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Spite
 - Double Team
 
-Corsola (F)
+CO2 VICTIM (Corsola) (F)
 Level: 21
 Ability: Regenerator
 Nature: Timid
@@ -7291,7 +7315,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Light Screen
 - Sucker Punch
 
-Ludicolo (F)
+SENOR SMELLY (Ludicolo) (F)
 Level: 21
 Ability: Swift Swim
 Nature: Timid
@@ -7301,7 +7325,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Ice Beam
 - Scald
 
-Azumarill (F)
+BUFF BUNNY (Azumarill) (F)
 Level: 21
 Ability: Sap Sipper
 Nature: Jolly
@@ -7311,7 +7335,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Bulldoze
 - Waterfall
 
-Goldeen (F)
+WASHED (Goldeen) (F)
 Level: 21
 Ability: Swift Swim
 Nature: Naive
@@ -7321,7 +7345,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Poison Jab
 - Icy Wind
 
-Vaporeon (F)
+QUEEN V (Vaporeon) (F)
 Level: 21
 Ability: Hydration
 Nature: Timid
@@ -7331,7 +7355,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Ice Beam
 - Wish
 
-Starmie
+STARMICKEY (Starmie)
 Level: 23
 Ability: Natural Cure
 Tags: Ace
@@ -7355,7 +7379,7 @@ Party Size: 6
 Pool Rules: Basic
 Pool Prune: Bst Match
 
-Jolteon (M)
+ZOOMBOB (Jolteon) (M)
 Level: 25
 Ability: Volt Absorb
 Nature: Timid
@@ -7365,7 +7389,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Trailblaze
 - Yawn
 
-SPECIES_ROTOM_FROST
+DWAYNE (SPECIES_ROTOM_FROST)
 Level: 25
 Ability: Levitate
 Nature: Timid
@@ -7375,7 +7399,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Light Screen
 - Reflect
 
-SPECIES_IRON_HANDS
+CLAPSACK (SPECIES_IRON_HANDS)
 Level: 25
 Ability: Quark Drive
 Nature: Brave
@@ -7385,7 +7409,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Thunder Punch
 - Ice Punch
 
-SPECIES_ELECTRODE_HISUI
+DRY PLUM (SPECIES_ELECTRODE_HISUI)
 Level: 25
 Ability: Static
 Nature: Naive
@@ -7395,7 +7419,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Ice Ball
 - Self Destruct
 
-Heliolisk (M)
+RIZZARD (Heliolisk) (M)
 Level: 25
 Ability: Dry Skin
 Nature: Timid
@@ -7405,7 +7429,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Signal Beam
 - Grass Knot
 
-Morpeko (F)
+RANTBABY (Morpeko) (F)
 Level: 25
 Ability: Hunger Switch
 Nature: Jolly
@@ -7415,7 +7439,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Stomping Tantrum
 - Super Fang
 
-Togedemaru (M)
+BUMRAT (Togedemaru) (M)
 Level: 25
 Ability: Iron Barbs
 Nature: Jolly
@@ -7425,7 +7449,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Endeavor
 - Volt Switch
 
-Pincurchin (F)
+YEEET (Pincurchin) (F)
 Level: 25
 Ability: Electric Surge
 Nature: Quiet
@@ -7435,7 +7459,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Muddy Water
 - Thunder Wave
 
-Pachirisu (M)
+T SWIZZLE (Pachirisu) (M)
 Level: 25
 Ability: Volt Absorb
 Nature: Timid
@@ -7445,7 +7469,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Mud Slap
 - Volt Switch
 
-Raichu (F)
+BODYSLAM THIS (Raichu) (F)
 Level: 27
 Ability: Static
 Tags: Ace
@@ -7469,7 +7493,7 @@ Party Size: 6
 Pool Rules: Basic
 Pool Prune: Bst Match
 
-Tangrowth (F)
+PERV LORD (Tangrowth) (F)
 Level: 33
 Ability: Chlorophyll
 Nature: Hasty
@@ -7479,7 +7503,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Ancient Power
 - Earthquake
 
-Meowscarada (F)
+KRITKAT (Meowscarada) (F)
 Level: 33
 Ability: Overgrow
 Nature: Jolly
@@ -7489,7 +7513,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Acrobatics
 - Low Kick
 
-Exeggutor (F)
+CHEETOSEATER (Exeggutor) (F)
 Level: 33
 Ability: Chlorophyll
 Nature: Timid
@@ -7499,7 +7523,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Psychic
 - Sludge Bomb
 
-Roserade (F)
+BUM ZORRO (Roserade) (F)
 Level: 33
 Ability: Technician
 Nature: Timid
@@ -7509,7 +7533,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Dazzling Gleam
 - Mud Shot
 
-Victreebel (F)
+TRASH EATER (Victreebel) (F)
 Level: 33
 Ability: Chlorophyll
 Nature: Timid
@@ -7519,7 +7543,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Sludge Bomb
 - Weather Ball
 
-Jumpluff (F)
+WINDWAKER (Jumpluff) (F)
 Level: 33
 Ability: Chlorophyll
 Nature: Jolly
@@ -7529,7 +7553,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Substitute
 - Acrobatics
 
-Meganium (F)
+BEEGFRIEND (Meganium) (F)
 Level: 33
 Ability: Leaf Guard
 Nature: Jolly
@@ -7539,7 +7563,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Sunny Day
 - Synthesis
 
-Parasect (F)
+BIG P (Parasect) (F)
 Level: 33
 Ability: Dry Skin
 Nature: Adamant
@@ -7549,7 +7573,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Seed Bomb
 - Substitute
 
-Venusaur (F)
+UGLYBOB (Venusaur) (F)
 Level: 33
 Ability: Chlorophyll
 Nature: Timid
@@ -7559,7 +7583,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Sludge Bomb
 - Earth Power
 
-Vileplume (F)
+PLANTHEAD (Vileplume) (F)
 Level: 35
 Ability: Effect Spore
 Tags: Ace
@@ -7583,7 +7607,7 @@ Party Size: 6
 Pool Rules: Basic
 Pool Prune: Bst Match
 
-Crobat
+GRAPE FLY (Crobat)
 Level: 48
 Ability: Inner Focus
 Nature: Jolly
@@ -7593,7 +7617,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - U-turn
 - Roost
 
-Muk
+DA TORCHER (Muk)
 Level: 48
 Ability: Poison Touch
 Nature: Jolly
@@ -7603,7 +7627,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Poison Jab
 - Fire Punch
 
-SPECIES_MUK_ALOLA
+DA TORCHER2 (SPECIES_MUK_ALOLA)
 Level: 48
 Ability: Poison Touch
 Nature: Jolly
@@ -7613,7 +7637,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Ice Punch
 - Explosion
 
-Weezing
+OLD BALLSACK (Weezing)
 Level: 48
 Ability: Levitate
 Nature: Timid
@@ -7623,7 +7647,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Sludge Bomb
 - Dark Pulse
 
-Drapion
+LOANSHARK (Drapion)
 Level: 48
 Ability: Sniper
 Nature: Jolly
@@ -7633,7 +7657,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Earthquake
 - Aqua Tail
 
-Garbodor
+SALES BRO (Garbodor)
 Level: 48
 Ability: Weak Armor
 Nature: Jolly
@@ -7643,7 +7667,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Seed Bomb
 - Drain Punch
 
-Skuntank
+SHITBAG (Skuntank)
 Level: 48
 Ability: Aftermath
 Nature: Naive
@@ -7653,7 +7677,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Gunk Shot
 - Poison Gas
 
-Sneasler
+PATRICKSTAR (Sneasler)
 Level: 48
 Ability: Poison Touch
 Nature: Jolly
@@ -7663,7 +7687,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Acrobatics
 - Throat Chop
 
-Venomoth
+HIMBOB (Venomoth)
 Level: 50
 Ability: Tinted Lens
 Tags: Ace
@@ -7687,7 +7711,7 @@ Party Size: 6
 Pool Rules: Basic
 Pool Prune: Bst Match
 
-Ninetales
+TESTSUBJECT (Ninetales)
 Level: 56
 Ability: Drought
 Tags: Lead
@@ -7698,7 +7722,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Energy Ball
 - Confuse Ray
 
-SPECIES_ARCANINE_HISUI
+GOLDEN BOY2 (SPECIES_ARCANINE_HISUI)
 Level: 56
 Ability: Rock Head
 Nature: Jolly
@@ -7708,7 +7732,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Close Combat
 - Extreme Speed
 
-Skeledirge
+HOT CROC (Skeledirge)
 Level: 56
 Ability: Blaze
 Nature: Timid
@@ -7718,7 +7742,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Sunny Day
 - Solar Beam
 
-Flareon
+FIREFURRY (Flareon)
 Level: 56
 Ability: Guts
 Nature: Jolly
@@ -7728,7 +7752,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Quick Attack
 - Sunny Day
 
-Rapidash
+ASS (Rapidash)
 Level: 56
 Ability: Flame Body
 Nature: Jolly
@@ -7738,7 +7762,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - High Horsepower
 - Sunny Day
 
-Talonflame
+OLD GLORY (Talonflame)
 Level: 56
 Ability: Gale Wings
 Nature: Adamant
@@ -7748,7 +7772,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Tailwind
 - U-turn
 
-Darmanitan
+PANTHOOTS (Darmanitan)
 Level: 56
 Ability: Sheer Force
 Nature: Jolly
@@ -7758,7 +7782,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Rock Slide
 - Iron Head
 
-Arcanine
+GOLDEN BOY (Arcanine)
 Level: 58
 Ability: Intimidate
 Tags: Ace
@@ -7782,7 +7806,7 @@ Party Size: 6
 Pool Rules: Basic
 Pool Prune: Bst Match
 
-Espeon
+INVERTED CAT (Espeon)
 Level: 51
 Ability: Magic Bounce
 Nature: Timid
@@ -7792,7 +7816,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Mud Slap
 - Morning Sun
 
-Gothitelle
+SIGMA FEMALE (Gothitelle)
 Level: 51
 Ability: Shadow Tag
 Nature: Timid
@@ -7802,7 +7826,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Signal Beam
 - Hypnosis
 
-Gardevoir
+FRENCH MADAME (Gardevoir)
 Level: 51
 Ability: Synchronize
 Nature: Timid
@@ -7812,7 +7836,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Aura Sphere
 - Mystical Fire
 
-Hatterene
+SATISFYER (Hatterene)
 Level: 51
 Ability: Magic Bounce
 Nature: Modest
@@ -7822,7 +7846,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Mystical Fire
 - Nuzzle
 
-Mr Mime
+PSYCHIC U DOWN (Mr Mime)
 Level: 51
 Ability: Filter
 Nature: Timid
@@ -7832,7 +7856,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Mystical Fire
 - Grass Knot
 
-Xatu
+OG BRAVIARY (Xatu)
 Level: 51
 Ability: Magic Bounce
 Nature: Timid
@@ -7842,7 +7866,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Heat Wave
 - Confuse Ray
 
-Delphox
+BROOM BUM (Delphox)
 Level: 51
 Ability: Blaze
 Nature: Timid
@@ -7852,7 +7876,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Laser Focus
 - Hypnosis
 
-Farigiraf
+HAPPY HORSE (Farigiraf)
 Level: 51
 Ability: Sap Sipper
 Nature: Timid
@@ -7862,7 +7886,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Dazzling Gleam
 - Earthquake
 
-Malamar
+DOCTOR NO (Malamar)
 Level: 51
 Ability: Contrary
 Nature: Adamant
@@ -7872,7 +7896,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Superpower
 - Hypnosis
 
-Alakazam
+EL SNORRITO (Alakazam)
 Level: 53
 Ability: Synchronize
 Tags: Ace
