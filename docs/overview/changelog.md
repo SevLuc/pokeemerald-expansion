@@ -7,6 +7,25 @@ Update in the same PR as the change.
 `YYYY-MM-DD` — area — one-line summary (PR/commit ref)
 
 ## Entries
+- 2026-08-26 - QoL/config - Enabled follower Pokemon (HGSS style). Set
+  `OW_FOLLOWERS_ENABLED = TRUE` in include/config/overworld.h. The lead party
+  Pokemon now walks behind the player, spawning automatically on map load
+  (UpdateFollowingPokemon), emerging from its actual stored Poke Ball
+  (OW_FOLLOWERS_POKEBALLS already TRUE), bobbing during idle/walk
+  (OW_FOLLOWERS_BOBBING already TRUE); pressing A gives a built-in reaction from
+  data/scripts/follower.inc. Prerequisite OW_POKEMON_OBJECT_EVENTS was already
+  TRUE, and no species/level/location restrictions are set (all mons may follow).
+  Pure flavor, no mechanical/battle impact. Config-only, not yet compiled/
+  ROM-tested (web session). Caveat: special scripted scenes may later need the
+  follower suppressed via B_FLAG_FOLLOWERS_DISABLED; none handled yet (address
+  if a scene looks wrong in playtest).
+- 2026-08-26 - QoL/config - Made all TMs reusable. Set `I_REUSABLE_TMS = TRUE`
+  in include/config/item.h (Gen5-8 behavior): a TM is no longer consumed on use,
+  so each one bought or found can be taught to any number of Pokemon forever.
+  Serves the hard-but-fair goal (players can freely optimize movesets to meet
+  tuned fights) at the cost of removing TM scarcity as an economy lever. Shop TM
+  purchases become effectively one-time. Config-only, not yet compiled/ROM-tested
+  (web session).
 - 2026-08-25 - content/e4-agatha - Rebuilt Elite Four Agatha as a 14-mon Ghost +
   Poison draw pool (fields 6, BST-matched), ace Gengar (Cursed Body). Reframes the
   canon gen-1 roster (Gengar/Golbat/Haunter/Arbok) as a disruption-heavy pool
