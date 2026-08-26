@@ -7086,46 +7086,70 @@ Items: Full Restore / Full Restore
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 Mugshot: Blue
+Party Size: 6
+Pool Rules: Basic
+Pool Prune: None
 
-Gyarados
-Level: 56
-IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
-- Hyper Beam
-- Dragon Rage
-- Twister
-- Bite
-
-Dragonair
-Level: 54
-IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
-- Hyper Beam
-- Safeguard
-- Dragon Rage
+Dragonite
+Level: 69
+Ability: Multiscale
+Tags: Ace
+Nature: Jolly
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Outrage
+- Extreme Speed
+- Earthquake
+- Iron Head
 
-Dragonair
-Level: 54
-IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
-- Hyper Beam
-- Safeguard
+Dragonite
+Level: 66
+Ability: Multiscale
+Nature: Jolly
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Thunder Wave
-- Outrage
+- Supersonic
+- Dragon Claw
+- Fire Punch
 
-Aerodactyl
-Level: 58
-IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
-- Hyper Beam
-- Ancient Power
-- Wing Attack
-- Scary Face
+Dragonite
+Level: 66
+Ability: Multiscale
+Nature: Jolly
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Breaking Swipe
+- Roost
+- Mud-Slap
+- Dual Wingbeat
 
-Dragonite @ Sitrus Berry
-Level: 60
-IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
-- Hyper Beam
-- Safeguard
-- Outrage
-- Wing Attack
+Dragonite
+Level: 66
+Ability: Multiscale
+Nature: Timid
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Dragon Pulse
+- Air Slash
+- Flamethrower
+- Surf
+
+Dragonite
+Level: 67
+Ability: Multiscale
+Nature: Timid
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Draco Meteor
+- Fire Blast
+- Hurricane
+- Focus Blast
+
+Zoroark
+Level: 66
+Ability: Illusion
+Nature: Timid
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Night Daze
+- Aura Sphere
+- Flamethrower
+- Sludge Bomb
 
 === TRAINER_LEADER_BROCK ===
 Name: BROCK

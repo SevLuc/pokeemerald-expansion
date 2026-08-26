@@ -4,10 +4,11 @@ One section per member: leader, type, level cap, structure, pool, and movesets.
 Tracks our hard-but-fair rebalance against vanilla. Cross-link each member's
 history to docs/writing/lore-ledger.md.
 
-> STATUS: Lorelei, Bruno and Agatha pools implemented (trainer entries wired in
-> src/data/trainers_frlg.party; Bruno is a 17-mon Fighting+Steel pool, Agatha a
-> 14-mon Ghost+Poison pool). Rematch teams (`_2`) and lore fragments are still
-> TODO. Build + playtest on Mac.
+> STATUS: Lorelei, Bruno, Agatha and Lance pools implemented (trainer entries wired
+> in src/data/trainers_frlg.party; Bruno is a 17-mon Fighting+Steel pool, Agatha a
+> 14-mon Ghost+Poison pool, Lance a fixed 6-mon all-Dragonite + Zoroark(Illusion)
+> pool). Rematch teams (`_2`) and lore fragments are still TODO. Build + playtest on
+> Mac.
 
 ## Level tiers
 The E4 + Champion are draw pools like the gym leaders, keeping the same ace / lead
@@ -28,13 +29,13 @@ pool trainer that has an entry there:
 | Lorelei | 60 / 61 / 61 / 61 / 61 / 63 | implemented (code) |
 | Bruno | 61 / 62 / 63 / 63 / 63 / 65 | implemented (code) |
 | Agatha | 63 / 64 / 64 / 65 / 65 / 66 | implemented (code) |
-| Lance | 64 / 66 / 66 / 66 / 67 / 69 | planned |
+| Lance | 64 / 66 / 66 / 66 / 67 / 69 | implemented (code) |
 | Champion | 67 / 68 / 69 / 70 / 70 / 72 | planned |
 
 The `Level:` lines in trainers_frlg.party are fallbacks only for E4 pools with a
 slot-level entry; the real fielded levels come from the code table above. Current
-data: Lorelei and Bruno are pools driven by the slot-level code; Agatha/Lance are
-still vanilla 5-mon teams; Champion is 3 variants ~Lv57-63.
+data: Lorelei, Bruno, Agatha and Lance are pools driven by the slot-level code;
+Champion is 3 variants ~Lv57-63.
 
 ## Lorelei (Ice) - first E4 member
 - Trainer: `TRAINER_ELITE_FOUR_LORELEI` (rematch `TRAINER_ELITE_FOUR_LORELEI_2`, TODO).
@@ -307,3 +308,74 @@ Poison (4):
 - [ ] Build + playtest on Mac (authored in a web session, not compiled/ROM-tested).
 - [ ] Rematch team (`_2`).
 - History fragments: see AGATHA-* in docs/writing/lore-ledger.md (TODO).
+
+## Lance (Dragon) - fourth E4 member
+- Trainer: `TRAINER_ELITE_FOUR_LANCE` (rematch `TRAINER_ELITE_FOUR_LANCE_2`, TODO).
+- Level cap: 72. Fielded levels 64 / 66 / 66 / 66 / 67 / 69 (from
+  `GetEliteFourPoolSlotLevels`, src/battle_main.c). Every moveset is legal at cap 72,
+  verified with the moveset-legality skill (one deliberate exception below).
+- Concept: Lance fields SIX Dragonites, and one of them is secretly a Zoroark using
+  Illusion to appear as a sixth Dragonite. It is the classic "count the Dragonites"
+  trap. The player who auto-pilots Ice Beam into the team (Dragonite is 4x weak) eats
+  a surprise, Ice is only neutral on the Dark-type Zoroark, and once it is revealed
+  they face a fast special attacker mid-momentum.
+
+### Structure (fixed pool, all 6 fielded)
+- `Party Size: 6`, `Pool Rules: Basic`, `Pool Prune: None`. Pool size = party size =
+  6, so there is NO BST draw or substitution; Lance always fields exactly these six.
+- **Ace:** one Dragonite (`Tags: Ace`). Aces are always fielded and pinned to the
+  LAST party slot (sent out last, slot level 69), per trainer_pools.c.
+- **Randomised order:** the pool runs `RandomizePoolIndices` (Fisher-Yates) every
+  battle, so the five non-ace mons are shuffled across slots 0-4. Because slot levels
+  are attached to the SLOT (64/66/66/66/67), not the species, the Zoroark lands on a
+  random slot with a level identical to whatever Dragonite would have sat there. Its
+  position AND its level are therefore un-fingerprintable.
+- **Why the disguise always holds:** the Illusion picker (`GetIllusionMonPartyId`,
+  src/battle_util.c) copies the LAST living party member. The Ace Dragonite occupies
+  the final array slot and is sent out last, so it is alive behind the Zoroark
+  whenever the Zoroark enters. Zoroark therefore always copies a Dragonite, and is
+  never itself the last-alive mon (which would drop Illusion). Since the Dragonites
+  are un-nicknamed, the disguise reads "DRAGONITE" on the health bar and in every
+  battle message until the Zoroark takes a damaging hit.
+- Held items: none. Trainer bag items: Full Restore x2 (AI healing, kept from vanilla).
+
+### Pool members (6)
+Perfect IVs (31), no EVs, no held items. All five Dragonites run **Multiscale** (they
+survive one Ice/Fairy hit from full HP; three carry Roost to re-arm it). The one real
+team weakness left open, on purpose, is a dedicated Fairy attacker; the fair counter
+to a mono-Dragon gimmick.
+
+| Slot role | Species | Ability | Nature | Moves |
+|--|--|--|--|--|
+| **Ace** (Lv69) | Dragonite | Multiscale | Jolly | Outrage / Extreme Speed / Earthquake / Iron Head |
+| Disruptor | Dragonite | Multiscale | Jolly | Thunder Wave / Supersonic / Dragon Claw / Fire Punch |
+| Annoyer | Dragonite | Multiscale | Jolly | Breaking Swipe / Roost / Mud-Slap / Dual Wingbeat |
+| Special coverage | Dragonite | Multiscale | Timid | Dragon Pulse / Air Slash / Flamethrower / Surf |
+| Special nuke | Dragonite | Multiscale | Timid | Draco Meteor / Fire Blast / Hurricane / Focus Blast |
+| **Impostor** | Zoroark | Illusion | Timid | Night Daze / Aura Sphere / Flamethrower / Sludge Bomb |
+
+- **Ace** answers Fairies itself with Iron Head (2x); Extreme Speed gives priority.
+- **Impostor** is built to punish the Ice-Beam trap and to specialise in killing
+  Ice / Steel / Fairy / Rock: Aura Sphere covers Ice/Steel/Rock, Sludge Bomb covers
+  Fairy, Flamethrower is the reliable Ice/Steel backup, Night Daze is the STAB.
+
+### Notes / gaps
+- **Aura Sphere is a deliberate learnset addition.** Zoroark cannot normally learn it
+  in this build; `MOVE_AURA_SPHERE` was added to its entry in
+  src/data/pokemon/all_learnables.json (and the docs mirror docs/data/movepools.json)
+  so the moveset-legality skill accepts it. Because Aura Sphere is not a TM/tutor/
+  universal move, the generated player-facing teachable list does NOT pick it up, so
+  this stays a Lance-only move; the player's Zoroark still has no way to learn it.
+- Fairy-type attackers remain the intended, fair answer to the whole team.
+
+### Done
+- [x] Party Size 6, fixed pool of 6 (Pool Prune: None), all fielded.
+- [x] Lance slot spread {64,66,66,66,67,69} added to `GetEliteFourPoolSlotLevels`.
+- [x] Lance's trainer entry wired in src/data/trainers_frlg.party (Ace tag on the
+      Dragonite; five non-ace mons shuffled by the pool each battle).
+- [x] Aura Sphere added to Zoroark's learnable pool (Lance-only, no player leak).
+
+### TODO
+- [ ] Build + playtest on Mac (authored in a web session, not compiled/ROM-tested).
+- [ ] Rematch team (`_2`).
+- History fragments: see LANCE-* in docs/writing/lore-ledger.md (TODO).
