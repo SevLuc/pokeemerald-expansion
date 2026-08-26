@@ -7617,7 +7617,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - U-turn
 - Roost
 
-Muk
+DA TORCHER (Muk)
 Level: 48
 Ability: Poison Touch
 Nature: Jolly
@@ -7627,7 +7627,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Poison Jab
 - Fire Punch
 
-SPECIES_MUK_ALOLA
+DA TORCHER2 (SPECIES_MUK_ALOLA)
 Level: 48
 Ability: Poison Touch
 Nature: Jolly
