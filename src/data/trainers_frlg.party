@@ -7399,7 +7399,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Light Screen
 - Reflect
 
-SPECIES_IRON_HANDS
+CLAPSACK (SPECIES_IRON_HANDS)
 Level: 25
 Ability: Quark Drive
 Nature: Brave
