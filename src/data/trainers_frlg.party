@@ -6771,7 +6771,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Earthquake
 - Mach Punch
 
-Hitmonchan
+WEAVEBOB (Hitmonchan)
 Level: 63
 Ability: Iron Fist
 Nature: Jolly
@@ -6781,7 +6781,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Ice Punch
 - Fire Punch
 
-SPECIES_URSHIFU_SINGLE_STRIKE
+UNFAIRBEAR (SPECIES_URSHIFU_SINGLE_STRIKE)
 Level: 63
 Ability: Unseen Fist
 Nature: Jolly
@@ -6791,7 +6791,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Sucker Punch
 - Ice Punch
 
-SPECIES_URSHIFU_RAPID_STRIKE
+UNFAIRWATERBEAR (SPECIES_URSHIFU_RAPID_STRIKE)
 Level: 63
 Ability: Unseen Fist
 Nature: Jolly
@@ -6801,7 +6801,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Aqua Jet
 - Poison Jab
 
-Poliwrath
+ANGRYFORNOTHIN (Poliwrath)
 Level: 63
 Ability: Water Absorb
 Nature: Jolly
@@ -6811,7 +6811,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Ice Punch
 - Earthquake
 
-Lucario
+THIS GUY (Lucario)
 Level: 63
 Ability: Inner Focus
 Nature: Timid
@@ -6821,7 +6821,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Dark Pulse
 - Vacuum Wave
 
-Hawlucha
+HI JUMP BIRD (Hawlucha)
 Level: 63
 Ability: Mold Breaker
 Nature: Jolly
@@ -6831,7 +6831,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Rock Tomb
 - Dig
 
-Heracross
+SHORT KING (Heracross)
 Level: 63
 Ability: Moxie
 Nature: Jolly
@@ -6851,7 +6851,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Power Gem
 - Focus Blast
 
-Magnezone
+BOTTING OUT (Magnezone)
 Level: 63
 Ability: Analytic
 Nature: Modest
@@ -6861,7 +6861,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Magnet Rise
 - Body Press
 
-Empoleon
+DEF PENGUIN (Empoleon)
 Level: 63
 Ability: Torrent
 Nature: Timid
@@ -6871,7 +6871,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Ice Beam
 - Roost
 
-Bronzong
+FLYING WALL (Bronzong)
 Level: 63
 Ability: Levitate
 Nature: Brave
@@ -6881,7 +6881,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Confuse Ray
 - Zen Headbutt
 
-Ferrothorn
+LEGOBLOCK (Ferrothorn)
 Level: 63
 Ability: Iron Barbs
 Nature: Relaxed
@@ -6891,7 +6891,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Bulldoze
 - Body Press
 
-Togedemaru
+TEAM CARRIER (Togedemaru)
 Level: 63
 Ability: Iron Barbs
 Nature: Jolly
@@ -6901,7 +6901,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Nuzzle
 - Magnet Rise
 
-Steelix
+GIGACHAD (Steelix)
 Level: 63
 Ability: Sheer Force
 Nature: Adamant
@@ -6911,7 +6911,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Crunch
 - Thunder Fang
 
-Sandslash
+CLIPPY (Sandslash)
 Level: 63
 Ability: Sand Veil
 Nature: Adamant
