@@ -17,8 +17,8 @@ A standalone rental mode you launch from the **main menu** (no story progress
 required). It drops you into a dedicated in-game hub. There you:
 
 1. Pick a **format**: Singles or Doubles, and a restricted cap (0 / 1 / 2).
-2. **Draft a roster of 6** rentals from the moveset library, under Species
-   Clause + Item Clause + the restricted cap.
+2. **Draft a roster of 6** rentals from an **offer of 12** drawn from the
+   moveset library, under Species Clause + Item Clause + the restricted cap.
 3. Fight a series of battles. Before each, **both sides' full 6 are shown**
    (team preview); you choose which to **bring** (3 in Singles, 4 in Doubles)
    and may open a **scout summary** on any opponent mon to read its build.
@@ -51,6 +51,8 @@ From `design-questions.md` and this session's four decisions:
 - **Opponents draw from the same moveset library** you rent from.
 - **Entry: a new main-menu mode** that warps into an in-game hub, available
   without finishing the story.
+- **Own save region** for the mode, independent of story progress.
+- **Draft: offer 12, pick 6.**
 - Hidden Power displays its real IV-derived type everywhere.
 
 ---
@@ -158,7 +160,7 @@ protocol and ask before every engine-file edit.
 - **M2 - Mode entry skeleton.** New main-menu option, a hub map, and a stub that
   starts one fixed test battle using library mons at Lv50. Proves entry + our
   data reaching a real battle.
-- **M3 - Draft screen.** Offer a pool and let the player pick 6, enforcing
+- **M3 - Draft screen.** Offer **12** and let the player pick 6, enforcing
   Species Clause + Item Clause + the restricted cap, with the format selector
   (Singles/Doubles, cap 0/1/2).
 - **M4 - Team preview + bring-N.** Show both sides' 6; pick bring 3 (Singles) /
@@ -195,17 +197,16 @@ formats in Phase 1" decision.
 
 ## 9. Open questions to settle before or during Phase 1
 
-Non-blocking for approving the plan, but each needs an answer before the
-milestone that depends on it:
+Two were decided at approval time:
 
-- **Save architecture (needed by M2).** You want the mode usable without
-  finishing the story. Does it share the story save file or get **its own save
-  region/profile**? My lean: its own region in the save block, so a fresh player
-  can use it and a run cannot corrupt story data.
-- **Draft offer size (needed by M3).** You draft 6, but from how many? Classic
-  Factory offers 6 and you keep 3. Options: pick 6 from a larger offer (for
-  example 12 to 18) for real drafting tension, or a guided/curated offer. I lean
-  toward a larger offer so the draft is a real choice.
+- **Save architecture: DECIDED - its own save region.** The mode gets its own
+  region in the save block, independent of story progress, so a fresh player can
+  use it and a run cannot corrupt story data.
+- **Draft offer size: DECIDED - offer 12, pick 6.** Each draft presents 12 legal
+  rentals and you keep 6, for real drafting tension.
+
+Still open, each needed before the milestone that depends on it:
+
 - **Run length + scoring (needed by M8).** How many battles per run, win-streak
   vs completion, and any lives / whiteout buffer.
 - **AI flag set (needed by M5).** Which smart-AI flags exactly (predict
