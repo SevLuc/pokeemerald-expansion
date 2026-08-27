@@ -1580,8 +1580,8 @@
      "notes": "Discharge/Thunderbolt; HP Grass; Toxic/Thunder Wave; Protect/Roar",
      "ivs": {
       "hp": 31,
-      "atk": 31,
-      "def": 30,
+      "atk": 30,
+      "def": 31,
       "speed": 31,
       "spatk": 30,
       "spdef": 31
@@ -2304,10 +2304,10 @@
      "source": "Run & Bun",
      "notes": "HP Ice (defaulted; source unspecified); EVs inferred (source lists moves/item/nature/ability only)",
      "ivs": {
-      "hp": 31,
+      "hp": 30,
       "atk": 31,
-      "def": 31,
-      "speed": 30,
+      "def": 30,
+      "speed": 31,
       "spatk": 31,
       "spdef": 31
      }
@@ -2543,10 +2543,10 @@
      "notes": "Hidden Power Electric/Taunt; HP Electric",
      "ivs": {
       "hp": 31,
-      "atk": 31,
-      "def": 31,
-      "speed": 31,
-      "spatk": 30,
+      "atk": 30,
+      "def": 30,
+      "speed": 30,
+      "spatk": 31,
       "spdef": 31
      }
     },
@@ -2575,10 +2575,10 @@
      "notes": "HP Electric; Surf/Switcheroo",
      "ivs": {
       "hp": 31,
-      "atk": 31,
-      "def": 31,
-      "speed": 31,
-      "spatk": 30,
+      "atk": 30,
+      "def": 30,
+      "speed": 30,
+      "spatk": 31,
       "spdef": 31
      }
     },
@@ -2806,8 +2806,8 @@
      "notes": "Hidden Power Fire/Hidden Power Rock; HP Fire; Dazzling Gleam/Nature Power/Synthesis",
      "ivs": {
       "hp": 31,
-      "atk": 31,
-      "def": 30,
+      "atk": 30,
+      "def": 31,
       "speed": 30,
       "spatk": 30,
       "spdef": 31
@@ -2838,8 +2838,8 @@
      "notes": "Aromatherapy/Grass Whistle; Hidden Power Fire/Hidden Power Ground; HP Fire",
      "ivs": {
       "hp": 31,
-      "atk": 31,
-      "def": 30,
+      "atk": 30,
+      "def": 31,
       "speed": 30,
       "spatk": 30,
       "spdef": 31
@@ -3148,7 +3148,7 @@
      "notes": "HP Fighting",
      "ivs": {
       "hp": 31,
-      "atk": 31,
+      "atk": 30,
       "def": 30,
       "speed": 30,
       "spatk": 30,
@@ -3228,7 +3228,7 @@
      "notes": "Hidden Power Fighting/Thunderbolt; HP Fighting",
      "ivs": {
       "hp": 31,
-      "atk": 31,
+      "atk": 30,
       "def": 30,
       "speed": 30,
       "spatk": 30,
@@ -3355,10 +3355,10 @@
      "source": "Run & Bun",
      "notes": "HP Ice (defaulted; source unspecified); EVs inferred (source lists moves/item/nature/ability only)",
      "ivs": {
-      "hp": 31,
+      "hp": 30,
       "atk": 31,
-      "def": 31,
-      "speed": 30,
+      "def": 30,
+      "speed": 31,
       "spatk": 31,
       "spdef": 31
      }
@@ -4032,8 +4032,8 @@
      "notes": "Hidden Power Grass/Acid Spray; HP Grass",
      "ivs": {
       "hp": 31,
-      "atk": 31,
-      "def": 30,
+      "atk": 30,
+      "def": 31,
       "speed": 31,
       "spatk": 30,
       "spdef": 31
@@ -7059,7 +7059,7 @@
      "notes": "Volt Switch/Thunderbolt; HP Fighting",
      "ivs": {
       "hp": 31,
-      "atk": 31,
+      "atk": 30,
       "def": 30,
       "speed": 30,
       "spatk": 30,

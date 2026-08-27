@@ -694,10 +694,10 @@
      "source": "Run & Bun",
      "notes": "HP Ice (defaulted; source unspecified); EVs inferred (source lists moves/item/nature/ability only)",
      "ivs": {
-      "hp": 31,
+      "hp": 30,
       "atk": 31,
-      "def": 31,
-      "speed": 30,
+      "def": 30,
+      "speed": 31,
       "spatk": 31,
       "spdef": 31
      }
@@ -1972,10 +1972,10 @@
      "source": "Run & Bun",
      "notes": "HP Ice (defaulted; source unspecified); EVs inferred (source lists moves/item/nature/ability only)",
      "ivs": {
-      "hp": 31,
+      "hp": 30,
       "atk": 31,
-      "def": 31,
-      "speed": 30,
+      "def": 30,
+      "speed": 31,
       "spatk": 31,
       "spdef": 31
      }

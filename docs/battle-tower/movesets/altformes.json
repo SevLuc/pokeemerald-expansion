@@ -377,9 +377,9 @@
      "notes": "HP Ice (defaulted; source unspecified); EVs inferred (source lists moves/item/nature/ability only)",
      "ivs": {
       "hp": 31,
-      "atk": 31,
-      "def": 31,
-      "speed": 30,
+      "atk": 30,
+      "def": 30,
+      "speed": 31,
       "spatk": 31,
       "spdef": 31
      }
@@ -535,11 +535,11 @@
      "source": "Smogon data.pkmn.cc (gen7 pu)",
      "notes": "HP Ground",
      "ivs": {
-      "hp": 31,
-      "atk": 31,
-      "def": 31,
-      "speed": 31,
-      "spatk": 30,
+      "hp": 30,
+      "atk": 30,
+      "def": 30,
+      "speed": 30,
+      "spatk": 31,
       "spdef": 30
      }
     },
@@ -568,7 +568,7 @@
      "notes": "HP Rock",
      "ivs": {
       "hp": 31,
-      "atk": 31,
+      "atk": 30,
       "def": 30,
       "speed": 30,
       "spatk": 31,
@@ -624,7 +624,7 @@
      "notes": "Signal Beam/Energy Ball; Hidden Power Rock/Hidden Power Ice; HP Rock",
      "ivs": {
       "hp": 31,
-      "atk": 31,
+      "atk": 30,
       "def": 30,
       "speed": 30,
       "spatk": 31,
@@ -1085,9 +1085,9 @@
      "notes": "HP Ice (defaulted; source unspecified); EVs inferred (source lists moves/item/nature/ability only)",
      "ivs": {
       "hp": 31,
-      "atk": 31,
-      "def": 31,
-      "speed": 30,
+      "atk": 30,
+      "def": 30,
+      "speed": 31,
       "spatk": 31,
       "spdef": 31
      }
@@ -1467,8 +1467,8 @@
      "notes": "HP Fire",
      "ivs": {
       "hp": 31,
-      "atk": 31,
-      "def": 30,
+      "atk": 30,
+      "def": 31,
       "speed": 30,
       "spatk": 30,
       "spdef": 31
@@ -1499,9 +1499,9 @@
      "notes": "Shadow Ball/Overheat/Hydro Pump/Leaf Storm; Hidden Power Ice/Will-O-Wisp; HP Ice; Trick/Hidden Power Ice",
      "ivs": {
       "hp": 31,
-      "atk": 31,
-      "def": 31,
-      "speed": 30,
+      "atk": 30,
+      "def": 30,
+      "speed": 31,
       "spatk": 31,
       "spdef": 31
      }
@@ -1634,9 +1634,9 @@
      "notes": "Volt Switch/Thunderbolt; Hidden Power Water/Hidden Power Grass; HP Water",
      "ivs": {
       "hp": 31,
-      "atk": 31,
-      "def": 31,
-      "speed": 30,
+      "atk": 30,
+      "def": 30,
+      "speed": 31,
       "spatk": 30,
       "spdef": 31
      }
@@ -1690,9 +1690,9 @@
      "notes": "Thunderbolt/Volt Switch; HP Water",
      "ivs": {
       "hp": 31,
-      "atk": 31,
-      "def": 31,
-      "speed": 30,
+      "atk": 30,
+      "def": 30,
+      "speed": 31,
       "spatk": 30,
       "spdef": 31
      }
@@ -1746,8 +1746,8 @@
      "notes": "Volt Switch/Thunderbolt; HP Grass; Trick/Thunderbolt",
      "ivs": {
       "hp": 31,
-      "atk": 31,
-      "def": 30,
+      "atk": 30,
+      "def": 31,
       "speed": 31,
       "spatk": 30,
       "spdef": 31
@@ -1778,9 +1778,9 @@
      "notes": "HP Ice",
      "ivs": {
       "hp": 31,
-      "atk": 31,
-      "def": 31,
-      "speed": 30,
+      "atk": 30,
+      "def": 30,
+      "speed": 31,
       "spatk": 31,
       "spdef": 31
      }
@@ -1810,9 +1810,9 @@
      "notes": "Hidden Power Ice/Air Slash; HP Ice",
      "ivs": {
       "hp": 31,
-      "atk": 31,
-      "def": 31,
-      "speed": 30,
+      "atk": 30,
+      "def": 30,
+      "speed": 31,
       "spatk": 31,
       "spdef": 31
      }
@@ -2113,9 +2113,9 @@
      "notes": "HP Ice (defaulted; source unspecified); EVs inferred (source lists moves/item/nature/ability only)",
      "ivs": {
       "hp": 31,
-      "atk": 31,
-      "def": 31,
-      "speed": 30,
+      "atk": 30,
+      "def": 30,
+      "speed": 31,
       "spatk": 31,
       "spdef": 31
      }
@@ -2731,11 +2731,11 @@
      "source": "Smogon data.pkmn.cc (gen7 pu)",
      "notes": "HP Ground",
      "ivs": {
-      "hp": 31,
-      "atk": 31,
-      "def": 31,
-      "speed": 31,
-      "spatk": 30,
+      "hp": 30,
+      "atk": 30,
+      "def": 30,
+      "speed": 30,
+      "spatk": 31,
       "spdef": 30
      }
     },
@@ -2764,7 +2764,7 @@
      "notes": "HP Fighting; Thunder Wave/Substitute",
      "ivs": {
       "hp": 31,
-      "atk": 31,
+      "atk": 30,
       "def": 30,
       "speed": 30,
       "spatk": 30,
@@ -3033,9 +3033,9 @@
      "notes": "HP Ice (defaulted; source unspecified); EVs inferred (source lists moves/item/nature/ability only)",
      "ivs": {
       "hp": 31,
-      "atk": 31,
-      "def": 31,
-      "speed": 30,
+      "atk": 30,
+      "def": 30,
+      "speed": 31,
       "spatk": 31,
       "spdef": 31
      }
@@ -3699,10 +3699,10 @@
      "source": "Run & Bun",
      "notes": "HP Ice (defaulted; source unspecified); EVs inferred (source lists moves/item/nature/ability only)",
      "ivs": {
-      "hp": 31,
+      "hp": 30,
       "atk": 31,
-      "def": 31,
-      "speed": 30,
+      "def": 30,
+      "speed": 31,
       "spatk": 31,
       "spdef": 31
      }

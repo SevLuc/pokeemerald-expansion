@@ -226,7 +226,7 @@
      "notes": "Ice Beam/Freeze-Dry; HP Fighting",
      "ivs": {
       "hp": 31,
-      "atk": 31,
+      "atk": 30,
       "def": 30,
       "speed": 30,
       "spatk": 30,
@@ -257,10 +257,10 @@
      "source": "Emerald Kaizo",
      "notes": "HP Ice (defaulted; source unspecified); EVs inferred (source lists moves/item/nature/ability only)",
      "ivs": {
-      "hp": 31,
+      "hp": 30,
       "atk": 31,
-      "def": 31,
-      "speed": 30,
+      "def": 30,
+      "speed": 31,
       "spatk": 31,
       "spdef": 31
      }
@@ -536,10 +536,10 @@
      "source": "Emerald Kaizo",
      "notes": "HP Ice (defaulted; source unspecified); EVs inferred (source lists moves/item/nature/ability only)",
      "ivs": {
-      "hp": 31,
+      "hp": 30,
       "atk": 31,
-      "def": 31,
-      "speed": 30,
+      "def": 30,
+      "speed": 31,
       "spatk": 31,
       "spdef": 31
      }
@@ -791,10 +791,10 @@
      "source": "Emerald Kaizo",
      "notes": "HP Ice (defaulted; source unspecified); EVs inferred (source lists moves/item/nature/ability only)",
      "ivs": {
-      "hp": 31,
+      "hp": 30,
       "atk": 31,
-      "def": 31,
-      "speed": 30,
+      "def": 30,
+      "speed": 31,
       "spatk": 31,
       "spdef": 31
      }
@@ -1517,9 +1517,9 @@
      "notes": "HP Ice (defaulted; source unspecified); EVs inferred (source lists moves/item/nature/ability only)",
      "ivs": {
       "hp": 31,
-      "atk": 31,
-      "def": 31,
-      "speed": 30,
+      "atk": 30,
+      "def": 30,
+      "speed": 31,
       "spatk": 31,
       "spdef": 31
      }
@@ -1995,8 +1995,8 @@
      "notes": "Ice Beam/Icy Wind; Hidden Power Fire/Sheer Cold; HP Fire",
      "ivs": {
       "hp": 31,
-      "atk": 31,
-      "def": 30,
+      "atk": 30,
+      "def": 31,
       "speed": 30,
       "spatk": 30,
       "spdef": 31
@@ -2099,9 +2099,9 @@
      "notes": "HP Ice (defaulted; source unspecified); EVs inferred (source lists moves/item/nature/ability only)",
      "ivs": {
       "hp": 31,
-      "atk": 31,
-      "def": 31,
-      "speed": 30,
+      "atk": 30,
+      "def": 30,
+      "speed": 31,
       "spatk": 31,
       "spdef": 31
      }
@@ -2776,9 +2776,9 @@
      "notes": "HP Ice (defaulted; source unspecified); EVs inferred (source lists moves/item/nature/ability only)",
      "ivs": {
       "hp": 31,
-      "atk": 31,
-      "def": 31,
-      "speed": 30,
+      "atk": 30,
+      "def": 30,
+      "speed": 31,
       "spatk": 31,
       "spdef": 31
      }
@@ -3699,10 +3699,10 @@
      "source": "Emerald Kaizo",
      "notes": "HP Ice (defaulted; source unspecified); EVs inferred (source lists moves/item/nature/ability only)",
      "ivs": {
-      "hp": 31,
+      "hp": 30,
       "atk": 31,
-      "def": 31,
-      "speed": 30,
+      "def": 30,
+      "speed": 31,
       "spatk": 31,
       "spdef": 31
      }
@@ -3755,10 +3755,10 @@
      "source": "Emerald Kaizo",
      "notes": "HP Ice (defaulted; source unspecified); EVs inferred (source lists moves/item/nature/ability only)",
      "ivs": {
-      "hp": 31,
+      "hp": 30,
       "atk": 31,
-      "def": 31,
-      "speed": 30,
+      "def": 30,
+      "speed": 31,
       "spatk": 31,
       "spdef": 31
      }
@@ -4035,9 +4035,9 @@
      "notes": "HP Ice (defaulted; source unspecified); EVs inferred (source lists moves/item/nature/ability only)",
      "ivs": {
       "hp": 31,
-      "atk": 31,
-      "def": 31,
-      "speed": 30,
+      "atk": 30,
+      "def": 30,
+      "speed": 31,
       "spatk": 31,
       "spdef": 31
      }
@@ -4066,10 +4066,10 @@
      "source": "Emerald Kaizo",
      "notes": "HP Ice (defaulted; source unspecified); EVs inferred (source lists moves/item/nature/ability only)",
      "ivs": {
-      "hp": 31,
+      "hp": 30,
       "atk": 31,
-      "def": 31,
-      "speed": 30,
+      "def": 30,
+      "speed": 31,
       "spatk": 31,
       "spdef": 31
      }
@@ -5461,8 +5461,8 @@
      "notes": "Spikes/Stealth Rock; Hidden Power Fire/Superpower; HP Fire; Ice Beam/Extreme Speed/Dark Pulse",
      "ivs": {
       "hp": 31,
-      "atk": 31,
-      "def": 30,
+      "atk": 30,
+      "def": 31,
       "speed": 30,
       "spatk": 30,
       "spdef": 31
@@ -6312,11 +6312,11 @@
      "source": "Smogon data.pkmn.cc (gen6 nu)",
      "notes": "Psychic/Psyshock; Signal Beam/Ice Beam; Hidden Power Ground/Energy Ball; HP Ground; Healing Wish/Calm Mind",
      "ivs": {
-      "hp": 31,
-      "atk": 31,
-      "def": 31,
-      "speed": 31,
-      "spatk": 30,
+      "hp": 30,
+      "atk": 30,
+      "def": 30,
+      "speed": 30,
+      "spatk": 31,
       "spdef": 30
      }
     },
@@ -6392,11 +6392,11 @@
      "source": "Smogon data.pkmn.cc (gen6 nu)",
      "notes": "Hidden Power Ground/Ice Beam; HP Ground; Healing Wish/Signal Beam/U-turn",
      "ivs": {
-      "hp": 31,
-      "atk": 31,
-      "def": 31,
-      "speed": 31,
-      "spatk": 30,
+      "hp": 30,
+      "atk": 30,
+      "def": 30,
+      "speed": 30,
+      "spatk": 31,
       "spdef": 30
      }
     },
@@ -8979,9 +8979,9 @@
      "notes": "HP Ice; Synthesis/Rest",
      "ivs": {
       "hp": 31,
-      "atk": 31,
-      "def": 31,
-      "speed": 30,
+      "atk": 30,
+      "def": 30,
+      "speed": 31,
       "spatk": 31,
       "spdef": 31
      }
@@ -9011,9 +9011,9 @@
      "notes": "HP Ice",
      "ivs": {
       "hp": 31,
-      "atk": 31,
-      "def": 31,
-      "speed": 30,
+      "atk": 30,
+      "def": 30,
+      "speed": 31,
       "spatk": 31,
       "spdef": 31
      }
@@ -9115,9 +9115,9 @@
      "notes": "HP Ice (defaulted; source unspecified); EVs inferred (source lists moves/item/nature/ability only)",
      "ivs": {
       "hp": 31,
-      "atk": 31,
-      "def": 31,
-      "speed": 30,
+      "atk": 30,
+      "def": 30,
+      "speed": 31,
       "spatk": 31,
       "spdef": 31
      }
@@ -9226,7 +9226,7 @@
      "notes": "Hidden Power Rock/Hidden Power Ice; HP Rock",
      "ivs": {
       "hp": 31,
-      "atk": 31,
+      "atk": 30,
       "def": 30,
       "speed": 30,
       "spatk": 31,
@@ -9258,9 +9258,9 @@
      "notes": "HP Ice",
      "ivs": {
       "hp": 31,
-      "atk": 31,
-      "def": 31,
-      "speed": 30,
+      "atk": 30,
+      "def": 30,
+      "speed": 31,
       "spatk": 31,
       "spdef": 31
      }
@@ -9290,9 +9290,9 @@
      "notes": "Seed Flare/Leaf Storm; HP Ice",
      "ivs": {
       "hp": 31,
-      "atk": 31,
-      "def": 31,
-      "speed": 30,
+      "atk": 30,
+      "def": 30,
+      "speed": 31,
       "spatk": 31,
       "spdef": 31
      }
@@ -9322,8 +9322,8 @@
      "notes": "Hidden Power Fire/Hidden Power Ice/Growth; HP Fire",
      "ivs": {
       "hp": 31,
-      "atk": 31,
-      "def": 30,
+      "atk": 30,
+      "def": 31,
       "speed": 30,
       "spatk": 30,
       "spdef": 31
@@ -9776,8 +9776,8 @@
      "notes": "Hidden Power Ghost/Substitute/Magnet Rise; HP Ghost",
      "ivs": {
       "hp": 31,
-      "atk": 31,
-      "def": 30,
+      "atk": 30,
+      "def": 31,
       "speed": 31,
       "spatk": 31,
       "spdef": 30
@@ -10110,9 +10110,9 @@
      "notes": "HP Ice",
      "ivs": {
       "hp": 31,
-      "atk": 31,
-      "def": 31,
-      "speed": 30,
+      "atk": 30,
+      "def": 30,
+      "speed": 31,
       "spatk": 31,
       "spdef": 31
      }
@@ -10763,9 +10763,9 @@
      "notes": "HP Ice",
      "ivs": {
       "hp": 31,
-      "atk": 31,
-      "def": 31,
-      "speed": 30,
+      "atk": 30,
+      "def": 30,
+      "speed": 31,
       "spatk": 31,
       "spdef": 31
      }
@@ -12133,8 +12133,8 @@
      "notes": "Hidden Power Fire/Earth Power; HP Fire; Draco Meteor/Roost",
      "ivs": {
       "hp": 31,
-      "atk": 31,
-      "def": 30,
+      "atk": 30,
+      "def": 31,
       "speed": 30,
       "spatk": 30,
       "spdef": 31
@@ -13376,8 +13376,8 @@
      "notes": "Grass Knot/Thunder; Hidden Power Fire/Focus Blast; HP Fire; Aromatherapy/Defog",
      "ivs": {
       "hp": 31,
-      "atk": 31,
-      "def": 30,
+      "atk": 30,
+      "def": 31,
       "speed": 30,
       "spatk": 30,
       "spdef": 31
@@ -14839,9 +14839,9 @@
      "notes": "HP Ice; Volt Switch/U-turn",
      "ivs": {
       "hp": 31,
-      "atk": 31,
-      "def": 31,
-      "speed": 30,
+      "atk": 30,
+      "def": 30,
+      "speed": 31,
       "spatk": 31,
       "spdef": 31
      }
@@ -14894,10 +14894,10 @@
      "source": "Smogon data.pkmn.cc (gen9natdex Offensive Pivot)",
      "notes": "Hidden Power Ice/Dazzling Gleam; HP Ice; U-turn/Volt Switch",
      "ivs": {
-      "hp": 31,
+      "hp": 30,
       "atk": 31,
-      "def": 31,
-      "speed": 30,
+      "def": 30,
+      "speed": 31,
       "spatk": 31,
       "spdef": 31
      }
@@ -15102,8 +15102,8 @@
      "notes": "Psychic/Psyshock; HP Fire",
      "ivs": {
       "hp": 31,
-      "atk": 31,
-      "def": 30,
+      "atk": 30,
+      "def": 31,
       "speed": 30,
       "spatk": 30,
       "spdef": 31
@@ -15254,8 +15254,8 @@
      "notes": "Hidden Power Fire/Focus Blast; HP Fire",
      "ivs": {
       "hp": 31,
-      "atk": 31,
-      "def": 30,
+      "atk": 30,
+      "def": 31,
       "speed": 30,
       "spatk": 30,
       "spdef": 31
@@ -15310,8 +15310,8 @@
      "notes": "HP Fire",
      "ivs": {
       "hp": 31,
-      "atk": 31,
-      "def": 30,
+      "atk": 30,
+      "def": 31,
       "speed": 30,
       "spatk": 30,
       "spdef": 31
@@ -16766,9 +16766,9 @@
      "notes": "HP Ice",
      "ivs": {
       "hp": 31,
-      "atk": 31,
-      "def": 31,
-      "speed": 30,
+      "atk": 30,
+      "def": 30,
+      "speed": 31,
       "spatk": 31,
       "spdef": 31
      }
@@ -18023,8 +18023,8 @@
      "notes": "Ice Beam/Energy Ball/Iron Head; Hidden Power Fire/Focus Blast; HP Fire",
      "ivs": {
       "hp": 31,
-      "atk": 31,
-      "def": 30,
+      "atk": 30,
+      "def": 31,
       "speed": 30,
       "spatk": 30,
       "spdef": 31
@@ -18205,10 +18205,10 @@
      "source": "Smogon data.pkmn.cc (gen7 ubers)",
      "notes": "Hidden Power Ice/Rock Tomb; HP Ice",
      "ivs": {
-      "hp": 31,
+      "hp": 30,
       "atk": 31,
-      "def": 31,
-      "speed": 30,
+      "def": 30,
+      "speed": 31,
       "spatk": 31,
       "spdef": 31
      }
@@ -18340,11 +18340,11 @@
      "source": "Smogon data.pkmn.cc (gen7 battlespotsingles)",
      "notes": "Fire Blast/Flamethrower; Hidden Power Ground/U-turn; HP Ground",
      "ivs": {
-      "hp": 31,
-      "atk": 31,
-      "def": 31,
-      "speed": 31,
-      "spatk": 30,
+      "hp": 30,
+      "atk": 30,
+      "def": 30,
+      "speed": 30,
+      "spatk": 31,
       "spdef": 30
      }
     },
@@ -18626,11 +18626,11 @@
      "source": "Smogon data.pkmn.cc (gen7 ou)",
      "notes": "Hidden Power Ground/Hidden Power Grass; HP Ground",
      "ivs": {
-      "hp": 31,
-      "atk": 31,
-      "def": 31,
-      "speed": 31,
-      "spatk": 30,
+      "hp": 30,
+      "atk": 30,
+      "def": 30,
+      "speed": 30,
+      "spatk": 31,
       "spdef": 30
      }
     },
@@ -18659,9 +18659,9 @@
      "notes": "HP Ice",
      "ivs": {
       "hp": 31,
-      "atk": 31,
-      "def": 31,
-      "speed": 30,
+      "atk": 30,
+      "def": 30,
+      "speed": 31,
       "spatk": 31,
       "spdef": 31
      }
@@ -18690,10 +18690,10 @@
      "source": "Smogon data.pkmn.cc (gen7 battlespotsingles)",
      "notes": "Fire Blast/Flamethrower; HP Ice; Flame Charge/Will-O-Wisp/Mind Blown",
      "ivs": {
-      "hp": 31,
+      "hp": 30,
       "atk": 31,
-      "def": 31,
-      "speed": 30,
+      "def": 30,
+      "speed": 31,
       "spatk": 31,
       "spdef": 31
      }

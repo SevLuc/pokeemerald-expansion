@@ -602,9 +602,9 @@
      "notes": "Hidden Power Ice/Hidden Power Fire/Encore/Substitute; HP Ice",
      "ivs": {
       "hp": 31,
-      "atk": 31,
-      "def": 31,
-      "speed": 30,
+      "atk": 30,
+      "def": 30,
+      "speed": 31,
       "spatk": 31,
       "spdef": 31
      }
@@ -1674,8 +1674,8 @@
      "notes": "Hidden Power Grass/Will-O-Wisp; HP Grass",
      "ivs": {
       "hp": 31,
-      "atk": 31,
-      "def": 30,
+      "atk": 30,
+      "def": 31,
       "speed": 31,
       "spatk": 30,
       "spdef": 31
@@ -2417,10 +2417,10 @@
      "source": "Smogon data.pkmn.cc (gen6 monotype, base+stone)",
      "notes": "Hidden Power Ice/Hidden Power Fire/Earth Power; HP Ice",
      "ivs": {
-      "hp": 31,
+      "hp": 30,
       "atk": 31,
-      "def": 31,
-      "speed": 30,
+      "def": 30,
+      "speed": 31,
       "spatk": 31,
       "spdef": 31
      }
@@ -4351,11 +4351,11 @@
      "source": "Smogon data.pkmn.cc (gen7 ou, base+stone)",
      "notes": "Hidden Power Ground/Psychic/Hidden Power Fighting/Thunder Wave/Defog; HP Ground; Thunder Wave/Defog",
      "ivs": {
-      "hp": 31,
-      "atk": 31,
-      "def": 31,
-      "speed": 31,
-      "spatk": 30,
+      "hp": 30,
+      "atk": 30,
+      "def": 30,
+      "speed": 30,
+      "spatk": 31,
       "spdef": 30
      }
     },
@@ -5056,9 +5056,9 @@
      "notes": "Overheat/Flamethrower; HP Ice",
      "ivs": {
       "hp": 31,
-      "atk": 31,
-      "def": 31,
-      "speed": 30,
+      "atk": 30,
+      "def": 30,
+      "speed": 31,
       "spatk": 31,
       "spdef": 31
      }
@@ -5088,9 +5088,9 @@
      "notes": "HP Ice; Flamethrower/Overheat",
      "ivs": {
       "hp": 31,
-      "atk": 31,
-      "def": 31,
-      "speed": 30,
+      "atk": 30,
+      "def": 30,
+      "speed": 31,
       "spatk": 31,
       "spdef": 31
      }
@@ -5720,9 +5720,9 @@
      "notes": "Protect/U-turn/Substitute; HP Ice",
      "ivs": {
       "hp": 31,
-      "atk": 31,
-      "def": 31,
-      "speed": 30,
+      "atk": 30,
+      "def": 30,
+      "speed": 31,
       "spatk": 31,
       "spdef": 31
      }
@@ -7944,8 +7944,8 @@
      "notes": "Giga Drain/Energy Ball/Sleep Powder; Hidden Power Fire/Sleep Powder; HP Fire",
      "ivs": {
       "hp": 31,
-      "atk": 31,
-      "def": 30,
+      "atk": 30,
+      "def": 31,
       "speed": 30,
       "spatk": 30,
       "spdef": 31
@@ -8024,8 +8024,8 @@
      "notes": "HP Fire",
      "ivs": {
       "hp": 31,
-      "atk": 31,
-      "def": 30,
+      "atk": 30,
+      "def": 31,
       "speed": 30,
       "spatk": 30,
       "spdef": 31

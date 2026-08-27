@@ -65,6 +65,13 @@ intended type in this build (computed from the game's own formula). The type is
 also stated in `notes` (e.g. "HP Fire"). Where a source listed Hidden Power
 without a type, the set defaults to HP Ice and says so in `notes`.
 
+Among the IV spreads that produce a given type, the one chosen puts the reduced
+(30) IVs on the stats the set does **not** use — a pure special attacker takes
+its 30 on Attack (unused, and it also cuts Foul Play / confusion / Body Press
+damage), a physical attacker on Special Attack — so the Pokemon pays no real
+cost for its Hidden Power type beyond what the type inherently forces (e.g. HP
+Fire always requires a 30 in Special Attack and Speed; that part is unavoidable).
+
 ### QA pass
 A validation pass ran over every set: illegal abilities (an ability the species
 can't legally have in this build, e.g. hack-doc quirks like Weavile "Inner
