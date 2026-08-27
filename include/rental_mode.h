@@ -67,6 +67,10 @@ void RentalRestoreFullParty(void);  // restore the full 6 (healed) after the bat
 void RentalOnWin(void);             // increment the win streak
 void RentalBufferStreak(void);      // buffer the current streak into gStringVar1
 
+// Recruit script specials.
+void BufferRentalRecruitCandidate(void); // buffer opponent VAR_0x8006's species name
+void RentalDoRecruit(void);              // swap roster slot VAR_0x8004 for opp VAR_0x8006
+
 // The draft screen itself (an adapted copy of the Battle Factory select screen),
 // defined in src/rental_select_screen.c.
 void DoRentalDraftScreen(void);
