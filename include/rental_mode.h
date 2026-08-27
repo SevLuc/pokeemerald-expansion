@@ -52,8 +52,12 @@ void RentalRoster_Remove(u32 rosterSlot);
 
 // Roll the opponent's team into gRentalRun.oppRoster: RENTAL_ROSTER_SIZE sets with
 // distinct species and items, at most restrictedCap restricted, so it obeys the same
-// clauses/cap as the player. Call before building the enemy party for a battle.
+// clauses/cap as the player. Called by RentalRun_Begin so team preview can show it.
 void GenerateRentalOpponent(void);
+
+// Script special: buffer the opponent's fielded species names into gStringVar1 for a
+// team-preview message.
+void BufferRentalOpponentPreview(void);
 
 // The draft screen itself (an adapted copy of the Battle Factory select screen),
 // defined in src/rental_select_screen.c.

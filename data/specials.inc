@@ -20,6 +20,7 @@ gSpecials::
 	def_special HealPlayerParty
 	def_special BufferRandomRentalMon
 	def_special StartRentalDraft
+	def_special BufferRentalOpponentPreview
 	def_special SetCableClubWarp
 	def_special DoCableClubWarp, waitstate=1
 	def_special ReturnFromLinkRoom, waitstate=1

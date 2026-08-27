@@ -7,6 +7,13 @@ Update in the same PR as the change.
 `YYYY-MM-DD` — area — one-line summary (PR/commit ref)
 
 ## Entries
+- 2026-08-27 - feature/rental - Team preview. Before choosing which 3 to bring, the
+  attendant now shows the opponent's fielded team. The opponent is rolled up front in
+  RentalRun_Begin (instead of at battle start) so it can be previewed and then reused
+  for the battle; a new BufferRentalOpponentPreview special lists their species into
+  gStringVar1 for the preview message. This is a text list for now; a visual scout
+  (paging the opponent's movesets via the summary screen) is a follow-up. Not yet
+  compiled/ROM-tested (web session).
 - 2026-08-27 - feature/rental - Bring-3 (proper 3v3 singles). After drafting, the
   attendant now runs the standard frontier party-select (fadescreen +
   ChoosePartyForBattleFrontier with VAR_0x8005 = FRONTIER_PARTY_SIZE, then

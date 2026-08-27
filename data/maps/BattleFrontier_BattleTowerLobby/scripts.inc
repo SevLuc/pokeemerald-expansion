@@ -1408,6 +1408,8 @@ BattleFrontier_BattleTowerLobby_EventScript_RentalAttendant::
 	msgbox BattleFrontier_BattleTowerLobby_Text_RentalDraftIntro, MSGBOX_DEFAULT
 	special StartRentalDraft
 	waitstate
+	special BufferRentalOpponentPreview
+	msgbox BattleFrontier_BattleTowerLobby_Text_RentalPreview, MSGBOX_DEFAULT
 	msgbox BattleFrontier_BattleTowerLobby_Text_RentalSelectThree, MSGBOX_DEFAULT
 	fadescreen FADE_TO_BLACK
 	callnative RemoveFollowingPokemon
@@ -1444,6 +1446,10 @@ BattleFrontier_BattleTowerLobby_Text_RentalDraftIntro:
 	.string "Welcome to RENTAL BATTLE!\p"
 	.string "Draft six POKéMON from the twelve\n"
 	.string "I offer you.$"
+
+BattleFrontier_BattleTowerLobby_Text_RentalPreview:
+	.string "Your challenger will send out:\p"
+	.string "{STR_VAR_1}.$"
 
 BattleFrontier_BattleTowerLobby_Text_RentalSelectThree:
 	.string "Now choose THREE of your six to\n"
