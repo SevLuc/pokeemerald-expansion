@@ -1399,48 +1399,52 @@ BattleFrontier_BattleTowerLobby_Text_ExplainMultiLinkRules:
 	.string "in the middle, unlike other modes.$"
 
 @ Rental battle mode. Reuses this lobby as the hub; the Singles attendant is
-@ repointed here in map.json. Draft (offer 12, pick 6), bring 3 for the battle,
-@ then a Lv50 3v3 vs a generated pool team. Format is Singles / 0 restricted for
-@ now; team preview, recruit and the run/streak loop are later milestones.
+@ repointed here in map.json. Draft (offer 12, pick 6), then a run of Lv50 3v3
+@ battles vs generated pool teams: each battle you preview the opponent, bring 3,
+@ and fight; wins extend a streak, a loss (or retiring at the party menu) ends the
+@ run. The full six are stashed before each battle and restored (healed) after, so
+@ the same team carries the whole run. Format is Singles / 0 restricted for now;
+@ recruit and Doubles are later milestones.
 BattleFrontier_BattleTowerLobby_EventScript_RentalAttendant::
 	lock
 	faceplayer
 	msgbox BattleFrontier_BattleTowerLobby_Text_RentalDraftIntro, MSGBOX_DEFAULT
 	special StartRentalDraft
 	waitstate
+BattleFrontier_BattleTowerLobby_EventScript_RentalBattleLoop::
+	special RentalPrepareNextBattle
 	special BufferRentalOpponentPreview
 	msgbox BattleFrontier_BattleTowerLobby_Text_RentalPreview, MSGBOX_DEFAULT
 	msgbox BattleFrontier_BattleTowerLobby_Text_RentalSelectThree, MSGBOX_DEFAULT
 	fadescreen FADE_TO_BLACK
 	callnative RemoveFollowingPokemon
+	special RentalSaveFullParty
 	setvar VAR_0x8005, FRONTIER_PARTY_SIZE
 	special ChoosePartyForBattleFrontier
-	goto_if_eq VAR_RESULT, 0, BattleFrontier_BattleTowerLobby_EventScript_RentalCancel
+	goto_if_eq VAR_RESULT, 0, BattleFrontier_BattleTowerLobby_EventScript_RentalRetire
 	special ReducePlayerPartyToSelectedMons
 	msgbox BattleFrontier_BattleTowerLobby_Text_RentalBattleStart, MSGBOX_DEFAULT
 	setvar VAR_0x8004, SPECIAL_BATTLE_RENTAL
 	setvar VAR_0x8005, 0
 	special DoSpecialTrainerBattle
-	call_if_eq VAR_RESULT, B_OUTCOME_WON, BattleFrontier_BattleTowerLobby_EventScript_RentalWon
-	call_if_eq VAR_RESULT, B_OUTCOME_LOST, BattleFrontier_BattleTowerLobby_EventScript_RentalLost
-	call_if_eq VAR_RESULT, B_OUTCOME_DREW, BattleFrontier_BattleTowerLobby_EventScript_RentalLost
-	special HealPlayerParty
+	special RentalRestoreFullParty
+	goto_if_ne VAR_RESULT, B_OUTCOME_WON, BattleFrontier_BattleTowerLobby_EventScript_RentalRunOver
+	special RentalOnWin
+	msgbox BattleFrontier_BattleTowerLobby_Text_RentalWonStreak, MSGBOX_DEFAULT
+	goto BattleFrontier_BattleTowerLobby_EventScript_RentalBattleLoop
+
+BattleFrontier_BattleTowerLobby_EventScript_RentalRunOver::
+	special RentalBufferStreak
+	msgbox BattleFrontier_BattleTowerLobby_Text_RentalRunOver, MSGBOX_DEFAULT
 	callnative UpdateFollowingPokemon
 	release
 	end
 
-BattleFrontier_BattleTowerLobby_EventScript_RentalCancel::
+BattleFrontier_BattleTowerLobby_EventScript_RentalRetire::
+	special RentalRestoreFullParty
 	callnative UpdateFollowingPokemon
 	release
 	end
-
-BattleFrontier_BattleTowerLobby_EventScript_RentalWon::
-	msgbox BattleFrontier_BattleTowerLobby_Text_RentalWon, MSGBOX_DEFAULT
-	return
-
-BattleFrontier_BattleTowerLobby_EventScript_RentalLost::
-	msgbox BattleFrontier_BattleTowerLobby_Text_RentalLost, MSGBOX_DEFAULT
-	return
 
 BattleFrontier_BattleTowerLobby_Text_RentalDraftIntro:
 	.string "Welcome to RENTAL BATTLE!\p"
@@ -1459,8 +1463,10 @@ BattleFrontier_BattleTowerLobby_Text_RentalBattleStart:
 	.string "Your team is set. Your challenger\n"
 	.string "is ready. Good luck!$"
 
-BattleFrontier_BattleTowerLobby_Text_RentalWon:
-	.string "A fine battle! Well done.$"
+BattleFrontier_BattleTowerLobby_Text_RentalWonStreak:
+	.string "A fine battle! That's {STR_VAR_1} win(s)\n"
+	.string "in a row. On to the next!$"
 
-BattleFrontier_BattleTowerLobby_Text_RentalLost:
-	.string "Better luck next time!$"
+BattleFrontier_BattleTowerLobby_Text_RentalRunOver:
+	.string "Your run ends here, with {STR_VAR_1}\n"
+	.string "win(s). Well fought!$"

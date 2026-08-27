@@ -7,6 +7,16 @@ Update in the same PR as the change.
 `YYYY-MM-DD` — area — one-line summary (PR/commit ref)
 
 ## Entries
+- 2026-08-27 - feature/rental - Run loop + win streak. The rental mode is now an
+  endless run: draft once, then fight successive Lv50 3v3 battles (preview, bring 3,
+  fight) until a loss or retiring at the party menu; each win extends a streak shown
+  between battles, and the run-over message reports the final streak. The opponent is
+  now rolled per battle (RentalPrepareNextBattle), and because the bring-3 reduce is
+  destructive, the full drafted six are stashed before each battle
+  (RentalSaveFullParty) and restored at full HP after (RentalRestoreFullParty), so the
+  same healed team carries the whole run. Added winStreak to the run state and the
+  RentalOnWin / RentalBufferStreak specials. Singles only, no recruit yet, no
+  persistence. Not yet compiled/ROM-tested (web session).
 - 2026-08-27 - feature/rental - Team preview. Before choosing which 3 to bring, the
   attendant now shows the opponent's fielded team. The opponent is rolled up front in
   RentalRun_Begin (instead of at battle start) so it can be previewed and then reused

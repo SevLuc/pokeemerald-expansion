@@ -3,6 +3,7 @@
 #include "string_util.h"
 #include "pokemon.h"
 #include "move.h"
+#include "battle.h"
 #include "battle_tower_rental.h"
 #include "rental_mode.h"
 
@@ -84,10 +85,10 @@ void RentalRun_Begin(u8 format, u8 restrictedCap)
     gRentalRun.restrictedCap = restrictedCap;
     gRentalRun.rosterCount = 0;
     gRentalRun.bringCount = (format == RENTAL_FORMAT_DOUBLES) ? 4 : 3;
+    gRentalRun.winStreak = 0;
     GenerateRentalOffer();
-    // Roll the opponent up front so it can be shown in team preview before the player
-    // picks which of their six to bring. The battle uses this same team.
-    GenerateRentalOpponent();
+    // The per-battle opponent is rolled by RentalPrepareNextBattle inside the run
+    // loop (so each battle faces a fresh team), not here.
 }
 
 bool32 RentalRoster_TryAdd(u32 offerSlot)
@@ -192,6 +193,47 @@ void BufferRentalOpponentPreview(void)
         StringAppend(gStringVar1, sText_RentalComma);
         StringAppend(gStringVar1, GetSpeciesName(gRentalMons[gRentalRun.oppRoster[i]].species));
     }
+}
+
+// ------------------------------------------------------------------------------
+// Run loop: draft once, then fight successive opponents until a loss, tracking a
+// win streak. The bring-N reduce is destructive, so the full drafted six are stashed
+// before each battle and restored (at full HP) after, keeping the same team for the
+// whole run.
+// ------------------------------------------------------------------------------
+
+static EWRAM_DATA struct Pokemon sRentalSavedParty[PARTY_SIZE] = {0};
+
+void RentalPrepareNextBattle(void)
+{
+    GenerateRentalOpponent();
+}
+
+void RentalSaveFullParty(void)
+{
+    u32 i;
+    for (i = 0; i < PARTY_SIZE; i++)
+        sRentalSavedParty[i] = gParties[B_TRAINER_PLAYER][i];
+}
+
+void RentalRestoreFullParty(void)
+{
+    u32 i;
+    for (i = 0; i < PARTY_SIZE; i++)
+        gParties[B_TRAINER_PLAYER][i] = sRentalSavedParty[i];
+    CalculatePlayerPartyCount();
+}
+
+void RentalOnWin(void)
+{
+    if (gRentalRun.winStreak < 0xFFFF)
+        gRentalRun.winStreak++;
+    RentalBufferStreak();
+}
+
+void RentalBufferStreak(void)
+{
+    ConvertIntToDecimalStringN(gStringVar1, gRentalRun.winStreak, STR_CONV_MODE_LEFT_ALIGN, 4);
 }
 
 // Script special: start a run and open the draft screen. Format/cap are hardcoded to

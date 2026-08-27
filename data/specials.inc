@@ -21,6 +21,11 @@ gSpecials::
 	def_special BufferRandomRentalMon
 	def_special StartRentalDraft
 	def_special BufferRentalOpponentPreview
+	def_special RentalPrepareNextBattle
+	def_special RentalSaveFullParty
+	def_special RentalRestoreFullParty
+	def_special RentalOnWin
+	def_special RentalBufferStreak
 	def_special SetCableClubWarp
 	def_special DoCableClubWarp, waitstate=1
 	def_special ReturnFromLinkRoom, waitstate=1
