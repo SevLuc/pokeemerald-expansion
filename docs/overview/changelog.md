@@ -7,6 +7,16 @@ Update in the same PR as the change.
 `YYYY-MM-DD` — area — one-line summary (PR/commit ref)
 
 ## Entries
+- 2026-08-27 - QoL/config - Hidden Power (and other dynamic-type moves) now show
+  their REAL type everywhere a move is viewed. Set `P_SHOW_DYNAMIC_TYPES = TRUE`
+  in include/config/pokemon.h (was FALSE/vanilla). The summary screen move list
+  and the in-battle move-select window already compute the true type via
+  `CheckDynamicMoveType` when this flag is on, so Hidden Power reads as its
+  IV-derived type with the matching type-colored badge instead of always
+  "Normal". Global (main game too), display-only, no battle-mechanics change.
+  Groundwork for the rental battle mode's move scouting (M1 of the Phase 1 plan).
+  Config-only; verify on the Mac build that a Hidden Power mon's summary shows the
+  real type badge. (PR: rental mode M1)
 - 2026-08-26 - QoL/config - Enabled follower Pokemon (HGSS style). Set
   `OW_FOLLOWERS_ENABLED = TRUE` in include/config/overworld.h. The lead party
   Pokemon now walks behind the player, spawning automatically on map load
