@@ -54,37 +54,31 @@ UI and rules on top of a proven data-to-battle path.
 - Success = you can see and fight with library Pokemon (correct moves, items,
   and Hidden Power showing its real type from M1).
 
-## Own save region (shown early for your approval)
+## Save: none in M2 (playable now, persist later)
 
-Even though M2 does not persist a run, I want to introduce the mode's **own save
-region** now so you can review the save-format change while it is tiny, rather
-than as a surprise later. Proposed: a single new struct in the save block holding
-only what a run needs, added without disturbing existing fields.
+Research finding: the cartridge flash is 100% allocated (32/32 sectors), so a
+truly separate save profile means reclaiming an unused feature's sector (Trainer
+Hill is the candidate). And the save format depends on what a run stores, which
+is not settled until M3 to M7. So persistence is deferred to its own later
+milestone, designed once the run data shape is fixed.
 
-```c
-// sketch, not final - the real field list grows with M3 to M8
-struct RentalModeSave
-{
-    u8  format;            // singles/doubles + restricted cap 0/1/2
-    u8  battlesWon;        // streak within the current run
-    u8  rosterCount;       // how many of the 6 are filled
-    // roster entries (species/set/ivs/personality) added at M3
-    // ... reserved padding for forward growth ...
-};
-```
+For M2 the rental profile lives **in memory only**:
+- A name/gender pick seeds an in-RAM profile.
+- The mode **never writes to flash**. This is the key safety invariant: the
+  player's story save on the cartridge is never touched or overwritten. Exiting
+  the mode simply discards the in-RAM profile.
+- Enterable from the menu regardless of whether a story save exists.
 
-Save-format changes are sensitive, so I will show the exact diff to
-`include/global.h` before writing it, and keep it additive (no reordering or
-resizing of existing fields).
+The dedicated persistent save area (likely reclaiming the Trainer Hill sector via
+the special-sector I/O pattern) is a separate milestone after M7.
 
 ## Files this milestone touches
 
-- `src/main_menu.c` - add the menu row + boot hook. **(Title/main-menu code - I
-  asked before touching this; you said go.)**
-- `include/global.h` - add the `RentalModeSave` region. **(Save format - I will
-  show the diff first.)**
+- `src/main_menu.c` - add the menu row + boot hook. **(Title/main-menu code -
+  needs your OK before I write it.)**
 - A new mode-controller source, e.g. `src/rental_mode.c` (+ a header) - the boot
-  routine and the stub battle setup. Reuses `CreateFacilityMon`.
+  routine (in-RAM profile, name/gender, warp) and the stub battle setup. Reuses
+  `CreateFacilityMon`. **No save-system files are touched.**
 - `data/maps/BattleFrontier_BattleTowerLobby/scripts.inc` - repoint the attendant
   to the rental stub script. Scripts only, no object placement.
 - `docs/overview/changelog.md` - record the new mode entry.
@@ -95,16 +89,17 @@ resizing of existing fields).
 2. Select it: you warp into the Battle Tower Lobby with a usable player.
 3. Talk to the attendant: a Lv50 battle starts using Pokemon from the library,
    with correct movesets and Hidden Power showing its real type.
-4. Win/lose returns you to the menu or lobby without corrupting a story save.
+4. Win/lose returns you to the menu or lobby. Confirm a pre-existing story save
+   still loads intact afterward (the mode must never write flash).
 
 ## Decisions
 
-1. **How real should M2's boot be? DECIDED - full save profile now.** M2 builds
-   the real persistent rental profile (own name/gender, a persistent save of the
-   run, load/resume), not a throwaway stub. Because this touches the save core,
-   the exact save design gets its own approval gate below before any code.
+1. **M2 boot scope: DECIDED - playable now, persist later.** M2 gives a
+   name/gender pick and an in-memory profile that can enter the hub and fight,
+   with no save-system changes (see "Save" above). The persistent save area is a
+   separate later milestone.
 2. Everything else (menu label, which attendant, how the stub battle is wired) I
-   will handle as engineering calls unless you want a say.
+   handle as engineering calls unless you want a say.
 
 ## Save-profile design (pending research + your approval)
 
