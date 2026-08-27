@@ -1,7 +1,7 @@
 {
  "_meta": {
   "batch": "Alternate battle formes",
-  "source": "Smogon data.pkmn.cc + constructed"
+  "source": "Smogon data.pkmn.cc + constructed + Emerald Kaizo + Run & Bun"
  },
  "pokemon": [
   {
@@ -327,6 +327,174 @@
      ],
      "source": "Smogon data.pkmn.cc (gen3 nu)",
      "notes": "Thunder Wave/Flamethrower"
+    },
+    {
+     "name": "Run & Bun set (Lv.64)",
+     "role": "attacker",
+     "tier": "run-and-bun",
+     "item": "ITEM_FOCUS_SASH",
+     "ability": "ABILITY_FORECAST",
+     "nature": "NATURE_TIMID",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_THUNDER",
+      "MOVE_HURRICANE",
+      "MOVE_WEATHER_BALL",
+      "MOVE_ICY_WIND"
+     ],
+     "source": "Run & Bun",
+     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
+    },
+    {
+     "name": "Emerald Kaizo set (Lv.76)",
+     "role": "attacker",
+     "tier": "emerald-kaizo",
+     "item": "ITEM_LUM_BERRY",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_MODEST",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_WEATHER_BALL",
+      "MOVE_ICE_BEAM",
+      "MOVE_THUNDER",
+      "MOVE_HIDDEN_POWER"
+     ],
+     "source": "Emerald Kaizo",
+     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
+    },
+    {
+     "name": "Emerald Kaizo set (Lv.74)",
+     "role": "attacker",
+     "tier": "emerald-kaizo",
+     "item": "ITEM_QUICK_CLAW",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_JOLLY",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_HYDRO_PUMP",
+      "MOVE_ICE_BEAM",
+      "MOVE_THUNDER",
+      "MOVE_RAIN_DANCE"
+     ],
+     "source": "Emerald Kaizo",
+     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
+    },
+    {
+     "name": "Emerald Kaizo set (Lv.70)",
+     "role": "attacker",
+     "tier": "emerald-kaizo",
+     "item": "ITEM_LEPPA_BERRY",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_QUIET",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_HYDRO_PUMP",
+      "MOVE_FIRE_BLAST",
+      "MOVE_ICE_BEAM",
+      "MOVE_THUNDERBOLT"
+     ],
+     "source": "Emerald Kaizo",
+     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
+    },
+    {
+     "name": "Emerald Kaizo set (Lv.67)",
+     "role": "attacker",
+     "tier": "emerald-kaizo",
+     "item": "ITEM_LUM_BERRY",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_ADAMANT",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_SUNNY_DAY",
+      "MOVE_FIRE_BLAST",
+      "MOVE_ICE_BEAM",
+      "MOVE_THUNDERBOLT"
+     ],
+     "source": "Emerald Kaizo",
+     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
+    },
+    {
+     "name": "Emerald Kaizo set (Lv.67)",
+     "role": "attacker",
+     "tier": "emerald-kaizo",
+     "item": "ITEM_SCOPE_LENS",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_NAUGHTY",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_THUNDER",
+      "MOVE_WEATHER_BALL",
+      "MOVE_ICE_BEAM",
+      "MOVE_ATTRACT"
+     ],
+     "source": "Emerald Kaizo",
+     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
+    },
+    {
+     "name": "Emerald Kaizo set (Lv.64)",
+     "role": "attacker",
+     "tier": "emerald-kaizo",
+     "item": "ITEM_LUM_BERRY",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_QUIET",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_WEATHER_BALL",
+      "MOVE_ICE_BEAM",
+      "MOVE_THUNDERBOLT",
+      "MOVE_SOLARBEAM"
+     ],
+     "source": "Emerald Kaizo",
+     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
     }
    ]
   },
@@ -430,6 +598,30 @@
      ],
      "source": "Smogon data.pkmn.cc (gen4 uu)",
      "notes": "Signal Beam/Energy Ball; Hidden Power Rock/Hidden Power Ice; HP Rock"
+    },
+    {
+     "name": "Run & Bun set (Lv.70)",
+     "role": "attacker",
+     "tier": "run-and-bun",
+     "item": "ITEM_WHITE_HERB",
+     "ability": "ABILITY_OVERCOAT",
+     "nature": "NATURE_MODEST",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_LEAF_STORM",
+      "MOVE_BUG_BUZZ",
+      "MOVE_PSYCHIC",
+      "MOVE_GIGA_DRAIN"
+     ],
+     "source": "Run & Bun",
+     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
     }
    ]
   },
@@ -787,6 +979,78 @@
      ],
      "source": "Smogon data.pkmn.cc (gen8 monotype)",
      "notes": ""
+    },
+    {
+     "name": "Run & Bun set (Lv.85)",
+     "role": "attacker",
+     "tier": "run-and-bun",
+     "item": "ITEM_WHITE_HERB",
+     "ability": "ABILITY_LEVITATE",
+     "nature": "NATURE_TIMID",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_OVERHEAT",
+      "MOVE_THUNDERBOLT",
+      "MOVE_WILL_O_WISP",
+      "MOVE_THUNDER_WAVE"
+     ],
+     "source": "Run & Bun",
+     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
+    },
+    {
+     "name": "Run & Bun set (Lv.54)",
+     "role": "setup sweeper",
+     "tier": "run-and-bun",
+     "item": "ITEM_LEFTOVERS",
+     "ability": "ABILITY_LEVITATE",
+     "nature": "NATURE_BOLD",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_OVERHEAT",
+      "MOVE_THUNDERBOLT",
+      "MOVE_WILL_O_WISP",
+      "MOVE_NASTY_PLOT"
+     ],
+     "source": "Run & Bun",
+     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
+    },
+    {
+     "name": "Run & Bun set (Lv.49)",
+     "role": "setup sweeper",
+     "tier": "run-and-bun",
+     "item": "ITEM_WHITE_HERB",
+     "ability": "ABILITY_LEVITATE",
+     "nature": "NATURE_TIMID",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_OVERHEAT",
+      "MOVE_THUNDERBOLT",
+      "MOVE_HIDDEN_POWER",
+      "MOVE_NASTY_PLOT"
+     ],
+     "source": "Run & Bun",
+     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
     }
    ]
   },
@@ -986,6 +1250,30 @@
      ],
      "source": "Smogon data.pkmn.cc (gen9natdex Choice Scarf)",
      "notes": "Will-O-Wisp/Thunder Wave"
+    },
+    {
+     "name": "Run & Bun set (Lv.60)",
+     "role": "attacker",
+     "tier": "run-and-bun",
+     "item": "ITEM_LUM_BERRY",
+     "ability": "ABILITY_LEVITATE",
+     "nature": "NATURE_TIMID",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_HYDRO_PUMP",
+      "MOVE_THUNDER",
+      "MOVE_VOLT_SWITCH",
+      "MOVE_WILL_O_WISP"
+     ],
+     "source": "Run & Bun",
+     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
     }
    ]
   },
@@ -1209,6 +1497,30 @@
      ],
      "source": "Smogon data.pkmn.cc (gen4 ou)",
      "notes": "Substitute/Shadow Ball/Hydro Pump/Blizzard; Will-O-Wisp/Shadow Ball"
+    },
+    {
+     "name": "Run & Bun set (Lv.75)",
+     "role": "attacker",
+     "tier": "run-and-bun",
+     "item": "ITEM_LEFTOVERS",
+     "ability": "ABILITY_LEVITATE",
+     "nature": "NATURE_MODEST",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_BLIZZARD",
+      "MOVE_THUNDERBOLT",
+      "MOVE_LIGHT_SCREEN",
+      "MOVE_REFLECT"
+     ],
+     "source": "Run & Bun",
+     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
     }
    ]
   },
@@ -1408,6 +1720,30 @@
      ],
      "source": "Smogon data.pkmn.cc (gen5 ru)",
      "notes": "Hidden Power Ice/Air Slash; HP Ice"
+    },
+    {
+     "name": "Run & Bun set (Lv.35)",
+     "role": "attacker",
+     "tier": "run-and-bun",
+     "item": "ITEM_LUM_BERRY",
+     "ability": "ABILITY_LEVITATE",
+     "nature": "NATURE_TIMID",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_DISCHARGE",
+      "MOVE_AIR_SLASH",
+      "MOVE_HEX",
+      "MOVE_WILL_O_WISP"
+     ],
+     "source": "Run & Bun",
+     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
     }
    ]
   },
@@ -1631,6 +1967,54 @@
      ],
      "source": "Smogon data.pkmn.cc (gen8 monotype)",
      "notes": ""
+    },
+    {
+     "name": "Run & Bun set (Lv.88)",
+     "role": "setup sweeper",
+     "tier": "run-and-bun",
+     "item": "ITEM_IAPAPA_BERRY",
+     "ability": "ABILITY_LEVITATE",
+     "nature": "NATURE_NAIVE",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_THUNDER",
+      "MOVE_LEAF_STORM",
+      "MOVE_SIGNAL_BEAM",
+      "MOVE_NASTY_PLOT"
+     ],
+     "source": "Run & Bun",
+     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
+    },
+    {
+     "name": "Run & Bun set (Lv.67)",
+     "role": "attacker",
+     "tier": "run-and-bun",
+     "item": "ITEM_WHITE_HERB",
+     "ability": "ABILITY_LEVITATE",
+     "nature": "NATURE_TIMID",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_LEAF_STORM",
+      "MOVE_DISCHARGE",
+      "MOVE_HIDDEN_POWER",
+      "MOVE_THUNDER_WAVE"
+     ],
+     "source": "Run & Bun",
+     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
     }
    ]
   },
@@ -1854,6 +2238,54 @@
      ],
      "source": "Smogon data.pkmn.cc (gen9 battlestadiumsingles)",
      "notes": "Aqua Jet/Liquidation/Substitute"
+    },
+    {
+     "name": "Run & Bun set (Lv.95)",
+     "role": "attacker",
+     "tier": "run-and-bun",
+     "item": "ITEM_LIFE_ORB",
+     "ability": "ABILITY_MOLD_BREAKER",
+     "nature": "NATURE_ADAMANT",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_AQUA_TAIL",
+      "MOVE_SPIRIT_SHACKLE",
+      "MOVE_HEAD_SMASH",
+      "MOVE_DESTINY_BOND"
+     ],
+     "source": "Run & Bun",
+     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
+    },
+    {
+     "name": "Run & Bun set (Lv.92)",
+     "role": "attacker",
+     "tier": "run-and-bun",
+     "item": "ITEM_WATER_GEM",
+     "ability": "ABILITY_ADAPTABILITY",
+     "nature": "NATURE_JOLLY",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_AQUA_TAIL",
+      "MOVE_SPIRIT_SHACKLE",
+      "MOVE_AQUA_JET",
+      "MOVE_PROTECT"
+     ],
+     "source": "Run & Bun",
+     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
     }
    ]
   },
@@ -1988,6 +2420,54 @@
      ],
      "source": "Smogon data.pkmn.cc (gen5 uu)",
      "notes": ""
+    },
+    {
+     "name": "Run & Bun set (Lv.94)",
+     "role": "attacker",
+     "tier": "run-and-bun",
+     "item": "ITEM_LIFE_ORB",
+     "ability": "ABILITY_SHEER_FORCE",
+     "nature": "NATURE_JOLLY",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_FLARE_BLITZ",
+      "MOVE_EARTHQUAKE",
+      "MOVE_ZEN_HEADBUTT",
+      "MOVE_ROCK_SLIDE"
+     ],
+     "source": "Run & Bun",
+     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
+    },
+    {
+     "name": "Run & Bun set (Lv.86)",
+     "role": "attacker",
+     "tier": "run-and-bun",
+     "item": "ITEM_LIFE_ORB",
+     "ability": "ABILITY_SHEER_FORCE",
+     "nature": "NATURE_JOLLY",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_FLARE_BLITZ",
+      "MOVE_EARTHQUAKE",
+      "MOVE_ROCK_SLIDE",
+      "MOVE_REVERSAL"
+     ],
+     "source": "Run & Bun",
+     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
     }
    ]
   },
@@ -2091,6 +2571,30 @@
      ],
      "source": "Smogon data.pkmn.cc (gen6 pu)",
      "notes": "Yawn/Thunder Wave; Thunder Wave/Psychic"
+    },
+    {
+     "name": "Run & Bun set (Lv.73)",
+     "role": "attacker",
+     "tier": "run-and-bun",
+     "item": "ITEM_LIGHT_CLAY",
+     "ability": "ABILITY_PRANKSTER",
+     "nature": "NATURE_TIMID",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_PSYCHIC",
+      "MOVE_SHADOW_BALL",
+      "MOVE_LIGHT_SCREEN",
+      "MOVE_REFLECT"
+     ],
+     "source": "Run & Bun",
+     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
     }
    ]
   },
@@ -2201,6 +2705,54 @@
      ],
      "source": "Smogon data.pkmn.cc (gen9 pu)",
      "notes": ""
+    },
+    {
+     "name": "Run & Bun set (Lv.67)",
+     "role": "defensive / utility",
+     "tier": "run-and-bun",
+     "item": "ITEM_FIRE_GEM",
+     "ability": "ABILITY_DANCER",
+     "nature": "NATURE_MODEST",
+     "evs": {
+      "hp": 252,
+      "atk": 0,
+      "def": 128,
+      "spatk": 0,
+      "spdef": 128,
+      "speed": 0
+     },
+     "moves": [
+      "MOVE_REVELATION_DANCE",
+      "MOVE_AIR_SLASH",
+      "MOVE_TEETER_DANCE",
+      "MOVE_ROOST"
+     ],
+     "source": "Run & Bun",
+     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
+    },
+    {
+     "name": "Run & Bun set (Lv.23)",
+     "role": "setup sweeper",
+     "tier": "run-and-bun",
+     "item": "ITEM_LUM_BERRY",
+     "ability": "ABILITY_DANCER",
+     "nature": "NATURE_HASTY",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_REVELATION_DANCE",
+      "MOVE_PLUCK",
+      "MOVE_FEATHER_DANCE",
+      "MOVE_SWORDS_DANCE"
+     ],
+     "source": "Run & Bun",
+     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
     }
    ]
   },
@@ -2256,6 +2808,54 @@
      ],
      "source": "Smogon data.pkmn.cc (gen7 pu)",
      "notes": "Hurricane/Revelation Dance"
+    },
+    {
+     "name": "Run & Bun set (Lv.67)",
+     "role": "attacker",
+     "tier": "run-and-bun",
+     "item": "ITEM_IAPAPA_BERRY",
+     "ability": "ABILITY_DANCER",
+     "nature": "NATURE_TIMID",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_REVELATION_DANCE",
+      "MOVE_AIR_SLASH",
+      "MOVE_ICY_WIND",
+      "MOVE_FEATHER_DANCE"
+     ],
+     "source": "Run & Bun",
+     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
+    },
+    {
+     "name": "Run & Bun set (Lv.32)",
+     "role": "defensive / utility",
+     "tier": "run-and-bun",
+     "item": "ITEM_LUM_BERRY",
+     "ability": "ABILITY_DANCER",
+     "nature": "NATURE_TIMID",
+     "evs": {
+      "hp": 252,
+      "atk": 0,
+      "def": 128,
+      "spatk": 0,
+      "spdef": 128,
+      "speed": 0
+     },
+     "moves": [
+      "MOVE_REVELATION_DANCE",
+      "MOVE_AIR_SLASH",
+      "MOVE_TEETER_DANCE",
+      "MOVE_ROOST"
+     ],
+     "source": "Run & Bun",
+     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
     }
    ]
   },
@@ -2287,6 +2887,30 @@
      ],
      "source": "Smogon data.pkmn.cc (gen9 pu)",
      "notes": "Hurricane/Air Slash; Revelation Dance/Taunt"
+    },
+    {
+     "name": "Run & Bun set (Lv.67)",
+     "role": "setup sweeper",
+     "tier": "run-and-bun",
+     "item": "ITEM_IAPAPA_BERRY",
+     "ability": "ABILITY_DANCER",
+     "nature": "NATURE_TIMID",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_REVELATION_DANCE",
+      "MOVE_HIDDEN_POWER",
+      "MOVE_TEETER_DANCE",
+      "MOVE_CALM_MIND"
+     ],
+     "source": "Run & Bun",
+     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
     }
    ]
   },
@@ -2318,6 +2942,30 @@
      ],
      "source": "Smogon data.pkmn.cc (gen9 ru)",
      "notes": "Revelation Dance/Air Slash/Hurricane"
+    },
+    {
+     "name": "Run & Bun set (Lv.33)",
+     "role": "setup sweeper",
+     "tier": "run-and-bun",
+     "item": "ITEM_SITRUS_BERRY",
+     "ability": "ABILITY_DANCER",
+     "nature": "NATURE_TIMID",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_REVELATION_DANCE",
+      "MOVE_AIR_SLASH",
+      "MOVE_CALM_MIND",
+      "MOVE_TEETER_DANCE"
+     ],
+     "source": "Run & Bun",
+     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
     }
    ]
   },
@@ -2493,6 +3141,30 @@
      ],
      "source": "Smogon data.pkmn.cc (gen8 anythinggoes)",
      "notes": ""
+    },
+    {
+     "name": "Run & Bun set (Lv.45)",
+     "role": "attacker",
+     "tier": "run-and-bun",
+     "item": "ITEM_FOCUS_SASH",
+     "ability": "ABILITY_SAND_RUSH",
+     "nature": "NATURE_ADAMANT",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_STONE_EDGE",
+      "MOVE_HIGH_HORSEPOWER",
+      "MOVE_PSYCHIC_FANGS",
+      "MOVE_ENDEAVOR"
+     ],
+     "source": "Run & Bun",
+     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
     }
    ]
   },
@@ -2524,6 +3196,54 @@
      ],
      "source": "Smogon data.pkmn.cc (gen7 pu)",
      "notes": ""
+    },
+    {
+     "name": "Run & Bun set (Lv.94)",
+     "role": "attacker",
+     "tier": "run-and-bun",
+     "item": "ITEM_FOCUS_SASH",
+     "ability": "ABILITY_NO_GUARD",
+     "nature": "NATURE_JOLLY",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_STONE_EDGE",
+      "MOVE_ROCK_SLIDE",
+      "MOVE_CLOSE_COMBAT",
+      "MOVE_ENDEAVOR"
+     ],
+     "source": "Run & Bun",
+     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
+    },
+    {
+     "name": "Run & Bun set (Lv.39)",
+     "role": "attacker",
+     "tier": "run-and-bun",
+     "item": "ITEM_LUM_BERRY",
+     "ability": "ABILITY_NO_GUARD",
+     "nature": "NATURE_JOLLY",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_STONE_EDGE",
+      "MOVE_MEGA_KICK",
+      "MOVE_IRON_TAIL",
+      "MOVE_FIRE_FANG"
+     ],
+     "source": "Run & Bun",
+     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
     }
    ]
   },
@@ -2651,6 +3371,54 @@
      ],
      "source": "Smogon data.pkmn.cc (gen7 ru)",
      "notes": "Fire Fang/Drill Run; Sucker Punch/Accelerock"
+    },
+    {
+     "name": "Run & Bun set (Lv.73)",
+     "role": "hazard setter",
+     "tier": "run-and-bun",
+     "item": "ITEM_ROCK_GEM",
+     "ability": "ABILITY_TOUGH_CLAWS",
+     "nature": "NATURE_JOLLY",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_ACCELEROCK",
+      "MOVE_CLOSE_COMBAT",
+      "MOVE_CRUNCH",
+      "MOVE_STEALTH_ROCK"
+     ],
+     "source": "Run & Bun",
+     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
+    },
+    {
+     "name": "Run & Bun set (Lv.37)",
+     "role": "attacker",
+     "tier": "run-and-bun",
+     "item": "ITEM_FOCUS_SASH",
+     "ability": "ABILITY_TOUGH_CLAWS",
+     "nature": "NATURE_JOLLY",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_ROCK_SLIDE",
+      "MOVE_ACCELEROCK",
+      "MOVE_STOMPING_TANTRUM",
+      "MOVE_HOWL"
+     ],
+     "source": "Run & Bun",
+     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
     }
    ]
   },
@@ -2778,6 +3546,78 @@
      ],
      "source": "Smogon data.pkmn.cc (gen8 ru)",
      "notes": ""
+    },
+    {
+     "name": "Run & Bun set (Lv.60)",
+     "role": "attacker",
+     "tier": "run-and-bun",
+     "item": "ITEM_BLACK_SLUDGE",
+     "ability": "ABILITY_PUNK_ROCK",
+     "nature": "NATURE_TIMID",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_OVERDRIVE",
+      "MOVE_NUZZLE",
+      "MOVE_HIDDEN_POWER",
+      "MOVE_SUBSTITUTE"
+     ],
+     "source": "Run & Bun",
+     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
+    },
+    {
+     "name": "Run & Bun set (Lv.32)",
+     "role": "attacker",
+     "tier": "run-and-bun",
+     "item": "ITEM_POISON_BARB",
+     "ability": "ABILITY_PUNK_ROCK",
+     "nature": "NATURE_TIMID",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_SLUDGE_BOMB",
+      "MOVE_OVERDRIVE",
+      "MOVE_VENOSHOCK",
+      "MOVE_HYPER_VOICE"
+     ],
+     "source": "Run & Bun",
+     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
+    },
+    {
+     "name": "Run & Bun set (Lv.26)",
+     "role": "attacker",
+     "tier": "run-and-bun",
+     "item": "ITEM_LUM_BERRY",
+     "ability": "ABILITY_TECHNICIAN",
+     "nature": "NATURE_RASH",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_SHOCK_WAVE",
+      "MOVE_DRAIN_PUNCH",
+      "MOVE_PAYBACK",
+      "MOVE_SHIFT_GEAR"
+     ],
+     "source": "Run & Bun",
+     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
     }
    ]
   },
@@ -2936,6 +3776,30 @@
      "tier": "constructed",
      "notes": "",
      "source": "Constructed (competitive knowledge; validated vs build)"
+    },
+    {
+     "name": "Run & Bun set (Lv.78)",
+     "role": "setup sweeper",
+     "tier": "run-and-bun",
+     "item": "ITEM_SCOPE_LENS",
+     "ability": "ABILITY_ICE_FACE",
+     "nature": "NATURE_JOLLY",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_ICICLE_SPEAR",
+      "MOVE_HEAD_SMASH",
+      "MOVE_AQUA_JET",
+      "MOVE_BELLY_DRUM"
+     ],
+     "source": "Run & Bun",
+     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
     }
    ]
   },
@@ -3087,6 +3951,78 @@
      ],
      "source": "Smogon data.pkmn.cc (gen8 monotype)",
      "notes": ""
+    },
+    {
+     "name": "Run & Bun set (Lv.96)",
+     "role": "attacker",
+     "tier": "run-and-bun",
+     "item": "ITEM_FOCUS_SASH",
+     "ability": "ABILITY_PSYCHIC_SURGE",
+     "nature": "NATURE_TIMID",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_FUTURE_SIGHT",
+      "MOVE_EXPANDING_FORCE",
+      "MOVE_DAZZLING_GLEAM",
+      "MOVE_MYSTICAL_FIRE"
+     ],
+     "source": "Run & Bun",
+     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
+    },
+    {
+     "name": "Run & Bun set (Lv.82)",
+     "role": "setup sweeper",
+     "tier": "run-and-bun",
+     "item": "ITEM_FOCUS_SASH",
+     "ability": "ABILITY_PSYCHIC_SURGE",
+     "nature": "NATURE_TIMID",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_EXPANDING_FORCE",
+      "MOVE_DAZZLING_GLEAM",
+      "MOVE_MYSTICAL_FIRE",
+      "MOVE_CALM_MIND"
+     ],
+     "source": "Run & Bun",
+     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
+    },
+    {
+     "name": "Run & Bun set (Lv.37)",
+     "role": "attacker",
+     "tier": "run-and-bun",
+     "item": "ITEM_LIGHT_CLAY",
+     "ability": "ABILITY_PSYCHIC_SURGE",
+     "nature": "NATURE_TIMID",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_HYPER_VOICE",
+      "MOVE_EXPANDING_FORCE",
+      "MOVE_LIGHT_SCREEN",
+      "MOVE_REFLECT"
+     ],
+     "source": "Run & Bun",
+     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
     }
    ]
   },

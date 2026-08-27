@@ -37,32 +37,48 @@ Per-Pokemon competitive movesets for the rental Battle Tower mode. See
 }
 ```
 
-## Source
-Sets are transcribed from **Smogon** competitive data via `data.pkmn.cc`
-(machine-readable). For each Pokemon, sets are gathered from the newest
-generation where it has data, falling back through older gens, deduplicated
-by move signature, and capped at ~8 distinct sets. Singles formats only
-(doubles/VGC excluded). Tera types dropped (gimmick off). Z-crystal and
-Mega-Stone sets are excluded from non-Mega entries.
+## Sources
+Each set carries a `source`. Three feeds are merged per Pokemon, deduplicated
+by move signature, up to 14 sets per Pokemon (Smogon first, then Run & Bun and
+Emerald Kaizo interleaved so both hacks are represented):
+
+- **Smogon** (`data.pkmn.cc`, machine-readable): newest gen where the Pokemon
+  has data, falling back through older gens. Singles formats only (doubles/VGC
+  excluded). Tera dropped. Z-crystal / Mega-Stone sets excluded from non-Mega
+  entries. Official Gen 6 Megas extracted from base-species + Mega-Stone sets.
+- **Run & Bun** (`Trainer Battles` doc): every trainer's Pokemon with an
+  explicit moveset, grouped by species and deduped. Includes late-game / E4 /
+  champion full sets with items.
+- **Emerald Kaizo** (`EK Mastersheet`): same extraction from the EK trainer
+  data.
 
 **Every move / item / ability / nature constant is validated against this
-build's own headers** (0 unresolved at generation time). EVs use the 6-key
+build's own headers** (0 unresolved). EVs use the 6-key
 HP/Atk/Def/SpAtk/SpDef/Speed format.
 
-Emerald Kaizo and Run & Bun sets will be appended as additional sets per
-Pokemon (with `source` tagged accordingly) once those documents are provided.
+### Caveats on the hack sets
+- The Run & Bun / Emerald Kaizo docs list moves, item, nature and (R&B only)
+  ability, but **not EVs** — so `evs` on those sets is a role-based default and
+  `notes` says so. Adjust before use if exact spreads matter.
+- Both hacks rebalance some moves/abilities. Sets are transcribed **as-is**;
+  constants all resolve in this build, but a move's *power/effect* may differ
+  from the hack. Treat these as playstyle templates, not exact clones.
+- Hack sets that hold a Mega Stone are attached to the **base species** (as the
+  doc lists them), not the separate `_MEGA` entry.
+
+Still to come: the 49 custom Z-A Megas await their own source doc.
 
 ## Coverage
-- **720 of 769 entries** have movesets — **4,538 sets total**, every
-  constant validated against this build (0 invalid).
-- **Smogon-sourced:** the standard roster, regional/alt formes, restricted
-  tier, Eviolite NFE, and the **48 official Gen 6 Megas** (extracted from
-  Smogon's base-species-plus-Mega-Stone sets).
-- **Constructed (37):** low-usage Gen 8/9 mons and NFE Eviolite picks with no
+- **720 of 769 entries** have movesets — **6,120 sets total**, every constant
+  validated against this build (0 invalid).
+- By source: **Smogon 4,491 · Run & Bun 1,076 · Emerald Kaizo 506 ·
+  Constructed 47**.
+- Constructed sets cover low-usage Gen 8/9 mons and NFE Eviolite picks with no
   competitive data anywhere (Doublade, Type: Null, Vullaby, Duosion, Rufflet,
-  Kirlia, Sneasel-Hisui, Dachsbun, Klawf, Spidops, …). Built from in-build
-  stats/movepool and tagged `source: "Constructed (…)"`. Toxtricity Low-Key
+  Kirlia, Sneasel-Hisui, Dachsbun, Klawf, Spidops, …). Toxtricity Low-Key
   shares the Amped forme's sets.
+- Gen 9 / regional / alt-forme entries get no hack sets (those species do not
+  exist in the Emerald-based hacks) — Smogon-only there.
 
 ## Still pending
 - **49 custom Megas** — the Pokemon Legends: Z-A Megas (2025-2026), not in

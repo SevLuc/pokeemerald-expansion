@@ -1,7 +1,7 @@
 {
  "_meta": {
   "batch": "Gen 3 standard (Hoenn)",
-  "source": "Smogon data.pkmn.cc + constructed"
+  "source": "Smogon data.pkmn.cc + constructed + Emerald Kaizo + Run & Bun"
  },
  "pokemon": [
   {
@@ -248,6 +248,102 @@
      ],
      "source": "Smogon data.pkmn.cc (gen5 ru)",
      "notes": "Leaf Storm/Giga Drain; Hidden Power Fire/Focus Blast; HP Fire"
+    },
+    {
+     "name": "Run & Bun set (Lv.95)",
+     "role": "attacker",
+     "tier": "run-and-bun",
+     "item": "ITEM_SCEPTILITE",
+     "ability": "ABILITY_OVERGROW",
+     "nature": "NATURE_TIMID",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_ENERGY_BALL",
+      "MOVE_DRAGON_PULSE",
+      "MOVE_FOCUS_BLAST",
+      "MOVE_DETECT"
+     ],
+     "source": "Run & Bun",
+     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
+    },
+    {
+     "name": "Emerald Kaizo set (Lv.87)",
+     "role": "attacker",
+     "tier": "emerald-kaizo",
+     "item": "ITEM_LUM_BERRY",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_HASTY",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_GIGA_DRAIN",
+      "MOVE_THUNDERPUNCH",
+      "MOVE_HIDDEN_POWER",
+      "MOVE_DRAGON_CLAW"
+     ],
+     "source": "Emerald Kaizo",
+     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
+    },
+    {
+     "name": "Run & Bun set (Lv.95)",
+     "role": "attacker",
+     "tier": "run-and-bun",
+     "item": "ITEM_WEAKNESS_POLICY",
+     "ability": "ABILITY_UNBURDEN",
+     "nature": "NATURE_RASH",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_ENERGY_BALL",
+      "MOVE_FOCUS_BLAST",
+      "MOVE_ROCK_SLIDE",
+      "MOVE_ACROBATICS"
+     ],
+     "source": "Run & Bun",
+     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
+    },
+    {
+     "name": "Run & Bun set (Lv.73)",
+     "role": "setup sweeper",
+     "tier": "run-and-bun",
+     "item": "ITEM_SCEPTILITE",
+     "ability": "ABILITY_OVERGROW",
+     "nature": "NATURE_JOLLY",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_LEAF_BLADE",
+      "MOVE_DRAGON_CLAW",
+      "MOVE_EARTHQUAKE",
+      "MOVE_SWORDS_DANCE"
+     ],
+     "source": "Run & Bun",
+     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
     }
    ]
   },
@@ -447,6 +543,150 @@
      ],
      "source": "Smogon data.pkmn.cc (gen6 ubers)",
      "notes": "Protect/Swords Dance; High Jump Kick/Low Kick; Hidden Power Ice/Stone Edge; HP Ice"
+    },
+    {
+     "name": "Run & Bun set (Lv.96)",
+     "role": "setup sweeper",
+     "tier": "run-and-bun",
+     "item": "ITEM_FOCUS_SASH",
+     "ability": "ABILITY_SPEED_BOOST",
+     "nature": "NATURE_JOLLY",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_CLOSE_COMBAT",
+      "MOVE_BLAZE_KICK",
+      "MOVE_KNOCK_OFF",
+      "MOVE_SWORDS_DANCE"
+     ],
+     "source": "Run & Bun",
+     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
+    },
+    {
+     "name": "Emerald Kaizo set (Lv.85)",
+     "role": "attacker",
+     "tier": "emerald-kaizo",
+     "item": "ITEM_LUM_BERRY",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_SASSY",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_OVERHEAT",
+      "MOVE_SUPERPOWER",
+      "MOVE_HIDDEN_POWER",
+      "MOVE_QUICK_ATTACK"
+     ],
+     "source": "Emerald Kaizo",
+     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
+    },
+    {
+     "name": "Emerald Kaizo set (Lv.67)",
+     "role": "attacker",
+     "tier": "emerald-kaizo",
+     "item": "ITEM_BRIGHTPOWDER",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_BOLD",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_BLAZE_KICK",
+      "MOVE_BRICK_BREAK",
+      "MOVE_EARTHQUAKE",
+      "MOVE_THUNDERPUNCH"
+     ],
+     "source": "Emerald Kaizo",
+     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
+    },
+    {
+     "name": "Emerald Kaizo set (Lv.60)",
+     "role": "attacker",
+     "tier": "emerald-kaizo",
+     "item": "ITEM_LUM_BERRY",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_HASTY",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_OVERHEAT",
+      "MOVE_SUPERPOWER",
+      "MOVE_THUNDERPUNCH",
+      "MOVE_ROCK_SLIDE"
+     ],
+     "source": "Emerald Kaizo",
+     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
+    },
+    {
+     "name": "Run & Bun set (Lv.68)",
+     "role": "setup sweeper",
+     "tier": "run-and-bun",
+     "item": "ITEM_FLYING_GEM",
+     "ability": "ABILITY_SPEED_BOOST",
+     "nature": "NATURE_JOLLY",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_CLOSE_COMBAT",
+      "MOVE_FLARE_BLITZ",
+      "MOVE_ACROBATICS",
+      "MOVE_SWORDS_DANCE"
+     ],
+     "source": "Run & Bun",
+     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
+    },
+    {
+     "name": "Emerald Kaizo set (Lv.42)",
+     "role": "attacker",
+     "tier": "emerald-kaizo",
+     "item": "ITEM_LUM_BERRY",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_RELAXED",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_BLAZE_KICK",
+      "MOVE_SKY_UPPERCUT",
+      "MOVE_THUNDERPUNCH",
+      "MOVE_SOLARBEAM"
+     ],
+     "source": "Emerald Kaizo",
+     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
     }
    ]
   },
@@ -646,6 +886,150 @@
      ],
      "source": "Smogon data.pkmn.cc (gen7 monotype)",
      "notes": ""
+    },
+    {
+     "name": "Run & Bun set (Lv.100)",
+     "role": "attacker",
+     "tier": "run-and-bun",
+     "item": "ITEM_SWAMPERTITE",
+     "ability": "ABILITY_TORRENT",
+     "nature": "NATURE_JOLLY",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_EARTHQUAKE",
+      "MOVE_LIQUIDATION",
+      "MOVE_STONE_EDGE",
+      "MOVE_ICE_PUNCH"
+     ],
+     "source": "Run & Bun",
+     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
+    },
+    {
+     "name": "Emerald Kaizo set (Lv.67)",
+     "role": "attacker",
+     "tier": "emerald-kaizo",
+     "item": "ITEM_BRIGHTPOWDER",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_BOLD",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_EARTHQUAKE",
+      "MOVE_SWAGGER",
+      "MOVE_MUDDY_WATER",
+      "MOVE_SLUDGE_BOMB"
+     ],
+     "source": "Emerald Kaizo",
+     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
+    },
+    {
+     "name": "Run & Bun set (Lv.95)",
+     "role": "attacker",
+     "tier": "run-and-bun",
+     "item": "ITEM_SWAMPERTITE",
+     "ability": "ABILITY_DAMP",
+     "nature": "NATURE_JOLLY",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_EARTHQUAKE",
+      "MOVE_LIQUIDATION",
+      "MOVE_STONE_EDGE",
+      "MOVE_POWER_UP_PUNCH"
+     ],
+     "source": "Run & Bun",
+     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
+    },
+    {
+     "name": "Emerald Kaizo set (Lv.53)",
+     "role": "attacker",
+     "tier": "emerald-kaizo",
+     "item": "ITEM_SALAC_BERRY",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_MILD",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_HYDRO_CANNON",
+      "MOVE_SLUDGE_BOMB",
+      "MOVE_HIDDEN_POWER",
+      "MOVE_ICE_BEAM"
+     ],
+     "source": "Emerald Kaizo",
+     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
+    },
+    {
+     "name": "Run & Bun set (Lv.90)",
+     "role": "attacker",
+     "tier": "run-and-bun",
+     "item": "ITEM_SWAMPERTITE",
+     "ability": "ABILITY_DAMP",
+     "nature": "NATURE_JOLLY",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_EARTHQUAKE",
+      "MOVE_LIQUIDATION",
+      "MOVE_ICE_PUNCH",
+      "MOVE_POWER_UP_PUNCH"
+     ],
+     "source": "Run & Bun",
+     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
+    },
+    {
+     "name": "Run & Bun set (Lv.87)",
+     "role": "hazard setter",
+     "tier": "run-and-bun",
+     "item": "ITEM_RINDO_BERRY",
+     "ability": "ABILITY_TORRENT",
+     "nature": "NATURE_ADAMANT",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_EARTHQUAKE",
+      "MOVE_LIQUIDATION",
+      "MOVE_AVALANCHE",
+      "MOVE_STEALTH_ROCK"
+     ],
+     "source": "Run & Bun",
+     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
     }
    ]
   },
@@ -821,6 +1205,54 @@
      ],
      "source": "Smogon data.pkmn.cc (gen3 pu)",
      "notes": "Roar/Toxic"
+    },
+    {
+     "name": "Run & Bun set (Lv.22)",
+     "role": "attacker",
+     "tier": "run-and-bun",
+     "item": "ITEM_LEFTOVERS",
+     "ability": "ABILITY_INTIMIDATE",
+     "nature": "NATURE_JOLLY",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_CRUNCH",
+      "MOVE_ICE_FANG",
+      "MOVE_FIRE_FANG",
+      "MOVE_COVET"
+     ],
+     "source": "Run & Bun",
+     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
+    },
+    {
+     "name": "Emerald Kaizo set (Lv.27)",
+     "role": "attacker",
+     "tier": "emerald-kaizo",
+     "item": "ITEM_SHELL_BELL",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_BRAVE",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_SHADOW_BALL",
+      "MOVE_IRON_TAIL",
+      "MOVE_POISON_FANG",
+      "MOVE_SUPER_FANG"
+     ],
+     "source": "Emerald Kaizo",
+     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
     }
    ]
   },
@@ -996,6 +1428,149 @@
      ],
      "source": "Smogon data.pkmn.cc (gen3 ou)",
      "notes": "Return/Extreme Speed; Hidden Power Ground/Hidden Power Fighting; HP Ground; Trick/Flail/Surf"
+    },
+    {
+     "name": "Run & Bun set (Lv.60)",
+     "role": "setup sweeper",
+     "tier": "run-and-bun",
+     "item": "ITEM_SITRUS_BERRY",
+     "ability": "ABILITY_QUICK_FEET",
+     "nature": "NATURE_ADAMANT",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_EXTREME_SPEED",
+      "MOVE_STOMPING_TANTRUM",
+      "MOVE_THROAT_CHOP",
+      "MOVE_BELLY_DRUM"
+     ],
+     "source": "Run & Bun",
+     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
+    },
+    {
+     "name": "Emerald Kaizo set (Lv.89)",
+     "role": "attacker",
+     "tier": "emerald-kaizo",
+     "item": "ITEM_SILK_SCARF",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_NAUGHTY",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_EXTREMESPEED",
+      "MOVE_SHADOW_BALL",
+      "MOVE_HIDDEN_POWER",
+      "MOVE_SNORE"
+     ],
+     "source": "Emerald Kaizo",
+     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
+    },
+    {
+     "name": "Emerald Kaizo set (Lv.35)",
+     "role": "attacker",
+     "tier": "emerald-kaizo",
+     "item": "ITEM_LEFTOVERS",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_NAIVE",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_FACADE",
+      "MOVE_TOXIC",
+      "MOVE_SHADOW_BALL",
+      "MOVE_IRON_TAIL"
+     ],
+     "source": "Emerald Kaizo",
+     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
+    },
+    {
+     "name": "Emerald Kaizo set (Lv.25)",
+     "role": "attacker",
+     "tier": "emerald-kaizo",
+     "item": "ITEM_SITRUS_BERRY",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_CALM",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_FACADE",
+      "MOVE_THUNDERBOLT",
+      "MOVE_SURF",
+      "MOVE_HIDDEN_POWER"
+     ],
+     "source": "Emerald Kaizo",
+     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
+    },
+    {
+     "name": "Emerald Kaizo set (Lv.24)",
+     "role": "attacker",
+     "tier": "emerald-kaizo",
+     "item": "ITEM_NONE",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_RASH",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_SWIFT",
+      "MOVE_SURF",
+      "MOVE_MUD_SLAP"
+     ],
+     "source": "Emerald Kaizo",
+     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
+    },
+    {
+     "name": "Emerald Kaizo set (Lv.22)",
+     "role": "attacker",
+     "tier": "emerald-kaizo",
+     "item": "ITEM_LEFTOVERS",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_MODEST",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_SWIFT",
+      "MOVE_ROCK_SMASH",
+      "MOVE_MUD_SLAP",
+      "MOVE_SNORE"
+     ],
+     "source": "Emerald Kaizo",
+     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
     }
    ]
   },
@@ -1075,6 +1650,102 @@
      ],
      "source": "Smogon data.pkmn.cc (gen8 monotype)",
      "notes": ""
+    },
+    {
+     "name": "Run & Bun set (Lv.95)",
+     "role": "setup sweeper",
+     "tier": "run-and-bun",
+     "item": "ITEM_FLAME_ORB",
+     "ability": "ABILITY_GUTS",
+     "nature": "NATURE_JOLLY",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_FACADE",
+      "MOVE_KNOCK_OFF",
+      "MOVE_CROSS_CHOP",
+      "MOVE_BULK_UP"
+     ],
+     "source": "Run & Bun",
+     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
+    },
+    {
+     "name": "Run & Bun set (Lv.78)",
+     "role": "attacker",
+     "tier": "run-and-bun",
+     "item": "ITEM_FLAME_ORB",
+     "ability": "ABILITY_GUTS",
+     "nature": "NATURE_JOLLY",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_FACADE",
+      "MOVE_KNOCK_OFF",
+      "MOVE_CLOSE_COMBAT",
+      "MOVE_OBSTRUCT"
+     ],
+     "source": "Run & Bun",
+     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
+    },
+    {
+     "name": "Run & Bun set (Lv.73)",
+     "role": "setup sweeper",
+     "tier": "run-and-bun",
+     "item": "ITEM_ROSELI_BERRY",
+     "ability": "ABILITY_RECKLESS",
+     "nature": "NATURE_JOLLY",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_DOUBLE_EDGE",
+      "MOVE_NIGHT_SLASH",
+      "MOVE_CLOSE_COMBAT",
+      "MOVE_BULK_UP"
+     ],
+     "source": "Run & Bun",
+     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
+    },
+    {
+     "name": "Run & Bun set (Lv.65)",
+     "role": "attacker",
+     "tier": "run-and-bun",
+     "item": "ITEM_NORMAL_GEM",
+     "ability": "ABILITY_DEFIANT",
+     "nature": "NATURE_JOLLY",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_FRUSTRATION",
+      "MOVE_THROAT_CHOP",
+      "MOVE_RETALIATE",
+      "MOVE_CLOSE_COMBAT"
+     ],
+     "source": "Run & Bun",
+     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
     }
    ]
   },
@@ -1177,6 +1848,54 @@
      ],
      "source": "Smogon data.pkmn.cc (gen3 nu)",
      "notes": "Hidden Power Bug/Hidden Power Flying/Giga Drain/Psychic; HP Bug"
+    },
+    {
+     "name": "Run & Bun set (Lv.63)",
+     "role": "setup sweeper",
+     "tier": "run-and-bun",
+     "item": "ITEM_FOCUS_SASH",
+     "ability": "ABILITY_SWARM",
+     "nature": "NATURE_TIMID",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_BUG_BUZZ",
+      "MOVE_AIR_SLASH",
+      "MOVE_QUIVER_DANCE",
+      "MOVE_STUN_SPORE"
+     ],
+     "source": "Run & Bun",
+     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
+    },
+    {
+     "name": "Emerald Kaizo set (Lv.10)",
+     "role": "attacker",
+     "tier": "emerald-kaizo",
+     "item": "ITEM_MIRACLE_SEED",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_MILD",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_GUST",
+      "MOVE_LEECH_LIFE",
+      "MOVE_MEGA_DRAIN",
+      "MOVE_STUN_SPORE"
+     ],
+     "source": "Emerald Kaizo",
+     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
     }
    ]
   },
@@ -1328,6 +2047,54 @@
      ],
      "source": "Smogon data.pkmn.cc (gen3 nu)",
      "notes": "HP Fire"
+    },
+    {
+     "name": "Run & Bun set (Lv.17)",
+     "role": "defensive / utility",
+     "tier": "run-and-bun",
+     "item": "ITEM_BLACK_SLUDGE",
+     "ability": "ABILITY_SHIELD_DUST",
+     "nature": "NATURE_BOLD",
+     "evs": {
+      "hp": 252,
+      "atk": 0,
+      "def": 128,
+      "spatk": 0,
+      "spdef": 128,
+      "speed": 0
+     },
+     "moves": [
+      "MOVE_VENOSHOCK",
+      "MOVE_INFESTATION",
+      "MOVE_ROOST",
+      "MOVE_TOXIC"
+     ],
+     "source": "Run & Bun",
+     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
+    },
+    {
+     "name": "Emerald Kaizo set (Lv.10)",
+     "role": "attacker",
+     "tier": "emerald-kaizo",
+     "item": "ITEM_SITRUS_BERRY",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_IMPISH",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_IRON_DEFENSE",
+      "MOVE_LIGHT_SCREEN",
+      "MOVE_CONFUSION",
+      "MOVE_TOXIC"
+     ],
+     "source": "Emerald Kaizo",
+     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
     }
    ]
   },
@@ -1527,6 +2294,150 @@
      ],
      "source": "Smogon data.pkmn.cc (gen4 ubers)",
      "notes": "Ice Beam/Surf"
+    },
+    {
+     "name": "Run & Bun set (Lv.94)",
+     "role": "attacker",
+     "tier": "run-and-bun",
+     "item": "ITEM_EJECT_PACK",
+     "ability": "ABILITY_OWN_TEMPO",
+     "nature": "NATURE_TIMID",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_LEAF_STORM",
+      "MOVE_SCALD",
+      "MOVE_KNOCK_OFF",
+      "MOVE_ICY_WIND"
+     ],
+     "source": "Run & Bun",
+     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
+    },
+    {
+     "name": "Emerald Kaizo set (Lv.74)",
+     "role": "attacker",
+     "tier": "emerald-kaizo",
+     "item": "ITEM_QUICK_CLAW",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_MODEST",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_GIGA_DRAIN",
+      "MOVE_TEETER_DANCE",
+      "MOVE_WATERFALL",
+      "MOVE_ICE_BEAM"
+     ],
+     "source": "Emerald Kaizo",
+     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
+    },
+    {
+     "name": "Run & Bun set (Lv.86)",
+     "role": "attacker",
+     "tier": "run-and-bun",
+     "item": "ITEM_FOCUS_SASH",
+     "ability": "ABILITY_OWN_TEMPO",
+     "nature": "NATURE_TIMID",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_ENERGY_BALL",
+      "MOVE_SCALD",
+      "MOVE_ICY_WIND",
+      "MOVE_FAKE_OUT"
+     ],
+     "source": "Run & Bun",
+     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
+    },
+    {
+     "name": "Emerald Kaizo set (Lv.67)",
+     "role": "attacker",
+     "tier": "emerald-kaizo",
+     "item": "ITEM_LEFTOVERS",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_JOLLY",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_TOXIC",
+      "MOVE_ICE_BEAM",
+      "MOVE_LEECH_SEED",
+      "MOVE_PROTECT"
+     ],
+     "source": "Emerald Kaizo",
+     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
+    },
+    {
+     "name": "Run & Bun set (Lv.78)",
+     "role": "setup sweeper",
+     "tier": "run-and-bun",
+     "item": "ITEM_GRASS_GEM",
+     "ability": "ABILITY_OWN_TEMPO",
+     "nature": "NATURE_ADAMANT",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_WATERFALL",
+      "MOVE_GRASSY_GLIDE",
+      "MOVE_ZEN_HEADBUTT",
+      "MOVE_SWORDS_DANCE"
+     ],
+     "source": "Run & Bun",
+     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
+    },
+    {
+     "name": "Emerald Kaizo set (Lv.64)",
+     "role": "attacker",
+     "tier": "emerald-kaizo",
+     "item": "ITEM_LUM_BERRY",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_CALM",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_RAIN_DANCE",
+      "MOVE_ICE_BEAM",
+      "MOVE_GIGA_DRAIN",
+      "MOVE_WATERFALL"
+     ],
+     "source": "Emerald Kaizo",
+     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
     }
    ]
   },
@@ -1726,6 +2637,150 @@
      ],
      "source": "Smogon data.pkmn.cc (gen6 nu)",
      "notes": ""
+    },
+    {
+     "name": "Run & Bun set (Lv.75)",
+     "role": "attacker",
+     "tier": "run-and-bun",
+     "item": "ITEM_BRIGHT_POWDER",
+     "ability": "ABILITY_EARLY_BIRD",
+     "nature": "NATURE_HASTY",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_LEAF_STORM",
+      "MOVE_LEAF_BLADE",
+      "MOVE_NIGHT_SLASH",
+      "MOVE_LOW_KICK"
+     ],
+     "source": "Run & Bun",
+     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
+    },
+    {
+     "name": "Emerald Kaizo set (Lv.60)",
+     "role": "setup sweeper",
+     "tier": "emerald-kaizo",
+     "item": "ITEM_FOCUS_BAND",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_MILD",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_SWORDS_DANCE",
+      "MOVE_EXPLOSION",
+      "MOVE_BRICK_BREAK",
+      "MOVE_SHADOW_BALL"
+     ],
+     "source": "Emerald Kaizo",
+     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
+    },
+    {
+     "name": "Run & Bun set (Lv.44)",
+     "role": "attacker",
+     "tier": "run-and-bun",
+     "item": "ITEM_LUM_BERRY",
+     "ability": "ABILITY_CHLOROPHYLL",
+     "nature": "NATURE_LONELY",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_SOLAR_BLADE",
+      "MOVE_DARK_PULSE",
+      "MOVE_EXPLOSION",
+      "MOVE_HEAT_WAVE"
+     ],
+     "source": "Run & Bun",
+     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
+    },
+    {
+     "name": "Emerald Kaizo set (Lv.56)",
+     "role": "attacker",
+     "tier": "emerald-kaizo",
+     "item": "ITEM_SCOPE_LENS",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_LONELY",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_EXPLOSION",
+      "MOVE_SOLARBEAM",
+      "MOVE_BRICK_BREAK",
+      "MOVE_SHADOW_BALL"
+     ],
+     "source": "Emerald Kaizo",
+     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
+    },
+    {
+     "name": "Emerald Kaizo set (Lv.35)",
+     "role": "attacker",
+     "tier": "emerald-kaizo",
+     "item": "ITEM_FOCUS_BAND",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_IMPISH",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_EXPLOSION",
+      "MOVE_BRICK_BREAK",
+      "MOVE_GIGA_DRAIN",
+      "MOVE_SHADOW_BALL"
+     ],
+     "source": "Emerald Kaizo",
+     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
+    },
+    {
+     "name": "Emerald Kaizo set (Lv.33)",
+     "role": "attacker",
+     "tier": "emerald-kaizo",
+     "item": "ITEM_BLACKGLASSES",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_QUIET",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_GIGA_DRAIN",
+      "MOVE_FAINT_ATTACK",
+      "MOVE_FAKE_OUT",
+      "MOVE_BRICK_BREAK"
+     ],
+     "source": "Emerald Kaizo",
+     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
     }
    ]
   },
@@ -1877,6 +2932,197 @@
      ],
      "source": "Smogon data.pkmn.cc (gen3 ou)",
      "notes": "Return/Quick Attack"
+    },
+    {
+     "name": "Run & Bun set (Lv.96)",
+     "role": "choice attacker",
+     "tier": "run-and-bun",
+     "item": "ITEM_CHOICE_SPECS",
+     "ability": "ABILITY_SCRAPPY",
+     "nature": "NATURE_TIMID",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_BOOMBURST",
+      "MOVE_HURRICANE",
+      "MOVE_U_TURN"
+     ],
+     "source": "Run & Bun",
+     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
+    },
+    {
+     "name": "Emerald Kaizo set (Lv.86)",
+     "role": "attacker",
+     "tier": "emerald-kaizo",
+     "item": "ITEM_LUM_BERRY",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_IMPISH",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_SKY_ATTACK",
+      "MOVE_DOUBLE_EDGE",
+      "MOVE_HEAT_WAVE",
+      "MOVE_HIDDEN_POWER"
+     ],
+     "source": "Emerald Kaizo",
+     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
+    },
+    {
+     "name": "Run & Bun set (Lv.95)",
+     "role": "attacker",
+     "tier": "run-and-bun",
+     "item": "ITEM_LIFE_ORB",
+     "ability": "ABILITY_SCRAPPY",
+     "nature": "NATURE_NAIVE",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_BOOMBURST",
+      "MOVE_BRAVE_BIRD",
+      "MOVE_HEAT_WAVE",
+      "MOVE_U_TURN"
+     ],
+     "source": "Run & Bun",
+     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
+    },
+    {
+     "name": "Emerald Kaizo set (Lv.76)",
+     "role": "attacker",
+     "tier": "emerald-kaizo",
+     "item": "ITEM_QUICK_CLAW",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_MILD",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_TOXIC",
+      "MOVE_AIR_SLASH",
+      "MOVE_FACADE",
+      "MOVE_HIDDEN_POWER"
+     ],
+     "source": "Emerald Kaizo",
+     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
+    },
+    {
+     "name": "Run & Bun set (Lv.59)",
+     "role": "attacker",
+     "tier": "run-and-bun",
+     "item": "ITEM_TOXIC_ORB",
+     "ability": "ABILITY_GUTS",
+     "nature": "NATURE_JOLLY",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_BRAVE_BIRD",
+      "MOVE_FACADE",
+      "MOVE_ENDEAVOR",
+      "MOVE_PROTECT"
+     ],
+     "source": "Run & Bun",
+     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
+    },
+    {
+     "name": "Emerald Kaizo set (Lv.67)",
+     "role": "attacker",
+     "tier": "emerald-kaizo",
+     "item": "ITEM_NONE",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_QUIET",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_FACADE",
+      "MOVE_ENDEAVOR",
+      "MOVE_AERIAL_ACE",
+      "MOVE_AIR_SLASH"
+     ],
+     "source": "Emerald Kaizo",
+     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
+    },
+    {
+     "name": "Run & Bun set (Lv.47)",
+     "role": "attacker",
+     "tier": "run-and-bun",
+     "item": "ITEM_LIFE_ORB",
+     "ability": "ABILITY_SCRAPPY",
+     "nature": "NATURE_HASTY",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_BOOMBURST",
+      "MOVE_BRAVE_BIRD",
+      "MOVE_HEAT_WAVE",
+      "MOVE_QUICK_ATTACK"
+     ],
+     "source": "Run & Bun",
+     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
+    },
+    {
+     "name": "Emerald Kaizo set (Lv.50)",
+     "role": "attacker",
+     "tier": "emerald-kaizo",
+     "item": "ITEM_SILK_SCARF",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_NAIVE",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_QUICK_ATTACK",
+      "MOVE_FACADE",
+      "MOVE_AERIAL_ACE",
+      "MOVE_ENDEAVOR"
+     ],
+     "source": "Emerald Kaizo",
+     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
     }
    ]
   },
@@ -2076,6 +3322,126 @@
      ],
      "source": "Smogon data.pkmn.cc (gen9 partnersincrime)",
      "notes": "Roost/Protect"
+    },
+    {
+     "name": "Run & Bun set (Lv.95)",
+     "role": "attacker",
+     "tier": "run-and-bun",
+     "item": "ITEM_WATER_GEM",
+     "ability": "ABILITY_DRIZZLE",
+     "nature": "NATURE_TIMID",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_HURRICANE",
+      "MOVE_WEATHER_BALL",
+      "MOVE_DETECT",
+      "MOVE_TAILWIND"
+     ],
+     "source": "Run & Bun",
+     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
+    },
+    {
+     "name": "Emerald Kaizo set (Lv.74)",
+     "role": "attacker",
+     "tier": "emerald-kaizo",
+     "item": "ITEM_QUICK_CLAW",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_RASH",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_HYDRO_PUMP",
+      "MOVE_ICE_BEAM",
+      "MOVE_AIR_SLASH",
+      "MOVE_MUD_SHOT"
+     ],
+     "source": "Emerald Kaizo",
+     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
+    },
+    {
+     "name": "Run & Bun set (Lv.94)",
+     "role": "attacker",
+     "tier": "run-and-bun",
+     "item": "ITEM_WACAN_BERRY",
+     "ability": "ABILITY_DRIZZLE",
+     "nature": "NATURE_MODEST",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_HYDRO_PUMP",
+      "MOVE_HURRICANE",
+      "MOVE_ICY_WIND",
+      "MOVE_DETECT"
+     ],
+     "source": "Run & Bun",
+     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
+    },
+    {
+     "name": "Emerald Kaizo set (Lv.64)",
+     "role": "attacker",
+     "tier": "emerald-kaizo",
+     "item": "ITEM_MYSTIC_WATER",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_MODEST",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_WATER_PULSE",
+      "MOVE_HYDRO_PUMP",
+      "MOVE_ICE_BEAM",
+      "MOVE_SKY_ATTACK"
+     ],
+     "source": "Emerald Kaizo",
+     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
+    },
+    {
+     "name": "Run & Bun set (Lv.61)",
+     "role": "attacker",
+     "tier": "run-and-bun",
+     "item": "ITEM_FOCUS_SASH",
+     "ability": "ABILITY_DRIZZLE",
+     "nature": "NATURE_QUIET",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_HURRICANE",
+      "MOVE_U_TURN",
+      "MOVE_KNOCK_OFF",
+      "MOVE_WEATHER_BALL"
+     ],
+     "source": "Run & Bun",
+     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
     }
    ]
   },
@@ -2299,6 +3665,126 @@
      ],
      "source": "Smogon data.pkmn.cc (gen8 monotype)",
      "notes": "Psychic/Healing Wish"
+    },
+    {
+     "name": "Run & Bun set (Lv.97)",
+     "role": "attacker",
+     "tier": "run-and-bun",
+     "item": "ITEM_GARDEVOIRITE",
+     "ability": "ABILITY_SYNCHRONIZE",
+     "nature": "NATURE_TIMID",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_HYPER_VOICE",
+      "MOVE_AURA_SPHERE",
+      "MOVE_DESTINY_BOND",
+      "MOVE_WILL_O_WISP"
+     ],
+     "source": "Run & Bun",
+     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
+    },
+    {
+     "name": "Emerald Kaizo set (Lv.100)",
+     "role": "attacker",
+     "tier": "emerald-kaizo",
+     "item": "ITEM_LUM_BERRY",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_CAREFUL",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_THUNDER_WAVE",
+      "MOVE_PSYCHIC",
+      "MOVE_THUNDERBOLT",
+      "MOVE_FIRE_PUNCH"
+     ],
+     "source": "Emerald Kaizo",
+     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
+    },
+    {
+     "name": "Run & Bun set (Lv.95)",
+     "role": "setup sweeper",
+     "tier": "run-and-bun",
+     "item": "ITEM_GARDEVOIRITE",
+     "ability": "ABILITY_SYNCHRONIZE",
+     "nature": "NATURE_TIMID",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_PSYCHIC",
+      "MOVE_HYPER_VOICE",
+      "MOVE_MYSTICAL_FIRE",
+      "MOVE_CALM_MIND"
+     ],
+     "source": "Run & Bun",
+     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
+    },
+    {
+     "name": "Emerald Kaizo set (Lv.88)",
+     "role": "setup sweeper",
+     "tier": "emerald-kaizo",
+     "item": "ITEM_LUM_BERRY",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_TIMID",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_CALM_MIND",
+      "MOVE_PSYCHIC",
+      "MOVE_FIRE_PUNCH",
+      "MOVE_THUNDERBOLT"
+     ],
+     "source": "Emerald Kaizo",
+     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
+    },
+    {
+     "name": "Run & Bun set (Lv.85)",
+     "role": "attacker",
+     "tier": "run-and-bun",
+     "item": "ITEM_LUM_BERRY",
+     "ability": "ABILITY_TELEPATHY",
+     "nature": "NATURE_TIMID",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_MOONBLAST",
+      "MOVE_ICY_WIND",
+      "MOVE_SHADOW_SNEAK",
+      "MOVE_HELPING_HAND"
+     ],
+     "source": "Run & Bun",
+     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
     }
    ]
   },
@@ -2498,6 +3984,126 @@
      ],
      "source": "Smogon data.pkmn.cc (gen6 ru)",
      "notes": "Substitute/Safeguard"
+    },
+    {
+     "name": "Run & Bun set (Lv.97)",
+     "role": "attacker",
+     "tier": "run-and-bun",
+     "item": "ITEM_GALLADITE",
+     "ability": "ABILITY_INNER_FOCUS",
+     "nature": "NATURE_JOLLY",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_CLOSE_COMBAT",
+      "MOVE_ZEN_HEADBUTT",
+      "MOVE_THROAT_CHOP",
+      "MOVE_HYPNOSIS"
+     ],
+     "source": "Run & Bun",
+     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
+    },
+    {
+     "name": "Run & Bun set (Lv.95)",
+     "role": "attacker",
+     "tier": "run-and-bun",
+     "item": "ITEM_GALLADITE",
+     "ability": "ABILITY_INNER_FOCUS",
+     "nature": "NATURE_JOLLY",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_CLOSE_COMBAT",
+      "MOVE_ZEN_HEADBUTT",
+      "MOVE_POISON_JAB",
+      "MOVE_KNOCK_OFF"
+     ],
+     "source": "Run & Bun",
+     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
+    },
+    {
+     "name": "Run & Bun set (Lv.64)",
+     "role": "setup sweeper",
+     "tier": "run-and-bun",
+     "item": "ITEM_ROOM_SERVICE",
+     "ability": "ABILITY_INNER_FOCUS",
+     "nature": "NATURE_BRAVE",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_CLOSE_COMBAT",
+      "MOVE_ZEN_HEADBUTT",
+      "MOVE_BULK_UP",
+      "MOVE_TRICK_ROOM"
+     ],
+     "source": "Run & Bun",
+     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
+    },
+    {
+     "name": "Run & Bun set (Lv.49)",
+     "role": "attacker",
+     "tier": "run-and-bun",
+     "item": "ITEM_LEFTOVERS",
+     "ability": "ABILITY_INNER_FOCUS",
+     "nature": "NATURE_JOLLY",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_ZEN_HEADBUTT",
+      "MOVE_DRAIN_PUNCH",
+      "MOVE_HYPNOSIS",
+      "MOVE_WILL_O_WISP"
+     ],
+     "source": "Run & Bun",
+     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
+    },
+    {
+     "name": "Run & Bun set (Lv.33)",
+     "role": "setup sweeper",
+     "tier": "run-and-bun",
+     "item": "ITEM_LUM_BERRY",
+     "ability": "ABILITY_INNER_FOCUS",
+     "nature": "NATURE_CAREFUL",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_DRAIN_PUNCH",
+      "MOVE_PSYCHO_CUT",
+      "MOVE_SHADOW_SNEAK",
+      "MOVE_BULK_UP"
+     ],
+     "source": "Run & Bun",
+     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
     }
    ]
   },
@@ -2673,6 +4279,150 @@
      ],
      "source": "Smogon data.pkmn.cc (gen3 pu)",
      "notes": ""
+    },
+    {
+     "name": "Run & Bun set (Lv.88)",
+     "role": "attacker",
+     "tier": "run-and-bun",
+     "item": "ITEM_LIFE_ORB",
+     "ability": "ABILITY_INTIMIDATE",
+     "nature": "NATURE_TIMID",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_BUG_BUZZ",
+      "MOVE_AIR_SLASH",
+      "MOVE_HYDRO_PUMP",
+      "MOVE_STUN_SPORE"
+     ],
+     "source": "Run & Bun",
+     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
+    },
+    {
+     "name": "Emerald Kaizo set (Lv.74)",
+     "role": "attacker",
+     "tier": "emerald-kaizo",
+     "item": "ITEM_QUICK_CLAW",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_JOLLY",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_HYDRO_PUMP",
+      "MOVE_ICE_BEAM",
+      "MOVE_GIGA_DRAIN",
+      "MOVE_STUN_SPORE"
+     ],
+     "source": "Emerald Kaizo",
+     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
+    },
+    {
+     "name": "Run & Bun set (Lv.68)",
+     "role": "hazard setter",
+     "tier": "run-and-bun",
+     "item": "ITEM_FOCUS_SASH",
+     "ability": "ABILITY_INTIMIDATE",
+     "nature": "NATURE_TIMID",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_BUG_BUZZ",
+      "MOVE_HYDRO_PUMP",
+      "MOVE_STICKY_WEB",
+      "MOVE_STUN_SPORE"
+     ],
+     "source": "Run & Bun",
+     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
+    },
+    {
+     "name": "Emerald Kaizo set (Lv.52)",
+     "role": "attacker",
+     "tier": "emerald-kaizo",
+     "item": "ITEM_MYSTIC_WATER",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_TIMID",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_ICE_BEAM",
+      "MOVE_AIR_SLASH",
+      "MOVE_HYDRO_PUMP",
+      "MOVE_SIGNAL_BEAM"
+     ],
+     "source": "Emerald Kaizo",
+     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
+    },
+    {
+     "name": "Run & Bun set (Lv.24)",
+     "role": "attacker",
+     "tier": "run-and-bun",
+     "item": "ITEM_LUM_BERRY",
+     "ability": "ABILITY_INTIMIDATE",
+     "nature": "NATURE_TIMID",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_BUG_BUZZ",
+      "MOVE_AIR_CUTTER",
+      "MOVE_ICE_BEAM",
+      "MOVE_GIGA_DRAIN"
+     ],
+     "source": "Run & Bun",
+     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
+    },
+    {
+     "name": "Emerald Kaizo set (Lv.23)",
+     "role": "attacker",
+     "tier": "emerald-kaizo",
+     "item": "ITEM_SITRUS_BERRY",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_CAREFUL",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_WATER_PULSE",
+      "MOVE_AURORA_BEAM",
+      "MOVE_GIGA_DRAIN",
+      "MOVE_MUD_SHOT"
+     ],
+     "source": "Emerald Kaizo",
+     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
     }
    ]
   },
@@ -2872,6 +4622,150 @@
      ],
      "source": "Smogon data.pkmn.cc (gen7 monotype)",
      "notes": "Rock Tomb/Swords Dance"
+    },
+    {
+     "name": "Run & Bun set (Lv.96)",
+     "role": "setup sweeper",
+     "tier": "run-and-bun",
+     "item": "ITEM_FIGHTING_GEM",
+     "ability": "ABILITY_TECHNICIAN",
+     "nature": "NATURE_JOLLY",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_MACH_PUNCH",
+      "MOVE_BULLET_SEED",
+      "MOVE_ROCK_TOMB",
+      "MOVE_SWORDS_DANCE"
+     ],
+     "source": "Run & Bun",
+     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
+    },
+    {
+     "name": "Emerald Kaizo set (Lv.66)",
+     "role": "attacker",
+     "tier": "emerald-kaizo",
+     "item": "ITEM_SCOPE_LENS",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_JOLLY",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_SPORE",
+      "MOVE_MACH_PUNCH",
+      "MOVE_GIGA_DRAIN",
+      "MOVE_BRICK_BREAK"
+     ],
+     "source": "Emerald Kaizo",
+     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
+    },
+    {
+     "name": "Run & Bun set (Lv.94)",
+     "role": "attacker",
+     "tier": "run-and-bun",
+     "item": "ITEM_FOCUS_SASH",
+     "ability": "ABILITY_TECHNICIAN",
+     "nature": "NATURE_JOLLY",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_CLOSE_COMBAT",
+      "MOVE_MACH_PUNCH",
+      "MOVE_BULLET_SEED",
+      "MOVE_ROCK_TOMB"
+     ],
+     "source": "Run & Bun",
+     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
+    },
+    {
+     "name": "Run & Bun set (Lv.74)",
+     "role": "setup sweeper",
+     "tier": "run-and-bun",
+     "item": "ITEM_FOCUS_SASH",
+     "ability": "ABILITY_TECHNICIAN",
+     "nature": "NATURE_JOLLY",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_FORCE_PALM",
+      "MOVE_MACH_PUNCH",
+      "MOVE_BULLET_SEED",
+      "MOVE_SWORDS_DANCE"
+     ],
+     "source": "Run & Bun",
+     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
+    },
+    {
+     "name": "Run & Bun set (Lv.52)",
+     "role": "setup sweeper",
+     "tier": "run-and-bun",
+     "item": "ITEM_TOXIC_ORB",
+     "ability": "ABILITY_POISON_HEAL",
+     "nature": "NATURE_JOLLY",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_DRAIN_PUNCH",
+      "MOVE_FACADE",
+      "MOVE_BULK_UP",
+      "MOVE_PROTECT"
+     ],
+     "source": "Run & Bun",
+     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
+    },
+    {
+     "name": "Run & Bun set (Lv.47)",
+     "role": "attacker",
+     "tier": "run-and-bun",
+     "item": "ITEM_FIGHTING_GEM",
+     "ability": "ABILITY_TECHNICIAN",
+     "nature": "NATURE_JOLLY",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_SKY_UPPERCUT",
+      "MOVE_MACH_PUNCH",
+      "MOVE_BULLET_SEED",
+      "MOVE_SPORE"
+     ],
+     "source": "Run & Bun",
+     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
     }
    ]
   },
@@ -3047,6 +4941,150 @@
      ],
      "source": "Smogon data.pkmn.cc (gen3 ubers)",
      "notes": "Focus Punch/Earthquake; Hyper Beam/Earthquake"
+    },
+    {
+     "name": "Run & Bun set (Lv.75)",
+     "role": "attacker",
+     "tier": "run-and-bun",
+     "item": "ITEM_EJECT_BUTTON",
+     "ability": "ABILITY_TRUANT",
+     "nature": "NATURE_JOLLY",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_DOUBLE_EDGE",
+      "MOVE_RETALIATE",
+      "MOVE_EARTHQUAKE",
+      "MOVE_CRUNCH"
+     ],
+     "source": "Run & Bun",
+     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
+    },
+    {
+     "name": "Emerald Kaizo set (Lv.95)",
+     "role": "attacker",
+     "tier": "emerald-kaizo",
+     "item": "ITEM_LEFTOVERS",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_JOLLY",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_CRUSH_CLAW",
+      "MOVE_EARTHQUAKE",
+      "MOVE_SHADOW_BALL",
+      "MOVE_SUPERPOWER"
+     ],
+     "source": "Emerald Kaizo",
+     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
+    },
+    {
+     "name": "Run & Bun set (Lv.70)",
+     "role": "attacker",
+     "tier": "run-and-bun",
+     "item": "ITEM_LUM_BERRY",
+     "ability": "ABILITY_TRUANT",
+     "nature": "NATURE_JOLLY",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_RETURN",
+      "MOVE_EARTHQUAKE",
+      "MOVE_FIRE_PUNCH",
+      "MOVE_KNOCK_OFF"
+     ],
+     "source": "Run & Bun",
+     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
+    },
+    {
+     "name": "Emerald Kaizo set (Lv.75)",
+     "role": "attacker",
+     "tier": "emerald-kaizo",
+     "item": "ITEM_QUICK_CLAW",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_NAIVE",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_CRUSH_CLAW",
+      "MOVE_SUPERPOWER",
+      "MOVE_SHADOW_BALL",
+      "MOVE_AERIAL_ACE"
+     ],
+     "source": "Emerald Kaizo",
+     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
+    },
+    {
+     "name": "Emerald Kaizo set (Lv.70)",
+     "role": "attacker",
+     "tier": "emerald-kaizo",
+     "item": "ITEM_LEFTOVERS",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_TIMID",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_DOUBLE_EDGE",
+      "MOVE_SURF",
+      "MOVE_THUNDER",
+      "MOVE_SHADOW_BALL"
+     ],
+     "source": "Emerald Kaizo",
+     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
+    },
+    {
+     "name": "Emerald Kaizo set (Lv.56)",
+     "role": "attacker",
+     "tier": "emerald-kaizo",
+     "item": "ITEM_LUM_BERRY",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_GENTLE",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_HYPER_BEAM",
+      "MOVE_SURF",
+      "MOVE_EARTHQUAKE",
+      "MOVE_SHADOW_BALL"
+     ],
+     "source": "Emerald Kaizo",
+     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
     }
    ]
   },
@@ -3246,6 +5284,149 @@
      ],
      "source": "Smogon data.pkmn.cc (gen4 ubers)",
      "notes": ""
+    },
+    {
+     "name": "Run & Bun set (Lv.76)",
+     "role": "setup sweeper",
+     "tier": "run-and-bun",
+     "item": "ITEM_FOCUS_BAND",
+     "ability": "ABILITY_SPEED_BOOST",
+     "nature": "NATURE_ADAMANT",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_DUAL_WINGBEAT",
+      "MOVE_LEECH_LIFE",
+      "MOVE_PROTECT",
+      "MOVE_SWORDS_DANCE"
+     ],
+     "source": "Run & Bun",
+     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
+    },
+    {
+     "name": "Emerald Kaizo set (Lv.100)",
+     "role": "setup sweeper",
+     "tier": "emerald-kaizo",
+     "item": "ITEM_LUM_BERRY",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_NAUGHTY",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_SWORDS_DANCE",
+      "MOVE_SUBSTITUTE",
+      "MOVE_SILVER_WIND",
+      "MOVE_BATON_PASS"
+     ],
+     "source": "Emerald Kaizo",
+     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
+    },
+    {
+     "name": "Run & Bun set (Lv.39)",
+     "role": "setup sweeper",
+     "tier": "run-and-bun",
+     "item": "ITEM_POWER_HERB",
+     "ability": "ABILITY_SPEED_BOOST",
+     "nature": "NATURE_ADAMANT",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_X_SCISSOR",
+      "MOVE_DUAL_WINGBEAT",
+      "MOVE_DIG",
+      "MOVE_SWORDS_DANCE"
+     ],
+     "source": "Run & Bun",
+     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
+    },
+    {
+     "name": "Emerald Kaizo set (Lv.82)",
+     "role": "attacker",
+     "tier": "emerald-kaizo",
+     "item": "ITEM_LEFTOVERS",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_TIMID",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_SUBSTITUTE",
+      "MOVE_BATON_PASS",
+      "MOVE_DOUBLE_TEAM",
+      "MOVE_X_SCISSOR"
+     ],
+     "source": "Emerald Kaizo",
+     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
+    },
+    {
+     "name": "Run & Bun set (Lv.21)",
+     "role": "attacker",
+     "tier": "run-and-bun",
+     "item": "ITEM_WHITE_HERB",
+     "ability": "ABILITY_SPEED_BOOST",
+     "nature": "NATURE_NAUGHTY",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_LEECH_LIFE",
+      "MOVE_DUAL_WINGBEAT",
+      "MOVE_GIGA_DRAIN"
+     ],
+     "source": "Run & Bun",
+     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
+    },
+    {
+     "name": "Emerald Kaizo set (Lv.75)",
+     "role": "setup sweeper",
+     "tier": "emerald-kaizo",
+     "item": "ITEM_BRIGHTPOWDER",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_JOLLY",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_X_SCISSOR",
+      "MOVE_SHADOW_BALL",
+      "MOVE_HIDDEN_POWER",
+      "MOVE_SWORDS_DANCE"
+     ],
+     "source": "Emerald Kaizo",
+     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
     }
    ]
   },
@@ -3469,6 +5650,54 @@
      ],
      "source": "Smogon data.pkmn.cc (gen3 ubers)",
      "notes": "Toxic/Sleep Talk/Aerial Ace; Hidden Power Fighting/Hidden Power Ground; HP Fighting"
+    },
+    {
+     "name": "Run & Bun set (Lv.22)",
+     "role": "attacker",
+     "tier": "run-and-bun",
+     "item": "ITEM_BRIGHT_POWDER",
+     "ability": "ABILITY_WONDER_GUARD",
+     "nature": "NATURE_QUIET",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_X_SCISSOR",
+      "MOVE_HEX",
+      "MOVE_SHADOW_SNEAK",
+      "MOVE_WILL_O_WISP"
+     ],
+     "source": "Run & Bun",
+     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
+    },
+    {
+     "name": "Emerald Kaizo set (Lv.51)",
+     "role": "attacker",
+     "tier": "emerald-kaizo",
+     "item": "ITEM_FOCUS_BAND",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_NAIVE",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_SHADOW_SNEAK",
+      "MOVE_SHADOW_BALL",
+      "MOVE_X_SCISSOR",
+      "MOVE_RETURN"
+     ],
+     "source": "Emerald Kaizo",
+     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
     }
    ]
   },
@@ -3644,6 +5873,150 @@
      ],
      "source": "Smogon data.pkmn.cc (gen3 ru)",
      "notes": "Fire Blast/Earthquake; Protect/Shadow Ball/Hidden Power Grass/Toxic"
+    },
+    {
+     "name": "Emerald Kaizo set (Lv.74)",
+     "role": "attacker",
+     "tier": "emerald-kaizo",
+     "item": "ITEM_QUICK_CLAW",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_LONELY",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_HYPER_VOICE",
+      "MOVE_EARTHQUAKE",
+      "MOVE_TEETER_DANCE",
+      "MOVE_WATER_PULSE"
+     ],
+     "source": "Emerald Kaizo",
+     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
+    },
+    {
+     "name": "Emerald Kaizo set (Lv.62)",
+     "role": "attacker",
+     "tier": "emerald-kaizo",
+     "item": "ITEM_LUM_BERRY",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_BRAVE",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_OVERHEAT",
+      "MOVE_HYPER_VOICE",
+      "MOVE_SOLARBEAM",
+      "MOVE_EXTRASENSORY"
+     ],
+     "source": "Emerald Kaizo",
+     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
+    },
+    {
+     "name": "Emerald Kaizo set (Lv.59)",
+     "role": "attacker",
+     "tier": "emerald-kaizo",
+     "item": "ITEM_QUICK_CLAW",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_BRAVE",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_HYPER_VOICE",
+      "MOVE_OVERHEAT",
+      "MOVE_SOLARBEAM",
+      "MOVE_ICE_BEAM"
+     ],
+     "source": "Emerald Kaizo",
+     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
+    },
+    {
+     "name": "Emerald Kaizo set (Lv.53)",
+     "role": "attacker",
+     "tier": "emerald-kaizo",
+     "item": "ITEM_SILK_SCARF",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_GENTLE",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_HYPER_VOICE",
+      "MOVE_TEETER_DANCE",
+      "MOVE_EARTHQUAKE",
+      "MOVE_SHADOW_BALL"
+     ],
+     "source": "Emerald Kaizo",
+     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
+    },
+    {
+     "name": "Emerald Kaizo set (Lv.45)",
+     "role": "attacker",
+     "tier": "emerald-kaizo",
+     "item": "ITEM_LEFTOVERS",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_BOLD",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_EARTHQUAKE",
+      "MOVE_HYPER_VOICE",
+      "MOVE_BRICK_BREAK",
+      "MOVE_TEETER_DANCE"
+     ],
+     "source": "Emerald Kaizo",
+     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
+    },
+    {
+     "name": "Emerald Kaizo set (Lv.43)",
+     "role": "attacker",
+     "tier": "emerald-kaizo",
+     "item": "ITEM_NEVERMELTICE",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_BOLD",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_HYPER_VOICE",
+      "MOVE_EARTHQUAKE",
+      "MOVE_ICE_BEAM",
+      "MOVE_FLAMETHROWER"
+     ],
+     "source": "Emerald Kaizo",
+     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
     }
    ]
   },
@@ -3843,6 +6216,150 @@
      ],
      "source": "Smogon data.pkmn.cc (gen6 ru)",
      "notes": "Heavy Slam/Bullet Punch; Ice Punch/Fake Out"
+    },
+    {
+     "name": "Run & Bun set (Lv.78)",
+     "role": "attacker",
+     "tier": "run-and-bun",
+     "item": "ITEM_LIFE_ORB",
+     "ability": "ABILITY_SHEER_FORCE",
+     "nature": "NATURE_JOLLY",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_CLOSE_COMBAT",
+      "MOVE_POISON_JAB",
+      "MOVE_ROCK_SLIDE",
+      "MOVE_THUNDER_PUNCH"
+     ],
+     "source": "Run & Bun",
+     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
+    },
+    {
+     "name": "Emerald Kaizo set (Lv.67)",
+     "role": "attacker",
+     "tier": "emerald-kaizo",
+     "item": "ITEM_NONE",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_CALM",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_SHADOW_PUNCH",
+      "MOVE_ROCK_SLIDE",
+      "MOVE_BODY_SLAM",
+      "MOVE_SUPERPOWER"
+     ],
+     "source": "Emerald Kaizo",
+     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
+    },
+    {
+     "name": "Run & Bun set (Lv.72)",
+     "role": "attacker",
+     "tier": "run-and-bun",
+     "item": "ITEM_FLAME_ORB",
+     "ability": "ABILITY_GUTS",
+     "nature": "NATURE_JOLLY",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_CLOSE_COMBAT",
+      "MOVE_KNOCK_OFF",
+      "MOVE_FAKE_OUT",
+      "MOVE_HEAVY_SLAM"
+     ],
+     "source": "Run & Bun",
+     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
+    },
+    {
+     "name": "Emerald Kaizo set (Lv.44)",
+     "role": "attacker",
+     "tier": "emerald-kaizo",
+     "item": "ITEM_NONE",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_ADAMANT",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_KNOCK_OFF",
+      "MOVE_CROSS_CHOP",
+      "MOVE_SHADOW_PUNCH",
+      "MOVE_ROCK_SLIDE"
+     ],
+     "source": "Emerald Kaizo",
+     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
+    },
+    {
+     "name": "Run & Bun set (Lv.27)",
+     "role": "attacker",
+     "tier": "run-and-bun",
+     "item": "ITEM_LUM_BERRY",
+     "ability": "ABILITY_THICK_FAT",
+     "nature": "NATURE_ADAMANT",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_WAKE_UP_SLAP",
+      "MOVE_ROCK_SLIDE",
+      "MOVE_KNOCK_OFF",
+      "MOVE_FAKE_OUT"
+     ],
+     "source": "Run & Bun",
+     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
+    },
+    {
+     "name": "Emerald Kaizo set (Lv.35)",
+     "role": "attacker",
+     "tier": "emerald-kaizo",
+     "item": "ITEM_BLACK_BELT",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_NAUGHTY",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_FAKE_OUT",
+      "MOVE_BRICK_BREAK",
+      "MOVE_HEADBUTT",
+      "MOVE_ROCK_SLIDE"
+     ],
+     "source": "Emerald Kaizo",
+     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
     }
    ]
   },
@@ -4042,6 +6559,54 @@
      ],
      "source": "Smogon data.pkmn.cc (gen4 uu)",
      "notes": "Taunt/Substitute; Power Gem/Hidden Power Grass/Thunderbolt"
+    },
+    {
+     "name": "Run & Bun set (Lv.46)",
+     "role": "attacker",
+     "tier": "run-and-bun",
+     "item": "ITEM_FOCUS_SASH",
+     "ability": "ABILITY_SAND_FORCE",
+     "nature": "NATURE_QUIET",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_FLASH_CANNON",
+      "MOVE_POWER_GEM",
+      "MOVE_EXPLOSION",
+      "MOVE_ZAP_CANNON"
+     ],
+     "source": "Run & Bun",
+     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
+    },
+    {
+     "name": "Run & Bun set (Lv.26)",
+     "role": "attacker",
+     "tier": "run-and-bun",
+     "item": "ITEM_LEFTOVERS",
+     "ability": "ABILITY_SAND_FORCE",
+     "nature": "NATURE_MODEST",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_POWER_GEM",
+      "MOVE_FLASH_CANNON",
+      "MOVE_EARTH_POWER",
+      "MOVE_THUNDERBOLT"
+     ],
+     "source": "Run & Bun",
+     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
     }
    ]
   },
@@ -4193,6 +6758,78 @@
      ],
      "source": "Smogon data.pkmn.cc (gen3 nu)",
      "notes": ""
+    },
+    {
+     "name": "Emerald Kaizo set (Lv.55)",
+     "role": "attacker",
+     "tier": "emerald-kaizo",
+     "item": "ITEM_SILK_SCARF",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_RELAXED",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_ATTRACT",
+      "MOVE_HYPER_BEAM",
+      "MOVE_FAKE_OUT",
+      "MOVE_SING"
+     ],
+     "source": "Emerald Kaizo",
+     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
+    },
+    {
+     "name": "Emerald Kaizo set (Lv.16)",
+     "role": "attacker",
+     "tier": "emerald-kaizo",
+     "item": "ITEM_SITRUS_BERRY",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_LONELY",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_ATTRACT",
+      "MOVE_ASSIST",
+      "MOVE_THUNDER_WAVE",
+      "MOVE_SECRET_POWER"
+     ],
+     "source": "Emerald Kaizo",
+     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
+    },
+    {
+     "name": "Emerald Kaizo set (Lv.16)",
+     "role": "attacker",
+     "tier": "emerald-kaizo",
+     "item": "ITEM_LEFTOVERS",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_CALM",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_THUNDER_WAVE",
+      "MOVE_ATTRACT",
+      "MOVE_PROTECT",
+      "MOVE_HEADBUTT"
+     ],
+     "source": "Emerald Kaizo",
+     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
     }
    ]
   },
@@ -4416,6 +7053,102 @@
      ],
      "source": "Smogon data.pkmn.cc (gen3 nu)",
      "notes": "HP Dark; Recover/Sleep Talk"
+    },
+    {
+     "name": "Run & Bun set (Lv.97)",
+     "role": "defensive / utility",
+     "tier": "run-and-bun",
+     "item": "ITEM_SABLENITE",
+     "ability": "ABILITY_KEEN_EYE",
+     "nature": "NATURE_CALM",
+     "evs": {
+      "hp": 252,
+      "atk": 0,
+      "def": 128,
+      "spatk": 0,
+      "spdef": 128,
+      "speed": 0
+     },
+     "moves": [
+      "MOVE_SEISMIC_TOSS",
+      "MOVE_HEX",
+      "MOVE_WILL_O_WISP",
+      "MOVE_RECOVER"
+     ],
+     "source": "Run & Bun",
+     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
+    },
+    {
+     "name": "Emerald Kaizo set (Lv.100)",
+     "role": "attacker",
+     "tier": "emerald-kaizo",
+     "item": "ITEM_LUM_BERRY",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_NAIVE",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_SHADOW_SNEAK",
+      "MOVE_SHADOW_BALL",
+      "MOVE_BRICK_BREAK",
+      "MOVE_HIDDEN_POWER"
+     ],
+     "source": "Emerald Kaizo",
+     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
+    },
+    {
+     "name": "Run & Bun set (Lv.27)",
+     "role": "defensive / utility",
+     "tier": "run-and-bun",
+     "item": "ITEM_SITRUS_BERRY",
+     "ability": "ABILITY_PRANKSTER",
+     "nature": "NATURE_BOLD",
+     "evs": {
+      "hp": 252,
+      "atk": 0,
+      "def": 128,
+      "spatk": 0,
+      "spdef": 128,
+      "speed": 0
+     },
+     "moves": [
+      "MOVE_FOUL_PLAY",
+      "MOVE_NIGHT_SHADE",
+      "MOVE_WILL_O_WISP",
+      "MOVE_RECOVER"
+     ],
+     "source": "Run & Bun",
+     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
+    },
+    {
+     "name": "Emerald Kaizo set (Lv.100)",
+     "role": "defensive / utility",
+     "tier": "emerald-kaizo",
+     "item": "ITEM_LUM_BERRY",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_LONELY",
+     "evs": {
+      "hp": 252,
+      "atk": 0,
+      "def": 128,
+      "spatk": 0,
+      "spdef": 128,
+      "speed": 0
+     },
+     "moves": [
+      "MOVE_DOUBLE_TEAM",
+      "MOVE_RECOVER",
+      "MOVE_SHADOW_BALL",
+      "MOVE_BRICK_BREAK"
+     ],
+     "source": "Emerald Kaizo",
+     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
     }
    ]
   },
@@ -4639,6 +7372,53 @@
      ],
      "source": "Smogon data.pkmn.cc (gen5 pu)",
      "notes": "Knock Off/Pain Split"
+    },
+    {
+     "name": "Emerald Kaizo set (Lv.16)",
+     "role": "attacker",
+     "tier": "emerald-kaizo",
+     "item": "ITEM_SITRUS_BERRY",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_SERIOUS",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_BRICK_BREAK",
+      "MOVE_ROCK_TOMB",
+      "MOVE_ATTRACT",
+      "MOVE_ICE_PUNCH"
+     ],
+     "source": "Emerald Kaizo",
+     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
+    },
+    {
+     "name": "Run & Bun set (Lv.13)",
+     "role": "attacker",
+     "tier": "run-and-bun",
+     "item": "ITEM_LEFTOVERS",
+     "ability": "ABILITY_INTIMIDATE",
+     "nature": "NATURE_ADAMANT",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_COVET",
+      "MOVE_METAL_CLAW",
+      "MOVE_FIRE_FANG"
+     ],
+     "source": "Run & Bun",
+     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
     }
    ]
   },
@@ -4886,6 +7666,102 @@
      ],
      "source": "Smogon data.pkmn.cc (gen4 ou)",
      "notes": "Ice Punch/Magnet Rise/Aqua Tail"
+    },
+    {
+     "name": "Run & Bun set (Lv.95)",
+     "role": "hazard setter",
+     "tier": "run-and-bun",
+     "item": "ITEM_CUSTAP_BERRY",
+     "ability": "ABILITY_STURDY",
+     "nature": "NATURE_BRAVE",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_STONE_EDGE",
+      "MOVE_HEAVY_SLAM",
+      "MOVE_METAL_BURST",
+      "MOVE_STEALTH_ROCK"
+     ],
+     "source": "Run & Bun",
+     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
+    },
+    {
+     "name": "Emerald Kaizo set (Lv.64)",
+     "role": "attacker",
+     "tier": "emerald-kaizo",
+     "item": "ITEM_QUICK_CLAW",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_RASH",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_THUNDER_WAVE",
+      "MOVE_HEAD_SMASH",
+      "MOVE_EARTHQUAKE",
+      "MOVE_SUPERPOWER"
+     ],
+     "source": "Emerald Kaizo",
+     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
+    },
+    {
+     "name": "Run & Bun set (Lv.73)",
+     "role": "hazard setter",
+     "tier": "run-and-bun",
+     "item": "ITEM_FOCUS_BAND",
+     "ability": "ABILITY_STURDY",
+     "nature": "NATURE_ADAMANT",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_STONE_EDGE",
+      "MOVE_HEAVY_SLAM",
+      "MOVE_COUNTER",
+      "MOVE_STEALTH_ROCK"
+     ],
+     "source": "Run & Bun",
+     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
+    },
+    {
+     "name": "Emerald Kaizo set (Lv.61)",
+     "role": "attacker",
+     "tier": "emerald-kaizo",
+     "item": "ITEM_FOCUS_BAND",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_ADAMANT",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_COUNTER",
+      "MOVE_HEAD_SMASH",
+      "MOVE_EARTHQUAKE",
+      "MOVE_IRON_TAIL"
+     ],
+     "source": "Emerald Kaizo",
+     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
     }
    ]
   },
@@ -5157,6 +8033,78 @@
      ],
      "source": "Smogon data.pkmn.cc (gen3 ou)",
      "notes": "Substitute/Endure; Focus Punch/Bulk Up"
+    },
+    {
+     "name": "Run & Bun set (Lv.96)",
+     "role": "attacker",
+     "tier": "run-and-bun",
+     "item": "ITEM_FOCUS_SASH",
+     "ability": "ABILITY_PURE_POWER",
+     "nature": "NATURE_JOLLY",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_CLOSE_COMBAT",
+      "MOVE_ZEN_HEADBUTT",
+      "MOVE_REVERSAL",
+      "MOVE_THUNDER_PUNCH"
+     ],
+     "source": "Run & Bun",
+     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
+    },
+    {
+     "name": "Emerald Kaizo set (Lv.100)",
+     "role": "attacker",
+     "tier": "emerald-kaizo",
+     "item": "ITEM_LUM_BERRY",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_CAREFUL",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_FOCUS_PUNCH",
+      "MOVE_SHADOW_BALL",
+      "MOVE_HIDDEN_POWER",
+      "MOVE_ROCK_TOMB"
+     ],
+     "source": "Emerald Kaizo",
+     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
+    },
+    {
+     "name": "Run & Bun set (Lv.84)",
+     "role": "attacker",
+     "tier": "run-and-bun",
+     "item": "ITEM_ROCK_GEM",
+     "ability": "ABILITY_PURE_POWER",
+     "nature": "NATURE_JOLLY",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_CLOSE_COMBAT",
+      "MOVE_ZEN_HEADBUTT",
+      "MOVE_ROCK_SLIDE",
+      "MOVE_FAKE_OUT"
+     ],
+     "source": "Run & Bun",
+     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
     }
    ]
   },
@@ -5332,6 +8280,174 @@
      ],
      "source": "Smogon data.pkmn.cc (gen3 uu)",
      "notes": "Hidden Power Ice/Hidden Power Grass; HP Ice"
+    },
+    {
+     "name": "Run & Bun set (Lv.90)",
+     "role": "attacker",
+     "tier": "run-and-bun",
+     "item": "ITEM_LIFE_ORB",
+     "ability": "ABILITY_LIGHTNING_ROD",
+     "nature": "NATURE_TIMID",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_THUNDERBOLT",
+      "MOVE_FLAMETHROWER",
+      "MOVE_HIDDEN_POWER",
+      "MOVE_PROTECT"
+     ],
+     "source": "Run & Bun",
+     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
+    },
+    {
+     "name": "Emerald Kaizo set (Lv.84)",
+     "role": "attacker",
+     "tier": "emerald-kaizo",
+     "item": "ITEM_LUM_BERRY",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_MODEST",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_THUNDER_WAVE",
+      "MOVE_FLAMETHROWER",
+      "MOVE_THUNDERBOLT",
+      "MOVE_HIDDEN_POWER"
+     ],
+     "source": "Emerald Kaizo",
+     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
+    },
+    {
+     "name": "Run & Bun set (Lv.76)",
+     "role": "attacker",
+     "tier": "run-and-bun",
+     "item": "ITEM_LIFE_ORB",
+     "ability": "ABILITY_STATIC",
+     "nature": "NATURE_TIMID",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_THUNDERBOLT",
+      "MOVE_FLAMETHROWER",
+      "MOVE_HIDDEN_POWER",
+      "MOVE_DOUBLE_TEAM"
+     ],
+     "source": "Run & Bun",
+     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
+    },
+    {
+     "name": "Emerald Kaizo set (Lv.74)",
+     "role": "attacker",
+     "tier": "emerald-kaizo",
+     "item": "ITEM_LUM_BERRY",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_CAREFUL",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_THUNDER_WAVE",
+      "MOVE_THUNDERBOLT",
+      "MOVE_CRUNCH",
+      "MOVE_FLAMETHROWER"
+     ],
+     "source": "Emerald Kaizo",
+     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
+    },
+    {
+     "name": "Run & Bun set (Lv.70)",
+     "role": "attacker",
+     "tier": "run-and-bun",
+     "item": "ITEM_LIFE_ORB",
+     "ability": "ABILITY_STATIC",
+     "nature": "NATURE_TIMID",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_THUNDERBOLT",
+      "MOVE_FLAMETHROWER",
+      "MOVE_HIDDEN_POWER",
+      "MOVE_MAGNET_RISE"
+     ],
+     "source": "Run & Bun",
+     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
+    },
+    {
+     "name": "Emerald Kaizo set (Lv.63)",
+     "role": "attacker",
+     "tier": "emerald-kaizo",
+     "item": "ITEM_SCOPE_LENS",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_MODEST",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_OVERHEAT",
+      "MOVE_THUNDERBOLT",
+      "MOVE_CRUNCH",
+      "MOVE_QUICK_ATTACK"
+     ],
+     "source": "Emerald Kaizo",
+     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
+    },
+    {
+     "name": "Run & Bun set (Lv.27)",
+     "role": "attacker",
+     "tier": "run-and-bun",
+     "item": "ITEM_LUM_BERRY",
+     "ability": "ABILITY_STATIC",
+     "nature": "NATURE_NAIVE",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_THUNDERBOLT",
+      "MOVE_FLAMETHROWER",
+      "MOVE_CRUNCH",
+      "MOVE_ICE_FANG"
+     ],
+     "source": "Run & Bun",
+     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
     }
    ]
   },
@@ -5459,6 +8575,78 @@
      ],
      "source": "Smogon data.pkmn.cc (gen3 nu)",
      "notes": "Hidden Power Ice/Hidden Power Grass; HP Ice; Substitute/Encore"
+    },
+    {
+     "name": "Run & Bun set (Lv.33)",
+     "role": "attacker",
+     "tier": "run-and-bun",
+     "item": "ITEM_SHUCA_BERRY",
+     "ability": "ABILITY_PLUS",
+     "nature": "NATURE_TIMID",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_THUNDERBOLT",
+      "MOVE_SIGNAL_BEAM",
+      "MOVE_HIDDEN_POWER",
+      "MOVE_GRASS_KNOT"
+     ],
+     "source": "Run & Bun",
+     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
+    },
+    {
+     "name": "Emerald Kaizo set (Lv.36)",
+     "role": "attacker",
+     "tier": "emerald-kaizo",
+     "item": "ITEM_MAGNET",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_HASTY",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_THUNDERBOLT",
+      "MOVE_THUNDER_WAVE",
+      "MOVE_SEISMIC_TOSS",
+      "MOVE_SIGNAL_BEAM"
+     ],
+     "source": "Emerald Kaizo",
+     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
+    },
+    {
+     "name": "Emerald Kaizo set (Lv.17)",
+     "role": "attacker",
+     "tier": "emerald-kaizo",
+     "item": "ITEM_NONE",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_TIMID",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_SIGNAL_BEAM",
+      "MOVE_RETURN",
+      "MOVE_SHOCK_WAVE",
+      "MOVE_BRICK_BREAK"
+     ],
+     "source": "Emerald Kaizo",
+     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
     }
    ]
   },
@@ -5634,6 +8822,102 @@
      ],
      "source": "Smogon data.pkmn.cc (gen3 pu)",
      "notes": "Baton Pass/Protect/Thunder Wave; Hidden Power Grass/Hidden Power Ice/Seismic Toss; HP Grass"
+    },
+    {
+     "name": "Run & Bun set (Lv.34)",
+     "role": "attacker",
+     "tier": "run-and-bun",
+     "item": "ITEM_TERRAIN_EXTENDER",
+     "ability": "ABILITY_MINUS",
+     "nature": "NATURE_TIMID",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_THUNDERBOLT",
+      "MOVE_ELECTROWEB",
+      "MOVE_ELECTRIC_TERRAIN",
+      "MOVE_HELPING_HAND"
+     ],
+     "source": "Run & Bun",
+     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
+    },
+    {
+     "name": "Emerald Kaizo set (Lv.22)",
+     "role": "attacker",
+     "tier": "emerald-kaizo",
+     "item": "ITEM_NONE",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_IMPISH",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_THUNDERBOLT",
+      "MOVE_ATTRACT",
+      "MOVE_THUNDER_WAVE",
+      "MOVE_SIGNAL_BEAM"
+     ],
+     "source": "Emerald Kaizo",
+     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
+    },
+    {
+     "name": "Emerald Kaizo set (Lv.17)",
+     "role": "attacker",
+     "tier": "emerald-kaizo",
+     "item": "ITEM_NONE",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_SERIOUS",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_SHOCK_WAVE",
+      "MOVE_HELPING_HAND",
+      "MOVE_THUNDER_WAVE",
+      "MOVE_PROTECT"
+     ],
+     "source": "Emerald Kaizo",
+     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
+    },
+    {
+     "name": "Emerald Kaizo set (Lv.14)",
+     "role": "attacker",
+     "tier": "emerald-kaizo",
+     "item": "ITEM_SITRUS_BERRY",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_MODEST",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_THUNDER_WAVE",
+      "MOVE_THUNDERSHOCK",
+      "MOVE_QUICK_ATTACK",
+      "MOVE_SEISMIC_TOSS"
+     ],
+     "source": "Emerald Kaizo",
+     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
     }
    ]
   },
@@ -5833,6 +9117,54 @@
      ],
      "source": "Smogon data.pkmn.cc (gen3 pu)",
      "notes": ""
+    },
+    {
+     "name": "Run & Bun set (Lv.32)",
+     "role": "attacker",
+     "tier": "run-and-bun",
+     "item": "ITEM_FOCUS_SASH",
+     "ability": "ABILITY_PRANKSTER",
+     "nature": "NATURE_TIMID",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_BUG_BUZZ",
+      "MOVE_DISCHARGE",
+      "MOVE_BATON_PASS",
+      "MOVE_TAIL_GLOW"
+     ],
+     "source": "Run & Bun",
+     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
+    },
+    {
+     "name": "Emerald Kaizo set (Lv.17)",
+     "role": "defensive / utility",
+     "tier": "emerald-kaizo",
+     "item": "ITEM_NONE",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_TIMID",
+     "evs": {
+      "hp": 252,
+      "atk": 0,
+      "def": 128,
+      "spatk": 0,
+      "spdef": 128,
+      "speed": 0
+     },
+     "moves": [
+      "MOVE_GIGA_DRAIN",
+      "MOVE_SILVER_WIND",
+      "MOVE_MOONLIGHT",
+      "MOVE_CONFUSE_RAY"
+     ],
+     "source": "Emerald Kaizo",
+     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
     }
    ]
   },
@@ -6008,6 +9340,30 @@
      ],
      "source": "Smogon data.pkmn.cc (gen3 nu)",
      "notes": "Thunder Wave/Light Screen"
+    },
+    {
+     "name": "Emerald Kaizo set (Lv.17)",
+     "role": "attacker",
+     "tier": "emerald-kaizo",
+     "item": "ITEM_NONE",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_GENTLE",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_SILVER_WIND",
+      "MOVE_GIGA_DRAIN",
+      "MOVE_WATER_PULSE",
+      "MOVE_FLATTER"
+     ],
+     "source": "Emerald Kaizo",
+     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
     }
    ]
   },
@@ -6207,6 +9563,102 @@
      ],
      "source": "Smogon data.pkmn.cc (gen5 uu)",
      "notes": "Rest/Synthesis"
+    },
+    {
+     "name": "Run & Bun set (Lv.94)",
+     "role": "attacker",
+     "tier": "run-and-bun",
+     "item": "ITEM_LIFE_ORB",
+     "ability": "ABILITY_TECHNICIAN",
+     "nature": "NATURE_TIMID",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_SLUDGE_BOMB",
+      "MOVE_GRASS_KNOT",
+      "MOVE_DAZZLING_GLEAM",
+      "MOVE_HIDDEN_POWER"
+     ],
+     "source": "Run & Bun",
+     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
+    },
+    {
+     "name": "Run & Bun set (Lv.90)",
+     "role": "attacker",
+     "tier": "run-and-bun",
+     "item": "ITEM_LIFE_ORB",
+     "ability": "ABILITY_TECHNICIAN",
+     "nature": "NATURE_TIMID",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_SLUDGE_BOMB",
+      "MOVE_GRASS_KNOT",
+      "MOVE_EXTRASENSORY",
+      "MOVE_SLEEP_POWDER"
+     ],
+     "source": "Run & Bun",
+     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
+    },
+    {
+     "name": "Run & Bun set (Lv.86)",
+     "role": "attacker",
+     "tier": "run-and-bun",
+     "item": "ITEM_BRIGHT_POWDER",
+     "ability": "ABILITY_TECHNICIAN",
+     "nature": "NATURE_TIMID",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_ENERGY_BALL",
+      "MOVE_SLUDGE_BOMB",
+      "MOVE_HIDDEN_POWER",
+      "MOVE_SLEEP_POWDER"
+     ],
+     "source": "Run & Bun",
+     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
+    },
+    {
+     "name": "Run & Bun set (Lv.60)",
+     "role": "attacker",
+     "tier": "run-and-bun",
+     "item": "ITEM_BLACK_SLUDGE",
+     "ability": "ABILITY_TECHNICIAN",
+     "nature": "NATURE_TIMID",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_SLUDGE_BOMB",
+      "MOVE_GRASS_KNOT",
+      "MOVE_WEATHER_BALL",
+      "MOVE_SLEEP_POWDER"
+     ],
+     "source": "Run & Bun",
+     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
     }
    ]
   },
@@ -6406,6 +9858,150 @@
      ],
      "source": "Smogon data.pkmn.cc (gen3 nu)",
      "notes": "Ice Beam/Sludge Bomb; Toxic/Hidden Power Ground"
+    },
+    {
+     "name": "Run & Bun set (Lv.95)",
+     "role": "attacker",
+     "tier": "run-and-bun",
+     "item": "ITEM_STARF_BERRY",
+     "ability": "ABILITY_STICKY_HOLD",
+     "nature": "NATURE_RELAXED",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_BELCH",
+      "MOVE_BODY_PRESS",
+      "MOVE_FIRE_PUNCH",
+      "MOVE_STUFF_CHEEKS"
+     ],
+     "source": "Run & Bun",
+     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
+    },
+    {
+     "name": "Emerald Kaizo set (Lv.52)",
+     "role": "attacker",
+     "tier": "emerald-kaizo",
+     "item": "ITEM_POISON_BARB",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_LONELY",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_SLUDGE_BOMB",
+      "MOVE_GIGA_DRAIN",
+      "MOVE_SHADOW_BALL",
+      "MOVE_FIRE_PUNCH"
+     ],
+     "source": "Emerald Kaizo",
+     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
+    },
+    {
+     "name": "Run & Bun set (Lv.59)",
+     "role": "setup sweeper",
+     "tier": "run-and-bun",
+     "item": "ITEM_CUSTAP_BERRY",
+     "ability": "ABILITY_GLUTTONY",
+     "nature": "NATURE_CAREFUL",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_GUNK_SHOT",
+      "MOVE_EXPLOSION",
+      "MOVE_EARTHQUAKE",
+      "MOVE_CURSE"
+     ],
+     "source": "Run & Bun",
+     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
+    },
+    {
+     "name": "Emerald Kaizo set (Lv.48)",
+     "role": "attacker",
+     "tier": "emerald-kaizo",
+     "item": "ITEM_POISON_BARB",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_GENTLE",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_SING",
+      "MOVE_GIGA_DRAIN",
+      "MOVE_SLUDGE_BOMB",
+      "MOVE_BRICK_BREAK"
+     ],
+     "source": "Emerald Kaizo",
+     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
+    },
+    {
+     "name": "Emerald Kaizo set (Lv.43)",
+     "role": "attacker",
+     "tier": "emerald-kaizo",
+     "item": "ITEM_NONE",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_BRAVE",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_EXPLOSION",
+      "MOVE_ICE_BEAM",
+      "MOVE_SHADOW_BALL",
+      "MOVE_GUNK_SHOT"
+     ],
+     "source": "Emerald Kaizo",
+     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
+    },
+    {
+     "name": "Emerald Kaizo set (Lv.35)",
+     "role": "attacker",
+     "tier": "emerald-kaizo",
+     "item": "ITEM_MIRACLE_SEED",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_MODEST",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_SLUDGE_BOMB",
+      "MOVE_GIGA_DRAIN",
+      "MOVE_SHADOW_BALL",
+      "MOVE_BRICK_BREAK"
+     ],
+     "source": "Emerald Kaizo",
+     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
     }
    ]
   },
@@ -6629,6 +10225,126 @@
      ],
      "source": "Smogon data.pkmn.cc (gen4 uu)",
      "notes": "Surf/Hydro Pump; HP Grass; Substitute/Dark Pulse"
+    },
+    {
+     "name": "Run & Bun set (Lv.95)",
+     "role": "attacker",
+     "tier": "run-and-bun",
+     "item": "ITEM_FOCUS_SASH",
+     "ability": "ABILITY_SPEED_BOOST",
+     "nature": "NATURE_TIMID",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_HYDRO_PUMP",
+      "MOVE_DARK_PULSE",
+      "MOVE_ICY_WIND",
+      "MOVE_DESTINY_BOND"
+     ],
+     "source": "Run & Bun",
+     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
+    },
+    {
+     "name": "Emerald Kaizo set (Lv.53)",
+     "role": "attacker",
+     "tier": "emerald-kaizo",
+     "item": "ITEM_FOCUS_BAND",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_TIMID",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_CRUNCH",
+      "MOVE_EARTHQUAKE",
+      "MOVE_POISON_FANG",
+      "MOVE_SURF"
+     ],
+     "source": "Emerald Kaizo",
+     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
+    },
+    {
+     "name": "Run & Bun set (Lv.91)",
+     "role": "attacker",
+     "tier": "run-and-bun",
+     "item": "ITEM_LIFE_ORB",
+     "ability": "ABILITY_SPEED_BOOST",
+     "nature": "NATURE_JOLLY",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_CRUNCH",
+      "MOVE_CLOSE_COMBAT",
+      "MOVE_PSYCHIC_FANGS",
+      "MOVE_PROTECT"
+     ],
+     "source": "Run & Bun",
+     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
+    },
+    {
+     "name": "Run & Bun set (Lv.88)",
+     "role": "attacker",
+     "tier": "run-and-bun",
+     "item": "ITEM_BRIGHT_POWDER",
+     "ability": "ABILITY_SPEED_BOOST",
+     "nature": "NATURE_RASH",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_HYDRO_PUMP",
+      "MOVE_DARK_PULSE",
+      "MOVE_PSYCHIC_FANGS",
+      "MOVE_PROTECT"
+     ],
+     "source": "Run & Bun",
+     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
+    },
+    {
+     "name": "Run & Bun set (Lv.79)",
+     "role": "attacker",
+     "tier": "run-and-bun",
+     "item": "ITEM_FOCUS_BAND",
+     "ability": "ABILITY_SPEED_BOOST",
+     "nature": "NATURE_LONELY",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_WATERFALL",
+      "MOVE_DARK_PULSE",
+      "MOVE_ICE_BEAM",
+      "MOVE_EARTHQUAKE"
+     ],
+     "source": "Run & Bun",
+     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
     }
    ]
   },
@@ -6780,6 +10496,172 @@
      ],
      "source": "Smogon data.pkmn.cc (gen3 nu)",
      "notes": ""
+    },
+    {
+     "name": "Run & Bun set (Lv.84)",
+     "role": "attacker",
+     "tier": "run-and-bun",
+     "item": "ITEM_WATER_GEM",
+     "ability": "ABILITY_OBLIVIOUS",
+     "nature": "NATURE_HASTY",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_WATER_SPOUT",
+      "MOVE_HYDRO_PUMP",
+      "MOVE_SELF_DESTRUCT"
+     ],
+     "source": "Run & Bun",
+     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
+    },
+    {
+     "name": "Emerald Kaizo set (Lv.100)",
+     "role": "attacker",
+     "tier": "emerald-kaizo",
+     "item": "ITEM_LUM_BERRY",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_LAX",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_HYPER_VOICE",
+      "MOVE_WATER_SPOUT",
+      "MOVE_SELF_DESTRUCT",
+      "MOVE_AMNESIA"
+     ],
+     "source": "Emerald Kaizo",
+     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
+    },
+    {
+     "name": "Run & Bun set (Lv.62)",
+     "role": "attacker",
+     "tier": "run-and-bun",
+     "item": "ITEM_LIFE_ORB",
+     "ability": "ABILITY_OBLIVIOUS",
+     "nature": "NATURE_QUIET",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_WATER_SPOUT",
+      "MOVE_SURF",
+      "MOVE_EXPLOSION"
+     ],
+     "source": "Run & Bun",
+     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
+    },
+    {
+     "name": "Emerald Kaizo set (Lv.85)",
+     "role": "defensive / utility",
+     "tier": "emerald-kaizo",
+     "item": "ITEM_LEFTOVERS",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_CALM",
+     "evs": {
+      "hp": 252,
+      "atk": 0,
+      "def": 128,
+      "spatk": 0,
+      "spdef": 128,
+      "speed": 0
+     },
+     "moves": [
+      "MOVE_TOXIC",
+      "MOVE_PROTECT",
+      "MOVE_REST",
+      "MOVE_HAIL"
+     ],
+     "source": "Emerald Kaizo",
+     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
+    },
+    {
+     "name": "Emerald Kaizo set (Lv.67)",
+     "role": "defensive / utility",
+     "tier": "emerald-kaizo",
+     "item": "ITEM_LEFTOVERS",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_MODEST",
+     "evs": {
+      "hp": 252,
+      "atk": 0,
+      "def": 128,
+      "spatk": 0,
+      "spdef": 128,
+      "speed": 0
+     },
+     "moves": [
+      "MOVE_AMNESIA",
+      "MOVE_EARTHQUAKE",
+      "MOVE_ICE_BEAM",
+      "MOVE_REST"
+     ],
+     "source": "Emerald Kaizo",
+     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
+    },
+    {
+     "name": "Emerald Kaizo set (Lv.60)",
+     "role": "attacker",
+     "tier": "emerald-kaizo",
+     "item": "ITEM_LEFTOVERS",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_RELAXED",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_TOXIC",
+      "MOVE_PROTECT",
+      "MOVE_ICE_BEAM",
+      "MOVE_EARTHQUAKE"
+     ],
+     "source": "Emerald Kaizo",
+     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
+    },
+    {
+     "name": "Emerald Kaizo set (Lv.57)",
+     "role": "attacker",
+     "tier": "emerald-kaizo",
+     "item": "ITEM_QUICK_CLAW",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_ADAMANT",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_SELF_DESTRUCT",
+      "MOVE_WATER_SPOUT",
+      "MOVE_EARTHQUAKE",
+      "MOVE_ICE_BEAM"
+     ],
+     "source": "Emerald Kaizo",
+     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
     }
    ]
   },
@@ -7027,6 +10909,102 @@
      ],
      "source": "Smogon data.pkmn.cc (gen4 uu)",
      "notes": "Explosion/Stone Edge"
+    },
+    {
+     "name": "Run & Bun set (Lv.76)",
+     "role": "attacker",
+     "tier": "run-and-bun",
+     "item": "ITEM_QUICK_CLAW",
+     "ability": "ABILITY_OWN_TEMPO",
+     "nature": "NATURE_QUIET",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_ERUPTION",
+      "MOVE_EARTHQUAKE",
+      "MOVE_EXPLOSION",
+      "MOVE_STONE_EDGE"
+     ],
+     "source": "Run & Bun",
+     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
+    },
+    {
+     "name": "Emerald Kaizo set (Lv.36)",
+     "role": "attacker",
+     "tier": "emerald-kaizo",
+     "item": "ITEM_QUICK_CLAW",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_TIMID",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_EARTHQUAKE",
+      "MOVE_FLAMETHROWER",
+      "MOVE_ROCK_SLIDE",
+      "MOVE_BODY_SLAM"
+     ],
+     "source": "Emerald Kaizo",
+     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
+    },
+    {
+     "name": "Run & Bun set (Lv.54)",
+     "role": "attacker",
+     "tier": "run-and-bun",
+     "item": "ITEM_CAMERUPTITE",
+     "ability": "ABILITY_OWN_TEMPO",
+     "nature": "NATURE_QUIET",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_EARTH_POWER",
+      "MOVE_FLAMETHROWER",
+      "MOVE_ROCK_SLIDE",
+      "MOVE_SUBSTITUTE"
+     ],
+     "source": "Run & Bun",
+     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
+    },
+    {
+     "name": "Run & Bun set (Lv.52)",
+     "role": "attacker",
+     "tier": "run-and-bun",
+     "item": "ITEM_FIRE_GEM",
+     "ability": "ABILITY_SOLID_ROCK",
+     "nature": "NATURE_QUIET",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_ERUPTION",
+      "MOVE_EARTH_POWER",
+      "MOVE_FLAMETHROWER",
+      "MOVE_ROCK_SLIDE"
+     ],
+     "source": "Run & Bun",
+     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
     }
    ]
   },
@@ -7226,6 +11204,150 @@
      ],
      "source": "Smogon data.pkmn.cc (gen6 pu)",
      "notes": ""
+    },
+    {
+     "name": "Run & Bun set (Lv.74)",
+     "role": "setup sweeper",
+     "tier": "run-and-bun",
+     "item": "ITEM_QUICK_CLAW",
+     "ability": "ABILITY_DROUGHT",
+     "nature": "NATURE_QUIET",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_FIRE_BLAST",
+      "MOVE_SOLAR_BEAM",
+      "MOVE_EXPLOSION",
+      "MOVE_SHELL_SMASH"
+     ],
+     "source": "Run & Bun",
+     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
+    },
+    {
+     "name": "Emerald Kaizo set (Lv.63)",
+     "role": "setup sweeper",
+     "tier": "emerald-kaizo",
+     "item": "ITEM_LEFTOVERS",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_SASSY",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_CURSE",
+      "MOVE_EARTHQUAKE",
+      "MOVE_HEAT_WAVE",
+      "MOVE_REST"
+     ],
+     "source": "Emerald Kaizo",
+     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
+    },
+    {
+     "name": "Run & Bun set (Lv.56)",
+     "role": "attacker",
+     "tier": "run-and-bun",
+     "item": "ITEM_CUSTAP_BERRY",
+     "ability": "ABILITY_DROUGHT",
+     "nature": "NATURE_RELAXED",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_FIRE_BLAST",
+      "MOVE_EXPLOSION",
+      "MOVE_EARTH_POWER",
+      "MOVE_BODY_PRESS"
+     ],
+     "source": "Run & Bun",
+     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
+    },
+    {
+     "name": "Emerald Kaizo set (Lv.45)",
+     "role": "attacker",
+     "tier": "emerald-kaizo",
+     "item": "ITEM_QUICK_CLAW",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_CAREFUL",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_FLAMETHROWER",
+      "MOVE_EXPLOSION",
+      "MOVE_EARTH_POWER",
+      "MOVE_SUPERPOWER"
+     ],
+     "source": "Emerald Kaizo",
+     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
+    },
+    {
+     "name": "Run & Bun set (Lv.54)",
+     "role": "attacker",
+     "tier": "run-and-bun",
+     "item": "ITEM_QUICK_CLAW",
+     "ability": "ABILITY_DROUGHT",
+     "nature": "NATURE_QUIET",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_FLAMETHROWER",
+      "MOVE_EXPLOSION",
+      "MOVE_SOLAR_BEAM",
+      "MOVE_EARTH_POWER"
+     ],
+     "source": "Run & Bun",
+     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
+    },
+    {
+     "name": "Emerald Kaizo set (Lv.35)",
+     "role": "attacker",
+     "tier": "emerald-kaizo",
+     "item": "ITEM_QUICK_CLAW",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_SASSY",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_OVERHEAT",
+      "MOVE_EARTHQUAKE",
+      "MOVE_BODY_SLAM",
+      "MOVE_ROCK_SLIDE"
+     ],
+     "source": "Emerald Kaizo",
+     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
     }
    ]
   },
@@ -7473,6 +11595,102 @@
      ],
      "source": "Smogon data.pkmn.cc (gen4 uu)",
      "notes": ""
+    },
+    {
+     "name": "Run & Bun set (Lv.33)",
+     "role": "attacker",
+     "tier": "run-and-bun",
+     "item": "ITEM_SALAC_BERRY",
+     "ability": "ABILITY_GLUTTONY",
+     "nature": "NATURE_MODEST",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_EXTRASENSORY",
+      "MOVE_FOCUS_BLAST",
+      "MOVE_POWER_GEM",
+      "MOVE_REFLECT"
+     ],
+     "source": "Run & Bun",
+     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
+    },
+    {
+     "name": "Emerald Kaizo set (Lv.87)",
+     "role": "attacker",
+     "tier": "emerald-kaizo",
+     "item": "ITEM_LEFTOVERS",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_IMPISH",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_TOXIC",
+      "MOVE_PROTECT",
+      "MOVE_PSYCHIC",
+      "MOVE_FIRE_PUNCH"
+     ],
+     "source": "Emerald Kaizo",
+     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
+    },
+    {
+     "name": "Emerald Kaizo set (Lv.81)",
+     "role": "setup sweeper",
+     "tier": "emerald-kaizo",
+     "item": "ITEM_LEFTOVERS",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_QUIET",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_CALM_MIND",
+      "MOVE_PSYCHIC",
+      "MOVE_FIRE_PUNCH",
+      "MOVE_THUNDERPUNCH"
+     ],
+     "source": "Emerald Kaizo",
+     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
+    },
+    {
+     "name": "Emerald Kaizo set (Lv.74)",
+     "role": "attacker",
+     "tier": "emerald-kaizo",
+     "item": "ITEM_QUICK_CLAW",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_CALM",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_REFLECT",
+      "MOVE_PSYCHIC",
+      "MOVE_FIRE_PUNCH",
+      "MOVE_THUNDERPUNCH"
+     ],
+     "source": "Emerald Kaizo",
+     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
     }
    ]
   },
@@ -7672,6 +11890,78 @@
      ],
      "source": "Smogon data.pkmn.cc (gen4 uu)",
      "notes": ""
+    },
+    {
+     "name": "Run & Bun set (Lv.53)",
+     "role": "attacker",
+     "tier": "run-and-bun",
+     "item": "ITEM_CHOPLE_BERRY",
+     "ability": "ABILITY_CONTRARY",
+     "nature": "NATURE_IMPISH",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_DIZZY_PUNCH",
+      "MOVE_SUPERPOWER",
+      "MOVE_PSYCHO_CUT",
+      "MOVE_HYPNOSIS"
+     ],
+     "source": "Run & Bun",
+     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
+    },
+    {
+     "name": "Emerald Kaizo set (Lv.54)",
+     "role": "attacker",
+     "tier": "emerald-kaizo",
+     "item": "ITEM_SILK_SCARF",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_RELAXED",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_TEETER_DANCE",
+      "MOVE_DOUBLE_EDGE",
+      "MOVE_SHADOW_BALL",
+      "MOVE_BRICK_BREAK"
+     ],
+     "source": "Emerald Kaizo",
+     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
+    },
+    {
+     "name": "Emerald Kaizo set (Lv.34)",
+     "role": "attacker",
+     "tier": "emerald-kaizo",
+     "item": "ITEM_TWISTEDSPOON",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_LAX",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_TEETER_DANCE",
+      "MOVE_SECRET_POWER",
+      "MOVE_PSYCHIC",
+      "MOVE_BRICK_BREAK"
+     ],
+     "source": "Emerald Kaizo",
+     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
     }
    ]
   },
@@ -7871,6 +12161,150 @@
      ],
      "source": "Smogon data.pkmn.cc (gen8 uu)",
      "notes": ""
+    },
+    {
+     "name": "Run & Bun set (Lv.74)",
+     "role": "setup sweeper",
+     "tier": "run-and-bun",
+     "item": "ITEM_BRIGHT_POWDER",
+     "ability": "ABILITY_LEVITATE",
+     "nature": "NATURE_JOLLY",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_EARTHQUAKE",
+      "MOVE_SCALE_SHOT",
+      "MOVE_FIRE_PUNCH",
+      "MOVE_DRAGON_DANCE"
+     ],
+     "source": "Run & Bun",
+     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
+    },
+    {
+     "name": "Emerald Kaizo set (Lv.86)",
+     "role": "setup sweeper",
+     "tier": "emerald-kaizo",
+     "item": "ITEM_LUM_BERRY",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_CALM",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_EARTHQUAKE",
+      "MOVE_DRAGON_DANCE",
+      "MOVE_ANCIENTPOWER",
+      "MOVE_SIGNAL_BEAM"
+     ],
+     "source": "Emerald Kaizo",
+     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
+    },
+    {
+     "name": "Run & Bun set (Lv.60)",
+     "role": "setup sweeper",
+     "tier": "run-and-bun",
+     "item": "ITEM_YACHE_BERRY",
+     "ability": "ABILITY_LEVITATE",
+     "nature": "NATURE_ADAMANT",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_EARTHQUAKE",
+      "MOVE_DRAGON_CLAW",
+      "MOVE_DRAGON_DANCE",
+      "MOVE_ROOST"
+     ],
+     "source": "Run & Bun",
+     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
+    },
+    {
+     "name": "Emerald Kaizo set (Lv.75)",
+     "role": "attacker",
+     "tier": "emerald-kaizo",
+     "item": "ITEM_QUICK_CLAW",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_SASSY",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_EARTH_POWER",
+      "MOVE_ANCIENTPOWER",
+      "MOVE_SIGNAL_BEAM",
+      "MOVE_GIGA_DRAIN"
+     ],
+     "source": "Emerald Kaizo",
+     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
+    },
+    {
+     "name": "Run & Bun set (Lv.56)",
+     "role": "attacker",
+     "tier": "run-and-bun",
+     "item": "ITEM_LIFE_ORB",
+     "ability": "ABILITY_LEVITATE",
+     "nature": "NATURE_LONELY",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_EARTHQUAKE",
+      "MOVE_SCALE_SHOT",
+      "MOVE_FIRE_BLAST",
+      "MOVE_GIGA_DRAIN"
+     ],
+     "source": "Run & Bun",
+     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
+    },
+    {
+     "name": "Emerald Kaizo set (Lv.71)",
+     "role": "attacker",
+     "tier": "emerald-kaizo",
+     "item": "ITEM_LUM_BERRY",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_LAX",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_EARTHQUAKE",
+      "MOVE_DRAGON_CLAW",
+      "MOVE_SIGNAL_BEAM",
+      "MOVE_FLAMETHROWER"
+     ],
+     "source": "Emerald Kaizo",
+     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
     }
    ]
   },
@@ -8118,6 +12552,102 @@
      ],
      "source": "Smogon data.pkmn.cc (gen4 uu)",
      "notes": "Synthesis/Substitute; Dark Pulse/Leech Seed/Encore"
+    },
+    {
+     "name": "Run & Bun set (Lv.75)",
+     "role": "setup sweeper",
+     "tier": "run-and-bun",
+     "item": "ITEM_QUICK_CLAW",
+     "ability": "ABILITY_WATER_ABSORB",
+     "nature": "NATURE_BRAVE",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_DARK_PULSE",
+      "MOVE_SEED_BOMB",
+      "MOVE_DRAIN_PUNCH",
+      "MOVE_GROWTH"
+     ],
+     "source": "Run & Bun",
+     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
+    },
+    {
+     "name": "Emerald Kaizo set (Lv.40)",
+     "role": "attacker",
+     "tier": "emerald-kaizo",
+     "item": "ITEM_BRIGHTPOWDER",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_CAREFUL",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_NEEDLE_ARM",
+      "MOVE_BRICK_BREAK",
+      "MOVE_FAINT_ATTACK",
+      "MOVE_THUNDERPUNCH"
+     ],
+     "source": "Emerald Kaizo",
+     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
+    },
+    {
+     "name": "Run & Bun set (Lv.43)",
+     "role": "attacker",
+     "tier": "run-and-bun",
+     "item": "ITEM_BRIGHT_POWDER",
+     "ability": "ABILITY_SAND_VEIL",
+     "nature": "NATURE_ADAMANT",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_SEED_BOMB",
+      "MOVE_PAYBACK",
+      "MOVE_FOCUS_PUNCH",
+      "MOVE_SUBSTITUTE"
+     ],
+     "source": "Run & Bun",
+     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
+    },
+    {
+     "name": "Emerald Kaizo set (Lv.27)",
+     "role": "attacker",
+     "tier": "emerald-kaizo",
+     "item": "ITEM_SCOPE_LENS",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_TIMID",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_MAGICAL_LEAF",
+      "MOVE_FAINT_ATTACK",
+      "MOVE_REVENGE",
+      "MOVE_SLEEP_TALK"
+     ],
+     "source": "Emerald Kaizo",
+     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
     }
    ]
   },
@@ -8365,6 +12895,102 @@
      ],
      "source": "Smogon data.pkmn.cc (gen6 pu)",
      "notes": "Cotton Guard/Heal Bell/Substitute"
+    },
+    {
+     "name": "Run & Bun set (Lv.70)",
+     "role": "defensive / utility",
+     "tier": "run-and-bun",
+     "item": "ITEM_ALTARIANITE",
+     "ability": "ABILITY_NATURAL_CURE",
+     "nature": "NATURE_NAIVE",
+     "evs": {
+      "hp": 252,
+      "atk": 0,
+      "def": 128,
+      "spatk": 0,
+      "spdef": 128,
+      "speed": 0
+     },
+     "moves": [
+      "MOVE_EARTHQUAKE",
+      "MOVE_HYPER_VOICE",
+      "MOVE_FLAMETHROWER",
+      "MOVE_ROOST"
+     ],
+     "source": "Run & Bun",
+     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
+    },
+    {
+     "name": "Emerald Kaizo set (Lv.74)",
+     "role": "setup sweeper",
+     "tier": "emerald-kaizo",
+     "item": "ITEM_LEFTOVERS",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_IMPISH",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_DRAGON_DANCE",
+      "MOVE_SKY_ATTACK",
+      "MOVE_EARTHQUAKE",
+      "MOVE_HIDDEN_POWER"
+     ],
+     "source": "Emerald Kaizo",
+     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
+    },
+    {
+     "name": "Emerald Kaizo set (Lv.67)",
+     "role": "attacker",
+     "tier": "emerald-kaizo",
+     "item": "ITEM_NONE",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_HASTY",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_AIR_SLASH",
+      "MOVE_DRAGON_CLAW",
+      "MOVE_ROAR",
+      "MOVE_HEAL_BELL"
+     ],
+     "source": "Emerald Kaizo",
+     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
+    },
+    {
+     "name": "Emerald Kaizo set (Lv.66)",
+     "role": "attacker",
+     "tier": "emerald-kaizo",
+     "item": "ITEM_DRAGON_FANG",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_BOLD",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_DRAGON_CLAW",
+      "MOVE_FLAMETHROWER",
+      "MOVE_ICE_BEAM",
+      "MOVE_SING"
+     ],
+     "source": "Emerald Kaizo",
+     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
     }
    ]
   },
@@ -8588,6 +13214,78 @@
      ],
      "source": "Smogon data.pkmn.cc (gen3 ou)",
      "notes": "Brick Break/Hidden Power Ground"
+    },
+    {
+     "name": "Run & Bun set (Lv.94)",
+     "role": "setup sweeper",
+     "tier": "run-and-bun",
+     "item": "ITEM_SITRUS_BERRY",
+     "ability": "ABILITY_TOXIC_BOOST",
+     "nature": "NATURE_JOLLY",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_QUICK_ATTACK",
+      "MOVE_CLOSE_COMBAT",
+      "MOVE_NIGHT_SLASH",
+      "MOVE_BELLY_DRUM"
+     ],
+     "source": "Run & Bun",
+     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
+    },
+    {
+     "name": "Emerald Kaizo set (Lv.87)",
+     "role": "attacker",
+     "tier": "emerald-kaizo",
+     "item": "ITEM_CHESTO_BERRY",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_BOLD",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_CRUSH_CLAW",
+      "MOVE_SUPERPOWER",
+      "MOVE_SHADOW_BALL",
+      "MOVE_THUNDER_WAVE"
+     ],
+     "source": "Emerald Kaizo",
+     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
+    },
+    {
+     "name": "Run & Bun set (Lv.51)",
+     "role": "attacker",
+     "tier": "run-and-bun",
+     "item": "ITEM_TOXIC_ORB",
+     "ability": "ABILITY_TOXIC_BOOST",
+     "nature": "NATURE_JOLLY",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_FACADE",
+      "MOVE_CLOSE_COMBAT",
+      "MOVE_NIGHT_SLASH",
+      "MOVE_DETECT"
+     ],
+     "source": "Run & Bun",
+     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
     }
    ]
   },
@@ -8787,6 +13485,78 @@
      ],
      "source": "Smogon data.pkmn.cc (gen3 nu)",
      "notes": "HP Ghost; Iron Tail/Double-Edge"
+    },
+    {
+     "name": "Run & Bun set (Lv.74)",
+     "role": "attacker",
+     "tier": "run-and-bun",
+     "item": "ITEM_QUICK_CLAW",
+     "ability": "ABILITY_SHED_SKIN",
+     "nature": "NATURE_LONELY",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_GUNK_SHOT",
+      "MOVE_FIRE_BLAST",
+      "MOVE_EARTHQUAKE",
+      "MOVE_GIGA_DRAIN"
+     ],
+     "source": "Run & Bun",
+     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
+    },
+    {
+     "name": "Emerald Kaizo set (Lv.45)",
+     "role": "attacker",
+     "tier": "emerald-kaizo",
+     "item": "ITEM_KINGS_ROCK",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_QUIET",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_GLARE",
+      "MOVE_POISON_TAIL",
+      "MOVE_EARTHQUAKE",
+      "MOVE_GIGA_DRAIN"
+     ],
+     "source": "Emerald Kaizo",
+     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
+    },
+    {
+     "name": "Run & Bun set (Lv.46)",
+     "role": "attacker",
+     "tier": "run-and-bun",
+     "item": "ITEM_SHUCA_BERRY",
+     "ability": "ABILITY_SHED_SKIN",
+     "nature": "NATURE_HASTY",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_SLUDGE_BOMB",
+      "MOVE_FLAMETHROWER",
+      "MOVE_GIGA_DRAIN",
+      "MOVE_EARTHQUAKE"
+     ],
+     "source": "Run & Bun",
+     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
     }
    ]
   },
@@ -9010,6 +13780,126 @@
      ],
      "source": "Smogon data.pkmn.cc (gen3 uu)",
      "notes": ""
+    },
+    {
+     "name": "Run & Bun set (Lv.52)",
+     "role": "attacker",
+     "tier": "run-and-bun",
+     "item": "ITEM_ROOM_SERVICE",
+     "ability": "ABILITY_LEVITATE",
+     "nature": "NATURE_QUIET",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_PSYCHIC",
+      "MOVE_POWER_GEM",
+      "MOVE_EXPLOSION",
+      "MOVE_TRICK_ROOM"
+     ],
+     "source": "Run & Bun",
+     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
+    },
+    {
+     "name": "Emerald Kaizo set (Lv.74)",
+     "role": "attacker",
+     "tier": "emerald-kaizo",
+     "item": "ITEM_LUM_BERRY",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_LONELY",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_HYPNOSIS",
+      "MOVE_PSYCHIC",
+      "MOVE_ICE_BEAM",
+      "MOVE_HIDDEN_POWER"
+     ],
+     "source": "Emerald Kaizo",
+     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
+    },
+    {
+     "name": "Run & Bun set (Lv.25)",
+     "role": "attacker",
+     "tier": "run-and-bun",
+     "item": "ITEM_WEAKNESS_POLICY",
+     "ability": "ABILITY_LEVITATE",
+     "nature": "NATURE_TIMID",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_STORED_POWER",
+      "MOVE_ANCIENT_POWER",
+      "MOVE_ICY_WIND",
+      "MOVE_HYPNOSIS"
+     ],
+     "source": "Run & Bun",
+     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
+    },
+    {
+     "name": "Emerald Kaizo set (Lv.51)",
+     "role": "setup sweeper",
+     "tier": "emerald-kaizo",
+     "item": "ITEM_LEFTOVERS",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_RASH",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_PSYCHIC",
+      "MOVE_ICE_BEAM",
+      "MOVE_CALM_MIND",
+      "MOVE_MOONLIGHT"
+     ],
+     "source": "Emerald Kaizo",
+     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
+    },
+    {
+     "name": "Emerald Kaizo set (Lv.51)",
+     "role": "attacker",
+     "tier": "emerald-kaizo",
+     "item": "ITEM_SCOPE_LENS",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_CALM",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_HYPNOSIS",
+      "MOVE_PSYCHIC",
+      "MOVE_EXPLOSION",
+      "MOVE_ICE_BEAM"
+     ],
+     "source": "Emerald Kaizo",
+     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
     }
    ]
   },
@@ -9233,6 +14123,126 @@
      ],
      "source": "Smogon data.pkmn.cc (gen3 uu)",
      "notes": ""
+    },
+    {
+     "name": "Run & Bun set (Lv.75)",
+     "role": "attacker",
+     "tier": "run-and-bun",
+     "item": "ITEM_BRIGHT_POWDER",
+     "ability": "ABILITY_LEVITATE",
+     "nature": "NATURE_JOLLY",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_STONE_EDGE",
+      "MOVE_ZEN_HEADBUTT",
+      "MOVE_EXPLOSION",
+      "MOVE_WILL_O_WISP"
+     ],
+     "source": "Run & Bun",
+     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
+    },
+    {
+     "name": "Emerald Kaizo set (Lv.74)",
+     "role": "attacker",
+     "tier": "emerald-kaizo",
+     "item": "ITEM_SALAC_BERRY",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_ADAMANT",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_EXPLOSION",
+      "MOVE_ANCIENTPOWER",
+      "MOVE_EARTHQUAKE",
+      "MOVE_SHADOW_BALL"
+     ],
+     "source": "Emerald Kaizo",
+     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
+    },
+    {
+     "name": "Run & Bun set (Lv.54)",
+     "role": "attacker",
+     "tier": "run-and-bun",
+     "item": "ITEM_FIRE_GEM",
+     "ability": "ABILITY_LEVITATE",
+     "nature": "NATURE_LONELY",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_ZEN_HEADBUTT",
+      "MOVE_ROCK_SLIDE",
+      "MOVE_OVERHEAT",
+      "MOVE_ROCK_POLISH"
+     ],
+     "source": "Run & Bun",
+     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
+    },
+    {
+     "name": "Emerald Kaizo set (Lv.67)",
+     "role": "attacker",
+     "tier": "emerald-kaizo",
+     "item": "ITEM_FOCUS_BAND",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_MILD",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_SWAGGER",
+      "MOVE_EARTHQUAKE",
+      "MOVE_SHADOW_BALL",
+      "MOVE_ANCIENTPOWER"
+     ],
+     "source": "Emerald Kaizo",
+     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
+    },
+    {
+     "name": "Run & Bun set (Lv.52)",
+     "role": "attacker",
+     "tier": "run-and-bun",
+     "item": "ITEM_ROOM_SERVICE",
+     "ability": "ABILITY_LEVITATE",
+     "nature": "NATURE_BRAVE",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_STONE_EDGE",
+      "MOVE_EARTHQUAKE",
+      "MOVE_ACROBATICS",
+      "MOVE_TRICK_ROOM"
+     ],
+     "source": "Run & Bun",
+     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
     }
    ]
   },
@@ -9384,6 +14394,198 @@
      ],
      "source": "Smogon data.pkmn.cc (gen3 nu)",
      "notes": "Ice Beam/Toxic/Hidden Power Grass"
+    },
+    {
+     "name": "Run & Bun set (Lv.89)",
+     "role": "setup sweeper",
+     "tier": "run-and-bun",
+     "item": "ITEM_RINDO_BERRY",
+     "ability": "ABILITY_OBLIVIOUS",
+     "nature": "NATURE_JOLLY",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_EARTHQUAKE",
+      "MOVE_WATERFALL",
+      "MOVE_ZEN_HEADBUTT",
+      "MOVE_DRAGON_DANCE"
+     ],
+     "source": "Run & Bun",
+     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
+    },
+    {
+     "name": "Emerald Kaizo set (Lv.74)",
+     "role": "attacker",
+     "tier": "emerald-kaizo",
+     "item": "ITEM_QUICK_CLAW",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_LONELY",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_EARTH_POWER",
+      "MOVE_HYDRO_PUMP",
+      "MOVE_ICE_BEAM",
+      "MOVE_RAIN_DANCE"
+     ],
+     "source": "Emerald Kaizo",
+     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
+    },
+    {
+     "name": "Run & Bun set (Lv.58)",
+     "role": "setup sweeper",
+     "tier": "run-and-bun",
+     "item": "ITEM_LUM_BERRY",
+     "ability": "ABILITY_OBLIVIOUS",
+     "nature": "NATURE_JOLLY",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_AQUA_TAIL",
+      "MOVE_STOMPING_TANTRUM",
+      "MOVE_ZEN_HEADBUTT",
+      "MOVE_DRAGON_DANCE"
+     ],
+     "source": "Run & Bun",
+     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
+    },
+    {
+     "name": "Emerald Kaizo set (Lv.66)",
+     "role": "attacker",
+     "tier": "emerald-kaizo",
+     "item": "ITEM_LEFTOVERS",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_TIMID",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_PROTECT",
+      "MOVE_EARTH_POWER",
+      "MOVE_ATTRACT",
+      "MOVE_ICE_BEAM"
+     ],
+     "source": "Emerald Kaizo",
+     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
+    },
+    {
+     "name": "Run & Bun set (Lv.51)",
+     "role": "setup sweeper",
+     "tier": "run-and-bun",
+     "item": "ITEM_POWER_HERB",
+     "ability": "ABILITY_OBLIVIOUS",
+     "nature": "NATURE_JOLLY",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_EARTHQUAKE",
+      "MOVE_AQUA_TAIL",
+      "MOVE_BOUNCE",
+      "MOVE_DRAGON_DANCE"
+     ],
+     "source": "Run & Bun",
+     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
+    },
+    {
+     "name": "Emerald Kaizo set (Lv.65)",
+     "role": "attacker",
+     "tier": "emerald-kaizo",
+     "item": "ITEM_NONE",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_LONELY",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_BOUNCE",
+      "MOVE_EARTHQUAKE",
+      "MOVE_MUDDY_WATER",
+      "MOVE_ICE_BEAM"
+     ],
+     "source": "Emerald Kaizo",
+     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
+    },
+    {
+     "name": "Emerald Kaizo set (Lv.50)",
+     "role": "attacker",
+     "tier": "emerald-kaizo",
+     "item": "ITEM_SCOPE_LENS",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_JOLLY",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_RAIN_DANCE",
+      "MOVE_WATERFALL",
+      "MOVE_EARTHQUAKE",
+      "MOVE_ICE_BEAM"
+     ],
+     "source": "Emerald Kaizo",
+     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
+    },
+    {
+     "name": "Emerald Kaizo set (Lv.46)",
+     "role": "setup sweeper",
+     "tier": "emerald-kaizo",
+     "item": "ITEM_LUM_BERRY",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_JOLLY",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_DRAGON_DANCE",
+      "MOVE_EARTHQUAKE",
+      "MOVE_HIDDEN_POWER",
+      "MOVE_ROCK_SLIDE"
+     ],
+     "source": "Emerald Kaizo",
+     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
     }
    ]
   },
@@ -9631,6 +14833,54 @@
      ],
      "source": "Smogon data.pkmn.cc (gen5 ru)",
      "notes": "Superpower/Hidden Power Grass"
+    },
+    {
+     "name": "Run & Bun set (Lv.100)",
+     "role": "setup sweeper",
+     "tier": "run-and-bun",
+     "item": "ITEM_FOCUS_SASH",
+     "ability": "ABILITY_ADAPTABILITY",
+     "nature": "NATURE_JOLLY",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_CRABHAMMER",
+      "MOVE_LASH_OUT",
+      "MOVE_CLOSE_COMBAT",
+      "MOVE_DRAGON_DANCE"
+     ],
+     "source": "Run & Bun",
+     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
+    },
+    {
+     "name": "Emerald Kaizo set (Lv.45)",
+     "role": "attacker",
+     "tier": "emerald-kaizo",
+     "item": "ITEM_LUM_BERRY",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_HASTY",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_PURSUIT",
+      "MOVE_CRABHAMMER",
+      "MOVE_X_SCISSOR",
+      "MOVE_HIDDEN_POWER"
+     ],
+     "source": "Emerald Kaizo",
+     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
     }
    ]
   },
@@ -9878,6 +15128,102 @@
      ],
      "source": "Smogon data.pkmn.cc (gen4 uu)",
      "notes": ""
+    },
+    {
+     "name": "Run & Bun set (Lv.38)",
+     "role": "attacker",
+     "tier": "run-and-bun",
+     "item": "ITEM_WEAKNESS_POLICY",
+     "ability": "ABILITY_LEVITATE",
+     "nature": "NATURE_RELAXED",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_DRILL_RUN",
+      "MOVE_STORED_POWER",
+      "MOVE_BODY_PRESS",
+      "MOVE_COSMIC_POWER"
+     ],
+     "source": "Run & Bun",
+     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
+    },
+    {
+     "name": "Emerald Kaizo set (Lv.88)",
+     "role": "attacker",
+     "tier": "emerald-kaizo",
+     "item": "ITEM_LEFTOVERS",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_LONELY",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_LIGHT_SCREEN",
+      "MOVE_EARTHQUAKE",
+      "MOVE_SIGNAL_BEAM",
+      "MOVE_PSYCHIC"
+     ],
+     "source": "Emerald Kaizo",
+     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
+    },
+    {
+     "name": "Run & Bun set (Lv.30)",
+     "role": "attacker",
+     "tier": "run-and-bun",
+     "item": "ITEM_LUM_BERRY",
+     "ability": "ABILITY_LEVITATE",
+     "nature": "NATURE_MODEST",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_EARTH_POWER",
+      "MOVE_EXTRASENSORY",
+      "MOVE_SIGNAL_BEAM",
+      "MOVE_ANCIENT_POWER"
+     ],
+     "source": "Run & Bun",
+     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
+    },
+    {
+     "name": "Emerald Kaizo set (Lv.85)",
+     "role": "attacker",
+     "tier": "emerald-kaizo",
+     "item": "ITEM_SALAC_BERRY",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_LONELY",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_EXPLOSION",
+      "MOVE_EARTHQUAKE",
+      "MOVE_SHADOW_BALL",
+      "MOVE_PSYCHIC"
+     ],
+     "source": "Emerald Kaizo",
+     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
     }
    ]
   },
@@ -10077,6 +15423,150 @@
      ],
      "source": "Smogon data.pkmn.cc (gen5 monotype)",
      "notes": ""
+    },
+    {
+     "name": "Run & Bun set (Lv.70)",
+     "role": "setup sweeper",
+     "tier": "run-and-bun",
+     "item": "ITEM_LEFTOVERS",
+     "ability": "ABILITY_SUCTION_CUPS",
+     "nature": "NATURE_CAREFUL",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_POWER_WHIP",
+      "MOVE_ROCK_SLIDE",
+      "MOVE_CURSE",
+      "MOVE_REST"
+     ],
+     "source": "Run & Bun",
+     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
+    },
+    {
+     "name": "Emerald Kaizo set (Lv.87)",
+     "role": "defensive / utility",
+     "tier": "emerald-kaizo",
+     "item": "ITEM_LEFTOVERS",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_BRAVE",
+     "evs": {
+      "hp": 252,
+      "atk": 0,
+      "def": 128,
+      "spatk": 0,
+      "spdef": 128,
+      "speed": 0
+     },
+     "moves": [
+      "MOVE_STOCKPILE",
+      "MOVE_REST",
+      "MOVE_ANCIENTPOWER",
+      "MOVE_EARTHQUAKE"
+     ],
+     "source": "Emerald Kaizo",
+     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
+    },
+    {
+     "name": "Run & Bun set (Lv.50)",
+     "role": "defensive / utility",
+     "tier": "run-and-bun",
+     "item": "ITEM_LEFTOVERS",
+     "ability": "ABILITY_SUCTION_CUPS",
+     "nature": "NATURE_BOLD",
+     "evs": {
+      "hp": 252,
+      "atk": 0,
+      "def": 128,
+      "spatk": 0,
+      "spdef": 128,
+      "speed": 0
+     },
+     "moves": [
+      "MOVE_ANCIENT_POWER",
+      "MOVE_EARTH_POWER",
+      "MOVE_COSMIC_POWER",
+      "MOVE_REST"
+     ],
+     "source": "Run & Bun",
+     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
+    },
+    {
+     "name": "Emerald Kaizo set (Lv.53)",
+     "role": "defensive / utility",
+     "tier": "emerald-kaizo",
+     "item": "ITEM_LEFTOVERS",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_TIMID",
+     "evs": {
+      "hp": 252,
+      "atk": 0,
+      "def": 128,
+      "spatk": 0,
+      "spdef": 128,
+      "speed": 0
+     },
+     "moves": [
+      "MOVE_STOCKPILE",
+      "MOVE_RECOVER",
+      "MOVE_TOXIC",
+      "MOVE_EARTHQUAKE"
+     ],
+     "source": "Emerald Kaizo",
+     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
+    },
+    {
+     "name": "Emerald Kaizo set (Lv.51)",
+     "role": "defensive / utility",
+     "tier": "emerald-kaizo",
+     "item": "ITEM_LEFTOVERS",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_RELAXED",
+     "evs": {
+      "hp": 252,
+      "atk": 0,
+      "def": 128,
+      "spatk": 0,
+      "spdef": 128,
+      "speed": 0
+     },
+     "moves": [
+      "MOVE_GIGA_DRAIN",
+      "MOVE_RECOVER",
+      "MOVE_SLUDGE_BOMB",
+      "MOVE_CONFUSE_RAY"
+     ],
+     "source": "Emerald Kaizo",
+     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
+    },
+    {
+     "name": "Emerald Kaizo set (Lv.45)",
+     "role": "defensive / utility",
+     "tier": "emerald-kaizo",
+     "item": "ITEM_LEFTOVERS",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_LAX",
+     "evs": {
+      "hp": 252,
+      "atk": 0,
+      "def": 128,
+      "spatk": 0,
+      "spdef": 128,
+      "speed": 0
+     },
+     "moves": [
+      "MOVE_TOXIC",
+      "MOVE_RECOVER",
+      "MOVE_ANCIENTPOWER",
+      "MOVE_EARTHQUAKE"
+     ],
+     "source": "Emerald Kaizo",
+     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
     }
    ]
   },
@@ -10348,6 +15838,78 @@
      ],
      "source": "Smogon data.pkmn.cc (gen4 uu)",
      "notes": "Aqua Tail/Superpower"
+    },
+    {
+     "name": "Run & Bun set (Lv.87)",
+     "role": "setup sweeper",
+     "tier": "run-and-bun",
+     "item": "ITEM_LUM_BERRY",
+     "ability": "ABILITY_SWIFT_SWIM",
+     "nature": "NATURE_JOLLY",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_STONE_EDGE",
+      "MOVE_LEECH_LIFE",
+      "MOVE_EARTHQUAKE",
+      "MOVE_SWORDS_DANCE"
+     ],
+     "source": "Run & Bun",
+     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
+    },
+    {
+     "name": "Emerald Kaizo set (Lv.88)",
+     "role": "setup sweeper",
+     "tier": "emerald-kaizo",
+     "item": "ITEM_LUM_BERRY",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_MODEST",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_X_SCISSOR",
+      "MOVE_ANCIENTPOWER",
+      "MOVE_EARTHQUAKE",
+      "MOVE_AGILITY"
+     ],
+     "source": "Emerald Kaizo",
+     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
+    },
+    {
+     "name": "Run & Bun set (Lv.84)",
+     "role": "setup sweeper",
+     "tier": "run-and-bun",
+     "item": "ITEM_BRIGHT_POWDER",
+     "ability": "ABILITY_BATTLE_ARMOR",
+     "nature": "NATURE_ADAMANT",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_LEECH_LIFE",
+      "MOVE_ROCK_BLAST",
+      "MOVE_EARTHQUAKE",
+      "MOVE_SWORDS_DANCE"
+     ],
+     "source": "Run & Bun",
+     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
     }
    ]
   },
@@ -10619,6 +16181,78 @@
      ],
      "source": "Smogon data.pkmn.cc (gen4 uu)",
      "notes": "Hydro Pump/Surf; Hidden Power Grass/Hidden Power Electric; HP Grass"
+    },
+    {
+     "name": "Run & Bun set (Lv.91)",
+     "role": "defensive / utility",
+     "tier": "run-and-bun",
+     "item": "ITEM_LUM_BERRY",
+     "ability": "ABILITY_COMPETITIVE",
+     "nature": "NATURE_BOLD",
+     "evs": {
+      "hp": 252,
+      "atk": 0,
+      "def": 128,
+      "spatk": 0,
+      "spdef": 128,
+      "speed": 0
+     },
+     "moves": [
+      "MOVE_MUDDY_WATER",
+      "MOVE_ICY_WIND",
+      "MOVE_HYPNOSIS",
+      "MOVE_RECOVER"
+     ],
+     "source": "Run & Bun",
+     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
+    },
+    {
+     "name": "Emerald Kaizo set (Lv.95)",
+     "role": "defensive / utility",
+     "tier": "emerald-kaizo",
+     "item": "ITEM_LUM_BERRY",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_RASH",
+     "evs": {
+      "hp": 252,
+      "atk": 0,
+      "def": 128,
+      "spatk": 0,
+      "spdef": 128,
+      "speed": 0
+     },
+     "moves": [
+      "MOVE_MIRROR_COAT",
+      "MOVE_RECOVER",
+      "MOVE_ICE_BEAM",
+      "MOVE_SURF"
+     ],
+     "source": "Emerald Kaizo",
+     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
+    },
+    {
+     "name": "Run & Bun set (Lv.85)",
+     "role": "setup sweeper",
+     "tier": "run-and-bun",
+     "item": "ITEM_LEFTOVERS",
+     "ability": "ABILITY_COMPETITIVE",
+     "nature": "NATURE_BOLD",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_MUDDY_WATER",
+      "MOVE_COIL",
+      "MOVE_HYPNOSIS",
+      "MOVE_RECOVER"
+     ],
+     "source": "Run & Bun",
+     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
     }
    ]
   },
@@ -10866,6 +16500,102 @@
      ],
      "source": "Smogon data.pkmn.cc (gen3 nu)",
      "notes": "Brick Break/Focus Punch"
+    },
+    {
+     "name": "Run & Bun set (Lv.95)",
+     "role": "attacker",
+     "tier": "run-and-bun",
+     "item": "ITEM_ASSAULT_VEST",
+     "ability": "ABILITY_COLOR_CHANGE",
+     "nature": "NATURE_ADAMANT",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_DRAIN_PUNCH",
+      "MOVE_SUCKER_PUNCH",
+      "MOVE_KNOCK_OFF",
+      "MOVE_POWER_UP_PUNCH"
+     ],
+     "source": "Run & Bun",
+     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
+    },
+    {
+     "name": "Emerald Kaizo set (Lv.51)",
+     "role": "attacker",
+     "tier": "emerald-kaizo",
+     "item": "ITEM_SILK_SCARF",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_SASSY",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_FAKE_OUT",
+      "MOVE_SHADOW_BALL",
+      "MOVE_BRICK_BREAK",
+      "MOVE_BODY_SLAM"
+     ],
+     "source": "Emerald Kaizo",
+     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
+    },
+    {
+     "name": "Run & Bun set (Lv.45)",
+     "role": "attacker",
+     "tier": "run-and-bun",
+     "item": "ITEM_ASSAULT_VEST",
+     "ability": "ABILITY_PROTEAN",
+     "nature": "NATURE_IMPISH",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_DRAIN_PUNCH",
+      "MOVE_KNOCK_OFF",
+      "MOVE_POWER_UP_PUNCH",
+      "MOVE_SHADOW_SNEAK"
+     ],
+     "source": "Run & Bun",
+     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
+    },
+    {
+     "name": "Emerald Kaizo set (Lv.50)",
+     "role": "attacker",
+     "tier": "emerald-kaizo",
+     "item": "ITEM_LUM_BERRY",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_NAIVE",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_FAKE_OUT",
+      "MOVE_BRICK_BREAK",
+      "MOVE_SHADOW_SNEAK",
+      "MOVE_DOUBLE_EDGE"
+     ],
+     "source": "Emerald Kaizo",
+     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
     }
    ]
   },
@@ -11113,6 +16843,102 @@
      ],
      "source": "Smogon data.pkmn.cc (gen3 ru)",
      "notes": "HP Fighting"
+    },
+    {
+     "name": "Run & Bun set (Lv.90)",
+     "role": "attacker",
+     "tier": "run-and-bun",
+     "item": "ITEM_BANETTITE",
+     "ability": "ABILITY_INSOMNIA",
+     "nature": "NATURE_JOLLY",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_SHADOW_CLAW",
+      "MOVE_FOUL_PLAY",
+      "MOVE_SWAGGER",
+      "MOVE_THUNDER_WAVE"
+     ],
+     "source": "Run & Bun",
+     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
+    },
+    {
+     "name": "Emerald Kaizo set (Lv.88)",
+     "role": "attacker",
+     "tier": "emerald-kaizo",
+     "item": "ITEM_SPELL_TAG",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_CAREFUL",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_SHADOW_BALL",
+      "MOVE_SHADOW_SNEAK",
+      "MOVE_HIDDEN_POWER",
+      "MOVE_PSYCHIC"
+     ],
+     "source": "Emerald Kaizo",
+     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
+    },
+    {
+     "name": "Run & Bun set (Lv.65)",
+     "role": "attacker",
+     "tier": "run-and-bun",
+     "item": "ITEM_FOCUS_SASH",
+     "ability": "ABILITY_CURSED_BODY",
+     "nature": "NATURE_JOLLY",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_POLTERGEIST",
+      "MOVE_SHADOW_SNEAK",
+      "MOVE_ICY_WIND",
+      "MOVE_WILL_O_WISP"
+     ],
+     "source": "Run & Bun",
+     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
+    },
+    {
+     "name": "Emerald Kaizo set (Lv.73)",
+     "role": "attacker",
+     "tier": "emerald-kaizo",
+     "item": "ITEM_SPELL_TAG",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_RELAXED",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_SHADOW_BALL",
+      "MOVE_THUNDER_WAVE",
+      "MOVE_HIDDEN_POWER",
+      "MOVE_SHADOW_SNEAK"
+     ],
+     "source": "Emerald Kaizo",
+     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
     }
    ]
   },
@@ -11216,6 +17042,30 @@
      ],
      "source": "Smogon data.pkmn.cc (gen4 ou)",
      "notes": "Thunder Punch/Fire Punch; Ice Punch/Fire Punch"
+    },
+    {
+     "name": "Run & Bun set (Lv.65)",
+     "role": "attacker",
+     "tier": "run-and-bun",
+     "item": "ITEM_RED_CARD",
+     "ability": "ABILITY_PRESSURE",
+     "nature": "NATURE_BRAVE",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_POLTERGEIST",
+      "MOVE_SHADOW_SNEAK",
+      "MOVE_THUNDER_PUNCH",
+      "MOVE_REVENGE"
+     ],
+     "source": "Run & Bun",
+     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
     }
    ]
   },
@@ -11415,6 +17265,78 @@
      ],
      "source": "Smogon data.pkmn.cc (gen3 pu)",
      "notes": "HP Grass"
+    },
+    {
+     "name": "Run & Bun set (Lv.96)",
+     "role": "attacker",
+     "tier": "run-and-bun",
+     "item": "ITEM_SITRUS_BERRY",
+     "ability": "ABILITY_HARVEST",
+     "nature": "NATURE_TIMID",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_HURRICANE",
+      "MOVE_GRASS_KNOT",
+      "MOVE_HELPING_HAND",
+      "MOVE_TAILWIND"
+     ],
+     "source": "Run & Bun",
+     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
+    },
+    {
+     "name": "Emerald Kaizo set (Lv.33)",
+     "role": "attacker",
+     "tier": "emerald-kaizo",
+     "item": "ITEM_LUM_BERRY",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_HASTY",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_EARTHQUAKE",
+      "MOVE_SUNNY_DAY",
+      "MOVE_GIGA_DRAIN",
+      "MOVE_AIR_SLASH"
+     ],
+     "source": "Emerald Kaizo",
+     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
+    },
+    {
+     "name": "Run & Bun set (Lv.69)",
+     "role": "attacker",
+     "tier": "run-and-bun",
+     "item": "ITEM_SITRUS_BERRY",
+     "ability": "ABILITY_HARVEST",
+     "nature": "NATURE_HASTY",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_AIR_SLASH",
+      "MOVE_EARTHQUAKE",
+      "MOVE_LEECH_SEED",
+      "MOVE_SUBSTITUTE"
+     ],
+     "source": "Run & Bun",
+     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
     }
    ]
   },
@@ -11662,6 +17584,102 @@
      ],
      "source": "Smogon data.pkmn.cc (gen3 nu)",
      "notes": "Hidden Power Fire/Hidden Power Electric; HP Fire; Toxic/Yawn; Taunt/Heal Bell"
+    },
+    {
+     "name": "Run & Bun set (Lv.33)",
+     "role": "attacker",
+     "tier": "run-and-bun",
+     "item": "ITEM_ASSAULT_VEST",
+     "ability": "ABILITY_LEVITATE",
+     "nature": "NATURE_BOLD",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_PSYCHIC",
+      "MOVE_DAZZLING_GLEAM",
+      "MOVE_SHADOW_BALL",
+      "MOVE_CHARGE_BEAM"
+     ],
+     "source": "Run & Bun",
+     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
+    },
+    {
+     "name": "Emerald Kaizo set (Lv.52)",
+     "role": "defensive / utility",
+     "tier": "emerald-kaizo",
+     "item": "ITEM_SILK_SCARF",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_BOLD",
+     "evs": {
+      "hp": 252,
+      "atk": 0,
+      "def": 128,
+      "spatk": 0,
+      "spdef": 128,
+      "speed": 0
+     },
+     "moves": [
+      "MOVE_PSYCHIC",
+      "MOVE_HYPNOSIS",
+      "MOVE_SIGNAL_BEAM",
+      "MOVE_RECOVER"
+     ],
+     "source": "Emerald Kaizo",
+     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
+    },
+    {
+     "name": "Emerald Kaizo set (Lv.36)",
+     "role": "defensive / utility",
+     "tier": "emerald-kaizo",
+     "item": "ITEM_LEFTOVERS",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_CAREFUL",
+     "evs": {
+      "hp": 252,
+      "atk": 0,
+      "def": 128,
+      "spatk": 0,
+      "spdef": 128,
+      "speed": 0
+     },
+     "moves": [
+      "MOVE_HYPNOSIS",
+      "MOVE_RECOVER",
+      "MOVE_DREAM_EATER",
+      "MOVE_NIGHTMARE"
+     ],
+     "source": "Emerald Kaizo",
+     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
+    },
+    {
+     "name": "Emerald Kaizo set (Lv.36)",
+     "role": "attacker",
+     "tier": "emerald-kaizo",
+     "item": "ITEM_SITRUS_BERRY",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_JOLLY",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_RECYCLE",
+      "MOVE_PSYCHIC",
+      "MOVE_SIGNAL_BEAM",
+      "MOVE_HYPNOSIS"
+     ],
+     "source": "Emerald Kaizo",
+     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
     }
    ]
   },
@@ -11861,6 +17879,150 @@
      ],
      "source": "Smogon data.pkmn.cc (gen5 ru)",
      "notes": ""
+    },
+    {
+     "name": "Run & Bun set (Lv.79)",
+     "role": "setup sweeper",
+     "tier": "run-and-bun",
+     "item": "ITEM_ABSOLITE",
+     "ability": "ABILITY_PRESSURE",
+     "nature": "NATURE_JOLLY",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_NIGHT_SLASH",
+      "MOVE_SUCKER_PUNCH",
+      "MOVE_CLOSE_COMBAT",
+      "MOVE_SWORDS_DANCE"
+     ],
+     "source": "Run & Bun",
+     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
+    },
+    {
+     "name": "Emerald Kaizo set (Lv.74)",
+     "role": "attacker",
+     "tier": "emerald-kaizo",
+     "item": "ITEM_LUM_BERRY",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_GENTLE",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_THUNDER_WAVE",
+      "MOVE_SHADOW_BALL",
+      "MOVE_SUPERPOWER",
+      "MOVE_ROCK_SLIDE"
+     ],
+     "source": "Emerald Kaizo",
+     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
+    },
+    {
+     "name": "Run & Bun set (Lv.76)",
+     "role": "attacker",
+     "tier": "run-and-bun",
+     "item": "ITEM_SCOPE_LENS",
+     "ability": "ABILITY_SUPER_LUCK",
+     "nature": "NATURE_HASTY",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_NIGHT_SLASH",
+      "MOVE_STONE_EDGE",
+      "MOVE_PSYCHO_CUT",
+      "MOVE_FIRE_BLAST"
+     ],
+     "source": "Run & Bun",
+     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
+    },
+    {
+     "name": "Emerald Kaizo set (Lv.57)",
+     "role": "attacker",
+     "tier": "emerald-kaizo",
+     "item": "ITEM_BRIGHTPOWDER",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_LAX",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_THUNDER_WAVE",
+      "MOVE_FIRE_BLAST",
+      "MOVE_SHADOW_BALL",
+      "MOVE_SUPERPOWER"
+     ],
+     "source": "Emerald Kaizo",
+     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
+    },
+    {
+     "name": "Run & Bun set (Lv.54)",
+     "role": "attacker",
+     "tier": "run-and-bun",
+     "item": "ITEM_ABSOLITE",
+     "ability": "ABILITY_PRESSURE",
+     "nature": "NATURE_NAIVE",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_KNOCK_OFF",
+      "MOVE_PSYCHO_CUT",
+      "MOVE_FIRE_BLAST",
+      "MOVE_ICE_BEAM"
+     ],
+     "source": "Run & Bun",
+     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
+    },
+    {
+     "name": "Emerald Kaizo set (Lv.52)",
+     "role": "attacker",
+     "tier": "emerald-kaizo",
+     "item": "ITEM_LUM_BERRY",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_BOLD",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_AERIAL_ACE",
+      "MOVE_SHADOW_BALL",
+      "MOVE_BODY_SLAM",
+      "MOVE_PROTECT"
+     ],
+     "source": "Emerald Kaizo",
+     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
     }
    ]
   },
@@ -12060,6 +18222,150 @@
      ],
      "source": "Smogon data.pkmn.cc (gen4 nu)",
      "notes": "Icy Wind/Ice Shard"
+    },
+    {
+     "name": "Run & Bun set (Lv.93)",
+     "role": "attacker",
+     "tier": "run-and-bun",
+     "item": "ITEM_GLALITITE",
+     "ability": "ABILITY_INNER_FOCUS",
+     "nature": "NATURE_HASTY",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_BLIZZARD",
+      "MOVE_FREEZE_DRY",
+      "MOVE_RETURN",
+      "MOVE_PROTECT"
+     ],
+     "source": "Run & Bun",
+     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
+    },
+    {
+     "name": "Emerald Kaizo set (Lv.100)",
+     "role": "hazard setter",
+     "tier": "emerald-kaizo",
+     "item": "ITEM_LUM_BERRY",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_HASTY",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_WEATHER_BALL",
+      "MOVE_ICE_BEAM",
+      "MOVE_SPIKES",
+      "MOVE_EXPLOSION"
+     ],
+     "source": "Emerald Kaizo",
+     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
+    },
+    {
+     "name": "Run & Bun set (Lv.70)",
+     "role": "attacker",
+     "tier": "run-and-bun",
+     "item": "ITEM_LEFTOVERS",
+     "ability": "ABILITY_MOODY",
+     "nature": "NATURE_HASTY",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_FREEZE_DRY",
+      "MOVE_ICY_WIND",
+      "MOVE_EXPLOSION",
+      "MOVE_PROTECT"
+     ],
+     "source": "Run & Bun",
+     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
+    },
+    {
+     "name": "Emerald Kaizo set (Lv.70)",
+     "role": "attacker",
+     "tier": "emerald-kaizo",
+     "item": "ITEM_SCOPE_LENS",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_RELAXED",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_EXPLOSION",
+      "MOVE_ICE_SHARD",
+      "MOVE_ICE_BEAM",
+      "MOVE_EARTHQUAKE"
+     ],
+     "source": "Emerald Kaizo",
+     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
+    },
+    {
+     "name": "Emerald Kaizo set (Lv.60)",
+     "role": "attacker",
+     "tier": "emerald-kaizo",
+     "item": "ITEM_FOCUS_BAND",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_HASTY",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_ICE_BEAM",
+      "MOVE_WEATHER_BALL",
+      "MOVE_EARTHQUAKE",
+      "MOVE_ICE_SHARD"
+     ],
+     "source": "Emerald Kaizo",
+     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
+    },
+    {
+     "name": "Emerald Kaizo set (Lv.43)",
+     "role": "attacker",
+     "tier": "emerald-kaizo",
+     "item": "ITEM_QUICK_CLAW",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_BOLD",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_HAIL",
+      "MOVE_PROTECT",
+      "MOVE_EARTHQUAKE",
+      "MOVE_ICE_BEAM"
+     ],
+     "source": "Emerald Kaizo",
+     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
     }
    ]
   },
@@ -12259,6 +18565,126 @@
      ],
      "source": "Smogon data.pkmn.cc (gen8 pu)",
      "notes": "Triple Axel/Icicle Crash; Trick/Ice Shard"
+    },
+    {
+     "name": "Run & Bun set (Lv.95)",
+     "role": "attacker",
+     "tier": "run-and-bun",
+     "item": "ITEM_ICE_GEM",
+     "ability": "ABILITY_CURSED_BODY",
+     "nature": "NATURE_TIMID",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_BLIZZARD",
+      "MOVE_SHADOW_BALL",
+      "MOVE_HEX",
+      "MOVE_LOVELY_KISS"
+     ],
+     "source": "Run & Bun",
+     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
+    },
+    {
+     "name": "Run & Bun set (Lv.86)",
+     "role": "setup sweeper",
+     "tier": "run-and-bun",
+     "item": "ITEM_BRIGHT_POWDER",
+     "ability": "ABILITY_CURSED_BODY",
+     "nature": "NATURE_TIMID",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_FREEZE_DRY",
+      "MOVE_HEX",
+      "MOVE_NASTY_PLOT",
+      "MOVE_SING"
+     ],
+     "source": "Run & Bun",
+     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
+    },
+    {
+     "name": "Run & Bun set (Lv.73)",
+     "role": "attacker",
+     "tier": "run-and-bun",
+     "item": "ITEM_ICE_GEM",
+     "ability": "ABILITY_CURSED_BODY",
+     "nature": "NATURE_TIMID",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_BLIZZARD",
+      "MOVE_SHADOW_BALL",
+      "MOVE_SING",
+      "MOVE_WILL_O_WISP"
+     ],
+     "source": "Run & Bun",
+     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
+    },
+    {
+     "name": "Run & Bun set (Lv.71)",
+     "role": "hazard setter",
+     "tier": "run-and-bun",
+     "item": "ITEM_ICE_GEM",
+     "ability": "ABILITY_CURSED_BODY",
+     "nature": "NATURE_TIMID",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_BLIZZARD",
+      "MOVE_SHADOW_BALL",
+      "MOVE_FREEZE_DRY",
+      "MOVE_SPIKES"
+     ],
+     "source": "Run & Bun",
+     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
+    },
+    {
+     "name": "Run & Bun set (Lv.29)",
+     "role": "attacker",
+     "tier": "run-and-bun",
+     "item": "ITEM_LUM_BERRY",
+     "ability": "ABILITY_CURSED_BODY",
+     "nature": "NATURE_TIMID",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_ICE_BEAM",
+      "MOVE_HEX",
+      "MOVE_THUNDER_WAVE",
+      "MOVE_WILL_O_WISP"
+     ],
+     "source": "Run & Bun",
+     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
     }
    ]
   },
@@ -12434,6 +18860,174 @@
      ],
      "source": "Smogon data.pkmn.cc (gen3 uu)",
      "notes": ""
+    },
+    {
+     "name": "Run & Bun set (Lv.93)",
+     "role": "attacker",
+     "tier": "run-and-bun",
+     "item": "ITEM_LUM_BERRY",
+     "ability": "ABILITY_THICK_FAT",
+     "nature": "NATURE_BOLD",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_ICE_BEAM",
+      "MOVE_SCALD",
+      "MOVE_WHIRLPOOL",
+      "MOVE_SUPER_FANG"
+     ],
+     "source": "Run & Bun",
+     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
+    },
+    {
+     "name": "Emerald Kaizo set (Lv.88)",
+     "role": "attacker",
+     "tier": "emerald-kaizo",
+     "item": "ITEM_NEVERMELTICE",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_NAIVE",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_ICE_SHARD",
+      "MOVE_ICE_BEAM",
+      "MOVE_EARTHQUAKE",
+      "MOVE_SURF"
+     ],
+     "source": "Emerald Kaizo",
+     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
+    },
+    {
+     "name": "Run & Bun set (Lv.89)",
+     "role": "attacker",
+     "tier": "run-and-bun",
+     "item": "ITEM_LEFTOVERS",
+     "ability": "ABILITY_ICE_BODY",
+     "nature": "NATURE_TIMID",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_BLIZZARD",
+      "MOVE_SCALD",
+      "MOVE_FREEZE_DRY",
+      "MOVE_SUBSTITUTE"
+     ],
+     "source": "Run & Bun",
+     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
+    },
+    {
+     "name": "Emerald Kaizo set (Lv.67)",
+     "role": "attacker",
+     "tier": "emerald-kaizo",
+     "item": "ITEM_NONE",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_SASSY",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_WATER_PULSE",
+      "MOVE_DOUBLE_EDGE",
+      "MOVE_BLIZZARD",
+      "MOVE_ICE_BEAM"
+     ],
+     "source": "Emerald Kaizo",
+     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
+    },
+    {
+     "name": "Run & Bun set (Lv.78)",
+     "role": "attacker",
+     "tier": "run-and-bun",
+     "item": "ITEM_BRIGHT_POWDER",
+     "ability": "ABILITY_ICE_BODY",
+     "nature": "NATURE_MODEST",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_BLIZZARD",
+      "MOVE_SCALD",
+      "MOVE_SUBSTITUTE",
+      "MOVE_TOXIC"
+     ],
+     "source": "Run & Bun",
+     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
+    },
+    {
+     "name": "Emerald Kaizo set (Lv.64)",
+     "role": "defensive / utility",
+     "tier": "emerald-kaizo",
+     "item": "ITEM_LEFTOVERS",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_CALM",
+     "evs": {
+      "hp": 252,
+      "atk": 0,
+      "def": 128,
+      "spatk": 0,
+      "spdef": 128,
+      "speed": 0
+     },
+     "moves": [
+      "MOVE_DOUBLE_TEAM",
+      "MOVE_EARTHQUAKE",
+      "MOVE_REST",
+      "MOVE_ICE_BEAM"
+     ],
+     "source": "Emerald Kaizo",
+     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
+    },
+    {
+     "name": "Run & Bun set (Lv.62)",
+     "role": "setup sweeper",
+     "tier": "run-and-bun",
+     "item": "ITEM_LEFTOVERS",
+     "ability": "ABILITY_OBLIVIOUS",
+     "nature": "NATURE_RELAXED",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_LIQUIDATION",
+      "MOVE_FREEZE_DRY",
+      "MOVE_BODY_PRESS",
+      "MOVE_CURSE"
+     ],
+     "source": "Run & Bun",
+     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
     }
    ]
   },
@@ -12633,6 +19227,150 @@
      ],
      "source": "Smogon data.pkmn.cc (gen3 nu)",
      "notes": ""
+    },
+    {
+     "name": "Run & Bun set (Lv.87)",
+     "role": "setup sweeper",
+     "tier": "run-and-bun",
+     "item": "ITEM_WHITE_HERB",
+     "ability": "ABILITY_WATER_VEIL",
+     "nature": "NATURE_JOLLY",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_LIQUIDATION",
+      "MOVE_CRUNCH",
+      "MOVE_ICE_FANG",
+      "MOVE_SHELL_SMASH"
+     ],
+     "source": "Run & Bun",
+     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
+    },
+    {
+     "name": "Emerald Kaizo set (Lv.65)",
+     "role": "attacker",
+     "tier": "emerald-kaizo",
+     "item": "ITEM_NONE",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_IMPISH",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_CONFUSE_RAY",
+      "MOVE_MUDDY_WATER",
+      "MOVE_ICE_BEAM",
+      "MOVE_SUPER_FANG"
+     ],
+     "source": "Emerald Kaizo",
+     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
+    },
+    {
+     "name": "Run & Bun set (Lv.59)",
+     "role": "setup sweeper",
+     "tier": "run-and-bun",
+     "item": "ITEM_WACAN_BERRY",
+     "ability": "ABILITY_WATER_VEIL",
+     "nature": "NATURE_JOLLY",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_AQUA_TAIL",
+      "MOVE_CRUNCH",
+      "MOVE_ICE_FANG",
+      "MOVE_SHELL_SMASH"
+     ],
+     "source": "Run & Bun",
+     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
+    },
+    {
+     "name": "Emerald Kaizo set (Lv.50)",
+     "role": "attacker",
+     "tier": "emerald-kaizo",
+     "item": "ITEM_SCOPE_LENS",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_TIMID",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_WATERFALL",
+      "MOVE_RAIN_DANCE",
+      "MOVE_ICE_BEAM",
+      "MOVE_DOUBLE_EDGE"
+     ],
+     "source": "Emerald Kaizo",
+     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
+    },
+    {
+     "name": "Emerald Kaizo set (Lv.47)",
+     "role": "attacker",
+     "tier": "emerald-kaizo",
+     "item": "ITEM_KINGS_ROCK",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_LAX",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_RAIN_DANCE",
+      "MOVE_DOUBLE_EDGE",
+      "MOVE_MUDDY_WATER",
+      "MOVE_ICE_BEAM"
+     ],
+     "source": "Emerald Kaizo",
+     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
+    },
+    {
+     "name": "Emerald Kaizo set (Lv.42)",
+     "role": "attacker",
+     "tier": "emerald-kaizo",
+     "item": "ITEM_LUM_BERRY",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_NAUGHTY",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_CRUNCH",
+      "MOVE_SURF",
+      "MOVE_ICE_BEAM",
+      "MOVE_CONFUSE_RAY"
+     ],
+     "source": "Emerald Kaizo",
+     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
     }
    ]
   },
@@ -12808,6 +19546,150 @@
      ],
      "source": "Smogon data.pkmn.cc (gen3 uu)",
      "notes": "Amnesia/Iron Defense/Ice Beam"
+    },
+    {
+     "name": "Run & Bun set (Lv.94)",
+     "role": "setup sweeper",
+     "tier": "run-and-bun",
+     "item": "ITEM_WHITE_HERB",
+     "ability": "ABILITY_SWIFT_SWIM",
+     "nature": "NATURE_MODEST",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_SURF",
+      "MOVE_ICE_BEAM",
+      "MOVE_BATON_PASS",
+      "MOVE_SHELL_SMASH"
+     ],
+     "source": "Run & Bun",
+     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
+    },
+    {
+     "name": "Emerald Kaizo set (Lv.65)",
+     "role": "attacker",
+     "tier": "emerald-kaizo",
+     "item": "ITEM_LUM_BERRY",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_RELAXED",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_RAIN_DANCE",
+      "MOVE_MUDDY_WATER",
+      "MOVE_ICE_BEAM",
+      "MOVE_PSYCHIC"
+     ],
+     "source": "Emerald Kaizo",
+     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
+    },
+    {
+     "name": "Run & Bun set (Lv.87)",
+     "role": "setup sweeper",
+     "tier": "run-and-bun",
+     "item": "ITEM_WHITE_HERB",
+     "ability": "ABILITY_SWIFT_SWIM",
+     "nature": "NATURE_TIMID",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_SURF",
+      "MOVE_ICE_BEAM",
+      "MOVE_PSYCHIC",
+      "MOVE_SHELL_SMASH"
+     ],
+     "source": "Run & Bun",
+     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
+    },
+    {
+     "name": "Emerald Kaizo set (Lv.64)",
+     "role": "attacker",
+     "tier": "emerald-kaizo",
+     "item": "ITEM_LUM_BERRY",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_MODEST",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_RAIN_DANCE",
+      "MOVE_HYDRO_PUMP",
+      "MOVE_ICE_BEAM",
+      "MOVE_PSYCHIC"
+     ],
+     "source": "Emerald Kaizo",
+     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
+    },
+    {
+     "name": "Emerald Kaizo set (Lv.50)",
+     "role": "attacker",
+     "tier": "emerald-kaizo",
+     "item": "ITEM_PETAYA_BERRY",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_SASSY",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_SURF",
+      "MOVE_ICE_BEAM",
+      "MOVE_PSYCHIC",
+      "MOVE_DOUBLE_EDGE"
+     ],
+     "source": "Emerald Kaizo",
+     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
+    },
+    {
+     "name": "Emerald Kaizo set (Lv.46)",
+     "role": "attacker",
+     "tier": "emerald-kaizo",
+     "item": "ITEM_LUM_BERRY",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_LAX",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_HYDRO_PUMP",
+      "MOVE_ICE_BEAM",
+      "MOVE_HIDDEN_POWER",
+      "MOVE_CONFUSE_RAY"
+     ],
+     "source": "Emerald Kaizo",
+     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
     }
    ]
   },
@@ -13031,6 +19913,125 @@
      ],
      "source": "Smogon data.pkmn.cc (gen4 uu)",
      "notes": "Aqua Tail/Waterfall; Rain Dance/Stone Edge"
+    },
+    {
+     "name": "Run & Bun set (Lv.73)",
+     "role": "attacker",
+     "tier": "run-and-bun",
+     "item": "ITEM_BRIGHT_POWDER",
+     "ability": "ABILITY_ROCK_HEAD",
+     "nature": "NATURE_JOLLY",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_HEAD_SMASH",
+      "MOVE_AQUA_TAIL",
+      "MOVE_WHIRLPOOL",
+      "MOVE_EARTHQUAKE"
+     ],
+     "source": "Run & Bun",
+     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
+    },
+    {
+     "name": "Emerald Kaizo set (Lv.65)",
+     "role": "defensive / utility",
+     "tier": "emerald-kaizo",
+     "item": "ITEM_BRIGHTPOWDER",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_MODEST",
+     "evs": {
+      "hp": 252,
+      "atk": 0,
+      "def": 128,
+      "spatk": 0,
+      "spdef": 128,
+      "speed": 0
+     },
+     "moves": [
+      "MOVE_HEAD_SMASH",
+      "MOVE_EARTHQUAKE",
+      "MOVE_REST",
+      "MOVE_SLEEP_TALK"
+     ],
+     "source": "Emerald Kaizo",
+     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
+    },
+    {
+     "name": "Run & Bun set (Lv.50)",
+     "role": "attacker",
+     "tier": "run-and-bun",
+     "item": "ITEM_LUM_BERRY",
+     "ability": "ABILITY_STURDY",
+     "nature": "NATURE_JOLLY",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_STONE_EDGE",
+      "MOVE_LIQUIDATION",
+      "MOVE_FLAIL",
+      "MOVE_ROCK_POLISH"
+     ],
+     "source": "Run & Bun",
+     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
+    },
+    {
+     "name": "Emerald Kaizo set (Lv.55)",
+     "role": "attacker",
+     "tier": "emerald-kaizo",
+     "item": "ITEM_FOCUS_BAND",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_MILD",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_HEAD_SMASH",
+      "MOVE_EARTHQUAKE",
+      "MOVE_HYDRO_PUMP"
+     ],
+     "source": "Emerald Kaizo",
+     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
+    },
+    {
+     "name": "Emerald Kaizo set (Lv.44)",
+     "role": "attacker",
+     "tier": "emerald-kaizo",
+     "item": "ITEM_QUICK_CLAW",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_NAIVE",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_HEAD_SMASH",
+      "MOVE_EARTHQUAKE",
+      "MOVE_MUDDY_WATER",
+      "MOVE_YAWN"
+     ],
+     "source": "Emerald Kaizo",
+     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
     }
    ]
   },
@@ -13182,6 +20183,124 @@
      ],
      "source": "Smogon data.pkmn.cc (gen4 uu)",
      "notes": "Substitute/Endure; Agility/Rain Dance; Safeguard/Waterfall/Surf"
+    },
+    {
+     "name": "Emerald Kaizo set (Lv.100)",
+     "role": "attacker",
+     "tier": "emerald-kaizo",
+     "item": "ITEM_NONE",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_SERIOUS",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_ATTRACT",
+      "MOVE_SWEET_KISS",
+      "MOVE_FLAIL",
+      "MOVE_SURF"
+     ],
+     "source": "Emerald Kaizo",
+     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
+    },
+    {
+     "name": "Emerald Kaizo set (Lv.100)",
+     "role": "attacker",
+     "tier": "emerald-kaizo",
+     "item": "ITEM_LUM_BERRY",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_RELAXED",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_SURF",
+      "MOVE_ICE_BEAM",
+      "MOVE_ATTRACT",
+      "MOVE_HIDDEN_POWER"
+     ],
+     "source": "Emerald Kaizo",
+     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
+    },
+    {
+     "name": "Emerald Kaizo set (Lv.24)",
+     "role": "attacker",
+     "tier": "emerald-kaizo",
+     "item": "ITEM_NONE",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_LAX",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_ATTRACT",
+      "MOVE_SWEET_KISS",
+      "MOVE_SURF"
+     ],
+     "source": "Emerald Kaizo",
+     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
+    },
+    {
+     "name": "Emerald Kaizo set (Lv.16)",
+     "role": "attacker",
+     "tier": "emerald-kaizo",
+     "item": "ITEM_NONE",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_JOLLY",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_ATTRACT",
+      "MOVE_SWEET_KISS",
+      "MOVE_WATERFALL"
+     ],
+     "source": "Emerald Kaizo",
+     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
+    },
+    {
+     "name": "Emerald Kaizo set (Lv.7)",
+     "role": "attacker",
+     "tier": "emerald-kaizo",
+     "item": "ITEM_NONE",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_QUIET",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_SWEET_KISS",
+      "MOVE_ATTRACT",
+      "MOVE_DIVE",
+      "MOVE_TOXIC"
+     ],
+     "source": "Emerald Kaizo",
+     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
     }
    ]
   },
@@ -13381,6 +20500,150 @@
      ],
      "source": "Smogon data.pkmn.cc (gen8 battlestadiumsingles)",
      "notes": "Hurricane/Air Slash"
+    },
+    {
+     "name": "Run & Bun set (Lv.100)",
+     "role": "setup sweeper",
+     "tier": "run-and-bun",
+     "item": "ITEM_SALAMENCITE",
+     "ability": "ABILITY_INTIMIDATE",
+     "nature": "NATURE_JOLLY",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_RETURN",
+      "MOVE_EARTHQUAKE",
+      "MOVE_DRAGON_DANCE",
+      "MOVE_ROOST"
+     ],
+     "source": "Run & Bun",
+     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
+    },
+    {
+     "name": "Emerald Kaizo set (Lv.90)",
+     "role": "attacker",
+     "tier": "emerald-kaizo",
+     "item": "ITEM_LUM_BERRY",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_BOLD",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_DRAGON_CLAW",
+      "MOVE_EARTHQUAKE",
+      "MOVE_FLAMETHROWER",
+      "MOVE_AIR_SLASH"
+     ],
+     "source": "Emerald Kaizo",
+     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
+    },
+    {
+     "name": "Run & Bun set (Lv.100)",
+     "role": "attacker",
+     "tier": "run-and-bun",
+     "item": "ITEM_SALAMENCITE",
+     "ability": "ABILITY_INTIMIDATE",
+     "nature": "NATURE_TIMID",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_DRAGON_PULSE",
+      "MOVE_HYPER_VOICE",
+      "MOVE_FLAMETHROWER",
+      "MOVE_TAILWIND"
+     ],
+     "source": "Run & Bun",
+     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
+    },
+    {
+     "name": "Emerald Kaizo set (Lv.86)",
+     "role": "setup sweeper",
+     "tier": "emerald-kaizo",
+     "item": "ITEM_LUM_BERRY",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_BOLD",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_DRAGON_DANCE",
+      "MOVE_EARTHQUAKE",
+      "MOVE_AIR_SLASH",
+      "MOVE_HIDDEN_POWER"
+     ],
+     "source": "Emerald Kaizo",
+     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
+    },
+    {
+     "name": "Run & Bun set (Lv.94)",
+     "role": "attacker",
+     "tier": "run-and-bun",
+     "item": "ITEM_LIFE_ORB",
+     "ability": "ABILITY_INTIMIDATE",
+     "nature": "NATURE_HASTY",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_DRACO_METEOR",
+      "MOVE_DUAL_WINGBEAT",
+      "MOVE_EARTHQUAKE",
+      "MOVE_FIRE_FANG"
+     ],
+     "source": "Run & Bun",
+     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
+    },
+    {
+     "name": "Emerald Kaizo set (Lv.76)",
+     "role": "attacker",
+     "tier": "emerald-kaizo",
+     "item": "ITEM_QUICK_CLAW",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_IMPISH",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_TOXIC",
+      "MOVE_AIR_SLASH",
+      "MOVE_DRAGON_CLAW",
+      "MOVE_CRUNCH"
+     ],
+     "source": "Emerald Kaizo",
+     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
     }
    ]
   },
@@ -13604,6 +20867,126 @@
      ],
      "source": "Smogon data.pkmn.cc (gen8 ru)",
      "notes": ""
+    },
+    {
+     "name": "Run & Bun set (Lv.95)",
+     "role": "attacker",
+     "tier": "run-and-bun",
+     "item": "ITEM_WEAKNESS_POLICY",
+     "ability": "ABILITY_CLEAR_BODY",
+     "nature": "NATURE_JOLLY",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_METEOR_MASH",
+      "MOVE_BODY_PRESS",
+      "MOVE_STORED_POWER",
+      "MOVE_COSMIC_POWER"
+     ],
+     "source": "Run & Bun",
+     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
+    },
+    {
+     "name": "Emerald Kaizo set (Lv.100)",
+     "role": "setup sweeper",
+     "tier": "emerald-kaizo",
+     "item": "ITEM_LUM_BERRY",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_JOLLY",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_AGILITY",
+      "MOVE_METEOR_MASH",
+      "MOVE_EARTHQUAKE",
+      "MOVE_EXPLOSION"
+     ],
+     "source": "Emerald Kaizo",
+     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
+    },
+    {
+     "name": "Run & Bun set (Lv.95)",
+     "role": "attacker",
+     "tier": "run-and-bun",
+     "item": "ITEM_GROUND_GEM",
+     "ability": "ABILITY_CLEAR_BODY",
+     "nature": "NATURE_JOLLY",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_METEOR_MASH",
+      "MOVE_ZEN_HEADBUTT",
+      "MOVE_EARTHQUAKE",
+      "MOVE_ICE_PUNCH"
+     ],
+     "source": "Run & Bun",
+     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
+    },
+    {
+     "name": "Emerald Kaizo set (Lv.90)",
+     "role": "attacker",
+     "tier": "emerald-kaizo",
+     "item": "ITEM_LUM_BERRY",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_HASTY",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_METEOR_MASH",
+      "MOVE_HIDDEN_POWER",
+      "MOVE_EARTHQUAKE",
+      "MOVE_ROCK_SLIDE"
+     ],
+     "source": "Emerald Kaizo",
+     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
+    },
+    {
+     "name": "Run & Bun set (Lv.95)",
+     "role": "attacker",
+     "tier": "run-and-bun",
+     "item": "ITEM_LUM_BERRY",
+     "ability": "ABILITY_CLEAR_BODY",
+     "nature": "NATURE_JOLLY",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_METEOR_MASH",
+      "MOVE_ZEN_HEADBUTT",
+      "MOVE_EXPLOSION",
+      "MOVE_ICE_PUNCH"
+     ],
+     "source": "Run & Bun",
+     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
     }
    ]
   }
