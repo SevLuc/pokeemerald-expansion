@@ -128,3 +128,12 @@ void RentalRoster_Remove(u32 rosterSlot)
         gRentalRun.roster[i] = gRentalRun.roster[i + 1];
     gRentalRun.rosterCount--;
 }
+
+// Script special: start a run and open the draft screen. Format/cap are hardcoded to
+// Singles / 0 restricted for this first cut; a format-select menu is a quick follow-up.
+// Called from the lobby attendant script, followed by `waitstate`.
+void StartRentalDraft(void)
+{
+    RentalRun_Begin(RENTAL_FORMAT_SINGLES, 0);
+    DoRentalDraftScreen();
+}

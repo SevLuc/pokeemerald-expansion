@@ -1398,19 +1398,24 @@ BattleFrontier_BattleTowerLobby_Text_ExplainMultiLinkRules:
 	.string "You may not interrupt this challenge\n"
 	.string "in the middle, unlike other modes.$"
 
-@ Rental battle mode (M2 skeleton). Reuses this lobby as the hub; the Singles
-@ attendant is repointed here in map.json. Proves the generated rental pool is
-@ live in-game by showing a random set. The real draft/battle come in M3.
+@ Rental battle mode (M3). Reuses this lobby as the hub; the Singles attendant is
+@ repointed here in map.json. Opens the draft screen (offer 12, pick 6). Format is
+@ Singles / 0 restricted for now; a format-select menu is a quick follow-up. The
+@ battle itself is a later milestone.
 BattleFrontier_BattleTowerLobby_EventScript_RentalAttendant::
 	lock
 	faceplayer
-	special BufferRandomRentalMon
-	msgbox BattleFrontier_BattleTowerLobby_Text_RentalAttendant, MSGBOX_DEFAULT
+	msgbox BattleFrontier_BattleTowerLobby_Text_RentalDraftIntro, MSGBOX_DEFAULT
+	special StartRentalDraft
+	waitstate
+	msgbox BattleFrontier_BattleTowerLobby_Text_RentalDraftDone, MSGBOX_DEFAULT
 	release
 	end
 
-BattleFrontier_BattleTowerLobby_Text_RentalAttendant:
+BattleFrontier_BattleTowerLobby_Text_RentalDraftIntro:
 	.string "Welcome to RENTAL BATTLE!\p"
-	.string "Our pool has a {STR_VAR_1} whose\n"
-	.string "first move is {STR_VAR_2}.\p"
-	.string "The rental data is loaded and ready.$"
+	.string "Draft six POKéMON from the twelve\n"
+	.string "I offer you.$"
+
+BattleFrontier_BattleTowerLobby_Text_RentalDraftDone:
+	.string "Your rental team is ready!$"

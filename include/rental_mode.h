@@ -48,4 +48,12 @@ bool32 RentalRoster_TryAdd(u32 offerSlot);
 // Remove a roster slot (0..rosterCount-1), compacting the rest down.
 void RentalRoster_Remove(u32 rosterSlot);
 
+// The draft screen itself (an adapted copy of the Battle Factory select screen),
+// defined in src/rental_select_screen.c.
+void DoRentalDraftScreen(void);
+
+// Script special: begin a run (roll the offer) and launch the draft screen. Use it
+// from a map script followed by `waitstate`, like the Factory's rent flow.
+void StartRentalDraft(void);
+
 #endif // GUARD_RENTAL_MODE_H

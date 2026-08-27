@@ -7,6 +7,18 @@ Update in the same PR as the change.
 `YYYY-MM-DD` — area — one-line summary (PR/commit ref)
 
 ## Entries
+- 2026-08-27 - feature/rental - Rental draft screen (M3, needs build tuning). Added
+  src/rental_select_screen.c: a copy of the Battle Factory select screen adapted to
+  offer 12 rental mons (from gRentalRun.offer / gRentalMons) and let the player draft
+  6, at flat Lv50, writing the picks into the player party + gRentalRun.roster. The
+  real Factory screen is untouched (separate file; the two exported entry points and
+  the one shared global were renamed to avoid clashes). Offered balls are a single
+  tighter row (cursor auto-follows), the "pick N" text is numeric, and the confirm
+  shows the first 3 of 6 pics above a "Rent these POKéMON?" yes/no (a full 6-pic
+  confirm and two-row ball layout are later polish). Launched from the lobby attendant
+  via the StartRentalDraft special (Singles / 0 restricted for now; format select is a
+  quick follow-up). Graphics/layout are best-effort blind and need a Mac build to
+  verify and tune. Not yet compiled/ROM-tested (web session).
 - 2026-08-27 - feature/rental - Draft foundation (M3, no UI yet). Added
   include/rental_mode.h + logic in src/rental_mode.c for the draft: an in-RAM
   `gRentalRun` state (offer of 12, roster of 6, format, restricted cap, bring
