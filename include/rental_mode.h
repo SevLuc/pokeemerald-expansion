@@ -28,6 +28,7 @@ struct RentalRun
     u8 format;         // enum RentalFormat
     u8 restrictedCap;  // 0 / 1 / 2 restricted-tier mons allowed
     u8 bringCount;     // 3 (singles) or 4 (doubles) brought per battle
+    u16 winStreak;     // battles won so far this run
 };
 
 extern struct RentalRun gRentalRun;
@@ -58,6 +59,13 @@ void GenerateRentalOpponent(void);
 // Script special: buffer the opponent's fielded species names into gStringVar1 for a
 // team-preview message.
 void BufferRentalOpponentPreview(void);
+
+// Run-loop script specials.
+void RentalPrepareNextBattle(void); // roll a fresh opponent for the next battle
+void RentalSaveFullParty(void);     // stash the full 6 before the bring-N reduce
+void RentalRestoreFullParty(void);  // restore the full 6 (healed) after the battle
+void RentalOnWin(void);             // increment the win streak
+void RentalBufferStreak(void);      // buffer the current streak into gStringVar1
 
 // The draft screen itself (an adapted copy of the Battle Factory select screen),
 // defined in src/rental_select_screen.c.
