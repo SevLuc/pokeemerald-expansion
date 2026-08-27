@@ -1,11 +1,41 @@
 # Battle Tower - Design Interrogation & Open Questions
 
-Status: brainstorming. Nothing here is decided. This doc restates your ideas,
-then grills each one with the questions and trade-offs we need to settle before
-any code is written. Answer the **Q** prompts inline or in chat.
+Status: partially decided (see "Decisions locked" below). The rest is still open.
 
 The moveset/roster data (`roster.md`, `movesets/*.json`) is done and is the raw
 material this mode runs on. This doc is about the mode itself.
+
+---
+
+## Decisions locked (this session)
+
+- **Phased build.** Phase 1 is a **classic rental Battle Factory** (draft
+  rentals, play the ruleset below). The **roguelike** layer (7-floor acts,
+  branching map, boss characters, challenges) is **Phase 2** - kept as an open
+  option, not built first.
+- **Roster source:** rentals (Factory-style draft), not the player's own team.
+- **Formats:** Singles = roster 6, bring 3. Doubles/VGC = roster 6, bring 4.
+- **Team preview:** both sides see the full 6; you pick your bring against theirs.
+- **Post-battle swap = recruit from the opponent's BROUGHT mons** (the 3 or 4
+  they actually used, not their full 6). Swap one of yours out for one of theirs.
+- **Clauses (Frontier preset):** Species Clause + **Item Clause** both enforced
+  on your roster (no duplicate species, no duplicate held item). This is a
+  Frontier-style ruleset by choice, not VGC-accurate.
+- **Restricted caps:** three formats capping restricted-tier Pokemon at **0 / 1
+  / 2** per team.
+- **Mega:** multiple mega-capable mons allowed on the roster; **one Mega
+  Evolution per battle**. (Mega Stone occupies the held-item slot, so Item Clause
+  already forces distinct stones.)
+- **Hidden Power:** displays its real IV-derived **type** (and type-colored
+  badge) everywhere the player can view a move, including the opponent-scout
+  summary.
+- **Roguelike shape (when built):** branching map with node types, **no
+  persistent relics** (power stays in the Pokemon/sets).
+
+Still open: level rule (Q0.3), boss roster & behavior (section 2), which
+challenges (section 3), exact restricted-tier definition (Q5.4), the Hidden
+Power display surfaces (section 6), and the section 7 items. The grilling below
+is kept for those.
 
 ---
 
