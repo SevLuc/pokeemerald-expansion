@@ -1748,7 +1748,11 @@ static void CreateSlateportTentSelectableMons(u8 firstMonId)
     gFacilityTrainerMons = gSlateportBattleTentMons;
     otId = READ_OTID_FROM_SAVE;
 
-    for (i = 0; i < SELECTABLE_MONS_COUNT; i++)
+    // This tent path reads the stock 6-slot frontier.rentalMons array, so it is
+    // bounded by that array, not SELECTABLE_MONS_COUNT (raised to 12 for the rental
+    // draft). It is dead in rental mode (lvlMode is never FRONTIER_LVL_TENT here);
+    // the correct bound just keeps the compiler's loop-overflow check happy.
+    for (i = 0; i < (u8)ARRAY_COUNT(gSaveBlock2Ptr->frontier.rentalMons); i++)
     {
         u16 monId = gSaveBlock2Ptr->frontier.rentalMons[i].monId;
         sFactorySelectScreen->mons[i + firstMonId].monId = monId;
