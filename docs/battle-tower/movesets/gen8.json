@@ -1717,6 +1717,30 @@
      ],
      "source": "Run & Bun",
      "notes": "EVs inferred (source lists moves/item/nature/ability only)"
+    },
+    {
+     "name": "Competitive variant",
+     "role": "choice wallbreaker",
+     "item": "ITEM_CHOICE_SPECS",
+     "ability": "ABILITY_COMPETITIVE",
+     "nature": "NATURE_TIMID",
+     "evs": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "spatk": 252,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_THUNDERBOLT",
+      "MOVE_VOLT_SWITCH",
+      "MOVE_PSYCHIC_FANGS",
+      "MOVE_CRUNCH"
+     ],
+     "tier": "ability-variant",
+     "notes": "Represents COMPETITIVE; moves cloned from 'Choice Specs'.",
+     "source": "Ability variant (constructed)"
     }
    ]
   },
@@ -1892,6 +1916,30 @@
      ],
      "source": "Run & Bun",
      "notes": "EVs inferred (source lists moves/item/nature/ability only)"
+    },
+    {
+     "name": "Flash Fire variant",
+     "role": "defensive / utility",
+     "tier": "ability-variant",
+     "item": "ITEM_HEAVY_DUTY_BOOTS",
+     "ability": "ABILITY_FLASH_FIRE",
+     "nature": "NATURE_CALM",
+     "evs": {
+      "hp": 248,
+      "atk": 0,
+      "def": 8,
+      "spatk": 0,
+      "spdef": 252,
+      "speed": 0
+     },
+     "moves": [
+      "MOVE_RAPID_SPIN",
+      "MOVE_STEALTH_ROCK",
+      "MOVE_FLAMETHROWER",
+      "MOVE_EARTH_POWER"
+     ],
+     "source": "Ability variant (constructed)",
+     "notes": "Represents FLASH_FIRE; moves cloned from 'Defensive'."
     }
    ]
   },
@@ -2693,6 +2741,30 @@
      ],
      "source": "Run & Bun",
      "notes": "EVs inferred (source lists moves/item/nature/ability only)"
+    },
+    {
+     "name": "Flash Fire variant",
+     "role": "wallbreaker",
+     "tier": "ability-variant",
+     "item": "ITEM_HEAVY_DUTY_BOOTS",
+     "ability": "ABILITY_FLASH_FIRE",
+     "nature": "NATURE_ADAMANT",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_FIRE_LASH",
+      "MOVE_POWER_WHIP",
+      "MOVE_KNOCK_OFF",
+      "MOVE_LEECH_LIFE"
+     ],
+     "source": "Ability variant (constructed)",
+     "notes": "Represents FLASH_FIRE; moves cloned from 'Wallbreaker'."
     }
    ]
   },
@@ -4233,6 +4305,30 @@
      ],
      "source": "Run & Bun",
      "notes": "EVs inferred (source lists moves/item/nature/ability only)"
+    },
+    {
+     "name": "Volt Absorb variant",
+     "role": "sub attacker",
+     "tier": "ability-variant",
+     "item": "ITEM_LEFTOVERS",
+     "ability": "ABILITY_VOLT_ABSORB",
+     "nature": "NATURE_LONELY",
+     "evs": {
+      "hp": 0,
+      "atk": 184,
+      "def": 0,
+      "spatk": 140,
+      "spdef": 0,
+      "speed": 184
+     },
+     "moves": [
+      "MOVE_BOLT_BEAK",
+      "MOVE_DRACO_METEOR",
+      "MOVE_SUBSTITUTE",
+      "MOVE_FIRE_SPIN"
+     ],
+     "source": "Ability variant (constructed)",
+     "notes": "Represents VOLT_ABSORB; moves cloned from 'Substitute + Fire Spin'."
     }
    ]
   },
@@ -4288,6 +4384,30 @@
      ],
      "source": "Run & Bun",
      "notes": "EVs inferred (source lists moves/item/nature/ability only)"
+    },
+    {
+     "name": "Volt Absorb variant",
+     "role": "attacker",
+     "tier": "ability-variant",
+     "item": "ITEM_LEFTOVERS",
+     "ability": "ABILITY_VOLT_ABSORB",
+     "nature": "NATURE_NAIVE",
+     "evs": {
+      "hp": 0,
+      "atk": 208,
+      "def": 0,
+      "spatk": 76,
+      "spdef": 0,
+      "speed": 224
+     },
+     "moves": [
+      "MOVE_BOLT_BEAK",
+      "MOVE_BLIZZARD",
+      "MOVE_FREEZE_DRY",
+      "MOVE_SUBSTITUTE"
+     ],
+     "source": "Ability variant (constructed)",
+     "notes": "Represents VOLT_ABSORB; moves cloned from 'Hail Sweeper'."
     }
    ]
   },
@@ -4391,6 +4511,30 @@
      ],
      "source": "Smogon data.pkmn.cc (gen8 battlestadiumsingles)",
      "notes": "Low Kick/Sleep Talk/Rest"
+    },
+    {
+     "name": "Water Absorb variant",
+     "role": "attacker",
+     "tier": "ability-variant",
+     "item": "ITEM_CHOICE_BAND",
+     "ability": "ABILITY_WATER_ABSORB",
+     "nature": "NATURE_ADAMANT",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_FISHIOUS_REND",
+      "MOVE_PSYCHIC_FANGS",
+      "MOVE_CRUNCH",
+      "MOVE_OUTRAGE"
+     ],
+     "source": "Ability variant (constructed)",
+     "notes": "Represents WATER_ABSORB; moves cloned from 'Choice Item'."
     }
    ]
   },

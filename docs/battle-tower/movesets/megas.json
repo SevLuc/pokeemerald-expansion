@@ -2704,6 +2704,30 @@
      ],
      "source": "Constructed from Z-A build data (type/ability/stats in-build; playstyle per web)",
      "notes": ""
+    },
+    {
+     "name": "Defiant variant",
+     "role": "setup sweeper",
+     "tier": "ability-variant",
+     "item": "ITEM_LEFTOVERS",
+     "ability": "ABILITY_DEFIANT",
+     "nature": "NATURE_ADAMANT",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_NO_RETREAT",
+      "MOVE_CLOSE_COMBAT",
+      "MOVE_IRON_HEAD",
+      "MOVE_THROAT_CHOP"
+     ],
+     "source": "Ability variant (constructed)",
+     "notes": "Represents DEFIANT; moves cloned from 'Z-A Mega'."
     }
    ],
    "_note": "custom Z-A Mega (constructed)"

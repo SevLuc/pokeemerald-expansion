@@ -1076,6 +1076,30 @@
      ],
      "source": "Run & Bun",
      "notes": "EVs inferred (source lists moves/item/nature/ability only)"
+    },
+    {
+     "name": "Strong Jaw variant",
+     "role": "choice wallbreaker",
+     "tier": "ability-variant",
+     "item": "ITEM_CHOICE_BAND",
+     "ability": "ABILITY_STRONG_JAW",
+     "nature": "NATURE_ADAMANT",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 4,
+      "spatk": 0,
+      "spdef": 0,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_RETURN",
+      "MOVE_EARTHQUAKE",
+      "MOVE_U_TURN",
+      "MOVE_CRUNCH"
+     ],
+     "source": "Ability variant (constructed)",
+     "notes": "Represents STRONG_JAW; moves cloned from 'Choice Band'."
     }
    ]
   },
@@ -2533,6 +2557,30 @@
      ],
      "source": "Run & Bun",
      "notes": "EVs inferred (source lists moves/item/nature/ability only)"
+    },
+    {
+     "name": "Water Absorb variant",
+     "role": "attacker",
+     "tier": "ability-variant",
+     "item": "ITEM_CUSTAP_BERRY",
+     "ability": "ABILITY_WATER_ABSORB",
+     "nature": "NATURE_MODEST",
+     "evs": {
+      "hp": 252,
+      "atk": 0,
+      "def": 40,
+      "spatk": 216,
+      "spdef": 0,
+      "speed": 0
+     },
+     "moves": [
+      "MOVE_STICKY_WEB",
+      "MOVE_SURF",
+      "MOVE_ENDEAVOR",
+      "MOVE_ENDURE"
+     ],
+     "source": "Ability variant (constructed)",
+     "notes": "Represents WATER_ABSORB; moves cloned from 'Sticky Web'."
     }
    ]
   },

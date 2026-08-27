@@ -1139,6 +1139,38 @@
      ],
      "source": "Run & Bun",
      "notes": "EVs inferred (source lists moves/item/nature/ability only)"
+    },
+    {
+     "name": "Moxie variant",
+     "role": "attacker",
+     "tier": "ability-variant",
+     "item": "ITEM_LIFE_ORB",
+     "ability": "ABILITY_MOXIE",
+     "nature": "NATURE_TIMID",
+     "evs": {
+      "hp": 0,
+      "atk": 0,
+      "def": 4,
+      "spatk": 252,
+      "spdef": 0,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_FIRE_BLAST",
+      "MOVE_HYPER_VOICE",
+      "MOVE_HIDDEN_POWER",
+      "MOVE_WILL_O_WISP"
+     ],
+     "source": "Ability variant (constructed)",
+     "notes": "Represents MOXIE; moves cloned from 'Special Attacker'.",
+     "ivs": {
+      "hp": 31,
+      "atk": 30,
+      "def": 31,
+      "speed": 31,
+      "spatk": 30,
+      "spdef": 31
+     }
     }
    ]
   },
@@ -1663,6 +1695,30 @@
      ],
      "source": "Run & Bun",
      "notes": "EVs inferred (source lists moves/item/nature/ability only)"
+    },
+    {
+     "name": "Mold Breaker variant",
+     "role": "choice wallbreaker",
+     "tier": "ability-variant",
+     "item": "ITEM_CHOICE_BAND",
+     "ability": "ABILITY_MOLD_BREAKER",
+     "nature": "NATURE_ADAMANT",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_CLOSE_COMBAT",
+      "MOVE_KNOCK_OFF",
+      "MOVE_IRON_HEAD",
+      "MOVE_BULLET_PUNCH"
+     ],
+     "source": "Ability variant (constructed)",
+     "notes": "Represents MOLD_BREAKER; moves cloned from 'Choice Band'."
     }
    ]
   },
@@ -3486,6 +3542,30 @@
      ],
      "source": "Run & Bun",
      "notes": "EVs inferred (source lists moves/item/nature/ability only)"
+    },
+    {
+     "name": "Strong Jaw variant",
+     "role": "setup sweeper",
+     "tier": "ability-variant",
+     "item": "ITEM_LUM_BERRY",
+     "ability": "ABILITY_STRONG_JAW",
+     "nature": "NATURE_JOLLY",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_DRAGON_DANCE",
+      "MOVE_HEAD_SMASH",
+      "MOVE_SCALE_SHOT",
+      "MOVE_CLOSE_COMBAT"
+     ],
+     "source": "Ability variant (constructed)",
+     "notes": "Represents STRONG_JAW; moves cloned from 'Dragon Dance'."
     }
    ]
   },

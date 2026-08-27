@@ -3948,6 +3948,30 @@
      ],
      "source": "Emerald Kaizo",
      "notes": "EVs inferred (source lists moves/item/nature/ability only)"
+    },
+    {
+     "name": "Sap Sipper variant",
+     "role": "setup sweeper",
+     "tier": "ability-variant",
+     "item": "ITEM_SITRUS_BERRY",
+     "ability": "ABILITY_SAP_SIPPER",
+     "nature": "NATURE_ADAMANT",
+     "evs": {
+      "hp": 4,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 0,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_BELLY_DRUM",
+      "MOVE_PLAY_ROUGH",
+      "MOVE_LIQUIDATION",
+      "MOVE_AQUA_JET"
+     ],
+     "source": "Ability variant (constructed)",
+     "notes": "Represents SAP_SIPPER; moves cloned from 'Belly Drum'."
     }
    ]
   },
@@ -4961,6 +4985,30 @@
      ],
      "source": "Run & Bun",
      "notes": "EVs inferred (source lists moves/item/nature/ability only)"
+    },
+    {
+     "name": "Skill Link variant",
+     "role": "attacker",
+     "tier": "ability-variant",
+     "item": "ITEM_LIFE_ORB",
+     "ability": "ABILITY_SKILL_LINK",
+     "nature": "NATURE_JOLLY",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 4,
+      "spatk": 0,
+      "spdef": 0,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_FAKE_OUT",
+      "MOVE_RETURN",
+      "MOVE_LOW_KICK",
+      "MOVE_KNOCK_OFF"
+     ],
+     "source": "Ability variant (constructed)",
+     "notes": "Represents SKILL_LINK; moves cloned from 'DON'T USE AMBIPOM'."
     }
    ]
   },
@@ -7020,6 +7068,30 @@
      ],
      "source": "Smogon data.pkmn.cc (gen9 partnersincrime)",
      "notes": "Psychic Noise/Psychic; Helping Hand/Protect"
+    },
+    {
+     "name": "Sap Sipper variant",
+     "role": "attacker",
+     "tier": "ability-variant",
+     "item": "ITEM_LEFTOVERS",
+     "ability": "ABILITY_SAP_SIPPER",
+     "nature": "NATURE_QUIET",
+     "evs": {
+      "hp": 252,
+      "atk": 0,
+      "def": 4,
+      "spatk": 252,
+      "spdef": 0,
+      "speed": 0
+     },
+     "moves": [
+      "MOVE_TRICK_ROOM",
+      "MOVE_NASTY_PLOT",
+      "MOVE_PSYSHOCK",
+      "MOVE_HYPER_VOICE"
+     ],
+     "source": "Ability variant (constructed)",
+     "notes": "Represents SAP_SIPPER; moves cloned from 'Offensive Trick Room'."
     }
    ]
   },
@@ -7345,6 +7417,30 @@
      ],
      "source": "Smogon data.pkmn.cc (gen9 nu)",
      "notes": "Hex/Earth Power; Stealth Rock/Roost"
+    },
+    {
+     "name": "Serene Grace variant",
+     "role": "setup sweeper",
+     "tier": "ability-variant",
+     "item": "ITEM_LEFTOVERS",
+     "ability": "ABILITY_SERENE_GRACE",
+     "nature": "NATURE_BOLD",
+     "evs": {
+      "hp": 252,
+      "atk": 0,
+      "def": 156,
+      "spatk": 0,
+      "spdef": 0,
+      "speed": 100
+     },
+     "moves": [
+      "MOVE_CALM_MIND",
+      "MOVE_BOOMBURST",
+      "MOVE_SHADOW_BALL",
+      "MOVE_ROOST"
+     ],
+     "source": "Ability variant (constructed)",
+     "notes": "Represents SERENE_GRACE; moves cloned from 'Scream (Calm Mind)'."
     }
    ]
   },
@@ -12262,6 +12358,30 @@
      ],
      "source": "Emerald Kaizo",
      "notes": "EVs inferred (source lists moves/item/nature/ability only)"
+    },
+    {
+     "name": "Weak Armor variant",
+     "role": "hazard lead",
+     "tier": "ability-variant",
+     "item": "ITEM_CUSTAP_BERRY",
+     "ability": "ABILITY_WEAK_ARMOR",
+     "nature": "NATURE_JOLLY",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 4,
+      "spatk": 0,
+      "spdef": 0,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_STEALTH_ROCK",
+      "MOVE_SPIKES",
+      "MOVE_TAUNT",
+      "MOVE_BRAVE_BIRD"
+     ],
+     "source": "Ability variant (constructed)",
+     "notes": "Represents WEAK_ARMOR; moves cloned from 'Suicide Lead'."
     }
    ]
   },
@@ -13035,6 +13155,30 @@
      ],
      "source": "Run & Bun",
      "notes": "EVs inferred (source lists moves/item/nature/ability only)"
+    },
+    {
+     "name": "Sap Sipper variant",
+     "role": "defensive / utility",
+     "item": "ITEM_LEFTOVERS",
+     "ability": "ABILITY_SAP_SIPPER",
+     "nature": "NATURE_CAREFUL",
+     "evs": {
+      "hp": 252,
+      "atk": 4,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 252,
+      "speed": 0
+     },
+     "moves": [
+      "MOVE_PSYCHIC_NOISE",
+      "MOVE_BODY_SLAM",
+      "MOVE_THUNDER_WAVE",
+      "MOVE_HEALING_WISH"
+     ],
+     "tier": "ability-variant",
+     "notes": "Represents SAP_SIPPER; moves cloned from 'Bulky Pivot'.",
+     "source": "Ability variant (constructed)"
     }
    ]
   },

@@ -389,6 +389,30 @@
      "tier": "constructed",
      "notes": "",
      "source": "Constructed (competitive knowledge; validated vs build)"
+    },
+    {
+     "name": "Stakeout variant",
+     "role": "hazard lead",
+     "item": "ITEM_LEFTOVERS",
+     "ability": "ABILITY_STAKEOUT",
+     "nature": "NATURE_IMPISH",
+     "evs": {
+      "hp": 252,
+      "atk": 4,
+      "def": 252,
+      "spatk": 0,
+      "spdef": 0,
+      "speed": 0
+     },
+     "moves": [
+      "MOVE_STICKY_WEB",
+      "MOVE_SPIKES",
+      "MOVE_KNOCK_OFF",
+      "MOVE_CIRCLE_THROW"
+     ],
+     "tier": "ability-variant",
+     "notes": "Represents STAKEOUT; moves cloned from 'Hazard Setter'.",
+     "source": "Ability variant (constructed)"
     }
    ]
   },
@@ -691,6 +715,30 @@
      ],
      "source": "Smogon data.pkmn.cc (gen9 monotype)",
      "notes": "Thunder Punch/Double Shock"
+    },
+    {
+     "name": "Natural Cure variant",
+     "role": "wallbreaker",
+     "tier": "ability-variant",
+     "item": "ITEM_LIFE_ORB",
+     "ability": "ABILITY_NATURAL_CURE",
+     "nature": "NATURE_JOLLY",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_DOUBLE_SHOCK",
+      "MOVE_CLOSE_COMBAT",
+      "MOVE_KNOCK_OFF",
+      "MOVE_MACH_PUNCH"
+     ],
+     "source": "Ability variant (constructed)",
+     "notes": "Represents NATURAL_CURE; moves cloned from 'Wallbreaker'."
     }
    ]
   },
@@ -839,6 +887,30 @@
      "tier": "constructed",
      "notes": "",
      "source": "Constructed (competitive knowledge; validated vs build)"
+    },
+    {
+     "name": "Intimidate variant",
+     "role": "choice wallbreaker",
+     "item": "ITEM_CHOICE_BAND",
+     "ability": "ABILITY_INTIMIDATE",
+     "nature": "NATURE_JOLLY",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_BRAVE_BIRD",
+      "MOVE_DOUBLE_EDGE",
+      "MOVE_FACADE",
+      "MOVE_U_TURN"
+     ],
+     "tier": "ability-variant",
+     "notes": "Represents INTIMIDATE; moves cloned from 'Choice Band'.",
+     "source": "Ability variant (constructed)"
     }
    ]
   },
@@ -942,6 +1014,30 @@
      ],
      "source": "Smogon data.pkmn.cc (gen9 battlestadiumsingles)",
      "notes": "Protect/Earthquake/Substitute"
+    },
+    {
+     "name": "Sturdy variant",
+     "role": "hazard lead",
+     "tier": "ability-variant",
+     "item": "ITEM_LEFTOVERS",
+     "ability": "ABILITY_STURDY",
+     "nature": "NATURE_CAREFUL",
+     "evs": {
+      "hp": 252,
+      "atk": 0,
+      "def": 52,
+      "spatk": 0,
+      "spdef": 204,
+      "speed": 0
+     },
+     "moves": [
+      "MOVE_STEALTH_ROCK",
+      "MOVE_SALT_CURE",
+      "MOVE_RECOVER",
+      "MOVE_PROTECT"
+     ],
+     "source": "Ability variant (constructed)",
+     "notes": "Represents STURDY; moves cloned from 'Stealth Rock'."
     }
    ]
   },
@@ -1409,6 +1505,54 @@
      "tier": "constructed",
      "notes": "",
      "source": "Constructed (competitive knowledge; validated vs build)"
+    },
+    {
+     "name": "Intimidate variant",
+     "role": "setup sweeper",
+     "item": "ITEM_LIFE_ORB",
+     "ability": "ABILITY_INTIMIDATE",
+     "nature": "NATURE_JOLLY",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_CRUNCH",
+      "MOVE_PLAY_ROUGH",
+      "MOVE_PSYCHIC_FANGS",
+      "MOVE_FIRE_FANG"
+     ],
+     "tier": "ability-variant",
+     "notes": "Represents INTIMIDATE; moves cloned from 'Guard Dog Sweeper'.",
+     "source": "Ability variant (constructed)"
+    },
+    {
+     "name": "Stakeout variant",
+     "role": "setup sweeper",
+     "item": "ITEM_LIFE_ORB",
+     "ability": "ABILITY_STAKEOUT",
+     "nature": "NATURE_JOLLY",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_CRUNCH",
+      "MOVE_PLAY_ROUGH",
+      "MOVE_PSYCHIC_FANGS",
+      "MOVE_FIRE_FANG"
+     ],
+     "tier": "ability-variant",
+     "notes": "Represents STAKEOUT; moves cloned from 'Guard Dog Sweeper'.",
+     "source": "Ability variant (constructed)"
     }
    ]
   },
@@ -1677,6 +1821,30 @@
      "tier": "constructed",
      "notes": "",
      "source": "Constructed (competitive knowledge; validated vs build)"
+    },
+    {
+     "name": "Regenerator variant",
+     "role": "setup sweeper",
+     "item": "ITEM_WEAKNESS_POLICY",
+     "ability": "ABILITY_REGENERATOR",
+     "nature": "NATURE_JOLLY",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 4,
+      "spatk": 0,
+      "spdef": 0,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_ROCK_SLIDE",
+      "MOVE_EARTHQUAKE",
+      "MOVE_X_SCISSOR",
+      "MOVE_SWORDS_DANCE"
+     ],
+     "tier": "ability-variant",
+     "notes": "Represents REGENERATOR; moves cloned from 'Anger Shell Sweeper'.",
+     "source": "Ability variant (constructed)"
     }
    ]
   },
@@ -2968,6 +3136,54 @@
      ],
      "source": "Smogon data.pkmn.cc (gen9 monotype)",
      "notes": ""
+    },
+    {
+     "name": "Thick Fat variant",
+     "role": "setup sweeper",
+     "tier": "ability-variant",
+     "item": "ITEM_SITRUS_BERRY",
+     "ability": "ABILITY_THICK_FAT",
+     "nature": "NATURE_JOLLY",
+     "evs": {
+      "hp": 4,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 0,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_BELLY_DRUM",
+      "MOVE_ICE_SPINNER",
+      "MOVE_EARTHQUAKE",
+      "MOVE_ICE_SHARD"
+     ],
+     "source": "Ability variant (constructed)",
+     "notes": "Represents THICK_FAT; moves cloned from 'Belly Drum'."
+    },
+    {
+     "name": "Sheer Force variant",
+     "role": "setup sweeper",
+     "tier": "ability-variant",
+     "item": "ITEM_SITRUS_BERRY",
+     "ability": "ABILITY_SHEER_FORCE",
+     "nature": "NATURE_JOLLY",
+     "evs": {
+      "hp": 4,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 0,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_BELLY_DRUM",
+      "MOVE_ICE_SPINNER",
+      "MOVE_EARTHQUAKE",
+      "MOVE_ICE_SHARD"
+     ],
+     "source": "Ability variant (constructed)",
+     "notes": "Represents SHEER_FORCE; moves cloned from 'Belly Drum'."
     }
    ]
   },
@@ -2999,6 +3215,30 @@
      ],
      "source": "Smogon data.pkmn.cc (gen9 pu)",
      "notes": "Aqua Jet/Night Slash/Slash"
+    },
+    {
+     "name": "Mold Breaker variant",
+     "role": "attacker",
+     "tier": "ability-variant",
+     "item": "ITEM_SITRUS_BERRY",
+     "ability": "ABILITY_MOLD_BREAKER",
+     "nature": "NATURE_ADAMANT",
+     "evs": {
+      "hp": 4,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 0,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_FILLET_AWAY",
+      "MOVE_AQUA_CUTTER",
+      "MOVE_PSYCHO_CUT",
+      "MOVE_AQUA_JET"
+     ],
+     "source": "Ability variant (constructed)",
+     "notes": "Represents MOLD_BREAKER; moves cloned from 'Fillet Away'."
     }
    ]
   },

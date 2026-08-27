@@ -32,6 +32,30 @@
      "tier": "constructed",
      "notes": "",
      "source": "Constructed (competitive knowledge; validated vs build)"
+    },
+    {
+     "name": "Thick Fat variant",
+     "role": "attacker",
+     "item": "ITEM_LEFTOVERS",
+     "ability": "ABILITY_THICK_FAT",
+     "nature": "NATURE_ADAMANT",
+     "evs": {
+      "hp": 252,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 0
+     },
+     "moves": [
+      "MOVE_KNOCK_OFF",
+      "MOVE_DOUBLE_EDGE",
+      "MOVE_SUCKER_PUNCH",
+      "MOVE_SWORDS_DANCE"
+     ],
+     "tier": "ability-variant",
+     "notes": "Represents THICK_FAT; moves cloned from 'Bulky Attacker'.",
+     "source": "Ability variant (constructed)"
     }
    ]
   },
@@ -691,6 +715,30 @@
      ],
      "source": "Smogon data.pkmn.cc (gen8 pu)",
      "notes": "Parting Shot/U-turn; Gunk Shot/Foul Play/Toxic/Taunt"
+    },
+    {
+     "name": "Technician variant",
+     "role": "special tank",
+     "tier": "ability-variant",
+     "item": "ITEM_HEAVY_DUTY_BOOTS",
+     "ability": "ABILITY_TECHNICIAN",
+     "nature": "NATURE_JOLLY",
+     "evs": {
+      "hp": 0,
+      "atk": 4,
+      "def": 252,
+      "spatk": 0,
+      "spdef": 0,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_KNOCK_OFF",
+      "MOVE_FOUL_PLAY",
+      "MOVE_PARTING_SHOT",
+      "MOVE_TAUNT"
+     ],
+     "source": "Ability variant (constructed)",
+     "notes": "Represents TECHNICIAN; moves cloned from 'Heavy-Duty Boots'."
     }
    ]
   },
@@ -818,6 +866,54 @@
      ],
      "source": "Smogon data.pkmn.cc (gen9 monotype)",
      "notes": ""
+    },
+    {
+     "name": "Intimidate variant",
+     "role": "choice wallbreaker",
+     "tier": "ability-variant",
+     "item": "ITEM_CHOICE_BAND",
+     "ability": "ABILITY_INTIMIDATE",
+     "nature": "NATURE_JOLLY",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_HEAD_SMASH",
+      "MOVE_FLARE_BLITZ",
+      "MOVE_EXTREME_SPEED",
+      "MOVE_CLOSE_COMBAT"
+     ],
+     "source": "Ability variant (constructed)",
+     "notes": "Represents INTIMIDATE; moves cloned from 'Choice Band'."
+    },
+    {
+     "name": "Flash Fire variant",
+     "role": "choice wallbreaker",
+     "tier": "ability-variant",
+     "item": "ITEM_CHOICE_BAND",
+     "ability": "ABILITY_FLASH_FIRE",
+     "nature": "NATURE_JOLLY",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_HEAD_SMASH",
+      "MOVE_FLARE_BLITZ",
+      "MOVE_EXTREME_SPEED",
+      "MOVE_CLOSE_COMBAT"
+     ],
+     "source": "Ability variant (constructed)",
+     "notes": "Represents FLASH_FIRE; moves cloned from 'Choice Band'."
     }
    ]
   },
@@ -969,6 +1065,30 @@
      ],
      "source": "Smogon data.pkmn.cc (gen7 monotype)",
      "notes": ""
+    },
+    {
+     "name": "Sturdy variant",
+     "role": "choice wallbreaker",
+     "tier": "ability-variant",
+     "item": "ITEM_CHOICE_BAND",
+     "ability": "ABILITY_STURDY",
+     "nature": "NATURE_ADAMANT",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 4,
+      "spatk": 0,
+      "spdef": 0,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_WILD_CHARGE",
+      "MOVE_BRICK_BREAK",
+      "MOVE_EARTHQUAKE",
+      "MOVE_FIRE_PUNCH"
+     ],
+     "source": "Ability variant (constructed)",
+     "notes": "Represents STURDY; moves cloned from 'Choice Band (Rock)'."
     }
    ]
   },
@@ -2057,6 +2177,30 @@
      ],
      "source": "Smogon data.pkmn.cc (gen8 monotype)",
      "notes": ""
+    },
+    {
+     "name": "Misty Surge variant",
+     "role": "defensive / utility",
+     "tier": "ability-variant",
+     "item": "ITEM_HEAVY_DUTY_BOOTS",
+     "ability": "ABILITY_MISTY_SURGE",
+     "nature": "NATURE_BOLD",
+     "evs": {
+      "hp": 252,
+      "atk": 0,
+      "def": 252,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 0
+     },
+     "moves": [
+      "MOVE_DEFOG",
+      "MOVE_WILL_O_WISP",
+      "MOVE_PAIN_SPLIT",
+      "MOVE_SLUDGE_BOMB"
+     ],
+     "source": "Ability variant (constructed)",
+     "notes": "Represents MISTY_SURGE; moves cloned from 'Utility'."
     }
    ]
   },
@@ -3770,6 +3914,30 @@
      ],
      "source": "Smogon data.pkmn.cc (gen9 pu)",
      "notes": "Rapid Spin/Stealth Rock"
+    },
+    {
+     "name": "Strong Jaw variant",
+     "role": "attacker",
+     "tier": "ability-variant",
+     "item": "ITEM_CUSTAP_BERRY",
+     "ability": "ABILITY_STRONG_JAW",
+     "nature": "NATURE_ADAMANT",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 4,
+      "spatk": 0,
+      "spdef": 0,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_STEALTH_ROCK",
+      "MOVE_MOUNTAIN_GALE",
+      "MOVE_BODY_PRESS",
+      "MOVE_RAPID_SPIN"
+     ],
+     "source": "Ability variant (constructed)",
+     "notes": "Represents STRONG_JAW; moves cloned from 'Offensive'."
     }
    ]
   },

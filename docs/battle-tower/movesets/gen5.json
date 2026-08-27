@@ -2444,6 +2444,30 @@
      ],
      "source": "Run & Bun",
      "notes": "EVs inferred (source lists moves/item/nature/ability only)"
+    },
+    {
+     "name": "Sand Force variant",
+     "role": "hazard lead",
+     "tier": "ability-variant",
+     "item": "ITEM_CUSTAP_BERRY",
+     "ability": "ABILITY_SAND_FORCE",
+     "nature": "NATURE_ADAMANT",
+     "evs": {
+      "hp": 196,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 0,
+      "speed": 60
+     },
+     "moves": [
+      "MOVE_STEALTH_ROCK",
+      "MOVE_EXPLOSION",
+      "MOVE_ROCK_BLAST",
+      "MOVE_EARTHQUAKE"
+     ],
+     "source": "Ability variant (constructed)",
+     "notes": "Represents SAND_FORCE; moves cloned from 'Custap Lead'."
     }
    ]
   },
@@ -2842,6 +2866,30 @@
      ],
      "source": "Run & Bun",
      "notes": "EVs inferred (source lists moves/item/nature/ability only)"
+    },
+    {
+     "name": "Sand Force variant",
+     "role": "attacker",
+     "tier": "ability-variant",
+     "item": "ITEM_AIR_BALLOON",
+     "ability": "ABILITY_SAND_FORCE",
+     "nature": "NATURE_ADAMANT",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 4,
+      "spatk": 0,
+      "spdef": 0,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_EARTHQUAKE",
+      "MOVE_RAPID_SPIN",
+      "MOVE_ROCK_SLIDE",
+      "MOVE_SWORDS_DANCE"
+     ],
+     "source": "Ability variant (constructed)",
+     "notes": "Represents SAND_FORCE; moves cloned from 'Sand Sweeper'."
     }
    ]
   },
@@ -3240,6 +3288,30 @@
      ],
      "source": "Run & Bun",
      "notes": "EVs inferred (source lists moves/item/nature/ability only)"
+    },
+    {
+     "name": "Sheer Force variant",
+     "role": "attacker",
+     "tier": "ability-variant",
+     "item": "ITEM_FLAME_ORB",
+     "ability": "ABILITY_SHEER_FORCE",
+     "nature": "NATURE_ADAMANT",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 4,
+      "spatk": 0,
+      "spdef": 0,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_DRAIN_PUNCH",
+      "MOVE_FACADE",
+      "MOVE_KNOCK_OFF",
+      "MOVE_MACH_PUNCH"
+     ],
+     "source": "Ability variant (constructed)",
+     "notes": "Represents SHEER_FORCE; moves cloned from 'Flame Orb Guts'."
     }
    ]
   },
@@ -4578,6 +4650,30 @@
      ],
      "source": "Run & Bun",
      "notes": "EVs inferred (source lists moves/item/nature/ability only)"
+    },
+    {
+     "name": "Chlorophyll variant",
+     "role": "choice wallbreaker",
+     "tier": "ability-variant",
+     "item": "ITEM_CHOICE_SPECS",
+     "ability": "ABILITY_CHLOROPHYLL",
+     "nature": "NATURE_TIMID",
+     "evs": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "spatk": 252,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_MOONBLAST",
+      "MOVE_ENERGY_BALL",
+      "MOVE_SHADOW_BALL",
+      "MOVE_SWITCHEROO"
+     ],
+     "source": "Ability variant (constructed)",
+     "notes": "Represents CHLOROPHYLL; moves cloned from 'Choice Specs'."
     }
    ]
   },
@@ -4840,6 +4936,54 @@
      ],
      "source": "Smogon data.pkmn.cc (gen5 nu)",
      "notes": ""
+    },
+    {
+     "name": "Reckless variant",
+     "role": "choice revenge killer",
+     "tier": "ability-variant",
+     "item": "ITEM_CHOICE_SCARF",
+     "ability": "ABILITY_RECKLESS",
+     "nature": "NATURE_JOLLY",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_LIQUIDATION",
+      "MOVE_FLIP_TURN",
+      "MOVE_CRUNCH",
+      "MOVE_SUPERPOWER"
+     ],
+     "source": "Ability variant (constructed)",
+     "notes": "Represents RECKLESS; moves cloned from 'Choice Scarf'."
+    },
+    {
+     "name": "Mold Breaker variant",
+     "role": "choice revenge killer",
+     "tier": "ability-variant",
+     "item": "ITEM_CHOICE_SCARF",
+     "ability": "ABILITY_MOLD_BREAKER",
+     "nature": "NATURE_JOLLY",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_LIQUIDATION",
+      "MOVE_FLIP_TURN",
+      "MOVE_CRUNCH",
+      "MOVE_SUPERPOWER"
+     ],
+     "source": "Ability variant (constructed)",
+     "notes": "Represents MOLD_BREAKER; moves cloned from 'Choice Scarf'."
     }
    ]
   },
@@ -5326,6 +5470,30 @@
       "spatk": 31,
       "spdef": 31
      }
+    },
+    {
+     "name": "Chlorophyll variant",
+     "role": "hazard lead",
+     "tier": "ability-variant",
+     "item": "ITEM_FOCUS_SASH",
+     "ability": "ABILITY_CHLOROPHYLL",
+     "nature": "NATURE_NAIVE",
+     "evs": {
+      "hp": 0,
+      "atk": 4,
+      "def": 0,
+      "spatk": 252,
+      "spdef": 0,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_SPIKES",
+      "MOVE_ENDEAVOR",
+      "MOVE_ENERGY_BALL",
+      "MOVE_SUCKER_PUNCH"
+     ],
+     "source": "Ability variant (constructed)",
+     "notes": "Represents CHLOROPHYLL; moves cloned from 'Lead'."
     }
    ]
   },
@@ -6472,6 +6640,30 @@
      ],
      "source": "Run & Bun",
      "notes": "EVs inferred (source lists moves/item/nature/ability only)"
+    },
+    {
+     "name": "Swift Swim variant",
+     "role": "setup sweeper",
+     "tier": "ability-variant",
+     "item": "ITEM_LIFE_ORB",
+     "ability": "ABILITY_SWIFT_SWIM",
+     "nature": "NATURE_NAIVE",
+     "evs": {
+      "hp": 0,
+      "atk": 28,
+      "def": 0,
+      "spatk": 228,
+      "spdef": 0,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_SHELL_SMASH",
+      "MOVE_HYDRO_PUMP",
+      "MOVE_STONE_EDGE",
+      "MOVE_ICE_BEAM"
+     ],
+     "source": "Ability variant (constructed)",
+     "notes": "Represents SWIFT_SWIM; moves cloned from 'Mixed Shell Smash'."
     }
    ]
   },
@@ -8686,6 +8878,30 @@
      ],
      "source": "Run & Bun",
      "notes": "EVs inferred (source lists moves/item/nature/ability only)"
+    },
+    {
+     "name": "Chlorophyll variant",
+     "role": "choice revenge killer",
+     "tier": "ability-variant",
+     "item": "ITEM_CHOICE_SCARF",
+     "ability": "ABILITY_CHLOROPHYLL",
+     "nature": "NATURE_JOLLY",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 4,
+      "spatk": 0,
+      "spdef": 0,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_DOUBLE_EDGE",
+      "MOVE_HORN_LEECH",
+      "MOVE_JUMP_KICK",
+      "MOVE_TOXIC"
+     ],
+     "source": "Ability variant (constructed)",
+     "notes": "Represents CHLOROPHYLL; moves cloned from 'Choice Scarf'."
     }
    ]
   },
@@ -13840,6 +14056,30 @@
      ],
      "source": "Run & Bun",
      "notes": "EVs inferred (source lists moves/item/nature/ability only)"
+    },
+    {
+     "name": "Sheer Force variant",
+     "role": "setup sweeper",
+     "tier": "ability-variant",
+     "item": "ITEM_HEAVY_DUTY_BOOTS",
+     "ability": "ABILITY_SHEER_FORCE",
+     "nature": "NATURE_CAREFUL",
+     "evs": {
+      "hp": 248,
+      "atk": 0,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 164,
+      "speed": 96
+     },
+     "moves": [
+      "MOVE_BULK_UP",
+      "MOVE_FACADE",
+      "MOVE_SHADOW_CLAW",
+      "MOVE_ROOST"
+     ],
+     "source": "Ability variant (constructed)",
+     "notes": "Represents SHEER_FORCE; moves cloned from 'Bulk Up'."
     }
    ]
   },
@@ -14111,6 +14351,30 @@
      ],
      "source": "Run & Bun",
      "notes": "EVs inferred (source lists moves/item/nature/ability only)"
+    },
+    {
+     "name": "Weak Armor variant",
+     "role": "attacker",
+     "tier": "ability-variant",
+     "item": "ITEM_ROCKY_HELMET",
+     "ability": "ABILITY_WEAK_ARMOR",
+     "nature": "NATURE_TIMID",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_FOUL_PLAY",
+      "MOVE_DARK_PULSE",
+      "MOVE_FAKE_TEARS",
+      "MOVE_TAILWIND"
+     ],
+     "source": "Ability variant (constructed)",
+     "notes": "Represents WEAK_ARMOR; moves cloned from 'Run & Bun set (Lv.89)'."
     }
    ]
   },

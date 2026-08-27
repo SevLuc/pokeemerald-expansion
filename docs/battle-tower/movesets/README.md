@@ -72,6 +72,18 @@ damage), a physical attacker on Special Attack — so the Pokemon pays no real
 cost for its Hidden Power type beyond what the type inherently forces (e.g. HP
 Fire always requires a 30 in Special Attack and Speed; that part is unavoidable).
 
+### Ability coverage
+Every multi-ability Pokemon was checked so its playstyle-defining abilities are
+represented. Where a genuinely impactful ability (weather setters, Sheer Force,
+Technician, Thick Fat, Regenerator, Intimidate, Chlorophyll, Sap Sipper, etc.)
+appeared on none of a Pokemon's sets, an **ability-variant** set was added
+(`source: "Ability variant (constructed)"`, `tier: "ability-variant"`) — cloned
+from the best-matching existing set with that ability swapped in. Competitively
+inert abilities (Keen Eye, Pickup, Own Tempo, and the like) are intentionally
+not given their own sets. Note: some abilities live only on a Pokemon's Mega
+forme (e.g. Thick Fat is Mega Venusaur's ability, not base Venusaur's), so look
+in `megas.json` for those.
+
 ### QA pass
 A validation pass ran over every set: illegal abilities (an ability the species
 can't legally have in this build, e.g. hack-doc quirks like Weavile "Inner

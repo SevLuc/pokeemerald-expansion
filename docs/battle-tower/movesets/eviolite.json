@@ -248,6 +248,30 @@
      ],
      "source": "Emerald Kaizo",
      "notes": "EVs inferred (source lists moves/item/nature/ability only)"
+    },
+    {
+     "name": "Serene Grace variant",
+     "role": "attacker",
+     "tier": "ability-variant",
+     "item": "ITEM_NONE",
+     "ability": "ABILITY_SERENE_GRACE",
+     "nature": "NATURE_SERIOUS",
+     "evs": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 0,
+      "speed": 0
+     },
+     "moves": [
+      "MOVE_THUNDERBOLT",
+      "MOVE_ICE_BEAM",
+      "MOVE_SOFT_BOILED",
+      "MOVE_THUNDER_WAVE"
+     ],
+     "source": "Ability variant (constructed)",
+     "notes": "Represents SERENE_GRACE; moves cloned from 'BoltBeam'."
     }
    ]
   },
@@ -1787,6 +1811,30 @@
      ],
      "source": "Emerald Kaizo",
      "notes": "EVs inferred (source lists moves/item/nature/ability only)"
+    },
+    {
+     "name": "Reckless variant",
+     "role": "sub attacker",
+     "tier": "ability-variant",
+     "item": "ITEM_NONE",
+     "ability": "ABILITY_RECKLESS",
+     "nature": "NATURE_ADAMANT",
+     "evs": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 0,
+      "speed": 0
+     },
+     "moves": [
+      "MOVE_SUBSTITUTE",
+      "MOVE_EARTHQUAKE",
+      "MOVE_ROCK_SLIDE",
+      "MOVE_MEGAHORN"
+     ],
+     "source": "Ability variant (constructed)",
+     "notes": "Represents RECKLESS; moves cloned from 'Substitute'."
     }
    ]
   },
@@ -2154,6 +2202,30 @@
      ],
      "source": "Emerald Kaizo",
      "notes": "EVs inferred (source lists moves/item/nature/ability only)"
+    },
+    {
+     "name": "Sturdy variant",
+     "role": "choice wallbreaker",
+     "tier": "ability-variant",
+     "item": "ITEM_CHOICE_SPECS",
+     "ability": "ABILITY_STURDY",
+     "nature": "NATURE_MODEST",
+     "evs": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "spatk": 252,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_THUNDERBOLT",
+      "MOVE_VOLT_SWITCH",
+      "MOVE_FLASH_CANNON",
+      "MOVE_STEEL_BEAM"
+     ],
+     "source": "Ability variant (constructed)",
+     "notes": "Represents STURDY; moves cloned from 'Choice Specs Trapper'."
     }
    ]
   },
@@ -2820,6 +2892,54 @@
      ],
      "source": "Run & Bun",
      "notes": "EVs inferred (source lists moves/item/nature/ability only)"
+    },
+    {
+     "name": "Sheer Force variant",
+     "role": "attacker",
+     "tier": "ability-variant",
+     "item": "ITEM_LIFE_ORB",
+     "ability": "ABILITY_SHEER_FORCE",
+     "nature": "NATURE_ADAMANT",
+     "evs": {
+      "hp": 252,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 0
+     },
+     "moves": [
+      "MOVE_DRAIN_PUNCH",
+      "MOVE_MACH_PUNCH",
+      "MOVE_STONE_EDGE",
+      "MOVE_KNOCK_OFF"
+     ],
+     "source": "Ability variant (constructed)",
+     "notes": "Represents SHEER_FORCE; moves cloned from 'Life Orb Attacker'."
+    },
+    {
+     "name": "Iron Fist variant",
+     "role": "attacker",
+     "tier": "ability-variant",
+     "item": "ITEM_LIFE_ORB",
+     "ability": "ABILITY_IRON_FIST",
+     "nature": "NATURE_ADAMANT",
+     "evs": {
+      "hp": 252,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 0
+     },
+     "moves": [
+      "MOVE_DRAIN_PUNCH",
+      "MOVE_MACH_PUNCH",
+      "MOVE_STONE_EDGE",
+      "MOVE_KNOCK_OFF"
+     ],
+     "source": "Ability variant (constructed)",
+     "notes": "Represents IRON_FIST; moves cloned from 'Life Orb Attacker'."
     }
    ]
   },
@@ -2875,6 +2995,30 @@
      "tier": "constructed",
      "notes": "",
      "source": "Constructed (competitive knowledge; validated vs build)"
+    },
+    {
+     "name": "Weak Armor variant",
+     "role": "setup sweeper",
+     "item": "ITEM_EVIOLITE",
+     "ability": "ABILITY_WEAK_ARMOR",
+     "nature": "NATURE_BOLD",
+     "evs": {
+      "hp": 252,
+      "atk": 0,
+      "def": 252,
+      "spatk": 4,
+      "spdef": 0,
+      "speed": 0
+     },
+     "moves": [
+      "MOVE_NASTY_PLOT",
+      "MOVE_DARK_PULSE",
+      "MOVE_AIR_SLASH",
+      "MOVE_ROOST"
+     ],
+     "tier": "ability-variant",
+     "notes": "Represents WEAK_ARMOR; moves cloned from 'Eviolite Nasty Plot'.",
+     "source": "Ability variant (constructed)"
     }
    ]
   },
@@ -3615,6 +3759,30 @@
      ],
      "source": "Run & Bun",
      "notes": "EVs inferred (source lists moves/item/nature/ability only)"
+    },
+    {
+     "name": "Prankster variant",
+     "role": "attacker",
+     "tier": "ability-variant",
+     "item": "ITEM_LIFE_ORB",
+     "ability": "ABILITY_PRANKSTER",
+     "nature": "NATURE_NAIVE",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 4,
+      "spdef": 0,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_BRAVE_BIRD",
+      "MOVE_SUCKER_PUNCH",
+      "MOVE_HEAT_WAVE",
+      "MOVE_PURSUIT"
+     ],
+     "source": "Ability variant (constructed)",
+     "notes": "Represents PRANKSTER; moves cloned from 'Life Orb'."
     }
    ]
   },
@@ -5827,6 +5995,30 @@
      ],
      "source": "Emerald Kaizo",
      "notes": "EVs inferred (source lists moves/item/nature/ability only)"
+    },
+    {
+     "name": "Marvel Scale variant",
+     "role": "defensive / utility",
+     "tier": "ability-variant",
+     "item": "ITEM_LEFTOVERS",
+     "ability": "ABILITY_MARVEL_SCALE",
+     "nature": "NATURE_CALM",
+     "evs": {
+      "hp": 252,
+      "atk": 0,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 160,
+      "speed": 96
+     },
+     "moves": [
+      "MOVE_THUNDER_WAVE",
+      "MOVE_REST",
+      "MOVE_THUNDERBOLT",
+      "MOVE_ICE_BEAM"
+     ],
+     "source": "Ability variant (constructed)",
+     "notes": "Represents MARVEL_SCALE; moves cloned from 'Specially Defensive'."
     }
    ]
   },
@@ -6576,6 +6768,30 @@
      ],
      "source": "Emerald Kaizo",
      "notes": "EVs inferred (source lists moves/item/nature/ability only)"
+    },
+    {
+     "name": "Magic Guard variant",
+     "role": "defensive / utility",
+     "tier": "ability-variant",
+     "item": "ITEM_NONE",
+     "ability": "ABILITY_MAGIC_GUARD",
+     "nature": "NATURE_SERIOUS",
+     "evs": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 0,
+      "speed": 0
+     },
+     "moves": [
+      "MOVE_BODY_SLAM",
+      "MOVE_THUNDERBOLT",
+      "MOVE_BLIZZARD",
+      "MOVE_THUNDER_WAVE"
+     ],
+     "source": "Ability variant (constructed)",
+     "notes": "Represents MAGIC_GUARD; moves cloned from 'Bulky Attacker'."
     }
    ]
   },
@@ -6655,6 +6871,30 @@
      ],
      "source": "Smogon data.pkmn.cc (gen1 nc1997)",
      "notes": ""
+    },
+    {
+     "name": "Weak Armor variant",
+     "role": "attacker",
+     "tier": "ability-variant",
+     "item": "ITEM_NONE",
+     "ability": "ABILITY_WEAK_ARMOR",
+     "nature": "NATURE_SERIOUS",
+     "evs": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 0,
+      "speed": 0
+     },
+     "moves": [
+      "MOVE_BIND",
+      "MOVE_TOXIC",
+      "MOVE_EARTHQUAKE",
+      "MOVE_EXPLOSION"
+     ],
+     "source": "Ability variant (constructed)",
+     "notes": "Represents WEAK_ARMOR; moves cloned from 'Toxic + Bind'."
     }
    ]
   },
@@ -6686,6 +6926,30 @@
      "tier": "constructed",
      "notes": "",
      "source": "Constructed (competitive knowledge; validated vs build)"
+    },
+    {
+     "name": "Magic Guard variant",
+     "role": "setup sweeper",
+     "item": "ITEM_EVIOLITE",
+     "ability": "ABILITY_MAGIC_GUARD",
+     "nature": "NATURE_BOLD",
+     "evs": {
+      "hp": 252,
+      "atk": 0,
+      "def": 252,
+      "spatk": 4,
+      "spdef": 0,
+      "speed": 0
+     },
+     "moves": [
+      "MOVE_CALM_MIND",
+      "MOVE_PSYCHIC",
+      "MOVE_SHADOW_BALL",
+      "MOVE_RECOVER"
+     ],
+     "tier": "ability-variant",
+     "notes": "Represents MAGIC_GUARD; moves cloned from 'Eviolite Calm Mind'.",
+     "source": "Ability variant (constructed)"
     }
    ]
   },

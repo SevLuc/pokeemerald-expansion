@@ -3115,6 +3115,30 @@
      ],
      "source": "Run & Bun",
      "notes": "EVs inferred (source lists moves/item/nature/ability only)"
+    },
+    {
+     "name": "Sand Force variant",
+     "role": "attacker",
+     "tier": "ability-variant",
+     "item": "ITEM_HEAVY_DUTY_BOOTS",
+     "ability": "ABILITY_SAND_FORCE",
+     "nature": "NATURE_CALM",
+     "evs": {
+      "hp": 252,
+      "atk": 0,
+      "def": 156,
+      "spatk": 0,
+      "spdef": 100,
+      "speed": 0
+     },
+     "moves": [
+      "MOVE_SPIKES",
+      "MOVE_EARTH_POWER",
+      "MOVE_SLUDGE_BOMB",
+      "MOVE_RECOVER"
+     ],
+     "source": "Ability variant (constructed)",
+     "notes": "Represents SAND_FORCE; moves cloned from 'Mixed Defense'."
     }
    ]
   },

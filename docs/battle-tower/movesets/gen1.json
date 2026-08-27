@@ -16793,6 +16793,30 @@
       "spatk": 31,
       "spdef": 31
      }
+    },
+    {
+     "name": "Lightning Rod variant",
+     "role": "attacker",
+     "tier": "ability-variant",
+     "item": "ITEM_THICK_CLUB",
+     "ability": "ABILITY_LIGHTNING_ROD",
+     "nature": "NATURE_BRAVE",
+     "evs": {
+      "hp": 248,
+      "atk": 252,
+      "def": 8,
+      "spatk": 0,
+      "spdef": 0,
+      "speed": 0
+     },
+     "moves": [
+      "MOVE_EARTHQUAKE",
+      "MOVE_STONE_EDGE",
+      "MOVE_KNOCK_OFF",
+      "MOVE_SWORDS_DANCE"
+     ],
+     "source": "Ability variant (constructed)",
+     "notes": "Represents LIGHTNING_ROD; moves cloned from 'Trick Room Attacker'."
     }
    ]
   },
@@ -18866,6 +18890,30 @@
      ],
      "source": "Run & Bun",
      "notes": "EVs inferred (source lists moves/item/nature/ability only)"
+    },
+    {
+     "name": "Reckless variant",
+     "role": "attacker",
+     "tier": "ability-variant",
+     "item": "ITEM_LEFTOVERS",
+     "ability": "ABILITY_RECKLESS",
+     "nature": "NATURE_ADAMANT",
+     "evs": {
+      "hp": 252,
+      "atk": 16,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 184,
+      "speed": 56
+     },
+     "moves": [
+      "MOVE_STEALTH_ROCK",
+      "MOVE_EARTHQUAKE",
+      "MOVE_STONE_EDGE",
+      "MOVE_SWORDS_DANCE"
+     ],
+     "source": "Ability variant (constructed)",
+     "notes": "Represents RECKLESS; moves cloned from 'Offensive'."
     }
    ]
   },
@@ -21218,6 +21266,30 @@
      ],
      "source": "Emerald Kaizo",
      "notes": "EVs inferred (source lists moves/item/nature/ability only)"
+    },
+    {
+     "name": "Technician variant",
+     "role": "attacker",
+     "tier": "ability-variant",
+     "item": "ITEM_LIFE_ORB",
+     "ability": "ABILITY_TECHNICIAN",
+     "nature": "NATURE_TIMID",
+     "evs": {
+      "hp": 0,
+      "atk": 0,
+      "def": 4,
+      "spatk": 252,
+      "spdef": 0,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_PSYCHIC",
+      "MOVE_DAZZLING_GLEAM",
+      "MOVE_FOCUS_BLAST",
+      "MOVE_HEALING_WISH"
+     ],
+     "source": "Ability variant (constructed)",
+     "notes": "Represents TECHNICIAN; moves cloned from 'Special Attacker'."
     }
    ]
   },
