@@ -1,0 +1,7067 @@
+{
+ "_meta": {
+  "batch": "Eviolite NFE",
+  "source": "Smogon data.pkmn.cc + constructed + Emerald Kaizo + Run & Bun"
+ },
+ "pokemon": [
+  {
+   "species": "SPECIES_CHANSEY",
+   "displayName": "Chansey",
+   "tier": "eviolite-nfe",
+   "sets": [
+    {
+     "name": "Cleric",
+     "role": "defensive / utility",
+     "tier": "uu",
+     "item": "ITEM_LEFTOVERS",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_ADAMANT",
+     "evs": {
+      "hp": 4,
+      "atk": 0,
+      "def": 252,
+      "spatk": 0,
+      "spdef": 252,
+      "speed": 0
+     },
+     "moves": [
+      "MOVE_AROMATHERAPY",
+      "MOVE_SOFT_BOILED",
+      "MOVE_SEISMIC_TOSS",
+      "MOVE_STEALTH_ROCK"
+     ],
+     "source": "Smogon data.pkmn.cc (gen4 uu)",
+     "notes": "Stealth Rock/Thunder Wave/Toxic"
+    },
+    {
+     "name": "Defensive Cleric",
+     "role": "defensive / utility",
+     "tier": "uu",
+     "item": "ITEM_LEFTOVERS",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_SERIOUS",
+     "evs": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 0,
+      "speed": 0
+     },
+     "moves": [
+      "MOVE_PRESENT",
+      "MOVE_THUNDER",
+      "MOVE_HEAL_BELL",
+      "MOVE_SOFT_BOILED"
+     ],
+     "source": "Smogon data.pkmn.cc (gen2 uu)",
+     "notes": "Thunder/Ice Beam"
+    },
+    {
+     "name": "BoltBeam",
+     "role": "attacker",
+     "tier": "ou",
+     "item": "ITEM_NONE",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_SERIOUS",
+     "evs": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 0,
+      "speed": 0
+     },
+     "moves": [
+      "MOVE_THUNDERBOLT",
+      "MOVE_ICE_BEAM",
+      "MOVE_SOFT_BOILED",
+      "MOVE_THUNDER_WAVE"
+     ],
+     "source": "Smogon data.pkmn.cc (gen1 ou)",
+     "notes": ""
+    },
+    {
+     "name": "Sing",
+     "role": "attacker",
+     "tier": "ou",
+     "item": "ITEM_NONE",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_SERIOUS",
+     "evs": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 0,
+      "speed": 0
+     },
+     "moves": [
+      "MOVE_SING",
+      "MOVE_ICE_BEAM",
+      "MOVE_SOFT_BOILED",
+      "MOVE_THUNDER_WAVE"
+     ],
+     "source": "Smogon data.pkmn.cc (gen1 ou)",
+     "notes": "Ice Beam/Seismic Toss; Thunder Wave/Counter"
+    },
+    {
+     "name": "Reflect",
+     "role": "attacker",
+     "tier": "ou",
+     "item": "ITEM_NONE",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_SERIOUS",
+     "evs": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 0,
+      "speed": 0
+     },
+     "moves": [
+      "MOVE_REFLECT",
+      "MOVE_SEISMIC_TOSS",
+      "MOVE_SOFT_BOILED",
+      "MOVE_THUNDER_WAVE"
+     ],
+     "source": "Smogon data.pkmn.cc (gen1 ou)",
+     "notes": "Seismic Toss/Ice Beam"
+    },
+    {
+     "name": "Sing",
+     "role": "attacker",
+     "tier": "ubers",
+     "item": "ITEM_NONE",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_SERIOUS",
+     "evs": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 0,
+      "speed": 0
+     },
+     "moves": [
+      "MOVE_SING",
+      "MOVE_SEISMIC_TOSS",
+      "MOVE_THUNDER_WAVE",
+      "MOVE_SOFT_BOILED"
+     ],
+     "source": "Smogon data.pkmn.cc (gen1 ubers)",
+     "notes": "Seismic Toss/Ice Beam"
+    },
+    {
+     "name": "Light Screen",
+     "role": "attacker",
+     "tier": "ubers",
+     "item": "ITEM_NONE",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_SERIOUS",
+     "evs": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 0,
+      "speed": 0
+     },
+     "moves": [
+      "MOVE_LIGHT_SCREEN",
+      "MOVE_SEISMIC_TOSS",
+      "MOVE_THUNDER_WAVE",
+      "MOVE_SOFT_BOILED"
+     ],
+     "source": "Smogon data.pkmn.cc (gen1 ubers)",
+     "notes": "Seismic Toss/Ice Beam"
+    },
+    {
+     "name": "Triple-KO (Normal)",
+     "role": "attacker",
+     "tier": "monotype",
+     "item": "ITEM_NONE",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_SERIOUS",
+     "evs": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 0,
+      "speed": 0
+     },
+     "moves": [
+      "MOVE_SING",
+      "MOVE_ICE_BEAM",
+      "MOVE_COUNTER",
+      "MOVE_SOFT_BOILED"
+     ],
+     "source": "Smogon data.pkmn.cc (gen1 monotype)",
+     "notes": ""
+    },
+    {
+     "name": "Run & Bun set (Lv.71)",
+     "role": "defensive / utility",
+     "tier": "run-and-bun",
+     "item": "ITEM_EVIOLITE",
+     "ability": "ABILITY_NATURAL_CURE",
+     "nature": "NATURE_ADAMANT",
+     "evs": {
+      "hp": 252,
+      "atk": 0,
+      "def": 128,
+      "spatk": 0,
+      "spdef": 128,
+      "speed": 0
+     },
+     "moves": [
+      "MOVE_SEISMIC_TOSS",
+      "MOVE_COUNTER",
+      "MOVE_SOFT_BOILED",
+      "MOVE_TOXIC"
+     ],
+     "source": "Run & Bun",
+     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
+    },
+    {
+     "name": "Emerald Kaizo set (Lv.22)",
+     "role": "defensive / utility",
+     "tier": "emerald-kaizo",
+     "item": "ITEM_LUCKY_PUNCH",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_NAIVE",
+     "evs": {
+      "hp": 252,
+      "atk": 0,
+      "def": 128,
+      "spatk": 0,
+      "spdef": 128,
+      "speed": 0
+     },
+     "moves": [
+      "MOVE_DOUBLE_EDGE",
+      "MOVE_BRICK_BREAK",
+      "MOVE_SOFT_BOILED",
+      "MOVE_WATER_PULSE"
+     ],
+     "source": "Emerald Kaizo",
+     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
+    },
+    {
+     "name": "Serene Grace variant",
+     "role": "attacker",
+     "tier": "ability-variant",
+     "item": "ITEM_NONE",
+     "ability": "ABILITY_SERENE_GRACE",
+     "nature": "NATURE_SERIOUS",
+     "evs": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 0,
+      "speed": 0
+     },
+     "moves": [
+      "MOVE_THUNDERBOLT",
+      "MOVE_ICE_BEAM",
+      "MOVE_SOFT_BOILED",
+      "MOVE_THUNDER_WAVE"
+     ],
+     "source": "Ability variant (constructed)",
+     "notes": "Represents SERENE_GRACE; moves cloned from 'BoltBeam'."
+    }
+   ]
+  },
+  {
+   "species": "SPECIES_PORYGON2",
+   "displayName": "Porygon2",
+   "tier": "eviolite-nfe",
+   "sets": [
+    {
+     "name": "Duck Tank",
+     "role": "defensive / utility",
+     "tier": "middlecup",
+     "item": "ITEM_LEFTOVERS",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_CALM",
+     "evs": {
+      "hp": 252,
+      "atk": 0,
+      "def": 4,
+      "spatk": 0,
+      "spdef": 252,
+      "speed": 0
+     },
+     "moves": [
+      "MOVE_RECOVER",
+      "MOVE_THUNDER_WAVE",
+      "MOVE_ICE_BEAM",
+      "MOVE_THUNDERBOLT"
+     ],
+     "source": "Smogon data.pkmn.cc (gen6 middlecup)",
+     "notes": "Thunder Wave/Toxic; Thunderbolt/Discharge"
+    },
+    {
+     "name": "Mighty Duck",
+     "role": "attacker",
+     "tier": "middlecup",
+     "item": "ITEM_LEFTOVERS",
+     "ability": "ABILITY_DOWNLOAD",
+     "nature": "NATURE_MODEST",
+     "evs": {
+      "hp": 4,
+      "atk": 0,
+      "def": 0,
+      "spatk": 252,
+      "spdef": 60,
+      "speed": 192
+     },
+     "moves": [
+      "MOVE_AGILITY",
+      "MOVE_TRI_ATTACK",
+      "MOVE_SHADOW_BALL",
+      "MOVE_ICE_BEAM"
+     ],
+     "source": "Smogon data.pkmn.cc (gen6 middlecup)",
+     "notes": "Ice Beam/Recover"
+    },
+    {
+     "name": "Offensive Trick Room",
+     "role": "attacker",
+     "tier": "uu",
+     "item": "ITEM_LIFE_ORB",
+     "ability": "ABILITY_DOWNLOAD",
+     "nature": "NATURE_QUIET",
+     "evs": {
+      "hp": 252,
+      "atk": 0,
+      "def": 0,
+      "spatk": 252,
+      "spdef": 4,
+      "speed": 0
+     },
+     "moves": [
+      "MOVE_TRICK_ROOM",
+      "MOVE_ICE_BEAM",
+      "MOVE_THUNDERBOLT",
+      "MOVE_TRI_ATTACK"
+     ],
+     "source": "Smogon data.pkmn.cc (gen4 uu)",
+     "notes": "Tri Attack/Recover/Hidden Power Fighting"
+    },
+    {
+     "name": "Life Orb Duck",
+     "role": "attacker",
+     "tier": "uu",
+     "item": "ITEM_LIFE_ORB",
+     "ability": "ABILITY_DOWNLOAD",
+     "nature": "NATURE_MODEST",
+     "evs": {
+      "hp": 4,
+      "atk": 0,
+      "def": 0,
+      "spatk": 252,
+      "spdef": 0,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_TRI_ATTACK",
+      "MOVE_THUNDERBOLT",
+      "MOVE_ICE_BEAM",
+      "MOVE_RECOVER"
+     ],
+     "source": "Smogon data.pkmn.cc (gen4 uu)",
+     "notes": "Thunderbolt/Hidden Power Fighting; Ice Beam/Substitute"
+    },
+    {
+     "name": "Charge Beam",
+     "role": "attacker",
+     "tier": "uu",
+     "item": "ITEM_LEFTOVERS",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_MODEST",
+     "evs": {
+      "hp": 252,
+      "atk": 0,
+      "def": 0,
+      "spatk": 160,
+      "spdef": 0,
+      "speed": 96
+     },
+     "moves": [
+      "MOVE_CHARGE_BEAM",
+      "MOVE_ICE_BEAM",
+      "MOVE_TRI_ATTACK",
+      "MOVE_RECOVER"
+     ],
+     "source": "Smogon data.pkmn.cc (gen4 uu)",
+     "notes": "Tri Attack/Substitute"
+    },
+    {
+     "name": "Offensive Choice Scarf",
+     "role": "choice revenge killer",
+     "tier": "uu",
+     "item": "ITEM_CHOICE_SCARF",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_TIMID",
+     "evs": {
+      "hp": 52,
+      "atk": 0,
+      "def": 0,
+      "spatk": 252,
+      "spdef": 0,
+      "speed": 204
+     },
+     "moves": [
+      "MOVE_THUNDERBOLT",
+      "MOVE_ICE_BEAM",
+      "MOVE_TRI_ATTACK",
+      "MOVE_TRICK"
+     ],
+     "source": "Smogon data.pkmn.cc (gen4 uu)",
+     "notes": "Trick/Psychic"
+    },
+    {
+     "name": "Thunder Wave",
+     "role": "special tank",
+     "tier": "ou",
+     "item": "ITEM_LEFTOVERS",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_SERIOUS",
+     "evs": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 0,
+      "speed": 0
+     },
+     "moves": [
+      "MOVE_THUNDER_WAVE",
+      "MOVE_DOUBLE_EDGE",
+      "MOVE_ICE_BEAM",
+      "MOVE_RECOVER"
+     ],
+     "source": "Smogon data.pkmn.cc (gen2 ou)",
+     "notes": "Thunder Wave/Thunder"
+    },
+    {
+     "name": "Curse",
+     "role": "setup sweeper",
+     "tier": "ou",
+     "item": "ITEM_LEFTOVERS",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_SERIOUS",
+     "evs": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 0,
+      "speed": 0
+     },
+     "moves": [
+      "MOVE_CURSE",
+      "MOVE_DOUBLE_EDGE",
+      "MOVE_RECOVER",
+      "MOVE_ICE_BEAM"
+     ],
+     "source": "Smogon data.pkmn.cc (gen2 ou)",
+     "notes": "Double-Edge/Return"
+    },
+    {
+     "name": "Run & Bun set (Lv.99)",
+     "role": "attacker",
+     "tier": "run-and-bun",
+     "item": "ITEM_EVIOLITE",
+     "ability": "ABILITY_DOWNLOAD",
+     "nature": "NATURE_QUIET",
+     "evs": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "spatk": 252,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_TRI_ATTACK",
+      "MOVE_BLIZZARD",
+      "MOVE_PSYCHIC",
+      "MOVE_TRICK_ROOM"
+     ],
+     "source": "Run & Bun",
+     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
+    },
+    {
+     "name": "Emerald Kaizo set (Lv.85)",
+     "role": "defensive / utility",
+     "tier": "emerald-kaizo",
+     "item": "ITEM_LUM_BERRY",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_SASSY",
+     "evs": {
+      "hp": 252,
+      "atk": 0,
+      "def": 128,
+      "spatk": 0,
+      "spdef": 128,
+      "speed": 0
+     },
+     "moves": [
+      "MOVE_THUNDER_WAVE",
+      "MOVE_RECOVER",
+      "MOVE_DOUBLE_EDGE",
+      "MOVE_HIDDEN_POWER"
+     ],
+     "source": "Emerald Kaizo",
+     "notes": "HP Ice (defaulted; source unspecified); EVs inferred (source lists moves/item/nature/ability only)",
+     "ivs": {
+      "hp": 30,
+      "atk": 31,
+      "def": 30,
+      "speed": 31,
+      "spatk": 31,
+      "spdef": 31
+     }
+    },
+    {
+     "name": "Run & Bun set (Lv.95)",
+     "role": "attacker",
+     "tier": "run-and-bun",
+     "item": "ITEM_RED_CARD",
+     "ability": "ABILITY_ANALYTIC",
+     "nature": "NATURE_QUIET",
+     "evs": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "spatk": 252,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_TRI_ATTACK",
+      "MOVE_BLIZZARD",
+      "MOVE_THUNDER",
+      "MOVE_FOUL_PLAY"
+     ],
+     "source": "Run & Bun",
+     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
+    },
+    {
+     "name": "Emerald Kaizo set (Lv.30)",
+     "role": "defensive / utility",
+     "tier": "emerald-kaizo",
+     "item": "ITEM_LEFTOVERS",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_LAX",
+     "evs": {
+      "hp": 252,
+      "atk": 0,
+      "def": 128,
+      "spatk": 0,
+      "spdef": 128,
+      "speed": 0
+     },
+     "moves": [
+      "MOVE_CONVERSION",
+      "MOVE_TRI_ATTACK",
+      "MOVE_SHADOW_BALL",
+      "MOVE_RECOVER"
+     ],
+     "source": "Emerald Kaizo",
+     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
+    },
+    {
+     "name": "Run & Bun set (Lv.85)",
+     "role": "attacker",
+     "tier": "run-and-bun",
+     "item": "ITEM_EVIOLITE",
+     "ability": "ABILITY_DOWNLOAD",
+     "nature": "NATURE_QUIET",
+     "evs": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "spatk": 252,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_TRI_ATTACK",
+      "MOVE_THUNDER",
+      "MOVE_PSYCHIC",
+      "MOVE_TRICK_ROOM"
+     ],
+     "source": "Run & Bun",
+     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
+    },
+    {
+     "name": "Run & Bun set (Lv.69)",
+     "role": "setup sweeper",
+     "tier": "run-and-bun",
+     "item": "ITEM_EVIOLITE",
+     "ability": "ABILITY_DOWNLOAD",
+     "nature": "NATURE_MODEST",
+     "evs": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "spatk": 252,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_TRI_ATTACK",
+      "MOVE_PSYCHIC",
+      "MOVE_DARK_PULSE",
+      "MOVE_AGILITY"
+     ],
+     "source": "Run & Bun",
+     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
+    }
+   ]
+  },
+  {
+   "species": "SPECIES_DUSCLOPS",
+   "displayName": "Dusclops",
+   "tier": "eviolite-nfe",
+   "sets": [
+    {
+     "name": "Bulky Spinblocker",
+     "role": "defensive / utility",
+     "tier": "uu",
+     "item": "ITEM_LEFTOVERS",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_IMPISH",
+     "evs": {
+      "hp": 252,
+      "atk": 0,
+      "def": 252,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 0
+     },
+     "moves": [
+      "MOVE_SEISMIC_TOSS",
+      "MOVE_WILL_O_WISP",
+      "MOVE_REST",
+      "MOVE_SLEEP_TALK"
+     ],
+     "source": "Smogon data.pkmn.cc (gen4 uu)",
+     "notes": "Rest/Pain Split; Sleep Talk/Shadow Punch/Toxic"
+    },
+    {
+     "name": "Trick Room Support",
+     "role": "defensive / utility",
+     "tier": "uu",
+     "item": "ITEM_LEFTOVERS",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_RELAXED",
+     "evs": {
+      "hp": 252,
+      "atk": 0,
+      "def": 252,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 0
+     },
+     "moves": [
+      "MOVE_TRICK_ROOM",
+      "MOVE_SEISMIC_TOSS",
+      "MOVE_WILL_O_WISP",
+      "MOVE_PAIN_SPLIT"
+     ],
+     "source": "Smogon data.pkmn.cc (gen4 uu)",
+     "notes": ""
+    },
+    {
+     "name": "Physical Wall",
+     "role": "defensive / utility",
+     "tier": "nu",
+     "item": "ITEM_LEFTOVERS",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_IMPISH",
+     "evs": {
+      "hp": 252,
+      "atk": 0,
+      "def": 252,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 0
+     },
+     "moves": [
+      "MOVE_SEISMIC_TOSS",
+      "MOVE_WILL_O_WISP",
+      "MOVE_PAIN_SPLIT",
+      "MOVE_PROTECT"
+     ],
+     "source": "Smogon data.pkmn.cc (gen4 nu)",
+     "notes": "Will-O-Wisp/Toxic; Pain Split/Rest; Protect/Sleep Talk/Shadow Sneak"
+    },
+    {
+     "name": "Offensive",
+     "role": "attacker",
+     "tier": "nu",
+     "item": "ITEM_LEFTOVERS",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_ADAMANT",
+     "evs": {
+      "hp": 252,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 0
+     },
+     "moves": [
+      "MOVE_SHADOW_SNEAK",
+      "MOVE_EARTHQUAKE",
+      "MOVE_WILL_O_WISP",
+      "MOVE_PAIN_SPLIT"
+     ],
+     "source": "Smogon data.pkmn.cc (gen4 nu)",
+     "notes": ""
+    },
+    {
+     "name": "Staller",
+     "role": "attacker",
+     "tier": "ou",
+     "item": "ITEM_LEFTOVERS",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_CAREFUL",
+     "evs": {
+      "hp": 252,
+      "atk": 36,
+      "def": 20,
+      "spatk": 0,
+      "spdef": 200,
+      "speed": 0
+     },
+     "moves": [
+      "MOVE_SHADOW_BALL",
+      "MOVE_FOCUS_PUNCH",
+      "MOVE_WILL_O_WISP",
+      "MOVE_PAIN_SPLIT"
+     ],
+     "source": "Smogon data.pkmn.cc (gen3 ou)",
+     "notes": "Shadow Ball/Night Shade; Focus Punch/Seismic Toss; Pain Split/Rest"
+    },
+    {
+     "name": "Calm Mind",
+     "role": "setup sweeper",
+     "tier": "ou",
+     "item": "ITEM_LEFTOVERS",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_BOLD",
+     "evs": {
+      "hp": 252,
+      "atk": 0,
+      "def": 200,
+      "spatk": 56,
+      "spdef": 0,
+      "speed": 0
+     },
+     "moves": [
+      "MOVE_CALM_MIND",
+      "MOVE_ICE_BEAM",
+      "MOVE_WILL_O_WISP",
+      "MOVE_PAIN_SPLIT"
+     ],
+     "source": "Smogon data.pkmn.cc (gen3 ou)",
+     "notes": "Pain Split/Rest"
+    },
+    {
+     "name": "RestTalk",
+     "role": "attacker",
+     "tier": "ou",
+     "item": "ITEM_LEFTOVERS",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_MODEST",
+     "evs": {
+      "hp": 252,
+      "atk": 36,
+      "def": 20,
+      "spatk": 0,
+      "spdef": 200,
+      "speed": 0
+     },
+     "moves": [
+      "MOVE_SHADOW_BALL",
+      "MOVE_REST",
+      "MOVE_SLEEP_TALK",
+      "MOVE_WILL_O_WISP"
+     ],
+     "source": "Smogon data.pkmn.cc (gen3 ou)",
+     "notes": "Shadow Ball/Night Shade"
+    },
+    {
+     "name": "Run & Bun set (Lv.74)",
+     "role": "attacker",
+     "tier": "run-and-bun",
+     "item": "ITEM_EVIOLITE",
+     "ability": "ABILITY_PRESSURE",
+     "nature": "NATURE_ADAMANT",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_SHADOW_PUNCH",
+      "MOVE_POWER_UP_PUNCH",
+      "MOVE_PAIN_SPLIT",
+      "MOVE_WILL_O_WISP"
+     ],
+     "source": "Run & Bun",
+     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
+    },
+    {
+     "name": "Emerald Kaizo set (Lv.100)",
+     "role": "defensive / utility",
+     "tier": "emerald-kaizo",
+     "item": "ITEM_LUM_BERRY",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_TIMID",
+     "evs": {
+      "hp": 252,
+      "atk": 0,
+      "def": 128,
+      "spatk": 0,
+      "spdef": 128,
+      "speed": 0
+     },
+     "moves": [
+      "MOVE_DOUBLE_TEAM",
+      "MOVE_BRICK_BREAK",
+      "MOVE_REST",
+      "MOVE_SHADOW_BALL"
+     ],
+     "source": "Emerald Kaizo",
+     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
+    },
+    {
+     "name": "Emerald Kaizo set (Lv.90)",
+     "role": "defensive / utility",
+     "tier": "emerald-kaizo",
+     "item": "ITEM_LEFTOVERS",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_ADAMANT",
+     "evs": {
+      "hp": 252,
+      "atk": 0,
+      "def": 128,
+      "spatk": 0,
+      "spdef": 128,
+      "speed": 0
+     },
+     "moves": [
+      "MOVE_SHADOW_BALL",
+      "MOVE_BRICK_BREAK",
+      "MOVE_SUBSTITUTE",
+      "MOVE_REST"
+     ],
+     "source": "Emerald Kaizo",
+     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
+    },
+    {
+     "name": "Emerald Kaizo set (Lv.85)",
+     "role": "defensive / utility",
+     "tier": "emerald-kaizo",
+     "item": "ITEM_LEFTOVERS",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_MILD",
+     "evs": {
+      "hp": 252,
+      "atk": 0,
+      "def": 128,
+      "spatk": 0,
+      "spdef": 128,
+      "speed": 0
+     },
+     "moves": [
+      "MOVE_TOXIC",
+      "MOVE_PROTECT",
+      "MOVE_WILL_O_WISP",
+      "MOVE_REST"
+     ],
+     "source": "Emerald Kaizo",
+     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
+    },
+    {
+     "name": "Emerald Kaizo set (Lv.70)",
+     "role": "defensive / utility",
+     "tier": "emerald-kaizo",
+     "item": "ITEM_LEFTOVERS",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_BRAVE",
+     "evs": {
+      "hp": 252,
+      "atk": 0,
+      "def": 128,
+      "spatk": 0,
+      "spdef": 128,
+      "speed": 0
+     },
+     "moves": [
+      "MOVE_WILL_O_WISP",
+      "MOVE_REST",
+      "MOVE_SHADOW_BALL",
+      "MOVE_EARTHQUAKE"
+     ],
+     "source": "Emerald Kaizo",
+     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
+    },
+    {
+     "name": "Emerald Kaizo set (Lv.38)",
+     "role": "defensive / utility",
+     "tier": "emerald-kaizo",
+     "item": "ITEM_LEFTOVERS",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_MODEST",
+     "evs": {
+      "hp": 252,
+      "atk": 0,
+      "def": 128,
+      "spatk": 0,
+      "spdef": 128,
+      "speed": 0
+     },
+     "moves": [
+      "MOVE_WILL_O_WISP",
+      "MOVE_SHADOW_BALL",
+      "MOVE_SEISMIC_TOSS",
+      "MOVE_REST"
+     ],
+     "source": "Emerald Kaizo",
+     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
+    }
+   ]
+  },
+  {
+   "species": "SPECIES_GLIGAR",
+   "displayName": "Gligar",
+   "tier": "eviolite-nfe",
+   "sets": [
+    {
+     "name": "SubRoost",
+     "role": "sub attacker",
+     "tier": "uu",
+     "item": "ITEM_LEFTOVERS",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_JOLLY",
+     "evs": {
+      "hp": 200,
+      "atk": 0,
+      "def": 84,
+      "spatk": 0,
+      "spdef": 0,
+      "speed": 224
+     },
+     "moves": [
+      "MOVE_SUBSTITUTE",
+      "MOVE_ROOST",
+      "MOVE_TAUNT",
+      "MOVE_TOXIC"
+     ],
+     "source": "Smogon data.pkmn.cc (gen4 uu)",
+     "notes": "Toxic/Earthquake"
+    },
+    {
+     "name": "Wall",
+     "role": "defensive / utility",
+     "tier": "uu",
+     "item": "ITEM_LEFTOVERS",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_IMPISH",
+     "evs": {
+      "hp": 252,
+      "atk": 0,
+      "def": 252,
+      "spatk": 0,
+      "spdef": 0,
+      "speed": 4
+     },
+     "moves": [
+      "MOVE_TAUNT",
+      "MOVE_ROOST",
+      "MOVE_EARTHQUAKE",
+      "MOVE_AERIAL_ACE"
+     ],
+     "source": "Smogon data.pkmn.cc (gen4 uu)",
+     "notes": "Aerial Ace/Toxic"
+    },
+    {
+     "name": "Baton Pass",
+     "role": "attacker",
+     "tier": "uu",
+     "item": "ITEM_YACHE_BERRY",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_JOLLY",
+     "evs": {
+      "hp": 252,
+      "atk": 0,
+      "def": 4,
+      "spatk": 0,
+      "spdef": 0,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_SWORDS_DANCE",
+      "MOVE_AGILITY",
+      "MOVE_BATON_PASS",
+      "MOVE_TAUNT"
+     ],
+     "source": "Smogon data.pkmn.cc (gen4 uu)",
+     "notes": "Swords Dance/Earthquake; Agility/Earthquake"
+    },
+    {
+     "name": "Swords Dance",
+     "role": "setup sweeper",
+     "tier": "uu",
+     "item": "ITEM_LIFE_ORB",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_JOLLY",
+     "evs": {
+      "hp": 4,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 0,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_SWORDS_DANCE",
+      "MOVE_EARTHQUAKE",
+      "MOVE_STONE_EDGE",
+      "MOVE_X_SCISSOR"
+     ],
+     "source": "Smogon data.pkmn.cc (gen4 uu)",
+     "notes": "X-Scissor/Roost"
+    },
+    {
+     "name": "Defensive Pivot",
+     "role": "defensive / utility",
+     "tier": "nu",
+     "item": "ITEM_LEFTOVERS",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_IMPISH",
+     "evs": {
+      "hp": 252,
+      "atk": 0,
+      "def": 252,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 0
+     },
+     "moves": [
+      "MOVE_EARTHQUAKE",
+      "MOVE_U_TURN",
+      "MOVE_ROOST",
+      "MOVE_STEALTH_ROCK"
+     ],
+     "source": "Smogon data.pkmn.cc (gen4 nu)",
+     "notes": "Stealth Rock/Taunt/Toxic"
+    },
+    {
+     "name": "Bulky Swords Dance",
+     "role": "setup sweeper",
+     "tier": "nu",
+     "item": "ITEM_LEFTOVERS",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_JOLLY",
+     "evs": {
+      "hp": 252,
+      "atk": 4,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 0,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_SWORDS_DANCE",
+      "MOVE_EARTHQUAKE",
+      "MOVE_STONE_EDGE",
+      "MOVE_ROOST"
+     ],
+     "source": "Smogon data.pkmn.cc (gen4 nu)",
+     "notes": "Stone Edge/Aerial Ace"
+    },
+    {
+     "name": "Swords Dance",
+     "role": "setup sweeper",
+     "tier": "uu",
+     "item": "ITEM_LEFTOVERS",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_JOLLY",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_SWORDS_DANCE",
+      "MOVE_EARTHQUAKE",
+      "MOVE_HIDDEN_POWER",
+      "MOVE_QUICK_ATTACK"
+     ],
+     "source": "Smogon data.pkmn.cc (gen3 uu)",
+     "notes": "HP Flying; Quick Attack/Iron Tail",
+     "ivs": {
+      "hp": 31,
+      "atk": 31,
+      "def": 31,
+      "speed": 30,
+      "spatk": 30,
+      "spdef": 30
+     }
+    },
+    {
+     "name": "Choice Band",
+     "role": "choice wallbreaker",
+     "tier": "uu",
+     "item": "ITEM_CHOICE_BAND",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_ADAMANT",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_EARTHQUAKE",
+      "MOVE_HIDDEN_POWER",
+      "MOVE_IRON_TAIL",
+      "MOVE_QUICK_ATTACK"
+     ],
+     "source": "Smogon data.pkmn.cc (gen3 uu)",
+     "notes": "HP Flying",
+     "ivs": {
+      "hp": 31,
+      "atk": 31,
+      "def": 31,
+      "speed": 30,
+      "spatk": 30,
+      "spdef": 30
+     }
+    },
+    {
+     "name": "Run & Bun set (Lv.25)",
+     "role": "attacker",
+     "tier": "run-and-bun",
+     "item": "ITEM_FLYING_GEM",
+     "ability": "ABILITY_HYPER_CUTTER",
+     "nature": "NATURE_JOLLY",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_STOMPING_TANTRUM",
+      "MOVE_ACROBATICS",
+      "MOVE_SKY_UPPERCUT",
+      "MOVE_KNOCK_OFF"
+     ],
+     "source": "Run & Bun",
+     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
+    },
+    {
+     "name": "Emerald Kaizo set (Lv.85)",
+     "role": "attacker",
+     "tier": "emerald-kaizo",
+     "item": "ITEM_LUM_BERRY",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_RELAXED",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_HIDDEN_POWER",
+      "MOVE_ROCK_SLIDE",
+      "MOVE_EARTHQUAKE",
+      "MOVE_QUICK_ATTACK"
+     ],
+     "source": "Emerald Kaizo",
+     "notes": "HP Ice (defaulted; source unspecified); EVs inferred (source lists moves/item/nature/ability only)",
+     "ivs": {
+      "hp": 30,
+      "atk": 31,
+      "def": 30,
+      "speed": 31,
+      "spatk": 31,
+      "spdef": 31
+     }
+    },
+    {
+     "name": "Emerald Kaizo set (Lv.62)",
+     "role": "setup sweeper",
+     "tier": "emerald-kaizo",
+     "item": "ITEM_BRIGHTPOWDER",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_GENTLE",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_EARTHQUAKE",
+      "MOVE_ROCK_SLIDE",
+      "MOVE_AERIAL_ACE",
+      "MOVE_SWORDS_DANCE"
+     ],
+     "source": "Emerald Kaizo",
+     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
+    },
+    {
+     "name": "Emerald Kaizo set (Lv.52)",
+     "role": "attacker",
+     "tier": "emerald-kaizo",
+     "item": "ITEM_SOFT_SAND",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_RELAXED",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_HIDDEN_POWER",
+      "MOVE_AERIAL_ACE",
+      "MOVE_SLUDGE_BOMB",
+      "MOVE_ROCK_TOMB"
+     ],
+     "source": "Emerald Kaizo",
+     "notes": "HP Ice (defaulted; source unspecified); EVs inferred (source lists moves/item/nature/ability only)",
+     "ivs": {
+      "hp": 30,
+      "atk": 31,
+      "def": 30,
+      "speed": 31,
+      "spatk": 31,
+      "spdef": 31
+     }
+    }
+   ]
+  },
+  {
+   "species": "SPECIES_SCYTHER",
+   "displayName": "Scyther",
+   "tier": "eviolite-nfe",
+   "sets": [
+    {
+     "name": "Offensive Pivot",
+     "role": "defensive / utility",
+     "tier": "nu",
+     "item": "ITEM_HEAVY_DUTY_BOOTS",
+     "ability": "ABILITY_TECHNICIAN",
+     "nature": "NATURE_JOLLY",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_U_TURN",
+      "MOVE_DUAL_WINGBEAT",
+      "MOVE_CLOSE_COMBAT",
+      "MOVE_SWORDS_DANCE"
+     ],
+     "source": "Smogon data.pkmn.cc (gen9 nu)",
+     "notes": "Close Combat/Defog; Swords Dance/Defog"
+    },
+    {
+     "name": "Offensive Pivot",
+     "role": "defensive / utility",
+     "tier": "nu",
+     "item": "ITEM_HEAVY_DUTY_BOOTS",
+     "ability": "ABILITY_TECHNICIAN",
+     "nature": "NATURE_JOLLY",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_U_TURN",
+      "MOVE_DUAL_WINGBEAT",
+      "MOVE_KNOCK_OFF",
+      "MOVE_ROOST"
+     ],
+     "source": "Smogon data.pkmn.cc (gen8 nu)",
+     "notes": ""
+    },
+    {
+     "name": "Choice Scarf",
+     "role": "choice revenge killer",
+     "tier": "pu",
+     "item": "ITEM_CHOICE_SCARF",
+     "ability": "ABILITY_TECHNICIAN",
+     "nature": "NATURE_JOLLY",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 4,
+      "spatk": 0,
+      "spdef": 0,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_U_TURN",
+      "MOVE_AERIAL_ACE",
+      "MOVE_BRICK_BREAK",
+      "MOVE_KNOCK_OFF"
+     ],
+     "source": "Smogon data.pkmn.cc (gen7 pu)",
+     "notes": "Knock Off/Toxic"
+    },
+    {
+     "name": "Choice Band Pivot",
+     "role": "choice wallbreaker",
+     "tier": "ru",
+     "item": "ITEM_CHOICE_BAND",
+     "ability": "ABILITY_TECHNICIAN",
+     "nature": "NATURE_JOLLY",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 4,
+      "spatk": 0,
+      "spdef": 0,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_U_TURN",
+      "MOVE_AERIAL_ACE",
+      "MOVE_KNOCK_OFF",
+      "MOVE_PURSUIT"
+     ],
+     "source": "Smogon data.pkmn.cc (gen6 ru)",
+     "notes": ""
+    },
+    {
+     "name": "Choice Band",
+     "role": "choice wallbreaker",
+     "tier": "nu",
+     "item": "ITEM_CHOICE_BAND",
+     "ability": "ABILITY_TECHNICIAN",
+     "nature": "NATURE_JOLLY",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 4,
+      "spatk": 0,
+      "spdef": 0,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_U_TURN",
+      "MOVE_AERIAL_ACE",
+      "MOVE_KNOCK_OFF",
+      "MOVE_QUICK_ATTACK"
+     ],
+     "source": "Smogon data.pkmn.cc (gen6 nu)",
+     "notes": "Knock Off/Pursuit"
+    },
+    {
+     "name": "Choice Scarf",
+     "role": "choice revenge killer",
+     "tier": "nu",
+     "item": "ITEM_CHOICE_SCARF",
+     "ability": "ABILITY_TECHNICIAN",
+     "nature": "NATURE_JOLLY",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 4,
+      "spatk": 0,
+      "spdef": 0,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_U_TURN",
+      "MOVE_AERIAL_ACE",
+      "MOVE_KNOCK_OFF",
+      "MOVE_BUG_BITE"
+     ],
+     "source": "Smogon data.pkmn.cc (gen6 nu)",
+     "notes": "Bug Bite/Tailwind"
+    },
+    {
+     "name": "Swords Dance Sweeper",
+     "role": "setup sweeper",
+     "tier": "uu",
+     "item": "ITEM_LIFE_ORB",
+     "ability": "ABILITY_TECHNICIAN",
+     "nature": "NATURE_JOLLY",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 4,
+      "spatk": 0,
+      "spdef": 0,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_SWORDS_DANCE",
+      "MOVE_AERIAL_ACE",
+      "MOVE_BRICK_BREAK",
+      "MOVE_BUG_BITE"
+     ],
+     "source": "Smogon data.pkmn.cc (gen5 uu)",
+     "notes": "Bug Bite/Quick Attack"
+    },
+    {
+     "name": "Choice Attacker",
+     "role": "attacker",
+     "tier": "uu",
+     "item": "ITEM_CHOICE_BAND",
+     "ability": "ABILITY_TECHNICIAN",
+     "nature": "NATURE_JOLLY",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 4,
+      "spatk": 0,
+      "spdef": 0,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_U_TURN",
+      "MOVE_AERIAL_ACE",
+      "MOVE_BRICK_BREAK",
+      "MOVE_QUICK_ATTACK"
+     ],
+     "source": "Smogon data.pkmn.cc (gen5 uu)",
+     "notes": "Brick Break/Pursuit"
+    },
+    {
+     "name": "Run & Bun set (Lv.52)",
+     "role": "setup sweeper",
+     "tier": "run-and-bun",
+     "item": "ITEM_EVIOLITE",
+     "ability": "ABILITY_TECHNICIAN",
+     "nature": "NATURE_JOLLY",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_DUAL_WINGBEAT",
+      "MOVE_BUG_BITE",
+      "MOVE_BRICK_BREAK",
+      "MOVE_SWORDS_DANCE"
+     ],
+     "source": "Run & Bun",
+     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
+    },
+    {
+     "name": "Emerald Kaizo set (Lv.35)",
+     "role": "attacker",
+     "tier": "emerald-kaizo",
+     "item": "ITEM_FOCUS_BAND",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_QUIET",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_AIR_SLASH",
+      "MOVE_SIGNAL_BEAM",
+      "MOVE_BRICK_BREAK",
+      "MOVE_QUICK_ATTACK"
+     ],
+     "source": "Emerald Kaizo",
+     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
+    }
+   ]
+  },
+  {
+   "species": "SPECIES_RHYDON",
+   "displayName": "Rhydon",
+   "tier": "eviolite-nfe",
+   "sets": [
+    {
+     "name": "Substitute",
+     "role": "sub attacker",
+     "tier": "letsgoou",
+     "item": "ITEM_NONE",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_ADAMANT",
+     "evs": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 0,
+      "speed": 0
+     },
+     "moves": [
+      "MOVE_SUBSTITUTE",
+      "MOVE_EARTHQUAKE",
+      "MOVE_ROCK_SLIDE",
+      "MOVE_MEGAHORN"
+     ],
+     "source": "Smogon data.pkmn.cc (gen7 letsgoou)",
+     "notes": ""
+    },
+    {
+     "name": "Bulky Stealth Rock",
+     "role": "defensive / utility",
+     "tier": "letsgoou",
+     "item": "ITEM_NONE",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_IMPISH",
+     "evs": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 0,
+      "speed": 0
+     },
+     "moves": [
+      "MOVE_STEALTH_ROCK",
+      "MOVE_ROCK_SLIDE",
+      "MOVE_EARTHQUAKE",
+      "MOVE_TOXIC"
+     ],
+     "source": "Smogon data.pkmn.cc (gen7 letsgoou)",
+     "notes": ""
+    },
+    {
+     "name": "Choice Band",
+     "role": "choice wallbreaker",
+     "tier": "ru",
+     "item": "ITEM_CHOICE_BAND",
+     "ability": "ABILITY_ROCK_HEAD",
+     "nature": "NATURE_ADAMANT",
+     "evs": {
+      "hp": 36,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 0,
+      "speed": 220
+     },
+     "moves": [
+      "MOVE_EARTHQUAKE",
+      "MOVE_STONE_EDGE",
+      "MOVE_MEGAHORN",
+      "MOVE_DOUBLE_EDGE"
+     ],
+     "source": "Smogon data.pkmn.cc (gen5 ru)",
+     "notes": "Double-Edge/Rock Blast"
+    },
+    {
+     "name": "Rock Polish",
+     "role": "attacker",
+     "tier": "ru",
+     "item": "ITEM_LIFE_ORB",
+     "ability": "ABILITY_ROCK_HEAD",
+     "nature": "NATURE_JOLLY",
+     "evs": {
+      "hp": 40,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 0,
+      "speed": 216
+     },
+     "moves": [
+      "MOVE_ROCK_POLISH",
+      "MOVE_EARTHQUAKE",
+      "MOVE_STONE_EDGE",
+      "MOVE_MEGAHORN"
+     ],
+     "source": "Smogon data.pkmn.cc (gen5 ru)",
+     "notes": ""
+    },
+    {
+     "name": "Setup Sweeper",
+     "role": "attacker",
+     "tier": "nu",
+     "item": "ITEM_CUSTAP_BERRY",
+     "ability": "ABILITY_ROCK_HEAD",
+     "nature": "NATURE_ADAMANT",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_SWORDS_DANCE",
+      "MOVE_EARTHQUAKE",
+      "MOVE_ROCK_BLAST",
+      "MOVE_MEGAHORN"
+     ],
+     "source": "Smogon data.pkmn.cc (gen4 nu)",
+     "notes": "Swords Dance/Rock Polish"
+    },
+    {
+     "name": "Choice Band",
+     "role": "choice wallbreaker",
+     "tier": "ou",
+     "item": "ITEM_CHOICE_BAND",
+     "ability": "ABILITY_ROCK_HEAD",
+     "nature": "NATURE_ADAMANT",
+     "evs": {
+      "hp": 252,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 0,
+      "speed": 4
+     },
+     "moves": [
+      "MOVE_MEGAHORN",
+      "MOVE_EARTHQUAKE",
+      "MOVE_ROCK_SLIDE",
+      "MOVE_FOCUS_PUNCH"
+     ],
+     "source": "Smogon data.pkmn.cc (gen3 ou)",
+     "notes": "Rock Slide/Rock Blast/Hidden Power Rock; Focus Punch/Double-Edge"
+    },
+    {
+     "name": "Substitute",
+     "role": "sub attacker",
+     "tier": "ou",
+     "item": "ITEM_LEFTOVERS",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_ADAMANT",
+     "evs": {
+      "hp": 212,
+      "atk": 122,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 0,
+      "speed": 176
+     },
+     "moves": [
+      "MOVE_EARTHQUAKE",
+      "MOVE_SWORDS_DANCE",
+      "MOVE_ROCK_SLIDE",
+      "MOVE_SUBSTITUTE"
+     ],
+     "source": "Smogon data.pkmn.cc (gen3 ou)",
+     "notes": "Swords Dance/Megahorn; Rock Slide/Rock Blast"
+    },
+    {
+     "name": "Curse",
+     "role": "setup sweeper",
+     "tier": "ou",
+     "item": "ITEM_LEFTOVERS",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_SERIOUS",
+     "evs": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 0,
+      "speed": 0
+     },
+     "moves": [
+      "MOVE_EARTHQUAKE",
+      "MOVE_ROCK_SLIDE",
+      "MOVE_CURSE",
+      "MOVE_ROAR"
+     ],
+     "source": "Smogon data.pkmn.cc (gen2 ou)",
+     "notes": ""
+    },
+    {
+     "name": "Run & Bun set (Lv.73)",
+     "role": "hazard setter",
+     "tier": "run-and-bun",
+     "item": "ITEM_EVIOLITE",
+     "ability": "ABILITY_ROCK_HEAD",
+     "nature": "NATURE_CAREFUL",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_HEAD_SMASH",
+      "MOVE_EARTHQUAKE",
+      "MOVE_COUNTER",
+      "MOVE_STEALTH_ROCK"
+     ],
+     "source": "Run & Bun",
+     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
+    },
+    {
+     "name": "Emerald Kaizo set (Lv.66)",
+     "role": "attacker",
+     "tier": "emerald-kaizo",
+     "item": "ITEM_QUICK_CLAW",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_CAREFUL",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_ROCK_SLIDE",
+      "MOVE_DOUBLE_EDGE",
+      "MOVE_EARTHQUAKE",
+      "MOVE_MEGAHORN"
+     ],
+     "source": "Emerald Kaizo",
+     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
+    },
+    {
+     "name": "Run & Bun set (Lv.32)",
+     "role": "hazard setter",
+     "tier": "run-and-bun",
+     "item": "ITEM_EVIOLITE",
+     "ability": "ABILITY_ROCK_HEAD",
+     "nature": "NATURE_CAREFUL",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_DRILL_RUN",
+      "MOVE_ROCK_SLIDE",
+      "MOVE_DOUBLE_EDGE",
+      "MOVE_STEALTH_ROCK"
+     ],
+     "source": "Run & Bun",
+     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
+    },
+    {
+     "name": "Emerald Kaizo set (Lv.36)",
+     "role": "attacker",
+     "tier": "emerald-kaizo",
+     "item": "ITEM_FOCUS_BAND",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_QUIET",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_DRILL_RUN",
+      "MOVE_DOUBLE_EDGE",
+      "MOVE_ROCK_SLIDE",
+      "MOVE_BODY_SLAM"
+     ],
+     "source": "Emerald Kaizo",
+     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
+    },
+    {
+     "name": "Reckless variant",
+     "role": "sub attacker",
+     "tier": "ability-variant",
+     "item": "ITEM_NONE",
+     "ability": "ABILITY_RECKLESS",
+     "nature": "NATURE_ADAMANT",
+     "evs": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 0,
+      "speed": 0
+     },
+     "moves": [
+      "MOVE_SUBSTITUTE",
+      "MOVE_EARTHQUAKE",
+      "MOVE_ROCK_SLIDE",
+      "MOVE_MEGAHORN"
+     ],
+     "source": "Ability variant (constructed)",
+     "notes": "Represents RECKLESS; moves cloned from 'Substitute'."
+    }
+   ]
+  },
+  {
+   "species": "SPECIES_MAGNETON",
+   "displayName": "Magneton",
+   "tier": "eviolite-nfe",
+   "sets": [
+    {
+     "name": "Choice Specs Trapper",
+     "role": "choice wallbreaker",
+     "tier": "uu",
+     "item": "ITEM_CHOICE_SPECS",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_MODEST",
+     "evs": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "spatk": 252,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_THUNDERBOLT",
+      "MOVE_VOLT_SWITCH",
+      "MOVE_FLASH_CANNON",
+      "MOVE_STEEL_BEAM"
+     ],
+     "source": "Smogon data.pkmn.cc (gen8 uu)",
+     "notes": ""
+    },
+    {
+     "name": "Choice Specs",
+     "role": "choice wallbreaker",
+     "tier": "nationaldexru",
+     "item": "ITEM_CHOICE_SPECS",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_TIMID",
+     "evs": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "spatk": 252,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_THUNDERBOLT",
+      "MOVE_VOLT_SWITCH",
+      "MOVE_FLASH_CANNON",
+      "MOVE_HIDDEN_POWER"
+     ],
+     "source": "Smogon data.pkmn.cc (gen8 nationaldexru)",
+     "notes": "Hidden Power Grass/Tri Attack; HP Grass",
+     "ivs": {
+      "hp": 31,
+      "atk": 30,
+      "def": 31,
+      "speed": 31,
+      "spatk": 30,
+      "spdef": 31
+     }
+    },
+    {
+     "name": "Choice Specs",
+     "role": "choice wallbreaker",
+     "tier": "ru",
+     "item": "ITEM_CHOICE_SPECS",
+     "ability": "ABILITY_ANALYTIC",
+     "nature": "NATURE_TIMID",
+     "evs": {
+      "hp": 0,
+      "atk": 0,
+      "def": 4,
+      "spatk": 252,
+      "spdef": 0,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_VOLT_SWITCH",
+      "MOVE_THUNDERBOLT",
+      "MOVE_FLASH_CANNON",
+      "MOVE_HIDDEN_POWER"
+     ],
+     "source": "Smogon data.pkmn.cc (gen6 ru)",
+     "notes": "Hidden Power Water/Hidden Power Grass; HP Water",
+     "ivs": {
+      "hp": 31,
+      "atk": 30,
+      "def": 30,
+      "speed": 31,
+      "spatk": 30,
+      "spdef": 31
+     }
+    },
+    {
+     "name": "Choice Scarf",
+     "role": "choice revenge killer",
+     "tier": "ou",
+     "item": "ITEM_CHOICE_SCARF",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_NAIVE",
+     "evs": {
+      "hp": 0,
+      "atk": 4,
+      "def": 0,
+      "spatk": 252,
+      "spdef": 0,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_THUNDERBOLT",
+      "MOVE_HIDDEN_POWER",
+      "MOVE_FLASH_CANNON",
+      "MOVE_EXPLOSION"
+     ],
+     "source": "Smogon data.pkmn.cc (gen4 ou)",
+     "notes": "Hidden Power Ice/Hidden Power Fire; HP Ice",
+     "ivs": {
+      "hp": 30,
+      "atk": 31,
+      "def": 30,
+      "speed": 31,
+      "spatk": 31,
+      "spdef": 31
+     }
+    },
+    {
+     "name": "Choice Scarf",
+     "role": "choice revenge killer",
+     "tier": "ubers",
+     "item": "ITEM_CHOICE_SCARF",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_HASTY",
+     "evs": {
+      "hp": 0,
+      "atk": 4,
+      "def": 0,
+      "spatk": 252,
+      "spdef": 0,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_THUNDER",
+      "MOVE_HIDDEN_POWER",
+      "MOVE_THUNDERBOLT",
+      "MOVE_EXPLOSION"
+     ],
+     "source": "Smogon data.pkmn.cc (gen4 ubers)",
+     "notes": "Hidden Power Fire/Hidden Power Ice; HP Fire; Thunderbolt/Flash Cannon",
+     "ivs": {
+      "hp": 31,
+      "atk": 31,
+      "def": 30,
+      "speed": 30,
+      "spatk": 30,
+      "spdef": 31
+     }
+    },
+    {
+     "name": "Steel Killer (Substitute)",
+     "role": "sub attacker",
+     "tier": "uu",
+     "item": "ITEM_LEFTOVERS",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_MODEST",
+     "evs": {
+      "hp": 108,
+      "atk": 0,
+      "def": 0,
+      "spatk": 252,
+      "spdef": 0,
+      "speed": 148
+     },
+     "moves": [
+      "MOVE_SUBSTITUTE",
+      "MOVE_THUNDERBOLT",
+      "MOVE_HIDDEN_POWER",
+      "MOVE_MAGNET_RISE"
+     ],
+     "source": "Smogon data.pkmn.cc (gen4 uu)",
+     "notes": "HP Fire",
+     "ivs": {
+      "hp": 31,
+      "atk": 30,
+      "def": 31,
+      "speed": 30,
+      "spatk": 30,
+      "spdef": 31
+     }
+    },
+    {
+     "name": "Special Attacker",
+     "role": "attacker",
+     "tier": "uu",
+     "item": "ITEM_LEFTOVERS",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_MODEST",
+     "evs": {
+      "hp": 96,
+      "atk": 0,
+      "def": 0,
+      "spatk": 252,
+      "spdef": 0,
+      "speed": 160
+     },
+     "moves": [
+      "MOVE_CHARGE_BEAM",
+      "MOVE_THUNDERBOLT",
+      "MOVE_HIDDEN_POWER",
+      "MOVE_SUBSTITUTE"
+     ],
+     "source": "Smogon data.pkmn.cc (gen4 uu)",
+     "notes": "Charge Beam/Metal Sound; Hidden Power Grass/Hidden Power Ice/Hidden Power Fire; HP Grass; Substitute/Explosion",
+     "ivs": {
+      "hp": 31,
+      "atk": 30,
+      "def": 31,
+      "speed": 31,
+      "spatk": 30,
+      "spdef": 31
+     }
+    },
+    {
+     "name": "Choice Specs",
+     "role": "choice wallbreaker",
+     "tier": "uu",
+     "item": "ITEM_CHOICE_SPECS",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_RASH",
+     "evs": {
+      "hp": 0,
+      "atk": 80,
+      "def": 0,
+      "spatk": 252,
+      "spdef": 0,
+      "speed": 176
+     },
+     "moves": [
+      "MOVE_THUNDERBOLT",
+      "MOVE_FLASH_CANNON",
+      "MOVE_HIDDEN_POWER",
+      "MOVE_EXPLOSION"
+     ],
+     "source": "Smogon data.pkmn.cc (gen4 uu)",
+     "notes": "Hidden Power Water/Hidden Power Grass; HP Water; Explosion/Signal Beam",
+     "ivs": {
+      "hp": 31,
+      "atk": 31,
+      "def": 31,
+      "speed": 30,
+      "spatk": 30,
+      "spdef": 31
+     }
+    },
+    {
+     "name": "Run & Bun set (Lv.70)",
+     "role": "attacker",
+     "tier": "run-and-bun",
+     "item": "ITEM_EVIOLITE",
+     "ability": "ABILITY_MAGNET_PULL",
+     "nature": "NATURE_TIMID",
+     "evs": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "spatk": 252,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_THUNDERBOLT",
+      "MOVE_FLASH_CANNON",
+      "MOVE_HIDDEN_POWER",
+      "MOVE_MAGNET_RISE"
+     ],
+     "source": "Run & Bun",
+     "notes": "HP Ice (defaulted; source unspecified); EVs inferred (source lists moves/item/nature/ability only)",
+     "ivs": {
+      "hp": 31,
+      "atk": 30,
+      "def": 30,
+      "speed": 31,
+      "spatk": 31,
+      "spdef": 31
+     }
+    },
+    {
+     "name": "Emerald Kaizo set (Lv.67)",
+     "role": "attacker",
+     "tier": "emerald-kaizo",
+     "item": "ITEM_FOCUS_BAND",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_MILD",
+     "evs": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "spatk": 252,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_THUNDERBOLT",
+      "MOVE_FLASH_CANNON",
+      "MOVE_HIDDEN_POWER",
+      "MOVE_THUNDER_WAVE"
+     ],
+     "source": "Emerald Kaizo",
+     "notes": "HP Ice (defaulted; source unspecified); EVs inferred (source lists moves/item/nature/ability only)",
+     "ivs": {
+      "hp": 31,
+      "atk": 30,
+      "def": 30,
+      "speed": 31,
+      "spatk": 31,
+      "spdef": 31
+     }
+    },
+    {
+     "name": "Run & Bun set (Lv.34)",
+     "role": "attacker",
+     "tier": "run-and-bun",
+     "item": "ITEM_EVIOLITE",
+     "ability": "ABILITY_MAGNET_PULL",
+     "nature": "NATURE_TIMID",
+     "evs": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "spatk": 252,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_THUNDERBOLT",
+      "MOVE_FLASH_CANNON",
+      "MOVE_BODY_PRESS",
+      "MOVE_SCREECH"
+     ],
+     "source": "Run & Bun",
+     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
+    },
+    {
+     "name": "Emerald Kaizo set (Lv.65)",
+     "role": "attacker",
+     "tier": "emerald-kaizo",
+     "item": "ITEM_NONE",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_LONELY",
+     "evs": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "spatk": 252,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_TRI_ATTACK",
+      "MOVE_FLASH_CANNON",
+      "MOVE_THUNDERBOLT",
+      "MOVE_THUNDER_WAVE"
+     ],
+     "source": "Emerald Kaizo",
+     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
+    },
+    {
+     "name": "Sturdy variant",
+     "role": "choice wallbreaker",
+     "tier": "ability-variant",
+     "item": "ITEM_CHOICE_SPECS",
+     "ability": "ABILITY_STURDY",
+     "nature": "NATURE_MODEST",
+     "evs": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "spatk": 252,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_THUNDERBOLT",
+      "MOVE_VOLT_SWITCH",
+      "MOVE_FLASH_CANNON",
+      "MOVE_STEEL_BEAM"
+     ],
+     "source": "Ability variant (constructed)",
+     "notes": "Represents STURDY; moves cloned from 'Choice Specs Trapper'."
+    }
+   ]
+  },
+  {
+   "species": "SPECIES_DOUBLADE",
+   "displayName": "Doublade",
+   "tier": "eviolite-nfe",
+   "sets": [
+    {
+     "name": "Eviolite Swords Dance",
+     "role": "setup sweeper",
+     "item": "ITEM_EVIOLITE",
+     "ability": "ABILITY_NO_GUARD",
+     "nature": "NATURE_ADAMANT",
+     "evs": {
+      "hp": 252,
+      "atk": 252,
+      "def": 4,
+      "spatk": 0,
+      "spdef": 0,
+      "speed": 0
+     },
+     "moves": [
+      "MOVE_SWORDS_DANCE",
+      "MOVE_IRON_HEAD",
+      "MOVE_SHADOW_SNEAK",
+      "MOVE_SACRED_SWORD"
+     ],
+     "tier": "constructed",
+     "notes": "",
+     "source": "Constructed (competitive knowledge; validated vs build)"
+    },
+    {
+     "name": "Eviolite Wall",
+     "role": "defensive / utility",
+     "item": "ITEM_EVIOLITE",
+     "ability": "ABILITY_NO_GUARD",
+     "nature": "NATURE_IMPISH",
+     "evs": {
+      "hp": 252,
+      "atk": 0,
+      "def": 252,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 0
+     },
+     "moves": [
+      "MOVE_IRON_HEAD",
+      "MOVE_SHADOW_SNEAK",
+      "MOVE_SACRED_SWORD",
+      "MOVE_TOXIC"
+     ],
+     "tier": "constructed",
+     "notes": "",
+     "source": "Constructed (competitive knowledge; validated vs build)"
+    },
+    {
+     "name": "Run & Bun set (Lv.39)",
+     "role": "attacker",
+     "tier": "run-and-bun",
+     "item": "ITEM_EVIOLITE",
+     "ability": "ABILITY_NO_GUARD",
+     "nature": "NATURE_CAREFUL",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_IRON_HEAD",
+      "MOVE_SHADOW_CLAW",
+      "MOVE_HEAD_SMASH",
+      "MOVE_SACRED_SWORD"
+     ],
+     "source": "Run & Bun",
+     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
+    }
+   ]
+  },
+  {
+   "species": "SPECIES_TYPE_NULL",
+   "displayName": "Type_Null",
+   "tier": "eviolite-nfe",
+   "sets": [
+    {
+     "name": "Eviolite RestTalk",
+     "role": "defensive / utility",
+     "item": "ITEM_EVIOLITE",
+     "ability": "ABILITY_BATTLE_ARMOR",
+     "nature": "NATURE_CAREFUL",
+     "evs": {
+      "hp": 252,
+      "atk": 4,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 252,
+      "speed": 0
+     },
+     "moves": [
+      "MOVE_MULTI_ATTACK",
+      "MOVE_REST",
+      "MOVE_SLEEP_TALK",
+      "MOVE_SWORDS_DANCE"
+     ],
+     "tier": "constructed",
+     "notes": "",
+     "source": "Constructed (competitive knowledge; validated vs build)"
+    }
+   ]
+  },
+  {
+   "species": "SPECIES_SNEASEL",
+   "displayName": "Sneasel",
+   "tier": "eviolite-nfe",
+   "sets": [
+    {
+     "name": "Swords Dance",
+     "role": "setup sweeper",
+     "tier": "pu",
+     "item": "ITEM_HEAVY_DUTY_BOOTS",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_JOLLY",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 4,
+      "spatk": 0,
+      "spdef": 0,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_SWORDS_DANCE",
+      "MOVE_TRIPLE_AXEL",
+      "MOVE_KNOCK_OFF",
+      "MOVE_ICE_SHARD"
+     ],
+     "source": "Smogon data.pkmn.cc (gen9 pu)",
+     "notes": ""
+    },
+    {
+     "name": "Choice Band",
+     "role": "choice wallbreaker",
+     "tier": "pu",
+     "item": "ITEM_CHOICE_BAND",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_JOLLY",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 4,
+      "spatk": 0,
+      "spdef": 0,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_KNOCK_OFF",
+      "MOVE_TRIPLE_AXEL",
+      "MOVE_ICE_SHARD",
+      "MOVE_LOW_KICK"
+     ],
+     "source": "Smogon data.pkmn.cc (gen9 pu)",
+     "notes": ""
+    },
+    {
+     "name": "All-out Attacker",
+     "role": "attacker",
+     "tier": "ru",
+     "item": "ITEM_LIFE_ORB",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_JOLLY",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 4,
+      "spatk": 0,
+      "spdef": 0,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_KNOCK_OFF",
+      "MOVE_ICICLE_CRASH",
+      "MOVE_ICE_SHARD",
+      "MOVE_PURSUIT"
+     ],
+     "source": "Smogon data.pkmn.cc (gen7 ru)",
+     "notes": ""
+    },
+    {
+     "name": "All-Out Attacker",
+     "role": "attacker",
+     "tier": "ru",
+     "item": "ITEM_LIFE_ORB",
+     "ability": "ABILITY_PICKPOCKET",
+     "nature": "NATURE_JOLLY",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 4,
+      "spatk": 0,
+      "spdef": 0,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_KNOCK_OFF",
+      "MOVE_ICICLE_CRASH",
+      "MOVE_PURSUIT",
+      "MOVE_LOW_KICK"
+     ],
+     "source": "Smogon data.pkmn.cc (gen6 ru)",
+     "notes": "Low Kick/Ice Shard"
+    },
+    {
+     "name": "Choice Band",
+     "role": "choice wallbreaker",
+     "tier": "uu",
+     "item": "ITEM_CHOICE_BAND",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_JOLLY",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_ICE_SHARD",
+      "MOVE_PURSUIT",
+      "MOVE_LOW_KICK",
+      "MOVE_PUNISHMENT"
+     ],
+     "source": "Smogon data.pkmn.cc (gen4 uu)",
+     "notes": "Low Kick/Brick Break"
+    },
+    {
+     "name": "Attacking Lead",
+     "role": "hazard lead",
+     "tier": "uu",
+     "item": "ITEM_FOCUS_SASH",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_JOLLY",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_FAKE_OUT",
+      "MOVE_COUNTER",
+      "MOVE_TAUNT",
+      "MOVE_PURSUIT"
+     ],
+     "source": "Smogon data.pkmn.cc (gen4 uu)",
+     "notes": "Pursuit/Ice Shard"
+    },
+    {
+     "name": "Swords Dance",
+     "role": "setup sweeper",
+     "tier": "uu",
+     "item": "ITEM_LIFE_ORB",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_JOLLY",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_SWORDS_DANCE",
+      "MOVE_ICE_SHARD",
+      "MOVE_LOW_KICK",
+      "MOVE_PUNISHMENT"
+     ],
+     "source": "Smogon data.pkmn.cc (gen4 uu)",
+     "notes": "Ice Shard/Ice Punch; Punishment/Bite/Pursuit"
+    },
+    {
+     "name": "Life Orb",
+     "role": "attacker",
+     "tier": "pu",
+     "item": "ITEM_LIFE_ORB",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_JOLLY",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_ICE_PUNCH",
+      "MOVE_PUNISHMENT",
+      "MOVE_LOW_KICK",
+      "MOVE_PURSUIT"
+     ],
+     "source": "Smogon data.pkmn.cc (gen4 pu)",
+     "notes": ""
+    },
+    {
+     "name": "Focus Sash",
+     "role": "attacker",
+     "tier": "pu",
+     "item": "ITEM_FOCUS_SASH",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_JOLLY",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_FAKE_OUT",
+      "MOVE_PURSUIT",
+      "MOVE_ICE_PUNCH",
+      "MOVE_LOW_KICK"
+     ],
+     "source": "Smogon data.pkmn.cc (gen4 pu)",
+     "notes": ""
+    },
+    {
+     "name": "Run & Bun set (Lv.23)",
+     "role": "attacker",
+     "tier": "run-and-bun",
+     "item": "ITEM_FOCUS_SASH",
+     "ability": "ABILITY_INNER_FOCUS",
+     "nature": "NATURE_JOLLY",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_ICE_PUNCH",
+      "MOVE_KNOCK_OFF",
+      "MOVE_ICE_SHARD",
+      "MOVE_BRICK_BREAK"
+     ],
+     "source": "Run & Bun",
+     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
+    },
+    {
+     "name": "Emerald Kaizo set (Lv.13)",
+     "role": "attacker",
+     "tier": "emerald-kaizo",
+     "item": "ITEM_KINGS_ROCK",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_MODEST",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_ICE_BEAM",
+      "MOVE_AERIAL_ACE",
+      "MOVE_SECRET_POWER",
+      "MOVE_SURF"
+     ],
+     "source": "Emerald Kaizo",
+     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
+    }
+   ]
+  },
+  {
+   "species": "SPECIES_SNEASEL_HISUI",
+   "displayName": "Sneasel_Hisui",
+   "tier": "eviolite-nfe",
+   "sets": [
+    {
+     "name": "Swords Dance",
+     "role": "setup sweeper",
+     "item": "ITEM_HEAVY_DUTY_BOOTS",
+     "ability": "ABILITY_INNER_FOCUS",
+     "nature": "NATURE_JOLLY",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_SWORDS_DANCE",
+      "MOVE_CLOSE_COMBAT",
+      "MOVE_GUNK_SHOT",
+      "MOVE_ICE_SHARD"
+     ],
+     "tier": "constructed",
+     "notes": "",
+     "source": "Constructed (competitive knowledge; validated vs build)"
+    },
+    {
+     "name": "Eviolite Setup",
+     "role": "setup sweeper",
+     "item": "ITEM_EVIOLITE",
+     "ability": "ABILITY_INNER_FOCUS",
+     "nature": "NATURE_JOLLY",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 4,
+      "spatk": 0,
+      "spdef": 0,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_SWORDS_DANCE",
+      "MOVE_CLOSE_COMBAT",
+      "MOVE_POISON_JAB",
+      "MOVE_ICE_SHARD"
+     ],
+     "tier": "constructed",
+     "notes": "",
+     "source": "Constructed (competitive knowledge; validated vs build)"
+    }
+   ]
+  },
+  {
+   "species": "SPECIES_PILOSWINE",
+   "displayName": "Piloswine",
+   "tier": "eviolite-nfe",
+   "sets": [
+    {
+     "name": "Physical Attacker",
+     "role": "attacker",
+     "tier": "uu",
+     "item": "ITEM_LIFE_ORB",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_JOLLY",
+     "evs": {
+      "hp": 4,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 0,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_ICE_SHARD",
+      "MOVE_EARTHQUAKE",
+      "MOVE_SUBSTITUTE",
+      "MOVE_STONE_EDGE"
+     ],
+     "source": "Smogon data.pkmn.cc (gen4 uu)",
+     "notes": "Substitute/Ice Fang"
+    },
+    {
+     "name": "Choice Band",
+     "role": "choice wallbreaker",
+     "tier": "nu",
+     "item": "ITEM_CHOICE_BAND",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_NAUGHTY",
+     "evs": {
+      "hp": 212,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 0,
+      "speed": 44
+     },
+     "moves": [
+      "MOVE_EARTHQUAKE",
+      "MOVE_ROCK_SLIDE",
+      "MOVE_ICE_BEAM",
+      "MOVE_DOUBLE_EDGE"
+     ],
+     "source": "Smogon data.pkmn.cc (gen3 nu)",
+     "notes": "Ice Beam/Blizzard"
+    },
+    {
+     "name": "Tank",
+     "role": "defensive / utility",
+     "tier": "nu",
+     "item": "ITEM_LEFTOVERS",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_BRAVE",
+     "evs": {
+      "hp": 248,
+      "atk": 16,
+      "def": 152,
+      "spatk": 92,
+      "spdef": 0,
+      "speed": 0
+     },
+     "moves": [
+      "MOVE_EARTHQUAKE",
+      "MOVE_ICE_BEAM",
+      "MOVE_TOXIC",
+      "MOVE_PROTECT"
+     ],
+     "source": "Smogon data.pkmn.cc (gen3 nu)",
+     "notes": "Ice Beam/Blizzard; Toxic/Roar; Protect/Roar"
+    },
+    {
+     "name": "Screen Lure",
+     "role": "attacker",
+     "tier": "nu",
+     "item": "ITEM_LEFTOVERS",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_BRAVE",
+     "evs": {
+      "hp": 212,
+      "atk": 204,
+      "def": 0,
+      "spatk": 92,
+      "spdef": 0,
+      "speed": 0
+     },
+     "moves": [
+      "MOVE_LIGHT_SCREEN",
+      "MOVE_EARTHQUAKE",
+      "MOVE_ICE_BEAM",
+      "MOVE_TOXIC"
+     ],
+     "source": "Smogon data.pkmn.cc (gen3 nu)",
+     "notes": "Light Screen/Reflect; Ice Beam/Blizzard; Toxic/Roar"
+    },
+    {
+     "name": "RestTalk",
+     "role": "attacker",
+     "tier": "ou",
+     "item": "ITEM_LEFTOVERS",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_SERIOUS",
+     "evs": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 0,
+      "speed": 0
+     },
+     "moves": [
+      "MOVE_EARTHQUAKE",
+      "MOVE_ICE_BEAM",
+      "MOVE_SLEEP_TALK",
+      "MOVE_REST"
+     ],
+     "source": "Smogon data.pkmn.cc (gen2 ou)",
+     "notes": ""
+    },
+    {
+     "name": "Run & Bun set (Lv.45)",
+     "role": "setup sweeper",
+     "tier": "run-and-bun",
+     "item": "ITEM_EVIOLITE",
+     "ability": "ABILITY_THICK_FAT",
+     "nature": "NATURE_CAREFUL",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_EARTHQUAKE",
+      "MOVE_ICICLE_SPEAR",
+      "MOVE_CURSE",
+      "MOVE_REST"
+     ],
+     "source": "Run & Bun",
+     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
+    },
+    {
+     "name": "Emerald Kaizo set (Lv.70)",
+     "role": "attacker",
+     "tier": "emerald-kaizo",
+     "item": "ITEM_QUICK_CLAW",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_ADAMANT",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_BODY_SLAM",
+      "MOVE_ICE_BEAM",
+      "MOVE_ANCIENTPOWER",
+      "MOVE_EARTHQUAKE"
+     ],
+     "source": "Emerald Kaizo",
+     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
+    }
+   ]
+  },
+  {
+   "species": "SPECIES_GURDURR",
+   "displayName": "Gurdurr",
+   "tier": "eviolite-nfe",
+   "sets": [
+    {
+     "name": "Life Orb Attacker",
+     "role": "attacker",
+     "tier": "middlecup",
+     "item": "ITEM_LIFE_ORB",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_ADAMANT",
+     "evs": {
+      "hp": 252,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 0
+     },
+     "moves": [
+      "MOVE_DRAIN_PUNCH",
+      "MOVE_MACH_PUNCH",
+      "MOVE_STONE_EDGE",
+      "MOVE_KNOCK_OFF"
+     ],
+     "source": "Smogon data.pkmn.cc (gen6 middlecup)",
+     "notes": "Knock Off/Bulk Up"
+    },
+    {
+     "name": "Run & Bun set (Lv.18)",
+     "role": "attacker",
+     "tier": "run-and-bun",
+     "item": "ITEM_BLACK_BELT",
+     "ability": "ABILITY_GUTS",
+     "nature": "NATURE_JOLLY",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_LOW_SWEEP",
+      "MOVE_MACH_PUNCH",
+      "MOVE_BULLDOZE",
+      "MOVE_ROCK_THROW"
+     ],
+     "source": "Run & Bun",
+     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
+    },
+    {
+     "name": "Sheer Force variant",
+     "role": "attacker",
+     "tier": "ability-variant",
+     "item": "ITEM_LIFE_ORB",
+     "ability": "ABILITY_SHEER_FORCE",
+     "nature": "NATURE_ADAMANT",
+     "evs": {
+      "hp": 252,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 0
+     },
+     "moves": [
+      "MOVE_DRAIN_PUNCH",
+      "MOVE_MACH_PUNCH",
+      "MOVE_STONE_EDGE",
+      "MOVE_KNOCK_OFF"
+     ],
+     "source": "Ability variant (constructed)",
+     "notes": "Represents SHEER_FORCE; moves cloned from 'Life Orb Attacker'."
+    },
+    {
+     "name": "Iron Fist variant",
+     "role": "attacker",
+     "tier": "ability-variant",
+     "item": "ITEM_LIFE_ORB",
+     "ability": "ABILITY_IRON_FIST",
+     "nature": "NATURE_ADAMANT",
+     "evs": {
+      "hp": 252,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 0
+     },
+     "moves": [
+      "MOVE_DRAIN_PUNCH",
+      "MOVE_MACH_PUNCH",
+      "MOVE_STONE_EDGE",
+      "MOVE_KNOCK_OFF"
+     ],
+     "source": "Ability variant (constructed)",
+     "notes": "Represents IRON_FIST; moves cloned from 'Life Orb Attacker'."
+    }
+   ]
+  },
+  {
+   "species": "SPECIES_VULLABY",
+   "displayName": "Vullaby",
+   "tier": "eviolite-nfe",
+   "sets": [
+    {
+     "name": "Eviolite Defog",
+     "role": "defensive / utility",
+     "item": "ITEM_EVIOLITE",
+     "ability": "ABILITY_OVERCOAT",
+     "nature": "NATURE_ADAMANT",
+     "evs": {
+      "hp": 252,
+      "atk": 0,
+      "def": 252,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 0
+     },
+     "moves": [
+      "MOVE_FOUL_PLAY",
+      "MOVE_ROOST",
+      "MOVE_DEFOG",
+      "MOVE_KNOCK_OFF"
+     ],
+     "tier": "constructed",
+     "notes": "",
+     "source": "Constructed (competitive knowledge; validated vs build)"
+    },
+    {
+     "name": "Eviolite Nasty Plot",
+     "role": "setup sweeper",
+     "item": "ITEM_EVIOLITE",
+     "ability": "ABILITY_OVERCOAT",
+     "nature": "NATURE_BOLD",
+     "evs": {
+      "hp": 252,
+      "atk": 0,
+      "def": 252,
+      "spatk": 4,
+      "spdef": 0,
+      "speed": 0
+     },
+     "moves": [
+      "MOVE_NASTY_PLOT",
+      "MOVE_DARK_PULSE",
+      "MOVE_AIR_SLASH",
+      "MOVE_ROOST"
+     ],
+     "tier": "constructed",
+     "notes": "",
+     "source": "Constructed (competitive knowledge; validated vs build)"
+    },
+    {
+     "name": "Weak Armor variant",
+     "role": "setup sweeper",
+     "item": "ITEM_EVIOLITE",
+     "ability": "ABILITY_WEAK_ARMOR",
+     "nature": "NATURE_BOLD",
+     "evs": {
+      "hp": 252,
+      "atk": 0,
+      "def": 252,
+      "spatk": 4,
+      "spdef": 0,
+      "speed": 0
+     },
+     "moves": [
+      "MOVE_NASTY_PLOT",
+      "MOVE_DARK_PULSE",
+      "MOVE_AIR_SLASH",
+      "MOVE_ROOST"
+     ],
+     "tier": "ability-variant",
+     "notes": "Represents WEAK_ARMOR; moves cloned from 'Eviolite Nasty Plot'.",
+     "source": "Ability variant (constructed)"
+    }
+   ]
+  },
+  {
+   "species": "SPECIES_BISHARP",
+   "displayName": "Bisharp",
+   "tier": "eviolite-nfe",
+   "sets": [
+    {
+     "name": "Swords Dance",
+     "role": "setup sweeper",
+     "tier": "nationaldexuu",
+     "item": "ITEM_LIFE_ORB",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_ADAMANT",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_SWORDS_DANCE",
+      "MOVE_KNOCK_OFF",
+      "MOVE_SUCKER_PUNCH",
+      "MOVE_IRON_HEAD"
+     ],
+     "source": "Smogon data.pkmn.cc (gen9 nationaldexuu)",
+     "notes": ""
+    },
+    {
+     "name": "Pursuit Trapper",
+     "role": "attacker",
+     "tier": "nationaldexuu",
+     "item": "ITEM_CHOICE_BAND",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_ADAMANT",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_PURSUIT",
+      "MOVE_KNOCK_OFF",
+      "MOVE_SUCKER_PUNCH",
+      "MOVE_IRON_HEAD"
+     ],
+     "source": "Smogon data.pkmn.cc (gen9 nationaldexuu)",
+     "notes": ""
+    },
+    {
+     "name": "Choice Band",
+     "role": "choice wallbreaker",
+     "tier": "ou",
+     "item": "ITEM_CHOICE_BAND",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_ADAMANT",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_KNOCK_OFF",
+      "MOVE_SUCKER_PUNCH",
+      "MOVE_IRON_HEAD",
+      "MOVE_BEAT_UP"
+     ],
+     "source": "Smogon data.pkmn.cc (gen8 ou)",
+     "notes": "Beat Up/Low Kick"
+    },
+    {
+     "name": "Swords Dance",
+     "role": "setup sweeper",
+     "tier": "uu",
+     "item": "ITEM_LEFTOVERS",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_ADAMANT",
+     "evs": {
+      "hp": 52,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 0,
+      "speed": 204
+     },
+     "moves": [
+      "MOVE_SWORDS_DANCE",
+      "MOVE_SUCKER_PUNCH",
+      "MOVE_SUBSTITUTE",
+      "MOVE_LOW_KICK"
+     ],
+     "source": "Smogon data.pkmn.cc (gen5 uu)",
+     "notes": "Low Kick/Iron Head"
+    },
+    {
+     "name": "Run & Bun set (Lv.95)",
+     "role": "attacker",
+     "tier": "run-and-bun",
+     "item": "ITEM_STEEL_GEM",
+     "ability": "ABILITY_DEFIANT",
+     "nature": "NATURE_JOLLY",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_IRON_HEAD",
+      "MOVE_SUCKER_PUNCH",
+      "MOVE_KNOCK_OFF",
+      "MOVE_SUBSTITUTE"
+     ],
+     "source": "Run & Bun",
+     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
+    },
+    {
+     "name": "Run & Bun set (Lv.85)",
+     "role": "attacker",
+     "tier": "run-and-bun",
+     "item": "ITEM_LUM_BERRY",
+     "ability": "ABILITY_DEFIANT",
+     "nature": "NATURE_JOLLY",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_IRON_HEAD",
+      "MOVE_PURSUIT",
+      "MOVE_PSYCHO_CUT",
+      "MOVE_LOW_KICK"
+     ],
+     "source": "Run & Bun",
+     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
+    },
+    {
+     "name": "Run & Bun set (Lv.69)",
+     "role": "attacker",
+     "tier": "run-and-bun",
+     "item": "ITEM_BLACK_GLASSES",
+     "ability": "ABILITY_DEFIANT",
+     "nature": "NATURE_JOLLY",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_IRON_HEAD",
+      "MOVE_SUCKER_PUNCH",
+      "MOVE_PURSUIT",
+      "MOVE_ZEN_HEADBUTT"
+     ],
+     "source": "Run & Bun",
+     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
+    },
+    {
+     "name": "Run & Bun set (Lv.44)",
+     "role": "attacker",
+     "tier": "run-and-bun",
+     "item": "ITEM_LUM_BERRY",
+     "ability": "ABILITY_DEFIANT",
+     "nature": "NATURE_JOLLY",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_IRON_HEAD",
+      "MOVE_SUCKER_PUNCH",
+      "MOVE_KNOCK_OFF",
+      "MOVE_LOW_KICK"
+     ],
+     "source": "Run & Bun",
+     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
+    },
+    {
+     "name": "Run & Bun set (Lv.23)",
+     "role": "attacker",
+     "tier": "run-and-bun",
+     "item": "ITEM_FOCUS_SASH",
+     "ability": "ABILITY_DEFIANT",
+     "nature": "NATURE_NAIVE",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_IRON_HEAD",
+      "MOVE_KNOCK_OFF",
+      "MOVE_BRICK_BREAK",
+      "MOVE_GRASS_KNOT"
+     ],
+     "source": "Run & Bun",
+     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
+    }
+   ]
+  },
+  {
+   "species": "SPECIES_MISDREAVUS",
+   "displayName": "Misdreavus",
+   "tier": "eviolite-nfe",
+   "sets": [
+    {
+     "name": "Defensive",
+     "role": "defensive / utility",
+     "tier": "pu",
+     "item": "ITEM_LEFTOVERS",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_BOLD",
+     "evs": {
+      "hp": 248,
+      "atk": 0,
+      "def": 252,
+      "spatk": 0,
+      "spdef": 8,
+      "speed": 0
+     },
+     "moves": [
+      "MOVE_WILL_O_WISP",
+      "MOVE_SHADOW_BALL",
+      "MOVE_THUNDERBOLT",
+      "MOVE_PAIN_SPLIT"
+     ],
+     "source": "Smogon data.pkmn.cc (gen4 pu)",
+     "notes": "Will-O-Wisp/Substitute"
+    },
+    {
+     "name": "Choice Scarf",
+     "role": "choice revenge killer",
+     "tier": "pu",
+     "item": "ITEM_CHOICE_SCARF",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_TIMID",
+     "evs": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "spatk": 252,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_SHADOW_BALL",
+      "MOVE_THUNDERBOLT",
+      "MOVE_TRICK",
+      "MOVE_WILL_O_WISP"
+     ],
+     "source": "Smogon data.pkmn.cc (gen4 pu)",
+     "notes": ""
+    },
+    {
+     "name": "Perish Trapper",
+     "role": "attacker",
+     "tier": "ou",
+     "item": "ITEM_LEFTOVERS",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_CALM",
+     "evs": {
+      "hp": 252,
+      "atk": 0,
+      "def": 176,
+      "spatk": 0,
+      "spdef": 16,
+      "speed": 64
+     },
+     "moves": [
+      "MOVE_MEAN_LOOK",
+      "MOVE_PERISH_SONG",
+      "MOVE_TAUNT",
+      "MOVE_PROTECT"
+     ],
+     "source": "Smogon data.pkmn.cc (gen3 ou)",
+     "notes": "Taunt/Destiny Bond"
+    },
+    {
+     "name": "Calm Mind",
+     "role": "setup sweeper",
+     "tier": "ou",
+     "item": "ITEM_LEFTOVERS",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_CALM",
+     "evs": {
+      "hp": 252,
+      "atk": 0,
+      "def": 176,
+      "spatk": 0,
+      "spdef": 16,
+      "speed": 64
+     },
+     "moves": [
+      "MOVE_CALM_MIND",
+      "MOVE_PSYCHIC",
+      "MOVE_THUNDERBOLT",
+      "MOVE_SUBSTITUTE"
+     ],
+     "source": "Smogon data.pkmn.cc (gen3 ou)",
+     "notes": "Psychic/Hidden Power Ice; Substitute/Taunt"
+    },
+    {
+     "name": "Imprison",
+     "role": "attacker",
+     "tier": "ou",
+     "item": "ITEM_LEFTOVERS",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_MODEST",
+     "evs": {
+      "hp": 236,
+      "atk": 0,
+      "def": 68,
+      "spatk": 124,
+      "spdef": 80,
+      "speed": 0
+     },
+     "moves": [
+      "MOVE_HIDDEN_POWER",
+      "MOVE_THUNDERBOLT",
+      "MOVE_THUNDER_WAVE",
+      "MOVE_IMPRISON"
+     ],
+     "source": "Smogon data.pkmn.cc (gen3 ou)",
+     "notes": "HP Ice",
+     "ivs": {
+      "hp": 31,
+      "atk": 30,
+      "def": 30,
+      "speed": 31,
+      "spatk": 31,
+      "spdef": 31
+     }
+    },
+    {
+     "name": "Defensive Utility",
+     "role": "defensive / utility",
+     "tier": "uu",
+     "item": "ITEM_LEFTOVERS",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_CALM",
+     "evs": {
+      "hp": 252,
+      "atk": 0,
+      "def": 84,
+      "spatk": 0,
+      "spdef": 172,
+      "speed": 0
+     },
+     "moves": [
+      "MOVE_THUNDERBOLT",
+      "MOVE_HIDDEN_POWER",
+      "MOVE_THUNDER_WAVE",
+      "MOVE_PAIN_SPLIT"
+     ],
+     "source": "Smogon data.pkmn.cc (gen3 uu)",
+     "notes": "Thunderbolt/Psychic; HP Ice; Thunder Wave/Toxic; Pain Split/Rest",
+     "ivs": {
+      "hp": 31,
+      "atk": 30,
+      "def": 30,
+      "speed": 31,
+      "spatk": 31,
+      "spdef": 31
+     }
+    },
+    {
+     "name": "Disruptor",
+     "role": "attacker",
+     "tier": "ou",
+     "item": "ITEM_NONE",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_SERIOUS",
+     "evs": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 0,
+      "speed": 0
+     },
+     "moves": [
+      "MOVE_THUNDER",
+      "MOVE_TOXIC",
+      "MOVE_THIEF",
+      "MOVE_PAIN_SPLIT"
+     ],
+     "source": "Smogon data.pkmn.cc (gen2 ou)",
+     "notes": "Thief/Protect/Hypnosis/Confuse Ray; Pain Split/Rest"
+    },
+    {
+     "name": "Perish Trapper",
+     "role": "attacker",
+     "tier": "ou",
+     "item": "ITEM_LEFTOVERS",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_SERIOUS",
+     "evs": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 0,
+      "speed": 0
+     },
+     "moves": [
+      "MOVE_MEAN_LOOK",
+      "MOVE_PERISH_SONG",
+      "MOVE_PROTECT",
+      "MOVE_CONFUSE_RAY"
+     ],
+     "source": "Smogon data.pkmn.cc (gen2 ou)",
+     "notes": "Confuse Ray/Thunder"
+    },
+    {
+     "name": "Emerald Kaizo set (Lv.84)",
+     "role": "attacker",
+     "tier": "emerald-kaizo",
+     "item": "ITEM_LUM_BERRY",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_RASH",
+     "evs": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "spatk": 252,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_THUNDER_WAVE",
+      "MOVE_PSYCHIC",
+      "MOVE_THUNDERBOLT",
+      "MOVE_HIDDEN_POWER"
+     ],
+     "source": "Emerald Kaizo",
+     "notes": "HP Ice (defaulted; source unspecified); EVs inferred (source lists moves/item/nature/ability only)",
+     "ivs": {
+      "hp": 31,
+      "atk": 30,
+      "def": 30,
+      "speed": 31,
+      "spatk": 31,
+      "spdef": 31
+     }
+    },
+    {
+     "name": "Emerald Kaizo set (Lv.74)",
+     "role": "attacker",
+     "tier": "emerald-kaizo",
+     "item": "ITEM_QUICK_CLAW",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_NAUGHTY",
+     "evs": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "spatk": 252,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_THUNDER",
+      "MOVE_HYPNOSIS",
+      "MOVE_PSYCHIC",
+      "MOVE_SHADOW_BALL"
+     ],
+     "source": "Emerald Kaizo",
+     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
+    },
+    {
+     "name": "Emerald Kaizo set (Lv.65)",
+     "role": "attacker",
+     "tier": "emerald-kaizo",
+     "item": "ITEM_NONE",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_NAUGHTY",
+     "evs": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "spatk": 252,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_HYPER_VOICE",
+      "MOVE_PAIN_SPLIT",
+      "MOVE_SHADOW_BALL",
+      "MOVE_NIGHT_SHADE"
+     ],
+     "source": "Emerald Kaizo",
+     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
+    },
+    {
+     "name": "Emerald Kaizo set (Lv.63)",
+     "role": "attacker",
+     "tier": "emerald-kaizo",
+     "item": "ITEM_LEFTOVERS",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_BRAVE",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_MEAN_LOOK",
+      "MOVE_PERISH_SONG",
+      "MOVE_PROTECT",
+      "MOVE_ATTRACT"
+     ],
+     "source": "Emerald Kaizo",
+     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
+    },
+    {
+     "name": "Emerald Kaizo set (Lv.60)",
+     "role": "attacker",
+     "tier": "emerald-kaizo",
+     "item": "ITEM_LEFTOVERS",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_LONELY",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_MEAN_LOOK",
+      "MOVE_SUBSTITUTE",
+      "MOVE_PERISH_SONG",
+      "MOVE_PROTECT"
+     ],
+     "source": "Emerald Kaizo",
+     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
+    },
+    {
+     "name": "Emerald Kaizo set (Lv.52)",
+     "role": "setup sweeper",
+     "tier": "emerald-kaizo",
+     "item": "ITEM_GREEN_SCARF",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_NAIVE",
+     "evs": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "spatk": 252,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_CALM_MIND",
+      "MOVE_PSYCHIC",
+      "MOVE_DESTINY_BOND",
+      "MOVE_MEAN_LOOK"
+     ],
+     "source": "Emerald Kaizo",
+     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
+    }
+   ]
+  },
+  {
+   "species": "SPECIES_MURKROW",
+   "displayName": "Murkrow",
+   "tier": "eviolite-nfe",
+   "sets": [
+    {
+     "name": "Life Orb",
+     "role": "attacker",
+     "tier": "pu",
+     "item": "ITEM_LIFE_ORB",
+     "ability": "ABILITY_SUPER_LUCK",
+     "nature": "NATURE_NAIVE",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 4,
+      "spdef": 0,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_BRAVE_BIRD",
+      "MOVE_SUCKER_PUNCH",
+      "MOVE_HEAT_WAVE",
+      "MOVE_PURSUIT"
+     ],
+     "source": "Smogon data.pkmn.cc (gen6 pu)",
+     "notes": "Heat Wave/Hidden Power Grass; Pursuit/Thunder Wave"
+    },
+    {
+     "name": "Life Orb",
+     "role": "attacker",
+     "tier": "uu",
+     "item": "ITEM_LIFE_ORB",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_HASTY",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 4,
+      "spdef": 0,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_BRAVE_BIRD",
+      "MOVE_SUCKER_PUNCH",
+      "MOVE_HEAT_WAVE",
+      "MOVE_HIDDEN_POWER"
+     ],
+     "source": "Smogon data.pkmn.cc (gen4 uu)",
+     "notes": "HP Grass",
+     "ivs": {
+      "hp": 31,
+      "atk": 31,
+      "def": 30,
+      "speed": 31,
+      "spatk": 30,
+      "spdef": 31
+     }
+    },
+    {
+     "name": "Choice Band",
+     "role": "choice wallbreaker",
+     "tier": "nu",
+     "item": "ITEM_CHOICE_BAND",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_JOLLY",
+     "evs": {
+      "hp": 4,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 0,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_DRILL_PECK",
+      "MOVE_HIDDEN_POWER",
+      "MOVE_SHADOW_BALL",
+      "MOVE_DOUBLE_EDGE"
+     ],
+     "source": "Smogon data.pkmn.cc (gen3 nu)",
+     "notes": "Hidden Power Ground/Hidden Power Fighting; HP Ground",
+     "ivs": {
+      "hp": 31,
+      "atk": 31,
+      "def": 31,
+      "speed": 31,
+      "spatk": 30,
+      "spdef": 30
+     }
+    },
+    {
+     "name": "Pursuit Trapper",
+     "role": "attacker",
+     "tier": "pu",
+     "item": "ITEM_LEFTOVERS",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_SERIOUS",
+     "evs": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 0,
+      "speed": 0
+     },
+     "moves": [
+      "MOVE_PURSUIT",
+      "MOVE_DRILL_PECK",
+      "MOVE_HIDDEN_POWER",
+      "MOVE_HAZE"
+     ],
+     "source": "Smogon data.pkmn.cc (gen2 pu)",
+     "notes": "Hidden Power Dark/Thief; HP Dark; Haze/Nightmare",
+     "ivs": {
+      "hp": 31,
+      "atk": 31,
+      "def": 31,
+      "speed": 31,
+      "spatk": 31,
+      "spdef": 31
+     }
+    },
+    {
+     "name": "Run & Bun set (Lv.15)",
+     "role": "attacker",
+     "tier": "run-and-bun",
+     "item": "ITEM_LUM_BERRY",
+     "ability": "ABILITY_INSOMNIA",
+     "nature": "NATURE_JOLLY",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_WING_ATTACK",
+      "MOVE_PAYBACK",
+      "MOVE_NIGHT_SHADE"
+     ],
+     "source": "Run & Bun",
+     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
+    },
+    {
+     "name": "Prankster variant",
+     "role": "attacker",
+     "tier": "ability-variant",
+     "item": "ITEM_LIFE_ORB",
+     "ability": "ABILITY_PRANKSTER",
+     "nature": "NATURE_NAIVE",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 4,
+      "spdef": 0,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_BRAVE_BIRD",
+      "MOVE_SUCKER_PUNCH",
+      "MOVE_HEAT_WAVE",
+      "MOVE_PURSUIT"
+     ],
+     "source": "Ability variant (constructed)",
+     "notes": "Represents PRANKSTER; moves cloned from 'Life Orb'."
+    }
+   ]
+  },
+  {
+   "species": "SPECIES_ROSELIA",
+   "displayName": "Roselia",
+   "tier": "eviolite-nfe",
+   "sets": [
+    {
+     "name": "Focus Sash Lead",
+     "role": "hazard lead",
+     "tier": "nu",
+     "item": "ITEM_FOCUS_SASH",
+     "ability": "ABILITY_POISON_POINT",
+     "nature": "NATURE_TIMID",
+     "evs": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "spatk": 252,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_SPIKES",
+      "MOVE_SLUDGE_BOMB",
+      "MOVE_TOXIC_SPIKES",
+      "MOVE_SLEEP_POWDER"
+     ],
+     "source": "Smogon data.pkmn.cc (gen6 nu)",
+     "notes": "Toxic Spikes/Leaf Storm"
+    },
+    {
+     "name": "Spikes",
+     "role": "hazard lead",
+     "tier": "uu",
+     "item": "ITEM_LEFTOVERS",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_CALM",
+     "evs": {
+      "hp": 240,
+      "atk": 0,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 208,
+      "speed": 60
+     },
+     "moves": [
+      "MOVE_SPIKES",
+      "MOVE_STUN_SPORE",
+      "MOVE_SYNTHESIS",
+      "MOVE_ENERGY_BALL"
+     ],
+     "source": "Smogon data.pkmn.cc (gen4 uu)",
+     "notes": "Synthesis/Leech Seed"
+    },
+    {
+     "name": "Offensive Spikes",
+     "role": "hazard lead",
+     "tier": "uu",
+     "item": "ITEM_LEFTOVERS",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_MODEST",
+     "evs": {
+      "hp": 252,
+      "atk": 0,
+      "def": 0,
+      "spatk": 120,
+      "spdef": 0,
+      "speed": 136
+     },
+     "moves": [
+      "MOVE_TOXIC_SPIKES",
+      "MOVE_SLEEP_POWDER",
+      "MOVE_LEAF_STORM",
+      "MOVE_SLUDGE_BOMB"
+     ],
+     "source": "Smogon data.pkmn.cc (gen4 uu)",
+     "notes": "Toxic Spikes/Spikes; Sleep Powder/Synthesis; Leaf Storm/Energy Ball"
+    },
+    {
+     "name": "Defensive Spikes",
+     "role": "defensive / utility",
+     "tier": "ru",
+     "item": "ITEM_LEFTOVERS",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_CALM",
+     "evs": {
+      "hp": 252,
+      "atk": 0,
+      "def": 4,
+      "spatk": 0,
+      "spdef": 252,
+      "speed": 0
+     },
+     "moves": [
+      "MOVE_SPIKES",
+      "MOVE_GIGA_DRAIN",
+      "MOVE_STUN_SPORE",
+      "MOVE_SYNTHESIS"
+     ],
+     "source": "Smogon data.pkmn.cc (gen3 ru)",
+     "notes": "Giga Drain/Hidden Power Grass; Stun Spore/Hidden Power Fire/Aromatherapy"
+    },
+    {
+     "name": "Emerald Kaizo set (Lv.26)",
+     "role": "attacker",
+     "tier": "emerald-kaizo",
+     "item": "ITEM_SITRUS_BERRY",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_MILD",
+     "evs": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "spatk": 252,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_STUN_SPORE",
+      "MOVE_MAGICAL_LEAF",
+      "MOVE_SLUDGE_BOMB",
+      "MOVE_ATTRACT"
+     ],
+     "source": "Emerald Kaizo",
+     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
+    },
+    {
+     "name": "Emerald Kaizo set (Lv.24)",
+     "role": "attacker",
+     "tier": "emerald-kaizo",
+     "item": "ITEM_NONE",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_BOLD",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_TOXIC",
+      "MOVE_PROTECT",
+      "MOVE_LEECH_SEED"
+     ],
+     "source": "Emerald Kaizo",
+     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
+    },
+    {
+     "name": "Emerald Kaizo set (Lv.16)",
+     "role": "defensive / utility",
+     "tier": "emerald-kaizo",
+     "item": "ITEM_NONE",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_QUIET",
+     "evs": {
+      "hp": 252,
+      "atk": 0,
+      "def": 128,
+      "spatk": 0,
+      "spdef": 128,
+      "speed": 0
+     },
+     "moves": [
+      "MOVE_STUN_SPORE",
+      "MOVE_MAGICAL_LEAF",
+      "MOVE_SLUDGE_BOMB",
+      "MOVE_SYNTHESIS"
+     ],
+     "source": "Emerald Kaizo",
+     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
+    }
+   ]
+  },
+  {
+   "species": "SPECIES_TOGETIC",
+   "displayName": "Togetic",
+   "tier": "eviolite-nfe",
+   "sets": [
+    {
+     "name": "Defensive Defogger",
+     "role": "defensive / utility",
+     "tier": "middlecup",
+     "item": "ITEM_LEFTOVERS",
+     "ability": "ABILITY_SERENE_GRACE",
+     "nature": "NATURE_BOLD",
+     "evs": {
+      "hp": 248,
+      "atk": 0,
+      "def": 252,
+      "spatk": 0,
+      "spdef": 8,
+      "speed": 0
+     },
+     "moves": [
+      "MOVE_DEFOG",
+      "MOVE_ROOST",
+      "MOVE_DAZZLING_GLEAM",
+      "MOVE_HEAL_BELL"
+     ],
+     "source": "Smogon data.pkmn.cc (gen6 middlecup)",
+     "notes": "Heal Bell/Thunder Wave"
+    },
+    {
+     "name": "Nasty Plot",
+     "role": "setup sweeper",
+     "tier": "middlecup",
+     "item": "ITEM_LEFTOVERS",
+     "ability": "ABILITY_SERENE_GRACE",
+     "nature": "NATURE_BOLD",
+     "evs": {
+      "hp": 248,
+      "atk": 0,
+      "def": 252,
+      "spatk": 0,
+      "spdef": 8,
+      "speed": 0
+     },
+     "moves": [
+      "MOVE_NASTY_PLOT",
+      "MOVE_DAZZLING_GLEAM",
+      "MOVE_ROOST",
+      "MOVE_BATON_PASS"
+     ],
+     "source": "Smogon data.pkmn.cc (gen6 middlecup)",
+     "notes": "Baton Pass/Fire Blast"
+    },
+    {
+     "name": "Baton Pass",
+     "role": "attacker",
+     "tier": "uu",
+     "item": "ITEM_LEFTOVERS",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_CALM",
+     "evs": {
+      "hp": 252,
+      "atk": 0,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 172,
+      "speed": 84
+     },
+     "moves": [
+      "MOVE_BATON_PASS",
+      "MOVE_NASTY_PLOT",
+      "MOVE_ROOST",
+      "MOVE_HIDDEN_POWER"
+     ],
+     "source": "Smogon data.pkmn.cc (gen4 uu)",
+     "notes": "HP Flying",
+     "ivs": {
+      "hp": 30,
+      "atk": 30,
+      "def": 30,
+      "speed": 31,
+      "spatk": 30,
+      "spdef": 30
+     }
+    },
+    {
+     "name": "Baton Pass",
+     "role": "attacker",
+     "tier": "nu",
+     "item": "ITEM_LEFTOVERS",
+     "ability": "ABILITY_SERENE_GRACE",
+     "nature": "NATURE_CALM",
+     "evs": {
+      "hp": 252,
+      "atk": 0,
+      "def": 120,
+      "spatk": 0,
+      "spdef": 136,
+      "speed": 0
+     },
+     "moves": [
+      "MOVE_ANCIENT_POWER",
+      "MOVE_BATON_PASS",
+      "MOVE_SOFT_BOILED",
+      "MOVE_FIRE_BLAST"
+     ],
+     "source": "Smogon data.pkmn.cc (gen3 nu)",
+     "notes": "Soft-Boiled/Wish; Fire Blast/Flamethrower"
+    },
+    {
+     "name": "2v2 Standard",
+     "role": "attacker",
+     "tier": "nu",
+     "item": "ITEM_LEFTOVERS",
+     "ability": "ABILITY_SERENE_GRACE",
+     "nature": "NATURE_ADAMANT",
+     "evs": {
+      "hp": 252,
+      "atk": 0,
+      "def": 160,
+      "spatk": 0,
+      "spdef": 96,
+      "speed": 0
+     },
+     "moves": [
+      "MOVE_FOLLOW_ME",
+      "MOVE_COUNTER",
+      "MOVE_SOFT_BOILED",
+      "MOVE_THUNDER_WAVE"
+     ],
+     "source": "Smogon data.pkmn.cc (gen3 nu)",
+     "notes": "Soft-Boiled/Light Screen/Reflect; Thunder Wave/Seismic Toss"
+    },
+    {
+     "name": "Physical Wall",
+     "role": "defensive / utility",
+     "tier": "pu",
+     "item": "ITEM_LEFTOVERS",
+     "ability": "ABILITY_SERENE_GRACE",
+     "nature": "NATURE_BOLD",
+     "evs": {
+      "hp": 252,
+      "atk": 0,
+      "def": 160,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 92
+     },
+     "moves": [
+      "MOVE_THUNDER_WAVE",
+      "MOVE_SOFT_BOILED",
+      "MOVE_PSYCHIC",
+      "MOVE_HIDDEN_POWER"
+     ],
+     "source": "Smogon data.pkmn.cc (gen3 pu)",
+     "notes": "Psychic/Seismic Toss/Baton Pass; Hidden Power Grass/Baton Pass/Flamethrower/Seismic Toss; HP Grass",
+     "ivs": {
+      "hp": 31,
+      "atk": 30,
+      "def": 31,
+      "speed": 31,
+      "spatk": 30,
+      "spdef": 31
+     }
+    },
+    {
+     "name": "Special Attacker",
+     "role": "attacker",
+     "tier": "ou",
+     "item": "ITEM_LEFTOVERS",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_SERIOUS",
+     "evs": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 0,
+      "speed": 0
+     },
+     "moves": [
+      "MOVE_CHARM",
+      "MOVE_FIRE_BLAST",
+      "MOVE_SAFEGUARD",
+      "MOVE_PSYCHIC"
+     ],
+     "source": "Smogon data.pkmn.cc (gen2 ou)",
+     "notes": "Charm/Encore"
+    },
+    {
+     "name": "SunnyBeam",
+     "role": "attacker",
+     "tier": "ou",
+     "item": "ITEM_LEFTOVERS",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_SERIOUS",
+     "evs": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 0,
+      "speed": 0
+     },
+     "moves": [
+      "MOVE_SUNNY_DAY",
+      "MOVE_SOLAR_BEAM",
+      "MOVE_FIRE_BLAST",
+      "MOVE_ENCORE"
+     ],
+     "source": "Smogon data.pkmn.cc (gen2 ou)",
+     "notes": "Encore/Safeguard"
+    },
+    {
+     "name": "Curse",
+     "role": "setup sweeper",
+     "tier": "ou",
+     "item": "ITEM_LEFTOVERS",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_SERIOUS",
+     "evs": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 0,
+      "speed": 0
+     },
+     "moves": [
+      "MOVE_CURSE",
+      "MOVE_HIDDEN_POWER",
+      "MOVE_RETURN",
+      "MOVE_REST"
+     ],
+     "source": "Smogon data.pkmn.cc (gen2 ou)",
+     "notes": "HP Flying",
+     "ivs": {
+      "hp": 31,
+      "atk": 31,
+      "def": 31,
+      "speed": 30,
+      "spatk": 30,
+      "spdef": 30
+     }
+    },
+    {
+     "name": "Emerald Kaizo set (Lv.43)",
+     "role": "defensive / utility",
+     "tier": "emerald-kaizo",
+     "item": "ITEM_LEFTOVERS",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_ADAMANT",
+     "evs": {
+      "hp": 252,
+      "atk": 0,
+      "def": 128,
+      "spatk": 0,
+      "spdef": 128,
+      "speed": 0
+     },
+     "moves": [
+      "MOVE_FLY",
+      "MOVE_SOFT_BOILED",
+      "MOVE_THUNDER_WAVE",
+      "MOVE_SEISMIC_TOSS"
+     ],
+     "source": "Emerald Kaizo",
+     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
+    }
+   ]
+  },
+  {
+   "species": "SPECIES_GOLBAT",
+   "displayName": "Golbat",
+   "tier": "eviolite-nfe",
+   "sets": [
+    {
+     "name": "Stallbreaker",
+     "role": "wallbreaker",
+     "tier": "uu",
+     "item": "ITEM_LEFTOVERS",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_JOLLY",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 4,
+      "spatk": 0,
+      "spdef": 0,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_TAUNT",
+      "MOVE_BRAVE_BIRD",
+      "MOVE_ROOST",
+      "MOVE_U_TURN"
+     ],
+     "source": "Smogon data.pkmn.cc (gen4 uu)",
+     "notes": ""
+    },
+    {
+     "name": "Nasty Plot",
+     "role": "setup sweeper",
+     "tier": "uu",
+     "item": "ITEM_LIFE_ORB",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_TIMID",
+     "evs": {
+      "hp": 0,
+      "atk": 0,
+      "def": 4,
+      "spatk": 252,
+      "spdef": 0,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_NASTY_PLOT",
+      "MOVE_SLUDGE_BOMB",
+      "MOVE_HEAT_WAVE",
+      "MOVE_HIDDEN_POWER"
+     ],
+     "source": "Smogon data.pkmn.cc (gen4 uu)",
+     "notes": "Hidden Power Grass/Air Slash/Roost; HP Grass",
+     "ivs": {
+      "hp": 31,
+      "atk": 30,
+      "def": 31,
+      "speed": 31,
+      "spatk": 30,
+      "spdef": 31
+     }
+    },
+    {
+     "name": "Nasty Plot",
+     "role": "setup sweeper",
+     "tier": "pu",
+     "item": "ITEM_BLACK_SLUDGE",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_TIMID",
+     "evs": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "spatk": 252,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_SLUDGE_BOMB",
+      "MOVE_NASTY_PLOT",
+      "MOVE_GIGA_DRAIN",
+      "MOVE_ROOST"
+     ],
+     "source": "Smogon data.pkmn.cc (gen4 pu)",
+     "notes": "Sludge Bomb/Air Slash; Giga Drain/Heat Wave"
+    },
+    {
+     "name": "Choice Band",
+     "role": "choice wallbreaker",
+     "tier": "ru",
+     "item": "ITEM_CHOICE_BAND",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_JOLLY",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 4,
+      "spatk": 0,
+      "spdef": 0,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_SLUDGE_BOMB",
+      "MOVE_AERIAL_ACE",
+      "MOVE_HIDDEN_POWER",
+      "MOVE_QUICK_ATTACK"
+     ],
+     "source": "Smogon data.pkmn.cc (gen3 ru)",
+     "notes": "HP Ground; Quick Attack/Giga Drain",
+     "ivs": {
+      "hp": 31,
+      "atk": 31,
+      "def": 31,
+      "speed": 31,
+      "spatk": 30,
+      "spdef": 30
+     }
+    },
+    {
+     "name": "Choice Band",
+     "role": "choice wallbreaker",
+     "tier": "nu",
+     "item": "ITEM_CHOICE_BAND",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_NAIVE",
+     "evs": {
+      "hp": 4,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 0,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_SLUDGE_BOMB",
+      "MOVE_AERIAL_ACE",
+      "MOVE_HIDDEN_POWER",
+      "MOVE_GIGA_DRAIN"
+     ],
+     "source": "Smogon data.pkmn.cc (gen3 nu)",
+     "notes": "HP Ground",
+     "ivs": {
+      "hp": 31,
+      "atk": 31,
+      "def": 31,
+      "speed": 31,
+      "spatk": 30,
+      "spdef": 30
+     }
+    },
+    {
+     "name": "Bulky Leftovers",
+     "role": "defensive / utility",
+     "tier": "nu",
+     "item": "ITEM_LEFTOVERS",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_TIMID",
+     "evs": {
+      "hp": 252,
+      "atk": 112,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 0,
+      "speed": 144
+     },
+     "moves": [
+      "MOVE_SLUDGE_BOMB",
+      "MOVE_AERIAL_ACE",
+      "MOVE_HIDDEN_POWER",
+      "MOVE_TOXIC"
+     ],
+     "source": "Smogon data.pkmn.cc (gen3 nu)",
+     "notes": "Hidden Power Ground/Protect; HP Ground; Toxic/Whirlwind",
+     "ivs": {
+      "hp": 31,
+      "atk": 31,
+      "def": 31,
+      "speed": 31,
+      "spatk": 30,
+      "spdef": 30
+     }
+    },
+    {
+     "name": "Utility",
+     "role": "defensive / utility",
+     "tier": "pu",
+     "item": "ITEM_LEFTOVERS",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_SERIOUS",
+     "evs": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 0,
+      "speed": 0
+     },
+     "moves": [
+      "MOVE_WING_ATTACK",
+      "MOVE_TOXIC",
+      "MOVE_WHIRLWIND",
+      "MOVE_PROTECT"
+     ],
+     "source": "Smogon data.pkmn.cc (gen2 pu)",
+     "notes": "Protect/Hidden Power Ground"
+    },
+    {
+     "name": "Offensive",
+     "role": "attacker",
+     "tier": "pu",
+     "item": "ITEM_LEFTOVERS",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_SERIOUS",
+     "evs": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 0,
+      "speed": 0
+     },
+     "moves": [
+      "MOVE_WING_ATTACK",
+      "MOVE_HIDDEN_POWER",
+      "MOVE_GIGA_DRAIN",
+      "MOVE_SCREECH"
+     ],
+     "source": "Smogon data.pkmn.cc (gen2 pu)",
+     "notes": "HP Ground; Screech/Protect/Whirlwind/Thief",
+     "ivs": {
+      "hp": 31,
+      "atk": 31,
+      "def": 31,
+      "speed": 31,
+      "spatk": 30,
+      "spdef": 30
+     }
+    },
+    {
+     "name": "Emerald Kaizo set (Lv.36)",
+     "role": "attacker",
+     "tier": "emerald-kaizo",
+     "item": "ITEM_NONE",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_MILD",
+     "evs": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "spatk": 252,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_SLUDGE_BOMB",
+      "MOVE_AERIAL_ACE",
+      "MOVE_SHADOW_BALL"
+     ],
+     "source": "Emerald Kaizo",
+     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
+    },
+    {
+     "name": "Emerald Kaizo set (Lv.27)",
+     "role": "attacker",
+     "tier": "emerald-kaizo",
+     "item": "ITEM_SCOPE_LENS",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_LAX",
+     "evs": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "spatk": 252,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_HYPNOSIS",
+      "MOVE_HEAT_WAVE",
+      "MOVE_GIGA_DRAIN",
+      "MOVE_SHADOW_BALL"
+     ],
+     "source": "Emerald Kaizo",
+     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
+    },
+    {
+     "name": "Emerald Kaizo set (Lv.23)",
+     "role": "attacker",
+     "tier": "emerald-kaizo",
+     "item": "ITEM_CHERI_BERRY",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_MILD",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_CONFUSE_RAY",
+      "MOVE_AERIAL_ACE",
+      "MOVE_SLUDGE_BOMB",
+      "MOVE_SUPER_FANG"
+     ],
+     "source": "Emerald Kaizo",
+     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
+    }
+   ]
+  },
+  {
+   "species": "SPECIES_HAUNTER",
+   "displayName": "Haunter",
+   "tier": "eviolite-nfe",
+   "sets": [
+    {
+     "name": "Substitute + 3 Attacks",
+     "role": "sub attacker",
+     "tier": "pu",
+     "item": "ITEM_LIFE_ORB",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_TIMID",
+     "evs": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "spatk": 252,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_SUBSTITUTE",
+      "MOVE_SHADOW_BALL",
+      "MOVE_SLUDGE_BOMB",
+      "MOVE_WILL_O_WISP"
+     ],
+     "source": "Smogon data.pkmn.cc (gen8 pu)",
+     "notes": "Will-O-Wisp/Energy Ball/Disable"
+    },
+    {
+     "name": "Choice Scarf",
+     "role": "choice revenge killer",
+     "tier": "pu",
+     "item": "ITEM_CHOICE_SCARF",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_TIMID",
+     "evs": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "spatk": 252,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_SHADOW_BALL",
+      "MOVE_SLUDGE_BOMB",
+      "MOVE_DAZZLING_GLEAM",
+      "MOVE_TRICK"
+     ],
+     "source": "Smogon data.pkmn.cc (gen8 pu)",
+     "notes": "Dazzling Gleam/Energy Ball"
+    },
+    {
+     "name": "Life Orb",
+     "role": "attacker",
+     "tier": "pu",
+     "item": "ITEM_LIFE_ORB",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_TIMID",
+     "evs": {
+      "hp": 0,
+      "atk": 0,
+      "def": 4,
+      "spatk": 252,
+      "spdef": 0,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_SHADOW_BALL",
+      "MOVE_SLUDGE_BOMB",
+      "MOVE_DAZZLING_GLEAM",
+      "MOVE_DESTINY_BOND"
+     ],
+     "source": "Smogon data.pkmn.cc (gen7 pu)",
+     "notes": "Dazzling Gleam/Hidden Power Ground; Destiny Bond/Substitute"
+    },
+    {
+     "name": "Choice Scarf",
+     "role": "choice revenge killer",
+     "tier": "pu",
+     "item": "ITEM_CHOICE_SCARF",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_TIMID",
+     "evs": {
+      "hp": 0,
+      "atk": 0,
+      "def": 4,
+      "spatk": 252,
+      "spdef": 0,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_SHADOW_BALL",
+      "MOVE_SLUDGE_WAVE",
+      "MOVE_DESTINY_BOND",
+      "MOVE_TRICK"
+     ],
+     "source": "Smogon data.pkmn.cc (gen7 pu)",
+     "notes": "Trick/Will-O-Wisp"
+    },
+    {
+     "name": "Life Orb Attacker",
+     "role": "attacker",
+     "tier": "nu",
+     "item": "ITEM_LIFE_ORB",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_TIMID",
+     "evs": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "spatk": 252,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_SLUDGE_BOMB",
+      "MOVE_SHADOW_BALL",
+      "MOVE_WILL_O_WISP",
+      "MOVE_DESTINY_BOND"
+     ],
+     "source": "Smogon data.pkmn.cc (gen6 nu)",
+     "notes": "Shadow Ball/Hex; Destiny Bond/Reflect Type"
+    },
+    {
+     "name": "SubSplit",
+     "role": "sub attacker",
+     "tier": "nu",
+     "item": "ITEM_LIFE_ORB",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_TIMID",
+     "evs": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "spatk": 252,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_SHADOW_BALL",
+      "MOVE_SLUDGE_BOMB",
+      "MOVE_SUBSTITUTE",
+      "MOVE_PAIN_SPLIT"
+     ],
+     "source": "Smogon data.pkmn.cc (gen6 nu)",
+     "notes": ""
+    },
+    {
+     "name": "Choice Scarf",
+     "role": "choice revenge killer",
+     "tier": "nu",
+     "item": "ITEM_CHOICE_SCARF",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_TIMID",
+     "evs": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "spatk": 252,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_SLUDGE_BOMB",
+      "MOVE_SHADOW_BALL",
+      "MOVE_TRICK",
+      "MOVE_DESTINY_BOND"
+     ],
+     "source": "Smogon data.pkmn.cc (gen6 nu)",
+     "notes": ""
+    },
+    {
+     "name": "Life Orb",
+     "role": "attacker",
+     "tier": "ru",
+     "item": "ITEM_LIFE_ORB",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_TIMID",
+     "evs": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "spatk": 252,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_SHADOW_BALL",
+      "MOVE_SLUDGE_BOMB",
+      "MOVE_HIDDEN_POWER",
+      "MOVE_SUBSTITUTE"
+     ],
+     "source": "Smogon data.pkmn.cc (gen5 ru)",
+     "notes": "Hidden Power Fire/Hidden Power Ground; HP Fire; Substitute/Destiny Bond",
+     "ivs": {
+      "hp": 31,
+      "atk": 30,
+      "def": 31,
+      "speed": 30,
+      "spatk": 30,
+      "spdef": 31
+     }
+    },
+    {
+     "name": "SubDisable",
+     "role": "sub attacker",
+     "tier": "ru",
+     "item": "ITEM_BLACK_SLUDGE",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_TIMID",
+     "evs": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "spatk": 252,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_SUBSTITUTE",
+      "MOVE_DISABLE",
+      "MOVE_SHADOW_BALL",
+      "MOVE_SLUDGE_BOMB"
+     ],
+     "source": "Smogon data.pkmn.cc (gen5 ru)",
+     "notes": "Sludge Bomb/Hidden Power Fire"
+    },
+    {
+     "name": "Choice Scarf",
+     "role": "choice revenge killer",
+     "tier": "ru",
+     "item": "ITEM_CHOICE_SCARF",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_TIMID",
+     "evs": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "spatk": 252,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_SHADOW_BALL",
+      "MOVE_SLUDGE_BOMB",
+      "MOVE_DESTINY_BOND",
+      "MOVE_HIDDEN_POWER"
+     ],
+     "source": "Smogon data.pkmn.cc (gen5 ru)",
+     "notes": "Hidden Power Ground/Trick; HP Ground",
+     "ivs": {
+      "hp": 30,
+      "atk": 30,
+      "def": 30,
+      "speed": 30,
+      "spatk": 31,
+      "spdef": 30
+     }
+    },
+    {
+     "name": "Emerald Kaizo set (Lv.26)",
+     "role": "attacker",
+     "tier": "emerald-kaizo",
+     "item": "ITEM_SCOPE_LENS",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_NAIVE",
+     "evs": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "spatk": 252,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_HYPNOSIS",
+      "MOVE_SHADOW_BALL",
+      "MOVE_GIGA_DRAIN",
+      "MOVE_THUNDERBOLT"
+     ],
+     "source": "Emerald Kaizo",
+     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
+    }
+   ]
+  },
+  {
+   "species": "SPECIES_PUPITAR",
+   "displayName": "Pupitar",
+   "tier": "eviolite-nfe",
+   "sets": [
+    {
+     "name": "Dragon Dance",
+     "role": "setup sweeper",
+     "tier": "ru",
+     "item": "ITEM_LEFTOVERS",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_JOLLY",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 4,
+      "spatk": 0,
+      "spdef": 0,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_DRAGON_DANCE",
+      "MOVE_EARTHQUAKE",
+      "MOVE_ROCK_SLIDE",
+      "MOVE_HIDDEN_POWER"
+     ],
+     "source": "Smogon data.pkmn.cc (gen3 ru)",
+     "notes": "Hidden Power Bug/Substitute/Endure/Protect; HP Bug",
+     "ivs": {
+      "hp": 31,
+      "atk": 31,
+      "def": 31,
+      "speed": 30,
+      "spatk": 31,
+      "spdef": 30
+     }
+    },
+    {
+     "name": "Magistr (Standard)",
+     "role": "attacker",
+     "tier": "nu",
+     "item": "ITEM_LEFTOVERS",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_SERIOUS",
+     "evs": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 0,
+      "speed": 0
+     },
+     "moves": [
+      "MOVE_EARTHQUAKE",
+      "MOVE_ROCK_SLIDE",
+      "MOVE_ANCIENT_POWER",
+      "MOVE_SCREECH"
+     ],
+     "source": "Smogon data.pkmn.cc (gen2 nu)",
+     "notes": ""
+    }
+   ]
+  },
+  {
+   "species": "SPECIES_METANG",
+   "displayName": "Metang",
+   "tier": "eviolite-nfe",
+   "sets": [
+    {
+     "name": "Offensive Stealth Rock",
+     "role": "hazard lead",
+     "tier": "middlecup",
+     "item": "ITEM_LEFTOVERS",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_ADAMANT",
+     "evs": {
+      "hp": 252,
+      "atk": 252,
+      "def": 4,
+      "spatk": 0,
+      "spdef": 0,
+      "speed": 0
+     },
+     "moves": [
+      "MOVE_STEALTH_ROCK",
+      "MOVE_METEOR_MASH",
+      "MOVE_EARTHQUAKE",
+      "MOVE_ZEN_HEADBUTT"
+     ],
+     "source": "Smogon data.pkmn.cc (gen6 middlecup)",
+     "notes": "Zen Headbutt/Bullet Punch"
+    },
+    {
+     "name": "Dual Screens",
+     "role": "attacker",
+     "tier": "uu",
+     "item": "ITEM_LIGHT_CLAY",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_CAREFUL",
+     "evs": {
+      "hp": 252,
+      "atk": 0,
+      "def": 48,
+      "spatk": 0,
+      "spdef": 208,
+      "speed": 0
+     },
+     "moves": [
+      "MOVE_LIGHT_SCREEN",
+      "MOVE_REFLECT",
+      "MOVE_STEALTH_ROCK",
+      "MOVE_EXPLOSION"
+     ],
+     "source": "Smogon data.pkmn.cc (gen4 uu)",
+     "notes": "Stealth Rock/Meteor Mash"
+    },
+    {
+     "name": "Defensive",
+     "role": "defensive / utility",
+     "tier": "ru",
+     "item": "ITEM_LEFTOVERS",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_RELAXED",
+     "evs": {
+      "hp": 252,
+      "atk": 0,
+      "def": 60,
+      "spatk": 0,
+      "spdef": 196,
+      "speed": 0
+     },
+     "moves": [
+      "MOVE_EARTHQUAKE",
+      "MOVE_PSYCHIC",
+      "MOVE_TOXIC",
+      "MOVE_PROTECT"
+     ],
+     "source": "Smogon data.pkmn.cc (gen3 ru)",
+     "notes": "Protect/Explosion"
+    },
+    {
+     "name": "Special Attacker",
+     "role": "attacker",
+     "tier": "ru",
+     "item": "ITEM_LEFTOVERS",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_QUIET",
+     "evs": {
+      "hp": 252,
+      "atk": 0,
+      "def": 32,
+      "spatk": 216,
+      "spdef": 8,
+      "speed": 0
+     },
+     "moves": [
+      "MOVE_PSYCHIC",
+      "MOVE_THUNDER_PUNCH",
+      "MOVE_EARTHQUAKE",
+      "MOVE_TOXIC"
+     ],
+     "source": "Smogon data.pkmn.cc (gen3 ru)",
+     "notes": "Earthquake/Hidden Power Fire; Toxic/Explosion/Pursuit"
+    },
+    {
+     "name": "Defensive",
+     "role": "defensive / utility",
+     "tier": "nu",
+     "item": "ITEM_LEFTOVERS",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_IMPISH",
+     "evs": {
+      "hp": 252,
+      "atk": 0,
+      "def": 28,
+      "spatk": 0,
+      "spdef": 228,
+      "speed": 0
+     },
+     "moves": [
+      "MOVE_METEOR_MASH",
+      "MOVE_EARTHQUAKE",
+      "MOVE_TOXIC",
+      "MOVE_PROTECT"
+     ],
+     "source": "Smogon data.pkmn.cc (gen3 nu)",
+     "notes": "Protect/Explosion"
+    },
+    {
+     "name": "Offensive",
+     "role": "attacker",
+     "tier": "nu",
+     "item": "ITEM_LEFTOVERS",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_ADAMANT",
+     "evs": {
+      "hp": 132,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 0,
+      "speed": 124
+     },
+     "moves": [
+      "MOVE_METEOR_MASH",
+      "MOVE_EARTHQUAKE",
+      "MOVE_EXPLOSION",
+      "MOVE_AGILITY"
+     ],
+     "source": "Smogon data.pkmn.cc (gen3 nu)",
+     "notes": "Agility/Protect/Toxic"
+    },
+    {
+     "name": "Choice Band",
+     "role": "choice wallbreaker",
+     "tier": "nu",
+     "item": "ITEM_CHOICE_BAND",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_ADAMANT",
+     "evs": {
+      "hp": 4,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 0,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_METEOR_MASH",
+      "MOVE_EARTHQUAKE",
+      "MOVE_EXPLOSION",
+      "MOVE_SLEEP_TALK"
+     ],
+     "source": "Smogon data.pkmn.cc (gen3 nu)",
+     "notes": "Sleep Talk/Toxic"
+    },
+    {
+     "name": "Emerald Kaizo set (Lv.35)",
+     "role": "attacker",
+     "tier": "emerald-kaizo",
+     "item": "ITEM_LUM_BERRY",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_JOLLY",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_EARTHQUAKE",
+      "MOVE_ICE_PUNCH",
+      "MOVE_EXPLOSION",
+      "MOVE_ROCK_SLIDE"
+     ],
+     "source": "Emerald Kaizo",
+     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
+    }
+   ]
+  },
+  {
+   "species": "SPECIES_SHELGON",
+   "displayName": "Shelgon",
+   "tier": "eviolite-nfe",
+   "sets": [
+    {
+     "name": "Dragon Dance",
+     "role": "setup sweeper",
+     "tier": "uu",
+     "item": "ITEM_LIFE_ORB",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_ADAMANT",
+     "evs": {
+      "hp": 28,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 0,
+      "speed": 228
+     },
+     "moves": [
+      "MOVE_DRAGON_DANCE",
+      "MOVE_OUTRAGE",
+      "MOVE_BRICK_BREAK",
+      "MOVE_DRAGON_CLAW"
+     ],
+     "source": "Smogon data.pkmn.cc (gen4 uu)",
+     "notes": ""
+    },
+    {
+     "name": "Dragon Dance",
+     "role": "setup sweeper",
+     "tier": "nu",
+     "item": "ITEM_LEFTOVERS",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_JOLLY",
+     "evs": {
+      "hp": 4,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 0,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_DRAGON_DANCE",
+      "MOVE_DOUBLE_EDGE",
+      "MOVE_ROCK_SLIDE",
+      "MOVE_BRICK_BREAK"
+     ],
+     "source": "Smogon data.pkmn.cc (gen3 nu)",
+     "notes": "Brick Break/Hidden Power Ground"
+    },
+    {
+     "name": "Physically Defensive",
+     "role": "defensive / utility",
+     "tier": "nu",
+     "item": "ITEM_LEFTOVERS",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_IMPISH",
+     "evs": {
+      "hp": 252,
+      "atk": 0,
+      "def": 252,
+      "spatk": 0,
+      "spdef": 0,
+      "speed": 4
+     },
+     "moves": [
+      "MOVE_WISH",
+      "MOVE_TOXIC",
+      "MOVE_PROTECT",
+      "MOVE_BODY_SLAM"
+     ],
+     "source": "Smogon data.pkmn.cc (gen3 nu)",
+     "notes": "Protect/Roar; Body Slam/Dragon Claw"
+    },
+    {
+     "name": "Bulky Wish Support",
+     "role": "defensive / utility",
+     "tier": "pu",
+     "item": "ITEM_LEFTOVERS",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_IMPISH",
+     "evs": {
+      "hp": 252,
+      "atk": 4,
+      "def": 252,
+      "spatk": 0,
+      "spdef": 0,
+      "speed": 0
+     },
+     "moves": [
+      "MOVE_WISH",
+      "MOVE_PROTECT",
+      "MOVE_ROAR",
+      "MOVE_BODY_SLAM"
+     ],
+     "source": "Smogon data.pkmn.cc (gen3 pu)",
+     "notes": ""
+    },
+    {
+     "name": "Dragon Dance",
+     "role": "setup sweeper",
+     "tier": "pu",
+     "item": "ITEM_LEFTOVERS",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_JOLLY",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_DRAGON_DANCE",
+      "MOVE_DOUBLE_EDGE",
+      "MOVE_BRICK_BREAK",
+      "MOVE_HIDDEN_POWER"
+     ],
+     "source": "Smogon data.pkmn.cc (gen3 pu)",
+     "notes": "HP Ghost",
+     "ivs": {
+      "hp": 31,
+      "atk": 31,
+      "def": 30,
+      "speed": 31,
+      "spatk": 31,
+      "spdef": 30
+     }
+    },
+    {
+     "name": "Run & Bun set (Lv.45)",
+     "role": "setup sweeper",
+     "tier": "run-and-bun",
+     "item": "ITEM_EVIOLITE",
+     "ability": "ABILITY_OVERCOAT",
+     "nature": "NATURE_CAREFUL",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_DRAGON_RUSH",
+      "MOVE_BRICK_BREAK",
+      "MOVE_FACADE",
+      "MOVE_DRAGON_DANCE"
+     ],
+     "source": "Run & Bun",
+     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
+    },
+    {
+     "name": "Emerald Kaizo set (Lv.27)",
+     "role": "attacker",
+     "tier": "emerald-kaizo",
+     "item": "ITEM_SHELL_BELL",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_HASTY",
+     "evs": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "spatk": 252,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_DRAGONBREATH",
+      "MOVE_FLAMETHROWER",
+      "MOVE_DRAGON_RAGE",
+      "MOVE_BODY_SLAM"
+     ],
+     "source": "Emerald Kaizo",
+     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
+    }
+   ]
+  },
+  {
+   "species": "SPECIES_FRAXURE",
+   "displayName": "Fraxure",
+   "tier": "eviolite-nfe",
+   "sets": [
+    {
+     "name": "Choice Band",
+     "role": "choice wallbreaker",
+     "tier": "nu",
+     "item": "ITEM_CHOICE_BAND",
+     "ability": "ABILITY_MOLD_BREAKER",
+     "nature": "NATURE_ADAMANT",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 4,
+      "spatk": 0,
+      "spdef": 0,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_OUTRAGE",
+      "MOVE_SUPERPOWER",
+      "MOVE_IRON_TAIL",
+      "MOVE_DRAGON_CLAW"
+     ],
+     "source": "Smogon data.pkmn.cc (gen6 nu)",
+     "notes": ""
+    },
+    {
+     "name": "Dragon Dance",
+     "role": "setup sweeper",
+     "tier": "middlecup",
+     "item": "ITEM_LUM_BERRY",
+     "ability": "ABILITY_MOLD_BREAKER",
+     "nature": "NATURE_JOLLY",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_DRAGON_DANCE",
+      "MOVE_OUTRAGE",
+      "MOVE_POISON_JAB",
+      "MOVE_AQUA_TAIL"
+     ],
+     "source": "Smogon data.pkmn.cc (gen6 middlecup)",
+     "notes": "Outrage/Dragon Claw"
+    },
+    {
+     "name": "Swords Dance",
+     "role": "setup sweeper",
+     "tier": "middlecup",
+     "item": "ITEM_LUM_BERRY",
+     "ability": "ABILITY_MOLD_BREAKER",
+     "nature": "NATURE_JOLLY",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_SWORDS_DANCE",
+      "MOVE_OUTRAGE",
+      "MOVE_POISON_JAB",
+      "MOVE_AQUA_TAIL"
+     ],
+     "source": "Smogon data.pkmn.cc (gen6 middlecup)",
+     "notes": ""
+    },
+    {
+     "name": "Choice Scarf",
+     "role": "choice revenge killer",
+     "tier": "middlecup",
+     "item": "ITEM_CHOICE_SCARF",
+     "ability": "ABILITY_MOLD_BREAKER",
+     "nature": "NATURE_JOLLY",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_OUTRAGE",
+      "MOVE_POISON_JAB",
+      "MOVE_AQUA_TAIL",
+      "MOVE_SUPERPOWER"
+     ],
+     "source": "Smogon data.pkmn.cc (gen6 middlecup)",
+     "notes": ""
+    },
+    {
+     "name": "Choice Band",
+     "role": "choice wallbreaker",
+     "tier": "nu",
+     "item": "ITEM_CHOICE_BAND",
+     "ability": "ABILITY_MOLD_BREAKER",
+     "nature": "NATURE_ADAMANT",
+     "evs": {
+      "hp": 4,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 0,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_OUTRAGE",
+      "MOVE_SUPERPOWER",
+      "MOVE_AQUA_TAIL",
+      "MOVE_DRAGON_CLAW"
+     ],
+     "source": "Smogon data.pkmn.cc (gen5 nu)",
+     "notes": ""
+    }
+   ]
+  },
+  {
+   "species": "SPECIES_KADABRA",
+   "displayName": "Kadabra",
+   "tier": "eviolite-nfe",
+   "sets": [
+    {
+     "name": "Focus Sash Revenge Killer",
+     "role": "attacker",
+     "tier": "pu",
+     "item": "ITEM_FOCUS_SASH",
+     "ability": "ABILITY_MAGIC_GUARD",
+     "nature": "NATURE_TIMID",
+     "evs": {
+      "hp": 4,
+      "atk": 0,
+      "def": 0,
+      "spatk": 252,
+      "spdef": 0,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_PSYCHIC",
+      "MOVE_COUNTER",
+      "MOVE_TAUNT",
+      "MOVE_DAZZLING_GLEAM"
+     ],
+     "source": "Smogon data.pkmn.cc (gen7 pu)",
+     "notes": "Taunt/Shadow Ball/Thunder Wave"
+    },
+    {
+     "name": "Revenge Killer",
+     "role": "attacker",
+     "tier": "nu",
+     "item": "ITEM_FOCUS_SASH",
+     "ability": "ABILITY_MAGIC_GUARD",
+     "nature": "NATURE_TIMID",
+     "evs": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "spatk": 252,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_PSYCHIC",
+      "MOVE_SIGNAL_BEAM",
+      "MOVE_HIDDEN_POWER",
+      "MOVE_THUNDER_WAVE"
+     ],
+     "source": "Smogon data.pkmn.cc (gen6 nu)",
+     "notes": "Psychic/Psyshock; Hidden Power Ground/Energy Ball; HP Ground; Thunder Wave/Encore",
+     "ivs": {
+      "hp": 30,
+      "atk": 30,
+      "def": 30,
+      "speed": 30,
+      "spatk": 31,
+      "spdef": 30
+     }
+    },
+    {
+     "name": "Revenge Killer",
+     "role": "attacker",
+     "tier": "pu",
+     "item": "ITEM_FOCUS_SASH",
+     "ability": "ABILITY_MAGIC_GUARD",
+     "nature": "NATURE_TIMID",
+     "evs": {
+      "hp": 4,
+      "atk": 0,
+      "def": 0,
+      "spatk": 252,
+      "spdef": 0,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_PSYCHIC",
+      "MOVE_THUNDER_WAVE",
+      "MOVE_SHADOW_BALL",
+      "MOVE_HIDDEN_POWER"
+     ],
+     "source": "Smogon data.pkmn.cc (gen6 pu)",
+     "notes": "Shadow Ball/Signal Beam; Hidden Power Fighting/Encore; HP Fighting",
+     "ivs": {
+      "hp": 31,
+      "atk": 30,
+      "def": 30,
+      "speed": 30,
+      "spatk": 30,
+      "spdef": 30
+     }
+    },
+    {
+     "name": "Life Orb",
+     "role": "attacker",
+     "tier": "pu",
+     "item": "ITEM_LIFE_ORB",
+     "ability": "ABILITY_MAGIC_GUARD",
+     "nature": "NATURE_TIMID",
+     "evs": {
+      "hp": 4,
+      "atk": 0,
+      "def": 0,
+      "spatk": 252,
+      "spdef": 0,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_PSYSHOCK",
+      "MOVE_SHADOW_BALL",
+      "MOVE_HIDDEN_POWER",
+      "MOVE_TAUNT"
+     ],
+     "source": "Smogon data.pkmn.cc (gen6 pu)",
+     "notes": "HP Fighting; Taunt/Substitute",
+     "ivs": {
+      "hp": 31,
+      "atk": 30,
+      "def": 30,
+      "speed": 30,
+      "spatk": 30,
+      "spdef": 30
+     }
+    },
+    {
+     "name": "Special Attacker",
+     "role": "attacker",
+     "tier": "ru",
+     "item": "ITEM_FOCUS_SASH",
+     "ability": "ABILITY_MAGIC_GUARD",
+     "nature": "NATURE_MODEST",
+     "evs": {
+      "hp": 4,
+      "atk": 0,
+      "def": 0,
+      "spatk": 252,
+      "spdef": 0,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_PSYCHIC",
+      "MOVE_SHADOW_BALL",
+      "MOVE_HIDDEN_POWER",
+      "MOVE_ENCORE"
+     ],
+     "source": "Smogon data.pkmn.cc (gen5 ru)",
+     "notes": "Psychic/Psyshock; HP Fire",
+     "ivs": {
+      "hp": 31,
+      "atk": 30,
+      "def": 31,
+      "speed": 30,
+      "spatk": 30,
+      "spdef": 31
+     }
+    },
+    {
+     "name": "Special Attacker",
+     "role": "attacker",
+     "tier": "nu",
+     "item": "ITEM_FOCUS_SASH",
+     "ability": "ABILITY_MAGIC_GUARD",
+     "nature": "NATURE_TIMID",
+     "evs": {
+      "hp": 4,
+      "atk": 0,
+      "def": 0,
+      "spatk": 252,
+      "spdef": 0,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_PSYCHIC",
+      "MOVE_SIGNAL_BEAM",
+      "MOVE_HIDDEN_POWER",
+      "MOVE_ENCORE"
+     ],
+     "source": "Smogon data.pkmn.cc (gen5 nu)",
+     "notes": "HP Ground; Encore/Substitute",
+     "ivs": {
+      "hp": 30,
+      "atk": 30,
+      "def": 30,
+      "speed": 30,
+      "spatk": 31,
+      "spdef": 30
+     }
+    },
+    {
+     "name": "Life Orb",
+     "role": "attacker",
+     "tier": "pu",
+     "item": "ITEM_LIFE_ORB",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_TIMID",
+     "evs": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "spatk": 252,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_SUBSTITUTE",
+      "MOVE_PSYCHIC",
+      "MOVE_SHADOW_BALL",
+      "MOVE_HIDDEN_POWER"
+     ],
+     "source": "Smogon data.pkmn.cc (gen4 pu)",
+     "notes": "Substitute/Encore/Calm Mind; HP Ground",
+     "ivs": {
+      "hp": 30,
+      "atk": 30,
+      "def": 30,
+      "speed": 30,
+      "spatk": 31,
+      "spdef": 30
+     }
+    },
+    {
+     "name": "Choice Scarf",
+     "role": "choice revenge killer",
+     "tier": "pu",
+     "item": "ITEM_CHOICE_SCARF",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_TIMID",
+     "evs": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "spatk": 252,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_PSYCHIC",
+      "MOVE_SHADOW_BALL",
+      "MOVE_HIDDEN_POWER",
+      "MOVE_TRICK"
+     ],
+     "source": "Smogon data.pkmn.cc (gen4 pu)",
+     "notes": "HP Electric",
+     "ivs": {
+      "hp": 31,
+      "atk": 30,
+      "def": 30,
+      "speed": 30,
+      "spatk": 31,
+      "spdef": 31
+     }
+    },
+    {
+     "name": "Lead",
+     "role": "hazard lead",
+     "tier": "pu",
+     "item": "ITEM_FOCUS_SASH",
+     "ability": "ABILITY_INNER_FOCUS",
+     "nature": "NATURE_TIMID",
+     "evs": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "spatk": 252,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_TAUNT",
+      "MOVE_PSYCHIC",
+      "MOVE_HIDDEN_POWER",
+      "MOVE_COUNTER"
+     ],
+     "source": "Smogon data.pkmn.cc (gen4 pu)",
+     "notes": "HP Ground; Counter/Shadow Ball",
+     "ivs": {
+      "hp": 31,
+      "atk": 31,
+      "def": 31,
+      "speed": 31,
+      "spatk": 30,
+      "spdef": 30
+     }
+    },
+    {
+     "name": "Emerald Kaizo set (Lv.26)",
+     "role": "attacker",
+     "tier": "emerald-kaizo",
+     "item": "ITEM_LUM_BERRY",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_JOLLY",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_PSYCHIC",
+      "MOVE_FIRE_PUNCH",
+      "MOVE_THUNDERPUNCH",
+      "MOVE_ICE_PUNCH"
+     ],
+     "source": "Emerald Kaizo",
+     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
+    }
+   ]
+  },
+  {
+   "species": "SPECIES_DRAGONAIR",
+   "displayName": "Dragonair",
+   "tier": "eviolite-nfe",
+   "sets": [
+    {
+     "name": "Dragon Dance",
+     "role": "setup sweeper",
+     "tier": "uu",
+     "item": "ITEM_LIFE_ORB",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_ADAMANT",
+     "evs": {
+      "hp": 52,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 0,
+      "speed": 204
+     },
+     "moves": [
+      "MOVE_DRAGON_DANCE",
+      "MOVE_EXTREME_SPEED",
+      "MOVE_OUTRAGE",
+      "MOVE_AQUA_TAIL"
+     ],
+     "source": "Smogon data.pkmn.cc (gen4 uu)",
+     "notes": ""
+    },
+    {
+     "name": "Specially Defensive",
+     "role": "defensive / utility",
+     "tier": "pu",
+     "item": "ITEM_LEFTOVERS",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_CALM",
+     "evs": {
+      "hp": 252,
+      "atk": 0,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 160,
+      "speed": 96
+     },
+     "moves": [
+      "MOVE_THUNDER_WAVE",
+      "MOVE_REST",
+      "MOVE_THUNDERBOLT",
+      "MOVE_ICE_BEAM"
+     ],
+     "source": "Smogon data.pkmn.cc (gen3 pu)",
+     "notes": "Thunderbolt/Hidden Power Grass; Ice Beam/Hidden Power Grass"
+    },
+    {
+     "name": "Dragon Dance",
+     "role": "setup sweeper",
+     "tier": "pu",
+     "item": "ITEM_LEFTOVERS",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_ADAMANT",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_DRAGON_DANCE",
+      "MOVE_DOUBLE_EDGE",
+      "MOVE_IRON_TAIL",
+      "MOVE_HIDDEN_POWER"
+     ],
+     "source": "Smogon data.pkmn.cc (gen3 pu)",
+     "notes": "Hidden Power Fighting/Hidden Power Ground; HP Fighting",
+     "ivs": {
+      "hp": 31,
+      "atk": 31,
+      "def": 30,
+      "speed": 30,
+      "spatk": 30,
+      "spdef": 30
+     }
+    },
+    {
+     "name": "Special Attacker",
+     "role": "attacker",
+     "tier": "pu",
+     "item": "ITEM_LEFTOVERS",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_MODEST",
+     "evs": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "spatk": 252,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_THUNDER_WAVE",
+      "MOVE_THUNDERBOLT",
+      "MOVE_ICE_BEAM",
+      "MOVE_HIDDEN_POWER"
+     ],
+     "source": "Smogon data.pkmn.cc (gen3 pu)",
+     "notes": "Thunder Wave/Agility; Hidden Power Grass/Fire Blast; HP Grass",
+     "ivs": {
+      "hp": 31,
+      "atk": 30,
+      "def": 31,
+      "speed": 31,
+      "spatk": 30,
+      "spdef": 31
+     }
+    },
+    {
+     "name": "Dual Screens",
+     "role": "attacker",
+     "tier": "nu",
+     "item": "ITEM_LEFTOVERS",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_SERIOUS",
+     "evs": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 0,
+      "speed": 0
+     },
+     "moves": [
+      "MOVE_THUNDER_WAVE",
+      "MOVE_REFLECT",
+      "MOVE_LIGHT_SCREEN",
+      "MOVE_FIRE_BLAST"
+     ],
+     "source": "Smogon data.pkmn.cc (gen2 nu)",
+     "notes": "Fire Blast/Surf"
+    },
+    {
+     "name": "3 Attacks",
+     "role": "attacker",
+     "tier": "nu",
+     "item": "ITEM_LEFTOVERS",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_SERIOUS",
+     "evs": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 0,
+      "speed": 0
+     },
+     "moves": [
+      "MOVE_THUNDER_WAVE",
+      "MOVE_FIRE_BLAST",
+      "MOVE_THUNDER",
+      "MOVE_SURF"
+     ],
+     "source": "Smogon data.pkmn.cc (gen2 nu)",
+     "notes": ""
+    },
+    {
+     "name": "Wrap",
+     "role": "attacker",
+     "tier": "ou",
+     "item": "ITEM_NONE",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_SERIOUS",
+     "evs": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 0,
+      "speed": 0
+     },
+     "moves": [
+      "MOVE_THUNDER_WAVE",
+      "MOVE_WRAP",
+      "MOVE_BLIZZARD",
+      "MOVE_THUNDERBOLT"
+     ],
+     "source": "Smogon data.pkmn.cc (gen1 ou)",
+     "notes": "Thunderbolt/Hyper Beam/Agility"
+    },
+    {
+     "name": "AgiliWrap",
+     "role": "attacker",
+     "tier": "middlecup",
+     "item": "ITEM_NONE",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_SERIOUS",
+     "evs": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 0,
+      "speed": 0
+     },
+     "moves": [
+      "MOVE_SURF",
+      "MOVE_HYPER_BEAM",
+      "MOVE_WRAP",
+      "MOVE_AGILITY"
+     ],
+     "source": "Smogon data.pkmn.cc (gen1 middlecup)",
+     "notes": ""
+    },
+    {
+     "name": "Emerald Kaizo set (Lv.66)",
+     "role": "attacker",
+     "tier": "emerald-kaizo",
+     "item": "ITEM_NONE",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_IMPISH",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_DRAGONBREATH",
+      "MOVE_WHIRLWIND",
+      "MOVE_HYDRO_PUMP",
+      "MOVE_DOUBLE_EDGE"
+     ],
+     "source": "Emerald Kaizo",
+     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
+    },
+    {
+     "name": "Emerald Kaizo set (Lv.46)",
+     "role": "attacker",
+     "tier": "emerald-kaizo",
+     "item": "ITEM_BRIGHTPOWDER",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_BRAVE",
+     "evs": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "spatk": 252,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_RAIN_DANCE",
+      "MOVE_THUNDER",
+      "MOVE_SURF",
+      "MOVE_BODY_SLAM"
+     ],
+     "source": "Emerald Kaizo",
+     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
+    },
+    {
+     "name": "Emerald Kaizo set (Lv.32)",
+     "role": "attacker",
+     "tier": "emerald-kaizo",
+     "item": "ITEM_DRAGON_FANG",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_CAREFUL",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_THUNDER_WAVE",
+      "MOVE_SECRET_POWER",
+      "MOVE_DRAGONBREATH",
+      "MOVE_DRAGON_RAGE"
+     ],
+     "source": "Emerald Kaizo",
+     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
+    },
+    {
+     "name": "Marvel Scale variant",
+     "role": "defensive / utility",
+     "tier": "ability-variant",
+     "item": "ITEM_LEFTOVERS",
+     "ability": "ABILITY_MARVEL_SCALE",
+     "nature": "NATURE_CALM",
+     "evs": {
+      "hp": 252,
+      "atk": 0,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 160,
+      "speed": 96
+     },
+     "moves": [
+      "MOVE_THUNDER_WAVE",
+      "MOVE_REST",
+      "MOVE_THUNDERBOLT",
+      "MOVE_ICE_BEAM"
+     ],
+     "source": "Ability variant (constructed)",
+     "notes": "Represents MARVEL_SCALE; moves cloned from 'Specially Defensive'."
+    }
+   ]
+  },
+  {
+   "species": "SPECIES_ELECTABUZZ",
+   "displayName": "Electabuzz",
+   "tier": "eviolite-nfe",
+   "sets": [
+    {
+     "name": "Offensive Pivot",
+     "role": "defensive / utility",
+     "tier": "middlecup",
+     "item": "ITEM_LIFE_ORB",
+     "ability": "ABILITY_VITAL_SPIRIT",
+     "nature": "NATURE_NAIVE",
+     "evs": {
+      "hp": 0,
+      "atk": 4,
+      "def": 0,
+      "spatk": 252,
+      "spdef": 0,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_THUNDERBOLT",
+      "MOVE_FOCUS_BLAST",
+      "MOVE_ICE_PUNCH",
+      "MOVE_VOLT_SWITCH"
+     ],
+     "source": "Smogon data.pkmn.cc (gen6 middlecup)",
+     "notes": "Focus Blast/Hidden Power Grass"
+    },
+    {
+     "name": "Life Orb",
+     "role": "attacker",
+     "tier": "uu",
+     "item": "ITEM_LIFE_ORB",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_HASTY",
+     "evs": {
+      "hp": 0,
+      "atk": 4,
+      "def": 0,
+      "spatk": 252,
+      "spdef": 0,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_THUNDERBOLT",
+      "MOVE_HIDDEN_POWER",
+      "MOVE_CROSS_CHOP",
+      "MOVE_PSYCHIC"
+     ],
+     "source": "Smogon data.pkmn.cc (gen4 uu)",
+     "notes": "Hidden Power Grass/Hidden Power Ice; HP Grass; Cross Chop/Focus Blast; Psychic/Substitute",
+     "ivs": {
+      "hp": 31,
+      "atk": 31,
+      "def": 30,
+      "speed": 31,
+      "spatk": 30,
+      "spdef": 31
+     }
+    },
+    {
+     "name": "Life Orb",
+     "role": "attacker",
+     "tier": "pu",
+     "item": "ITEM_LIFE_ORB",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_TIMID",
+     "evs": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "spatk": 252,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_THUNDERBOLT",
+      "MOVE_FOCUS_BLAST",
+      "MOVE_HIDDEN_POWER",
+      "MOVE_TOXIC"
+     ],
+     "source": "Smogon data.pkmn.cc (gen4 pu)",
+     "notes": "Hidden Power Grass/Hidden Power Water; HP Grass; Toxic/Psychic",
+     "ivs": {
+      "hp": 31,
+      "atk": 30,
+      "def": 31,
+      "speed": 31,
+      "spatk": 30,
+      "spdef": 31
+     }
+    },
+    {
+     "name": "Mixed Sweeper",
+     "role": "attacker",
+     "tier": "ou",
+     "item": "ITEM_LEFTOVERS",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_MODEST",
+     "evs": {
+      "hp": 0,
+      "atk": 84,
+      "def": 0,
+      "spatk": 208,
+      "spdef": 0,
+      "speed": 216
+     },
+     "moves": [
+      "MOVE_THUNDERBOLT",
+      "MOVE_ICE_PUNCH",
+      "MOVE_HIDDEN_POWER",
+      "MOVE_CROSS_CHOP"
+     ],
+     "source": "Smogon data.pkmn.cc (gen3 ou)",
+     "notes": "HP Grass; Cross Chop/Focus Punch",
+     "ivs": {
+      "hp": 31,
+      "atk": 31,
+      "def": 30,
+      "speed": 31,
+      "spatk": 30,
+      "spdef": 31
+     }
+    },
+    {
+     "name": "SubPunch",
+     "role": "sub attacker",
+     "tier": "ou",
+     "item": "ITEM_LEFTOVERS",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_HASTY",
+     "evs": {
+      "hp": 0,
+      "atk": 172,
+      "def": 0,
+      "spatk": 98,
+      "spdef": 0,
+      "speed": 240
+     },
+     "moves": [
+      "MOVE_THUNDERBOLT",
+      "MOVE_SUBSTITUTE",
+      "MOVE_FOCUS_PUNCH",
+      "MOVE_THUNDER_WAVE"
+     ],
+     "source": "Smogon data.pkmn.cc (gen3 ou)",
+     "notes": "Thunder Wave/Ice Punch/Fire Punch"
+    },
+    {
+     "name": "Support",
+     "role": "defensive / utility",
+     "tier": "ou",
+     "item": "ITEM_LEFTOVERS",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_MODEST",
+     "evs": {
+      "hp": 84,
+      "atk": 0,
+      "def": 0,
+      "spatk": 208,
+      "spdef": 0,
+      "speed": 216
+     },
+     "moves": [
+      "MOVE_THUNDERBOLT",
+      "MOVE_LIGHT_SCREEN",
+      "MOVE_COUNTER",
+      "MOVE_TOXIC"
+     ],
+     "source": "Smogon data.pkmn.cc (gen3 ou)",
+     "notes": "Toxic/Ice Punch"
+    },
+    {
+     "name": "Special Sweeper",
+     "role": "attacker",
+     "tier": "uu",
+     "item": "ITEM_LEFTOVERS",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_MODEST",
+     "evs": {
+      "hp": 4,
+      "atk": 0,
+      "def": 0,
+      "spatk": 252,
+      "spdef": 0,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_THUNDERBOLT",
+      "MOVE_ICE_PUNCH",
+      "MOVE_HIDDEN_POWER",
+      "MOVE_THIEF"
+     ],
+     "source": "Smogon data.pkmn.cc (gen3 uu)",
+     "notes": "HP Grass; Thief/Substitute/Toxic",
+     "ivs": {
+      "hp": 31,
+      "atk": 31,
+      "def": 30,
+      "speed": 31,
+      "spatk": 30,
+      "spdef": 31
+     }
+    },
+    {
+     "name": "All-Out Attacker",
+     "role": "attacker",
+     "tier": "ou",
+     "item": "ITEM_LEFTOVERS",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_SERIOUS",
+     "evs": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 0,
+      "speed": 0
+     },
+     "moves": [
+      "MOVE_THUNDERBOLT",
+      "MOVE_ICE_PUNCH",
+      "MOVE_CROSS_CHOP",
+      "MOVE_FIRE_PUNCH"
+     ],
+     "source": "Smogon data.pkmn.cc (gen2 ou)",
+     "notes": ""
+    },
+    {
+     "name": "Emerald Kaizo set (Lv.88)",
+     "role": "attacker",
+     "tier": "emerald-kaizo",
+     "item": "ITEM_LUM_BERRY",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_NAUGHTY",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_THUNDERBOLT",
+      "MOVE_HIDDEN_POWER",
+      "MOVE_ICE_PUNCH",
+      "MOVE_FIRE_PUNCH"
+     ],
+     "source": "Emerald Kaizo",
+     "notes": "HP Ice (defaulted; source unspecified); EVs inferred (source lists moves/item/nature/ability only)",
+     "ivs": {
+      "hp": 30,
+      "atk": 31,
+      "def": 30,
+      "speed": 31,
+      "spatk": 31,
+      "spdef": 31
+     }
+    },
+    {
+     "name": "Emerald Kaizo set (Lv.68)",
+     "role": "attacker",
+     "tier": "emerald-kaizo",
+     "item": "ITEM_BRIGHTPOWDER",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_LAX",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_THUNDER",
+      "MOVE_CROSS_CHOP",
+      "MOVE_ICE_PUNCH",
+      "MOVE_PSYCHIC"
+     ],
+     "source": "Emerald Kaizo",
+     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
+    },
+    {
+     "name": "Emerald Kaizo set (Lv.51)",
+     "role": "attacker",
+     "tier": "emerald-kaizo",
+     "item": "ITEM_LUM_BERRY",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_LAX",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_THUNDERBOLT",
+      "MOVE_ICE_PUNCH",
+      "MOVE_CROSS_CHOP",
+      "MOVE_QUICK_ATTACK"
+     ],
+     "source": "Emerald Kaizo",
+     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
+    },
+    {
+     "name": "Emerald Kaizo set (Lv.51)",
+     "role": "attacker",
+     "tier": "emerald-kaizo",
+     "item": "ITEM_KINGS_ROCK",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_ADAMANT",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_THUNDER",
+      "MOVE_CROSS_CHOP",
+      "MOVE_QUICK_ATTACK",
+      "MOVE_ICE_PUNCH"
+     ],
+     "source": "Emerald Kaizo",
+     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
+    },
+    {
+     "name": "Emerald Kaizo set (Lv.28)",
+     "role": "attacker",
+     "tier": "emerald-kaizo",
+     "item": "ITEM_LUM_BERRY",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_QUIET",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_PSYCHIC",
+      "MOVE_THUNDERBOLT",
+      "MOVE_FIRE_PUNCH",
+      "MOVE_ICE_PUNCH"
+     ],
+     "source": "Emerald Kaizo",
+     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
+    }
+   ]
+  },
+  {
+   "species": "SPECIES_MAGMAR",
+   "displayName": "Magmar",
+   "tier": "eviolite-nfe",
+   "sets": [
+    {
+     "name": "Life Orb Attacker",
+     "role": "attacker",
+     "tier": "middlecup",
+     "item": "ITEM_LIFE_ORB",
+     "ability": "ABILITY_VITAL_SPIRIT",
+     "nature": "NATURE_HASTY",
+     "evs": {
+      "hp": 0,
+      "atk": 4,
+      "def": 0,
+      "spatk": 252,
+      "spdef": 0,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_FIRE_BLAST",
+      "MOVE_FOCUS_BLAST",
+      "MOVE_HIDDEN_POWER",
+      "MOVE_MACH_PUNCH"
+     ],
+     "source": "Smogon data.pkmn.cc (gen6 middlecup)",
+     "notes": "HP Grass; Mach Punch/Sunny Day",
+     "ivs": {
+      "hp": 31,
+      "atk": 31,
+      "def": 30,
+      "speed": 31,
+      "spatk": 30,
+      "spdef": 31
+     }
+    },
+    {
+     "name": "Life Orb Attacker",
+     "role": "attacker",
+     "tier": "pu",
+     "item": "ITEM_LIFE_ORB",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_NAIVE",
+     "evs": {
+      "hp": 0,
+      "atk": 4,
+      "def": 0,
+      "spatk": 252,
+      "spdef": 0,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_FIRE_BLAST",
+      "MOVE_THUNDER_PUNCH",
+      "MOVE_HIDDEN_POWER",
+      "MOVE_MACH_PUNCH"
+     ],
+     "source": "Smogon data.pkmn.cc (gen4 pu)",
+     "notes": "Fire Blast/Overheat; HP Grass; Mach Punch/Substitute",
+     "ivs": {
+      "hp": 31,
+      "atk": 31,
+      "def": 30,
+      "speed": 31,
+      "spatk": 30,
+      "spdef": 31
+     }
+    },
+    {
+     "name": "Mixed Sweeper",
+     "role": "attacker",
+     "tier": "ou",
+     "item": "ITEM_LEFTOVERS",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_MILD",
+     "evs": {
+      "hp": 0,
+      "atk": 64,
+      "def": 0,
+      "spatk": 252,
+      "spdef": 0,
+      "speed": 192
+     },
+     "moves": [
+      "MOVE_FLAMETHROWER",
+      "MOVE_CROSS_CHOP",
+      "MOVE_THUNDER_PUNCH",
+      "MOVE_HIDDEN_POWER"
+     ],
+     "source": "Smogon data.pkmn.cc (gen3 ou)",
+     "notes": "Flamethrower/Fire Blast; Cross Chop/Focus Punch; Hidden Power Grass/Hidden Power Ice; HP Grass",
+     "ivs": {
+      "hp": 31,
+      "atk": 31,
+      "def": 30,
+      "speed": 31,
+      "spatk": 30,
+      "spdef": 31
+     }
+    },
+    {
+     "name": "Mixed Attacker",
+     "role": "attacker",
+     "tier": "uu",
+     "item": "ITEM_CHARCOAL",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_HASTY",
+     "evs": {
+      "hp": 0,
+      "atk": 64,
+      "def": 0,
+      "spatk": 252,
+      "spdef": 0,
+      "speed": 192
+     },
+     "moves": [
+      "MOVE_FIRE_BLAST",
+      "MOVE_THUNDER_PUNCH",
+      "MOVE_HIDDEN_POWER",
+      "MOVE_FOCUS_PUNCH"
+     ],
+     "source": "Smogon data.pkmn.cc (gen3 uu)",
+     "notes": "HP Grass",
+     "ivs": {
+      "hp": 31,
+      "atk": 31,
+      "def": 30,
+      "speed": 31,
+      "spatk": 30,
+      "spdef": 31
+     }
+    },
+    {
+     "name": "Special Wallbreaker",
+     "role": "wallbreaker",
+     "tier": "ru",
+     "item": "ITEM_PETAYA_BERRY",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_TIMID",
+     "evs": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "spatk": 252,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_FIRE_BLAST",
+      "MOVE_THUNDER_PUNCH",
+      "MOVE_HIDDEN_POWER",
+      "MOVE_SUBSTITUTE"
+     ],
+     "source": "Smogon data.pkmn.cc (gen3 ru)",
+     "notes": "HP Water; Substitute/Toxic",
+     "ivs": {
+      "hp": 31,
+      "atk": 31,
+      "def": 31,
+      "speed": 30,
+      "spatk": 30,
+      "spdef": 31
+     }
+    },
+    {
+     "name": "Special Sweeper",
+     "role": "attacker",
+     "tier": "nu",
+     "item": "ITEM_LEFTOVERS",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_SERIOUS",
+     "evs": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 0,
+      "speed": 0
+     },
+     "moves": [
+      "MOVE_FIRE_BLAST",
+      "MOVE_THUNDER_PUNCH",
+      "MOVE_CROSS_CHOP",
+      "MOVE_SUNNY_DAY"
+     ],
+     "source": "Smogon data.pkmn.cc (gen2 nu)",
+     "notes": "Thunder Punch/Hidden Power Grass; Sunny Day/Hidden Power Ground/Thief"
+    },
+    {
+     "name": "Swagmar",
+     "role": "attacker",
+     "tier": "pu",
+     "item": "ITEM_NONE",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_SERIOUS",
+     "evs": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 0,
+      "speed": 0
+     },
+     "moves": [
+      "MOVE_FIRE_BLAST",
+      "MOVE_BODY_SLAM",
+      "MOVE_HYPER_BEAM",
+      "MOVE_COUNTER"
+     ],
+     "source": "Smogon data.pkmn.cc (gen1 pu)",
+     "notes": "Counter/Seismic Toss/Psychic/Smokescreen"
+    },
+    {
+     "name": "Emerald Kaizo set (Lv.65)",
+     "role": "attacker",
+     "tier": "emerald-kaizo",
+     "item": "ITEM_NONE",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_RELAXED",
+     "evs": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "spatk": 252,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_BRICK_BREAK",
+      "MOVE_FLAMETHROWER",
+      "MOVE_CONFUSE_RAY",
+      "MOVE_FIRE_BLAST"
+     ],
+     "source": "Emerald Kaizo",
+     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
+    },
+    {
+     "name": "Emerald Kaizo set (Lv.61)",
+     "role": "attacker",
+     "tier": "emerald-kaizo",
+     "item": "ITEM_SCOPE_LENS",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_NAIVE",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_SOLARBEAM",
+      "MOVE_FIRE_BLAST",
+      "MOVE_CROSS_CHOP",
+      "MOVE_THUNDERPUNCH"
+     ],
+     "source": "Emerald Kaizo",
+     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
+    },
+    {
+     "name": "Emerald Kaizo set (Lv.36)",
+     "role": "attacker",
+     "tier": "emerald-kaizo",
+     "item": "ITEM_LUM_BERRY",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_NAUGHTY",
+     "evs": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "spatk": 252,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_FIRE_BLAST",
+      "MOVE_THUNDERPUNCH",
+      "MOVE_CROSS_CHOP",
+      "MOVE_PSYCHIC"
+     ],
+     "source": "Emerald Kaizo",
+     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
+    },
+    {
+     "name": "Emerald Kaizo set (Lv.29)",
+     "role": "attacker",
+     "tier": "emerald-kaizo",
+     "item": "ITEM_SCOPE_LENS",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_JOLLY",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_FIRE_PUNCH",
+      "MOVE_BRICK_BREAK",
+      "MOVE_WILL_O_WISP",
+      "MOVE_SECRET_POWER"
+     ],
+     "source": "Emerald Kaizo",
+     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
+    }
+   ]
+  },
+  {
+   "species": "SPECIES_CLEFAIRY",
+   "displayName": "Clefairy",
+   "tier": "eviolite-nfe",
+   "sets": [
+    {
+     "name": "Curse + Twave",
+     "role": "setup sweeper",
+     "tier": "pu",
+     "item": "ITEM_LEFTOVERS",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_SERIOUS",
+     "evs": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 0,
+      "speed": 0
+     },
+     "moves": [
+      "MOVE_CURSE",
+      "MOVE_RETURN",
+      "MOVE_MOONLIGHT",
+      "MOVE_THUNDER_WAVE"
+     ],
+     "source": "Smogon data.pkmn.cc (gen2 pu)",
+     "notes": ""
+    },
+    {
+     "name": "Bulky Attacker",
+     "role": "defensive / utility",
+     "tier": "lclevel100",
+     "item": "ITEM_NONE",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_SERIOUS",
+     "evs": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 0,
+      "speed": 0
+     },
+     "moves": [
+      "MOVE_BODY_SLAM",
+      "MOVE_THUNDERBOLT",
+      "MOVE_BLIZZARD",
+      "MOVE_THUNDER_WAVE"
+     ],
+     "source": "Smogon data.pkmn.cc (gen1 lclevel100)",
+     "notes": ""
+    },
+    {
+     "name": "Emerald Kaizo set (Lv.24)",
+     "role": "attacker",
+     "tier": "emerald-kaizo",
+     "item": "ITEM_SITRUS_BERRY",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_MODEST",
+     "evs": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "spatk": 252,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_TRI_ATTACK",
+      "MOVE_ICE_BEAM",
+      "MOVE_FLAMETHROWER",
+      "MOVE_THUNDERBOLT"
+     ],
+     "source": "Emerald Kaizo",
+     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
+    },
+    {
+     "name": "Magic Guard variant",
+     "role": "defensive / utility",
+     "tier": "ability-variant",
+     "item": "ITEM_NONE",
+     "ability": "ABILITY_MAGIC_GUARD",
+     "nature": "NATURE_SERIOUS",
+     "evs": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 0,
+      "speed": 0
+     },
+     "moves": [
+      "MOVE_BODY_SLAM",
+      "MOVE_THUNDERBOLT",
+      "MOVE_BLIZZARD",
+      "MOVE_THUNDER_WAVE"
+     ],
+     "source": "Ability variant (constructed)",
+     "notes": "Represents MAGIC_GUARD; moves cloned from 'Bulky Attacker'."
+    }
+   ]
+  },
+  {
+   "species": "SPECIES_ONIX",
+   "displayName": "Onix",
+   "tier": "eviolite-nfe",
+   "sets": [
+    {
+     "name": "Sunny Day Support",
+     "role": "defensive / utility",
+     "tier": "nu",
+     "item": "ITEM_SALAC_BERRY",
+     "ability": "ABILITY_STURDY",
+     "nature": "NATURE_JOLLY",
+     "evs": {
+      "hp": 112,
+      "atk": 144,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 0,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_SUNNY_DAY",
+      "MOVE_EXPLOSION",
+      "MOVE_BLOCK",
+      "MOVE_EARTHQUAKE"
+     ],
+     "source": "Smogon data.pkmn.cc (gen3 nu)",
+     "notes": ""
+    },
+    {
+     "name": "Defensive",
+     "role": "defensive / utility",
+     "tier": "pu",
+     "item": "ITEM_NONE",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_SERIOUS",
+     "evs": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 0,
+      "speed": 0
+     },
+     "moves": [
+      "MOVE_ROCK_SLIDE",
+      "MOVE_EARTHQUAKE",
+      "MOVE_EXPLOSION",
+      "MOVE_ROAR"
+     ],
+     "source": "Smogon data.pkmn.cc (gen2 pu)",
+     "notes": "Explosion/Body Slam/Curse; Roar/Explosion"
+    },
+    {
+     "name": "Toxic + Bind",
+     "role": "attacker",
+     "tier": "nc1997",
+     "item": "ITEM_NONE",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_SERIOUS",
+     "evs": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 0,
+      "speed": 0
+     },
+     "moves": [
+      "MOVE_BIND",
+      "MOVE_TOXIC",
+      "MOVE_EARTHQUAKE",
+      "MOVE_EXPLOSION"
+     ],
+     "source": "Smogon data.pkmn.cc (gen1 nc1997)",
+     "notes": ""
+    },
+    {
+     "name": "Weak Armor variant",
+     "role": "attacker",
+     "tier": "ability-variant",
+     "item": "ITEM_NONE",
+     "ability": "ABILITY_WEAK_ARMOR",
+     "nature": "NATURE_SERIOUS",
+     "evs": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 0,
+      "speed": 0
+     },
+     "moves": [
+      "MOVE_BIND",
+      "MOVE_TOXIC",
+      "MOVE_EARTHQUAKE",
+      "MOVE_EXPLOSION"
+     ],
+     "source": "Ability variant (constructed)",
+     "notes": "Represents WEAK_ARMOR; moves cloned from 'Toxic + Bind'."
+    }
+   ]
+  },
+  {
+   "species": "SPECIES_DUOSION",
+   "displayName": "Duosion",
+   "tier": "eviolite-nfe",
+   "sets": [
+    {
+     "name": "Eviolite Calm Mind",
+     "role": "setup sweeper",
+     "item": "ITEM_EVIOLITE",
+     "ability": "ABILITY_REGENERATOR",
+     "nature": "NATURE_BOLD",
+     "evs": {
+      "hp": 252,
+      "atk": 0,
+      "def": 252,
+      "spatk": 4,
+      "spdef": 0,
+      "speed": 0
+     },
+     "moves": [
+      "MOVE_CALM_MIND",
+      "MOVE_PSYCHIC",
+      "MOVE_SHADOW_BALL",
+      "MOVE_RECOVER"
+     ],
+     "tier": "constructed",
+     "notes": "",
+     "source": "Constructed (competitive knowledge; validated vs build)"
+    },
+    {
+     "name": "Magic Guard variant",
+     "role": "setup sweeper",
+     "item": "ITEM_EVIOLITE",
+     "ability": "ABILITY_MAGIC_GUARD",
+     "nature": "NATURE_BOLD",
+     "evs": {
+      "hp": 252,
+      "atk": 0,
+      "def": 252,
+      "spatk": 4,
+      "spdef": 0,
+      "speed": 0
+     },
+     "moves": [
+      "MOVE_CALM_MIND",
+      "MOVE_PSYCHIC",
+      "MOVE_SHADOW_BALL",
+      "MOVE_RECOVER"
+     ],
+     "tier": "ability-variant",
+     "notes": "Represents MAGIC_GUARD; moves cloned from 'Eviolite Calm Mind'.",
+     "source": "Ability variant (constructed)"
+    }
+   ]
+  },
+  {
+   "species": "SPECIES_RUFFLET",
+   "displayName": "Rufflet",
+   "tier": "eviolite-nfe",
+   "sets": [
+    {
+     "name": "Eviolite Bulk Up",
+     "role": "setup sweeper",
+     "item": "ITEM_EVIOLITE",
+     "ability": "ABILITY_SHEER_FORCE",
+     "nature": "NATURE_ADAMANT",
+     "evs": {
+      "hp": 252,
+      "atk": 4,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 252,
+      "speed": 0
+     },
+     "moves": [
+      "MOVE_BULK_UP",
+      "MOVE_BRAVE_BIRD",
+      "MOVE_CLOSE_COMBAT",
+      "MOVE_ROOST"
+     ],
+     "tier": "constructed",
+     "notes": "",
+     "source": "Constructed (competitive knowledge; validated vs build)"
+    }
+   ]
+  },
+  {
+   "species": "SPECIES_KIRLIA",
+   "displayName": "Kirlia",
+   "tier": "eviolite-nfe",
+   "sets": [
+    {
+     "name": "Eviolite Calm Mind",
+     "role": "setup sweeper",
+     "item": "ITEM_EVIOLITE",
+     "ability": "ABILITY_TRACE",
+     "nature": "NATURE_TIMID",
+     "evs": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "spatk": 252,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_CALM_MIND",
+      "MOVE_PSYCHIC",
+      "MOVE_MOONBLAST",
+      "MOVE_SHADOW_BALL"
+     ],
+     "tier": "constructed",
+     "notes": "",
+     "source": "Constructed (competitive knowledge; validated vs build)"
+    },
+    {
+     "name": "Emerald Kaizo set (Lv.23)",
+     "role": "attacker",
+     "tier": "emerald-kaizo",
+     "item": "ITEM_CHERI_BERRY",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_GENTLE",
+     "evs": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "spatk": 252,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_PSYBEAM",
+      "MOVE_MAGICAL_LEAF",
+      "MOVE_SHOCK_WAVE",
+      "MOVE_HYPNOSIS"
+     ],
+     "source": "Emerald Kaizo",
+     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
+    },
+    {
+     "name": "Emerald Kaizo set (Lv.19)",
+     "role": "attacker",
+     "tier": "emerald-kaizo",
+     "item": "ITEM_SITRUS_BERRY",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_MODEST",
+     "evs": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "spatk": 252,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_PSYBEAM",
+      "MOVE_HYPNOSIS",
+      "MOVE_THUNDER_WAVE",
+      "MOVE_WILL_O_WISP"
+     ],
+     "source": "Emerald Kaizo",
+     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
+    }
+   ]
+  }
+ ]
+}
