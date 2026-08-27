@@ -1,7 +1,7 @@
 {
  "_meta": {
-  "batch": "Gen 8 standard",
-  "source": "Smogon data.pkmn.cc"
+  "batch": "Gen 8 standard (Galar)",
+  "source": "Smogon data.pkmn.cc + constructed"
  },
  "pokemon": [
   {
@@ -413,7 +413,32 @@
    "species": "SPECIES_GREEDENT",
    "displayName": "Greedent",
    "tier": "standard",
-   "sets": []
+   "sets": [
+    {
+     "name": "Bulky Setup",
+     "role": "setup sweeper",
+     "item": "ITEM_SITRUS_BERRY",
+     "ability": "ABILITY_CHEEK_POUCH",
+     "nature": "NATURE_CAREFUL",
+     "evs": {
+      "hp": 252,
+      "atk": 4,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 252,
+      "speed": 0
+     },
+     "moves": [
+      "MOVE_BODY_SLAM",
+      "MOVE_STUFF_CHEEKS",
+      "MOVE_EARTHQUAKE",
+      "MOVE_SWORDS_DANCE"
+     ],
+     "tier": "constructed",
+     "notes": "",
+     "source": "Constructed (competitive knowledge; validated vs build)"
+    }
+   ]
   },
   {
    "species": "SPECIES_CORVIKNIGHT",
@@ -831,7 +856,32 @@
    "species": "SPECIES_DUBWOOL",
    "displayName": "Dubwool",
    "tier": "standard",
-   "sets": []
+   "sets": [
+    {
+     "name": "Bulk Up",
+     "role": "setup sweeper",
+     "item": "ITEM_LEFTOVERS",
+     "ability": "ABILITY_FLUFFY",
+     "nature": "NATURE_CAREFUL",
+     "evs": {
+      "hp": 252,
+      "atk": 4,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 252,
+      "speed": 0
+     },
+     "moves": [
+      "MOVE_BULK_UP",
+      "MOVE_BODY_SLAM",
+      "MOVE_COTTON_GUARD",
+      "MOVE_REST"
+     ],
+     "tier": "constructed",
+     "notes": "",
+     "source": "Constructed (competitive knowledge; validated vs build)"
+    }
+   ]
   },
   {
    "species": "SPECIES_DREDNAW",
@@ -892,7 +942,56 @@
    "species": "SPECIES_BOLTUND",
    "displayName": "Boltund",
    "tier": "standard",
-   "sets": []
+   "sets": [
+    {
+     "name": "Choice Specs",
+     "role": "choice wallbreaker",
+     "item": "ITEM_CHOICE_SPECS",
+     "ability": "ABILITY_STRONG_JAW",
+     "nature": "NATURE_TIMID",
+     "evs": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "spatk": 252,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_THUNDERBOLT",
+      "MOVE_VOLT_SWITCH",
+      "MOVE_PSYCHIC_FANGS",
+      "MOVE_CRUNCH"
+     ],
+     "tier": "constructed",
+     "notes": "",
+     "source": "Constructed (competitive knowledge; validated vs build)"
+    },
+    {
+     "name": "Life Orb Mixed",
+     "role": "attacker",
+     "item": "ITEM_LIFE_ORB",
+     "ability": "ABILITY_STRONG_JAW",
+     "nature": "NATURE_HASTY",
+     "evs": {
+      "hp": 0,
+      "atk": 4,
+      "def": 0,
+      "spatk": 252,
+      "spdef": 0,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_THUNDERBOLT",
+      "MOVE_PSYCHIC_FANGS",
+      "MOVE_FIRE_FANG",
+      "MOVE_VOLT_SWITCH"
+     ],
+     "tier": "constructed",
+     "notes": "",
+     "source": "Constructed (competitive knowledge; validated vs build)"
+    }
+   ]
   },
   {
    "species": "SPECIES_COALOSSAL",
@@ -1001,13 +1100,87 @@
    "species": "SPECIES_FLAPPLE",
    "displayName": "Flapple",
    "tier": "standard",
-   "sets": []
+   "sets": [
+    {
+     "name": "Choice Band",
+     "role": "choice wallbreaker",
+     "item": "ITEM_CHOICE_BAND",
+     "ability": "ABILITY_HUSTLE",
+     "nature": "NATURE_JOLLY",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_GRAV_APPLE",
+      "MOVE_OUTRAGE",
+      "MOVE_U_TURN",
+      "MOVE_SUCKER_PUNCH"
+     ],
+     "tier": "constructed",
+     "notes": "",
+     "source": "Constructed (competitive knowledge; validated vs build)"
+    }
+   ]
   },
   {
    "species": "SPECIES_APPLETUN",
    "displayName": "Appletun",
    "tier": "standard",
-   "sets": []
+   "sets": [
+    {
+     "name": "Bulky Dragon",
+     "role": "defensive / utility",
+     "item": "ITEM_LEFTOVERS",
+     "ability": "ABILITY_THICK_FAT",
+     "nature": "NATURE_MODEST",
+     "evs": {
+      "hp": 252,
+      "atk": 0,
+      "def": 4,
+      "spatk": 252,
+      "spdef": 0,
+      "speed": 0
+     },
+     "moves": [
+      "MOVE_APPLE_ACID",
+      "MOVE_DRAGON_PULSE",
+      "MOVE_RECOVER",
+      "MOVE_LEECH_SEED"
+     ],
+     "tier": "constructed",
+     "notes": "",
+     "source": "Constructed (competitive knowledge; validated vs build)"
+    },
+    {
+     "name": "Trick Room Attacker",
+     "role": "attacker",
+     "item": "ITEM_LIFE_ORB",
+     "ability": "ABILITY_THICK_FAT",
+     "nature": "NATURE_QUIET",
+     "evs": {
+      "hp": 252,
+      "atk": 0,
+      "def": 0,
+      "spatk": 252,
+      "spdef": 4,
+      "speed": 0
+     },
+     "moves": [
+      "MOVE_APPLE_ACID",
+      "MOVE_DRAGON_PULSE",
+      "MOVE_EARTH_POWER",
+      "MOVE_GIGA_DRAIN"
+     ],
+     "tier": "constructed",
+     "notes": "",
+     "source": "Constructed (competitive knowledge; validated vs build)"
+    }
+   ]
   },
   {
    "species": "SPECIES_HYDRAPPLE",
@@ -1408,7 +1581,32 @@
    "species": "SPECIES_GRAPPLOCT",
    "displayName": "Grapploct",
    "tier": "standard",
-   "sets": []
+   "sets": [
+    {
+     "name": "Bulk Up",
+     "role": "setup sweeper",
+     "item": "ITEM_LEFTOVERS",
+     "ability": "ABILITY_TECHNICIAN",
+     "nature": "NATURE_ADAMANT",
+     "evs": {
+      "hp": 252,
+      "atk": 252,
+      "def": 4,
+      "spatk": 0,
+      "spdef": 0,
+      "speed": 0
+     },
+     "moves": [
+      "MOVE_BULK_UP",
+      "MOVE_DRAIN_PUNCH",
+      "MOVE_KNOCK_OFF",
+      "MOVE_ICE_PUNCH"
+     ],
+     "tier": "constructed",
+     "notes": "",
+     "source": "Constructed (competitive knowledge; validated vs build)"
+    }
+   ]
   },
   {
    "species": "SPECIES_POLTEAGEIST_PHONY",
@@ -1891,7 +2089,32 @@
    "species": "SPECIES_FALINKS",
    "displayName": "Falinks",
    "tier": "standard",
-   "sets": []
+   "sets": [
+    {
+     "name": "No Retreat",
+     "role": "setup sweeper",
+     "item": "ITEM_LEFTOVERS",
+     "ability": "ABILITY_DEFIANT",
+     "nature": "NATURE_ADAMANT",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 4,
+      "spatk": 0,
+      "spdef": 0,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_NO_RETREAT",
+      "MOVE_CLOSE_COMBAT",
+      "MOVE_IRON_HEAD",
+      "MOVE_THROAT_CHOP"
+     ],
+     "tier": "constructed",
+     "notes": "",
+     "source": "Constructed (competitive knowledge; validated vs build)"
+    }
+   ]
   },
   {
    "species": "SPECIES_PINCURCHIN",
@@ -2055,13 +2278,63 @@
    "species": "SPECIES_STONJOURNER",
    "displayName": "Stonjourner",
    "tier": "standard",
-   "sets": []
+   "sets": [
+    {
+     "name": "Choice Band",
+     "role": "choice wallbreaker",
+     "item": "ITEM_CHOICE_BAND",
+     "ability": "ABILITY_POWER_SPOT",
+     "nature": "NATURE_ADAMANT",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 4,
+      "spatk": 0,
+      "spdef": 0,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_STONE_EDGE",
+      "MOVE_EARTHQUAKE",
+      "MOVE_HEAT_CRASH",
+      "MOVE_STEALTH_ROCK"
+     ],
+     "tier": "constructed",
+     "notes": "",
+     "source": "Constructed (competitive knowledge; validated vs build)"
+    }
+   ]
   },
   {
    "species": "SPECIES_MORPEKO_FULL_BELLY",
    "displayName": "Morpeko",
    "tier": "standard",
-   "sets": []
+   "sets": [
+    {
+     "name": "Aura Wheel",
+     "role": "attacker",
+     "item": "ITEM_LIFE_ORB",
+     "ability": "ABILITY_HUNGER_SWITCH",
+     "nature": "NATURE_JOLLY",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_AURA_WHEEL",
+      "MOVE_KNOCK_OFF",
+      "MOVE_SEED_BOMB",
+      "MOVE_RAPID_SPIN"
+     ],
+     "tier": "constructed",
+     "notes": "",
+     "source": "Constructed (competitive knowledge; validated vs build)"
+    }
+   ]
   },
   {
    "species": "SPECIES_COPPERAJAH",

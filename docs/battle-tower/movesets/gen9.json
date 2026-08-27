@@ -1,7 +1,7 @@
 {
  "_meta": {
-  "batch": "Gen 9 standard",
-  "source": "Smogon data.pkmn.cc"
+  "batch": "Gen 9 standard (Paldea)",
+  "source": "Smogon data.pkmn.cc + constructed"
  },
  "pokemon": [
   {
@@ -365,7 +365,32 @@
    "species": "SPECIES_SPIDOPS",
    "displayName": "Spidops",
    "tier": "standard",
-   "sets": []
+   "sets": [
+    {
+     "name": "Hazard Setter",
+     "role": "hazard lead",
+     "item": "ITEM_LEFTOVERS",
+     "ability": "ABILITY_INSOMNIA",
+     "nature": "NATURE_IMPISH",
+     "evs": {
+      "hp": 252,
+      "atk": 4,
+      "def": 252,
+      "spatk": 0,
+      "spdef": 0,
+      "speed": 0
+     },
+     "moves": [
+      "MOVE_STICKY_WEB",
+      "MOVE_SPIKES",
+      "MOVE_KNOCK_OFF",
+      "MOVE_CIRCLE_THROW"
+     ],
+     "tier": "constructed",
+     "notes": "",
+     "source": "Constructed (competitive knowledge; validated vs build)"
+    }
+   ]
   },
   {
    "species": "SPECIES_LOKIX",
@@ -704,7 +729,32 @@
    "species": "SPECIES_DACHSBUN",
    "displayName": "Dachsbun",
    "tier": "standard",
-   "sets": []
+   "sets": [
+    {
+     "name": "Bulky Fairy",
+     "role": "defensive / utility",
+     "item": "ITEM_LEFTOVERS",
+     "ability": "ABILITY_WELL_BAKED_BODY",
+     "nature": "NATURE_IMPISH",
+     "evs": {
+      "hp": 252,
+      "atk": 4,
+      "def": 252,
+      "spatk": 0,
+      "spdef": 0,
+      "speed": 0
+     },
+     "moves": [
+      "MOVE_PLAY_ROUGH",
+      "MOVE_BODY_PRESS",
+      "MOVE_WISH",
+      "MOVE_PROTECT"
+     ],
+     "tier": "constructed",
+     "notes": "",
+     "source": "Constructed (competitive knowledge; validated vs build)"
+    }
+   ]
   },
   {
    "species": "SPECIES_ARBOLIVA",
@@ -765,7 +815,32 @@
    "species": "SPECIES_SQUAWKABILLY_GREEN",
    "displayName": "Squawkabilly",
    "tier": "standard",
-   "sets": []
+   "sets": [
+    {
+     "name": "Choice Band",
+     "role": "choice wallbreaker",
+     "item": "ITEM_CHOICE_BAND",
+     "ability": "ABILITY_GUTS",
+     "nature": "NATURE_JOLLY",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_BRAVE_BIRD",
+      "MOVE_DOUBLE_EDGE",
+      "MOVE_FACADE",
+      "MOVE_U_TURN"
+     ],
+     "tier": "constructed",
+     "notes": "",
+     "source": "Constructed (competitive knowledge; validated vs build)"
+    }
+   ]
   },
   {
    "species": "SPECIES_GARGANACL",
@@ -1310,13 +1385,63 @@
    "species": "SPECIES_MABOSSTIFF",
    "displayName": "Mabosstiff",
    "tier": "standard",
-   "sets": []
+   "sets": [
+    {
+     "name": "Guard Dog Sweeper",
+     "role": "setup sweeper",
+     "item": "ITEM_LIFE_ORB",
+     "ability": "ABILITY_GUARD_DOG",
+     "nature": "NATURE_JOLLY",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_CRUNCH",
+      "MOVE_PLAY_ROUGH",
+      "MOVE_PSYCHIC_FANGS",
+      "MOVE_FIRE_FANG"
+     ],
+     "tier": "constructed",
+     "notes": "",
+     "source": "Constructed (competitive knowledge; validated vs build)"
+    }
+   ]
   },
   {
    "species": "SPECIES_GRAFAIAI",
    "displayName": "Grafaiai",
    "tier": "standard",
-   "sets": []
+   "sets": [
+    {
+     "name": "Physical Attacker",
+     "role": "attacker",
+     "item": "ITEM_LIFE_ORB",
+     "ability": "ABILITY_PRANKSTER",
+     "nature": "NATURE_JOLLY",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_GUNK_SHOT",
+      "MOVE_KNOCK_OFF",
+      "MOVE_LOW_KICK",
+      "MOVE_ENCORE"
+     ],
+     "tier": "constructed",
+     "notes": "",
+     "source": "Constructed (competitive knowledge; validated vs build)"
+    }
+   ]
   },
   {
    "species": "SPECIES_BRAMBLEGHAST",
@@ -1504,7 +1629,56 @@
    "species": "SPECIES_KLAWF",
    "displayName": "Klawf",
    "tier": "standard",
-   "sets": []
+   "sets": [
+    {
+     "name": "Anger Shell Sweeper",
+     "role": "setup sweeper",
+     "item": "ITEM_WEAKNESS_POLICY",
+     "ability": "ABILITY_ANGER_SHELL",
+     "nature": "NATURE_JOLLY",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 4,
+      "spatk": 0,
+      "spdef": 0,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_ROCK_SLIDE",
+      "MOVE_EARTHQUAKE",
+      "MOVE_X_SCISSOR",
+      "MOVE_SWORDS_DANCE"
+     ],
+     "tier": "constructed",
+     "notes": "",
+     "source": "Constructed (competitive knowledge; validated vs build)"
+    },
+    {
+     "name": "Stealth Rock Lead",
+     "role": "hazard lead",
+     "item": "ITEM_LEFTOVERS",
+     "ability": "ABILITY_ANGER_POINT",
+     "nature": "NATURE_IMPISH",
+     "evs": {
+      "hp": 252,
+      "atk": 0,
+      "def": 252,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 0
+     },
+     "moves": [
+      "MOVE_STEALTH_ROCK",
+      "MOVE_ROCK_SLIDE",
+      "MOVE_KNOCK_OFF",
+      "MOVE_EARTHQUAKE"
+     ],
+     "tier": "constructed",
+     "notes": "",
+     "source": "Constructed (competitive knowledge; validated vs build)"
+    }
+   ]
   },
   {
    "species": "SPECIES_SCOVILLAIN",
@@ -1685,7 +1859,32 @@
    "species": "SPECIES_RABSCA",
    "displayName": "Rabsca",
    "tier": "standard",
-   "sets": []
+   "sets": [
+    {
+     "name": "Calm Mind",
+     "role": "setup sweeper",
+     "item": "ITEM_LEFTOVERS",
+     "ability": "ABILITY_SYNCHRONIZE",
+     "nature": "NATURE_BOLD",
+     "evs": {
+      "hp": 252,
+      "atk": 0,
+      "def": 252,
+      "spatk": 4,
+      "spdef": 0,
+      "speed": 0
+     },
+     "moves": [
+      "MOVE_CALM_MIND",
+      "MOVE_PSYCHIC",
+      "MOVE_BUG_BUZZ",
+      "MOVE_REVIVAL_BLESSING"
+     ],
+     "tier": "constructed",
+     "notes": "",
+     "source": "Constructed (competitive knowledge; validated vs build)"
+    }
+   ]
   },
   {
    "species": "SPECIES_ESPATHRA",
@@ -1897,7 +2096,32 @@
    "species": "SPECIES_WUGTRIO",
    "displayName": "Wugtrio",
    "tier": "standard",
-   "sets": []
+   "sets": [
+    {
+     "name": "Choice Band",
+     "role": "choice wallbreaker",
+     "item": "ITEM_CHOICE_BAND",
+     "ability": "ABILITY_GOOEY",
+     "nature": "NATURE_ADAMANT",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_LIQUIDATION",
+      "MOVE_SUCKER_PUNCH",
+      "MOVE_ROCK_SLIDE",
+      "MOVE_AQUA_JET"
+     ],
+     "tier": "constructed",
+     "notes": "",
+     "source": "Constructed (competitive knowledge; validated vs build)"
+    }
+   ]
   },
   {
    "species": "SPECIES_BOMBIRDIER",

@@ -1,7 +1,7 @@
 {
  "_meta": {
   "batch": "Restricted tier",
-  "source": "Smogon data.pkmn.cc"
+  "source": "Smogon data.pkmn.cc + constructed"
  },
  "pokemon": [
   {
@@ -12514,7 +12514,32 @@
    "species": "SPECIES_ZYGARDE_COMPLETE",
    "displayName": "Zygarde",
    "tier": "restricted-legendary",
-   "sets": []
+   "sets": [
+    {
+     "name": "Bulky Sweeper",
+     "role": "setup sweeper",
+     "item": "ITEM_LEFTOVERS",
+     "ability": "ABILITY_POWER_CONSTRUCT",
+     "nature": "NATURE_ADAMANT",
+     "evs": {
+      "hp": 252,
+      "atk": 252,
+      "def": 4,
+      "spatk": 0,
+      "spdef": 0,
+      "speed": 0
+     },
+     "moves": [
+      "MOVE_DRAGON_DANCE",
+      "MOVE_THOUSAND_ARROWS",
+      "MOVE_EXTREME_SPEED",
+      "MOVE_SUBSTITUTE"
+     ],
+     "tier": "constructed",
+     "notes": "",
+     "source": "Constructed (competitive knowledge; validated vs build)"
+    }
+   ]
   },
   {
    "species": "SPECIES_DIANCIE",
@@ -16926,7 +16951,32 @@
    "species": "SPECIES_MELTAN",
    "displayName": "Meltan",
    "tier": "mythical",
-   "sets": []
+   "sets": [
+    {
+     "name": "Bulky Steel",
+     "role": "defensive / utility",
+     "item": "ITEM_EVIOLITE",
+     "ability": "ABILITY_MAGNET_PULL",
+     "nature": "NATURE_IMPISH",
+     "evs": {
+      "hp": 252,
+      "atk": 4,
+      "def": 252,
+      "spatk": 0,
+      "spdef": 0,
+      "speed": 0
+     },
+     "moves": [
+      "MOVE_FLASH_CANNON",
+      "MOVE_THUNDER_WAVE",
+      "MOVE_PROTECT",
+      "MOVE_ACID_ARMOR"
+     ],
+     "tier": "constructed",
+     "notes": "",
+     "source": "Constructed (competitive knowledge; validated vs build)"
+    }
+   ]
   },
   {
    "species": "SPECIES_MELMETAL",
@@ -19063,7 +19113,32 @@
    "species": "SPECIES_CALYREX",
    "displayName": "Calyrex",
    "tier": "restricted-legendary",
-   "sets": []
+   "sets": [
+    {
+     "name": "Bulky Support",
+     "role": "defensive / utility",
+     "item": "ITEM_LEFTOVERS",
+     "ability": "ABILITY_UNNERVE",
+     "nature": "NATURE_BOLD",
+     "evs": {
+      "hp": 252,
+      "atk": 0,
+      "def": 252,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 0
+     },
+     "moves": [
+      "MOVE_PSYCHIC",
+      "MOVE_GIGA_DRAIN",
+      "MOVE_CALM_MIND",
+      "MOVE_LEECH_SEED"
+     ],
+     "tier": "constructed",
+     "notes": "",
+     "source": "Constructed (competitive knowledge; validated vs build)"
+    }
+   ]
   },
   {
    "species": "SPECIES_CALYREX_ICE",

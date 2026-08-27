@@ -1,7 +1,7 @@
 {
  "_meta": {
-  "batch": "Gen 7 standard",
-  "source": "Smogon data.pkmn.cc"
+  "batch": "Gen 7 standard (Alola)",
+  "source": "Smogon data.pkmn.cc + constructed"
  },
  "pokemon": [
   {
@@ -2390,7 +2390,32 @@
    "species": "SPECIES_ORANGURU",
    "displayName": "Oranguru",
    "tier": "standard",
-   "sets": []
+   "sets": [
+    {
+     "name": "Trick Room Setter",
+     "role": "defensive / utility",
+     "item": "ITEM_LEFTOVERS",
+     "ability": "ABILITY_INNER_FOCUS",
+     "nature": "NATURE_SASSY",
+     "evs": {
+      "hp": 252,
+      "atk": 0,
+      "def": 4,
+      "spatk": 0,
+      "spdef": 252,
+      "speed": 0
+     },
+     "moves": [
+      "MOVE_TRICK_ROOM",
+      "MOVE_PSYCHIC",
+      "MOVE_FOUL_PLAY",
+      "MOVE_NASTY_PLOT"
+     ],
+     "tier": "constructed",
+     "notes": "",
+     "source": "Constructed (competitive knowledge; validated vs build)"
+    }
+   ]
   },
   {
    "species": "SPECIES_PASSIMIAN",

@@ -1,26 +1,223 @@
 {
  "_meta": {
   "batch": "Mega Evolutions (rental-mode only)",
-  "source": "Smogon data.pkmn.cc"
+  "source": "Smogon data.pkmn.cc + constructed | official Gen 6 Megas from Smogon base+stone; Z-A customs pending docs"
  },
  "pokemon": [
   {
    "species": "SPECIES_ABOMASNOW_MEGA",
    "displayName": "Abomasnow Mega",
    "tier": "mega",
-   "sets": []
+   "sets": [
+    {
+     "name": "Mixed Attacker",
+     "role": "attacker",
+     "tier": "nu",
+     "item": "ITEM_ABOMASITE",
+     "ability": "ABILITY_SOUNDPROOF",
+     "nature": "NATURE_MODEST",
+     "evs": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "spatk": 252,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_BLIZZARD",
+      "MOVE_GIGA_DRAIN",
+      "MOVE_FOCUS_BLAST",
+      "MOVE_SUBSTITUTE"
+     ],
+     "source": "Smogon data.pkmn.cc (gen7 nu, base+stone)",
+     "notes": "Focus Blast/Earthquake; Substitute/Ice Shard"
+    },
+    {
+     "name": "Swords Dance",
+     "role": "setup sweeper",
+     "tier": "nu",
+     "item": "ITEM_ABOMASITE",
+     "ability": "ABILITY_SOUNDPROOF",
+     "nature": "NATURE_JOLLY",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_SWORDS_DANCE",
+      "MOVE_WOOD_HAMMER",
+      "MOVE_ICE_SHARD",
+      "MOVE_EARTHQUAKE"
+     ],
+     "source": "Smogon data.pkmn.cc (gen7 nu, base+stone)",
+     "notes": ""
+    },
+    {
+     "name": "Mixed Attacker",
+     "role": "attacker",
+     "tier": "ru",
+     "item": "ITEM_ABOMASITE",
+     "ability": "ABILITY_SOUNDPROOF",
+     "nature": "NATURE_RASH",
+     "evs": {
+      "hp": 0,
+      "atk": 92,
+      "def": 0,
+      "spatk": 252,
+      "spdef": 0,
+      "speed": 164
+     },
+     "moves": [
+      "MOVE_BLIZZARD",
+      "MOVE_WOOD_HAMMER",
+      "MOVE_ICE_SHARD",
+      "MOVE_FOCUS_BLAST"
+     ],
+     "source": "Smogon data.pkmn.cc (gen7 ru, base+stone)",
+     "notes": "Wood Hammer/Giga Drain; Focus Blast/Earthquake"
+    },
+    {
+     "name": "President Snow (Mixed Attacker)",
+     "role": "attacker",
+     "tier": "uu",
+     "item": "ITEM_ABOMASITE",
+     "ability": "ABILITY_SOUNDPROOF",
+     "nature": "NATURE_MILD",
+     "evs": {
+      "hp": 8,
+      "atk": 68,
+      "def": 0,
+      "spatk": 252,
+      "spdef": 0,
+      "speed": 180
+     },
+     "moves": [
+      "MOVE_BLIZZARD",
+      "MOVE_WOOD_HAMMER",
+      "MOVE_ICE_SHARD",
+      "MOVE_EARTHQUAKE"
+     ],
+     "source": "Smogon data.pkmn.cc (gen6 uu, base+stone)",
+     "notes": "Wood Hammer/Giga Drain; Earthquake/Focus Blast"
+    }
+   ],
+   "_note": "official Gen 6 Mega"
   },
   {
    "species": "SPECIES_ABSOL_MEGA",
    "displayName": "Absol Mega",
    "tier": "mega",
-   "sets": []
+   "sets": [
+    {
+     "name": "All-out Attacker",
+     "role": "attacker",
+     "tier": "uu",
+     "item": "ITEM_ABSOLITE",
+     "ability": "ABILITY_JUSTIFIED",
+     "nature": "NATURE_NAIVE",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_KNOCK_OFF",
+      "MOVE_PURSUIT",
+      "MOVE_FIRE_BLAST",
+      "MOVE_SUCKER_PUNCH"
+     ],
+     "source": "Smogon data.pkmn.cc (gen7 uu, base+stone)",
+     "notes": "Fire Blast/Superpower; Sucker Punch/Iron Tail"
+    },
+    {
+     "name": "Swords Dance",
+     "role": "setup sweeper",
+     "tier": "ou",
+     "item": "ITEM_ABSOLITE",
+     "ability": "ABILITY_JUSTIFIED",
+     "nature": "NATURE_JOLLY",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_SWORDS_DANCE",
+      "MOVE_SUCKER_PUNCH",
+      "MOVE_KNOCK_OFF",
+      "MOVE_IRON_TAIL"
+     ],
+     "source": "Smogon data.pkmn.cc (gen6 ou, base+stone)",
+     "notes": "Iron Tail/Superpower/Play Rough"
+    },
+    {
+     "name": "Swords Dance",
+     "role": "setup sweeper",
+     "tier": "uu",
+     "item": "ITEM_ABSOLITE",
+     "ability": "ABILITY_JUSTIFIED",
+     "nature": "NATURE_JOLLY",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_SWORDS_DANCE",
+      "MOVE_KNOCK_OFF",
+      "MOVE_SUCKER_PUNCH",
+      "MOVE_SUPERPOWER"
+     ],
+     "source": "Smogon data.pkmn.cc (gen6 uu, base+stone)",
+     "notes": "Superpower/Play Rough"
+    },
+    {
+     "name": "All-Out Attacker",
+     "role": "attacker",
+     "tier": "uu",
+     "item": "ITEM_ABSOLITE",
+     "ability": "ABILITY_JUSTIFIED",
+     "nature": "NATURE_JOLLY",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_KNOCK_OFF",
+      "MOVE_SUCKER_PUNCH",
+      "MOVE_PURSUIT",
+      "MOVE_SUPERPOWER"
+     ],
+     "source": "Smogon data.pkmn.cc (gen6 uu, base+stone)",
+     "notes": "Pursuit/Iron Tail; Superpower/Iron Tail"
+    }
+   ],
+   "_note": "official Gen 6 Mega"
   },
   {
    "species": "SPECIES_ABSOL_MEGA_Z",
    "displayName": "Absol Mega Z",
    "tier": "mega",
-   "sets": []
+   "sets": [],
+   "_note": "custom Pokemon Legends: Z-A Mega - awaiting source doc"
   },
   {
    "species": "SPECIES_AERODACTYL_MEGA",
@@ -28,11 +225,35 @@
    "tier": "mega",
    "sets": [
     {
-     "name": "Offensive Entry Hazard Setter (Flying)",
-     "role": "defensive / utility",
+     "name": "Stealth Rock Setter",
+     "role": "hazard lead",
+     "tier": "letsgoou",
+     "item": "ITEM_AERODACTYLITE",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_JOLLY",
+     "evs": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 0,
+      "speed": 0
+     },
+     "moves": [
+      "MOVE_STEALTH_ROCK",
+      "MOVE_TAUNT",
+      "MOVE_ROCK_SLIDE",
+      "MOVE_EARTHQUAKE"
+     ],
+     "source": "Smogon data.pkmn.cc (gen7 letsgoou, base+stone)",
+     "notes": "Taunt/Roost"
+    },
+    {
+     "name": "Offensive (Flying)",
+     "role": "attacker",
      "tier": "monotype",
      "item": "ITEM_AERODACTYLITE",
-     "ability": "ABILITY_PRESSURE",
+     "ability": "ABILITY_UNNERVE",
      "nature": "NATURE_JOLLY",
      "evs": {
       "hp": 0,
@@ -44,82 +265,116 @@
      },
      "moves": [
       "MOVE_STONE_EDGE",
-      "MOVE_ICE_FANG",
+      "MOVE_EARTHQUAKE",
       "MOVE_PURSUIT",
       "MOVE_STEALTH_ROCK"
      ],
-     "source": "Smogon data.pkmn.cc (gen6 monotype)",
-     "notes": "Stealth Rock/Roost/Taunt"
-    }
-   ]
-  },
-  {
-   "species": "SPECIES_AGGRON_MEGA",
-   "displayName": "Aggron Mega",
-   "tier": "mega",
-   "sets": []
-  },
-  {
-   "species": "SPECIES_ALAKAZAM_MEGA",
-   "displayName": "Alakazam Mega",
-   "tier": "mega",
-   "sets": []
-  },
-  {
-   "species": "SPECIES_ALTARIA_MEGA",
-   "displayName": "Altaria Mega",
-   "tier": "mega",
-   "sets": []
-  },
-  {
-   "species": "SPECIES_AMPHAROS_MEGA",
-   "displayName": "Ampharos Mega",
-   "tier": "mega",
-   "sets": [
+     "source": "Smogon data.pkmn.cc (gen7 monotype, base+stone)",
+     "notes": "Pursuit/Ice Fang; Stealth Rock/Ice Fang"
+    },
     {
-     "name": "Special Attacker",
+     "name": "Offensive",
      "role": "attacker",
-     "tier": "ru",
-     "item": "ITEM_AMPHAROSITE",
-     "ability": "ABILITY_STATIC",
-     "nature": "NATURE_MODEST",
+     "tier": "uu",
+     "item": "ITEM_AERODACTYLITE",
+     "ability": "ABILITY_UNNERVE",
+     "nature": "NATURE_JOLLY",
      "evs": {
-      "hp": 4,
-      "atk": 0,
-      "def": 0,
-      "spatk": 252,
+      "hp": 0,
+      "atk": 252,
+      "def": 4,
+      "spatk": 0,
       "spdef": 0,
       "speed": 252
      },
      "moves": [
-      "MOVE_VOLT_SWITCH",
-      "MOVE_DRAGON_PULSE",
-      "MOVE_FOCUS_BLAST",
-      "MOVE_THUNDERBOLT"
+      "MOVE_STONE_EDGE",
+      "MOVE_EARTHQUAKE",
+      "MOVE_PURSUIT",
+      "MOVE_ROOST"
      ],
-     "source": "Smogon data.pkmn.cc (gen7 ru)",
+     "source": "Smogon data.pkmn.cc (gen7 uu, base+stone)",
+     "notes": "Pursuit/Roost; Roost/Ice Fang"
+    },
+    {
+     "name": "Stealth Rock",
+     "role": "hazard lead",
+     "tier": "uu",
+     "item": "ITEM_AERODACTYLITE",
+     "ability": "ABILITY_UNNERVE",
+     "nature": "NATURE_JOLLY",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_STEALTH_ROCK",
+      "MOVE_STONE_EDGE",
+      "MOVE_EARTHQUAKE",
+      "MOVE_ICE_FANG"
+     ],
+     "source": "Smogon data.pkmn.cc (gen7 uu, base+stone)",
      "notes": ""
-    }
-   ]
-  },
-  {
-   "species": "SPECIES_AUDINO_MEGA",
-   "displayName": "Audino Mega",
-   "tier": "mega",
-   "sets": []
-  },
-  {
-   "species": "SPECIES_BANETTE_MEGA",
-   "displayName": "Banette Mega",
-   "tier": "mega",
-   "sets": [
+    },
     {
      "name": "Offensive",
      "role": "attacker",
-     "tier": "ru",
-     "item": "ITEM_BANETTITE",
-     "ability": "ABILITY_FRISK",
-     "nature": "NATURE_ADAMANT",
+     "tier": "ou",
+     "item": "ITEM_AERODACTYLITE",
+     "ability": "ABILITY_UNNERVE",
+     "nature": "NATURE_JOLLY",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 4,
+      "spatk": 0,
+      "spdef": 0,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_STONE_EDGE",
+      "MOVE_AERIAL_ACE",
+      "MOVE_AQUA_TAIL",
+      "MOVE_FIRE_FANG"
+     ],
+     "source": "Smogon data.pkmn.cc (gen6 ou, base+stone)",
+     "notes": "Fire Fang/Roost"
+    },
+    {
+     "name": "Pursuit Trapper",
+     "role": "attacker",
+     "tier": "ou",
+     "item": "ITEM_AERODACTYLITE",
+     "ability": "ABILITY_UNNERVE",
+     "nature": "NATURE_JOLLY",
+     "evs": {
+      "hp": 168,
+      "atk": 124,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 0,
+      "speed": 216
+     },
+     "moves": [
+      "MOVE_PURSUIT",
+      "MOVE_AERIAL_ACE",
+      "MOVE_AQUA_TAIL",
+      "MOVE_ROOST"
+     ],
+     "source": "Smogon data.pkmn.cc (gen6 ou, base+stone)",
+     "notes": "Aerial Ace/Stone Edge; Aqua Tail/Fire Fang"
+    },
+    {
+     "name": "Prehistoric Beast (Offensive)",
+     "role": "attacker",
+     "tier": "ubers",
+     "item": "ITEM_AERODACTYLITE",
+     "ability": "ABILITY_PRESSURE",
+     "nature": "NATURE_JOLLY",
      "evs": {
       "hp": 40,
       "atk": 252,
@@ -129,14 +384,758 @@
       "speed": 216
      },
      "moves": [
-      "MOVE_DESTINY_BOND",
-      "MOVE_SHADOW_CLAW",
-      "MOVE_GUNK_SHOT",
-      "MOVE_TAUNT"
+      "MOVE_STEALTH_ROCK",
+      "MOVE_TAUNT",
+      "MOVE_STONE_EDGE",
+      "MOVE_EARTHQUAKE"
      ],
-     "source": "Smogon data.pkmn.cc (gen7 ru)",
-     "notes": "Taunt/Knock Off"
+     "source": "Smogon data.pkmn.cc (gen6 ubers, base+stone)",
+     "notes": ""
     },
+    {
+     "name": "All-Out Attacker",
+     "role": "attacker",
+     "tier": "uu",
+     "item": "ITEM_AERODACTYLITE",
+     "ability": "ABILITY_UNNERVE",
+     "nature": "NATURE_JOLLY",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_STONE_EDGE",
+      "MOVE_WING_ATTACK",
+      "MOVE_EARTHQUAKE",
+      "MOVE_ROOST"
+     ],
+     "source": "Smogon data.pkmn.cc (gen6 uu, base+stone)",
+     "notes": "Wing Attack/Earthquake; Earthquake/Aqua Tail; Roost/Pursuit"
+    }
+   ],
+   "_note": "official Gen 6 Mega"
+  },
+  {
+   "species": "SPECIES_AGGRON_MEGA",
+   "displayName": "Aggron Mega",
+   "tier": "mega",
+   "sets": [
+    {
+     "name": "Mega Tank",
+     "role": "defensive / utility",
+     "tier": "ou",
+     "item": "ITEM_AGGRONITE",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_CAREFUL",
+     "evs": {
+      "hp": 248,
+      "atk": 56,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 200,
+      "speed": 4
+     },
+     "moves": [
+      "MOVE_STEALTH_ROCK",
+      "MOVE_HEAVY_SLAM",
+      "MOVE_EARTHQUAKE",
+      "MOVE_ICE_PUNCH"
+     ],
+     "source": "Smogon data.pkmn.cc (gen7 ou, base+stone)",
+     "notes": "Ice Punch/Fire Punch/Protect"
+    },
+    {
+     "name": "Stealth Rock",
+     "role": "hazard lead",
+     "tier": "uu",
+     "item": "ITEM_AGGRONITE",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_CAREFUL",
+     "evs": {
+      "hp": 252,
+      "atk": 0,
+      "def": 4,
+      "spatk": 0,
+      "spdef": 252,
+      "speed": 0
+     },
+     "moves": [
+      "MOVE_STEALTH_ROCK",
+      "MOVE_HEAVY_SLAM",
+      "MOVE_EARTHQUAKE",
+      "MOVE_TOXIC"
+     ],
+     "source": "Smogon data.pkmn.cc (gen7 uu, base+stone)",
+     "notes": "Earthquake/Fire Punch; Toxic/Fire Punch"
+    },
+    {
+     "name": "Curse",
+     "role": "setup sweeper",
+     "tier": "uu",
+     "item": "ITEM_AGGRONITE",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_CAREFUL",
+     "evs": {
+      "hp": 252,
+      "atk": 0,
+      "def": 4,
+      "spatk": 0,
+      "spdef": 252,
+      "speed": 0
+     },
+     "moves": [
+      "MOVE_HEAVY_SLAM",
+      "MOVE_CURSE",
+      "MOVE_REST",
+      "MOVE_SLEEP_TALK"
+     ],
+     "source": "Smogon data.pkmn.cc (gen7 uu, base+stone)",
+     "notes": ""
+    },
+    {
+     "name": "Tank",
+     "role": "defensive / utility",
+     "tier": "ou",
+     "item": "ITEM_AGGRONITE",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_IMPISH",
+     "evs": {
+      "hp": 252,
+      "atk": 0,
+      "def": 16,
+      "spatk": 0,
+      "spdef": 240,
+      "speed": 0
+     },
+     "moves": [
+      "MOVE_STEALTH_ROCK",
+      "MOVE_HEAVY_SLAM",
+      "MOVE_AVALANCHE",
+      "MOVE_FIRE_PUNCH"
+     ],
+     "source": "Smogon data.pkmn.cc (gen6 ou, base+stone)",
+     "notes": "Avalanche/Thunder Wave; Fire Punch/Earthquake/Rock Slide"
+    },
+    {
+     "name": "Tank",
+     "role": "defensive / utility",
+     "tier": "uu",
+     "item": "ITEM_AGGRONITE",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_IMPISH",
+     "evs": {
+      "hp": 252,
+      "atk": 0,
+      "def": 16,
+      "spatk": 0,
+      "spdef": 240,
+      "speed": 0
+     },
+     "moves": [
+      "MOVE_STEALTH_ROCK",
+      "MOVE_ROAR",
+      "MOVE_HEAVY_SLAM",
+      "MOVE_EARTHQUAKE"
+     ],
+     "source": "Smogon data.pkmn.cc (gen6 uu, base+stone)",
+     "notes": "Roar/Toxic/Thunder Wave"
+    }
+   ],
+   "_note": "official Gen 6 Mega"
+  },
+  {
+   "species": "SPECIES_ALAKAZAM_MEGA",
+   "displayName": "Alakazam Mega",
+   "tier": "mega",
+   "sets": [
+    {
+     "name": "Psychic Terrain Sweeper",
+     "role": "attacker",
+     "tier": "battlespotsingles",
+     "item": "ITEM_ALAKAZITE",
+     "ability": "ABILITY_MAGIC_GUARD",
+     "nature": "NATURE_TIMID",
+     "evs": {
+      "hp": 52,
+      "atk": 0,
+      "def": 172,
+      "spatk": 36,
+      "spdef": 4,
+      "speed": 244
+     },
+     "moves": [
+      "MOVE_PSYCHIC",
+      "MOVE_FOCUS_BLAST",
+      "MOVE_SHADOW_BALL",
+      "MOVE_HIDDEN_POWER"
+     ],
+     "source": "Smogon data.pkmn.cc (gen7 battlespotsingles, base+stone)",
+     "notes": "Hidden Power Ice/Hidden Power Fire/Encore/Substitute; HP Ice"
+    },
+    {
+     "name": "Spoonmaster (Standard)",
+     "role": "attacker",
+     "tier": "cap",
+     "item": "ITEM_ALAKAZITE",
+     "ability": "ABILITY_MAGIC_GUARD",
+     "nature": "NATURE_TIMID",
+     "evs": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "spatk": 252,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_PSYCHIC",
+      "MOVE_FOCUS_BLAST",
+      "MOVE_RECOVER",
+      "MOVE_KNOCK_OFF"
+     ],
+     "source": "Smogon data.pkmn.cc (gen7 cap, base+stone)",
+     "notes": "Knock Off/Shadow Ball/Calm Mind"
+    },
+    {
+     "name": "Wallbreaker",
+     "role": "wallbreaker",
+     "tier": "letsgoou",
+     "item": "ITEM_ALAKAZITE",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_TIMID",
+     "evs": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 0,
+      "speed": 0
+     },
+     "moves": [
+      "MOVE_PSYCHIC",
+      "MOVE_DAZZLING_GLEAM",
+      "MOVE_SHADOW_BALL",
+      "MOVE_CALM_MIND"
+     ],
+     "source": "Smogon data.pkmn.cc (gen7 letsgoou, base+stone)",
+     "notes": "Dazzling Gleam/Recover; Shadow Ball/Recover"
+    },
+    {
+     "name": "Offensive",
+     "role": "attacker",
+     "tier": "ou",
+     "item": "ITEM_ALAKAZITE",
+     "ability": "ABILITY_MAGIC_GUARD",
+     "nature": "NATURE_TIMID",
+     "evs": {
+      "hp": 0,
+      "atk": 0,
+      "def": 4,
+      "spatk": 252,
+      "spdef": 0,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_PSYCHIC",
+      "MOVE_FOCUS_BLAST",
+      "MOVE_SHADOW_BALL",
+      "MOVE_RECOVER"
+     ],
+     "source": "Smogon data.pkmn.cc (gen7 ou, base+stone)",
+     "notes": "Shadow Ball/Calm Mind; Recover/Calm Mind/Energy Ball/Taunt/Knock Off"
+    },
+    {
+     "name": "Utility Attacker",
+     "role": "defensive / utility",
+     "tier": "ou",
+     "item": "ITEM_ALAKAZITE",
+     "ability": "ABILITY_MAGIC_GUARD",
+     "nature": "NATURE_TIMID",
+     "evs": {
+      "hp": 0,
+      "atk": 0,
+      "def": 4,
+      "spatk": 252,
+      "spdef": 0,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_PSYCHIC",
+      "MOVE_FOCUS_BLAST",
+      "MOVE_SHADOW_BALL",
+      "MOVE_ENCORE"
+     ],
+     "source": "Smogon data.pkmn.cc (gen6 ou, base+stone)",
+     "notes": "Encore/Taunt"
+    },
+    {
+     "name": "Colorful Attacker",
+     "role": "attacker",
+     "tier": "ou",
+     "item": "ITEM_ALAKAZITE",
+     "ability": "ABILITY_MAGIC_GUARD",
+     "nature": "NATURE_TIMID",
+     "evs": {
+      "hp": 4,
+      "atk": 0,
+      "def": 0,
+      "spatk": 252,
+      "spdef": 0,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_CALM_MIND",
+      "MOVE_PSYCHIC",
+      "MOVE_FOCUS_BLAST",
+      "MOVE_SHADOW_BALL"
+     ],
+     "source": "Smogon data.pkmn.cc (gen6 ou, base+stone)",
+     "notes": "Calm Mind/Hidden Power Fire/Substitute; Psychic/Psyshock; Focus Blast/Dazzling Gleam; Shadow Ball/Energy Ball"
+    }
+   ],
+   "_note": "official Gen 6 Mega"
+  },
+  {
+   "species": "SPECIES_ALTARIA_MEGA",
+   "displayName": "Altaria Mega",
+   "tier": "mega",
+   "sets": [
+    {
+     "name": "Offensive Dragon Dance (Dragon)",
+     "role": "setup sweeper",
+     "tier": "monotype",
+     "item": "ITEM_ALTARIANITE",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_JOLLY",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_RETURN",
+      "MOVE_DRAGON_DANCE",
+      "MOVE_ROOST",
+      "MOVE_EARTHQUAKE"
+     ],
+     "source": "Smogon data.pkmn.cc (gen7 monotype, base+stone)",
+     "notes": "Earthquake/Heal Bell"
+    },
+    {
+     "name": "Bulky Dragon Dance (Dragon)",
+     "role": "setup sweeper",
+     "tier": "monotype",
+     "item": "ITEM_ALTARIANITE",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_IMPISH",
+     "evs": {
+      "hp": 252,
+      "atk": 0,
+      "def": 16,
+      "spatk": 0,
+      "spdef": 0,
+      "speed": 240
+     },
+     "moves": [
+      "MOVE_RETURN",
+      "MOVE_DRAGON_DANCE",
+      "MOVE_ROOST",
+      "MOVE_REFRESH"
+     ],
+     "source": "Smogon data.pkmn.cc (gen7 monotype, base+stone)",
+     "notes": "Refresh/Heal Bell"
+    },
+    {
+     "name": "Support (Dragon)",
+     "role": "defensive / utility",
+     "tier": "monotype",
+     "item": "ITEM_ALTARIANITE",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_JOLLY",
+     "evs": {
+      "hp": 252,
+      "atk": 0,
+      "def": 80,
+      "spatk": 0,
+      "spdef": 0,
+      "speed": 176
+     },
+     "moves": [
+      "MOVE_BODY_SLAM",
+      "MOVE_ROOST",
+      "MOVE_DEFOG",
+      "MOVE_HEAL_BELL"
+     ],
+     "source": "Smogon data.pkmn.cc (gen7 monotype, base+stone)",
+     "notes": ""
+    },
+    {
+     "name": "Utility",
+     "role": "defensive / utility",
+     "tier": "ou",
+     "item": "ITEM_ALTARIANITE",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_IMPISH",
+     "evs": {
+      "hp": 240,
+      "atk": 0,
+      "def": 136,
+      "spatk": 0,
+      "spdef": 76,
+      "speed": 56
+     },
+     "moves": [
+      "MOVE_BODY_SLAM",
+      "MOVE_ROOST",
+      "MOVE_ROAR",
+      "MOVE_HEAL_BELL"
+     ],
+     "source": "Smogon data.pkmn.cc (gen7 ou, base+stone)",
+     "notes": "Roar/Earthquake"
+    },
+    {
+     "name": "Defensive",
+     "role": "defensive / utility",
+     "tier": "uu",
+     "item": "ITEM_ALTARIANITE",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_IMPISH",
+     "evs": {
+      "hp": 252,
+      "atk": 0,
+      "def": 200,
+      "spatk": 0,
+      "spdef": 0,
+      "speed": 56
+     },
+     "moves": [
+      "MOVE_RETURN",
+      "MOVE_FLAMETHROWER",
+      "MOVE_HEAL_BELL",
+      "MOVE_ROOST"
+     ],
+     "source": "Smogon data.pkmn.cc (gen7 uu, base+stone)",
+     "notes": "Flamethrower/Dragon Dance/Defog; Heal Bell/Defog"
+    },
+    {
+     "name": "Special Tank",
+     "role": "defensive / utility",
+     "tier": "uu",
+     "item": "ITEM_ALTARIANITE",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_MODEST",
+     "evs": {
+      "hp": 248,
+      "atk": 0,
+      "def": 4,
+      "spatk": 160,
+      "spdef": 0,
+      "speed": 96
+     },
+     "moves": [
+      "MOVE_HYPER_VOICE",
+      "MOVE_FIRE_BLAST",
+      "MOVE_TOXIC",
+      "MOVE_ROOST"
+     ],
+     "source": "Smogon data.pkmn.cc (gen7 uu, base+stone)",
+     "notes": ""
+    },
+    {
+     "name": "Offensive Dragon Dance",
+     "role": "setup sweeper",
+     "tier": "ou",
+     "item": "ITEM_ALTARIANITE",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_ADAMANT",
+     "evs": {
+      "hp": 88,
+      "atk": 180,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 0,
+      "speed": 240
+     },
+     "moves": [
+      "MOVE_DRAGON_DANCE",
+      "MOVE_SUBSTITUTE",
+      "MOVE_FRUSTRATION",
+      "MOVE_EARTHQUAKE"
+     ],
+     "source": "Smogon data.pkmn.cc (gen6 ou, base+stone)",
+     "notes": ""
+    },
+    {
+     "name": "King DDD (Defensive Dragon Dance)",
+     "role": "setup sweeper",
+     "tier": "ou",
+     "item": "ITEM_ALTARIANITE",
+     "ability": "ABILITY_CLOUD_NINE",
+     "nature": "NATURE_IMPISH",
+     "evs": {
+      "hp": 252,
+      "atk": 0,
+      "def": 136,
+      "spatk": 0,
+      "spdef": 92,
+      "speed": 28
+     },
+     "moves": [
+      "MOVE_DRAGON_DANCE",
+      "MOVE_ROOST",
+      "MOVE_RETURN",
+      "MOVE_HEAL_BELL"
+     ],
+     "source": "Smogon data.pkmn.cc (gen6 ou, base+stone)",
+     "notes": "Heal Bell/Substitute/Earthquake"
+    }
+   ],
+   "_note": "official Gen 6 Mega"
+  },
+  {
+   "species": "SPECIES_AMPHAROS_MEGA",
+   "displayName": "Ampharos Mega",
+   "tier": "mega",
+   "sets": [
+    {
+     "name": "Physically Defensive",
+     "role": "defensive / utility",
+     "tier": "uu",
+     "item": "ITEM_AMPHAROSITE",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_BOLD",
+     "evs": {
+      "hp": 252,
+      "atk": 0,
+      "def": 252,
+      "spatk": 4,
+      "spdef": 0,
+      "speed": 0
+     },
+     "moves": [
+      "MOVE_REST",
+      "MOVE_SLEEP_TALK",
+      "MOVE_VOLT_SWITCH",
+      "MOVE_DRAGON_PULSE"
+     ],
+     "source": "Smogon data.pkmn.cc (gen6 uu, base+stone)",
+     "notes": ""
+    },
+    {
+     "name": "All-out Attacker",
+     "role": "attacker",
+     "tier": "uu",
+     "item": "ITEM_AMPHAROSITE",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_MODEST",
+     "evs": {
+      "hp": 132,
+      "atk": 0,
+      "def": 0,
+      "spatk": 252,
+      "spdef": 0,
+      "speed": 124
+     },
+     "moves": [
+      "MOVE_THUNDERBOLT",
+      "MOVE_DRAGON_PULSE",
+      "MOVE_FOCUS_BLAST",
+      "MOVE_VOLT_SWITCH"
+     ],
+     "source": "Smogon data.pkmn.cc (gen6 uu, base+stone)",
+     "notes": ""
+    },
+    {
+     "name": "Agility",
+     "role": "setup sweeper",
+     "tier": "uu",
+     "item": "ITEM_AMPHAROSITE",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_TIMID",
+     "evs": {
+      "hp": 32,
+      "atk": 0,
+      "def": 0,
+      "spatk": 252,
+      "spdef": 0,
+      "speed": 224
+     },
+     "moves": [
+      "MOVE_AGILITY",
+      "MOVE_THUNDERBOLT",
+      "MOVE_DRAGON_PULSE",
+      "MOVE_FOCUS_BLAST"
+     ],
+     "source": "Smogon data.pkmn.cc (gen6 uu, base+stone)",
+     "notes": ""
+    }
+   ],
+   "_note": "official Gen 6 Mega"
+  },
+  {
+   "species": "SPECIES_AUDINO_MEGA",
+   "displayName": "Audino Mega",
+   "tier": "mega",
+   "sets": [
+    {
+     "name": "Defensive Pivot",
+     "role": "defensive / utility",
+     "tier": "nu",
+     "item": "ITEM_AUDINITE",
+     "ability": "ABILITY_REGENERATOR",
+     "nature": "NATURE_CALM",
+     "evs": {
+      "hp": 252,
+      "atk": 0,
+      "def": 4,
+      "spatk": 0,
+      "spdef": 252,
+      "speed": 0
+     },
+     "moves": [
+      "MOVE_WISH",
+      "MOVE_PROTECT",
+      "MOVE_HEAL_BELL",
+      "MOVE_KNOCK_OFF"
+     ],
+     "source": "Smogon data.pkmn.cc (gen7 nu, base+stone)",
+     "notes": "Heal Bell/Toxic; Knock Off/Dazzling Gleam"
+    },
+    {
+     "name": "Defensive Calm Mind",
+     "role": "setup sweeper",
+     "tier": "nu",
+     "item": "ITEM_AUDINITE",
+     "ability": "ABILITY_REGENERATOR",
+     "nature": "NATURE_BOLD",
+     "evs": {
+      "hp": 252,
+      "atk": 0,
+      "def": 208,
+      "spatk": 48,
+      "spdef": 0,
+      "speed": 0
+     },
+     "moves": [
+      "MOVE_CALM_MIND",
+      "MOVE_DAZZLING_GLEAM",
+      "MOVE_WISH",
+      "MOVE_PROTECT"
+     ],
+     "source": "Smogon data.pkmn.cc (gen6 nu, base+stone)",
+     "notes": "Wish/Rest; Protect/Sleep Talk"
+    },
+    {
+     "name": "Offensive Pivot",
+     "role": "defensive / utility",
+     "tier": "nu",
+     "item": "ITEM_AUDINITE",
+     "ability": "ABILITY_REGENERATOR",
+     "nature": "NATURE_MODEST",
+     "evs": {
+      "hp": 0,
+      "atk": 0,
+      "def": 4,
+      "spatk": 252,
+      "spdef": 0,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_CALM_MIND",
+      "MOVE_DAZZLING_GLEAM",
+      "MOVE_FIRE_BLAST",
+      "MOVE_SURF"
+     ],
+     "source": "Smogon data.pkmn.cc (gen6 nu, base+stone)",
+     "notes": "Calm Mind/Healing Wish; Surf/Thunder Wave/Psychic"
+    },
+    {
+     "name": "Mixed Defensive Pivot",
+     "role": "defensive / utility",
+     "tier": "nu",
+     "item": "ITEM_AUDINITE",
+     "ability": "ABILITY_REGENERATOR",
+     "nature": "NATURE_CALM",
+     "evs": {
+      "hp": 252,
+      "atk": 0,
+      "def": 128,
+      "spatk": 0,
+      "spdef": 128,
+      "speed": 0
+     },
+     "moves": [
+      "MOVE_WISH",
+      "MOVE_PROTECT",
+      "MOVE_HEAL_BELL",
+      "MOVE_DAZZLING_GLEAM"
+     ],
+     "source": "Smogon data.pkmn.cc (gen6 nu, base+stone)",
+     "notes": "Heal Bell/Fire Blast/Encore"
+    },
+    {
+     "name": "Mega Tank",
+     "role": "defensive / utility",
+     "tier": "ru",
+     "item": "ITEM_AUDINITE",
+     "ability": "ABILITY_REGENERATOR",
+     "nature": "NATURE_MODEST",
+     "evs": {
+      "hp": 248,
+      "atk": 0,
+      "def": 0,
+      "spatk": 252,
+      "spdef": 8,
+      "speed": 0
+     },
+     "moves": [
+      "MOVE_DAZZLING_GLEAM",
+      "MOVE_FIRE_BLAST",
+      "MOVE_SURF",
+      "MOVE_HEALING_WISH"
+     ],
+     "source": "Smogon data.pkmn.cc (gen6 ru, base+stone)",
+     "notes": ""
+    },
+    {
+     "name": "Calm Mind",
+     "role": "setup sweeper",
+     "tier": "ru",
+     "item": "ITEM_AUDINITE",
+     "ability": "ABILITY_REGENERATOR",
+     "nature": "NATURE_BOLD",
+     "evs": {
+      "hp": 252,
+      "atk": 0,
+      "def": 252,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 0
+     },
+     "moves": [
+      "MOVE_CALM_MIND",
+      "MOVE_REST",
+      "MOVE_SLEEP_TALK",
+      "MOVE_DAZZLING_GLEAM"
+     ],
+     "source": "Smogon data.pkmn.cc (gen6 ru, base+stone)",
+     "notes": ""
+    }
+   ],
+   "_note": "official Gen 6 Mega"
+  },
+  {
+   "species": "SPECIES_BANETTE_MEGA",
+   "displayName": "Banette Mega",
+   "tier": "mega",
+   "sets": [
     {
      "name": "Offensive",
      "role": "attacker",
@@ -158,28 +1157,153 @@
       "MOVE_SHADOW_CLAW",
       "MOVE_SHADOW_SNEAK"
      ],
-     "source": "Smogon data.pkmn.cc (gen6 ru)",
+     "source": "Smogon data.pkmn.cc (gen6 ru, base+stone)",
      "notes": "Shadow Sneak/Sucker Punch/Destiny Bond"
+    },
+    {
+     "name": "Prankster",
+     "role": "attacker",
+     "tier": "uu",
+     "item": "ITEM_BANETTITE",
+     "ability": "ABILITY_FRISK",
+     "nature": "NATURE_ADAMANT",
+     "evs": {
+      "hp": 252,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 0
+     },
+     "moves": [
+      "MOVE_TAUNT",
+      "MOVE_WILL_O_WISP",
+      "MOVE_SHADOW_CLAW",
+      "MOVE_DESTINY_BOND"
+     ],
+     "source": "Smogon data.pkmn.cc (gen6 uu, base+stone)",
+     "notes": "Will-O-Wisp/Thunder Wave; Shadow Claw/Shadow Sneak/Knock Off"
     }
-   ]
+   ],
+   "_note": "official Gen 6 Mega"
   },
   {
    "species": "SPECIES_BARBARACLE_MEGA",
    "displayName": "Barbaracle Mega",
    "tier": "mega",
-   "sets": []
+   "sets": [],
+   "_note": "custom Pokemon Legends: Z-A Mega - awaiting source doc"
   },
   {
    "species": "SPECIES_BAXCALIBUR_MEGA",
    "displayName": "Baxcalibur Mega",
    "tier": "mega",
-   "sets": []
+   "sets": [],
+   "_note": "custom Pokemon Legends: Z-A Mega - awaiting source doc"
   },
   {
    "species": "SPECIES_BEEDRILL_MEGA",
    "displayName": "Beedrill Mega",
    "tier": "mega",
-   "sets": []
+   "sets": [
+    {
+     "name": "Mega Scout",
+     "role": "attacker",
+     "tier": "battlespotsingles",
+     "item": "ITEM_BEEDRILLITE",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_JOLLY",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 4,
+      "spatk": 0,
+      "spdef": 0,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_U_TURN",
+      "MOVE_POISON_JAB",
+      "MOVE_DRILL_RUN",
+      "MOVE_KNOCK_OFF"
+     ],
+     "source": "Smogon data.pkmn.cc (gen7 battlespotsingles, base+stone)",
+     "notes": "Knock Off/Fell Stinger"
+    },
+    {
+     "name": "Offensive Pivot",
+     "role": "defensive / utility",
+     "tier": "letsgoou",
+     "item": "ITEM_BEEDRILLITE",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_ADAMANT",
+     "evs": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 0,
+      "speed": 0
+     },
+     "moves": [
+      "MOVE_U_TURN",
+      "MOVE_POISON_JAB",
+      "MOVE_DRILL_RUN",
+      "MOVE_ROOST"
+     ],
+     "source": "Smogon data.pkmn.cc (gen7 letsgoou, base+stone)",
+     "notes": ""
+    },
+    {
+     "name": "Offensive Pivot",
+     "role": "defensive / utility",
+     "tier": "battlespotsingles",
+     "item": "ITEM_BEEDRILLITE",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_JOLLY",
+     "evs": {
+      "hp": 0,
+      "atk": 228,
+      "def": 36,
+      "spatk": 0,
+      "spdef": 0,
+      "speed": 244
+     },
+     "moves": [
+      "MOVE_U_TURN",
+      "MOVE_POISON_JAB",
+      "MOVE_PROTECT",
+      "MOVE_DRILL_RUN"
+     ],
+     "source": "Smogon data.pkmn.cc (gen6 battlespotsingles, base+stone)",
+     "notes": "Protect/Swords Dance; Drill Run/Knock Off"
+    },
+    {
+     "name": "U-turn",
+     "role": "attacker",
+     "tier": "ou",
+     "item": "ITEM_BEEDRILLITE",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_JOLLY",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 4,
+      "spatk": 0,
+      "spdef": 0,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_PROTECT",
+      "MOVE_U_TURN",
+      "MOVE_POISON_JAB",
+      "MOVE_KNOCK_OFF"
+     ],
+     "source": "Smogon data.pkmn.cc (gen6 ou, base+stone)",
+     "notes": "Knock Off/Drill Run"
+    }
+   ],
+   "_note": "official Gen 6 Mega"
   },
   {
    "species": "SPECIES_BLASTOISE_MEGA",
@@ -187,11 +1311,506 @@
    "tier": "mega",
    "sets": [
     {
-     "name": "Offensive Spinner",
+     "name": "Mega Tank",
      "role": "defensive / utility",
-     "tier": "ru",
+     "tier": "battlespotsingles",
+     "item": "ITEM_BLASTOISINITE",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_MODEST",
+     "evs": {
+      "hp": 252,
+      "atk": 0,
+      "def": 0,
+      "spatk": 252,
+      "spdef": 0,
+      "speed": 4
+     },
+     "moves": [
+      "MOVE_WATER_PULSE",
+      "MOVE_ICE_BEAM",
+      "MOVE_AURA_SPHERE",
+      "MOVE_AQUA_JET"
+     ],
+     "source": "Smogon data.pkmn.cc (gen7 battlespotsingles, base+stone)",
+     "notes": "Aura Sphere/Dark Pulse"
+    },
+    {
+     "name": "Offensive Wallbreaker",
+     "role": "wallbreaker",
+     "tier": "uu",
      "item": "ITEM_BLASTOISINITE",
      "ability": "ABILITY_RAIN_DISH",
+     "nature": "NATURE_MODEST",
+     "evs": {
+      "hp": 104,
+      "atk": 0,
+      "def": 0,
+      "spatk": 252,
+      "spdef": 0,
+      "speed": 152
+     },
+     "moves": [
+      "MOVE_WATER_PULSE",
+      "MOVE_DARK_PULSE",
+      "MOVE_AURA_SPHERE",
+      "MOVE_ICE_BEAM"
+     ],
+     "source": "Smogon data.pkmn.cc (gen7 uu, base+stone)",
+     "notes": "Water Pulse/Hydro Pump; Aura Sphere/Ice Beam; Ice Beam/Rapid Spin"
+    },
+    {
+     "name": "Mega Attacker",
+     "role": "attacker",
+     "tier": "battlespottriples",
+     "item": "ITEM_BLASTOISINITE",
+     "ability": "ABILITY_RAIN_DISH",
+     "nature": "NATURE_MODEST",
+     "evs": {
+      "hp": 172,
+      "atk": 0,
+      "def": 0,
+      "spatk": 252,
+      "spdef": 4,
+      "speed": 76
+     },
+     "moves": [
+      "MOVE_WATER_SPOUT",
+      "MOVE_DARK_PULSE",
+      "MOVE_AURA_SPHERE",
+      "MOVE_FAKE_OUT"
+     ],
+     "source": "Smogon data.pkmn.cc (gen6 battlespottriples, base+stone)",
+     "notes": "Water Spout/Water Pulse; Fake Out/Water Pulse/Protect"
+    },
+    {
+     "name": "Offensive Spinner",
+     "role": "defensive / utility",
+     "tier": "uu",
+     "item": "ITEM_BLASTOISINITE",
+     "ability": "ABILITY_RAIN_DISH",
+     "nature": "NATURE_MODEST",
+     "evs": {
+      "hp": 184,
+      "atk": 0,
+      "def": 0,
+      "spatk": 252,
+      "spdef": 0,
+      "speed": 72
+     },
+     "moves": [
+      "MOVE_RAPID_SPIN",
+      "MOVE_SCALD",
+      "MOVE_DARK_PULSE",
+      "MOVE_ICE_BEAM"
+     ],
+     "source": "Smogon data.pkmn.cc (gen6 uu, base+stone)",
+     "notes": "Scald/Hydro Pump; Ice Beam/Dragon Pulse/Aura Sphere"
+    },
+    {
+     "name": "All-Out Attacker",
+     "role": "attacker",
+     "tier": "uu",
+     "item": "ITEM_BLASTOISINITE",
+     "ability": "ABILITY_RAIN_DISH",
+     "nature": "NATURE_MODEST",
+     "evs": {
+      "hp": 56,
+      "atk": 0,
+      "def": 0,
+      "spatk": 252,
+      "spdef": 0,
+      "speed": 200
+     },
+     "moves": [
+      "MOVE_SCALD",
+      "MOVE_DARK_PULSE",
+      "MOVE_AURA_SPHERE",
+      "MOVE_ICE_BEAM"
+     ],
+     "source": "Smogon data.pkmn.cc (gen6 uu, base+stone)",
+     "notes": "Scald/Hydro Pump; Ice Beam/Dragon Pulse"
+    }
+   ],
+   "_note": "official Gen 6 Mega"
+  },
+  {
+   "species": "SPECIES_BLAZIKEN_MEGA",
+   "displayName": "Blaziken Mega",
+   "tier": "mega",
+   "sets": [
+    {
+     "name": "Physical Attacker",
+     "role": "attacker",
+     "tier": "battlespotsingles",
+     "item": "ITEM_BLAZIKENITE",
+     "ability": "ABILITY_SPEED_BOOST",
+     "nature": "NATURE_JOLLY",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 4,
+      "spatk": 0,
+      "spdef": 0,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_FLARE_BLITZ",
+      "MOVE_HIGH_JUMP_KICK",
+      "MOVE_PROTECT",
+      "MOVE_SWORDS_DANCE"
+     ],
+     "source": "Smogon data.pkmn.cc (gen7 battlespotsingles, base+stone)",
+     "notes": "High Jump Kick/Superpower; Swords Dance/Stone Edge/Baton Pass"
+    },
+    {
+     "name": "Swords Dance",
+     "role": "setup sweeper",
+     "tier": "ubers",
+     "item": "ITEM_BLAZIKENITE",
+     "ability": "ABILITY_SPEED_BOOST",
+     "nature": "NATURE_ADAMANT",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 4,
+      "spatk": 0,
+      "spdef": 0,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_SWORDS_DANCE",
+      "MOVE_FLARE_BLITZ",
+      "MOVE_LOW_KICK",
+      "MOVE_STONE_EDGE"
+     ],
+     "source": "Smogon data.pkmn.cc (gen7 ubers, base+stone)",
+     "notes": "Stone Edge/Knock Off"
+    },
+    {
+     "name": "Mega Sweeper",
+     "role": "attacker",
+     "tier": "battlespotsingles",
+     "item": "ITEM_BLAZIKENITE",
+     "ability": "ABILITY_SPEED_BOOST",
+     "nature": "NATURE_ADAMANT",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_FLARE_BLITZ",
+      "MOVE_SUPERPOWER",
+      "MOVE_KNOCK_OFF",
+      "MOVE_PROTECT"
+     ],
+     "source": "Smogon data.pkmn.cc (gen6 battlespotsingles, base+stone)",
+     "notes": "Superpower/High Jump Kick; Knock Off/Swords Dance/Stone Edge/Thunder Punch"
+    }
+   ],
+   "_note": "official Gen 6 Mega"
+  },
+  {
+   "species": "SPECIES_CAMERUPT_MEGA",
+   "displayName": "Camerupt Mega",
+   "tier": "mega",
+   "sets": [
+    {
+     "name": "Offensive Stealth Rock",
+     "role": "hazard lead",
+     "tier": "ou",
+     "item": "ITEM_CAMERUPTITE",
+     "ability": "ABILITY_SHEER_FORCE",
+     "nature": "NATURE_MODEST",
+     "evs": {
+      "hp": 132,
+      "atk": 0,
+      "def": 0,
+      "spatk": 252,
+      "spdef": 0,
+      "speed": 124
+     },
+     "moves": [
+      "MOVE_STEALTH_ROCK",
+      "MOVE_FIRE_BLAST",
+      "MOVE_EARTH_POWER",
+      "MOVE_TOXIC"
+     ],
+     "source": "Smogon data.pkmn.cc (gen7 ou, base+stone)",
+     "notes": "Toxic/Substitute/Rock Slide/Nature Power"
+    },
+    {
+     "name": "Tank",
+     "role": "defensive / utility",
+     "tier": "ru",
+     "item": "ITEM_CAMERUPTITE",
+     "ability": "ABILITY_SOLID_ROCK",
+     "nature": "NATURE_CALM",
+     "evs": {
+      "hp": 252,
+      "atk": 0,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 172,
+      "speed": 84
+     },
+     "moves": [
+      "MOVE_FIRE_BLAST",
+      "MOVE_EARTH_POWER",
+      "MOVE_REST",
+      "MOVE_SLEEP_TALK"
+     ],
+     "source": "Smogon data.pkmn.cc (gen7 ru, base+stone)",
+     "notes": ""
+    },
+    {
+     "name": "Wallbreaker",
+     "role": "wallbreaker",
+     "tier": "uu",
+     "item": "ITEM_CAMERUPTITE",
+     "ability": "ABILITY_SOLID_ROCK",
+     "nature": "NATURE_MODEST",
+     "evs": {
+      "hp": 252,
+      "atk": 0,
+      "def": 4,
+      "spatk": 252,
+      "spdef": 0,
+      "speed": 0
+     },
+     "moves": [
+      "MOVE_FIRE_BLAST",
+      "MOVE_EARTH_POWER",
+      "MOVE_ANCIENT_POWER",
+      "MOVE_HIDDEN_POWER"
+     ],
+     "source": "Smogon data.pkmn.cc (gen6 uu, base+stone)",
+     "notes": "Hidden Power Grass/Will-O-Wisp; HP Grass"
+    }
+   ],
+   "_note": "official Gen 6 Mega"
+  },
+  {
+   "species": "SPECIES_CHANDELURE_MEGA",
+   "displayName": "Chandelure Mega",
+   "tier": "mega",
+   "sets": [],
+   "_note": "custom Pokemon Legends: Z-A Mega - awaiting source doc"
+  },
+  {
+   "species": "SPECIES_CHARIZARD_MEGA_X",
+   "displayName": "Charizard Mega X",
+   "tier": "mega",
+   "sets": [
+    {
+     "name": "Dragon Dance",
+     "role": "setup sweeper",
+     "tier": "battlespotsingles",
+     "item": "ITEM_CHARIZARDITE_X",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_JOLLY",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 4,
+      "spatk": 0,
+      "spdef": 0,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_DRAGON_DANCE",
+      "MOVE_FLARE_BLITZ",
+      "MOVE_OUTRAGE",
+      "MOVE_EARTHQUAKE"
+     ],
+     "source": "Smogon data.pkmn.cc (gen7 battlespotsingles, base+stone)",
+     "notes": "Earthquake/Roost/Thunder Punch/Dragon Claw"
+    },
+    {
+     "name": "Versatile Sweeper",
+     "role": "attacker",
+     "tier": "battlespotsingles",
+     "item": "ITEM_CHARIZARDITE_X",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_ADAMANT",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 4,
+      "spatk": 0,
+      "spdef": 0,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_SWORDS_DANCE",
+      "MOVE_FLAME_CHARGE",
+      "MOVE_OUTRAGE",
+      "MOVE_FLARE_BLITZ"
+     ],
+     "source": "Smogon data.pkmn.cc (gen7 battlespotsingles, base+stone)",
+     "notes": "Flare Blitz/Earthquake"
+    },
+    {
+     "name": "Defensive",
+     "role": "defensive / utility",
+     "tier": "battlespotsingles",
+     "item": "ITEM_CHARIZARDITE_X",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_JOLLY",
+     "evs": {
+      "hp": 164,
+      "atk": 0,
+      "def": 116,
+      "spatk": 0,
+      "spdef": 0,
+      "speed": 228
+     },
+     "moves": [
+      "MOVE_WILL_O_WISP",
+      "MOVE_ROOST",
+      "MOVE_DRAGON_CLAW",
+      "MOVE_EARTHQUAKE"
+     ],
+     "source": "Smogon data.pkmn.cc (gen7 battlespotsingles, base+stone)",
+     "notes": "Earthquake/Flame Charge"
+    },
+    {
+     "name": "Phazer X",
+     "role": "attacker",
+     "tier": "letsgoou",
+     "item": "ITEM_CHARIZARDITE_X",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_TIMID",
+     "evs": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 0,
+      "speed": 0
+     },
+     "moves": [
+      "MOVE_DRAGON_TAIL",
+      "MOVE_FIRE_BLAST",
+      "MOVE_DRAGON_PULSE",
+      "MOVE_ROOST"
+     ],
+     "source": "Smogon data.pkmn.cc (gen7 letsgoou, base+stone)",
+     "notes": "Dragon Pulse/Will-O-Wisp"
+    },
+    {
+     "name": "Special Attacker X",
+     "role": "attacker",
+     "tier": "letsgoou",
+     "item": "ITEM_CHARIZARDITE_X",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_TIMID",
+     "evs": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 0,
+      "speed": 0
+     },
+     "moves": [
+      "MOVE_FIRE_BLAST",
+      "MOVE_DRAGON_PULSE",
+      "MOVE_WILL_O_WISP",
+      "MOVE_ROOST"
+     ],
+     "source": "Smogon data.pkmn.cc (gen7 letsgoou, base+stone)",
+     "notes": ""
+    },
+    {
+     "name": "Dragon Dance (Fire)",
+     "role": "setup sweeper",
+     "tier": "monotype",
+     "item": "ITEM_CHARIZARDITE_X",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_JOLLY",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_DRAGON_DANCE",
+      "MOVE_FLARE_BLITZ",
+      "MOVE_OUTRAGE",
+      "MOVE_ROOST"
+     ],
+     "source": "Smogon data.pkmn.cc (gen7 monotype, base+stone)",
+     "notes": "Outrage/Dragon Claw; Roost/Earthquake"
+    },
+    {
+     "name": "Dragon Dance",
+     "role": "setup sweeper",
+     "tier": "ou",
+     "item": "ITEM_CHARIZARDITE_X",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_JOLLY",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_DRAGON_DANCE",
+      "MOVE_FLARE_BLITZ",
+      "MOVE_EARTHQUAKE",
+      "MOVE_DRAGON_CLAW"
+     ],
+     "source": "Smogon data.pkmn.cc (gen7 ou, base+stone)",
+     "notes": "Dragon Claw/Roost"
+    },
+    {
+     "name": "Swords Dance",
+     "role": "setup sweeper",
+     "tier": "ou",
+     "item": "ITEM_CHARIZARDITE_X",
+     "ability": "ABILITY_TOUGH_CLAWS",
+     "nature": "NATURE_JOLLY",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 4,
+      "spatk": 0,
+      "spdef": 0,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_SWORDS_DANCE",
+      "MOVE_FLARE_BLITZ",
+      "MOVE_DRAGON_CLAW",
+      "MOVE_ROOST"
+     ],
+     "source": "Smogon data.pkmn.cc (gen7 ou, base+stone)",
+     "notes": ""
+    }
+   ],
+   "_note": "official Gen 6 Mega"
+  },
+  {
+   "species": "SPECIES_CHARIZARD_MEGA_Y",
+   "displayName": "Charizard Mega Y",
+   "tier": "mega",
+   "sets": [
+    {
+     "name": "Drought Attacker",
+     "role": "attacker",
+     "tier": "battlespotsingles",
+     "item": "ITEM_CHARIZARDITE_Y",
+     "ability": "ABILITY_BLAZE",
      "nature": "NATURE_TIMID",
      "evs": {
       "hp": 0,
@@ -202,202 +1821,919 @@
       "speed": 252
      },
      "moves": [
-      "MOVE_RAPID_SPIN",
-      "MOVE_DARK_PULSE",
-      "MOVE_AURA_SPHERE",
-      "MOVE_ICE_BEAM"
+      "MOVE_FLAMETHROWER",
+      "MOVE_SOLAR_BEAM",
+      "MOVE_FOCUS_BLAST",
+      "MOVE_OVERHEAT"
      ],
-     "source": "Smogon data.pkmn.cc (gen7 ru)",
-     "notes": ""
-    }
-   ]
-  },
-  {
-   "species": "SPECIES_BLAZIKEN_MEGA",
-   "displayName": "Blaziken Mega",
-   "tier": "mega",
-   "sets": []
-  },
-  {
-   "species": "SPECIES_CAMERUPT_MEGA",
-   "displayName": "Camerupt Mega",
-   "tier": "mega",
-   "sets": [
+     "source": "Smogon data.pkmn.cc (gen7 battlespotsingles, base+stone)",
+     "notes": "Flamethrower/Fire Blast; Overheat/Hidden Power Ice/Earthquake/Roost/Flame Charge"
+    },
     {
-     "name": "Tank",
-     "role": "defensive / utility",
-     "tier": "ru",
-     "item": "ITEM_CAMERUPTITE",
-     "ability": "ABILITY_SOLID_ROCK",
-     "nature": "NATURE_MODEST",
+     "name": "Wallbreaker Y",
+     "role": "wallbreaker",
+     "tier": "letsgoou",
+     "item": "ITEM_CHARIZARDITE_Y",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_TIMID",
      "evs": {
-      "hp": 248,
+      "hp": 0,
       "atk": 0,
       "def": 0,
-      "spatk": 176,
+      "spatk": 0,
       "spdef": 0,
-      "speed": 84
+      "speed": 0
      },
      "moves": [
       "MOVE_FIRE_BLAST",
-      "MOVE_EARTH_POWER",
-      "MOVE_STEALTH_ROCK",
-      "MOVE_TOXIC"
+      "MOVE_AIR_SLASH",
+      "MOVE_FLAMETHROWER",
+      "MOVE_ROOST"
      ],
-     "source": "Smogon data.pkmn.cc (gen6 ru)",
-     "notes": "Toxic/Hidden Power Ice"
+     "source": "Smogon data.pkmn.cc (gen7 letsgoou, base+stone)",
+     "notes": "Flamethrower/Earthquake/Substitute"
+    },
+    {
+     "name": "Wallbreaker (Fire)",
+     "role": "wallbreaker",
+     "tier": "monotype",
+     "item": "ITEM_CHARIZARDITE_Y",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_TIMID",
+     "evs": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "spatk": 252,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_FIRE_BLAST",
+      "MOVE_SOLAR_BEAM",
+      "MOVE_FOCUS_BLAST",
+      "MOVE_ROOST"
+     ],
+     "source": "Smogon data.pkmn.cc (gen7 monotype, base+stone)",
+     "notes": "Fire Blast/Flamethrower"
+    },
+    {
+     "name": "Drought Wallbreaker Y",
+     "role": "wallbreaker",
+     "tier": "ou",
+     "item": "ITEM_CHARIZARDITE_Y",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_TIMID",
+     "evs": {
+      "hp": 0,
+      "atk": 0,
+      "def": 4,
+      "spatk": 252,
+      "spdef": 0,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_FLAMETHROWER",
+      "MOVE_FOCUS_BLAST",
+      "MOVE_SOLAR_BEAM",
+      "MOVE_ROOST"
+     ],
+     "source": "Smogon data.pkmn.cc (gen7 ou, base+stone)",
+     "notes": "Flamethrower/Fire Blast; Focus Blast/Hidden Power Ground"
+    },
+    {
+     "name": "Wallbreaker (Fire)",
+     "role": "wallbreaker",
+     "tier": "monotype",
+     "item": "ITEM_CHARIZARDITE_Y",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_TIMID",
+     "evs": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "spatk": 252,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_FIRE_BLAST",
+      "MOVE_SOLAR_BEAM",
+      "MOVE_FOCUS_BLAST",
+      "MOVE_DEFOG"
+     ],
+     "source": "Smogon data.pkmn.cc (gen6 monotype, base+stone)",
+     "notes": "Fire Blast/Flamethrower; Defog/Roost"
     }
-   ]
-  },
-  {
-   "species": "SPECIES_CHANDELURE_MEGA",
-   "displayName": "Chandelure Mega",
-   "tier": "mega",
-   "sets": []
-  },
-  {
-   "species": "SPECIES_CHARIZARD_MEGA_X",
-   "displayName": "Charizard Mega X",
-   "tier": "mega",
-   "sets": []
-  },
-  {
-   "species": "SPECIES_CHARIZARD_MEGA_Y",
-   "displayName": "Charizard Mega Y",
-   "tier": "mega",
-   "sets": []
+   ],
+   "_note": "official Gen 6 Mega"
   },
   {
    "species": "SPECIES_CHESNAUGHT_MEGA",
    "displayName": "Chesnaught Mega",
    "tier": "mega",
-   "sets": []
+   "sets": [],
+   "_note": "custom Pokemon Legends: Z-A Mega - awaiting source doc"
   },
   {
    "species": "SPECIES_CHIMECHO_MEGA",
    "displayName": "Chimecho Mega",
    "tier": "mega",
-   "sets": []
+   "sets": [],
+   "_note": "custom Pokemon Legends: Z-A Mega - awaiting source doc"
   },
   {
    "species": "SPECIES_CLEFABLE_MEGA",
    "displayName": "Clefable Mega",
    "tier": "mega",
-   "sets": []
+   "sets": [],
+   "_note": "custom Pokemon Legends: Z-A Mega - awaiting source doc"
   },
   {
    "species": "SPECIES_CRABOMINABLE_MEGA",
    "displayName": "Crabominable Mega",
    "tier": "mega",
-   "sets": []
+   "sets": [],
+   "_note": "custom Pokemon Legends: Z-A Mega - awaiting source doc"
   },
   {
    "species": "SPECIES_DARKRAI_MEGA",
    "displayName": "Darkrai Mega",
    "tier": "mega-restricted",
-   "sets": []
+   "sets": [],
+   "_note": "custom Pokemon Legends: Z-A Mega - awaiting source doc"
   },
   {
    "species": "SPECIES_DELPHOX_MEGA",
    "displayName": "Delphox Mega",
    "tier": "mega",
-   "sets": []
+   "sets": [],
+   "_note": "custom Pokemon Legends: Z-A Mega - awaiting source doc"
   },
   {
    "species": "SPECIES_DIANCIE_MEGA",
    "displayName": "Diancie Mega",
    "tier": "mega-restricted",
-   "sets": []
+   "sets": [
+    {
+     "name": "Offensive (Fairy)",
+     "role": "attacker",
+     "tier": "monotype",
+     "item": "ITEM_DIANCITE",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_NAIVE",
+     "evs": {
+      "hp": 0,
+      "atk": 4,
+      "def": 0,
+      "spatk": 252,
+      "spdef": 0,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_MOONBLAST",
+      "MOVE_DIAMOND_STORM",
+      "MOVE_PSYCHIC",
+      "MOVE_STEALTH_ROCK"
+     ],
+     "source": "Smogon data.pkmn.cc (gen7 monotype, base+stone)",
+     "notes": "Psychic/Earth Power; Stealth Rock/Hidden Power Fire"
+    },
+    {
+     "name": "Mixed Attacker (Rock)",
+     "role": "attacker",
+     "tier": "monotype",
+     "item": "ITEM_DIANCITE",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_NAIVE",
+     "evs": {
+      "hp": 16,
+      "atk": 0,
+      "def": 0,
+      "spatk": 240,
+      "spdef": 0,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_DIAMOND_STORM",
+      "MOVE_MOONBLAST",
+      "MOVE_PSYCHIC",
+      "MOVE_HIDDEN_POWER"
+     ],
+     "source": "Smogon data.pkmn.cc (gen7 monotype, base+stone)",
+     "notes": "HP Fire"
+    },
+    {
+     "name": "Offensive",
+     "role": "attacker",
+     "tier": "ou",
+     "item": "ITEM_DIANCITE",
+     "ability": "ABILITY_MAGIC_BOUNCE",
+     "nature": "NATURE_HASTY",
+     "evs": {
+      "hp": 0,
+      "atk": 4,
+      "def": 0,
+      "spatk": 252,
+      "spdef": 0,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_STEALTH_ROCK",
+      "MOVE_MOONBLAST",
+      "MOVE_DIAMOND_STORM",
+      "MOVE_EARTH_POWER"
+     ],
+     "source": "Smogon data.pkmn.cc (gen7 ou, base+stone)",
+     "notes": "Stealth Rock/Protect; Diamond Storm/Earth Power; Earth Power/Hidden Power Ice/Hidden Power Fire"
+    },
+    {
+     "name": "Substitute + Endeavor",
+     "role": "special tank",
+     "tier": "ou",
+     "item": "ITEM_DIANCITE",
+     "ability": "ABILITY_MAGIC_BOUNCE",
+     "nature": "NATURE_JOLLY",
+     "evs": {
+      "hp": 240,
+      "atk": 0,
+      "def": 16,
+      "spatk": 0,
+      "spdef": 0,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_STEALTH_ROCK",
+      "MOVE_SUBSTITUTE",
+      "MOVE_ENDEAVOR",
+      "MOVE_DIAMOND_STORM"
+     ],
+     "source": "Smogon data.pkmn.cc (gen7 ou, base+stone)",
+     "notes": "Diamond Storm/Moonblast"
+    },
+    {
+     "name": "Mixed Attacker",
+     "role": "attacker",
+     "tier": "anythinggoes",
+     "item": "ITEM_DIANCITE",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_NAIVE",
+     "evs": {
+      "hp": 0,
+      "atk": 80,
+      "def": 0,
+      "spatk": 252,
+      "spdef": 0,
+      "speed": 176
+     },
+     "moves": [
+      "MOVE_MOONBLAST",
+      "MOVE_EARTH_POWER",
+      "MOVE_DIAMOND_STORM",
+      "MOVE_PROTECT"
+     ],
+     "source": "Smogon data.pkmn.cc (gen6 anythinggoes, base+stone)",
+     "notes": ""
+    },
+    {
+     "name": "Rock Polish",
+     "role": "attacker",
+     "tier": "cap",
+     "item": "ITEM_DIANCITE",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_RASH",
+     "evs": {
+      "hp": 64,
+      "atk": 0,
+      "def": 0,
+      "spatk": 252,
+      "spdef": 0,
+      "speed": 192
+     },
+     "moves": [
+      "MOVE_ROCK_POLISH",
+      "MOVE_MOONBLAST",
+      "MOVE_DIAMOND_STORM",
+      "MOVE_EARTH_POWER"
+     ],
+     "source": "Smogon data.pkmn.cc (gen6 cap, base+stone)",
+     "notes": "Earth Power/Hidden Power Fire"
+    },
+    {
+     "name": "Wallbreaker (Rock)",
+     "role": "wallbreaker",
+     "tier": "monotype",
+     "item": "ITEM_DIANCITE",
+     "ability": "ABILITY_MAGIC_BOUNCE",
+     "nature": "NATURE_NAIVE",
+     "evs": {
+      "hp": 0,
+      "atk": 4,
+      "def": 0,
+      "spatk": 252,
+      "spdef": 0,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_DIAMOND_STORM",
+      "MOVE_MOONBLAST",
+      "MOVE_PROTECT",
+      "MOVE_HIDDEN_POWER"
+     ],
+     "source": "Smogon data.pkmn.cc (gen6 monotype, base+stone)",
+     "notes": "Hidden Power Ice/Hidden Power Fire/Earth Power; HP Ice"
+    },
+    {
+     "name": "All-out Attacker (Fairy)",
+     "role": "attacker",
+     "tier": "monotype",
+     "item": "ITEM_DIANCITE",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_HASTY",
+     "evs": {
+      "hp": 0,
+      "atk": 20,
+      "def": 0,
+      "spatk": 236,
+      "spdef": 0,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_MOONBLAST",
+      "MOVE_DIAMOND_STORM",
+      "MOVE_HIDDEN_POWER",
+      "MOVE_PROTECT"
+     ],
+     "source": "Smogon data.pkmn.cc (gen6 monotype, base+stone)",
+     "notes": "Hidden Power Fire/Earth Power; HP Fire"
+    }
+   ],
+   "_note": "official Gen 6 Mega"
   },
   {
    "species": "SPECIES_DRAGALGE_MEGA",
    "displayName": "Dragalge Mega",
    "tier": "mega",
-   "sets": []
+   "sets": [],
+   "_note": "custom Pokemon Legends: Z-A Mega - awaiting source doc"
   },
   {
    "species": "SPECIES_DRAGONITE_MEGA",
    "displayName": "Dragonite Mega",
    "tier": "mega",
-   "sets": []
+   "sets": [],
+   "_note": "custom Pokemon Legends: Z-A Mega - awaiting source doc"
   },
   {
    "species": "SPECIES_DRAMPA_MEGA",
    "displayName": "Drampa Mega",
    "tier": "mega",
-   "sets": []
+   "sets": [],
+   "_note": "custom Pokemon Legends: Z-A Mega - awaiting source doc"
   },
   {
    "species": "SPECIES_EELEKTROSS_MEGA",
    "displayName": "Eelektross Mega",
    "tier": "mega",
-   "sets": []
+   "sets": [],
+   "_note": "custom Pokemon Legends: Z-A Mega - awaiting source doc"
   },
   {
    "species": "SPECIES_EMBOAR_MEGA",
    "displayName": "Emboar Mega",
    "tier": "mega",
-   "sets": []
+   "sets": [],
+   "_note": "custom Pokemon Legends: Z-A Mega - awaiting source doc"
   },
   {
    "species": "SPECIES_EXCADRILL_MEGA",
    "displayName": "Excadrill Mega",
    "tier": "mega",
-   "sets": []
+   "sets": [],
+   "_note": "custom Pokemon Legends: Z-A Mega - awaiting source doc"
   },
   {
    "species": "SPECIES_FALINKS_MEGA",
    "displayName": "Falinks Mega",
    "tier": "mega",
-   "sets": []
+   "sets": [],
+   "_note": "custom Pokemon Legends: Z-A Mega - awaiting source doc"
   },
   {
    "species": "SPECIES_FERALIGATR_MEGA",
    "displayName": "Feraligatr Mega",
    "tier": "mega",
-   "sets": []
+   "sets": [],
+   "_note": "custom Pokemon Legends: Z-A Mega - awaiting source doc"
   },
   {
    "species": "SPECIES_FLOETTE_MEGA",
    "displayName": "Floette Mega",
    "tier": "mega",
-   "sets": []
+   "sets": [],
+   "_note": "custom Pokemon Legends: Z-A Mega - awaiting source doc"
   },
   {
    "species": "SPECIES_FROSLASS_MEGA",
    "displayName": "Froslass Mega",
    "tier": "mega",
-   "sets": []
+   "sets": [],
+   "_note": "custom Pokemon Legends: Z-A Mega - awaiting source doc"
   },
   {
    "species": "SPECIES_GALLADE_MEGA",
    "displayName": "Gallade Mega",
    "tier": "mega",
-   "sets": []
+   "sets": [
+    {
+     "name": "Swords Dance (Fighting)",
+     "role": "setup sweeper",
+     "tier": "monotype",
+     "item": "ITEM_GALLADITE",
+     "ability": "ABILITY_JUSTIFIED",
+     "nature": "NATURE_JOLLY",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_SWORDS_DANCE",
+      "MOVE_CLOSE_COMBAT",
+      "MOVE_ZEN_HEADBUTT",
+      "MOVE_KNOCK_OFF"
+     ],
+     "source": "Smogon data.pkmn.cc (gen7 monotype, base+stone)",
+     "notes": "Knock Off/Ice Punch"
+    },
+    {
+     "name": "Swords Dance (Psychic)",
+     "role": "setup sweeper",
+     "tier": "monotype",
+     "item": "ITEM_GALLADITE",
+     "ability": "ABILITY_JUSTIFIED",
+     "nature": "NATURE_JOLLY",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_SWORDS_DANCE",
+      "MOVE_CLOSE_COMBAT",
+      "MOVE_SHADOW_SNEAK",
+      "MOVE_KNOCK_OFF"
+     ],
+     "source": "Smogon data.pkmn.cc (gen6 monotype, base+stone)",
+     "notes": "Close Combat/Drain Punch; Knock Off/Ice Punch/Substitute"
+    },
+    {
+     "name": "Bulky Drain Punch Sweeper",
+     "role": "defensive / utility",
+     "tier": "ou",
+     "item": "ITEM_GALLADITE",
+     "ability": "ABILITY_JUSTIFIED",
+     "nature": "NATURE_JOLLY",
+     "evs": {
+      "hp": 152,
+      "atk": 100,
+      "def": 4,
+      "spatk": 0,
+      "spdef": 0,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_SWORDS_DANCE",
+      "MOVE_DRAIN_PUNCH",
+      "MOVE_PSYCHO_CUT",
+      "MOVE_SHADOW_SNEAK"
+     ],
+     "source": "Smogon data.pkmn.cc (gen6 ou, base+stone)",
+     "notes": "Shadow Sneak/Knock Off"
+    },
+    {
+     "name": "Glass Cannon",
+     "role": "attacker",
+     "tier": "ou",
+     "item": "ITEM_GALLADITE",
+     "ability": "ABILITY_JUSTIFIED",
+     "nature": "NATURE_JOLLY",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 4,
+      "spatk": 0,
+      "spdef": 0,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_SWORDS_DANCE",
+      "MOVE_CLOSE_COMBAT",
+      "MOVE_PSYCHO_CUT",
+      "MOVE_KNOCK_OFF"
+     ],
+     "source": "Smogon data.pkmn.cc (gen6 ou, base+stone)",
+     "notes": "Knock Off/Poison Jab"
+    }
+   ],
+   "_note": "official Gen 6 Mega"
   },
   {
    "species": "SPECIES_GARCHOMP_MEGA",
    "displayName": "Garchomp Mega",
    "tier": "mega",
-   "sets": []
+   "sets": [
+    {
+     "name": "Mixed Wallbreaker (Ground)",
+     "role": "wallbreaker",
+     "tier": "monotype",
+     "item": "ITEM_GARCHOMPITE",
+     "ability": "ABILITY_ROUGH_SKIN",
+     "nature": "NATURE_NAIVE",
+     "evs": {
+      "hp": 0,
+      "atk": 4,
+      "def": 0,
+      "spatk": 252,
+      "spdef": 0,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_DRACO_METEOR",
+      "MOVE_EARTHQUAKE",
+      "MOVE_FIRE_BLAST",
+      "MOVE_STONE_EDGE"
+     ],
+     "source": "Smogon data.pkmn.cc (gen7 monotype, base+stone)",
+     "notes": ""
+    },
+    {
+     "name": "Mixed Mega",
+     "role": "attacker",
+     "tier": "ou",
+     "item": "ITEM_GARCHOMPITE",
+     "ability": "ABILITY_ROUGH_SKIN",
+     "nature": "NATURE_HASTY",
+     "evs": {
+      "hp": 0,
+      "atk": 4,
+      "def": 0,
+      "spatk": 252,
+      "spdef": 0,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_DRACO_METEOR",
+      "MOVE_EARTHQUAKE",
+      "MOVE_FIRE_BLAST",
+      "MOVE_STEALTH_ROCK"
+     ],
+     "source": "Smogon data.pkmn.cc (gen7 ou, base+stone)",
+     "notes": "Stealth Rock/Hidden Power Ice"
+    },
+    {
+     "name": "Swords Dance Mega",
+     "role": "setup sweeper",
+     "tier": "ou",
+     "item": "ITEM_GARCHOMPITE",
+     "ability": "ABILITY_ROUGH_SKIN",
+     "nature": "NATURE_JOLLY",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_SWORDS_DANCE",
+      "MOVE_SUBSTITUTE",
+      "MOVE_EARTHQUAKE",
+      "MOVE_STONE_EDGE"
+     ],
+     "source": "Smogon data.pkmn.cc (gen7 ou, base+stone)",
+     "notes": "Substitute/Fire Fang/Aqua Tail"
+    },
+    {
+     "name": "Mega Swords Dance",
+     "role": "setup sweeper",
+     "tier": "ou",
+     "item": "ITEM_GARCHOMPITE",
+     "ability": "ABILITY_ROUGH_SKIN",
+     "nature": "NATURE_JOLLY",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 4,
+      "spatk": 0,
+      "spdef": 0,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_SWORDS_DANCE",
+      "MOVE_EARTHQUAKE",
+      "MOVE_DRAGON_CLAW",
+      "MOVE_STONE_EDGE"
+     ],
+     "source": "Smogon data.pkmn.cc (gen6 ou, base+stone)",
+     "notes": "Stone Edge/Substitute/Aqua Tail"
+    }
+   ],
+   "_note": "official Gen 6 Mega"
   },
   {
    "species": "SPECIES_GARCHOMP_MEGA_Z",
    "displayName": "Garchomp Mega Z",
    "tier": "mega",
-   "sets": []
+   "sets": [],
+   "_note": "custom Pokemon Legends: Z-A Mega - awaiting source doc"
   },
   {
    "species": "SPECIES_GARDEVOIR_MEGA",
    "displayName": "Gardevoir Mega",
    "tier": "mega",
-   "sets": []
+   "sets": [
+    {
+     "name": "Wallbreaker (Psychic)",
+     "role": "wallbreaker",
+     "tier": "monotype",
+     "item": "ITEM_GARDEVOIRITE",
+     "ability": "ABILITY_TRACE",
+     "nature": "NATURE_TIMID",
+     "evs": {
+      "hp": 0,
+      "atk": 0,
+      "def": 4,
+      "spatk": 252,
+      "spdef": 0,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_HYPER_VOICE",
+      "MOVE_PSYSHOCK",
+      "MOVE_FOCUS_BLAST",
+      "MOVE_WILL_O_WISP"
+     ],
+     "source": "Smogon data.pkmn.cc (gen7 monotype, base+stone)",
+     "notes": "Will-O-Wisp/Taunt"
+    },
+    {
+     "name": "Mega Wallbreaker",
+     "role": "wallbreaker",
+     "tier": "battlespotsingles",
+     "item": "ITEM_GARDEVOIRITE",
+     "ability": "ABILITY_TRACE",
+     "nature": "NATURE_MODEST",
+     "evs": {
+      "hp": 4,
+      "atk": 0,
+      "def": 0,
+      "spatk": 252,
+      "spdef": 0,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_HYPER_VOICE",
+      "MOVE_PSYSHOCK",
+      "MOVE_TAUNT",
+      "MOVE_FOCUS_BLAST"
+     ],
+     "source": "Smogon data.pkmn.cc (gen6 battlespotsingles, base+stone)",
+     "notes": "Taunt/Focus Blast; Focus Blast/Hidden Power Fire/Hidden Power Ground"
+    },
+    {
+     "name": "Wish + Protect (Psychic)",
+     "role": "attacker",
+     "tier": "monotype",
+     "item": "ITEM_GARDEVOIRITE",
+     "ability": "ABILITY_TRACE",
+     "nature": "NATURE_TIMID",
+     "evs": {
+      "hp": 248,
+      "atk": 0,
+      "def": 244,
+      "spatk": 0,
+      "spdef": 0,
+      "speed": 16
+     },
+     "moves": [
+      "MOVE_WISH",
+      "MOVE_PROTECT",
+      "MOVE_HYPER_VOICE",
+      "MOVE_WILL_O_WISP"
+     ],
+     "source": "Smogon data.pkmn.cc (gen6 monotype, base+stone)",
+     "notes": ""
+    }
+   ],
+   "_note": "official Gen 6 Mega"
   },
   {
    "species": "SPECIES_GENGAR_MEGA",
    "displayName": "Gengar Mega",
    "tier": "mega",
-   "sets": []
+   "sets": [
+    {
+     "name": "Offensive Trapper",
+     "role": "attacker",
+     "tier": "anythinggoes",
+     "item": "ITEM_GENGARITE",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_TIMID",
+     "evs": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "spatk": 252,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_SHADOW_BALL",
+      "MOVE_SLUDGE_WAVE",
+      "MOVE_TAUNT",
+      "MOVE_SUBSTITUTE"
+     ],
+     "source": "Smogon data.pkmn.cc (gen7 anythinggoes, base+stone)",
+     "notes": "Taunt/Focus Blast/Destiny Bond"
+    },
+    {
+     "name": "Status Inducer",
+     "role": "attacker",
+     "tier": "anythinggoes",
+     "item": "ITEM_GENGARITE",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_TIMID",
+     "evs": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "spatk": 252,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_HEX",
+      "MOVE_SLUDGE_BOMB",
+      "MOVE_WILL_O_WISP",
+      "MOVE_TAUNT"
+     ],
+     "source": "Smogon data.pkmn.cc (gen7 anythinggoes, base+stone)",
+     "notes": "Taunt/Substitute"
+    },
+    {
+     "name": "Perish Trapper",
+     "role": "attacker",
+     "tier": "anythinggoes",
+     "item": "ITEM_GENGARITE",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_TIMID",
+     "evs": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "spatk": 252,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_SHADOW_BALL",
+      "MOVE_PERISH_SONG",
+      "MOVE_SUBSTITUTE",
+      "MOVE_DISABLE"
+     ],
+     "source": "Smogon data.pkmn.cc (gen7 anythinggoes, base+stone)",
+     "notes": "Shadow Ball/Sludge Wave; Disable/Embargo"
+    },
+    {
+     "name": "Bulky Trapper",
+     "role": "defensive / utility",
+     "tier": "battlespotsingles",
+     "item": "ITEM_GENGARITE",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_TIMID",
+     "evs": {
+      "hp": 236,
+      "atk": 0,
+      "def": 4,
+      "spatk": 12,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_WILL_O_WISP",
+      "MOVE_SLUDGE_BOMB",
+      "MOVE_HEX",
+      "MOVE_DESTINY_BOND"
+     ],
+     "source": "Smogon data.pkmn.cc (gen7 battlespotsingles, base+stone)",
+     "notes": "Hex/Shadow Ball; Destiny Bond/Taunt/Focus Blast/Perish Song"
+    },
+    {
+     "name": "Offensive Trapper",
+     "role": "attacker",
+     "tier": "battlespotsingles",
+     "item": "ITEM_GENGARITE",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_TIMID",
+     "evs": {
+      "hp": 4,
+      "atk": 0,
+      "def": 0,
+      "spatk": 252,
+      "spdef": 0,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_SHADOW_BALL",
+      "MOVE_SLUDGE_BOMB",
+      "MOVE_DESTINY_BOND",
+      "MOVE_ICY_WIND"
+     ],
+     "source": "Smogon data.pkmn.cc (gen7 battlespotsingles, base+stone)",
+     "notes": "Sludge Bomb/Sludge Wave; Icy Wind/Focus Blast/Hidden Power Fire/Thunderbolt"
+    },
+    {
+     "name": "Perish Trapper",
+     "role": "attacker",
+     "tier": "battlespotsingles",
+     "item": "ITEM_GENGARITE",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_TIMID",
+     "evs": {
+      "hp": 252,
+      "atk": 0,
+      "def": 4,
+      "spatk": 0,
+      "spdef": 0,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_PERISH_SONG",
+      "MOVE_PROTECT",
+      "MOVE_SUBSTITUTE",
+      "MOVE_SHADOW_BALL"
+     ],
+     "source": "Smogon data.pkmn.cc (gen7 battlespotsingles, base+stone)",
+     "notes": "Shadow Ball/Sludge Bomb"
+    },
+    {
+     "name": "Casinogar (Sleep Trapper)",
+     "role": "attacker",
+     "tier": "battlespotsingles",
+     "item": "ITEM_GENGARITE",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_TIMID",
+     "evs": {
+      "hp": 236,
+      "atk": 0,
+      "def": 4,
+      "spatk": 12,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_HYPNOSIS",
+      "MOVE_SUBSTITUTE",
+      "MOVE_HEX",
+      "MOVE_FOCUS_BLAST"
+     ],
+     "source": "Smogon data.pkmn.cc (gen7 battlespotsingles, base+stone)",
+     "notes": "Focus Blast/Sludge Bomb"
+    },
+    {
+     "name": "Offensive Trapper",
+     "role": "attacker",
+     "tier": "ubers",
+     "item": "ITEM_GENGARITE",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_TIMID",
+     "evs": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "spatk": 252,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_SHADOW_BALL",
+      "MOVE_SLUDGE_WAVE",
+      "MOVE_ICY_WIND",
+      "MOVE_THUNDER"
+     ],
+     "source": "Smogon data.pkmn.cc (gen7 ubers, base+stone)",
+     "notes": "Icy Wind/Focus Blast; Thunder/Taunt/Substitute"
+    }
+   ],
+   "_note": "official Gen 6 Mega"
   },
   {
    "species": "SPECIES_GLALIE_MEGA",
@@ -405,11 +2741,83 @@
    "tier": "mega",
    "sets": [
     {
+     "name": "Spikes",
+     "role": "hazard lead",
+     "tier": "nu",
+     "item": "ITEM_GLALITITE",
+     "ability": "ABILITY_ICE_BODY",
+     "nature": "NATURE_JOLLY",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_SPIKES",
+      "MOVE_DOUBLE_EDGE",
+      "MOVE_EARTHQUAKE",
+      "MOVE_EXPLOSION"
+     ],
+     "source": "Smogon data.pkmn.cc (gen7 nu, base+stone)",
+     "notes": ""
+    },
+    {
      "name": "Wallbreaker",
      "role": "wallbreaker",
      "tier": "ru",
      "item": "ITEM_GLALITITE",
-     "ability": "ABILITY_INNER_FOCUS",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_JOLLY",
+     "evs": {
+      "hp": 4,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 0,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_DOUBLE_EDGE",
+      "MOVE_ICE_SHARD",
+      "MOVE_EARTHQUAKE",
+      "MOVE_SPIKES"
+     ],
+     "source": "Smogon data.pkmn.cc (gen7 ru, base+stone)",
+     "notes": "Spikes/Explosion"
+    },
+    {
+     "name": "Offensive Spiker",
+     "role": "attacker",
+     "tier": "uu",
+     "item": "ITEM_GLALITITE",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_NAIVE",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 4,
+      "spdef": 0,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_SPIKES",
+      "MOVE_RETURN",
+      "MOVE_FREEZE_DRY",
+      "MOVE_EARTHQUAKE"
+     ],
+     "source": "Smogon data.pkmn.cc (gen7 uu, base+stone)",
+     "notes": "Return/Double-Edge; Freeze-Dry/Ice Shard; Earthquake/Hidden Power Fire/Explosion"
+    },
+    {
+     "name": "Wallbreaker",
+     "role": "wallbreaker",
+     "tier": "ru",
+     "item": "ITEM_GLALITITE",
+     "ability": "ABILITY_NONE",
      "nature": "NATURE_NAIVE",
      "evs": {
       "hp": 0,
@@ -425,220 +2833,2579 @@
       "MOVE_ICE_SHARD",
       "MOVE_SPIKES"
      ],
-     "source": "Smogon data.pkmn.cc (gen6 ru)",
+     "source": "Smogon data.pkmn.cc (gen6 ru, base+stone)",
      "notes": "Double-Edge/Return; Spikes/Earthquake/Explosion"
+    },
+    {
+     "name": "Wrecking Ball",
+     "role": "attacker",
+     "tier": "uu",
+     "item": "ITEM_GLALITITE",
+     "ability": "ABILITY_ICE_BODY",
+     "nature": "NATURE_NAIVE",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 4,
+      "spdef": 0,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_DOUBLE_EDGE",
+      "MOVE_EXPLOSION",
+      "MOVE_SUPER_FANG",
+      "MOVE_FREEZE_DRY"
+     ],
+     "source": "Smogon data.pkmn.cc (gen6 uu, base+stone)",
+     "notes": "Double-Edge/Return; Super Fang/Earthquake; Freeze-Dry/Ice Shard"
     }
-   ]
+   ],
+   "_note": "official Gen 6 Mega"
   },
   {
    "species": "SPECIES_GLIMMORA_MEGA",
    "displayName": "Glimmora Mega",
    "tier": "mega",
-   "sets": []
+   "sets": [],
+   "_note": "custom Pokemon Legends: Z-A Mega - awaiting source doc"
   },
   {
    "species": "SPECIES_GOLISOPOD_MEGA",
    "displayName": "Golisopod Mega",
    "tier": "mega",
-   "sets": []
+   "sets": [],
+   "_note": "custom Pokemon Legends: Z-A Mega - awaiting source doc"
   },
   {
    "species": "SPECIES_GOLURK_MEGA",
    "displayName": "Golurk Mega",
    "tier": "mega",
-   "sets": []
+   "sets": [],
+   "_note": "custom Pokemon Legends: Z-A Mega - awaiting source doc"
   },
   {
    "species": "SPECIES_GRENINJA_MEGA",
    "displayName": "Greninja Mega",
    "tier": "mega",
-   "sets": []
+   "sets": [],
+   "_note": "custom Pokemon Legends: Z-A Mega - awaiting source doc"
   },
   {
    "species": "SPECIES_GYARADOS_MEGA",
    "displayName": "Gyarados Mega",
    "tier": "mega",
-   "sets": []
+   "sets": [
+    {
+     "name": "Mega Dragon Dance",
+     "role": "setup sweeper",
+     "tier": "battlespotsingles",
+     "item": "ITEM_GYARADOSITE",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_JOLLY",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_DRAGON_DANCE",
+      "MOVE_WATERFALL",
+      "MOVE_EARTHQUAKE",
+      "MOVE_ICE_FANG"
+     ],
+     "source": "Smogon data.pkmn.cc (gen7 battlespotsingles, base+stone)",
+     "notes": "Ice Fang/Taunt"
+    },
+    {
+     "name": "Wallbreaker / Cleaner",
+     "role": "wallbreaker",
+     "tier": "letsgoou",
+     "item": "ITEM_GYARADOSITE",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_ADAMANT",
+     "evs": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 0,
+      "speed": 0
+     },
+     "moves": [
+      "MOVE_WATERFALL",
+      "MOVE_CRUNCH",
+      "MOVE_EARTHQUAKE",
+      "MOVE_SUBSTITUTE"
+     ],
+     "source": "Smogon data.pkmn.cc (gen7 letsgoou, base+stone)",
+     "notes": "Substitute/Thunder Wave"
+    },
+    {
+     "name": "Mega Dragon Dance",
+     "role": "setup sweeper",
+     "tier": "ou",
+     "item": "ITEM_GYARADOSITE",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_JOLLY",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_DRAGON_DANCE",
+      "MOVE_SUBSTITUTE",
+      "MOVE_CRUNCH",
+      "MOVE_EARTHQUAKE"
+     ],
+     "source": "Smogon data.pkmn.cc (gen7 ou, base+stone)",
+     "notes": "Substitute/Taunt; Earthquake/Waterfall"
+    },
+    {
+     "name": "Dragon Dance",
+     "role": "setup sweeper",
+     "tier": "ubers",
+     "item": "ITEM_GYARADOSITE",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_JOLLY",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 4,
+      "spatk": 0,
+      "spdef": 0,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_DRAGON_DANCE",
+      "MOVE_TAUNT",
+      "MOVE_CRUNCH",
+      "MOVE_WATERFALL"
+     ],
+     "source": "Smogon data.pkmn.cc (gen7 ubers, base+stone)",
+     "notes": "Waterfall/Earthquake"
+    },
+    {
+     "name": "Mega Dragon Dance (Water)",
+     "role": "setup sweeper",
+     "tier": "monotype",
+     "item": "ITEM_GYARADOSITE",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_JOLLY",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_DRAGON_DANCE",
+      "MOVE_CRUNCH",
+      "MOVE_EARTHQUAKE",
+      "MOVE_EARTHQUAKE"
+     ],
+     "source": "Smogon data.pkmn.cc (gen6 monotype, base+stone)",
+     "notes": "Earthquake/Waterfall/Taunt/Substitute; Earthquake/Waterfall/Taunt/Substitute"
+    },
+    {
+     "name": "Offensive Dragon Dance",
+     "role": "setup sweeper",
+     "tier": "ou",
+     "item": "ITEM_GYARADOSITE",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_JOLLY",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 4,
+      "spatk": 0,
+      "spdef": 0,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_DRAGON_DANCE",
+      "MOVE_CRUNCH",
+      "MOVE_WATERFALL",
+      "MOVE_EARTHQUAKE"
+     ],
+     "source": "Smogon data.pkmn.cc (gen6 ou, base+stone)",
+     "notes": "Waterfall/Earthquake; Earthquake/Substitute/Taunt"
+    },
+    {
+     "name": "Offensive Dragon Dance",
+     "role": "setup sweeper",
+     "tier": "ubers",
+     "item": "ITEM_GYARADOSITE",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_ADAMANT",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 4,
+      "spatk": 0,
+      "spdef": 0,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_CRUNCH",
+      "MOVE_EARTHQUAKE",
+      "MOVE_TAUNT",
+      "MOVE_DRAGON_DANCE"
+     ],
+     "source": "Smogon data.pkmn.cc (gen6 ubers, base+stone)",
+     "notes": ""
+    }
+   ],
+   "_note": "official Gen 6 Mega"
   },
   {
    "species": "SPECIES_HAWLUCHA_MEGA",
    "displayName": "Hawlucha Mega",
    "tier": "mega",
-   "sets": []
+   "sets": [],
+   "_note": "custom Pokemon Legends: Z-A Mega - awaiting source doc"
   },
   {
    "species": "SPECIES_HEATRAN_MEGA",
    "displayName": "Heatran Mega",
    "tier": "mega-restricted",
-   "sets": []
+   "sets": [],
+   "_note": "custom Pokemon Legends: Z-A Mega - awaiting source doc"
   },
   {
    "species": "SPECIES_HERACROSS_MEGA",
    "displayName": "Heracross Mega",
    "tier": "mega",
-   "sets": []
+   "sets": [
+    {
+     "name": "Mega Wallbreaker",
+     "role": "wallbreaker",
+     "tier": "battlespotsingles",
+     "item": "ITEM_HERACRONITE",
+     "ability": "ABILITY_GUTS",
+     "nature": "NATURE_ADAMANT",
+     "evs": {
+      "hp": 20,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 0,
+      "speed": 236
+     },
+     "moves": [
+      "MOVE_PIN_MISSILE",
+      "MOVE_ROCK_BLAST",
+      "MOVE_BULLET_SEED",
+      "MOVE_CLOSE_COMBAT"
+     ],
+     "source": "Smogon data.pkmn.cc (gen7 battlespotsingles, base+stone)",
+     "notes": "Bullet Seed/Earthquake; Close Combat/Earthquake"
+    },
+    {
+     "name": "Wallbreaker (Bug)",
+     "role": "wallbreaker",
+     "tier": "monotype",
+     "item": "ITEM_HERACRONITE",
+     "ability": "ABILITY_MOXIE",
+     "nature": "NATURE_JOLLY",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 4,
+      "spatk": 0,
+      "spdef": 0,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_SWORDS_DANCE",
+      "MOVE_CLOSE_COMBAT",
+      "MOVE_ROCK_BLAST",
+      "MOVE_EARTHQUAKE"
+     ],
+     "source": "Smogon data.pkmn.cc (gen7 monotype, base+stone)",
+     "notes": ""
+    },
+    {
+     "name": "Wallbreaker",
+     "role": "wallbreaker",
+     "tier": "ou",
+     "item": "ITEM_HERACRONITE",
+     "ability": "ABILITY_MOXIE",
+     "nature": "NATURE_ADAMANT",
+     "evs": {
+      "hp": 64,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 0,
+      "speed": 192
+     },
+     "moves": [
+      "MOVE_SWORDS_DANCE",
+      "MOVE_CLOSE_COMBAT",
+      "MOVE_ROCK_BLAST",
+      "MOVE_PIN_MISSILE"
+     ],
+     "source": "Smogon data.pkmn.cc (gen7 ou, base+stone)",
+     "notes": "Pin Missile/Substitute"
+    },
+    {
+     "name": "All out Attacker (Bug)",
+     "role": "attacker",
+     "tier": "monotype",
+     "item": "ITEM_HERACRONITE",
+     "ability": "ABILITY_MOXIE",
+     "nature": "NATURE_JOLLY",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 4,
+      "spatk": 0,
+      "spdef": 0,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_CLOSE_COMBAT",
+      "MOVE_ROCK_BLAST",
+      "MOVE_BULLET_SEED",
+      "MOVE_BULLET_SEED"
+     ],
+     "source": "Smogon data.pkmn.cc (gen6 monotype, base+stone)",
+     "notes": "Bullet Seed/Pin Missile/Substitute; Bullet Seed/Pin Missile/Substitute"
+    },
+    {
+     "name": "Bulky Wallbreaker",
+     "role": "wallbreaker",
+     "tier": "ou",
+     "item": "ITEM_HERACRONITE",
+     "ability": "ABILITY_MOXIE",
+     "nature": "NATURE_ADAMANT",
+     "evs": {
+      "hp": 240,
+      "atk": 136,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 0,
+      "speed": 132
+     },
+     "moves": [
+      "MOVE_CLOSE_COMBAT",
+      "MOVE_PIN_MISSILE",
+      "MOVE_ROCK_BLAST",
+      "MOVE_SUBSTITUTE"
+     ],
+     "source": "Smogon data.pkmn.cc (gen6 ou, base+stone)",
+     "notes": "Substitute/Swords Dance"
+    }
+   ],
+   "_note": "official Gen 6 Mega"
   },
   {
    "species": "SPECIES_HOUNDOOM_MEGA",
    "displayName": "Houndoom Mega",
    "tier": "mega",
-   "sets": []
+   "sets": [
+    {
+     "name": "Nasty Plot",
+     "role": "setup sweeper",
+     "tier": "uu",
+     "item": "ITEM_HOUNDOOMINITE",
+     "ability": "ABILITY_FLASH_FIRE",
+     "nature": "NATURE_TIMID",
+     "evs": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "spatk": 252,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_NASTY_PLOT",
+      "MOVE_FIRE_BLAST",
+      "MOVE_DARK_PULSE",
+      "MOVE_SLUDGE_BOMB"
+     ],
+     "source": "Smogon data.pkmn.cc (gen7 uu, base+stone)",
+     "notes": ""
+    },
+    {
+     "name": "Mega Nasty Plot",
+     "role": "setup sweeper",
+     "tier": "battlespotsingles",
+     "item": "ITEM_HOUNDOOMINITE",
+     "ability": "ABILITY_FLASH_FIRE",
+     "nature": "NATURE_TIMID",
+     "evs": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "spatk": 252,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_NASTY_PLOT",
+      "MOVE_DARK_PULSE",
+      "MOVE_FIRE_BLAST",
+      "MOVE_DESTINY_BOND"
+     ],
+     "source": "Smogon data.pkmn.cc (gen6 battlespotsingles, base+stone)",
+     "notes": "Destiny Bond/Hidden Power Grass/Taunt"
+    },
+    {
+     "name": "Utility Attacker",
+     "role": "defensive / utility",
+     "tier": "ou",
+     "item": "ITEM_HOUNDOOMINITE",
+     "ability": "ABILITY_FLASH_FIRE",
+     "nature": "NATURE_TIMID",
+     "evs": {
+      "hp": 40,
+      "atk": 0,
+      "def": 8,
+      "spatk": 208,
+      "spdef": 0,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_NASTY_PLOT",
+      "MOVE_FIRE_BLAST",
+      "MOVE_DARK_PULSE",
+      "MOVE_WILL_O_WISP"
+     ],
+     "source": "Smogon data.pkmn.cc (gen6 ou, base+stone)",
+     "notes": "Will-O-Wisp/Taunt"
+    },
+    {
+     "name": "Nasty Plot",
+     "role": "setup sweeper",
+     "tier": "uu",
+     "item": "ITEM_HOUNDOOMINITE",
+     "ability": "ABILITY_FLASH_FIRE",
+     "nature": "NATURE_TIMID",
+     "evs": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "spatk": 252,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_NASTY_PLOT",
+      "MOVE_FIRE_BLAST",
+      "MOVE_DARK_PULSE",
+      "MOVE_TAUNT"
+     ],
+     "source": "Smogon data.pkmn.cc (gen6 uu, base+stone)",
+     "notes": "Fire Blast/Flamethrower; Taunt/Protect/Destiny Bond/Hidden Power Grass"
+    },
+    {
+     "name": "SunnyDoom",
+     "role": "attacker",
+     "tier": "uu",
+     "item": "ITEM_HOUNDOOMINITE",
+     "ability": "ABILITY_FLASH_FIRE",
+     "nature": "NATURE_TIMID",
+     "evs": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "spatk": 252,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_SUNNY_DAY",
+      "MOVE_FIRE_BLAST",
+      "MOVE_DARK_PULSE",
+      "MOVE_SOLAR_BEAM"
+     ],
+     "source": "Smogon data.pkmn.cc (gen6 uu, base+stone)",
+     "notes": ""
+    }
+   ],
+   "_note": "official Gen 6 Mega"
   },
   {
    "species": "SPECIES_KANGASKHAN_MEGA",
    "displayName": "Kangaskhan Mega",
    "tier": "mega",
-   "sets": []
+   "sets": [
+    {
+     "name": "Sweeper",
+     "role": "attacker",
+     "tier": "battlespotsingles",
+     "item": "ITEM_KANGASKHANITE",
+     "ability": "ABILITY_SCRAPPY",
+     "nature": "NATURE_ADAMANT",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_POWER_UP_PUNCH",
+      "MOVE_DOUBLE_EDGE",
+      "MOVE_EARTHQUAKE",
+      "MOVE_SUCKER_PUNCH"
+     ],
+     "source": "Smogon data.pkmn.cc (gen7 battlespotsingles, base+stone)",
+     "notes": "Sucker Punch/Rock Slide"
+    },
+    {
+     "name": "Utility Attacker",
+     "role": "defensive / utility",
+     "tier": "ubers",
+     "item": "ITEM_KANGASKHANITE",
+     "ability": "ABILITY_SCRAPPY",
+     "nature": "NATURE_JOLLY",
+     "evs": {
+      "hp": 52,
+      "atk": 180,
+      "def": 36,
+      "spatk": 0,
+      "spdef": 8,
+      "speed": 232
+     },
+     "moves": [
+      "MOVE_FAKE_OUT",
+      "MOVE_SEISMIC_TOSS",
+      "MOVE_SHADOW_CLAW",
+      "MOVE_BODY_SLAM"
+     ],
+     "source": "Smogon data.pkmn.cc (gen7 ubers, base+stone)",
+     "notes": "Shadow Claw/Crunch; Body Slam/Rock Tomb"
+    },
+    {
+     "name": "All-Out Attacker",
+     "role": "attacker",
+     "tier": "battlespotsingles",
+     "item": "ITEM_KANGASKHANITE",
+     "ability": "ABILITY_SCRAPPY",
+     "nature": "NATURE_ADAMANT",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_DOUBLE_EDGE",
+      "MOVE_SUCKER_PUNCH",
+      "MOVE_EARTHQUAKE",
+      "MOVE_FAKE_OUT"
+     ],
+     "source": "Smogon data.pkmn.cc (gen6 battlespotsingles, base+stone)",
+     "notes": "Sucker Punch/Fake Out; Fake Out/Rock Slide/Ice Punch/Facade"
+    },
+    {
+     "name": "Physical Attacker",
+     "role": "attacker",
+     "tier": "ubers",
+     "item": "ITEM_KANGASKHANITE",
+     "ability": "ABILITY_SCRAPPY",
+     "nature": "NATURE_ADAMANT",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 4,
+      "spatk": 0,
+      "spdef": 0,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_FAKE_OUT",
+      "MOVE_RETURN",
+      "MOVE_CRUNCH",
+      "MOVE_POWER_UP_PUNCH"
+     ],
+     "source": "Smogon data.pkmn.cc (gen6 ubers, base+stone)",
+     "notes": "Return/Body Slam; Power-Up Punch/Seismic Toss"
+    }
+   ],
+   "_note": "official Gen 6 Mega"
   },
   {
    "species": "SPECIES_LATIAS_MEGA",
    "displayName": "Latias Mega",
    "tier": "mega-restricted",
-   "sets": []
+   "sets": [
+    {
+     "name": "Bulky Calm Mind",
+     "role": "setup sweeper",
+     "tier": "battlespotsingles",
+     "item": "ITEM_LATIASITE",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_TIMID",
+     "evs": {
+      "hp": 252,
+      "atk": 0,
+      "def": 4,
+      "spatk": 0,
+      "spdef": 0,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_CALM_MIND",
+      "MOVE_ROOST",
+      "MOVE_PSYSHOCK",
+      "MOVE_SHADOW_BALL"
+     ],
+     "source": "Smogon data.pkmn.cc (gen7 battlespotsingles, base+stone)",
+     "notes": "Shadow Ball/Thunderbolt/Surf/Substitute"
+    },
+    {
+     "name": "Offensive Calm Mind",
+     "role": "setup sweeper",
+     "tier": "battlespotsingles",
+     "item": "ITEM_LATIASITE",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_TIMID",
+     "evs": {
+      "hp": 4,
+      "atk": 0,
+      "def": 0,
+      "spatk": 252,
+      "spdef": 0,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_CALM_MIND",
+      "MOVE_PSYSHOCK",
+      "MOVE_DRACO_METEOR",
+      "MOVE_SHADOW_BALL"
+     ],
+     "source": "Smogon data.pkmn.cc (gen7 battlespotsingles, base+stone)",
+     "notes": "Shadow Ball/Surf/Thunderbolt/Hidden Power Fire"
+    },
+    {
+     "name": "Calm Mind (Dragon)",
+     "role": "setup sweeper",
+     "tier": "monotype",
+     "item": "ITEM_LATIASITE",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_TIMID",
+     "evs": {
+      "hp": 252,
+      "atk": 0,
+      "def": 4,
+      "spatk": 0,
+      "spdef": 0,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_CALM_MIND",
+      "MOVE_RECOVER",
+      "MOVE_STORED_POWER",
+      "MOVE_REFRESH"
+     ],
+     "source": "Smogon data.pkmn.cc (gen7 monotype, base+stone)",
+     "notes": "Refresh/Thunderbolt"
+    },
+    {
+     "name": "Mega Calm Mind (Psychic)",
+     "role": "setup sweeper",
+     "tier": "monotype",
+     "item": "ITEM_LATIASITE",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_TIMID",
+     "evs": {
+      "hp": 252,
+      "atk": 0,
+      "def": 4,
+      "spatk": 0,
+      "spdef": 0,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_CALM_MIND",
+      "MOVE_RECOVER",
+      "MOVE_STORED_POWER",
+      "MOVE_THUNDERBOLT"
+     ],
+     "source": "Smogon data.pkmn.cc (gen7 monotype, base+stone)",
+     "notes": ""
+    },
+    {
+     "name": "Utility",
+     "role": "defensive / utility",
+     "tier": "ou",
+     "item": "ITEM_LATIASITE",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_TIMID",
+     "evs": {
+      "hp": 248,
+      "atk": 0,
+      "def": 8,
+      "spatk": 0,
+      "spdef": 0,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_ICE_BEAM",
+      "MOVE_HIDDEN_POWER",
+      "MOVE_THUNDER_WAVE",
+      "MOVE_ROOST"
+     ],
+     "source": "Smogon data.pkmn.cc (gen7 ou, base+stone)",
+     "notes": "Hidden Power Ground/Psychic/Hidden Power Fighting/Thunder Wave/Defog; HP Ground; Thunder Wave/Defog"
+    },
+    {
+     "name": "Calm Mind",
+     "role": "setup sweeper",
+     "tier": "ou",
+     "item": "ITEM_LATIASITE",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_TIMID",
+     "evs": {
+      "hp": 248,
+      "atk": 0,
+      "def": 8,
+      "spatk": 0,
+      "spdef": 0,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_CALM_MIND",
+      "MOVE_STORED_POWER",
+      "MOVE_ICE_BEAM",
+      "MOVE_ROOST"
+     ],
+     "source": "Smogon data.pkmn.cc (gen7 ou, base+stone)",
+     "notes": "Stored Power/Psyshock"
+    },
+    {
+     "name": "Support",
+     "role": "defensive / utility",
+     "tier": "ubers",
+     "item": "ITEM_LATIASITE",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_TIMID",
+     "evs": {
+      "hp": 252,
+      "atk": 0,
+      "def": 76,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 176
+     },
+     "moves": [
+      "MOVE_DEFOG",
+      "MOVE_TOXIC",
+      "MOVE_HEALING_WISH",
+      "MOVE_DRACO_METEOR"
+     ],
+     "source": "Smogon data.pkmn.cc (gen7 ubers, base+stone)",
+     "notes": "Healing Wish/Recover; Draco Meteor/Grass Knot"
+    },
+    {
+     "name": "Mega Calm Mind",
+     "role": "setup sweeper",
+     "tier": "battlespotsingles",
+     "item": "ITEM_LATIASITE",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_TIMID",
+     "evs": {
+      "hp": 252,
+      "atk": 0,
+      "def": 4,
+      "spatk": 0,
+      "spdef": 0,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_CALM_MIND",
+      "MOVE_PSYSHOCK",
+      "MOVE_ROOST",
+      "MOVE_SUBSTITUTE"
+     ],
+     "source": "Smogon data.pkmn.cc (gen6 battlespotsingles, base+stone)",
+     "notes": "Substitute/Draco Meteor"
+    }
+   ],
+   "_note": "official Gen 6 Mega"
   },
   {
    "species": "SPECIES_LATIOS_MEGA",
    "displayName": "Latios Mega",
    "tier": "mega-restricted",
-   "sets": []
+   "sets": [
+    {
+     "name": "Mega Mixed Attacker",
+     "role": "attacker",
+     "tier": "cap",
+     "item": "ITEM_LATIOSITE",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_HASTY",
+     "evs": {
+      "hp": 0,
+      "atk": 4,
+      "def": 0,
+      "spatk": 252,
+      "spdef": 0,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_PSYCHIC",
+      "MOVE_EARTHQUAKE",
+      "MOVE_DRACO_METEOR",
+      "MOVE_RECOVER"
+     ],
+     "source": "Smogon data.pkmn.cc (gen7 cap, base+stone)",
+     "notes": "Draco Meteor/Ice Beam"
+    },
+    {
+     "name": "Mega All-out Attacker (Psychic)",
+     "role": "attacker",
+     "tier": "monotype",
+     "item": "ITEM_LATIOSITE",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_NAIVE",
+     "evs": {
+      "hp": 0,
+      "atk": 4,
+      "def": 0,
+      "spatk": 252,
+      "spdef": 0,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_PSYCHIC",
+      "MOVE_EARTHQUAKE",
+      "MOVE_HIDDEN_POWER",
+      "MOVE_RECOVER"
+     ],
+     "source": "Smogon data.pkmn.cc (gen7 monotype, base+stone)",
+     "notes": "HP Fire"
+    },
+    {
+     "name": "Mega Mixed Attacker",
+     "role": "attacker",
+     "tier": "ou",
+     "item": "ITEM_LATIOSITE",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_NAIVE",
+     "evs": {
+      "hp": 0,
+      "atk": 4,
+      "def": 0,
+      "spatk": 252,
+      "spdef": 0,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_PSYCHIC",
+      "MOVE_EARTHQUAKE",
+      "MOVE_ICE_BEAM",
+      "MOVE_ROOST"
+     ],
+     "source": "Smogon data.pkmn.cc (gen7 ou, base+stone)",
+     "notes": "Ice Beam/Draco Meteor/Thunderbolt"
+    },
+    {
+     "name": "Mixed Attacker",
+     "role": "attacker",
+     "tier": "ou",
+     "item": "ITEM_LATIOSITE",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_NAIVE",
+     "evs": {
+      "hp": 0,
+      "atk": 4,
+      "def": 0,
+      "spatk": 252,
+      "spdef": 0,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_PSYCHIC",
+      "MOVE_EARTHQUAKE",
+      "MOVE_DRACO_METEOR",
+      "MOVE_ROOST"
+     ],
+     "source": "Smogon data.pkmn.cc (gen6 ou, base+stone)",
+     "notes": ""
+    },
+    {
+     "name": "Special Attacker",
+     "role": "attacker",
+     "tier": "ou",
+     "item": "ITEM_LATIOSITE",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_TIMID",
+     "evs": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "spatk": 252,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_PSYCHIC",
+      "MOVE_DRACO_METEOR",
+      "MOVE_ROOST",
+      "MOVE_DEFOG"
+     ],
+     "source": "Smogon data.pkmn.cc (gen6 ou, base+stone)",
+     "notes": "Defog/Calm Mind/Hidden Power Fire/Surf"
+    }
+   ],
+   "_note": "official Gen 6 Mega"
   },
   {
    "species": "SPECIES_LOPUNNY_MEGA",
    "displayName": "Lopunny Mega",
    "tier": "mega",
-   "sets": []
+   "sets": [
+    {
+     "name": "Mega Attacker",
+     "role": "attacker",
+     "tier": "battlespotsingles",
+     "item": "ITEM_LOPUNNITE",
+     "ability": "ABILITY_LIMBER",
+     "nature": "NATURE_JOLLY",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_FAKE_OUT",
+      "MOVE_HIGH_JUMP_KICK",
+      "MOVE_RETURN",
+      "MOVE_ICE_PUNCH"
+     ],
+     "source": "Smogon data.pkmn.cc (gen7 battlespotsingles, base+stone)",
+     "notes": "Ice Punch/Substitute"
+    },
+    {
+     "name": "Power-Up Punch + Encore",
+     "role": "attacker",
+     "tier": "monotype",
+     "item": "ITEM_LOPUNNITE",
+     "ability": "ABILITY_LIMBER",
+     "nature": "NATURE_JOLLY",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_RETURN",
+      "MOVE_HIGH_JUMP_KICK",
+      "MOVE_POWER_UP_PUNCH",
+      "MOVE_ENCORE"
+     ],
+     "source": "Smogon data.pkmn.cc (gen7 monotype, base+stone)",
+     "notes": ""
+    },
+    {
+     "name": "All-out Attacker",
+     "role": "attacker",
+     "tier": "ou",
+     "item": "ITEM_LOPUNNITE",
+     "ability": "ABILITY_LIMBER",
+     "nature": "NATURE_JOLLY",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_FAKE_OUT",
+      "MOVE_FRUSTRATION",
+      "MOVE_HIGH_JUMP_KICK",
+      "MOVE_QUICK_ATTACK"
+     ],
+     "source": "Smogon data.pkmn.cc (gen7 ou, base+stone)",
+     "notes": "Quick Attack/Ice Punch/Healing Wish"
+    },
+    {
+     "name": "PuP + Encore",
+     "role": "attacker",
+     "tier": "ou",
+     "item": "ITEM_LOPUNNITE",
+     "ability": "ABILITY_LIMBER",
+     "nature": "NATURE_JOLLY",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_FRUSTRATION",
+      "MOVE_HIGH_JUMP_KICK",
+      "MOVE_POWER_UP_PUNCH",
+      "MOVE_ENCORE"
+     ],
+     "source": "Smogon data.pkmn.cc (gen7 ou, base+stone)",
+     "notes": ""
+    },
+    {
+     "name": "Healing Wish",
+     "role": "attacker",
+     "tier": "ubers",
+     "item": "ITEM_LOPUNNITE",
+     "ability": "ABILITY_LIMBER",
+     "nature": "NATURE_JOLLY",
+     "evs": {
+      "hp": 4,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 0,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_FAKE_OUT",
+      "MOVE_RETURN",
+      "MOVE_HIGH_JUMP_KICK",
+      "MOVE_HEALING_WISH"
+     ],
+     "source": "Smogon data.pkmn.cc (gen7 ubers, base+stone)",
+     "notes": ""
+    },
+    {
+     "name": "Substitute",
+     "role": "sub attacker",
+     "tier": "cap",
+     "item": "ITEM_LOPUNNITE",
+     "ability": "ABILITY_LIMBER",
+     "nature": "NATURE_JOLLY",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_SUBSTITUTE",
+      "MOVE_HIGH_JUMP_KICK",
+      "MOVE_RETURN",
+      "MOVE_ENCORE"
+     ],
+     "source": "Smogon data.pkmn.cc (gen6 cap, base+stone)",
+     "notes": "High Jump Kick/Drain Punch"
+    },
+    {
+     "name": "All-Out Attacker",
+     "role": "attacker",
+     "tier": "ou",
+     "item": "ITEM_LOPUNNITE",
+     "ability": "ABILITY_LIMBER",
+     "nature": "NATURE_JOLLY",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 4,
+      "spatk": 0,
+      "spdef": 0,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_HIGH_JUMP_KICK",
+      "MOVE_RETURN",
+      "MOVE_FAKE_OUT",
+      "MOVE_ENCORE"
+     ],
+     "source": "Smogon data.pkmn.cc (gen6 ou, base+stone)",
+     "notes": "Encore/Ice Punch/Quick Attack"
+    },
+    {
+     "name": "Offensive",
+     "role": "attacker",
+     "tier": "ubers",
+     "item": "ITEM_LOPUNNITE",
+     "ability": "ABILITY_LIMBER",
+     "nature": "NATURE_JOLLY",
+     "evs": {
+      "hp": 4,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 0,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_LOW_KICK",
+      "MOVE_RETURN",
+      "MOVE_FAKE_OUT",
+      "MOVE_HEALING_WISH"
+     ],
+     "source": "Smogon data.pkmn.cc (gen6 ubers, base+stone)",
+     "notes": "Low Kick/High Jump Kick"
+    }
+   ],
+   "_note": "official Gen 6 Mega"
   },
   {
    "species": "SPECIES_LUCARIO_MEGA",
    "displayName": "Lucario Mega",
    "tier": "mega",
-   "sets": []
+   "sets": [
+    {
+     "name": "Physical Attacker",
+     "role": "attacker",
+     "tier": "battlespotsingles",
+     "item": "ITEM_LUCARIONITE",
+     "ability": "ABILITY_INNER_FOCUS",
+     "nature": "NATURE_JOLLY",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_CLOSE_COMBAT",
+      "MOVE_METEOR_MASH",
+      "MOVE_EXTREME_SPEED",
+      "MOVE_SWORDS_DANCE"
+     ],
+     "source": "Smogon data.pkmn.cc (gen7 battlespotsingles, base+stone)",
+     "notes": "Extreme Speed/Bullet Punch; Swords Dance/Ice Punch"
+    },
+    {
+     "name": "Special Attacker",
+     "role": "attacker",
+     "tier": "battlespotsingles",
+     "item": "ITEM_LUCARIONITE",
+     "ability": "ABILITY_INNER_FOCUS",
+     "nature": "NATURE_TIMID",
+     "evs": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "spatk": 252,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_NASTY_PLOT",
+      "MOVE_AURA_SPHERE",
+      "MOVE_FLASH_CANNON",
+      "MOVE_VACUUM_WAVE"
+     ],
+     "source": "Smogon data.pkmn.cc (gen7 battlespotsingles, base+stone)",
+     "notes": "Aura Sphere/Focus Blast; Vacuum Wave/Dark Pulse"
+    },
+    {
+     "name": "Swords Dance",
+     "role": "setup sweeper",
+     "tier": "ubers",
+     "item": "ITEM_LUCARIONITE",
+     "ability": "ABILITY_JUSTIFIED",
+     "nature": "NATURE_JOLLY",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_SWORDS_DANCE",
+      "MOVE_METEOR_MASH",
+      "MOVE_CLOSE_COMBAT",
+      "MOVE_BULLET_PUNCH"
+     ],
+     "source": "Smogon data.pkmn.cc (gen7 ubers, base+stone)",
+     "notes": ""
+    },
+    {
+     "name": "Physical",
+     "role": "attacker",
+     "tier": "battlespotsingles",
+     "item": "ITEM_LUCARIONITE",
+     "ability": "ABILITY_INNER_FOCUS",
+     "nature": "NATURE_JOLLY",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_CLOSE_COMBAT",
+      "MOVE_IRON_TAIL",
+      "MOVE_EXTREME_SPEED",
+      "MOVE_SWORDS_DANCE"
+     ],
+     "source": "Smogon data.pkmn.cc (gen6 battlespotsingles, base+stone)",
+     "notes": "Swords Dance/Ice Punch"
+    },
+    {
+     "name": "Mega Swords Dance",
+     "role": "setup sweeper",
+     "tier": "ubers",
+     "item": "ITEM_LUCARIONITE",
+     "ability": "ABILITY_JUSTIFIED",
+     "nature": "NATURE_JOLLY",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 4,
+      "spatk": 0,
+      "spdef": 0,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_SWORDS_DANCE",
+      "MOVE_CLOSE_COMBAT",
+      "MOVE_BULLET_PUNCH",
+      "MOVE_IRON_TAIL"
+     ],
+     "source": "Smogon data.pkmn.cc (gen6 ubers, base+stone)",
+     "notes": ""
+    }
+   ],
+   "_note": "official Gen 6 Mega"
   },
   {
    "species": "SPECIES_LUCARIO_MEGA_Z",
    "displayName": "Lucario Mega Z",
    "tier": "mega",
-   "sets": []
+   "sets": [],
+   "_note": "custom Pokemon Legends: Z-A Mega - awaiting source doc"
   },
   {
    "species": "SPECIES_MAGEARNA_ORIGINAL_MEGA",
    "displayName": "Magearna (Original) Mega",
    "tier": "mega-restricted",
-   "sets": []
+   "sets": [],
+   "_note": "custom Pokemon Legends: Z-A Mega - awaiting source doc"
   },
   {
    "species": "SPECIES_MAGEARNA_MEGA",
    "displayName": "Magearna Mega",
    "tier": "mega-restricted",
-   "sets": []
+   "sets": [],
+   "_note": "custom Pokemon Legends: Z-A Mega - awaiting source doc"
   },
   {
    "species": "SPECIES_MALAMAR_MEGA",
    "displayName": "Malamar Mega",
    "tier": "mega",
-   "sets": []
+   "sets": [],
+   "_note": "custom Pokemon Legends: Z-A Mega - awaiting source doc"
   },
   {
    "species": "SPECIES_MANECTRIC_MEGA",
    "displayName": "Manectric Mega",
    "tier": "mega",
-   "sets": []
+   "sets": [
+    {
+     "name": "Offensive Pivot",
+     "role": "defensive / utility",
+     "tier": "battlespotsingles",
+     "item": "ITEM_MANECTITE",
+     "ability": "ABILITY_LIGHTNING_ROD",
+     "nature": "NATURE_TIMID",
+     "evs": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "spatk": 252,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_THUNDERBOLT",
+      "MOVE_OVERHEAT",
+      "MOVE_HIDDEN_POWER",
+      "MOVE_VOLT_SWITCH"
+     ],
+     "source": "Smogon data.pkmn.cc (gen7 battlespotsingles, base+stone)",
+     "notes": "Overheat/Flamethrower; HP Ice"
+    },
+    {
+     "name": "Offensive Pivot",
+     "role": "defensive / utility",
+     "tier": "monotype",
+     "item": "ITEM_MANECTITE",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_TIMID",
+     "evs": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "spatk": 252,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_VOLT_SWITCH",
+      "MOVE_THUNDERBOLT",
+      "MOVE_HIDDEN_POWER",
+      "MOVE_FLAMETHROWER"
+     ],
+     "source": "Smogon data.pkmn.cc (gen6 monotype, base+stone)",
+     "notes": "HP Ice; Flamethrower/Overheat"
+    }
+   ],
+   "_note": "official Gen 6 Mega"
   },
   {
    "species": "SPECIES_MAWILE_MEGA",
    "displayName": "Mawile Mega",
    "tier": "mega",
-   "sets": []
+   "sets": [
+    {
+     "name": "Physical Attacker",
+     "role": "attacker",
+     "tier": "battlespotsingles",
+     "item": "ITEM_MAWILITE",
+     "ability": "ABILITY_INTIMIDATE",
+     "nature": "NATURE_ADAMANT",
+     "evs": {
+      "hp": 252,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 0
+     },
+     "moves": [
+      "MOVE_PLAY_ROUGH",
+      "MOVE_SUCKER_PUNCH",
+      "MOVE_SWORDS_DANCE",
+      "MOVE_FIRE_FANG"
+     ],
+     "source": "Smogon data.pkmn.cc (gen7 battlespotsingles, base+stone)",
+     "notes": "Fire Fang/Knock Off/Iron Head"
+    },
+    {
+     "name": "Swords Dance",
+     "role": "setup sweeper",
+     "tier": "ou",
+     "item": "ITEM_MAWILITE",
+     "ability": "ABILITY_INTIMIDATE",
+     "nature": "NATURE_ADAMANT",
+     "evs": {
+      "hp": 92,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 0,
+      "speed": 164
+     },
+     "moves": [
+      "MOVE_SWORDS_DANCE",
+      "MOVE_PLAY_ROUGH",
+      "MOVE_SUCKER_PUNCH",
+      "MOVE_KNOCK_OFF"
+     ],
+     "source": "Smogon data.pkmn.cc (gen7 ou, base+stone)",
+     "notes": "Knock Off/Thunder Punch"
+    },
+    {
+     "name": "All-out Attacker",
+     "role": "attacker",
+     "tier": "ou",
+     "item": "ITEM_MAWILITE",
+     "ability": "ABILITY_INTIMIDATE",
+     "nature": "NATURE_ADAMANT",
+     "evs": {
+      "hp": 92,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 0,
+      "speed": 164
+     },
+     "moves": [
+      "MOVE_PLAY_ROUGH",
+      "MOVE_THUNDER_PUNCH",
+      "MOVE_SUCKER_PUNCH",
+      "MOVE_BRICK_BREAK"
+     ],
+     "source": "Smogon data.pkmn.cc (gen7 ou, base+stone)",
+     "notes": "Sucker Punch/Ice Punch; Brick Break/Fire Fang"
+    },
+    {
+     "name": "Substitute",
+     "role": "sub attacker",
+     "tier": "ou",
+     "item": "ITEM_MAWILITE",
+     "ability": "ABILITY_INTIMIDATE",
+     "nature": "NATURE_ADAMANT",
+     "evs": {
+      "hp": 144,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 0,
+      "speed": 112
+     },
+     "moves": [
+      "MOVE_SUBSTITUTE",
+      "MOVE_THUNDER_PUNCH",
+      "MOVE_ICE_PUNCH",
+      "MOVE_FOCUS_PUNCH"
+     ],
+     "source": "Smogon data.pkmn.cc (gen7 ou, base+stone)",
+     "notes": ""
+    },
+    {
+     "name": "Special Tank",
+     "role": "defensive / utility",
+     "tier": "ubers",
+     "item": "ITEM_MAWILITE",
+     "ability": "ABILITY_INTIMIDATE",
+     "nature": "NATURE_ADAMANT",
+     "evs": {
+      "hp": 248,
+      "atk": 16,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 244,
+      "speed": 0
+     },
+     "moves": [
+      "MOVE_IRON_HEAD",
+      "MOVE_PLAY_ROUGH",
+      "MOVE_SUCKER_PUNCH",
+      "MOVE_BATON_PASS"
+     ],
+     "source": "Smogon data.pkmn.cc (gen6 ubers, base+stone)",
+     "notes": ""
+    }
+   ],
+   "_note": "official Gen 6 Mega"
   },
   {
    "species": "SPECIES_MEDICHAM_MEGA",
    "displayName": "Medicham Mega",
    "tier": "mega",
-   "sets": []
+   "sets": [
+    {
+     "name": "All-out Attacker",
+     "role": "attacker",
+     "tier": "ou",
+     "item": "ITEM_MEDICHAMITE",
+     "ability": "ABILITY_TELEPATHY",
+     "nature": "NATURE_JOLLY",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_HIGH_JUMP_KICK",
+      "MOVE_FAKE_OUT",
+      "MOVE_ICE_PUNCH",
+      "MOVE_ZEN_HEADBUTT"
+     ],
+     "source": "Smogon data.pkmn.cc (gen7 ou, base+stone)",
+     "notes": "Ice Punch/Bullet Punch; Zen Headbutt/Thunder Punch"
+    },
+    {
+     "name": "All-Out Attacker",
+     "role": "attacker",
+     "tier": "cap",
+     "item": "ITEM_MEDICHAMITE",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_ADAMANT",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 4,
+      "spatk": 0,
+      "spdef": 0,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_HIGH_JUMP_KICK",
+      "MOVE_ZEN_HEADBUTT",
+      "MOVE_FAKE_OUT",
+      "MOVE_BULLET_PUNCH"
+     ],
+     "source": "Smogon data.pkmn.cc (gen6 cap, base+stone)",
+     "notes": "Bullet Punch/Ice Punch"
+    },
+    {
+     "name": "All-Out Attacker",
+     "role": "attacker",
+     "tier": "ou",
+     "item": "ITEM_MEDICHAMITE",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_ADAMANT",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 4,
+      "spatk": 0,
+      "spdef": 0,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_HIGH_JUMP_KICK",
+      "MOVE_ICE_PUNCH",
+      "MOVE_FAKE_OUT",
+      "MOVE_THUNDER_PUNCH"
+     ],
+     "source": "Smogon data.pkmn.cc (gen6 ou, base+stone)",
+     "notes": "Thunder Punch/Zen Headbutt/Bullet Punch"
+    }
+   ],
+   "_note": "official Gen 6 Mega"
   },
   {
    "species": "SPECIES_MEGANIUM_MEGA",
    "displayName": "Meganium Mega",
    "tier": "mega",
-   "sets": []
+   "sets": [],
+   "_note": "custom Pokemon Legends: Z-A Mega - awaiting source doc"
   },
   {
    "species": "SPECIES_MEOWSTIC_F_MEGA",
    "displayName": "Meowstic (F) Mega",
    "tier": "mega",
-   "sets": []
+   "sets": [],
+   "_note": "custom Pokemon Legends: Z-A Mega - awaiting source doc"
   },
   {
    "species": "SPECIES_MEOWSTIC_M_MEGA",
    "displayName": "Meowstic (M) Mega",
    "tier": "mega",
-   "sets": []
+   "sets": [],
+   "_note": "custom Pokemon Legends: Z-A Mega - awaiting source doc"
   },
   {
    "species": "SPECIES_METAGROSS_MEGA",
    "displayName": "Metagross Mega",
    "tier": "mega",
-   "sets": []
+   "sets": [
+    {
+     "name": "All Out Attacker",
+     "role": "attacker",
+     "tier": "battlespotsingles",
+     "item": "ITEM_METAGROSSITE",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_JOLLY",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 4,
+      "spatk": 0,
+      "spdef": 0,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_ZEN_HEADBUTT",
+      "MOVE_BULLET_PUNCH",
+      "MOVE_EARTHQUAKE",
+      "MOVE_ICE_PUNCH"
+     ],
+     "source": "Smogon data.pkmn.cc (gen7 battlespotsingles, base+stone)",
+     "notes": "Bullet Punch/Meteor Mash/Iron Head; Earthquake/Hammer Arm; Ice Punch/Hammer Arm"
+    },
+    {
+     "name": "Substitute Hone Claws",
+     "role": "sub attacker",
+     "tier": "battlespotsingles",
+     "item": "ITEM_METAGROSSITE",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_JOLLY",
+     "evs": {
+      "hp": 252,
+      "atk": 0,
+      "def": 4,
+      "spatk": 0,
+      "spdef": 0,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_SUBSTITUTE",
+      "MOVE_HONE_CLAWS",
+      "MOVE_EARTHQUAKE",
+      "MOVE_ZEN_HEADBUTT"
+     ],
+     "source": "Smogon data.pkmn.cc (gen7 battlespotsingles, base+stone)",
+     "notes": "Zen Headbutt/Meteor Mash"
+    },
+    {
+     "name": "Physical Attacker",
+     "role": "attacker",
+     "tier": "ubers",
+     "item": "ITEM_METAGROSSITE",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_JOLLY",
+     "evs": {
+      "hp": 232,
+      "atk": 60,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 40,
+      "speed": 176
+     },
+     "moves": [
+      "MOVE_METEOR_MASH",
+      "MOVE_ICE_PUNCH",
+      "MOVE_ROCK_SLIDE",
+      "MOVE_BULLET_PUNCH"
+     ],
+     "source": "Smogon data.pkmn.cc (gen7 ubers, base+stone)",
+     "notes": "Rock Slide/Thunder Punch; Bullet Punch/Earthquake"
+    },
+    {
+     "name": "All-Out Attacker",
+     "role": "attacker",
+     "tier": "cap",
+     "item": "ITEM_METAGROSSITE",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_JOLLY",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 4,
+      "spatk": 0,
+      "spdef": 0,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_METEOR_MASH",
+      "MOVE_ZEN_HEADBUTT",
+      "MOVE_BULLET_PUNCH",
+      "MOVE_HAMMER_ARM"
+     ],
+     "source": "Smogon data.pkmn.cc (gen6 cap, base+stone)",
+     "notes": "Bullet Punch/Grass Knot/Ice Punch; Hammer Arm/Earthquake"
+    },
+    {
+     "name": "Rock Polish",
+     "role": "attacker",
+     "tier": "cap",
+     "item": "ITEM_METAGROSSITE",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_JOLLY",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 4,
+      "spatk": 0,
+      "spdef": 0,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_ROCK_POLISH",
+      "MOVE_METEOR_MASH",
+      "MOVE_ZEN_HEADBUTT",
+      "MOVE_HAMMER_ARM"
+     ],
+     "source": "Smogon data.pkmn.cc (gen6 cap, base+stone)",
+     "notes": "Hammer Arm/Earthquake/Ice Punch"
+    },
+    {
+     "name": "Offensive",
+     "role": "attacker",
+     "tier": "ou",
+     "item": "ITEM_METAGROSSITE",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_JOLLY",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_ZEN_HEADBUTT",
+      "MOVE_METEOR_MASH",
+      "MOVE_HAMMER_ARM",
+      "MOVE_ICE_PUNCH"
+     ],
+     "source": "Smogon data.pkmn.cc (gen6 ou, base+stone)",
+     "notes": "Meteor Mash/Bullet Punch; Hammer Arm/Power-Up Punch; Ice Punch/Thunder Punch"
+    },
+    {
+     "name": "Utility",
+     "role": "defensive / utility",
+     "tier": "ou",
+     "item": "ITEM_METAGROSSITE",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_JOLLY",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_STEALTH_ROCK",
+      "MOVE_EARTHQUAKE",
+      "MOVE_ICE_PUNCH",
+      "MOVE_METEOR_MASH"
+     ],
+     "source": "Smogon data.pkmn.cc (gen6 ou, base+stone)",
+     "notes": "Stealth Rock/Pursuit; Ice Punch/Pursuit; Meteor Mash/Zen Headbutt"
+    }
+   ],
+   "_note": "official Gen 6 Mega"
   },
   {
    "species": "SPECIES_MEWTWO_MEGA_X",
    "displayName": "Mewtwo Mega X",
    "tier": "mega-restricted",
-   "sets": []
+   "sets": [
+    {
+     "name": "Physical Attacker",
+     "role": "attacker",
+     "tier": "ubers",
+     "item": "ITEM_MEWTWONITE_X",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_JOLLY",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 4,
+      "spatk": 0,
+      "spdef": 0,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_LOW_KICK",
+      "MOVE_TAUNT",
+      "MOVE_ICE_BEAM",
+      "MOVE_STONE_EDGE"
+     ],
+     "source": "Smogon data.pkmn.cc (gen7 ubers, base+stone)",
+     "notes": "Ice Beam/Zen Headbutt; Stone Edge/Zen Headbutt"
+    },
+    {
+     "name": "Physical Attacker",
+     "role": "attacker",
+     "tier": "ubers",
+     "item": "ITEM_MEWTWONITE_X",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_JOLLY",
+     "evs": {
+      "hp": 0,
+      "atk": 112,
+      "def": 144,
+      "spatk": 0,
+      "spdef": 0,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_LOW_KICK",
+      "MOVE_TAUNT",
+      "MOVE_EARTHQUAKE",
+      "MOVE_ICE_PUNCH"
+     ],
+     "source": "Smogon data.pkmn.cc (gen6 ubers, base+stone)",
+     "notes": "Ice Punch/Stone Edge"
+    }
+   ],
+   "_note": "official Gen 6 Mega"
   },
   {
    "species": "SPECIES_MEWTWO_MEGA_Y",
    "displayName": "Mewtwo Mega Y",
    "tier": "mega-restricted",
-   "sets": []
+   "sets": [
+    {
+     "name": "Special Attacker",
+     "role": "attacker",
+     "tier": "ubers",
+     "item": "ITEM_MEWTWONITE_Y",
+     "ability": "ABILITY_UNNERVE",
+     "nature": "NATURE_TIMID",
+     "evs": {
+      "hp": 0,
+      "atk": 0,
+      "def": 40,
+      "spatk": 216,
+      "spdef": 0,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_PSYSTRIKE",
+      "MOVE_ICE_BEAM",
+      "MOVE_FIRE_BLAST",
+      "MOVE_CALM_MIND"
+     ],
+     "source": "Smogon data.pkmn.cc (gen7 ubers, base+stone)",
+     "notes": "Calm Mind/Focus Blast/Taunt"
+    }
+   ],
+   "_note": "official Gen 6 Mega"
   },
   {
    "species": "SPECIES_PIDGEOT_MEGA",
    "displayName": "Pidgeot Mega",
    "tier": "mega",
-   "sets": []
+   "sets": [
+    {
+     "name": "Offensive (Normal)",
+     "role": "attacker",
+     "tier": "monotype",
+     "item": "ITEM_PIDGEOTITE",
+     "ability": "ABILITY_BIG_PECKS",
+     "nature": "NATURE_TIMID",
+     "evs": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "spatk": 252,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_HURRICANE",
+      "MOVE_HEAT_WAVE",
+      "MOVE_ROOST",
+      "MOVE_U_TURN"
+     ],
+     "source": "Smogon data.pkmn.cc (gen7 monotype, base+stone)",
+     "notes": ""
+    },
+    {
+     "name": "Specially Offensive",
+     "role": "attacker",
+     "tier": "battlespotsingles",
+     "item": "ITEM_PIDGEOTITE",
+     "ability": "ABILITY_BIG_PECKS",
+     "nature": "NATURE_TIMID",
+     "evs": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "spatk": 252,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_HURRICANE",
+      "MOVE_HEAT_WAVE",
+      "MOVE_PROTECT",
+      "MOVE_HIDDEN_POWER"
+     ],
+     "source": "Smogon data.pkmn.cc (gen6 battlespotsingles, base+stone)",
+     "notes": "Protect/U-turn/Substitute; HP Ice"
+    },
+    {
+     "name": "Storm Bringer (Normal)",
+     "role": "attacker",
+     "tier": "monotype",
+     "item": "ITEM_PIDGEOTITE",
+     "ability": "ABILITY_BIG_PECKS",
+     "nature": "NATURE_TIMID",
+     "evs": {
+      "hp": 0,
+      "atk": 0,
+      "def": 4,
+      "spatk": 252,
+      "spdef": 0,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_HURRICANE",
+      "MOVE_HEAT_WAVE",
+      "MOVE_ROOST",
+      "MOVE_DEFOG"
+     ],
+     "source": "Smogon data.pkmn.cc (gen6 monotype, base+stone)",
+     "notes": "Roost/Hidden Power Ground; Defog/U-turn"
+    }
+   ],
+   "_note": "official Gen 6 Mega"
   },
   {
    "species": "SPECIES_PINSIR_MEGA",
    "displayName": "Pinsir Mega",
    "tier": "mega",
-   "sets": []
+   "sets": [
+    {
+     "name": "Stealth Rock",
+     "role": "hazard lead",
+     "tier": "letsgoou",
+     "item": "ITEM_PINSIRITE",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_JOLLY",
+     "evs": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 0,
+      "speed": 0
+     },
+     "moves": [
+      "MOVE_STEALTH_ROCK",
+      "MOVE_X_SCISSOR",
+      "MOVE_EARTHQUAKE",
+      "MOVE_ROCK_SLIDE"
+     ],
+     "source": "Smogon data.pkmn.cc (gen7 letsgoou, base+stone)",
+     "notes": ""
+    },
+    {
+     "name": "Swords Dance",
+     "role": "setup sweeper",
+     "tier": "letsgoou",
+     "item": "ITEM_PINSIRITE",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_JOLLY",
+     "evs": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 0,
+      "speed": 0
+     },
+     "moves": [
+      "MOVE_SWORDS_DANCE",
+      "MOVE_X_SCISSOR",
+      "MOVE_EARTHQUAKE",
+      "MOVE_ROCK_SLIDE"
+     ],
+     "source": "Smogon data.pkmn.cc (gen7 letsgoou, base+stone)",
+     "notes": ""
+    },
+    {
+     "name": "Swords Dance (Bug)",
+     "role": "setup sweeper",
+     "tier": "monotype",
+     "item": "ITEM_PINSIRITE",
+     "ability": "ABILITY_MOXIE",
+     "nature": "NATURE_JOLLY",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_SWORDS_DANCE",
+      "MOVE_RETURN",
+      "MOVE_QUICK_ATTACK",
+      "MOVE_CLOSE_COMBAT"
+     ],
+     "source": "Smogon data.pkmn.cc (gen7 monotype, base+stone)",
+     "notes": ""
+    },
+    {
+     "name": "Swords Dance",
+     "role": "setup sweeper",
+     "tier": "ou",
+     "item": "ITEM_PINSIRITE",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_JOLLY",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_SWORDS_DANCE",
+      "MOVE_FRUSTRATION",
+      "MOVE_QUICK_ATTACK",
+      "MOVE_CLOSE_COMBAT"
+     ],
+     "source": "Smogon data.pkmn.cc (gen7 ou, base+stone)",
+     "notes": "Close Combat/Earthquake"
+    },
+    {
+     "name": "Swords Dance",
+     "role": "setup sweeper",
+     "tier": "cap",
+     "item": "ITEM_PINSIRITE",
+     "ability": "ABILITY_HYPER_CUTTER",
+     "nature": "NATURE_JOLLY",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 4,
+      "spatk": 0,
+      "spdef": 0,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_SWORDS_DANCE",
+      "MOVE_RETURN",
+      "MOVE_QUICK_ATTACK",
+      "MOVE_EARTHQUAKE"
+     ],
+     "source": "Smogon data.pkmn.cc (gen6 cap, base+stone)",
+     "notes": "Earthquake/Close Combat"
+    }
+   ],
+   "_note": "official Gen 6 Mega"
   },
   {
    "species": "SPECIES_PYROAR_MEGA",
    "displayName": "Pyroar Mega",
    "tier": "mega",
-   "sets": []
+   "sets": [],
+   "_note": "custom Pokemon Legends: Z-A Mega - awaiting source doc"
   },
   {
    "species": "SPECIES_RAICHU_MEGA_X",
    "displayName": "Raichu Mega X",
    "tier": "mega",
-   "sets": []
+   "sets": [],
+   "_note": "custom Pokemon Legends: Z-A Mega - awaiting source doc"
   },
   {
    "species": "SPECIES_RAICHU_MEGA_Y",
    "displayName": "Raichu Mega Y",
    "tier": "mega",
-   "sets": []
+   "sets": [],
+   "_note": "custom Pokemon Legends: Z-A Mega - awaiting source doc"
   },
   {
    "species": "SPECIES_RAYQUAZA_MEGA",
    "displayName": "Rayquaza Mega",
    "tier": "mega-restricted",
-   "sets": []
+   "sets": [
+    {
+     "name": "Dragon Dance",
+     "role": "setup sweeper",
+     "tier": "anythinggoes",
+     "item": "ITEM_LIFE_ORB",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_ADAMANT",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 4,
+      "spatk": 0,
+      "spdef": 0,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_DRAGON_ASCENT",
+      "MOVE_DRAGON_DANCE",
+      "MOVE_EXTREME_SPEED",
+      "MOVE_V_CREATE"
+     ],
+     "source": "Smogon data.pkmn.cc (gen7 anythinggoes, base+stone)",
+     "notes": "V-create/Earthquake"
+    },
+    {
+     "name": "Choice Scarf",
+     "role": "choice revenge killer",
+     "tier": "anythinggoes",
+     "item": "ITEM_CHOICE_SCARF",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_NAIVE",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 4,
+      "spdef": 0,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_DRAGON_ASCENT",
+      "MOVE_V_CREATE",
+      "MOVE_DRACO_METEOR",
+      "MOVE_EARTHQUAKE"
+     ],
+     "source": "Smogon data.pkmn.cc (gen7 anythinggoes, base+stone)",
+     "notes": "Earthquake/Surf/Toxic/Defog"
+    },
+    {
+     "name": "Choice Band",
+     "role": "choice wallbreaker",
+     "tier": "anythinggoes",
+     "item": "ITEM_CHOICE_BAND",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_ADAMANT",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 4,
+      "spatk": 0,
+      "spdef": 0,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_DRAGON_ASCENT",
+      "MOVE_V_CREATE",
+      "MOVE_EXTREME_SPEED",
+      "MOVE_EARTHQUAKE"
+     ],
+     "source": "Smogon data.pkmn.cc (gen7 anythinggoes, base+stone)",
+     "notes": "Earthquake/Waterfall/Outrage"
+    },
+    {
+     "name": "Mixed Attacker",
+     "role": "attacker",
+     "tier": "anythinggoes",
+     "item": "ITEM_LIFE_ORB",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_NAIVE",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 4,
+      "spdef": 0,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_DRAGON_ASCENT",
+      "MOVE_DRACO_METEOR",
+      "MOVE_EXTREME_SPEED",
+      "MOVE_V_CREATE"
+     ],
+     "source": "Smogon data.pkmn.cc (gen7 anythinggoes, base+stone)",
+     "notes": "V-create/Earthquake/Surf"
+    },
+    {
+     "name": "Dragon Dance",
+     "role": "setup sweeper",
+     "tier": "ubers",
+     "item": "ITEM_FLYINIUM_Z",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_ADAMANT",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_DRAGON_DANCE",
+      "MOVE_DRAGON_ASCENT",
+      "MOVE_EARTHQUAKE",
+      "MOVE_EXTREME_SPEED"
+     ],
+     "source": "Smogon data.pkmn.cc (gen7 ubers, base+stone)",
+     "notes": ""
+    },
+    {
+     "name": "Choice Scarf",
+     "role": "choice revenge killer",
+     "tier": "ubers",
+     "item": "ITEM_CHOICE_SCARF",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_NAUGHTY",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 4,
+      "spdef": 0,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_DRAGON_ASCENT",
+      "MOVE_V_CREATE",
+      "MOVE_DRACO_METEOR",
+      "MOVE_TOXIC"
+     ],
+     "source": "Smogon data.pkmn.cc (gen7 ubers, base+stone)",
+     "notes": "Toxic/Defog"
+    },
+    {
+     "name": "Choice Band",
+     "role": "choice wallbreaker",
+     "tier": "anythinggoes",
+     "item": "ITEM_CHOICE_BAND",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_ADAMANT",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_DRAGON_ASCENT",
+      "MOVE_EXTREME_SPEED",
+      "MOVE_V_CREATE",
+      "MOVE_WATERFALL"
+     ],
+     "source": "Smogon data.pkmn.cc (gen6 anythinggoes, base+stone)",
+     "notes": ""
+    },
+    {
+     "name": "Swords Dance",
+     "role": "setup sweeper",
+     "tier": "anythinggoes",
+     "item": "ITEM_LIFE_ORB",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_JOLLY",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 4,
+      "spatk": 0,
+      "spdef": 0,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_SWORDS_DANCE",
+      "MOVE_DRAGON_ASCENT",
+      "MOVE_EARTHQUAKE",
+      "MOVE_EXTREME_SPEED"
+     ],
+     "source": "Smogon data.pkmn.cc (gen6 anythinggoes, base+stone)",
+     "notes": "Earthquake/V-create"
+    }
+   ],
+   "_note": "official Gen 6 Mega"
   },
   {
    "species": "SPECIES_SABLEYE_MEGA",
    "displayName": "Sableye Mega",
    "tier": "mega",
-   "sets": []
+   "sets": [
+    {
+     "name": "Utility (Dark)",
+     "role": "defensive / utility",
+     "tier": "monotype",
+     "item": "ITEM_SABLENITE",
+     "ability": "ABILITY_PRANKSTER",
+     "nature": "NATURE_CAREFUL",
+     "evs": {
+      "hp": 252,
+      "atk": 0,
+      "def": 112,
+      "spatk": 0,
+      "spdef": 144,
+      "speed": 0
+     },
+     "moves": [
+      "MOVE_KNOCK_OFF",
+      "MOVE_WILL_O_WISP",
+      "MOVE_RECOVER",
+      "MOVE_FOUL_PLAY"
+     ],
+     "source": "Smogon data.pkmn.cc (gen7 monotype, base+stone)",
+     "notes": ""
+    },
+    {
+     "name": "Utility (Ghost)",
+     "role": "defensive / utility",
+     "tier": "monotype",
+     "item": "ITEM_SABLENITE",
+     "ability": "ABILITY_PRANKSTER",
+     "nature": "NATURE_CAREFUL",
+     "evs": {
+      "hp": 248,
+      "atk": 0,
+      "def": 104,
+      "spatk": 0,
+      "spdef": 156,
+      "speed": 0
+     },
+     "moves": [
+      "MOVE_RECOVER",
+      "MOVE_WILL_O_WISP",
+      "MOVE_KNOCK_OFF",
+      "MOVE_PROTECT"
+     ],
+     "source": "Smogon data.pkmn.cc (gen7 monotype, base+stone)",
+     "notes": "Protect/Foul Play"
+    },
+    {
+     "name": "Support",
+     "role": "defensive / utility",
+     "tier": "ubers",
+     "item": "ITEM_SABLENITE",
+     "ability": "ABILITY_PRANKSTER",
+     "nature": "NATURE_IMPISH",
+     "evs": {
+      "hp": 248,
+      "atk": 0,
+      "def": 252,
+      "spatk": 0,
+      "spdef": 8,
+      "speed": 0
+     },
+     "moves": [
+      "MOVE_FAKE_OUT",
+      "MOVE_FOUL_PLAY",
+      "MOVE_TOXIC",
+      "MOVE_RECOVER"
+     ],
+     "source": "Smogon data.pkmn.cc (gen7 ubers, base+stone)",
+     "notes": "Toxic/Will-O-Wisp"
+    },
+    {
+     "name": "Support",
+     "role": "defensive / utility",
+     "tier": "anythinggoes",
+     "item": "ITEM_SABLENITE",
+     "ability": "ABILITY_PRANKSTER",
+     "nature": "NATURE_IMPISH",
+     "evs": {
+      "hp": 248,
+      "atk": 0,
+      "def": 252,
+      "spatk": 0,
+      "spdef": 8,
+      "speed": 0
+     },
+     "moves": [
+      "MOVE_FAKE_OUT",
+      "MOVE_FOUL_PLAY",
+      "MOVE_RECOVER",
+      "MOVE_WILL_O_WISP"
+     ],
+     "source": "Smogon data.pkmn.cc (gen6 anythinggoes, base+stone)",
+     "notes": ""
+    },
+    {
+     "name": "Calm Mind + Snarl",
+     "role": "setup sweeper",
+     "tier": "battlespotsingles",
+     "item": "ITEM_SABLENITE",
+     "ability": "ABILITY_PRANKSTER",
+     "nature": "NATURE_BOLD",
+     "evs": {
+      "hp": 252,
+      "atk": 0,
+      "def": 252,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 0
+     },
+     "moves": [
+      "MOVE_WILL_O_WISP",
+      "MOVE_RECOVER",
+      "MOVE_CALM_MIND",
+      "MOVE_SNARL"
+     ],
+     "source": "Smogon data.pkmn.cc (gen6 battlespotsingles, base+stone)",
+     "notes": ""
+    },
+    {
+     "name": "Physical Utility",
+     "role": "defensive / utility",
+     "tier": "battlespotsingles",
+     "item": "ITEM_SABLENITE",
+     "ability": "ABILITY_PRANKSTER",
+     "nature": "NATURE_IMPISH",
+     "evs": {
+      "hp": 252,
+      "atk": 0,
+      "def": 204,
+      "spatk": 0,
+      "spdef": 52,
+      "speed": 0
+     },
+     "moves": [
+      "MOVE_WILL_O_WISP",
+      "MOVE_RECOVER",
+      "MOVE_FOUL_PLAY",
+      "MOVE_TAUNT"
+     ],
+     "source": "Smogon data.pkmn.cc (gen6 battlespotsingles, base+stone)",
+     "notes": "Taunt/Sucker Punch"
+    }
+   ],
+   "_note": "official Gen 6 Mega"
   },
   {
    "species": "SPECIES_SALAMENCE_MEGA",
    "displayName": "Salamence Mega",
    "tier": "mega",
-   "sets": []
+   "sets": [
+    {
+     "name": "Dragon Dance",
+     "role": "setup sweeper",
+     "tier": "battlespotsingles",
+     "item": "ITEM_SALAMENCITE",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_ADAMANT",
+     "evs": {
+      "hp": 4,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 0,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_DRAGON_DANCE",
+      "MOVE_DOUBLE_EDGE",
+      "MOVE_EARTHQUAKE",
+      "MOVE_ROOST"
+     ],
+     "source": "Smogon data.pkmn.cc (gen7 battlespotsingles, base+stone)",
+     "notes": "Double-Edge/Return"
+    },
+    {
+     "name": "Mixed Attacker",
+     "role": "attacker",
+     "tier": "battlespotsingles",
+     "item": "ITEM_SALAMENCITE",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_NAIVE",
+     "evs": {
+      "hp": 0,
+      "atk": 4,
+      "def": 0,
+      "spatk": 252,
+      "spdef": 0,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_DOUBLE_EDGE",
+      "MOVE_DRACO_METEOR",
+      "MOVE_FIRE_BLAST",
+      "MOVE_EARTHQUAKE"
+     ],
+     "source": "Smogon data.pkmn.cc (gen7 battlespotsingles, base+stone)",
+     "notes": "Fire Blast/Flamethrower; Earthquake/Hyper Voice/Substitute/Roost"
+    },
+    {
+     "name": "Dragon Dance",
+     "role": "setup sweeper",
+     "tier": "ubers",
+     "item": "ITEM_SALAMENCITE",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_ADAMANT",
+     "evs": {
+      "hp": 44,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 0,
+      "speed": 212
+     },
+     "moves": [
+      "MOVE_DRAGON_DANCE",
+      "MOVE_DOUBLE_EDGE",
+      "MOVE_ROOST",
+      "MOVE_FACADE"
+     ],
+     "source": "Smogon data.pkmn.cc (gen7 ubers, base+stone)",
+     "notes": ""
+    },
+    {
+     "name": "Offensive Defog",
+     "role": "defensive / utility",
+     "tier": "ubers",
+     "item": "ITEM_SALAMENCITE",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_JOLLY",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 4,
+      "spatk": 0,
+      "spdef": 0,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_DEFOG",
+      "MOVE_DOUBLE_EDGE",
+      "MOVE_ROOST",
+      "MOVE_FACADE"
+     ],
+     "source": "Smogon data.pkmn.cc (gen7 ubers, base+stone)",
+     "notes": ""
+    },
+    {
+     "name": "Defensive",
+     "role": "defensive / utility",
+     "tier": "ubers",
+     "item": "ITEM_SALAMENCITE",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_IMPISH",
+     "evs": {
+      "hp": 248,
+      "atk": 0,
+      "def": 136,
+      "spatk": 0,
+      "spdef": 0,
+      "speed": 124
+     },
+     "moves": [
+      "MOVE_BODY_SLAM",
+      "MOVE_DEFOG",
+      "MOVE_ROOST",
+      "MOVE_REFRESH"
+     ],
+     "source": "Smogon data.pkmn.cc (gen7 ubers, base+stone)",
+     "notes": "Refresh/Dragon Tail"
+    },
+    {
+     "name": "SubRoost",
+     "role": "sub attacker",
+     "tier": "battlespotsingles",
+     "item": "ITEM_SALAMENCITE",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_JOLLY",
+     "evs": {
+      "hp": 252,
+      "atk": 4,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 0,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_TOXIC",
+      "MOVE_SUBSTITUTE",
+      "MOVE_ROOST",
+      "MOVE_DOUBLE_EDGE"
+     ],
+     "source": "Smogon data.pkmn.cc (gen6 battlespotsingles, base+stone)",
+     "notes": "Double-Edge/Return"
+    }
+   ],
+   "_note": "official Gen 6 Mega"
   },
   {
    "species": "SPECIES_SCEPTILE_MEGA",
@@ -646,11 +5413,35 @@
    "tier": "mega",
    "sets": [
     {
-     "name": "Leech Seed + Protect",
+     "name": "All-out Attacker",
      "role": "attacker",
-     "tier": "ru",
+     "tier": "uu",
      "item": "ITEM_SCEPTILITE",
-     "ability": "ABILITY_OVERGROW",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_TIMID",
+     "evs": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "spatk": 252,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_LEAF_STORM",
+      "MOVE_DRAGON_PULSE",
+      "MOVE_EARTHQUAKE",
+      "MOVE_HIDDEN_POWER"
+     ],
+     "source": "Smogon data.pkmn.cc (gen7 uu, base+stone)",
+     "notes": "Earthquake/Giga Drain/Focus Blast; Hidden Power Fire/Focus Blast; HP Fire"
+    },
+    {
+     "name": "All-Out Attacker",
+     "role": "attacker",
+     "tier": "battlespotsingles",
+     "item": "ITEM_SCEPTILITE",
+     "ability": "ABILITY_NONE",
      "nature": "NATURE_TIMID",
      "evs": {
       "hp": 0,
@@ -663,127 +5454,1354 @@
      "moves": [
       "MOVE_LEAF_STORM",
       "MOVE_DRAGON_PULSE",
-      "MOVE_PROTECT",
-      "MOVE_LEECH_SEED"
+      "MOVE_FOCUS_BLAST",
+      "MOVE_PROTECT"
      ],
-     "source": "Smogon data.pkmn.cc (gen7 ru)",
+     "source": "Smogon data.pkmn.cc (gen6 battlespotsingles, base+stone)",
+     "notes": "Focus Blast/Hidden Power Fire; Protect/Substitute"
+    },
+    {
+     "name": "Substitute",
+     "role": "sub attacker",
+     "tier": "ou",
+     "item": "ITEM_SCEPTILITE",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_TIMID",
+     "evs": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "spatk": 252,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_DRAGON_PULSE",
+      "MOVE_GIGA_DRAIN",
+      "MOVE_FOCUS_BLAST",
+      "MOVE_SUBSTITUTE"
+     ],
+     "source": "Smogon data.pkmn.cc (gen6 ou, base+stone)",
      "notes": ""
+    },
+    {
+     "name": "All-Out Offensive",
+     "role": "attacker",
+     "tier": "uu",
+     "item": "ITEM_SCEPTILITE",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_TIMID",
+     "evs": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "spatk": 252,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_GIGA_DRAIN",
+      "MOVE_LEAF_STORM",
+      "MOVE_DRAGON_PULSE",
+      "MOVE_FOCUS_BLAST"
+     ],
+     "source": "Smogon data.pkmn.cc (gen6 uu, base+stone)",
+     "notes": "Giga Drain/Energy Ball; Focus Blast/Hidden Power Fire"
+    },
+    {
+     "name": "Swords Dance",
+     "role": "setup sweeper",
+     "tier": "uu",
+     "item": "ITEM_SCEPTILITE",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_JOLLY",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_SWORDS_DANCE",
+      "MOVE_LEAF_BLADE",
+      "MOVE_DRAGON_CLAW",
+      "MOVE_EARTHQUAKE"
+     ],
+     "source": "Smogon data.pkmn.cc (gen6 uu, base+stone)",
+     "notes": "Dragon Claw/Outrage; Earthquake/Drain Punch"
     }
-   ]
+   ],
+   "_note": "official Gen 6 Mega"
   },
   {
    "species": "SPECIES_SCIZOR_MEGA",
    "displayName": "Scizor Mega",
    "tier": "mega",
-   "sets": []
+   "sets": [
+    {
+     "name": "Swords Dance",
+     "role": "setup sweeper",
+     "tier": "battlespotsingles",
+     "item": "ITEM_SCIZORITE",
+     "ability": "ABILITY_TECHNICIAN",
+     "nature": "NATURE_ADAMANT",
+     "evs": {
+      "hp": 252,
+      "atk": 116,
+      "def": 20,
+      "spatk": 0,
+      "spdef": 116,
+      "speed": 4
+     },
+     "moves": [
+      "MOVE_SWORDS_DANCE",
+      "MOVE_BULLET_PUNCH",
+      "MOVE_U_TURN",
+      "MOVE_ROOST"
+     ],
+     "source": "Smogon data.pkmn.cc (gen7 battlespotsingles, base+stone)",
+     "notes": "U-turn/Knock Off/Thief/Superpower"
+    },
+    {
+     "name": "Offensive Swords Dance (Bug)",
+     "role": "setup sweeper",
+     "tier": "monotype",
+     "item": "ITEM_SCIZORITE",
+     "ability": "ABILITY_LIGHT_METAL",
+     "nature": "NATURE_ADAMANT",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 4,
+      "spatk": 0,
+      "spdef": 0,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_SWORDS_DANCE",
+      "MOVE_BULLET_PUNCH",
+      "MOVE_BUG_BITE",
+      "MOVE_SUPERPOWER"
+     ],
+     "source": "Smogon data.pkmn.cc (gen7 monotype, base+stone)",
+     "notes": ""
+    },
+    {
+     "name": "Bulky Facade (Steel)",
+     "role": "defensive / utility",
+     "tier": "monotype",
+     "item": "ITEM_SCIZORITE",
+     "ability": "ABILITY_TECHNICIAN",
+     "nature": "NATURE_IMPISH",
+     "evs": {
+      "hp": 248,
+      "atk": 72,
+      "def": 48,
+      "spatk": 0,
+      "spdef": 0,
+      "speed": 140
+     },
+     "moves": [
+      "MOVE_BULLET_PUNCH",
+      "MOVE_FACADE",
+      "MOVE_SWORDS_DANCE",
+      "MOVE_ROOST"
+     ],
+     "source": "Smogon data.pkmn.cc (gen7 monotype, base+stone)",
+     "notes": ""
+    },
+    {
+     "name": "Bulky Pivot",
+     "role": "defensive / utility",
+     "tier": "ubers",
+     "item": "ITEM_SCIZORITE",
+     "ability": "ABILITY_LIGHT_METAL",
+     "nature": "NATURE_SASSY",
+     "evs": {
+      "hp": 248,
+      "atk": 0,
+      "def": 8,
+      "spatk": 0,
+      "spdef": 252,
+      "speed": 0
+     },
+     "moves": [
+      "MOVE_BULLET_PUNCH",
+      "MOVE_ROOST",
+      "MOVE_U_TURN",
+      "MOVE_TOXIC"
+     ],
+     "source": "Smogon data.pkmn.cc (gen7 ubers, base+stone)",
+     "notes": "Toxic/Swords Dance"
+    },
+    {
+     "name": "Standard",
+     "role": "attacker",
+     "tier": "battlespotsingles",
+     "item": "ITEM_SCIZORITE",
+     "ability": "ABILITY_TECHNICIAN",
+     "nature": "NATURE_ADAMANT",
+     "evs": {
+      "hp": 252,
+      "atk": 108,
+      "def": 28,
+      "spatk": 0,
+      "spdef": 116,
+      "speed": 4
+     },
+     "moves": [
+      "MOVE_SWORDS_DANCE",
+      "MOVE_ROOST",
+      "MOVE_BULLET_PUNCH",
+      "MOVE_KNOCK_OFF"
+     ],
+     "source": "Smogon data.pkmn.cc (gen6 battlespotsingles, base+stone)",
+     "notes": "Knock Off/U-turn/Bug Bite/Superpower"
+    },
+    {
+     "name": "Defensive Pivot",
+     "role": "defensive / utility",
+     "tier": "cap",
+     "item": "ITEM_SCIZORITE",
+     "ability": "ABILITY_LIGHT_METAL",
+     "nature": "NATURE_IMPISH",
+     "evs": {
+      "hp": 248,
+      "atk": 8,
+      "def": 252,
+      "spatk": 0,
+      "spdef": 0,
+      "speed": 0
+     },
+     "moves": [
+      "MOVE_U_TURN",
+      "MOVE_BULLET_PUNCH",
+      "MOVE_ROOST",
+      "MOVE_DEFOG"
+     ],
+     "source": "Smogon data.pkmn.cc (gen6 cap, base+stone)",
+     "notes": "Defog/Knock Off"
+    },
+    {
+     "name": "Swords Dance (Steel)",
+     "role": "setup sweeper",
+     "tier": "monotype",
+     "item": "ITEM_SCIZORITE",
+     "ability": "ABILITY_LIGHT_METAL",
+     "nature": "NATURE_ADAMANT",
+     "evs": {
+      "hp": 232,
+      "atk": 140,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 0,
+      "speed": 136
+     },
+     "moves": [
+      "MOVE_BULLET_PUNCH",
+      "MOVE_SWORDS_DANCE",
+      "MOVE_BUG_BITE",
+      "MOVE_ROOST"
+     ],
+     "source": "Smogon data.pkmn.cc (gen6 monotype, base+stone)",
+     "notes": "Bug Bite/Knock Off"
+    },
+    {
+     "name": "Bulky Swords Dance",
+     "role": "setup sweeper",
+     "tier": "ou",
+     "item": "ITEM_SCIZORITE",
+     "ability": "ABILITY_LIGHT_METAL",
+     "nature": "NATURE_ADAMANT",
+     "evs": {
+      "hp": 248,
+      "atk": 32,
+      "def": 84,
+      "spatk": 0,
+      "spdef": 124,
+      "speed": 20
+     },
+     "moves": [
+      "MOVE_SWORDS_DANCE",
+      "MOVE_ROOST",
+      "MOVE_BULLET_PUNCH",
+      "MOVE_SUPERPOWER"
+     ],
+     "source": "Smogon data.pkmn.cc (gen6 ou, base+stone)",
+     "notes": "Superpower/Knock Off/U-turn"
+    }
+   ],
+   "_note": "official Gen 6 Mega"
   },
   {
    "species": "SPECIES_SCOLIPEDE_MEGA",
    "displayName": "Scolipede Mega",
    "tier": "mega",
-   "sets": []
+   "sets": [],
+   "_note": "custom Pokemon Legends: Z-A Mega - awaiting source doc"
   },
   {
    "species": "SPECIES_SCOVILLAIN_MEGA",
    "displayName": "Scovillain Mega",
    "tier": "mega",
-   "sets": []
+   "sets": [],
+   "_note": "custom Pokemon Legends: Z-A Mega - awaiting source doc"
   },
   {
    "species": "SPECIES_SCRAFTY_MEGA",
    "displayName": "Scrafty Mega",
    "tier": "mega",
-   "sets": []
+   "sets": [],
+   "_note": "custom Pokemon Legends: Z-A Mega - awaiting source doc"
   },
   {
    "species": "SPECIES_SHARPEDO_MEGA",
    "displayName": "Sharpedo Mega",
    "tier": "mega",
-   "sets": []
+   "sets": [
+    {
+     "name": "Mega Attacker",
+     "role": "attacker",
+     "tier": "battlespotsingles",
+     "item": "ITEM_SHARPEDONITE",
+     "ability": "ABILITY_SPEED_BOOST",
+     "nature": "NATURE_ADAMANT",
+     "evs": {
+      "hp": 4,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 0,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_PROTECT",
+      "MOVE_CRUNCH",
+      "MOVE_ICE_FANG",
+      "MOVE_DESTINY_BOND"
+     ],
+     "source": "Smogon data.pkmn.cc (gen7 battlespotsingles, base+stone)",
+     "notes": "Destiny Bond/Substitute/Earthquake/Aqua Jet"
+    },
+    {
+     "name": "Mega Sharpedo (Dark)",
+     "role": "attacker",
+     "tier": "monotype",
+     "item": "ITEM_SHARPEDONITE",
+     "ability": "ABILITY_SPEED_BOOST",
+     "nature": "NATURE_JOLLY",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 4,
+      "spatk": 0,
+      "spdef": 0,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_PROTECT",
+      "MOVE_CRUNCH",
+      "MOVE_LIQUIDATION",
+      "MOVE_PSYCHIC_FANGS"
+     ],
+     "source": "Smogon data.pkmn.cc (gen7 monotype, base+stone)",
+     "notes": "Psychic Fangs/Ice Fang"
+    },
+    {
+     "name": "Cleaner",
+     "role": "attacker",
+     "tier": "uu",
+     "item": "ITEM_SHARPEDONITE",
+     "ability": "ABILITY_SPEED_BOOST",
+     "nature": "NATURE_ADAMANT",
+     "evs": {
+      "hp": 4,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 0,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_CRUNCH",
+      "MOVE_ICE_FANG",
+      "MOVE_EARTHQUAKE",
+      "MOVE_PROTECT"
+     ],
+     "source": "Smogon data.pkmn.cc (gen7 uu, base+stone)",
+     "notes": "Earthquake/Psychic Fangs"
+    },
+    {
+     "name": "Speed Boost Sweeper (Water)",
+     "role": "attacker",
+     "tier": "monotype",
+     "item": "ITEM_SHARPEDONITE",
+     "ability": "ABILITY_SPEED_BOOST",
+     "nature": "NATURE_JOLLY",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_PROTECT",
+      "MOVE_CRUNCH",
+      "MOVE_SUBSTITUTE",
+      "MOVE_ICE_FANG"
+     ],
+     "source": "Smogon data.pkmn.cc (gen6 monotype, base+stone)",
+     "notes": ""
+    },
+    {
+     "name": "Sweeper (Dark)",
+     "role": "attacker",
+     "tier": "monotype",
+     "item": "ITEM_SHARPEDONITE",
+     "ability": "ABILITY_SPEED_BOOST",
+     "nature": "NATURE_JOLLY",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 4,
+      "spatk": 0,
+      "spdef": 0,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_PROTECT",
+      "MOVE_CRUNCH",
+      "MOVE_WATERFALL",
+      "MOVE_ICE_FANG"
+     ],
+     "source": "Smogon data.pkmn.cc (gen6 monotype, base+stone)",
+     "notes": "Waterfall/Hydro Pump"
+    },
+    {
+     "name": "Cleaner",
+     "role": "attacker",
+     "tier": "ou",
+     "item": "ITEM_SHARPEDONITE",
+     "ability": "ABILITY_SPEED_BOOST",
+     "nature": "NATURE_NAUGHTY",
+     "evs": {
+      "hp": 0,
+      "atk": 224,
+      "def": 0,
+      "spatk": 32,
+      "spdef": 0,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_PROTECT",
+      "MOVE_CRUNCH",
+      "MOVE_HYDRO_PUMP",
+      "MOVE_ICE_FANG"
+     ],
+     "source": "Smogon data.pkmn.cc (gen6 ou, base+stone)",
+     "notes": "Ice Fang/Poison Jab"
+    }
+   ],
+   "_note": "official Gen 6 Mega"
   },
   {
    "species": "SPECIES_SKARMORY_MEGA",
    "displayName": "Skarmory Mega",
    "tier": "mega",
-   "sets": []
+   "sets": [],
+   "_note": "custom Pokemon Legends: Z-A Mega - awaiting source doc"
   },
   {
    "species": "SPECIES_SLOWBRO_MEGA",
    "displayName": "Slowbro Mega",
    "tier": "mega",
-   "sets": []
+   "sets": [
+    {
+     "name": "Defensive",
+     "role": "defensive / utility",
+     "tier": "battlespotsingles",
+     "item": "ITEM_SLOWBRONITE",
+     "ability": "ABILITY_REGENERATOR",
+     "nature": "NATURE_BOLD",
+     "evs": {
+      "hp": 252,
+      "atk": 0,
+      "def": 252,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 0
+     },
+     "moves": [
+      "MOVE_SCALD",
+      "MOVE_ICE_BEAM",
+      "MOVE_SLACK_OFF",
+      "MOVE_IRON_DEFENSE"
+     ],
+     "source": "Smogon data.pkmn.cc (gen7 battlespotsingles, base+stone)",
+     "notes": "Iron Defense/Flamethrower/Psychic"
+    },
+    {
+     "name": "Trick Room Setter",
+     "role": "attacker",
+     "tier": "battlespotsingles",
+     "item": "ITEM_SLOWBRONITE",
+     "ability": "ABILITY_REGENERATOR",
+     "nature": "NATURE_QUIET",
+     "evs": {
+      "hp": 252,
+      "atk": 0,
+      "def": 0,
+      "spatk": 252,
+      "spdef": 4,
+      "speed": 0
+     },
+     "moves": [
+      "MOVE_TRICK_ROOM",
+      "MOVE_SCALD",
+      "MOVE_ICE_BEAM",
+      "MOVE_FLAMETHROWER"
+     ],
+     "source": "Smogon data.pkmn.cc (gen7 battlespotsingles, base+stone)",
+     "notes": "Flamethrower/Psychic/Slack Off"
+    },
+    {
+     "name": "Calm Mind Mega (Psychic)",
+     "role": "setup sweeper",
+     "tier": "monotype",
+     "item": "ITEM_SLOWBRONITE",
+     "ability": "ABILITY_REGENERATOR",
+     "nature": "NATURE_BOLD",
+     "evs": {
+      "hp": 252,
+      "atk": 0,
+      "def": 252,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 0
+     },
+     "moves": [
+      "MOVE_CALM_MIND",
+      "MOVE_SLACK_OFF",
+      "MOVE_SCALD",
+      "MOVE_PSYCHIC"
+     ],
+     "source": "Smogon data.pkmn.cc (gen7 monotype, base+stone)",
+     "notes": ""
+    },
+    {
+     "name": "Iron Defense (Water)",
+     "role": "attacker",
+     "tier": "monotype",
+     "item": "ITEM_SLOWBRONITE",
+     "ability": "ABILITY_REGENERATOR",
+     "nature": "NATURE_BOLD",
+     "evs": {
+      "hp": 252,
+      "atk": 0,
+      "def": 252,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 0
+     },
+     "moves": [
+      "MOVE_CALM_MIND",
+      "MOVE_IRON_DEFENSE",
+      "MOVE_SCALD",
+      "MOVE_REST"
+     ],
+     "source": "Smogon data.pkmn.cc (gen7 monotype, base+stone)",
+     "notes": ""
+    },
+    {
+     "name": "Paper Shell (Mega)",
+     "role": "attacker",
+     "tier": "ou",
+     "item": "ITEM_SLOWBRONITE",
+     "ability": "ABILITY_REGENERATOR",
+     "nature": "NATURE_BOLD",
+     "evs": {
+      "hp": 252,
+      "atk": 0,
+      "def": 252,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 0
+     },
+     "moves": [
+      "MOVE_SCALD",
+      "MOVE_SLACK_OFF",
+      "MOVE_ICE_BEAM",
+      "MOVE_PSYCHIC"
+     ],
+     "source": "Smogon data.pkmn.cc (gen7 ou, base+stone)",
+     "notes": "Ice Beam/Psychic; Psychic/Calm Mind/Toxic/Future Sight"
+    },
+    {
+     "name": "Physical Wall",
+     "role": "defensive / utility",
+     "tier": "ubers",
+     "item": "ITEM_SLOWBRONITE",
+     "ability": "ABILITY_REGENERATOR",
+     "nature": "NATURE_BOLD",
+     "evs": {
+      "hp": 248,
+      "atk": 0,
+      "def": 216,
+      "spatk": 0,
+      "spdef": 44,
+      "speed": 0
+     },
+     "moves": [
+      "MOVE_TOXIC",
+      "MOVE_SCALD",
+      "MOVE_SLACK_OFF",
+      "MOVE_IRON_DEFENSE"
+     ],
+     "source": "Smogon data.pkmn.cc (gen7 ubers, base+stone)",
+     "notes": "Scald/Ice Beam"
+    },
+    {
+     "name": "Mega Calm Mind",
+     "role": "setup sweeper",
+     "tier": "uu",
+     "item": "ITEM_SLOWBRONITE",
+     "ability": "ABILITY_REGENERATOR",
+     "nature": "NATURE_BOLD",
+     "evs": {
+      "hp": 252,
+      "atk": 0,
+      "def": 76,
+      "spatk": 0,
+      "spdef": 180,
+      "speed": 0
+     },
+     "moves": [
+      "MOVE_SCALD",
+      "MOVE_CALM_MIND",
+      "MOVE_SLACK_OFF",
+      "MOVE_ICE_BEAM"
+     ],
+     "source": "Smogon data.pkmn.cc (gen7 uu, base+stone)",
+     "notes": "Ice Beam/Psyshock"
+    },
+    {
+     "name": "Tank",
+     "role": "defensive / utility",
+     "tier": "uu",
+     "item": "ITEM_SLOWBRONITE",
+     "ability": "ABILITY_REGENERATOR",
+     "nature": "NATURE_BOLD",
+     "evs": {
+      "hp": 252,
+      "atk": 0,
+      "def": 76,
+      "spatk": 0,
+      "spdef": 180,
+      "speed": 0
+     },
+     "moves": [
+      "MOVE_SCALD",
+      "MOVE_ICE_BEAM",
+      "MOVE_PSYSHOCK",
+      "MOVE_SLACK_OFF"
+     ],
+     "source": "Smogon data.pkmn.cc (gen7 uu, base+stone)",
+     "notes": "Psyshock/Fire Blast"
+    }
+   ],
+   "_note": "official Gen 6 Mega"
   },
   {
    "species": "SPECIES_STARAPTOR_MEGA",
    "displayName": "Staraptor Mega",
    "tier": "mega",
-   "sets": []
+   "sets": [],
+   "_note": "custom Pokemon Legends: Z-A Mega - awaiting source doc"
   },
   {
    "species": "SPECIES_STARMIE_MEGA",
    "displayName": "Starmie Mega",
    "tier": "mega",
-   "sets": []
+   "sets": [],
+   "_note": "custom Pokemon Legends: Z-A Mega - awaiting source doc"
   },
   {
    "species": "SPECIES_STEELIX_MEGA",
    "displayName": "Steelix Mega",
    "tier": "mega",
-   "sets": []
+   "sets": [
+    {
+     "name": "Curse (Ground)",
+     "role": "setup sweeper",
+     "tier": "monotype",
+     "item": "ITEM_STEELIXITE",
+     "ability": "ABILITY_STURDY",
+     "nature": "NATURE_IMPISH",
+     "evs": {
+      "hp": 252,
+      "atk": 4,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 252,
+      "speed": 0
+     },
+     "moves": [
+      "MOVE_CURSE",
+      "MOVE_HEAVY_SLAM",
+      "MOVE_REST",
+      "MOVE_SLEEP_TALK"
+     ],
+     "source": "Smogon data.pkmn.cc (gen7 monotype, base+stone)",
+     "notes": ""
+    },
+    {
+     "name": "Offensive Stealth Rock",
+     "role": "hazard lead",
+     "tier": "uu",
+     "item": "ITEM_STEELIXITE",
+     "ability": "ABILITY_STURDY",
+     "nature": "NATURE_BRAVE",
+     "evs": {
+      "hp": 252,
+      "atk": 208,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 48,
+      "speed": 0
+     },
+     "moves": [
+      "MOVE_STEALTH_ROCK",
+      "MOVE_GYRO_BALL",
+      "MOVE_EARTHQUAKE",
+      "MOVE_CURSE"
+     ],
+     "source": "Smogon data.pkmn.cc (gen7 uu, base+stone)",
+     "notes": ""
+    },
+    {
+     "name": "Curse Attacker",
+     "role": "setup sweeper",
+     "tier": "battlespotsingles",
+     "item": "ITEM_STEELIXITE",
+     "ability": "ABILITY_STURDY",
+     "nature": "NATURE_BRAVE",
+     "evs": {
+      "hp": 252,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 0
+     },
+     "moves": [
+      "MOVE_CURSE",
+      "MOVE_GYRO_BALL",
+      "MOVE_EARTHQUAKE",
+      "MOVE_ROCK_SLIDE"
+     ],
+     "source": "Smogon data.pkmn.cc (gen6 battlespotsingles, base+stone)",
+     "notes": "Rock Slide/Stone Edge"
+    },
+    {
+     "name": "Tank",
+     "role": "defensive / utility",
+     "tier": "uu",
+     "item": "ITEM_STEELIXITE",
+     "ability": "ABILITY_STURDY",
+     "nature": "NATURE_IMPISH",
+     "evs": {
+      "hp": 252,
+      "atk": 0,
+      "def": 56,
+      "spatk": 0,
+      "spdef": 200,
+      "speed": 0
+     },
+     "moves": [
+      "MOVE_STEALTH_ROCK",
+      "MOVE_ROAR",
+      "MOVE_HEAVY_SLAM",
+      "MOVE_EARTHQUAKE"
+     ],
+     "source": "Smogon data.pkmn.cc (gen6 uu, base+stone)",
+     "notes": "Roar/Toxic"
+    }
+   ],
+   "_note": "official Gen 6 Mega"
   },
   {
    "species": "SPECIES_SWAMPERT_MEGA",
    "displayName": "Swampert Mega",
    "tier": "mega",
-   "sets": []
+   "sets": [
+    {
+     "name": "Mega Rain Attacker",
+     "role": "attacker",
+     "tier": "battlespotsingles",
+     "item": "ITEM_SWAMPERTITE",
+     "ability": "ABILITY_DAMP",
+     "nature": "NATURE_ADAMANT",
+     "evs": {
+      "hp": 4,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 0,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_WATERFALL",
+      "MOVE_EARTHQUAKE",
+      "MOVE_ICE_PUNCH",
+      "MOVE_SUBSTITUTE"
+     ],
+     "source": "Smogon data.pkmn.cc (gen7 battlespotsingles, base+stone)",
+     "notes": "Substitute/Rock Tomb/Rain Dance"
+    },
+    {
+     "name": "Rain Sweeper (Water)",
+     "role": "attacker",
+     "tier": "monotype",
+     "item": "ITEM_SWAMPERTITE",
+     "ability": "ABILITY_TORRENT",
+     "nature": "NATURE_ADAMANT",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_STEALTH_ROCK",
+      "MOVE_WATERFALL",
+      "MOVE_EARTHQUAKE",
+      "MOVE_ICE_PUNCH"
+     ],
+     "source": "Smogon data.pkmn.cc (gen7 monotype, base+stone)",
+     "notes": ""
+    },
+    {
+     "name": "Rain Dance (Water)",
+     "role": "attacker",
+     "tier": "monotype",
+     "item": "ITEM_SWAMPERTITE",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_JOLLY",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_WATERFALL",
+      "MOVE_EARTHQUAKE",
+      "MOVE_ICE_PUNCH",
+      "MOVE_RAIN_DANCE"
+     ],
+     "source": "Smogon data.pkmn.cc (gen6 monotype, base+stone)",
+     "notes": ""
+    },
+    {
+     "name": "Rain Sweeper",
+     "role": "attacker",
+     "tier": "ou",
+     "item": "ITEM_SWAMPERTITE",
+     "ability": "ABILITY_DAMP",
+     "nature": "NATURE_ADAMANT",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 4,
+      "spatk": 0,
+      "spdef": 0,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_WATERFALL",
+      "MOVE_EARTHQUAKE",
+      "MOVE_ICE_PUNCH",
+      "MOVE_POWER_UP_PUNCH"
+     ],
+     "source": "Smogon data.pkmn.cc (gen6 ou, base+stone)",
+     "notes": "Power-Up Punch/Superpower"
+    },
+    {
+     "name": "Physically Defensive",
+     "role": "defensive / utility",
+     "tier": "uu",
+     "item": "ITEM_SWAMPERTITE",
+     "ability": "ABILITY_DAMP",
+     "nature": "NATURE_RELAXED",
+     "evs": {
+      "hp": 252,
+      "atk": 0,
+      "def": 252,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 0
+     },
+     "moves": [
+      "MOVE_SCALD",
+      "MOVE_EARTHQUAKE",
+      "MOVE_REST",
+      "MOVE_SLEEP_TALK"
+     ],
+     "source": "Smogon data.pkmn.cc (gen6 uu, base+stone)",
+     "notes": ""
+    },
+    {
+     "name": "Curse",
+     "role": "setup sweeper",
+     "tier": "uu",
+     "item": "ITEM_SWAMPERTITE",
+     "ability": "ABILITY_DAMP",
+     "nature": "NATURE_CAREFUL",
+     "evs": {
+      "hp": 252,
+      "atk": 0,
+      "def": 4,
+      "spatk": 0,
+      "spdef": 252,
+      "speed": 0
+     },
+     "moves": [
+      "MOVE_CURSE",
+      "MOVE_EARTHQUAKE",
+      "MOVE_REST",
+      "MOVE_ICE_PUNCH"
+     ],
+     "source": "Smogon data.pkmn.cc (gen6 uu, base+stone)",
+     "notes": "Ice Punch/Scald"
+    }
+   ],
+   "_note": "official Gen 6 Mega"
   },
   {
    "species": "SPECIES_TATSUGIRI_CURLY_MEGA",
    "displayName": "Tatsugiri (Curly) Mega",
    "tier": "mega",
-   "sets": []
+   "sets": [],
+   "_note": "custom Pokemon Legends: Z-A Mega - awaiting source doc"
   },
   {
    "species": "SPECIES_TATSUGIRI_DROOPY_MEGA",
    "displayName": "Tatsugiri (Droopy) Mega",
    "tier": "mega",
-   "sets": []
+   "sets": [],
+   "_note": "custom Pokemon Legends: Z-A Mega - awaiting source doc"
   },
   {
    "species": "SPECIES_TATSUGIRI_STRETCHY_MEGA",
    "displayName": "Tatsugiri (Stretchy) Mega",
    "tier": "mega",
-   "sets": []
+   "sets": [],
+   "_note": "custom Pokemon Legends: Z-A Mega - awaiting source doc"
   },
   {
    "species": "SPECIES_TYRANITAR_MEGA",
    "displayName": "Tyranitar Mega",
    "tier": "mega",
-   "sets": []
+   "sets": [
+    {
+     "name": "Dragon Dance",
+     "role": "setup sweeper",
+     "tier": "battlespotsingles",
+     "item": "ITEM_TYRANITARITE",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_JOLLY",
+     "evs": {
+      "hp": 4,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 0,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_DRAGON_DANCE",
+      "MOVE_STONE_EDGE",
+      "MOVE_ICE_PUNCH",
+      "MOVE_FIRE_PUNCH"
+     ],
+     "source": "Smogon data.pkmn.cc (gen7 battlespotsingles, base+stone)",
+     "notes": "Fire Punch/Earthquake"
+    },
+    {
+     "name": "Mega + 4 Attacks",
+     "role": "attacker",
+     "tier": "battlespotsingles",
+     "item": "ITEM_TYRANITARITE",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_ADAMANT",
+     "evs": {
+      "hp": 252,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 0
+     },
+     "moves": [
+      "MOVE_STONE_EDGE",
+      "MOVE_ICE_PUNCH",
+      "MOVE_CRUNCH",
+      "MOVE_SUPERPOWER"
+     ],
+     "source": "Smogon data.pkmn.cc (gen7 battlespotsingles, base+stone)",
+     "notes": "Crunch/Pursuit; Superpower/Low Kick/Fire Punch"
+    },
+    {
+     "name": "Dragon Dance (Dark)",
+     "role": "setup sweeper",
+     "tier": "monotype",
+     "item": "ITEM_TYRANITARITE",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_JOLLY",
+     "evs": {
+      "hp": 4,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 0,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_DRAGON_DANCE",
+      "MOVE_STONE_EDGE",
+      "MOVE_FIRE_PUNCH",
+      "MOVE_EARTHQUAKE"
+     ],
+     "source": "Smogon data.pkmn.cc (gen7 monotype, base+stone)",
+     "notes": "Earthquake/Ice Punch"
+    },
+    {
+     "name": "Pursuit",
+     "role": "attacker",
+     "tier": "ou",
+     "item": "ITEM_TYRANITARITE",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_ADAMANT",
+     "evs": {
+      "hp": 132,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 0,
+      "speed": 124
+     },
+     "moves": [
+      "MOVE_STEALTH_ROCK",
+      "MOVE_STONE_EDGE",
+      "MOVE_PURSUIT",
+      "MOVE_FIRE_PUNCH"
+     ],
+     "source": "Smogon data.pkmn.cc (gen7 ou, base+stone)",
+     "notes": "Stealth Rock/Crunch/Ice Punch; Fire Punch/Earthquake/Crunch/Ice Punch"
+    },
+    {
+     "name": "Dragon Dance",
+     "role": "setup sweeper",
+     "tier": "battlespotsingles",
+     "item": "ITEM_TYRANITARITE",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_JOLLY",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 4,
+      "spatk": 0,
+      "spdef": 0,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_DRAGON_DANCE",
+      "MOVE_STONE_EDGE",
+      "MOVE_ICE_PUNCH",
+      "MOVE_CRUNCH"
+     ],
+     "source": "Smogon data.pkmn.cc (gen6 battlespotsingles, base+stone)",
+     "notes": "Stone Edge/Rock Slide; Crunch/Earthquake/Superpower"
+    },
+    {
+     "name": "Dragon Dance (Dark)",
+     "role": "setup sweeper",
+     "tier": "monotype",
+     "item": "ITEM_TYRANITARITE",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_JOLLY",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_DRAGON_DANCE",
+      "MOVE_STONE_EDGE",
+      "MOVE_CRUNCH",
+      "MOVE_FIRE_PUNCH"
+     ],
+     "source": "Smogon data.pkmn.cc (gen6 monotype, base+stone)",
+     "notes": "Fire Punch/Ice Punch"
+    },
+    {
+     "name": "Dragon Dance",
+     "role": "setup sweeper",
+     "tier": "ou",
+     "item": "ITEM_TYRANITARITE",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_JOLLY",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 4,
+      "spatk": 0,
+      "spdef": 0,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_DRAGON_DANCE",
+      "MOVE_STONE_EDGE",
+      "MOVE_ICE_PUNCH",
+      "MOVE_SUPERPOWER"
+     ],
+     "source": "Smogon data.pkmn.cc (gen6 ou, base+stone)",
+     "notes": "Ice Punch/Crunch; Superpower/Fire Punch"
+    },
+    {
+     "name": "Bulky Support",
+     "role": "defensive / utility",
+     "tier": "ou",
+     "item": "ITEM_TYRANITARITE",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_ADAMANT",
+     "evs": {
+      "hp": 248,
+      "atk": 104,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 120,
+      "speed": 36
+     },
+     "moves": [
+      "MOVE_STEALTH_ROCK",
+      "MOVE_CRUNCH",
+      "MOVE_SUPERPOWER",
+      "MOVE_PURSUIT"
+     ],
+     "source": "Smogon data.pkmn.cc (gen6 ou, base+stone)",
+     "notes": "Superpower/Stone Edge; Pursuit/Taunt"
+    }
+   ],
+   "_note": "official Gen 6 Mega"
   },
   {
    "species": "SPECIES_VENUSAUR_MEGA",
    "displayName": "Venusaur Mega",
    "tier": "mega",
-   "sets": []
+   "sets": [
+    {
+     "name": "Bulky Offense",
+     "role": "defensive / utility",
+     "tier": "battlespotsingles",
+     "item": "ITEM_VENUSAURITE",
+     "ability": "ABILITY_CHLOROPHYLL",
+     "nature": "NATURE_MODEST",
+     "evs": {
+      "hp": 252,
+      "atk": 0,
+      "def": 0,
+      "spatk": 252,
+      "spdef": 0,
+      "speed": 4
+     },
+     "moves": [
+      "MOVE_SLUDGE_BOMB",
+      "MOVE_SYNTHESIS",
+      "MOVE_GIGA_DRAIN",
+      "MOVE_HIDDEN_POWER"
+     ],
+     "source": "Smogon data.pkmn.cc (gen7 battlespotsingles, base+stone)",
+     "notes": "Giga Drain/Energy Ball/Sleep Powder; Hidden Power Fire/Sleep Powder; HP Fire"
+    },
+    {
+     "name": "Defensive",
+     "role": "defensive / utility",
+     "tier": "battlespotsingles",
+     "item": "ITEM_VENUSAURITE",
+     "ability": "ABILITY_CHLOROPHYLL",
+     "nature": "NATURE_BOLD",
+     "evs": {
+      "hp": 252,
+      "atk": 0,
+      "def": 252,
+      "spatk": 0,
+      "spdef": 0,
+      "speed": 4
+     },
+     "moves": [
+      "MOVE_SLUDGE_BOMB",
+      "MOVE_SYNTHESIS",
+      "MOVE_LEECH_SEED",
+      "MOVE_GIGA_DRAIN"
+     ],
+     "source": "Smogon data.pkmn.cc (gen7 battlespotsingles, base+stone)",
+     "notes": "Giga Drain/Sleep Powder"
+    },
+    {
+     "name": "Tank",
+     "role": "defensive / utility",
+     "tier": "letsgoou",
+     "item": "ITEM_VENUSAURITE",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_TIMID",
+     "evs": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 0,
+      "speed": 0
+     },
+     "moves": [
+      "MOVE_MEGA_DRAIN",
+      "MOVE_SLUDGE_BOMB",
+      "MOVE_SLEEP_POWDER",
+      "MOVE_LEECH_SEED"
+     ],
+     "source": "Smogon data.pkmn.cc (gen7 letsgoou, base+stone)",
+     "notes": "Sleep Powder/Earthquake/Reflect"
+    },
+    {
+     "name": "Defensive",
+     "role": "defensive / utility",
+     "tier": "ou",
+     "item": "ITEM_VENUSAURITE",
+     "ability": "ABILITY_CHLOROPHYLL",
+     "nature": "NATURE_BOLD",
+     "evs": {
+      "hp": 252,
+      "atk": 0,
+      "def": 172,
+      "spatk": 0,
+      "spdef": 68,
+      "speed": 16
+     },
+     "moves": [
+      "MOVE_LEECH_SEED",
+      "MOVE_SLUDGE_BOMB",
+      "MOVE_HIDDEN_POWER",
+      "MOVE_SYNTHESIS"
+     ],
+     "source": "Smogon data.pkmn.cc (gen7 ou, base+stone)",
+     "notes": "HP Fire"
+    },
+    {
+     "name": "Defensive",
+     "role": "defensive / utility",
+     "tier": "ubers",
+     "item": "ITEM_VENUSAURITE",
+     "ability": "ABILITY_CHLOROPHYLL",
+     "nature": "NATURE_BOLD",
+     "evs": {
+      "hp": 252,
+      "atk": 0,
+      "def": 180,
+      "spatk": 0,
+      "spdef": 76,
+      "speed": 0
+     },
+     "moves": [
+      "MOVE_LEECH_SEED",
+      "MOVE_TOXIC",
+      "MOVE_SYNTHESIS",
+      "MOVE_GRASS_KNOT"
+     ],
+     "source": "Smogon data.pkmn.cc (gen7 ubers, base+stone)",
+     "notes": "Grass Knot/Earthquake"
+    },
+    {
+     "name": "Physically Defensive (Poison)",
+     "role": "defensive / utility",
+     "tier": "monotype",
+     "item": "ITEM_VENUSAURITE",
+     "ability": "ABILITY_CHLOROPHYLL",
+     "nature": "NATURE_BOLD",
+     "evs": {
+      "hp": 248,
+      "atk": 0,
+      "def": 252,
+      "spatk": 0,
+      "spdef": 8,
+      "speed": 0
+     },
+     "moves": [
+      "MOVE_SYNTHESIS",
+      "MOVE_GIGA_DRAIN",
+      "MOVE_HIDDEN_POWER",
+      "MOVE_KNOCK_OFF"
+     ],
+     "source": "Smogon data.pkmn.cc (gen6 monotype, base+stone)",
+     "notes": "HP Fire; Knock Off/Sludge Bomb/Leech Seed"
+    },
+    {
+     "name": "Offensive",
+     "role": "attacker",
+     "tier": "ou",
+     "item": "ITEM_VENUSAURITE",
+     "ability": "ABILITY_CHLOROPHYLL",
+     "nature": "NATURE_MODEST",
+     "evs": {
+      "hp": 248,
+      "atk": 0,
+      "def": 8,
+      "spatk": 208,
+      "spdef": 28,
+      "speed": 16
+     },
+     "moves": [
+      "MOVE_GIGA_DRAIN",
+      "MOVE_SLUDGE_BOMB",
+      "MOVE_GROWTH",
+      "MOVE_SYNTHESIS"
+     ],
+     "source": "Smogon data.pkmn.cc (gen6 ou, base+stone)",
+     "notes": "Growth/Knock Off"
+    }
+   ],
+   "_note": "official Gen 6 Mega"
   },
   {
    "species": "SPECIES_VICTREEBEL_MEGA",
    "displayName": "Victreebel Mega",
    "tier": "mega",
-   "sets": []
+   "sets": [],
+   "_note": "custom Pokemon Legends: Z-A Mega - awaiting source doc"
   },
   {
    "species": "SPECIES_ZERAORA_MEGA",
    "displayName": "Zeraora Mega",
    "tier": "mega-restricted",
-   "sets": []
+   "sets": [],
+   "_note": "custom Pokemon Legends: Z-A Mega - awaiting source doc"
   },
   {
    "species": "SPECIES_ZYGARDE_MEGA",
    "displayName": "Zygarde Mega",
    "tier": "mega-restricted",
-   "sets": []
+   "sets": [],
+   "_note": "custom Pokemon Legends: Z-A Mega - awaiting source doc"
   }
  ]
 }

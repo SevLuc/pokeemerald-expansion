@@ -1,7 +1,7 @@
 {
  "_meta": {
   "batch": "Alternate battle formes",
-  "source": "Smogon data.pkmn.cc"
+  "source": "Smogon data.pkmn.cc + constructed"
  },
  "pokemon": [
   {
@@ -2785,13 +2785,159 @@
    "species": "SPECIES_TOXTRICITY_LOW_KEY",
    "displayName": "Toxtricity",
    "tier": "altforme",
-   "sets": []
+   "sets": [
+    {
+     "name": "Choice Specs",
+     "role": "choice wallbreaker",
+     "tier": "ru",
+     "item": "ITEM_CHOICE_SPECS",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_MODEST",
+     "evs": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "spatk": 252,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_BOOMBURST",
+      "MOVE_OVERDRIVE",
+      "MOVE_SLUDGE_WAVE",
+      "MOVE_VOLT_SWITCH"
+     ],
+     "source": "Smogon data.pkmn.cc (gen9 ru)",
+     "notes": "Sludge Wave/Snarl | shared with Amped forme"
+    },
+    {
+     "name": "Shift Gear",
+     "role": "attacker",
+     "tier": "ru",
+     "item": "ITEM_THROAT_SPRAY",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_MODEST",
+     "evs": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "spatk": 252,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_SHIFT_GEAR",
+      "MOVE_BOOMBURST",
+      "MOVE_OVERDRIVE",
+      "MOVE_SLUDGE_WAVE"
+     ],
+     "source": "Smogon data.pkmn.cc (gen9 ru)",
+     "notes": "Sludge Wave/Toxic Spikes | shared with Amped forme"
+    },
+    {
+     "name": "Entry Hazard Support (Electric)",
+     "role": "defensive / utility",
+     "tier": "monotype",
+     "item": "ITEM_HEAVY_DUTY_BOOTS",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_TIMID",
+     "evs": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "spatk": 252,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_TOXIC_SPIKES",
+      "MOVE_SLUDGE_BOMB",
+      "MOVE_BOOMBURST",
+      "MOVE_VOLT_SWITCH"
+     ],
+     "source": "Smogon data.pkmn.cc (gen9 monotype)",
+     "notes": "shared with Amped forme"
+    },
+    {
+     "name": "Offensive",
+     "role": "attacker",
+     "tier": "uu",
+     "item": "ITEM_SILK_SCARF",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_MODEST",
+     "evs": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "spatk": 252,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_OVERDRIVE",
+      "MOVE_BOOMBURST",
+      "MOVE_VOLT_SWITCH",
+      "MOVE_SHIFT_GEAR"
+     ],
+     "source": "Smogon data.pkmn.cc (gen8 uu)",
+     "notes": "Shift Gear/Sleep Talk/Sludge Wave | shared with Amped forme"
+    },
+    {
+     "name": "Choice Specs",
+     "role": "choice wallbreaker",
+     "tier": "ru",
+     "item": "ITEM_CHOICE_SPECS",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_MODEST",
+     "evs": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "spatk": 252,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_BOOMBURST",
+      "MOVE_OVERDRIVE",
+      "MOVE_VOLT_SWITCH",
+      "MOVE_SNARL"
+     ],
+     "source": "Smogon data.pkmn.cc (gen8 ru)",
+     "notes": "shared with Amped forme"
+    }
+   ]
   },
   {
    "species": "SPECIES_EISCUE_ICE",
    "displayName": "Eiscue",
    "tier": "altforme",
-   "sets": []
+   "sets": [
+    {
+     "name": "Belly Drum",
+     "role": "setup sweeper",
+     "item": "ITEM_SITRUS_BERRY",
+     "ability": "ABILITY_ICE_FACE",
+     "nature": "NATURE_ADAMANT",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 4,
+      "spatk": 0,
+      "spdef": 0,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_BELLY_DRUM",
+      "MOVE_ICICLE_CRASH",
+      "MOVE_LIQUIDATION",
+      "MOVE_ZEN_HEADBUTT"
+     ],
+     "tier": "constructed",
+     "notes": "",
+     "source": "Constructed (competitive knowledge; validated vs build)"
+    }
+   ]
   },
   {
    "species": "SPECIES_INDEEDEE_M",
@@ -3003,13 +3149,63 @@
    "species": "SPECIES_OINKOLOGNE_M",
    "displayName": "Oinkologne",
    "tier": "altforme",
-   "sets": []
+   "sets": [
+    {
+     "name": "Bulky Normal",
+     "role": "defensive / utility",
+     "item": "ITEM_LEFTOVERS",
+     "ability": "ABILITY_LINGERING_AROMA",
+     "nature": "NATURE_CAREFUL",
+     "evs": {
+      "hp": 252,
+      "atk": 4,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 252,
+      "speed": 0
+     },
+     "moves": [
+      "MOVE_BODY_SLAM",
+      "MOVE_EARTHQUAKE",
+      "MOVE_YAWN",
+      "MOVE_REST"
+     ],
+     "tier": "constructed",
+     "notes": "",
+     "source": "Constructed (competitive knowledge; validated vs build)"
+    }
+   ]
   },
   {
    "species": "SPECIES_OINKOLOGNE_F",
    "displayName": "Oinkologne",
    "tier": "altforme",
-   "sets": []
+   "sets": [
+    {
+     "name": "Bulky Normal",
+     "role": "defensive / utility",
+     "item": "ITEM_LEFTOVERS",
+     "ability": "ABILITY_AROMA_VEIL",
+     "nature": "NATURE_CAREFUL",
+     "evs": {
+      "hp": 252,
+      "atk": 4,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 252,
+      "speed": 0
+     },
+     "moves": [
+      "MOVE_BODY_SLAM",
+      "MOVE_EARTHQUAKE",
+      "MOVE_YAWN",
+      "MOVE_REST"
+     ],
+     "tier": "constructed",
+     "notes": "",
+     "source": "Constructed (competitive knowledge; validated vs build)"
+    }
+   ]
   },
   {
    "species": "SPECIES_PALAFIN_ZERO",

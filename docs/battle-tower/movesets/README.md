@@ -52,17 +52,22 @@ HP/Atk/Def/SpAtk/SpDef/Speed format.
 Emerald Kaizo and Run & Bun sets will be appended as additional sets per
 Pokemon (with `source` tagged accordingly) once those documents are provided.
 
-## Coverage / what's pending
-- **631 of 769 entries** have Smogon-sourced sets (~4,200 sets).
-- **`needs_construct` (128):** no competitive data exists in the source, so
-  these need hand-constructed sets:
-  - **90 Megas** — official Gen 6 Megas (sets live under the base species +
-    Mega Stone in Smogon data, extraction pending) and the ~49 custom
-    Pokemon Legends: Z-A Megas (2025-2026, not yet in Smogon — to be sourced
-    from Serebii/Bulbapedia).
-  - **38 niche mons** — mostly low-usage Gen 8/9 mons and a few NFE Eviolite
-    picks (Doublade, Type: Null, Vullaby, Duosion, Rufflet, Kirlia,
-    Sneasel-Hisui) whose only competitive sets are in formats not carried by
-    the source. To be constructed from in-build stats/movepool.
+## Coverage
+- **720 of 769 entries** have movesets — **4,538 sets total**, every
+  constant validated against this build (0 invalid).
+- **Smogon-sourced:** the standard roster, regional/alt formes, restricted
+  tier, Eviolite NFE, and the **48 official Gen 6 Megas** (extracted from
+  Smogon's base-species-plus-Mega-Stone sets).
+- **Constructed (37):** low-usage Gen 8/9 mons and NFE Eviolite picks with no
+  competitive data anywhere (Doublade, Type: Null, Vullaby, Duosion, Rufflet,
+  Kirlia, Sneasel-Hisui, Dachsbun, Klawf, Spidops, …). Built from in-build
+  stats/movepool and tagged `source: "Constructed (…)"`. Toxtricity Low-Key
+  shares the Amped forme's sets.
 
-The exact pending list is in `_report.json` under `needs_construct`.
+## Still pending
+- **49 custom Megas** — the Pokemon Legends: Z-A Megas (2025-2026), not in
+  Smogon yet. `megas.json` lists them with empty `sets` and a `_note`; they
+  await your source doc (same flow as Kaizo / Run & Bun).
+
+See `_report.json` for the exact `official_mega`, `constructed`, and
+`awaiting_za_docs` lists.

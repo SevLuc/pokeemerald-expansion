@@ -1,7 +1,7 @@
 {
  "_meta": {
-  "batch": "Gen 1 standard",
-  "source": "Smogon data.pkmn.cc"
+  "batch": "Gen 1 standard (Kanto)",
+  "source": "Smogon data.pkmn.cc + constructed"
  },
  "pokemon": [
   {
@@ -13320,7 +13320,56 @@
    "species": "SPECIES_MR_RIME",
    "displayName": "Mr. Rime",
    "tier": "standard",
-   "sets": []
+   "sets": [
+    {
+     "name": "Screens Lead",
+     "role": "hazard lead",
+     "item": "ITEM_LIGHT_CLAY",
+     "ability": "ABILITY_SCREEN_CLEANER",
+     "nature": "NATURE_TIMID",
+     "evs": {
+      "hp": 252,
+      "atk": 0,
+      "def": 0,
+      "spatk": 4,
+      "spdef": 0,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_LIGHT_SCREEN",
+      "MOVE_REFLECT",
+      "MOVE_PSYCHIC",
+      "MOVE_RAPID_SPIN"
+     ],
+     "tier": "constructed",
+     "notes": "",
+     "source": "Constructed (competitive knowledge; validated vs build)"
+    },
+    {
+     "name": "Special Attacker",
+     "role": "attacker",
+     "item": "ITEM_LIFE_ORB",
+     "ability": "ABILITY_TANGLED_FEET",
+     "nature": "NATURE_MODEST",
+     "evs": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "spatk": 252,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_PSYCHIC",
+      "MOVE_ICE_BEAM",
+      "MOVE_FOCUS_BLAST",
+      "MOVE_NASTY_PLOT"
+     ],
+     "tier": "constructed",
+     "notes": "",
+     "source": "Constructed (competitive knowledge; validated vs build)"
+    }
+   ]
   },
   {
    "species": "SPECIES_SCIZOR",
