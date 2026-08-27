@@ -7,6 +7,13 @@ Update in the same PR as the change.
 `YYYY-MM-DD` — area — one-line summary (PR/commit ref)
 
 ## Entries
+- 2026-08-27 - feature/rental - Restricted-cap format select. Before drafting, the
+  attendant now asks whether restricted-tier Pokemon (legendaries/mythicals/paradox/UB)
+  are allowed and, if so, up to one or two per team, choosing the 0/1/2 cap via two
+  YESNO prompts. StartRentalDraft reads the chosen cap (VAR_0x8005) and passes it to
+  RentalRun_Begin, so the offer and opponents honor it. This unlocks the three locked
+  restricted formats (was hardcoded to 0). Singles only; Doubles later. Not yet
+  compiled/ROM-tested (web session).
 - 2026-08-27 - feature/rental - Recruit. After a win, the attendant offers to recruit
   one of the defeated team: it presents each opponent mon in turn, and on acceptance
   the player picks which of their own to release (via the ChoosePartyMon party menu).
