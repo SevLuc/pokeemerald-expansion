@@ -7,6 +7,13 @@ Update in the same PR as the change.
 `YYYY-MM-DD` — area — one-line summary (PR/commit ref)
 
 ## Entries
+- 2026-08-27 - feature/rental - RENTAL BATTLE main-menu row. The title screen now
+  lists a RENTAL BATTLE entry directly below NEW GAME, on both the fresh-cart menu
+  (NEW GAME / RENTAL BATTLE / OPTION) and the saved-game menu (CONTINUE / NEW GAME /
+  RENTAL BATTLE / OPTION), replacing the temporary R-button launcher. Selecting it
+  boots the standalone rental hub (CB2_StartRentalMode), which needs no save file.
+  The Mystery Gift/Events menu states are left vanilla (unreachable in this build).
+  Not yet compiled/ROM-tested (web session).
 - 2026-08-27 - feature/rental - Doubles support. The attendant now asks Singles or
   Doubles up front (before the restricted-cap prompt), setting the run format. In
   Doubles the run brings 4 mons per battle instead of 3 and the battle uses

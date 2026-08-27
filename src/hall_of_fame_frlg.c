@@ -31,7 +31,10 @@
 #include "constants/rgb.h"
 #include "constants/songs.h"
 
-#define HALL_OF_FAME_MAX_TEAMS 50
+// 47, not the vanilla 50: the expansion's longer POKEMON_NAME_LENGTH (16) grew
+// each stored mon, so 50 teams no longer fit the two reserved HOF save sectors.
+// 47 is the most that still fits (see the STATIC_ASSERT below).
+#define HALL_OF_FAME_MAX_TEAMS 47
 #define HALL_OF_FAME_BG_PAL    RGB(22, 24, 29)
 
 STATIC_ASSERT(sizeof(struct HallofFameTeam) * HALL_OF_FAME_MAX_TEAMS <= SECTOR_DATA_SIZE * NUM_HOF_SECTORS, HallOfFameFreeSpace);
