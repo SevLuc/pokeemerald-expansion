@@ -7,6 +7,14 @@ Update in the same PR as the change.
 `YYYY-MM-DD` — area — one-line summary (PR/commit ref)
 
 ## Entries
+- 2026-08-27 - feature/rental - Doubles support. The attendant now asks Singles or
+  Doubles up front (before the restricted-cap prompt), setting the run format. In
+  Doubles the run brings 4 mons per battle instead of 3 and the battle uses
+  BATTLE_TYPE_DOUBLE; the drafted six and the same-team-carries-the-run flow are
+  unchanged. RentalRun_Begin sets bringCount (3 singles / 4 doubles); the new
+  RentalSetBringCountVar special feeds that count to the party-select prompt, and
+  the SPECIAL_BATTLE_RENTAL case adds BATTLE_TYPE_DOUBLE when the format is Doubles.
+  Not yet compiled/ROM-tested (web session).
 - 2026-08-27 - feature/rental - Restricted-cap format select. Before drafting, the
   attendant now asks whether restricted-tier Pokemon (legendaries/mythicals/paradox/UB)
   are allowed and, if so, up to one or two per team, choosing the 0/1/2 cap via two
