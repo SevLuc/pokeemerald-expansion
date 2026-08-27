@@ -7,6 +7,18 @@ Update in the same PR as the change.
 `YYYY-MM-DD` — area — one-line summary (PR/commit ref)
 
 ## Entries
+- 2026-08-27 - feature/rental - Playable rental battle. The lobby attendant now runs
+  draft -> Lv50 battle -> result. Added a `SPECIAL_BATTLE_RENTAL` case to
+  DoSpecialTrainerBattle (src/battle_special.c): builds the opponent from
+  GenerateRentalOpponent / gRentalMons at Lv50 into the enemy party and launches with
+  BATTLE_TYPE_TRAINER | BATTLE_TYPE_BATTLE_TOWER (the cheapest frontier bit, which
+  skips trainer-party generation so the preset enemy party survives and pulls the
+  opponent name/sprite from the static frontier trainer table via a random opponentA).
+  Sets lvlMode = FRONTIER_LVL_50; no post-battle fixup needed. The attendant script
+  drafts, starts the battle, then branches on VAR_RESULT (win/lose) and heals. Opponent
+  selection (GenerateRentalOpponent + gRentalRun.oppRoster) mirrors the draft clauses.
+  Full 6v6 singles for now (bring-3 / team preview are M4); no streak/persistence yet.
+  Not yet compiled/ROM-tested (web session).
 - 2026-08-27 - feature/rental - Rental draft screen (M3, needs build tuning). Added
   src/rental_select_screen.c: a copy of the Battle Factory select screen adapted to
   offer 12 rental mons (from gRentalRun.offer / gRentalMons) and let the player draft

@@ -1398,24 +1398,46 @@ BattleFrontier_BattleTowerLobby_Text_ExplainMultiLinkRules:
 	.string "You may not interrupt this challenge\n"
 	.string "in the middle, unlike other modes.$"
 
-@ Rental battle mode (M3). Reuses this lobby as the hub; the Singles attendant is
-@ repointed here in map.json. Opens the draft screen (offer 12, pick 6). Format is
-@ Singles / 0 restricted for now; a format-select menu is a quick follow-up. The
-@ battle itself is a later milestone.
+@ Rental battle mode. Reuses this lobby as the hub; the Singles attendant is
+@ repointed here in map.json. Draft (offer 12, pick 6), then a Lv50 battle vs a
+@ generated pool team. Format is Singles / 0 restricted for now; team preview,
+@ bring-N, recruit and the run/streak loop are later milestones.
 BattleFrontier_BattleTowerLobby_EventScript_RentalAttendant::
 	lock
 	faceplayer
 	msgbox BattleFrontier_BattleTowerLobby_Text_RentalDraftIntro, MSGBOX_DEFAULT
 	special StartRentalDraft
 	waitstate
-	msgbox BattleFrontier_BattleTowerLobby_Text_RentalDraftDone, MSGBOX_DEFAULT
+	msgbox BattleFrontier_BattleTowerLobby_Text_RentalBattleStart, MSGBOX_DEFAULT
+	setvar VAR_0x8004, SPECIAL_BATTLE_RENTAL
+	setvar VAR_0x8005, 0
+	special DoSpecialTrainerBattle
+	call_if_eq VAR_RESULT, B_OUTCOME_WON, BattleFrontier_BattleTowerLobby_EventScript_RentalWon
+	call_if_eq VAR_RESULT, B_OUTCOME_LOST, BattleFrontier_BattleTowerLobby_EventScript_RentalLost
+	call_if_eq VAR_RESULT, B_OUTCOME_DREW, BattleFrontier_BattleTowerLobby_EventScript_RentalLost
+	special HealPlayerParty
 	release
 	end
+
+BattleFrontier_BattleTowerLobby_EventScript_RentalWon::
+	msgbox BattleFrontier_BattleTowerLobby_Text_RentalWon, MSGBOX_DEFAULT
+	return
+
+BattleFrontier_BattleTowerLobby_EventScript_RentalLost::
+	msgbox BattleFrontier_BattleTowerLobby_Text_RentalLost, MSGBOX_DEFAULT
+	return
 
 BattleFrontier_BattleTowerLobby_Text_RentalDraftIntro:
 	.string "Welcome to RENTAL BATTLE!\p"
 	.string "Draft six POKéMON from the twelve\n"
 	.string "I offer you.$"
 
-BattleFrontier_BattleTowerLobby_Text_RentalDraftDone:
-	.string "Your rental team is ready!$"
+BattleFrontier_BattleTowerLobby_Text_RentalBattleStart:
+	.string "Your team is set. Your challenger\n"
+	.string "is ready. Good luck!$"
+
+BattleFrontier_BattleTowerLobby_Text_RentalWon:
+	.string "A fine battle! Well done.$"
+
+BattleFrontier_BattleTowerLobby_Text_RentalLost:
+	.string "Better luck next time!$"
