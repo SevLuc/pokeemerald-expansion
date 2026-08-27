@@ -323,6 +323,9 @@ void RentalDoRecruit(void)
 // Called from the lobby attendant script, followed by `waitstate`.
 void StartRentalDraft(void)
 {
-    RentalRun_Begin(RENTAL_FORMAT_SINGLES, 0);
+    u32 cap = gSpecialVar_0x8005; // restricted cap chosen by the lobby script (0/1/2)
+    if (cap > 2)
+        cap = 0;
+    RentalRun_Begin(RENTAL_FORMAT_SINGLES, cap);
     DoRentalDraftScreen();
 }

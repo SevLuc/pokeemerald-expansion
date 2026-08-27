@@ -1403,12 +1403,24 @@ BattleFrontier_BattleTowerLobby_Text_ExplainMultiLinkRules:
 @ battles vs generated pool teams: each battle you preview the opponent, bring 3,
 @ and fight; wins extend a streak, a loss (or retiring at the party menu) ends the
 @ run. The full six are stashed before each battle and restored (healed) after, so
-@ the same team carries the whole run. Format is Singles / 0 restricted for now;
-@ recruit and Doubles are later milestones.
+@ the same team carries the whole run. Singles only; the restricted cap (0/1/2) is
+@ chosen up front. Doubles is a later milestone.
 BattleFrontier_BattleTowerLobby_EventScript_RentalAttendant::
 	lock
 	faceplayer
 	msgbox BattleFrontier_BattleTowerLobby_Text_RentalDraftIntro, MSGBOX_DEFAULT
+	msgbox BattleFrontier_BattleTowerLobby_Text_RentalAskRestricted, MSGBOX_YESNO
+	goto_if_eq VAR_RESULT, NO, BattleFrontier_BattleTowerLobby_EventScript_RentalCap0
+	msgbox BattleFrontier_BattleTowerLobby_Text_RentalAskTwo, MSGBOX_YESNO
+	goto_if_eq VAR_RESULT, YES, BattleFrontier_BattleTowerLobby_EventScript_RentalCap2
+	setvar VAR_0x8005, 1
+	goto BattleFrontier_BattleTowerLobby_EventScript_RentalStartDraft
+BattleFrontier_BattleTowerLobby_EventScript_RentalCap2::
+	setvar VAR_0x8005, 2
+	goto BattleFrontier_BattleTowerLobby_EventScript_RentalStartDraft
+BattleFrontier_BattleTowerLobby_EventScript_RentalCap0::
+	setvar VAR_0x8005, 0
+BattleFrontier_BattleTowerLobby_EventScript_RentalStartDraft::
 	special StartRentalDraft
 	waitstate
 BattleFrontier_BattleTowerLobby_EventScript_RentalBattleLoop::
@@ -1472,6 +1484,14 @@ BattleFrontier_BattleTowerLobby_Text_RentalDraftIntro:
 	.string "Welcome to RENTAL BATTLE!\p"
 	.string "Draft six POKéMON from the twelve\n"
 	.string "I offer you.$"
+
+BattleFrontier_BattleTowerLobby_Text_RentalAskRestricted:
+	.string "Will you allow RESTRICTED POKéMON\n"
+	.string "(legendaries and the like) on a team?$"
+
+BattleFrontier_BattleTowerLobby_Text_RentalAskTwo:
+	.string "Up to TWO per team?\p"
+	.string "(Choose NO for a limit of one.)$"
 
 BattleFrontier_BattleTowerLobby_Text_RentalPreview:
 	.string "Your challenger will send out:\p"
