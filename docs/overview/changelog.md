@@ -7,6 +7,14 @@ Update in the same PR as the change.
 `YYYY-MM-DD` — area — one-line summary (PR/commit ref)
 
 ## Entries
+- 2026-08-27 - feature/rental - Rental battle mode entry (M2 slice 1, scaffolding).
+  Added `CB2_StartRentalMode` (src/overworld.c), which mirrors `CB2_NewGame` but
+  warps the player into the Battle Tower Lobby (reused as the rental hub) instead
+  of the story start. It sets up an in-RAM game state only and NEVER writes to
+  flash, so a story save on the cartridge is never touched. Temporarily launched by
+  pressing R on the main menu (src/main_menu.c) to validate the boot; the polished
+  "RENTAL BATTLE" menu row and the name/gender pick + stub battle come in later
+  slices. No save-system changes. Not yet compiled/ROM-tested (web session).
 - 2026-08-26 - QoL/config - Enabled follower Pokemon (HGSS style). Set
   `OW_FOLLOWERS_ENABLED = TRUE` in include/config/overworld.h. The lead party
   Pokemon now walks behind the player, spawning automatically on map load

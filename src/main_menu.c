@@ -944,6 +944,16 @@ static bool8 HandleMainMenuInput(u8 taskId)
         sCurrItemAndOptionMenuCheck = tCurrItem;
         return TRUE;
     }
+    else if (JOY_NEW(R_BUTTON))
+    {
+        // TEMPORARY rental-mode launcher, used to validate the boot into the hub.
+        // The polished "RENTAL BATTLE" main-menu row replaces this in a later slice.
+        PlaySE(SE_SELECT);
+        DestroyTask(taskId);
+        FreeAllWindowBuffers();
+        SetMainCallback2(CB2_StartRentalMode);
+        return FALSE;
+    }
     return FALSE;
 }
 
