@@ -12,13 +12,13 @@ In-battle-only transformations (Aegislash Blade, Palafin Hero, Darmanitan Zen, e
 
 | Category | Count |
 |---|---|
-| Standard fully-evolved | 444 |
+| Standard fully-evolved | 443 |
 | Regional-form finals | 32 |
-| Alternate battle formes | 22 |
+| Alternate battle formes | 24 |
 | Restricted tier (legendary/mythical/paradox/UB) | 139 |
-| **Fully-evolved total** | **637** |
+| **Fully-evolved total** | **638** |
 | Eviolite NFE (curated) | 34 |
-| **Grand total (approx)** | **671** |
+| **Grand total (approx)** | **672** |
 
 ## A. Standard fully-evolved (by generation)
 
@@ -54,9 +54,9 @@ Araquanid, Bewear, Bruxish, Comfey, Crabominable, Decidueye, Dhelmise, Drampa, G
 
 Appletun, Archaludon, Arctovish, Arctozolt, Barraskewda, Boltund, Centiskorch, Cinderace, Coalossal, Copperajah, Corviknight, Cramorant, Dracovish, Dracozolt, Dragapult, Drednaw, Dubwool, Eiscue, Eldegoss, Falinks, Flapple, Frosmoth, Grapploct, Greedent, Grimmsnarl, Hatterene, Hydrapple, Inteleon, Morpeko, Orbeetle, Pincurchin, Polteageist, Rillaboom, Sandaconda, Stonjourner, Thievul, Toxtricity
 
-### Gen 9 (Paldea)  (41)
+### Gen 9 (Paldea)  (40)
 
-Arboliva, Armarouge, Baxcalibur, Bellibolt, Bombirdier, Brambleghast, Ceruledge, Cetitan, Cyclizar, Dachsbun, Dondozo, Espathra, Flamigo, Garganacl, Gholdengo, Glimmora, Grafaiai, Houndstone, Kilowattrel, Klawf, Lokix, Mabosstiff, Maushold, Meowscarada, Oinkologne, Orthworm, Palafin, Pawmot, Quaquaval, Rabsca, Revavroom, Scovillain, Sinistcha, Skeledirge, Spidops, Squawkabilly, Tatsugiri, Tinkaton, Toedscruel, Veluza, Wugtrio
+Arboliva, Armarouge, Baxcalibur, Bellibolt, Bombirdier, Brambleghast, Ceruledge, Cetitan, Cyclizar, Dachsbun, Dondozo, Espathra, Flamigo, Garganacl, Gholdengo, Glimmora, Grafaiai, Houndstone, Kilowattrel, Klawf, Lokix, Mabosstiff, Maushold, Meowscarada, Orthworm, Palafin, Pawmot, Quaquaval, Rabsca, Revavroom, Scovillain, Sinistcha, Skeledirge, Spidops, Squawkabilly, Tatsugiri, Tinkaton, Toedscruel, Veluza, Wugtrio
 
 ## B. Regional-form finals (all included as separate entries)
 
@@ -72,7 +72,7 @@ Arboliva, Armarouge, Baxcalibur, Bellibolt, Bombirdier, Brambleghast, Ceruledge,
 
 Distinct type/stat/movepool formes kept as separate rentals; in-battle-only and cosmetic sisters collapsed.
 
-Basculegion (Female), Basculegion (Male), Indeedee (Female), Indeedee (Male), Lycanroc (Dusk), Lycanroc (Midnight), Meowstic (Female), Meowstic (Male), Oricorio (Baile), Oricorio (Pa'u), Oricorio (Pom-Pom), Oricorio (Sensu), Rotom (Fan), Rotom (Frost), Rotom (Heat), Rotom (Mow), Rotom (Wash), Toxtricity (Low-Key), Ursaluna (Bloodmoon), Wormadam (Plant), Wormadam (Sandy), Wormadam (Trash)
+Basculegion (Female), Basculegion (Male), Indeedee (Female), Indeedee (Male), Lycanroc (Dusk), Lycanroc (Midnight), Meowstic (Female), Meowstic (Male), Oinkologne (Female), Oinkologne (Male), Oricorio (Baile), Oricorio (Pa'u), Oricorio (Pom-Pom), Oricorio (Sensu), Rotom (Fan), Rotom (Frost), Rotom (Heat), Rotom (Mow), Rotom (Wash), Toxtricity (Low-Key), Ursaluna (Bloodmoon), Wormadam (Plant), Wormadam (Sandy), Wormadam (Trash)
 
 ## D. Restricted tier (gated to hard mode / capped per team - your call)
 
@@ -157,11 +157,23 @@ Movesets will be transcribed from these as-is (build-legality flagged later). **
 
 - **Gimmick formes (excluded entirely):** all `*_MEGA`, `*_PRIMAL`, `*_GMAX` (gimmicks OFF).
 - **In-battle-only transforms (collapsed to base):** Aegislash Blade, Darmanitan Zen, Cramorant Gorging/Gulping, Eiscue Noice, Morpeko Hangry, Palafin Hero, Mimikyu Busted, Wishiwashi School, Meloetta Pirouette, Cherrim Sunshine, Castform weather forms, Xerneas Active, Terapagos Terastal/Stellar, Eternatus Eternamax, Necrozma Ultra.
-- **Cosmetic-only variants (collapsed to one):** Vivillon patterns, Florges/Floette/Flabebe colors, Squawkabilly colors, Tatsugiri styles, Gastrodon/Sawsbuck/Gourgeist/Deerling variants, Pikachu costumes, Sinistcha/Polteageist authenticity, Maushold/Dudunsparce segments, Zarude Dada, Magearna Original, Greninja Ash/Battle Bond, Keldeo Resolute, Oinkologne gender.
+- **Cosmetic-only variants (collapsed to one):** Vivillon patterns, Florges/Floette/Flabebe colors, Squawkabilly colors, Tatsugiri styles, Gastrodon/Sawsbuck/Gourgeist/Deerling variants, Pikachu costumes, Sinistcha/Polteageist authenticity, Maushold/Dudunsparce segments, Zarude Dada, Magearna Original, Greninja Ash/Battle Bond, Keldeo Resolute.
 
-## Open questions for you
+## Decisions locked
 
-1. **Restricted tier gating:** cap how many restricted mons per rental team (e.g. max 1), gate them behind a harder tower rank, or leave fully open?
-2. **Gendered formes** (Indeedee, Meowstic, Basculegion): keep both M/F as separate rentals, or one each?
-3. **Movesets per Pokemon:** how many distinct sets each (suggest 2-3: e.g. offensive / defensive / utility)?
-4. **Eviolite list size:** trim to the top ~10 competitively-standard users, or keep the wider ~35 above?
+**Tower modes (restricted-tier gating):** three selectable modes -
+- **Mode 1 - Standard:** 0 restricted mons per team (roster = standard + regional + alt formes + Eviolite NFE).
+- **Mode 2 - Restricted x1:** up to 1 restricted-tier mon (legendary/mythical/paradox/UB) per team of 3.
+- **Mode 3 - Restricted x2:** up to 2 restricted-tier mons per team of 3.
+
+**Gendered formes:** keep both M/F as separate rentals (Indeedee, Meowstic, Basculegion, Oinkologne).
+
+**Movesets per Pokemon:** aim for 2-3 distinct sets each; add more when a Pokemon genuinely supports more play styles that feel diverse from each other. Popular/versatile mons may reach 5-8 sets. Sets are transcribed from the sources as-is.
+
+**Eviolite NFE:** keep all curated entries in.
+
+## Still needed to start the moveset phase
+
+- The **Emerald Kaizo** and **Run & Bun** set documents (files or links) - these are transcribed as-is and cannot be reliably reproduced from memory.
+- Confirmation of the batching approach (suggest one generation at a time, Standard roster first, then Regional/Alt, then Restricted tier, then Eviolite).
+
