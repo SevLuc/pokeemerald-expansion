@@ -172,6 +172,32 @@ Movesets will be transcribed from these as-is (build-legality flagged later). **
 
 **Eviolite NFE:** keep all curated entries in.
 
+**Moveset storage:** structured JSON data files (per generation / batch), converted into the tower's mon table later. Planned per-set schema:
+
+```json
+{
+  "species": "SPECIES_GARCHOMP",
+  "displayName": "Garchomp",
+  "tier": "standard",
+  "sets": [
+    {
+      "name": "Swords Dance sweeper",
+      "role": "physical setup sweeper",
+      "item": "ITEM_LIFE_ORB",
+      "ability": "ABILITY_ROUGH_SKIN",
+      "nature": "NATURE_JOLLY",
+      "evs": { "hp": 0, "atk": 252, "def": 0, "spatk": 0, "spdef": 4, "speed": 252 },
+      "ivs": {},
+      "moves": ["MOVE_SWORDS_DANCE", "MOVE_EARTHQUAKE", "MOVE_SCALE_SHOT", "MOVE_FIRE_FANG"],
+      "source": "Run & Bun",
+      "notes": ""
+    }
+  ]
+}
+```
+
+Constants (species/move/item/ability/nature) will be validated against this build during a later pass; sets are transcribed from the sources as-is first.
+
 ## Still needed to start the moveset phase
 
 - The **Emerald Kaizo** and **Run & Bun** set documents (files or links) - these are transcribed as-is and cannot be reliably reproduced from memory.
