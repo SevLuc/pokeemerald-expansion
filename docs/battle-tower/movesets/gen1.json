@@ -210,9 +210,9 @@
      "nature": "NATURE_NAIVE",
      "evs": {
       "hp": 0,
-      "atk": 252,
+      "atk": 0,
       "def": 0,
-      "spatk": 0,
+      "spatk": 252,
       "spdef": 4,
       "speed": 252
      },
@@ -234,9 +234,9 @@
      "nature": "NATURE_RASH",
      "evs": {
       "hp": 0,
-      "atk": 252,
+      "atk": 0,
       "def": 0,
-      "spatk": 0,
+      "spatk": 252,
       "spdef": 4,
       "speed": 252
      },
@@ -258,9 +258,9 @@
      "nature": "NATURE_JOLLY",
      "evs": {
       "hp": 0,
-      "atk": 252,
+      "atk": 0,
       "def": 0,
-      "spatk": 0,
+      "spatk": 252,
       "spdef": 4,
       "speed": 252
      },
@@ -282,9 +282,9 @@
      "nature": "NATURE_MODEST",
      "evs": {
       "hp": 0,
-      "atk": 252,
+      "atk": 0,
       "def": 0,
-      "spatk": 0,
+      "spatk": 252,
       "spdef": 4,
       "speed": 252
      },
@@ -306,9 +306,9 @@
      "nature": "NATURE_MODEST",
      "evs": {
       "hp": 0,
-      "atk": 252,
+      "atk": 0,
       "def": 0,
-      "spatk": 0,
+      "spatk": 252,
       "spdef": 4,
       "speed": 252
      },
@@ -330,9 +330,9 @@
      "nature": "NATURE_RELAXED",
      "evs": {
       "hp": 0,
-      "atk": 252,
+      "atk": 0,
       "def": 0,
-      "spatk": 0,
+      "spatk": 252,
       "spdef": 4,
       "speed": 252
      },
@@ -577,9 +577,9 @@
      "nature": "NATURE_TIMID",
      "evs": {
       "hp": 0,
-      "atk": 252,
+      "atk": 0,
       "def": 0,
-      "spatk": 0,
+      "spatk": 252,
       "spdef": 4,
       "speed": 252
      },
@@ -601,9 +601,9 @@
      "nature": "NATURE_RELAXED",
      "evs": {
       "hp": 0,
-      "atk": 252,
+      "atk": 0,
       "def": 0,
-      "spatk": 0,
+      "spatk": 252,
       "spdef": 4,
       "speed": 252
      },
@@ -625,9 +625,9 @@
      "nature": "NATURE_TIMID",
      "evs": {
       "hp": 0,
-      "atk": 252,
+      "atk": 0,
       "def": 0,
-      "spatk": 0,
+      "spatk": 252,
       "spdef": 4,
       "speed": 252
      },
@@ -920,9 +920,9 @@
      "nature": "NATURE_TIMID",
      "evs": {
       "hp": 0,
-      "atk": 252,
+      "atk": 0,
       "def": 0,
-      "spatk": 0,
+      "spatk": 252,
       "spdef": 4,
       "speed": 252
      },
@@ -944,9 +944,9 @@
      "nature": "NATURE_IMPISH",
      "evs": {
       "hp": 0,
-      "atk": 252,
+      "atk": 0,
       "def": 0,
-      "spatk": 0,
+      "spatk": 252,
       "spdef": 4,
       "speed": 252
      },
@@ -968,9 +968,9 @@
      "nature": "NATURE_NAIVE",
      "evs": {
       "hp": 0,
-      "atk": 252,
+      "atk": 0,
       "def": 0,
-      "spatk": 0,
+      "spatk": 252,
       "spdef": 4,
       "speed": 252
      },
@@ -1286,9 +1286,9 @@
      "nature": "NATURE_ADAMANT",
      "evs": {
       "hp": 0,
-      "atk": 252,
+      "atk": 0,
       "def": 0,
-      "spatk": 0,
+      "spatk": 252,
       "spdef": 4,
       "speed": 252
      },
@@ -1309,9 +1309,9 @@
      "nature": "NATURE_QUIET",
      "evs": {
       "hp": 0,
-      "atk": 252,
+      "atk": 0,
       "def": 0,
-      "spatk": 0,
+      "spatk": 252,
       "spdef": 4,
       "speed": 252
      },
@@ -1851,9 +1851,9 @@
      "nature": "NATURE_TIMID",
      "evs": {
       "hp": 0,
-      "atk": 252,
+      "atk": 0,
       "def": 0,
-      "spatk": 0,
+      "spatk": 252,
       "spdef": 4,
       "speed": 252
      },
@@ -3103,9 +3103,9 @@
      "nature": "NATURE_TIMID",
      "evs": {
       "hp": 0,
-      "atk": 252,
+      "atk": 0,
       "def": 0,
-      "spatk": 0,
+      "spatk": 252,
       "spdef": 4,
       "speed": 252
      },
@@ -3127,9 +3127,9 @@
      "nature": "NATURE_NAUGHTY",
      "evs": {
       "hp": 0,
-      "atk": 252,
+      "atk": 0,
       "def": 0,
-      "spatk": 0,
+      "spatk": 252,
       "spdef": 4,
       "speed": 252
      },
@@ -3151,9 +3151,9 @@
      "nature": "NATURE_MODEST",
      "evs": {
       "hp": 0,
-      "atk": 252,
+      "atk": 0,
       "def": 0,
-      "spatk": 0,
+      "spatk": 252,
       "spdef": 4,
       "speed": 252
      },
@@ -3175,9 +3175,9 @@
      "nature": "NATURE_CAREFUL",
      "evs": {
       "hp": 0,
-      "atk": 252,
+      "atk": 0,
       "def": 0,
-      "spatk": 0,
+      "spatk": 252,
       "spdef": 4,
       "speed": 252
      },
@@ -3693,9 +3693,9 @@
      "nature": "NATURE_TIMID",
      "evs": {
       "hp": 0,
-      "atk": 252,
+      "atk": 0,
       "def": 0,
-      "spatk": 0,
+      "spatk": 252,
       "spdef": 4,
       "speed": 252
      },
@@ -3717,9 +3717,9 @@
      "nature": "NATURE_HASTY",
      "evs": {
       "hp": 0,
-      "atk": 252,
+      "atk": 0,
       "def": 0,
-      "spatk": 0,
+      "spatk": 252,
       "spdef": 4,
       "speed": 252
      },
@@ -3741,9 +3741,9 @@
      "nature": "NATURE_BOLD",
      "evs": {
       "hp": 0,
-      "atk": 252,
+      "atk": 0,
       "def": 0,
-      "spatk": 0,
+      "spatk": 252,
       "spdef": 4,
       "speed": 252
      },
@@ -3789,9 +3789,9 @@
      "nature": "NATURE_TIMID",
      "evs": {
       "hp": 0,
-      "atk": 252,
+      "atk": 0,
       "def": 0,
-      "spatk": 0,
+      "spatk": 252,
       "spdef": 4,
       "speed": 252
      },
@@ -4060,9 +4060,9 @@
      "nature": "NATURE_TIMID",
      "evs": {
       "hp": 0,
-      "atk": 252,
+      "atk": 0,
       "def": 0,
-      "spatk": 0,
+      "spatk": 252,
       "spdef": 4,
       "speed": 252
      },
@@ -4108,9 +4108,9 @@
      "nature": "NATURE_TIMID",
      "evs": {
       "hp": 0,
-      "atk": 252,
+      "atk": 0,
       "def": 0,
-      "spatk": 0,
+      "spatk": 252,
       "spdef": 4,
       "speed": 252
      },
@@ -4156,9 +4156,9 @@
      "nature": "NATURE_TIMID",
      "evs": {
       "hp": 0,
-      "atk": 252,
+      "atk": 0,
       "def": 0,
-      "spatk": 0,
+      "spatk": 252,
       "spdef": 4,
       "speed": 252
      },
@@ -4379,9 +4379,9 @@
      "nature": "NATURE_RELAXED",
      "evs": {
       "hp": 0,
-      "atk": 252,
+      "atk": 0,
       "def": 0,
-      "spatk": 0,
+      "spatk": 252,
       "spdef": 4,
       "speed": 252
      },
@@ -4403,9 +4403,9 @@
      "nature": "NATURE_LAX",
      "evs": {
       "hp": 0,
-      "atk": 252,
+      "atk": 0,
       "def": 0,
-      "spatk": 0,
+      "spatk": 252,
       "spdef": 4,
       "speed": 252
      },
@@ -4427,9 +4427,9 @@
      "nature": "NATURE_TIMID",
      "evs": {
       "hp": 0,
-      "atk": 252,
+      "atk": 0,
       "def": 0,
-      "spatk": 0,
+      "spatk": 252,
       "spdef": 4,
       "speed": 252
      },
@@ -4475,9 +4475,9 @@
      "nature": "NATURE_TIMID",
      "evs": {
       "hp": 0,
-      "atk": 252,
+      "atk": 0,
       "def": 0,
-      "spatk": 0,
+      "spatk": 252,
       "spdef": 4,
       "speed": 252
      },
@@ -4499,9 +4499,9 @@
      "nature": "NATURE_TIMID",
      "evs": {
       "hp": 0,
-      "atk": 252,
+      "atk": 0,
       "def": 0,
-      "spatk": 0,
+      "spatk": 252,
       "spdef": 4,
       "speed": 252
      },
@@ -4722,9 +4722,9 @@
      "nature": "NATURE_TIMID",
      "evs": {
       "hp": 0,
-      "atk": 252,
+      "atk": 0,
       "def": 0,
-      "spatk": 0,
+      "spatk": 252,
       "spdef": 4,
       "speed": 252
      },
@@ -4746,9 +4746,9 @@
      "nature": "NATURE_IMPISH",
      "evs": {
       "hp": 0,
-      "atk": 252,
+      "atk": 0,
       "def": 0,
-      "spatk": 0,
+      "spatk": 252,
       "spdef": 4,
       "speed": 252
      },
@@ -4770,9 +4770,9 @@
      "nature": "NATURE_TIMID",
      "evs": {
       "hp": 0,
-      "atk": 252,
+      "atk": 0,
       "def": 0,
-      "spatk": 0,
+      "spatk": 252,
       "spdef": 4,
       "speed": 252
      },
@@ -4794,9 +4794,9 @@
      "nature": "NATURE_BRAVE",
      "evs": {
       "hp": 0,
-      "atk": 252,
+      "atk": 0,
       "def": 0,
-      "spatk": 0,
+      "spatk": 252,
       "spdef": 4,
       "speed": 252
      },
@@ -4818,9 +4818,9 @@
      "nature": "NATURE_TIMID",
      "evs": {
       "hp": 0,
-      "atk": 252,
+      "atk": 0,
       "def": 0,
-      "spatk": 0,
+      "spatk": 252,
       "spdef": 4,
       "speed": 252
      },
@@ -4842,9 +4842,9 @@
      "nature": "NATURE_RASH",
      "evs": {
       "hp": 0,
-      "atk": 252,
+      "atk": 0,
       "def": 0,
-      "spatk": 0,
+      "spatk": 252,
       "spdef": 4,
       "speed": 252
      },
@@ -5089,9 +5089,9 @@
      "nature": "NATURE_RASH",
      "evs": {
       "hp": 0,
-      "atk": 252,
+      "atk": 0,
       "def": 0,
-      "spatk": 0,
+      "spatk": 252,
       "spdef": 4,
       "speed": 252
      },
@@ -5113,9 +5113,9 @@
      "nature": "NATURE_NAIVE",
      "evs": {
       "hp": 0,
-      "atk": 252,
+      "atk": 0,
       "def": 0,
-      "spatk": 0,
+      "spatk": 252,
       "spdef": 4,
       "speed": 252
      },
@@ -5137,9 +5137,9 @@
      "nature": "NATURE_NAUGHTY",
      "evs": {
       "hp": 0,
-      "atk": 252,
+      "atk": 0,
       "def": 0,
-      "spatk": 0,
+      "spatk": 252,
       "spdef": 4,
       "speed": 252
      },
@@ -5160,9 +5160,9 @@
      "nature": "NATURE_JOLLY",
      "evs": {
       "hp": 0,
-      "atk": 252,
+      "atk": 0,
       "def": 0,
-      "spatk": 0,
+      "spatk": 252,
       "spdef": 4,
       "speed": 252
      },
@@ -5431,9 +5431,9 @@
      "nature": "NATURE_IMPISH",
      "evs": {
       "hp": 0,
-      "atk": 252,
+      "atk": 0,
       "def": 0,
-      "spatk": 0,
+      "spatk": 252,
       "spdef": 4,
       "speed": 252
      },
@@ -5455,9 +5455,9 @@
      "nature": "NATURE_TIMID",
      "evs": {
       "hp": 0,
-      "atk": 252,
+      "atk": 0,
       "def": 0,
-      "spatk": 0,
+      "spatk": 252,
       "spdef": 4,
       "speed": 252
      },
@@ -5527,9 +5527,9 @@
      "nature": "NATURE_GENTLE",
      "evs": {
       "hp": 0,
-      "atk": 252,
+      "atk": 0,
       "def": 0,
-      "spatk": 0,
+      "spatk": 252,
       "spdef": 4,
       "speed": 252
      },
@@ -5798,9 +5798,9 @@
      "nature": "NATURE_MILD",
      "evs": {
       "hp": 0,
-      "atk": 252,
+      "atk": 0,
       "def": 0,
-      "spatk": 0,
+      "spatk": 252,
       "spdef": 4,
       "speed": 252
      },
@@ -5822,9 +5822,9 @@
      "nature": "NATURE_CAREFUL",
      "evs": {
       "hp": 0,
-      "atk": 252,
+      "atk": 0,
       "def": 0,
-      "spatk": 0,
+      "spatk": 252,
       "spdef": 4,
       "speed": 252
      },
@@ -6117,9 +6117,9 @@
      "nature": "NATURE_MILD",
      "evs": {
       "hp": 0,
-      "atk": 252,
+      "atk": 0,
       "def": 0,
-      "spatk": 0,
+      "spatk": 252,
       "spdef": 4,
       "speed": 252
      },
@@ -6611,9 +6611,9 @@
      "nature": "NATURE_TIMID",
      "evs": {
       "hp": 0,
-      "atk": 252,
+      "atk": 0,
       "def": 0,
-      "spatk": 0,
+      "spatk": 252,
       "spdef": 4,
       "speed": 252
      },
@@ -6635,9 +6635,9 @@
      "nature": "NATURE_NAUGHTY",
      "evs": {
       "hp": 0,
-      "atk": 252,
+      "atk": 0,
       "def": 0,
-      "spatk": 0,
+      "spatk": 252,
       "spdef": 4,
       "speed": 252
      },
@@ -6659,9 +6659,9 @@
      "nature": "NATURE_TIMID",
      "evs": {
       "hp": 0,
-      "atk": 252,
+      "atk": 0,
       "def": 0,
-      "spatk": 0,
+      "spatk": 252,
       "spdef": 4,
       "speed": 252
      },
@@ -6683,9 +6683,9 @@
      "nature": "NATURE_NAIVE",
      "evs": {
       "hp": 0,
-      "atk": 252,
+      "atk": 0,
       "def": 0,
-      "spatk": 0,
+      "spatk": 252,
       "spdef": 4,
       "speed": 252
      },
@@ -6707,9 +6707,9 @@
      "nature": "NATURE_CAREFUL",
      "evs": {
       "hp": 0,
-      "atk": 252,
+      "atk": 0,
       "def": 0,
-      "spatk": 0,
+      "spatk": 252,
       "spdef": 4,
       "speed": 252
      },
@@ -6731,9 +6731,9 @@
      "nature": "NATURE_MODEST",
      "evs": {
       "hp": 0,
-      "atk": 252,
+      "atk": 0,
       "def": 0,
-      "spatk": 0,
+      "spatk": 252,
       "spdef": 4,
       "speed": 252
      },
@@ -7002,9 +7002,9 @@
      "nature": "NATURE_IMPISH",
      "evs": {
       "hp": 0,
-      "atk": 252,
+      "atk": 0,
       "def": 0,
-      "spatk": 0,
+      "spatk": 252,
       "spdef": 4,
       "speed": 252
      },
@@ -7297,9 +7297,9 @@
      "nature": "NATURE_TIMID",
      "evs": {
       "hp": 0,
-      "atk": 252,
+      "atk": 0,
       "def": 0,
-      "spatk": 0,
+      "spatk": 252,
       "spdef": 4,
       "speed": 252
      },
@@ -7767,9 +7767,9 @@
      "nature": "NATURE_RASH",
      "evs": {
       "hp": 0,
-      "atk": 252,
+      "atk": 0,
       "def": 0,
-      "spatk": 0,
+      "spatk": 252,
       "spdef": 4,
       "speed": 252
      },
@@ -7791,9 +7791,9 @@
      "nature": "NATURE_TIMID",
      "evs": {
       "hp": 0,
-      "atk": 252,
+      "atk": 0,
       "def": 0,
-      "spatk": 0,
+      "spatk": 252,
       "spdef": 4,
       "speed": 252
      },
@@ -7839,9 +7839,9 @@
      "nature": "NATURE_MODEST",
      "evs": {
       "hp": 0,
-      "atk": 252,
+      "atk": 0,
       "def": 0,
-      "spatk": 0,
+      "spatk": 252,
       "spdef": 4,
       "speed": 252
      },
@@ -7863,9 +7863,9 @@
      "nature": "NATURE_ADAMANT",
      "evs": {
       "hp": 0,
-      "atk": 252,
+      "atk": 0,
       "def": 0,
-      "spatk": 0,
+      "spatk": 252,
       "spdef": 4,
       "speed": 252
      },
@@ -8213,9 +8213,9 @@
      "nature": "NATURE_TIMID",
      "evs": {
       "hp": 0,
-      "atk": 252,
+      "atk": 0,
       "def": 0,
-      "spatk": 0,
+      "spatk": 252,
       "spdef": 4,
       "speed": 252
      },
@@ -8237,9 +8237,9 @@
      "nature": "NATURE_IMPISH",
      "evs": {
       "hp": 0,
-      "atk": 252,
+      "atk": 0,
       "def": 0,
-      "spatk": 0,
+      "spatk": 252,
       "spdef": 4,
       "speed": 252
      },
@@ -8628,9 +8628,9 @@
      "nature": "NATURE_IMPISH",
      "evs": {
       "hp": 0,
-      "atk": 252,
+      "atk": 0,
       "def": 0,
-      "spatk": 0,
+      "spatk": 252,
       "spdef": 4,
       "speed": 252
      },
@@ -8947,9 +8947,9 @@
      "nature": "NATURE_TIMID",
      "evs": {
       "hp": 0,
-      "atk": 252,
+      "atk": 0,
       "def": 0,
-      "spatk": 0,
+      "spatk": 252,
       "spdef": 4,
       "speed": 252
      },
@@ -8971,9 +8971,9 @@
      "nature": "NATURE_MILD",
      "evs": {
       "hp": 0,
-      "atk": 252,
+      "atk": 0,
       "def": 0,
-      "spatk": 0,
+      "spatk": 252,
       "spdef": 4,
       "speed": 252
      },
@@ -8995,9 +8995,9 @@
      "nature": "NATURE_MODEST",
      "evs": {
       "hp": 0,
-      "atk": 252,
+      "atk": 0,
       "def": 0,
-      "spatk": 0,
+      "spatk": 252,
       "spdef": 4,
       "speed": 252
      },
@@ -9019,9 +9019,9 @@
      "nature": "NATURE_BOLD",
      "evs": {
       "hp": 0,
-      "atk": 252,
+      "atk": 0,
       "def": 0,
-      "spatk": 0,
+      "spatk": 252,
       "spdef": 4,
       "speed": 252
      },
@@ -9338,9 +9338,9 @@
      "nature": "NATURE_TIMID",
      "evs": {
       "hp": 0,
-      "atk": 252,
+      "atk": 0,
       "def": 0,
-      "spatk": 0,
+      "spatk": 252,
       "spdef": 4,
       "speed": 252
      },
@@ -9362,9 +9362,9 @@
      "nature": "NATURE_ADAMANT",
      "evs": {
       "hp": 0,
-      "atk": 252,
+      "atk": 0,
       "def": 0,
-      "spatk": 0,
+      "spatk": 252,
       "spdef": 4,
       "speed": 252
      },
@@ -10048,9 +10048,9 @@
      "nature": "NATURE_CALM",
      "evs": {
       "hp": 0,
-      "atk": 252,
+      "atk": 0,
       "def": 0,
-      "spatk": 0,
+      "spatk": 252,
       "spdef": 4,
       "speed": 252
      },
@@ -10295,9 +10295,9 @@
      "nature": "NATURE_TIMID",
      "evs": {
       "hp": 0,
-      "atk": 252,
+      "atk": 0,
       "def": 0,
-      "spatk": 0,
+      "spatk": 252,
       "spdef": 4,
       "speed": 252
      },
@@ -10319,9 +10319,9 @@
      "nature": "NATURE_LAX",
      "evs": {
       "hp": 0,
-      "atk": 252,
+      "atk": 0,
       "def": 0,
-      "spatk": 0,
+      "spatk": 252,
       "spdef": 4,
       "speed": 252
      },
@@ -10343,9 +10343,9 @@
      "nature": "NATURE_TIMID",
      "evs": {
       "hp": 0,
-      "atk": 252,
+      "atk": 0,
       "def": 0,
-      "spatk": 0,
+      "spatk": 252,
       "spdef": 4,
       "speed": 252
      },
@@ -10367,9 +10367,9 @@
      "nature": "NATURE_CALM",
      "evs": {
       "hp": 0,
-      "atk": 252,
+      "atk": 0,
       "def": 0,
-      "spatk": 0,
+      "spatk": 252,
       "spdef": 4,
       "speed": 252
      },
@@ -10391,9 +10391,9 @@
      "nature": "NATURE_TIMID",
      "evs": {
       "hp": 0,
-      "atk": 252,
+      "atk": 0,
       "def": 0,
-      "spatk": 0,
+      "spatk": 252,
       "spdef": 4,
       "speed": 252
      },
@@ -11276,9 +11276,9 @@
      "nature": "NATURE_MILD",
      "evs": {
       "hp": 0,
-      "atk": 252,
+      "atk": 0,
       "def": 0,
-      "spatk": 0,
+      "spatk": 252,
       "spdef": 4,
       "speed": 252
      },
@@ -11300,9 +11300,9 @@
      "nature": "NATURE_CALM",
      "evs": {
       "hp": 0,
-      "atk": 252,
+      "atk": 0,
       "def": 0,
-      "spatk": 0,
+      "spatk": 252,
       "spdef": 4,
       "speed": 252
      },
@@ -11372,9 +11372,9 @@
      "nature": "NATURE_JOLLY",
      "evs": {
       "hp": 0,
-      "atk": 252,
+      "atk": 0,
       "def": 0,
-      "spatk": 0,
+      "spatk": 252,
       "spdef": 4,
       "speed": 252
      },
@@ -11595,9 +11595,9 @@
      "nature": "NATURE_BOLD",
      "evs": {
       "hp": 0,
-      "atk": 252,
+      "atk": 0,
       "def": 0,
-      "spatk": 0,
+      "spatk": 252,
       "spdef": 4,
       "speed": 252
      },
@@ -11619,9 +11619,9 @@
      "nature": "NATURE_SASSY",
      "evs": {
       "hp": 0,
-      "atk": 252,
+      "atk": 0,
       "def": 0,
-      "spatk": 0,
+      "spatk": 252,
       "spdef": 4,
       "speed": 252
      },
@@ -11643,9 +11643,9 @@
      "nature": "NATURE_MODEST",
      "evs": {
       "hp": 0,
-      "atk": 252,
+      "atk": 0,
       "def": 0,
-      "spatk": 0,
+      "spatk": 252,
       "spdef": 4,
       "speed": 252
      },
@@ -11667,9 +11667,9 @@
      "nature": "NATURE_MILD",
      "evs": {
       "hp": 0,
-      "atk": 252,
+      "atk": 0,
       "def": 0,
-      "spatk": 0,
+      "spatk": 252,
       "spdef": 4,
       "speed": 252
      },
@@ -11914,9 +11914,9 @@
      "nature": "NATURE_QUIET",
      "evs": {
       "hp": 0,
-      "atk": 252,
+      "atk": 0,
       "def": 0,
-      "spatk": 0,
+      "spatk": 252,
       "spdef": 4,
       "speed": 252
      },
@@ -11938,9 +11938,9 @@
      "nature": "NATURE_QUIET",
      "evs": {
       "hp": 0,
-      "atk": 252,
+      "atk": 0,
       "def": 0,
-      "spatk": 0,
+      "spatk": 252,
       "spdef": 4,
       "speed": 252
      },
@@ -11962,9 +11962,9 @@
      "nature": "NATURE_TIMID",
      "evs": {
       "hp": 0,
-      "atk": 252,
+      "atk": 0,
       "def": 0,
-      "spatk": 0,
+      "spatk": 252,
       "spdef": 4,
       "speed": 252
      },
@@ -11986,9 +11986,9 @@
      "nature": "NATURE_MODEST",
      "evs": {
       "hp": 0,
-      "atk": 252,
+      "atk": 0,
       "def": 0,
-      "spatk": 0,
+      "spatk": 252,
       "spdef": 4,
       "speed": 252
      },
@@ -12974,9 +12974,9 @@
      "nature": "NATURE_BRAVE",
      "evs": {
       "hp": 0,
-      "atk": 252,
+      "atk": 0,
       "def": 0,
-      "spatk": 0,
+      "spatk": 252,
       "spdef": 4,
       "speed": 252
      },
@@ -13365,9 +13365,9 @@
      "nature": "NATURE_NAIVE",
      "evs": {
       "hp": 0,
-      "atk": 252,
+      "atk": 0,
       "def": 0,
-      "spatk": 0,
+      "spatk": 252,
       "spdef": 4,
       "speed": 252
      },
@@ -13612,9 +13612,9 @@
      "nature": "NATURE_NAIVE",
      "evs": {
       "hp": 0,
-      "atk": 252,
+      "atk": 0,
       "def": 0,
-      "spatk": 0,
+      "spatk": 252,
       "spdef": 4,
       "speed": 252
      },
@@ -13636,9 +13636,9 @@
      "nature": "NATURE_TIMID",
      "evs": {
       "hp": 0,
-      "atk": 252,
+      "atk": 0,
       "def": 0,
-      "spatk": 0,
+      "spatk": 252,
       "spdef": 4,
       "speed": 252
      },
@@ -14003,9 +14003,9 @@
      "nature": "NATURE_TIMID",
      "evs": {
       "hp": 0,
-      "atk": 252,
+      "atk": 0,
       "def": 0,
-      "spatk": 0,
+      "spatk": 252,
       "spdef": 4,
       "speed": 252
      },
@@ -14051,9 +14051,9 @@
      "nature": "NATURE_TIMID",
      "evs": {
       "hp": 0,
-      "atk": 252,
+      "atk": 0,
       "def": 0,
-      "spatk": 0,
+      "spatk": 252,
       "spdef": 4,
       "speed": 252
      },
@@ -14617,9 +14617,9 @@
      "nature": "NATURE_TIMID",
      "evs": {
       "hp": 0,
-      "atk": 252,
+      "atk": 0,
       "def": 0,
-      "spatk": 0,
+      "spatk": 252,
       "spdef": 4,
       "speed": 252
      },
@@ -14640,9 +14640,9 @@
      "nature": "NATURE_RASH",
      "evs": {
       "hp": 0,
-      "atk": 252,
+      "atk": 0,
       "def": 0,
-      "spatk": 0,
+      "spatk": 252,
       "spdef": 4,
       "speed": 252
      },
@@ -14664,9 +14664,9 @@
      "nature": "NATURE_BOLD",
      "evs": {
       "hp": 0,
-      "atk": 252,
+      "atk": 0,
       "def": 0,
-      "spatk": 0,
+      "spatk": 252,
       "spdef": 4,
       "speed": 252
      },
@@ -14736,9 +14736,9 @@
      "nature": "NATURE_BOLD",
      "evs": {
       "hp": 0,
-      "atk": 252,
+      "atk": 0,
       "def": 0,
-      "spatk": 0,
+      "spatk": 252,
       "spdef": 4,
       "speed": 252
      },
@@ -15326,9 +15326,9 @@
      "nature": "NATURE_IMPISH",
      "evs": {
       "hp": 0,
-      "atk": 252,
+      "atk": 0,
       "def": 0,
-      "spatk": 0,
+      "spatk": 252,
       "spdef": 4,
       "speed": 252
      },
@@ -15350,9 +15350,9 @@
      "nature": "NATURE_HASTY",
      "evs": {
       "hp": 0,
-      "atk": 252,
+      "atk": 0,
       "def": 0,
-      "spatk": 0,
+      "spatk": 252,
       "spdef": 4,
       "speed": 252
      },
@@ -15398,9 +15398,9 @@
      "nature": "NATURE_TIMID",
      "evs": {
       "hp": 0,
-      "atk": 252,
+      "atk": 0,
       "def": 0,
-      "spatk": 0,
+      "spatk": 252,
       "spdef": 4,
       "speed": 252
      },
@@ -15422,9 +15422,9 @@
      "nature": "NATURE_NAIVE",
      "evs": {
       "hp": 0,
-      "atk": 252,
+      "atk": 0,
       "def": 0,
-      "spatk": 0,
+      "spatk": 252,
       "spdef": 4,
       "speed": 252
      },
@@ -15669,9 +15669,9 @@
      "nature": "NATURE_QUIET",
      "evs": {
       "hp": 0,
-      "atk": 252,
+      "atk": 0,
       "def": 0,
-      "spatk": 0,
+      "spatk": 252,
       "spdef": 4,
       "speed": 252
      },
@@ -15717,9 +15717,9 @@
      "nature": "NATURE_QUIET",
      "evs": {
       "hp": 0,
-      "atk": 252,
+      "atk": 0,
       "def": 0,
-      "spatk": 0,
+      "spatk": 252,
       "spdef": 4,
       "speed": 252
      },
@@ -15765,9 +15765,9 @@
      "nature": "NATURE_MODEST",
      "evs": {
       "hp": 0,
-      "atk": 252,
+      "atk": 0,
       "def": 0,
-      "spatk": 0,
+      "spatk": 252,
       "spdef": 4,
       "speed": 252
      },
@@ -17703,9 +17703,9 @@
      "nature": "NATURE_HASTY",
      "evs": {
       "hp": 0,
-      "atk": 252,
+      "atk": 0,
       "def": 0,
-      "spatk": 0,
+      "spatk": 252,
       "spdef": 4,
       "speed": 252
      },
@@ -17727,9 +17727,9 @@
      "nature": "NATURE_ADAMANT",
      "evs": {
       "hp": 0,
-      "atk": 252,
+      "atk": 0,
       "def": 0,
-      "spatk": 0,
+      "spatk": 252,
       "spdef": 4,
       "speed": 252
      },
@@ -17750,9 +17750,9 @@
      "nature": "NATURE_CAREFUL",
      "evs": {
       "hp": 0,
-      "atk": 252,
+      "atk": 0,
       "def": 0,
-      "spatk": 0,
+      "spatk": 252,
       "spdef": 4,
       "speed": 252
      },
@@ -17798,9 +17798,9 @@
      "nature": "NATURE_SASSY",
      "evs": {
       "hp": 0,
-      "atk": 252,
+      "atk": 0,
       "def": 0,
-      "spatk": 0,
+      "spatk": 252,
       "spdef": 4,
       "speed": 252
      },
@@ -17822,9 +17822,9 @@
      "nature": "NATURE_LONELY",
      "evs": {
       "hp": 0,
-      "atk": 252,
+      "atk": 0,
       "def": 0,
-      "spatk": 0,
+      "spatk": 252,
       "spdef": 4,
       "speed": 252
      },
@@ -18388,9 +18388,9 @@
      "nature": "NATURE_MODEST",
      "evs": {
       "hp": 0,
-      "atk": 252,
+      "atk": 0,
       "def": 0,
-      "spatk": 0,
+      "spatk": 252,
       "spdef": 4,
       "speed": 252
      },
@@ -18731,9 +18731,9 @@
      "nature": "NATURE_TIMID",
      "evs": {
       "hp": 0,
-      "atk": 252,
+      "atk": 0,
       "def": 0,
-      "spatk": 0,
+      "spatk": 252,
       "spdef": 4,
       "speed": 252
      },
@@ -19321,9 +19321,9 @@
      "nature": "NATURE_MODEST",
      "evs": {
       "hp": 0,
-      "atk": 252,
+      "atk": 0,
       "def": 0,
-      "spatk": 0,
+      "spatk": 252,
       "spdef": 4,
       "speed": 252
      },
@@ -19345,9 +19345,9 @@
      "nature": "NATURE_SASSY",
      "evs": {
       "hp": 0,
-      "atk": 252,
+      "atk": 0,
       "def": 0,
-      "spatk": 0,
+      "spatk": 252,
       "spdef": 4,
       "speed": 252
      },
@@ -19393,9 +19393,9 @@
      "nature": "NATURE_NAIVE",
      "evs": {
       "hp": 0,
-      "atk": 252,
+      "atk": 0,
       "def": 0,
-      "spatk": 0,
+      "spatk": 252,
       "spdef": 4,
       "speed": 252
      },
@@ -19416,9 +19416,9 @@
      "nature": "NATURE_MODEST",
      "evs": {
       "hp": 0,
-      "atk": 252,
+      "atk": 0,
       "def": 0,
-      "spatk": 0,
+      "spatk": 252,
       "spdef": 4,
       "speed": 252
      },
@@ -19440,9 +19440,9 @@
      "nature": "NATURE_JOLLY",
      "evs": {
       "hp": 0,
-      "atk": 252,
+      "atk": 0,
       "def": 0,
-      "spatk": 0,
+      "spatk": 252,
       "spdef": 4,
       "speed": 252
      },
@@ -19687,9 +19687,9 @@
      "nature": "NATURE_BOLD",
      "evs": {
       "hp": 0,
-      "atk": 252,
+      "atk": 0,
       "def": 0,
-      "spatk": 0,
+      "spatk": 252,
       "spdef": 4,
       "speed": 252
      },
@@ -19711,9 +19711,9 @@
      "nature": "NATURE_MILD",
      "evs": {
       "hp": 0,
-      "atk": 252,
+      "atk": 0,
       "def": 0,
-      "spatk": 0,
+      "spatk": 252,
       "spdef": 4,
       "speed": 252
      },
@@ -20006,9 +20006,9 @@
      "nature": "NATURE_TIMID",
      "evs": {
       "hp": 0,
-      "atk": 252,
+      "atk": 0,
       "def": 0,
-      "spatk": 0,
+      "spatk": 252,
       "spdef": 4,
       "speed": 252
      },
@@ -20030,9 +20030,9 @@
      "nature": "NATURE_MILD",
      "evs": {
       "hp": 0,
-      "atk": 252,
+      "atk": 0,
       "def": 0,
-      "spatk": 0,
+      "spatk": 252,
       "spdef": 4,
       "speed": 252
      },
@@ -20054,9 +20054,9 @@
      "nature": "NATURE_TIMID",
      "evs": {
       "hp": 0,
-      "atk": 252,
+      "atk": 0,
       "def": 0,
-      "spatk": 0,
+      "spatk": 252,
       "spdef": 4,
       "speed": 252
      },
@@ -20078,9 +20078,9 @@
      "nature": "NATURE_MILD",
      "evs": {
       "hp": 0,
-      "atk": 252,
+      "atk": 0,
       "def": 0,
-      "spatk": 0,
+      "spatk": 252,
       "spdef": 4,
       "speed": 252
      },
@@ -20102,9 +20102,9 @@
      "nature": "NATURE_TIMID",
      "evs": {
       "hp": 0,
-      "atk": 252,
+      "atk": 0,
       "def": 0,
-      "spatk": 0,
+      "spatk": 252,
       "spdef": 4,
       "speed": 252
      },
@@ -20126,9 +20126,9 @@
      "nature": "NATURE_LONELY",
      "evs": {
       "hp": 0,
-      "atk": 252,
+      "atk": 0,
       "def": 0,
-      "spatk": 0,
+      "spatk": 252,
       "spdef": 4,
       "speed": 252
      },
@@ -20397,9 +20397,9 @@
      "nature": "NATURE_TIMID",
      "evs": {
       "hp": 0,
-      "atk": 252,
+      "atk": 0,
       "def": 0,
-      "spatk": 0,
+      "spatk": 252,
       "spdef": 4,
       "speed": 252
      },
@@ -20524,9 +20524,9 @@
      "nature": "NATURE_TIMID",
      "evs": {
       "hp": 0,
-      "atk": 252,
+      "atk": 0,
       "def": 0,
-      "spatk": 0,
+      "spatk": 252,
       "spdef": 4,
       "speed": 252
      },
@@ -20548,9 +20548,9 @@
      "nature": "NATURE_TIMID",
      "evs": {
       "hp": 0,
-      "atk": 252,
+      "atk": 0,
       "def": 0,
-      "spatk": 0,
+      "spatk": 252,
       "spdef": 4,
       "speed": 252
      },
@@ -20572,9 +20572,9 @@
      "nature": "NATURE_TIMID",
      "evs": {
       "hp": 0,
-      "atk": 252,
+      "atk": 0,
       "def": 0,
-      "spatk": 0,
+      "spatk": 252,
       "spdef": 4,
       "speed": 252
      },
@@ -20795,9 +20795,9 @@
      "nature": "NATURE_LAX",
      "evs": {
       "hp": 0,
-      "atk": 252,
+      "atk": 0,
       "def": 0,
-      "spatk": 0,
+      "spatk": 252,
       "spdef": 4,
       "speed": 252
      },
@@ -21313,9 +21313,9 @@
      "nature": "NATURE_TIMID",
      "evs": {
       "hp": 0,
-      "atk": 252,
+      "atk": 0,
       "def": 0,
-      "spatk": 0,
+      "spatk": 252,
       "spdef": 4,
       "speed": 252
      },
@@ -21361,9 +21361,9 @@
      "nature": "NATURE_TIMID",
      "evs": {
       "hp": 0,
-      "atk": 252,
+      "atk": 0,
       "def": 0,
-      "spatk": 0,
+      "spatk": 252,
       "spdef": 4,
       "speed": 252
      },
@@ -21385,9 +21385,9 @@
      "nature": "NATURE_CAREFUL",
      "evs": {
       "hp": 0,
-      "atk": 252,
+      "atk": 0,
       "def": 0,
-      "spatk": 0,
+      "spatk": 252,
       "spdef": 4,
       "speed": 252
      },
@@ -21409,9 +21409,9 @@
      "nature": "NATURE_TIMID",
      "evs": {
       "hp": 0,
-      "atk": 252,
+      "atk": 0,
       "def": 0,
-      "spatk": 0,
+      "spatk": 252,
       "spdef": 4,
       "speed": 252
      },
@@ -21433,9 +21433,9 @@
      "nature": "NATURE_LONELY",
      "evs": {
       "hp": 0,
-      "atk": 252,
+      "atk": 0,
       "def": 0,
-      "spatk": 0,
+      "spatk": 252,
       "spdef": 4,
       "speed": 252
      },
@@ -21584,9 +21584,9 @@
      "nature": "NATURE_TIMID",
      "evs": {
       "hp": 0,
-      "atk": 252,
+      "atk": 0,
       "def": 0,
-      "spatk": 0,
+      "spatk": 252,
       "spdef": 4,
       "speed": 252
      },
@@ -21879,9 +21879,9 @@
      "nature": "NATURE_TIMID",
      "evs": {
       "hp": 0,
-      "atk": 252,
+      "atk": 0,
       "def": 0,
-      "spatk": 0,
+      "spatk": 252,
       "spdef": 4,
       "speed": 252
      },
@@ -21903,9 +21903,9 @@
      "nature": "NATURE_TIMID",
      "evs": {
       "hp": 0,
-      "atk": 252,
+      "atk": 0,
       "def": 0,
-      "spatk": 0,
+      "spatk": 252,
       "spdef": 4,
       "speed": 252
      },
@@ -21927,9 +21927,9 @@
      "nature": "NATURE_HASTY",
      "evs": {
       "hp": 0,
-      "atk": 252,
+      "atk": 0,
       "def": 0,
-      "spatk": 0,
+      "spatk": 252,
       "spdef": 4,
       "speed": 252
      },
@@ -21951,9 +21951,9 @@
      "nature": "NATURE_NAIVE",
      "evs": {
       "hp": 0,
-      "atk": 252,
+      "atk": 0,
       "def": 0,
-      "spatk": 0,
+      "spatk": 252,
       "spdef": 4,
       "speed": 252
      },
@@ -22884,9 +22884,9 @@
      "nature": "NATURE_TIMID",
      "evs": {
       "hp": 0,
-      "atk": 252,
+      "atk": 0,
       "def": 0,
-      "spatk": 0,
+      "spatk": 252,
       "spdef": 4,
       "speed": 252
      },
@@ -23251,9 +23251,9 @@
      "nature": "NATURE_TIMID",
      "evs": {
       "hp": 0,
-      "atk": 252,
+      "atk": 0,
       "def": 0,
-      "spatk": 0,
+      "spatk": 252,
       "spdef": 4,
       "speed": 252
      },
@@ -23275,9 +23275,9 @@
      "nature": "NATURE_MILD",
      "evs": {
       "hp": 0,
-      "atk": 252,
+      "atk": 0,
       "def": 0,
-      "spatk": 0,
+      "spatk": 252,
       "spdef": 4,
       "speed": 252
      },
@@ -23299,9 +23299,9 @@
      "nature": "NATURE_TIMID",
      "evs": {
       "hp": 0,
-      "atk": 252,
+      "atk": 0,
       "def": 0,
-      "spatk": 0,
+      "spatk": 252,
       "spdef": 4,
       "speed": 252
      },
@@ -23323,9 +23323,9 @@
      "nature": "NATURE_QUIET",
      "evs": {
       "hp": 0,
-      "atk": 252,
+      "atk": 0,
       "def": 0,
-      "spatk": 0,
+      "spatk": 252,
       "spdef": 4,
       "speed": 252
      },
@@ -23670,9 +23670,9 @@
      "nature": "NATURE_ADAMANT",
      "evs": {
       "hp": 0,
-      "atk": 252,
+      "atk": 0,
       "def": 0,
-      "spatk": 0,
+      "spatk": 252,
       "spdef": 4,
       "speed": 252
      },
@@ -23694,9 +23694,9 @@
      "nature": "NATURE_TIMID",
      "evs": {
       "hp": 0,
-      "atk": 252,
+      "atk": 0,
       "def": 0,
-      "spatk": 0,
+      "spatk": 252,
       "spdef": 4,
       "speed": 252
      },
@@ -23917,9 +23917,9 @@
      "nature": "NATURE_TIMID",
      "evs": {
       "hp": 0,
-      "atk": 252,
+      "atk": 0,
       "def": 0,
-      "spatk": 0,
+      "spatk": 252,
       "spdef": 4,
       "speed": 252
      },
@@ -23941,9 +23941,9 @@
      "nature": "NATURE_IMPISH",
      "evs": {
       "hp": 0,
-      "atk": 252,
+      "atk": 0,
       "def": 0,
-      "spatk": 0,
+      "spatk": 252,
       "spdef": 4,
       "speed": 252
      },
@@ -23965,9 +23965,9 @@
      "nature": "NATURE_TIMID",
      "evs": {
       "hp": 0,
-      "atk": 252,
+      "atk": 0,
       "def": 0,
-      "spatk": 0,
+      "spatk": 252,
       "spdef": 4,
       "speed": 252
      },
@@ -23989,9 +23989,9 @@
      "nature": "NATURE_ADAMANT",
      "evs": {
       "hp": 0,
-      "atk": 252,
+      "atk": 0,
       "def": 0,
-      "spatk": 0,
+      "spatk": 252,
       "spdef": 4,
       "speed": 252
      },
@@ -24013,9 +24013,9 @@
      "nature": "NATURE_TIMID",
      "evs": {
       "hp": 0,
-      "atk": 252,
+      "atk": 0,
       "def": 0,
-      "spatk": 0,
+      "spatk": 252,
       "spdef": 4,
       "speed": 252
      },
@@ -24332,9 +24332,9 @@
      "nature": "NATURE_GENTLE",
      "evs": {
       "hp": 0,
-      "atk": 252,
+      "atk": 0,
       "def": 0,
-      "spatk": 0,
+      "spatk": 252,
       "spdef": 4,
       "speed": 252
      },
@@ -24627,9 +24627,9 @@
      "nature": "NATURE_TIMID",
      "evs": {
       "hp": 0,
-      "atk": 252,
+      "atk": 0,
       "def": 0,
-      "spatk": 0,
+      "spatk": 252,
       "spdef": 4,
       "speed": 252
      },
@@ -24651,9 +24651,9 @@
      "nature": "NATURE_SASSY",
      "evs": {
       "hp": 0,
-      "atk": 252,
+      "atk": 0,
       "def": 0,
-      "spatk": 0,
+      "spatk": 252,
       "spdef": 4,
       "speed": 252
      },
@@ -25392,9 +25392,9 @@
      "nature": "NATURE_TIMID",
      "evs": {
       "hp": 0,
-      "atk": 252,
+      "atk": 0,
       "def": 0,
-      "spatk": 0,
+      "spatk": 252,
       "spdef": 4,
       "speed": 252
      },
@@ -25416,9 +25416,9 @@
      "nature": "NATURE_TIMID",
      "evs": {
       "hp": 0,
-      "atk": 252,
+      "atk": 0,
       "def": 0,
-      "spatk": 0,
+      "spatk": 252,
       "spdef": 4,
       "speed": 252
      },
@@ -25639,9 +25639,9 @@
      "nature": "NATURE_TIMID",
      "evs": {
       "hp": 0,
-      "atk": 252,
+      "atk": 0,
       "def": 0,
-      "spatk": 0,
+      "spatk": 252,
       "spdef": 4,
       "speed": 252
      },
@@ -25663,9 +25663,9 @@
      "nature": "NATURE_MODEST",
      "evs": {
       "hp": 0,
-      "atk": 252,
+      "atk": 0,
       "def": 0,
-      "spatk": 0,
+      "spatk": 252,
       "spdef": 4,
       "speed": 252
      },
@@ -25686,9 +25686,9 @@
      "nature": "NATURE_MILD",
      "evs": {
       "hp": 0,
-      "atk": 252,
+      "atk": 0,
       "def": 0,
-      "spatk": 0,
+      "spatk": 252,
       "spdef": 4,
       "speed": 252
      },
@@ -25933,9 +25933,9 @@
      "nature": "NATURE_TIMID",
      "evs": {
       "hp": 0,
-      "atk": 252,
+      "atk": 0,
       "def": 0,
-      "spatk": 0,
+      "spatk": 252,
       "spdef": 4,
       "speed": 252
      },
@@ -25957,9 +25957,9 @@
      "nature": "NATURE_TIMID",
      "evs": {
       "hp": 0,
-      "atk": 252,
+      "atk": 0,
       "def": 0,
-      "spatk": 0,
+      "spatk": 252,
       "spdef": 4,
       "speed": 252
      },
@@ -26204,9 +26204,9 @@
      "nature": "NATURE_TIMID",
      "evs": {
       "hp": 0,
-      "atk": 252,
+      "atk": 0,
       "def": 0,
-      "spatk": 0,
+      "spatk": 252,
       "spdef": 4,
       "speed": 252
      },
@@ -26228,9 +26228,9 @@
      "nature": "NATURE_BOLD",
      "evs": {
       "hp": 0,
-      "atk": 252,
+      "atk": 0,
       "def": 0,
-      "spatk": 0,
+      "spatk": 252,
       "spdef": 4,
       "speed": 252
      },
@@ -26252,9 +26252,9 @@
      "nature": "NATURE_TIMID",
      "evs": {
       "hp": 0,
-      "atk": 252,
+      "atk": 0,
       "def": 0,
-      "spatk": 0,
+      "spatk": 252,
       "spdef": 4,
       "speed": 252
      },
@@ -26276,9 +26276,9 @@
      "nature": "NATURE_CALM",
      "evs": {
       "hp": 0,
-      "atk": 252,
+      "atk": 0,
       "def": 0,
-      "spatk": 0,
+      "spatk": 252,
       "spdef": 4,
       "speed": 252
      },
@@ -26300,9 +26300,9 @@
      "nature": "NATURE_MODEST",
      "evs": {
       "hp": 0,
-      "atk": 252,
+      "atk": 0,
       "def": 0,
-      "spatk": 0,
+      "spatk": 252,
       "spdef": 4,
       "speed": 252
      },
@@ -26547,9 +26547,9 @@
      "nature": "NATURE_NAUGHTY",
      "evs": {
       "hp": 0,
-      "atk": 252,
+      "atk": 0,
       "def": 0,
-      "spatk": 0,
+      "spatk": 252,
       "spdef": 4,
       "speed": 252
      },
@@ -26866,9 +26866,9 @@
      "nature": "NATURE_QUIET",
      "evs": {
       "hp": 0,
-      "atk": 252,
+      "atk": 0,
       "def": 0,
-      "spatk": 0,
+      "spatk": 252,
       "spdef": 4,
       "speed": 252
      },
@@ -27600,9 +27600,9 @@
      "nature": "NATURE_MILD",
      "evs": {
       "hp": 0,
-      "atk": 252,
+      "atk": 0,
       "def": 0,
-      "spatk": 0,
+      "spatk": 252,
       "spdef": 4,
       "speed": 252
      },
@@ -27624,9 +27624,9 @@
      "nature": "NATURE_NAIVE",
      "evs": {
       "hp": 0,
-      "atk": 252,
+      "atk": 0,
       "def": 0,
-      "spatk": 0,
+      "spatk": 252,
       "spdef": 4,
       "speed": 252
      },
@@ -27648,9 +27648,9 @@
      "nature": "NATURE_BRAVE",
      "evs": {
       "hp": 0,
-      "atk": 252,
+      "atk": 0,
       "def": 0,
-      "spatk": 0,
+      "spatk": 252,
       "spdef": 4,
       "speed": 252
      },

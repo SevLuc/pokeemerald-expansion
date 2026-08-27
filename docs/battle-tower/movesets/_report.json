@@ -54,7 +54,7 @@
   ],
   "megas.json": [
    97,
-   253
+   305
   ]
  },
  "needs_construct": [],
@@ -147,7 +147,8 @@
   "TYRANITAR_MEGA",
   "VENUSAUR_MEGA"
  ],
- "awaiting_za_docs": [
+ "awaiting_za_docs": [],
+ "za_constructed": [
   "ABSOL_MEGA_Z",
   "BARBARACLE_MEGA",
   "BAXCALIBUR_MEGA",

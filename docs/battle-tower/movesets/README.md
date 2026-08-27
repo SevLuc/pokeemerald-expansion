@@ -66,24 +66,22 @@ HP/Atk/Def/SpAtk/SpDef/Speed format.
 - Hack sets that hold a Mega Stone are attached to the **base species** (as the
   doc lists them), not the separate `_MEGA` entry.
 
-Still to come: the 49 custom Z-A Megas await their own source doc.
-
 ## Coverage
-- **720 of 769 entries** have movesets — **6,120 sets total**, every constant
+- **All 769 entries** have movesets — **6,172 sets total**, every constant
   validated against this build (0 invalid).
 - By source: **Smogon 4,491 · Run & Bun 1,076 · Emerald Kaizo 506 ·
-  Constructed 47**.
-- Constructed sets cover low-usage Gen 8/9 mons and NFE Eviolite picks with no
-  competitive data anywhere (Doublade, Type: Null, Vullaby, Duosion, Rufflet,
-  Kirlia, Sneasel-Hisui, Dachsbun, Klawf, Spidops, …). Toxtricity Low-Key
-  shares the Amped forme's sets.
+  Constructed (niche) 47 · Constructed Z-A Mega 52**.
+- Niche constructed sets cover low-usage Gen 8/9 mons and NFE Eviolite picks
+  with no competitive data anywhere (Doublade, Type: Null, Vullaby, Duosion,
+  Rufflet, Kirlia, Sneasel-Hisui, Dachsbun, Klawf, Spidops, …). Toxtricity
+  Low-Key shares the Amped forme's sets.
+- The **49 custom Z-A Megas** are built from this build's own type/ability/stats
+  (the Legends Z-A typings/abilities are already in the species data), with
+  playstyles informed by published Z-A build guides. Abilities are taken
+  verbatim from the build (e.g. Feraligatr = Dragonize, Excadrill = Piercing
+  Drill). Physical vs special EV spreads inferred from move categories.
 - Gen 9 / regional / alt-forme entries get no hack sets (those species do not
   exist in the Emerald-based hacks) — Smogon-only there.
 
-## Still pending
-- **49 custom Megas** — the Pokemon Legends: Z-A Megas (2025-2026), not in
-  Smogon yet. `megas.json` lists them with empty `sets` and a `_note`; they
-  await your source doc (same flow as Kaizo / Run & Bun).
-
 See `_report.json` for the exact `official_mega`, `constructed`, and
-`awaiting_za_docs` lists.
+`za_constructed` lists.
