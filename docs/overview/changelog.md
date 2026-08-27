@@ -7,6 +7,15 @@ Update in the same PR as the change.
 `YYYY-MM-DD` — area — one-line summary (PR/commit ref)
 
 ## Entries
+- 2026-08-27 - feature/rental - Bring-3 (proper 3v3 singles). After drafting, the
+  attendant now runs the standard frontier party-select (fadescreen +
+  ChoosePartyForBattleFrontier with VAR_0x8005 = FRONTIER_PARTY_SIZE, then
+  ReducePlayerPartyToSelectedMons) so the player picks 3 of their 6 to bring; canceling
+  aborts the battle. VAR_FRONTIER_FACILITY is Tower (from the boot), so the selector
+  enforces exactly 3. The opponent now fields gRentalRun.bringCount (3) mons instead of
+  6, so it is a 3v3. Follower is hidden during select and restored after. Team preview
+  (seeing the opponent's team) and Doubles bring-4 are still later. Not yet
+  compiled/ROM-tested (web session).
 - 2026-08-27 - feature/rental - Playable rental battle. The lobby attendant now runs
   draft -> Lv50 battle -> result. Added a `SPECIAL_BATTLE_RENTAL` case to
   DoSpecialTrainerBattle (src/battle_special.c): builds the opponent from
