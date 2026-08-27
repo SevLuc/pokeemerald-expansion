@@ -7,6 +7,15 @@ Update in the same PR as the change.
 `YYYY-MM-DD` — area — one-line summary (PR/commit ref)
 
 ## Entries
+- 2026-08-27 - feature/rental - Draft foundation (M3, no UI yet). Added
+  include/rental_mode.h + logic in src/rental_mode.c for the draft: an in-RAM
+  `gRentalRun` state (offer of 12, roster of 6, format, restricted cap, bring
+  count), `GenerateRentalOffer` (rolls 12 distinct-species / distinct-item sets
+  with at most `cap` restricted, so any 6 picked are already clause- and cap-legal),
+  and `RentalRoster_TryAdd`/`Remove` with full Species+Item-clause + cap checks.
+  Pure logic, no graphics; the Battle Factory select screen is adapted on top of
+  this next (developed in the build loop). In-RAM only (persistence deferred). Not
+  yet compiled/ROM-tested (web session).
 - 2026-08-27 - feature/rental - Rental data-proof in the hub (M2 slice 3). Added
   src/rental_mode.c with a `BufferRandomRentalMon` script special (registered in
   data/specials.inc) that picks a random set from the generated `gRentalMons` pool
