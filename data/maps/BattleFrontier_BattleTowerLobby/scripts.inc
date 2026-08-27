@@ -1399,16 +1399,23 @@ BattleFrontier_BattleTowerLobby_Text_ExplainMultiLinkRules:
 	.string "in the middle, unlike other modes.$"
 
 @ Rental battle mode. Reuses this lobby as the hub; the Singles attendant is
-@ repointed here in map.json. Draft (offer 12, pick 6), then a run of Lv50 3v3
-@ battles vs generated pool teams: each battle you preview the opponent, bring 3,
-@ and fight; wins extend a streak, a loss (or retiring at the party menu) ends the
-@ run. The full six are stashed before each battle and restored (healed) after, so
-@ the same team carries the whole run. Singles only; the restricted cap (0/1/2) is
-@ chosen up front. Doubles is a later milestone.
+@ repointed here in map.json. Draft (offer 12, pick 6), then a run of Lv50
+@ battles vs generated pool teams: each battle you preview the opponent, bring
+@ your team, and fight; wins extend a streak, a loss (or retiring at the party
+@ menu) ends the run. The full six are stashed before each battle and restored
+@ (healed) after, so the same team carries the whole run. Singles (bring 3) or
+@ Doubles (bring 4) and the restricted cap (0/1/2) are both chosen up front.
 BattleFrontier_BattleTowerLobby_EventScript_RentalAttendant::
 	lock
 	faceplayer
 	msgbox BattleFrontier_BattleTowerLobby_Text_RentalDraftIntro, MSGBOX_DEFAULT
+	msgbox BattleFrontier_BattleTowerLobby_Text_RentalAskDoubles, MSGBOX_YESNO
+	goto_if_eq VAR_RESULT, YES, BattleFrontier_BattleTowerLobby_EventScript_RentalFmtDoubles
+	setvar VAR_0x8004, 0
+	goto BattleFrontier_BattleTowerLobby_EventScript_RentalAskCap
+BattleFrontier_BattleTowerLobby_EventScript_RentalFmtDoubles::
+	setvar VAR_0x8004, 1
+BattleFrontier_BattleTowerLobby_EventScript_RentalAskCap::
 	msgbox BattleFrontier_BattleTowerLobby_Text_RentalAskRestricted, MSGBOX_YESNO
 	goto_if_eq VAR_RESULT, NO, BattleFrontier_BattleTowerLobby_EventScript_RentalCap0
 	msgbox BattleFrontier_BattleTowerLobby_Text_RentalAskTwo, MSGBOX_YESNO
@@ -1431,7 +1438,7 @@ BattleFrontier_BattleTowerLobby_EventScript_RentalBattleLoop::
 	fadescreen FADE_TO_BLACK
 	callnative RemoveFollowingPokemon
 	special RentalSaveFullParty
-	setvar VAR_0x8005, FRONTIER_PARTY_SIZE
+	special RentalSetBringCountVar
 	special ChoosePartyForBattleFrontier
 	goto_if_eq VAR_RESULT, 0, BattleFrontier_BattleTowerLobby_EventScript_RentalRetire
 	special ReducePlayerPartyToSelectedMons
@@ -1485,6 +1492,10 @@ BattleFrontier_BattleTowerLobby_Text_RentalDraftIntro:
 	.string "Draft six POKéMON from the twelve\n"
 	.string "I offer you.$"
 
+BattleFrontier_BattleTowerLobby_Text_RentalAskDoubles:
+	.string "Will you battle in DOUBLES?\n"
+	.string "(Choose NO for SINGLES.)$"
+
 BattleFrontier_BattleTowerLobby_Text_RentalAskRestricted:
 	.string "Will you allow RESTRICTED POKéMON\n"
 	.string "(legendaries and the like) on a team?$"
@@ -1498,8 +1509,8 @@ BattleFrontier_BattleTowerLobby_Text_RentalPreview:
 	.string "{STR_VAR_1}.$"
 
 BattleFrontier_BattleTowerLobby_Text_RentalSelectThree:
-	.string "Now choose THREE of your six to\n"
-	.string "bring into battle.$"
+	.string "Now choose your battle team from\n"
+	.string "the six you drafted.$"
 
 BattleFrontier_BattleTowerLobby_Text_RentalBattleStart:
 	.string "Your team is set. Your challenger\n"

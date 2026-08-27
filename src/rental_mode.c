@@ -323,9 +323,17 @@ void RentalDoRecruit(void)
 // Called from the lobby attendant script, followed by `waitstate`.
 void StartRentalDraft(void)
 {
+    u32 format = (gSpecialVar_0x8004 != 0) ? RENTAL_FORMAT_DOUBLES : RENTAL_FORMAT_SINGLES;
     u32 cap = gSpecialVar_0x8005; // restricted cap chosen by the lobby script (0/1/2)
     if (cap > 2)
         cap = 0;
-    RentalRun_Begin(RENTAL_FORMAT_SINGLES, cap);
+    RentalRun_Begin(format, cap);
     DoRentalDraftScreen();
+}
+
+// Script special: put the current run's bring count (3 singles / 4 doubles) into
+// VAR_0x8005 so the party-select prompt asks for the right number.
+void RentalSetBringCountVar(void)
+{
+    gSpecialVar_0x8005 = gRentalRun.bringCount;
 }

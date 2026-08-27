@@ -140,8 +140,8 @@ void DoSpecialTrainerBattle(void)
         u32 i;
         u32 fieldCount;
         // The opponent was already rolled in RentalRun_Begin (so team preview could
-        // show it). It fields bringCount mons (3 in singles), matching the player's
-        // brought team, drawn from the front of its generated roster.
+        // show it). It fields bringCount mons (3 in singles, 4 in doubles), matching
+        // the player's brought team, drawn from the front of its generated roster.
         fieldCount = gRentalRun.bringCount;
         if (fieldCount == 0 || fieldCount > gRentalRun.oppRosterCount)
             fieldCount = gRentalRun.oppRosterCount;
@@ -151,6 +151,8 @@ void DoSpecialTrainerBattle(void)
                     &gParties[B_TRAINER_OPPONENT_A][i]);
         gSaveBlock2Ptr->frontier.lvlMode = FRONTIER_LVL_50;
         gBattleTypeFlags = BATTLE_TYPE_TRAINER | BATTLE_TYPE_BATTLE_TOWER;
+        if (gRentalRun.format == RENTAL_FORMAT_DOUBLES)
+            gBattleTypeFlags |= BATTLE_TYPE_DOUBLE;
         TRAINER_BATTLE_PARAM.opponentA = Random() % FRONTIER_TRAINERS_COUNT;
         TRAINER_BATTLE_PARAM.opponentB = 0xFFFF;
         CreateTask(Task_StartBattleAfterTransition, 1);

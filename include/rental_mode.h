@@ -71,6 +71,9 @@ void RentalBufferStreak(void);      // buffer the current streak into gStringVar
 void BufferRentalRecruitCandidate(void); // buffer opponent VAR_0x8006's species name
 void RentalDoRecruit(void);              // swap roster slot VAR_0x8004 for opp VAR_0x8006
 
+// Put the run's bring count (3/4) into VAR_0x8005 for the party-select prompt.
+void RentalSetBringCountVar(void);
+
 // The draft screen itself (an adapted copy of the Battle Factory select screen),
 // defined in src/rental_select_screen.c.
 void DoRentalDraftScreen(void);
