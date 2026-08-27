@@ -5,7 +5,7 @@
 
 **Scope decisions (locked):** all fully-evolved Pokemon of every generation + Eviolite-viable NFE mons; 
 legendaries/mythicals INCLUDED but tagged as a separate **Restricted tier**; all battle-distinct regional & alternate formes included as their own entries. 
-Mega Evolutions, Primal Reversions, and Gigantamax forms are EXCLUDED (gimmicks are OFF per project direction). 
+**Mega Evolutions ARE included** for this rental mode only (all 97 the build defines - see section C2); the main Kanto game stays gimmicks-off. Primal Reversions and Gigantamax forms remain EXCLUDED. 
 In-battle-only transformations (Aegislash Blade, Palafin Hero, Darmanitan Zen, etc.) and cosmetic-only variants (Vivillon patterns, Florges colors, etc.) are collapsed to a single representative entry.
 
 ## Summary counts
@@ -15,10 +15,11 @@ In-battle-only transformations (Aegislash Blade, Palafin Hero, Darmanitan Zen, e
 | Standard fully-evolved | 443 |
 | Regional-form finals | 32 |
 | Alternate battle formes | 24 |
+| Mega Evolutions (85 standard + 12 restricted) | 97 |
 | Restricted tier (legendary/mythical/paradox/UB) | 139 |
 | **Fully-evolved total** | **638** |
 | Eviolite NFE (curated) | 34 |
-| **Grand total (approx)** | **672** |
+| **Grand total (approx)** | **769** |
 
 ## A. Standard fully-evolved (by generation)
 
@@ -73,6 +74,14 @@ Arboliva, Armarouge, Baxcalibur, Bellibolt, Bombirdier, Brambleghast, Ceruledge,
 Distinct type/stat/movepool formes kept as separate rentals; in-battle-only and cosmetic sisters collapsed.
 
 Basculegion (Female), Basculegion (Male), Indeedee (Female), Indeedee (Male), Lycanroc (Dusk), Lycanroc (Midnight), Meowstic (Female), Meowstic (Male), Oinkologne (Female), Oinkologne (Male), Oricorio (Baile), Oricorio (Pa'u), Oricorio (Pom-Pom), Oricorio (Sensu), Rotom (Fan), Rotom (Frost), Rotom (Heat), Rotom (Mow), Rotom (Wash), Toxtricity (Low-Key), Ursaluna (Bloodmoon), Wormadam (Plant), Wormadam (Sandy), Wormadam (Trash)
+
+## C2. Mega Evolutions (rental-mode ONLY - not the main game)
+
+All 97 Megas this build defines are included per request, official + custom/fan-made. Item is the relevant Mega Stone; the Mega mechanic is enabled only inside this rental mode, keeping the main Kanto game gimmicks-off. Legendary-based Megas count toward the **Restricted tier** for mode gating.
+
+**Standard-based Megas (85):** Abomasnow Mega, Absol Mega, Absol Mega Z, Aerodactyl Mega, Aggron Mega, Alakazam Mega, Altaria Mega, Ampharos Mega, Audino Mega, Banette Mega, Barbaracle Mega, Baxcalibur Mega, Beedrill Mega, Blastoise Mega, Blaziken Mega, Camerupt Mega, Chandelure Mega, Charizard Mega X, Charizard Mega Y, Chesnaught Mega, Chimecho Mega, Clefable Mega, Crabominable Mega, Delphox Mega, Dragalge Mega, Dragonite Mega, Drampa Mega, Eelektross Mega, Emboar Mega, Excadrill Mega, Falinks Mega, Feraligatr Mega, Floette Mega, Froslass Mega, Gallade Mega, Garchomp Mega, Garchomp Mega Z, Gardevoir Mega, Gengar Mega, Glalie Mega, Glimmora Mega, Golisopod Mega, Golurk Mega, Greninja Mega, Gyarados Mega, Hawlucha Mega, Heracross Mega, Houndoom Mega, Kangaskhan Mega, Lopunny Mega, Lucario Mega, Lucario Mega Z, Malamar Mega, Manectric Mega, Mawile Mega, Medicham Mega, Meganium Mega, Meowstic (F) Mega, Meowstic (M) Mega, Metagross Mega, Pidgeot Mega, Pinsir Mega, Pyroar Mega, Raichu Mega X, Raichu Mega Y, Sableye Mega, Salamence Mega, Sceptile Mega, Scizor Mega, Scolipede Mega, Scovillain Mega, Scrafty Mega, Sharpedo Mega, Skarmory Mega, Slowbro Mega, Staraptor Mega, Starmie Mega, Steelix Mega, Swampert Mega, Tatsugiri (Curly) Mega, Tatsugiri (Droopy) Mega, Tatsugiri (Stretchy) Mega, Tyranitar Mega, Venusaur Mega, Victreebel Mega
+
+**Legendary-based Megas (12) - Restricted tier:** Darkrai Mega, Diancie Mega, Heatran Mega, Latias Mega, Latios Mega, Magearna (Original) Mega, Magearna Mega, Mewtwo Mega X, Mewtwo Mega Y, Rayquaza Mega, Zeraora Mega, Zygarde Mega
 
 ## D. Restricted tier (gated to hard mode / capped per team - your call)
 
@@ -155,7 +164,7 @@ Movesets will be transcribed from these as-is (build-legality flagged later). **
 
 ## G. Excluded / collapsed (for transparency)
 
-- **Gimmick formes (excluded entirely):** all `*_MEGA`, `*_PRIMAL`, `*_GMAX` (gimmicks OFF).
+- **Megas:** INCLUDED for this rental mode (section C2). **Primal/G-Max still excluded:** all `*_PRIMAL`, `*_GMAX`.
 - **In-battle-only transforms (collapsed to base):** Aegislash Blade, Darmanitan Zen, Cramorant Gorging/Gulping, Eiscue Noice, Morpeko Hangry, Palafin Hero, Mimikyu Busted, Wishiwashi School, Meloetta Pirouette, Cherrim Sunshine, Castform weather forms, Xerneas Active, Terapagos Terastal/Stellar, Eternatus Eternamax, Necrozma Ultra.
 - **Cosmetic-only variants (collapsed to one):** Vivillon patterns, Florges/Floette/Flabebe colors, Squawkabilly colors, Tatsugiri styles, Gastrodon/Sawsbuck/Gourgeist/Deerling variants, Pikachu costumes, Sinistcha/Polteageist authenticity, Maushold/Dudunsparce segments, Zarude Dada, Magearna Original, Greninja Ash/Battle Bond, Keldeo Resolute.
 
