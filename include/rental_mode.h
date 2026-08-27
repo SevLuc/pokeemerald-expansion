@@ -21,8 +21,10 @@ struct RentalRun
 {
     u16 offer[RENTAL_OFFER_SIZE];    // the draft's 12 offered sets
     u16 roster[RENTAL_ROSTER_SIZE];  // the 6 the player kept
+    u16 oppRoster[RENTAL_ROSTER_SIZE]; // the opponent's team this battle (gRentalMons indices)
     u8 offerCount;
     u8 rosterCount;
+    u8 oppRosterCount;
     u8 format;         // enum RentalFormat
     u8 restrictedCap;  // 0 / 1 / 2 restricted-tier mons allowed
     u8 bringCount;     // 3 (singles) or 4 (doubles) brought per battle
@@ -47,6 +49,11 @@ bool32 RentalRoster_TryAdd(u32 offerSlot);
 
 // Remove a roster slot (0..rosterCount-1), compacting the rest down.
 void RentalRoster_Remove(u32 rosterSlot);
+
+// Roll the opponent's team into gRentalRun.oppRoster: RENTAL_ROSTER_SIZE sets with
+// distinct species and items, at most restrictedCap restricted, so it obeys the same
+// clauses/cap as the player. Call before building the enemy party for a battle.
+void GenerateRentalOpponent(void);
 
 // The draft screen itself (an adapted copy of the Battle Factory select screen),
 // defined in src/rental_select_screen.c.

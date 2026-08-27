@@ -12,10 +12,13 @@
 #include "new_game.h"
 #include "overworld.h"
 #include "recorded_battle.h"
+#include "random.h"
+#include "rental_mode.h"
 #include "string_util.h"
 #include "task.h"
 #include "text.h"
 #include "constants/battle_frontier.h"
+#include "constants/battle_frontier_trainers.h"
 #include "constants/battle_special.h"
 
 static void HandleSpecialTrainerBattleEnd(void);
@@ -126,6 +129,29 @@ void DoSpecialTrainerBattle(void)
         if (gSpecialVar_0x8005 & MULTI_BATTLE_CHOOSE_MONS) // Skip mons restoring(done in the script)
             gBattleScripting.specialTrainerBattleType = 0xFF;
         break;
+    case SPECIAL_BATTLE_RENTAL:
+    {
+        // Rental mode: the player party is already the drafted team. Roll and build
+        // the opponent from the rental pool at flat Lv50. BATTLE_TYPE_BATTLE_TOWER is
+        // the cheapest frontier bit: it skips the trainer-party generator (so our
+        // preset enemy party survives) and routes the opponent's name/sprite through
+        // the static frontier trainer table via opponentA. No post-battle fixup is
+        // needed here, so HandleSpecialTrainerBattleEnd falls through to the field.
+        u32 i;
+        GenerateRentalOpponent();
+        ZeroEnemyPartyMons();
+        for (i = 0; i < gRentalRun.oppRosterCount; i++)
+            CreateFacilityMon(&gRentalMons[gRentalRun.oppRoster[i]], FRONTIER_MAX_LEVEL_50, 31, 0, 0,
+                    &gParties[B_TRAINER_OPPONENT_A][i]);
+        gSaveBlock2Ptr->frontier.lvlMode = FRONTIER_LVL_50;
+        gBattleTypeFlags = BATTLE_TYPE_TRAINER | BATTLE_TYPE_BATTLE_TOWER;
+        TRAINER_BATTLE_PARAM.opponentA = Random() % FRONTIER_TRAINERS_COUNT;
+        TRAINER_BATTLE_PARAM.opponentB = 0xFFFF;
+        CreateTask(Task_StartBattleAfterTransition, 1);
+        PlayMapChosenOrBattleBGM(0);
+        BattleTransition_StartOnField(GetTrainerBattleTransition());
+        break;
+    }
     }
 }
 
