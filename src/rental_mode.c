@@ -129,6 +129,45 @@ void RentalRoster_Remove(u32 rosterSlot)
     gRentalRun.rosterCount--;
 }
 
+static bool32 ArrayHasSpeciesOrItem(const u16 *arr, u32 count, u32 species, u32 item)
+{
+    u32 i;
+    for (i = 0; i < count; i++)
+    {
+        const struct TrainerMon *o = &gRentalMons[arr[i]];
+        if (o->species == species || o->heldItem == item)
+            return TRUE;
+    }
+    return FALSE;
+}
+
+void GenerateRentalOpponent(void)
+{
+    u32 count = 0;
+    u32 restrictedCount = 0;
+    u32 guard = 0;
+
+    while (count < RENTAL_ROSTER_SIZE && guard < 100000)
+    {
+        u32 index = Random() % NUM_RENTAL_MONS;
+        const struct TrainerMon *set = &gRentalMons[index];
+        bool32 restricted = IsRentalTierRestricted(gRentalMonTier[index]);
+
+        guard++;
+
+        if (restricted && restrictedCount >= gRentalRun.restrictedCap)
+            continue;
+        if (ArrayHasSpeciesOrItem(gRentalRun.oppRoster, count, set->species, set->heldItem))
+            continue;
+
+        gRentalRun.oppRoster[count++] = index;
+        if (restricted)
+            restrictedCount++;
+    }
+
+    gRentalRun.oppRosterCount = count;
+}
+
 // Script special: start a run and open the draft screen. Format/cap are hardcoded to
 // Singles / 0 restricted for this first cut; a format-select menu is a quick follow-up.
 // Called from the lobby attendant script, followed by `waitstate`.
