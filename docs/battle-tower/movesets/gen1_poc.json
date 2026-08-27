@@ -1,0 +1,421 @@
+{
+  "_meta": {
+    "batch": "Gen 1 standard - proof of concept",
+    "status": "draft-for-review",
+    "sourcePolicy": "Sets authored from competitive-standard (Smogon) knowledge; live scraping is blocked by this session's network egress policy. Each set is source-tagged. Emerald Kaizo and Run & Bun sets will be appended as additional sets per Pokemon once those documents are provided.",
+    "mechanicsNotes": "This build has the physical/special split ON, modern abilities and items. No Terastal/Z/Dynamax (gimmicks off), so no teraType field. Megas live in their own batch. EVs use the 6-key HP/Atk/Def/SpAtk/SpDef/Speed format (max 252 per stat, 510 total).",
+    "validationNote": "Species/move/item/ability/nature constants are written in this build's constant style; a build-legality validation pass runs later before codegen."
+  },
+  "pokemon": [
+    {
+      "species": "SPECIES_VENUSAUR",
+      "displayName": "Venusaur",
+      "tier": "standard",
+      "sets": [
+        {
+          "name": "Chlorophyll Sweeper",
+          "role": "sun sweeper",
+          "item": "ITEM_LIFE_ORB",
+          "ability": "ABILITY_CHLOROPHYLL",
+          "nature": "NATURE_MODEST",
+          "evs": { "hp": 0, "atk": 0, "def": 0, "spatk": 252, "spdef": 4, "speed": 252 },
+          "moves": ["MOVE_GIGA_DRAIN", "MOVE_SLUDGE_BOMB", "MOVE_WEATHER_BALL", "MOVE_GROWTH"],
+          "source": "Smogon (competitive standard)",
+          "notes": "Needs sun support; Weather Ball becomes Fire in sun."
+        },
+        {
+          "name": "Bulky Support",
+          "role": "defensive pivot / status spreader",
+          "item": "ITEM_BLACK_SLUDGE",
+          "ability": "ABILITY_OVERGROW",
+          "nature": "NATURE_BOLD",
+          "evs": { "hp": 252, "atk": 0, "def": 240, "spatk": 0, "spdef": 0, "speed": 16 },
+          "moves": ["MOVE_GIGA_DRAIN", "MOVE_SLUDGE_BOMB", "MOVE_LEECH_SEED", "MOVE_SYNTHESIS"],
+          "source": "Smogon (competitive standard)",
+          "notes": "Longevity via Leech Seed + Synthesis; spreads chip and heals."
+        },
+        {
+          "name": "Special Attacker",
+          "role": "wallbreaker",
+          "item": "ITEM_LIFE_ORB",
+          "ability": "ABILITY_OVERGROW",
+          "nature": "NATURE_MODEST",
+          "evs": { "hp": 0, "atk": 0, "def": 0, "spatk": 252, "spdef": 4, "speed": 252 },
+          "moves": ["MOVE_GROWTH", "MOVE_GIGA_DRAIN", "MOVE_SLUDGE_BOMB", "MOVE_HIDDEN_POWER"],
+          "source": "Smogon (competitive standard)",
+          "notes": "Growth to snowball outside sun; Hidden Power Fire/Ice for coverage."
+        }
+      ]
+    },
+    {
+      "species": "SPECIES_CHARIZARD",
+      "displayName": "Charizard",
+      "tier": "standard",
+      "sets": [
+        {
+          "name": "Special Attacker",
+          "role": "special sweeper",
+          "item": "ITEM_LIFE_ORB",
+          "ability": "ABILITY_BLAZE",
+          "nature": "NATURE_TIMID",
+          "evs": { "hp": 0, "atk": 0, "def": 0, "spatk": 252, "spdef": 4, "speed": 252 },
+          "moves": ["MOVE_FIRE_BLAST", "MOVE_AIR_SLASH", "MOVE_FOCUS_BLAST", "MOVE_ROOST"],
+          "source": "Smogon (competitive standard)",
+          "notes": "STAB + coverage + Roost longevity."
+        },
+        {
+          "name": "Solar Power Sweeper",
+          "role": "sun nuke",
+          "item": "ITEM_LIFE_ORB",
+          "ability": "ABILITY_SOLAR_POWER",
+          "nature": "NATURE_TIMID",
+          "evs": { "hp": 0, "atk": 0, "def": 0, "spatk": 252, "spdef": 4, "speed": 252 },
+          "moves": ["MOVE_FIRE_BLAST", "MOVE_SOLAR_BEAM", "MOVE_FOCUS_BLAST", "MOVE_AIR_SLASH"],
+          "source": "Smogon (competitive standard)",
+          "notes": "Huge damage in sun (Solar Power + instant SolarBeam), but chip each turn."
+        },
+        {
+          "name": "Belly Drum (Physical)",
+          "role": "physical setup sweeper",
+          "item": "ITEM_SITRUS_BERRY",
+          "ability": "ABILITY_BLAZE",
+          "nature": "NATURE_ADAMANT",
+          "evs": { "hp": 0, "atk": 252, "def": 0, "spatk": 0, "spdef": 4, "speed": 252 },
+          "moves": ["MOVE_BELLY_DRUM", "MOVE_FLARE_BLITZ", "MOVE_EARTHQUAKE", "MOVE_ROOST"],
+          "source": "Smogon (competitive standard)",
+          "notes": "Niche physical alt set; Belly Drum then clean up."
+        }
+      ]
+    },
+    {
+      "species": "SPECIES_BLASTOISE",
+      "displayName": "Blastoise",
+      "tier": "standard",
+      "sets": [
+        {
+          "name": "Bulky Spinner",
+          "role": "defensive hazard control",
+          "item": "ITEM_LEFTOVERS",
+          "ability": "ABILITY_TORRENT",
+          "nature": "NATURE_BOLD",
+          "evs": { "hp": 252, "atk": 0, "def": 252, "spatk": 0, "spdef": 4, "speed": 0 },
+          "moves": ["MOVE_SCALD", "MOVE_RAPID_SPIN", "MOVE_ICE_BEAM", "MOVE_TOXIC"],
+          "source": "Smogon (competitive standard)",
+          "notes": "Physical wall + Rapid Spin support; Scald burns."
+        },
+        {
+          "name": "Shell Smash",
+          "role": "setup sweeper",
+          "item": "ITEM_WHITE_HERB",
+          "ability": "ABILITY_TORRENT",
+          "nature": "NATURE_MODEST",
+          "evs": { "hp": 0, "atk": 0, "def": 0, "spatk": 252, "spdef": 4, "speed": 252 },
+          "moves": ["MOVE_SHELL_SMASH", "MOVE_HYDRO_PUMP", "MOVE_ICE_BEAM", "MOVE_DARK_PULSE"],
+          "source": "Smogon (competitive standard)",
+          "notes": "White Herb resets the Smash drops; sweeps after one turn."
+        }
+      ]
+    },
+    {
+      "species": "SPECIES_ALAKAZAM",
+      "displayName": "Alakazam",
+      "tier": "standard",
+      "sets": [
+        {
+          "name": "Life Orb Attacker",
+          "role": "fast special sweeper",
+          "item": "ITEM_LIFE_ORB",
+          "ability": "ABILITY_MAGIC_GUARD",
+          "nature": "NATURE_TIMID",
+          "evs": { "hp": 0, "atk": 0, "def": 0, "spatk": 252, "spdef": 4, "speed": 252 },
+          "moves": ["MOVE_PSYCHIC", "MOVE_FOCUS_BLAST", "MOVE_SHADOW_BALL", "MOVE_ENERGY_BALL"],
+          "source": "Smogon (competitive standard)",
+          "notes": "Magic Guard negates Life Orb recoil; premier fast breaker."
+        },
+        {
+          "name": "Nasty Plot",
+          "role": "setup sweeper",
+          "item": "ITEM_LIFE_ORB",
+          "ability": "ABILITY_MAGIC_GUARD",
+          "nature": "NATURE_TIMID",
+          "evs": { "hp": 0, "atk": 0, "def": 0, "spatk": 252, "spdef": 4, "speed": 252 },
+          "moves": ["MOVE_NASTY_PLOT", "MOVE_PSYCHIC", "MOVE_FOCUS_BLAST", "MOVE_SHADOW_BALL"],
+          "source": "Smogon (competitive standard)",
+          "notes": "One Nasty Plot makes it a nuke."
+        }
+      ]
+    },
+    {
+      "species": "SPECIES_MACHAMP",
+      "displayName": "Machamp",
+      "tier": "standard",
+      "sets": [
+        {
+          "name": "No Guard DynamicPunch",
+          "role": "physical wallbreaker",
+          "item": "ITEM_LEFTOVERS",
+          "ability": "ABILITY_NO_GUARD",
+          "nature": "NATURE_ADAMANT",
+          "evs": { "hp": 252, "atk": 252, "def": 0, "spatk": 0, "spdef": 4, "speed": 0 },
+          "moves": ["MOVE_DYNAMIC_PUNCH", "MOVE_KNOCK_OFF", "MOVE_ICE_PUNCH", "MOVE_BULK_UP"],
+          "source": "Smogon (competitive standard)",
+          "notes": "No Guard guarantees DynamicPunch (always confuses)."
+        },
+        {
+          "name": "Choice Band",
+          "role": "immediate breaker",
+          "item": "ITEM_CHOICE_BAND",
+          "ability": "ABILITY_GUTS",
+          "nature": "NATURE_ADAMANT",
+          "evs": { "hp": 0, "atk": 252, "def": 0, "spatk": 0, "spdef": 4, "speed": 252 },
+          "moves": ["MOVE_CLOSE_COMBAT", "MOVE_KNOCK_OFF", "MOVE_ICE_PUNCH", "MOVE_STONE_EDGE"],
+          "source": "Smogon (competitive standard)",
+          "notes": "Guts turns status into a boost; hits hard immediately."
+        }
+      ]
+    },
+    {
+      "species": "SPECIES_GENGAR",
+      "displayName": "Gengar",
+      "tier": "standard",
+      "sets": [
+        {
+          "name": "Life Orb Attacker",
+          "role": "fast special sweeper",
+          "item": "ITEM_LIFE_ORB",
+          "ability": "ABILITY_CURSED_BODY",
+          "nature": "NATURE_TIMID",
+          "evs": { "hp": 0, "atk": 0, "def": 0, "spatk": 252, "spdef": 4, "speed": 252 },
+          "moves": ["MOVE_SHADOW_BALL", "MOVE_SLUDGE_WAVE", "MOVE_FOCUS_BLAST", "MOVE_THUNDERBOLT"],
+          "source": "Smogon (competitive standard)",
+          "notes": "Wide special coverage at high speed."
+        },
+        {
+          "name": "Substitute + Disable",
+          "role": "stallbreaker",
+          "item": "ITEM_LEFTOVERS",
+          "ability": "ABILITY_CURSED_BODY",
+          "nature": "NATURE_TIMID",
+          "evs": { "hp": 0, "atk": 0, "def": 0, "spatk": 252, "spdef": 4, "speed": 252 },
+          "moves": ["MOVE_SUBSTITUTE", "MOVE_DISABLE", "MOVE_SHADOW_BALL", "MOVE_SLUDGE_WAVE"],
+          "source": "Smogon (competitive standard)",
+          "notes": "Sub + Disable neutralizes a threat and pivots around it."
+        },
+        {
+          "name": "Nasty Plot",
+          "role": "setup sweeper",
+          "item": "ITEM_LIFE_ORB",
+          "ability": "ABILITY_CURSED_BODY",
+          "nature": "NATURE_TIMID",
+          "evs": { "hp": 0, "atk": 0, "def": 0, "spatk": 252, "spdef": 4, "speed": 252 },
+          "moves": ["MOVE_NASTY_PLOT", "MOVE_SHADOW_BALL", "MOVE_SLUDGE_WAVE", "MOVE_FOCUS_BLAST"],
+          "source": "Smogon (competitive standard)",
+          "notes": "Late-game cleaner after a boost."
+        }
+      ]
+    },
+    {
+      "species": "SPECIES_SNORLAX",
+      "displayName": "Snorlax",
+      "tier": "standard",
+      "sets": [
+        {
+          "name": "Curse Sweeper",
+          "role": "bulky setup sweeper",
+          "item": "ITEM_LEFTOVERS",
+          "ability": "ABILITY_THICK_FAT",
+          "nature": "NATURE_CAREFUL",
+          "evs": { "hp": 252, "atk": 4, "def": 0, "spatk": 0, "spdef": 252, "speed": 0 },
+          "moves": ["MOVE_CURSE", "MOVE_BODY_SLAM", "MOVE_EARTHQUAKE", "MOVE_REST"],
+          "source": "Smogon (competitive standard)",
+          "notes": "Thick Fat blunts Fire/Ice; Curse to snowball, Rest to stay alive."
+        },
+        {
+          "name": "Choice Band",
+          "role": "immediate breaker",
+          "item": "ITEM_CHOICE_BAND",
+          "ability": "ABILITY_THICK_FAT",
+          "nature": "NATURE_ADAMANT",
+          "evs": { "hp": 252, "atk": 252, "def": 0, "spatk": 0, "spdef": 4, "speed": 0 },
+          "moves": ["MOVE_BODY_SLAM", "MOVE_EARTHQUAKE", "MOVE_CRUNCH", "MOVE_FIRE_PUNCH"],
+          "source": "Smogon (competitive standard)",
+          "notes": "Hits like a truck off huge bulk; Body Slam para chance."
+        },
+        {
+          "name": "Special Wall",
+          "role": "defensive cleric",
+          "item": "ITEM_LEFTOVERS",
+          "ability": "ABILITY_THICK_FAT",
+          "nature": "NATURE_CAREFUL",
+          "evs": { "hp": 252, "atk": 0, "def": 4, "spatk": 0, "spdef": 252, "speed": 0 },
+          "moves": ["MOVE_BODY_SLAM", "MOVE_REST", "MOVE_SLEEP_TALK", "MOVE_EARTHQUAKE"],
+          "source": "Smogon (competitive standard)",
+          "notes": "RestTalk special sponge that never dies."
+        }
+      ]
+    },
+    {
+      "species": "SPECIES_DRAGONITE",
+      "displayName": "Dragonite",
+      "tier": "standard",
+      "sets": [
+        {
+          "name": "Dragon Dance (Multiscale)",
+          "role": "physical setup sweeper",
+          "item": "ITEM_LUM_BERRY",
+          "ability": "ABILITY_MULTISCALE",
+          "nature": "NATURE_ADAMANT",
+          "evs": { "hp": 0, "atk": 252, "def": 0, "spatk": 0, "spdef": 4, "speed": 252 },
+          "moves": ["MOVE_DRAGON_DANCE", "MOVE_DRAGON_CLAW", "MOVE_EARTHQUAKE", "MOVE_ROOST"],
+          "source": "Smogon (competitive standard)",
+          "notes": "Multiscale lets it set up; Roost restores Multiscale."
+        },
+        {
+          "name": "Choice Band",
+          "role": "immediate breaker",
+          "item": "ITEM_CHOICE_BAND",
+          "ability": "ABILITY_MULTISCALE",
+          "nature": "NATURE_ADAMANT",
+          "evs": { "hp": 0, "atk": 252, "def": 0, "spatk": 0, "spdef": 4, "speed": 252 },
+          "moves": ["MOVE_OUTRAGE", "MOVE_EARTHQUAKE", "MOVE_EXTREME_SPEED", "MOVE_FIRE_PUNCH"],
+          "source": "Smogon (competitive standard)",
+          "notes": "Extreme Speed priority off Band is a strong revenge/finisher."
+        }
+      ]
+    },
+    {
+      "species": "SPECIES_GYARADOS",
+      "displayName": "Gyarados",
+      "tier": "standard",
+      "sets": [
+        {
+          "name": "Dragon Dance (Physical)",
+          "role": "physical setup sweeper",
+          "item": "ITEM_LEFTOVERS",
+          "ability": "ABILITY_INTIMIDATE",
+          "nature": "NATURE_JOLLY",
+          "evs": { "hp": 0, "atk": 252, "def": 0, "spatk": 0, "spdef": 4, "speed": 252 },
+          "moves": ["MOVE_DRAGON_DANCE", "MOVE_WATERFALL", "MOVE_EARTHQUAKE", "MOVE_ICE_FANG"],
+          "source": "Smogon (competitive standard)",
+          "notes": "Intimidate eases setup; classic DD sweeper."
+        },
+        {
+          "name": "Moxie Sweeper",
+          "role": "snowball sweeper",
+          "item": "ITEM_LIFE_ORB",
+          "ability": "ABILITY_MOXIE",
+          "nature": "NATURE_JOLLY",
+          "evs": { "hp": 0, "atk": 252, "def": 0, "spatk": 0, "spdef": 4, "speed": 252 },
+          "moves": ["MOVE_DRAGON_DANCE", "MOVE_WATERFALL", "MOVE_EARTHQUAKE", "MOVE_BOUNCE"],
+          "source": "Smogon (competitive standard)",
+          "notes": "Moxie stacks Attack on each KO for a runaway sweep."
+        }
+      ]
+    },
+    {
+      "species": "SPECIES_STARMIE",
+      "displayName": "Starmie",
+      "tier": "standard",
+      "sets": [
+        {
+          "name": "Rapid Spin Pivot",
+          "role": "fast utility / hazard control",
+          "item": "ITEM_LIFE_ORB",
+          "ability": "ABILITY_NATURAL_CURE",
+          "nature": "NATURE_TIMID",
+          "evs": { "hp": 0, "atk": 0, "def": 0, "spatk": 252, "spdef": 4, "speed": 252 },
+          "moves": ["MOVE_HYDRO_PUMP", "MOVE_ICE_BEAM", "MOVE_THUNDERBOLT", "MOVE_RAPID_SPIN"],
+          "source": "Smogon (competitive standard)",
+          "notes": "Natural Cure clears status on switch; fast spinner + BoltBeamHydro."
+        },
+        {
+          "name": "Bulky Recover",
+          "role": "defensive pivot",
+          "item": "ITEM_LEFTOVERS",
+          "ability": "ABILITY_NATURAL_CURE",
+          "nature": "NATURE_TIMID",
+          "evs": { "hp": 252, "atk": 0, "def": 0, "spatk": 4, "spdef": 0, "speed": 252 },
+          "moves": ["MOVE_SCALD", "MOVE_RECOVER", "MOVE_RAPID_SPIN", "MOVE_ICE_BEAM"],
+          "source": "Smogon (competitive standard)",
+          "notes": "Recover + Natural Cure makes a resilient spinner."
+        }
+      ]
+    },
+    {
+      "species": "SPECIES_JOLTEON",
+      "displayName": "Jolteon",
+      "tier": "standard",
+      "sets": [
+        {
+          "name": "Special Attacker",
+          "role": "fast special attacker",
+          "item": "ITEM_LIFE_ORB",
+          "ability": "ABILITY_VOLT_ABSORB",
+          "nature": "NATURE_TIMID",
+          "evs": { "hp": 0, "atk": 0, "def": 0, "spatk": 252, "spdef": 4, "speed": 252 },
+          "moves": ["MOVE_THUNDERBOLT", "MOVE_VOLT_SWITCH", "MOVE_SHADOW_BALL", "MOVE_HIDDEN_POWER"],
+          "source": "Smogon (competitive standard)",
+          "notes": "Volt Switch pivoting; Hidden Power Ice for Grounds/Dragons."
+        },
+        {
+          "name": "Choice Specs",
+          "role": "wallbreaker",
+          "item": "ITEM_CHOICE_SPECS",
+          "ability": "ABILITY_VOLT_ABSORB",
+          "nature": "NATURE_TIMID",
+          "evs": { "hp": 0, "atk": 0, "def": 0, "spatk": 252, "spdef": 4, "speed": 252 },
+          "moves": ["MOVE_THUNDERBOLT", "MOVE_VOLT_SWITCH", "MOVE_SHADOW_BALL", "MOVE_HIDDEN_POWER"],
+          "source": "Smogon (competitive standard)",
+          "notes": "Specs Thunderbolt is a hard-hitting pivot nuke."
+        }
+      ]
+    },
+    {
+      "species": "SPECIES_TAUROS",
+      "displayName": "Tauros",
+      "tier": "standard",
+      "sets": [
+        {
+          "name": "Sheer Force Life Orb",
+          "role": "fast physical attacker",
+          "item": "ITEM_LIFE_ORB",
+          "ability": "ABILITY_SHEER_FORCE",
+          "nature": "NATURE_JOLLY",
+          "evs": { "hp": 0, "atk": 252, "def": 0, "spatk": 0, "spdef": 4, "speed": 252 },
+          "moves": ["MOVE_DOUBLE_EDGE", "MOVE_ZEN_HEADBUTT", "MOVE_EARTHQUAKE", "MOVE_ROCK_SLIDE"],
+          "source": "Smogon (competitive standard)",
+          "notes": "Sheer Force + Life Orb with no recoil on boosted moves."
+        }
+      ]
+    },
+    {
+      "species": "SPECIES_CLOYSTER",
+      "displayName": "Cloyster",
+      "tier": "standard",
+      "sets": [
+        {
+          "name": "Shell Smash",
+          "role": "physical setup sweeper",
+          "item": "ITEM_KINGS_ROCK",
+          "ability": "ABILITY_SKILL_LINK",
+          "nature": "NATURE_ADAMANT",
+          "evs": { "hp": 0, "atk": 252, "def": 0, "spatk": 0, "spdef": 4, "speed": 252 },
+          "moves": ["MOVE_SHELL_SMASH", "MOVE_ICICLE_SPEAR", "MOVE_ROCK_BLAST", "MOVE_RAZOR_SHELL"],
+          "source": "Smogon (competitive standard)",
+          "notes": "Skill Link = 5-hit multihits break Substitute/Sturdy/Focus Sash; King's Rock flinch."
+        },
+        {
+          "name": "Choice Band",
+          "role": "immediate breaker",
+          "item": "ITEM_CHOICE_BAND",
+          "ability": "ABILITY_SKILL_LINK",
+          "nature": "NATURE_ADAMANT",
+          "evs": { "hp": 0, "atk": 252, "def": 0, "spatk": 0, "spdef": 4, "speed": 252 },
+          "moves": ["MOVE_ICICLE_SPEAR", "MOVE_ROCK_BLAST", "MOVE_RAZOR_SHELL", "MOVE_EXPLOSION"],
+          "source": "Smogon (competitive standard)",
+          "notes": "No setup needed; immediate Skill Link damage."
+        }
+      ]
+    }
+  ]
+}
