@@ -138,9 +138,15 @@ void DoSpecialTrainerBattle(void)
         // the static frontier trainer table via opponentA. No post-battle fixup is
         // needed here, so HandleSpecialTrainerBattleEnd falls through to the field.
         u32 i;
+        u32 fieldCount;
         GenerateRentalOpponent();
+        // The opponent fields bringCount mons (3 in singles), matching the player's
+        // brought team, drawn from the front of its generated roster.
+        fieldCount = gRentalRun.bringCount;
+        if (fieldCount == 0 || fieldCount > gRentalRun.oppRosterCount)
+            fieldCount = gRentalRun.oppRosterCount;
         ZeroEnemyPartyMons();
-        for (i = 0; i < gRentalRun.oppRosterCount; i++)
+        for (i = 0; i < fieldCount; i++)
             CreateFacilityMon(&gRentalMons[gRentalRun.oppRoster[i]], FRONTIER_MAX_LEVEL_50, 31, 0, 0,
                     &gParties[B_TRAINER_OPPONENT_A][i]);
         gSaveBlock2Ptr->frontier.lvlMode = FRONTIER_LVL_50;

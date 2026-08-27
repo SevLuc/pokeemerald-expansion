@@ -1399,15 +1399,22 @@ BattleFrontier_BattleTowerLobby_Text_ExplainMultiLinkRules:
 	.string "in the middle, unlike other modes.$"
 
 @ Rental battle mode. Reuses this lobby as the hub; the Singles attendant is
-@ repointed here in map.json. Draft (offer 12, pick 6), then a Lv50 battle vs a
-@ generated pool team. Format is Singles / 0 restricted for now; team preview,
-@ bring-N, recruit and the run/streak loop are later milestones.
+@ repointed here in map.json. Draft (offer 12, pick 6), bring 3 for the battle,
+@ then a Lv50 3v3 vs a generated pool team. Format is Singles / 0 restricted for
+@ now; team preview, recruit and the run/streak loop are later milestones.
 BattleFrontier_BattleTowerLobby_EventScript_RentalAttendant::
 	lock
 	faceplayer
 	msgbox BattleFrontier_BattleTowerLobby_Text_RentalDraftIntro, MSGBOX_DEFAULT
 	special StartRentalDraft
 	waitstate
+	msgbox BattleFrontier_BattleTowerLobby_Text_RentalSelectThree, MSGBOX_DEFAULT
+	fadescreen FADE_TO_BLACK
+	callnative RemoveFollowingPokemon
+	setvar VAR_0x8005, FRONTIER_PARTY_SIZE
+	special ChoosePartyForBattleFrontier
+	goto_if_eq VAR_RESULT, 0, BattleFrontier_BattleTowerLobby_EventScript_RentalCancel
+	special ReducePlayerPartyToSelectedMons
 	msgbox BattleFrontier_BattleTowerLobby_Text_RentalBattleStart, MSGBOX_DEFAULT
 	setvar VAR_0x8004, SPECIAL_BATTLE_RENTAL
 	setvar VAR_0x8005, 0
@@ -1416,6 +1423,12 @@ BattleFrontier_BattleTowerLobby_EventScript_RentalAttendant::
 	call_if_eq VAR_RESULT, B_OUTCOME_LOST, BattleFrontier_BattleTowerLobby_EventScript_RentalLost
 	call_if_eq VAR_RESULT, B_OUTCOME_DREW, BattleFrontier_BattleTowerLobby_EventScript_RentalLost
 	special HealPlayerParty
+	callnative UpdateFollowingPokemon
+	release
+	end
+
+BattleFrontier_BattleTowerLobby_EventScript_RentalCancel::
+	callnative UpdateFollowingPokemon
 	release
 	end
 
@@ -1431,6 +1444,10 @@ BattleFrontier_BattleTowerLobby_Text_RentalDraftIntro:
 	.string "Welcome to RENTAL BATTLE!\p"
 	.string "Draft six POKéMON from the twelve\n"
 	.string "I offer you.$"
+
+BattleFrontier_BattleTowerLobby_Text_RentalSelectThree:
+	.string "Now choose THREE of your six to\n"
+	.string "bring into battle.$"
 
 BattleFrontier_BattleTowerLobby_Text_RentalBattleStart:
 	.string "Your team is set. Your challenger\n"
