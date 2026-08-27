@@ -4,6 +4,9 @@
 #include "pokemon.h"
 #include "move.h"
 #include "battle.h"
+#include "battle_frontier.h"
+#include "event_data.h"
+#include "constants/battle_frontier.h"
 #include "battle_tower_rental.h"
 #include "rental_mode.h"
 
@@ -234,6 +237,85 @@ void RentalOnWin(void)
 void RentalBufferStreak(void)
 {
     ConvertIntToDecimalStringN(gStringVar1, gRentalRun.winStreak, STR_CONV_MODE_LEFT_ALIGN, 4);
+}
+
+// ------------------------------------------------------------------------------
+// Recruit: after a win, take one of the opponent's fielded mons in place of one of
+// yours (clause- and cap-safe). The script offers each opponent mon in turn
+// (BufferRentalRecruitCandidate) and, on acceptance, has the player pick which of
+// their team to release (via the ChoosePartyMon party menu), then applies the swap
+// (RentalDoRecruit).
+// ------------------------------------------------------------------------------
+
+static u32 RentalFieldCount(void)
+{
+    u32 n = gRentalRun.bringCount;
+    if (n == 0 || n > gRentalRun.oppRosterCount)
+        n = gRentalRun.oppRosterCount;
+    return n;
+}
+
+// TRUE if putting newMon into the roster (replacing skipSlot) keeps Species Clause,
+// Item Clause, and the restricted cap.
+static bool32 RentalRecruitClauseOK(u32 newMon, u32 skipSlot)
+{
+    u32 i, restrictedCount = 0;
+    for (i = 0; i < gRentalRun.rosterCount; i++)
+    {
+        if (i == skipSlot)
+            continue;
+        if (gRentalMons[gRentalRun.roster[i]].species == gRentalMons[newMon].species)
+            return FALSE;
+        if (gRentalMons[gRentalRun.roster[i]].heldItem == gRentalMons[newMon].heldItem)
+            return FALSE;
+        if (IsRentalTierRestricted(gRentalMonTier[gRentalRun.roster[i]]))
+            restrictedCount++;
+    }
+    if (IsRentalTierRestricted(gRentalMonTier[newMon]) && restrictedCount >= gRentalRun.restrictedCap)
+        return FALSE;
+    return TRUE;
+}
+
+// Script special: buffer opponent mon VAR_0x8006's species into gStringVar1 for the
+// "recruit this one?" prompt. VAR_RESULT = TRUE while the index is a real candidate,
+// FALSE once the list is exhausted.
+void BufferRentalRecruitCandidate(void)
+{
+    u32 i = gSpecialVar_0x8006;
+
+    if (i >= RentalFieldCount())
+    {
+        gSpecialVar_Result = FALSE;
+        return;
+    }
+    StringCopy(gStringVar1, GetSpeciesName(gRentalMons[gRentalRun.oppRoster[i]].species));
+    gSpecialVar_Result = TRUE;
+}
+
+// Script special: replace roster slot VAR_0x8004 with opponent mon VAR_0x8006, if
+// clause- and cap-legal. VAR_RESULT = TRUE on success, FALSE if it would break a rule.
+void RentalDoRecruit(void)
+{
+    u32 oppIdx = gSpecialVar_0x8006;
+    u32 slot = gSpecialVar_0x8004;
+    u32 newMon;
+
+    if (oppIdx >= RentalFieldCount() || slot >= gRentalRun.rosterCount)
+    {
+        gSpecialVar_Result = FALSE;
+        return;
+    }
+    newMon = gRentalRun.oppRoster[oppIdx];
+    if (!RentalRecruitClauseOK(newMon, slot))
+    {
+        gSpecialVar_Result = FALSE;
+        return;
+    }
+    gRentalRun.roster[slot] = newMon;
+    CreateFacilityMon(&gRentalMons[newMon], FRONTIER_MAX_LEVEL_50, 31, 0, FLAG_FRONTIER_MON_FACTORY,
+            &gParties[B_TRAINER_PLAYER][slot]);
+    CalculatePlayerPartyCount();
+    gSpecialVar_Result = TRUE;
 }
 
 // Script special: start a run and open the draft screen. Format/cap are hardcoded to

@@ -7,6 +7,15 @@ Update in the same PR as the change.
 `YYYY-MM-DD` — area — one-line summary (PR/commit ref)
 
 ## Entries
+- 2026-08-27 - feature/rental - Recruit. After a win, the attendant offers to recruit
+  one of the defeated team: it presents each opponent mon in turn, and on acceptance
+  the player picks which of their own to release (via the ChoosePartyMon party menu).
+  The swap is applied clause- and cap-safe (RentalDoRecruit rejects one that would
+  duplicate a species/item or exceed the restricted cap, prompting another choice),
+  updating both the roster and the live party so the recruit carries into the next
+  battle. Added BufferRentalRecruitCandidate / RentalDoRecruit. This completes the
+  core rental loop (draft, run, recruit). Singles only, no persistence. Not yet
+  compiled/ROM-tested (web session).
 - 2026-08-27 - feature/rental - Run loop + win streak. The rental mode is now an
   endless run: draft once, then fight successive Lv50 3v3 battles (preview, bring 3,
   fight) until a loss or retiring at the party menu; each win extends a streak shown

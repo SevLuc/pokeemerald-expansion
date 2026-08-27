@@ -1431,7 +1431,29 @@ BattleFrontier_BattleTowerLobby_EventScript_RentalBattleLoop::
 	goto_if_ne VAR_RESULT, B_OUTCOME_WON, BattleFrontier_BattleTowerLobby_EventScript_RentalRunOver
 	special RentalOnWin
 	msgbox BattleFrontier_BattleTowerLobby_Text_RentalWonStreak, MSGBOX_DEFAULT
+	msgbox BattleFrontier_BattleTowerLobby_Text_RentalRecruitOffer, MSGBOX_YESNO
+	goto_if_eq VAR_RESULT, NO, BattleFrontier_BattleTowerLobby_EventScript_RentalBattleLoop
+	setvar VAR_0x8006, 0
+BattleFrontier_BattleTowerLobby_EventScript_RentalRecruitAsk::
+	special BufferRentalRecruitCandidate
+	goto_if_eq VAR_RESULT, 0, BattleFrontier_BattleTowerLobby_EventScript_RentalBattleLoop
+	msgbox BattleFrontier_BattleTowerLobby_Text_RentalRecruitWhich, MSGBOX_YESNO
+	goto_if_eq VAR_RESULT, NO, BattleFrontier_BattleTowerLobby_EventScript_RentalRecruitNext
+	msgbox BattleFrontier_BattleTowerLobby_Text_RentalRecruitRelease, MSGBOX_DEFAULT
+	special ChoosePartyMon
+	goto_if_ge VAR_0x8004, PARTY_SIZE, BattleFrontier_BattleTowerLobby_EventScript_RentalRecruitNext
+	special RentalDoRecruit
+	goto_if_eq VAR_RESULT, 0, BattleFrontier_BattleTowerLobby_EventScript_RentalRecruitFail
+	msgbox BattleFrontier_BattleTowerLobby_Text_RentalRecruitDone, MSGBOX_DEFAULT
 	goto BattleFrontier_BattleTowerLobby_EventScript_RentalBattleLoop
+
+BattleFrontier_BattleTowerLobby_EventScript_RentalRecruitFail::
+	msgbox BattleFrontier_BattleTowerLobby_Text_RentalRecruitFail, MSGBOX_DEFAULT
+	goto BattleFrontier_BattleTowerLobby_EventScript_RentalRecruitNext
+
+BattleFrontier_BattleTowerLobby_EventScript_RentalRecruitNext::
+	addvar VAR_0x8006, 1
+	goto BattleFrontier_BattleTowerLobby_EventScript_RentalRecruitAsk
 
 BattleFrontier_BattleTowerLobby_EventScript_RentalRunOver::
 	special RentalBufferStreak
@@ -1470,3 +1492,21 @@ BattleFrontier_BattleTowerLobby_Text_RentalWonStreak:
 BattleFrontier_BattleTowerLobby_Text_RentalRunOver:
 	.string "Your run ends here, with {STR_VAR_1}\n"
 	.string "win(s). Well fought!$"
+
+BattleFrontier_BattleTowerLobby_Text_RentalRecruitOffer:
+	.string "That was a fine team! Would you like\n"
+	.string "to recruit one of them?$"
+
+BattleFrontier_BattleTowerLobby_Text_RentalRecruitWhich:
+	.string "Recruit {STR_VAR_1}?$"
+
+BattleFrontier_BattleTowerLobby_Text_RentalRecruitRelease:
+	.string "Which of your team will you release\n"
+	.string "to make room?$"
+
+BattleFrontier_BattleTowerLobby_Text_RentalRecruitDone:
+	.string "{STR_VAR_1} joined your team!$"
+
+BattleFrontier_BattleTowerLobby_Text_RentalRecruitFail:
+	.string "That would break the team rules.\n"
+	.string "Choose another.$"
