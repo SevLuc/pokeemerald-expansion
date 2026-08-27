@@ -1,0 +1,3166 @@
+{
+ "_meta": {
+  "batch": "Alternate battle formes",
+  "source": "Smogon data.pkmn.cc"
+ },
+ "pokemon": [
+  {
+   "species": "SPECIES_URSALUNA_BLOODMOON",
+   "displayName": "Ursaluna",
+   "tier": "altforme",
+   "sets": [
+    {
+     "name": "Bear",
+     "role": "attacker",
+     "tier": "ubers",
+     "item": "ITEM_LEFTOVERS",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_MODEST",
+     "evs": {
+      "hp": 0,
+      "atk": 0,
+      "def": 4,
+      "spatk": 252,
+      "spdef": 0,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_CALM_MIND",
+      "MOVE_BLOOD_MOON",
+      "MOVE_HYPER_VOICE",
+      "MOVE_EARTH_POWER"
+     ],
+     "source": "Smogon data.pkmn.cc (gen9 ubers)",
+     "notes": "Hyper Voice/Moonlight; Earth Power/Moonlight"
+    },
+    {
+     "name": "Freddy (Offensive)",
+     "role": "attacker",
+     "tier": "battlestadiumsingles",
+     "item": "ITEM_ASSAULT_VEST",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_MODEST",
+     "evs": {
+      "hp": 36,
+      "atk": 0,
+      "def": 0,
+      "spatk": 228,
+      "spdef": 244,
+      "speed": 0
+     },
+     "moves": [
+      "MOVE_BLOOD_MOON",
+      "MOVE_VACUUM_WAVE",
+      "MOVE_EARTH_POWER",
+      "MOVE_HYPER_VOICE"
+     ],
+     "source": "Smogon data.pkmn.cc (gen9 battlestadiumsingles)",
+     "notes": ""
+    },
+    {
+     "name": "Hibernation (Yawn)",
+     "role": "attacker",
+     "tier": "battlestadiumsingles",
+     "item": "ITEM_LEFTOVERS",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_MODEST",
+     "evs": {
+      "hp": 236,
+      "atk": 0,
+      "def": 28,
+      "spatk": 52,
+      "spdef": 188,
+      "speed": 4
+     },
+     "moves": [
+      "MOVE_YAWN",
+      "MOVE_BLOOD_MOON",
+      "MOVE_EARTH_POWER",
+      "MOVE_MOONLIGHT"
+     ],
+     "source": "Smogon data.pkmn.cc (gen9 battlestadiumsingles)",
+     "notes": "Moonlight/Vacuum Wave"
+    },
+    {
+     "name": "Smarter than the Average Bear (Calm Mind)",
+     "role": "setup sweeper",
+     "tier": "battlestadiumsingles",
+     "item": "ITEM_SITRUS_BERRY",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_MODEST",
+     "evs": {
+      "hp": 204,
+      "atk": 0,
+      "def": 0,
+      "spatk": 52,
+      "spdef": 252,
+      "speed": 0
+     },
+     "moves": [
+      "MOVE_CALM_MIND",
+      "MOVE_MOONLIGHT",
+      "MOVE_BLOOD_MOON",
+      "MOVE_EARTH_POWER"
+     ],
+     "source": "Smogon data.pkmn.cc (gen9 battlestadiumsingles)",
+     "notes": "Earth Power/Moonblast/Vacuum Wave"
+    },
+    {
+     "name": "Ancient Defense (Physical Wall)",
+     "role": "defensive / utility",
+     "tier": "battlestadiumsingles",
+     "item": "ITEM_ROCKY_HELMET",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_BOLD",
+     "evs": {
+      "hp": 252,
+      "atk": 0,
+      "def": 252,
+      "spatk": 0,
+      "spdef": 0,
+      "speed": 4
+     },
+     "moves": [
+      "MOVE_BLOOD_MOON",
+      "MOVE_MOONLIGHT",
+      "MOVE_EARTH_POWER",
+      "MOVE_VACUUM_WAVE"
+     ],
+     "source": "Smogon data.pkmn.cc (gen9 battlestadiumsingles)",
+     "notes": "Earth Power/Hyper Voice; Vacuum Wave/Calm Mind"
+    },
+    {
+     "name": "Trick Room Sweeper",
+     "role": "attacker",
+     "tier": "partnersincrime",
+     "item": "ITEM_THROAT_SPRAY",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_QUIET",
+     "evs": {
+      "hp": 252,
+      "atk": 0,
+      "def": 0,
+      "spatk": 252,
+      "spdef": 4,
+      "speed": 0
+     },
+     "moves": [
+      "MOVE_HYPER_VOICE",
+      "MOVE_BLOOD_MOON",
+      "MOVE_EARTH_POWER",
+      "MOVE_PROTECT"
+     ],
+     "source": "Smogon data.pkmn.cc (gen9 partnersincrime)",
+     "notes": ""
+    }
+   ]
+  },
+  {
+   "species": "SPECIES_CASTFORM_NORMAL",
+   "displayName": "Castform",
+   "tier": "altforme",
+   "sets": [
+    {
+     "name": "Chasing Rainbows",
+     "role": "attacker",
+     "tier": "pu",
+     "item": "ITEM_DAMP_ROCK",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_MODEST",
+     "evs": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "spatk": 252,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_RAIN_DANCE",
+      "MOVE_SUNNY_DAY",
+      "MOVE_HAIL",
+      "MOVE_WEATHER_BALL"
+     ],
+     "source": "Smogon data.pkmn.cc (gen6 pu)",
+     "notes": ""
+    },
+    {
+     "name": "Everybody Look At Me I'm Using Castform",
+     "role": "attacker",
+     "tier": "nu",
+     "item": "ITEM_LIFE_ORB",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_MODEST",
+     "evs": {
+      "hp": 4,
+      "atk": 0,
+      "def": 0,
+      "spatk": 252,
+      "spdef": 0,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_SUNNY_DAY",
+      "MOVE_WEATHER_BALL",
+      "MOVE_THUNDERBOLT",
+      "MOVE_ICE_BEAM"
+     ],
+     "source": "Smogon data.pkmn.cc (gen5 nu)",
+     "notes": "Sunny Day/Rain Dance"
+    },
+    {
+     "name": "Special Attacker",
+     "role": "attacker",
+     "tier": "uu",
+     "item": "ITEM_LIFE_ORB",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_MODEST",
+     "evs": {
+      "hp": 28,
+      "atk": 0,
+      "def": 0,
+      "spatk": 252,
+      "spdef": 0,
+      "speed": 228
+     },
+     "moves": [
+      "MOVE_ICE_BEAM",
+      "MOVE_THUNDERBOLT",
+      "MOVE_FLAMETHROWER",
+      "MOVE_ENERGY_BALL"
+     ],
+     "source": "Smogon data.pkmn.cc (gen4 uu)",
+     "notes": "Flamethrower/Fire Blast; Energy Ball/Shadow Ball"
+    },
+    {
+     "name": "Special Attacker",
+     "role": "attacker",
+     "tier": "nu",
+     "item": "ITEM_LEFTOVERS",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_MODEST",
+     "evs": {
+      "hp": 128,
+      "atk": 0,
+      "def": 0,
+      "spatk": 252,
+      "spdef": 128,
+      "speed": 0
+     },
+     "moves": [
+      "MOVE_THUNDERBOLT",
+      "MOVE_FLAMETHROWER",
+      "MOVE_ICE_BEAM",
+      "MOVE_THUNDER_WAVE"
+     ],
+     "source": "Smogon data.pkmn.cc (gen3 nu)",
+     "notes": ""
+    },
+    {
+     "name": "Sunny Day",
+     "role": "attacker",
+     "tier": "nu",
+     "item": "ITEM_LEFTOVERS",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_MODEST",
+     "evs": {
+      "hp": 128,
+      "atk": 0,
+      "def": 0,
+      "spatk": 252,
+      "spdef": 128,
+      "speed": 0
+     },
+     "moves": [
+      "MOVE_THUNDERBOLT",
+      "MOVE_FLAMETHROWER",
+      "MOVE_SOLAR_BEAM",
+      "MOVE_SUNNY_DAY"
+     ],
+     "source": "Smogon data.pkmn.cc (gen3 nu)",
+     "notes": "Thunderbolt/Ice Beam; Flamethrower/Weather Ball"
+    },
+    {
+     "name": "Rain Dance",
+     "role": "attacker",
+     "tier": "nu",
+     "item": "ITEM_LEFTOVERS",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_MODEST",
+     "evs": {
+      "hp": 128,
+      "atk": 0,
+      "def": 0,
+      "spatk": 252,
+      "spdef": 128,
+      "speed": 0
+     },
+     "moves": [
+      "MOVE_WEATHER_BALL",
+      "MOVE_THUNDER",
+      "MOVE_ICE_BEAM",
+      "MOVE_RAIN_DANCE"
+     ],
+     "source": "Smogon data.pkmn.cc (gen3 nu)",
+     "notes": "Thunder/Thunderbolt"
+    },
+    {
+     "name": "Hail",
+     "role": "attacker",
+     "tier": "nu",
+     "item": "ITEM_LEFTOVERS",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_MODEST",
+     "evs": {
+      "hp": 128,
+      "atk": 0,
+      "def": 0,
+      "spatk": 252,
+      "spdef": 128,
+      "speed": 0
+     },
+     "moves": [
+      "MOVE_WEATHER_BALL",
+      "MOVE_THUNDERBOLT",
+      "MOVE_THUNDER_WAVE",
+      "MOVE_HAIL"
+     ],
+     "source": "Smogon data.pkmn.cc (gen3 nu)",
+     "notes": "Thunder Wave/Flamethrower"
+    }
+   ]
+  },
+  {
+   "species": "SPECIES_WORMADAM_PLANT",
+   "displayName": "Wormadam",
+   "tier": "altforme",
+   "sets": [
+    {
+     "name": "Quiver Dance",
+     "role": "setup sweeper",
+     "tier": "pu",
+     "item": "ITEM_LEFTOVERS",
+     "ability": "ABILITY_OVERCOAT",
+     "nature": "NATURE_TIMID",
+     "evs": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "spatk": 252,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_QUIVER_DANCE",
+      "MOVE_BUG_BUZZ",
+      "MOVE_GIGA_DRAIN",
+      "MOVE_HIDDEN_POWER"
+     ],
+     "source": "Smogon data.pkmn.cc (gen7 pu)",
+     "notes": "HP Ground"
+    },
+    {
+     "name": "Drag Worm",
+     "role": "attacker",
+     "tier": "pu",
+     "item": "ITEM_CHOICE_SPECS",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_MODEST",
+     "evs": {
+      "hp": 248,
+      "atk": 0,
+      "def": 0,
+      "spatk": 252,
+      "spdef": 8,
+      "speed": 0
+     },
+     "moves": [
+      "MOVE_SIGNAL_BEAM",
+      "MOVE_LEAF_STORM",
+      "MOVE_GIGA_DRAIN",
+      "MOVE_HIDDEN_POWER"
+     ],
+     "source": "Smogon data.pkmn.cc (gen6 pu)",
+     "notes": "HP Rock"
+    },
+    {
+     "name": "Wall",
+     "role": "defensive / utility",
+     "tier": "nu",
+     "item": "ITEM_LEFTOVERS",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_CALM",
+     "evs": {
+      "hp": 248,
+      "atk": 0,
+      "def": 8,
+      "spatk": 0,
+      "spdef": 252,
+      "speed": 0
+     },
+     "moves": [
+      "MOVE_TOXIC",
+      "MOVE_PROTECT",
+      "MOVE_GIGA_DRAIN",
+      "MOVE_SIGNAL_BEAM"
+     ],
+     "source": "Smogon data.pkmn.cc (gen5 nu)",
+     "notes": "Protect/Synthesis"
+    },
+    {
+     "name": "Special Attacker",
+     "role": "attacker",
+     "tier": "uu",
+     "item": "ITEM_CHOICE_SPECS",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_MODEST",
+     "evs": {
+      "hp": 56,
+      "atk": 0,
+      "def": 0,
+      "spatk": 252,
+      "spdef": 0,
+      "speed": 200
+     },
+     "moves": [
+      "MOVE_LEAF_STORM",
+      "MOVE_PSYCHIC",
+      "MOVE_SIGNAL_BEAM",
+      "MOVE_HIDDEN_POWER"
+     ],
+     "source": "Smogon data.pkmn.cc (gen4 uu)",
+     "notes": "Signal Beam/Energy Ball; Hidden Power Rock/Hidden Power Ice; HP Rock"
+    }
+   ]
+  },
+  {
+   "species": "SPECIES_WORMADAM_SANDY",
+   "displayName": "Wormadam",
+   "tier": "altforme",
+   "sets": [
+    {
+     "name": "Physically Defensive",
+     "role": "defensive / utility",
+     "tier": "pu",
+     "item": "ITEM_LEFTOVERS",
+     "ability": "ABILITY_OVERCOAT",
+     "nature": "NATURE_IMPISH",
+     "evs": {
+      "hp": 252,
+      "atk": 4,
+      "def": 252,
+      "spatk": 0,
+      "spdef": 0,
+      "speed": 0
+     },
+     "moves": [
+      "MOVE_EARTHQUAKE",
+      "MOVE_STEALTH_ROCK",
+      "MOVE_TOXIC",
+      "MOVE_PROTECT"
+     ],
+     "source": "Smogon data.pkmn.cc (gen7 pu)",
+     "notes": ""
+    },
+    {
+     "name": "Margherita",
+     "role": "attacker",
+     "tier": "pu",
+     "item": "ITEM_LEFTOVERS",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_ADAMANT",
+     "evs": {
+      "hp": 252,
+      "atk": 252,
+      "def": 4,
+      "spatk": 0,
+      "spdef": 0,
+      "speed": 0
+     },
+     "moves": [
+      "MOVE_STEALTH_ROCK",
+      "MOVE_EARTHQUAKE",
+      "MOVE_ROCK_BLAST",
+      "MOVE_SUCKER_PUNCH"
+     ],
+     "source": "Smogon data.pkmn.cc (gen6 pu)",
+     "notes": ""
+    },
+    {
+     "name": "Rain Dance Support",
+     "role": "defensive / utility",
+     "tier": "uu",
+     "item": "ITEM_DAMP_ROCK",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_IMPISH",
+     "evs": {
+      "hp": 240,
+      "atk": 216,
+      "def": 52,
+      "spatk": 0,
+      "spdef": 0,
+      "speed": 0
+     },
+     "moves": [
+      "MOVE_RAIN_DANCE",
+      "MOVE_BUG_BITE",
+      "MOVE_EARTHQUAKE",
+      "MOVE_TOXIC"
+     ],
+     "source": "Smogon data.pkmn.cc (gen4 uu)",
+     "notes": ""
+    },
+    {
+     "name": "RestTalk",
+     "role": "attacker",
+     "tier": "uu",
+     "item": "ITEM_LEFTOVERS",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_IMPISH",
+     "evs": {
+      "hp": 252,
+      "atk": 0,
+      "def": 252,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 0
+     },
+     "moves": [
+      "MOVE_REST",
+      "MOVE_SLEEP_TALK",
+      "MOVE_EARTHQUAKE",
+      "MOVE_TOXIC"
+     ],
+     "source": "Smogon data.pkmn.cc (gen4 uu)",
+     "notes": ""
+    }
+   ]
+  },
+  {
+   "species": "SPECIES_WORMADAM_TRASH",
+   "displayName": "Wormadam",
+   "tier": "altforme",
+   "sets": [
+    {
+     "name": "Defensive Utility",
+     "role": "defensive / utility",
+     "tier": "pu",
+     "item": "ITEM_LEFTOVERS",
+     "ability": "ABILITY_OVERCOAT",
+     "nature": "NATURE_CAREFUL",
+     "evs": {
+      "hp": 252,
+      "atk": 0,
+      "def": 4,
+      "spatk": 0,
+      "spdef": 252,
+      "speed": 0
+     },
+     "moves": [
+      "MOVE_STEALTH_ROCK",
+      "MOVE_TOXIC",
+      "MOVE_PROTECT",
+      "MOVE_IRON_HEAD"
+     ],
+     "source": "Smogon data.pkmn.cc (gen7 pu)",
+     "notes": "Iron Head/Gyro Ball"
+    },
+    {
+     "name": "Utility",
+     "role": "defensive / utility",
+     "tier": "nu",
+     "item": "ITEM_LEFTOVERS",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_RELAXED",
+     "evs": {
+      "hp": 252,
+      "atk": 0,
+      "def": 252,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 0
+     },
+     "moves": [
+      "MOVE_STEALTH_ROCK",
+      "MOVE_TOXIC",
+      "MOVE_PROTECT",
+      "MOVE_GYRO_BALL"
+     ],
+     "source": "Smogon data.pkmn.cc (gen5 nu)",
+     "notes": ""
+    }
+   ]
+  },
+  {
+   "species": "SPECIES_ROTOM_HEAT",
+   "displayName": "Rotom",
+   "tier": "altforme",
+   "sets": [
+    {
+     "name": "Nasty Plot",
+     "role": "setup sweeper",
+     "tier": "ru",
+     "item": "ITEM_HEAVY_DUTY_BOOTS",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_TIMID",
+     "evs": {
+      "hp": 248,
+      "atk": 0,
+      "def": 0,
+      "spatk": 8,
+      "spdef": 0,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_OVERHEAT",
+      "MOVE_VOLT_SWITCH",
+      "MOVE_NASTY_PLOT",
+      "MOVE_PAIN_SPLIT"
+     ],
+     "source": "Smogon data.pkmn.cc (gen9 ru)",
+     "notes": "Pain Split/Will-O-Wisp"
+    },
+    {
+     "name": "Defensive Pivot",
+     "role": "defensive / utility",
+     "tier": "nu",
+     "item": "ITEM_HEAVY_DUTY_BOOTS",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_TIMID",
+     "evs": {
+      "hp": 248,
+      "atk": 0,
+      "def": 8,
+      "spatk": 0,
+      "spdef": 0,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_OVERHEAT",
+      "MOVE_VOLT_SWITCH",
+      "MOVE_PAIN_SPLIT",
+      "MOVE_WILL_O_WISP"
+     ],
+     "source": "Smogon data.pkmn.cc (gen9 nu)",
+     "notes": "Will-O-Wisp/Nasty Plot"
+    },
+    {
+     "name": "Choice Attacker",
+     "role": "attacker",
+     "tier": "battlestadiumsingles",
+     "item": "ITEM_CHOICE_SCARF",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_TIMID",
+     "evs": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "spatk": 252,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_VOLT_SWITCH",
+      "MOVE_OVERHEAT",
+      "MOVE_TRICK",
+      "MOVE_THUNDERBOLT"
+     ],
+     "source": "Smogon data.pkmn.cc (gen9 battlestadiumsingles)",
+     "notes": "Thunderbolt/Tera Blast"
+    },
+    {
+     "name": "Defensive Pivot",
+     "role": "defensive / utility",
+     "tier": "battlestadiumsingles",
+     "item": "ITEM_SITRUS_BERRY",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_BOLD",
+     "evs": {
+      "hp": 252,
+      "atk": 0,
+      "def": 252,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 0
+     },
+     "moves": [
+      "MOVE_VOLT_SWITCH",
+      "MOVE_FOUL_PLAY",
+      "MOVE_OVERHEAT",
+      "MOVE_WILL_O_WISP"
+     ],
+     "source": "Smogon data.pkmn.cc (gen9 battlestadiumsingles)",
+     "notes": "Will-O-Wisp/Thunder Wave/Trick"
+    },
+    {
+     "name": "Nasty Plot",
+     "role": "setup sweeper",
+     "tier": "ou",
+     "item": "ITEM_HEAVY_DUTY_BOOTS",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_TIMID",
+     "evs": {
+      "hp": 248,
+      "atk": 0,
+      "def": 0,
+      "spatk": 8,
+      "spdef": 0,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_NASTY_PLOT",
+      "MOVE_DISCHARGE",
+      "MOVE_OVERHEAT",
+      "MOVE_PAIN_SPLIT"
+     ],
+     "source": "Smogon data.pkmn.cc (gen8 ou)",
+     "notes": "Pain Split/Toxic"
+    },
+    {
+     "name": "Pivot",
+     "role": "defensive / utility",
+     "tier": "uu",
+     "item": "ITEM_HEAVY_DUTY_BOOTS",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_TIMID",
+     "evs": {
+      "hp": 252,
+      "atk": 0,
+      "def": 104,
+      "spatk": 0,
+      "spdef": 0,
+      "speed": 152
+     },
+     "moves": [
+      "MOVE_OVERHEAT",
+      "MOVE_VOLT_SWITCH",
+      "MOVE_TOXIC",
+      "MOVE_PAIN_SPLIT"
+     ],
+     "source": "Smogon data.pkmn.cc (gen8 uu)",
+     "notes": ""
+    },
+    {
+     "name": "Dual Screens (Fire)",
+     "role": "attacker",
+     "tier": "monotype",
+     "item": "ITEM_LIGHT_CLAY",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_CALM",
+     "evs": {
+      "hp": 252,
+      "atk": 0,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 112,
+      "speed": 144
+     },
+     "moves": [
+      "MOVE_REFLECT",
+      "MOVE_LIGHT_SCREEN",
+      "MOVE_VOLT_SWITCH",
+      "MOVE_DEFOG"
+     ],
+     "source": "Smogon data.pkmn.cc (gen8 monotype)",
+     "notes": ""
+    },
+    {
+     "name": "Substitute + Nasty Plot (Electric)",
+     "role": "setup sweeper",
+     "tier": "monotype",
+     "item": "ITEM_LEFTOVERS",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_TIMID",
+     "evs": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "spatk": 252,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_SUBSTITUTE",
+      "MOVE_NASTY_PLOT",
+      "MOVE_THUNDERBOLT",
+      "MOVE_OVERHEAT"
+     ],
+     "source": "Smogon data.pkmn.cc (gen8 monotype)",
+     "notes": ""
+    }
+   ]
+  },
+  {
+   "species": "SPECIES_ROTOM_WASH",
+   "displayName": "Rotom",
+   "tier": "altforme",
+   "sets": [
+    {
+     "name": "Defensive Pivot",
+     "role": "defensive / utility",
+     "tier": "ou",
+     "item": "ITEM_LEFTOVERS",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_BOLD",
+     "evs": {
+      "hp": 252,
+      "atk": 0,
+      "def": 212,
+      "spatk": 0,
+      "spdef": 0,
+      "speed": 44
+     },
+     "moves": [
+      "MOVE_VOLT_SWITCH",
+      "MOVE_HYDRO_PUMP",
+      "MOVE_PAIN_SPLIT",
+      "MOVE_WILL_O_WISP"
+     ],
+     "source": "Smogon data.pkmn.cc (gen9 ou)",
+     "notes": ""
+    },
+    {
+     "name": "Specially Defensive",
+     "role": "defensive / utility",
+     "tier": "uu",
+     "item": "ITEM_LEFTOVERS",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_CALM",
+     "evs": {
+      "hp": 252,
+      "atk": 0,
+      "def": 44,
+      "spatk": 12,
+      "spdef": 200,
+      "speed": 0
+     },
+     "moves": [
+      "MOVE_THUNDER_WAVE",
+      "MOVE_HYDRO_PUMP",
+      "MOVE_PAIN_SPLIT",
+      "MOVE_VOLT_SWITCH"
+     ],
+     "source": "Smogon data.pkmn.cc (gen9 uu)",
+     "notes": "Thunder Wave/Will-O-Wisp"
+    },
+    {
+     "name": "Nasty Plot (Electric)",
+     "role": "setup sweeper",
+     "tier": "monotype",
+     "item": "ITEM_LEFTOVERS",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_TIMID",
+     "evs": {
+      "hp": 212,
+      "atk": 0,
+      "def": 48,
+      "spatk": 0,
+      "spdef": 0,
+      "speed": 248
+     },
+     "moves": [
+      "MOVE_HYDRO_PUMP",
+      "MOVE_STORED_POWER",
+      "MOVE_NASTY_PLOT",
+      "MOVE_SUBSTITUTE"
+     ],
+     "source": "Smogon data.pkmn.cc (gen9 monotype)",
+     "notes": ""
+    },
+    {
+     "name": "Nasty Plot (Water)",
+     "role": "setup sweeper",
+     "tier": "monotype",
+     "item": "ITEM_LEFTOVERS",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_MODEST",
+     "evs": {
+      "hp": 144,
+      "atk": 0,
+      "def": 112,
+      "spatk": 164,
+      "spdef": 0,
+      "speed": 88
+     },
+     "moves": [
+      "MOVE_THUNDERBOLT",
+      "MOVE_STORED_POWER",
+      "MOVE_NASTY_PLOT",
+      "MOVE_SUBSTITUTE"
+     ],
+     "source": "Smogon data.pkmn.cc (gen9 monotype)",
+     "notes": "Thunderbolt/Discharge"
+    },
+    {
+     "name": "Offensive",
+     "role": "attacker",
+     "tier": "battlestadiumsingles",
+     "item": "ITEM_CHOICE_SPECS",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_MODEST",
+     "evs": {
+      "hp": 252,
+      "atk": 0,
+      "def": 0,
+      "spatk": 252,
+      "spdef": 4,
+      "speed": 0
+     },
+     "moves": [
+      "MOVE_VOLT_SWITCH",
+      "MOVE_HYDRO_PUMP",
+      "MOVE_TRICK",
+      "MOVE_THUNDERBOLT"
+     ],
+     "source": "Smogon data.pkmn.cc (gen9 battlestadiumsingles)",
+     "notes": "Trick/Tera Blast; Thunderbolt/Discharge/Tera Blast/Shadow Ball"
+    },
+    {
+     "name": "Defensive Pivot",
+     "role": "defensive / utility",
+     "tier": "battlestadiumsingles",
+     "item": "ITEM_SITRUS_BERRY",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_BOLD",
+     "evs": {
+      "hp": 244,
+      "atk": 0,
+      "def": 252,
+      "spatk": 4,
+      "spdef": 4,
+      "speed": 4
+     },
+     "moves": [
+      "MOVE_VOLT_SWITCH",
+      "MOVE_FOUL_PLAY",
+      "MOVE_WILL_O_WISP",
+      "MOVE_HYDRO_PUMP"
+     ],
+     "source": "Smogon data.pkmn.cc (gen9 battlestadiumsingles)",
+     "notes": "Will-O-Wisp/Thunder Wave; Hydro Pump/Tera Blast"
+    },
+    {
+     "name": "Nasty Plot",
+     "role": "setup sweeper",
+     "tier": "battlestadiumsingles",
+     "item": "ITEM_LUM_BERRY",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_TIMID",
+     "evs": {
+      "hp": 4,
+      "atk": 0,
+      "def": 0,
+      "spatk": 252,
+      "spdef": 0,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_NASTY_PLOT",
+      "MOVE_THUNDERBOLT",
+      "MOVE_TERA_BLAST",
+      "MOVE_HYDRO_PUMP"
+     ],
+     "source": "Smogon data.pkmn.cc (gen9 battlestadiumsingles)",
+     "notes": "Hydro Pump/Substitute"
+    },
+    {
+     "name": "Choice Scarf",
+     "role": "choice revenge killer",
+     "tier": "Choice Scarf",
+     "item": "ITEM_CHOICE_SCARF",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_TIMID",
+     "evs": {
+      "hp": 252,
+      "atk": 0,
+      "def": 4,
+      "spatk": 0,
+      "spdef": 0,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_HYDRO_PUMP",
+      "MOVE_VOLT_SWITCH",
+      "MOVE_TRICK",
+      "MOVE_WILL_O_WISP"
+     ],
+     "source": "Smogon data.pkmn.cc (gen9natdex Choice Scarf)",
+     "notes": "Will-O-Wisp/Thunder Wave"
+    }
+   ]
+  },
+  {
+   "species": "SPECIES_ROTOM_FROST",
+   "displayName": "Rotom",
+   "tier": "altforme",
+   "sets": [
+    {
+     "name": "Offensive Pivot",
+     "role": "defensive / utility",
+     "tier": "pu",
+     "item": "ITEM_HEAVY_DUTY_BOOTS",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_TIMID",
+     "evs": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "spatk": 252,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_VOLT_SWITCH",
+      "MOVE_THUNDERBOLT",
+      "MOVE_BLIZZARD",
+      "MOVE_DEFOG"
+     ],
+     "source": "Smogon data.pkmn.cc (gen8 pu)",
+     "notes": ""
+    },
+    {
+     "name": "Choice Scarf",
+     "role": "choice revenge killer",
+     "tier": "pu",
+     "item": "ITEM_CHOICE_SCARF",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_TIMID",
+     "evs": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "spatk": 252,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_BLIZZARD",
+      "MOVE_VOLT_SWITCH",
+      "MOVE_THUNDERBOLT",
+      "MOVE_TRICK"
+     ],
+     "source": "Smogon data.pkmn.cc (gen7 pu)",
+     "notes": "Trick/Defog"
+    },
+    {
+     "name": "Bulky Pivot (Ice)",
+     "role": "defensive / utility",
+     "tier": "monotype",
+     "item": "ITEM_LEFTOVERS",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_BOLD",
+     "evs": {
+      "hp": 252,
+      "atk": 0,
+      "def": 36,
+      "spatk": 0,
+      "spdef": 0,
+      "speed": 220
+     },
+     "moves": [
+      "MOVE_VOLT_SWITCH",
+      "MOVE_WILL_O_WISP",
+      "MOVE_PAIN_SPLIT",
+      "MOVE_DEFOG"
+     ],
+     "source": "Smogon data.pkmn.cc (gen7 monotype)",
+     "notes": "Defog/Hidden Power Fire"
+    },
+    {
+     "name": "SubSplit",
+     "role": "sub attacker",
+     "tier": "ru",
+     "item": "ITEM_LIFE_ORB",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_TIMID",
+     "evs": {
+      "hp": 0,
+      "atk": 0,
+      "def": 4,
+      "spatk": 252,
+      "spdef": 0,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_THUNDERBOLT",
+      "MOVE_BLIZZARD",
+      "MOVE_PAIN_SPLIT",
+      "MOVE_SUBSTITUTE"
+     ],
+     "source": "Smogon data.pkmn.cc (gen6 ru)",
+     "notes": ""
+    },
+    {
+     "name": "SubWisp",
+     "role": "sub attacker",
+     "tier": "pu",
+     "item": "ITEM_LEFTOVERS",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_TIMID",
+     "evs": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "spatk": 252,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_SUBSTITUTE",
+      "MOVE_WILL_O_WISP",
+      "MOVE_THUNDERBOLT",
+      "MOVE_BLIZZARD"
+     ],
+     "source": "Smogon data.pkmn.cc (gen6 pu)",
+     "notes": ""
+    },
+    {
+     "name": "All-Out Attacker",
+     "role": "attacker",
+     "tier": "ru",
+     "item": "ITEM_EXPERT_BELT",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_TIMID",
+     "evs": {
+      "hp": 0,
+      "atk": 0,
+      "def": 4,
+      "spatk": 252,
+      "spdef": 0,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_VOLT_SWITCH",
+      "MOVE_BLIZZARD",
+      "MOVE_HIDDEN_POWER",
+      "MOVE_THUNDERBOLT"
+     ],
+     "source": "Smogon data.pkmn.cc (gen5 ru)",
+     "notes": "HP Fire"
+    },
+    {
+     "name": "Choice Scarf",
+     "role": "choice revenge killer",
+     "tier": "ou",
+     "item": "ITEM_CHOICE_SCARF",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_TIMID",
+     "evs": {
+      "hp": 0,
+      "atk": 0,
+      "def": 4,
+      "spatk": 252,
+      "spdef": 0,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_THUNDERBOLT",
+      "MOVE_SHADOW_BALL",
+      "MOVE_HIDDEN_POWER",
+      "MOVE_TRICK"
+     ],
+     "source": "Smogon data.pkmn.cc (gen4 ou)",
+     "notes": "Shadow Ball/Overheat/Hydro Pump/Leaf Storm; Hidden Power Ice/Will-O-Wisp; HP Ice; Trick/Hidden Power Ice"
+    },
+    {
+     "name": "Defensive",
+     "role": "defensive / utility",
+     "tier": "ou",
+     "item": "ITEM_LEFTOVERS",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_BOLD",
+     "evs": {
+      "hp": 248,
+      "atk": 0,
+      "def": 252,
+      "spatk": 0,
+      "spdef": 8,
+      "speed": 0
+     },
+     "moves": [
+      "MOVE_REST",
+      "MOVE_SLEEP_TALK",
+      "MOVE_THUNDERBOLT",
+      "MOVE_WILL_O_WISP"
+     ],
+     "source": "Smogon data.pkmn.cc (gen4 ou)",
+     "notes": "Thunderbolt/Shadow Ball; Will-O-Wisp/Shadow Ball"
+    },
+    {
+     "name": "Utility",
+     "role": "defensive / utility",
+     "tier": "ou",
+     "item": "ITEM_LEFTOVERS",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_TIMID",
+     "evs": {
+      "hp": 248,
+      "atk": 0,
+      "def": 0,
+      "spatk": 8,
+      "spdef": 0,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_PAIN_SPLIT",
+      "MOVE_SUBSTITUTE",
+      "MOVE_WILL_O_WISP",
+      "MOVE_THUNDERBOLT"
+     ],
+     "source": "Smogon data.pkmn.cc (gen4 ou)",
+     "notes": "Substitute/Shadow Ball/Hydro Pump/Blizzard; Will-O-Wisp/Shadow Ball"
+    }
+   ]
+  },
+  {
+   "species": "SPECIES_ROTOM_FAN",
+   "displayName": "Rotom",
+   "tier": "altforme",
+   "sets": [
+    {
+     "name": "Defensive Pivot",
+     "role": "defensive / utility",
+     "tier": "pu",
+     "item": "ITEM_IAPAPA_BERRY",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_BOLD",
+     "evs": {
+      "hp": 252,
+      "atk": 0,
+      "def": 208,
+      "spatk": 0,
+      "spdef": 0,
+      "speed": 48
+     },
+     "moves": [
+      "MOVE_VOLT_SWITCH",
+      "MOVE_AIR_SLASH",
+      "MOVE_WILL_O_WISP",
+      "MOVE_DEFOG"
+     ],
+     "source": "Smogon data.pkmn.cc (gen7 pu)",
+     "notes": "Defog/Pain Split"
+    },
+    {
+     "name": "Expert Belt",
+     "role": "attacker",
+     "tier": "nu",
+     "item": "ITEM_EXPERT_BELT",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_TIMID",
+     "evs": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "spatk": 252,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_VOLT_SWITCH",
+      "MOVE_AIR_SLASH",
+      "MOVE_HIDDEN_POWER",
+      "MOVE_WILL_O_WISP"
+     ],
+     "source": "Smogon data.pkmn.cc (gen6 nu)",
+     "notes": "Volt Switch/Thunderbolt; Hidden Power Water/Hidden Power Grass; HP Water"
+    },
+    {
+     "name": "Choice Scarf",
+     "role": "choice revenge killer",
+     "tier": "nu",
+     "item": "ITEM_CHOICE_SCARF",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_TIMID",
+     "evs": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "spatk": 252,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_VOLT_SWITCH",
+      "MOVE_AIR_SLASH",
+      "MOVE_WILL_O_WISP",
+      "MOVE_TRICK"
+     ],
+     "source": "Smogon data.pkmn.cc (gen6 nu)",
+     "notes": "Will-O-Wisp/Thunderbolt"
+    },
+    {
+     "name": "Offensive Utility",
+     "role": "defensive / utility",
+     "tier": "pu",
+     "item": "ITEM_LEFTOVERS",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_TIMID",
+     "evs": {
+      "hp": 32,
+      "atk": 0,
+      "def": 0,
+      "spatk": 252,
+      "spdef": 0,
+      "speed": 224
+     },
+     "moves": [
+      "MOVE_THUNDERBOLT",
+      "MOVE_AIR_SLASH",
+      "MOVE_HIDDEN_POWER",
+      "MOVE_WILL_O_WISP"
+     ],
+     "source": "Smogon data.pkmn.cc (gen6 pu)",
+     "notes": "Thunderbolt/Volt Switch; HP Water"
+    },
+    {
+     "name": "Support",
+     "role": "defensive / utility",
+     "tier": "ru",
+     "item": "ITEM_LEFTOVERS",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_BOLD",
+     "evs": {
+      "hp": 252,
+      "atk": 0,
+      "def": 120,
+      "spatk": 0,
+      "spdef": 0,
+      "speed": 136
+     },
+     "moves": [
+      "MOVE_WILL_O_WISP",
+      "MOVE_VOLT_SWITCH",
+      "MOVE_AIR_SLASH",
+      "MOVE_PAIN_SPLIT"
+     ],
+     "source": "Smogon data.pkmn.cc (gen5 ru)",
+     "notes": "Volt Switch/Thunderbolt; Air Slash/Hidden Power Ice; Pain Split/Substitute"
+    },
+    {
+     "name": "Choice",
+     "role": "attacker",
+     "tier": "ru",
+     "item": "ITEM_CHOICE_SCARF",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_TIMID",
+     "evs": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "spatk": 252,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_VOLT_SWITCH",
+      "MOVE_AIR_SLASH",
+      "MOVE_HIDDEN_POWER",
+      "MOVE_TRICK"
+     ],
+     "source": "Smogon data.pkmn.cc (gen5 ru)",
+     "notes": "Volt Switch/Thunderbolt; HP Grass; Trick/Thunderbolt"
+    },
+    {
+     "name": "Substitute + Charge Beam",
+     "role": "sub attacker",
+     "tier": "ru",
+     "item": "ITEM_LEFTOVERS",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_TIMID",
+     "evs": {
+      "hp": 64,
+      "atk": 0,
+      "def": 0,
+      "spatk": 232,
+      "spdef": 0,
+      "speed": 212
+     },
+     "moves": [
+      "MOVE_SUBSTITUTE",
+      "MOVE_CHARGE_BEAM",
+      "MOVE_THUNDERBOLT",
+      "MOVE_HIDDEN_POWER"
+     ],
+     "source": "Smogon data.pkmn.cc (gen5 ru)",
+     "notes": "HP Ice"
+    },
+    {
+     "name": "SubSplit",
+     "role": "sub attacker",
+     "tier": "ru",
+     "item": "ITEM_LIFE_ORB",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_TIMID",
+     "evs": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "spatk": 252,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_SUBSTITUTE",
+      "MOVE_PAIN_SPLIT",
+      "MOVE_THUNDERBOLT",
+      "MOVE_HIDDEN_POWER"
+     ],
+     "source": "Smogon data.pkmn.cc (gen5 ru)",
+     "notes": "Hidden Power Ice/Air Slash; HP Ice"
+    }
+   ]
+  },
+  {
+   "species": "SPECIES_ROTOM_MOW",
+   "displayName": "Rotom",
+   "tier": "altforme",
+   "sets": [
+    {
+     "name": "Choice Scarf",
+     "role": "choice revenge killer",
+     "tier": "ru",
+     "item": "ITEM_CHOICE_SCARF",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_TIMID",
+     "evs": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "spatk": 252,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_VOLT_SWITCH",
+      "MOVE_LEAF_STORM",
+      "MOVE_TRICK",
+      "MOVE_THUNDERBOLT"
+     ],
+     "source": "Smogon data.pkmn.cc (gen9 ru)",
+     "notes": "Thunderbolt/Will-O-Wisp/Thunder Wave"
+    },
+    {
+     "name": "Nasty Plot",
+     "role": "setup sweeper",
+     "tier": "ru",
+     "item": "ITEM_HEAVY_DUTY_BOOTS",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_TIMID",
+     "evs": {
+      "hp": 248,
+      "atk": 0,
+      "def": 0,
+      "spatk": 8,
+      "spdef": 0,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_NASTY_PLOT",
+      "MOVE_LEAF_STORM",
+      "MOVE_THUNDERBOLT",
+      "MOVE_PAIN_SPLIT"
+     ],
+     "source": "Smogon data.pkmn.cc (gen9 ru)",
+     "notes": "Thunderbolt/Volt Switch; Pain Split/Thunder Wave/Will-O-Wisp"
+    },
+    {
+     "name": "Utility",
+     "role": "defensive / utility",
+     "tier": "nu",
+     "item": "ITEM_LEFTOVERS",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_TIMID",
+     "evs": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "spatk": 252,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_LEAF_STORM",
+      "MOVE_VOLT_SWITCH",
+      "MOVE_WILL_O_WISP",
+      "MOVE_THUNDERBOLT"
+     ],
+     "source": "Smogon data.pkmn.cc (gen9 nu)",
+     "notes": "Thunderbolt/Foul Play"
+    },
+    {
+     "name": "Nasty Plot",
+     "role": "setup sweeper",
+     "tier": "nu",
+     "item": "ITEM_LEFTOVERS",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_TIMID",
+     "evs": {
+      "hp": 248,
+      "atk": 0,
+      "def": 0,
+      "spatk": 8,
+      "spdef": 0,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_NASTY_PLOT",
+      "MOVE_LEAF_STORM",
+      "MOVE_VOLT_SWITCH",
+      "MOVE_WILL_O_WISP"
+     ],
+     "source": "Smogon data.pkmn.cc (gen9 nu)",
+     "notes": "Volt Switch/Discharge; Will-O-Wisp/Substitute"
+    },
+    {
+     "name": "Nasty Plot",
+     "role": "setup sweeper",
+     "tier": "pu",
+     "item": "ITEM_LEFTOVERS",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_TIMID",
+     "evs": {
+      "hp": 252,
+      "atk": 0,
+      "def": 0,
+      "spatk": 4,
+      "spdef": 0,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_NASTY_PLOT",
+      "MOVE_VOLT_SWITCH",
+      "MOVE_LEAF_STORM",
+      "MOVE_PAIN_SPLIT"
+     ],
+     "source": "Smogon data.pkmn.cc (gen9 pu)",
+     "notes": "Pain Split/Thunderbolt"
+    },
+    {
+     "name": "Choice Scarf",
+     "role": "choice revenge killer",
+     "tier": "nu",
+     "item": "ITEM_CHOICE_SCARF",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_TIMID",
+     "evs": {
+      "hp": 8,
+      "atk": 0,
+      "def": 0,
+      "spatk": 248,
+      "spdef": 0,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_LEAF_STORM",
+      "MOVE_VOLT_SWITCH",
+      "MOVE_TRICK",
+      "MOVE_DEFOG"
+     ],
+     "source": "Smogon data.pkmn.cc (gen8 nu)",
+     "notes": "Defog/Nasty Plot/Thunderbolt"
+    },
+    {
+     "name": "Utility",
+     "role": "defensive / utility",
+     "tier": "nu",
+     "item": "ITEM_LEFTOVERS",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_TIMID",
+     "evs": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "spatk": 252,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_LEAF_STORM",
+      "MOVE_VOLT_SWITCH",
+      "MOVE_DEFOG",
+      "MOVE_PAIN_SPLIT"
+     ],
+     "source": "Smogon data.pkmn.cc (gen8 nu)",
+     "notes": "Pain Split/Will-O-Wisp"
+    },
+    {
+     "name": "Nasty Plot + Substitute (Electric)",
+     "role": "setup sweeper",
+     "tier": "monotype",
+     "item": "ITEM_LEFTOVERS",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_TIMID",
+     "evs": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "spatk": 252,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_NASTY_PLOT",
+      "MOVE_SUBSTITUTE",
+      "MOVE_THUNDERBOLT",
+      "MOVE_LEAF_STORM"
+     ],
+     "source": "Smogon data.pkmn.cc (gen8 monotype)",
+     "notes": ""
+    },
+    {
+     "name": "Nasty Plot (Grass)",
+     "role": "setup sweeper",
+     "tier": "monotype",
+     "item": "ITEM_LEFTOVERS",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_TIMID",
+     "evs": {
+      "hp": 252,
+      "atk": 0,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_NASTY_PLOT",
+      "MOVE_SUBSTITUTE",
+      "MOVE_THUNDERBOLT",
+      "MOVE_DARK_PULSE"
+     ],
+     "source": "Smogon data.pkmn.cc (gen8 monotype)",
+     "notes": ""
+    }
+   ]
+  },
+  {
+   "species": "SPECIES_BASCULEGION_M",
+   "displayName": "Basculegion",
+   "tier": "altforme",
+   "sets": [
+    {
+     "name": "Choice Band",
+     "role": "choice wallbreaker",
+     "tier": "ru",
+     "item": "ITEM_CHOICE_BAND",
+     "ability": "ABILITY_ADAPTABILITY",
+     "nature": "NATURE_NAUGHTY",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_WAVE_CRASH",
+      "MOVE_FLIP_TURN",
+      "MOVE_SHADOW_BALL",
+      "MOVE_AQUA_JET"
+     ],
+     "source": "Smogon data.pkmn.cc (gen9 ru)",
+     "notes": ""
+    },
+    {
+     "name": "Substitute",
+     "role": "sub attacker",
+     "tier": "nu",
+     "item": "ITEM_LEFTOVERS",
+     "ability": "ABILITY_ADAPTABILITY",
+     "nature": "NATURE_ADAMANT",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_SUBSTITUTE",
+      "MOVE_LIQUIDATION",
+      "MOVE_PHANTOM_FORCE",
+      "MOVE_AQUA_JET"
+     ],
+     "source": "Smogon data.pkmn.cc (gen9 nu)",
+     "notes": "Liquidation/Surf; Phantom Force/Shadow Ball; Aqua Jet/Endeavor/Pain Split"
+    },
+    {
+     "name": "Rain Sweeper",
+     "role": "attacker",
+     "tier": "nu",
+     "item": "ITEM_CHOICE_BAND",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_JOLLY",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_WAVE_CRASH",
+      "MOVE_FLIP_TURN",
+      "MOVE_LIQUIDATION",
+      "MOVE_PSYCHIC_FANGS"
+     ],
+     "source": "Smogon data.pkmn.cc (gen9 nu)",
+     "notes": "Liquidation/Aqua Jet; Psychic Fangs/Ice Fang"
+    },
+    {
+     "name": "All-out Attacker",
+     "role": "attacker",
+     "tier": "nu",
+     "item": "ITEM_MYSTIC_WATER",
+     "ability": "ABILITY_ADAPTABILITY",
+     "nature": "NATURE_ADAMANT",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_WAVE_CRASH",
+      "MOVE_FLIP_TURN",
+      "MOVE_AQUA_JET",
+      "MOVE_PSYCHIC_FANGS"
+     ],
+     "source": "Smogon data.pkmn.cc (gen9 nu)",
+     "notes": "Aqua Jet/Liquidation; Psychic Fangs/Ice Fang/Phantom Force"
+    },
+    {
+     "name": "Choice Band (Water)",
+     "role": "choice wallbreaker",
+     "tier": "monotype",
+     "item": "ITEM_CHOICE_BAND",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_JOLLY",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_WAVE_CRASH",
+      "MOVE_AQUA_JET",
+      "MOVE_PSYCHIC_FANGS",
+      "MOVE_LIQUIDATION"
+     ],
+     "source": "Smogon data.pkmn.cc (gen9 monotype)",
+     "notes": "Liquidation/Phantom Force"
+    },
+    {
+     "name": "Offensive",
+     "role": "attacker",
+     "tier": "battlestadiumsingles",
+     "item": "ITEM_CUSTAP_BERRY",
+     "ability": "ABILITY_ADAPTABILITY",
+     "nature": "NATURE_ADAMANT",
+     "evs": {
+      "hp": 28,
+      "atk": 252,
+      "def": 228,
+      "spatk": 0,
+      "spdef": 0,
+      "speed": 0
+     },
+     "moves": [
+      "MOVE_WAVE_CRASH",
+      "MOVE_AQUA_JET",
+      "MOVE_LAST_RESPECTS",
+      "MOVE_ENDURE"
+     ],
+     "source": "Smogon data.pkmn.cc (gen9 battlestadiumsingles)",
+     "notes": "Endure/Tera Blast/Flip Turn"
+    },
+    {
+     "name": "Swift Swim Sweeper",
+     "role": "attacker",
+     "tier": "battlestadiumsingles",
+     "item": "ITEM_LIFE_ORB",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_ADAMANT",
+     "evs": {
+      "hp": 4,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 0,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_WAVE_CRASH",
+      "MOVE_AQUA_JET",
+      "MOVE_LAST_RESPECTS",
+      "MOVE_SUBSTITUTE"
+     ],
+     "source": "Smogon data.pkmn.cc (gen9 battlestadiumsingles)",
+     "notes": "Substitute/Tera Blast/Head Smash"
+    },
+    {
+     "name": "Choice Scarf",
+     "role": "choice revenge killer",
+     "tier": "battlestadiumsingles",
+     "item": "ITEM_CHOICE_SCARF",
+     "ability": "ABILITY_ADAPTABILITY",
+     "nature": "NATURE_JOLLY",
+     "evs": {
+      "hp": 4,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 0,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_WAVE_CRASH",
+      "MOVE_LAST_RESPECTS",
+      "MOVE_FLIP_TURN",
+      "MOVE_HEAD_SMASH"
+     ],
+     "source": "Smogon data.pkmn.cc (gen9 battlestadiumsingles)",
+     "notes": "Head Smash/Aqua Jet/Tera Blast"
+    },
+    {
+     "name": "Agility",
+     "role": "setup sweeper",
+     "tier": "battlestadiumsingles",
+     "item": "ITEM_FOCUS_SASH",
+     "ability": "ABILITY_ADAPTABILITY",
+     "nature": "NATURE_ADAMANT",
+     "evs": {
+      "hp": 4,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 0,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_AGILITY",
+      "MOVE_LAST_RESPECTS",
+      "MOVE_WAVE_CRASH",
+      "MOVE_AQUA_JET"
+     ],
+     "source": "Smogon data.pkmn.cc (gen9 battlestadiumsingles)",
+     "notes": "Aqua Jet/Liquidation/Substitute"
+    }
+   ]
+  },
+  {
+   "species": "SPECIES_BASCULEGION_F",
+   "displayName": "Basculegion",
+   "tier": "altforme",
+   "sets": [
+    {
+     "name": "Choice Scarf",
+     "role": "choice revenge killer",
+     "tier": "uu",
+     "item": "ITEM_CHOICE_SCARF",
+     "ability": "ABILITY_ADAPTABILITY",
+     "nature": "NATURE_TIMID",
+     "evs": {
+      "hp": 0,
+      "atk": 0,
+      "def": 4,
+      "spatk": 252,
+      "spdef": 0,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_SHADOW_BALL",
+      "MOVE_SURF",
+      "MOVE_ICE_BEAM",
+      "MOVE_FLIP_TURN"
+     ],
+     "source": "Smogon data.pkmn.cc (gen9 uu)",
+     "notes": "Surf/Hydro Pump; Ice Beam/Hex"
+    },
+    {
+     "name": "Agility",
+     "role": "setup sweeper",
+     "tier": "ru",
+     "item": "ITEM_WEAKNESS_POLICY",
+     "ability": "ABILITY_ADAPTABILITY",
+     "nature": "NATURE_MODEST",
+     "evs": {
+      "hp": 0,
+      "atk": 0,
+      "def": 52,
+      "spatk": 236,
+      "spdef": 24,
+      "speed": 196
+     },
+     "moves": [
+      "MOVE_AGILITY",
+      "MOVE_SHADOW_BALL",
+      "MOVE_SURF",
+      "MOVE_ICE_BEAM"
+     ],
+     "source": "Smogon data.pkmn.cc (gen9 ru)",
+     "notes": ""
+    },
+    {
+     "name": "Swift Swim Wallbreaker (Water)",
+     "role": "wallbreaker",
+     "tier": "monotype",
+     "item": "ITEM_CHOICE_SPECS",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_MODEST",
+     "evs": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "spatk": 252,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_SHADOW_BALL",
+      "MOVE_SURF",
+      "MOVE_HYDRO_PUMP",
+      "MOVE_ICE_BEAM"
+     ],
+     "source": "Smogon data.pkmn.cc (gen9 monotype)",
+     "notes": ""
+    }
+   ]
+  },
+  {
+   "species": "SPECIES_DARMANITAN_STANDARD",
+   "displayName": "Darmanitan",
+   "tier": "altforme",
+   "sets": [
+    {
+     "name": "Choice Scarf",
+     "role": "choice revenge killer",
+     "tier": "uu",
+     "item": "ITEM_CHOICE_SCARF",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_JOLLY",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_FLARE_BLITZ",
+      "MOVE_U_TURN",
+      "MOVE_ROCK_SLIDE",
+      "MOVE_EARTHQUAKE"
+     ],
+     "source": "Smogon data.pkmn.cc (gen8 uu)",
+     "notes": ""
+    },
+    {
+     "name": "Physical Attacker",
+     "role": "attacker",
+     "tier": "uu",
+     "item": "ITEM_LIFE_ORB",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_JOLLY",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_FLARE_BLITZ",
+      "MOVE_ROCK_SLIDE",
+      "MOVE_SUPERPOWER",
+      "MOVE_U_TURN"
+     ],
+     "source": "Smogon data.pkmn.cc (gen5 uu)",
+     "notes": ""
+    }
+   ]
+  },
+  {
+   "species": "SPECIES_MEOWSTIC_M",
+   "displayName": "Meowstic",
+   "tier": "altforme",
+   "sets": [
+    {
+     "name": "Dual Screens Setter",
+     "role": "attacker",
+     "tier": "monotype",
+     "item": "ITEM_LIGHT_CLAY",
+     "ability": "ABILITY_PRANKSTER",
+     "nature": "NATURE_TIMID",
+     "evs": {
+      "hp": 248,
+      "atk": 0,
+      "def": 156,
+      "spatk": 0,
+      "spdef": 0,
+      "speed": 104
+     },
+     "moves": [
+      "MOVE_LIGHT_SCREEN",
+      "MOVE_REFLECT",
+      "MOVE_CHARM",
+      "MOVE_THUNDER_WAVE"
+     ],
+     "source": "Smogon data.pkmn.cc (gen9 monotype)",
+     "notes": "Thunder Wave/Yawn"
+    },
+    {
+     "name": "Dual Screens",
+     "role": "attacker",
+     "tier": "pu",
+     "item": "ITEM_LIGHT_CLAY",
+     "ability": "ABILITY_PRANKSTER",
+     "nature": "NATURE_BOLD",
+     "evs": {
+      "hp": 252,
+      "atk": 0,
+      "def": 252,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 0
+     },
+     "moves": [
+      "MOVE_REFLECT",
+      "MOVE_LIGHT_SCREEN",
+      "MOVE_YAWN",
+      "MOVE_PSYCHIC"
+     ],
+     "source": "Smogon data.pkmn.cc (gen7 pu)",
+     "notes": "Yawn/Thunder Wave"
+    },
+    {
+     "name": "Dual Screens",
+     "role": "attacker",
+     "tier": "ru",
+     "item": "ITEM_LIGHT_CLAY",
+     "ability": "ABILITY_PRANKSTER",
+     "nature": "NATURE_TIMID",
+     "evs": {
+      "hp": 248,
+      "atk": 0,
+      "def": 236,
+      "spatk": 0,
+      "spdef": 0,
+      "speed": 24
+     },
+     "moves": [
+      "MOVE_REFLECT",
+      "MOVE_LIGHT_SCREEN",
+      "MOVE_THUNDER_WAVE",
+      "MOVE_PSYSHOCK"
+     ],
+     "source": "Smogon data.pkmn.cc (gen6 ru)",
+     "notes": ""
+    },
+    {
+     "name": "Dual Screens",
+     "role": "attacker",
+     "tier": "pu",
+     "item": "ITEM_LIGHT_CLAY",
+     "ability": "ABILITY_PRANKSTER",
+     "nature": "NATURE_BOLD",
+     "evs": {
+      "hp": 252,
+      "atk": 0,
+      "def": 252,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 0
+     },
+     "moves": [
+      "MOVE_REFLECT",
+      "MOVE_LIGHT_SCREEN",
+      "MOVE_YAWN",
+      "MOVE_THUNDER_WAVE"
+     ],
+     "source": "Smogon data.pkmn.cc (gen6 pu)",
+     "notes": "Yawn/Thunder Wave; Thunder Wave/Psychic"
+    }
+   ]
+  },
+  {
+   "species": "SPECIES_MEOWSTIC_F",
+   "displayName": "Meowstic",
+   "tier": "altforme",
+   "sets": [
+    {
+     "name": "Competitive Sweeper",
+     "role": "attacker",
+     "tier": "pu",
+     "item": "ITEM_LIFE_ORB",
+     "ability": "ABILITY_COMPETITIVE",
+     "nature": "NATURE_TIMID",
+     "evs": {
+      "hp": 0,
+      "atk": 0,
+      "def": 4,
+      "spatk": 252,
+      "spdef": 0,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_PSYSHOCK",
+      "MOVE_SIGNAL_BEAM",
+      "MOVE_HIDDEN_POWER",
+      "MOVE_CALM_MIND"
+     ],
+     "source": "Smogon data.pkmn.cc (gen7 pu)",
+     "notes": "HP Ground"
+    },
+    {
+     "name": "Competitive(ly Terrible) Sweeper",
+     "role": "attacker",
+     "tier": "pu",
+     "item": "ITEM_LIFE_ORB",
+     "ability": "ABILITY_COMPETITIVE",
+     "nature": "NATURE_TIMID",
+     "evs": {
+      "hp": 0,
+      "atk": 0,
+      "def": 4,
+      "spatk": 252,
+      "spdef": 0,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_PSYCHIC",
+      "MOVE_HIDDEN_POWER",
+      "MOVE_SHADOW_BALL",
+      "MOVE_THUNDER_WAVE"
+     ],
+     "source": "Smogon data.pkmn.cc (gen6 pu)",
+     "notes": "HP Fighting; Thunder Wave/Substitute"
+    }
+   ]
+  },
+  {
+   "species": "SPECIES_ORICORIO_BAILE",
+   "displayName": "Oricorio",
+   "tier": "altforme",
+   "sets": [
+    {
+     "name": "Offensive Quiver Dance",
+     "role": "setup sweeper",
+     "tier": "pu",
+     "item": "ITEM_HEAVY_DUTY_BOOTS",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_TIMID",
+     "evs": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "spatk": 252,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_QUIVER_DANCE",
+      "MOVE_REVELATION_DANCE",
+      "MOVE_HURRICANE",
+      "MOVE_ROOST"
+     ],
+     "source": "Smogon data.pkmn.cc (gen9 pu)",
+     "notes": ""
+    },
+    {
+     "name": "Bulky Quiver Dance",
+     "role": "setup sweeper",
+     "tier": "pu",
+     "item": "ITEM_HEAVY_DUTY_BOOTS",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_TIMID",
+     "evs": {
+      "hp": 248,
+      "atk": 0,
+      "def": 0,
+      "spatk": 8,
+      "spdef": 0,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_QUIVER_DANCE",
+      "MOVE_REVELATION_DANCE",
+      "MOVE_TAUNT",
+      "MOVE_ROOST"
+     ],
+     "source": "Smogon data.pkmn.cc (gen9 pu)",
+     "notes": ""
+    }
+   ]
+  },
+  {
+   "species": "SPECIES_ORICORIO_POM_POM",
+   "displayName": "Oricorio",
+   "tier": "altforme",
+   "sets": [
+    {
+     "name": "Quiver Dance",
+     "role": "setup sweeper",
+     "tier": "uu",
+     "item": "ITEM_KEE_BERRY",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_MODEST",
+     "evs": {
+      "hp": 248,
+      "atk": 0,
+      "def": 0,
+      "spatk": 8,
+      "spdef": 0,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_QUIVER_DANCE",
+      "MOVE_REVELATION_DANCE",
+      "MOVE_AIR_SLASH",
+      "MOVE_ROOST"
+     ],
+     "source": "Smogon data.pkmn.cc (gen9 uu)",
+     "notes": "Revelation Dance/Taunt"
+    },
+    {
+     "name": "Stallbreaker",
+     "role": "wallbreaker",
+     "tier": "pu",
+     "item": "ITEM_LEFTOVERS",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_TIMID",
+     "evs": {
+      "hp": 252,
+      "atk": 0,
+      "def": 4,
+      "spatk": 0,
+      "spdef": 0,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_TOXIC",
+      "MOVE_TAUNT",
+      "MOVE_ROOST",
+      "MOVE_HURRICANE"
+     ],
+     "source": "Smogon data.pkmn.cc (gen7 pu)",
+     "notes": "Hurricane/Revelation Dance"
+    }
+   ]
+  },
+  {
+   "species": "SPECIES_ORICORIO_PAU",
+   "displayName": "Oricorio",
+   "tier": "altforme",
+   "sets": [
+    {
+     "name": "Quiver Dance",
+     "role": "setup sweeper",
+     "tier": "pu",
+     "item": "ITEM_HEAVY_DUTY_BOOTS",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_TIMID",
+     "evs": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "spatk": 252,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_QUIVER_DANCE",
+      "MOVE_HURRICANE",
+      "MOVE_REVELATION_DANCE",
+      "MOVE_ROOST"
+     ],
+     "source": "Smogon data.pkmn.cc (gen9 pu)",
+     "notes": "Hurricane/Air Slash; Revelation Dance/Taunt"
+    }
+   ]
+  },
+  {
+   "species": "SPECIES_ORICORIO_SENSU",
+   "displayName": "Oricorio",
+   "tier": "altforme",
+   "sets": [
+    {
+     "name": "Bulky Quiver Dance Sweeper",
+     "role": "setup sweeper",
+     "tier": "ru",
+     "item": "ITEM_HEAVY_DUTY_BOOTS",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_TIMID",
+     "evs": {
+      "hp": 248,
+      "atk": 0,
+      "def": 216,
+      "spatk": 0,
+      "spdef": 0,
+      "speed": 44
+     },
+     "moves": [
+      "MOVE_REVELATION_DANCE",
+      "MOVE_QUIVER_DANCE",
+      "MOVE_ROOST",
+      "MOVE_TAUNT"
+     ],
+     "source": "Smogon data.pkmn.cc (gen9 ru)",
+     "notes": "Revelation Dance/Air Slash/Hurricane"
+    }
+   ]
+  },
+  {
+   "species": "SPECIES_LYCANROC_MIDDAY",
+   "displayName": "Lycanroc",
+   "tier": "altforme",
+   "sets": [
+    {
+     "name": "Lead",
+     "role": "hazard lead",
+     "tier": "ru",
+     "item": "ITEM_FOCUS_SASH",
+     "ability": "ABILITY_STEADFAST",
+     "nature": "NATURE_JOLLY",
+     "evs": {
+      "hp": 0,
+      "atk": 212,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 44,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_STEALTH_ROCK",
+      "MOVE_TAUNT",
+      "MOVE_ENDEAVOR",
+      "MOVE_ACCELEROCK"
+     ],
+     "source": "Smogon data.pkmn.cc (gen9 ru)",
+     "notes": ""
+    },
+    {
+     "name": "Entry Hazard Lead",
+     "role": "defensive / utility",
+     "tier": "pu",
+     "item": "ITEM_FOCUS_SASH",
+     "ability": "ABILITY_STEADFAST",
+     "nature": "NATURE_JOLLY",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 0,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_STEALTH_ROCK",
+      "MOVE_TAUNT",
+      "MOVE_ENDEAVOR",
+      "MOVE_ROCK_BLAST"
+     ],
+     "source": "Smogon data.pkmn.cc (gen9 pu)",
+     "notes": "Rock Blast/Accelerock"
+    },
+    {
+     "name": "Choice Band",
+     "role": "choice wallbreaker",
+     "tier": "monotype",
+     "item": "ITEM_CHOICE_BAND",
+     "ability": "ABILITY_SAND_RUSH",
+     "nature": "NATURE_JOLLY",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 4,
+      "spatk": 0,
+      "spdef": 0,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_STONE_EDGE",
+      "MOVE_CLOSE_COMBAT",
+      "MOVE_ACCELEROCK",
+      "MOVE_PLAY_ROUGH"
+     ],
+     "source": "Smogon data.pkmn.cc (gen9 monotype)",
+     "notes": "Accelerock/Psychic Fangs"
+    },
+    {
+     "name": "Sand Sweeper",
+     "role": "attacker",
+     "tier": "ru",
+     "item": "ITEM_LIFE_ORB",
+     "ability": "ABILITY_SAND_RUSH",
+     "nature": "NATURE_ADAMANT",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_SWORDS_DANCE",
+      "MOVE_STONE_EDGE",
+      "MOVE_CLOSE_COMBAT",
+      "MOVE_ACCELEROCK"
+     ],
+     "source": "Smogon data.pkmn.cc (gen8 ru)",
+     "notes": ""
+    },
+    {
+     "name": "Sand Rush Sweeper",
+     "role": "attacker",
+     "tier": "nu",
+     "item": "ITEM_LIFE_ORB",
+     "ability": "ABILITY_SAND_RUSH",
+     "nature": "NATURE_ADAMANT",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_SWORDS_DANCE",
+      "MOVE_STONE_EDGE",
+      "MOVE_CLOSE_COMBAT",
+      "MOVE_PSYCHIC_FANGS"
+     ],
+     "source": "Smogon data.pkmn.cc (gen8 nu)",
+     "notes": "Psychic Fangs/Accelerock"
+    },
+    {
+     "name": "All-out Attacker",
+     "role": "attacker",
+     "tier": "pu",
+     "item": "ITEM_LIFE_ORB",
+     "ability": "ABILITY_SAND_RUSH",
+     "nature": "NATURE_JOLLY",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 4,
+      "spatk": 0,
+      "spdef": 0,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_STONE_EDGE",
+      "MOVE_CLOSE_COMBAT",
+      "MOVE_PSYCHIC_FANGS",
+      "MOVE_ACCELEROCK"
+     ],
+     "source": "Smogon data.pkmn.cc (gen8 pu)",
+     "notes": "Psychic Fangs/Crunch"
+    },
+    {
+     "name": "Lead",
+     "role": "hazard lead",
+     "tier": "anythinggoes",
+     "item": "ITEM_FOCUS_SASH",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_NAIVE",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 0,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_STEALTH_ROCK",
+      "MOVE_TAUNT",
+      "MOVE_ROCK_TOMB",
+      "MOVE_ENDEAVOR"
+     ],
+     "source": "Smogon data.pkmn.cc (gen8 anythinggoes)",
+     "notes": ""
+    }
+   ]
+  },
+  {
+   "species": "SPECIES_LYCANROC_MIDNIGHT",
+   "displayName": "Lycanroc",
+   "tier": "altforme",
+   "sets": [
+    {
+     "name": "Choice Scarf",
+     "role": "choice revenge killer",
+     "tier": "pu",
+     "item": "ITEM_CHOICE_SCARF",
+     "ability": "ABILITY_NO_GUARD",
+     "nature": "NATURE_ADAMANT",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 4,
+      "spatk": 0,
+      "spdef": 0,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_STONE_EDGE",
+      "MOVE_FIRE_PUNCH",
+      "MOVE_STOMPING_TANTRUM",
+      "MOVE_TOXIC"
+     ],
+     "source": "Smogon data.pkmn.cc (gen7 pu)",
+     "notes": ""
+    }
+   ]
+  },
+  {
+   "species": "SPECIES_LYCANROC_DUSK",
+   "displayName": "Lycanroc",
+   "tier": "altforme",
+   "sets": [
+    {
+     "name": "All-Out Attacker",
+     "role": "attacker",
+     "tier": "ru",
+     "item": "ITEM_CHOICE_BAND",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_JOLLY",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_ACCELEROCK",
+      "MOVE_STONE_EDGE",
+      "MOVE_CLOSE_COMBAT",
+      "MOVE_CRUNCH"
+     ],
+     "source": "Smogon data.pkmn.cc (gen9 ru)",
+     "notes": ""
+    },
+    {
+     "name": "Swords Dance",
+     "role": "setup sweeper",
+     "tier": "ru",
+     "item": "ITEM_LIFE_ORB",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_JOLLY",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_SWORDS_DANCE",
+      "MOVE_CLOSE_COMBAT",
+      "MOVE_STONE_EDGE",
+      "MOVE_ACCELEROCK"
+     ],
+     "source": "Smogon data.pkmn.cc (gen9 ru)",
+     "notes": "Accelerock/Sucker Punch"
+    },
+    {
+     "name": "Choice Band (Rock)",
+     "role": "choice wallbreaker",
+     "tier": "monotype",
+     "item": "ITEM_CHOICE_BAND",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_JOLLY",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_STONE_EDGE",
+      "MOVE_ACCELEROCK",
+      "MOVE_CLOSE_COMBAT",
+      "MOVE_PSYCHIC_FANGS"
+     ],
+     "source": "Smogon data.pkmn.cc (gen9 monotype)",
+     "notes": "Psychic Fangs/Play Rough"
+    },
+    {
+     "name": "Focus Sash",
+     "role": "attacker",
+     "tier": "battlestadiumsingles",
+     "item": "ITEM_FOCUS_SASH",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_JOLLY",
+     "evs": {
+      "hp": 4,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 0,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_ACCELEROCK",
+      "MOVE_COUNTER",
+      "MOVE_CLOSE_COMBAT",
+      "MOVE_STEALTH_ROCK"
+     ],
+     "source": "Smogon data.pkmn.cc (gen8 battlestadiumsingles)",
+     "notes": "Stealth Rock/Endeavor/Swords Dance"
+    },
+    {
+     "name": "Swords Dance",
+     "role": "setup sweeper",
+     "tier": "ru",
+     "item": "ITEM_LIFE_ORB",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_JOLLY",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 4,
+      "spatk": 0,
+      "spdef": 0,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_SWORDS_DANCE",
+      "MOVE_STONE_EDGE",
+      "MOVE_FIRE_FANG",
+      "MOVE_SUCKER_PUNCH"
+     ],
+     "source": "Smogon data.pkmn.cc (gen7 ru)",
+     "notes": "Fire Fang/Drill Run; Sucker Punch/Accelerock"
+    }
+   ]
+  },
+  {
+   "species": "SPECIES_TOXTRICITY_AMPED",
+   "displayName": "Toxtricity",
+   "tier": "altforme",
+   "sets": [
+    {
+     "name": "Choice Specs",
+     "role": "choice wallbreaker",
+     "tier": "ru",
+     "item": "ITEM_CHOICE_SPECS",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_MODEST",
+     "evs": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "spatk": 252,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_BOOMBURST",
+      "MOVE_OVERDRIVE",
+      "MOVE_SLUDGE_WAVE",
+      "MOVE_VOLT_SWITCH"
+     ],
+     "source": "Smogon data.pkmn.cc (gen9 ru)",
+     "notes": "Sludge Wave/Snarl"
+    },
+    {
+     "name": "Shift Gear",
+     "role": "attacker",
+     "tier": "ru",
+     "item": "ITEM_THROAT_SPRAY",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_MODEST",
+     "evs": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "spatk": 252,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_SHIFT_GEAR",
+      "MOVE_BOOMBURST",
+      "MOVE_OVERDRIVE",
+      "MOVE_SLUDGE_WAVE"
+     ],
+     "source": "Smogon data.pkmn.cc (gen9 ru)",
+     "notes": "Sludge Wave/Toxic Spikes"
+    },
+    {
+     "name": "Entry Hazard Support (Electric)",
+     "role": "defensive / utility",
+     "tier": "monotype",
+     "item": "ITEM_HEAVY_DUTY_BOOTS",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_TIMID",
+     "evs": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "spatk": 252,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_TOXIC_SPIKES",
+      "MOVE_SLUDGE_BOMB",
+      "MOVE_BOOMBURST",
+      "MOVE_VOLT_SWITCH"
+     ],
+     "source": "Smogon data.pkmn.cc (gen9 monotype)",
+     "notes": ""
+    },
+    {
+     "name": "Offensive",
+     "role": "attacker",
+     "tier": "uu",
+     "item": "ITEM_SILK_SCARF",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_MODEST",
+     "evs": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "spatk": 252,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_OVERDRIVE",
+      "MOVE_BOOMBURST",
+      "MOVE_VOLT_SWITCH",
+      "MOVE_SHIFT_GEAR"
+     ],
+     "source": "Smogon data.pkmn.cc (gen8 uu)",
+     "notes": "Shift Gear/Sleep Talk/Sludge Wave"
+    },
+    {
+     "name": "Choice Specs",
+     "role": "choice wallbreaker",
+     "tier": "ru",
+     "item": "ITEM_CHOICE_SPECS",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_MODEST",
+     "evs": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "spatk": 252,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_BOOMBURST",
+      "MOVE_OVERDRIVE",
+      "MOVE_VOLT_SWITCH",
+      "MOVE_SNARL"
+     ],
+     "source": "Smogon data.pkmn.cc (gen8 ru)",
+     "notes": ""
+    }
+   ]
+  },
+  {
+   "species": "SPECIES_TOXTRICITY_LOW_KEY",
+   "displayName": "Toxtricity",
+   "tier": "altforme",
+   "sets": []
+  },
+  {
+   "species": "SPECIES_EISCUE_ICE",
+   "displayName": "Eiscue",
+   "tier": "altforme",
+   "sets": []
+  },
+  {
+   "species": "SPECIES_INDEEDEE_M",
+   "displayName": "Indeedee",
+   "tier": "altforme",
+   "sets": [
+    {
+     "name": "Terrain Setter",
+     "role": "attacker",
+     "tier": "ou",
+     "item": "ITEM_TERRAIN_EXTENDER",
+     "ability": "ABILITY_PSYCHIC_SURGE",
+     "nature": "NATURE_BOLD",
+     "evs": {
+      "hp": 252,
+      "atk": 0,
+      "def": 252,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 0
+     },
+     "moves": [
+      "MOVE_EXPANDING_FORCE",
+      "MOVE_ENCORE",
+      "MOVE_HEALING_WISH",
+      "MOVE_TRICK_ROOM"
+     ],
+     "source": "Smogon data.pkmn.cc (gen9 ou)",
+     "notes": "Trick Room/Dazzling Gleam"
+    },
+    {
+     "name": "Terrain Setter",
+     "role": "attacker",
+     "tier": "uu",
+     "item": "ITEM_TERRAIN_EXTENDER",
+     "ability": "ABILITY_PSYCHIC_SURGE",
+     "nature": "NATURE_TIMID",
+     "evs": {
+      "hp": 252,
+      "atk": 0,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_EXPANDING_FORCE",
+      "MOVE_DAZZLING_GLEAM",
+      "MOVE_HEALING_WISH",
+      "MOVE_ENCORE"
+     ],
+     "source": "Smogon data.pkmn.cc (gen9 uu)",
+     "notes": ""
+    },
+    {
+     "name": "Choice Scarf (Normal)",
+     "role": "choice revenge killer",
+     "tier": "monotype",
+     "item": "ITEM_CHOICE_SCARF",
+     "ability": "ABILITY_PSYCHIC_SURGE",
+     "nature": "NATURE_TIMID",
+     "evs": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "spatk": 252,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_EXPANDING_FORCE",
+      "MOVE_DAZZLING_GLEAM",
+      "MOVE_TRICK",
+      "MOVE_HEALING_WISH"
+     ],
+     "source": "Smogon data.pkmn.cc (gen9 monotype)",
+     "notes": "Trick/Shadow Ball"
+    },
+    {
+     "name": "Choice Scarf Support",
+     "role": "choice revenge killer",
+     "tier": "battlestadiumsingles",
+     "item": "ITEM_CHOICE_SCARF",
+     "ability": "ABILITY_PSYCHIC_SURGE",
+     "nature": "NATURE_TIMID",
+     "evs": {
+      "hp": 4,
+      "atk": 0,
+      "def": 0,
+      "spatk": 252,
+      "spdef": 0,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_EXPANDING_FORCE",
+      "MOVE_DAZZLING_GLEAM",
+      "MOVE_SHADOW_BALL",
+      "MOVE_TRICK"
+     ],
+     "source": "Smogon data.pkmn.cc (gen9 battlestadiumsingles)",
+     "notes": "Shadow Ball/Encore/Healing Wish; Trick/Healing Wish"
+    },
+    {
+     "name": "Choice Specs",
+     "role": "choice wallbreaker",
+     "tier": "ru",
+     "item": "ITEM_CHOICE_SPECS",
+     "ability": "ABILITY_PSYCHIC_SURGE",
+     "nature": "NATURE_TIMID",
+     "evs": {
+      "hp": 0,
+      "atk": 0,
+      "def": 4,
+      "spatk": 252,
+      "spdef": 0,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_EXPANDING_FORCE",
+      "MOVE_MYSTICAL_FIRE",
+      "MOVE_HYPER_VOICE",
+      "MOVE_TRICK"
+     ],
+     "source": "Smogon data.pkmn.cc (gen8 ru)",
+     "notes": "Mystical Fire/Shadow Ball; Trick/Dazzling Gleam"
+    },
+    {
+     "name": "Wallbreaker (Normal)",
+     "role": "wallbreaker",
+     "tier": "monotype",
+     "item": "ITEM_CHOICE_SPECS",
+     "ability": "ABILITY_PSYCHIC_SURGE",
+     "nature": "NATURE_MODEST",
+     "evs": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "spatk": 252,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_EXPANDING_FORCE",
+      "MOVE_MYSTICAL_FIRE",
+      "MOVE_DAZZLING_GLEAM",
+      "MOVE_SHADOW_BALL"
+     ],
+     "source": "Smogon data.pkmn.cc (gen8 monotype)",
+     "notes": ""
+    }
+   ]
+  },
+  {
+   "species": "SPECIES_INDEEDEE_F",
+   "displayName": "Indeedee",
+   "tier": "altforme",
+   "sets": [
+    {
+     "name": "Terrain Setter",
+     "role": "attacker",
+     "tier": "pu",
+     "item": "ITEM_TERRAIN_EXTENDER",
+     "ability": "ABILITY_PSYCHIC_SURGE",
+     "nature": "NATURE_TIMID",
+     "evs": {
+      "hp": 252,
+      "atk": 0,
+      "def": 0,
+      "spatk": 4,
+      "spdef": 0,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_HEALING_WISH",
+      "MOVE_PSYCHIC",
+      "MOVE_REFLECT",
+      "MOVE_ALLURING_VOICE"
+     ],
+     "source": "Smogon data.pkmn.cc (gen9 pu)",
+     "notes": "Psychic/Psyshock"
+    },
+    {
+     "name": "Follow Me Support",
+     "role": "defensive / utility",
+     "tier": "partnersincrime",
+     "item": "ITEM_SAFETY_GOGGLES",
+     "ability": "ABILITY_PSYCHIC_SURGE",
+     "nature": "NATURE_BOLD",
+     "evs": {
+      "hp": 244,
+      "atk": 0,
+      "def": 252,
+      "spatk": 0,
+      "spdef": 12,
+      "speed": 0
+     },
+     "moves": [
+      "MOVE_PSYCHIC",
+      "MOVE_FOLLOW_ME",
+      "MOVE_TRICK_ROOM",
+      "MOVE_HELPING_HAND"
+     ],
+     "source": "Smogon data.pkmn.cc (gen9 partnersincrime)",
+     "notes": "Helping Hand/Imprison"
+    }
+   ]
+  },
+  {
+   "species": "SPECIES_OINKOLOGNE_M",
+   "displayName": "Oinkologne",
+   "tier": "altforme",
+   "sets": []
+  },
+  {
+   "species": "SPECIES_OINKOLOGNE_F",
+   "displayName": "Oinkologne",
+   "tier": "altforme",
+   "sets": []
+  },
+  {
+   "species": "SPECIES_PALAFIN_ZERO",
+   "displayName": "Palafin",
+   "tier": "altforme",
+   "sets": [
+    {
+     "name": "Choice Band",
+     "role": "choice wallbreaker",
+     "tier": "ubers",
+     "item": "ITEM_CHOICE_BAND",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_ADAMANT",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 4,
+      "spatk": 0,
+      "spdef": 0,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_JET_PUNCH",
+      "MOVE_FLIP_TURN",
+      "MOVE_WAVE_CRASH",
+      "MOVE_ZEN_HEADBUTT"
+     ],
+     "source": "Smogon data.pkmn.cc (gen9 ubers)",
+     "notes": "Wave Crash/Close Combat; Zen Headbutt/Ice Punch"
+    },
+    {
+     "name": "Bulk Up",
+     "role": "setup sweeper",
+     "tier": "ubers",
+     "item": "ITEM_LEFTOVERS",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_CAREFUL",
+     "evs": {
+      "hp": 248,
+      "atk": 8,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 252,
+      "speed": 0
+     },
+     "moves": [
+      "MOVE_JET_PUNCH",
+      "MOVE_BULK_UP",
+      "MOVE_DRAIN_PUNCH",
+      "MOVE_TAUNT"
+     ],
+     "source": "Smogon data.pkmn.cc (gen9 ubers)",
+     "notes": ""
+    },
+    {
+     "name": "Encore",
+     "role": "attacker",
+     "tier": "ubersuu",
+     "item": "ITEM_MYSTIC_WATER",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_ADAMANT",
+     "evs": {
+      "hp": 160,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 0,
+      "speed": 96
+     },
+     "moves": [
+      "MOVE_JET_PUNCH",
+      "MOVE_WAVE_CRASH",
+      "MOVE_FLIP_TURN",
+      "MOVE_ENCORE"
+     ],
+     "source": "Smogon data.pkmn.cc (gen9 ubersuu)",
+     "notes": ""
+    },
+    {
+     "name": "Choice Band",
+     "role": "choice wallbreaker",
+     "tier": "ubersuu",
+     "item": "ITEM_CHOICE_BAND",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_ADAMANT",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_CLOSE_COMBAT",
+      "MOVE_JET_PUNCH",
+      "MOVE_WAVE_CRASH",
+      "MOVE_FLIP_TURN"
+     ],
+     "source": "Smogon data.pkmn.cc (gen9 ubersuu)",
+     "notes": "Close Combat/Ice Punch"
+    },
+    {
+     "name": "Bulk Up",
+     "role": "setup sweeper",
+     "tier": "ubersuu",
+     "item": "ITEM_LEFTOVERS",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_JOLLY",
+     "evs": {
+      "hp": 248,
+      "atk": 0,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 176,
+      "speed": 84
+     },
+     "moves": [
+      "MOVE_BULK_UP",
+      "MOVE_JET_PUNCH",
+      "MOVE_DRAIN_PUNCH",
+      "MOVE_SUBSTITUTE"
+     ],
+     "source": "Smogon data.pkmn.cc (gen9 ubersuu)",
+     "notes": "Substitute/Taunt"
+    },
+    {
+     "name": "This looks like a job for Palafin",
+     "role": "attacker",
+     "tier": "battlestadiumsingles",
+     "item": "ITEM_CHOICE_BAND",
+     "ability": "ABILITY_NONE",
+     "nature": "NATURE_ADAMANT",
+     "evs": {
+      "hp": 4,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 0,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_JET_PUNCH",
+      "MOVE_WAVE_CRASH",
+      "MOVE_FLIP_TURN",
+      "MOVE_ICE_PUNCH"
+     ],
+     "source": "Smogon data.pkmn.cc (gen9 battlestadiumsingles)",
+     "notes": "Ice Punch/Close Combat/Drain Punch"
+    }
+   ]
+  }
+ ]
+}

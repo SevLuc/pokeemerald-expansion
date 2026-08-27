@@ -1,0 +1,789 @@
+{
+ "_meta": {
+  "batch": "Mega Evolutions (rental-mode only)",
+  "source": "Smogon data.pkmn.cc"
+ },
+ "pokemon": [
+  {
+   "species": "SPECIES_ABOMASNOW_MEGA",
+   "displayName": "Abomasnow Mega",
+   "tier": "mega",
+   "sets": []
+  },
+  {
+   "species": "SPECIES_ABSOL_MEGA",
+   "displayName": "Absol Mega",
+   "tier": "mega",
+   "sets": []
+  },
+  {
+   "species": "SPECIES_ABSOL_MEGA_Z",
+   "displayName": "Absol Mega Z",
+   "tier": "mega",
+   "sets": []
+  },
+  {
+   "species": "SPECIES_AERODACTYL_MEGA",
+   "displayName": "Aerodactyl Mega",
+   "tier": "mega",
+   "sets": [
+    {
+     "name": "Offensive Entry Hazard Setter (Flying)",
+     "role": "defensive / utility",
+     "tier": "monotype",
+     "item": "ITEM_AERODACTYLITE",
+     "ability": "ABILITY_PRESSURE",
+     "nature": "NATURE_JOLLY",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 4,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_STONE_EDGE",
+      "MOVE_ICE_FANG",
+      "MOVE_PURSUIT",
+      "MOVE_STEALTH_ROCK"
+     ],
+     "source": "Smogon data.pkmn.cc (gen6 monotype)",
+     "notes": "Stealth Rock/Roost/Taunt"
+    }
+   ]
+  },
+  {
+   "species": "SPECIES_AGGRON_MEGA",
+   "displayName": "Aggron Mega",
+   "tier": "mega",
+   "sets": []
+  },
+  {
+   "species": "SPECIES_ALAKAZAM_MEGA",
+   "displayName": "Alakazam Mega",
+   "tier": "mega",
+   "sets": []
+  },
+  {
+   "species": "SPECIES_ALTARIA_MEGA",
+   "displayName": "Altaria Mega",
+   "tier": "mega",
+   "sets": []
+  },
+  {
+   "species": "SPECIES_AMPHAROS_MEGA",
+   "displayName": "Ampharos Mega",
+   "tier": "mega",
+   "sets": [
+    {
+     "name": "Special Attacker",
+     "role": "attacker",
+     "tier": "ru",
+     "item": "ITEM_AMPHAROSITE",
+     "ability": "ABILITY_STATIC",
+     "nature": "NATURE_MODEST",
+     "evs": {
+      "hp": 4,
+      "atk": 0,
+      "def": 0,
+      "spatk": 252,
+      "spdef": 0,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_VOLT_SWITCH",
+      "MOVE_DRAGON_PULSE",
+      "MOVE_FOCUS_BLAST",
+      "MOVE_THUNDERBOLT"
+     ],
+     "source": "Smogon data.pkmn.cc (gen7 ru)",
+     "notes": ""
+    }
+   ]
+  },
+  {
+   "species": "SPECIES_AUDINO_MEGA",
+   "displayName": "Audino Mega",
+   "tier": "mega",
+   "sets": []
+  },
+  {
+   "species": "SPECIES_BANETTE_MEGA",
+   "displayName": "Banette Mega",
+   "tier": "mega",
+   "sets": [
+    {
+     "name": "Offensive",
+     "role": "attacker",
+     "tier": "ru",
+     "item": "ITEM_BANETTITE",
+     "ability": "ABILITY_FRISK",
+     "nature": "NATURE_ADAMANT",
+     "evs": {
+      "hp": 40,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 0,
+      "speed": 216
+     },
+     "moves": [
+      "MOVE_DESTINY_BOND",
+      "MOVE_SHADOW_CLAW",
+      "MOVE_GUNK_SHOT",
+      "MOVE_TAUNT"
+     ],
+     "source": "Smogon data.pkmn.cc (gen7 ru)",
+     "notes": "Taunt/Knock Off"
+    },
+    {
+     "name": "Offensive",
+     "role": "attacker",
+     "tier": "ru",
+     "item": "ITEM_BANETTITE",
+     "ability": "ABILITY_INSOMNIA",
+     "nature": "NATURE_ADAMANT",
+     "evs": {
+      "hp": 228,
+      "atk": 252,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 0,
+      "speed": 28
+     },
+     "moves": [
+      "MOVE_KNOCK_OFF",
+      "MOVE_WILL_O_WISP",
+      "MOVE_SHADOW_CLAW",
+      "MOVE_SHADOW_SNEAK"
+     ],
+     "source": "Smogon data.pkmn.cc (gen6 ru)",
+     "notes": "Shadow Sneak/Sucker Punch/Destiny Bond"
+    }
+   ]
+  },
+  {
+   "species": "SPECIES_BARBARACLE_MEGA",
+   "displayName": "Barbaracle Mega",
+   "tier": "mega",
+   "sets": []
+  },
+  {
+   "species": "SPECIES_BAXCALIBUR_MEGA",
+   "displayName": "Baxcalibur Mega",
+   "tier": "mega",
+   "sets": []
+  },
+  {
+   "species": "SPECIES_BEEDRILL_MEGA",
+   "displayName": "Beedrill Mega",
+   "tier": "mega",
+   "sets": []
+  },
+  {
+   "species": "SPECIES_BLASTOISE_MEGA",
+   "displayName": "Blastoise Mega",
+   "tier": "mega",
+   "sets": [
+    {
+     "name": "Offensive Spinner",
+     "role": "defensive / utility",
+     "tier": "ru",
+     "item": "ITEM_BLASTOISINITE",
+     "ability": "ABILITY_RAIN_DISH",
+     "nature": "NATURE_TIMID",
+     "evs": {
+      "hp": 0,
+      "atk": 0,
+      "def": 4,
+      "spatk": 252,
+      "spdef": 0,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_RAPID_SPIN",
+      "MOVE_DARK_PULSE",
+      "MOVE_AURA_SPHERE",
+      "MOVE_ICE_BEAM"
+     ],
+     "source": "Smogon data.pkmn.cc (gen7 ru)",
+     "notes": ""
+    }
+   ]
+  },
+  {
+   "species": "SPECIES_BLAZIKEN_MEGA",
+   "displayName": "Blaziken Mega",
+   "tier": "mega",
+   "sets": []
+  },
+  {
+   "species": "SPECIES_CAMERUPT_MEGA",
+   "displayName": "Camerupt Mega",
+   "tier": "mega",
+   "sets": [
+    {
+     "name": "Tank",
+     "role": "defensive / utility",
+     "tier": "ru",
+     "item": "ITEM_CAMERUPTITE",
+     "ability": "ABILITY_SOLID_ROCK",
+     "nature": "NATURE_MODEST",
+     "evs": {
+      "hp": 248,
+      "atk": 0,
+      "def": 0,
+      "spatk": 176,
+      "spdef": 0,
+      "speed": 84
+     },
+     "moves": [
+      "MOVE_FIRE_BLAST",
+      "MOVE_EARTH_POWER",
+      "MOVE_STEALTH_ROCK",
+      "MOVE_TOXIC"
+     ],
+     "source": "Smogon data.pkmn.cc (gen6 ru)",
+     "notes": "Toxic/Hidden Power Ice"
+    }
+   ]
+  },
+  {
+   "species": "SPECIES_CHANDELURE_MEGA",
+   "displayName": "Chandelure Mega",
+   "tier": "mega",
+   "sets": []
+  },
+  {
+   "species": "SPECIES_CHARIZARD_MEGA_X",
+   "displayName": "Charizard Mega X",
+   "tier": "mega",
+   "sets": []
+  },
+  {
+   "species": "SPECIES_CHARIZARD_MEGA_Y",
+   "displayName": "Charizard Mega Y",
+   "tier": "mega",
+   "sets": []
+  },
+  {
+   "species": "SPECIES_CHESNAUGHT_MEGA",
+   "displayName": "Chesnaught Mega",
+   "tier": "mega",
+   "sets": []
+  },
+  {
+   "species": "SPECIES_CHIMECHO_MEGA",
+   "displayName": "Chimecho Mega",
+   "tier": "mega",
+   "sets": []
+  },
+  {
+   "species": "SPECIES_CLEFABLE_MEGA",
+   "displayName": "Clefable Mega",
+   "tier": "mega",
+   "sets": []
+  },
+  {
+   "species": "SPECIES_CRABOMINABLE_MEGA",
+   "displayName": "Crabominable Mega",
+   "tier": "mega",
+   "sets": []
+  },
+  {
+   "species": "SPECIES_DARKRAI_MEGA",
+   "displayName": "Darkrai Mega",
+   "tier": "mega-restricted",
+   "sets": []
+  },
+  {
+   "species": "SPECIES_DELPHOX_MEGA",
+   "displayName": "Delphox Mega",
+   "tier": "mega",
+   "sets": []
+  },
+  {
+   "species": "SPECIES_DIANCIE_MEGA",
+   "displayName": "Diancie Mega",
+   "tier": "mega-restricted",
+   "sets": []
+  },
+  {
+   "species": "SPECIES_DRAGALGE_MEGA",
+   "displayName": "Dragalge Mega",
+   "tier": "mega",
+   "sets": []
+  },
+  {
+   "species": "SPECIES_DRAGONITE_MEGA",
+   "displayName": "Dragonite Mega",
+   "tier": "mega",
+   "sets": []
+  },
+  {
+   "species": "SPECIES_DRAMPA_MEGA",
+   "displayName": "Drampa Mega",
+   "tier": "mega",
+   "sets": []
+  },
+  {
+   "species": "SPECIES_EELEKTROSS_MEGA",
+   "displayName": "Eelektross Mega",
+   "tier": "mega",
+   "sets": []
+  },
+  {
+   "species": "SPECIES_EMBOAR_MEGA",
+   "displayName": "Emboar Mega",
+   "tier": "mega",
+   "sets": []
+  },
+  {
+   "species": "SPECIES_EXCADRILL_MEGA",
+   "displayName": "Excadrill Mega",
+   "tier": "mega",
+   "sets": []
+  },
+  {
+   "species": "SPECIES_FALINKS_MEGA",
+   "displayName": "Falinks Mega",
+   "tier": "mega",
+   "sets": []
+  },
+  {
+   "species": "SPECIES_FERALIGATR_MEGA",
+   "displayName": "Feraligatr Mega",
+   "tier": "mega",
+   "sets": []
+  },
+  {
+   "species": "SPECIES_FLOETTE_MEGA",
+   "displayName": "Floette Mega",
+   "tier": "mega",
+   "sets": []
+  },
+  {
+   "species": "SPECIES_FROSLASS_MEGA",
+   "displayName": "Froslass Mega",
+   "tier": "mega",
+   "sets": []
+  },
+  {
+   "species": "SPECIES_GALLADE_MEGA",
+   "displayName": "Gallade Mega",
+   "tier": "mega",
+   "sets": []
+  },
+  {
+   "species": "SPECIES_GARCHOMP_MEGA",
+   "displayName": "Garchomp Mega",
+   "tier": "mega",
+   "sets": []
+  },
+  {
+   "species": "SPECIES_GARCHOMP_MEGA_Z",
+   "displayName": "Garchomp Mega Z",
+   "tier": "mega",
+   "sets": []
+  },
+  {
+   "species": "SPECIES_GARDEVOIR_MEGA",
+   "displayName": "Gardevoir Mega",
+   "tier": "mega",
+   "sets": []
+  },
+  {
+   "species": "SPECIES_GENGAR_MEGA",
+   "displayName": "Gengar Mega",
+   "tier": "mega",
+   "sets": []
+  },
+  {
+   "species": "SPECIES_GLALIE_MEGA",
+   "displayName": "Glalie Mega",
+   "tier": "mega",
+   "sets": [
+    {
+     "name": "Wallbreaker",
+     "role": "wallbreaker",
+     "tier": "ru",
+     "item": "ITEM_GLALITITE",
+     "ability": "ABILITY_INNER_FOCUS",
+     "nature": "NATURE_NAIVE",
+     "evs": {
+      "hp": 0,
+      "atk": 252,
+      "def": 4,
+      "spatk": 0,
+      "spdef": 0,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_DOUBLE_EDGE",
+      "MOVE_FREEZE_DRY",
+      "MOVE_ICE_SHARD",
+      "MOVE_SPIKES"
+     ],
+     "source": "Smogon data.pkmn.cc (gen6 ru)",
+     "notes": "Double-Edge/Return; Spikes/Earthquake/Explosion"
+    }
+   ]
+  },
+  {
+   "species": "SPECIES_GLIMMORA_MEGA",
+   "displayName": "Glimmora Mega",
+   "tier": "mega",
+   "sets": []
+  },
+  {
+   "species": "SPECIES_GOLISOPOD_MEGA",
+   "displayName": "Golisopod Mega",
+   "tier": "mega",
+   "sets": []
+  },
+  {
+   "species": "SPECIES_GOLURK_MEGA",
+   "displayName": "Golurk Mega",
+   "tier": "mega",
+   "sets": []
+  },
+  {
+   "species": "SPECIES_GRENINJA_MEGA",
+   "displayName": "Greninja Mega",
+   "tier": "mega",
+   "sets": []
+  },
+  {
+   "species": "SPECIES_GYARADOS_MEGA",
+   "displayName": "Gyarados Mega",
+   "tier": "mega",
+   "sets": []
+  },
+  {
+   "species": "SPECIES_HAWLUCHA_MEGA",
+   "displayName": "Hawlucha Mega",
+   "tier": "mega",
+   "sets": []
+  },
+  {
+   "species": "SPECIES_HEATRAN_MEGA",
+   "displayName": "Heatran Mega",
+   "tier": "mega-restricted",
+   "sets": []
+  },
+  {
+   "species": "SPECIES_HERACROSS_MEGA",
+   "displayName": "Heracross Mega",
+   "tier": "mega",
+   "sets": []
+  },
+  {
+   "species": "SPECIES_HOUNDOOM_MEGA",
+   "displayName": "Houndoom Mega",
+   "tier": "mega",
+   "sets": []
+  },
+  {
+   "species": "SPECIES_KANGASKHAN_MEGA",
+   "displayName": "Kangaskhan Mega",
+   "tier": "mega",
+   "sets": []
+  },
+  {
+   "species": "SPECIES_LATIAS_MEGA",
+   "displayName": "Latias Mega",
+   "tier": "mega-restricted",
+   "sets": []
+  },
+  {
+   "species": "SPECIES_LATIOS_MEGA",
+   "displayName": "Latios Mega",
+   "tier": "mega-restricted",
+   "sets": []
+  },
+  {
+   "species": "SPECIES_LOPUNNY_MEGA",
+   "displayName": "Lopunny Mega",
+   "tier": "mega",
+   "sets": []
+  },
+  {
+   "species": "SPECIES_LUCARIO_MEGA",
+   "displayName": "Lucario Mega",
+   "tier": "mega",
+   "sets": []
+  },
+  {
+   "species": "SPECIES_LUCARIO_MEGA_Z",
+   "displayName": "Lucario Mega Z",
+   "tier": "mega",
+   "sets": []
+  },
+  {
+   "species": "SPECIES_MAGEARNA_ORIGINAL_MEGA",
+   "displayName": "Magearna (Original) Mega",
+   "tier": "mega-restricted",
+   "sets": []
+  },
+  {
+   "species": "SPECIES_MAGEARNA_MEGA",
+   "displayName": "Magearna Mega",
+   "tier": "mega-restricted",
+   "sets": []
+  },
+  {
+   "species": "SPECIES_MALAMAR_MEGA",
+   "displayName": "Malamar Mega",
+   "tier": "mega",
+   "sets": []
+  },
+  {
+   "species": "SPECIES_MANECTRIC_MEGA",
+   "displayName": "Manectric Mega",
+   "tier": "mega",
+   "sets": []
+  },
+  {
+   "species": "SPECIES_MAWILE_MEGA",
+   "displayName": "Mawile Mega",
+   "tier": "mega",
+   "sets": []
+  },
+  {
+   "species": "SPECIES_MEDICHAM_MEGA",
+   "displayName": "Medicham Mega",
+   "tier": "mega",
+   "sets": []
+  },
+  {
+   "species": "SPECIES_MEGANIUM_MEGA",
+   "displayName": "Meganium Mega",
+   "tier": "mega",
+   "sets": []
+  },
+  {
+   "species": "SPECIES_MEOWSTIC_F_MEGA",
+   "displayName": "Meowstic (F) Mega",
+   "tier": "mega",
+   "sets": []
+  },
+  {
+   "species": "SPECIES_MEOWSTIC_M_MEGA",
+   "displayName": "Meowstic (M) Mega",
+   "tier": "mega",
+   "sets": []
+  },
+  {
+   "species": "SPECIES_METAGROSS_MEGA",
+   "displayName": "Metagross Mega",
+   "tier": "mega",
+   "sets": []
+  },
+  {
+   "species": "SPECIES_MEWTWO_MEGA_X",
+   "displayName": "Mewtwo Mega X",
+   "tier": "mega-restricted",
+   "sets": []
+  },
+  {
+   "species": "SPECIES_MEWTWO_MEGA_Y",
+   "displayName": "Mewtwo Mega Y",
+   "tier": "mega-restricted",
+   "sets": []
+  },
+  {
+   "species": "SPECIES_PIDGEOT_MEGA",
+   "displayName": "Pidgeot Mega",
+   "tier": "mega",
+   "sets": []
+  },
+  {
+   "species": "SPECIES_PINSIR_MEGA",
+   "displayName": "Pinsir Mega",
+   "tier": "mega",
+   "sets": []
+  },
+  {
+   "species": "SPECIES_PYROAR_MEGA",
+   "displayName": "Pyroar Mega",
+   "tier": "mega",
+   "sets": []
+  },
+  {
+   "species": "SPECIES_RAICHU_MEGA_X",
+   "displayName": "Raichu Mega X",
+   "tier": "mega",
+   "sets": []
+  },
+  {
+   "species": "SPECIES_RAICHU_MEGA_Y",
+   "displayName": "Raichu Mega Y",
+   "tier": "mega",
+   "sets": []
+  },
+  {
+   "species": "SPECIES_RAYQUAZA_MEGA",
+   "displayName": "Rayquaza Mega",
+   "tier": "mega-restricted",
+   "sets": []
+  },
+  {
+   "species": "SPECIES_SABLEYE_MEGA",
+   "displayName": "Sableye Mega",
+   "tier": "mega",
+   "sets": []
+  },
+  {
+   "species": "SPECIES_SALAMENCE_MEGA",
+   "displayName": "Salamence Mega",
+   "tier": "mega",
+   "sets": []
+  },
+  {
+   "species": "SPECIES_SCEPTILE_MEGA",
+   "displayName": "Sceptile Mega",
+   "tier": "mega",
+   "sets": [
+    {
+     "name": "Leech Seed + Protect",
+     "role": "attacker",
+     "tier": "ru",
+     "item": "ITEM_SCEPTILITE",
+     "ability": "ABILITY_OVERGROW",
+     "nature": "NATURE_TIMID",
+     "evs": {
+      "hp": 0,
+      "atk": 0,
+      "def": 4,
+      "spatk": 252,
+      "spdef": 0,
+      "speed": 252
+     },
+     "moves": [
+      "MOVE_LEAF_STORM",
+      "MOVE_DRAGON_PULSE",
+      "MOVE_PROTECT",
+      "MOVE_LEECH_SEED"
+     ],
+     "source": "Smogon data.pkmn.cc (gen7 ru)",
+     "notes": ""
+    }
+   ]
+  },
+  {
+   "species": "SPECIES_SCIZOR_MEGA",
+   "displayName": "Scizor Mega",
+   "tier": "mega",
+   "sets": []
+  },
+  {
+   "species": "SPECIES_SCOLIPEDE_MEGA",
+   "displayName": "Scolipede Mega",
+   "tier": "mega",
+   "sets": []
+  },
+  {
+   "species": "SPECIES_SCOVILLAIN_MEGA",
+   "displayName": "Scovillain Mega",
+   "tier": "mega",
+   "sets": []
+  },
+  {
+   "species": "SPECIES_SCRAFTY_MEGA",
+   "displayName": "Scrafty Mega",
+   "tier": "mega",
+   "sets": []
+  },
+  {
+   "species": "SPECIES_SHARPEDO_MEGA",
+   "displayName": "Sharpedo Mega",
+   "tier": "mega",
+   "sets": []
+  },
+  {
+   "species": "SPECIES_SKARMORY_MEGA",
+   "displayName": "Skarmory Mega",
+   "tier": "mega",
+   "sets": []
+  },
+  {
+   "species": "SPECIES_SLOWBRO_MEGA",
+   "displayName": "Slowbro Mega",
+   "tier": "mega",
+   "sets": []
+  },
+  {
+   "species": "SPECIES_STARAPTOR_MEGA",
+   "displayName": "Staraptor Mega",
+   "tier": "mega",
+   "sets": []
+  },
+  {
+   "species": "SPECIES_STARMIE_MEGA",
+   "displayName": "Starmie Mega",
+   "tier": "mega",
+   "sets": []
+  },
+  {
+   "species": "SPECIES_STEELIX_MEGA",
+   "displayName": "Steelix Mega",
+   "tier": "mega",
+   "sets": []
+  },
+  {
+   "species": "SPECIES_SWAMPERT_MEGA",
+   "displayName": "Swampert Mega",
+   "tier": "mega",
+   "sets": []
+  },
+  {
+   "species": "SPECIES_TATSUGIRI_CURLY_MEGA",
+   "displayName": "Tatsugiri (Curly) Mega",
+   "tier": "mega",
+   "sets": []
+  },
+  {
+   "species": "SPECIES_TATSUGIRI_DROOPY_MEGA",
+   "displayName": "Tatsugiri (Droopy) Mega",
+   "tier": "mega",
+   "sets": []
+  },
+  {
+   "species": "SPECIES_TATSUGIRI_STRETCHY_MEGA",
+   "displayName": "Tatsugiri (Stretchy) Mega",
+   "tier": "mega",
+   "sets": []
+  },
+  {
+   "species": "SPECIES_TYRANITAR_MEGA",
+   "displayName": "Tyranitar Mega",
+   "tier": "mega",
+   "sets": []
+  },
+  {
+   "species": "SPECIES_VENUSAUR_MEGA",
+   "displayName": "Venusaur Mega",
+   "tier": "mega",
+   "sets": []
+  },
+  {
+   "species": "SPECIES_VICTREEBEL_MEGA",
+   "displayName": "Victreebel Mega",
+   "tier": "mega",
+   "sets": []
+  },
+  {
+   "species": "SPECIES_ZERAORA_MEGA",
+   "displayName": "Zeraora Mega",
+   "tier": "mega-restricted",
+   "sets": []
+  },
+  {
+   "species": "SPECIES_ZYGARDE_MEGA",
+   "displayName": "Zygarde Mega",
+   "tier": "mega-restricted",
+   "sets": []
+  }
+ ]
+}
