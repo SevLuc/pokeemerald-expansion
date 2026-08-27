@@ -97,11 +97,30 @@ resizing of existing fields).
    with correct movesets and Hidden Power showing its real type.
 4. Win/lose returns you to the menu or lobby without corrupting a story save.
 
-## Decisions I need from you
+## Decisions
 
-1. **How real should M2's boot be?** (see Decision 1 below)
+1. **How real should M2's boot be? DECIDED - full save profile now.** M2 builds
+   the real persistent rental profile (own name/gender, a persistent save of the
+   run, load/resume), not a throwaway stub. Because this touches the save core,
+   the exact save design gets its own approval gate below before any code.
 2. Everything else (menu label, which attendant, how the stub battle is wired) I
    will handle as engineering calls unless you want a say.
+
+## Save-profile design (pending research + your approval)
+
+"Save profile" has two readings that differ hugely in effort and risk:
+- **Own region in the single save file (recommended, pending confirmation):** the
+  mode stores its own persistent data (name/gender for the mode, current run,
+  streak, roster) inside the existing save, loadable from the menu without
+  needing or disturbing the story save. Delivers persistence + own identity +
+  resume + no-story-required, with far less save-core risk.
+- **A fully separate second save file/slot:** a large rewrite of the GBA save
+  architecture (sector allocation, slot rotation, load/verify), and riskier for
+  save stability.
+
+I am mapping the save system now and will present the concrete design (which
+sectors/struct, how the menu loads it, name/gender flow, resume) for your OK
+before writing any save code.
 
 Deferred, unchanged from the plan's section 9: run length/scoring, AI flags,
 doubles lead order, scout transparency.
