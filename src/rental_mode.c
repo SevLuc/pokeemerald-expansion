@@ -85,6 +85,9 @@ void RentalRun_Begin(u8 format, u8 restrictedCap)
     gRentalRun.rosterCount = 0;
     gRentalRun.bringCount = (format == RENTAL_FORMAT_DOUBLES) ? 4 : 3;
     GenerateRentalOffer();
+    // Roll the opponent up front so it can be shown in team preview before the player
+    // picks which of their six to bring. The battle uses this same team.
+    GenerateRentalOpponent();
 }
 
 bool32 RentalRoster_TryAdd(u32 offerSlot)
@@ -166,6 +169,29 @@ void GenerateRentalOpponent(void)
     }
 
     gRentalRun.oppRosterCount = count;
+}
+
+static const u8 sText_RentalComma[] = _(", ");
+
+// Script special: buffer the species names of the opponent's fielded team into
+// gStringVar1 (comma-separated) for a team-preview message before the player picks
+// which mons to bring.
+void BufferRentalOpponentPreview(void)
+{
+    u32 i;
+    u32 n = gRentalRun.bringCount;
+
+    if (n == 0 || n > gRentalRun.oppRosterCount)
+        n = gRentalRun.oppRosterCount;
+    if (n == 0)
+        return;
+
+    StringCopy(gStringVar1, GetSpeciesName(gRentalMons[gRentalRun.oppRoster[0]].species));
+    for (i = 1; i < n; i++)
+    {
+        StringAppend(gStringVar1, sText_RentalComma);
+        StringAppend(gStringVar1, GetSpeciesName(gRentalMons[gRentalRun.oppRoster[i]].species));
+    }
 }
 
 // Script special: start a run and open the draft screen. Format/cap are hardcoded to

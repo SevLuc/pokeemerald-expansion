@@ -139,8 +139,8 @@ void DoSpecialTrainerBattle(void)
         // needed here, so HandleSpecialTrainerBattleEnd falls through to the field.
         u32 i;
         u32 fieldCount;
-        GenerateRentalOpponent();
-        // The opponent fields bringCount mons (3 in singles), matching the player's
+        // The opponent was already rolled in RentalRun_Begin (so team preview could
+        // show it). It fields bringCount mons (3 in singles), matching the player's
         // brought team, drawn from the front of its generated roster.
         fieldCount = gRentalRun.bringCount;
         if (fieldCount == 0 || fieldCount > gRentalRun.oppRosterCount)
