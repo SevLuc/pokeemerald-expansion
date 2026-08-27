@@ -692,7 +692,15 @@
       "MOVE_WORK_UP"
      ],
      "source": "Run & Bun",
-     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
+     "notes": "HP Ice (defaulted; source unspecified); EVs inferred (source lists moves/item/nature/ability only)",
+     "ivs": {
+      "hp": 31,
+      "atk": 31,
+      "def": 31,
+      "speed": 30,
+      "spatk": 31,
+      "spdef": 31
+     }
     },
     {
      "name": "Run & Bun set (Lv.91)",
@@ -1122,7 +1130,7 @@
      "tier": "run-and-bun",
      "item": "ITEM_LIGHT_CLAY",
      "ability": "ABILITY_UNNERVE",
-     "nature": "NATURE_BOLD",
+     "nature": "NATURE_ADAMANT",
      "evs": {
       "hp": 252,
       "atk": 0,
@@ -1177,7 +1185,7 @@
      "tier": "monotype",
      "item": "ITEM_LIGHT_CLAY",
      "ability": "ABILITY_FRISK",
-     "nature": "NATURE_TIMID",
+     "nature": "NATURE_JOLLY",
      "evs": {
       "hp": 252,
       "atk": 0,
@@ -1224,7 +1232,7 @@
      "role": "defensive / utility",
      "tier": "run-and-bun",
      "item": "ITEM_LUM_BERRY",
-     "ability": "ABILITY_COMPOUND_EYES",
+     "ability": "ABILITY_SWARM",
      "nature": "NATURE_TIMID",
      "evs": {
       "hp": 252,
@@ -1747,7 +1755,7 @@
      "tier": "monotype",
      "item": "ITEM_HEAVY_DUTY_BOOTS",
      "ability": "ABILITY_FLAME_BODY",
-     "nature": "NATURE_BOLD",
+     "nature": "NATURE_ADAMANT",
      "evs": {
       "hp": 252,
       "atk": 0,
@@ -1962,7 +1970,15 @@
       "MOVE_DRAGON_DANCE"
      ],
      "source": "Run & Bun",
-     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
+     "notes": "HP Ice (defaulted; source unspecified); EVs inferred (source lists moves/item/nature/ability only)",
+     "ivs": {
+      "hp": 31,
+      "atk": 31,
+      "def": 31,
+      "speed": 30,
+      "spatk": 31,
+      "spdef": 31
+     }
     },
     {
      "name": "Run & Bun set (Lv.61)",

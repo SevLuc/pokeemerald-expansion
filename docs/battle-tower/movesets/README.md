@@ -29,6 +29,7 @@ Per-Pokemon competitive movesets for the rental Battle Tower mode. See
       "ability": "ABILITY_ROUGH_SKIN",
       "nature": "NATURE_JOLLY",
       "evs": {"hp":0,"atk":252,"def":0,"spatk":0,"spdef":4,"speed":252},
+      "ivs": {},                         // only present on Hidden Power sets (see below)
       "moves": ["MOVE_SWORDS_DANCE","MOVE_SCALE_SHOT","MOVE_EARTHQUAKE","MOVE_FIRE_FANG"],
       "source": "Smogon data.pkmn.cc (gen9 ou)",
       "notes": "Fire Fang/Dragon Tail"   // slashed alternatives + Hidden Power type
@@ -55,6 +56,21 @@ Emerald Kaizo interleaved so both hacks are represented):
 **Every move / item / ability / nature constant is validated against this
 build's own headers** (0 unresolved). EVs use the 6-key
 HP/Atk/Def/SpAtk/SpDef/Speed format.
+
+### Hidden Power (IVs matter)
+This build derives Hidden Power's **type from IVs** (`B_HIDDEN_POWER_DMG` fixes
+only its base power to 60; the type is still IV-based). So every set that runs
+Hidden Power carries an `ivs` object with the exact 30/31 spread that yields the
+intended type in this build (computed from the game's own formula). The type is
+also stated in `notes` (e.g. "HP Fire"). Where a source listed Hidden Power
+without a type, the set defaults to HP Ice and says so in `notes`.
+
+### QA pass
+A validation pass ran over every set: illegal abilities (an ability the species
+can't legally have in this build, e.g. hack-doc quirks like Weavile "Inner
+Focus") were replaced with the species' default ability; natures that opposed a
+set's damage category were corrected; duplicate moves and fully-identical sets
+were removed. Legitimate hidden abilities (e.g. Venusaur Chlorophyll) are kept.
 
 ### Caveats on the hack sets
 - The Run & Bun / Emerald Kaizo docs list moves, item, nature and (R&B only)

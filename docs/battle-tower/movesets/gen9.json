@@ -1658,7 +1658,7 @@
      "name": "Stealth Rock Lead",
      "role": "hazard lead",
      "item": "ITEM_LEFTOVERS",
-     "ability": "ABILITY_ANGER_POINT",
+     "ability": "ABILITY_ANGER_SHELL",
      "nature": "NATURE_IMPISH",
      "evs": {
       "hp": 252,
@@ -2292,7 +2292,7 @@
      "tier": "ru",
      "item": "ITEM_ASSAULT_VEST",
      "ability": "ABILITY_REGENERATOR",
-     "nature": "NATURE_TIMID",
+     "nature": "NATURE_JOLLY",
      "evs": {
       "hp": 104,
       "atk": 0,
@@ -3338,7 +3338,7 @@
      "role": "attacker",
      "tier": "inheritance",
      "item": "ITEM_HEAVY_DUTY_BOOTS",
-     "ability": "ABILITY_TECHNICIAN",
+     "ability": "ABILITY_THERMAL_EXCHANGE",
      "nature": "NATURE_ADAMANT",
      "evs": {
       "hp": 0,
@@ -3513,7 +3513,7 @@
      "role": "attacker",
      "tier": "inheritance",
      "item": "ITEM_LEFTOVERS",
-     "ability": "ABILITY_LEVITATE",
+     "ability": "ABILITY_GOOD_AS_GOLD",
      "nature": "NATURE_BOLD",
      "evs": {
       "hp": 252,
@@ -3537,7 +3537,7 @@
      "role": "hazard lead",
      "tier": "inheritance",
      "item": "ITEM_LEFTOVERS",
-     "ability": "ABILITY_INFILTRATOR",
+     "ability": "ABILITY_GOOD_AS_GOLD",
      "nature": "NATURE_BOLD",
      "evs": {
       "hp": 252,
@@ -3561,7 +3561,7 @@
      "role": "sub attacker",
      "tier": "inheritance",
      "item": "ITEM_LEFTOVERS",
-     "ability": "ABILITY_FUR_COAT",
+     "ability": "ABILITY_GOOD_AS_GOLD",
      "nature": "NATURE_MODEST",
      "evs": {
       "hp": 252,

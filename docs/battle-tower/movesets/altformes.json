@@ -374,7 +374,15 @@
       "MOVE_HIDDEN_POWER"
      ],
      "source": "Emerald Kaizo",
-     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
+     "notes": "HP Ice (defaulted; source unspecified); EVs inferred (source lists moves/item/nature/ability only)",
+     "ivs": {
+      "hp": 31,
+      "atk": 31,
+      "def": 31,
+      "speed": 30,
+      "spatk": 31,
+      "spdef": 31
+     }
     },
     {
      "name": "Emerald Kaizo set (Lv.74)",
@@ -382,7 +390,7 @@
      "tier": "emerald-kaizo",
      "item": "ITEM_QUICK_CLAW",
      "ability": "ABILITY_NONE",
-     "nature": "NATURE_JOLLY",
+     "nature": "NATURE_TIMID",
      "evs": {
       "hp": 0,
       "atk": 0,
@@ -430,7 +438,7 @@
      "tier": "emerald-kaizo",
      "item": "ITEM_LUM_BERRY",
      "ability": "ABILITY_NONE",
-     "nature": "NATURE_ADAMANT",
+     "nature": "NATURE_MODEST",
      "evs": {
       "hp": 0,
       "atk": 0,
@@ -525,7 +533,15 @@
       "MOVE_HIDDEN_POWER"
      ],
      "source": "Smogon data.pkmn.cc (gen7 pu)",
-     "notes": "HP Ground"
+     "notes": "HP Ground",
+     "ivs": {
+      "hp": 31,
+      "atk": 31,
+      "def": 31,
+      "speed": 31,
+      "spatk": 30,
+      "spdef": 30
+     }
     },
     {
      "name": "Drag Worm",
@@ -549,7 +565,15 @@
       "MOVE_HIDDEN_POWER"
      ],
      "source": "Smogon data.pkmn.cc (gen6 pu)",
-     "notes": "HP Rock"
+     "notes": "HP Rock",
+     "ivs": {
+      "hp": 31,
+      "atk": 31,
+      "def": 30,
+      "speed": 30,
+      "spatk": 31,
+      "spdef": 30
+     }
     },
     {
      "name": "Wall",
@@ -597,7 +621,15 @@
       "MOVE_HIDDEN_POWER"
      ],
      "source": "Smogon data.pkmn.cc (gen4 uu)",
-     "notes": "Signal Beam/Energy Ball; Hidden Power Rock/Hidden Power Ice; HP Rock"
+     "notes": "Signal Beam/Energy Ball; Hidden Power Rock/Hidden Power Ice; HP Rock",
+     "ivs": {
+      "hp": 31,
+      "atk": 31,
+      "def": 30,
+      "speed": 30,
+      "spatk": 31,
+      "spdef": 30
+     }
     },
     {
      "name": "Run & Bun set (Lv.70)",
@@ -1050,7 +1082,15 @@
       "MOVE_NASTY_PLOT"
      ],
      "source": "Run & Bun",
-     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
+     "notes": "HP Ice (defaulted; source unspecified); EVs inferred (source lists moves/item/nature/ability only)",
+     "ivs": {
+      "hp": 31,
+      "atk": 31,
+      "def": 31,
+      "speed": 30,
+      "spatk": 31,
+      "spdef": 31
+     }
     }
    ]
   },
@@ -1424,7 +1464,15 @@
       "MOVE_THUNDERBOLT"
      ],
      "source": "Smogon data.pkmn.cc (gen5 ru)",
-     "notes": "HP Fire"
+     "notes": "HP Fire",
+     "ivs": {
+      "hp": 31,
+      "atk": 31,
+      "def": 30,
+      "speed": 30,
+      "spatk": 30,
+      "spdef": 31
+     }
     },
     {
      "name": "Choice Scarf",
@@ -1448,7 +1496,15 @@
       "MOVE_TRICK"
      ],
      "source": "Smogon data.pkmn.cc (gen4 ou)",
-     "notes": "Shadow Ball/Overheat/Hydro Pump/Leaf Storm; Hidden Power Ice/Will-O-Wisp; HP Ice; Trick/Hidden Power Ice"
+     "notes": "Shadow Ball/Overheat/Hydro Pump/Leaf Storm; Hidden Power Ice/Will-O-Wisp; HP Ice; Trick/Hidden Power Ice",
+     "ivs": {
+      "hp": 31,
+      "atk": 31,
+      "def": 31,
+      "speed": 30,
+      "spatk": 31,
+      "spdef": 31
+     }
     },
     {
      "name": "Defensive",
@@ -1575,7 +1631,15 @@
       "MOVE_WILL_O_WISP"
      ],
      "source": "Smogon data.pkmn.cc (gen6 nu)",
-     "notes": "Volt Switch/Thunderbolt; Hidden Power Water/Hidden Power Grass; HP Water"
+     "notes": "Volt Switch/Thunderbolt; Hidden Power Water/Hidden Power Grass; HP Water",
+     "ivs": {
+      "hp": 31,
+      "atk": 31,
+      "def": 31,
+      "speed": 30,
+      "spatk": 30,
+      "spdef": 31
+     }
     },
     {
      "name": "Choice Scarf",
@@ -1623,7 +1687,15 @@
       "MOVE_WILL_O_WISP"
      ],
      "source": "Smogon data.pkmn.cc (gen6 pu)",
-     "notes": "Thunderbolt/Volt Switch; HP Water"
+     "notes": "Thunderbolt/Volt Switch; HP Water",
+     "ivs": {
+      "hp": 31,
+      "atk": 31,
+      "def": 31,
+      "speed": 30,
+      "spatk": 30,
+      "spdef": 31
+     }
     },
     {
      "name": "Support",
@@ -1671,7 +1743,15 @@
       "MOVE_TRICK"
      ],
      "source": "Smogon data.pkmn.cc (gen5 ru)",
-     "notes": "Volt Switch/Thunderbolt; HP Grass; Trick/Thunderbolt"
+     "notes": "Volt Switch/Thunderbolt; HP Grass; Trick/Thunderbolt",
+     "ivs": {
+      "hp": 31,
+      "atk": 31,
+      "def": 30,
+      "speed": 31,
+      "spatk": 30,
+      "spdef": 31
+     }
     },
     {
      "name": "Substitute + Charge Beam",
@@ -1695,7 +1775,15 @@
       "MOVE_HIDDEN_POWER"
      ],
      "source": "Smogon data.pkmn.cc (gen5 ru)",
-     "notes": "HP Ice"
+     "notes": "HP Ice",
+     "ivs": {
+      "hp": 31,
+      "atk": 31,
+      "def": 31,
+      "speed": 30,
+      "spatk": 31,
+      "spdef": 31
+     }
     },
     {
      "name": "SubSplit",
@@ -1719,7 +1807,15 @@
       "MOVE_HIDDEN_POWER"
      ],
      "source": "Smogon data.pkmn.cc (gen5 ru)",
-     "notes": "Hidden Power Ice/Air Slash; HP Ice"
+     "notes": "Hidden Power Ice/Air Slash; HP Ice",
+     "ivs": {
+      "hp": 31,
+      "atk": 31,
+      "def": 31,
+      "speed": 30,
+      "spatk": 31,
+      "spdef": 31
+     }
     },
     {
      "name": "Run & Bun set (Lv.35)",
@@ -2014,7 +2110,15 @@
       "MOVE_THUNDER_WAVE"
      ],
      "source": "Run & Bun",
-     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
+     "notes": "HP Ice (defaulted; source unspecified); EVs inferred (source lists moves/item/nature/ability only)",
+     "ivs": {
+      "hp": 31,
+      "atk": 31,
+      "def": 31,
+      "speed": 30,
+      "spatk": 31,
+      "spdef": 31
+     }
     }
    ]
   },
@@ -2625,7 +2729,15 @@
       "MOVE_CALM_MIND"
      ],
      "source": "Smogon data.pkmn.cc (gen7 pu)",
-     "notes": "HP Ground"
+     "notes": "HP Ground",
+     "ivs": {
+      "hp": 31,
+      "atk": 31,
+      "def": 31,
+      "speed": 31,
+      "spatk": 30,
+      "spdef": 30
+     }
     },
     {
      "name": "Competitive(ly Terrible) Sweeper",
@@ -2649,7 +2761,15 @@
       "MOVE_THUNDER_WAVE"
      ],
      "source": "Smogon data.pkmn.cc (gen6 pu)",
-     "notes": "HP Fighting; Thunder Wave/Substitute"
+     "notes": "HP Fighting; Thunder Wave/Substitute",
+     "ivs": {
+      "hp": 31,
+      "atk": 31,
+      "def": 30,
+      "speed": 30,
+      "spatk": 30,
+      "spdef": 30
+     }
     }
    ]
   },
@@ -2910,7 +3030,15 @@
       "MOVE_CALM_MIND"
      ],
      "source": "Run & Bun",
-     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
+     "notes": "HP Ice (defaulted; source unspecified); EVs inferred (source lists moves/item/nature/ability only)",
+     "ivs": {
+      "hp": 31,
+      "atk": 31,
+      "def": 31,
+      "speed": 30,
+      "spatk": 31,
+      "spdef": 31
+     }
     }
    ]
   },
@@ -3569,7 +3697,15 @@
       "MOVE_SUBSTITUTE"
      ],
      "source": "Run & Bun",
-     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
+     "notes": "HP Ice (defaulted; source unspecified); EVs inferred (source lists moves/item/nature/ability only)",
+     "ivs": {
+      "hp": 31,
+      "atk": 31,
+      "def": 31,
+      "speed": 30,
+      "spatk": 31,
+      "spdef": 31
+     }
     },
     {
      "name": "Run & Bun set (Lv.32)",

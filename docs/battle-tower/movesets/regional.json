@@ -1531,7 +1531,7 @@
      "role": "attacker",
      "tier": "inheritance",
      "item": "ITEM_ASSAULT_VEST",
-     "ability": "ABILITY_REGENERATOR",
+     "ability": "ABILITY_POISON_TOUCH",
      "nature": "NATURE_SASSY",
      "evs": {
       "hp": 252,
@@ -2434,7 +2434,7 @@
      "role": "attacker",
      "tier": "inheritance",
      "item": "ITEM_LIFE_ORB",
-     "ability": "ABILITY_SCRAPPY",
+     "ability": "ABILITY_DEFIANT",
      "nature": "NATURE_JOLLY",
      "evs": {
       "hp": 0,
@@ -2458,7 +2458,7 @@
      "role": "defensive / utility",
      "tier": "inheritance",
      "item": "ITEM_LEFTOVERS",
-     "ability": "ABILITY_SCRAPPY",
+     "ability": "ABILITY_DEFIANT",
      "nature": "NATURE_CAREFUL",
      "evs": {
       "hp": 252,
@@ -2482,7 +2482,7 @@
      "role": "special tank",
      "tier": "inheritance",
      "item": "ITEM_CHOICE_BAND",
-     "ability": "ABILITY_TINTED_LENS",
+     "ability": "ABILITY_DEFIANT",
      "nature": "NATURE_JOLLY",
      "evs": {
       "hp": 0,
@@ -3697,7 +3697,7 @@
      "role": "attacker",
      "tier": "inheritance",
      "item": "ITEM_ASSAULT_VEST",
-     "ability": "ABILITY_REGENERATOR",
+     "ability": "ABILITY_SAP_SIPPER",
      "nature": "NATURE_SASSY",
      "evs": {
       "hp": 252,

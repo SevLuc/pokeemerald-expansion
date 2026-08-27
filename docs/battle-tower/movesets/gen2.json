@@ -111,7 +111,7 @@
      "tier": "uu",
      "item": "ITEM_LEFTOVERS",
      "ability": "ABILITY_NONE",
-     "nature": "NATURE_BOLD",
+     "nature": "NATURE_ADAMANT",
      "evs": {
       "hp": 252,
       "atk": 0,
@@ -151,7 +151,15 @@
       "MOVE_SYNTHESIS"
      ],
      "source": "Smogon data.pkmn.cc (gen3 ru)",
-     "notes": "Hidden Power Flying/Hidden Power Rock; HP Flying; Synthesis/Substitute/Ancient Power"
+     "notes": "Hidden Power Flying/Hidden Power Rock; HP Flying; Synthesis/Substitute/Ancient Power",
+     "ivs": {
+      "hp": 31,
+      "atk": 31,
+      "def": 31,
+      "speed": 30,
+      "spatk": 30,
+      "spdef": 30
+     }
     },
     {
      "name": "Defensive",
@@ -159,7 +167,7 @@
      "tier": "ru",
      "item": "ITEM_LEFTOVERS",
      "ability": "ABILITY_NONE",
-     "nature": "NATURE_BOLD",
+     "nature": "NATURE_ADAMANT",
      "evs": {
       "hp": 252,
       "atk": 0,
@@ -230,7 +238,7 @@
      "role": "setup sweeper",
      "tier": "run-and-bun",
      "item": "ITEM_MIRACLE_SEED",
-     "ability": "ABILITY_THICK_FAT",
+     "ability": "ABILITY_OVERGROW",
      "nature": "NATURE_JOLLY",
      "evs": {
       "hp": 0,
@@ -343,7 +351,15 @@
       "MOVE_HIDDEN_POWER"
      ],
      "source": "Emerald Kaizo",
-     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
+     "notes": "HP Ice (defaulted; source unspecified); EVs inferred (source lists moves/item/nature/ability only)",
+     "ivs": {
+      "hp": 31,
+      "atk": 31,
+      "def": 31,
+      "speed": 30,
+      "spatk": 31,
+      "spdef": 31
+     }
     }
    ]
   },
@@ -374,7 +390,15 @@
       "MOVE_HIDDEN_POWER"
      ],
      "source": "Smogon data.pkmn.cc (gen7 nu)",
-     "notes": "Flamethrower/Fire Blast; HP Grass"
+     "notes": "Flamethrower/Fire Blast; HP Grass",
+     "ivs": {
+      "hp": 31,
+      "atk": 31,
+      "def": 30,
+      "speed": 31,
+      "spatk": 30,
+      "spdef": 31
+     }
     },
     {
      "name": "Choice Specs",
@@ -398,7 +422,15 @@
       "MOVE_FOCUS_BLAST"
      ],
      "source": "Smogon data.pkmn.cc (gen6 ru)",
-     "notes": "HP Grass"
+     "notes": "HP Grass",
+     "ivs": {
+      "hp": 31,
+      "atk": 31,
+      "def": 30,
+      "speed": 31,
+      "spatk": 30,
+      "spdef": 31
+     }
     },
     {
      "name": "Choice Scarf",
@@ -422,7 +454,15 @@
       "MOVE_HIDDEN_POWER"
      ],
      "source": "Smogon data.pkmn.cc (gen5 ru)",
-     "notes": "HP Rock"
+     "notes": "HP Rock",
+     "ivs": {
+      "hp": 31,
+      "atk": 31,
+      "def": 30,
+      "speed": 30,
+      "spatk": 31,
+      "spdef": 30
+     }
     },
     {
      "name": "Sunny Day",
@@ -446,7 +486,15 @@
       "MOVE_HIDDEN_POWER"
      ],
      "source": "Smogon data.pkmn.cc (gen5 ru)",
-     "notes": "HP Rock"
+     "notes": "HP Rock",
+     "ivs": {
+      "hp": 31,
+      "atk": 31,
+      "def": 30,
+      "speed": 30,
+      "spatk": 31,
+      "spdef": 30
+     }
     },
     {
      "name": "Choice Specs",
@@ -470,7 +518,15 @@
       "MOVE_FIRE_BLAST"
      ],
      "source": "Smogon data.pkmn.cc (gen4 uu)",
-     "notes": "Overheat/Eruption; Hidden Power Grass/Hidden Power Rock; HP Grass; Fire Blast/Flamethrower"
+     "notes": "Overheat/Eruption; Hidden Power Grass/Hidden Power Rock; HP Grass; Fire Blast/Flamethrower",
+     "ivs": {
+      "hp": 31,
+      "atk": 31,
+      "def": 30,
+      "speed": 31,
+      "spatk": 30,
+      "spdef": 31
+     }
     },
     {
      "name": "Special Sweeper",
@@ -494,7 +550,15 @@
       "MOVE_HIDDEN_POWER"
      ],
      "source": "Smogon data.pkmn.cc (gen3 ou)",
-     "notes": "Hidden Power Grass/Thunder Punch; HP Grass"
+     "notes": "Hidden Power Grass/Thunder Punch; HP Grass",
+     "ivs": {
+      "hp": 31,
+      "atk": 31,
+      "def": 30,
+      "speed": 31,
+      "spatk": 30,
+      "spdef": 31
+     }
     },
     {
      "name": "Mixed Attacker",
@@ -518,7 +582,15 @@
       "MOVE_HIDDEN_POWER"
      ],
      "source": "Smogon data.pkmn.cc (gen3 ou)",
-     "notes": "Fire Blast/Flamethrower; Thunder Punch/Substitute; Hidden Power Grass/Hidden Power Ice; HP Grass"
+     "notes": "Fire Blast/Flamethrower; Thunder Punch/Substitute; Hidden Power Grass/Hidden Power Ice; HP Grass",
+     "ivs": {
+      "hp": 31,
+      "atk": 31,
+      "def": 30,
+      "speed": 31,
+      "spatk": 30,
+      "spdef": 31
+     }
     },
     {
      "name": "Mixed Attacker",
@@ -542,7 +614,15 @@
       "MOVE_EARTHQUAKE"
      ],
      "source": "Smogon data.pkmn.cc (gen2 ou)",
-     "notes": "Hidden Power Grass/Thunder Punch; HP Grass; Earthquake/Sunny Day"
+     "notes": "Hidden Power Grass/Thunder Punch; HP Grass; Earthquake/Sunny Day",
+     "ivs": {
+      "hp": 31,
+      "atk": 31,
+      "def": 30,
+      "speed": 31,
+      "spatk": 30,
+      "spdef": 31
+     }
     },
     {
      "name": "Run & Bun set (Lv.38)",
@@ -590,7 +670,15 @@
       "MOVE_QUICK_ATTACK"
      ],
      "source": "Emerald Kaizo",
-     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
+     "notes": "HP Ice (defaulted; source unspecified); EVs inferred (source lists moves/item/nature/ability only)",
+     "ivs": {
+      "hp": 31,
+      "atk": 31,
+      "def": 31,
+      "speed": 30,
+      "spatk": 31,
+      "spdef": 31
+     }
     },
     {
      "name": "Emerald Kaizo set (Lv.60)",
@@ -821,7 +909,7 @@
      "tier": "emerald-kaizo",
      "item": "ITEM_LUM_BERRY",
      "ability": "ABILITY_NONE",
-     "nature": "NATURE_JOLLY",
+     "nature": "NATURE_TIMID",
      "evs": {
       "hp": 0,
       "atk": 0,
@@ -837,7 +925,15 @@
       "MOVE_HYDRO_PUMP"
      ],
      "source": "Emerald Kaizo",
-     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
+     "notes": "HP Ice (defaulted; source unspecified); EVs inferred (source lists moves/item/nature/ability only)",
+     "ivs": {
+      "hp": 31,
+      "atk": 31,
+      "def": 31,
+      "speed": 30,
+      "spatk": 31,
+      "spdef": 31
+     }
     },
     {
      "name": "Run & Bun set (Lv.38)",
@@ -1331,7 +1427,15 @@
       "MOVE_HIDDEN_POWER"
      ],
      "source": "Smogon data.pkmn.cc (gen3 nu)",
-     "notes": "Return/Double-Edge; Hidden Power Ground/Hidden Power Fighting; HP Ground"
+     "notes": "Return/Double-Edge; Hidden Power Ground/Hidden Power Fighting; HP Ground",
+     "ivs": {
+      "hp": 31,
+      "atk": 31,
+      "def": 31,
+      "speed": 31,
+      "spatk": 30,
+      "spdef": 30
+     }
     },
     {
      "name": "Special Attacker",
@@ -1355,7 +1459,15 @@
       "MOVE_HYPNOSIS"
      ],
      "source": "Smogon data.pkmn.cc (gen3 nu)",
-     "notes": "Hidden Power Ice/Hidden Power Grass/Hidden Power Fire; HP Ice; Hypnosis/Toxic"
+     "notes": "Hidden Power Ice/Hidden Power Grass/Hidden Power Fire; HP Ice; Hypnosis/Toxic",
+     "ivs": {
+      "hp": 31,
+      "atk": 31,
+      "def": 31,
+      "speed": 30,
+      "spatk": 31,
+      "spdef": 31
+     }
     },
     {
      "name": "Defensive",
@@ -1857,7 +1969,7 @@
      "tier": "nu",
      "item": "ITEM_LEFTOVERS",
      "ability": "ABILITY_INSOMNIA",
-     "nature": "NATURE_IMPISH",
+     "nature": "NATURE_MODEST",
      "evs": {
       "hp": 252,
       "atk": 40,
@@ -1945,7 +2057,15 @@
       "MOVE_THIEF"
      ],
      "source": "Smogon data.pkmn.cc (gen2 uu)",
-     "notes": "HP Bug"
+     "notes": "HP Bug",
+     "ivs": {
+      "hp": 31,
+      "atk": 31,
+      "def": 31,
+      "speed": 30,
+      "spatk": 31,
+      "spdef": 30
+     }
     },
     {
      "name": "Run & Bun set (Lv.21)",
@@ -2120,7 +2240,15 @@
       "MOVE_HIDDEN_POWER"
      ],
      "source": "Smogon data.pkmn.cc (gen7 pu)",
-     "notes": "Hidden Power Fire/Hidden Power Grass; HP Fire"
+     "notes": "Hidden Power Fire/Hidden Power Grass; HP Fire",
+     "ivs": {
+      "hp": 31,
+      "atk": 31,
+      "def": 30,
+      "speed": 30,
+      "spatk": 30,
+      "spdef": 31
+     }
     },
     {
      "name": "Choice Scarf",
@@ -2192,7 +2320,15 @@
       "MOVE_HIDDEN_POWER"
      ],
      "source": "Smogon data.pkmn.cc (gen6 nu)",
-     "notes": "Hydro Pump/Scald; Ice Beam/Signal Beam; Hidden Power Grass/Hidden Power Fire/Thunderbolt; HP Grass"
+     "notes": "Hydro Pump/Scald; Ice Beam/Signal Beam; Hidden Power Grass/Hidden Power Fire/Thunderbolt; HP Grass",
+     "ivs": {
+      "hp": 31,
+      "atk": 31,
+      "def": 30,
+      "speed": 31,
+      "spatk": 30,
+      "spdef": 31
+     }
     },
     {
      "name": "Run & Bun set (Lv.86)",
@@ -2288,7 +2424,15 @@
       "MOVE_HIDDEN_POWER"
      ],
      "source": "Emerald Kaizo",
-     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
+     "notes": "HP Ice (defaulted; source unspecified); EVs inferred (source lists moves/item/nature/ability only)",
+     "ivs": {
+      "hp": 31,
+      "atk": 31,
+      "def": 31,
+      "speed": 30,
+      "spatk": 31,
+      "spdef": 31
+     }
     },
     {
      "name": "Run & Bun set (Lv.64)",
@@ -3006,7 +3150,7 @@
      "tier": "emerald-kaizo",
      "item": "ITEM_KINGS_ROCK",
      "ability": "ABILITY_NONE",
-     "nature": "NATURE_CAREFUL",
+     "nature": "NATURE_MODEST",
      "evs": {
       "hp": 0,
       "atk": 0,
@@ -3053,7 +3197,15 @@
       "MOVE_HEAL_BELL"
      ],
      "source": "Smogon data.pkmn.cc (gen7 pu)",
-     "notes": "Thunderbolt/Volt Switch; HP Ice"
+     "notes": "Thunderbolt/Volt Switch; HP Ice",
+     "ivs": {
+      "hp": 31,
+      "atk": 31,
+      "def": 31,
+      "speed": 30,
+      "spatk": 31,
+      "spdef": 31
+     }
     },
     {
      "name": "Cleric",
@@ -3077,7 +3229,15 @@
       "MOVE_FOCUS_BLAST"
      ],
      "source": "Smogon data.pkmn.cc (gen6 pu)",
-     "notes": "Hidden Power Ice/Thunderbolt; HP Ice"
+     "notes": "Hidden Power Ice/Thunderbolt; HP Ice",
+     "ivs": {
+      "hp": 31,
+      "atk": 31,
+      "def": 31,
+      "speed": 30,
+      "spatk": 31,
+      "spdef": 31
+     }
     },
     {
      "name": "Tank",
@@ -3101,7 +3261,15 @@
       "MOVE_FOCUS_BLAST"
      ],
      "source": "Smogon data.pkmn.cc (gen5 nu)",
-     "notes": "Hidden Power Ice/Hidden Power Grass; HP Ice; Focus Blast/Heal Bell"
+     "notes": "Hidden Power Ice/Hidden Power Grass; HP Ice; Focus Blast/Heal Bell",
+     "ivs": {
+      "hp": 31,
+      "atk": 31,
+      "def": 31,
+      "speed": 30,
+      "spatk": 31,
+      "spdef": 31
+     }
     },
     {
      "name": "Specially Defensive",
@@ -3173,7 +3341,15 @@
       "MOVE_SUBSTITUTE"
      ],
      "source": "Smogon data.pkmn.cc (gen4 uu)",
-     "notes": "HP Ice; Substitute/Focus Punch"
+     "notes": "HP Ice; Substitute/Focus Punch",
+     "ivs": {
+      "hp": 31,
+      "atk": 31,
+      "def": 31,
+      "speed": 30,
+      "spatk": 31,
+      "spdef": 31
+     }
     },
     {
      "name": "Specially Defensive",
@@ -3197,7 +3373,15 @@
       "MOVE_REFLECT"
      ],
      "source": "Smogon data.pkmn.cc (gen4 uu)",
-     "notes": "Hidden Power Ice/Hidden Power Grass; HP Ice; Reflect/Light Screen"
+     "notes": "Hidden Power Ice/Hidden Power Grass; HP Ice; Reflect/Light Screen",
+     "ivs": {
+      "hp": 31,
+      "atk": 31,
+      "def": 31,
+      "speed": 30,
+      "spatk": 31,
+      "spdef": 31
+     }
     },
     {
      "name": "Choice Specs",
@@ -3221,7 +3405,15 @@
       "MOVE_SIGNAL_BEAM"
      ],
      "source": "Smogon data.pkmn.cc (gen4 uu)",
-     "notes": "Hidden Power Ice/Hidden Power Grass; HP Ice"
+     "notes": "Hidden Power Ice/Hidden Power Grass; HP Ice",
+     "ivs": {
+      "hp": 31,
+      "atk": 31,
+      "def": 31,
+      "speed": 30,
+      "spatk": 31,
+      "spdef": 31
+     }
     },
     {
      "name": "Rain Dance Support",
@@ -3245,7 +3437,15 @@
       "MOVE_SAFEGUARD"
      ],
      "source": "Smogon data.pkmn.cc (gen4 uu)",
-     "notes": "HP Water; Safeguard/Reflect/Light Screen"
+     "notes": "HP Water; Safeguard/Reflect/Light Screen",
+     "ivs": {
+      "hp": 31,
+      "atk": 31,
+      "def": 31,
+      "speed": 30,
+      "spatk": 30,
+      "spdef": 31
+     }
     },
     {
      "name": "Run & Bun set (Lv.95)",
@@ -3292,7 +3492,15 @@
       "MOVE_FIRE_PUNCH"
      ],
      "source": "Emerald Kaizo",
-     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
+     "notes": "HP Ice (defaulted; source unspecified); EVs inferred (source lists moves/item/nature/ability only)",
+     "ivs": {
+      "hp": 31,
+      "atk": 31,
+      "def": 31,
+      "speed": 30,
+      "spatk": 31,
+      "spdef": 31
+     }
     },
     {
      "name": "Run & Bun set (Lv.78)",
@@ -3316,7 +3524,15 @@
       "MOVE_COUNTER"
      ],
      "source": "Run & Bun",
-     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
+     "notes": "HP Ice (defaulted; source unspecified); EVs inferred (source lists moves/item/nature/ability only)",
+     "ivs": {
+      "hp": 31,
+      "atk": 31,
+      "def": 31,
+      "speed": 30,
+      "spatk": 31,
+      "spdef": 31
+     }
     },
     {
      "name": "Emerald Kaizo set (Lv.81)",
@@ -3340,7 +3556,15 @@
       "MOVE_FIRE_PUNCH"
      ],
      "source": "Emerald Kaizo",
-     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
+     "notes": "HP Ice (defaulted; source unspecified); EVs inferred (source lists moves/item/nature/ability only)",
+     "ivs": {
+      "hp": 31,
+      "atk": 31,
+      "def": 31,
+      "speed": 30,
+      "spatk": 31,
+      "spdef": 31
+     }
     },
     {
      "name": "Run & Bun set (Lv.52)",
@@ -3364,7 +3588,15 @@
       "MOVE_AGILITY"
      ],
      "source": "Run & Bun",
-     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
+     "notes": "HP Ice (defaulted; source unspecified); EVs inferred (source lists moves/item/nature/ability only)",
+     "ivs": {
+      "hp": 31,
+      "atk": 31,
+      "def": 31,
+      "speed": 30,
+      "spatk": 31,
+      "spdef": 31
+     }
     }
    ]
   },
@@ -3643,7 +3875,7 @@
      "tier": "emerald-kaizo",
      "item": "ITEM_SCOPE_LENS",
      "ability": "ABILITY_NONE",
-     "nature": "NATURE_JOLLY",
+     "nature": "NATURE_TIMID",
      "evs": {
       "hp": 0,
       "atk": 0,
@@ -3659,7 +3891,15 @@
       "MOVE_BLIZZARD"
      ],
      "source": "Emerald Kaizo",
-     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
+     "notes": "HP Ice (defaulted; source unspecified); EVs inferred (source lists moves/item/nature/ability only)",
+     "ivs": {
+      "hp": 31,
+      "atk": 31,
+      "def": 31,
+      "speed": 30,
+      "spatk": 31,
+      "spdef": 31
+     }
     },
     {
      "name": "Run & Bun set (Lv.81)",
@@ -4050,7 +4290,15 @@
       "MOVE_HIDDEN_POWER"
      ],
      "source": "Emerald Kaizo",
-     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
+     "notes": "HP Ice (defaulted; source unspecified); EVs inferred (source lists moves/item/nature/ability only)",
+     "ivs": {
+      "hp": 31,
+      "atk": 31,
+      "def": 31,
+      "speed": 30,
+      "spatk": 31,
+      "spdef": 31
+     }
     }
    ]
   },
@@ -4767,7 +5015,15 @@
       "MOVE_SYNTHESIS"
      ],
      "source": "Smogon data.pkmn.cc (gen6 pu)",
-     "notes": "Leaf Storm/Giga Drain; Hidden Power Ice/Hidden Power Fire/Sludge Bomb; HP Ice"
+     "notes": "Leaf Storm/Giga Drain; Hidden Power Ice/Hidden Power Fire/Sludge Bomb; HP Ice",
+     "ivs": {
+      "hp": 31,
+      "atk": 31,
+      "def": 31,
+      "speed": 30,
+      "spatk": 31,
+      "spdef": 31
+     }
     },
     {
      "name": "Suicide Sun",
@@ -4791,7 +5047,15 @@
       "MOVE_ENDEAVOR"
      ],
      "source": "Smogon data.pkmn.cc (gen5 nu)",
-     "notes": "Hidden Power Rock/Earth Power; HP Rock; Endeavor/Encore"
+     "notes": "Hidden Power Rock/Earth Power; HP Rock; Endeavor/Encore",
+     "ivs": {
+      "hp": 31,
+      "atk": 31,
+      "def": 30,
+      "speed": 30,
+      "spatk": 31,
+      "spdef": 30
+     }
     },
     {
      "name": "Sunny Day Special Attacker",
@@ -4815,7 +5079,15 @@
       "MOVE_SUNNY_DAY"
      ],
      "source": "Smogon data.pkmn.cc (gen4 uu)",
-     "notes": "HP Fire; Sunny Day/Grass Knot"
+     "notes": "HP Fire; Sunny Day/Grass Knot",
+     "ivs": {
+      "hp": 31,
+      "atk": 31,
+      "def": 30,
+      "speed": 30,
+      "spatk": 30,
+      "spdef": 31
+     }
     },
     {
      "name": "SunnyBeam",
@@ -4839,7 +5111,15 @@
       "MOVE_GRASS_WHISTLE"
      ],
      "source": "Smogon data.pkmn.cc (gen3 nu)",
-     "notes": "Hidden Power Fire/Hidden Power Ice; HP Fire"
+     "notes": "Hidden Power Fire/Hidden Power Ice; HP Fire",
+     "ivs": {
+      "hp": 31,
+      "atk": 31,
+      "def": 30,
+      "speed": 30,
+      "spatk": 30,
+      "spdef": 31
+     }
     },
     {
      "name": "Specially Defensive",
@@ -4863,7 +5143,15 @@
       "MOVE_SYNTHESIS"
      ],
      "source": "Smogon data.pkmn.cc (gen3 nu)",
-     "notes": "Hidden Power Fire/Hidden Power Ice; HP Fire; Synthesis/Light Screen"
+     "notes": "Hidden Power Fire/Hidden Power Ice; HP Fire; Synthesis/Light Screen",
+     "ivs": {
+      "hp": 31,
+      "atk": 31,
+      "def": 30,
+      "speed": 30,
+      "spatk": 30,
+      "spdef": 31
+     }
     },
     {
      "name": "Bulky",
@@ -4887,7 +5175,15 @@
       "MOVE_HIDDEN_POWER"
      ],
      "source": "Smogon data.pkmn.cc (gen3 pu)",
-     "notes": "HP Ice"
+     "notes": "HP Ice",
+     "ivs": {
+      "hp": 31,
+      "atk": 31,
+      "def": 31,
+      "speed": 30,
+      "spatk": 31,
+      "spdef": 31
+     }
     },
     {
      "name": "Growth",
@@ -4911,7 +5207,15 @@
       "MOVE_SYNTHESIS"
      ],
      "source": "Smogon data.pkmn.cc (gen2 pu)",
-     "notes": "HP Ice"
+     "notes": "HP Ice",
+     "ivs": {
+      "hp": 31,
+      "atk": 31,
+      "def": 31,
+      "speed": 30,
+      "spatk": 31,
+      "spdef": 31
+     }
     },
     {
      "name": "Run & Bun set (Lv.16)",
@@ -4959,7 +5263,15 @@
       "MOVE_RETURN"
      ],
      "source": "Emerald Kaizo",
-     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
+     "notes": "HP Ice (defaulted; source unspecified); EVs inferred (source lists moves/item/nature/ability only)",
+     "ivs": {
+      "hp": 31,
+      "atk": 31,
+      "def": 31,
+      "speed": 30,
+      "spatk": 31,
+      "spdef": 31
+     }
     },
     {
      "name": "Emerald Kaizo set (Lv.17)",
@@ -5133,7 +5445,15 @@
       "MOVE_GIGA_DRAIN"
      ],
      "source": "Smogon data.pkmn.cc (gen6 monotype)",
-     "notes": "Air Slash/Bug Buzz; HP Ice"
+     "notes": "Air Slash/Bug Buzz; HP Ice",
+     "ivs": {
+      "hp": 31,
+      "atk": 31,
+      "def": 31,
+      "speed": 30,
+      "spatk": 31,
+      "spdef": 31
+     }
     },
     {
      "name": "Choice Specs",
@@ -5181,7 +5501,15 @@
       "MOVE_HIDDEN_POWER"
      ],
      "source": "Smogon data.pkmn.cc (gen5 uu)",
-     "notes": "Hidden Power Rock/Hidden Power Ground/Giga Drain; HP Rock"
+     "notes": "Hidden Power Rock/Hidden Power Ground/Giga Drain; HP Rock",
+     "ivs": {
+      "hp": 31,
+      "atk": 31,
+      "def": 30,
+      "speed": 30,
+      "spatk": 31,
+      "spdef": 30
+     }
     },
     {
      "name": "Attacking Lead",
@@ -5205,7 +5533,15 @@
       "MOVE_HIDDEN_POWER"
      ],
      "source": "Smogon data.pkmn.cc (gen4 ou)",
-     "notes": "Hidden Power Ground/Hidden Power Fire; HP Ground"
+     "notes": "Hidden Power Ground/Hidden Power Fire; HP Ground",
+     "ivs": {
+      "hp": 31,
+      "atk": 31,
+      "def": 31,
+      "speed": 31,
+      "spatk": 30,
+      "spdef": 30
+     }
     },
     {
      "name": "Choice Specs",
@@ -5229,7 +5565,15 @@
       "MOVE_U_TURN"
      ],
      "source": "Smogon data.pkmn.cc (gen4 ou)",
-     "notes": "HP Ground"
+     "notes": "HP Ground",
+     "ivs": {
+      "hp": 31,
+      "atk": 31,
+      "def": 31,
+      "speed": 31,
+      "spatk": 30,
+      "spdef": 30
+     }
     },
     {
      "name": "Run & Bun set (Lv.95)",
@@ -5300,7 +5644,15 @@
       "MOVE_DETECT"
      ],
      "source": "Run & Bun",
-     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
+     "notes": "HP Ice (defaulted; source unspecified); EVs inferred (source lists moves/item/nature/ability only)",
+     "ivs": {
+      "hp": 31,
+      "atk": 31,
+      "def": 31,
+      "speed": 30,
+      "spatk": 31,
+      "spdef": 31
+     }
     },
     {
      "name": "Run & Bun set (Lv.72)",
@@ -5362,7 +5714,7 @@
      "tier": "ou",
      "item": "ITEM_HEAVY_DUTY_BOOTS",
      "ability": "ABILITY_UNAWARE",
-     "nature": "NATURE_BOLD",
+     "nature": "NATURE_ADAMANT",
      "evs": {
       "hp": 252,
       "atk": 0,
@@ -6214,7 +6566,15 @@
       "MOVE_THUNDERBOLT"
      ],
      "source": "Smogon data.pkmn.cc (gen5 uu)",
-     "notes": "HP Fighting; Thunderbolt/Taunt"
+     "notes": "HP Fighting; Thunderbolt/Taunt",
+     "ivs": {
+      "hp": 31,
+      "atk": 31,
+      "def": 30,
+      "speed": 30,
+      "spatk": 30,
+      "spdef": 30
+     }
     },
     {
      "name": "Defensive",
@@ -6262,7 +6622,15 @@
       "MOVE_HIDDEN_POWER"
      ],
      "source": "Smogon data.pkmn.cc (gen5 uu)",
-     "notes": "HP Fighting"
+     "notes": "HP Fighting",
+     "ivs": {
+      "hp": 31,
+      "atk": 31,
+      "def": 30,
+      "speed": 30,
+      "spatk": 30,
+      "spdef": 30
+     }
     },
     {
      "name": "Choice Scarf",
@@ -6286,7 +6654,15 @@
       "MOVE_ENERGY_BALL"
      ],
      "source": "Smogon data.pkmn.cc (gen5 monotype)",
-     "notes": "HP Ice"
+     "notes": "HP Ice",
+     "ivs": {
+      "hp": 31,
+      "atk": 31,
+      "def": 31,
+      "speed": 30,
+      "spatk": 31,
+      "spdef": 31
+     }
     },
     {
      "name": "Colbur Berry Lead",
@@ -6430,7 +6806,15 @@
       "MOVE_HIDDEN_POWER"
      ],
      "source": "Smogon data.pkmn.cc (gen4 uu)",
-     "notes": "Hidden Power Fighting/Hidden Power Ground; HP Fighting"
+     "notes": "Hidden Power Fighting/Hidden Power Ground; HP Fighting",
+     "ivs": {
+      "hp": 31,
+      "atk": 31,
+      "def": 30,
+      "speed": 30,
+      "spatk": 30,
+      "spdef": 30
+     }
     },
     {
      "name": "Run & Bun set (Lv.85)",
@@ -6517,7 +6901,7 @@
      "tier": "ubers",
      "item": "ITEM_LUM_BERRY",
      "ability": "ABILITY_NONE",
-     "nature": "NATURE_TIMID",
+     "nature": "NATURE_JOLLY",
      "evs": {
       "hp": 0,
       "atk": 0,
@@ -6889,7 +7273,7 @@
      "tier": "emerald-kaizo",
      "item": "ITEM_LUM_BERRY",
      "ability": "ABILITY_NONE",
-     "nature": "NATURE_IMPISH",
+     "nature": "NATURE_MODEST",
      "evs": {
       "hp": 0,
       "atk": 0,
@@ -8299,7 +8683,7 @@
      "tier": "monotype",
      "item": "ITEM_MENTAL_HERB",
      "ability": "ABILITY_NONE",
-     "nature": "NATURE_BOLD",
+     "nature": "NATURE_ADAMANT",
      "evs": {
       "hp": 248,
       "atk": 0,
@@ -8881,7 +9265,7 @@
      "tier": "emerald-kaizo",
      "item": "ITEM_QUICK_CLAW",
      "ability": "ABILITY_NONE",
-     "nature": "NATURE_BOLD",
+     "nature": "NATURE_ADAMANT",
      "evs": {
       "hp": 0,
       "atk": 252,
@@ -9127,7 +9511,7 @@
      "role": "setup sweeper",
      "tier": "run-and-bun",
      "item": "ITEM_BRIGHT_POWDER",
-     "ability": "ABILITY_INNER_FOCUS",
+     "ability": "ABILITY_PRESSURE",
      "nature": "NATURE_JOLLY",
      "evs": {
       "hp": 0,
@@ -9151,7 +9535,7 @@
      "role": "attacker",
      "tier": "run-and-bun",
      "item": "ITEM_DARK_GEM",
-     "ability": "ABILITY_INNER_FOCUS",
+     "ability": "ABILITY_PRESSURE",
      "nature": "NATURE_JOLLY",
      "evs": {
       "hp": 0,
@@ -9175,7 +9559,7 @@
      "role": "attacker",
      "tier": "run-and-bun",
      "item": "ITEM_DARK_GEM",
-     "ability": "ABILITY_INNER_FOCUS",
+     "ability": "ABILITY_PRESSURE",
      "nature": "NATURE_JOLLY",
      "evs": {
       "hp": 0,
@@ -9199,7 +9583,7 @@
      "role": "attacker",
      "tier": "run-and-bun",
      "item": "ITEM_FOCUS_SASH",
-     "ability": "ABILITY_INNER_FOCUS",
+     "ability": "ABILITY_PRESSURE",
      "nature": "NATURE_JOLLY",
      "evs": {
       "hp": 0,
@@ -9422,7 +9806,7 @@
      "role": "attacker",
      "tier": "run-and-bun",
      "item": "ITEM_SALAC_BERRY",
-     "ability": "ABILITY_INNER_FOCUS",
+     "ability": "ABILITY_PRESSURE",
      "nature": "NATURE_JOLLY",
      "evs": {
       "hp": 0,
@@ -9470,7 +9854,7 @@
      "role": "setup sweeper",
      "tier": "run-and-bun",
      "item": "ITEM_LIFE_ORB",
-     "ability": "ABILITY_INNER_FOCUS",
+     "ability": "ABILITY_PRESSURE",
      "nature": "NATURE_JOLLY",
      "evs": {
       "hp": 0,
@@ -9813,7 +10197,15 @@
       "MOVE_STEALTH_ROCK"
      ],
      "source": "Smogon data.pkmn.cc (gen4 uu)",
-     "notes": "Lava Plume/Flamethrower; HP Rock; Stealth Rock/Toxic/Will-O-Wisp"
+     "notes": "Lava Plume/Flamethrower; HP Rock; Stealth Rock/Toxic/Will-O-Wisp",
+     "ivs": {
+      "hp": 31,
+      "atk": 31,
+      "def": 30,
+      "speed": 30,
+      "spatk": 31,
+      "spdef": 30
+     }
     },
     {
      "name": "Specially Defensive",
@@ -9861,7 +10253,15 @@
       "MOVE_REFRESH"
      ],
      "source": "Smogon data.pkmn.cc (gen3 pu)",
-     "notes": "HP Grass; Refresh/Self-Destruct/Substitute"
+     "notes": "HP Grass; Refresh/Self-Destruct/Substitute",
+     "ivs": {
+      "hp": 31,
+      "atk": 31,
+      "def": 30,
+      "speed": 31,
+      "spatk": 30,
+      "spdef": 31
+     }
     },
     {
      "name": "Curse",
@@ -10729,7 +11129,15 @@
       "MOVE_THUNDER_WAVE"
      ],
      "source": "Smogon data.pkmn.cc (gen3 ru)",
-     "notes": "HP Electric"
+     "notes": "HP Electric",
+     "ivs": {
+      "hp": 31,
+      "atk": 31,
+      "def": 31,
+      "speed": 31,
+      "spatk": 30,
+      "spdef": 31
+     }
     },
     {
      "name": "Baton Pass Receiver",
@@ -10753,7 +11161,15 @@
       "MOVE_SUBSTITUTE"
      ],
      "source": "Smogon data.pkmn.cc (gen3 nu)",
-     "notes": "HP Electric"
+     "notes": "HP Electric",
+     "ivs": {
+      "hp": 31,
+      "atk": 31,
+      "def": 31,
+      "speed": 31,
+      "spatk": 30,
+      "spdef": 31
+     }
     },
     {
      "name": "RestTalk",
@@ -10777,7 +11193,15 @@
       "MOVE_SLEEP_TALK"
      ],
      "source": "Smogon data.pkmn.cc (gen2 nu)",
-     "notes": "Hidden Power Electric/Ice Beam; HP Electric"
+     "notes": "Hidden Power Electric/Ice Beam; HP Electric",
+     "ivs": {
+      "hp": 31,
+      "atk": 31,
+      "def": 31,
+      "speed": 31,
+      "spatk": 30,
+      "spdef": 31
+     }
     },
     {
      "name": "Run & Bun set (Lv.79)",
@@ -10825,7 +11249,15 @@
       "MOVE_HIDDEN_POWER"
      ],
      "source": "Emerald Kaizo",
-     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
+     "notes": "HP Ice (defaulted; source unspecified); EVs inferred (source lists moves/item/nature/ability only)",
+     "ivs": {
+      "hp": 31,
+      "atk": 31,
+      "def": 31,
+      "speed": 30,
+      "spatk": 31,
+      "spdef": 31
+     }
     },
     {
      "name": "Run & Bun set (Lv.75)",
@@ -11048,7 +11480,15 @@
       "MOVE_HIDDEN_POWER"
      ],
      "source": "Smogon data.pkmn.cc (gen4 uu)",
-     "notes": "Ice Beam/Blizzard; Hidden Power Grass/Hidden Power Electric; HP Grass"
+     "notes": "Ice Beam/Blizzard; Hidden Power Grass/Hidden Power Electric; HP Grass",
+     "ivs": {
+      "hp": 31,
+      "atk": 31,
+      "def": 30,
+      "speed": 31,
+      "spatk": 30,
+      "spdef": 31
+     }
     },
     {
      "name": "Choice Band",
@@ -11104,7 +11544,7 @@
      "tier": "emerald-kaizo",
      "item": "ITEM_NONE",
      "ability": "ABILITY_NONE",
-     "nature": "NATURE_BOLD",
+     "nature": "NATURE_ADAMANT",
      "evs": {
       "hp": 0,
       "atk": 252,
@@ -11390,7 +11830,15 @@
       "MOVE_CONFUSE_RAY"
      ],
      "source": "Emerald Kaizo",
-     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
+     "notes": "HP Ice (defaulted; source unspecified); EVs inferred (source lists moves/item/nature/ability only)",
+     "ivs": {
+      "hp": 31,
+      "atk": 31,
+      "def": 31,
+      "speed": 30,
+      "spatk": 31,
+      "spdef": 31
+     }
     },
     {
      "name": "Run & Bun set (Lv.65)",
@@ -11462,7 +11910,15 @@
       "MOVE_ROOST"
      ],
      "source": "Run & Bun",
-     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
+     "notes": "HP Ice (defaulted; source unspecified); EVs inferred (source lists moves/item/nature/ability only)",
+     "ivs": {
+      "hp": 31,
+      "atk": 31,
+      "def": 31,
+      "speed": 30,
+      "spatk": 31,
+      "spdef": 31
+     }
     }
    ]
   },
@@ -11477,7 +11933,7 @@
      "tier": "ou",
      "item": "ITEM_ROCKY_HELMET",
      "ability": "ABILITY_STURDY",
-     "nature": "NATURE_BOLD",
+     "nature": "NATURE_ADAMANT",
      "evs": {
       "hp": 252,
       "atk": 0,
@@ -11501,7 +11957,7 @@
      "tier": "ubers",
      "item": "ITEM_ROCKY_HELMET",
      "ability": "ABILITY_STURDY",
-     "nature": "NATURE_BOLD",
+     "nature": "NATURE_ADAMANT",
      "evs": {
       "hp": 252,
       "atk": 0,
@@ -11836,7 +12292,15 @@
       "MOVE_DESTINY_BOND"
      ],
      "source": "Smogon data.pkmn.cc (gen7 ru)",
-     "notes": "HP Ice; Destiny Bond/Overheat/Toxic"
+     "notes": "HP Ice; Destiny Bond/Overheat/Toxic",
+     "ivs": {
+      "hp": 31,
+      "atk": 31,
+      "def": 31,
+      "speed": 30,
+      "spatk": 31,
+      "spdef": 31
+     }
     },
     {
      "name": "Nasty Plot",
@@ -11860,7 +12324,15 @@
       "MOVE_HIDDEN_POWER"
      ],
      "source": "Smogon data.pkmn.cc (gen6 ru)",
-     "notes": "Hidden Power Water/Hidden Power Steel; HP Water"
+     "notes": "Hidden Power Water/Hidden Power Steel; HP Water",
+     "ivs": {
+      "hp": 31,
+      "atk": 31,
+      "def": 31,
+      "speed": 30,
+      "spatk": 30,
+      "spdef": 31
+     }
     },
     {
      "name": "Mixed Attacker",
@@ -11885,30 +12357,6 @@
      ],
      "source": "Smogon data.pkmn.cc (gen5 uu)",
      "notes": "Crunch/Hidden Power Grass"
-    },
-    {
-     "name": "Nasty Plot",
-     "role": "setup sweeper",
-     "tier": "uu",
-     "item": "ITEM_LIFE_ORB",
-     "ability": "ABILITY_FLASH_FIRE",
-     "nature": "NATURE_TIMID",
-     "evs": {
-      "hp": 0,
-      "atk": 0,
-      "def": 0,
-      "spatk": 252,
-      "spdef": 4,
-      "speed": 252
-     },
-     "moves": [
-      "MOVE_NASTY_PLOT",
-      "MOVE_FIRE_BLAST",
-      "MOVE_DARK_PULSE",
-      "MOVE_HIDDEN_POWER"
-     ],
-     "source": "Smogon data.pkmn.cc (gen5 uu)",
-     "notes": "Hidden Power Fighting/Hidden Power Grass; HP Fighting"
     },
     {
      "name": "Nasty Plot Mixed Attacker",
@@ -11956,7 +12404,15 @@
       "MOVE_HIDDEN_POWER"
      ],
      "source": "Smogon data.pkmn.cc (gen4 uu)",
-     "notes": "Hidden Power Grass/Beat Up; HP Grass"
+     "notes": "Hidden Power Grass/Beat Up; HP Grass",
+     "ivs": {
+      "hp": 31,
+      "atk": 31,
+      "def": 30,
+      "speed": 31,
+      "spatk": 30,
+      "spdef": 31
+     }
     },
     {
      "name": "Lead",
@@ -11980,7 +12436,15 @@
       "MOVE_HIDDEN_POWER"
      ],
      "source": "Smogon data.pkmn.cc (gen4 uu)",
-     "notes": "Hidden Power Grass/Pursuit; HP Grass"
+     "notes": "Hidden Power Grass/Pursuit; HP Grass",
+     "ivs": {
+      "hp": 31,
+      "atk": 31,
+      "def": 30,
+      "speed": 31,
+      "spatk": 30,
+      "spdef": 31
+     }
     },
     {
      "name": "Choice Scarf",
@@ -12004,7 +12468,15 @@
       "MOVE_HIDDEN_POWER"
      ],
      "source": "Smogon data.pkmn.cc (gen4 uu)",
-     "notes": "Hidden Power Grass/Toxic; HP Grass"
+     "notes": "Hidden Power Grass/Toxic; HP Grass",
+     "ivs": {
+      "hp": 31,
+      "atk": 31,
+      "def": 30,
+      "speed": 31,
+      "spatk": 30,
+      "spdef": 31
+     }
     },
     {
      "name": "Run & Bun set (Lv.80)",
@@ -12052,7 +12524,15 @@
       "MOVE_PURSUIT"
      ],
      "source": "Emerald Kaizo",
-     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
+     "notes": "HP Ice (defaulted; source unspecified); EVs inferred (source lists moves/item/nature/ability only)",
+     "ivs": {
+      "hp": 31,
+      "atk": 31,
+      "def": 31,
+      "speed": 30,
+      "spatk": 31,
+      "spdef": 31
+     }
     },
     {
      "name": "Run & Bun set (Lv.75)",
@@ -12148,7 +12628,15 @@
       "MOVE_POISON_FANG"
      ],
      "source": "Emerald Kaizo",
-     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
+     "notes": "HP Ice (defaulted; source unspecified); EVs inferred (source lists moves/item/nature/ability only)",
+     "ivs": {
+      "hp": 31,
+      "atk": 31,
+      "def": 31,
+      "speed": 30,
+      "spatk": 31,
+      "spdef": 31
+     }
     }
    ]
   },
@@ -12697,7 +13185,15 @@
       "MOVE_HIDDEN_POWER"
      ],
      "source": "Smogon data.pkmn.cc (gen6 ubers)",
-     "notes": "HP Steel"
+     "notes": "HP Steel",
+     "ivs": {
+      "hp": 31,
+      "atk": 31,
+      "def": 31,
+      "speed": 31,
+      "spatk": 31,
+      "spdef": 30
+     }
     },
     {
      "name": "Suicide Lead",
@@ -12800,7 +13296,7 @@
      "tier": "run-and-bun",
      "item": "ITEM_LEFTOVERS",
      "ability": "ABILITY_MOODY",
-     "nature": "NATURE_JOLLY",
+     "nature": "NATURE_TIMID",
      "evs": {
       "hp": 0,
       "atk": 0,
@@ -12927,7 +13423,7 @@
      "tier": "nu",
      "item": "ITEM_LEFTOVERS",
      "ability": "ABILITY_NONE",
-     "nature": "NATURE_CALM",
+     "nature": "NATURE_ADAMANT",
      "evs": {
       "hp": 252,
       "atk": 0,
@@ -13501,7 +13997,15 @@
       "MOVE_HIDDEN_POWER"
      ],
      "source": "Emerald Kaizo",
-     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
+     "notes": "HP Ice (defaulted; source unspecified); EVs inferred (source lists moves/item/nature/ability only)",
+     "ivs": {
+      "hp": 31,
+      "atk": 31,
+      "def": 31,
+      "speed": 30,
+      "spatk": 31,
+      "spdef": 31
+     }
     },
     {
      "name": "Run & Bun set (Lv.89)",
@@ -13549,7 +14053,15 @@
       "MOVE_EARTHQUAKE"
      ],
      "source": "Emerald Kaizo",
-     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
+     "notes": "HP Ice (defaulted; source unspecified); EVs inferred (source lists moves/item/nature/ability only)",
+     "ivs": {
+      "hp": 31,
+      "atk": 31,
+      "def": 31,
+      "speed": 30,
+      "spatk": 31,
+      "spdef": 31
+     }
     },
     {
      "name": "Run & Bun set (Lv.89)",

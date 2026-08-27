@@ -223,7 +223,15 @@
       "MOVE_HIDDEN_POWER"
      ],
      "source": "Smogon data.pkmn.cc (gen6 pu)",
-     "notes": "Ice Beam/Freeze-Dry; HP Fighting"
+     "notes": "Ice Beam/Freeze-Dry; HP Fighting",
+     "ivs": {
+      "hp": 31,
+      "atk": 31,
+      "def": 30,
+      "speed": 30,
+      "spatk": 30,
+      "spdef": 30
+     }
     },
     {
      "name": "Emerald Kaizo set (Lv.55)",
@@ -247,7 +255,15 @@
       "MOVE_HIDDEN_POWER"
      ],
      "source": "Emerald Kaizo",
-     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
+     "notes": "HP Ice (defaulted; source unspecified); EVs inferred (source lists moves/item/nature/ability only)",
+     "ivs": {
+      "hp": 31,
+      "atk": 31,
+      "def": 31,
+      "speed": 30,
+      "spatk": 31,
+      "spdef": 31
+     }
     }
    ]
   },
@@ -429,7 +445,7 @@
      "role": "attacker",
      "tier": "inheritance",
      "item": "ITEM_LIFE_ORB",
-     "ability": "ABILITY_MAGIC_GUARD",
+     "ability": "ABILITY_PRESSURE",
      "nature": "NATURE_BOLD",
      "evs": {
       "hp": 252,
@@ -453,7 +469,7 @@
      "role": "attacker",
      "tier": "inheritance",
      "item": "ITEM_LEFTOVERS",
-     "ability": "ABILITY_FUR_COAT",
+     "ability": "ABILITY_PRESSURE",
      "nature": "NATURE_TIMID",
      "evs": {
       "hp": 252,
@@ -518,7 +534,15 @@
       "MOVE_RETURN"
      ],
      "source": "Emerald Kaizo",
-     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
+     "notes": "HP Ice (defaulted; source unspecified); EVs inferred (source lists moves/item/nature/ability only)",
+     "ivs": {
+      "hp": 31,
+      "atk": 31,
+      "def": 31,
+      "speed": 30,
+      "spatk": 31,
+      "spdef": 31
+     }
     }
    ]
   },
@@ -765,7 +789,15 @@
       "MOVE_STEEL_WING"
      ],
      "source": "Emerald Kaizo",
-     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
+     "notes": "HP Ice (defaulted; source unspecified); EVs inferred (source lists moves/item/nature/ability only)",
+     "ivs": {
+      "hp": 31,
+      "atk": 31,
+      "def": 31,
+      "speed": 30,
+      "spatk": 31,
+      "spdef": 31
+     }
     }
    ]
   },
@@ -972,7 +1004,7 @@
      "tier": "emerald-kaizo",
      "item": "ITEM_LUM_BERRY",
      "ability": "ABILITY_NONE",
-     "nature": "NATURE_ADAMANT",
+     "nature": "NATURE_MODEST",
      "evs": {
       "hp": 0,
       "atk": 0,
@@ -1482,7 +1514,15 @@
       "MOVE_CALM_MIND"
      ],
      "source": "Emerald Kaizo",
-     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
+     "notes": "HP Ice (defaulted; source unspecified); EVs inferred (source lists moves/item/nature/ability only)",
+     "ivs": {
+      "hp": 31,
+      "atk": 31,
+      "def": 31,
+      "speed": 30,
+      "spatk": 31,
+      "spdef": 31
+     }
     }
    ]
   },
@@ -1839,7 +1879,7 @@
      "role": "attacker",
      "tier": "inheritance",
      "item": "ITEM_LEFTOVERS",
-     "ability": "ABILITY_UNAWARE",
+     "ability": "ABILITY_PRESSURE",
      "nature": "NATURE_BOLD",
      "evs": {
       "hp": 252,
@@ -1863,7 +1903,7 @@
      "role": "attacker",
      "tier": "inheritance",
      "item": "ITEM_LEFTOVERS",
-     "ability": "ABILITY_LIGHTNING_ROD",
+     "ability": "ABILITY_PRESSURE",
      "nature": "NATURE_BOLD",
      "evs": {
       "hp": 252,
@@ -1952,7 +1992,15 @@
       "MOVE_HIDDEN_POWER"
      ],
      "source": "Smogon data.pkmn.cc (gen7 battlespotsingles)",
-     "notes": "Ice Beam/Icy Wind; Hidden Power Fire/Sheer Cold; HP Fire"
+     "notes": "Ice Beam/Icy Wind; Hidden Power Fire/Sheer Cold; HP Fire",
+     "ivs": {
+      "hp": 31,
+      "atk": 31,
+      "def": 30,
+      "speed": 30,
+      "spatk": 30,
+      "spdef": 31
+     }
     },
     {
      "name": "Defensive",
@@ -2032,7 +2080,7 @@
      "tier": "emerald-kaizo",
      "item": "ITEM_LUM_BERRY",
      "ability": "ABILITY_NONE",
-     "nature": "NATURE_IMPISH",
+     "nature": "NATURE_MODEST",
      "evs": {
       "hp": 0,
       "atk": 0,
@@ -2048,7 +2096,15 @@
       "MOVE_HIDDEN_POWER"
      ],
      "source": "Emerald Kaizo",
-     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
+     "notes": "HP Ice (defaulted; source unspecified); EVs inferred (source lists moves/item/nature/ability only)",
+     "ivs": {
+      "hp": 31,
+      "atk": 31,
+      "def": 31,
+      "speed": 30,
+      "spatk": 31,
+      "spdef": 31
+     }
     },
     {
      "name": "Run & Bun set (Lv.100)",
@@ -2478,7 +2534,7 @@
      "tier": "emerald-kaizo",
      "item": "ITEM_LUM_BERRY",
      "ability": "ABILITY_NONE",
-     "nature": "NATURE_BOLD",
+     "nature": "NATURE_ADAMANT",
      "evs": {
       "hp": 252,
       "atk": 0,
@@ -2717,7 +2773,15 @@
       "MOVE_HIDDEN_POWER"
      ],
      "source": "Emerald Kaizo",
-     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
+     "notes": "HP Ice (defaulted; source unspecified); EVs inferred (source lists moves/item/nature/ability only)",
+     "ivs": {
+      "hp": 31,
+      "atk": 31,
+      "def": 31,
+      "speed": 30,
+      "spatk": 31,
+      "spdef": 31
+     }
     }
    ]
   },
@@ -2948,7 +3012,7 @@
      "tier": "emerald-kaizo",
      "item": "ITEM_LUM_BERRY",
      "ability": "ABILITY_NONE",
-     "nature": "NATURE_TIMID",
+     "nature": "NATURE_JOLLY",
      "evs": {
       "hp": 0,
       "atk": 252,
@@ -3178,7 +3242,7 @@
      "tier": "uu",
      "item": "ITEM_CHESTO_BERRY",
      "ability": "ABILITY_NONE",
-     "nature": "NATURE_BOLD",
+     "nature": "NATURE_ADAMANT",
      "evs": {
       "hp": 252,
       "atk": 0,
@@ -3250,7 +3314,7 @@
      "tier": "uu",
      "item": "ITEM_LEFTOVERS",
      "ability": "ABILITY_NONE",
-     "nature": "NATURE_CALM",
+     "nature": "NATURE_ADAMANT",
      "evs": {
       "hp": 252,
       "atk": 0,
@@ -3633,7 +3697,15 @@
       "MOVE_RECOVER"
      ],
      "source": "Emerald Kaizo",
-     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
+     "notes": "HP Ice (defaulted; source unspecified); EVs inferred (source lists moves/item/nature/ability only)",
+     "ivs": {
+      "hp": 31,
+      "atk": 31,
+      "def": 31,
+      "speed": 30,
+      "spatk": 31,
+      "spdef": 31
+     }
     },
     {
      "name": "Run & Bun set (Lv.85)",
@@ -3681,7 +3753,15 @@
       "MOVE_WATERFALL"
      ],
      "source": "Emerald Kaizo",
-     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
+     "notes": "HP Ice (defaulted; source unspecified); EVs inferred (source lists moves/item/nature/ability only)",
+     "ivs": {
+      "hp": 31,
+      "atk": 31,
+      "def": 31,
+      "speed": 30,
+      "spatk": 31,
+      "spdef": 31
+     }
     }
    ]
   },
@@ -3952,7 +4032,15 @@
       "MOVE_RECOVER"
      ],
      "source": "Emerald Kaizo",
-     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
+     "notes": "HP Ice (defaulted; source unspecified); EVs inferred (source lists moves/item/nature/ability only)",
+     "ivs": {
+      "hp": 31,
+      "atk": 31,
+      "def": 31,
+      "speed": 30,
+      "spatk": 31,
+      "spdef": 31
+     }
     },
     {
      "name": "Emerald Kaizo set (Lv.70)",
@@ -3976,7 +4064,15 @@
       "MOVE_THUNDERBOLT"
      ],
      "source": "Emerald Kaizo",
-     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
+     "notes": "HP Ice (defaulted; source unspecified); EVs inferred (source lists moves/item/nature/ability only)",
+     "ivs": {
+      "hp": 31,
+      "atk": 31,
+      "def": 31,
+      "speed": 30,
+      "spatk": 31,
+      "spdef": 31
+     }
     }
    ]
   },
@@ -5362,7 +5458,15 @@
       "MOVE_ICE_BEAM"
      ],
      "source": "Smogon data.pkmn.cc (gen5 ubers)",
-     "notes": "Spikes/Stealth Rock; Hidden Power Fire/Superpower; HP Fire; Ice Beam/Extreme Speed/Dark Pulse"
+     "notes": "Spikes/Stealth Rock; Hidden Power Fire/Superpower; HP Fire; Ice Beam/Extreme Speed/Dark Pulse",
+     "ivs": {
+      "hp": 31,
+      "atk": 31,
+      "def": 30,
+      "speed": 30,
+      "spatk": 30,
+      "spdef": 31
+     }
     }
    ]
   },
@@ -5799,7 +5903,7 @@
      "tier": "nu",
      "item": "ITEM_ROCKY_HELMET",
      "ability": "ABILITY_NONE",
-     "nature": "NATURE_TIMID",
+     "nature": "NATURE_JOLLY",
      "evs": {
       "hp": 252,
       "atk": 0,
@@ -6206,7 +6310,15 @@
       "MOVE_HEALING_WISH"
      ],
      "source": "Smogon data.pkmn.cc (gen6 nu)",
-     "notes": "Psychic/Psyshock; Signal Beam/Ice Beam; Hidden Power Ground/Energy Ball; HP Ground; Healing Wish/Calm Mind"
+     "notes": "Psychic/Psyshock; Signal Beam/Ice Beam; Hidden Power Ground/Energy Ball; HP Ground; Healing Wish/Calm Mind",
+     "ivs": {
+      "hp": 31,
+      "atk": 31,
+      "def": 31,
+      "speed": 31,
+      "spatk": 30,
+      "spdef": 30
+     }
     },
     {
      "name": "Physically Defensive",
@@ -6278,7 +6390,15 @@
       "MOVE_HEALING_WISH"
      ],
      "source": "Smogon data.pkmn.cc (gen6 nu)",
-     "notes": "Hidden Power Ground/Ice Beam; HP Ground; Healing Wish/Signal Beam/U-turn"
+     "notes": "Hidden Power Ground/Ice Beam; HP Ground; Healing Wish/Signal Beam/U-turn",
+     "ivs": {
+      "hp": 31,
+      "atk": 31,
+      "def": 31,
+      "speed": 31,
+      "spatk": 30,
+      "spdef": 30
+     }
     },
     {
      "name": "Choice Scarf",
@@ -7925,7 +8045,15 @@
       "MOVE_HIDDEN_POWER"
      ],
      "source": "Smogon data.pkmn.cc (gen5 ubers)",
-     "notes": "Dragon Tail/Outrage; Hidden Power Fire/Thunder/Earthquake; HP Fire"
+     "notes": "Dragon Tail/Outrage; Hidden Power Fire/Thunder/Earthquake; HP Fire",
+     "ivs": {
+      "hp": 31,
+      "atk": 31,
+      "def": 30,
+      "speed": 30,
+      "spatk": 30,
+      "spdef": 31
+     }
     },
     {
      "name": "SubCM",
@@ -8680,7 +8808,7 @@
      "role": "attacker",
      "tier": "inheritance",
      "item": "ITEM_CHOICE_SPECS",
-     "ability": "ABILITY_MEGA_LAUNCHER",
+     "ability": "ABILITY_BAD_DREAMS",
      "nature": "NATURE_TIMID",
      "evs": {
       "hp": 0,
@@ -8848,7 +8976,15 @@
       "MOVE_SYNTHESIS"
      ],
      "source": "Smogon data.pkmn.cc (gen7 ru)",
-     "notes": "HP Ice; Synthesis/Rest"
+     "notes": "HP Ice; Synthesis/Rest",
+     "ivs": {
+      "hp": 31,
+      "atk": 31,
+      "def": 31,
+      "speed": 30,
+      "spatk": 31,
+      "spdef": 31
+     }
     },
     {
      "name": "Choice Scarf",
@@ -8872,7 +9008,15 @@
       "MOVE_HIDDEN_POWER"
      ],
      "source": "Smogon data.pkmn.cc (gen7 ru)",
-     "notes": "HP Ice"
+     "notes": "HP Ice",
+     "ivs": {
+      "hp": 31,
+      "atk": 31,
+      "def": 31,
+      "speed": 30,
+      "spatk": 31,
+      "spdef": 31
+     }
     },
     {
      "name": "Life Orb",
@@ -8968,7 +9112,15 @@
       "MOVE_GRASS_WHISTLE"
      ],
      "source": "Run & Bun",
-     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
+     "notes": "HP Ice (defaulted; source unspecified); EVs inferred (source lists moves/item/nature/ability only)",
+     "ivs": {
+      "hp": 31,
+      "atk": 31,
+      "def": 31,
+      "speed": 30,
+      "spatk": 31,
+      "spdef": 31
+     }
     }
    ]
   },
@@ -9071,7 +9223,15 @@
       "MOVE_HEALING_WISH"
      ],
      "source": "Smogon data.pkmn.cc (gen6 ubers)",
-     "notes": "Hidden Power Rock/Hidden Power Ice; HP Rock"
+     "notes": "Hidden Power Rock/Hidden Power Ice; HP Rock",
+     "ivs": {
+      "hp": 31,
+      "atk": 31,
+      "def": 30,
+      "speed": 30,
+      "spatk": 31,
+      "spdef": 30
+     }
     },
     {
      "name": "Choice Scarf",
@@ -9095,7 +9255,15 @@
       "MOVE_HEALING_WISH"
      ],
      "source": "Smogon data.pkmn.cc (gen6 ubers)",
-     "notes": "HP Ice"
+     "notes": "HP Ice",
+     "ivs": {
+      "hp": 31,
+      "atk": 31,
+      "def": 31,
+      "speed": 30,
+      "spatk": 31,
+      "spdef": 31
+     }
     },
     {
      "name": "Choice Scarf",
@@ -9119,7 +9287,15 @@
       "MOVE_HIDDEN_POWER"
      ],
      "source": "Smogon data.pkmn.cc (gen5 ubers)",
-     "notes": "Seed Flare/Leaf Storm; HP Ice"
+     "notes": "Seed Flare/Leaf Storm; HP Ice",
+     "ivs": {
+      "hp": 31,
+      "atk": 31,
+      "def": 31,
+      "speed": 30,
+      "spatk": 31,
+      "spdef": 31
+     }
     },
     {
      "name": "Special Sweeper",
@@ -9143,7 +9319,15 @@
       "MOVE_HIDDEN_POWER"
      ],
      "source": "Smogon data.pkmn.cc (gen5 ubers)",
-     "notes": "Hidden Power Fire/Hidden Power Ice/Growth; HP Fire"
+     "notes": "Hidden Power Fire/Hidden Power Ice/Growth; HP Fire",
+     "ivs": {
+      "hp": 31,
+      "atk": 31,
+      "def": 30,
+      "speed": 30,
+      "spatk": 30,
+      "spdef": 31
+     }
     },
     {
      "name": "Run & Bun set (Lv.68)",
@@ -9589,7 +9773,15 @@
       "MOVE_HIDDEN_POWER"
      ],
      "source": "Smogon data.pkmn.cc (gen6 uu)",
-     "notes": "Hidden Power Ghost/Substitute/Magnet Rise; HP Ghost"
+     "notes": "Hidden Power Ghost/Substitute/Magnet Rise; HP Ghost",
+     "ivs": {
+      "hp": 31,
+      "atk": 31,
+      "def": 30,
+      "speed": 31,
+      "spatk": 31,
+      "spdef": 30
+     }
     }
    ]
   },
@@ -9915,31 +10107,15 @@
       "MOVE_HIDDEN_POWER"
      ],
      "source": "Smogon data.pkmn.cc (gen6 ru)",
-     "notes": "HP Ice"
-    },
-    {
-     "name": "Calm Mind",
-     "role": "setup sweeper",
-     "tier": "uu",
-     "item": "ITEM_LIFE_ORB",
-     "ability": "ABILITY_NONE",
-     "nature": "NATURE_TIMID",
-     "evs": {
-      "hp": 20,
-      "atk": 0,
-      "def": 0,
-      "spatk": 252,
-      "spdef": 0,
-      "speed": 236
-     },
-     "moves": [
-      "MOVE_CALM_MIND",
-      "MOVE_GIGA_DRAIN",
-      "MOVE_FOCUS_BLAST",
-      "MOVE_HIDDEN_POWER"
-     ],
-     "source": "Smogon data.pkmn.cc (gen5 uu)",
-     "notes": "Hidden Power Rock/Hidden Power Ice; HP Rock"
+     "notes": "HP Ice",
+     "ivs": {
+      "hp": 31,
+      "atk": 31,
+      "def": 31,
+      "speed": 30,
+      "spatk": 31,
+      "spdef": 31
+     }
     }
    ]
   },
@@ -10273,7 +10449,7 @@
      "tier": "ou",
      "item": "ITEM_HEAVY_DUTY_BOOTS",
      "ability": "ABILITY_NONE",
-     "nature": "NATURE_TIMID",
+     "nature": "NATURE_JOLLY",
      "evs": {
       "hp": 252,
       "atk": 0,
@@ -10321,7 +10497,7 @@
      "tier": "monotype",
      "item": "ITEM_HEAVY_DUTY_BOOTS",
      "ability": "ABILITY_NONE",
-     "nature": "NATURE_TIMID",
+     "nature": "NATURE_JOLLY",
      "evs": {
       "hp": 200,
       "atk": 0,
@@ -10471,7 +10647,7 @@
      "role": "attacker",
      "tier": "inheritance",
      "item": "ITEM_LIFE_ORB",
-     "ability": "ABILITY_MAGIC_GUARD",
+     "ability": "ABILITY_PRANKSTER",
      "nature": "NATURE_NAIVE",
      "evs": {
       "hp": 0,
@@ -10584,7 +10760,15 @@
       "MOVE_GRASS_KNOT"
      ],
      "source": "Smogon data.pkmn.cc (gen7 monotype)",
-     "notes": "HP Ice"
+     "notes": "HP Ice",
+     "ivs": {
+      "hp": 31,
+      "atk": 31,
+      "def": 31,
+      "speed": 30,
+      "spatk": 31,
+      "spdef": 31
+     }
     }
    ]
   },
@@ -11946,7 +12130,15 @@
       "MOVE_DRACO_METEOR"
      ],
      "source": "Smogon data.pkmn.cc (gen9natdex Offensive)",
-     "notes": "Hidden Power Fire/Earth Power; HP Fire; Draco Meteor/Roost"
+     "notes": "Hidden Power Fire/Earth Power; HP Fire; Draco Meteor/Roost",
+     "ivs": {
+      "hp": 31,
+      "atk": 31,
+      "def": 30,
+      "speed": 30,
+      "spatk": 30,
+      "spdef": 31
+     }
     },
     {
      "name": "SubRoost",
@@ -13181,7 +13373,15 @@
       "MOVE_AROMATHERAPY"
      ],
      "source": "Smogon data.pkmn.cc (gen7 ubers)",
-     "notes": "Grass Knot/Thunder; Hidden Power Fire/Focus Blast; HP Fire; Aromatherapy/Defog"
+     "notes": "Grass Knot/Thunder; Hidden Power Fire/Focus Blast; HP Fire; Aromatherapy/Defog",
+     "ivs": {
+      "hp": 31,
+      "atk": 31,
+      "def": 30,
+      "speed": 30,
+      "spatk": 30,
+      "spdef": 31
+     }
     },
     {
      "name": "Defensive",
@@ -13442,7 +13642,7 @@
      "role": "setup sweeper",
      "tier": "ubers",
      "item": "ITEM_LEFTOVERS",
-     "ability": "ABILITY_POWER_CONSTRUCT",
+     "ability": "ABILITY_AURA_BREAK",
      "nature": "NATURE_IMPISH",
      "evs": {
       "hp": 16,
@@ -13466,7 +13666,7 @@
      "role": "defensive / utility",
      "tier": "ubers",
      "item": "ITEM_LEFTOVERS",
-     "ability": "ABILITY_POWER_CONSTRUCT",
+     "ability": "ABILITY_AURA_BREAK",
      "nature": "NATURE_IMPISH",
      "evs": {
       "hp": 208,
@@ -13490,7 +13690,7 @@
      "role": "attacker",
      "tier": "ubers",
      "item": "ITEM_LEFTOVERS",
-     "ability": "ABILITY_POWER_CONSTRUCT",
+     "ability": "ABILITY_AURA_BREAK",
      "nature": "NATURE_ADAMANT",
      "evs": {
       "hp": 80,
@@ -13514,7 +13714,7 @@
      "role": "attacker",
      "tier": "anythinggoes",
      "item": "ITEM_LIFE_ORB",
-     "ability": "ABILITY_POWER_CONSTRUCT",
+     "ability": "ABILITY_AURA_BREAK",
      "nature": "NATURE_JOLLY",
      "evs": {
       "hp": 0,
@@ -13538,7 +13738,7 @@
      "role": "setup sweeper",
      "tier": "anythinggoes",
      "item": "ITEM_LEFTOVERS",
-     "ability": "ABILITY_POWER_CONSTRUCT",
+     "ability": "ABILITY_AURA_BREAK",
      "nature": "NATURE_IMPISH",
      "evs": {
       "hp": 16,
@@ -13562,7 +13762,7 @@
      "role": "defensive / utility",
      "tier": "battlestadiumsingles",
      "item": "ITEM_LEFTOVERS",
-     "ability": "ABILITY_POWER_CONSTRUCT",
+     "ability": "ABILITY_AURA_BREAK",
      "nature": "NATURE_CAREFUL",
      "evs": {
       "hp": 236,
@@ -13586,7 +13786,7 @@
      "role": "special tank",
      "tier": "ubers",
      "item": "ITEM_LEFTOVERS",
-     "ability": "ABILITY_POWER_CONSTRUCT",
+     "ability": "ABILITY_AURA_BREAK",
      "nature": "NATURE_ADAMANT",
      "evs": {
       "hp": 80,
@@ -14636,7 +14836,15 @@
       "MOVE_VOLT_SWITCH"
      ],
      "source": "Smogon data.pkmn.cc (gen9natdex Choice Specs)",
-     "notes": "HP Ice; Volt Switch/U-turn"
+     "notes": "HP Ice; Volt Switch/U-turn",
+     "ivs": {
+      "hp": 31,
+      "atk": 31,
+      "def": 31,
+      "speed": 30,
+      "spatk": 31,
+      "spdef": 31
+     }
     },
     {
      "name": "Dual Screens",
@@ -14684,7 +14892,15 @@
       "MOVE_U_TURN"
      ],
      "source": "Smogon data.pkmn.cc (gen9natdex Offensive Pivot)",
-     "notes": "Hidden Power Ice/Dazzling Gleam; HP Ice; U-turn/Volt Switch"
+     "notes": "Hidden Power Ice/Dazzling Gleam; HP Ice; U-turn/Volt Switch",
+     "ivs": {
+      "hp": 31,
+      "atk": 31,
+      "def": 31,
+      "speed": 30,
+      "spatk": 31,
+      "spdef": 31
+     }
     },
     {
      "name": "Offensive Utility",
@@ -14883,7 +15099,15 @@
       "MOVE_HIDDEN_POWER"
      ],
      "source": "Smogon data.pkmn.cc (gen9natdex Assault Vest)",
-     "notes": "Psychic/Psyshock; HP Fire"
+     "notes": "Psychic/Psyshock; HP Fire",
+     "ivs": {
+      "hp": 31,
+      "atk": 31,
+      "def": 30,
+      "speed": 30,
+      "spatk": 30,
+      "spdef": 31
+     }
     },
     {
      "name": "Choice Specs",
@@ -15027,7 +15251,15 @@
       "MOVE_HIDDEN_POWER"
      ],
      "source": "Smogon data.pkmn.cc (gen7 ou)",
-     "notes": "Hidden Power Fire/Focus Blast; HP Fire"
+     "notes": "Hidden Power Fire/Focus Blast; HP Fire",
+     "ivs": {
+      "hp": 31,
+      "atk": 31,
+      "def": 30,
+      "speed": 30,
+      "spatk": 30,
+      "spdef": 31
+     }
     },
     {
      "name": "Psychic Terrain Support",
@@ -15075,7 +15307,15 @@
       "MOVE_HIDDEN_POWER"
      ],
      "source": "Smogon data.pkmn.cc (gen7 ubers)",
-     "notes": "HP Fire"
+     "notes": "HP Fire",
+     "ivs": {
+      "hp": 31,
+      "atk": 31,
+      "def": 30,
+      "speed": 30,
+      "spatk": 30,
+      "spdef": 31
+     }
     },
     {
      "name": "Run & Bun set (Lv.85)",
@@ -16523,7 +16763,15 @@
       "MOVE_VOLT_SWITCH"
      ],
      "source": "Smogon data.pkmn.cc (gen7 monotype)",
-     "notes": "HP Ice"
+     "notes": "HP Ice",
+     "ivs": {
+      "hp": 31,
+      "atk": 31,
+      "def": 31,
+      "speed": 30,
+      "spatk": 31,
+      "spdef": 31
+     }
     },
     {
      "name": "Run & Bun set (Lv.87)",
@@ -17772,7 +18020,15 @@
       "MOVE_VOLT_SWITCH"
      ],
      "source": "Smogon data.pkmn.cc (gen7 ou)",
-     "notes": "Ice Beam/Energy Ball/Iron Head; Hidden Power Fire/Focus Blast; HP Fire"
+     "notes": "Ice Beam/Energy Ball/Iron Head; Hidden Power Fire/Focus Blast; HP Fire",
+     "ivs": {
+      "hp": 31,
+      "atk": 31,
+      "def": 30,
+      "speed": 30,
+      "spatk": 30,
+      "spdef": 31
+     }
     },
     {
      "name": "Utility",
@@ -17947,7 +18203,15 @@
       "MOVE_HIDDEN_POWER"
      ],
      "source": "Smogon data.pkmn.cc (gen7 ubers)",
-     "notes": "Hidden Power Ice/Rock Tomb; HP Ice"
+     "notes": "Hidden Power Ice/Rock Tomb; HP Ice",
+     "ivs": {
+      "hp": 31,
+      "atk": 31,
+      "def": 31,
+      "speed": 30,
+      "spatk": 31,
+      "spdef": 31
+     }
     },
     {
      "name": "Life Orb Attacker",
@@ -18074,7 +18338,15 @@
       "MOVE_HIDDEN_POWER"
      ],
      "source": "Smogon data.pkmn.cc (gen7 battlespotsingles)",
-     "notes": "Fire Blast/Flamethrower; Hidden Power Ground/U-turn; HP Ground"
+     "notes": "Fire Blast/Flamethrower; Hidden Power Ground/U-turn; HP Ground",
+     "ivs": {
+      "hp": 31,
+      "atk": 31,
+      "def": 31,
+      "speed": 31,
+      "spatk": 30,
+      "spdef": 30
+     }
     },
     {
      "name": "Run & Bun set (Lv.79)",
@@ -18352,7 +18624,15 @@
       "MOVE_TRICK"
      ],
      "source": "Smogon data.pkmn.cc (gen7 ou)",
-     "notes": "Hidden Power Ground/Hidden Power Grass; HP Ground"
+     "notes": "Hidden Power Ground/Hidden Power Grass; HP Ground",
+     "ivs": {
+      "hp": 31,
+      "atk": 31,
+      "def": 31,
+      "speed": 31,
+      "spatk": 30,
+      "spdef": 30
+     }
     },
     {
      "name": "Choice Scarf (Fire)",
@@ -18376,31 +18656,15 @@
       "MOVE_PSYSHOCK"
      ],
      "source": "Smogon data.pkmn.cc (gen7 monotype)",
-     "notes": "HP Ice"
-    },
-    {
-     "name": "Choice Specs (Fire)",
-     "role": "choice wallbreaker",
-     "tier": "monotype",
-     "item": "ITEM_CHOICE_SPECS",
-     "ability": "ABILITY_NONE",
-     "nature": "NATURE_TIMID",
-     "evs": {
-      "hp": 0,
-      "atk": 0,
-      "def": 0,
-      "spatk": 252,
-      "spdef": 4,
-      "speed": 252
-     },
-     "moves": [
-      "MOVE_SHADOW_BALL",
-      "MOVE_FIRE_BLAST",
-      "MOVE_HIDDEN_POWER",
-      "MOVE_TRICK"
-     ],
-     "source": "Smogon data.pkmn.cc (gen7 monotype)",
-     "notes": "Fire Blast/Flamethrower; HP Ice"
+     "notes": "HP Ice",
+     "ivs": {
+      "hp": 31,
+      "atk": 31,
+      "def": 31,
+      "speed": 30,
+      "spatk": 31,
+      "spdef": 31
+     }
     },
     {
      "name": "Focus Sash",
@@ -18424,7 +18688,15 @@
       "MOVE_FLAME_CHARGE"
      ],
      "source": "Smogon data.pkmn.cc (gen7 battlespotsingles)",
-     "notes": "Fire Blast/Flamethrower; HP Ice; Flame Charge/Will-O-Wisp/Mind Blown"
+     "notes": "Fire Blast/Flamethrower; HP Ice; Flame Charge/Will-O-Wisp/Mind Blown",
+     "ivs": {
+      "hp": 31,
+      "atk": 31,
+      "def": 31,
+      "speed": 30,
+      "spatk": 31,
+      "spdef": 31
+     }
     },
     {
      "name": "Calm Mind",
@@ -18637,7 +18909,7 @@
      "role": "defensive / utility",
      "item": "ITEM_EVIOLITE",
      "ability": "ABILITY_MAGNET_PULL",
-     "nature": "NATURE_IMPISH",
+     "nature": "NATURE_MODEST",
      "evs": {
       "hp": 252,
       "atk": 4,
@@ -19869,7 +20141,7 @@
      "role": "attacker",
      "tier": "inheritance",
      "item": "ITEM_LIFE_ORB",
-     "ability": "ABILITY_ADAPTABILITY",
+     "ability": "ABILITY_UNSEEN_FIST",
      "nature": "NATURE_ADAMANT",
      "evs": {
       "hp": 0,
@@ -19893,7 +20165,7 @@
      "role": "attacker",
      "tier": "inheritance",
      "item": "ITEM_LEFTOVERS",
-     "ability": "ABILITY_CONTRARY",
+     "ability": "ABILITY_UNSEEN_FIST",
      "nature": "NATURE_JOLLY",
      "evs": {
       "hp": 252,
@@ -21492,7 +21764,7 @@
      "role": "attacker",
      "tier": "inheritance",
      "item": "ITEM_LIFE_ORB",
-     "ability": "ABILITY_MAGIC_GUARD",
+     "ability": "ABILITY_CUTE_CHARM",
      "nature": "NATURE_NAIVE",
      "evs": {
       "hp": 0,
@@ -21643,7 +21915,7 @@
      "role": "defensive / utility",
      "tier": "inheritance",
      "item": "ITEM_LEFTOVERS",
-     "ability": "ABILITY_MAGIC_GUARD",
+     "ability": "ABILITY_OVERCOAT",
      "nature": "NATURE_BOLD",
      "evs": {
       "hp": 248,
@@ -23146,7 +23418,7 @@
      "role": "defensive / utility",
      "tier": "inheritance",
      "item": "ITEM_LEFTOVERS",
-     "ability": "ABILITY_INTIMIDATE",
+     "ability": "ABILITY_QUARK_DRIVE",
      "nature": "NATURE_IMPISH",
      "evs": {
       "hp": 252,
@@ -23170,7 +23442,7 @@
      "role": "attacker",
      "tier": "inheritance",
      "item": "ITEM_LEFTOVERS",
-     "ability": "ABILITY_PRANKSTER",
+     "ability": "ABILITY_QUARK_DRIVE",
      "nature": "NATURE_RELAXED",
      "evs": {
       "hp": 252,
@@ -23194,7 +23466,7 @@
      "role": "defensive / utility",
      "tier": "inheritance",
      "item": "ITEM_LEFTOVERS",
-     "ability": "ABILITY_MAGIC_GUARD",
+     "ability": "ABILITY_QUARK_DRIVE",
      "nature": "NATURE_IMPISH",
      "evs": {
       "hp": 252,
@@ -24004,7 +24276,7 @@
      "role": "attacker",
      "tier": "inheritance",
      "item": "ITEM_LEFTOVERS",
-     "ability": "ABILITY_UNAWARE",
+     "ability": "ABILITY_VESSEL_OF_RUIN",
      "nature": "NATURE_IMPISH",
      "evs": {
       "hp": 252,
@@ -24028,7 +24300,7 @@
      "role": "attacker",
      "tier": "inheritance",
      "item": "ITEM_LEFTOVERS",
-     "ability": "ABILITY_FUR_COAT",
+     "ability": "ABILITY_VESSEL_OF_RUIN",
      "nature": "NATURE_RELAXED",
      "evs": {
       "hp": 252,
@@ -25246,7 +25518,7 @@
      "role": "attacker",
      "tier": "inheritance",
      "item": "ITEM_CHOICE_SPECS",
-     "ability": "ABILITY_ADAPTABILITY",
+     "ability": "ABILITY_PROTOSYNTHESIS",
      "nature": "NATURE_TIMID",
      "evs": {
       "hp": 0,
@@ -25683,7 +25955,7 @@
      "tier": "uu",
      "item": "ITEM_HEAVY_DUTY_BOOTS",
      "ability": "ABILITY_NONE",
-     "nature": "NATURE_BOLD",
+     "nature": "NATURE_ADAMANT",
      "evs": {
       "hp": 252,
       "atk": 0,
@@ -25730,7 +26002,7 @@
      "role": "attacker",
      "tier": "inheritance",
      "item": "ITEM_BLACK_SLUDGE",
-     "ability": "ABILITY_LEVITATE",
+     "ability": "ABILITY_TOXIC_CHAIN",
      "nature": "NATURE_CALM",
      "evs": {
       "hp": 252,
@@ -25881,7 +26153,7 @@
      "role": "attacker",
      "tier": "inheritance",
      "item": "ITEM_LEFTOVERS",
-     "ability": "ABILITY_CORROSION",
+     "ability": "ABILITY_PROTOSYNTHESIS",
      "nature": "NATURE_CAREFUL",
      "evs": {
       "hp": 252,
@@ -25905,7 +26177,7 @@
      "role": "defensive / utility",
      "tier": "inheritance",
      "item": "ITEM_HEAVY_DUTY_BOOTS",
-     "ability": "ABILITY_INTIMIDATE",
+     "ability": "ABILITY_PROTOSYNTHESIS",
      "nature": "NATURE_IMPISH",
      "evs": {
       "hp": 252,
@@ -25929,7 +26201,7 @@
      "role": "setup sweeper",
      "tier": "inheritance",
      "item": "ITEM_HEAVY_DUTY_BOOTS",
-     "ability": "ABILITY_DRAGONS_MAW",
+     "ability": "ABILITY_PROTOSYNTHESIS",
      "nature": "NATURE_ADAMANT",
      "evs": {
       "hp": 0,
@@ -26382,7 +26654,7 @@
      "role": "attacker",
      "tier": "inheritance",
      "item": "ITEM_LEFTOVERS",
-     "ability": "ABILITY_LEVITATE",
+     "ability": "ABILITY_QUARK_DRIVE",
      "nature": "NATURE_BOLD",
      "evs": {
       "hp": 252,
@@ -26413,7 +26685,7 @@
      "role": "defensive / utility",
      "tier": "ubers",
      "item": "ITEM_HEAVY_DUTY_BOOTS",
-     "ability": "ABILITY_TERA_SHELL",
+     "ability": "ABILITY_TERA_SHIFT",
      "nature": "NATURE_IMPISH",
      "evs": {
       "hp": 252,
@@ -26437,7 +26709,7 @@
      "role": "choice wallbreaker",
      "tier": "monotype",
      "item": "ITEM_CHOICE_SPECS",
-     "ability": "ABILITY_TERA_SHELL",
+     "ability": "ABILITY_TERA_SHIFT",
      "nature": "NATURE_TIMID",
      "evs": {
       "hp": 0,
@@ -26485,7 +26757,7 @@
      "role": "attacker",
      "tier": "battlestadiumsingles",
      "item": "ITEM_LEFTOVERS",
-     "ability": "ABILITY_TERA_SHELL",
+     "ability": "ABILITY_TERA_SHIFT",
      "nature": "NATURE_MODEST",
      "evs": {
       "hp": 172,
@@ -26509,7 +26781,7 @@
      "role": "choice wallbreaker",
      "tier": "battlestadiumsingles",
      "item": "ITEM_CHOICE_SPECS",
-     "ability": "ABILITY_TERA_SHELL",
+     "ability": "ABILITY_TERA_SHIFT",
      "nature": "NATURE_MODEST",
      "evs": {
       "hp": 196,

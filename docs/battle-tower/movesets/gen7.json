@@ -247,7 +247,15 @@
       "MOVE_TAILWIND"
      ],
      "source": "Run & Bun",
-     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
+     "notes": "HP Ice (defaulted; source unspecified); EVs inferred (source lists moves/item/nature/ability only)",
+     "ivs": {
+      "hp": 31,
+      "atk": 31,
+      "def": 31,
+      "speed": 30,
+      "spatk": 31,
+      "spdef": 31
+     }
     },
     {
      "name": "Run & Bun set (Lv.69)",
@@ -1712,7 +1720,15 @@
       "MOVE_QUIVER_DANCE"
      ],
      "source": "Run & Bun",
-     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
+     "notes": "HP Ice (defaulted; source unspecified); EVs inferred (source lists moves/item/nature/ability only)",
+     "ivs": {
+      "hp": 31,
+      "atk": 31,
+      "def": 31,
+      "speed": 30,
+      "spatk": 31,
+      "spdef": 31
+     }
     },
     {
      "name": "Run & Bun set (Lv.68)",
@@ -1839,7 +1855,15 @@
       "MOVE_U_TURN"
      ],
      "source": "Smogon data.pkmn.cc (gen7 pu)",
-     "notes": "HP Grass"
+     "notes": "HP Grass",
+     "ivs": {
+      "hp": 31,
+      "atk": 31,
+      "def": 30,
+      "speed": 31,
+      "spatk": 30,
+      "spdef": 31
+     }
     }
    ]
   },
@@ -1997,8 +2021,8 @@
      "role": "attacker",
      "tier": "inheritance",
      "item": "ITEM_BLACK_SLUDGE",
-     "ability": "ABILITY_UNAWARE",
-     "nature": "NATURE_BOLD",
+     "ability": "ABILITY_MERCILESS",
+     "nature": "NATURE_ADAMANT",
      "evs": {
       "hp": 252,
       "atk": 0,
@@ -2021,7 +2045,7 @@
      "role": "attacker",
      "tier": "inheritance",
      "item": "ITEM_HEAVY_DUTY_BOOTS",
-     "ability": "ABILITY_PRANKSTER",
+     "ability": "ABILITY_MERCILESS",
      "nature": "NATURE_RELAXED",
      "evs": {
       "hp": 252,
@@ -2396,7 +2420,7 @@
      "tier": "monotype",
      "item": "ITEM_HEAVY_DUTY_BOOTS",
      "ability": "ABILITY_NONE",
-     "nature": "NATURE_IMPISH",
+     "nature": "NATURE_MODEST",
      "evs": {
       "hp": 248,
       "atk": 0,
@@ -2618,7 +2642,15 @@
       "MOVE_SPORE"
      ],
      "source": "Smogon data.pkmn.cc (gen7 pu)",
-     "notes": "HP Fire"
+     "notes": "HP Fire",
+     "ivs": {
+      "hp": 31,
+      "atk": 31,
+      "def": 30,
+      "speed": 30,
+      "spatk": 30,
+      "spdef": 31
+     }
     },
     {
      "name": "Run & Bun set (Lv.61)",
@@ -2913,7 +2945,15 @@
       "MOVE_NASTY_PLOT"
      ],
      "source": "Run & Bun",
-     "notes": "EVs inferred (source lists moves/item/nature/ability only)"
+     "notes": "HP Ice (defaulted; source unspecified); EVs inferred (source lists moves/item/nature/ability only)",
+     "ivs": {
+      "hp": 31,
+      "atk": 31,
+      "def": 31,
+      "speed": 30,
+      "spatk": 31,
+      "spdef": 31
+     }
     },
     {
      "name": "Run & Bun set (Lv.35)",
@@ -3534,7 +3574,15 @@
       "MOVE_HIDDEN_POWER"
      ],
      "source": "Smogon data.pkmn.cc (gen7 nu)",
-     "notes": "Hidden Power Ground/Hidden Power Fire/Hidden Power Psychic; HP Ground"
+     "notes": "Hidden Power Ground/Hidden Power Fire/Hidden Power Psychic; HP Ground",
+     "ivs": {
+      "hp": 31,
+      "atk": 31,
+      "def": 31,
+      "speed": 31,
+      "spatk": 30,
+      "spdef": 30
+     }
     },
     {
      "name": "Run & Bun set (Lv.88)",
@@ -4129,7 +4177,7 @@
      "tier": "battlespotsingles",
      "item": "ITEM_ROCKY_HELMET",
      "ability": "ABILITY_UNAWARE",
-     "nature": "NATURE_BOLD",
+     "nature": "NATURE_ADAMANT",
      "evs": {
       "hp": 252,
       "atk": 0,

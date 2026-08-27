@@ -14,7 +14,7 @@
      "role": "attacker",
      "tier": "nu",
      "item": "ITEM_ABOMASITE",
-     "ability": "ABILITY_SOUNDPROOF",
+     "ability": "ABILITY_SNOW_WARNING",
      "nature": "NATURE_MODEST",
      "evs": {
       "hp": 0,
@@ -38,7 +38,7 @@
      "role": "setup sweeper",
      "tier": "nu",
      "item": "ITEM_ABOMASITE",
-     "ability": "ABILITY_SOUNDPROOF",
+     "ability": "ABILITY_SNOW_WARNING",
      "nature": "NATURE_JOLLY",
      "evs": {
       "hp": 0,
@@ -62,7 +62,7 @@
      "role": "attacker",
      "tier": "ru",
      "item": "ITEM_ABOMASITE",
-     "ability": "ABILITY_SOUNDPROOF",
+     "ability": "ABILITY_SNOW_WARNING",
      "nature": "NATURE_RASH",
      "evs": {
       "hp": 0,
@@ -86,7 +86,7 @@
      "role": "attacker",
      "tier": "uu",
      "item": "ITEM_ABOMASITE",
-     "ability": "ABILITY_SOUNDPROOF",
+     "ability": "ABILITY_SNOW_WARNING",
      "nature": "NATURE_MILD",
      "evs": {
       "hp": 8,
@@ -118,7 +118,7 @@
      "role": "attacker",
      "tier": "uu",
      "item": "ITEM_ABSOLITE",
-     "ability": "ABILITY_JUSTIFIED",
+     "ability": "ABILITY_MAGIC_BOUNCE",
      "nature": "NATURE_NAIVE",
      "evs": {
       "hp": 0,
@@ -142,7 +142,7 @@
      "role": "setup sweeper",
      "tier": "ou",
      "item": "ITEM_ABSOLITE",
-     "ability": "ABILITY_JUSTIFIED",
+     "ability": "ABILITY_MAGIC_BOUNCE",
      "nature": "NATURE_JOLLY",
      "evs": {
       "hp": 0,
@@ -166,7 +166,7 @@
      "role": "setup sweeper",
      "tier": "uu",
      "item": "ITEM_ABSOLITE",
-     "ability": "ABILITY_JUSTIFIED",
+     "ability": "ABILITY_MAGIC_BOUNCE",
      "nature": "NATURE_JOLLY",
      "evs": {
       "hp": 0,
@@ -190,7 +190,7 @@
      "role": "attacker",
      "tier": "uu",
      "item": "ITEM_ABSOLITE",
-     "ability": "ABILITY_JUSTIFIED",
+     "ability": "ABILITY_MAGIC_BOUNCE",
      "nature": "NATURE_JOLLY",
      "evs": {
       "hp": 0,
@@ -278,7 +278,7 @@
      "role": "attacker",
      "tier": "monotype",
      "item": "ITEM_AERODACTYLITE",
-     "ability": "ABILITY_UNNERVE",
+     "ability": "ABILITY_TOUGH_CLAWS",
      "nature": "NATURE_JOLLY",
      "evs": {
       "hp": 0,
@@ -302,7 +302,7 @@
      "role": "attacker",
      "tier": "uu",
      "item": "ITEM_AERODACTYLITE",
-     "ability": "ABILITY_UNNERVE",
+     "ability": "ABILITY_TOUGH_CLAWS",
      "nature": "NATURE_JOLLY",
      "evs": {
       "hp": 0,
@@ -326,7 +326,7 @@
      "role": "hazard lead",
      "tier": "uu",
      "item": "ITEM_AERODACTYLITE",
-     "ability": "ABILITY_UNNERVE",
+     "ability": "ABILITY_TOUGH_CLAWS",
      "nature": "NATURE_JOLLY",
      "evs": {
       "hp": 0,
@@ -350,7 +350,7 @@
      "role": "attacker",
      "tier": "ou",
      "item": "ITEM_AERODACTYLITE",
-     "ability": "ABILITY_UNNERVE",
+     "ability": "ABILITY_TOUGH_CLAWS",
      "nature": "NATURE_JOLLY",
      "evs": {
       "hp": 0,
@@ -374,7 +374,7 @@
      "role": "attacker",
      "tier": "ou",
      "item": "ITEM_AERODACTYLITE",
-     "ability": "ABILITY_UNNERVE",
+     "ability": "ABILITY_TOUGH_CLAWS",
      "nature": "NATURE_JOLLY",
      "evs": {
       "hp": 168,
@@ -398,7 +398,7 @@
      "role": "attacker",
      "tier": "ubers",
      "item": "ITEM_AERODACTYLITE",
-     "ability": "ABILITY_PRESSURE",
+     "ability": "ABILITY_TOUGH_CLAWS",
      "nature": "NATURE_JOLLY",
      "evs": {
       "hp": 40,
@@ -422,7 +422,7 @@
      "role": "attacker",
      "tier": "uu",
      "item": "ITEM_AERODACTYLITE",
-     "ability": "ABILITY_UNNERVE",
+     "ability": "ABILITY_TOUGH_CLAWS",
      "nature": "NATURE_JOLLY",
      "evs": {
       "hp": 0,
@@ -582,7 +582,7 @@
      "role": "attacker",
      "tier": "battlespotsingles",
      "item": "ITEM_ALAKAZITE",
-     "ability": "ABILITY_MAGIC_GUARD",
+     "ability": "ABILITY_TRACE",
      "nature": "NATURE_TIMID",
      "evs": {
       "hp": 52,
@@ -599,14 +599,22 @@
       "MOVE_HIDDEN_POWER"
      ],
      "source": "Smogon data.pkmn.cc (gen7 battlespotsingles, base+stone)",
-     "notes": "Hidden Power Ice/Hidden Power Fire/Encore/Substitute; HP Ice"
+     "notes": "Hidden Power Ice/Hidden Power Fire/Encore/Substitute; HP Ice",
+     "ivs": {
+      "hp": 31,
+      "atk": 31,
+      "def": 31,
+      "speed": 30,
+      "spatk": 31,
+      "spdef": 31
+     }
     },
     {
      "name": "Spoonmaster (Standard)",
      "role": "attacker",
      "tier": "cap",
      "item": "ITEM_ALAKAZITE",
-     "ability": "ABILITY_MAGIC_GUARD",
+     "ability": "ABILITY_TRACE",
      "nature": "NATURE_TIMID",
      "evs": {
       "hp": 0,
@@ -654,7 +662,7 @@
      "role": "attacker",
      "tier": "ou",
      "item": "ITEM_ALAKAZITE",
-     "ability": "ABILITY_MAGIC_GUARD",
+     "ability": "ABILITY_TRACE",
      "nature": "NATURE_TIMID",
      "evs": {
       "hp": 0,
@@ -678,7 +686,7 @@
      "role": "defensive / utility",
      "tier": "ou",
      "item": "ITEM_ALAKAZITE",
-     "ability": "ABILITY_MAGIC_GUARD",
+     "ability": "ABILITY_TRACE",
      "nature": "NATURE_TIMID",
      "evs": {
       "hp": 0,
@@ -702,7 +710,7 @@
      "role": "attacker",
      "tier": "ou",
      "item": "ITEM_ALAKAZITE",
-     "ability": "ABILITY_MAGIC_GUARD",
+     "ability": "ABILITY_TRACE",
      "nature": "NATURE_TIMID",
      "evs": {
       "hp": 4,
@@ -902,7 +910,7 @@
      "role": "setup sweeper",
      "tier": "ou",
      "item": "ITEM_ALTARIANITE",
-     "ability": "ABILITY_CLOUD_NINE",
+     "ability": "ABILITY_PIXILATE",
      "nature": "NATURE_IMPISH",
      "evs": {
       "hp": 252,
@@ -1014,8 +1022,8 @@
      "role": "defensive / utility",
      "tier": "nu",
      "item": "ITEM_AUDINITE",
-     "ability": "ABILITY_REGENERATOR",
-     "nature": "NATURE_CALM",
+     "ability": "ABILITY_HEALER",
+     "nature": "NATURE_ADAMANT",
      "evs": {
       "hp": 252,
       "atk": 0,
@@ -1038,7 +1046,7 @@
      "role": "setup sweeper",
      "tier": "nu",
      "item": "ITEM_AUDINITE",
-     "ability": "ABILITY_REGENERATOR",
+     "ability": "ABILITY_HEALER",
      "nature": "NATURE_BOLD",
      "evs": {
       "hp": 252,
@@ -1062,7 +1070,7 @@
      "role": "defensive / utility",
      "tier": "nu",
      "item": "ITEM_AUDINITE",
-     "ability": "ABILITY_REGENERATOR",
+     "ability": "ABILITY_HEALER",
      "nature": "NATURE_MODEST",
      "evs": {
       "hp": 0,
@@ -1086,7 +1094,7 @@
      "role": "defensive / utility",
      "tier": "nu",
      "item": "ITEM_AUDINITE",
-     "ability": "ABILITY_REGENERATOR",
+     "ability": "ABILITY_HEALER",
      "nature": "NATURE_CALM",
      "evs": {
       "hp": 252,
@@ -1110,7 +1118,7 @@
      "role": "defensive / utility",
      "tier": "ru",
      "item": "ITEM_AUDINITE",
-     "ability": "ABILITY_REGENERATOR",
+     "ability": "ABILITY_HEALER",
      "nature": "NATURE_MODEST",
      "evs": {
       "hp": 248,
@@ -1134,7 +1142,7 @@
      "role": "setup sweeper",
      "tier": "ru",
      "item": "ITEM_AUDINITE",
-     "ability": "ABILITY_REGENERATOR",
+     "ability": "ABILITY_HEALER",
      "nature": "NATURE_BOLD",
      "evs": {
       "hp": 252,
@@ -1166,7 +1174,7 @@
      "role": "attacker",
      "tier": "ru",
      "item": "ITEM_BANETTITE",
-     "ability": "ABILITY_INSOMNIA",
+     "ability": "ABILITY_PRANKSTER",
      "nature": "NATURE_ADAMANT",
      "evs": {
       "hp": 228,
@@ -1190,7 +1198,7 @@
      "role": "attacker",
      "tier": "uu",
      "item": "ITEM_BANETTITE",
-     "ability": "ABILITY_FRISK",
+     "ability": "ABILITY_PRANKSTER",
      "nature": "NATURE_ADAMANT",
      "evs": {
       "hp": 252,
@@ -1414,7 +1422,7 @@
      "role": "wallbreaker",
      "tier": "uu",
      "item": "ITEM_BLASTOISINITE",
-     "ability": "ABILITY_RAIN_DISH",
+     "ability": "ABILITY_MEGA_LAUNCHER",
      "nature": "NATURE_MODEST",
      "evs": {
       "hp": 104,
@@ -1438,7 +1446,7 @@
      "role": "attacker",
      "tier": "battlespottriples",
      "item": "ITEM_BLASTOISINITE",
-     "ability": "ABILITY_RAIN_DISH",
+     "ability": "ABILITY_MEGA_LAUNCHER",
      "nature": "NATURE_MODEST",
      "evs": {
       "hp": 172,
@@ -1462,7 +1470,7 @@
      "role": "defensive / utility",
      "tier": "uu",
      "item": "ITEM_BLASTOISINITE",
-     "ability": "ABILITY_RAIN_DISH",
+     "ability": "ABILITY_MEGA_LAUNCHER",
      "nature": "NATURE_MODEST",
      "evs": {
       "hp": 184,
@@ -1486,7 +1494,7 @@
      "role": "attacker",
      "tier": "uu",
      "item": "ITEM_BLASTOISINITE",
-     "ability": "ABILITY_RAIN_DISH",
+     "ability": "ABILITY_MEGA_LAUNCHER",
      "nature": "NATURE_MODEST",
      "evs": {
       "hp": 56,
@@ -1622,7 +1630,7 @@
      "role": "defensive / utility",
      "tier": "ru",
      "item": "ITEM_CAMERUPTITE",
-     "ability": "ABILITY_SOLID_ROCK",
+     "ability": "ABILITY_SHEER_FORCE",
      "nature": "NATURE_CALM",
      "evs": {
       "hp": 252,
@@ -1646,7 +1654,7 @@
      "role": "wallbreaker",
      "tier": "uu",
      "item": "ITEM_CAMERUPTITE",
-     "ability": "ABILITY_SOLID_ROCK",
+     "ability": "ABILITY_SHEER_FORCE",
      "nature": "NATURE_MODEST",
      "evs": {
       "hp": 252,
@@ -1663,7 +1671,15 @@
       "MOVE_HIDDEN_POWER"
      ],
      "source": "Smogon data.pkmn.cc (gen6 uu, base+stone)",
-     "notes": "Hidden Power Grass/Will-O-Wisp; HP Grass"
+     "notes": "Hidden Power Grass/Will-O-Wisp; HP Grass",
+     "ivs": {
+      "hp": 31,
+      "atk": 31,
+      "def": 30,
+      "speed": 31,
+      "spatk": 30,
+      "spdef": 31
+     }
     }
    ],
    "_note": "official Gen 6 Mega"
@@ -1910,7 +1926,7 @@
      "role": "attacker",
      "tier": "battlespotsingles",
      "item": "ITEM_CHARIZARDITE_Y",
-     "ability": "ABILITY_BLAZE",
+     "ability": "ABILITY_DROUGHT",
      "nature": "NATURE_TIMID",
      "evs": {
       "hp": 0,
@@ -2271,7 +2287,15 @@
       "MOVE_HIDDEN_POWER"
      ],
      "source": "Smogon data.pkmn.cc (gen7 monotype, base+stone)",
-     "notes": "HP Fire"
+     "notes": "HP Fire",
+     "ivs": {
+      "hp": 31,
+      "atk": 31,
+      "def": 30,
+      "speed": 30,
+      "spatk": 30,
+      "spdef": 31
+     }
     },
     {
      "name": "Offensive",
@@ -2391,7 +2415,15 @@
       "MOVE_HIDDEN_POWER"
      ],
      "source": "Smogon data.pkmn.cc (gen6 monotype, base+stone)",
-     "notes": "Hidden Power Ice/Hidden Power Fire/Earth Power; HP Ice"
+     "notes": "Hidden Power Ice/Hidden Power Fire/Earth Power; HP Ice",
+     "ivs": {
+      "hp": 31,
+      "atk": 31,
+      "def": 31,
+      "speed": 30,
+      "spatk": 31,
+      "spdef": 31
+     }
     },
     {
      "name": "All-out Attacker (Fairy)",
@@ -2415,7 +2447,15 @@
       "MOVE_PROTECT"
      ],
      "source": "Smogon data.pkmn.cc (gen6 monotype, base+stone)",
-     "notes": "Hidden Power Fire/Earth Power; HP Fire"
+     "notes": "Hidden Power Fire/Earth Power; HP Fire",
+     "ivs": {
+      "hp": 31,
+      "atk": 31,
+      "def": 30,
+      "speed": 30,
+      "spatk": 30,
+      "spdef": 31
+     }
     }
    ],
    "_note": "official Gen 6 Mega"
@@ -2798,7 +2838,7 @@
      "role": "setup sweeper",
      "tier": "monotype",
      "item": "ITEM_GALLADITE",
-     "ability": "ABILITY_JUSTIFIED",
+     "ability": "ABILITY_INNER_FOCUS",
      "nature": "NATURE_JOLLY",
      "evs": {
       "hp": 0,
@@ -2822,7 +2862,7 @@
      "role": "setup sweeper",
      "tier": "monotype",
      "item": "ITEM_GALLADITE",
-     "ability": "ABILITY_JUSTIFIED",
+     "ability": "ABILITY_INNER_FOCUS",
      "nature": "NATURE_JOLLY",
      "evs": {
       "hp": 0,
@@ -2846,7 +2886,7 @@
      "role": "defensive / utility",
      "tier": "ou",
      "item": "ITEM_GALLADITE",
-     "ability": "ABILITY_JUSTIFIED",
+     "ability": "ABILITY_INNER_FOCUS",
      "nature": "NATURE_JOLLY",
      "evs": {
       "hp": 152,
@@ -2870,7 +2910,7 @@
      "role": "attacker",
      "tier": "ou",
      "item": "ITEM_GALLADITE",
-     "ability": "ABILITY_JUSTIFIED",
+     "ability": "ABILITY_INNER_FOCUS",
      "nature": "NATURE_JOLLY",
      "evs": {
       "hp": 0,
@@ -2902,7 +2942,7 @@
      "role": "wallbreaker",
      "tier": "monotype",
      "item": "ITEM_GARCHOMPITE",
-     "ability": "ABILITY_ROUGH_SKIN",
+     "ability": "ABILITY_SAND_FORCE",
      "nature": "NATURE_NAIVE",
      "evs": {
       "hp": 0,
@@ -2926,7 +2966,7 @@
      "role": "attacker",
      "tier": "ou",
      "item": "ITEM_GARCHOMPITE",
-     "ability": "ABILITY_ROUGH_SKIN",
+     "ability": "ABILITY_SAND_FORCE",
      "nature": "NATURE_HASTY",
      "evs": {
       "hp": 0,
@@ -2950,7 +2990,7 @@
      "role": "setup sweeper",
      "tier": "ou",
      "item": "ITEM_GARCHOMPITE",
-     "ability": "ABILITY_ROUGH_SKIN",
+     "ability": "ABILITY_SAND_FORCE",
      "nature": "NATURE_JOLLY",
      "evs": {
       "hp": 0,
@@ -2974,7 +3014,7 @@
      "role": "setup sweeper",
      "tier": "ou",
      "item": "ITEM_GARCHOMPITE",
-     "ability": "ABILITY_ROUGH_SKIN",
+     "ability": "ABILITY_SAND_FORCE",
      "nature": "NATURE_JOLLY",
      "evs": {
       "hp": 0,
@@ -3062,7 +3102,7 @@
      "role": "wallbreaker",
      "tier": "monotype",
      "item": "ITEM_GARDEVOIRITE",
-     "ability": "ABILITY_TRACE",
+     "ability": "ABILITY_PIXILATE",
      "nature": "NATURE_TIMID",
      "evs": {
       "hp": 0,
@@ -3086,7 +3126,7 @@
      "role": "wallbreaker",
      "tier": "battlespotsingles",
      "item": "ITEM_GARDEVOIRITE",
-     "ability": "ABILITY_TRACE",
+     "ability": "ABILITY_PIXILATE",
      "nature": "NATURE_MODEST",
      "evs": {
       "hp": 4,
@@ -3110,7 +3150,7 @@
      "role": "attacker",
      "tier": "monotype",
      "item": "ITEM_GARDEVOIRITE",
-     "ability": "ABILITY_TRACE",
+     "ability": "ABILITY_PIXILATE",
      "nature": "NATURE_TIMID",
      "evs": {
       "hp": 248,
@@ -3342,7 +3382,7 @@
      "role": "hazard lead",
      "tier": "nu",
      "item": "ITEM_GLALITITE",
-     "ability": "ABILITY_ICE_BODY",
+     "ability": "ABILITY_REFRIGERATE",
      "nature": "NATURE_JOLLY",
      "evs": {
       "hp": 0,
@@ -3438,7 +3478,7 @@
      "role": "attacker",
      "tier": "uu",
      "item": "ITEM_GLALITITE",
-     "ability": "ABILITY_ICE_BODY",
+     "ability": "ABILITY_REFRIGERATE",
      "nature": "NATURE_NAIVE",
      "evs": {
       "hp": 0,
@@ -3707,7 +3747,6 @@
      "moves": [
       "MOVE_DRAGON_DANCE",
       "MOVE_CRUNCH",
-      "MOVE_EARTHQUAKE",
       "MOVE_EARTHQUAKE"
      ],
      "source": "Smogon data.pkmn.cc (gen6 monotype, base+stone)",
@@ -3838,7 +3877,7 @@
      "role": "wallbreaker",
      "tier": "battlespotsingles",
      "item": "ITEM_HERACRONITE",
-     "ability": "ABILITY_GUTS",
+     "ability": "ABILITY_SKILL_LINK",
      "nature": "NATURE_ADAMANT",
      "evs": {
       "hp": 20,
@@ -3862,7 +3901,7 @@
      "role": "wallbreaker",
      "tier": "monotype",
      "item": "ITEM_HERACRONITE",
-     "ability": "ABILITY_MOXIE",
+     "ability": "ABILITY_SKILL_LINK",
      "nature": "NATURE_JOLLY",
      "evs": {
       "hp": 0,
@@ -3886,7 +3925,7 @@
      "role": "wallbreaker",
      "tier": "ou",
      "item": "ITEM_HERACRONITE",
-     "ability": "ABILITY_MOXIE",
+     "ability": "ABILITY_SKILL_LINK",
      "nature": "NATURE_ADAMANT",
      "evs": {
       "hp": 64,
@@ -3910,7 +3949,7 @@
      "role": "attacker",
      "tier": "monotype",
      "item": "ITEM_HERACRONITE",
-     "ability": "ABILITY_MOXIE",
+     "ability": "ABILITY_SKILL_LINK",
      "nature": "NATURE_JOLLY",
      "evs": {
       "hp": 0,
@@ -3923,7 +3962,6 @@
      "moves": [
       "MOVE_CLOSE_COMBAT",
       "MOVE_ROCK_BLAST",
-      "MOVE_BULLET_SEED",
       "MOVE_BULLET_SEED"
      ],
      "source": "Smogon data.pkmn.cc (gen6 monotype, base+stone)",
@@ -3934,7 +3972,7 @@
      "role": "wallbreaker",
      "tier": "ou",
      "item": "ITEM_HERACRONITE",
-     "ability": "ABILITY_MOXIE",
+     "ability": "ABILITY_SKILL_LINK",
      "nature": "NATURE_ADAMANT",
      "evs": {
       "hp": 240,
@@ -3966,7 +4004,7 @@
      "role": "setup sweeper",
      "tier": "uu",
      "item": "ITEM_HOUNDOOMINITE",
-     "ability": "ABILITY_FLASH_FIRE",
+     "ability": "ABILITY_SOLAR_POWER",
      "nature": "NATURE_TIMID",
      "evs": {
       "hp": 0,
@@ -3990,7 +4028,7 @@
      "role": "setup sweeper",
      "tier": "battlespotsingles",
      "item": "ITEM_HOUNDOOMINITE",
-     "ability": "ABILITY_FLASH_FIRE",
+     "ability": "ABILITY_SOLAR_POWER",
      "nature": "NATURE_TIMID",
      "evs": {
       "hp": 0,
@@ -4014,7 +4052,7 @@
      "role": "defensive / utility",
      "tier": "ou",
      "item": "ITEM_HOUNDOOMINITE",
-     "ability": "ABILITY_FLASH_FIRE",
+     "ability": "ABILITY_SOLAR_POWER",
      "nature": "NATURE_TIMID",
      "evs": {
       "hp": 40,
@@ -4038,7 +4076,7 @@
      "role": "setup sweeper",
      "tier": "uu",
      "item": "ITEM_HOUNDOOMINITE",
-     "ability": "ABILITY_FLASH_FIRE",
+     "ability": "ABILITY_SOLAR_POWER",
      "nature": "NATURE_TIMID",
      "evs": {
       "hp": 0,
@@ -4062,7 +4100,7 @@
      "role": "attacker",
      "tier": "uu",
      "item": "ITEM_HOUNDOOMINITE",
-     "ability": "ABILITY_FLASH_FIRE",
+     "ability": "ABILITY_SOLAR_POWER",
      "nature": "NATURE_TIMID",
      "evs": {
       "hp": 0,
@@ -4094,7 +4132,7 @@
      "role": "attacker",
      "tier": "battlespotsingles",
      "item": "ITEM_KANGASKHANITE",
-     "ability": "ABILITY_SCRAPPY",
+     "ability": "ABILITY_PARENTAL_BOND",
      "nature": "NATURE_ADAMANT",
      "evs": {
       "hp": 0,
@@ -4118,7 +4156,7 @@
      "role": "defensive / utility",
      "tier": "ubers",
      "item": "ITEM_KANGASKHANITE",
-     "ability": "ABILITY_SCRAPPY",
+     "ability": "ABILITY_PARENTAL_BOND",
      "nature": "NATURE_JOLLY",
      "evs": {
       "hp": 52,
@@ -4142,7 +4180,7 @@
      "role": "attacker",
      "tier": "battlespotsingles",
      "item": "ITEM_KANGASKHANITE",
-     "ability": "ABILITY_SCRAPPY",
+     "ability": "ABILITY_PARENTAL_BOND",
      "nature": "NATURE_ADAMANT",
      "evs": {
       "hp": 0,
@@ -4166,7 +4204,7 @@
      "role": "attacker",
      "tier": "ubers",
      "item": "ITEM_KANGASKHANITE",
-     "ability": "ABILITY_SCRAPPY",
+     "ability": "ABILITY_PARENTAL_BOND",
      "nature": "NATURE_ADAMANT",
      "evs": {
       "hp": 0,
@@ -4311,7 +4349,15 @@
       "MOVE_ROOST"
      ],
      "source": "Smogon data.pkmn.cc (gen7 ou, base+stone)",
-     "notes": "Hidden Power Ground/Psychic/Hidden Power Fighting/Thunder Wave/Defog; HP Ground; Thunder Wave/Defog"
+     "notes": "Hidden Power Ground/Psychic/Hidden Power Fighting/Thunder Wave/Defog; HP Ground; Thunder Wave/Defog",
+     "ivs": {
+      "hp": 31,
+      "atk": 31,
+      "def": 31,
+      "speed": 31,
+      "spatk": 30,
+      "spdef": 30
+     }
     },
     {
      "name": "Calm Mind",
@@ -4439,7 +4485,15 @@
       "MOVE_RECOVER"
      ],
      "source": "Smogon data.pkmn.cc (gen7 monotype, base+stone)",
-     "notes": "HP Fire"
+     "notes": "HP Fire",
+     "ivs": {
+      "hp": 31,
+      "atk": 31,
+      "def": 30,
+      "speed": 30,
+      "spatk": 30,
+      "spdef": 31
+     }
     },
     {
      "name": "Mega Mixed Attacker",
@@ -4526,7 +4580,7 @@
      "role": "attacker",
      "tier": "battlespotsingles",
      "item": "ITEM_LOPUNNITE",
-     "ability": "ABILITY_LIMBER",
+     "ability": "ABILITY_SCRAPPY",
      "nature": "NATURE_JOLLY",
      "evs": {
       "hp": 0,
@@ -4550,7 +4604,7 @@
      "role": "attacker",
      "tier": "monotype",
      "item": "ITEM_LOPUNNITE",
-     "ability": "ABILITY_LIMBER",
+     "ability": "ABILITY_SCRAPPY",
      "nature": "NATURE_JOLLY",
      "evs": {
       "hp": 0,
@@ -4574,7 +4628,7 @@
      "role": "attacker",
      "tier": "ou",
      "item": "ITEM_LOPUNNITE",
-     "ability": "ABILITY_LIMBER",
+     "ability": "ABILITY_SCRAPPY",
      "nature": "NATURE_JOLLY",
      "evs": {
       "hp": 0,
@@ -4598,7 +4652,7 @@
      "role": "attacker",
      "tier": "ou",
      "item": "ITEM_LOPUNNITE",
-     "ability": "ABILITY_LIMBER",
+     "ability": "ABILITY_SCRAPPY",
      "nature": "NATURE_JOLLY",
      "evs": {
       "hp": 0,
@@ -4622,7 +4676,7 @@
      "role": "attacker",
      "tier": "ubers",
      "item": "ITEM_LOPUNNITE",
-     "ability": "ABILITY_LIMBER",
+     "ability": "ABILITY_SCRAPPY",
      "nature": "NATURE_JOLLY",
      "evs": {
       "hp": 4,
@@ -4646,7 +4700,7 @@
      "role": "sub attacker",
      "tier": "cap",
      "item": "ITEM_LOPUNNITE",
-     "ability": "ABILITY_LIMBER",
+     "ability": "ABILITY_SCRAPPY",
      "nature": "NATURE_JOLLY",
      "evs": {
       "hp": 0,
@@ -4670,7 +4724,7 @@
      "role": "attacker",
      "tier": "ou",
      "item": "ITEM_LOPUNNITE",
-     "ability": "ABILITY_LIMBER",
+     "ability": "ABILITY_SCRAPPY",
      "nature": "NATURE_JOLLY",
      "evs": {
       "hp": 0,
@@ -4694,7 +4748,7 @@
      "role": "attacker",
      "tier": "ubers",
      "item": "ITEM_LOPUNNITE",
-     "ability": "ABILITY_LIMBER",
+     "ability": "ABILITY_SCRAPPY",
      "nature": "NATURE_JOLLY",
      "evs": {
       "hp": 4,
@@ -4726,7 +4780,7 @@
      "role": "attacker",
      "tier": "battlespotsingles",
      "item": "ITEM_LUCARIONITE",
-     "ability": "ABILITY_INNER_FOCUS",
+     "ability": "ABILITY_ADAPTABILITY",
      "nature": "NATURE_JOLLY",
      "evs": {
       "hp": 0,
@@ -4750,7 +4804,7 @@
      "role": "attacker",
      "tier": "battlespotsingles",
      "item": "ITEM_LUCARIONITE",
-     "ability": "ABILITY_INNER_FOCUS",
+     "ability": "ABILITY_ADAPTABILITY",
      "nature": "NATURE_TIMID",
      "evs": {
       "hp": 0,
@@ -4774,7 +4828,7 @@
      "role": "setup sweeper",
      "tier": "ubers",
      "item": "ITEM_LUCARIONITE",
-     "ability": "ABILITY_JUSTIFIED",
+     "ability": "ABILITY_ADAPTABILITY",
      "nature": "NATURE_JOLLY",
      "evs": {
       "hp": 0,
@@ -4798,7 +4852,7 @@
      "role": "attacker",
      "tier": "battlespotsingles",
      "item": "ITEM_LUCARIONITE",
-     "ability": "ABILITY_INNER_FOCUS",
+     "ability": "ABILITY_ADAPTABILITY",
      "nature": "NATURE_JOLLY",
      "evs": {
       "hp": 0,
@@ -4822,7 +4876,7 @@
      "role": "setup sweeper",
      "tier": "ubers",
      "item": "ITEM_LUCARIONITE",
-     "ability": "ABILITY_JUSTIFIED",
+     "ability": "ABILITY_ADAPTABILITY",
      "nature": "NATURE_JOLLY",
      "evs": {
       "hp": 0,
@@ -4982,7 +5036,7 @@
      "role": "defensive / utility",
      "tier": "battlespotsingles",
      "item": "ITEM_MANECTITE",
-     "ability": "ABILITY_LIGHTNING_ROD",
+     "ability": "ABILITY_INTIMIDATE",
      "nature": "NATURE_TIMID",
      "evs": {
       "hp": 0,
@@ -4999,7 +5053,15 @@
       "MOVE_VOLT_SWITCH"
      ],
      "source": "Smogon data.pkmn.cc (gen7 battlespotsingles, base+stone)",
-     "notes": "Overheat/Flamethrower; HP Ice"
+     "notes": "Overheat/Flamethrower; HP Ice",
+     "ivs": {
+      "hp": 31,
+      "atk": 31,
+      "def": 31,
+      "speed": 30,
+      "spatk": 31,
+      "spdef": 31
+     }
     },
     {
      "name": "Offensive Pivot",
@@ -5023,7 +5085,15 @@
       "MOVE_FLAMETHROWER"
      ],
      "source": "Smogon data.pkmn.cc (gen6 monotype, base+stone)",
-     "notes": "HP Ice; Flamethrower/Overheat"
+     "notes": "HP Ice; Flamethrower/Overheat",
+     "ivs": {
+      "hp": 31,
+      "atk": 31,
+      "def": 31,
+      "speed": 30,
+      "spatk": 31,
+      "spdef": 31
+     }
     }
    ],
    "_note": "official Gen 6 Mega"
@@ -5038,7 +5108,7 @@
      "role": "attacker",
      "tier": "battlespotsingles",
      "item": "ITEM_MAWILITE",
-     "ability": "ABILITY_INTIMIDATE",
+     "ability": "ABILITY_HUGE_POWER",
      "nature": "NATURE_ADAMANT",
      "evs": {
       "hp": 252,
@@ -5062,7 +5132,7 @@
      "role": "setup sweeper",
      "tier": "ou",
      "item": "ITEM_MAWILITE",
-     "ability": "ABILITY_INTIMIDATE",
+     "ability": "ABILITY_HUGE_POWER",
      "nature": "NATURE_ADAMANT",
      "evs": {
       "hp": 92,
@@ -5086,7 +5156,7 @@
      "role": "attacker",
      "tier": "ou",
      "item": "ITEM_MAWILITE",
-     "ability": "ABILITY_INTIMIDATE",
+     "ability": "ABILITY_HUGE_POWER",
      "nature": "NATURE_ADAMANT",
      "evs": {
       "hp": 92,
@@ -5110,7 +5180,7 @@
      "role": "sub attacker",
      "tier": "ou",
      "item": "ITEM_MAWILITE",
-     "ability": "ABILITY_INTIMIDATE",
+     "ability": "ABILITY_HUGE_POWER",
      "nature": "NATURE_ADAMANT",
      "evs": {
       "hp": 144,
@@ -5134,7 +5204,7 @@
      "role": "defensive / utility",
      "tier": "ubers",
      "item": "ITEM_MAWILITE",
-     "ability": "ABILITY_INTIMIDATE",
+     "ability": "ABILITY_HUGE_POWER",
      "nature": "NATURE_ADAMANT",
      "evs": {
       "hp": 248,
@@ -5166,7 +5236,7 @@
      "role": "attacker",
      "tier": "ou",
      "item": "ITEM_MEDICHAMITE",
-     "ability": "ABILITY_TELEPATHY",
+     "ability": "ABILITY_PURE_POWER",
      "nature": "NATURE_JOLLY",
      "evs": {
       "hp": 0,
@@ -5574,7 +5644,7 @@
      "role": "attacker",
      "tier": "ubers",
      "item": "ITEM_MEWTWONITE_Y",
-     "ability": "ABILITY_UNNERVE",
+     "ability": "ABILITY_INSOMNIA",
      "nature": "NATURE_TIMID",
      "evs": {
       "hp": 0,
@@ -5606,7 +5676,7 @@
      "role": "attacker",
      "tier": "monotype",
      "item": "ITEM_PIDGEOTITE",
-     "ability": "ABILITY_BIG_PECKS",
+     "ability": "ABILITY_NO_GUARD",
      "nature": "NATURE_TIMID",
      "evs": {
       "hp": 0,
@@ -5630,7 +5700,7 @@
      "role": "attacker",
      "tier": "battlespotsingles",
      "item": "ITEM_PIDGEOTITE",
-     "ability": "ABILITY_BIG_PECKS",
+     "ability": "ABILITY_NO_GUARD",
      "nature": "NATURE_TIMID",
      "evs": {
       "hp": 0,
@@ -5647,14 +5717,22 @@
       "MOVE_HIDDEN_POWER"
      ],
      "source": "Smogon data.pkmn.cc (gen6 battlespotsingles, base+stone)",
-     "notes": "Protect/U-turn/Substitute; HP Ice"
+     "notes": "Protect/U-turn/Substitute; HP Ice",
+     "ivs": {
+      "hp": 31,
+      "atk": 31,
+      "def": 31,
+      "speed": 30,
+      "spatk": 31,
+      "spdef": 31
+     }
     },
     {
      "name": "Storm Bringer (Normal)",
      "role": "attacker",
      "tier": "monotype",
      "item": "ITEM_PIDGEOTITE",
-     "ability": "ABILITY_BIG_PECKS",
+     "ability": "ABILITY_NO_GUARD",
      "nature": "NATURE_TIMID",
      "evs": {
       "hp": 0,
@@ -5734,7 +5812,7 @@
      "role": "setup sweeper",
      "tier": "monotype",
      "item": "ITEM_PINSIRITE",
-     "ability": "ABILITY_MOXIE",
+     "ability": "ABILITY_AERILATE",
      "nature": "NATURE_JOLLY",
      "evs": {
       "hp": 0,
@@ -5782,7 +5860,7 @@
      "role": "setup sweeper",
      "tier": "cap",
      "item": "ITEM_PINSIRITE",
-     "ability": "ABILITY_HYPER_CUTTER",
+     "ability": "ABILITY_AERILATE",
      "nature": "NATURE_JOLLY",
      "evs": {
       "hp": 0,
@@ -6110,7 +6188,7 @@
      "role": "defensive / utility",
      "tier": "monotype",
      "item": "ITEM_SABLENITE",
-     "ability": "ABILITY_PRANKSTER",
+     "ability": "ABILITY_MAGIC_BOUNCE",
      "nature": "NATURE_CAREFUL",
      "evs": {
       "hp": 252,
@@ -6134,7 +6212,7 @@
      "role": "defensive / utility",
      "tier": "monotype",
      "item": "ITEM_SABLENITE",
-     "ability": "ABILITY_PRANKSTER",
+     "ability": "ABILITY_MAGIC_BOUNCE",
      "nature": "NATURE_CAREFUL",
      "evs": {
       "hp": 248,
@@ -6158,7 +6236,7 @@
      "role": "defensive / utility",
      "tier": "ubers",
      "item": "ITEM_SABLENITE",
-     "ability": "ABILITY_PRANKSTER",
+     "ability": "ABILITY_MAGIC_BOUNCE",
      "nature": "NATURE_IMPISH",
      "evs": {
       "hp": 248,
@@ -6182,7 +6260,7 @@
      "role": "defensive / utility",
      "tier": "anythinggoes",
      "item": "ITEM_SABLENITE",
-     "ability": "ABILITY_PRANKSTER",
+     "ability": "ABILITY_MAGIC_BOUNCE",
      "nature": "NATURE_IMPISH",
      "evs": {
       "hp": 248,
@@ -6206,7 +6284,7 @@
      "role": "setup sweeper",
      "tier": "battlespotsingles",
      "item": "ITEM_SABLENITE",
-     "ability": "ABILITY_PRANKSTER",
+     "ability": "ABILITY_MAGIC_BOUNCE",
      "nature": "NATURE_BOLD",
      "evs": {
       "hp": 252,
@@ -6230,7 +6308,7 @@
      "role": "defensive / utility",
      "tier": "battlespotsingles",
      "item": "ITEM_SABLENITE",
-     "ability": "ABILITY_PRANKSTER",
+     "ability": "ABILITY_MAGIC_BOUNCE",
      "nature": "NATURE_IMPISH",
      "evs": {
       "hp": 252,
@@ -6431,7 +6509,15 @@
       "MOVE_HIDDEN_POWER"
      ],
      "source": "Smogon data.pkmn.cc (gen7 uu, base+stone)",
-     "notes": "Earthquake/Giga Drain/Focus Blast; Hidden Power Fire/Focus Blast; HP Fire"
+     "notes": "Earthquake/Giga Drain/Focus Blast; Hidden Power Fire/Focus Blast; HP Fire",
+     "ivs": {
+      "hp": 31,
+      "atk": 31,
+      "def": 30,
+      "speed": 30,
+      "spatk": 30,
+      "spdef": 31
+     }
     },
     {
      "name": "All-Out Attacker",
@@ -6566,7 +6652,7 @@
      "role": "setup sweeper",
      "tier": "monotype",
      "item": "ITEM_SCIZORITE",
-     "ability": "ABILITY_LIGHT_METAL",
+     "ability": "ABILITY_TECHNICIAN",
      "nature": "NATURE_ADAMANT",
      "evs": {
       "hp": 0,
@@ -6614,7 +6700,7 @@
      "role": "defensive / utility",
      "tier": "ubers",
      "item": "ITEM_SCIZORITE",
-     "ability": "ABILITY_LIGHT_METAL",
+     "ability": "ABILITY_TECHNICIAN",
      "nature": "NATURE_SASSY",
      "evs": {
       "hp": 248,
@@ -6662,7 +6748,7 @@
      "role": "defensive / utility",
      "tier": "cap",
      "item": "ITEM_SCIZORITE",
-     "ability": "ABILITY_LIGHT_METAL",
+     "ability": "ABILITY_TECHNICIAN",
      "nature": "NATURE_IMPISH",
      "evs": {
       "hp": 248,
@@ -6686,7 +6772,7 @@
      "role": "setup sweeper",
      "tier": "monotype",
      "item": "ITEM_SCIZORITE",
-     "ability": "ABILITY_LIGHT_METAL",
+     "ability": "ABILITY_TECHNICIAN",
      "nature": "NATURE_ADAMANT",
      "evs": {
       "hp": 232,
@@ -6710,7 +6796,7 @@
      "role": "setup sweeper",
      "tier": "ou",
      "item": "ITEM_SCIZORITE",
-     "ability": "ABILITY_LIGHT_METAL",
+     "ability": "ABILITY_TECHNICIAN",
      "nature": "NATURE_ADAMANT",
      "evs": {
       "hp": 248,
@@ -6838,7 +6924,7 @@
      "role": "attacker",
      "tier": "battlespotsingles",
      "item": "ITEM_SHARPEDONITE",
-     "ability": "ABILITY_SPEED_BOOST",
+     "ability": "ABILITY_STRONG_JAW",
      "nature": "NATURE_ADAMANT",
      "evs": {
       "hp": 4,
@@ -6862,7 +6948,7 @@
      "role": "attacker",
      "tier": "monotype",
      "item": "ITEM_SHARPEDONITE",
-     "ability": "ABILITY_SPEED_BOOST",
+     "ability": "ABILITY_STRONG_JAW",
      "nature": "NATURE_JOLLY",
      "evs": {
       "hp": 0,
@@ -6886,7 +6972,7 @@
      "role": "attacker",
      "tier": "uu",
      "item": "ITEM_SHARPEDONITE",
-     "ability": "ABILITY_SPEED_BOOST",
+     "ability": "ABILITY_STRONG_JAW",
      "nature": "NATURE_ADAMANT",
      "evs": {
       "hp": 4,
@@ -6910,7 +6996,7 @@
      "role": "attacker",
      "tier": "monotype",
      "item": "ITEM_SHARPEDONITE",
-     "ability": "ABILITY_SPEED_BOOST",
+     "ability": "ABILITY_STRONG_JAW",
      "nature": "NATURE_JOLLY",
      "evs": {
       "hp": 0,
@@ -6934,7 +7020,7 @@
      "role": "attacker",
      "tier": "monotype",
      "item": "ITEM_SHARPEDONITE",
-     "ability": "ABILITY_SPEED_BOOST",
+     "ability": "ABILITY_STRONG_JAW",
      "nature": "NATURE_JOLLY",
      "evs": {
       "hp": 0,
@@ -6958,7 +7044,7 @@
      "role": "attacker",
      "tier": "ou",
      "item": "ITEM_SHARPEDONITE",
-     "ability": "ABILITY_SPEED_BOOST",
+     "ability": "ABILITY_STRONG_JAW",
      "nature": "NATURE_NAUGHTY",
      "evs": {
       "hp": 0,
@@ -7022,7 +7108,7 @@
      "role": "defensive / utility",
      "tier": "battlespotsingles",
      "item": "ITEM_SLOWBRONITE",
-     "ability": "ABILITY_REGENERATOR",
+     "ability": "ABILITY_SHELL_ARMOR",
      "nature": "NATURE_BOLD",
      "evs": {
       "hp": 252,
@@ -7046,7 +7132,7 @@
      "role": "attacker",
      "tier": "battlespotsingles",
      "item": "ITEM_SLOWBRONITE",
-     "ability": "ABILITY_REGENERATOR",
+     "ability": "ABILITY_SHELL_ARMOR",
      "nature": "NATURE_QUIET",
      "evs": {
       "hp": 252,
@@ -7070,7 +7156,7 @@
      "role": "setup sweeper",
      "tier": "monotype",
      "item": "ITEM_SLOWBRONITE",
-     "ability": "ABILITY_REGENERATOR",
+     "ability": "ABILITY_SHELL_ARMOR",
      "nature": "NATURE_BOLD",
      "evs": {
       "hp": 252,
@@ -7094,7 +7180,7 @@
      "role": "attacker",
      "tier": "monotype",
      "item": "ITEM_SLOWBRONITE",
-     "ability": "ABILITY_REGENERATOR",
+     "ability": "ABILITY_SHELL_ARMOR",
      "nature": "NATURE_BOLD",
      "evs": {
       "hp": 252,
@@ -7118,7 +7204,7 @@
      "role": "attacker",
      "tier": "ou",
      "item": "ITEM_SLOWBRONITE",
-     "ability": "ABILITY_REGENERATOR",
+     "ability": "ABILITY_SHELL_ARMOR",
      "nature": "NATURE_BOLD",
      "evs": {
       "hp": 252,
@@ -7142,7 +7228,7 @@
      "role": "defensive / utility",
      "tier": "ubers",
      "item": "ITEM_SLOWBRONITE",
-     "ability": "ABILITY_REGENERATOR",
+     "ability": "ABILITY_SHELL_ARMOR",
      "nature": "NATURE_BOLD",
      "evs": {
       "hp": 248,
@@ -7166,7 +7252,7 @@
      "role": "setup sweeper",
      "tier": "uu",
      "item": "ITEM_SLOWBRONITE",
-     "ability": "ABILITY_REGENERATOR",
+     "ability": "ABILITY_SHELL_ARMOR",
      "nature": "NATURE_BOLD",
      "evs": {
       "hp": 252,
@@ -7190,7 +7276,7 @@
      "role": "defensive / utility",
      "tier": "uu",
      "item": "ITEM_SLOWBRONITE",
-     "ability": "ABILITY_REGENERATOR",
+     "ability": "ABILITY_SHELL_ARMOR",
      "nature": "NATURE_BOLD",
      "evs": {
       "hp": 252,
@@ -7286,7 +7372,7 @@
      "role": "setup sweeper",
      "tier": "monotype",
      "item": "ITEM_STEELIXITE",
-     "ability": "ABILITY_STURDY",
+     "ability": "ABILITY_SAND_FORCE",
      "nature": "NATURE_IMPISH",
      "evs": {
       "hp": 252,
@@ -7310,7 +7396,7 @@
      "role": "hazard lead",
      "tier": "uu",
      "item": "ITEM_STEELIXITE",
-     "ability": "ABILITY_STURDY",
+     "ability": "ABILITY_SAND_FORCE",
      "nature": "NATURE_BRAVE",
      "evs": {
       "hp": 252,
@@ -7334,7 +7420,7 @@
      "role": "setup sweeper",
      "tier": "battlespotsingles",
      "item": "ITEM_STEELIXITE",
-     "ability": "ABILITY_STURDY",
+     "ability": "ABILITY_SAND_FORCE",
      "nature": "NATURE_BRAVE",
      "evs": {
       "hp": 252,
@@ -7358,7 +7444,7 @@
      "role": "defensive / utility",
      "tier": "uu",
      "item": "ITEM_STEELIXITE",
-     "ability": "ABILITY_STURDY",
+     "ability": "ABILITY_SAND_FORCE",
      "nature": "NATURE_IMPISH",
      "evs": {
       "hp": 252,
@@ -7390,7 +7476,7 @@
      "role": "attacker",
      "tier": "battlespotsingles",
      "item": "ITEM_SWAMPERTITE",
-     "ability": "ABILITY_DAMP",
+     "ability": "ABILITY_SWIFT_SWIM",
      "nature": "NATURE_ADAMANT",
      "evs": {
       "hp": 4,
@@ -7414,7 +7500,7 @@
      "role": "attacker",
      "tier": "monotype",
      "item": "ITEM_SWAMPERTITE",
-     "ability": "ABILITY_TORRENT",
+     "ability": "ABILITY_SWIFT_SWIM",
      "nature": "NATURE_ADAMANT",
      "evs": {
       "hp": 0,
@@ -7462,7 +7548,7 @@
      "role": "attacker",
      "tier": "ou",
      "item": "ITEM_SWAMPERTITE",
-     "ability": "ABILITY_DAMP",
+     "ability": "ABILITY_SWIFT_SWIM",
      "nature": "NATURE_ADAMANT",
      "evs": {
       "hp": 0,
@@ -7486,7 +7572,7 @@
      "role": "defensive / utility",
      "tier": "uu",
      "item": "ITEM_SWAMPERTITE",
-     "ability": "ABILITY_DAMP",
+     "ability": "ABILITY_SWIFT_SWIM",
      "nature": "NATURE_RELAXED",
      "evs": {
       "hp": 252,
@@ -7510,7 +7596,7 @@
      "role": "setup sweeper",
      "tier": "uu",
      "item": "ITEM_SWAMPERTITE",
-     "ability": "ABILITY_DAMP",
+     "ability": "ABILITY_SWIFT_SWIM",
      "nature": "NATURE_CAREFUL",
      "evs": {
       "hp": 252,
@@ -7838,7 +7924,7 @@
      "role": "defensive / utility",
      "tier": "battlespotsingles",
      "item": "ITEM_VENUSAURITE",
-     "ability": "ABILITY_CHLOROPHYLL",
+     "ability": "ABILITY_THICK_FAT",
      "nature": "NATURE_MODEST",
      "evs": {
       "hp": 252,
@@ -7855,14 +7941,22 @@
       "MOVE_HIDDEN_POWER"
      ],
      "source": "Smogon data.pkmn.cc (gen7 battlespotsingles, base+stone)",
-     "notes": "Giga Drain/Energy Ball/Sleep Powder; Hidden Power Fire/Sleep Powder; HP Fire"
+     "notes": "Giga Drain/Energy Ball/Sleep Powder; Hidden Power Fire/Sleep Powder; HP Fire",
+     "ivs": {
+      "hp": 31,
+      "atk": 31,
+      "def": 30,
+      "speed": 30,
+      "spatk": 30,
+      "spdef": 31
+     }
     },
     {
      "name": "Defensive",
      "role": "defensive / utility",
      "tier": "battlespotsingles",
      "item": "ITEM_VENUSAURITE",
-     "ability": "ABILITY_CHLOROPHYLL",
+     "ability": "ABILITY_THICK_FAT",
      "nature": "NATURE_BOLD",
      "evs": {
       "hp": 252,
@@ -7910,7 +8004,7 @@
      "role": "defensive / utility",
      "tier": "ou",
      "item": "ITEM_VENUSAURITE",
-     "ability": "ABILITY_CHLOROPHYLL",
+     "ability": "ABILITY_THICK_FAT",
      "nature": "NATURE_BOLD",
      "evs": {
       "hp": 252,
@@ -7927,14 +8021,22 @@
       "MOVE_SYNTHESIS"
      ],
      "source": "Smogon data.pkmn.cc (gen7 ou, base+stone)",
-     "notes": "HP Fire"
+     "notes": "HP Fire",
+     "ivs": {
+      "hp": 31,
+      "atk": 31,
+      "def": 30,
+      "speed": 30,
+      "spatk": 30,
+      "spdef": 31
+     }
     },
     {
      "name": "Defensive",
      "role": "defensive / utility",
      "tier": "ubers",
      "item": "ITEM_VENUSAURITE",
-     "ability": "ABILITY_CHLOROPHYLL",
+     "ability": "ABILITY_THICK_FAT",
      "nature": "NATURE_BOLD",
      "evs": {
       "hp": 252,
@@ -7958,7 +8060,7 @@
      "role": "defensive / utility",
      "tier": "monotype",
      "item": "ITEM_VENUSAURITE",
-     "ability": "ABILITY_CHLOROPHYLL",
+     "ability": "ABILITY_THICK_FAT",
      "nature": "NATURE_BOLD",
      "evs": {
       "hp": 248,
@@ -7975,14 +8077,22 @@
       "MOVE_KNOCK_OFF"
      ],
      "source": "Smogon data.pkmn.cc (gen6 monotype, base+stone)",
-     "notes": "HP Fire; Knock Off/Sludge Bomb/Leech Seed"
+     "notes": "HP Fire; Knock Off/Sludge Bomb/Leech Seed",
+     "ivs": {
+      "hp": 31,
+      "atk": 31,
+      "def": 30,
+      "speed": 30,
+      "spatk": 30,
+      "spdef": 31
+     }
     },
     {
      "name": "Offensive",
      "role": "attacker",
      "tier": "ou",
      "item": "ITEM_VENUSAURITE",
-     "ability": "ABILITY_CHLOROPHYLL",
+     "ability": "ABILITY_THICK_FAT",
      "nature": "NATURE_MODEST",
      "evs": {
       "hp": 248,
