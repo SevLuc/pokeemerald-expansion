@@ -71,6 +71,12 @@ static void FillTentTrainerParty_(u16 trainerId, u8 firstMonId, u8 monCount);
 #include "data/battle_frontier/battle_frontier_trainer_mons.h"
 #include "data/battle_frontier/battle_frontier_trainers.h"
 #include "data/battle_frontier/battle_frontier_mons.h"
+// Rental battle mode pool. Defined here (rather than in src/rental_mode.c) so the
+// generated table is compiled in a translation unit that already has every
+// MOVE_/SPECIES_/ITEM_/ABILITY_ constant in scope, exactly like the frontier pool
+// above. Other files reference it via the extern decls in battle_tower_rental.h.
+#include "battle_tower_rental.h"
+#include "data/battle_tower/rental_mons.h"
 
 const struct FacilityClass gTowerMaleFacilityClasses[FACILITY_CLASSES_MALE] =
 {

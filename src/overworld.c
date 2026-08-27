@@ -1949,6 +1949,32 @@ void CB2_NewGame(void)
 #endif
 }
 
+// Boots the standalone rental battle mode from the main menu. Mirrors CB2_NewGame
+// but warps into the Battle Tower Lobby (reused as the rental hub) instead of the
+// story start. This sets up an in-RAM game state only; the rental mode never writes
+// to flash, so the player's story save on the cartridge is never touched.
+void CB2_StartRentalMode(void)
+{
+    FieldClearVBlankHBlankCallbacks();
+    StopMapMusic();
+    ResetSafariZoneFlag_();
+    NewGameInitData();
+    ResetInitialPlayerAvatarState();
+    PlayTimeCounter_Start();
+    ScriptContext_Init();
+    UnlockPlayerFieldControls();
+    // Override the story-start warp: drop the player at the lobby entrance (warp 0).
+    SetWarpDestination(MAP_GROUP(MAP_BATTLE_FRONTIER_BATTLE_TOWER_LOBBY), MAP_NUM(MAP_BATTLE_FRONTIER_BATTLE_TOWER_LOBBY), 0, -1, -1);
+    WarpIntoMap();
+    gFieldCallback = FieldCB_WarpExitFadeFromBlack;
+    gFieldCallback2 = NULL;
+    gMain.state = 0; // self-contained: launcher may not have reset the map-load state machine
+    DoMapLoadLoop(&gMain.state);
+    SetFieldVBlankCallback();
+    SetMainCallback1(CB1_Overworld);
+    SetMainCallback2(CB2_Overworld);
+}
+
 void CB2_WhiteOut(void)
 {
     u8 state;

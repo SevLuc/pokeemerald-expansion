@@ -1397,3 +1397,20 @@ BattleFrontier_BattleTowerLobby_Text_ExplainMultiLinkRules:
 	.string "from those of your friend.\p"
 	.string "You may not interrupt this challenge\n"
 	.string "in the middle, unlike other modes.$"
+
+@ Rental battle mode (M2 skeleton). Reuses this lobby as the hub; the Singles
+@ attendant is repointed here in map.json. Proves the generated rental pool is
+@ live in-game by showing a random set. The real draft/battle come in M3.
+BattleFrontier_BattleTowerLobby_EventScript_RentalAttendant::
+	lock
+	faceplayer
+	special BufferRandomRentalMon
+	msgbox BattleFrontier_BattleTowerLobby_Text_RentalAttendant, MSGBOX_DEFAULT
+	release
+	end
+
+BattleFrontier_BattleTowerLobby_Text_RentalAttendant:
+	.string "Welcome to RENTAL BATTLE!\p"
+	.string "Our pool has a {STR_VAR_1} whose\n"
+	.string "first move is {STR_VAR_2}.\p"
+	.string "The rental data is loaded and ready.$"

@@ -7,6 +7,24 @@ Update in the same PR as the change.
 `YYYY-MM-DD` — area — one-line summary (PR/commit ref)
 
 ## Entries
+- 2026-08-27 - feature/rental - Rental data-proof in the hub (M2 slice 3). Added
+  src/rental_mode.c with a `BufferRandomRentalMon` script special (registered in
+  data/specials.inc) that picks a random set from the generated `gRentalMons` pool
+  and buffers its species + first move name. Repointed the Battle Tower Lobby's
+  Singles attendant (map.json) to a new `EventScript_RentalAttendant` that shows
+  them in a message box, proving the M0 data pipeline is live in-game. NOTE: this
+  is a data-proof, not a battle. The actual rental battle is deferred to M3, where
+  the draft feeds mons into the Battle Tower's own tested battle pipeline instead of
+  a hand-rolled one (safer, and testable incrementally). Name/gender pick also
+  deferred (low value for the skeleton). Not yet compiled/ROM-tested (web session).
+- 2026-08-27 - feature/rental - Rental battle mode entry (M2 slice 1, scaffolding).
+  Added `CB2_StartRentalMode` (src/overworld.c), which mirrors `CB2_NewGame` but
+  warps the player into the Battle Tower Lobby (reused as the rental hub) instead
+  of the story start. It sets up an in-RAM game state only and NEVER writes to
+  flash, so a story save on the cartridge is never touched. Temporarily launched by
+  pressing R on the main menu (src/main_menu.c) to validate the boot; the polished
+  "RENTAL BATTLE" menu row and the name/gender pick + stub battle come in later
+  slices. No save-system changes. Not yet compiled/ROM-tested (web session).
 - 2026-08-27 - QoL/config - Hidden Power (and other dynamic-type moves) now show
   their REAL type everywhere a move is viewed. Set `P_SHOW_DYNAMIC_TYPES = TRUE`
   in include/config/pokemon.h (was FALSE/vanilla). The summary screen move list
