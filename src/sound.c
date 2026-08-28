@@ -65,6 +65,35 @@ void InitMapMusic(void)
     ResetMapMusic();
 }
 
+// Applies the player's Music Speed option (Options menu) to the looping BGM.
+// 0x100 (256) is normal tempo; the engine scales tempo by tempoU / 256.
+// Called right after BGM (re)starts, because starting a song resets tempoU to
+// 0x100. It is deliberately NOT called every frame so contexts that drive their
+// own BGM tempo (e.g. the Berry Blender minigame) are left untouched.
+static void ApplyMusicSpeedToBGM(void)
+{
+    u16 tempo;
+
+    if (gSaveBlock2Ptr == NULL)
+        return;
+
+    switch (gSaveBlock2Ptr->optionsMusicSpeed)
+    {
+    case OPTIONS_MUSIC_SPEED_FAST:   // 1.5x
+        tempo = 384;
+        break;
+    case OPTIONS_MUSIC_SPEED_FASTER: // 2.0x
+        tempo = 512;
+        break;
+    case OPTIONS_MUSIC_SPEED_NORMAL: // 1.0x
+    default:
+        tempo = 256;
+        break;
+    }
+
+    m4aMPlayTempoControl(&gMPlayInfo_BGM, tempo);
+}
+
 void MapMusicMain(void)
 {
     switch (sMapMusicState)
@@ -200,9 +229,14 @@ bool8 WaitFanfare(bool8 stop)
     else
     {
         if (!stop)
+        {
             m4aMPlayContinue(&gMPlayInfo_BGM);
+            ApplyMusicSpeedToBGM();
+        }
         else
+        {
             m4aSongNumStart(MUS_DUMMY);
+        }
 
         return TRUE;
     }
@@ -256,6 +290,7 @@ static void Task_Fanfare(u8 taskId)
     else
     {
         m4aMPlayContinue(&gMPlayInfo_BGM);
+        ApplyMusicSpeedToBGM();
         DestroyTask(taskId);
     }
 }
@@ -277,6 +312,7 @@ void FadeInNewBGM(u16 songNum, u8 speed)
     m4aMPlayVolumeControl(&gMPlayInfo_BGM, TRACKS_ALL, 0);
     m4aSongNumStop(songNum);
     m4aMPlayFadeIn(&gMPlayInfo_BGM, speed);
+    ApplyMusicSpeedToBGM();
 }
 
 void FadeOutBGMTemporarily(u8 speed)
@@ -562,6 +598,7 @@ void PlayBGM(u16 songNum)
     if (songNum == MUS_NONE)
         songNum = 0;
     m4aSongNumStart(songNum);
+    ApplyMusicSpeedToBGM();
 }
 
 void PlaySE(u16 songNum)

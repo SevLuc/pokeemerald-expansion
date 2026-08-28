@@ -617,6 +617,19 @@ gSongTable::
 	song ph_nurse_held, MUSIC_PLAYER_SE2, 2
 	song ph_nurse_solo, MUSIC_PLAYER_SE2, 2
 
+	@ Custom battle-music slots (indices 610-615). Gated so the default build
+	@ has no reference to the drop-in mus_custom_vs_*.mid files, which are
+	@ git-ignored and not committed. Enable USE_CUSTOM_BATTLE_MUSIC in
+	@ include/config/general.h only once those .mid files are present locally.
+.if USE_CUSTOM_BATTLE_MUSIC == TRUE
+	song mus_custom_vs_wild, MUSIC_PLAYER_BGM, 0
+	song mus_custom_vs_trainer, MUSIC_PLAYER_BGM, 0
+	song mus_custom_vs_gym, MUSIC_PLAYER_BGM, 0
+	song mus_custom_vs_rival, MUSIC_PLAYER_BGM, 0
+	song mus_custom_vs_champion, MUSIC_PLAYER_BGM, 0
+	song mus_custom_vs_legend, MUSIC_PLAYER_BGM, 0
+.endif @ USE_CUSTOM_BATTLE_MUSIC
+
 	.align 2
 dummy_song_header:
 	.byte 0, 0, 0, 0

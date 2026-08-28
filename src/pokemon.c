@@ -5286,7 +5286,7 @@ bool32 IsSpeciesInHoennDex(enum Species species)
         return TRUE;
 }
 
-u16 GetBattleBGM(void)
+static u16 DetermineBattleBGM(void)
 {
     if (gBattleTypeFlags & BATTLE_TYPE_LEGENDARY)
     {
@@ -5372,6 +5372,43 @@ u16 GetBattleBGM(void)
         else
             return MUS_VS_WILD;
     }
+}
+
+// When USE_CUSTOM_BATTLE_MUSIC is enabled, remap the vanilla battle themes to
+// the MUS_CUSTOM_VS_* drop-in slots by category. Off by default, in which case
+// this compiles to a pass-through and battle music is unchanged.
+static u16 RemapCustomBattleBGM(u16 song)
+{
+#if USE_CUSTOM_BATTLE_MUSIC == TRUE
+    switch (song)
+    {
+    case MUS_VS_WILD:
+    case MUS_RG_VS_WILD:
+        return MUS_CUSTOM_VS_WILD;
+    case MUS_VS_TRAINER:
+    case MUS_RG_VS_TRAINER:
+        return MUS_CUSTOM_VS_TRAINER;
+    case MUS_VS_GYM_LEADER:
+    case MUS_RG_VS_GYM_LEADER:
+        return MUS_CUSTOM_VS_GYM;
+    case MUS_VS_RIVAL:
+        return MUS_CUSTOM_VS_RIVAL;
+    case MUS_VS_CHAMPION:
+    case MUS_RG_VS_CHAMPION:
+        return MUS_CUSTOM_VS_CHAMPION;
+    case MUS_VS_RAYQUAZA:
+    case MUS_VS_KYOGRE_GROUDON:
+    case MUS_VS_REGI:
+    case MUS_RG_VS_LEGEND:
+        return MUS_CUSTOM_VS_LEGEND;
+    }
+#endif
+    return song;
+}
+
+u16 GetBattleBGM(void)
+{
+    return RemapCustomBattleBGM(DetermineBattleBGM());
 }
 
 void PlayBattleBGM(void)
