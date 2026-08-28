@@ -100,23 +100,31 @@ src/battle_ai_switch.c (`IsAceMon`).
   Starmie; each runs a +Speed nature that lowers its unused attacking stat).
   BST spread 295 (Horsea) - 525 (Vaporeon). Heavy RAIN theme: four Rain Dance
   setters (Psyduck, Horsea, Ludicolo, Vaporeon) feed Swift Swim (Horsea,
-  Ludicolo, Goldeen) and Hydration (Vaporeon). All movesets cap-23 legal
-  (verified with the moveset-legality skill):
-  - PSYDUCK (F) LEAD, Swift Swim, Timid (Rain Dance / Scald / Psychic / Aerial
-    Ace) - the story-mandated comic opener, sets rain turn 1.
-  - HORSEA (F), Swift Swim, Timid (Rain Dance / Octazooka / Dragon Breath / Ice Beam)
+  Ludicolo, Goldeen) and Hydration (Vaporeon).
+  Balance pass (per playtest): the strongest coverage was softened toward ~65 BP
+  - Scald->Water Pulse, Ice Beam->Icy Wind, Psychic->Psybeam, Giga Drain->Mega
+  Drain, Waterfall->Aqua Jet. Two intentional exceptions to the ~65 ceiling:
+  GOLDEEN keeps its 80-BP moves (left as-is by request), and CORSOLA keeps
+  Sucker Punch (70, priority). All movesets are cap-23 legal (moveset-legality
+  skill) EXCEPT Vaporeon's Aurora Beam (see below), kept by request:
+  - PSYDUCK (F) LEAD, Swift Swim, Timid (Rain Dance / Water Pulse / Psybeam /
+    Aerial Ace) - the story-mandated comic opener, sets rain turn 1.
+  - HORSEA (F), Swift Swim, Timid (Rain Dance / Octazooka / Dragon Breath / Icy Wind)
   - BRIONNE (F), Liquid Voice, Timid (Echoed Voice / Rain Dance) - Liquid Voice
     makes Echoed Voice a ramping Water STAB.
   - PYUKUMUKU (F), Innards Out, Timid (Block / Spite / Double Team) - trap-staller;
     Block stops switching, Innards Out dumps its HP into the trapped foe on death.
-  - CORSOLA (F), Regenerator, Timid (Scald / Ancient Power / Light Screen / Sucker Punch)
-  - LUDICOLO (F), Swift Swim, Timid (Rain Dance / Giga Drain / Ice Beam / Scald)
+  - CORSOLA (F), Regenerator, Timid (Water Pulse / Ancient Power / Light Screen / Sucker Punch)
+  - LUDICOLO (F), Swift Swim, Timid (Rain Dance / Mega Drain / Water Pulse / Icy Wind)
     - self-sets rain and sweeps at doubled Speed.
   - AZUMARILL (F), Sap Sipper, Jolly (Perish Song / Whirlpool / Bulldoze /
-    Waterfall) - Whirlpool + Perish Song trap; Sap Sipper walls Grass.
+    Aqua Jet) - Whirlpool + Perish Song trap; Sap Sipper walls Grass.
   - GOLDEEN (F), Swift Swim, Naive (Scald / Drill Run / Poison Jab / Icy Wind)
-  - VAPOREON (F), Hydration, Timid (Rain Dance / Water Pulse / Ice Beam / Wish)
+  - VAPOREON (F), Hydration, Timid (Rain Dance / Water Pulse / Aurora Beam / Wish)
     - the wall; Rain Dance + Hydration = status-proof, Wish heals the pool.
+    Aurora Beam (65 BP) is above-cap-learnable (level-up L30, no TM/tutor/egg
+    path in this build), so it is the one moveset in this gym that is NOT
+    cap-legal - kept intentionally as a stronger Ice option than Icy Wind (55).
   - STARMIE (genderless) ACE, Natural Cure, Timid (Water Pulse / Psybeam /
     Shock Wave / Icy Wind) - fast Water-first finisher, always fielded. Coverage
     is deliberately softened from the old Thunderbolt/Ice Beam (BoltBeam) to the

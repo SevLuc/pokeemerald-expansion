@@ -7,6 +7,25 @@ Update in the same PR as the change.
 `YYYY-MM-DD` — area — one-line summary (PR/commit ref)
 
 ## Entries
+- 2026-08-28 - playtest fixes - Misty's team: high-BP movesets softened toward
+  ~65 BP. Psyduck (Scald/Psychic -> Water Pulse/Psybeam), Horsea (Ice Beam ->
+  Icy Wind), Corsola (Scald -> Water Pulse; keeps Sucker Punch 70 priority),
+  Ludicolo (Giga Drain/Ice Beam/Scald -> Mega Drain/Water Pulse/Icy Wind),
+  Azumarill (Waterfall -> Aqua Jet), Vaporeon (Ice Beam -> Aurora Beam). Goldeen
+  left as-is by request. All cap-23 legal (moveset-legality skill) EXCEPT
+  Vaporeon's Aurora Beam, which is above-cap-learnable (L30, no TM/tutor/egg) and
+  kept intentionally by request. Not ROM-tested (web session).
+- 2026-08-28 - playtest fixes - Viridian fisherman gives the OLD ROD instead of
+  the Super Rod (item + dialogue updated). Not ROM-tested.
+- 2026-08-28 - playtest fixes - New game forces SET battle style. `SetDefaultOptions`
+  (SET) only runs at boot for an empty/corrupt save, so a new game started over an
+  existing save kept the old SHIFT setting; `NewGameInitData` now sets SET on every
+  new game. Not ROM-tested.
+- 2026-08-28 - playtest fixes - Cerulean robbed-house shortcut re-gated onto the
+  CASCADE BADGE (`FLAG_BADGE02_GET`) instead of the S.S. Ticket, so it opens right
+  after Misty. Verified non-softlocking: the block is reapplied per map-entry only
+  while the flag is unset and clears automatically once the badge is earned (object
+  templates reload from ROM each map load); the shortcut is optional. Not ROM-tested.
 - 2026-08-28 - feature/custom-battle-music - Drop-in custom battle music. New
   off-by-default flag `USE_CUSTOM_BATTLE_MUSIC` (`include/config/general.h`)
   repoints the wild / trainer / gym / rival / champion / legendary battle themes
