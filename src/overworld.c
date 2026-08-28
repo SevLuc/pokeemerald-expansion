@@ -59,6 +59,7 @@
 #include "save_location.h"
 #include "script.h"
 #include "script_pokemon_util.h"
+#include "rental_mode.h"
 #include "secret_base.h"
 #include "sound.h"
 #include "start_menu.h"
@@ -1930,6 +1931,7 @@ void CB2_NewGame(void)
     StopMapMusic();
     ResetSafariZoneFlag_();
     NewGameInitData();
+    gRentalModeActive = FALSE; // normal game: enforce standard frontier rules
     ResetInitialPlayerAvatarState();
     PlayTimeCounter_Start();
     ScriptContext_Init();
@@ -1949,24 +1951,46 @@ void CB2_NewGame(void)
 #endif
 }
 
+// The rental hub's driver script (assembled from the Battle Tower Lobby's
+// scripts.inc via data/event_scripts.s, independent of any map). It runs the
+// whole rental flow: format/cap select, draft, the battle run loop and recruit.
+extern const u8 BattleFrontier_BattleTowerLobby_EventScript_RentalAttendant[];
+
+// Field callback for the rental hub: fade in like a normal warp exit, then kick
+// off the rental driver script directly (no attendant NPC needed).
+static void FieldCB_RentalHubEnter(void)
+{
+    Overworld_PlaySpecialMapMusic();
+    FadeInFromBlack();
+    ScriptContext_SetupScript(BattleFrontier_BattleTowerLobby_EventScript_RentalAttendant);
+    LockPlayerFieldControls();
+}
+
 // Boots the standalone rental battle mode from the main menu. Mirrors CB2_NewGame
-// but warps into the Battle Tower Lobby (reused as the rental hub) instead of the
-// story start. This sets up an in-RAM game state only; the rental mode never writes
-// to flash, so the player's story save on the cartridge is never touched.
+// but warps into a real FRLG indoor map reused as the rental hub, then auto-runs
+// the rental driver script on entry (see FieldCB_RentalHubEnter). This sets up an
+// in-RAM game state only; the rental mode never writes to flash, so the player's
+// story save on the cartridge is never touched.
+//
+// NOTE: the hub must be a REAL FRLG map. The Emerald Battle Frontier maps are NOT
+// compiled into this FRLG build (gMapGroups slots 0-33 are NULL; FRLG maps live in
+// groups 34+), so warping to MAP_BATTLE_FRONTIER_* loads a garbage header and
+// crashes. A Poke Center 1F is a valid, on-theme backdrop.
 void CB2_StartRentalMode(void)
 {
     FieldClearVBlankHBlankCallbacks();
     StopMapMusic();
     ResetSafariZoneFlag_();
     NewGameInitData();
+    gRentalModeActive = TRUE; // relax frontier-only party rules for this session
     ResetInitialPlayerAvatarState();
     PlayTimeCounter_Start();
     ScriptContext_Init();
     UnlockPlayerFieldControls();
-    // Override the story-start warp: drop the player at the lobby entrance (warp 0).
-    SetWarpDestination(MAP_GROUP(MAP_BATTLE_FRONTIER_BATTLE_TOWER_LOBBY), MAP_NUM(MAP_BATTLE_FRONTIER_BATTLE_TOWER_LOBBY), 0, -1, -1);
+    // Override the story-start warp: drop the player at the hub map's entrance (warp 0).
+    SetWarpDestination(MAP_GROUP(MAP_VIRIDIAN_CITY_POKEMON_CENTER_1F), MAP_NUM(MAP_VIRIDIAN_CITY_POKEMON_CENTER_1F), 0, -1, -1);
     WarpIntoMap();
-    gFieldCallback = FieldCB_WarpExitFadeFromBlack;
+    gFieldCallback = FieldCB_RentalHubEnter;
     gFieldCallback2 = NULL;
     gMain.state = 0; // self-contained: launcher may not have reset the map-load state machine
     DoMapLoadLoop(&gMain.state);
@@ -2139,6 +2163,7 @@ void CB2_ContinueSavedGame(void)
     u8 trainerHillMapId;
 
     FieldClearVBlankHBlankCallbacks();
+    gRentalModeActive = FALSE; // normal game: enforce standard frontier rules
     StopMapMusic();
     ResetSafariZoneFlag_();
     if (gSaveFileStatus == SAVE_STATUS_ERROR)

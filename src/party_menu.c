@@ -55,6 +55,7 @@
 #include "pokemon_summary_screen.h"
 #include "pokerus.h"
 #include "region_map.h"
+#include "rental_mode.h"
 #include "reshow_battle_screen.h"
 #include "scanline_effect.h"
 #include "script.h"
@@ -7443,7 +7444,9 @@ static bool8 GetBattleEntryEligibility(struct Pokemon *mon)
         return TRUE;
     default: // Battle Frontier
         species = GetMonData(mon, MON_DATA_SPECIES);
-        if (gSpeciesInfo[species].isFrontierBanned)
+        // Rental mode manages restricted/legendary access through its own draft cap
+        // (0/1/2), so it ignores the frontier's blanket legendary ban here.
+        if (gSpeciesInfo[species].isFrontierBanned && !gRentalModeActive)
             return FALSE;
         return TRUE;
     }

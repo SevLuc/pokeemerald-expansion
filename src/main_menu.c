@@ -1130,7 +1130,11 @@ static void Task_HandleMainMenuAPressed(u8 taskId)
         case ACTION_RENTAL:
             // Standalone rental battle mode: boots into the Battle Tower lobby
             // hub (see CB2_StartRentalMode). Self-contained, needs no save file.
+            // FreeAllWindowBuffers() releases the main-menu window tile buffers
+            // before the overworld reallocates its own; skipping it leaves the
+            // heap fragmented and the overworld boot crashes (orange screen).
             SetMainCallback2(CB2_StartRentalMode);
+            FreeAllWindowBuffers();
             DestroyTask(taskId);
             break;
         case ACTION_OPTION:

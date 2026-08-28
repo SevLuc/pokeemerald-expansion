@@ -1,4 +1,5 @@
 #include "global.h"
+#include "main.h"
 #include "random.h"
 #include "string_util.h"
 #include "pokemon.h"
@@ -39,6 +40,13 @@ void BufferRandomRentalMon(void)
 // ------------------------------------------------------------------------------
 
 struct RentalRun gRentalRun;
+
+// TRUE while a standalone rental session is running. Set by CB2_StartRentalMode,
+// cleared on any normal-game boot. Lets rental-specific code (e.g. the party-select
+// eligibility check) relax Battle Frontier rules that don't apply to rental, such as
+// the legendary/restricted ("isFrontierBanned") ban, which rental gates via its own
+// restricted cap instead.
+bool8 gRentalModeActive = FALSE;
 
 static bool32 OfferHasSpeciesOrItem(u32 count, u32 species, u32 item)
 {
@@ -177,16 +185,16 @@ void GenerateRentalOpponent(void)
 
 static const u8 sText_RentalComma[] = _(", ");
 
-// Script special: buffer the species names of the opponent's fielded team into
+// Script special: buffer the species names of the opponent's FULL roster into
 // gStringVar1 (comma-separated) for a team-preview message before the player picks
-// which mons to bring.
+// which mons to bring. The opponent only fields bringCount of these (the front of a
+// randomly-ordered roster, so an unknown subset), which is the point of showing all
+// six: you scout the whole roster but cannot tell which ones you will actually face.
 void BufferRentalOpponentPreview(void)
 {
     u32 i;
-    u32 n = gRentalRun.bringCount;
+    u32 n = gRentalRun.oppRosterCount;
 
-    if (n == 0 || n > gRentalRun.oppRosterCount)
-        n = gRentalRun.oppRosterCount;
     if (n == 0)
         return;
 
@@ -336,4 +344,12 @@ void StartRentalDraft(void)
 void RentalSetBringCountVar(void)
 {
     gSpecialVar_0x8005 = gRentalRun.bringCount;
+}
+
+// Script special: leave standalone rental mode. The whole session lives only in RAM
+// and never writes to flash, so a full soft reset back to the title screen is the
+// clean, self-contained exit (nothing to save, nothing to unwind).
+void EndRentalMode(void)
+{
+    DoSoftReset();
 }

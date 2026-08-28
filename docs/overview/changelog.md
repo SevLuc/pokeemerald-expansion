@@ -7,6 +7,18 @@ Update in the same PR as the change.
 `YYYY-MM-DD` — area — one-line summary (PR/commit ref)
 
 ## Entries
+- 2026-08-28 - fix/rental - Fix the rental-battle boot crash (orange screen / "invalid
+  address"). CB2_StartRentalMode warped to MAP_BATTLE_FRONTIER_BATTLE_TOWER_LOBBY, but
+  the Emerald Battle Frontier maps are NOT compiled into this FRLG build (gMapGroups
+  slots 0-33 are NULL; real FRLG maps are groups 34+), so the warp loaded a garbage
+  map header and crashed in InitMapLayoutData on entry. The hub now warps to a real
+  FRLG map (Viridian City Poke Center 1F) and a new field callback
+  (FieldCB_RentalHubEnter) auto-runs the rental driver script on entry, so no attendant
+  NPC or map-script edits are needed. The rental script uses lockall/releaseall and, on
+  run end, offers another run or leaves via EndRentalMode (soft reset to title; the
+  session is RAM-only and never writes flash). Verified under mGBA+gdb: hub header valid,
+  script auto-starts, overworld runs with no crash. (main_menu.c also restores the
+  FreeAllWindowBuffers() the menu path had dropped.)
 - 2026-08-27 - feature/rental - RENTAL BATTLE main-menu row. The title screen now
   lists a RENTAL BATTLE entry directly below NEW GAME, on both the fresh-cart menu
   (NEW GAME / RENTAL BATTLE / OPTION) and the saved-game menu (CONTINUE / NEW GAME /

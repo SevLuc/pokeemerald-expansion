@@ -1405,10 +1405,12 @@ BattleFrontier_BattleTowerLobby_Text_ExplainMultiLinkRules:
 @ menu) ends the run. The full six are stashed before each battle and restored
 @ (healed) after, so the same team carries the whole run. Singles (bring 3) or
 @ Doubles (bring 4) and the restricted cap (0/1/2) are both chosen up front.
+@ Standalone rental battle driver. Auto-run on entry to the rental hub map by
+@ FieldCB_RentalHubEnter (there is no attendant NPC), so it uses lockall/releaseall
+@ rather than lock/faceplayer, and exits via EndRentalMode instead of returning to
+@ the field.
 BattleFrontier_BattleTowerLobby_EventScript_RentalAttendant::
-	lock
-	faceplayer
-	msgbox BattleFrontier_BattleTowerLobby_Text_RentalDraftIntro, MSGBOX_DEFAULT
+	lockall
 	msgbox BattleFrontier_BattleTowerLobby_Text_RentalAskDoubles, MSGBOX_YESNO
 	goto_if_eq VAR_RESULT, YES, BattleFrontier_BattleTowerLobby_EventScript_RentalFmtDoubles
 	setvar VAR_0x8004, 0
@@ -1478,13 +1480,22 @@ BattleFrontier_BattleTowerLobby_EventScript_RentalRunOver::
 	special RentalBufferStreak
 	msgbox BattleFrontier_BattleTowerLobby_Text_RentalRunOver, MSGBOX_DEFAULT
 	callnative UpdateFollowingPokemon
-	release
-	end
+	goto BattleFrontier_BattleTowerLobby_EventScript_RentalPlayAgain
 
 BattleFrontier_BattleTowerLobby_EventScript_RentalRetire::
 	special RentalRestoreFullParty
 	callnative UpdateFollowingPokemon
-	release
+	goto BattleFrontier_BattleTowerLobby_EventScript_RentalPlayAgain
+
+@ After a run ends (loss or retire), offer another run or leave the mode. Leaving
+@ soft-resets to the title screen; this standalone session has no save to write.
+BattleFrontier_BattleTowerLobby_EventScript_RentalPlayAgain::
+	msgbox BattleFrontier_BattleTowerLobby_Text_RentalPlayAgain, MSGBOX_YESNO
+	goto_if_eq VAR_RESULT, YES, BattleFrontier_BattleTowerLobby_EventScript_RentalAttendant
+	releaseall
+	fadescreen FADE_TO_BLACK
+	special EndRentalMode
+	waitstate
 	end
 
 BattleFrontier_BattleTowerLobby_Text_RentalDraftIntro:
@@ -1505,8 +1516,10 @@ BattleFrontier_BattleTowerLobby_Text_RentalAskTwo:
 	.string "(Choose NO for a limit of one.)$"
 
 BattleFrontier_BattleTowerLobby_Text_RentalPreview:
-	.string "Your challenger will send out:\p"
-	.string "{STR_VAR_1}.$"
+	.string "Your challenger's roster of six:\p"
+	.string "{STR_VAR_1}.\p"
+	.string "They'll bring only some to battle,\n"
+	.string "so choose your team wisely.$"
 
 BattleFrontier_BattleTowerLobby_Text_RentalSelectThree:
 	.string "Now choose your battle team from\n"
@@ -1523,6 +1536,10 @@ BattleFrontier_BattleTowerLobby_Text_RentalWonStreak:
 BattleFrontier_BattleTowerLobby_Text_RentalRunOver:
 	.string "Your run ends here, with {STR_VAR_1}\n"
 	.string "win(s). Well fought!$"
+
+BattleFrontier_BattleTowerLobby_Text_RentalPlayAgain:
+	.string "Care for another run?\n"
+	.string "(Choose NO to leave RENTAL BATTLE.)$"
 
 BattleFrontier_BattleTowerLobby_Text_RentalRecruitOffer:
 	.string "That was a fine team! Would you like\n"

@@ -33,6 +33,9 @@ struct RentalRun
 
 extern struct RentalRun gRentalRun;
 
+// TRUE while a standalone rental session is active (see rental_mode.c).
+extern bool8 gRentalModeActive;
+
 // Start a fresh run: record the format + cap, clear the roster, and roll a draft
 // offer of RENTAL_OFFER_SIZE clause-legal sets.
 void RentalRun_Begin(u8 format, u8 restrictedCap);
@@ -73,6 +76,9 @@ void RentalDoRecruit(void);              // swap roster slot VAR_0x8004 for opp 
 
 // Put the run's bring count (3/4) into VAR_0x8005 for the party-select prompt.
 void RentalSetBringCountVar(void);
+
+// Leave standalone rental mode (soft reset to the title). The session is RAM-only.
+void EndRentalMode(void);
 
 // The draft screen itself (an adapted copy of the Battle Factory select screen),
 // defined in src/rental_select_screen.c.
