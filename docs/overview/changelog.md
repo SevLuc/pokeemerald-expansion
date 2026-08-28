@@ -18,7 +18,82 @@ Update in the same PR as the change.
   run end, offers another run or leaves via EndRentalMode (soft reset to title; the
   session is RAM-only and never writes flash). Verified under mGBA+gdb: hub header valid,
   script auto-starts, overworld runs with no crash. (main_menu.c also restores the
-  FreeAllWindowBuffers() the menu path had dropped.)
+  FreeAllWindowBuffers() the menu path had dropped.) Also: the first prompt is now
+  the Singles/Doubles choice (dropped the intro preamble); a new gRentalModeActive
+  flag lets the party-select bypass the frontier legendary ban (isFrontierBanned) so
+  restricted mons drafted under the 0/1/2 cap are actually selectable; and the
+  opponent team preview reveals the full six-mon roster instead of only the fielded
+  subset (you scout all six but not which ones you'll face).
+- 2026-08-28 - playtest fixes - Misty's team: high-BP movesets softened toward
+  ~65 BP. Psyduck (Scald/Psychic -> Water Pulse/Psybeam), Horsea (Ice Beam ->
+  Icy Wind), Corsola (Scald -> Water Pulse; keeps Sucker Punch 70 priority),
+  Ludicolo (Giga Drain/Ice Beam/Scald -> Mega Drain/Water Pulse/Icy Wind),
+  Azumarill (Waterfall -> Aqua Jet), Vaporeon (Ice Beam -> Aurora Beam). Goldeen
+  left as-is by request. All cap-23 legal (moveset-legality skill) EXCEPT
+  Vaporeon's Aurora Beam, which is above-cap-learnable (L30, no TM/tutor/egg) and
+  kept intentionally by request. Not ROM-tested (web session).
+- 2026-08-28 - playtest fixes - Viridian fisherman gives the OLD ROD instead of
+  the Super Rod (item + dialogue updated). Not ROM-tested.
+- 2026-08-28 - playtest fixes - New game forces SET battle style. `SetDefaultOptions`
+  (SET) only runs at boot for an empty/corrupt save, so a new game started over an
+  existing save kept the old SHIFT setting; `NewGameInitData` now sets SET on every
+  new game. Not ROM-tested.
+- 2026-08-28 - playtest fixes - Cerulean robbed-house shortcut re-gated onto the
+  CASCADE BADGE (`FLAG_BADGE02_GET`) instead of the S.S. Ticket, so it opens right
+  after Misty. Verified non-softlocking: the block is reapplied per map-entry only
+  while the flag is unset and clears automatically once the badge is earned (object
+  templates reload from ROM each map load); the shortcut is optional. Not ROM-tested.
+- 2026-08-28 - feature/custom-battle-music - Drop-in custom battle music. New
+  off-by-default flag `USE_CUSTOM_BATTLE_MUSIC` (`include/config/general.h`)
+  repoints the wild / trainer / gym / rival / champion / legendary battle themes
+  to six `MUS_CUSTOM_VS_*` slots (`include/constants/songs.h`, indices 610-615),
+  gated song-table entries (`sound/song_table.inc`), committed `midi.cfg` lines
+  that reuse the FRLG battle voicegroups, and a remap in `GetBattleBGM`
+  (`src/pokemon.c`, via new `DetermineBattleBGM` + `RemapCustomBattleBGM`). The
+  actual `.mid` files are user-supplied and git-ignored
+  (`sound/songs/midi/mus_custom_vs_*.mid`), so no copyrighted audio is committed;
+  the repo builds unchanged with the flag off and no files present. Purpose: let
+  the player use their own (e.g. Gen 4) battle tracks locally. Note: Gen 4 is a
+  DS-format soundtrack the GBA engine cannot play directly, so tracks must be
+  re-sequenced to GBA MIDIs; see docs/overview/custom-battle-music.md. Nothing
+  changes with the flag off. Verify in-game: with the flag on and a
+  `mus_custom_vs_wild.mid` present, wild battles play that track; other slots and
+  the stock themes are unaffected when their files are absent.
+- 2026-08-28 - feature/music-speed - MUSIC SPEED option. New OPTION-menu row (below
+  SOUND) lets the player set background-music tempo to 1.0X / 1.5X / 2.0X; new saves
+  default to 1.5X, existing saves start at 1.0X. Stored in a new `optionsMusicSpeed`
+  bitfield (`include/global.h`, spare padding bits; constants in
+  `include/constants/global.h`). Applied via the engine's existing
+  `m4aMPlayTempoControl` on `gMPlayInfo_BGM` at each BGM (re)start and after fanfares
+  (`src/sound.c` `ApplyMusicSpeedToBGM`), so it covers route and battle music alike
+  and survives level-up jingles. Deliberately not applied per-frame, so the Berry
+  Blender's own dynamic tempo is untouched. Fanfares/cries/sound effects are
+  unaffected. The OPTION list row pitch dropped 16->14px to fit the 8th row in the
+  existing window (`src/option_menu.c`). Note: this changes tempo only (not pitch),
+  and because a ROM cannot detect emulator fast-forward it speeds music at all times,
+  not only during fast-forward. Text/flavor unchanged. Verify in-game: set 2.0X in
+  OPTIONS, confirm route and battle BGM play faster while a level-up jingle still
+  plays at normal speed and resumes fast afterward.
+- 2026-08-28 - playtest fixes - Gym leader aces held for last. All 8 Kanto leaders
+  gained the `Ace Pokemon` AI flag (`AI_FLAG_ACE_POKEMON`) in trainers_frlg.party.
+  `Tags: Ace` only set the ace's party position (last slot); the switch AI could
+  still bring it out early (Brock's Onix was coming out second in playtesting).
+  With the flag, `IsAceMon` holds the last-slot mon back until it is the only one
+  left. Not yet compiled/ROM-tested (web session).
+- 2026-08-28 - playtest fixes - Gym leader defeat lines moved to the overworld. For
+  all 8 gyms the leader's spoken defeat monologue now plays in the overworld after
+  the battle (via a new `*DefeatSpeech` msgbox in each `*Defeated` script) instead
+  of on the battle screen. The badge-award line (and the badge jingle where it
+  existed, Brock/Giovanni) stays in battle as the `trainerbattle_single` defeat
+  text (new `*Badge` label). Text is relocated, not rewritten. Not yet ROM-tested.
+- 2026-08-28 - playtest fixes - Misty's Starmie (Ace) moveset. Water Pulse / Psybeam
+  / Shock Wave / Icy Wind, replacing Thunderbolt / Ice Beam. Softer coverage keeps
+  the ace water-forward instead of a BoltBeam nuke. Not yet ROM-tested.
+- 2026-08-28 - playtest fixes - Cerulean ravaged-house shortcut now gates on the
+  CASCADE BADGE. The policeman that seals the robbed-house (House2) passage was
+  tied to `FLAG_GOT_SS_TICKET` (which comes later, so the house stayed blocked
+  after beating Misty); it now clears on `FLAG_BADGE02_GET`. The south-exit
+  blockers (Slowbro/Lass) still gate on the S.S. Ticket. Not yet ROM-tested.
 - 2026-08-27 - feature/rental - RENTAL BATTLE main-menu row. The title screen now
   lists a RENTAL BATTLE entry directly below NEW GAME, on both the fresh-cart menu
   (NEW GAME / RENTAL BATTLE / OPTION) and the saved-game menu (CONTINUE / NEW GAME /

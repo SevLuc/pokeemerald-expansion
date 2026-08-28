@@ -23,6 +23,7 @@
 #define tSound data[4]
 #define tButtonMode data[5]
 #define tWindowFrameType data[6]
+#define tMusicSpeed data[7]
 
 enum
 {
@@ -30,6 +31,7 @@ enum
     MENUITEM_BATTLESCENE,
     MENUITEM_BATTLESTYLE,
     MENUITEM_SOUND,
+    MENUITEM_MUSICSPEED,
     MENUITEM_BUTTONMODE,
     MENUITEM_FRAMETYPE,
     MENUITEM_CANCEL,
@@ -42,12 +44,17 @@ enum
     WIN_OPTIONS
 };
 
-#define YPOS_TEXTSPEED    (MENUITEM_TEXTSPEED * 16)
-#define YPOS_BATTLESCENE  (MENUITEM_BATTLESCENE * 16)
-#define YPOS_BATTLESTYLE  (MENUITEM_BATTLESTYLE * 16)
-#define YPOS_SOUND        (MENUITEM_SOUND * 16)
-#define YPOS_BUTTONMODE   (MENUITEM_BUTTONMODE * 16)
-#define YPOS_FRAMETYPE    (MENUITEM_FRAMETYPE * 16)
+// Row pitch. Reduced from 16 to 14 so all MENUITEM_COUNT rows fit the
+// existing options window (14 tiles / 112px) after adding MUSIC SPEED.
+#define MENUITEM_HEIGHT   14
+
+#define YPOS_TEXTSPEED    (MENUITEM_TEXTSPEED * MENUITEM_HEIGHT)
+#define YPOS_BATTLESCENE  (MENUITEM_BATTLESCENE * MENUITEM_HEIGHT)
+#define YPOS_BATTLESTYLE  (MENUITEM_BATTLESTYLE * MENUITEM_HEIGHT)
+#define YPOS_SOUND        (MENUITEM_SOUND * MENUITEM_HEIGHT)
+#define YPOS_MUSICSPEED   (MENUITEM_MUSICSPEED * MENUITEM_HEIGHT)
+#define YPOS_BUTTONMODE   (MENUITEM_BUTTONMODE * MENUITEM_HEIGHT)
+#define YPOS_FRAMETYPE    (MENUITEM_FRAMETYPE * MENUITEM_HEIGHT)
 
 static void Task_OptionMenuFadeIn(u8 taskId);
 static void Task_OptionMenuProcessInput(u8 taskId);
@@ -62,6 +69,8 @@ static u8 BattleStyle_ProcessInput(u8 selection);
 static void BattleStyle_DrawChoices(u8 selection);
 static u8 Sound_ProcessInput(u8 selection);
 static void Sound_DrawChoices(u8 selection);
+static u8 MusicSpeed_ProcessInput(u8 selection);
+static void MusicSpeed_DrawChoices(u8 selection);
 static u8 FrameType_ProcessInput(u8 selection);
 static void FrameType_DrawChoices(u8 selection);
 static u8 ButtonMode_ProcessInput(u8 selection);
@@ -82,6 +91,9 @@ static const u8 gText_BattleStyleShift[]   = _("{COLOR GREEN}{SHADOW LIGHT_GREEN
 static const u8 gText_BattleStyleSet[]     = _("{COLOR GREEN}{SHADOW LIGHT_GREEN}SET");
 static const u8 gText_SoundMono[]          = _("{COLOR GREEN}{SHADOW LIGHT_GREEN}MONO");
 static const u8 gText_SoundStereo[]        = _("{COLOR GREEN}{SHADOW LIGHT_GREEN}STEREO");
+static const u8 gText_MusicSpeedNormal[]   = _("{COLOR GREEN}{SHADOW LIGHT_GREEN}1.0X");
+static const u8 gText_MusicSpeedFast[]     = _("{COLOR GREEN}{SHADOW LIGHT_GREEN}1.5X");
+static const u8 gText_MusicSpeedFaster[]   = _("{COLOR GREEN}{SHADOW LIGHT_GREEN}2.0X");
 static const u8 gText_FrameType[]          = _("{COLOR GREEN}{SHADOW LIGHT_GREEN}TYPE");
 static const u8 gText_FrameTypeNumber[]    = _("{COLOR GREEN}{SHADOW LIGHT_GREEN}");
 static const u8 gText_ButtonTypeNormal[]   = _("{COLOR GREEN}{SHADOW LIGHT_GREEN}NORMAL");
@@ -98,6 +110,7 @@ static const u8 *const sOptionMenuItemsNames[MENUITEM_COUNT] =
     [MENUITEM_BATTLESCENE] = COMPOUND_STRING("BATTLE SCENE"),
     [MENUITEM_BATTLESTYLE] = COMPOUND_STRING("BATTLE STYLE"),
     [MENUITEM_SOUND]       = COMPOUND_STRING("SOUND"),
+    [MENUITEM_MUSICSPEED]  = COMPOUND_STRING("MUSIC SPEED"),
     [MENUITEM_BUTTONMODE]  = COMPOUND_STRING("BUTTON MODE"),
     [MENUITEM_FRAMETYPE]   = COMPOUND_STRING("FRAME"),
     [MENUITEM_CANCEL]      = COMPOUND_STRING("CANCEL"),
@@ -250,11 +263,13 @@ void CB2_InitOptionMenu(void)
         gTasks[taskId].tSound = gSaveBlock2Ptr->optionsSound;
         gTasks[taskId].tButtonMode = gSaveBlock2Ptr->optionsButtonMode;
         gTasks[taskId].tWindowFrameType = gSaveBlock2Ptr->optionsWindowFrameType;
+        gTasks[taskId].tMusicSpeed = gSaveBlock2Ptr->optionsMusicSpeed;
 
         TextSpeed_DrawChoices(gTasks[taskId].tTextSpeed);
         BattleScene_DrawChoices(gTasks[taskId].tBattleSceneOff);
         BattleStyle_DrawChoices(gTasks[taskId].tBattleStyle);
         Sound_DrawChoices(gTasks[taskId].tSound);
+        MusicSpeed_DrawChoices(gTasks[taskId].tMusicSpeed);
         ButtonMode_DrawChoices(gTasks[taskId].tButtonMode);
         FrameType_DrawChoices(gTasks[taskId].tWindowFrameType);
         HighlightOptionMenuItem(gTasks[taskId].tMenuSelection);
@@ -338,6 +353,13 @@ static void Task_OptionMenuProcessInput(u8 taskId)
             if (previousOption != gTasks[taskId].tSound)
                 Sound_DrawChoices(gTasks[taskId].tSound);
             break;
+        case MENUITEM_MUSICSPEED:
+            previousOption = gTasks[taskId].tMusicSpeed;
+            gTasks[taskId].tMusicSpeed = MusicSpeed_ProcessInput(gTasks[taskId].tMusicSpeed);
+
+            if (previousOption != gTasks[taskId].tMusicSpeed)
+                MusicSpeed_DrawChoices(gTasks[taskId].tMusicSpeed);
+            break;
         case MENUITEM_BUTTONMODE:
             previousOption = gTasks[taskId].tButtonMode;
             gTasks[taskId].tButtonMode = ButtonMode_ProcessInput(gTasks[taskId].tButtonMode);
@@ -372,6 +394,7 @@ static void Task_OptionMenuSave(u8 taskId)
     gSaveBlock2Ptr->optionsSound = gTasks[taskId].tSound;
     gSaveBlock2Ptr->optionsButtonMode = gTasks[taskId].tButtonMode;
     gSaveBlock2Ptr->optionsWindowFrameType = gTasks[taskId].tWindowFrameType;
+    gSaveBlock2Ptr->optionsMusicSpeed = gTasks[taskId].tMusicSpeed;
 
     BeginNormalPaletteFade(PALETTES_ALL, 0, 0, 16, RGB_BLACK);
     gTasks[taskId].func = Task_OptionMenuFadeOut;
@@ -390,7 +413,7 @@ static void Task_OptionMenuFadeOut(u8 taskId)
 static void HighlightOptionMenuItem(u8 index)
 {
     SetGpuReg(REG_OFFSET_WIN0H, WIN_RANGE(16, DISPLAY_WIDTH - 16));
-    SetGpuReg(REG_OFFSET_WIN0V, WIN_RANGE(index * 16 + 40, index * 16 + 56));
+    SetGpuReg(REG_OFFSET_WIN0V, WIN_RANGE(index * MENUITEM_HEIGHT + 40, index * MENUITEM_HEIGHT + 40 + MENUITEM_HEIGHT));
 }
 
 static void DrawOptionMenuChoice(const u8 *text, u8 x, u8 y, u8 style)
@@ -527,6 +550,52 @@ static void Sound_DrawChoices(u8 selection)
     DrawOptionMenuChoice(gText_SoundStereo, GetStringRightAlignXOffset(FONT_NORMAL, gText_SoundStereo, 198), YPOS_SOUND, styles[1]);
 }
 
+static u8 MusicSpeed_ProcessInput(u8 selection)
+{
+    if (JOY_NEW(DPAD_RIGHT))
+    {
+        if (selection < OPTIONS_MUSIC_SPEED_COUNT - 1)
+            selection++;
+        else
+            selection = 0;
+
+        sArrowPressed = TRUE;
+    }
+    if (JOY_NEW(DPAD_LEFT))
+    {
+        if (selection != 0)
+            selection--;
+        else
+            selection = OPTIONS_MUSIC_SPEED_COUNT - 1;
+
+        sArrowPressed = TRUE;
+    }
+    return selection;
+}
+
+static void MusicSpeed_DrawChoices(u8 selection)
+{
+    u8 styles[3];
+    s32 widthNormal, widthFast, widthFaster, xFast;
+
+    styles[0] = 0;
+    styles[1] = 0;
+    styles[2] = 0;
+    styles[selection] = 1;
+
+    DrawOptionMenuChoice(gText_MusicSpeedNormal, 104, YPOS_MUSICSPEED, styles[0]);
+
+    widthNormal = GetStringWidth(FONT_NORMAL, gText_MusicSpeedNormal, 0);
+    widthFast = GetStringWidth(FONT_NORMAL, gText_MusicSpeedFast, 0);
+    widthFaster = GetStringWidth(FONT_NORMAL, gText_MusicSpeedFaster, 0);
+
+    widthFast -= 94;
+    xFast = (widthNormal - widthFast - widthFaster) / 2 + 104;
+    DrawOptionMenuChoice(gText_MusicSpeedFast, xFast, YPOS_MUSICSPEED, styles[1]);
+
+    DrawOptionMenuChoice(gText_MusicSpeedFaster, GetStringRightAlignXOffset(FONT_NORMAL, gText_MusicSpeedFaster, 198), YPOS_MUSICSPEED, styles[2]);
+}
+
 static u8 FrameType_ProcessInput(u8 selection)
 {
     if (JOY_NEW(DPAD_RIGHT))
@@ -644,7 +713,7 @@ static void DrawOptionMenuTexts(void)
 
     FillWindowPixelBuffer(WIN_OPTIONS, PIXEL_FILL(1));
     for (i = 0; i < MENUITEM_COUNT; i++)
-        AddTextPrinterParameterized(WIN_OPTIONS, FONT_NORMAL, sOptionMenuItemsNames[i], 8, (i * 16) + 1, TEXT_SKIP_DRAW, NULL);
+        AddTextPrinterParameterized(WIN_OPTIONS, FONT_NORMAL, sOptionMenuItemsNames[i], 8, (i * MENUITEM_HEIGHT) + 1, TEXT_SKIP_DRAW, NULL);
     CopyWindowToVram(WIN_OPTIONS, COPYWIN_FULL);
 }
 

@@ -86,4 +86,13 @@
 // Naming Screen
 #define AUTO_LOWERCASE_KEYBOARD      GEN_LATEST  // Starting in GEN_6, after entering the first uppercase character, the keyboard switches to lowercase letters.
 
+// Custom battle music.
+// When TRUE, wild / trainer / gym / rival / champion / legendary battle themes
+// are replaced by the MUS_CUSTOM_VS_* slots (see include/constants/songs.h),
+// which play the drop-in files sound/songs/midi/mus_custom_vs_*.mid.
+// Keep FALSE unless those .mid files are present, or the build will fail to link.
+// The .mid files are intentionally git-ignored and NOT committed: supply your
+// own GBA-format tracks locally. See docs/overview/custom-battle-music.md.
+#define USE_CUSTOM_BATTLE_MUSIC      TRUE
+
 #endif // GUARD_CONFIG_GENERAL_H

@@ -553,4 +553,29 @@
 #define PHONEME_ID(song)            ((song) - FIRST_PHONEME_SONG)
 #define PHONEME_ID_NONE             0xFF
 
+// Custom battle-music slots. Only present (and only referenced) when
+// USE_CUSTOM_BATTLE_MUSIC is TRUE in include/config/general.h; the matching
+// song-table entries in sound/song_table.inc are gated by the same flag, and
+// they play the git-ignored drop-in files sound/songs/midi/mus_custom_vs_*.mid.
+// These indices continue directly after the last phoneme song.
+#define MUS_CUSTOM_VS_WILD          610
+#define MUS_CUSTOM_VS_TRAINER       611
+#define MUS_CUSTOM_VS_GYM           612
+#define MUS_CUSTOM_VS_RIVAL         613
+#define MUS_CUSTOM_VS_CHAMPION      614
+#define MUS_CUSTOM_VS_LEGEND        615
+#define MUS_CUSTOM_VS_GYM_SWSH      616
+#define MUS_CUSTOM_VS_CHAMPION_HGSS 617
+#define MUS_CUSTOM_VS_EVIL_LEADER   618
+#define MUS_CUSTOM_VS_CHAMPION_ORAS 619
+#define MUS_CUSTOM_VS_ELITE_FOUR    620
+#define MUS_CUSTOM_VS_ELITE_FOUR_BW 621
+#define MUS_CUSTOM_VS_GUILE         622
+#define MUS_CUSTOM_VS_BRAWL_BOSS    623
+#define MUS_CUSTOM_VS_MEGALOVANIA   624
+#define MUS_CUSTOM_VS_CRUEL_ANGEL   625
+#define MUS_CUSTOM_VS_DEDEDE        626
+#define MUS_CUSTOM_VS_YOASOBI       627
+#define MUS_CUSTOM_VS_LIFELIGHT     628
+
 #endif  // GUARD_CONSTANTS_SONGS_H

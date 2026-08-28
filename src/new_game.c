@@ -106,6 +106,7 @@ static void SetDefaultOptions(void)
     gSaveBlock2Ptr->optionsBattleStyle = OPTIONS_BATTLE_STYLE_SET;
     gSaveBlock2Ptr->optionsBattleSceneOff = FALSE;
     gSaveBlock2Ptr->regionMapZoom = FALSE;
+    gSaveBlock2Ptr->optionsMusicSpeed = OPTIONS_MUSIC_SPEED_FAST;
 }
 
 static void ClearPokedexFlags(void)
@@ -183,6 +184,10 @@ void NewGameInitData(void)
     ClearAllMail();
     gSaveBlock2Ptr->specialSaveWarpFlags = 0;
     gSaveBlock2Ptr->gcnLinkFlags = 0;
+    // Force SET battle style on every NEW GAME. SetDefaultOptions (which sets
+    // SET) only runs at boot for an empty/corrupt save, so a new game started
+    // over an existing save would otherwise keep the previous SHIFT setting.
+    gSaveBlock2Ptr->optionsBattleStyle = OPTIONS_BATTLE_STYLE_SET;
     InitPlayerTrainerId();
     PlayTimeCounter_Reset();
     ClearPokedexFlags();

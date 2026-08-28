@@ -22,7 +22,7 @@ PewterCity_Gym_EventScript_PhonesRingingEnd::
 
 PewterCity_Gym_EventScript_Brock::
 	famechecker FAMECHECKER_BROCK, FCPICKSTATE_COLORED, UpdatePickStateFromSpecialVar8005
-	trainerbattle_single TRAINER_LEADER_BROCK, PewterCity_Gym_Text_BrockIntro, PewterCity_Gym_Text_BrockDefeat, PewterCity_Gym_EventScript_DefeatedBrock, NO_MUSIC
+	trainerbattle_single TRAINER_LEADER_BROCK, PewterCity_Gym_Text_BrockIntro, PewterCity_Gym_Text_BrockBadge, PewterCity_Gym_EventScript_DefeatedBrock, NO_MUSIC
 	goto_if_unset FLAG_GOT_TM39_FROM_BROCK, PewterCity_Gym_EventScript_GiveTM39
 	msgbox PewterCity_Gym_Text_BrockPostBattle
 	release
@@ -36,6 +36,7 @@ PewterCity_Gym_EventScript_DefeatedBrock::
 	setflag FLAG_HIDE_PEWTER_CITY_GYM_GUIDE
 	clearflag FLAG_HIDE_PEWTER_CITY_RUNNING_SHOES_GUY
 	set_gym_trainers_frlg 1
+	msgbox PewterCity_Gym_Text_BrockDefeatSpeech, MSGBOX_DEFAULT
 	goto PewterCity_Gym_EventScript_GiveTM39
 	end
 
@@ -116,16 +117,18 @@ PewterCity_Gym_Text_BrockIntro::
 	.string "RING! RING! RING! RING! RING!\p"
 	.string "…Ignore that. Let's battle.{PLAY_BGM}{MUS_RG_ENCOUNTER_GYM_LEADER}$"
 
-PewterCity_Gym_Text_BrockDefeat::
-	.string "Lost again. Same as my love life.\p"
-	.string "At least you didn't take half\n"
-	.string "the GYM.\p"
+PewterCity_Gym_Text_BrockBadge::
 	.string "Here, you earned it.\n"
 	.string "The official LEAGUE BOULDERBADGE.\p"
 	.string "{FONT_NORMAL}{PLAYER} received the BOULDERBADGE\n"
 	.string "from BROCK!{PAUSE_MUSIC}{PLAY_BGM}{MUS_OBTAIN_BADGE}{PAUSE 0xFE}{PAUSE 0x56}{RESUME_MUSIC}\p"
 	.string "{FONT_MALE}It toughens up your POKéMON, and\n"
-	.string "lets them use FLASH out of battle.\p"
+	.string "lets them use FLASH out of battle.$"
+
+PewterCity_Gym_Text_BrockDefeatSpeech::
+	.string "Lost again. Same as my love life.\p"
+	.string "At least you didn't take half\n"
+	.string "the GYM.\p"
 	.string "Unlike a marriage, a BADGE is\n"
 	.string "yours to keep. Cherish it.\p"
 	.string "RING! RING! RING! RING!\p"

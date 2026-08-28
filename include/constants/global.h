@@ -201,6 +201,11 @@ enum Gender
 #define OPTIONS_BATTLE_STYLE_SHIFT 0
 #define OPTIONS_BATTLE_STYLE_SET 1
 
+#define OPTIONS_MUSIC_SPEED_NORMAL 0 // 1.0x tempo
+#define OPTIONS_MUSIC_SPEED_FAST   1 // 1.5x tempo
+#define OPTIONS_MUSIC_SPEED_FASTER 2 // 2.0x tempo
+#define OPTIONS_MUSIC_SPEED_COUNT  3
+
 enum __attribute__((packed)) Direction
 {
     DIR_NONE,
