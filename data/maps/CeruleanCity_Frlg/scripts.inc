@@ -299,7 +299,18 @@ CeruleanCity_EventScript_GruntTrigger::
 CeruleanCity_EventScript_Policeman::
 	lock
 	faceplayer
+	goto_if_unset FLAG_BADGE02_GET, CeruleanCity_EventScript_PolicemanBlocking
 	msgbox CeruleanCity_Text_PeopleHereWereRobbed
+	closemessage
+	applymovement LOCALID_CERULEAN_POLICEMAN, Common_Movement_FaceOriginalDirection
+	waitmovement 0
+	release
+	end
+
+@ While the robbed-house shortcut is sealed (pre-CASCADE BADGE), the policeman
+@ turns the player back with a PSYDUCK hint they piece together themselves.
+CeruleanCity_EventScript_PolicemanBlocking::
+	msgbox CeruleanCity_Text_PolicemanPsyduckHint
 	closemessage
 	applymovement LOCALID_CERULEAN_POLICEMAN, Common_Movement_FaceOriginalDirection
 	waitmovement 0
@@ -620,6 +631,15 @@ CeruleanCity_Text_PeopleHereWereRobbed::
 	.string "No one's ever seen his face.\p"
 	.string "A clean-handed man, somewhere.\n"
 	.string "…The kind you never think to watch.$"
+
+CeruleanCity_Text_PolicemanPsyduckHint::
+	.string "Hold up. This way's sealed for now.\p"
+	.string "Nothing personal. It's just… stubborn.\n"
+	.string "Sits there dazed and won't be moved.\p"
+	.string "Like a certain PSYDUCK I could name.\n"
+	.string "Answers to no one, that thing.\p"
+	.string "Get the better of one THAT bullheaded,\n"
+	.string "and I'd wager this door opens right up.$"
 
 CeruleanCity_Text_SlowbroUseSonicboom::
 	.string "Okay! SLOWBRO!\n"
