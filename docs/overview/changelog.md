@@ -7,6 +7,21 @@ Update in the same PR as the change.
 `YYYY-MM-DD` — area — one-line summary (PR/commit ref)
 
 ## Entries
+- 2026-08-28 - feature/music-speed - MUSIC SPEED option. New OPTION-menu row (below
+  SOUND) lets the player set background-music tempo to 1.0X / 1.5X / 2.0X; new saves
+  default to 1.5X, existing saves start at 1.0X. Stored in a new `optionsMusicSpeed`
+  bitfield (`include/global.h`, spare padding bits; constants in
+  `include/constants/global.h`). Applied via the engine's existing
+  `m4aMPlayTempoControl` on `gMPlayInfo_BGM` at each BGM (re)start and after fanfares
+  (`src/sound.c` `ApplyMusicSpeedToBGM`), so it covers route and battle music alike
+  and survives level-up jingles. Deliberately not applied per-frame, so the Berry
+  Blender's own dynamic tempo is untouched. Fanfares/cries/sound effects are
+  unaffected. The OPTION list row pitch dropped 16->14px to fit the 8th row in the
+  existing window (`src/option_menu.c`). Note: this changes tempo only (not pitch),
+  and because a ROM cannot detect emulator fast-forward it speeds music at all times,
+  not only during fast-forward. Text/flavor unchanged. Verify in-game: set 2.0X in
+  OPTIONS, confirm route and battle BGM play faster while a level-up jingle still
+  plays at normal speed and resumes fast afterward.
 - 2026-08-27 - feature/rental - RENTAL BATTLE main-menu row. The title screen now
   lists a RENTAL BATTLE entry directly below NEW GAME, on both the fresh-cart menu
   (NEW GAME / RENTAL BATTLE / OPTION) and the saved-game menu (CONTINUE / NEW GAME /
