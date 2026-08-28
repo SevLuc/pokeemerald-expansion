@@ -633,13 +633,10 @@ CeruleanCity_Text_PeopleHereWereRobbed::
 	.string "…The kind you never think to watch.$"
 
 CeruleanCity_Text_PolicemanPsyduckHint::
-	.string "Hold up. This way's sealed for now.\p"
-	.string "Nothing personal. It's just… stubborn.\n"
-	.string "Sits there dazed and won't be moved.\p"
-	.string "Like a certain PSYDUCK I could name.\n"
-	.string "Answers to no one, that thing.\p"
-	.string "Get the better of one THAT bullheaded,\n"
-	.string "and I'd wager this door opens right up.$"
+	.string "This door won't budge for now.\p"
+	.string "Stubborn as a certain PSYDUCK.\n"
+	.string "Beat one that bullheaded,\l"
+	.string "and it opens right up.$"
 
 CeruleanCity_Text_SlowbroUseSonicboom::
 	.string "Okay! SLOWBRO!\n"
