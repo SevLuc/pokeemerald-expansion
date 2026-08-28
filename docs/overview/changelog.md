@@ -7,6 +7,23 @@ Update in the same PR as the change.
 `YYYY-MM-DD` — area — one-line summary (PR/commit ref)
 
 ## Entries
+- 2026-08-28 - fix/rental - Fix the rental-battle boot crash (orange screen / "invalid
+  address"). CB2_StartRentalMode warped to MAP_BATTLE_FRONTIER_BATTLE_TOWER_LOBBY, but
+  the Emerald Battle Frontier maps are NOT compiled into this FRLG build (gMapGroups
+  slots 0-33 are NULL; real FRLG maps are groups 34+), so the warp loaded a garbage
+  map header and crashed in InitMapLayoutData on entry. The hub now warps to a real
+  FRLG map (Viridian City Poke Center 1F) and a new field callback
+  (FieldCB_RentalHubEnter) auto-runs the rental driver script on entry, so no attendant
+  NPC or map-script edits are needed. The rental script uses lockall/releaseall and, on
+  run end, offers another run or leaves via EndRentalMode (soft reset to title; the
+  session is RAM-only and never writes flash). Verified under mGBA+gdb: hub header valid,
+  script auto-starts, overworld runs with no crash. (main_menu.c also restores the
+  FreeAllWindowBuffers() the menu path had dropped.) Also: the first prompt is now
+  the Singles/Doubles choice (dropped the intro preamble); a new gRentalModeActive
+  flag lets the party-select bypass the frontier legendary ban (isFrontierBanned) so
+  restricted mons drafted under the 0/1/2 cap are actually selectable; and the
+  opponent team preview reveals the full six-mon roster instead of only the fielded
+  subset (you scout all six but not which ones you'll face).
 - 2026-08-28 - playtest fixes - Misty's team: high-BP movesets softened toward
   ~65 BP. Psyduck (Scald/Psychic -> Water Pulse/Psybeam), Horsea (Ice Beam ->
   Icy Wind), Corsola (Scald -> Water Pulse; keeps Sucker Punch 70 priority),

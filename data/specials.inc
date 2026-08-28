@@ -29,6 +29,7 @@ gSpecials::
 	def_special BufferRentalRecruitCandidate
 	def_special RentalDoRecruit
 	def_special RentalSetBringCountVar
+	def_special EndRentalMode
 	def_special SetCableClubWarp
 	def_special DoCableClubWarp, waitstate=1
 	def_special ReturnFromLinkRoom, waitstate=1
