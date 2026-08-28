@@ -61,6 +61,16 @@ When the flag is `TRUE`, FRLG, Emerald, and custom tracks all play in
 rotation regardless of current region - no option menu toggle, the game
 picks randomly each battle.
 
+## Looping
+
+Downloaded/ripped MIDIs usually have no loop markers, so by default mid2agb builds
+them to play once and stop. Every `mus_custom_vs_*` line in `midi.cfg` carries the
+`-LOOP` flag, which makes mid2agb loop the whole track back to the start when the
+MIDI has no explicit `[` / `]` loop points. If your MIDI DOES contain its own loop
+markers, those win and `-LOOP` does nothing. To add a custom track that should loop,
+just keep the `-LOOP` on its `midi.cfg` line (it is there already for all stock
+slots). Songs are unaffected in every other build.
+
 ## Notes
 
 - DS-era tracks often use more instruments than the GBA's channel budget

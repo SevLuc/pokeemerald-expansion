@@ -7384,7 +7384,7 @@ Level: 25
 Ability: Volt Absorb
 Nature: Timid
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Thunderbolt
+- Discharge
 - Magnet Rise
 - Trailblaze
 - Yawn
@@ -7394,8 +7394,8 @@ Level: 25
 Ability: Levitate
 Nature: Timid
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Blizzard
-- Thunderbolt
+- Aurora Beam
+- Discharge
 - Light Screen
 - Reflect
 
@@ -7414,8 +7414,8 @@ Level: 25
 Ability: Static
 Nature: Naive
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Chloroblast
-- Thunderbolt
+- Giga Drain
+- Discharge
 - Ice Ball
 - Self Destruct
 
@@ -7424,8 +7424,8 @@ Level: 25
 Ability: Dry Skin
 Nature: Timid
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Thunderbolt
-- Hyper Voice
+- Discharge
+- Round
 - Signal Beam
 - Grass Knot
 
@@ -7434,7 +7434,7 @@ Level: 25
 Ability: Hunger Switch
 Nature: Jolly
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Wild Charge
+- Zing Zap
 - Seed Bomb
 - Stomping Tantrum
 - Super Fang
@@ -7456,7 +7456,7 @@ Nature: Quiet
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Rising Voltage
 - Self Destruct
-- Muddy Water
+- Water Pulse
 - Thunder Wave
 
 T SWIZZLE (Pachirisu) (M)
@@ -7475,9 +7475,9 @@ Ability: Static
 Tags: Ace
 Nature: Naive
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Extreme Speed
-- Thunderbolt
-- Surf
+- Body Slam
+- Discharge
+- Water Pulse
 - Grass Knot
 
 === TRAINER_LEADER_ERIKA ===

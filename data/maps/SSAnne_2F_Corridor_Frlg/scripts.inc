@@ -1,6 +1,74 @@
 SSAnne_2F_Corridor_Frlg_MapScripts::
 	.byte 0
 
+SSAnne_2F_Corridor_EventScript_Ann::
+	trainerbattle_single TRAINER_LASS_ANN, SSAnne_2F_Corridor_Text_AnnIntro, SSAnne_2F_Corridor_Text_AnnDefeat
+	msgbox SSAnne_2F_Corridor_Text_AnnPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+SSAnne_2F_Corridor_EventScript_Dale::
+	trainerbattle_single TRAINER_FISHERMAN_DALE, SSAnne_2F_Corridor_Text_DaleIntro, SSAnne_2F_Corridor_Text_DaleDefeat
+	msgbox SSAnne_2F_Corridor_Text_DalePostBattle, MSGBOX_AUTOCLOSE
+	end
+
+SSAnne_2F_Corridor_EventScript_Arthur::
+	trainerbattle_single TRAINER_GENTLEMAN_ARTHUR, SSAnne_2F_Corridor_Text_ArthurIntro, SSAnne_2F_Corridor_Text_ArthurDefeat
+	msgbox SSAnne_2F_Corridor_Text_ArthurPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+SSAnne_2F_Corridor_EventScript_Phillip::
+	trainerbattle_single TRAINER_SAILOR_PHILLIP, SSAnne_2F_Corridor_Text_PhillipIntro, SSAnne_2F_Corridor_Text_PhillipDefeat
+	msgbox SSAnne_2F_Corridor_Text_PhillipPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+SSAnne_2F_Corridor_Text_AnnIntro::
+	.string "I collected these POKéMON\n"
+	.string "from all around the world!$"
+
+SSAnne_2F_Corridor_Text_AnnDefeat::
+	.string "Oh, no!\n"
+	.string "I went around the world for these!$"
+
+SSAnne_2F_Corridor_Text_AnnPostBattle::
+	.string "You hurt my poor POKéMON!\p"
+	.string "I demand that you heal them at a\n"
+	.string "POKéMON CENTER!$"
+
+SSAnne_2F_Corridor_Text_DaleIntro::
+	.string "Check out what I fished up!$"
+
+SSAnne_2F_Corridor_Text_DaleDefeat::
+	.string "I'm all out!$"
+
+SSAnne_2F_Corridor_Text_DalePostBattle::
+	.string "Party?\p"
+	.string "The cruise ship's party should be\n"
+	.string "over by now.$"
+
+SSAnne_2F_Corridor_Text_ArthurIntro::
+	.string "You insolent pup!\n"
+	.string "How dare you barge in!$"
+
+SSAnne_2F_Corridor_Text_ArthurDefeat::
+	.string "Humph! You rude child!\n"
+	.string "You have no sense of courtesy!$"
+
+SSAnne_2F_Corridor_Text_ArthurPostBattle::
+	.string "I wish to be left alone!\n"
+	.string "Get out!$"
+
+SSAnne_2F_Corridor_Text_PhillipIntro::
+	.string "Matey, you're walking the plank if\n"
+	.string "you lose!$"
+
+SSAnne_2F_Corridor_Text_PhillipDefeat::
+	.string "Argh!\n"
+	.string "Beaten by a kid!$"
+
+SSAnne_2F_Corridor_Text_PhillipPostBattle::
+	.string "When we're out at sea, jellyfish\n"
+	.string "POKéMON sometimes drift by.$"
+
 SSAnne_2F_Corridor_EventScript_RivalTriggerLeft::
 	lockall
 	setvar VAR_TEMP_1, 0
