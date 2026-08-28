@@ -43,7 +43,7 @@ CeruleanCity_Gym_Movement_GuideAdvance::
 
 CeruleanCity_Gym_EventScript_Misty::
 	famechecker FAMECHECKER_MISTY, FCPICKSTATE_COLORED, UpdatePickStateFromSpecialVar8005
-	trainerbattle_single TRAINER_LEADER_MISTY, CeruleanCity_Gym_Text_MistyIntro, CeruleanCity_Gym_Text_MistyDefeat, CeruleanCity_Gym_EventScript_MistyDefeated, NO_MUSIC
+	trainerbattle_single TRAINER_LEADER_MISTY, CeruleanCity_Gym_Text_MistyIntro, CeruleanCity_Gym_Text_MistyBadge, CeruleanCity_Gym_EventScript_MistyDefeated, NO_MUSIC
 	goto_if_unset FLAG_GOT_TM03_FROM_MISTY, CeruleanCity_Gym_EventScript_GiveTM03
 	msgbox CeruleanCity_Gym_Text_ExplainTM03
 	release
@@ -55,6 +55,7 @@ CeruleanCity_Gym_EventScript_MistyDefeated::
 	setflag FLAG_BADGE02_GET
 	setrespawn HEAL_LOCATION_CERULEAN_CITY
 	set_gym_trainers_frlg 2
+	msgbox CeruleanCity_Gym_Text_MistyDefeatSpeech, MSGBOX_DEFAULT
 	goto CeruleanCity_Gym_EventScript_GiveTM03
 	end
 
@@ -152,13 +153,15 @@ CeruleanCity_Gym_Text_ReceivedTM03FromMisty::
 CeruleanCity_Gym_Text_BetterMakeRoomForThis::
 	.string "You better make room for this!$"
 
-CeruleanCity_Gym_Text_MistyDefeat::
+CeruleanCity_Gym_Text_MistyBadge::
+	.string "Here. The CASCADEBADGE.\n"
+	.string "It's yours.$"
+
+CeruleanCity_Gym_Text_MistyDefeatSpeech::
 	.string "…Huh. You didn't let me get away\n"
 	.string "with anything.\p"
 	.string "I only train what can't run.\p"
-	.string "Turns out, today, neither could I.\p"
-	.string "Here. The CASCADEBADGE.\n"
-	.string "It's yours.$"
+	.string "Turns out, today, neither could I.$"
 
 CeruleanCity_Gym_Text_DianaIntro::
 	.string "What? You?\n"

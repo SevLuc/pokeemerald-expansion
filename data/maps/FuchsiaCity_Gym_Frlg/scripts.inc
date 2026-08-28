@@ -3,7 +3,7 @@ FuchsiaCity_Gym_Frlg_MapScripts::
 
 FuchsiaCity_Gym_EventScript_Koga::
 	famechecker FAMECHECKER_KOGA, FCPICKSTATE_COLORED, UpdatePickStateFromSpecialVar8005
-	trainerbattle_single TRAINER_LEADER_KOGA, FuchsiaCity_Gym_Text_KogaIntro, FuchsiaCity_Gym_Text_KogaDefeat, FuchsiaCity_Gym_EventScript_DefeatedKoga, NO_MUSIC
+	trainerbattle_single TRAINER_LEADER_KOGA, FuchsiaCity_Gym_Text_KogaIntro, FuchsiaCity_Gym_Text_KogaBadge, FuchsiaCity_Gym_EventScript_DefeatedKoga, NO_MUSIC
 	goto_if_unset FLAG_GOT_TM06_FROM_KOGA, FuchsiaCity_Gym_EventScript_GiveTM06
 	msgbox FuchsiaCity_Gym_Text_KogaPostBattle
 	release
@@ -15,6 +15,7 @@ FuchsiaCity_Gym_EventScript_DefeatedKoga::
 	setflag FLAG_DEFEATED_KOGA
 	setflag FLAG_BADGE05_GET
 	set_gym_trainers_frlg 5
+	msgbox FuchsiaCity_Gym_Text_KogaDefeatSpeech, MSGBOX_DEFAULT
 	goto FuchsiaCity_Gym_EventScript_GiveTM06
 	end
 
@@ -104,12 +105,14 @@ FuchsiaCity_Gym_Text_KogaIntro::
 	.string "Sleep. Suffer. Despair.\n"
 	.string "Progress waits for no one!{PLAY_BGM}{MUS_RG_ENCOUNTER_GYM_LEADER}$"
 
-FuchsiaCity_Gym_Text_KogaDefeat::
+FuchsiaCity_Gym_Text_KogaBadge::
+	.string "You have both. The SOULBADGE\n"
+	.string "is yours.$"
+
+FuchsiaCity_Gym_Text_KogaDefeatSpeech::
 	.string "Kh… you bested me. Rare.\p"
 	.string "I respect two things, child.\n"
 	.string "Power. And the will to spend it.\p"
-	.string "You have both. The SOULBADGE\n"
-	.string "is yours.\p"
 	.string "…And a talent like that,\n"
 	.string "chasing little badges? Hm.\p"
 	.string "We should talk. Properly.$"

@@ -47,7 +47,7 @@ CinnabarIsland_Gym_OnLoadOpenDoor6::
 
 CinnabarIsland_Gym_EventScript_Blaine::
 	famechecker FAMECHECKER_BLAINE, FCPICKSTATE_COLORED, UpdatePickStateFromSpecialVar8005
-	trainerbattle_single TRAINER_LEADER_BLAINE, CinnabarIsland_Gym_Text_BlaineIntro, CinnabarIsland_Gym_Text_BlaineDefeat, CinnabarIsland_Gym_EventScript_DefeatedBlaine, NO_MUSIC
+	trainerbattle_single TRAINER_LEADER_BLAINE, CinnabarIsland_Gym_Text_BlaineIntro, CinnabarIsland_Gym_Text_BlaineBadge, CinnabarIsland_Gym_EventScript_DefeatedBlaine, NO_MUSIC
 	goto_if_unset FLAG_GOT_TM38_FROM_BLAINE, CinnabarIsland_Gym_EventScript_GiveTM38
 	msgbox CinnabarIsland_Gym_Text_BlainePostBattle
 	release
@@ -61,6 +61,7 @@ CinnabarIsland_Gym_EventScript_DefeatedBlaine::
 	setvar VAR_MAP_SCENE_CINNABAR_ISLAND, 1
 	clearflag FLAG_HIDE_CINNABAR_BILL
 	set_gym_trainers_frlg 7
+	msgbox CinnabarIsland_Gym_Text_BlaineDefeatSpeech, MSGBOX_DEFAULT
 	goto CinnabarIsland_Gym_EventScript_GiveTM38
 	end
 
@@ -723,13 +724,15 @@ CinnabarIsland_Gym_Text_BlaineIntro::
 	.string "Come! Let us make this GYM an\n"
 	.string "inferno worth remembering!{PLAY_BGM}{MUS_RG_ENCOUNTER_GYM_LEADER}$"
 
-CinnabarIsland_Gym_Text_BlaineDefeat::
+CinnabarIsland_Gym_Text_BlaineBadge::
+	.string "You have earned the VOLCANOBADGE.\n"
+	.string "You earned it right. By thinking.$"
+
+CinnabarIsland_Gym_Text_BlaineDefeatSpeech::
 	.string "Hah… burned down to nothing.\n"
 	.string "Not even ashes remain.\p"
 	.string "…I have watched that happen before.\n"
-	.string "To everything I built. Everything.\p"
-	.string "You have earned the VOLCANOBADGE.\n"
-	.string "You earned it right. By thinking.$"
+	.string "To everything I built. Everything.$"
 
 CinnabarIsland_Gym_Text_FireBlastIsUltimateFireMove::
 	.string "FIRE BLAST is the ultimate fire\n"
