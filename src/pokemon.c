@@ -5374,33 +5374,70 @@ static u16 DetermineBattleBGM(void)
     }
 }
 
-// When USE_CUSTOM_BATTLE_MUSIC is enabled, remap the vanilla battle themes to
-// the MUS_CUSTOM_VS_* drop-in slots by category. Off by default, in which case
-// this compiles to a pass-through and battle music is unchanged.
+// When USE_CUSTOM_BATTLE_MUSIC is enabled, randomly pick from a pool of
+// FRLG, Emerald, and custom drop-in tracks for each battle category.
+// Emerald themes are always in the pool regardless of current region.
 static u16 RemapCustomBattleBGM(u16 song)
 {
 #if USE_CUSTOM_BATTLE_MUSIC == TRUE
+    static const u16 sPoolWild[] = {
+        MUS_RG_VS_WILD, MUS_VS_WILD, MUS_CUSTOM_VS_WILD,
+    };
+    static const u16 sPoolTrainer[] = {
+        MUS_RG_VS_TRAINER, MUS_VS_TRAINER, MUS_CUSTOM_VS_TRAINER,
+        MUS_CUSTOM_VS_GUILE, MUS_CUSTOM_VS_BRAWL_BOSS,
+        MUS_CUSTOM_VS_MEGALOVANIA, MUS_CUSTOM_VS_CRUEL_ANGEL,
+        MUS_CUSTOM_VS_DEDEDE, MUS_CUSTOM_VS_YOASOBI,
+        MUS_CUSTOM_VS_LIFELIGHT,
+    };
+    static const u16 sPoolGym[] = {
+        MUS_RG_VS_GYM_LEADER, MUS_VS_GYM_LEADER,
+        MUS_CUSTOM_VS_GYM, MUS_CUSTOM_VS_GYM_SWSH,
+    };
+    static const u16 sPoolRival[] = {
+        MUS_VS_RIVAL, MUS_CUSTOM_VS_RIVAL,
+    };
+    static const u16 sPoolChampion[] = {
+        MUS_RG_VS_CHAMPION, MUS_VS_CHAMPION,
+        MUS_CUSTOM_VS_CHAMPION, MUS_CUSTOM_VS_CHAMPION_HGSS,
+        MUS_CUSTOM_VS_CHAMPION_ORAS,
+    };
+    static const u16 sPoolLegend[] = {
+        MUS_RG_VS_LEGEND, MUS_CUSTOM_VS_LEGEND,
+    };
+    static const u16 sPoolEvilLeader[] = {
+        MUS_VS_AQUA_MAGMA_LEADER, MUS_CUSTOM_VS_EVIL_LEADER,
+    };
+    static const u16 sPoolEliteFour[] = {
+        MUS_VS_ELITE_FOUR,
+        MUS_CUSTOM_VS_ELITE_FOUR, MUS_CUSTOM_VS_ELITE_FOUR_BW,
+    };
+
     switch (song)
     {
     case MUS_VS_WILD:
     case MUS_RG_VS_WILD:
-        return MUS_CUSTOM_VS_WILD;
+        return sPoolWild[Random() % ARRAY_COUNT(sPoolWild)];
     case MUS_VS_TRAINER:
     case MUS_RG_VS_TRAINER:
-        return MUS_CUSTOM_VS_TRAINER;
+        return sPoolTrainer[Random() % ARRAY_COUNT(sPoolTrainer)];
     case MUS_VS_GYM_LEADER:
     case MUS_RG_VS_GYM_LEADER:
-        return MUS_CUSTOM_VS_GYM;
+        return sPoolGym[Random() % ARRAY_COUNT(sPoolGym)];
     case MUS_VS_RIVAL:
-        return MUS_CUSTOM_VS_RIVAL;
+        return sPoolRival[Random() % ARRAY_COUNT(sPoolRival)];
     case MUS_VS_CHAMPION:
     case MUS_RG_VS_CHAMPION:
-        return MUS_CUSTOM_VS_CHAMPION;
+        return sPoolChampion[Random() % ARRAY_COUNT(sPoolChampion)];
     case MUS_VS_RAYQUAZA:
     case MUS_VS_KYOGRE_GROUDON:
     case MUS_VS_REGI:
     case MUS_RG_VS_LEGEND:
-        return MUS_CUSTOM_VS_LEGEND;
+        return sPoolLegend[Random() % ARRAY_COUNT(sPoolLegend)];
+    case MUS_VS_AQUA_MAGMA_LEADER:
+        return sPoolEvilLeader[Random() % ARRAY_COUNT(sPoolEvilLeader)];
+    case MUS_VS_ELITE_FOUR:
+        return sPoolEliteFour[Random() % ARRAY_COUNT(sPoolEliteFour)];
     }
 #endif
     return song;

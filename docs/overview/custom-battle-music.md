@@ -1,9 +1,13 @@
 # Custom battle music (drop-in)
 
-This project can swap the battle themes for your own tracks (for example
-Gen 4 arrangements) without committing any copyrighted audio to the repo. The
-wiring is committed; the actual music files stay on your machine and are
-git-ignored, the same way the base ROM is never committed.
+This project can add extra battle themes (for example Gen 4, HGSS, or SwSh
+arrangements) alongside the stock FRLG and Emerald tracks, without
+committing any copyrighted audio to the repo. When enabled, each battle
+randomly picks from a pool of all available tracks for that category -
+FRLG, Emerald, and custom drop-ins all weighted equally - keeping the
+music fresh across generations. The wiring is committed; the actual music
+files stay on your machine and are git-ignored, the same way the base ROM
+is never committed.
 
 ## What is and is not committed
 
@@ -15,18 +19,24 @@ git-ignored, the same way the base ROM is never committed.
   can never be pushed. Do not force-add them. Only commit music you have the
   right to distribute.
 
-## The six slots
+## The slots
 
-| Slot file (drop into `sound/songs/midi/`) | Used for |
+| Slot file (drop into `sound/songs/midi/`) | Pool |
 | --- | --- |
-| `mus_custom_vs_wild.mid`     | Wild battles |
-| `mus_custom_vs_trainer.mid`  | Regular trainer battles |
-| `mus_custom_vs_gym.mid`      | Gym Leader battles |
-| `mus_custom_vs_rival.mid`    | Rival battles |
-| `mus_custom_vs_champion.mid` | Champion battles |
-| `mus_custom_vs_legend.mid`   | Legendary battles |
+| `mus_custom_vs_wild.mid`     | Wild: FRLG + Emerald + this (1-in-3) |
+| `mus_custom_vs_trainer.mid`  | Trainer: FRLG + Emerald + this (1-in-3) |
+| `mus_custom_vs_gym.mid`      | Gym Leader: FRLG + Emerald + this + SwSh (1-in-4) |
+| `mus_custom_vs_gym_swsh.mid` | Gym Leader: SwSh arrangement (1-in-4) |
+| `mus_custom_vs_rival.mid`    | Rival: vanilla + this (1-in-2) |
+| `mus_custom_vs_champion.mid` | Champion: FRLG + Emerald + this + HGSS + ORAS (1-in-5) |
+| `mus_custom_vs_champion_hgss.mid` | Champion: HGSS arrangement (1-in-5) |
+| `mus_custom_vs_champion_oras.mid` | Champion: ORAS/RSE arrangement (1-in-5) |
+| `mus_custom_vs_legend.mid`   | Legendary: FRLG + this (1-in-2) |
+| `mus_custom_vs_evil_leader.mid` | Evil team leader: Emerald + this (1-in-2) |
+| `mus_custom_vs_elite_four.mid` | Elite Four: Emerald + RSE + BW (1-in-3) |
+| `mus_custom_vs_elite_four_bw.mid` | Elite Four: BW arrangement (1-in-3) |
 
-You do not need all six. Any slot whose file you leave out simply is not built;
+You do not need all slots. Any slot whose file you leave out simply is not built;
 just make sure `USE_CUSTOM_BATTLE_MUSIC` is only ON once the files you DO want
 are present (a missing file for an enabled slot fails the build at link time).
 
@@ -45,8 +55,11 @@ are present (a missing file for an enabled slot fails the build at link time).
 4. Set `USE_CUSTOM_BATTLE_MUSIC` to `TRUE` in `include/config/general.h`.
 5. `make firered` and test. Each battle category above now plays your track.
 
-To go back to the stock themes, set `USE_CUSTOM_BATTLE_MUSIC` back to `FALSE`
-(the files can stay where they are; they are simply not referenced).
+To go back to stock themes only, set `USE_CUSTOM_BATTLE_MUSIC` back to
+`FALSE` (the files can stay where they are; they are simply not referenced).
+When the flag is `TRUE`, FRLG, Emerald, and custom tracks all play in
+rotation regardless of current region - no option menu toggle, the game
+picks randomly each battle.
 
 ## Notes
 

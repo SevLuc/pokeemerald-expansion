@@ -617,7 +617,7 @@ gSongTable::
 	song ph_nurse_held, MUSIC_PLAYER_SE2, 2
 	song ph_nurse_solo, MUSIC_PLAYER_SE2, 2
 
-	@ Custom battle-music slots (indices 610-615). Gated so the default build
+	@ Custom battle-music slots (indices 610-628). Gated so the default build
 	@ has no reference to the drop-in mus_custom_vs_*.mid files, which are
 	@ git-ignored and not committed. Enable USE_CUSTOM_BATTLE_MUSIC in
 	@ include/config/general.h only once those .mid files are present locally.
@@ -628,6 +628,19 @@ gSongTable::
 	song mus_custom_vs_rival, MUSIC_PLAYER_BGM, 0
 	song mus_custom_vs_champion, MUSIC_PLAYER_BGM, 0
 	song mus_custom_vs_legend, MUSIC_PLAYER_BGM, 0
+	song mus_custom_vs_gym_swsh, MUSIC_PLAYER_BGM, 0
+	song mus_custom_vs_champion_hgss, MUSIC_PLAYER_BGM, 0
+	song mus_custom_vs_evil_leader, MUSIC_PLAYER_BGM, 0
+	song mus_custom_vs_champion_oras, MUSIC_PLAYER_BGM, 0
+	song mus_custom_vs_elite_four, MUSIC_PLAYER_BGM, 0
+	song mus_custom_vs_elite_four_bw, MUSIC_PLAYER_BGM, 0
+	song mus_custom_vs_guile, MUSIC_PLAYER_BGM, 0
+	song mus_custom_vs_brawl_boss, MUSIC_PLAYER_BGM, 0
+	song mus_custom_vs_megalovania, MUSIC_PLAYER_BGM, 0
+	song mus_custom_vs_cruel_angel, MUSIC_PLAYER_BGM, 0
+	song mus_custom_vs_dedede, MUSIC_PLAYER_BGM, 0
+	song mus_custom_vs_yoasobi, MUSIC_PLAYER_BGM, 0
+	song mus_custom_vs_lifelight, MUSIC_PLAYER_BGM, 0
 .endif @ USE_CUSTOM_BATTLE_MUSIC
 
 	.align 2
