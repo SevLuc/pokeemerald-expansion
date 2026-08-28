@@ -7,6 +7,37 @@ Update in the same PR as the change.
 `YYYY-MM-DD` — area — one-line summary (PR/commit ref)
 
 ## Entries
+- 2026-08-28 - feature/custom-battle-music - Drop-in custom battle music. New
+  off-by-default flag `USE_CUSTOM_BATTLE_MUSIC` (`include/config/general.h`)
+  repoints the wild / trainer / gym / rival / champion / legendary battle themes
+  to six `MUS_CUSTOM_VS_*` slots (`include/constants/songs.h`, indices 610-615),
+  gated song-table entries (`sound/song_table.inc`), committed `midi.cfg` lines
+  that reuse the FRLG battle voicegroups, and a remap in `GetBattleBGM`
+  (`src/pokemon.c`, via new `DetermineBattleBGM` + `RemapCustomBattleBGM`). The
+  actual `.mid` files are user-supplied and git-ignored
+  (`sound/songs/midi/mus_custom_vs_*.mid`), so no copyrighted audio is committed;
+  the repo builds unchanged with the flag off and no files present. Purpose: let
+  the player use their own (e.g. Gen 4) battle tracks locally. Note: Gen 4 is a
+  DS-format soundtrack the GBA engine cannot play directly, so tracks must be
+  re-sequenced to GBA MIDIs; see docs/overview/custom-battle-music.md. Nothing
+  changes with the flag off. Verify in-game: with the flag on and a
+  `mus_custom_vs_wild.mid` present, wild battles play that track; other slots and
+  the stock themes are unaffected when their files are absent.
+- 2026-08-28 - feature/music-speed - MUSIC SPEED option. New OPTION-menu row (below
+  SOUND) lets the player set background-music tempo to 1.0X / 1.5X / 2.0X; new saves
+  default to 1.5X, existing saves start at 1.0X. Stored in a new `optionsMusicSpeed`
+  bitfield (`include/global.h`, spare padding bits; constants in
+  `include/constants/global.h`). Applied via the engine's existing
+  `m4aMPlayTempoControl` on `gMPlayInfo_BGM` at each BGM (re)start and after fanfares
+  (`src/sound.c` `ApplyMusicSpeedToBGM`), so it covers route and battle music alike
+  and survives level-up jingles. Deliberately not applied per-frame, so the Berry
+  Blender's own dynamic tempo is untouched. Fanfares/cries/sound effects are
+  unaffected. The OPTION list row pitch dropped 16->14px to fit the 8th row in the
+  existing window (`src/option_menu.c`). Note: this changes tempo only (not pitch),
+  and because a ROM cannot detect emulator fast-forward it speeds music at all times,
+  not only during fast-forward. Text/flavor unchanged. Verify in-game: set 2.0X in
+  OPTIONS, confirm route and battle BGM play faster while a level-up jingle still
+  plays at normal speed and resumes fast afterward.
 - 2026-08-28 - playtest fixes - Gym leader aces held for last. All 8 Kanto leaders
   gained the `Ace Pokemon` AI flag (`AI_FLAG_ACE_POKEMON`) in trainers_frlg.party.
   `Tags: Ace` only set the ace's party position (last slot); the switch AI could
