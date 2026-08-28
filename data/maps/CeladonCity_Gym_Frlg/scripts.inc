@@ -3,7 +3,7 @@ CeladonCity_Gym_Frlg_MapScripts::
 
 CeladonCity_Gym_EventScript_Erika::
 	famechecker FAMECHECKER_ERIKA, FCPICKSTATE_COLORED, UpdatePickStateFromSpecialVar8005
-	trainerbattle_single TRAINER_LEADER_ERIKA, CeladonCity_Gym_Text_ErikaIntro, CeladonCity_Gym_Text_ErikaDefeat, CeladonCity_Gym_EventScript_DefeatedErika, NO_MUSIC
+	trainerbattle_single TRAINER_LEADER_ERIKA, CeladonCity_Gym_Text_ErikaIntro, CeladonCity_Gym_Text_ErikaBadge, CeladonCity_Gym_EventScript_DefeatedErika, NO_MUSIC
 	goto_if_unset FLAG_GOT_TM19_FROM_ERIKA, CeladonCity_Gym_EventScript_GiveTM19
 	famechecker FAMECHECKER_ERIKA, 4
 	msgbox CeladonCity_Gym_Text_ErikaPostBattle
@@ -16,6 +16,7 @@ CeladonCity_Gym_EventScript_DefeatedErika::
 	setflag FLAG_DEFEATED_ERIKA
 	setflag FLAG_BADGE04_GET
 	set_gym_trainers_frlg 4
+	msgbox CeladonCity_Gym_Text_ErikaDefeatSpeech, MSGBOX_DEFAULT
 	goto CeladonCity_Gym_EventScript_GiveTM19
 	end
 
@@ -97,13 +98,15 @@ CeladonCity_Gym_Text_ErikaIntro::
 	.string "You truly wish to challenge me?\n"
 	.string "A shame to spoil the quiet.{PLAY_BGM MUS_RG_ENCOUNTER_GYM_LEADER}$"
 
-CeladonCity_Gym_Text_ErikaDefeat::
+CeladonCity_Gym_Text_ErikaBadge::
+	.string "The RAINBOWBADGE is yours.$"
+
+CeladonCity_Gym_Text_ErikaDefeatSpeech::
 	.string "Oh… you never once drifted off.\p"
 	.string "Everyone drifts, here. The scent,\n"
 	.string "the quiet. …But not you.\p"
 	.string "How wide awake you must be inside.\n"
-	.string "How tiring. …I do envy it.\p"
-	.string "The RAINBOWBADGE is yours.$"
+	.string "How tiring. …I do envy it.$"
 
 CeladonCity_Gym_Text_ErikaPostBattle::
 	.string "Mm. Still here?\p"

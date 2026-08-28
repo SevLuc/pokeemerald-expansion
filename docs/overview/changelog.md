@@ -38,6 +38,26 @@ Update in the same PR as the change.
   not only during fast-forward. Text/flavor unchanged. Verify in-game: set 2.0X in
   OPTIONS, confirm route and battle BGM play faster while a level-up jingle still
   plays at normal speed and resumes fast afterward.
+- 2026-08-28 - playtest fixes - Gym leader aces held for last. All 8 Kanto leaders
+  gained the `Ace Pokemon` AI flag (`AI_FLAG_ACE_POKEMON`) in trainers_frlg.party.
+  `Tags: Ace` only set the ace's party position (last slot); the switch AI could
+  still bring it out early (Brock's Onix was coming out second in playtesting).
+  With the flag, `IsAceMon` holds the last-slot mon back until it is the only one
+  left. Not yet compiled/ROM-tested (web session).
+- 2026-08-28 - playtest fixes - Gym leader defeat lines moved to the overworld. For
+  all 8 gyms the leader's spoken defeat monologue now plays in the overworld after
+  the battle (via a new `*DefeatSpeech` msgbox in each `*Defeated` script) instead
+  of on the battle screen. The badge-award line (and the badge jingle where it
+  existed, Brock/Giovanni) stays in battle as the `trainerbattle_single` defeat
+  text (new `*Badge` label). Text is relocated, not rewritten. Not yet ROM-tested.
+- 2026-08-28 - playtest fixes - Misty's Starmie (Ace) moveset. Water Pulse / Psybeam
+  / Shock Wave / Icy Wind, replacing Thunderbolt / Ice Beam. Softer coverage keeps
+  the ace water-forward instead of a BoltBeam nuke. Not yet ROM-tested.
+- 2026-08-28 - playtest fixes - Cerulean ravaged-house shortcut now gates on the
+  CASCADE BADGE. The policeman that seals the robbed-house (House2) passage was
+  tied to `FLAG_GOT_SS_TICKET` (which comes later, so the house stayed blocked
+  after beating Misty); it now clears on `FLAG_BADGE02_GET`. The south-exit
+  blockers (Slowbro/Lass) still gate on the S.S. Ticket. Not yet ROM-tested.
 - 2026-08-27 - feature/rental - RENTAL BATTLE main-menu row. The title screen now
   lists a RENTAL BATTLE entry directly below NEW GAME, on both the fresh-cart menu
   (NEW GAME / RENTAL BATTLE / OPTION) and the saved-game menu (CONTINUE / NEW GAME /

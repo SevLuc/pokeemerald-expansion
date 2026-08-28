@@ -3,7 +3,7 @@ SaffronCity_Gym_Frlg_MapScripts::
 
 SaffronCity_Gym_EventScript_Sabrina::
 	famechecker FAMECHECKER_SABRINA, FCPICKSTATE_COLORED, UpdatePickStateFromSpecialVar8005
-	trainerbattle_single TRAINER_LEADER_SABRINA, SaffronCity_Gym_Text_SabrinaIntro, SaffronCity_Gym_Text_SabrinaDefeat, SaffronCity_Gym_EventScript_DefeatedSabrina, NO_MUSIC
+	trainerbattle_single TRAINER_LEADER_SABRINA, SaffronCity_Gym_Text_SabrinaIntro, SaffronCity_Gym_Text_SabrinaBadge, SaffronCity_Gym_EventScript_DefeatedSabrina, NO_MUSIC
 	goto_if_unset FLAG_GOT_TM04_FROM_SABRINA, SaffronCity_Gym_EventScript_GiveTM04
 	msgbox SaffronCity_Gym_Text_ExplainTM04
 	release
@@ -16,6 +16,7 @@ SaffronCity_Gym_EventScript_DefeatedSabrina::
 	setflag FLAG_DEFEATED_SABRINA
 	setflag FLAG_BADGE06_GET
 	set_gym_trainers_frlg 6
+	msgbox SaffronCity_Gym_Text_SabrinaDefeatSpeech, MSGBOX_DEFAULT
 	goto SaffronCity_Gym_EventScript_GiveTM04
 	end
 
@@ -105,7 +106,11 @@ SaffronCity_Gym_Text_SabrinaIntro::
 	.string "There is a small, still place for\n"
 	.string "you as well. Let me show you.{PLAY_BGM}{MUS_RG_ENCOUNTER_GYM_LEADER}$"
 
-SaffronCity_Gym_Text_SabrinaDefeat::
+SaffronCity_Gym_Text_SabrinaBadge::
+	.string "Take the MARSHBADGE.\n"
+	.string "You broke the spell.$"
+
+SaffronCity_Gym_Text_SabrinaDefeatSpeech::
 	.string "…\p"
 	.string "…Ha.\p"
 	.string "…Hah. Haha. HAHAHA!\p"
@@ -118,9 +123,7 @@ SaffronCity_Gym_Text_SabrinaDefeat::
 	.string "it is letting go at last.\p"
 	.string "I feel them waking. Coming home,\n"
 	.string "blinking, unharmed.\p"
-	.string "…Thank you. Truly.\p"
-	.string "Take the MARSHBADGE.\n"
-	.string "You broke the spell.$"
+	.string "…Thank you. Truly.$"
 
 SaffronCity_Gym_Text_SabrinaPostBattle::
 	.string "Look. I am crying, and I do not\n"
