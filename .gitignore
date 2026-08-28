@@ -28,6 +28,9 @@ baserom*.gba
 *.fwjpnfont
 sound/**/*.bin
 sound/songs/midi/*.s
+# Drop-in custom battle music (user-supplied, must never be committed).
+# See docs/overview/custom-battle-music.md.
+sound/songs/midi/mus_custom_vs_*.mid
 tools/agbcc
 tools/compresSmol/
 *.map
