@@ -4,11 +4,18 @@ CeruleanCity_Frlg_MapScripts::
 
 CeruleanCity_OnTransition::
 	setworldmapflag FLAG_WORLD_MAP_CERULEAN_CITY
+	call_if_unset FLAG_BADGE02_GET, CeruleanCity_EventScript_BlockRavagedHouse
 	call_if_unset FLAG_GOT_SS_TICKET, CeruleanCity_EventScript_BlockExits
 	end
 
-CeruleanCity_EventScript_BlockExits::
+@ The policeman stands below the robbed house door, sealing the shortcut
+@ until the player earns the CASCADE BADGE from MISTY (was gated on the
+@ S.S. TICKET, which comes later, leaving the house needlessly blocked).
+CeruleanCity_EventScript_BlockRavagedHouse::
 	setobjectxyperm LOCALID_CERULEAN_POLICEMAN, 30, 12
+	return
+
+CeruleanCity_EventScript_BlockExits::
 	setobjectxyperm LOCALID_CERULEAN_SLOWBRO, 26, 31
 	setobjectxyperm LOCALID_CERULEAN_LASS, 27, 31
 	return

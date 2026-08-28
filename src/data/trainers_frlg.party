@@ -4988,7 +4988,7 @@ Gender: Male
 Music: Aqua
 Items: Hyper Potion / Hyper Potion / Full Heal
 Double Battle: No
-AI: Check Bad Move / Try To Faint / Check Viability
+AI: Check Bad Move / Try To Faint / Check Viability / Ace Pokemon
 Party Size: 6
 Pool Rules: Basic
 Pool Prune: Bst Match
@@ -7158,7 +7158,7 @@ Pic: Leader Brock Frlg
 Gender: Male
 Music: Male
 Double Battle: No
-AI: Check Bad Move / Try To Faint / Check Viability
+AI: Check Bad Move / Try To Faint / Check Viability / Ace Pokemon
 Party Size: 6
 Pool Rules: Basic
 Pool Prune: Bst Match
@@ -7262,7 +7262,7 @@ Gender: Male
 Music: Female
 Items: Super Potion
 Double Battle: No
-AI: Check Bad Move / Try To Faint / Check Viability
+AI: Check Bad Move / Try To Faint / Check Viability / Ace Pokemon
 Party Size: 6
 Pool Rules: Basic
 Pool Prune: Bst Match
@@ -7363,8 +7363,8 @@ Nature: Timid
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Water Pulse
 - Psybeam
-- Thunderbolt
-- Ice Beam
+- Shock Wave
+- Icy Wind
 
 === TRAINER_LEADER_LT_SURGE ===
 Name: LT. SURGE
@@ -7374,7 +7374,7 @@ Gender: Male
 Music: Male
 Items: Super Potion / Full Heal
 Double Battle: No
-AI: Check Bad Move / Try To Faint / Check Viability
+AI: Check Bad Move / Try To Faint / Check Viability / Ace Pokemon
 Party Size: 6
 Pool Rules: Basic
 Pool Prune: Bst Match
@@ -7488,7 +7488,7 @@ Gender: Male
 Music: Female
 Items: Hyper Potion / Full Heal
 Double Battle: No
-AI: Check Bad Move / Try To Faint / Check Viability
+AI: Check Bad Move / Try To Faint / Check Viability / Ace Pokemon
 Party Size: 6
 Pool Rules: Basic
 Pool Prune: Bst Match
@@ -7602,7 +7602,7 @@ Gender: Male
 Music: Male
 Items: Hyper Potion / Hyper Potion / Full Heal
 Double Battle: No
-AI: Check Bad Move / Try To Faint / Check Viability
+AI: Check Bad Move / Try To Faint / Check Viability / Ace Pokemon
 Party Size: 6
 Pool Rules: Basic
 Pool Prune: Bst Match
@@ -7706,7 +7706,7 @@ Gender: Male
 Music: Male
 Items: Hyper Potion / Hyper Potion / Full Heal
 Double Battle: No
-AI: Check Bad Move / Try To Faint / Check Viability
+AI: Check Bad Move / Try To Faint / Check Viability / Ace Pokemon
 Party Size: 6
 Pool Rules: Basic
 Pool Prune: Bst Match
@@ -7801,7 +7801,7 @@ Gender: Male
 Music: Female
 Items: Hyper Potion / Hyper Potion / Full Heal
 Double Battle: No
-AI: Check Bad Move / Try To Faint / Check Viability
+AI: Check Bad Move / Try To Faint / Check Viability / Ace Pokemon
 Party Size: 6
 Pool Rules: Basic
 Pool Prune: Bst Match

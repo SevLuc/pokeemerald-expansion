@@ -25,6 +25,14 @@ ace and picks it for the last slot. A forced lead is OPTIONAL: tag a mon `Tags:
 Lead` only when a specific mon must open (Misty's Psyduck); most gyms leave the
 opener as a random draw. See how_to_trainer_party_pool.md and src/trainer_pools.c.
 
+Ace held for last (all 8 leaders): `Tags: Ace` only sets party POSITION (the last
+slot). It does NOT stop the battle AI from voluntarily switching the ace in early
+when it likes the matchup, which made aces (e.g. Brock's Onix) appear second.
+Every gym leader now also carries the `Ace Pokemon` AI flag
+(`AI_FLAG_ACE_POKEMON`): `IsAceMon` then holds the last-slot mon back until it is
+the only one left, so the ace is always the final Pokemon fielded. See
+src/battle_ai_switch.c (`IsAceMon`).
+
 > STATUS: stub. Generate baseline teams from trainer data after first build.
 > Cross-link each leader's history to docs/writing/lore-ledger.md.
 
@@ -110,7 +118,9 @@ opener as a random draw. See how_to_trainer_party_pool.md and src/trainer_pools.
   - VAPOREON (F), Hydration, Timid (Rain Dance / Water Pulse / Ice Beam / Wish)
     - the wall; Rain Dance + Hydration = status-proof, Wish heals the pool.
   - STARMIE (genderless) ACE, Natural Cure, Timid (Water Pulse / Psybeam /
-    Thunderbolt / Ice Beam) - fast BoltBeam finisher, always fielded.
+    Shock Wave / Icy Wind) - fast Water-first finisher, always fielded. Coverage
+    is deliberately softened from the old Thunderbolt/Ice Beam (BoltBeam) to the
+    weaker Shock Wave / Icy Wind so the ace stays water-forward, not a nuke.
 - Gimmick: no BUG-type POKéMON allowed in the gym (party check on entry; the Gym
   Guy shoves you out). See MISTY-07.
 - History fragments: see MISTY-* in lore-ledger.md.

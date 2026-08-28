@@ -203,7 +203,7 @@ VermilionCity_Gym_EventScript_SetBeamsOn::
 
 VermilionCity_Gym_EventScript_LtSurge::
 	famechecker FAMECHECKER_LTSURGE, FCPICKSTATE_COLORED, UpdatePickStateFromSpecialVar8005
-	trainerbattle_single TRAINER_LEADER_LT_SURGE, VermilionCity_Gym_Text_LtSurgeIntro, VermilionCity_Gym_Text_LtSurgeDefeat, VermilionCity_Gym_EventScript_DefeatedLtSurge, NO_MUSIC
+	trainerbattle_single TRAINER_LEADER_LT_SURGE, VermilionCity_Gym_Text_LtSurgeIntro, VermilionCity_Gym_Text_LtSurgeBadge, VermilionCity_Gym_EventScript_DefeatedLtSurge, NO_MUSIC
 	goto_if_unset FLAG_GOT_TM34_FROM_SURGE, VermilionCity_Gym_EventScript_GiveTM34
 	msgbox VermilionCity_Gym_Text_LtSurgePostBattle
 	release
@@ -216,6 +216,7 @@ VermilionCity_Gym_EventScript_DefeatedLtSurge::
 	setflag FLAG_DEFEATED_LT_SURGE
 	setflag FLAG_BADGE03_GET
 	set_gym_trainers_frlg 3
+	msgbox VermilionCity_Gym_Text_LtSurgeDefeatSpeech, MSGBOX_DEFAULT
 	goto VermilionCity_Gym_EventScript_GiveTM34
 	end
 
@@ -324,13 +325,15 @@ VermilionCity_Gym_Text_ExplainTM34::
 VermilionCity_Gym_Text_MakeRoomInYourBag::
 	.string "Yo, kid, make room in your BAG!$"
 
-VermilionCity_Gym_Text_LtSurgeDefeat::
+VermilionCity_Gym_Text_LtSurgeBadge::
+	.string "Take the THUNDERBADGE. You earned\n"
+	.string "every volt.$"
+
+VermilionCity_Gym_Text_LtSurgeDefeatSpeech::
 	.string "Hah! Now THAT'S a jolt!\p"
 	.string "You've got real voltage, kid.\p"
 	.string "…Reminds me of me. Back when it\n"
-	.string "counted.\p"
-	.string "Take the THUNDERBADGE. You earned\n"
-	.string "every volt.$"
+	.string "counted.$"
 
 VermilionCity_Gym_Text_TuckerIntro::
 	.string "In the Army, LT. SURGE was my CO.\p"

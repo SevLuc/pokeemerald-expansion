@@ -3,7 +3,7 @@ ViridianCity_Gym_Frlg_MapScripts::
 
 ViridianCity_Gym_EventScript_Giovanni::
 	famechecker FAMECHECKER_GIOVANNI, FCPICKSTATE_COLORED, UpdatePickStateFromSpecialVar8005
-	trainerbattle_single TRAINER_LEADER_GIOVANNI, ViridianCity_Gym_Text_GiovanniIntro, ViridianCity_Gym_Text_GiovanniDefeat, ViridianCity_Gym_EventScript_DefeatedGiovanni, NO_MUSIC
+	trainerbattle_single TRAINER_LEADER_GIOVANNI, ViridianCity_Gym_Text_GiovanniIntro, ViridianCity_Gym_Text_GiovanniBadge, ViridianCity_Gym_EventScript_DefeatedGiovanni, NO_MUSIC
 	goto_if_unset FLAG_GOT_TM26_FROM_GIOVANNI, ViridianCity_Gym_EventScript_GiveTM26
 	msgbox ViridianCity_Gym_Text_GiovanniPostBattle
 	closemessage
@@ -20,6 +20,7 @@ ViridianCity_Gym_EventScript_DefeatedGiovanni::
 	setflag FLAG_BADGE08_GET
 	setvar VAR_MAP_SCENE_ROUTE22, 3
 	set_gym_trainers_frlg 8
+	msgbox ViridianCity_Gym_Text_GiovanniDefeatSpeech, MSGBOX_DEFAULT
 	goto ViridianCity_Gym_EventScript_GiveTM26
 	end
 
@@ -118,13 +119,15 @@ ViridianCity_Gym_Text_GiovanniIntro::
 	.string "Once more, you shall face\n"
 	.string "GIOVANNI, the greatest TRAINER!{PLAY_BGM}{MUS_RG_ENCOUNTER_ROCKET}$"
 
-ViridianCity_Gym_Text_GiovanniDefeat::
-	.string "Ha…!\n"
-	.string "So the dirt breeds strength after\l"
-	.string "all. And you have won it.\p"
+ViridianCity_Gym_Text_GiovanniBadge::
 	.string "Take the EARTHBADGE. You tore it\n"
 	.string "from me, fair and true.\n"
 	.string "{PAUSE_MUSIC}{PLAY_BGM}{MUS_OBTAIN_BADGE}{PAUSE 0xFE}{PAUSE 0x56}{RESUME_MUSIC}$"
+
+ViridianCity_Gym_Text_GiovanniDefeatSpeech::
+	.string "Ha…!\n"
+	.string "So the dirt breeds strength after\l"
+	.string "all. And you have won it.$"
 
 ViridianCity_Gym_Text_GiovanniPostBattle::
 	.string "Beaten in my own GYM.\n"
