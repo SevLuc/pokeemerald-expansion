@@ -5385,6 +5385,10 @@ static u16 RemapCustomBattleBGM(u16 song)
     };
     static const u16 sPoolTrainer[] = {
         MUS_RG_VS_TRAINER, MUS_VS_TRAINER, MUS_CUSTOM_VS_TRAINER,
+        MUS_CUSTOM_VS_GUILE, MUS_CUSTOM_VS_BRAWL_BOSS,
+        MUS_CUSTOM_VS_MEGALOVANIA, MUS_CUSTOM_VS_CRUEL_ANGEL,
+        MUS_CUSTOM_VS_DEDEDE, MUS_CUSTOM_VS_YOASOBI,
+        MUS_CUSTOM_VS_LIFELIGHT,
     };
     static const u16 sPoolGym[] = {
         MUS_RG_VS_GYM_LEADER, MUS_VS_GYM_LEADER,
