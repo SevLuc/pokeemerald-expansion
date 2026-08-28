@@ -634,9 +634,7 @@ CeruleanCity_Text_PeopleHereWereRobbed::
 
 CeruleanCity_Text_PolicemanPsyduckHint::
 	.string "This door won't budge for now.\p"
-	.string "Stubborn as a certain PSYDUCK.\n"
-	.string "Beat one that bullheaded,\l"
-	.string "and it opens right up.$"
+	.string "Stubborn as a certain PSYDUCK.$"
 
 CeruleanCity_Text_SlowbroUseSonicboom::
 	.string "Okay! SLOWBRO!\n"
