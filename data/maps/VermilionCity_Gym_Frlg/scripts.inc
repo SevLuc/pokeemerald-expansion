@@ -410,22 +410,21 @@ VermilionCity_Gym_Text_GymStatuePlayerWon::
 	.string "{RIVAL}, {PLAYER}$"
 
 VermilionCity_Gym_Text_NopeOnlyTrashHere::
-	.string "Nothing but trash in here.\p"
-	.string "…Keep looking. That's the test.$"
+	.string "Nope!\n"
+	.string "There's only trash here.$"
 
 VermilionCity_Gym_Text_SwitchUnderTrashFirstLockOpened::
-	.string "A switch, buried under the trash.\n"
-	.string "Flip it!\p"
-	.string "The first lock opens.\n"
-	.string "Discipline pays off.$"
+	.string "Hey! There's a switch under the\n"
+	.string "trash! Turn it on!\p"
+	.string "The first electric lock opened!$"
 
 VermilionCity_Gym_Text_SecondLockOpened::
-	.string "The second lock opens. The door\n"
-	.string "grinds aside.\p"
-	.string "…You passed the LT's test.$"
+	.string "The second electric lock opened!\n"
+	.string "The motorized door opened!$"
 
 VermilionCity_Gym_Text_OnlyTrashLocksWereReset::
-	.string "Nothing but trash.\p"
-	.string "…And the locks reset.\n"
-	.string "Composure, kid. Or start over.$"
+	.string "Nope!\n"
+	.string "There's only trash here.\p"
+	.string "Hey!\n"
+	.string "The electric locks were reset!$"
 

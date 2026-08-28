@@ -152,34 +152,32 @@ src/battle_ai_switch.c (`IsAceMon`).
   405 (Pachirisu) - 570 (Iron Hands). Momentum/VoltTurn theme: six members carry
   Volt Switch or a pivot, Pincurchin's Electric Surge and Iron Hands' own
   Electric Terrain power the pool's Electric moves and Quark Drive:
-  - JOLTEON (M), Volt Absorb, Timid (Thunderbolt / Magnet Rise / Trailblaze / Yawn)
-  - ROTOM-FROST (genderless), Levitate, Timid (Blizzard / Thunderbolt / Light
-    Screen / Reflect) - Blizzard is trainer-set (form move, not in the learn
-    pool in this build; trainer parties are not learnset-bound).
+  - JOLTEON (M), Volt Absorb, Timid (Discharge / Magnet Rise / Trailblaze / Yawn)
+  - ROTOM-FROST (genderless), Levitate, Timid (Aurora Beam / Discharge / Light
+    Screen / Reflect)
   - IRON HANDS (genderless), Quark Drive, Brave (Electric Terrain / Drain Punch /
     Thunder Punch / Ice Punch) - Ultra-ish power pick, BST 570; self-sets terrain
     to trigger its own Quark Drive.
-  - HISUIAN ELECTRODE (genderless), Static, Naive (Chloroblast / Thunderbolt /
+  - HISUIAN ELECTRODE (genderless), Static, Naive (Giga Drain / Discharge /
     Ice Ball / Self-Destruct) - Electric/Grass, fast suicide disruptor.
-  - HELIOLISK (M), Dry Skin, Timid (Thunderbolt / Hyper Voice / Signal Beam /
-    Grass Knot)
-  - MORPEKO (F), Hunger Switch, Jolly (Wild Charge / Seed Bomb / Stomping Tantrum
-    / Super Fang) - Aura Wheel is locked by the cap (L55), so Wild Charge is its
+  - HELIOLISK (M), Dry Skin, Timid (Discharge / Round / Signal Beam / Grass Knot)
+  - MORPEKO (F), Hunger Switch, Jolly (Zing Zap / Seed Bomb / Stomping Tantrum
+    / Super Fang) - Aura Wheel is locked by the cap (L55), so Zing Zap is its
     Electric STAB.
   - TOGEDEMARU (M), Iron Barbs, Jolly (Nuzzle / Iron Head / Endeavor / Volt Switch)
   - PINCURCHIN (F), Electric Surge, Quiet (Rising Voltage / Self-Destruct /
-    Muddy Water / Thunder Wave) - the slow terrain setter; Rising Voltage
+    Water Pulse / Thunder Wave) - the slow terrain setter; Rising Voltage
     doubles under its own terrain.
   - PACHIRISU (M), Volt Absorb, Timid (Nuzzle / Light Screen / Mud Slap / Volt
     Switch) - pure annoyer; Super Fang is locked by the cap (L37).
-  - RAICHU (F), ACE, Static, Naive (Extreme Speed / Thunderbolt / Surf / Grass
-    Knot) - fast mixed cleaner. Extreme Speed is trainer-set (not in the FRLG
-    Pichu/Pikachu/Raichu learn pool in this build; it was only ever an event
-    move).
-- Two off-learnset moves are set directly on the trainer mons (legal for trainer
-  parties, which are not bound by learnset legality): Rotom-Frost's Blizzard and
-  Raichu's Extreme Speed. Every other move is cap-27 legal (verified with the
-  moveset-legality skill).
+  - RAICHU (F), ACE, Static, Naive (Body Slam / Discharge / Water Pulse / Grass
+    Knot) - fast mixed cleaner.
+- Base-power ceiling: attacking moves were capped at 80 BP (per balance pass), so
+  the pool no longer leans on 90+ BP nukes. Two deliberate exceptions kept by
+  request: Self-Destruct (200) on H-Electrode and Pincurchin as sacrifice plays,
+  and Body Slam (85) on the Raichu ace. Grass Knot is weight-variable (only tops
+  80 vs 100kg+ foes) and left as-is. Trainer parties are not learnset-bound, so
+  any off-learnset picks here are legal on the trainer mon.
 - Gate: vanilla FRLG already gates the gym behind Cut (the cuttable tree at
   (19,24) is the only entrance to the gym pocket; Cut comes from the S.S. Anne
   Captain). Reframed as Surge's "first trial": cross the S.S. Anne, reach the

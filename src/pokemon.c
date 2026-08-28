@@ -5381,7 +5381,7 @@ static u16 RemapCustomBattleBGM(u16 song)
 {
 #if USE_CUSTOM_BATTLE_MUSIC == TRUE
     static const u16 sPoolWild[] = {
-        MUS_RG_VS_WILD, MUS_VS_WILD, MUS_CUSTOM_VS_WILD,
+        MUS_RG_VS_WILD, MUS_VS_WILD,
     };
     static const u16 sPoolTrainer[] = {
         MUS_RG_VS_TRAINER, MUS_VS_TRAINER, MUS_CUSTOM_VS_TRAINER,
@@ -5403,7 +5403,7 @@ static u16 RemapCustomBattleBGM(u16 song)
         MUS_CUSTOM_VS_CHAMPION_ORAS,
     };
     static const u16 sPoolLegend[] = {
-        MUS_RG_VS_LEGEND, MUS_CUSTOM_VS_LEGEND,
+        MUS_RG_VS_LEGEND,
     };
     static const u16 sPoolEvilLeader[] = {
         MUS_VS_AQUA_MAGMA_LEADER, MUS_CUSTOM_VS_EVIL_LEADER,

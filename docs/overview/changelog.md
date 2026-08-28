@@ -7,6 +7,33 @@ Update in the same PR as the change.
 `YYYY-MM-DD` — area — one-line summary (PR/commit ref)
 
 ## Entries
+- 2026-08-28 - balance/surge - Capped Lt. Surge's pool attacking moves at 80 BP.
+  Swaps: Thunderbolt->Discharge (all 5 users), Blizzard->Aurora Beam (Rotom-Frost),
+  Chloroblast->Giga Drain (H-Electrode), Hyper Voice->Round (Heliolisk), Wild
+  Charge->Zing Zap (Morpeko), Muddy Water/Surf->Water Pulse (Pincurchin/Raichu),
+  Extreme Speed->Body Slam (Raichu ace). Kept above 80 by request: Self-Destruct
+  (200) on H-Electrode + Pincurchin, and Body Slam (85) on Raichu. Grass Knot left
+  (weight-variable). (src/data/trainers_frlg.party, gyms.md)
+- 2026-08-28 - fix/music - Removed the generic wild (610) and legend (615) custom
+  drop-in slots from their battle-music pools (src/pokemon.c); they no longer play.
+  Slot definitions/song-table entries stay to preserve song ids.
+- 2026-08-28 - fix/music - Custom battle MIDIs now loop. Root cause: mid2agb only
+  loops tracks that carry MIDI loop markers ([ / ]); internet-ripped MIDIs lack them,
+  so it emitted FINE and the track played once then stopped. Added an opt-in `-LOOP`
+  mid2agb flag (tools/mid2agb): when a song has no loop markers it loops the whole
+  track back to a label placed after the initial setup, instead of stopping. Songs
+  that DO carry their own loop points are untouched. Tagged all 19 mus_custom_vs_*
+  slots with -LOOP in sound/songs/midi/midi.cfg. Default builds are byte-identical.
+- 2026-08-28 - content/surge - Restored the four Vermilion Gym trash-can interaction
+  messages to vanilla FRLG text (removed the "That's the test" reflavor). Lt. Surge's
+  team is UNCHANGED (the 10-member Electric pool stays).
+  (data/maps/VermilionCity_Gym_Frlg/scripts.inc)
+- 2026-08-28 - content/ssanne - S.S. Anne 2F corridor gauntlet: moved 4 trainers
+  (Lass Ann, Fisherman Dale, Gentleman Arthur, Sailor Phillip) out of their rooms
+  into the 2F corridor as forced fights before the rival, each at y=14 facing up with
+  sight 3 so the player can't cross the hall without battling them. The other 12 ship
+  trainers stay in their rooms (still avoidable). (data/maps/SSAnne_* map.json +
+  scripts.inc)
 - 2026-08-28 - fix/rental - Fix the rental-battle boot crash (orange screen / "invalid
   address"). CB2_StartRentalMode warped to MAP_BATTLE_FRONTIER_BATTLE_TOWER_LOBBY, but
   the Emerald Battle Frontier maps are NOT compiled into this FRLG build (gMapGroups

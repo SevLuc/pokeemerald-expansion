@@ -41,6 +41,7 @@ int g_reverb = -1;
 int g_clocksPerBeat = 1;
 bool g_exactGateTime = false;
 bool g_compressionEnabled = true;
+bool g_forceLoop = false;
 
 [[noreturn]] static void PrintUsage()
 {
@@ -58,6 +59,7 @@ bool g_compressionEnabled = true;
         "            -X  48 clocks/beat (default:24 clocks/beat)\n"
         "            -E  exact gate-time\n"
         "            -N  no compression\n"
+        "         -LOOP  loop whole song if it has no [ / ] loop markers\n"
     );
     std::exit(1);
 }
@@ -139,6 +141,15 @@ int main(int argc, char** argv)
         if (option[0] == '-' && option[1] != '\0')
         {
             const char *arg;
+
+            // Force a whole-song loop for tracks that carry no MIDI loop
+            // markers ([ / ]). Matched as a full word so it never collides
+            // with -L (asm label). Opt-in per song via midi.cfg.
+            if (std::strcmp(option, "-LOOP") == 0)
+            {
+                g_forceLoop = true;
+                continue;
+            }
 
             switch (std::toupper(option[1]))
             {

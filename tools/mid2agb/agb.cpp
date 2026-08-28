@@ -444,6 +444,26 @@ void PrintAgbTrack(std::vector<Event>& events)
     PrintWait(g_initialWait);
     PrintByte("KEYSH , %s_key%+d", g_asmLabel.c_str(), 0);
 
+    // -LOOP: if the song has no explicit loop markers ([ / ]), loop the
+    // whole track back to here instead of stopping. Songs that DO carry
+    // their own loop points keep them; this only rescues marker-less MIDIs.
+    bool forceLoop = g_forceLoop;
+    if (forceLoop)
+    {
+        for (const Event& e : events)
+        {
+            if (e.type == EventType::LoopBegin
+             || e.type == EventType::LoopEnd
+             || e.type == EventType::LoopEndBegin)
+            {
+                forceLoop = false;
+                break;
+            }
+        }
+    }
+    if (forceLoop)
+        std::fprintf(g_outputFile, "%s_%u_loop:\n", g_asmLabel.c_str(), g_agbTrack);
+
     for (unsigned i = 0; events[i].type != EventType::EndOfTrack; i++)
     {
         const Event& event = events[i];
@@ -519,6 +539,12 @@ void PrintAgbTrack(std::vector<Event>& events)
             PrintWait(event.time);
             break;
         }
+    }
+
+    if (forceLoop)
+    {
+        PrintByte("GOTO");
+        PrintWord("%s_%u_loop", g_asmLabel.c_str(), g_agbTrack);
     }
 
     PrintByte("FINE");
