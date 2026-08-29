@@ -5383,7 +5383,6 @@ static u16 DetermineBattleBGM(void)
 // draw from their own category pool PLUS these tracks. Regular trainers and
 // wild battles are unaffected.
 static const u16 sPoolImportantShared[] = {
-    MUS_CUSTOM_VS_DEDEDE,       // King Dedede
     MUS_CUSTOM_VS_CHAMPION,     // Cynthia A
     MUS_CUSTOM_VS_CHAMPION_HGSS,// Cynthia B
     MUS_CUSTOM_VS_ELITE_FOUR_BW,// Elite Four (BW)
@@ -5410,15 +5409,14 @@ static u16 RemapCustomBattleBGM(u16 song)
         MUS_RG_VS_TRAINER, MUS_VS_TRAINER, MUS_CUSTOM_VS_TRAINER,
         MUS_CUSTOM_VS_GUILE, MUS_CUSTOM_VS_BRAWL_BOSS,
         MUS_CUSTOM_VS_MEGALOVANIA, MUS_CUSTOM_VS_CRUEL_ANGEL,
-        MUS_CUSTOM_VS_DEDEDE, MUS_CUSTOM_VS_YOASOBI,
-        MUS_CUSTOM_VS_LIFELIGHT,
+        MUS_CUSTOM_VS_YOASOBI, MUS_CUSTOM_VS_LIFELIGHT,
     };
     static const u16 sPoolGym[] = {
         MUS_RG_VS_GYM_LEADER, MUS_VS_GYM_LEADER,
         MUS_CUSTOM_VS_GYM, MUS_CUSTOM_VS_GYM_SWSH,
     };
     static const u16 sPoolRival[] = {
-        MUS_VS_RIVAL, MUS_CUSTOM_VS_RIVAL,
+        MUS_VS_RIVAL,
     };
     static const u16 sPoolChampion[] = {
         MUS_RG_VS_CHAMPION, MUS_VS_CHAMPION,

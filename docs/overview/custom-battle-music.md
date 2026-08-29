@@ -49,8 +49,8 @@ Elite Four, and the Champion. Each of those battles picks uniformly from its own
 category pool PLUS this shared set, so any boss can play any shared track.
 Regular trainers and wild battles are unaffected. The shared set lives in
 `sPoolImportantShared` in src/pokemon.c (via `PickWithShared`), currently:
-Dedede, two Cynthia arrangements (the CHAMPION + CHAMPION_HGSS slots), the BW
-Elite Four track, and the two DK slots (DK Island Swing + DKC theme).
+two Cynthia arrangements (the CHAMPION + CHAMPION_HGSS slots), the BW Elite Four
+track, and the two DK slots (DK Island Swing + DKC theme).
 
 You do not need all slots. Any slot whose file you leave out simply is not built;
 just make sure `USE_CUSTOM_BATTLE_MUSIC` is only ON once the files you DO want
