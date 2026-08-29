@@ -7,6 +7,14 @@ Update in the same PR as the change.
 `YYYY-MM-DD` — area — one-line summary (PR/commit ref)
 
 ## Entries
+- 2026-08-29 - feat/music - Shared important-trainer battle-music pool. A set of
+  tracks (Dedede, two Cynthia arrangements, BW Elite Four, DK Island Swing, DKC
+  theme) is layered on top of every boss battle (gym leaders, rivals, evil-team
+  leaders, Elite Four, Champion) via PickWithShared/sPoolImportantShared in
+  src/pokemon.c. Regular trainers/wild unaffected. Added two new drop-in slots
+  MUS_CUSTOM_VS_DK_SWING (629) / MUS_CUSTOM_VS_DK_THEME (630) - songs.h,
+  song_table.inc, midi.cfg (both -LOOP). The user supplies the .mid files
+  (git-ignored). Dense source MIDIs are trimmed to the 16-track GBA cap.
 - 2026-08-28 - balance/surge - Capped Lt. Surge's pool attacking moves at 80 BP.
   Swaps: Thunderbolt->Discharge (all 5 users), Blizzard->Aurora Beam (Rotom-Frost),
   Chloroblast->Giga Drain (H-Electrode), Hyper Voice->Round (Heliolisk), Wild

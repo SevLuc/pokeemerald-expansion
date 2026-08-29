@@ -36,6 +36,22 @@ is never committed.
 | `mus_custom_vs_elite_four.mid` | Elite Four: Emerald + RSE + BW (1-in-3) |
 | `mus_custom_vs_elite_four_bw.mid` | Elite Four: BW arrangement (1-in-3) |
 
+Two extra slots feed the shared important-trainer pool (see below):
+
+| `mus_custom_vs_dk_swing.mid` | Important-trainer shared pool |
+| `mus_custom_vs_dk_theme.mid` | Important-trainer shared pool |
+
+## Important-trainer shared pool
+
+On top of the per-category pools, a shared set of tracks is layered onto EVERY
+important-trainer (boss) battle: gym leaders, rivals, evil-team leaders, the
+Elite Four, and the Champion. Each of those battles picks uniformly from its own
+category pool PLUS this shared set, so any boss can play any shared track.
+Regular trainers and wild battles are unaffected. The shared set lives in
+`sPoolImportantShared` in src/pokemon.c (via `PickWithShared`), currently:
+Dedede, two Cynthia arrangements (the CHAMPION + CHAMPION_HGSS slots), the BW
+Elite Four track, and the two DK slots (DK Island Swing + DKC theme).
+
 You do not need all slots. Any slot whose file you leave out simply is not built;
 just make sure `USE_CUSTOM_BATTLE_MUSIC` is only ON once the files you DO want
 are present (a missing file for an enabled slot fails the build at link time).
