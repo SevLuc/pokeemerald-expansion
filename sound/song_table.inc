@@ -641,6 +641,8 @@ gSongTable::
 	song mus_custom_vs_dedede, MUSIC_PLAYER_BGM, 0
 	song mus_custom_vs_yoasobi, MUSIC_PLAYER_BGM, 0
 	song mus_custom_vs_lifelight, MUSIC_PLAYER_BGM, 0
+	song mus_custom_vs_dk_swing, MUSIC_PLAYER_BGM, 0
+	song mus_custom_vs_dk_theme, MUSIC_PLAYER_BGM, 0
 .endif @ USE_CUSTOM_BATTLE_MUSIC
 
 	.align 2

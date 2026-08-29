@@ -5377,6 +5377,29 @@ static u16 DetermineBattleBGM(void)
 // When USE_CUSTOM_BATTLE_MUSIC is enabled, randomly pick from a pool of
 // FRLG, Emerald, and custom drop-in tracks for each battle category.
 // Emerald themes are always in the pool regardless of current region.
+#if USE_CUSTOM_BATTLE_MUSIC == TRUE
+// Shared pool layered ON TOP of every important-trainer (boss) category:
+// gym leaders, rivals, evil-team leaders, the Elite Four, and the Champion all
+// draw from their own category pool PLUS these tracks. Regular trainers and
+// wild battles are unaffected.
+static const u16 sPoolImportantShared[] = {
+    MUS_CUSTOM_VS_DEDEDE,       // King Dedede
+    MUS_CUSTOM_VS_CHAMPION,     // Cynthia A
+    MUS_CUSTOM_VS_CHAMPION_HGSS,// Cynthia B
+    MUS_CUSTOM_VS_ELITE_FOUR_BW,// Elite Four (BW)
+    MUS_CUSTOM_VS_DK_SWING,     // DK Island Swing
+    MUS_CUSTOM_VS_DK_THEME,     // DKC Theme
+};
+
+// Pick from a category pool plus the shared important-trainer pool, uniformly.
+static u16 PickWithShared(const u16 *pool, u32 count)
+{
+    u32 total = count + ARRAY_COUNT(sPoolImportantShared);
+    u32 r = Random() % total;
+    return (r < count) ? pool[r] : sPoolImportantShared[r - count];
+}
+#endif
+
 static u16 RemapCustomBattleBGM(u16 song)
 {
 #if USE_CUSTOM_BATTLE_MUSIC == TRUE
@@ -5423,21 +5446,21 @@ static u16 RemapCustomBattleBGM(u16 song)
         return sPoolTrainer[Random() % ARRAY_COUNT(sPoolTrainer)];
     case MUS_VS_GYM_LEADER:
     case MUS_RG_VS_GYM_LEADER:
-        return sPoolGym[Random() % ARRAY_COUNT(sPoolGym)];
+        return PickWithShared(sPoolGym, ARRAY_COUNT(sPoolGym));
     case MUS_VS_RIVAL:
-        return sPoolRival[Random() % ARRAY_COUNT(sPoolRival)];
+        return PickWithShared(sPoolRival, ARRAY_COUNT(sPoolRival));
     case MUS_VS_CHAMPION:
     case MUS_RG_VS_CHAMPION:
-        return sPoolChampion[Random() % ARRAY_COUNT(sPoolChampion)];
+        return PickWithShared(sPoolChampion, ARRAY_COUNT(sPoolChampion));
     case MUS_VS_RAYQUAZA:
     case MUS_VS_KYOGRE_GROUDON:
     case MUS_VS_REGI:
     case MUS_RG_VS_LEGEND:
         return sPoolLegend[Random() % ARRAY_COUNT(sPoolLegend)];
     case MUS_VS_AQUA_MAGMA_LEADER:
-        return sPoolEvilLeader[Random() % ARRAY_COUNT(sPoolEvilLeader)];
+        return PickWithShared(sPoolEvilLeader, ARRAY_COUNT(sPoolEvilLeader));
     case MUS_VS_ELITE_FOUR:
-        return sPoolEliteFour[Random() % ARRAY_COUNT(sPoolEliteFour)];
+        return PickWithShared(sPoolEliteFour, ARRAY_COUNT(sPoolEliteFour));
     }
 #endif
     return song;
