@@ -7,6 +7,10 @@ Update in the same PR as the change.
 `YYYY-MM-DD` — area — one-line summary (PR/commit ref)
 
 ## Entries
+- 2026-08-29 - fix/music - Dropped the Dedede track from the trainer pool and the
+  important-trainer shared pool, and the custom rival track from the rival pool
+  (src/pokemon.c). Slots/files kept, just unused. Raises the DK tracks' share of
+  the shared pool.
 - 2026-08-29 - feat/music - Shared important-trainer battle-music pool. A set of
   tracks (Dedede, two Cynthia arrangements, BW Elite Four, DK Island Swing, DKC
   theme) is layered on top of every boss battle (gym leaders, rivals, evil-team
