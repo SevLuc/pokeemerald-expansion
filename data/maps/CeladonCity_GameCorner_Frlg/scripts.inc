@@ -392,8 +392,20 @@ CeladonCity_GameCorner_EventScript_SlotMachineNoCoinCase::
 
 CeladonCity_GameCorner_EventScript_Poster::
 	lockall
+	goto_if_set FLAG_OPENED_ROCKET_HIDEOUT, CeladonCity_GameCorner_EventScript_PosterAlreadyOpen
+	goto_if_unset FLAG_DEFEATED_ERIKA, CeladonCity_GameCorner_EventScript_PosterLocked
 	msgbox CeladonCity_GameCorner_Text_SwitchBehindPosterPushIt
-	call_if_unset FLAG_OPENED_ROCKET_HIDEOUT, CeladonCity_GameCorner_EventScript_OpenRocketHideout
+	call CeladonCity_GameCorner_EventScript_OpenRocketHideout
+	releaseall
+	end
+
+CeladonCity_GameCorner_EventScript_PosterAlreadyOpen::
+	msgbox CeladonCity_GameCorner_Text_SwitchBehindPosterPushIt
+	releaseall
+	end
+
+CeladonCity_GameCorner_EventScript_PosterLocked::
+	msgbox CeladonCity_GameCorner_Text_PosterNothingUnusual
 	releaseall
 	end
 
@@ -594,6 +606,10 @@ CeladonCity_GameCorner_Text_SwitchBehindPosterPushIt::
 	.string "Hey!\p"
 	.string "A switch behind the poster!?\n"
 	.string "Let's push it!$"
+
+CeladonCity_GameCorner_Text_PosterNothingUnusual::
+	.string "It's a poster of a famous idol.\p"
+	.string "Nothing else catches your eye.$"
 
 CeladonCity_GameCorner_Text_CoinCaseIsRequired::
 	.string "A COIN CASE is required…$"
