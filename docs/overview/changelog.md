@@ -7,6 +7,30 @@ Update in the same PR as the change.
 `YYYY-MM-DD` — area — one-line summary (PR/commit ref)
 
 ## Entries
+- 2026-08-30 - feat/music - Audition layer: every battle (wild + regular trainer +
+  all boss categories) now draws from its own pool PLUS a shared all-custom pool, so
+  every custom track can be heard in normal play (stock themes kept). Dropped tracks
+  (Rival, Dedede) excluded. Added 4 new slots for user-supplied .mid: DK_MAIN (632),
+  AXEL_F (633), THEME_FINAL (634), plus DK_JUNGLE (631) - songs.h, song_table.inc,
+  midi.cfg, sPoolAllCustom in src/pokemon.c. All .mid are git-ignored user assets.
+- 2026-08-30 - fix/encounters - Fixed the encounter generator (tools/gen_encounters.py)
+  cloning every post-exhaustion map. The single-use global pool (193 land roots vs
+  ~1368 slots) ran dry mid-Misty and the fallback returned the same nearest-target
+  top-12 for every later map, so Routes 5-11+ were identical. Added a per-root usage
+  counter + a target-BST tolerance band (BAND=60) with a stable per-map RNG: repeat
+  picks are now least-used-first, shuffled per map. Coverage still 193/193 land + 42/42
+  water. Worst-case over-exposure dropped from 35 maps to 10. Also added a minimum-
+  appearance floor: every land mon is now encounterable on >=6 maps (enforce_floor_land
+  redistributes from over-represented mons); water is best-effort (250 slots vs 252
+  needed, so Carvanha + Kabuto sit at 5). Slot encounter_rates kept flat/equal per the
+  design. Regenerated wild_encounters.json + docs/overview/encounters.md.
+- 2026-08-30 - balance/trainers - Evolution pass on trainers_frlg.party: every
+  trainer mon at Lv>=30 with an available evolution was pushed to its final stage
+  (all methods). 399 slots changed (species token only). Protected: gym leaders,
+  Fisherman 6-Magikarp gimmick, starter-family rival mons, and by decision the
+  Champion/Elite Four rematch/Giovanni_2/rival non-starter aces. Branch mons
+  (Gloom, Poliwhirl, Eevee, etc.) resolved with varied targets. See
+  docs/overview/trainers.md "Evolution pass".
 - 2026-08-29 - fix/music - Dropped the Dedede track from the trainer pool and the
   important-trainer shared pool, and the custom rival track from the rival pool
   (src/pokemon.c). Slots/files kept, just unused. Raises the DK tracks' share of

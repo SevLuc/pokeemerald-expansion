@@ -154,5 +154,25 @@ Visited-area pools per fight (cumulative, from `rival_nuzlocke_battles.h`, 34 ar
 | Lance | `TRAINER_ELITE_FOUR_LANCE` | `TRAINER_ELITE_FOUR_LANCE_2` | TODO |
 | Champion (rival) | `TRAINER_CHAMPION_FIRST_*` | `TRAINER_CHAMPION_REMATCH_*` | TODO (Buhrito) / DONE (Twitch draft) |
 
+## Evolution pass (2026-08-30)
+
+Swept `trainers_frlg.party` to evolve under-evolved trainer mons. Rule: any mon at
+**level >= 30** that has an evolution was pushed to its fully-appropriate final stage,
+counting every method (level-up, stone, trade, friendship, move, item). 399 party
+slots changed (species token only; abilities/moves/IVs untouched, file length
+unchanged).
+
+Protected (left as designed):
+- All gym leaders (`LEADER_*`).
+- Fisherman six-Magikarp gimmick squads (Magikarp kept even at Lv47).
+- Starter-family mons on rival trainers.
+- Boss/rival aces kept by decision: `CHAMPION_FIRST_*` Electabuzz, all rival
+  non-starter mons (Pokemon Tower / Silph / Route 22 late), `ELITE_FOUR_LORELEI_2`
+  Piloswine, `ELITE_FOUR_AGATHA_2` Misdreavus, `BOSS_GIOVANNI_2` Rhydon.
+
+Branch evolutions (Gloom, Poliwhirl, Eevee, Scyther, Slowpoke, Charcadet, Kubfu)
+were resolved with varied targets round-robin (e.g. Gloom split between Vileplume and
+Bellossom, Poliwhirl between Poliwrath and Politoed) so the world is not uniform.
+
 ## By map
 (Pallet → Viridian → Route 1 → ... — fill in from data)

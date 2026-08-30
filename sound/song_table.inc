@@ -643,6 +643,10 @@ gSongTable::
 	song mus_custom_vs_lifelight, MUSIC_PLAYER_BGM, 0
 	song mus_custom_vs_dk_swing, MUSIC_PLAYER_BGM, 0
 	song mus_custom_vs_dk_theme, MUSIC_PLAYER_BGM, 0
+	song mus_custom_vs_dk_jungle, MUSIC_PLAYER_BGM, 0
+	song mus_custom_vs_dk_main, MUSIC_PLAYER_BGM, 0
+	song mus_custom_vs_axel_f, MUSIC_PLAYER_BGM, 0
+	song mus_custom_vs_theme_final, MUSIC_PLAYER_BGM, 0
 .endif @ USE_CUSTOM_BATTLE_MUSIC
 
 	.align 2

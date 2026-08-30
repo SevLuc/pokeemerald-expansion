@@ -15,7 +15,7 @@ src/data/wild_encounters.json per docs/design/encounter-tables.md:
 Run:  python3 tools/gen_encounters.py
 Idempotent; reproducible; prints coverage + per-split fairness report.
 """
-import re, glob, json, os, sys, collections, itertools, statistics as st
+import re, glob, json, os, sys, collections, itertools, statistics as st, random, hashlib
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SPECIES_DIR = os.path.join(ROOT, "src/data/pokemon/species_info")
@@ -272,6 +272,9 @@ def is_target(name):
     return ONLY is not None and any(sub in name for sub in ONLY)
 
 placed_land, placed_water = set(), set()
+# per-root usage counters: drive the repeat-allowed fallback (least-used first) so
+# post-exhaustion maps no longer clone the same nearest-target top-12.
+usage_land, usage_water = collections.Counter(), collections.Counter()
 report_rows = []
 
 if ONLY is not None:
@@ -280,18 +283,33 @@ if ONLY is not None:
             continue
         for _meth in ("land_mons", "rock_smash_mons"):
             if _meth in _e:
-                placed_land.update(m["species"] for m in _e[_meth]["mons"])
+                for _m in _e[_meth]["mons"]:
+                    placed_land.add(_m["species"]); usage_land[_m["species"]] += 1
         for _meth in ("water_mons", "fishing_mons"):
             if _meth in _e:
-                placed_water.update(m["species"] for m in _e[_meth]["mons"])
+                for _m in _e[_meth]["mons"]:
+                    placed_water.add(_m["species"]); usage_water[_m["species"]] += 1
     process_entries = [t for t in fr_entries if is_target(t[1])]
     print(f"--only {ONLY}: freezing existing tables, filling "
           f"{[t[1] for t in process_entries]}")
 else:
     process_entries = fr_entries
 
-def fill_table(roots, placed, biome, k, cap, items, target):
-    """pick k distinct roots: eff@cap nearest target, globally-unplaced first, biome-pref."""
+# eff-BST tolerance for the repeat-allowed fallback: post-exhaustion picks stay
+# within this many points of the split target, so difficulty holds while species vary.
+BAND = 60
+
+def _rng(*parts):
+    """stable per-map RNG (independent of PYTHONHASHSEED) so reruns are reproducible."""
+    h = hashlib.md5("|".join(parts).encode()).hexdigest()
+    return random.Random(int(h[:12], 16))
+
+def fill_table(roots, placed, usage, biome, k, cap, items, target, rng):
+    """pick k distinct roots.
+    Coverage first (globally-unplaced, nearest target, biome-pref) exactly as before,
+    so pre-exhaustion tables are unchanged. Once the pool is spent, fill the rest from
+    a target-BST tolerance band, least-used first, shuffled within equal usage per map,
+    so post-exhaustion maps differ instead of cloning the same nearest-target top-12."""
     ranked = sorted(roots, key=lambda r: abs(eff_bst(r, cap, items) - target))
     out = []
     def take(cond):
@@ -301,8 +319,28 @@ def fill_table(roots, placed, biome, k, cap, items, target):
             if cond(r): out.append(r)
     take(lambda r: r not in placed and biome_ok(r, biome))   # coverage + flavor
     take(lambda r: r not in placed)                          # coverage
-    take(lambda r: biome_ok(r, biome))                       # flavor (repeat ok)
-    take(lambda r: True)                                     # anything
+    if len(out) < k:
+        # repeat-allowed fallback: least-used within the band, biome-pref, per-map shuffle
+        def band_pool(biome_only):
+            c = [r for r in roots if r not in out
+                 and abs(eff_bst(r, cap, items) - target) <= BAND
+                 and (not biome_only or biome_ok(r, biome))]
+            rng.shuffle(c)                       # vary order within equal usage per map
+            c.sort(key=lambda r: usage[r])       # stable: least-used first
+            return c
+        for r in band_pool(True):
+            if len(out) == k: break
+            out.append(r)
+        if len(out) < k:
+            for r in band_pool(False):
+                if len(out) == k: break
+                out.append(r)
+        if len(out) < k:                         # band too tight: widen to whole pool
+            extra = [r for r in ranked if r not in out]
+            rng.shuffle(extra); extra.sort(key=lambda r: usage[r])
+            for r in extra:
+                if len(out) == k: break
+                out.append(r)
     return out
 
 for si, name, e in process_entries:
@@ -311,11 +349,14 @@ for si, name, e in process_entries:
     for meth in ("land_mons", "rock_smash_mons"):
         if meth not in e: continue
         mons = e[meth]["mons"]
-        for slot, r in zip(mons, fill_table(LAND_ROOTS, placed_land, biome, len(mons), cap, items, target)):
-            slot["species"] = r; placed_land.add(r)
+        picks = fill_table(LAND_ROOTS, placed_land, usage_land, biome, len(mons),
+                           cap, items, target, _rng(name, meth))
+        for slot, r in zip(mons, picks):
+            slot["species"] = r; placed_land.add(r); usage_land[r] += 1
     if "water_mons" in e or "fishing_mons" in e:
         # one shared set W of 5 species; Surf == fishing (engine rolls fishing slots 5-9)
-        W = fill_table(WATER_ROOTS, placed_water, "ice", 5, cap, items, target)
+        W = fill_table(WATER_ROOTS, placed_water, usage_water, "ice", 5,
+                       cap, items, target, _rng(name, "water"))
         if "water_mons" in e:
             for i, slot in enumerate(e["water_mons"]["mons"]):
                 slot["species"] = W[i % len(W)]
@@ -323,7 +364,7 @@ for si, name, e in process_entries:
             for i, slot in enumerate(e["fishing_mons"]["mons"]):
                 slot["species"] = W[i % len(W)]   # slots 0-4 mirror; 5-9 = W (the rolled set)
         for r in W:
-            placed_water.add(r)
+            placed_water.add(r); usage_water[r] += 1
     report_rows.append((name, si, biome))
 
 # coverage sweep: force any never-placed root into the nearest-fitting area of its split
@@ -346,6 +387,94 @@ def sweep(roots, placed, is_water):
 if ONLY is None:
     sweep(LAND_ROOTS, placed_land, False)
     sweep(WATER_ROOTS, placed_water, True)
+
+# ---- minimum-appearance floor: every land root encounterable on >= MIN_MAPS maps.
+# Redistribute from over-represented mons (only ones that stay >= floor after giving a
+# slot away) into the deficit mon's nearest-difficulty maps, preferring the rarest slots.
+MIN_MAPS = 6
+def enforce_floor_land(min_maps=MIN_MAPS):
+    tables = [(e, meth, si) for si, name, e in fr_entries
+              for meth in ("land_mons", "rock_smash_mons")
+              if meth in e and e[meth]["mons"]]
+    cnt = collections.Counter()
+    for e, meth, si in tables:
+        for s in {m["species"] for m in e[meth]["mons"]}:
+            cnt[s] += 1
+    for _guard in range(200):
+        deficit = sorted((r for r in LAND_ROOTS if cnt[r] < min_maps),
+                         key=lambda r: (cnt[r], r))
+        if not deficit:
+            break
+        progressed = False
+        for r in deficit:
+            need = min_maps - cnt[r]
+            cand = sorted(tables, key=lambda t: abs(
+                eff_bst(r, SPLITS[t[2]][1], SPLITS[t[2]][2]) - SPLITS[t[2]][3]))
+            for e, meth, si in cand:
+                if need <= 0:
+                    break
+                mons = e[meth]["mons"]
+                specs = [m["species"] for m in mons]
+                if r in specs:
+                    continue
+                # donor = occupant with the highest count that stays >= floor when
+                # it loses this slot; scan rare slots first so we steal low-value slots.
+                best_i, best_c = None, min_maps
+                for i in range(len(specs) - 1, -1, -1):
+                    if cnt[specs[i]] > best_c:
+                        best_c, best_i = cnt[specs[i]], i
+                if best_i is None:
+                    continue
+                donor = specs[best_i]
+                mons[best_i]["species"] = r
+                cnt[r] += 1; cnt[donor] -= 1; need -= 1; progressed = True
+        if not progressed:
+            break
+    return cnt
+
+def enforce_floor_water(min_maps=MIN_MAPS):
+    """Same floor for water. Water capacity is ~2 short of a universal 6, so this is
+    best-effort: mons that can't reach the floor (no donor left above it) stay just under."""
+    tables = [(e, si) for si, name, e in fr_entries
+              if "water_mons" in e and e["water_mons"]["mons"]]
+    cnt = collections.Counter()
+    for e, si in tables:
+        for s in {m["species"] for m in e["water_mons"]["mons"]}:
+            cnt[s] += 1
+    for _guard in range(200):
+        deficit = sorted((r for r in WATER_ROOTS if cnt[r] < min_maps),
+                         key=lambda r: (cnt[r], r))
+        if not deficit:
+            break
+        progressed = False
+        for r in deficit:
+            need = min_maps - cnt[r]
+            cand = sorted(tables, key=lambda t: abs(
+                eff_bst(r, SPLITS[t[1]][1], SPLITS[t[1]][2]) - SPLITS[t[1]][3]))
+            for e, si in cand:
+                if need <= 0:
+                    break
+                mons = e["water_mons"]["mons"]
+                distinct = list(dict.fromkeys(m["species"] for m in mons))
+                if r in distinct:
+                    continue
+                donor, dc = None, min_maps
+                for s in distinct:
+                    if cnt[s] > dc:
+                        dc, donor = cnt[s], s
+                if donor is None:
+                    continue
+                for m in mons:
+                    if m["species"] == donor:
+                        m["species"] = r
+                cnt[r] += 1; cnt[donor] -= 1; need -= 1; progressed = True
+        if not progressed:
+            break
+    return cnt
+
+if ONLY is None:
+    enforce_floor_land()
+    enforce_floor_water()
 
 # mirror FireRed -> LeafGreen (identical species+levels per map)
 byname = {}
