@@ -93,6 +93,6 @@
 // Keep FALSE unless those .mid files are present, or the build will fail to link.
 // The .mid files are intentionally git-ignored and NOT committed: supply your
 // own GBA-format tracks locally. See docs/overview/custom-battle-music.md.
-#define USE_CUSTOM_BATTLE_MUSIC      TRUE
+#define USE_CUSTOM_BATTLE_MUSIC      FALSE
 
 #endif // GUARD_CONFIG_GENERAL_H

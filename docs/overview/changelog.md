@@ -7,6 +7,24 @@ Update in the same PR as the change.
 `YYYY-MM-DD` — area — one-line summary (PR/commit ref)
 
 ## Entries
+- 2026-08-30 - fix/celadon - Rocket Hideout entrance now gated behind Erika. The Game
+  Corner poster switch stays inert (stairs never revealed) until FLAG_DEFEATED_ERIKA is
+  set; new "poster of a famous idol" message before then. Post-Erika behavior unchanged.
+  (data/maps/CeladonCity_GameCorner_Frlg/scripts.inc)
+- 2026-08-30 - fix/items - Evolution items (Up-grade, Dubious Disc, Razor Claw,
+  Electirizer, etc.) are now usable from the bag to evolve a Pokemon instead of showing
+  "there is a time and a place." Fixes Porygon/Porygon2 lines.
+  (I_USE_EVO_HELD_ITEMS_FROM_BAG TRUE in include/config/item.h)
+- 2026-08-30 - fix/music - Disabled the custom battle-music pool (USE_CUSTOM_BATTLE_MUSIC
+  FALSE in include/config/general.h). All battle music reverts to stock FRLG/Emerald
+  themes. Custom song defs kept but unused; will re-add native GBA ports per-track later.
+- 2026-08-30 - feat/gamecorner - Added Sludge Bomb (TM36) and new TM51 Moonblast to the
+  Game Corner TM prize clerk (1 coin each). TM51 Moonblast is a new reusable TM
+  (F(MOONBLAST) in include/constants/tms_hms.h + item def in src/data/items.h; replaces
+  the old ??? TM51 placeholder). Teachable species are auto-derived by the learnset
+  generator (make_teachables.py) from canonical Moonblast learners, same as every other
+  TM. Among Kanto mons that means the Clefairy line, Vulpix/Ninetales, the Oddish line,
+  Grimer/Muk, Mew, and other canonical learners.
 - 2026-08-30 - feat/music - Audition layer: every battle (wild + regular trainer +
   all boss categories) now draws from its own pool PLUS a shared all-custom pool, so
   every custom track can be heard in normal play (stock themes kept). Dropped tracks

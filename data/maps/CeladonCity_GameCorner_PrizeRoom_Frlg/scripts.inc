@@ -255,7 +255,9 @@ CeladonCity_GameCorner_PrizeRoom_EventScript_ChoosePrizeTM::
 	case 2, CeladonCity_GameCorner_PrizeRoom_EventScript_TM24
 	case 3, CeladonCity_GameCorner_PrizeRoom_EventScript_TM30
 	case 4, CeladonCity_GameCorner_PrizeRoom_EventScript_TM35
-	case 5, CeladonCity_GameCorner_PrizeRoom_EventScript_EndPrizeExchange
+	case 5, CeladonCity_GameCorner_PrizeRoom_EventScript_TM36
+	case 6, CeladonCity_GameCorner_PrizeRoom_EventScript_TM51
+	case 7, CeladonCity_GameCorner_PrizeRoom_EventScript_EndPrizeExchange
 	case 127, CeladonCity_GameCorner_PrizeRoom_EventScript_EndPrizeExchange
 	end
 
@@ -291,6 +293,20 @@ CeladonCity_GameCorner_PrizeRoom_EventScript_TM35::
 	setvar VAR_TEMP_1, ITEM_TM35
 	setvar VAR_TEMP_2, 1
 	buffermovename STR_VAR_2, MOVE_FLAMETHROWER
+	goto CeladonCity_GameCorner_PrizeRoom_EventScript_ConfirmPrizeTM
+	end
+
+CeladonCity_GameCorner_PrizeRoom_EventScript_TM36::
+	setvar VAR_TEMP_1, ITEM_TM_SLUDGE_BOMB
+	setvar VAR_TEMP_2, 1
+	buffermovename STR_VAR_2, MOVE_SLUDGE_BOMB
+	goto CeladonCity_GameCorner_PrizeRoom_EventScript_ConfirmPrizeTM
+	end
+
+CeladonCity_GameCorner_PrizeRoom_EventScript_TM51::
+	setvar VAR_TEMP_1, ITEM_TM_MOONBLAST
+	setvar VAR_TEMP_2, 1
+	buffermovename STR_VAR_2, MOVE_MOONBLAST
 	goto CeladonCity_GameCorner_PrizeRoom_EventScript_ConfirmPrizeTM
 	end
 
