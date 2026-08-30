@@ -5378,24 +5378,42 @@ static u16 DetermineBattleBGM(void)
 // FRLG, Emerald, and custom drop-in tracks for each battle category.
 // Emerald themes are always in the pool regardless of current region.
 #if USE_CUSTOM_BATTLE_MUSIC == TRUE
-// Shared pool layered ON TOP of every important-trainer (boss) category:
-// gym leaders, rivals, evil-team leaders, the Elite Four, and the Champion all
-// draw from their own category pool PLUS these tracks. Regular trainers and
-// wild battles are unaffected.
-static const u16 sPoolImportantShared[] = {
-    MUS_CUSTOM_VS_CHAMPION,     // Cynthia A
-    MUS_CUSTOM_VS_CHAMPION_HGSS,// Cynthia B
-    MUS_CUSTOM_VS_ELITE_FOUR_BW,// Elite Four (BW)
-    MUS_CUSTOM_VS_DK_SWING,     // DK Island Swing
-    MUS_CUSTOM_VS_DK_THEME,     // DKC Theme
+// Audition layer: EVERY battle (wild, regular trainer, and all boss categories) draws
+// from its own category pool PLUS this shared set of all custom tracks, so every custom
+// MIDI can be heard through normal play. The two dropped tracks (Rival, Dedede) are
+// intentionally left out. Stock/original themes remain in each category pool.
+static const u16 sPoolAllCustom[] = {
+    MUS_CUSTOM_VS_WILD,
+    MUS_CUSTOM_VS_TRAINER,
+    MUS_CUSTOM_VS_GYM,
+    MUS_CUSTOM_VS_GYM_SWSH,
+    MUS_CUSTOM_VS_CHAMPION,      // Cynthia A
+    MUS_CUSTOM_VS_CHAMPION_HGSS, // Cynthia B
+    MUS_CUSTOM_VS_CHAMPION_ORAS,
+    MUS_CUSTOM_VS_LEGEND,
+    MUS_CUSTOM_VS_EVIL_LEADER,
+    MUS_CUSTOM_VS_ELITE_FOUR,
+    MUS_CUSTOM_VS_ELITE_FOUR_BW,
+    MUS_CUSTOM_VS_GUILE,
+    MUS_CUSTOM_VS_BRAWL_BOSS,
+    MUS_CUSTOM_VS_MEGALOVANIA,
+    MUS_CUSTOM_VS_CRUEL_ANGEL,
+    MUS_CUSTOM_VS_YOASOBI,
+    MUS_CUSTOM_VS_LIFELIGHT,
+    MUS_CUSTOM_VS_DK_SWING,      // DK Island Swing
+    MUS_CUSTOM_VS_DK_THEME,      // DKC Jungle (Dkcjungle.mid)
+    MUS_CUSTOM_VS_DK_JUNGLE,     // DKC Jungle (KM arrangement)
+    MUS_CUSTOM_VS_DK_MAIN,       // DKC main theme
+    MUS_CUSTOM_VS_AXEL_F,        // Axel F
+    MUS_CUSTOM_VS_THEME_FINAL,   // Theme_final
 };
 
-// Pick from a category pool plus the shared important-trainer pool, uniformly.
+// Pick from a category pool plus the shared all-custom pool, uniformly.
 static u16 PickWithShared(const u16 *pool, u32 count)
 {
-    u32 total = count + ARRAY_COUNT(sPoolImportantShared);
+    u32 total = count + ARRAY_COUNT(sPoolAllCustom);
     u32 r = Random() % total;
-    return (r < count) ? pool[r] : sPoolImportantShared[r - count];
+    return (r < count) ? pool[r] : sPoolAllCustom[r - count];
 }
 #endif
 
@@ -5438,10 +5456,10 @@ static u16 RemapCustomBattleBGM(u16 song)
     {
     case MUS_VS_WILD:
     case MUS_RG_VS_WILD:
-        return sPoolWild[Random() % ARRAY_COUNT(sPoolWild)];
+        return PickWithShared(sPoolWild, ARRAY_COUNT(sPoolWild));
     case MUS_VS_TRAINER:
     case MUS_RG_VS_TRAINER:
-        return sPoolTrainer[Random() % ARRAY_COUNT(sPoolTrainer)];
+        return PickWithShared(sPoolTrainer, ARRAY_COUNT(sPoolTrainer));
     case MUS_VS_GYM_LEADER:
     case MUS_RG_VS_GYM_LEADER:
         return PickWithShared(sPoolGym, ARRAY_COUNT(sPoolGym));
@@ -5454,7 +5472,7 @@ static u16 RemapCustomBattleBGM(u16 song)
     case MUS_VS_KYOGRE_GROUDON:
     case MUS_VS_REGI:
     case MUS_RG_VS_LEGEND:
-        return sPoolLegend[Random() % ARRAY_COUNT(sPoolLegend)];
+        return PickWithShared(sPoolLegend, ARRAY_COUNT(sPoolLegend));
     case MUS_VS_AQUA_MAGMA_LEADER:
         return PickWithShared(sPoolEvilLeader, ARRAY_COUNT(sPoolEvilLeader));
     case MUS_VS_ELITE_FOUR:
