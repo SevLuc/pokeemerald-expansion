@@ -121,7 +121,6 @@ static const u8 sText_Streak[]   = _("STREAK ");
 static const u8 sText_TakeOne[]  = _("Take into your keeping");
 static const u8 sText_ReleaseOne[] = _("Return one of yours");
 static const u8 sText_HintOpp[]  = _("Pad: Move   A: Take   B: Skip");
-static const u8 sText_HintRel[]  = _("Pad: Move   A: Trade   B: Back");
 static const u8 sText_HintBreak[] = _("House rules forbid that trade.");
 static const u8 sText_Star[]     = _("*");
 static const u8 sText_At[]       = _(" @ ");
