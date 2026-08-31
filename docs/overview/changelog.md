@@ -7,6 +7,12 @@ Update in the same PR as the change.
 `YYYY-MM-DD` — area — one-line summary (PR/commit ref)
 
 ## Entries
+- 2026-08-31 - feat/rental - RENTAL BATTLE setup menu (UI proposal U2). Replaced the
+  three YES/NO format/cap prompts with two real framed menus (format: Singles/Doubles;
+  restricted cap: None/One/Two) via dynmultichoice. Backing out of the format menu now
+  leaves the mode cleanly; both the play-again NO branch and that back-out share one
+  RentalExitMode label. Same vars written (VAR_0x8004 format, VAR_0x8005 cap), so the
+  draft/battle flow is unchanged. (data/maps/BattleFrontier_BattleTowerLobby/scripts.inc)
 - 2026-08-31 - feat/rental - RENTAL BATTLE voice pass (UI proposal U1). Replaced the
   placeholder mode strings with the host "Steward" voice (loaner-floor framing; pomp in
   the lobby beats, plain speech at battle-start), gave the previously-dead intro string a
