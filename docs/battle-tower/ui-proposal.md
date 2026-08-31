@@ -122,8 +122,9 @@ Replaces the comma-separated text. A single board:
 - **Bottom row:** your six drafted icons. A toggles a lit Poke Ball marker
   to pick your bring; the **BRING N** target (3 singles / 4 doubles) and a
   live count gate confirm.
-- **Doubles:** the first two you mark are your leads; a tiny "1 / 2" tag on
-  those two shows lead order.
+- **Doubles:** the player sets which two of the bring-4 lead, and can change
+  that lead pair **every battle** on this board; a small "1 / 2" tag marks
+  the chosen leads.
 - Confirm writes the same `frontier.selectedPartyMons[]` the battle path
   already consumes, so **this board replaces the separate party menu** for
   bring-N (one screen instead of textbox -> party menu).
@@ -231,20 +232,19 @@ structure is unchanged so wiring is untouched).
 - **U5 - Recruit board (S4).** Adapt the swap picker; add clause dimming.
 - **U6 - Streak HUD (S5)** + polish.
 
-## 8. Open decisions to confirm
+## 8. Decisions (resolved this review)
 
-1. **Scout depth (S3/S4 summary):** full nature / EV / IV spread, or just
-   moves + item + ability? (design-questions Q7.1 is still open.)
-2. **Doubles lead order on S3:** let the player set which two of the four
-   lead, or fixed by pick order? (Q4/M4 open item.)
-3. **Setup panel vs. keep prompts:** S1 as a real menu (recommended), or
-   leave format/cap as improved YES/NO boxes and spend the effort on S3/S4
-   only?
-4. **HUD placement:** S3/S4 only (recommended), or also a corner readout
-   during the draft?
-5. **Hub dressing:** leave the reused Poke Center backdrop as-is (the mode
-   spends its time on custom screens, not the map), or is a themed map pass
-   wanted later?
+1. **Scout depth (S3/S4 summary):** show **moves + item + ability only** -
+   no nature / EV / IV spread. (Settles design-questions Q7.1.)
+2. **Doubles lead order (S3):** the **player sets the two leads on the
+   preview board, and may change them every battle** (not fixed by pick
+   order). (Settles the Q4 / M4 lead-order item.)
+3. **Setup panel (S1):** build it as a **real menu**, not improved YES/NO
+   boxes.
+4. **HUD reach:** the run-status window shows on **S3 and S4 only** (the two
+   in-run screens); no draft-board readout.
+5. **Hub dressing:** **leave the reused Poke Center backdrop as-is.** The
+   mode spends its time on custom screens, not the map; no themed map pass.
 
 ## 9. Guardrails honored
 
