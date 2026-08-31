@@ -1453,14 +1453,11 @@ BattleFrontier_BattleTowerLobby_EventScript_RentalStartDraft::
 	waitstate
 BattleFrontier_BattleTowerLobby_EventScript_RentalBattleLoop::
 	special RentalPrepareNextBattle
-	special BufferRentalOpponentPreview
-	msgbox BattleFrontier_BattleTowerLobby_Text_RentalPreview, MSGBOX_DEFAULT
-	msgbox BattleFrontier_BattleTowerLobby_Text_RentalSelectThree, MSGBOX_DEFAULT
 	fadescreen FADE_TO_BLACK
 	callnative RemoveFollowingPokemon
 	special RentalSaveFullParty
-	special RentalSetBringCountVar
-	special ChoosePartyForBattleFrontier
+	special DoRentalTeamPreview
+	waitstate
 	goto_if_eq VAR_RESULT, 0, BattleFrontier_BattleTowerLobby_EventScript_RentalRetire
 	special ReducePlayerPartyToSelectedMons
 	msgbox BattleFrontier_BattleTowerLobby_Text_RentalBattleStart, MSGBOX_DEFAULT

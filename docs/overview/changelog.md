@@ -7,6 +7,16 @@ Update in the same PR as the change.
 `YYYY-MM-DD` — area — one-line summary (PR/commit ref)
 
 ## Entries
+- 2026-08-31 - feat/rental - RENTAL BATTLE team-preview board (UI proposal U4). New
+  screen (src/rental_preview_screen.c, special DoRentalTeamPreview) replacing the
+  comma-list preview text and the party-menu bring step: both rosters shown as party
+  icons, A scouts an opponent's build (moves/item/ability) in a panel, and you pick
+  your bring on the same board (the pick order is the send/lead order; in doubles the
+  first two lead). A run-status HUD (streak/format/cap) rides along (folds in U6).
+  Writes gSelectedOrderFromParty[] + VAR_RESULT exactly like ChoosePartyForBattleFrontier,
+  so the reduce/battle path is unchanged. (src/rental_preview_screen.c,
+  data/maps/BattleFrontier_BattleTowerLobby/scripts.inc, data/specials.inc,
+  include/rental_mode.h)
 - 2026-08-31 - feat/rental - RENTAL BATTLE setup menu (UI proposal U2). Replaced the
   three YES/NO format/cap prompts with two real framed menus (format: Singles/Doubles;
   restricted cap: None/One/Two) via dynmultichoice. Backing out of the format menu now

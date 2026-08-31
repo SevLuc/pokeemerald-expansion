@@ -218,6 +218,26 @@ structure is unchanged so wiring is untouched).
 - **Leaving (new page before EndRentalMode):** "Then the floor is yours no
   longer. / Go well, challenger."
 
+## 7a. Implementation status (live)
+
+- **U1 - Copy + Steward pass: DONE.** Strings rewritten, intro wired in, leaving
+  line added, Steward logged in the ledger.
+- **U2 - Setup menu: DONE.** Format + cap are two framed dynmultichoice menus;
+  shared RentalExitMode for both exits.
+- **U3 - Draft board: EFFECTIVELY DONE, one flourish deferred.** The screen
+  already has the live "Draft n/6" counter, and the offer is pre-filtered to
+  distinct species + items, so any six picks are legal by construction (no
+  in-draft clause rejection is even possible). The only remaining item is the
+  confirm reveal showing all six pics instead of three; that lives in fragile
+  affine/WIN0 code the original copy deliberately left as "later polish," so it
+  is deferred rather than reworked blind.
+- **U4 - Team-preview board: DONE (needs a build check).** New self-contained
+  screen `src/rental_preview_screen.c` (special `DoRentalTeamPreview`): both
+  rosters as party icons, A scouts an opponent's moves/item/ability in a panel,
+  bring-N picked on the board (pick order = send/lead order), and the streak HUD
+  (folds in U6). Written but not compiled in this environment.
+- **U5 - Recruit board / U6 - HUD:** U6 is folded into U4's HUD; U5 pending.
+
 ## 7. Build order (each its own small PR, if approved)
 
 - **U1 - Copy + Steward pass.** Swap the placeholder `Text_Rental*` strings

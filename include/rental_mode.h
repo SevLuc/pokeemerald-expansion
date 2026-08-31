@@ -84,6 +84,12 @@ void EndRentalMode(void);
 // defined in src/rental_select_screen.c.
 void DoRentalDraftScreen(void);
 
+// The team-preview board (S3): shows both rosters as icons, scouts opponents, and
+// takes the bring-N pick. Writes gSelectedOrderFromParty[] + gSpecialVar_Result the
+// same way ChoosePartyForBattleFrontier does. Defined in src/rental_preview_screen.c.
+// Call it from a map script followed by `waitstate`.
+void DoRentalTeamPreview(void);
+
 // Script special: begin a run (roll the offer) and launch the draft screen. Use it
 // from a map script followed by `waitstate`, like the Factory's rent flow.
 void StartRentalDraft(void);
