@@ -30,6 +30,7 @@ gSpecials::
 	def_special RentalDoRecruit
 	def_special RentalSetBringCountVar
 	def_special DoRentalTeamPreview
+	def_special DoRentalRecruit
 	def_special EndRentalMode
 	def_special SetCableClubWarp
 	def_special DoCableClubWarp, waitstate=1

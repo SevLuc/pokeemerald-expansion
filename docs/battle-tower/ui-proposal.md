@@ -236,7 +236,15 @@ structure is unchanged so wiring is untouched).
   rosters as party icons, A scouts an opponent's moves/item/ability in a panel,
   bring-N picked on the board (pick order = send/lead order), and the streak HUD
   (folds in U6). Written but not compiled in this environment.
-- **U5 - Recruit board / U6 - HUD:** U6 is folded into U4's HUD; U5 pending.
+- **U5 - Recruit board: DONE (needs a build check).** New screen
+  `src/rental_recruit_screen.c` (special `DoRentalRecruit`): pick an opponent's
+  fielded mon, then one of yours to release, with rule-breaking swaps blocked.
+  Written but not compiled in this environment.
+- **U6 - Streak HUD: DONE** (folded into the U4 preview board and the U5 recruit
+  board).
+
+All six steps are now implemented. None are compiled here (no devkitARM), so the
+first local `make firered` will likely surface mechanical fixes across U4/U5.
 
 ## 7. Build order (each its own small PR, if approved)
 

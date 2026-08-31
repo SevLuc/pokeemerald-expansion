@@ -7,6 +7,14 @@ Update in the same PR as the change.
 `YYYY-MM-DD` — area — one-line summary (PR/commit ref)
 
 ## Entries
+- 2026-08-31 - feat/rental - RENTAL BATTLE recruit board (UI proposal U5). New screen
+  (src/rental_recruit_screen.c, special DoRentalRecruit) replacing the yes/no-per-mon
+  recruit loop: pick one of the opponent's fielded mons, then one of your six to
+  return in trade, with rule-breaking swaps blocked at the pick. Sets the vars the
+  existing RentalDoRecruit consumes (which now also buffers the recruited species for
+  the "joined" line). New public helpers RentalGetFieldCount / RentalRecruitLegal.
+  (src/rental_recruit_screen.c, src/rental_mode.c, include/rental_mode.h,
+  data/maps/BattleFrontier_BattleTowerLobby/scripts.inc, data/specials.inc)
 - 2026-08-31 - feat/rental - RENTAL BATTLE team-preview board (UI proposal U4). New
   screen (src/rental_preview_screen.c, special DoRentalTeamPreview) replacing the
   comma-list preview text and the party-menu bring step: both rosters shown as party
