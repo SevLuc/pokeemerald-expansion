@@ -7,6 +7,13 @@ Update in the same PR as the change.
 `YYYY-MM-DD` — area — one-line summary (PR/commit ref)
 
 ## Entries
+- 2026-08-31 - feat/rental - RENTAL BATTLE voice pass (UI proposal U1). Replaced the
+  placeholder mode strings with the host "Steward" voice (loaner-floor framing; pomp in
+  the lobby beats, plain speech at battle-start), gave the previously-dead intro string a
+  home at the top of the flow, and added a "leaving the floor" line on the play-again NO
+  branch. Text/flavor only; no logic or screen changes. Steward logged in the lore ledger
+  (STEW-01..03). (data/maps/BattleFrontier_BattleTowerLobby/scripts.inc,
+  docs/writing/lore-ledger.md)
 - 2026-08-30 - fix/celadon - Rocket Hideout entrance now gated behind Erika. The Game
   Corner poster switch stays inert (stairs never revealed) until FLAG_DEFEATED_ERIKA is
   set; new "poster of a famous idol" message before then. Post-Erika behavior unchanged.

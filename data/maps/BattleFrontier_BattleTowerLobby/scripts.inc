@@ -1411,6 +1411,7 @@ BattleFrontier_BattleTowerLobby_Text_ExplainMultiLinkRules:
 @ the field.
 BattleFrontier_BattleTowerLobby_EventScript_RentalAttendant::
 	lockall
+	msgbox BattleFrontier_BattleTowerLobby_Text_RentalDraftIntro, MSGBOX_DEFAULT
 	msgbox BattleFrontier_BattleTowerLobby_Text_RentalAskDoubles, MSGBOX_YESNO
 	goto_if_eq VAR_RESULT, YES, BattleFrontier_BattleTowerLobby_EventScript_RentalFmtDoubles
 	setvar VAR_0x8004, 0
@@ -1492,6 +1493,8 @@ BattleFrontier_BattleTowerLobby_EventScript_RentalRetire::
 BattleFrontier_BattleTowerLobby_EventScript_RentalPlayAgain::
 	msgbox BattleFrontier_BattleTowerLobby_Text_RentalPlayAgain, MSGBOX_YESNO
 	goto_if_eq VAR_RESULT, YES, BattleFrontier_BattleTowerLobby_EventScript_RentalAttendant
+	msgbox BattleFrontier_BattleTowerLobby_Text_RentalLeaving, MSGBOX_DEFAULT
+	closemessage
 	releaseall
 	fadescreen FADE_TO_BLACK
 	special EndRentalMode
@@ -1499,62 +1502,67 @@ BattleFrontier_BattleTowerLobby_EventScript_RentalPlayAgain::
 	end
 
 BattleFrontier_BattleTowerLobby_Text_RentalDraftIntro:
-	.string "Welcome to RENTAL BATTLE!\p"
-	.string "Draft six POKéMON from the twelve\n"
-	.string "I offer you.$"
+	.string "Welcome to the loaner floor,\n"
+	.string "challenger. Nothing here is yours…\p"
+	.string "…yet tonight, all of it answers\n"
+	.string "to you. Choose six of these twelve.$"
 
 BattleFrontier_BattleTowerLobby_Text_RentalAskDoubles:
-	.string "Will you battle in DOUBLES?\n"
+	.string "How shall we stage the bout? DOUBLES?\n"
 	.string "(Choose NO for SINGLES.)$"
 
 BattleFrontier_BattleTowerLobby_Text_RentalAskRestricted:
-	.string "Will you allow RESTRICTED POKéMON\n"
-	.string "(legendaries and the like) on a team?$"
+	.string "Shall RESTRICTED POKéMON, the\n"
+	.string "legendary sort, take the floor?$"
 
 BattleFrontier_BattleTowerLobby_Text_RentalAskTwo:
-	.string "Up to TWO per team?\p"
-	.string "(Choose NO for a limit of one.)$"
+	.string "As many as two per side?\n"
+	.string "(Choose NO to allow but one.)$"
 
 BattleFrontier_BattleTowerLobby_Text_RentalPreview:
-	.string "Your challenger's roster of six:\p"
+	.string "Your challenger fields these six:\p"
 	.string "{STR_VAR_1}.\p"
-	.string "They'll bring only some to battle,\n"
-	.string "so choose your team wisely.$"
+	.string "Only some will take the floor.\n"
+	.string "Choose your answer with care.$"
 
 BattleFrontier_BattleTowerLobby_Text_RentalSelectThree:
-	.string "Now choose your battle team from\n"
-	.string "the six you drafted.$"
+	.string "Now name the team you will send out,\n"
+	.string "from the six in your keeping.$"
 
 BattleFrontier_BattleTowerLobby_Text_RentalBattleStart:
-	.string "Your team is set. Your challenger\n"
-	.string "is ready. Good luck!$"
+	.string "Your team stands ready. So does\n"
+	.string "theirs. Begin, challenger.$"
 
 BattleFrontier_BattleTowerLobby_Text_RentalWonStreak:
-	.string "A fine battle! That's {STR_VAR_1} win(s)\n"
-	.string "in a row. On to the next!$"
+	.string "A clean bout. {STR_VAR_1} straight now.\n"
+	.string "The floor takes note.$"
 
 BattleFrontier_BattleTowerLobby_Text_RentalRunOver:
-	.string "Your run ends here, with {STR_VAR_1}\n"
-	.string "win(s). Well fought!$"
+	.string "Your run closes at {STR_VAR_1} win(s).\n"
+	.string "Honorably fought. The floor remembers.$"
 
 BattleFrontier_BattleTowerLobby_Text_RentalPlayAgain:
-	.string "Care for another run?\n"
-	.string "(Choose NO to leave RENTAL BATTLE.)$"
+	.string "Another run upon the floor?\n"
+	.string "(Choose NO to take your leave.)$"
 
 BattleFrontier_BattleTowerLobby_Text_RentalRecruitOffer:
-	.string "That was a fine team! Would you like\n"
-	.string "to recruit one of them?$"
+	.string "They fought well. By house custom you\n"
+	.string "may take one into your keeping. Do so?$"
 
 BattleFrontier_BattleTowerLobby_Text_RentalRecruitWhich:
-	.string "Recruit {STR_VAR_1}?$"
+	.string "Take {STR_VAR_1} into your keeping?$"
 
 BattleFrontier_BattleTowerLobby_Text_RentalRecruitRelease:
-	.string "Which of your team will you release\n"
-	.string "to make room?$"
+	.string "And which of yours returns to the\n"
+	.string "loaner pool in trade?$"
 
 BattleFrontier_BattleTowerLobby_Text_RentalRecruitDone:
-	.string "{STR_VAR_1} joined your team!$"
+	.string "{STR_VAR_1} is entrusted to you!$"
 
 BattleFrontier_BattleTowerLobby_Text_RentalRecruitFail:
-	.string "That would break the team rules.\n"
-	.string "Choose another.$"
+	.string "House rules forbid it: two alike in\n"
+	.string "kind or in gear. Choose again.$"
+
+BattleFrontier_BattleTowerLobby_Text_RentalLeaving:
+	.string "Then the floor is yours no longer.\n"
+	.string "Go well, challenger.$"
