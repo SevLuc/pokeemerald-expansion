@@ -7,6 +7,11 @@ Update in the same PR as the change.
 `YYYY-MM-DD` — area — one-line summary (PR/commit ref)
 
 ## Entries
+- 2026-09-01 - feat/rental - Rental battle: new themed run-setup screen (format +
+  restricted cap) replacing the two overworld menus; pick screen redesigned with framed
+  foe/team bays and a cursor highlight; pick-screen controls reworked so B undoes the
+  last pick and SELECT retires behind a Yes/No confirm (B can no longer end a run by
+  accident).
 - 2026-08-31 - feat/rental - RENTAL BATTLE recruit board (UI proposal U5). New screen
   (src/rental_recruit_screen.c, special DoRentalRecruit) replacing the yes/no-per-mon
   recruit loop: pick one of the opponent's fielded mons, then one of your six to
