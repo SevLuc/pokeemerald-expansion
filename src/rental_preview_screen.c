@@ -86,6 +86,7 @@ static void CB2_RentalPreview(void);
 static void VBlankCB_RentalPreview(void);
 static void Preview_CreateIcons(void);
 static void Preview_UpdateCursorRaise(void);
+static void Preview_DrawBays(void);
 static void Preview_DrawTitleHud(void);
 static void Preview_DrawMid(void);
 static void Preview_DrawTags(void);
@@ -117,14 +118,39 @@ static const struct WindowTemplate sPreview_WindowTemplates[] =
     DUMMY_WIN_TEMPLATE
 };
 
-// Palette 15: 0 = backdrop (dark indigo, also the screen transparent color),
-// 1 = white text, 2 = shadow, 3 = gold accent.
+// Palette 15: 0 = navy backdrop, 1 = white text, 2 = shadow, 3 = gold accent,
+// 4 = bay interior panel, 5 = foe frame (yellow), 6 = player frame (cyan),
+// 7 = cursor cell highlight.
 static const u16 sPreview_Pal[16] =
 {
     RGB(4, 4, 10), RGB(31, 31, 31), RGB(9, 9, 14), RGB(30, 24, 10),
-    RGB(20, 22, 28), RGB(31, 20, 18), RGB(18, 27, 20), RGB(0, 0, 0),
+    RGB(6, 6, 14), RGB(30, 24, 8), RGB(13, 22, 26), RGB(12, 12, 26),
     RGB(0, 0, 0), RGB(0, 0, 0), RGB(0, 0, 0), RGB(0, 0, 0),
     RGB(0, 0, 0), RGB(0, 0, 0), RGB(0, 0, 0), RGB(0, 0, 0),
+};
+
+// Runtime solid-color tiles for the bays, loaded high to avoid the window glyph
+// region. Values below are absolute char-tile indices used in the tilemap.
+#define BAYTILE_BASE       500
+enum {
+    BAYTILE_PANEL     = BAYTILE_BASE, // pal 4 (bay interior)
+    BAYTILE_FRAME_OPP,                // pal 5 (yellow)
+    BAYTILE_FRAME_PLR,                // pal 6 (cyan)
+    BAYTILE_HILITE,                   // pal 7
+};
+#define BAYTILE_NUM 4
+
+#define SOLID_TILE(b) \
+    (b),(b),(b),(b),(b),(b),(b),(b),(b),(b),(b),(b),(b),(b),(b),(b), \
+    (b),(b),(b),(b),(b),(b),(b),(b),(b),(b),(b),(b),(b),(b),(b),(b)
+#define SOLID(idx) SOLID_TILE(((idx) << 4) | (idx))
+
+static const u8 sPreview_BayTiles[BAYTILE_NUM * 32] =
+{
+    SOLID(4),  // BAYTILE_PANEL
+    SOLID(5),  // BAYTILE_FRAME_OPP
+    SOLID(6),  // BAYTILE_FRAME_PLR
+    SOLID(7),  // BAYTILE_HILITE
 };
 
 static const u8 sTextColor[3]     = { 0, 1, 2 };
@@ -180,6 +206,7 @@ static void CB2_InitRentalPreview(void)
         sPreviewBgTilemap = AllocZeroed(BG_SCREEN_SIZE);
         SetBgTilemapBuffer(0, sPreviewBgTilemap);
         FillBgTilemapBufferRect(0, 0, 0, 0, 32, 32, 15);
+        LoadBgTiles(0, sPreview_BayTiles, sizeof(sPreview_BayTiles), BAYTILE_BASE);
         CopyBgTilemapBufferToVram(0);
         InitWindows(sPreview_WindowTemplates);
         DeactivateAllTextPrinters();
@@ -215,6 +242,7 @@ static void CB2_InitRentalPreview(void)
         gMain.state++;
         break;
     case 4:
+        Preview_DrawBays();
         Preview_DrawTitleHud();
         Preview_DrawMid();
         Preview_DrawTags();
@@ -274,15 +302,40 @@ static void Preview_CreateIcons(void)
 static void Preview_UpdateCursorRaise(void)
 {
     u8 i;
+    s16 hx;
+
     for (i = 0; i < sPreview->oppCount; i++)
         gSprites[sPreview->iconSpriteIds[ROW_OPP][i]].y = ICON_OPP_Y;
     for (i = 0; i < sPreview->plrCount; i++)
         gSprites[sPreview->iconSpriteIds[ROW_PLR][i]].y = ICON_PLR_Y;
 
+    // Repaint both interiors, then drop a highlight cell under the cursor.
+    FillBgTilemapBufferRect(0, BAYTILE_PANEL, 2, 3, 26, 4, 15);
+    FillBgTilemapBufferRect(0, BAYTILE_PANEL, 2, 10, 26, 4, 15);
+
+    hx = 2 + sPreview->col * (ICON_STEP_X / 8); // 36px step -> ~4.5 tiles; approx to cell
     if (sPreview->row == ROW_OPP)
+    {
         gSprites[sPreview->iconSpriteIds[ROW_OPP][sPreview->col]].y = ICON_OPP_Y - CURSOR_RAISE;
+        FillBgTilemapBufferRect(0, BAYTILE_HILITE, hx, 3, 4, 4, 15);
+    }
     else
+    {
         gSprites[sPreview->iconSpriteIds[ROW_PLR][sPreview->col]].y = ICON_PLR_Y - CURSOR_RAISE;
+        FillBgTilemapBufferRect(0, BAYTILE_HILITE, hx, 10, 4, 4, 15);
+    }
+    CopyBgTilemapBufferToVram(0);
+}
+
+// Framed decorative bays behind each icon row, drawn straight into the BG tilemap.
+static void Preview_DrawBays(void)
+{
+    // Foe bay: yellow frame, dark interior.
+    FillBgTilemapBufferRect(0, BAYTILE_FRAME_OPP, 1, 2, 28, 6, 15);
+    FillBgTilemapBufferRect(0, BAYTILE_PANEL,     2, 3, 26, 4, 15);
+    // Player bay: cyan frame, dark interior.
+    FillBgTilemapBufferRect(0, BAYTILE_FRAME_PLR, 1, 9, 28, 6, 15);
+    FillBgTilemapBufferRect(0, BAYTILE_PANEL,     2, 10, 26, 4, 15);
 }
 
 static void Preview_DrawTitleHud(void)
