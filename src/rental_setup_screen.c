@@ -110,7 +110,7 @@ static const u8 sText_Bring4[]   = _("bring 4");
 static const u8 sText_HelpFmt[]  = _("Singles: bring three of your six.");
 static const u8 sText_HelpDbl[]  = _("Doubles: bring four; first two lead.");
 static const u8 sText_HelpCap[]  = _("How many legendary-class allowed.");
-static const u8 sText_Foot[]     = _("Pad: Move  <>: Change  START: Begin  B: Back");
+static const u8 sText_Foot[]     = _("Pad: Move  <>: Change  START: Begin  B: Leave");
 
 void DoRentalSetup(void)
 {
