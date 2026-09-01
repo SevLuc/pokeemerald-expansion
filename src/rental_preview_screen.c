@@ -73,6 +73,8 @@ struct RentalPreview
     u8 oppCount;
     u8 plrCount;
     bool8 scoutOpen;
+    bool8 retireConfirmOpen;   // SELECT opened the retire Yes/No box
+    bool8 retireYes;           // confirm cursor: FALSE = NO (default), TRUE = YES
     u8 iconSpriteIds[2][PREVIEW_TEAM_SIZE];
 };
 
@@ -84,11 +86,13 @@ static void CB2_RentalPreview(void);
 static void VBlankCB_RentalPreview(void);
 static void Preview_CreateIcons(void);
 static void Preview_UpdateCursorRaise(void);
+static void Preview_DrawBays(void);
 static void Preview_DrawTitleHud(void);
 static void Preview_DrawMid(void);
 static void Preview_DrawTags(void);
 static void Preview_DrawInstructions(void);
 static void Preview_DrawScout(u8 oppCol);
+static void Preview_DrawRetireConfirm(void);
 static void Preview_Task_Main(u8 taskId);
 static void Preview_Task_Exit(u8 taskId);
 
@@ -114,14 +118,39 @@ static const struct WindowTemplate sPreview_WindowTemplates[] =
     DUMMY_WIN_TEMPLATE
 };
 
-// Palette 15: 0 = backdrop (dark indigo, also the screen transparent color),
-// 1 = white text, 2 = shadow, 3 = gold accent.
+// Palette 15: 0 = navy backdrop, 1 = white text, 2 = shadow, 3 = gold accent,
+// 4 = bay interior panel, 5 = foe frame (yellow), 6 = player frame (cyan),
+// 7 = cursor cell highlight.
 static const u16 sPreview_Pal[16] =
 {
     RGB(4, 4, 10), RGB(31, 31, 31), RGB(9, 9, 14), RGB(30, 24, 10),
-    RGB(20, 22, 28), RGB(31, 20, 18), RGB(18, 27, 20), RGB(0, 0, 0),
+    RGB(6, 6, 14), RGB(30, 24, 8), RGB(13, 22, 26), RGB(12, 12, 26),
     RGB(0, 0, 0), RGB(0, 0, 0), RGB(0, 0, 0), RGB(0, 0, 0),
     RGB(0, 0, 0), RGB(0, 0, 0), RGB(0, 0, 0), RGB(0, 0, 0),
+};
+
+// Runtime solid-color tiles for the bays, loaded high to avoid the window glyph
+// region. Values below are absolute char-tile indices used in the tilemap.
+#define BAYTILE_BASE       500
+enum {
+    BAYTILE_PANEL     = BAYTILE_BASE, // pal 4 (bay interior)
+    BAYTILE_FRAME_OPP,                // pal 5 (yellow)
+    BAYTILE_FRAME_PLR,                // pal 6 (cyan)
+    BAYTILE_HILITE,                   // pal 7
+};
+#define BAYTILE_NUM 4
+
+#define SOLID_TILE(b) \
+    (b),(b),(b),(b),(b),(b),(b),(b),(b),(b),(b),(b),(b),(b),(b),(b), \
+    (b),(b),(b),(b),(b),(b),(b),(b),(b),(b),(b),(b),(b),(b),(b),(b)
+#define SOLID(idx) SOLID_TILE(((idx) << 4) | (idx))
+
+static const u8 sPreview_BayTiles[BAYTILE_NUM * 32] =
+{
+    SOLID(4),  // BAYTILE_PANEL
+    SOLID(5),  // BAYTILE_FRAME_OPP
+    SOLID(6),  // BAYTILE_FRAME_PLR
+    SOLID(7),  // BAYTILE_HILITE
 };
 
 static const u8 sTextColor[3]     = { 0, 1, 2 };
@@ -136,13 +165,17 @@ static const u8 sText_SpaceR[]     = _("  R");
 static const u8 sText_YourTeam[]   = _("YOUR TEAM");
 static const u8 sText_Bring[]      = _("BRING ");
 static const u8 sText_Slash[]      = _("/");
-static const u8 sText_HintOpp[]    = _("Pad: Move   A: Scout   B: Leave");
-static const u8 sText_HintPlr[]    = _("Pad: Move   A: Pick/Drop   B: Leave");
+static const u8 sText_HintOpp[]    = _("Pad: Move  A: Scout  B: Undo  SEL: Retire");
+static const u8 sText_HintPlr[]    = _("Pad: Move  A: Pick  B: Undo  SEL: Retire");
 static const u8 sText_HintGo[]     = _("START: Begin once your team is set");
 static const u8 sText_At[]         = _(" · ");
 static const u8 sText_Ability[]    = _("Ability: ");
 static const u8 sText_Dash[]       = _("- ");
 static const u8 sText_Gap[]        = _("   ");
+static const u8 sText_RetireQ[]    = _("Retire this run?");
+static const u8 sText_Yes[]        = _("YES");
+static const u8 sText_No[]         = _("NO");
+static const u8 sText_ConfirmHint[] = _("A: Confirm   B: Cancel");
 
 void DoRentalTeamPreview(void)
 {
@@ -173,6 +206,7 @@ static void CB2_InitRentalPreview(void)
         sPreviewBgTilemap = AllocZeroed(BG_SCREEN_SIZE);
         SetBgTilemapBuffer(0, sPreviewBgTilemap);
         FillBgTilemapBufferRect(0, 0, 0, 0, 32, 32, 15);
+        LoadBgTiles(0, sPreview_BayTiles, sizeof(sPreview_BayTiles), BAYTILE_BASE);
         CopyBgTilemapBufferToVram(0);
         InitWindows(sPreview_WindowTemplates);
         DeactivateAllTextPrinters();
@@ -208,6 +242,7 @@ static void CB2_InitRentalPreview(void)
         gMain.state++;
         break;
     case 4:
+        Preview_DrawBays();
         Preview_DrawTitleHud();
         Preview_DrawMid();
         Preview_DrawTags();
@@ -267,15 +302,40 @@ static void Preview_CreateIcons(void)
 static void Preview_UpdateCursorRaise(void)
 {
     u8 i;
+    s16 hx;
+
     for (i = 0; i < sPreview->oppCount; i++)
         gSprites[sPreview->iconSpriteIds[ROW_OPP][i]].y = ICON_OPP_Y;
     for (i = 0; i < sPreview->plrCount; i++)
         gSprites[sPreview->iconSpriteIds[ROW_PLR][i]].y = ICON_PLR_Y;
 
+    // Repaint both interiors, then drop a highlight cell under the cursor.
+    FillBgTilemapBufferRect(0, BAYTILE_PANEL, 2, 3, 26, 4, 15);
+    FillBgTilemapBufferRect(0, BAYTILE_PANEL, 2, 10, 26, 4, 15);
+
+    hx = 2 + sPreview->col * (ICON_STEP_X / 8); // 36px step -> ~4.5 tiles; approx to cell
     if (sPreview->row == ROW_OPP)
+    {
         gSprites[sPreview->iconSpriteIds[ROW_OPP][sPreview->col]].y = ICON_OPP_Y - CURSOR_RAISE;
+        FillBgTilemapBufferRect(0, BAYTILE_HILITE, hx, 3, 4, 4, 15);
+    }
     else
+    {
         gSprites[sPreview->iconSpriteIds[ROW_PLR][sPreview->col]].y = ICON_PLR_Y - CURSOR_RAISE;
+        FillBgTilemapBufferRect(0, BAYTILE_HILITE, hx, 10, 4, 4, 15);
+    }
+    CopyBgTilemapBufferToVram(0);
+}
+
+// Framed decorative bays behind each icon row, drawn straight into the BG tilemap.
+static void Preview_DrawBays(void)
+{
+    // Foe bay: yellow frame, dark interior.
+    FillBgTilemapBufferRect(0, BAYTILE_FRAME_OPP, 1, 2, 28, 6, 15);
+    FillBgTilemapBufferRect(0, BAYTILE_PANEL,     2, 3, 26, 4, 15);
+    // Player bay: cyan frame, dark interior.
+    FillBgTilemapBufferRect(0, BAYTILE_FRAME_PLR, 1, 9, 28, 6, 15);
+    FillBgTilemapBufferRect(0, BAYTILE_PANEL,     2, 10, 26, 4, 15);
 }
 
 static void Preview_DrawTitleHud(void)
@@ -427,6 +487,43 @@ static void Preview_ToggleBring(void)
     Preview_DrawTags();
 }
 
+// B on the player row: pop the most recently picked mon (its order == broughtCount).
+static void Preview_Undo(void)
+{
+    u8 i;
+    if (sPreview->broughtCount == 0)
+    {
+        PlaySE(SE_FAILURE);
+        return;
+    }
+    for (i = 0; i < sPreview->plrCount; i++)
+    {
+        if (sPreview->order[i] == sPreview->broughtCount)
+        {
+            sPreview->order[i] = 0;
+            break;
+        }
+    }
+    sPreview->broughtCount--;
+    PlaySE(SE_SELECT);
+    Preview_DrawMid();
+    Preview_DrawTags();
+}
+
+// The retire confirm box, drawn into the message window. Default cursor sits on NO.
+static void Preview_DrawRetireConfirm(void)
+{
+    FillWindowPixelBuffer(PWIN_MSG, PIXEL_FILL(0));
+    AddTextPrinterParameterized3(PWIN_MSG, FONT_SMALL, 2, 2, sTextColorGold, TEXT_SKIP_DRAW, sText_RetireQ);
+    AddTextPrinterParameterized3(PWIN_MSG, FONT_SMALL, 30, 16,
+            sPreview->retireYes ? sTextColorGold : sTextColor, TEXT_SKIP_DRAW, sText_Yes);
+    AddTextPrinterParameterized3(PWIN_MSG, FONT_SMALL, 80, 16,
+            sPreview->retireYes ? sTextColor : sTextColorGold, TEXT_SKIP_DRAW, sText_No);
+    AddTextPrinterParameterized3(PWIN_MSG, FONT_SMALL, 2, 28, sTextColor, TEXT_SKIP_DRAW, sText_ConfirmHint);
+    PutWindowTilemap(PWIN_MSG);
+    CopyWindowToVram(PWIN_MSG, COPYWIN_FULL);
+}
+
 static void Preview_Confirm(u8 taskId)
 {
     u8 i, o;
@@ -460,6 +557,40 @@ static void Preview_Task_Main(u8 taskId)
 {
     if (gPaletteFade.active)
         return;
+
+    // Retire confirm takes priority over everything else.
+    if (sPreview->retireConfirmOpen)
+    {
+        if (JOY_NEW(DPAD_LEFT | DPAD_RIGHT))
+        {
+            sPreview->retireYes = !sPreview->retireYes;
+            PlaySE(SE_SELECT);
+            Preview_DrawRetireConfirm();
+        }
+        else if (JOY_NEW(A_BUTTON))
+        {
+            if (sPreview->retireYes)
+            {
+                sPreview->retireConfirmOpen = FALSE;
+                PlaySE(SE_SELECT);
+                BeginNormalPaletteFade(PALETTES_ALL, 0, 0, 16, RGB_BLACK);
+                Preview_Retire(taskId);
+            }
+            else
+            {
+                sPreview->retireConfirmOpen = FALSE;
+                PlaySE(SE_SELECT);
+                Preview_DrawInstructions();
+            }
+        }
+        else if (JOY_NEW(B_BUTTON))
+        {
+            sPreview->retireConfirmOpen = FALSE;
+            PlaySE(SE_SELECT);
+            Preview_DrawInstructions();
+        }
+        return;
+    }
 
     if (sPreview->scoutOpen)
     {
@@ -519,11 +650,16 @@ static void Preview_Task_Main(u8 taskId)
             PlaySE(SE_FAILURE);
         }
     }
+    else if (JOY_NEW(SELECT_BUTTON))
+    {
+        sPreview->retireConfirmOpen = TRUE;
+        sPreview->retireYes = FALSE;   // default to NO
+        PlaySE(SE_SELECT);
+        Preview_DrawRetireConfirm();
+    }
     else if (JOY_NEW(B_BUTTON))
     {
-        PlaySE(SE_SELECT);
-        BeginNormalPaletteFade(PALETTES_ALL, 0, 0, 16, RGB_BLACK);
-        Preview_Retire(taskId);
+        Preview_Undo();
     }
 }
 

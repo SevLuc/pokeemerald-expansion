@@ -1403,8 +1403,9 @@ BattleFrontier_BattleTowerLobby_Text_ExplainMultiLinkRules:
 @ battles vs generated pool teams: each battle you preview the opponent, bring
 @ your team, and fight; wins extend a streak, a loss (or retiring at the party
 @ menu) ends the run. The full six are stashed before each battle and restored
-@ (healed) after, so the same team carries the whole run. Singles (bring 3) or
-@ Doubles (bring 4) and the restricted cap (0/1/2) are both chosen up front.
+@ (healed) after, so the same team carries the whole run. The format (Singles
+@ bring 3 / Doubles bring 4) and the restricted cap (0/1/2) are chosen on the
+@ themed setup screen shown by special DoRentalSetup.
 @ Standalone rental battle driver. Auto-run on entry to the rental hub map by
 @ FieldCB_RentalHubEnter (there is no attendant NPC), so it uses lockall/releaseall
 @ rather than lock/faceplayer, and exits via EndRentalMode instead of returning to
@@ -1413,42 +1414,11 @@ BattleFrontier_BattleTowerLobby_EventScript_RentalAttendant::
 	lockall
 	msgbox BattleFrontier_BattleTowerLobby_Text_RentalDraftIntro, MSGBOX_DEFAULT
 BattleFrontier_BattleTowerLobby_EventScript_RentalAskFormat::
-	message BattleFrontier_BattleTowerLobby_Text_RentalFormatPrompt
-	waitmessage
-	dynmultipush BattleFrontier_BattleTowerLobby_Text_RentalOptSingles, 0
-	dynmultipush BattleFrontier_BattleTowerLobby_Text_RentalOptDoubles, 1
-	dynmultistack 1, 1, FALSE, 2, 0, 0, DYN_MULTICHOICE_CB_NONE
-	switch VAR_RESULT
-	case 0, BattleFrontier_BattleTowerLobby_EventScript_RentalFmtSingles
-	case 1, BattleFrontier_BattleTowerLobby_EventScript_RentalFmtDoubles
-	case MULTI_B_PRESSED, BattleFrontier_BattleTowerLobby_EventScript_RentalExitMode
-BattleFrontier_BattleTowerLobby_EventScript_RentalFmtSingles::
-	setvar VAR_0x8004, 0
-	goto BattleFrontier_BattleTowerLobby_EventScript_RentalAskCap
-BattleFrontier_BattleTowerLobby_EventScript_RentalFmtDoubles::
-	setvar VAR_0x8004, 1
-BattleFrontier_BattleTowerLobby_EventScript_RentalAskCap::
-	message BattleFrontier_BattleTowerLobby_Text_RentalCapPrompt
-	waitmessage
-	dynmultipush BattleFrontier_BattleTowerLobby_Text_RentalOptCapNone, 0
-	dynmultipush BattleFrontier_BattleTowerLobby_Text_RentalOptCapOne, 1
-	dynmultipush BattleFrontier_BattleTowerLobby_Text_RentalOptCapTwo, 2
-	dynmultistack 1, 1, FALSE, 3, 0, 0, DYN_MULTICHOICE_CB_NONE
-	switch VAR_RESULT
-	case 0, BattleFrontier_BattleTowerLobby_EventScript_RentalCap0
-	case 1, BattleFrontier_BattleTowerLobby_EventScript_RentalCap1
-	case 2, BattleFrontier_BattleTowerLobby_EventScript_RentalCap2
-	case MULTI_B_PRESSED, BattleFrontier_BattleTowerLobby_EventScript_RentalAskFormat
-BattleFrontier_BattleTowerLobby_EventScript_RentalCap0::
-	setvar VAR_0x8005, 0
-	goto BattleFrontier_BattleTowerLobby_EventScript_RentalStartDraft
-BattleFrontier_BattleTowerLobby_EventScript_RentalCap1::
-	setvar VAR_0x8005, 1
-	goto BattleFrontier_BattleTowerLobby_EventScript_RentalStartDraft
-BattleFrontier_BattleTowerLobby_EventScript_RentalCap2::
-	setvar VAR_0x8005, 2
-BattleFrontier_BattleTowerLobby_EventScript_RentalStartDraft::
 	closemessage
+	special DoRentalSetup
+	waitstate
+	goto_if_eq VAR_RESULT, 0, BattleFrontier_BattleTowerLobby_EventScript_RentalExitMode
+BattleFrontier_BattleTowerLobby_EventScript_RentalStartDraft::
 	special StartRentalDraft
 	waitstate
 BattleFrontier_BattleTowerLobby_EventScript_RentalBattleLoop::
@@ -1517,28 +1487,6 @@ BattleFrontier_BattleTowerLobby_Text_RentalDraftIntro:
 	.string "challenger. Nothing here is yours…\p"
 	.string "…yet tonight, all of it answers\n"
 	.string "to you. Choose six of these twelve.$"
-
-BattleFrontier_BattleTowerLobby_Text_RentalFormatPrompt:
-	.string "How shall we stage the bout?$"
-
-BattleFrontier_BattleTowerLobby_Text_RentalOptSingles:
-	.string "SINGLES: bring three$"
-
-BattleFrontier_BattleTowerLobby_Text_RentalOptDoubles:
-	.string "DOUBLES: bring four$"
-
-BattleFrontier_BattleTowerLobby_Text_RentalCapPrompt:
-	.string "And RESTRICTED POKéMON, the\n"
-	.string "legendary sort, how many?$"
-
-BattleFrontier_BattleTowerLobby_Text_RentalOptCapNone:
-	.string "None$"
-
-BattleFrontier_BattleTowerLobby_Text_RentalOptCapOne:
-	.string "One$"
-
-BattleFrontier_BattleTowerLobby_Text_RentalOptCapTwo:
-	.string "Two$"
 
 BattleFrontier_BattleTowerLobby_Text_RentalPreview:
 	.string "Your challenger fields these six:\p"

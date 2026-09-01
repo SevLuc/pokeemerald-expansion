@@ -20,6 +20,7 @@ gSpecials::
 	def_special HealPlayerParty
 	def_special BufferRandomRentalMon
 	def_special StartRentalDraft
+	def_special DoRentalSetup
 	def_special BufferRentalOpponentPreview
 	def_special RentalPrepareNextBattle
 	def_special RentalSaveFullParty
