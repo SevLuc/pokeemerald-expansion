@@ -73,6 +73,8 @@ struct RentalPreview
     u8 oppCount;
     u8 plrCount;
     bool8 scoutOpen;
+    bool8 retireConfirmOpen;   // SELECT opened the retire Yes/No box
+    bool8 retireYes;           // confirm cursor: FALSE = NO (default), TRUE = YES
     u8 iconSpriteIds[2][PREVIEW_TEAM_SIZE];
 };
 
@@ -89,6 +91,7 @@ static void Preview_DrawMid(void);
 static void Preview_DrawTags(void);
 static void Preview_DrawInstructions(void);
 static void Preview_DrawScout(u8 oppCol);
+static void Preview_DrawRetireConfirm(void);
 static void Preview_Task_Main(u8 taskId);
 static void Preview_Task_Exit(u8 taskId);
 
@@ -136,13 +139,17 @@ static const u8 sText_SpaceR[]     = _("  R");
 static const u8 sText_YourTeam[]   = _("YOUR TEAM");
 static const u8 sText_Bring[]      = _("BRING ");
 static const u8 sText_Slash[]      = _("/");
-static const u8 sText_HintOpp[]    = _("Pad: Move   A: Scout   B: Leave");
-static const u8 sText_HintPlr[]    = _("Pad: Move   A: Pick/Drop   B: Leave");
+static const u8 sText_HintOpp[]    = _("Pad: Move  A: Scout  B: Undo  SEL: Retire");
+static const u8 sText_HintPlr[]    = _("Pad: Move  A: Pick  B: Undo  SEL: Retire");
 static const u8 sText_HintGo[]     = _("START: Begin once your team is set");
 static const u8 sText_At[]         = _(" · ");
 static const u8 sText_Ability[]    = _("Ability: ");
 static const u8 sText_Dash[]       = _("- ");
 static const u8 sText_Gap[]        = _("   ");
+static const u8 sText_RetireQ[]    = _("Retire this run?");
+static const u8 sText_Yes[]        = _("YES");
+static const u8 sText_No[]         = _("NO");
+static const u8 sText_ConfirmHint[] = _("A: Confirm   B: Cancel");
 
 void DoRentalTeamPreview(void)
 {
@@ -427,6 +434,43 @@ static void Preview_ToggleBring(void)
     Preview_DrawTags();
 }
 
+// B on the player row: pop the most recently picked mon (its order == broughtCount).
+static void Preview_Undo(void)
+{
+    u8 i;
+    if (sPreview->broughtCount == 0)
+    {
+        PlaySE(SE_FAILURE);
+        return;
+    }
+    for (i = 0; i < sPreview->plrCount; i++)
+    {
+        if (sPreview->order[i] == sPreview->broughtCount)
+        {
+            sPreview->order[i] = 0;
+            break;
+        }
+    }
+    sPreview->broughtCount--;
+    PlaySE(SE_SELECT);
+    Preview_DrawMid();
+    Preview_DrawTags();
+}
+
+// The retire confirm box, drawn into the message window. Default cursor sits on NO.
+static void Preview_DrawRetireConfirm(void)
+{
+    FillWindowPixelBuffer(PWIN_MSG, PIXEL_FILL(0));
+    AddTextPrinterParameterized3(PWIN_MSG, FONT_SMALL, 2, 2, sTextColorGold, TEXT_SKIP_DRAW, sText_RetireQ);
+    AddTextPrinterParameterized3(PWIN_MSG, FONT_SMALL, 30, 16,
+            sPreview->retireYes ? sTextColorGold : sTextColor, TEXT_SKIP_DRAW, sText_Yes);
+    AddTextPrinterParameterized3(PWIN_MSG, FONT_SMALL, 80, 16,
+            sPreview->retireYes ? sTextColor : sTextColorGold, TEXT_SKIP_DRAW, sText_No);
+    AddTextPrinterParameterized3(PWIN_MSG, FONT_SMALL, 2, 28, sTextColor, TEXT_SKIP_DRAW, sText_ConfirmHint);
+    PutWindowTilemap(PWIN_MSG);
+    CopyWindowToVram(PWIN_MSG, COPYWIN_FULL);
+}
+
 static void Preview_Confirm(u8 taskId)
 {
     u8 i, o;
@@ -460,6 +504,40 @@ static void Preview_Task_Main(u8 taskId)
 {
     if (gPaletteFade.active)
         return;
+
+    // Retire confirm takes priority over everything else.
+    if (sPreview->retireConfirmOpen)
+    {
+        if (JOY_NEW(DPAD_LEFT | DPAD_RIGHT))
+        {
+            sPreview->retireYes = !sPreview->retireYes;
+            PlaySE(SE_SELECT);
+            Preview_DrawRetireConfirm();
+        }
+        else if (JOY_NEW(A_BUTTON))
+        {
+            if (sPreview->retireYes)
+            {
+                sPreview->retireConfirmOpen = FALSE;
+                PlaySE(SE_SELECT);
+                BeginNormalPaletteFade(PALETTES_ALL, 0, 0, 16, RGB_BLACK);
+                Preview_Retire(taskId);
+            }
+            else
+            {
+                sPreview->retireConfirmOpen = FALSE;
+                PlaySE(SE_SELECT);
+                Preview_DrawInstructions();
+            }
+        }
+        else if (JOY_NEW(B_BUTTON))
+        {
+            sPreview->retireConfirmOpen = FALSE;
+            PlaySE(SE_SELECT);
+            Preview_DrawInstructions();
+        }
+        return;
+    }
 
     if (sPreview->scoutOpen)
     {
@@ -519,11 +597,16 @@ static void Preview_Task_Main(u8 taskId)
             PlaySE(SE_FAILURE);
         }
     }
+    else if (JOY_NEW(SELECT_BUTTON))
+    {
+        sPreview->retireConfirmOpen = TRUE;
+        sPreview->retireYes = FALSE;   // default to NO
+        PlaySE(SE_SELECT);
+        Preview_DrawRetireConfirm();
+    }
     else if (JOY_NEW(B_BUTTON))
     {
-        PlaySE(SE_SELECT);
-        BeginNormalPaletteFade(PALETTES_ALL, 0, 0, 16, RGB_BLACK);
-        Preview_Retire(taskId);
+        Preview_Undo();
     }
 }
 
