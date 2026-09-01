@@ -7,6 +7,37 @@ Update in the same PR as the change.
 `YYYY-MM-DD` — area — one-line summary (PR/commit ref)
 
 ## Entries
+- 2026-08-31 - feat/rental - RENTAL BATTLE recruit board (UI proposal U5). New screen
+  (src/rental_recruit_screen.c, special DoRentalRecruit) replacing the yes/no-per-mon
+  recruit loop: pick one of the opponent's fielded mons, then one of your six to
+  return in trade, with rule-breaking swaps blocked at the pick. Sets the vars the
+  existing RentalDoRecruit consumes (which now also buffers the recruited species for
+  the "joined" line). New public helpers RentalGetFieldCount / RentalRecruitLegal.
+  (src/rental_recruit_screen.c, src/rental_mode.c, include/rental_mode.h,
+  data/maps/BattleFrontier_BattleTowerLobby/scripts.inc, data/specials.inc)
+- 2026-08-31 - feat/rental - RENTAL BATTLE team-preview board (UI proposal U4). New
+  screen (src/rental_preview_screen.c, special DoRentalTeamPreview) replacing the
+  comma-list preview text and the party-menu bring step: both rosters shown as party
+  icons, A scouts an opponent's build (moves/item/ability) in a panel, and you pick
+  your bring on the same board (the pick order is the send/lead order; in doubles the
+  first two lead). A run-status HUD (streak/format/cap) rides along (folds in U6).
+  Writes gSelectedOrderFromParty[] + VAR_RESULT exactly like ChoosePartyForBattleFrontier,
+  so the reduce/battle path is unchanged. (src/rental_preview_screen.c,
+  data/maps/BattleFrontier_BattleTowerLobby/scripts.inc, data/specials.inc,
+  include/rental_mode.h)
+- 2026-08-31 - feat/rental - RENTAL BATTLE setup menu (UI proposal U2). Replaced the
+  three YES/NO format/cap prompts with two real framed menus (format: Singles/Doubles;
+  restricted cap: None/One/Two) via dynmultichoice. Backing out of the format menu now
+  leaves the mode cleanly; both the play-again NO branch and that back-out share one
+  RentalExitMode label. Same vars written (VAR_0x8004 format, VAR_0x8005 cap), so the
+  draft/battle flow is unchanged. (data/maps/BattleFrontier_BattleTowerLobby/scripts.inc)
+- 2026-08-31 - feat/rental - RENTAL BATTLE voice pass (UI proposal U1). Replaced the
+  placeholder mode strings with the host "Steward" voice (loaner-floor framing; pomp in
+  the lobby beats, plain speech at battle-start), gave the previously-dead intro string a
+  home at the top of the flow, and added a "leaving the floor" line on the play-again NO
+  branch. Text/flavor only; no logic or screen changes. Steward logged in the lore ledger
+  (STEW-01..03). (data/maps/BattleFrontier_BattleTowerLobby/scripts.inc,
+  docs/writing/lore-ledger.md)
 - 2026-08-30 - fix/celadon - Rocket Hideout entrance now gated behind Erika. The Game
   Corner poster switch stays inert (stairs never revealed) until FLAG_DEFEATED_ERIKA is
   set; new "poster of a famous idol" message before then. Post-Erika behavior unchanged.

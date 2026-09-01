@@ -1411,37 +1411,53 @@ BattleFrontier_BattleTowerLobby_Text_ExplainMultiLinkRules:
 @ the field.
 BattleFrontier_BattleTowerLobby_EventScript_RentalAttendant::
 	lockall
-	msgbox BattleFrontier_BattleTowerLobby_Text_RentalAskDoubles, MSGBOX_YESNO
-	goto_if_eq VAR_RESULT, YES, BattleFrontier_BattleTowerLobby_EventScript_RentalFmtDoubles
+	msgbox BattleFrontier_BattleTowerLobby_Text_RentalDraftIntro, MSGBOX_DEFAULT
+BattleFrontier_BattleTowerLobby_EventScript_RentalAskFormat::
+	message BattleFrontier_BattleTowerLobby_Text_RentalFormatPrompt
+	waitmessage
+	dynmultipush BattleFrontier_BattleTowerLobby_Text_RentalOptSingles, 0
+	dynmultipush BattleFrontier_BattleTowerLobby_Text_RentalOptDoubles, 1
+	dynmultistack 1, 1, FALSE, 2, 0, 0, DYN_MULTICHOICE_CB_NONE
+	switch VAR_RESULT
+	case 0, BattleFrontier_BattleTowerLobby_EventScript_RentalFmtSingles
+	case 1, BattleFrontier_BattleTowerLobby_EventScript_RentalFmtDoubles
+	case MULTI_B_PRESSED, BattleFrontier_BattleTowerLobby_EventScript_RentalExitMode
+BattleFrontier_BattleTowerLobby_EventScript_RentalFmtSingles::
 	setvar VAR_0x8004, 0
 	goto BattleFrontier_BattleTowerLobby_EventScript_RentalAskCap
 BattleFrontier_BattleTowerLobby_EventScript_RentalFmtDoubles::
 	setvar VAR_0x8004, 1
 BattleFrontier_BattleTowerLobby_EventScript_RentalAskCap::
-	msgbox BattleFrontier_BattleTowerLobby_Text_RentalAskRestricted, MSGBOX_YESNO
-	goto_if_eq VAR_RESULT, NO, BattleFrontier_BattleTowerLobby_EventScript_RentalCap0
-	msgbox BattleFrontier_BattleTowerLobby_Text_RentalAskTwo, MSGBOX_YESNO
-	goto_if_eq VAR_RESULT, YES, BattleFrontier_BattleTowerLobby_EventScript_RentalCap2
+	message BattleFrontier_BattleTowerLobby_Text_RentalCapPrompt
+	waitmessage
+	dynmultipush BattleFrontier_BattleTowerLobby_Text_RentalOptCapNone, 0
+	dynmultipush BattleFrontier_BattleTowerLobby_Text_RentalOptCapOne, 1
+	dynmultipush BattleFrontier_BattleTowerLobby_Text_RentalOptCapTwo, 2
+	dynmultistack 1, 1, FALSE, 3, 0, 0, DYN_MULTICHOICE_CB_NONE
+	switch VAR_RESULT
+	case 0, BattleFrontier_BattleTowerLobby_EventScript_RentalCap0
+	case 1, BattleFrontier_BattleTowerLobby_EventScript_RentalCap1
+	case 2, BattleFrontier_BattleTowerLobby_EventScript_RentalCap2
+	case MULTI_B_PRESSED, BattleFrontier_BattleTowerLobby_EventScript_RentalAskFormat
+BattleFrontier_BattleTowerLobby_EventScript_RentalCap0::
+	setvar VAR_0x8005, 0
+	goto BattleFrontier_BattleTowerLobby_EventScript_RentalStartDraft
+BattleFrontier_BattleTowerLobby_EventScript_RentalCap1::
 	setvar VAR_0x8005, 1
 	goto BattleFrontier_BattleTowerLobby_EventScript_RentalStartDraft
 BattleFrontier_BattleTowerLobby_EventScript_RentalCap2::
 	setvar VAR_0x8005, 2
-	goto BattleFrontier_BattleTowerLobby_EventScript_RentalStartDraft
-BattleFrontier_BattleTowerLobby_EventScript_RentalCap0::
-	setvar VAR_0x8005, 0
 BattleFrontier_BattleTowerLobby_EventScript_RentalStartDraft::
+	closemessage
 	special StartRentalDraft
 	waitstate
 BattleFrontier_BattleTowerLobby_EventScript_RentalBattleLoop::
 	special RentalPrepareNextBattle
-	special BufferRentalOpponentPreview
-	msgbox BattleFrontier_BattleTowerLobby_Text_RentalPreview, MSGBOX_DEFAULT
-	msgbox BattleFrontier_BattleTowerLobby_Text_RentalSelectThree, MSGBOX_DEFAULT
 	fadescreen FADE_TO_BLACK
 	callnative RemoveFollowingPokemon
 	special RentalSaveFullParty
-	special RentalSetBringCountVar
-	special ChoosePartyForBattleFrontier
+	special DoRentalTeamPreview
+	waitstate
 	goto_if_eq VAR_RESULT, 0, BattleFrontier_BattleTowerLobby_EventScript_RentalRetire
 	special ReducePlayerPartyToSelectedMons
 	msgbox BattleFrontier_BattleTowerLobby_Text_RentalBattleStart, MSGBOX_DEFAULT
@@ -1454,15 +1470,10 @@ BattleFrontier_BattleTowerLobby_EventScript_RentalBattleLoop::
 	msgbox BattleFrontier_BattleTowerLobby_Text_RentalWonStreak, MSGBOX_DEFAULT
 	msgbox BattleFrontier_BattleTowerLobby_Text_RentalRecruitOffer, MSGBOX_YESNO
 	goto_if_eq VAR_RESULT, NO, BattleFrontier_BattleTowerLobby_EventScript_RentalBattleLoop
-	setvar VAR_0x8006, 0
-BattleFrontier_BattleTowerLobby_EventScript_RentalRecruitAsk::
-	special BufferRentalRecruitCandidate
+	fadescreen FADE_TO_BLACK
+	special DoRentalRecruit
+	waitstate
 	goto_if_eq VAR_RESULT, 0, BattleFrontier_BattleTowerLobby_EventScript_RentalBattleLoop
-	msgbox BattleFrontier_BattleTowerLobby_Text_RentalRecruitWhich, MSGBOX_YESNO
-	goto_if_eq VAR_RESULT, NO, BattleFrontier_BattleTowerLobby_EventScript_RentalRecruitNext
-	msgbox BattleFrontier_BattleTowerLobby_Text_RentalRecruitRelease, MSGBOX_DEFAULT
-	special ChoosePartyMon
-	goto_if_ge VAR_0x8004, PARTY_SIZE, BattleFrontier_BattleTowerLobby_EventScript_RentalRecruitNext
 	special RentalDoRecruit
 	goto_if_eq VAR_RESULT, 0, BattleFrontier_BattleTowerLobby_EventScript_RentalRecruitFail
 	msgbox BattleFrontier_BattleTowerLobby_Text_RentalRecruitDone, MSGBOX_DEFAULT
@@ -1470,11 +1481,7 @@ BattleFrontier_BattleTowerLobby_EventScript_RentalRecruitAsk::
 
 BattleFrontier_BattleTowerLobby_EventScript_RentalRecruitFail::
 	msgbox BattleFrontier_BattleTowerLobby_Text_RentalRecruitFail, MSGBOX_DEFAULT
-	goto BattleFrontier_BattleTowerLobby_EventScript_RentalRecruitNext
-
-BattleFrontier_BattleTowerLobby_EventScript_RentalRecruitNext::
-	addvar VAR_0x8006, 1
-	goto BattleFrontier_BattleTowerLobby_EventScript_RentalRecruitAsk
+	goto BattleFrontier_BattleTowerLobby_EventScript_RentalBattleLoop
 
 BattleFrontier_BattleTowerLobby_EventScript_RentalRunOver::
 	special RentalBufferStreak
@@ -1492,6 +1499,13 @@ BattleFrontier_BattleTowerLobby_EventScript_RentalRetire::
 BattleFrontier_BattleTowerLobby_EventScript_RentalPlayAgain::
 	msgbox BattleFrontier_BattleTowerLobby_Text_RentalPlayAgain, MSGBOX_YESNO
 	goto_if_eq VAR_RESULT, YES, BattleFrontier_BattleTowerLobby_EventScript_RentalAttendant
+	goto BattleFrontier_BattleTowerLobby_EventScript_RentalExitMode
+
+@ Shared exit: the play-again NO branch and a back-out of the setup menu both
+@ land here. The standalone session is RAM-only, so leaving soft-resets to title.
+BattleFrontier_BattleTowerLobby_EventScript_RentalExitMode::
+	msgbox BattleFrontier_BattleTowerLobby_Text_RentalLeaving, MSGBOX_DEFAULT
+	closemessage
 	releaseall
 	fadescreen FADE_TO_BLACK
 	special EndRentalMode
@@ -1499,62 +1513,77 @@ BattleFrontier_BattleTowerLobby_EventScript_RentalPlayAgain::
 	end
 
 BattleFrontier_BattleTowerLobby_Text_RentalDraftIntro:
-	.string "Welcome to RENTAL BATTLE!\p"
-	.string "Draft six POKéMON from the twelve\n"
-	.string "I offer you.$"
+	.string "Welcome to the loaner floor,\n"
+	.string "challenger. Nothing here is yours…\p"
+	.string "…yet tonight, all of it answers\n"
+	.string "to you. Choose six of these twelve.$"
 
-BattleFrontier_BattleTowerLobby_Text_RentalAskDoubles:
-	.string "Will you battle in DOUBLES?\n"
-	.string "(Choose NO for SINGLES.)$"
+BattleFrontier_BattleTowerLobby_Text_RentalFormatPrompt:
+	.string "How shall we stage the bout?$"
 
-BattleFrontier_BattleTowerLobby_Text_RentalAskRestricted:
-	.string "Will you allow RESTRICTED POKéMON\n"
-	.string "(legendaries and the like) on a team?$"
+BattleFrontier_BattleTowerLobby_Text_RentalOptSingles:
+	.string "SINGLES: bring three$"
 
-BattleFrontier_BattleTowerLobby_Text_RentalAskTwo:
-	.string "Up to TWO per team?\p"
-	.string "(Choose NO for a limit of one.)$"
+BattleFrontier_BattleTowerLobby_Text_RentalOptDoubles:
+	.string "DOUBLES: bring four$"
+
+BattleFrontier_BattleTowerLobby_Text_RentalCapPrompt:
+	.string "And RESTRICTED POKéMON, the\n"
+	.string "legendary sort, how many?$"
+
+BattleFrontier_BattleTowerLobby_Text_RentalOptCapNone:
+	.string "None$"
+
+BattleFrontier_BattleTowerLobby_Text_RentalOptCapOne:
+	.string "One$"
+
+BattleFrontier_BattleTowerLobby_Text_RentalOptCapTwo:
+	.string "Two$"
 
 BattleFrontier_BattleTowerLobby_Text_RentalPreview:
-	.string "Your challenger's roster of six:\p"
+	.string "Your challenger fields these six:\p"
 	.string "{STR_VAR_1}.\p"
-	.string "They'll bring only some to battle,\n"
-	.string "so choose your team wisely.$"
+	.string "Only some will take the floor.\n"
+	.string "Choose your answer with care.$"
 
 BattleFrontier_BattleTowerLobby_Text_RentalSelectThree:
-	.string "Now choose your battle team from\n"
-	.string "the six you drafted.$"
+	.string "Now name the team you will send out,\n"
+	.string "from the six in your keeping.$"
 
 BattleFrontier_BattleTowerLobby_Text_RentalBattleStart:
-	.string "Your team is set. Your challenger\n"
-	.string "is ready. Good luck!$"
+	.string "Your team stands ready. So does\n"
+	.string "theirs. Begin, challenger.$"
 
 BattleFrontier_BattleTowerLobby_Text_RentalWonStreak:
-	.string "A fine battle! That's {STR_VAR_1} win(s)\n"
-	.string "in a row. On to the next!$"
+	.string "A clean bout. {STR_VAR_1} straight now.\n"
+	.string "The floor takes note.$"
 
 BattleFrontier_BattleTowerLobby_Text_RentalRunOver:
-	.string "Your run ends here, with {STR_VAR_1}\n"
-	.string "win(s). Well fought!$"
+	.string "Your run closes at {STR_VAR_1} win(s).\n"
+	.string "Honorably fought. The floor remembers.$"
 
 BattleFrontier_BattleTowerLobby_Text_RentalPlayAgain:
-	.string "Care for another run?\n"
-	.string "(Choose NO to leave RENTAL BATTLE.)$"
+	.string "Another run upon the floor?\n"
+	.string "(Choose NO to take your leave.)$"
 
 BattleFrontier_BattleTowerLobby_Text_RentalRecruitOffer:
-	.string "That was a fine team! Would you like\n"
-	.string "to recruit one of them?$"
+	.string "They fought well. By house custom you\n"
+	.string "may take one into your keeping. Do so?$"
 
 BattleFrontier_BattleTowerLobby_Text_RentalRecruitWhich:
-	.string "Recruit {STR_VAR_1}?$"
+	.string "Take {STR_VAR_1} into your keeping?$"
 
 BattleFrontier_BattleTowerLobby_Text_RentalRecruitRelease:
-	.string "Which of your team will you release\n"
-	.string "to make room?$"
+	.string "And which of yours returns to the\n"
+	.string "loaner pool in trade?$"
 
 BattleFrontier_BattleTowerLobby_Text_RentalRecruitDone:
-	.string "{STR_VAR_1} joined your team!$"
+	.string "{STR_VAR_1} is entrusted to you!$"
 
 BattleFrontier_BattleTowerLobby_Text_RentalRecruitFail:
-	.string "That would break the team rules.\n"
-	.string "Choose another.$"
+	.string "House rules forbid it: two alike in\n"
+	.string "kind or in gear. Choose again.$"
+
+BattleFrontier_BattleTowerLobby_Text_RentalLeaving:
+	.string "Then the floor is yours no longer.\n"
+	.string "Go well, challenger.$"

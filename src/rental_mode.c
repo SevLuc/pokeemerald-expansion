@@ -323,7 +323,23 @@ void RentalDoRecruit(void)
     CreateFacilityMon(&gRentalMons[newMon], FRONTIER_MAX_LEVEL_50, 31, 0, FLAG_FRONTIER_MON_FACTORY,
             &gParties[B_TRAINER_PLAYER][slot]);
     CalculatePlayerPartyCount();
+    StringCopy(gStringVar1, GetSpeciesName(gRentalMons[newMon].species)); // for the "joined" message
     gSpecialVar_Result = TRUE;
+}
+
+// Public helpers for the recruit board (src/rental_recruit_screen.c): how many
+// opponent mons are recruitable this battle, and whether swapping opponent field
+// mon [oppFieldIndex] in for roster slot [releaseSlot] keeps every rule.
+u32 RentalGetFieldCount(void)
+{
+    return RentalFieldCount();
+}
+
+bool32 RentalRecruitLegal(u32 oppFieldIndex, u32 releaseSlot)
+{
+    if (oppFieldIndex >= RentalFieldCount() || releaseSlot >= gRentalRun.rosterCount)
+        return FALSE;
+    return RentalRecruitClauseOK(gRentalRun.oppRoster[oppFieldIndex], releaseSlot);
 }
 
 // Script special: start a run and open the draft screen. Format/cap are hardcoded to

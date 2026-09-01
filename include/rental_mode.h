@@ -74,6 +74,17 @@ void RentalBufferStreak(void);      // buffer the current streak into gStringVar
 void BufferRentalRecruitCandidate(void); // buffer opponent VAR_0x8006's species name
 void RentalDoRecruit(void);              // swap roster slot VAR_0x8004 for opp VAR_0x8006
 
+// Recruit-board helpers (used by src/rental_recruit_screen.c).
+u32 RentalGetFieldCount(void);                            // recruitable opponent count this battle
+bool32 RentalRecruitLegal(u32 oppFieldIndex, u32 releaseSlot); // would this swap keep every rule?
+
+// The recruit board (S4): pick one of the opponent's fielded mons and one of yours
+// to release, with rule-breaking swaps blocked. Sets VAR_0x8006 (opp index),
+// VAR_0x8004 (release slot) and VAR_RESULT (TRUE = recruit chosen, FALSE = skip) for
+// the script's RentalDoRecruit. Defined in src/rental_recruit_screen.c; follow with
+// `waitstate`.
+void DoRentalRecruit(void);
+
 // Put the run's bring count (3/4) into VAR_0x8005 for the party-select prompt.
 void RentalSetBringCountVar(void);
 
@@ -83,6 +94,12 @@ void EndRentalMode(void);
 // The draft screen itself (an adapted copy of the Battle Factory select screen),
 // defined in src/rental_select_screen.c.
 void DoRentalDraftScreen(void);
+
+// The team-preview board (S3): shows both rosters as icons, scouts opponents, and
+// takes the bring-N pick. Writes gSelectedOrderFromParty[] + gSpecialVar_Result the
+// same way ChoosePartyForBattleFrontier does. Defined in src/rental_preview_screen.c.
+// Call it from a map script followed by `waitstate`.
+void DoRentalTeamPreview(void);
 
 // Script special: begin a run (roll the offer) and launch the draft screen. Use it
 // from a map script followed by `waitstate`, like the Factory's rent flow.

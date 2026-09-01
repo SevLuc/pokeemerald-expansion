@@ -941,6 +941,26 @@ Consistency notes:
 > `FLAG_SYS_GAME_CLEAR`), swapped by a `goto_if_set` branch on her repeatable line. The
 > box's contents are never shown on screen.
 
+## The Steward - RENTAL BATTLE host (loaner-floor MC)
+
+> Self-contained. The fixed host of the standalone RENTAL BATTLE main-menu mode;
+> not tied to any gym-leader arc and revealed nowhere in the story. A night-shift
+> Poke Center steward who has crowned himself master of ceremonies over a
+> back-room league of borrowed Pokemon and runs this scrub-tier loaner circuit
+> with Indigo-finals gravity. Voice: heightened Gentleman register ("challenger",
+> "into your keeping", "by house custom"). Silly-through-contrast (style-guide 1):
+> one grandee in an ordinary lobby. Tonal control: pomp in the lobby beats, plain
+> speech at battle-start so the Lv50 fight lands. Text/flavor only; any overworld
+> sprite would REUSE an existing vanilla object (e.g. the Gentleman), never new
+> art. In-mode strings live near
+> BattleFrontier_BattleTowerLobby_EventScript_RentalAttendant.
+
+| ID | Subject | Reveal | Source NPC | Map | Gate | Order | Status | Flags |
+|---|---|---|---|---|---|---|---|---|
+| STEW-01 | The Steward (identity) | Greets every challenger as master of ceremonies of the "loaner floor," a back-room league he plainly runs with more pomp than it deserves. | the Steward (RENTAL BATTLE host) | RENTAL BATTLE hub (Viridian PC 1F stand-in) | none (main-menu mode) | 1 | idea | - |
+| STEW-02 | The loaner custom (framing) | By "old house custom" nothing you field is truly yours; the night's victor may take a rival's battler into their keeping, leaving one of their own in trade. Where the pool comes from is never said. | the Steward | RENTAL BATTLE hub | none | 2 | idea | coy: never explain the pool's origin |
+| STEW-03 | The honor board (tone) | Keeps a running tally ("the floor remembers," "the floor takes note") and treats a small win streak as a matter of record. | the Steward | RENTAL BATTLE hub | none | 3 | idea | - |
+
 ## Template: new gym leader
 Copy per leader. Keep fragments optional and gated so a rushing player still
 finishes and a curious one gets the hidden layer.
