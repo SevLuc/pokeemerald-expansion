@@ -100,6 +100,7 @@ void DoRentalDraftScreen(void);
 // same way ChoosePartyForBattleFrontier does. Defined in src/rental_preview_screen.c.
 // Call it from a map script followed by `waitstate`.
 void DoRentalTeamPreview(void);
+void DoRentalSetup(void); // themed run-setup screen (format + restricted cap)
 
 // Script special: begin a run (roll the offer) and launch the draft screen. Use it
 // from a map script followed by `waitstate`, like the Factory's rent flow.
